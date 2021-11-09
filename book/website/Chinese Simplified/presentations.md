@@ -1,18 +1,18 @@
-(cm-presentations)=
-# Presenting Posters and Conference Talks
+(cm-present)=
+# 展示海报和会议对话
 
-Much like writing lay summaries and blogs, presentation of your work at conferences that are not within your immediate research environment need to be carefully thought through.
+就像编写布局摘要和博客， 在不在您直接研究范围内的会议上介绍您的工作需要仔细考虑。
 
-The same principles apply here: know your audience, adapt your style and generally make your writing/talk less technical in terms of the language.
+同样的原则也适用于这里：了解你的听众，调整你的风格，通常使你的写作/说话在语言方面技术性较低。
 
-In addition to these points, to increase the accessibility and findability of your presentations it is a good idea to:
-* During the talk, use captions to aid accessibility.
-* Record the talk and add this link to the presentation when shared.
-* Add talk notes to the presentation (this can be done in a PowerPoint file) or have them in a separate file to be shared. You could also write a blog post based on your talk.
-* Use academic social media, such as ORCID, ResearchGate or Academia, to help disseminate your work further.
-* Share the conference slides on social media with a persistent identifier (discussed below).
+除了以上几点以外，为了增加您的发言的可访问性和可查性，一个好主意：
+* 在谈话中，使用标题来帮助无障碍环境。
+* 当分享时记录谈话并将此链接添加到演示文稿。
+* 在演示文稿中添加对话笔记 (这可以在 PowerPoint 文件中完成)，或者将它们放在一个单独的文件中共享。 您也可以根据您的谈话写博客文章。
+* 利用学术社交媒体，如ORCID、研究门或学术界，帮助进一步宣传您的工作。
+* 在社交媒体上分享会议幻灯片，带有持久的标识符(下文讨论)。
 
 (cm-presentations-sharing)=
-## Sharing your Presentations
+## 分享您的发言
 
-There are many ways you can make your poster and slides for your talks publicly available, such as by sharing the respective files in accessible formats (such as pdf, image file, PowerPoint slides, Markdown format). These files can be shared via an online repository (like [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/)), a shared drive with a shareable link (like Dropbox and Google Drive) or the platform put in place by the event where you present your work. It is advisable to share your file under a license of your choice so that others know how to reuse your work (see {ref}`rr-licensing`). Furthermore, you can get a digital object identifier or DOI by uploading your presentation files to a server of your choice (like [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/)). See the chapter on {ref}`DOI<cm-citable-steps-doi>` for details.
+您可以通过多种方式公开您的海报和幻灯片。 例如以可访问格式(例如pdf、图像文件、PowerPoint幻灯片、Markdown 格式)共享相关文件。 这些文件可以通过在线存储库进行共享 (如 [GitHub](https://github.com/) 或 [Bitbucket](https://bitbucket.org/)), 带有可分享链接的共享驱动器 (例如Dropbox 和 Google Drive) 或由您介绍您工作的事件设置的平台。 最好在您选择的许可证下共享您的文件，以便其他人知道如何重新使用您的工作(见 {ref}`rr-license`)。 此外， 您可以通过上传您的演示文稿文件到您选择的服务器来获取数字对象标识符或 DOI (如 [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/))。 详情请参阅关于 {ref}`DOI<cm-citable-steps-doi>` 的章节。

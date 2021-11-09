@@ -5,8 +5,8 @@
 #This is also the "master list" of all allowed keys and values.
 #######################################################################################
 #Book settings
-title: The Turing Way #The title of the book. Will be placed in the left navbar.
-author: The Turing Way Community #The author of the book
+title: طريق التورنج #The title of the book. Will be placed in the left navbar.
+author: مجتمع درب تورينج #The author of the book
 copyright: "2020-2021" #Copyright year to be placed in the footer
 logo: "./figures/logo/logo.jpg" #A path to the book logo
 email: "theturingway@gmail.com"
@@ -23,25 +23,25 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   baseurl: "https://the-turing-way.netlify.com" #The base URL where your book will be hosted. Used for creating image previews and social links. for example: https://mypage.com/mybook/
-  extra_navbar: Visit our <a href="https://github.com/alan-turing-institute/the-turing-way">GitHub Repository</a> <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>
+  extra_navbar: قم بزيارة مستودع <a href="https://github.com/alan-turing-institute/the-turing-way">GitHub</a> <div>هذا الكتاب مدعوم من قبل <a href="https://jupyterbook.org">كتاب المشتري</a></div>
   comments:
     hypothesis: true
 #######################################################################################
 #Launch button settings
 launch_buttons:
-  notebook_interface: "classic" #The interface interactive links will activate ["classic", "jupyterlab"]
+  notebook_interface: "كلاسيكي" #The interface interactive links will activate ["classic", "jupyterlab"]
   binderhub_url: "https://mybinder.org" #The URL of the BinderHub (for example, https://mybinder.org)
   jupyterhub_url: "" #The URL of the JupyterHub (for example, https://datahub.berkeley.edu)
   thebelab: false #Add a thebelab button to pages (requires the repository to run on Binder)
 repository:
   url: https://github.com/alan-turing-institute/the-turing-way
-  path_to_book: "book/website" #A path to your book's folder, relative to the repository root.
-  branch: main
+  path_to_book: "كتاب/موقع" #A path to your book's folder, relative to the repository root.
+  branch: الرئيسية
 #######################################################################################
 #Advanced and power-user settings
 sphinx:
   extra_extensions:  #A list of extra extensions to load by Sphinx.
   config:  #key-value pairs to directly over-ride the Sphinx configuration
-    language: en
+    language: ش
 bibtex_bibfiles:
-  - _bibliography/references.bib
+  - _الببليوغرافيا/المراجع

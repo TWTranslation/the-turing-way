@@ -1,29 +1,29 @@
-(rr-reviewing)=
-# Code Reviewing Process
+(r-review)=
+# عملية مراجعة الرمز
 
-(rr-reviewing-prerequisites)=
-## Prerequisites
+(بآلاف دولارات الولايات المتحدة)
+## الشروط المسبقة
 
-| Prerequisite                         | Importance | Notes                                                                                                                                  |
-| ------------------------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| {ref}`Version Control<rr-vcs>` | Necessary  | Understanding the way that [Github](https://github.com) arranges its branches, forks, and pull requests within repositories is needed. |
+| الشروط المسبقة                         | الأهمية | الحواشي                                                                                                               |
+| -------------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
+| {ref}`التحكم في الإصدار<rr-vcs>` | ضروري   | من الضروري فهم الطريقة التي يقوم بها [Github](https://github.com) بترتيب فروعه، وفروعه، وطلبات السحب داخل المستودعات. |
 
 ```{figure} ../figures/bug-catching.jpg
 ---
-height: 500px
-name: bug-catching
-alt: People catching different insects in different ways - representing bugs in our code or project.
+الطول: 500px
+الاسم: التقاط الأخطاء
+بديل: الأشخاص الذين يلحقون بحشرات مختلفة بطرق مختلفة - يمثلون الأخطاء في تعليماتنا البرمجية أو مشروعنا.
 ---
-Catching bugs. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+التقاط الأخطاء. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-reviewing-summary)=
+(بآلاف دولارات الولايات المتحدة)
 ## Summary
 
-Code review provides an additional way of testing code quality. Instead of relying simply on {ref}`tests<rr-testing>` which the original author puts together themselves, code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
+مراجعة الرمز توفر طريقة إضافية لاختبار جودة الرموز. بدلاً من الاعتماد ببساطة على {ref}`اختبارات<rr-testing>` التي يجمعها المؤلف الأصلي لنفسه، مراجعة التعليمات البرمجية تحصل على مبرمج آخر للنظر في التعليمات البرمجية الجديدة وتقييمها. والهدف من ذلك هو الإشارة إلى مواطن القوة وكذلك إلى مجالات التحسين المحتملة.
 
-Code review is often done in pairs, with each reviewer also having some of their code reviewed by their partner. Doing this can help programmers to see and discuss issues and alternative approaches to tasks, and to learn new tips and tricks. This also means code review practices are particularly well-suited to projects with more than one contributor making changes, where each is working on different parts of the code. Nonetheless, even the smallest scale projects can harness these approaches with some creative project management.
+غالباً ما تتم مراجعة الرموز في أزواج، مع قيام كل جهة استعراض باستعراض بعض رموزها من قبل شريكها. والقيام بذلك يمكن أن يساعد المبرمجين على مشاهدة ومناقشة المسائل والنهج البديلة للمهام وتعلم النصائح والحيل الجديدة. وهذا يعني أيضا أن ممارسات استعراض الرموز ملائمة بشكل خاص للمشاريع التي تدخل فيها أكثر من مساهم واحد تغييرات في هذا المجال، حيث يعمل كل منها على أجزاء مختلفة من البرمجة. ومع ذلك، فحتى أصغر المشاريع حجما يمكن أن تسخر هذه النهج مع بعض الإدارة الإبداعية للمشاريع.
 
-Because of their nature, code reviews act as qualitative - rather than quantitative - tests but are no less valuable for that.
+ونظراً لطبيعتها، فإن عمليات استعراض الشفرة هي بمثابة اختبارات نوعية - وليس كمية- ولكنها لا تقل قيمة عن ذلك.
 
-This section will provide an overview of rationales, best practices, and some possible workflows for code review. Some details refer specifically to GitHub's code review functionality as a powerful and widely-used example of a formal code review system; however, equivalent and very similar systems are available elsewhere (for example, [GitLab](https://about.gitlab.com)), and even informal code review practices can also be very beneficial to a project.
+وسيقدم هذا الفرع لمحة عامة عن الأسس المنطقية وأفضل الممارسات وبعض تدفقات العمل الممكنة من أجل استعراض الرموز. وتشير بعض التفاصيل على وجه التحديد إلى وظيفة استعراض رموز GitHub، باعتبارها مثالاً قوياً وواسع الاستخدام لنظام مراجعة رموز رسمي؛ ومع ذلك، تتوفر أنظمة مكافئة ومتشابهة جدا في أماكن أخرى (على سبيل المثال، [GitLab](https://about.gitlab.com))، وحتى الممارسات غير الرسمية لاستعراض المدونات يمكن أن تكون مفيدة جدا أيضا لأي مشروع.

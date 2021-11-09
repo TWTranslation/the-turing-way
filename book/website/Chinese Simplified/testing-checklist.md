@@ -1,23 +1,23 @@
-# Checklist for Code Testing
+# 代码测试清单
 
-This checklist contains a lot of items. As [mentioned](#Write_tests_any_tests) it is far better to do some of the items than none of them. Do not be discouraged if this list of tasks seems insurmountable.
+这份清单载有许多项目。 As [mentioned](#Write_tests_any_tests) it is far better to do some of the items than none of them. 如果这份任务清单似乎不可逾越，请不要气馁。
 
-## Writing tests
+## 写入测试
 
-- Write a few smoke tests.
-- Write unit tests for all your code units.
-- Write integration tests to check the integration between units.
-- Write a few system tests. Prioritise common and important paths through the program.
-- Write regression tests. Regression tests can exist at any level of testing.
-- If appropriate for your project write acceptance tests.
-- Add runtime tests into your project.
+- 写几次烟雾测试。
+- 为您的所有代码单位写入单元测试。
+- 写入集成测试以检查各单元之间的集成。
+- 写下几个系统测试。 通过程序优先安排共同和重要的路径。
+- 写回归测试。 回归测试可以在任何级别上进行。
+- 如果适合您的项目写入验收测试。
+- 将运行时间测试添加到您的项目。
 
-## Good practice checks
+## 良好做法检查
 
-- Document the tests and how to run them.
-- Write scripts to set up and configure any resources that are needed to run the tests.
-- Pick and make use of a testing framework.
-- Run the tests regularly.
-- Automate the process of running tests. Consider making use of continuous integration (see continuous integration chapter) to do this.
-- Check the code coverage of your tests and try to improve it.
-- Engage in code review with a partner.
+- 记录测试和如何运行。
+- 写脚本来设置和配置运行测试所需的任何资源。
+- 选择并使用测试框架。
+- 定期运行测试。
+- 自动运行测试过程。 考虑利用连续一体化（见连续一体化一章）来实现这一目标。
+- 检查测试的代码覆盖面并尝试改进它。
+- 与伙伴一起参与代码审查。

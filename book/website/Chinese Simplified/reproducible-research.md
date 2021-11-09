@@ -1,22 +1,22 @@
 (rr)=
-# Guide for Reproducible Research
+# 可再生研究指南
 
-***This guide covers topics related to skills, tools and best practices for research reproducibility.***
+***本指南涵盖与研究可再生性的技能、工具和最佳做法有关的专题。***
 
-_The Turing Way_ defines reproducibility in data research as data and code being available to fully rerun the analysis.
+_诱惑路径_ 定义了数据研究中的可再生产性，即可完全重新运行分析的数据和代码。
 
-There are several definitions of reproducibility in use, and we discuss these in more detail in the {ref}`rr-overview-definitions` section of this chapter. While it is absolutely fine for us each to use different words, it will be useful for you to know how _The Turing Way_ defines *reproducibility* to avoid misunderstandings when reading the rest of the handbook.
+使用中的可再生产定义有几种，我们在本章的 {ref}`rr-overview-` 部分中更详细地讨论了这些定义。 While it is absolutely fine for us each to use different words, it will be useful for you to know how _The Turing Way_ defines *reproducibility* to avoid misunderstandings when reading the rest of the handbook.
 
 
 ```{figure} ../figures/reproducibility.jpg
 ---
-height: 500px
-name: reproducible
-alt: A person showing another person what steps to take to make your data research reproducible.
+高度：500px
+名称：可复制
+Alt：一个人显示另一个人要采取什么步骤使您的数据研究可以复制。
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-_The Turing Way_ started by defining reproducibility in the context of this handbook, laying out its importance for science and scientists, and providing an overview of the common concepts, tools and resources. The first few chapters were on {ref}`version control<rr-vcs>`, {ref}`testing<rr-testing>`, and {ref}`reproducible computational environments<rr-renv>`. Since the start of this project in 2019, many additional chapters have been written, edited, reviewed, read and promoted by over 100 contributors.
+_从这本手册的上下文中定义可再生产的方式_ 开始。 • 说明其对科学和科学家的重要性，并概述共同概念、工具和资源。 前几章是关于 {ref}`版本控制<rr-vcs>`, {ref}`测试<rr-testing>`, 和 {ref}`可复现的计算环境<rr-renv>` 自该项目于2019年开始以来，100多个捐助方撰写、编辑、审查、阅读和宣传了许多其他章节。
 
-We welcome your contributions to improve these chapters, add other important concepts in reproducibility, and empower researchers to work reproducibly from the start. Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+我们欢迎你们为改进这些章节作出的贡献，增加其他重要的可再生性概念，并使研究人员能够从一开始就进行可再生的工作。 看看我们的 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 以便参与。

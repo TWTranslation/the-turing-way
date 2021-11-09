@@ -1,88 +1,88 @@
 (cm-comms-overview-resources)=
-# Resources and Recommendations
+# Recursos y recomendaciones
 
 (cm-comms-overview-resources-accessibility)=
-## Accessibility
+## Accesibilidad
 
-Read more in this chapter: {ref}`cm-comms-overview-accessibly`.
+Lee más en este capítulo: {ref}`cm-comms-overview-accessibly`.
 
-* [Ability Net](https://abilitynet.org.uk/) for guides to making your documents more accessible.
-* [Contrast calculator](https://contrastchecker.com/) is a good website to freely check if you meet the Web Content Accessibility Guidelines (WCAG) ratings.
-* [Outlier conf](https://www.outlierconf.com/) is a good example of accessibility in conference participation fees and data experience (vs visualisation).
+* [Capacidad de la Red](https://abilitynet.org.uk/) para guías para hacer sus documentos más accesibles.
+* [Contrast calculator](https://contrastchecker.com/) es un buen sitio web para comprobar libremente si cumple con las calificaciones de Accesibilidad al Contenido Web (WCAG).
+* [Outlier conf](https://www.outlierconf.com/) es un buen ejemplo de accesibilidad en las cuotas de participación en conferencias y experiencia de datos (vs visualización).
 
 (cm-comms-overview-resources-blogs)=
-## Blogs
+## Bloques
 
-Read more in this chapter: {ref}`cm-blogs`.
+Lee más en este capítulo: {ref}`cm-blogs`.
 
-* [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
-* [Start a Wordpress blog](https://www.podcastinsights.com/start-a-wordpress-blog/)
-* [Comparing Google sites and Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
+* [20 métricas que cada blogger necesita para medir el éxito](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* [Iniciar un blog de Wordpress](https://www.podcastinsights.com/start-a-wordpress-blog/)
+* [Comparando sitios de Google y Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
 
-### Some of our favourite blogs
-* Dr Veronika Cheplygina's [How I fail series](https://veronikach.com/failure/)
-* [Software Sustainability Institute Blog](https://www.software.ac.uk/blog)
-* [Open Working](https://openworking.wordpress.com/) by 4TU.ResearchData & TU Delft Library and Data Stewards. Uses WordPress.
-* [Metadocencia](https://metadocencia.netlify.app/post/) - This is in Spanish but you can also read it in English [here](https://metadocencia.netlify.app/en/post/).
+### Algunos de nuestros blogs favoritos
+* Veronika Cheplygina [Cómo fallo la serie](https://veronikach.com/failure/)
+* [Blog del Instituto de Sostenibilidad de Software](https://www.software.ac.uk/blog)
+* [Open Working](https://openworking.wordpress.com/) por 4TU.ResearchData & TU Delft Library and Data Stewards. Usa WordPress.
+* [Metadocencia](https://metadocencia.netlify.app/post/) - Esto es en español pero también puedes leerlo en inglés [aquí](https://metadocencia.netlify.app/en/post/).
 
 (cm-comms-overview-resources-lay)=
-## Lay summaries
+## Mostrar resúmenes
 
-Read more in this chapter: {ref}`cm-lay-summaries`.
+Lee más en este capítulo: {ref}`cm-lay-summaries`.
 
-* See  [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/) for a good example of how an abstract can be changed into a lay summary.
+* Vea  [Perfectando ese resumen](https://bitesizebio.com/10871/perfecting-that-lay-summary/) para un buen ejemplo de cómo un abstracto puede cambiarse a un resumen de lado.
 
-**Readability tests:**
+**Pruebas de lectura:**
 * [Hemingway app](http://www.hemingwayapp.com/)
-* [The forst word readability test](http://thefirstword.co.uk/readabilitytest/)
+* [La prueba de legibilidad de palabras forst](http://thefirstword.co.uk/readabilitytest/)
 
 
 (cm-comms-overview-resources-podcasts)=
 ## Podcasts
 
-Read more in this chapter: {ref}`cm-podcasts`.
+Lee más en este capítulo: {ref}`cm-podcasts`.
 
-* [How to start a podcast blog](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
+* [Cómo iniciar un blog de podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
 
-### Some of our favourite podcasts
+### Algunos de nuestros podcasts favoritos
 * [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
 * [Open Science talk](https://soundcloud.com/opensciencetalk).
-* [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast).
-* [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
-* [Open science stories](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
+* [El Podcast Turing](https://www.turing.ac.uk/news/turing-podcast).
+* [Podcast de ReproducibiliTea](https://soundcloud.com/reproducibilitea).
+* [Abrir historias de ciencia](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
 
 (cm-comms-overview-resources-presentations)=
-## Presentations
+## Presentaciones
 
-Read more in this chapter: {ref}`cm-presentations`.
+Lee más en este capítulo: {ref}`presentaciones cm-`.
 
-Here are some websites that offer free resources making different aspects of presenations:
+Aquí están algunos sitios web que ofrecen recursos gratuitos haciendo diferentes aspectos de las preenaciones:
 
-* [The Noun Project](https://thenounproject.com) for icons and photographs.
-* [Unsplash](https://unsplash.com) for photographs.
-* [Pexels](https://www.pexels.com) for photographs.
-* [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations.
-* [Flaticon](https://www.flaticon.com/free-icons/english) for icons.
-* [Canva](https://www.canva.com) for icons.
+* [El Proyecto Nun](https://thenounproject.com) para iconos y fotografías.
+* [Desenchufa](https://unsplash.com) para fotografías.
+* [Pexels](https://www.pexels.com) para fotografías.
+* [Freepik](https://www.freepik.com/free-photos-vectors/english) para iconos e ilustraciones.
+* [Flaticon](https://www.flaticon.com/free-icons/english) para iconos.
+* [Canva](https://www.canva.com) para iconos.
 
-For recording talks:
-* [OBS](https://obsproject.com). See [this guide for using OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute.
-* [Amara](https://amara.org) or [Otter](https://otter.ai/) can be used to generate your subtitles. Video conferencing platforms such as Zoom or Google meet also have captions.
+Para grabar habla:
+* [OBS](https://obsproject.com). Vea [esta guía para usar OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) por el Instituto de Sustentabilidad del Software.
+* [Amara](https://amara.org) o [Otter](https://otter.ai/) pueden utilizarse para generar sus subtítulos. Las plataformas de videoconferencia como el Zoom, o Google meet también tienen leyendas.
 
-* Many of the technical aspects and tools for giving remote talks (or classes) are covered in [The Carpentries tips for teaching online](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) and the webinar ["Teaching Online on Short Notice"](https://rstd.io/teach-online-2020) by RStudio, a source for several points of this section.
+* Muchos de los aspectos técnicos y herramientas para dar charlas (o clases) remotas están cubiertos en [Los consejos de Carpentries para enseñar en línea](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) y el seminario web ["Teaching Online on Short Notice"](https://rstd.io/teach-online-2020) de RStudio, una fuente para varios puntos de esta sección.
 
-* The Outlier conference has some excellent tips on [speech development](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [structure](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/), and [technical setup](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
+* La conferencia de Outlier tiene algunos excelentes consejos sobre [desarrollo de voz](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [estructura](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/)y [configuración técnica](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
 
-* Author Nancy Duarte offers some insights in her books, articles and [talks](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) on how to structure presentations that involve a call to action.
+* La autora Nancy Duarte ofrece algunas ideas en sus libros, artículos y [habla](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) sobre cómo estructurar presentaciones que involucran una llamada a la acción.
 
 (cm-comms-overview-resources-social)=
-## Social Media
+## Redes Sociales
 
-Read more in this chapter: {ref}`cm-social-media`.
+Lee más en este capítulo: {ref}`cm-social-media`.
 
 * [Tweetdeck](https://tweetdeck.twitter.com/)
-* [Buffer](https://buffer.com/)
-* This is a good [guide to getting set up on Twitter](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
-* [Ten simple rules to getting started on Twitter as a scientist](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
-* [Ten simple rules of live-tweeting at scientific conferences](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
-* [How to use Twitter to further your research career](https://www.nature.com/articles/d41586-019-00535-w)
+* [Búfer](https://buffer.com/)
+* Esta es una buena guía [para configurarse en Twitter](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
+* [Diez sencillas reglas para comenzar en Twitter como científico](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
+* [Diez reglas sencillas de tuiteo en directo en las conferencias científicas](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
+* [Cómo usar Twitter para promover tu carrera de investigación](https://www.nature.com/articles/d41586-019-00535-w)

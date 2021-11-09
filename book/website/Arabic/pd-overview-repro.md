@@ -1,29 +1,29 @@
-(pd-overview-repro)=
-# Communication and Collaboration
+(بآلاف دولارات الولايات المتحدة)
+# الاتصال والتعاون
 
-Good communication and collaboration practices are complementary to research reproducibility, and often it is hard to separate these concepts from each other. In _The Turing Way_, we consider these essential for reproducible research and provide separate guides for {ref}`communication<cm>` and {ref}`collaboration<cl>`.
+كما أن الممارسات الجيدة في مجالي الاتصال والتعاون تكمل البحوث القابلية للتنبؤ، وكثيرا ما يصعب فصل هذه المفاهيم عن بعضها البعض. في _طريق اللحم_، نحن نعتبر هذه ضرورية للبحث القابل للاستنساخ ونوفر أدلة منفصلة لـ {ref}`الاتصال<cm>` و {ref}`التعاون<cl>`.
 
-In this page, we highlight some of the most important recommendations for collaboration and communication to ensure that you, and everyone else in your project, understand what the project is about, who the stakeholders are and how they can participate. You can visit specific chapters to gain an in-depth understanding and selection of practices that meet the specific requirements in your project.
+وفي هذه الصفحة، نسلط الضوء على بعض أهم التوصيات المتعلقة بالتعاون والاتصال لضمان أنكم، وكل شخص آخر في مشروعك، فهم ما يتعلق بالمشروع، ومن هم أصحاب المصلحة وكيف يمكنهم المشاركة. يمكنك زيارة فصول محددة للحصول على فهم متعمق للممارسات التي تفي بالمتطلبات المحددة في مشروعك واختيار هذه الممارسات.
 
-**Documenting project plans and processes for transparency**:
+**توثيق خطط المشروع وعملياته للشفافية**:
 
-Document all proposed plans for the project with information on available resources and recommended practices to ensure everyone is on the same page (literally!). Communicate the work culture that you want to promote and policies that ensures the safety and security of both your data and people.
+توثيق جميع الخطط المقترحة للمشروع مع معلومات عن الموارد المتاحة والممارسات الموصى بها لضمان أن يكون الجميع على نفس الصفحة (حرفيا!). التواصل مع ثقافة العمل التي تريد الترويج لها والسياسات التي تضمن سلامة وأمن كل من بياناتك والناس.
 
-Documentation should be shared via centralised, findable and accessible platforms. It is particularly important to share the vision, mission and milestones clearly. Provide sufficient information for what the expected outcomes and deliverables are.
+وينبغي تقاسم الوثائق عن طريق منصات مركزية يمكن العثور عليها ويسهل الوصول إليها. ومن المهم بشكل خاص أن نتشاطر الرؤية والبعثة والمعالم بشكل واضح. تقديم معلومات كافية عن النتائج المتوقعة والنواتج القابلة للتحقيق.
 
-Provide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature. Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.
+توفير الأهداف الشاملة والقصيرة الأجل ووصف النتائج المتوقعة لمساعدة المساهمين على الابتعاد عن التركيز على فكرة واحدة عن السمة. وصف إمكانية التوسع في السمات المحددة سلفا والمتفق عليها بشأن الطرق في المراحل التي تتجاوز مرحلة التنفيذ الأولي.
 
-**Project's "Who-is-Who"**:
+**المشروع "Who-is-Who"**:
 
-Create a directory to highlight the different stakeholders with their roles in the project, keys skills, interests and contact information (when possible). Describe what opportunities for collaboration different members will have. When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.
+إنشاء دليل لإبراز مختلف أصحاب المصلحة بأدوارهم في المشروع، والمفاتيح والمهارات والاهتمامات ومعلومات الاتصال (كلما أمكن). وصف فرص التعاون التي ستحظى بها مختلف الأعضاء. وعند الإمكان، كما هو الحال في مشروع مفتوح المصدر، قدم هذه التفاصيل لمن هم خارج المجموعة الحالية. خاصة عندما ترغب في تشجيع الناس خارج المشروع على المشاركة.
 
-Provide resources on ways of working to ensure fair participation of stakeholders who collaborate on short- and long-term milestones within the project. It reduces or addresses concerns about the project's progress towards meeting goals and prevent potential fallout between project stakeholders.
+• توفير الموارد بشأن سبل العمل لضمان المشاركة العادلة لأصحاب المصلحة الذين يتعاونون بشأن مراحل قصيرة وطويلة الأجل في إطار المشروع. وهو يقلل أو يعالج الشواغل المتعلقة بالتقدم الذي يحرزه المشروع نحو تحقيق الأهداف ويمنع التداعيات المحتملة بين أصحاب المصلحة في المشروع.
 
-**Participation and contribution process**:
+**عملية المشاركة والمساهمة**:
 
-Considering the variety of different backgrounds and skills your members bring, describe how they can participate and start contributing. Provide clear opportunities for contributions, review, management, mentoring and support. Provide an overview of how different contributions or resources are connected and how new contributions will fit into existing materials. Provide a decision-making framework to facilitate discussions and reaching a shared conclusion. In the context of software, coding projects are as much about communication as they are about coding (if not more). Allow informed discussions when a particular project design has reached the end or when it is useful to update it for efficiency and sustainability.
+النظر في تنوع الخلفيات والمهارات المختلفة التي يجلبها أعضاؤك، وصف كيف يمكنهم المشاركة والبدء في المساهمة. • توفير فرص واضحة للمساهمات والاستعراض والإدارة والتوجيه والدعم. تقديم لمحة عامة عن كيفية الربط بين المساهمات أو الموارد المختلفة وعن كيفية تناسب المساهمات الجديدة مع المواد الموجودة. توفير إطار لصنع القرار لتيسير المناقشات والتوصل إلى نتيجة مشتركة. في سياق البرمجيات، مشاريع البرمجة تدور حول الاتصالات بقدر ما تدور حول البرمجة (إن لم يكن أكثر). السماح بإجراء مناقشات مستنيرة عندما يصل تصميم مشروع معين إلى نهايته أو عندما يكون من المفيد تحديثه لتحقيق الكفاءة والاستدامة.
 
-Describe how your research objects are available or will be published and how different stakeholders will be recognised. It helps everyone feel appreciated and acknowledged for their contribution to the overall vision.
+صف كيف أن عناصر بحثك متوفرة أو سيتم نشرها وكيف سيتم التعرف على مختلف أصحاب المصلحة. وهو يساعد الجميع على الشعور بالتقدير والتقدير لإسهامهم في الرؤية الشاملة.
 
 
 <!--
@@ -42,46 +42,46 @@ We recommend reading the following chapters to understand effective communicatio
 - {ref}`<>`
 -->
 
-(pd-overview-repro-mistakes)=
-## Bonus Section: Learning from Mistakes
+(بآلاف دولارات الولايات المتحدة)
+## قسم العلاوات: التعلم من الأخطاء
 
-> “Building takes many, many mistakes.” ― Becky Chambers, [The Long Way to a Small, Angry Planet](https://www.goodreads.com/work/quotes/42270825)
+> “إن البناء يرتكب العديد من الأخطاء”. بعد غرف بيكي، [الطريق الطويل إلى كوكب صغير غاضب](https://www.goodreads.com/work/quotes/42270825)
 
-Learning about past design mistakes can give us insight into what we can do differently in the future. We asked a group of researchers to share what they consider their project design regrets, which we have summarised here:
+التعلم عن أخطاء التصميم الماضية يمكن أن يعطينا نظرة ثاقبة لما يمكننا القيام به بطريقة مختلفة في المستقبل. طلبنا من مجموعة من الباحثين أن يشاركوا ما يعتبرونه ندم لتصميم مشروعهم، والذي لخصناه هنا:
 
-- Not advocating for clearer goals and success criteria from the beginning.
-- Not communicating the project vision clearly/often enough to the other team members.
-- Not ensuring that all stakeholders were fully aware of the nature of the project.
-- Not understanding that project design is about people first. Designs motivate stakeholders and allow collaboration and inclusion.
-- I guess I wrote these as actions I wish I had done better - Not setting short- and long-term milestones, communicating and enforcing norms for collaborator engagement, delegating work and project management tasks.
-- Not having documentation besides final reports. When being asked about the code or dataset (raw and process), step by step process from preparing data to getting the results, lack of documented guidance in one place made it hard to trace the project with all team members (classic problem).
-- Not properly taking into account the degree to which requirements will change throughout a project - which happens a lot in academia - and the effect this has on designs that then also need to change.
-- Trying to plan too much at the beginning and never getting started.
-- Feeling like I am always taking an ad hoc approach to planning a project and then feeling like I am spending too much time on the organisation side of the project because I don’t have a set workflow to handle project planning and design. Also, not knowing how does project planning fit into project design.
-- Using a very messy excel to store/process data, the shame!
-- Over-engineering a design for features that didn’t end up being implemented (in life before academia!)
-- Not implementing Git flow from the start, and not teaching collaborators how to use Git flow.
-- Not developing tests until after a significant amount of code was written.
-- Not doing code reviews.
-- Not defining use scenarios for the software from the beginning, meaning we didn’t pay enough attention to data input and output.
-- Agonising too long before switching to objectively better design (particularly translating from a largely functional codebase to more object-oriented).
-- Going with options that team members are ‘comfortable’ with (for example, using outdated languages or platform-dependent compilers), rather than teaching team members new skills. Makes life more difficult in the long run.
-- Defining governance at different stages of the project or potential scenario planning for how governance might change as the project scales up/down/gains new users and so on.
-- Not thinking about community from the start, starting with a Code of Conduct, thinking about a Contributor License Agreement (intellectual property), what processes will be used and how they will work, how they will impact future contributors and the overall project.
+- 2 - عدم الدعوة منذ البداية إلى وضع أهداف أكثر وضوحا ومعايير للنجاح.
+- عدم إبلاغ أعضاء الفريق الآخرين برؤية المشروع بوضوح/في كثير من الأحيان بما فيه الكفاية.
+- 2 - عدم كفالة أن يكون جميع أصحاب المصلحة على وعي تام بطبيعة المشروع.
+- لا تفهم أن تصميم المشروع يدور حول الناس أولا. والتصميمات تحفز أصحاب المصلحة وتسمح بالتعاون والشمول.
+- أعتقد أنني كتبت هذه الأعمال بوصفها إجراءات أتمنى لو أنني كنت أفضل - عدم تحديد معالم قصيرة وطويلة الأجل، • الاتصال بمعايير إشراك المتعاونين وتفويض المهام المتعلقة بإدارة المشاريع وإنفاذها.
+- عدم وجود وثائق إلى جانب التقارير النهائية. عند السؤال عن الرمز أو مجموعة البيانات (الخام والعملية)، عملية خطوة بخطوة من إعداد البيانات إلى الحصول على النتائج، وعدم وجود توجيهات موثقة في مكان ما جعل من الصعب تعقب المشروع مع جميع أعضاء الفريق (المشكلة الكلاسيكية).
+- • عدم المراعاة السليمة لمدى تغير المتطلبات في كل مشروع - وهو ما يحدث كثيراً في الأوساط الأكاديمية - وتأثير ذلك على التصاميم التي تحتاج أيضاً إلى التغيير.
+- محاولة التخطيط أكثر من اللازم في البداية ولم تبدأ أبدا.
+- أشعر بأنني دائما أتبع نهجا مخصصا لتخطيط مشروع ما ثم أشعر بأنني أقضي وقتا طويلا على الجانب التنظيمي للمشروع لأنني ليس لدي مجموعة من العمل للتعامل مع تخطيط المشروع وتصميمه. كما لا تعرف كيف يتوافق تخطيط المشاريع مع تصميم المشروع.
+- استخدام ميزة فوضوية جدا لتخزين/معالجة البيانات، المخيب!
+- الهندسة المفرطة لتصميم الميزات التي لم يتم تنفيذها في نهاية المطاف (في الحياة قبل الأكاديمية!)
+- عدم تنفيذ Git ينطلق من البداية، وليس تعليم المتعاونين كيفية استخدام تدفق Git
+- عدم تطوير الاختبارات حتى بعد كتابة كمية كبيرة من التعليمات البرمجية.
+- عدم إجراء مراجعات الرموز.
+- لم يتم تحديد سيناريوهات الاستخدام للبرمجيات منذ البداية، بمعنى أننا لم نول اهتماما كافيا لمدخلات البيانات ومخرجاتها.
+- فترة طويلة جداً قبل التحول إلى تصميم أفضل موضوعياً (لا سيما الترجمة من شفرة تعمل إلى حد كبير إلى عنصر أكثر توجهاً).
+- الوصول إلى الخيارات التي يكون أعضاء الفريق "مريحا" بها (على سبيل المثال، استخدام اللغات القديمة أو المترجمين المعتمدين على المنصة)، بدلاً من تعليم أعضاء الفريق مهارات جديدة. وتجعل الحياة أكثر صعوبة في الأجل الطويل.
+- • تحديد أسلوب الإدارة في مختلف مراحل المشروع أو التخطيط السيناريوي المحتمل للكيفية التي يمكن أن تتغير بها الإدارة مع توسيع نطاق المشروع أو تخفيضه/زيادة عدد المستخدمين الجدد وما إلى ذلك.
+- عدم التفكير في المجتمع منذ البداية، بدءاً بمدونة سلوك، التفكير في اتفاقية ترخيص المساهم (الملكية الفكرية)، ما هي العمليات التي ستستخدم وكيف ستعمل وكيف ستؤثر على المساهمين في المستقبل والمشروع ككل.
 
-### Preparing for Change
+### الإعداد للتغيير
 
 ```{note}
-**I work alone, do I need to think about project design?**
+**أنا أعمل بمفردي، هل أحتاج إلى التفكير في تصميم المشروع؟**
 
-The short answer is 'yes'.
-The project design will allow you to manage your work well for yourself (see the section: {ref}`Getting Started<pd-overview-planning-started>`).
+الإجابة القصيرة هي 'نعم'.
+سيسمح لك تصميم المشروع بإدارة عملك بشكل جيد لنفسك (انظر القسم: {ref}`بدء<pd-overview-planning-started>`).
 
-A little work and time investment early on in project design saves a lot of time later when any circumstances that demand change.
+وقليل من العمل والوقت الاستثمار في وقت مبكر في تصميم المشروع يوفر الكثير من الوقت في وقت لاحق عندما تتطلب أي ظروف تغيير.
 ```
 
-It is really hard for a project to move from practices that were designed for one person to practices that work for a team. Therefore, it is essential to document and use practices that will enable collaboration if and when you have to involve others in your project. Considering good team practices even for a project run by an individual makes it easy for them to effectively accomplish their goals. For example, you can define goals in your project and identify tasks by asking questions like: how can my work be split, how will it be reviewed, how will decisions be made, and so on. Learn how [agile methodologies](http://www.agilenutshell.com/) help adapt to changes.
+ومن الصعب حقا على أي مشروع أن ينتقل من ممارسات صُممت لشخص واحد إلى ممارسات تعمل من أجل فريق. لذلك، من الضروري توثيق واستخدام الممارسات التي ستمكن من التعاون إذا ومتى تعين عليك إشراك الآخرين في مشروعك. وبالنظر إلى الممارسات الجيدة للأفرقة حتى بالنسبة لمشروع يديره فرد ما يسهل عليهم تحقيق أهدافهم بفعالية. على سبيل المثال، يمكنك تحديد الأهداف في مشروعك وتحديد المهام عن طريق طرح أسئلة مثل: كيف يمكن تقسيم عملي، كيف سيتم استعراضها، وكيف سيتم اتخاذ القرارات، وما إلى ذلك. تعلم كيف [منهجيات قديمة](http://www.agilenutshell.com/) تساعد على التكيف مع التغييرات.
 
-Project design would not ensure that everything will always go as planned or there will be no unexpected challenges. However, it helps prepare in advance for risk management and adapt to changes better. Also, see [The cost of change curve](http://www.agilemodeling.com/essays/costOfChange.htm) in the context of Software Engineering.
+وتصميم المشروع لن يكفل استمرار كل شيء كما هو مخطط له أو لن تكون هناك تحديات غير متوقعة. غير أنه يساعد على الاستعداد المسبق لإدارة المخاطر والتكيف مع التغيرات بشكل أفضل. انظر أيضا [تكلفة منحنى التغيير](http://www.agilemodeling.com/essays/costOfChange.htm) في سياق هندسة البرمجيات.
 
-_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). The workshop was delivered by Malvika Sharan, Emma Karoune and Batool Almarzouq on 31 March 2021. Zenodo. DOI: [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)._
+_يلخص هذا الفصل ملاحظات المشاركين من حلقة عمل قصيرة تدعى "الممارسات الجيدة لتصميم مشاريع تطوير البرمجيات" في [حلقة العمل التعاونية 2021](https://www.software.ac.uk/cw21)  التي استضافها [معهد استدامة البرمجيات](https://www.software.ac.uk). وقدم حلقة العمل مالفيكا شاران وعما كارون وباتول المرزوق في 31 آذار/مارس 2021. Zenodo. DOI: [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)._

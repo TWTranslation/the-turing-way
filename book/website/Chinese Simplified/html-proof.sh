@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-set -e # halt script on error
+设置-e # 错误时停止脚本
 
-make site 
+制作站点 
 bundle exec htmlproofer --allow-hash-href \
 --assume-extension ./_site \
---url-ignore "/\/apple-touch*.*/,/\/images/logo/favicon.ico/,/#*/" \
+--url-忽略 "/\/apple-touch*.*/,/\/images/logo/favigicon.ico/,/#*/"
 --disable-external \
---only_4xx 
+--only 4xx 
 

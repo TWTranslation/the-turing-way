@@ -1,92 +1,92 @@
-(cl-remote-collab-tools)=
-# Tools for Remote Collaboration
+(أدوات كلية-تجميعية)=
+# أدوات التعاون عن بعد
 
-Many free and commercial tools exist to improve people's experience of planning, organising, and hosting online and hybrid events. To effectively run an event, it is important to choose tools that can maximise the overall success and reduce the risk of things going wrong during the event. We should also consider how user-friendly they are and how they impact the engagement of different stakeholders such as organisers, helpers and attendees.
+وتوجد أدوات تجارية مجانية كثيرة لتحسين خبرة الناس في تخطيط وتنظيم واستضافة الأحداث عبر الإنترنت والأنشطة الهجينة. لتشغيل الحدث بفعالية، ومن المهم اختيار الأدوات التي يمكن أن تزيد إلى أقصى حد من النجاح الإجمالي وتقلل من خطر حدوث أخطاء أثناء الحدث. وينبغي لنا أيضا أن ننظر في مدى سهولة استخدامها وكيف تؤثر على مشاركة مختلف أصحاب المصلحة مثل المنظمين والمساعدين والحضرين.
 
-Here is a list of some popular tools for facilitating different aspects of remote collaboration discussed in the earlier subchapter. Please note that we are not a listing conference or webinar-related tools, but only providing those tools that allow an interactive (hence, collaborative) format for online events.
+وفيما يلي قائمة ببعض الأدوات الشعبية لتيسير مختلف جوانب التعاون عن بعد التي نوقشت في الفصل الفرعي السابق. يرجى ملاحظة أننا لسنا من الأدوات المتعلقة بمؤتمر القائمة أو بالإنترنت، ولكن فقط توفير تلك الأدوات التي تتيح شكلاً تفاعلياً (بالتالي، تعاوني) للأحداث على الإنترنت.
 
-## Task management tools
+## أدوات إدارة المهام
 
-Every event has several stages of planning and organising that involve numerous tasks as discussed in earlier subchapters. Therefore, it is important to track those tasks in an online event management tool, where the responsible individuals can see their to-dos and deadlines, and collaborate with others.
+ولكل حدث عدة مراحل للتخطيط والتنظيم تنطوي على مهام عديدة على النحو الذي نوقش في فصول فرعية سابقة. ولذلك، من المهم تتبع تلك المهام في أداة لإدارة الأحداث على شبكة الإنترنت. حيث يمكن للأفراد المسؤولين أن يروا مواعيد عملهم ومواعيدهم، وأن يتعاونوا مع الآخرين.
 
-- [Trello](https://trello.com/): online kanban like tools to assign tasks and checklists to individual users and monitor their progress.
-- [Asana](https://asana.com/): online kanban tool that can be used for creating different teams create tasks, set deadlines and send reminders.
-- [Jira](https://www.atlassian.com/software/jira): useful for large event teams to help them track tasks before, during, and after the event.
-- [GitHub project board](https://github.com/features/project-management/): every repository on GitHub can have a project board where tasks can be issues and Pull Requests that can be coordinated, tracked, and updated transparently by all contributors.
-- [notion.so](https://www.notion.so/): This is a high-level project management tool that allows storing reports, creating documents and integrate different tools.
+- [Trello](https://trello.com/): الكانبان على الإنترنت مثل الأدوات لتعيين المهام وقوائم الفحص للمستخدمين الأفراد ومراقبة تقدمهم.
+- [Asana](https://asana.com/): أداة كانبان على الإنترنت التي يمكن استخدامها لإنشاء فرق مختلفة لإنشاء مهام، وتحديد المواعيد النهائية وإرسال تذكيرات.
+- [جيرا](https://www.atlassian.com/software/jira): مفيدة لفرق الأحداث الكبيرة لمساعدتها على تتبع المهام قبل الحدث وأثناءه وبعده.
+- [لوحة مشروع GitHub](https://github.com/features/project-management/): كل مستودع على GitHub يمكن أن يكون لديه لوحة مشروع حيث يمكن أن تكون المهام مشكلات و طلبات السحب التي يمكن تنسيقها، تعقب جميع المساهمين وتحديثها بشفافية.
+- [المفهوم.so](https://www.notion.so/): هذه أداة رفيعة المستوى لإدارة المشروع تسمح بتخزين التقارير وإنشاء الوثائق ودمج أدوات مختلفة.
 
-## Finding a common availability
+## العثور على توافر مشترك
 
-Meeting scheduling platforms help find a common availability without having to check multiple times with all the intended participant's.
+ويساعد جدولة المنصات على العثور على تواجد مشترك دون الحاجة إلى التحقق عدة مرات مع جميع المشاركين المستهدفين.
 
-Some commonly used options are [Doodle](https://doodle.com/poll/) and [when2meet.com](https://www.when2meet.com/). See more options [here](https://zapier.com/blog/best-meeting-scheduler-apps/).
+بعض الخيارات الشائعة الاستخدام هي [Doodle](https://doodle.com/poll/) و [when2meet.com](https://www.when2meet.com/). شاهد المزيد من الخيارات [هنا](https://zapier.com/blog/best-meeting-scheduler-apps/).
 
-It is particularly crucial to use meeting links like [arewemeetingyet](https://arewemeetingyet.com/#form) or [create/send calendar invitations](https://www.calendar.com/blog/how-to-send-a-google-calendar-invite/) to communicate these schedules to invitees from different countries and time zones.
+من المهم بشكل خاص استخدام روابط الاجتماعات مثل [arewemetingyet](https://arewemeetingyet.com/#form) أو [إنشاء/إرسال دعوات تقويمية](https://www.calendar.com/blog/how-to-send-a-google-calendar-invite/) لإيصال هذه الجداول الزمنية إلى المدعوين من مختلف البلدان والمناطق الزمنية.
 
-## Creating shared notes
+## إنشاء ملاحظات مشتركة
 
-A document that can be edited collaboratively in real-time allows all attendees to participate equitably during the online call. This is especially important for creating an opportunity for those who can not (or do not feel comfortable to) actively speak up in group meetings.
+وتسمح وثيقة يمكن تحريرها بشكل تعاوني في الوقت الحقيقي لجميع الحاضرين بالمشاركة بشكل منصف أثناء المكالمة الإلكترونية. ويكتسي هذا الأمر أهمية خاصة بالنسبة لإتاحة الفرصة لأولئك الذين لا يستطيعون (أو لا يشعرون بالارتياح لهم) أن يتكلموا بنشاط في اجتماعات المجموعات.
 
-- [Google doc](https://en.wikipedia.org/wiki/Google_Docs): Google Docs is a word processor included as part of a free, web-based Google Docs suite offered by Google within its Google Workspace service.
-- [Etherpad](https://etherpad.org/): Etherpad is an Open Source customisable online editor.
-- [HackMD](https://hackmd.io/): HackMD is an online collaborative document that can be written in [Markdown](https://www.markdownguide.org/) format.
-- [HedgeDoc (previously CodiMD)](https://demo.hedgedoc.org/): HedgeDoc is the community-driven fork of CodiMD, which is the open source version of HackMD.
+- [Google doc](https://en.wikipedia.org/wiki/Google_Docs): Google Docs هو معالج كلمات مضمن كجزء من مجاني، مجموعة Google Docs القائمة على الويب والمقدمة من جوجل ضمن خدمة Google مساحة العمل.
+- [Etherpad](https://etherpad.org/): Etherpad هو محرر مفتوح المصدر قابل للتخصيص عبر الإنترنت.
+- [HackMD](https://hackmd.io/): HackMD هو مستند تعاوني عبر الإنترنت يمكن كتابته في [تنسيق Markdown](https://www.markdownguide.org/).
+- [HedgeDoc (سابقا CodiMD)](https://demo.hedgedoc.org/): HedgeDoc هو الشوك المجتمعي من CodiMD، والذي هو النسخة المفتوحة المصدر من HackMD.
 
-## Maintaining shared notes
+## الحفاظ على الملاحظات المشتركة
 
-It is important to create shared notes, but also to save them to share with others and to make them available to refer back to later.
+من المهم إنشاء ملاحظات مشتركة، ولكن أيضا لإنقاذهم للمشاركة مع الآخرين وجعلهم متاحين للإشارة إليهم في وقت لاحق.
 
-- [Google Drive](https://en.wikipedia.org/wiki/Google_Drive): Google Drive is a file storage and synchronization service developed by Google.
-- [DropBox](https://www.dropbox.com/): Dropbox is a file hosting service operated by the American company Dropbox.
-- [owncloud](https://owncloud.com/): ownCloud is a suite of client-server software for creating and using file hosting services. ownCloud functionally has similarities to the widely used Dropbox.
-- [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/free-trial/) and [BitBucket](https://bitbucket.org/product): Platforms for hosting, sharing and collaborating on documents and software with a version control system (see [this post for detail/difference](https://stackshare.io/stackups/bitbucket-vs-github-vs-gitlab)).
+- [Google Drive](https://en.wikipedia.org/wiki/Google_Drive): Google Drive هي خدمة تخزين الملفات والمزامنة التي طورتها جوجل.
+- [DropBox](https://www.dropbox.com/): Dropbox هي خدمة استضافة ملفات تقوم بتشغيلها شركة Dropbox.
+- [owncloud](https://owncloud.com/): ownCloud هي مجموعة من برامج الخادم العملاء لإنشاء واستخدام خدمات استضافة الملفات. السحابة الخاصة بها تشبه وظيفة دروب بوكس المستخدم على نطاق واسع.
+- [GitHub](https://github.com/)، [GitLab](https://about.gitlab.com/free-trial/) و [BitBucket](https://bitbucket.org/product): منصات للاستضافة، مشاركة الوثائق والبرمجيات مع نظام التحكم في الإصدار والتعاون معها (انظر [هذه الوظيفة للتفاصيل/الفرق](https://stackshare.io/stackups/bitbucket-vs-github-vs-gitlab)).
 
-## Managing event registration
+## إدارة تسجيل الحدث
 
-Effective event registration is the first place to get to know who will attend your event. It's especially important when the events are intended for a large group of people.
+التسجيل الفعال للحدث هو المكان الأول لمعرفة من سيحضر الحدث الخاص بك. من المهم بشكل خاص عندما تكون الأحداث موجهة لمجموعة كبيرة من الناس.
 
-- [Zoom](https://support.zoom.us/hc/en-us/articles/204619915-Scheduling-a-Webinar-with-Registration): Scheduling an online meeting and webinar with registration on Zoom provides an automatic brief form before receiving the link to join your webinar.
-- [Eventbrite](https://www.eventbrite.com/): An event management and ticketing website. The service allows users to browse, create, and promote local events. The service charges a fee to event organizers in exchange for the online ticketing services, unless the event is free.
-- [Google Form](https://en.wikipedia.org/wiki/Google_Forms): Google Forms is a survey administration software that allows registration/data collection that can be automatically entered into a spreadsheet.
+- [التكبير](https://support.zoom.us/hc/en-us/articles/204619915-Scheduling-a-Webinar-with-Registration): جدولة اجتماع على الإنترنت و الويب مع التسجيل على التكبير, يوفر نموذج موجز تلقائي قبل استلام الرابط للانضمام إلى شبكة الويب الخاصة بك.
+- [الحدث](https://www.eventbrite.com/): موقع إدارة الأحداث والتذاكر. تتيح هذه الخدمة للمستخدمين التصفح وإنشاء وترويج الأحداث المحلية. تتقاضى الخدمة رسوما لمنظمي الأحداث مقابل خدمات التذاكر عبر الإنترنت، إلا إذا كان الحدث مجانيا.
+- [نموذج جوجل](https://en.wikipedia.org/wiki/Google_Forms): استمارات جوجل هي برنامج إدارة مسح يسمح بالتسجيل/جمع البيانات التي يمكن إدخالها تلقائيا في جدول بيانات.
 
-## Hosting online calls
+## استضافة المكالمات عبر الإنترنت
 
-Video conferencing is probably the most important aspect of organising and hosting an online event. An effective software allows the creation of a meeting link or dial-in number that can be shared with others who can join scheduled or in-progress calls.
+ومن المحتمل أن يكون التداول بالفيديو أهم جانب في تنظيم واستضافة حدث على الإنترنت. وتسمح البرمجيات الفعالة بإنشاء وصلة اجتماع أو رقم هاتف يمكن تقاسمه مع الآخرين الذين يمكنهم الانضمام إلى المكالمات المجدولة أو الجارية.
 
-- [Zoom](https://zoom.us): Zoom is a cloud-based video conferencing service that can be attended either by video or audio-only or both, with live chats that can be recorded to view/share.
-- [Google Meet](https://en.wikipedia.org/wiki/Google_Meet): Google Meet is a communications platform that facilitates messaging and video chatting.
-- [Skype](https://www.skype.com/en/): Skype is a telecommunications application that specializes in providing video chat and voice calls.
-- [Jisti](https://meet.jit.si/): Jitsi is a collection of free and open-source multiplatform voice, videoconferencing and instant messaging applications for the web platform.
-- [Webex](https://www.webex.com/): Cisco Webex develops and sells web conferencing and videoconferencing applications.
+- [التكبير](https://zoom.us): التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/ خدمة ت/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/التكبير/ هي خدمة خدمة مع الدردشة الحية التي يمكن تسجيلها لعرض/مشاركة.
+- [اجتماع جوجل](https://en.wikipedia.org/wiki/Google_Meet): اجتماع جوجل هو منصة اتصالات تيسر الرسائل ومحادثة الفيديو.
+- [سكايب](https://www.skype.com/en/): سكايب هو تطبيق للاتصالات السلكية واللاسلكية متخصص في توفير دردشة الفيديو والمكالمات الصوتية.
+- [Jisti](https://meet.jit.si/): Jitsi عبارة عن مجموعة من تطبيقات الصوت المتعدد المنصات المجانية والمفتوحة المصدر والتداول بالفيديو والتطبيقات الفورية للرسائل على منصة الويب.
+- [Webex](https://www.webex.com/): Cisco Webex يطور ويبيع تطبيقات التداول على الشبكة والتداول بالفيديو.
 
-## Facilitating informal interactions
+## تيسير التفاعلات غير الرسمية
 
-A communication platform and chat system is a good way to connect all the attendees before, during and after the event.
-- [Slack](https://slack.com/): Slack offers real-time chat features, including persistent chat rooms organized by topic, private groups, and direct messaging.
-- [Gitter](https://gitter.im/): Gitter is a chat and networking platform for messaging for communities.
-- Web-based or phone applications like WhatsApp and telegram ([see more](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)).
+فمنصة الاتصال ونظام الدردشة هما طريقة جيدة لربط جميع الحاضرين قبل الحدث وأثناءه وبعده.
+- [Slack](https://slack.com/): Slack يوفر ميزات الدردشة في الوقت الحقيقي، بما في ذلك غرف الدردشة المستمرة منظمة حسب الموضوع، المجموعات الخاصة، والرسائل المباشرة.
+- [Gitter](https://gitter.im/): Gitter هو منصة دردشة وربط شبكي للرسائل للمجتمعات المحلية.
+- تطبيقات الإنترنت أو الهاتف مثل WhatsApp والبرقية ([شاهد المزيد](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)).
 
-## Web-based timers
+## المؤقت القائم على الويب
 
-An online timer that can be created on a web-browser and shared with a distributed team to have more productive meeting formats.
+مؤقت على الإنترنت يمكن إنشاؤه على متصفح ويب وتقاسمه مع فريق موزع للحصول على أشكال اجتماعات أكثر إنتاجية.
 - [cuckoo.team](https://cuckoo.team/)
-- [vclock](https://vclock.com/timer/)
+- [ساعة](https://vclock.com/timer/)
 
-## Online polling
+## تصويت على الإنترنت
 
-Event Polling tools can be used for asking questions and receiving feedback from attendees in real-time. They create an interactive experience for the participants through question and answer (Q&A) sessions during the event. A dedicated link can be created for each event to share with the participants who can post their questions to be discussed in the meeting or respond to polls set by the speakers or organisers before the event. Such tools not only collect answers but also analyse, summarise and visualise them as word clouds and plots in real-time that can be shared with everyone. Two commonly used tools are:
+يمكن استخدام أدوات التصويت للحدث لطرح الأسئلة وتلقي التعليقات من الحاضرين في الوقت الحقيقي. إنهم ينشئون تجربة تفاعلية للمشاركين من خلال جلسات الأسئلة والأجوبة (الأسئلة&ألف) أثناء الحدث. ويمكن إقامة صلة مكرسة لكل حدث لإطلاع المشاركين الذين يمكنهم طرح أسئلتهم لمناقشتها في الاجتماع أو الرد على استطلاعات الرأي التي يحددها المتحدثون أو المنظمون قبل الحدث. وهذه الأدوات لا تجمع الإجابات فحسب بل تحلل أيضاً تلخيص وتصوير هذه السحابات كسحابات وأرض في الوقت الحقيقي التي يمكن مشاركتها مع الجميع. وهناك أداتان شائعتان الاستخدام، هما:
 
-- [sli.do](https://www.sli.do/)
-- [mentimeter](https://www.mentimeter.com/)
+- [شريحة.دو](https://www.sli.do/)
+- [وقت الحيض](https://www.mentimeter.com/)
 
-Read more about event polling in [this post](https://www.encore-anzpac.com/event-services/live-polling-for-events) and find more apps with feature analysis in [this post](https://www.worksup.com/event-interaction-app-feature-comparison/).
+اقرأ المزيد عن التصويت على الحدث في [هذه المشاركة](https://www.encore-anzpac.com/event-services/live-polling-for-events) وابحث عن المزيد من التطبيقات مع تحليل الميزات في [هذه المشاركة](https://www.worksup.com/event-interaction-app-feature-comparison/).
 
-## Pre- and post-event surveys
+## الدراسات الاستقصائية لما قبل الأحداث وبعدها
 
-Pre-event surveys can be used for managing day-to-day work with the organisers, inviting ideas and suggestions from different stakeholders of the event and setting expectations by communicating about your event beforehand with everyone. Post-event surveys are used for gathering feedback from everyone regarding their experience from past events and suggestions to improve future events.
+من الممكن استخدام استقصاءات ما قبل الأحداث لإدارة العمل اليومي مع المنظمين. دعوة الأفكار والاقتراحات من مختلف أصحاب المصلحة في الحدث وتحديد التوقعات من خلال التواصل مسبقاً مع الجميع حول الحدث الخاص بك. وتستخدم الدراسات الاستقصائية اللاحقة للأحداث لجمع ردود فعل الجميع بشأن تجاربهم من الأحداث السابقة واقتراحاتهم لتحسين الأحداث المقبلة.
 
-- [Google Form](https://en.wikipedia.org/wiki/Google_Forms): Google Forms is a survey administration software that allows data collection that can be automatically entered into a spreadsheet.
-- [Survey Monkey](https://www.surveymonkey.com/): This is one of the most popular tool, available with limited features (10 questions and 100 respondents for free) and provides many features including templates for the paid version.
-- [Typeform](https://www.typeform.com/surveys/): Allows developing surveys in a more creative manner. The free version can be used only for a small group.
+- [نموذج جوجل](https://en.wikipedia.org/wiki/Google_Forms): نماذج جوجل هي برنامج إدارة مسح يسمح بجمع البيانات التي يمكن إدخالها تلقائيا في جدول بيانات.
+- [المسح القرود](https://www.surveymonkey.com/): هذه واحدة من أكثر الأدوات شعبية، متاح مع ميزات محدودة (10 أسئلة و 100 مجيب مجانا) ويوفر العديد من الميزات بما في ذلك قوالب للنسخة المدفوعة.
+- [النوع](https://www.typeform.com/surveys/): يسمح بتطوير الدراسات الاستقصائية بطريقة أكثر إبداعا. يمكن استخدام النسخة المجانية فقط لمجموعة صغيرة.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

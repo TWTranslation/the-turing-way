@@ -1,68 +1,68 @@
 (rr-compendia)=
-# Research Compendia
+# 研究简编a
 
-## Prerequisite
+## 前提条件：
 
-| Prerequisite                                    | Importance | Notes                                           |
-| ----------------------------------------------- | ---------- | ----------------------------------------------- |
-| {ref}`Version Control<rr-vcs>`            | Helpful    | Can be used to version the compendium           |
-| {ref}`Open Research<rr-open>`             | Helpful    | Components are part of the compendium           |
-| {ref}`Reproducible Environments<rr-renv>` | Helpful    | Can be used to make the compendium reproducible |
-| {ref}`Binder Hub<rr-binderhub>`           | Helpful    | Can be used to publish the compendium           |
-| {ref}`Make<rr-make>`                      | Helpful    | Can be used for automation in the compendium    |
+| 前提条件：                                 | 重要性 | 注           |
+| ------------------------------------- | --- | ----------- |
+| {ref}`版本控制<rr-vcs>`             | 有帮助 | 可以用来版本简编    |
+| {ref}`打开研究<rr-open>`            | 有帮助 | 组件是简编的一部分   |
+| {ref}`可复现的环境<rr-renv>`          | 有帮助 | 可以用来使简编可复制。 |
+| {ref}`Binder Hub<rr-binderhub>` | 有帮助 | 可以用来发布简编    |
+| {ref}`Make<rr-make>`            | 有帮助 | 可以在简编中用于自动化 |
 
 ## Summary
 
-A research compendium is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, meta data). The collection is created in such a way that reproducing all results is straightforward {cite:ps}`Nuest2017compendia,Gentleman2007statistical`.
+研究简编是一个研究项目所有数字部分的集合，其中包括数据、代码、文本（议定书、报告、调查表、元数据）。 收藏的创建方式是直接复制所有结果 {cite:ps}`Nuest2017Compendia，Gentleman2007statistics`
 
-This chapter has many prerequisites as it takes all digital components of a project together into a reproducible research package. That said: a research compendium can be constructed with minimal technical knowledge. The main purpose is that all elements of a project are published together, so a basic folder structure combining all components can be sufficient.
+本章具有许多先决条件，因为它将一个项目的所有数字组成部分合并成一个可复制的研究包。 这就是：可以以最少的技术知识编写一份研究简编。 主要目的是将一个项目的所有内容一起公布，因此将所有组成部分结合起来的基本文件夹结构就足够了。
 
 ```{figure} ../figures/research-compendium.jpg
 ---
-height: 500px
-name: research-compendium
-alt: An illustration showing a person churning a big machine that takes scientific information from multiple papers and gives one output of readable file.
+高度：500px
+名称：研究-简编
+Alt：显示一个人教导一个大机器的图画，这个机器从多篇论文获取科学信息，并提供一个可读文件的输出。
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-## Motivation
+## B. 动机。
 
-A research compendium [{term}`def<Research Compendia>`] combines all elements of your project, allowing others to reproduce your work, and should be the final product of your research project. Publishing your research paper along with a research compendium allows others to access your input, test your analysis, and, if the compendium can be executed, rerun to assess the resulting output. This does not only instill trust in your research but can give you more visibility. Others may use your research in unexpected ways, some of which are discussed below (refer to section: {ref}`Using a research compendium<rr-compendia-using>`).
+一份研究摘要 [{term}`def<Research Compendia>`] 包含了您项目的所有元素。 允许他人复制您的作品，这应该是您的研究项目的最后产品。 出版你的研究论文和研究简编，使其他人能够获得你的投入， 测试您的分析，如果可以执行简编，则重新运行以评估由此产生的输出。 这不仅能给你的研究带来信任，而且能够让你更加引人注目。 其他人可能会以意想不到的方式使用您的研究。 下文讨论了其中一些内容(参见章节： {ref}`使用研究简编<rr-compendia-using>`)。
 
-## Background
+## 二. 背景
 
-A research compendium at its most basic is a comprehensive set of files that combines all components of a project. This compendium can be downloaded and run locally to recreate the work done, or it can contain elements that allow it to be executed on a remote server. Executable research compendia aim to make the computational part of a scientific publication reproducible by providing all the building blocks available and give a description of how the user can execute the contained code.
-
-
-### Structure of a Research Compendium
-
-Three principles should be kept in mind when constructing a research compendium {cite:ps}`Marwick2018compendia`.
-
-- Files should be organized in a conventional folder structure;
-- Data, methods, and output should be clearly separated;
-- The computational environment should be specified.
-
-With these principles, a wide variety of compendia are possible. Let's start with the most basic version.
+最基本的研究简编是一整套综合性文件，其中包括项目的所有组成部分。 这份简编可以下载并在当地运行，以重新创建已完成的工作。 或者它可以包含允许它在远程服务器上执行的元素。 可执行的研究简编旨在提供现有的所有构件，并说明用户如何执行所包含的代码，从而使科学出版物的计算部分可以复制。
 
 
-#### Basic Compendium
+### 研究简编的结构
 
-A basic compendium follows these three principles. It separates data and methods into a conventional folder structure, and describes the computational environment in a designated file. Furthermore, any compendium should have a landing page in the form of a README document.
+在构建研究简编 {cite:ps}`Marwick2018简编` 时应铭记三项原则。
+
+- 文件应该在常规文件夹结构中整理；
+- 应明确区分数据、方法和产出。
+- 应具体规定计算环境。
+
+有了这些原则，就可能会有各种各样的简编。 让我们从最基本的版本开始。
+
+
+#### 基本简编
+
+遵循这三项原则的基本简编。 它将数据和方法分割成常规文件夹结构，并在指定文件中描述计算环境。 此外，任何简编都应以README 文件的形式有一个登陆页。
 
 ```text
-compendium/
-├── data
-│   ├── my_data.csv
-├── analysis
-│   └── my_script.R
-├── DESCRIPTION
-└── README.md
+Compendium/
+* *. --data
+circum. ---my_data.csv
+*. *. --analysis
+synthesis --my_script.R
+*. --DESCRIPTION
+--README.md
 ```
 
-#### Executable Compendium
+#### 可执行的简编
 
-The following folder can be considered an executable research compendium. It contains all the digital parts of the research project (code, data, text, figures) and all the information on how to obtain the results. The computing environment is described in the `Dockerfile`, the dependencies of files and how to automatically generate the results are described in the `Makefile`. Additionally we have a `README.md` describing what the compendium is about and a `LICENSE` file with info on how it can be used.
+以下文件夹可视为可执行的研究简编。 它包含研究项目的所有数字部分（代码、数据、文本、数字）和关于如何获得结果的所有信息。 计算环境在 `Dockerfile`中描述， 文件依赖关系以及如何自动生成结果在 `Makefile` 中描述。 此外，我们还有 `个回归者。 d` 描述简编的内容和 `LICENSE` 文件，其中包含如何使用简编的信息。
 
 ```text
 compendium/
@@ -84,60 +84,60 @@ compendium/
 └── README.md
 ```
 
-#### Separating Methods, Data, Output
+#### 分离方法、数据、输出
 
-The principles of a research compendium state that it should clearly separate Methods, Data, and Output. Phrased differently, this means we should distinguish between three types of files and folders:
+研究简编的原则规定，简编应明确区分方法、数据和产出。 以不同的措辞，这意味着我们应该区分三种类型的文件和文件夹：
 
-- **Read-only**: raw data (``data_raw\`), metadata (``datapackage.json`,`CITATION`)
-- **Human-generated**: code (`clean_data.R`, `analyse_data.R`), paper (`paper.Rmd`), documentation (`README.md`)
-- **Project-generated**: clean data (``data_clean\`, figures (``figures\`), other output
+- **只读**: 原始数据 (``data_raw\`), 元数据(``datapackage.json`,`CITATION)
+- **人类生成的**: 代码 (`clean_data.R`, `analyse_data。`, paper (`paper.Rmd`), documents (`README.md`)
+- **项目生成**: 干净数据 (``data_clean\`, 数字 (``figures\`), 其他输出
 
-The examples mentioned here are not exhaustive and some may first be "human-generated" and at some point become "read-only" (for example a human may generate the data metadata `datapackage.json`, but once that is done it may become something not to be touched). In other words, whether a folder contains files in either of these categories, may depend on the life cycle of the project.
-
-
-### Creating a Compendium
-
-If you already use some of the tools in this book - such as version control, Makefiles, and/or reproducible environments - it may come naturally to you to create a research compendium. This is, because a version control repository can be a research compendium; A Makefile makes it executable; A reproducible environment makes it reproducible. To create a research compendium, we recommend to first think about *what the components of your project are* and create the folder structure accordingly. Use names for files and folders that make it easy for others to understand what they contain. It is a good idea to think about this early in the research process and start your project with the mindset that the output in the end is a research compendium rather than just a research paper.
+这里提到的例子并非详尽无遗，有些例子可能首先是“人生的”，而且在某个时候变成了“只读”(例如，人类可能生成数据元数据 `数据包)。 儿子`, 但一旦完成, 它可能会变成不可触碰的东西)。 换言之，文件夹是否包含这些类别中任何一个类别的文件，可能取决于项目的生命周期。
 
 
-### Publishing a Compendium
+### 创建简编
 
-There are several options to publish a research compendium:
+如果您已经使用了这本书中的一些工具 - 例如版本控制，Makefiles， 和/或可再生产的环境 — — 你可能自然需要创建一个研究简编。 这是因为版本控制存储库可以是一个研究简编； Makefile 使它可以执行； 一个可复制的环境使它可以复制。 编写一份研究简编， 我们建议首先思考 *你的项目的组件是* 并相应地创建文件夹结构。 使用文件和文件夹的名称使他人更容易理解它们包含的内容。 一个好主意是在研究进程早期思考这个问题，并以一种心态开始你的项目，这种心态是，最终的产出是一份研究简编，而不仅仅是一份研究文件。
 
-- On a versioning platform such as GitHub or GitLab (potentially with a link to Binder).
-- On a research archive such as Zenodo or the Open Science Framework (OSF).
-- As supplementary material of a paper publication.
 
-For examples, see the label/tag/community "research-compendium" (applied on GitHub, Zenodo, OSF) or as a fallback the term "research compendium" in the description (used on GitLab). For more info, see also [Research Compendium](https://research-compendium.science).
+### 发布简编
 
-In the future, the research compendium may even be the publication itself allowing peer review of the entire research project.
+出版研究简编有若干备选办法：
+
+- 在 GitHub 或 GitLab 等版本化平台上(可能与绑定链接)。
+- 关于Zenodo或开放科学框架等研究档案。
+- 作为一份文件出版物的补充材料。
+
+例如见标签/tag/community “research-compendium”（应用于GitHub 、Zenodo、OSF），或作为说明中的“研究简编”（应用于GitLab）。 欲了解更多信息，请参阅 [研究简编](https://research-compendium.science)。
+
+今后，研究简编甚至可能是出版物本身，允许对整个研究项目进行同行审查。
 
 (rr-compendia-using)=
-### Using a Compendium
+### 使用简编
 
-A research compendium can be used in several ways, including (but not limited to):
+研究简编可以多种方式使用，包括（但不限于）：
 
-- Peer review: If peers can check what you have done, they can review it much more thoroughly.
-- Understanding research: If you really want to understand what someone has done in their research project, the research compendium is what you need to look at.
-- Teaching: Research compendia can be great examples to be used in teaching.
-- Reproducibility studies / repro hacks: A research compendium allows other researchers to attempt (and hopefully succeed) to redo your computations.
+- 同行评论：如果同行可以检查你做了什么，他们可以更彻底地审查它。
+- 理解研究：如果你真的想要理解某人在他们的研究项目中做了些什么， 研究简编是你们需要研究的。
+- 教学：研究简编可作为教学中使用的良好范例。
+- 可再生性研究/再现：研究简编使其他研究人员能够尝试(并希望成功)重新计算您的计算方法。
 
 
 ## Checklist
 
-To create a research compendium, follow these steps:
+为了编写一份研究简编，采取以下步骤：
 
-- Think about a good folder structure (see example above)
-- Create folder structure (main directory and sub directories)
-- Optional: Make the compendium into a git repository
-- Add all files needed for reproducing the results of the project
-- Try to have the compendium as clean and easy to use as possible when you advertise it for others to use
-- Optional: Have a peer check the compendium and see if it works correctly
-- Publish your compendium
+- 想想出一个好的文件夹结构(见上面的示例)
+- 创建文件夹结构(主目录和子目录)
+- 可选：将简编变成一个git仓库
+- 添加复制项目结果所需的所有文件
+- 当您广告让他人使用简编时，试着让简编更加干净和易用。
+- 可选：用户检查简编，查看其是否正常工作
+- 发布您的简编
 
-## Further Reading
+## 进一步阅读
 
-- The website [Research Compendium](https://research-compendium.science) contains links to further resources and publications on research compendia as well as links to examples.
+- 网站 [《研究简编](https://research-compendium.science) 》载有关于研究简编的更多资料和出版物的链接以及与实例的链接。
 
 
 <!---

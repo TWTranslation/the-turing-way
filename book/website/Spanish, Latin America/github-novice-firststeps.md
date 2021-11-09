@@ -1,145 +1,145 @@
 (cl-github-novice-firststeps)=
-# First steps on GitHub
+# Primeros pasos en GitHub
 
-Here, we provide step-by-step instructions to get started with GitHub.
+Aquí proporcionamos instrucciones paso a paso para comenzar con GitHub.
 
 ## 1. Create a GitHub account
 
-Go to [https://github.com/](https://github.com/) and create a new account using the sign up to GitHub box.
+Ve a [https://github.com/](https://github.com/) y crea una nueva cuenta usando el registro en GitHub box.
 
-## 2. Create a repository
+## 2. Crear un repositorio
 
-When you have created a new account and you are logged in, you need to create a new repository.
+Cuando haya creado una nueva cuenta y haya iniciado sesión, necesita crear un nuevo repositorio.
 
-A repository or repo is the online space where you store all of the documents, data and other files for your project.
+Un repositorio o repositorio es el espacio en línea donde almacena todos los documentos, datos y otros archivos para su proyecto.
 
-* To create the new repository, you need to click on the + sign in the top right corner (in the black band at the top of your window) and then click New repository. This will take you to a page that looks like a form.
-* You will see the name of your account and you need to fill in a repository name next to it.
-* Also, leave the box ticked for “public” (so your repository is open to all) and then tick the box to create a “README file”.
-* Then click the green create repository button at the bottom.
+* Para crear el nuevo catlogo, necesita hacer clic en el signo + en la esquina superior derecha (en la banda negra en la parte superior de su ventana) y luego haga clic en Nuevo repositorio. Esto te llevará a una página que parece un formulario.
+* Verás el nombre de tu cuenta y necesitas rellenar un nombre de repositorio junto a ella.
+* Además, deje la casilla marcada para “público” (de modo que su repositorio está abierto a todos) y luego marque la casilla para crear un “archivo README”.
+* Luego haga clic en el botón Crear repositorio verde en la parte inferior.
 
-This is what you should see now. It is the landing page for your repository. The diagram below explains what all the buttons, tabs and other things do!
+Esto es lo que deberían ver ahora. Es la página de destino de su repositorio. El siguiente diagrama explica lo que hacen todos los botones, pestañas y otras cosas!
 
 ```{figure} ../../figures/github-basic-diagram.jpg
 ---
 name: github-basic-diagram
-alt: Annotated diagram of repository after its creation, explaining the main features. The main features are explained in the figure legend.
+alt: Diagrama anotado del repositorio después de su creación, explicando las características principales. Las características principales se explican en la leyenda de la figura.
 align: left
 ---
-Annotated diagram of repository after its basic creation, explaining the main features. On the left side of the webpage we have the following features:
-- **1. Username:** GitHub user’s name (account). In this example, the username is “EKaroune”.
-- **2. Repository:** project directory (also known as repo). In this example, the repository name is “trial-repo”.
-- **3. Code:** this tab brings you back to your landing page. It shows you the folders that you have made in the repo.
-- **4. Main:** this is your default development branch or active branch of your repository.
-- **5. Branch:** parallel version(s) of your repository.
-- **6. README.md file:** this file contains basic information about your project (in this case it only has the project name: “trial-repo”. When we plan to make a website, this will be rendered as a landing (front) page for your site.
+Diagrama anotado del repositorio después de su creación básica, explicando las características principales. En el lado izquierdo de la página web tenemos las siguientes características:
+- **1. Nombre de usuario:** Nombre de usuario de GitHub (cuenta). En este ejemplo, el nombre de usuario es “EKaroune”.
+- **2. Repositorio:** directorio del proyecto (también conocido como repo). En este ejemplo, el nombre del repositorio es "trial-repo".
+- **3. Código:** esta pestaña te trae de vuelta a tu página de destino. Te muestra las carpetas que has hecho en el repo.
+- **4. Principal:** esta es tu rama de desarrollo por defecto o rama activa de tu repositorio.
+- **5. Rama:** version(es) paralelas de tu repositorio.
+- **6. Archivo README.md:** este archivo contiene información básica sobre su proyecto (en este caso sólo tiene el nombre del proyecto: “trial-repo”. Cuando planifiquemos crear un sitio web, este será renderizado como una página de destino (frente) para su sitio.
 
-On the right side of the webpage we have the following features:
-- **7. Green Code button:** click it to download your repository locally.
-- **8. '+' symbol:** where you can create new repository, import repos and create new issues.
-- **9. Fork:** create a personal copy of another user’s repo. The number shows how many forks there are of your current repository.
-- **10: Add file:** create or upload a file to your repository.
-- **11: Commits/clock symbol:** click to see the history of this file as a list of all the edits (commits) saved at different time points.
-- **12: Edit/Pencil symbol:** click this pencil symbol to edit your README.md file.
+En el lado derecho de la página web tenemos las siguientes características:
+- **7. Botón Código verde:** haz clic en él para descargar tu repositorio localmente.
+- **8. Símbolo '+':** donde puedes crear un nuevo repositorio, importar repos y crear nuevos problemas.
+- **9. Fork:** crear una copia personal del repositorio de otro usuario. El número muestra cuántos forks hay en su repositorio actual.
+- **10: Añade archivo:** crea o sube un archivo a tu repositorio.
+- **11: Símbolo de cambios/reloj:** haga clic para ver el historial de este archivo como una lista de todas las ediciones (commits) guardadas en diferentes puntos de tiempo.
+- **12: Símbolo de la edición/lápiz:** haga clic en este símbolo del lápiz para editar tu archivo README.md.
 ```
 
-## 3. Edit your README.md file
+## 3. Edita tu archivo README.md
 
-Unless you have added any other files or included a license file during repo creation, you should have one file in your repository now - README.md. We'll need edit this file to add information about the repo. This file is a Markdown file; you can see this because it has “.md” after the name of the file. This is where you start to use the Markdown formatting. Whatever you write in this file will be shown on the landing (front) page of your project on GitHub, so use it to tell people all about your project.
+A menos que haya añadido otros archivos o incluido un archivo de licencia durante la creación del repositorio, debería tener un fichero en su repositorio ahora - README.md. Necesitaremos editar este archivo para agregar información sobre el repo. Este archivo es un archivo Markdown; puede ver esto porque tiene “.md” después del nombre del archivo. Aquí es donde comienza a utilizar el formato Markdown. Lo que escribas en este archivo se mostrará en la página de destino (frente) de tu proyecto en GitHub, así que úsalo para contarle a la gente todo acerca de tu proyecto.
 
-### Navigating the GitHub editing interface
-To edit your README.md file:
+### Navegando por la interfaz de edición de GitHub
+Para editar tu archivo README.md:
 
-* You can click on the pencil symbol in the top right of the central box on your landing page.
+* Puede hacer clic en el símbolo del lápiz en la parte superior derecha de la caja central de su página de destino.
 
-**Or**
+**O**
 
-* Click on the README.md file and then click the pencil symbol.
+* Haga clic en el archivo README.md y, a continuación, haga clic en el símbolo del lápiz.
 
-You can now edit the file. We'll talk about how to save your changes after some pointers on writing a good README.
+Ahora puede editar el archivo. Hablaremos sobre cómo guardar tus cambios después de que algunos punteros sobre cómo escribir un buen README.
 
 ```{figure} ../../figures/github-readme-before-edit.jpg
 ---
 name: github-readme-before-edit
-alt: Annotated diagram of README.md file, if you click on the file name on your landing page. The main features are explained in the figure legend.
-align: left
+alt: Diagrama anotado del archivo README.md, si haces clic en el nombre del archivo en tu página de destino. Las características principales se explican en la leyenda de la figura.
+align: izquierda
 ---
-Annotated diagram of README.md file, if you click on the file name on your landing page.
-- **1. Repository and current file:** the repo name and the name of the file you are viewing.
-- **2. Main branch:** currently active branch ("main" is the default). Use to change to different branches of your repo (if there are more branches previously created).
-- **3. Contributors:** number of contributors (users) to your file.
-- **4. README.md file content:** the content of your README.md file appears here. This content will expand once we add more information..
-- **5. Raw file:** view the raw markdown text file.
-- **6. Blame:** view the last modification made to each line of the file. It can be used to track when and who made changes and go back to older versions of the file to fix bugs.
-- **7. Edit file:** click this pencil to edit your README.md file.
-- **8. Delete file:** click the bin to delete this file.
+Diagrama anotado del archivo README.md, si haces clic en el nombre del archivo en tu página de destino.
+- **1. Repositorio y archivo actual:** el nombre del repositorio y el nombre del archivo que está viendo.
+- **2. Rama principal:** actualmente activa ("main" es el valor predeterminado). Úsalo para cambiar a diferentes ramas de tu repositorio (si hay más ramas previamente creadas).
+- **3. Colaboradores:** número de colaboradores (usuarios) a tu archivo.
+- **4. Contenido del archivo README.md:** el contenido de su archivo README.md aparece aquí. Este contenido se expandirá una vez que añadamos más información.
+- **5. Archivo raudal:** ver el archivo de texto de markdown crudo.
+- **6. Cultiva:** ver la última modificación hecha a cada línea del archivo. Puede utilizarse para rastrear cuándo y quién hizo cambios y volver a las versiones anteriores del archivo para corregir errores.
+- **7. Editar archivo:** haga clic en este lápiz para editar su archivo README.md.
+- **8. Eliminar archivo:** haga clic en la papelera para eliminar este archivo.
 ```
 
 ```{figure} ../../figures/github-readme-after-edit.jpg
 ---
 name: github-readme-after-edit
-alt: Annotated diagram of README.md file in edit mode – before editing. Explained in the title.
-align: left
+alt: Diagrama anotado del archivo README.md en modo edición - antes de editar. Explicado en el título.
+align: izquierda
 ---
-Annotated diagram of README.md file in edit mode – before editing.
-- **1. Preview changes:** press to see your text rendered (how it would appear on GitHub or on a web page).
-- **2. Edit file:** press this tab to edit the content of your README.md file.
-- **3. Add content to README.md:** write the Markdown text for your README.md file. You currently only have the repository title in this file.
+Diagrama anotado del archivo README.md en modo edición - antes de editar.
+- **1. Cambios de vista previa:** presione para ver su texto renderizado (cómo aparecería en GitHub o en una página web).
+- **2. Editar archivo:** presione esta pestaña para editar el contenido de su archivo README.md.
+- **3. Añade contenido a README.md:** escribe el texto de Markdown para tu archivo README.md. Actualmente sólo tiene el título del repositorio en este archivo.
 ```
 
-### Tips for writing your README file
+### Consejos para escribir tu archivo README
 
-* Keep it simple! When you’re working in any field, whether it’s software engineering or astrophysics, you’ll learn and use jargon – terms that have a special meaning to your field but likely won’t make sense to anyone who isn’t part of that field. Too much jargon can confuse newcomers, so use simple language and define all potentially unfamiliar terms here.
-* Share your project with others - describe what you are doing now and what you want to do in the future.
-* Tell people who you are and how you can be contacted.
+* ¡Manténgalo sencillo! Cuando está trabajando en cualquier campo, ya sea ingeniería de software o astrofísica, aprenderás y usarás jerga – términos que tienen un significado especial para tu campo pero que probablemente no tendrán sentido para nadie que no forme parte de ese campo. Demasiada jerga puede confundir a los recién llegados, así que utilice un lenguaje sencillo y defina todos los términos potencialmente desconocidos aquí.
+* Comparte tu proyecto con otros - describe lo que estás haciendo ahora y lo que quieres hacer en el futuro.
+* Dígale a la gente a quién eres y cómo puede ser contactado.
 
 
-**NOTE: If you’re having trouble getting started, it’s a good idea to look at other peoples' README.md files.**
+**NOTA: Si tienes problemas para empezar, es buena idea echar un vistazo a los archivos README.md de otras personas.**
 
-If you can’t get your raw markdown content to render in the way you want, it is also a good idea to find a file that has what you want and then look at the raw file. You can copy and paste other people’s raw file content into your README.md file and then edit it.
+Si no puedes conseguir que tu contenido de markdown se procese de la manera que quieras, es también una buena idea encontrar un archivo que tenga lo que desea y luego mirar el archivo raw . Puede copiar y pegar el contenido de archivos raw de otras personas en su archivo README.md y luego editarlo.
 
-Here is an example of a really well formatted README.md file: [STEMM Role Models App](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md)
+Aquí hay un ejemplo de un archivo README.md realmente bien formateado: [STEMM Role Models App](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md)
 
-If you click the link above, it will take you to their README.file. You can use this as a template for your README.md file.
+Si hace clic en el enlace de arriba, le llevará a su archivo README.file. Puede utilizar esto como una plantilla para su archivo README.md.
 
-* To look at the raw markdown file you need to click on the raw button (top right of the white box).
-* This takes you to the markdown raw file that is rendered into a nicely formatted README.md file on GitHub.
-* Now just copy and paste it into your README.md edit tab. You can now edit this for your project.
-* Remember to check what it looks like by clicking on the preview changes tab.
-* When you have finished editing, you need to scroll down to the bottom of the page and press the green commit changes button.
+* Para ver el archivo de markdown crudo hay que hacer clic en el botón raw (arriba a la derecha de la caja blanca).
+* Esto le lleva al archivo markdown raw que se procesa en un archivo README.md bien formateado en GitHub.
+* Ahora simplemente copia y pégalo en tu pestaña de edición de README.md. Ahora puedes editar esto para tu proyecto.
+* Recuerde comprobar cómo se ve haciendo clic en la pestaña de cambios de vista previa.
+* Cuando haya terminado de editar, necesita desplazarse hacia abajo hasta la parte inferior de la página y pulse el botón de cambios de confirmación verde.
 
 ```{figure} ../../figures/github-edited-readme.jpg
 ---
 name: /github-edited-readme
-alt: Annotated diagram of README.md file in edit mode – with a template added. Features are explained in the figure legend.
-align: left
+alt: Diagrama anotado de archivo README.md en modo edición – con una plantilla añadida. Las características se explican en la leyenda de la figura.
+align: izquierda
 ---
-Annotated diagram of README.md file in edit mode – with a template added.
-- **1. Using MarkDown to add content to README.md:** the Markdown (denoted by ‘.md’ in the file extension) text for your README.md file. This example shows the template file that has different sections (headers and subheaders are created by using one or more of ‘#’ symbol. See the {ref}`formatting consistency section of the Community Handbook<ch-consistency-formatting-hr-markdown>` for some more information on using Markdown.
+Diagrama anotado del archivo README.md en modo edición – con una plantilla añadida.
+- **1. Usando MarkDown para añadir contenido a README.md:** el texto Markdown (indicado por '.md' en la extensión de archivo) para su archivo README.md. Este ejemplo muestra el archivo de plantilla que tiene diferentes secciones (las cabeceras y subcabeceras se crean usando uno o más símbolos '#'. Vea la sección {ref}`Conformación de formato del Manual de la comunidad<ch-consistency-formatting-hr-markdown>` para más información sobre el uso de Markdown.
 ```
-### Committing - or saving - your changes
-Committing your changes is like hitting the "save button" for a file. GitHub will not automatically save your changes, so it's important not to skip this step.
+### Compromiso - o guardando - sus cambios
+Realizar los cambios es como pulsar el "botón guardar" para un archivo. GitHub no guardará automáticamente los cambios, por lo que es importante no omitir este paso.
 
-Whatever changes you have made in the file will be deposited into your repository.
+Los cambios que haya hecho en el archivo serán depositados en su repositorio.
 
-It is good practice to write a descriptive commit title and a short description of what you have done in the commit changes box. So something like - commit title: ‘first edit of the readme file'; description: 'copied template from … and edited it with the details of this project’. This information about the commit is called a “commit message”, and the commit title will enable you to quickly look through the history of changes for a file (which is why making them descriptive is so important - it's like leaving a helpful note to your future self).
+Es una buena práctica escribir un título de confirmación descriptivo y una descripción breve de lo que ha hecho en la caja de cambios de confirmación. Así que algo como - commit title: ‘first edit of the readme file'; description: 'copió la plantilla de … y la editó con los detalles de este proyecto'. Esta información sobre la confirmación se llama un "mensaje de confirmación", y el título de la confirmación le permitirá mirar rápidamente a través del historial de cambios para un archivo (razón por la cual hacerlos descriptivos es tan importante - es como dejar una nota útil para su futuro mismo).
 
-You can see a list of your commits (or your "commit history") by clicking the clock symbol on your landing page or within the page for each file.
+Puede ver una lista de sus commits (o su "historial de confirmación") haciendo clic en el símbolo de reloj en su página de destino o dentro de la página de cada archivo.
 
-## 4. Add a license to your repository
+## 4. Añadir una licencia a su repositorio
 
-It is important that all of your work has a license from the very beginning or no one can reuse it. Licenses tell other researchers how they are able to reuse, modify and remix your work. No license implies that others are *not* allowed to use your work, even with attribution. So it is better to include a license that lets people know what they can and can't do and how to give you credit for your work.
+Es importante que toda su obra tenga una licencia desde el principio o que nadie pueda reutilizarla. Las licencias le dicen a otros investigadores cómo pueden reutilizar, modificar y remezclar su trabajo. Ninguna licencia implica que otros no tengan ** permitido usar su trabajo, incluso con atribución. Así que es mejor incluir una licencia que permita a la gente saber lo que puede y no puede hacer y cómo darle crédito por su trabajo.
 
-Depending on your field, much of your work may be documents with only some data or code. The standard licenses offered on GitHub are most approriate for software and won’t really be the right kind for documents.
+Dependiendo de tu campo, gran parte de tu trabajo puede ser documentos con sólo algunos datos o código. Las licencias estándar ofrecidas en GitHub son las más approriadas para el software y no serán realmente el tipo adecuado para los documentos.
 
-[Creative commons](https://creativecommons.org/licenses/) licenses are the best to use for this purpose, and the most open of these is the CC BY 4.0.
+[Las licencias Creative commons](https://creativecommons.org/licenses/) son las mejores para este propósito y la más abierta es la CC BY 4.0.
 
-To add a license to your repository, the first thing to do is create a LICENSE.md file:
+Para agregar una licencia a su repositorio, lo primero que hay que hacer es crear un archivo LICENSE.md:
 
-* To do this, click on the Add file button, and click create file. This will give you a blank file.
-* Then, you need to name the file, so call it LICENSE.md. This makes it into a markdown file.
-* You can find all the creative commons licenses in the link above so copy the text of the license you want and then paste it into this file.
-* Don’t forget to press the green commit new file button at the bottom and write a commit message to describe what you have done.
-* You can also add a link to the license to the bottom of your README.md file. Here is a link to a repository that you can copy to add in a [CC BY 4.0 license](https://github.com/santisoler/cc-licenses). It has a text file for your LICENSE.md file and also a shield (or badge) that you can put at the bottom of your README.md file.
+* Para ello, haga clic en el botón Añadir archivo y haga clic en crear archivo. Esto le dará un archivo en blanco.
+* Luego, necesita nombrar el archivo, así que llámelo LICENSE.md. Esto lo convierte en un archivo markdown.
+* Puede encontrar todas las licencias creativas comunes en el enlace de arriba así que copie el texto de la licencia que desee y luego péguelo en este archivo.
+* No te olvides de pulsar el nuevo botón de confirmación verde en la parte inferior y escribir un mensaje de confirmación para describir lo que has hecho.
+* También puede añadir un enlace a la licencia en la parte inferior de su archivo README.md. Este es un enlace a un repositorio que puede copiar para añadir en una licencia [CC BY 4.0](https://github.com/santisoler/cc-licenses). Tiene un archivo de texto para su LICENSE. d y también un escudo (o insignia) que puede poner en la parte inferior de su archivo README.md.
 
-You can find more information about licenses in the {ref}`rr-licensing` chapter of The Turing Way.
+Puedes encontrar más información sobre licencias en el capítulo de {ref}`rr-licensing` de The Turing Way.

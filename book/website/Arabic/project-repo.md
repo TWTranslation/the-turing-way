@@ -1,47 +1,47 @@
 (pd-project-repo)=
-# Creating Project Repositories
+# إنشاء مستودعات المشروع
 
-## Prerequisites
+## الشروط المسبقة
 
-| Prerequisite            | Importance |
-| ----------------------- | ---------- |
-| {ref}`cl-github-novice` | Helpful    |
+| الشروط المسبقة          | الأهمية |
+| ----------------------- | ------- |
+| {ref}`cl-github-novice` | مساعدة  |
 
 
 ## Summary
 
-This chapter introduces a step-by-step guide on how to set up a project repository. Specifically, we describe key documents that you should add to your repository in order to maintain documentation and ensure effective collaboration. We provide examples from GitHub repository hosted and maintained by researchers in open science, however, the principles are applicable to any team-led online repository.
+يقدم هذا الفصل دليلا مرحليا عن كيفية إنشاء مستودع للمشروع. وعلى وجه التحديد، نصف الوثائق الرئيسية التي ينبغي أن تضيفها إلى مستودعك من أجل الحفاظ على الوثائق وضمان التعاون الفعال. نحن نقدم أمثلة من مستودع GitHub الذي يستضيفه ويصونه الباحثون في العلوم المفتوحة، ولكن المبادئ تنطبق على أي مستودع على الإنترنت يقوده الفريق.
 
-## Motivation
+## الدافع
 
-Online project repositories require documentation so that all collaborators are informed of the updates and contributors are provided with details they need to contribute efficiently. Shared documents can help you get your ideas across to new or potential contributors. Contributions can be anything from new ideas to bug reports and actual code contributions. Open science practices described here will also make it easier for you to lead closed-source projects collaboratively and transparently for your teams.
+وتحتاج مستودعات المشاريع على الإنترنت إلى وثائق بحيث يتم إبلاغ جميع المتعاونين بآخر المستجدات وتزود المساهمين بالتفاصيل التي يحتاجون إليها للمساهمة بكفاءة. المستندات المشتركة يمكن أن تساعدك على الحصول على أفكارك عبر المساهمين الجدد أو المحتملين. يمكن أن تكون المساهمات أي شيء من الأفكار الجديدة إلى تقارير الأخطاء ومساهمات التعليمات البرمجية الفعلية. الممارسات العلمية المفتوحة الموصوفة هنا سوف تجعل من الأسهل لك أن تقود المشاريع المغلقة المصدر بشكل تعاوني وشفاف لفريقك.
 
 ```{figure} ../figures/file-management-manual.jpg
 ---
-name: file-management-manual
-alt: image shows two people organising files. One person is holdinng up a README file and other person is reading the details to set up the data and analysis files in the drawer
+الاسم: دليل إدارة الملفات
+البديل: تعرض الصورة شخصين ينظمان الملفات. شخص واحد هو حجز ملف README ويقرأ شخص آخر التفاصيل لإعداد ملفات البيانات والتحليل في الدرج
 ---
-Illustration about managing files in a repository.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+مثال توضيحي حول إدارة الملفات في المستودع.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
 ```
 
-In this chapter, we have described following documents that should be added to a project repository:
-- {ref}`Landing Page - README File<pd-project-repo-readme>`
-- {ref}`Roadmapping<pd-project-repo-roadmapping>`
-- {ref}`Contributor Pathways<pd-project-repo-contributors>`
-- {ref}`Participation Guidelines<pd-project-repo-participation>`
+وقد وصفنا في هذا الفصل الوثائق التالية التي ينبغي إضافتها إلى مستودع المشروع:
+- {ref}`صفحة الهبوط - ملف البحث<pd-project-repo-readme>`
+- {ref}`رسم الخرائط<pd-project-repo-roadmapping>`
+- {ref}`مسارات المساهمين<pd-project-repo-contributors>`
+- {ref}`إرشادات المشاركة<pd-project-repo-participation>`
 
 (pd-project-repo-license)=
-## Start by Adding a License
+## ابدأ بإضافة ترخيص
 
-One of the most important documents for your project is a license.
+أحد أهم المستندات لمشروعك هو الترخيص.
 
 ```{note}
-Without a license, all rights are with the author of the code, and that means nobody else can use, copy, distribute, or modify the work without consent.
-A license gives this consent.
-If you do not have a license for your software, it is effectively unusable by the whole research community.
+وبدون ترخيص، تكون جميع الحقوق مع صاحب الشفرة، وهذا يعني أنه لا يمكن لأي شخص آخر استخدام العمل أو نسخه أو توزيعه أو تعديله دون موافقته.
+ويعطي الترخيص هذه الموافقة.
+إذا لم يكن لديك ترخيص لبرنامجك، فإنه بالفعل غير قابل للاستخدام من قبل مجتمع البحوث بأكمله.
 
-**See {ref}`rr-licensing` chapter for details**
+**راجع الفصل {ref}`ترخيص rr-licensing' للحصول على التفاصيل**
 ```
 
-The first file you can add to your project repository is a 'LICENSE' file. You can select a license type based on the level of freedom you would like to give to your users to use and build upon your project, visit [choosealicense.com](https://choosealicense.com/). Please follow the {ref}`Licensing Checklist<rr-licensing-checklist>` when adding a license to your project repository.
+أول ملف يمكنك إضافته إلى مستودع المشروع الخاص بك هو ملف 'LICENSE'. يمكنك تحديد نوع الترخيص بناء على مستوى الحرية الذي ترغب في منحه للمستخدمين الخاص بك لاستخدام المشروع والبناء عليه، قم بزيارة [الاختيار. م](https://choosealicense.com/). الرجاء اتباع {ref}`قائمة تسجيل الترخيص<rr-licensing-checklist>` عند إضافة ترخيص إلى مستودع المشروع الخاص بك.

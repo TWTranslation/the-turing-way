@@ -1,51 +1,51 @@
-(er-law-policy-rights)=
-# Human rights
+(حقوق السياسة العامة)=
+# حقوق الإنسان
 
-Human rights and ethics have a close relationship, but they are defined and implemented differently.
+فحقوق الإنسان والأخلاقيات لها علاقة وثيقة، ولكنها تحدد وتنفذ بشكل مختلف.
 
-## What are human rights?
+## ما هي حقوق الإنسان؟
 
-_All human beings are born free and equal in dignity and rights_ (Universal Declaration of Human Rights, Article 1.)
+_جميع الناس يولدون أحرارا ومتساوين في الكرامة والحقوق_ (الإعلان العالمي لحقوق الإنسان، المادة 1)
 
-Human rights are the rights and freedoms that are inherent to every human being. They include rights like the rights to life, to equality before the law, to freedom from discrimination, to privacy, to education, and to health.
+وحقوق الإنسان هي الحقوق والحريات المتأصلة في كل إنسان. وهي تشمل حقوق مثل الحق في الحياة، والحق في المساواة أمام القانون، والحق في التحرر من التمييز، والحق في الخصوصية، والحق في التعليم، والحق في الصحة.
 
-Human rights are _universal_: they apply to every human being, without exception. Human rights are _inalienable_: they cannot be taken away or limited, except under very specific and defined circumstances. Human rights are _indivisible and interdependent_: we cannot have some rights without others.
+حقوق الإنسان هي _حقوق عالمية_: تنطبق على كل إنسان بدون استثناء. حقوق الإنسان هي _حقوق غير قابلة للتصرف_: لا يمكن الاستيلاء عليها أو تقييدها، إلا في ظروف محددة ومحددة. حقوق الإنسان هي _غير قابلة للتجزئة ومترابطة_: لا يمكن أن يكون لدينا بعض الحقوق بدون حقوق أخرى.
 
-## What is human rights law?
+## ما هو قانون حقوق الإنسان؟
 
-Human rights law is made up of conventions and covenants - legal instruments - that are signed by countries. These instruments are legally binding: this means that all countries who sign up to them take on legal duties and obligations. These include the obligations to:
-- **respect**: to not do anything that violates human rights;
-- **protect**: to ensure that individuals and groups do not have their human rights abused or violated;
-- **fulfil**: to take action to make sure that individuals and groups are able to enjoy their human rights.
+ويتألف قانون حقوق الإنسان من الاتفاقيات والعهود - الصكوك القانونية - التي وقعتها البلدان. وهذه الصكوك ملزمة قانونا: وهذا يعني أن جميع البلدان التي توقع عليها تتحمل واجبات والتزامات قانونية. وتشمل هذه الالتزامات ما يلي:
+- **احترم**: ألا نفعل أي شيء ينتهك حقوق الإنسان؛
+- **حماية**: لضمان عدم إساءة معاملة أو انتهاك حقوق الإنسان للأفراد والجماعات؛
+- **تنفيذ**: اتخاذ إجراء للتأكد من أن الأفراد والجماعات قادرون على التمتع بحقوق الإنسان.
 
 <!--- add Scriberia human rights illustration here -->
 
-Some human rights law is made at global level, by the United Nations. There are nine [core human rights instruments](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). They include general instruments on civil and political rights, and on economic, social and cultural rights, as well as instruments that cover specific people, such as children or people with disabilities, or specific topics, such as torture or racial discrimination. Each of these instruments is overseen by a committee of experts: a 'treaty body.' Every few years, each country who has signed a human rights instrument has to report to the treaty body on how well they are implementing the treaty. The treaty body makes recommendations on how the country can continue to improve its implementation. The treaty bodies also periodically issue more detailed guidance on how to interpret different articles of their treaty, to help countries understand better what their obligations are.
+وتصدر الأمم المتحدة بعض قوانين حقوق الإنسان على الصعيد العالمي. هناك تسعة [صكوك أساسية لحقوق الإنسان](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). وتشمل هذه الصكوك الصكوك العامة المتعلقة بالحقوق المدنية والسياسية، والحقوق الاقتصادية والاجتماعية والثقافية، فضلاً عن الصكوك التي تشمل أشخاصاً معينين. مثل الأطفال أو الأشخاص ذوي الإعاقة، أو مواضيع محددة مثل التعذيب أو التمييز العنصري. وتشرف على كل صك من هذه الصكوك لجنة خبراء: "هيئة منشأة بموجب معاهدات". كل بضع سنوات، وعلى كل بلد وقع صكاً من صكوك حقوق الإنسان أن يقدم تقريراً إلى الهيئة التعاهدية عن مدى حسن تنفيذه للمعاهدة. وتقدم الهيئة المنشأة بمعاهدات توصيات بشأن الكيفية التي يمكن بها للبلد أن يواصل تحسين تنفيذه. كما تصدر الهيئات المنشأة بمعاهدات بصورة دورية توجيهات أكثر تفصيلا بشأن كيفية تفسير مختلف مواد معاهدتها، • مساعدة البلدان على فهم التزاماتها بشكل أفضل.
 
-There are also regional human rights instruments:
-- [African Charter on Human and People's Rights](https://au.int/en/treaties/african-charter-human-and-peoples-rights), which covers 54 of the 55 members of the [African Union](https://au.int/en/member_states/countryprofiles2).
-- [American Convention on Human Rights](http://cidh.oas.org/Basicos/English/Basic3.American%20Convention.htm), which covers 23 of the 35 members of the [Organization of American States](http://www.oas.org/en/about/member_states.asp).
-- [European Convention on Human Rights](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005), which covers the 47 members of the [Council of Europe](https://www.coe.int/en/web/about-us/our-member-states).
-- [Charter of Fundamental Rights of the European Union](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT), which covers the 27 members of the [European Union](https://europa.eu/european-union/about-eu/countries_en)
+وهناك أيضاً صكوك إقليمية لحقوق الإنسان:
+- [الميثاق الأفريقي لحقوق الإنسان والشعوب](https://au.int/en/treaties/african-charter-human-and-peoples-rights)، الذي يغطي 54 عضوا من أصل 55 عضوا في [الاتحاد الأفريقي](https://au.int/en/member_states/countryprofiles2).
+- [الاتفاقية الأمريكية لحقوق الإنسان](http://cidh.oas.org/Basicos/English/Basic3.American%20Convention.htm)، التي تشمل 23 عضوا من أصل 35 عضوا في [منظمة الدول الأمريكية](http://www.oas.org/en/about/member_states.asp).
+- [الاتفاقية الأوروبية لحقوق الإنسان](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005)، التي تشمل الأعضاء الـ 47 في [مجلس أوروبا](https://www.coe.int/en/web/about-us/our-member-states).
+- [ميثاق الحقوق الأساسية للاتحاد الأوروبي](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT)، الذي يشمل الأعضاء الـ 27 في الاتحاد الأوروبي [](https://europa.eu/european-union/about-eu/countries_en)
 
-Some countries have ratified some of the treaties that apply to them: this means that they have incorporated the content of the the treaties into their national law. Many countries also have a national human rights institution, which independently monitors and investigates human rights violations in that country, and advises the government on implementing their obligations.
+وقد صدقت بعض البلدان على بعض المعاهدات التي تنطبق عليها: وهذا يعني أنها أدرجت مضمون المعاهدات في قانونها الوطني. ولدى العديد من البلدان أيضا مؤسسة وطنية لحقوق الإنسان تقوم بصورة مستقلة برصد انتهاكات حقوق الإنسان في ذلك البلد والتحقيق فيها، وتقدم المشورة للحكومة بشأن تنفيذ التزاماتها.
 
-Countries that have signed treaties have committed to implementing them. However, the process of implementing treaties in full, so that every person in a country can enjoy all the rights in a treaty, is very long and requires lots of actions from states. Campaigning groups, including non-governmental organisations, work to narrow the gap between what countries have promised to do, and what they have actually done so far. Some campaigning groups are international and work on lots of different human rights issues. Some work only on a small number of issues, or in a small area of the world.
+وقد التزمت البلدان التي وقعت على معاهدات بتنفيذها. غير أن عملية التنفيذ الكامل للمعاهدات بحيث يمكن لكل شخص في بلد ما أن يتمتع بجميع الحقوق الواردة في معاهدة، هو طويل جدا ويتطلب الكثير من الإجراءات من الدول. وتعمل مجموعات الحملات، بما في ذلك المنظمات غير الحكومية، على تضييق الفجوة بين ما وعدت البلدان بفعله، وما قامت به بالفعل حتى الآن. وبعض المجموعات التي تنظم الحملات هي مجموعات دولية وتعمل على العديد من قضايا حقوق الإنسان المختلفة. فبعضها لا يعمل إلا في عدد صغير من القضايا، أو في منطقة صغيرة من العالم.
 
-## How do human rights apply to data science and research ethics?
+## • كيف تنطبق حقوق الإنسان على علم البيانات وأخلاقيات البحوث؟
 
-Human rights are defined in law. This means in many ways they are less malleable than ethics. The letter of human rights, and the ways that they are implemented, are agreed internationally, A violation of human rights is a violation wherever it happens. This is not necessarily true of codes of ethics. An action that one group of people sees as ethical, may be seen as unethical by others. There is a wider shared understanding of what human rights means across different countries, cultures and groups of people. There are accountability and enforcement mechanisms. But because they are a legal framework, they are not as easily accessible, and hard to apply to the daily work of data science and research.
+وتعرف حقوق الإنسان في القانون. وهذا يعني أنها من نواح عديدة أقل تأثيرا من الأخلاقيات. إن رسالة حقوق الإنسان وطرق تنفيذها متفق عليها دولياً، انتهاك حقوق الإنسان هو انتهاك أينما حدث. وهذا لا يصدق بالضرورة على مدونات الأخلاقيات. فالعمل الذي تعتبره مجموعة من الناس عملا أخلاقيا، يمكن أن يعتبره آخرون عملا غير أخلاقي. وهناك فهم مشترك أوسع نطاقا لما تعنيه حقوق الإنسان عبر مختلف البلدان والثقافات ومجموعات الناس. وهناك آليات للمساءلة والإنفاذ. ولكن نظرا لأنها إطار قانوني، فإنها لا يسهل الوصول إليها، ومن الصعب تطبيقها على العمل اليومي لعلم البيانات والبحوث.
 
-Human rights treaties are signed by countries: that means that ultimately, it is countries that are held responsible for violations of human rights. However, that does not mean that researchers and data scientists are exempt from thinking about the human rights impact of their work!
+وتوقع البلدان على معاهدات حقوق الإنسان، وهذا يعني أن البلدان هي المسؤولة في نهاية المطاف عن انتهاكات حقوق الإنسان. غير أن هذا لا يعني أن الباحثين وعلماء البيانات معفون من التفكير في تأثير عملهم على حقوق الإنسان!
 
-The UN has produced specific guidance for companies on how to ensure that they respect human rights: the [UN Guiding Principles on Business and Human Rights](https://www.business-humanrights.org/en/big-issues/un-guiding-principles-on-business-human-rights/). Companies should comply with these Guiding Principles.
+وقد أصدرت الأمم المتحدة توجيهات محددة للشركات بشأن كيفية ضمان احترامها لحقوق الإنسان: مبادئ الأمم المتحدة التوجيهية بشأن الأعمال التجارية وحقوق الإنسان [](https://www.business-humanrights.org/en/big-issues/un-guiding-principles-on-business-human-rights/). وينبغي للشركات أن تمتثل لهذه المبادئ التوجيهية.
 
-NGOs and other campaigning organisations also produce guidance on specific areas:
-- [The Toronto Declaration: Protecting the rights to equality and non-discrimination in machine learning systems](https://www.accessnow.org/the-toronto-declaration-protecting-the-rights-to-equality-and-non-discrimination-in-machine-learning-systems/)(_prepared by Amnesty International and Access Now and it has been endorsed by Human Rights Watch and Wikimedia Foundation_)
+وتقدم المنظمات غير الحكومية وغيرها من المنظمات التي تقوم بحملات إرشادية بشأن مجالات محددة:
+- [إعلان تورنتو: حماية الحقوق في المساواة وعدم التمييز في نظم تعلم الآلات](https://www.accessnow.org/the-toronto-declaration-protecting-the-rights-to-equality-and-non-discrimination-in-machine-learning-systems/)(_من إعداد منظمة العفو الدولية و الوصول الآن وقد أقرته منظمة رصد حقوق الإنسان ومؤسسة ويكيميديا_)
 
-Making sure that research complies with human rights is not just about ensuring that it doesn't harm. It can also be about doing work that is actively pro-rights.
+والتأكد من امتثال البحوث لحقوق الإنسان ليس مجرد ضمان عدم إلحاق الضرر بها. كما يمكن أن يكون الأمر يتعلق بالقيام بعمل مؤيد للحقوق بشكل نشط.
 
-Researchers and data scientists should, in general ensure that they:
-- **respect** human rights: this means not doing work that itself abuses human rights
-- **protect** human rights: this means trying to ensure that their work cannot be used by others to abuse human rights
-- **fulfil** human rights: this means doing work that actively helps other people be able to enjoy all their human rights
+ينبغي للباحثين وعلماء البيانات أن يكفلوا بوجه عام ما يلي:
+- **احترم** حقوق الإنسان: هذا يعني عدم القيام بعمل يشكل في حد ذاته انتهاكا لحقوق الإنسان
+- **حماية** حقوق الإنسان: هذا يعني محاولة ضمان عدم استخدام الآخرين لعملهم لانتهاك حقوق الإنسان
+- **إعمال** حقوق الإنسان: هذا يعني القيام بعمل يساعد الناس الآخرين بشكل نشط على التمتع بجميع حقوقهم الإنسانية

@@ -1,56 +1,56 @@
-# This is a list of figures in the book
+# 这是一本书中的数字列表
 
-**To be kept in alphabetical order**
+**按字母顺序排列**
 
-| Filename                      | Chapter                        | Description                                                                      |
-| ----------------------------- | ------------------------------ | -------------------------------------------------------------------------------- |
-| alt_text_demo               | Style guide                    | Demonstration of alt text showing when figure doesn't render                     |
-| barriers_reproducibility      | Reproducible research overview | Slide from a presentation highlighting barriers to reproducible research         |
-| binder_comic                  | Reproducible environments      | Cartoon showing using binder to share research                                   |
-| binder_home                   | Reproducible environments      | Home screen of an example binder                                                 |
-| binder_notebook               | Reproducible environments      | Interacting with an example binder via a notebook                                |
-| binder_terminal               | Reproducible environments      | Interacting with an example binder via a terminal                                |
-| cd_example                    | Reproducible environments      | Example of result of using cd in a Dockerfile                                    |
-| change_stage_repo           | Version control                | Cartoon showing staging and committing changes                                   |
-| communication                 | Communication handbook         | Illustration depicting communication network                                     |
-| community                     | Community Handbook             | Illustration depicting Turing Way community                                      |
-| container_example             | Reproducible environments      | Demo of a simple container in terminal                                           |
-| docker_official_image       | Reproducible environments      | The official ubuntu docker image with badge                                      |
-| easyway1_basic_diagram      | Getting started on Github      | Basic repo after intial creation                                                 |
-| easyway2_readme_before_edit | Getting started on Github      | Annotated diagram of Readme file before edit                                     |
-| easyway3_readme_after_edit  | Getting started on Github      | Annotated diagram of Readme file after edit                                      |
-| easyway4_edited_readme      | Getting started on Github      | Annotated diagram of Readme file + license                                       |
-| easyway5_project              | Getting started on Github      | Annotated diagram of collaborative project page                                  |
-| eyeball_test_1              | Testing                        | Results tested by seeing if they 'look right'                                    |
-| eyeball_test_2              | Testing                        | Results tested by seeing if they 'look right'                                    |
-| eyeball_test_3              | Testing                        | Results tested by seeing if they 'look right'                                    |
-| eyeball_test_error          | Testing                        | Bug detected by result 'looking wrong'                                           |
-| file_collection               | Style guide                    | Two people looking in an organised filing cabinet smiling and giving a thumbs up |
-| first_pull_request          | Style guide                    | Two people making a first pull request on GitHub                                 |
-| flipped_taj_mahal           | Version control                | Upside down taj mahal to confuse people                                          |
-| help_you_of_the_future    | Reproducible research overview | A woman passing documentation to another version of herself                      |
-| master_branch                 | Version control                | Illustrates commits on master branch                                             |
-| make_ok_to_be_human       | Reproducible research overview | A woman looking worried that she has made a mistake                              |
-| mybinder_gen_link           | Reproducible environments      | What the page to generate binder links looks like                                |
-| one_branch                    | Version control                | Illustrates version control master + one branch                                  |
-| open_access_citations       | Open research                  | Impact of openness on citation count                                             |
-| open_umbrella                 | Open research                  | Terms under the umbrella of open scholarship                                     |
-| reasons_reproducibility       | reproducibility                | Added advantages of working reproducibly                                         |
-| regents_map                   | BinderHub workshop             | Map to workshop location                                                         |
-| reproducibility_kirstie       |                                | Depicts cow code and data relate to good practise                                |
-| ResearchCompendium            | Research Compendium            | Illustration on research compendium                                              |
-| risk_matrix                   | risk_assessment                |                                                                                  |
-| robo_debt                     | Activism                       | Illustration depicting biased automated decision-making                          |
-| scientificunionbadge          | Ethical Research               | Image of an enamel badge                                                         |
-| sub_branch                    | Version control                | Illustrates version control branch + sub branch                                  |
-| testing_motivation_1        | Testing                        | Example of consequence of not testing code                                       |
-| testing_motivation_2        | Testing                        | Example of consequence of not testing code                                       |
-| Travis_badge_fail           | Continuous integration         | A readme with a failing Travis badge                                             |
-| Travis_badge_pass           | Continuous integration         | A readme with a passing Travis badge                                             |
-| Travis_build                  | Continuous integration         | What the Travis dashboard looks like                                             |
-| two_branches                  | Version control                | Illustrates version control master + two branches                                |
-| virtual_machine               | Reproducible environments      | Example of a virtual Ubuntu machine on windows                                   |
-| VM_create_machine           | Reproducible environments      | How to create a virtual machine in VirtualBox                                    |
-| VM_export_machine           | Reproducible environments      | How to export a virtual machine in VirtualBox                                    |
-| VM_start_machine            | Reproducible environments      | How to start a virtual machine in VirtualBox                                     |
-| workdir_example               | Reproducible environments      | Example of using workdir in Dockerfiles                                          |
+| 文件名                                  | 章 次             | 描述                          |
+| ------------------------------------ | --------------- | --------------------------- |
+| Alt_text_demo                      | Style guide     | 图形不渲染时显示的备用文本               |
+| 障碍_可再生性                              | 可复现的研究概览        | 从一个演示中滑动，突出显示阻碍再生产研究的障碍     |
+| 绑定连环画                                | 可复现的环境          | 漫画显示使用绑定器共享研究               |
+| binder_home                          | 可复现的环境          | 示例粘合器的主屏幕                   |
+| binder_notebook                      | 可复现的环境          | 通过笔记本与一个示例绑定器互动             |
+| 绑定终端                                 | 可复现的环境          | 通过终端与示例粘合器互动                |
+| cd_example                           | 可复现的环境          | 在 Dockerfile 中使用 cd 的结果示例   |
+| 更改stage_repo                         | 版本控制            | 卡通显示暂存和提交更改                 |
+| 通信                                   | 宣传手册            | 描述通信网络的说明                   |
+| 社区                                   | 社区手册            | 描绘诱人道路社区的说明                 |
+| container_example                    | 可复现的环境          | 在终端中演示简单的容器                 |
+| Docker_official_图像                 | 可复现的环境          | 官方的 ubuntu 停靠镜像带徽章          |
+| easyway1_basic_diagram             | 开始于 Github      | 戒严创建后的基本repo                |
+| easyway2_readme_before-edit        | 开始于 Github      | 编辑前注释的阅读文件图                 |
+| easyway3_readme_after edit_easyway | 开始于 Github      | 编辑后注释的阅读文件关系图               |
+| easyway4_edited_readme             | 开始于 Github      | 注释的 Readme 文件 + 许可证         |
+| easyway5项目                           | 开始于 Github      | 合作项目页面附加说明的图                |
+| 眼球_test_1                          | 测试              | 通过查看他们是否“看起来正确”来测试结果        |
+| 眼球_test_2                          | 测试              | 通过查看他们是否“看起来正确”来测试结果        |
+| 眼球_test_3                          | 测试              | 通过查看他们是否“看起来正确”来测试结果        |
+| eyball_test_错误                     | 测试              | 结果“寻找错误”检测到错误               |
+| 文件收藏                                 | Style guide     | 两个人在有组织的档案室笑脸并呈现缩略图         |
+| first_pull_request                 | Style guide     | 两个人在 GitHub 上提出第一个拉取请求      |
+| 翻转_taj_mahal                       | 版本控制            | 向下推送迷宫以混淆人们。                |
+| 您的未来帮助                               | 可复现的研究概览        | 一名妇女将文件传递给她自己的另一个版本。        |
+| master_branch                        | 版本控制            | 主分支上的精心提交                   |
+| make_ok_to_be_human              | 可复现的研究概览        | 一位正在寻找的妇女担心自己犯了一个错误         |
+| mybinder_gen_link                  | 可复现的环境          | 生成绑定链接的页面看起来像是              |
+| 一个分支                                 | 版本控制            | 精密版本控制管理器 + 一个分支            |
+| 打开访问引文                               | 开放研究            | 公开性对引文数的影响                  |
+| open_mart                            | 开放研究            | 公开奖学金总括下的条款                 |
+| reass_reproduibility                 | reproducibility | 可复制工作的额外优势                  |
+| regents_map                          | BinderHub 讲习班   | 映射到车间位置                     |
+| reproducibility_kirstie              |                 | 贬值牛代码和数据与良好练习有关。            |
+| 研究简编                                 | 研究简编            | 关于研究简编的说明                   |
+| 风险矩阵表                                | 风险评估            |                             |
+| 机器人债务                                | 活动模式            | 描述有偏见的自动决策的说明               |
+| 科学联盟徽章                               | 伦理研究            | 名称徽章的图像                     |
+| 子分支                                  | 版本控制            | 错误版本控制分支 + 子分支              |
+| 测试动因_1                               | 测试              | 不测试代码的后果示例                  |
+| 测试动因_2                               | 测试              | 不测试代码的后果示例                  |
+| Travis_badge_failure               | 连续集成            | 有一个失败的拖车徽章的读物               |
+| Travis_badge_passe                 | 连续集成            | 带有传递拖车徽章的readme。            |
+| Travis_building                      | 连续集成            | Travis仪表板看起来像什么             |
+| 双分支                                  | 版本控制            | 精炼版本控制管理器 + 两种分支            |
+| 虚拟机                                  | 可复现的环境          | 窗口上虚拟的 Ubuntu 机体示例          |
+| VM_create_M机                       | 可复现的环境          | 如何在 VirtualBox 中创建虚拟机       |
+| VM_导出机                               | 可复现的环境          | 如何在VirtualBox中导出虚拟机         |
+| VM_启动机                               | 可复现的环境          | 如何在 VirtualBox 中启动虚拟机       |
+| Workdir_example                      | 可复现的环境          | 在Dockerfiles中使用 workdir 的示例 |

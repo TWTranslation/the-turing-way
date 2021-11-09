@@ -1,42 +1,42 @@
-(cm-comms-overview-accessibly)=
-# Communicating Accessibly
+(m-comms-overview-accessibly)=
+# الاتصال بشكل ممكن
 
-Accessibility of your writing or presentation is more than just about the technical level. How it can be accessed in terms of where it is located, the format of text and diagrams, the language and overall FAIRness of the communication all need to be considered.
+إمكانية الوصول إلى كتابتك أو عرضك هي أكثر من مجرد المستوى التقني. كيف يمكن الوصول إليها من حيث المكان الذي توجد فيه، من حيث شكل النص والرسوم البيانية، • ينبغي النظر في لغة الرسالة وإجمالها جميعاً.
 
-FAIR stands for findable, accessible, interoperable and reusable and you can find out more in our sub-chapter {ref}`sub-chapter on The FAIR Principles<rr-rdm-fair>`.
+فايرر يرمز إلى إمكانية الحصول عليها، ويمكن الوصول إليها، قابلة للتشغيل المشترك وإعادة الاستخدام ويمكنك معرفة المزيد في فصلنا الفرعي {ref}`فصلنا الفرعي حول مبادئ FIR<rr-rdm-fair>`.
 
-## Where you communicate
+## اين تتواصل
 
-Where your research is communicated and how much it costs will have an impact on its accessibility. Most communications to wider audiences will be free to access as they will be distributed online, which makes them even more impactful. However, many scientific articles are not accessible even to researchers because they are behind paywalls. A [paywall](https://en.wikipedia.org/wiki/Paywall#:~:text=A%20paywall%20is%20a%20method,a%20paid%20subscription%2C%20especially%20news.) is the restricting of access to content through a one off payment or subscription cost. You can find out more about paywals by watching the movie [Paywall](https://paywallthemovie.com/).
+أين يتم الإبلاغ عن بحثك وكم تكلفته سيكون له تأثير على إمكانية الوصول إليه. وستتاح معظم الاتصالات الموجهة إلى جمهور أوسع حرية الوصول إليها لأنها ستوزع على الإنترنت، مما سيزيد من تأثيرها. غير أن العديد من المقالات العلمية لا يمكن الوصول إليها حتى للباحثين لأنها متخلفة عن جدران الأجور. [دفع](https://en.wikipedia.org/wiki/Paywall#:~:text=A%20paywall%20is%20a%20method,a%20paid%20subscription%2C%20especially%20news.) هو تقييد الوصول إلى المحتوى من خلال دفع واحد أو تكلفة الاشتراك. يمكنك معرفة المزيد عن بايوال من خلال مشاهدة فيلم [Paywall](https://paywallthemovie.com/).
 
-The cost of academic books is also exclusionary. They often cost five times more than popular novels, although there is a growing movement towards open access e-books.
+تكلفة الكتب الأكاديمية هي أيضاً تكلفة استثنائية. وكثيراً ما تكلف هذه الكتب خمسة أضعاف ما تكلفه الروايات الشائعة، وإن كان هناك اتجاه متزايد نحو الوصول إلى الكتب الإلكترونية المفتوحة.
 
-* Conference and workshop fees can exclude some researchers. While you may not have control over conference access, you can share your conference presentations and posters on an open repository which will widen their accessibility. You may also consider recording your presentations and making them available online.
-* If you are organising an event, you can make an effort to reduce the costs or offer grants to certain individuals to ensure that your event is accessible.
+* ويمكن أن تستبعد رسوم المؤتمرات وحلقات العمل بعض الباحثين. بينما قد لا يكون لديك سيطرة على الوصول إلى المؤتمر، يمكنك مشاركة عروضك وملصقاتك في المؤتمر على مستودع مفتوح يوسع من إمكانية الوصول إليها. بإمكانك أيضاً النظر في تسجيل عروضك وجعلها متاحة على الإنترنت.
+* إذا كنت تنظم حدثاً، بإمكانك أن تبذل جهداً لخفض التكاليف أو أن تقدم منحاً لبعض الأفراد لضمان إمكانية الوصول إلى الحدث.
 
-You can try to make your outputs freely available by publishing them in an online repository such as [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) or [Open Science Framework](https://osf.io/). This will allow your content to be accessed by a larger audience and consequently have a greater impact.
+يمكنك محاولة جعل المخرجات الخاصة بك متاحة مجاناً عن طريق نشرها في مستودع على الإنترنت مثل [زينودو](https://zenodo.org/)، [الرقم](https://figshare.com/) أو [إطار العلوم المفتوحة](https://osf.io/) هذا سيسمح بالوصول إلى المحتوى الخاص بك من قبل جمهور أكبر وبالتالي سيكون له تأثير أكبر.
 
-## Consider Disabilities
+## النظر في حالات الإعاقة
 
-You need to consider how those with disabilities can fully access your communications.
+عليك أن تفكر في كيفية وصول المعوقين إلى اتصالاتكم بشكل كامل.
 
-* Often the text in academic publications is accessible but the images and figures are not.
-* The colour of images needs to be considered for people with colour blindness and it is a must to include alternative text for all images. Also, consider what format is best for screen readers.
-* There are features you can use within most word processing and presentation software that can help you to edit your documents in this manner. These include being able to add alt text to any images and using the specific headings to help a screen reader move to different sections.
-* Microsoft Office has an accessibility checker so you can easily run this feature when your document or presentation is completed and make adjustments.
-* For more information about accessibility see [Ability Net](https://abilitynet.org.uk/) and their [guide to creating accessible documents](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0).
-* There is also a useful [blog about alternative text](https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text) and you can find out more in this useful [introduction to alt text by Webaim](https://webaim.org/techniques/alttext/).
+* وكثيرا ما يكون النص الوارد في المنشورات الأكاديمية متاحا ولكن الصور والأرقام ليست كذلك.
+* وينبغي النظر في لون الصور بالنسبة للأشخاص الذين يعانون من العمى الملون، ويجب إدراج نص بديل لجميع الصور. وأيضا، فكر في الشكل الأفضل لقراء الشاشة.
+* هناك ميزات يمكنك استخدامها في معظم برامج معالجة الكلمات والعرض التي يمكن أن تساعدك على تحرير وثائقك بهذه الطريقة. وتشمل هذه القدرة على إضافة نص بديل إلى أي صور واستخدام العناوين المحددة لمساعدة قارئ الشاشة على الانتقال إلى أقسام مختلفة.
+* لدى مايكروسوفت أوفيس مدقق إمكانية الوصول حتى تتمكن من تشغيل هذه الميزة بسهولة عند إكمال المستند أو العرض التقديمي الخاص بك وإجراء التعديلات.
+* للحصول على مزيد من المعلومات حول إمكانية الوصول، انظر [شبكة القدرات](https://abilitynet.org.uk/) ودليلهم [لإنشاء مستندات يمكن الوصول إليها](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0).
+* هناك أيضًا مدونة [مفيدة حول النص البديل](https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text) ويمكنك معرفة المزيد في هذه المقدمة المفيدة [لتبديل النص بواسطة Webaim](https://webaim.org/techniques/alttext/).
 
-## Language Translation
+## ترجمة اللغة
 
-English is considered the academic language and we should be careful to make sure that all our outputs are accessible in this language. Outputs should be written straightforwardly to make them more accessible to those with English as a second language.
+وتعتبر اللغة الانكليزية اللغة الأكاديمية وينبغي أن نحرص على التأكد من أن جميع نواتجنا متاحة بهذه اللغة. وينبغي كتابة النواتج مباشرة لجعلها أيسر إتاحتها لمن لديهم اللغة الانكليزية كلغة ثانية.
 
-* However, not all communications should be in English. Researchers need to consider the wider audience of their communications. There may be a specific community with another language that needs to be engaged fully in the research and therefore communications should be translated.
-* Global research communities should also consider translating key documents into additional languages as has been done for our project [README file](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md).
+* غير أنه لا ينبغي أن تكون جميع الرسائل باللغة الانكليزية. وينبغي للباحثين أن ينظروا في جمهور أوسع من اتصالاتهم. وقد يكون هناك مجتمع محلي محدد بلغة أخرى تحتاج إلى المشاركة الكاملة في البحوث، ومن ثم ينبغي ترجمة الاتصالات.
+* يجب أن تنظر مجتمعات البحث العالمية أيضا في ترجمة الوثائق الرئيسية إلى لغات إضافية كما تم القيام به لملف مشروعنا [README](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md).
 
-## FAIR resources
+## موارد الفاو
 
-It is worth considering applying the FAIR principles to all the science communications that you deposit in open repositories, such as conference presentations and posters, as this will make them more sustainable.
-* Tips to apply the FAIR principles to training materials by Garcia et al (2020) {cite:ps}`Garcia2020ten` can be easily adapted for this purpose.
+يجدر النظر في تطبيق مبادئ فاير على جميع الاتصالات العلمية التي تودعها في مستودعات مفتوحة، مثل عروض المؤتمرات وملصقاتها، لأن ذلك سيجعلها أكثر استدامة.
+* نصائح لتطبيق مبادئ FIR على مواد التدريب من قبل غارسيا وآخرين (2020) {cite:ps}`غارسيا 202010` يمكن تكييفها بسهولة لهذا الغرض.
 
-Find out more in our {ref}`sub-chapter on The FAIR Principles<rr-rdm-fair>`.
+اعرف المزيد في فصلنا الفرعي {ref}`حول مبادئ FIR<rr-rdm-fair>`.

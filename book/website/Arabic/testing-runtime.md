@@ -1,37 +1,37 @@
-(rr-testing-runtime)=
-# Runtime testing
+(r-test-runtime)=
+# اختبار وقت التشغيل
 
-Runtime tests are tests that run as part of the program itself. They may take the form of checks within the code, as shown below:
+اختبارات وقت التشغيل هي اختبارات تعمل كجزء من البرنامج نفسه. ويمكن أن تتخذ شكل عمليات فحص داخل الشفرة على النحو المبين أدناه:
 ```
-population = population + people_born - people_died
+عدد السكان= السكان + الناس + المولودين - الناس_مات
 
-// test that the population is positive
-if (population < 0):
-error( 'The number of people can never be negative' )
-```
-
-Another example of a use of runtime tests is internal checks within functions that verify that their inputs and outputs are valid, as shown below:
-```
-function add_arrays( array1, array2 ):
-
-// test that the arrays have the same size
-if (array1.size() != array2.size()):
-  error( 'The arrays have different sizes!' )
-
-output = array1 + array2
-
-if (output.size() != array1.size()):
-  error( 'The output array has the wrong size!'' )
-
-return output
+// اختبر أن السكان موجبون
+إذا (عدد السكان < :
+خطأ ('عدد الناس لا يمكن أن يكون سلبيا أبدا' )
 ```
 
-Advantages of runtime testing:
-- Run within the program, so can catch problems caused by logic errors or edge cases.
-- Makes it easier to find the cause of the bug by catching problems early.
-- Catching problems early also helps prevent them escalating into catastrophic failures. It minimises the blast radius.
+ومن الأمثلة الأخرى على استخدام اختبارات التيار الكهربائي إجراء فحوص داخلية داخل الوظائف للتحقق من صحة مدخلاتها ونواتجها، على النحو المبين أدناه:
+```
+دالة add_arrays(المصفوفة1، المصفوفة2):
 
-Disadvantages of runtime testing:
+// اختبر أن المصفوفات لها نفس الحجم
+إذا (المصفوفة). ize() != المصفوفة2.size()):
+  خطأ('المصفوفات لها أحجام مختلفة!' )
 
-- Tests can slow down the program.
-- What is the right thing to do if an error is detected? How should this error be reported? Exceptions are a recommended route to go with this.
+إخراج = مصفوفة1 + مصفوفة2
+
+إذا (خرج.size() = fray1.size()):
+  خطأ('مصفوفة الإخراج لها حجم خاطئ!'' )
+
+إخراج الإرجاع
+```
+
+مزايا اختبار وقت التشغيل:
+- قم بالتشغيل في إطار البرنامج، حتى تتمكن من التقاط المشاكل الناجمة عن الأخطاء المنطقية أو حالات الحافة.
+- يجعل من الأسهل العثور على سبب الخطأ عن طريق التقاط المشاكل مبكرا.
+- كما أن الضرب المبكر للمشاكل يساعد على منعها من التصاعد إلى إخفاقات كارثية. إنه يقلل من نصف قطر الانفجار.
+
+عيوب اختبار وقت التشغيل:
+
+- يمكن للاختبارات إبطاء البرنامج.
+- ما هو الشيء الصحيح لفعله إذا تم اكتشاف خطأ؟ كيف ينبغي الإبلاغ عن هذا الخطأ؟ والاستثناءات هي طريق موصى به للتعامل مع هذا.

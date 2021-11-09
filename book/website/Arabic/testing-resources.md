@@ -1,64 +1,64 @@
-# Further Recommendations
+# توصيات أخرى
 
-Try reading the chapter on reproducible computational environments and then the chapter on continuous integration. The chapter on reviewing outlines how you can further strengthen your code base by adding a formal reviewing stage to your development workflow.
+حاول قراءة الفصل الخاص بالبيئات الحسابية القابلة للاستنساخ ثم الفصل الخاص بالتكامل المستمر. يحدد الفصل المتعلق بالمراجعة كيف يمكنك زيادة تعزيز قاعدة التعليمات البرمجية الخاصة بك بإضافة مرحلة استعراض رسمية لسير العمل التطويري الخاص بك.
 
-[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) has a number of useful tutorials related to testing, as does the [Turing Institute](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). It is also worth looking at [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com).
+[TtorialsPoint](https://www.tutorialspoint.com/software_testing/) لديها عدد من الدروس المفيدة ذات الصلة بالتجارب، كما هو الحال بالنسبة لـ [معهد تورينغ](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). يجدر أيضا النظر في [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com).
 
-## Materials used: How this will help you/ why this is useful
+## المواد المستخدمة: كيف سيساعدك هذا / لماذا هذا مفيد
 
-- [Talk by Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**](https://chryswoods.com/main/copyright.html)
-- [Turing testing course basics](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Creative Commons share and remix**
-- [SSI blog](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License.**
+- [تحدث بواسطة Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**](https://chryswoods.com/main/copyright.html)
+- [إختبار أساسيات الدورة](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **مشاركة المشاع الإبداعي و ريمكس**
+- [مدونة SSI](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير التجارية 2.5 غير التجارية.**
 
-## Materials used: General guidance and good practice for testing
+## المواد المستخدمة: التوجيه العام والممارسات الجيدة للاختبار
 
-- [SSI blog on testing software](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License.**
-- [Turing testing course](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Creative Commons share and remix**
-- [Mocking](https://www.vogella.com/tutorials/Mockito/article.html) **Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE)**
-- [Testing with floating points](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- [مدونة SSI على اختبار البرنامج](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير التجارية 2.5 غير التجارية.**
+- [دورة الاختبار](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **مشاركة المشاع الإبداعي و ريمكس**
+- [تصويب](https://www.vogella.com/tutorials/Mockito/article.html) **إسناد غير تجاري-مشاركة 3.0 ألمانيا (CC BY-NC-SA 3.0 DE)**
+- [اختبار مع النقاط العائمة](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **رخصة أباتشي 2.0**
 
-## Materials used: Types of tests
+## المواد المستخدمة: أنواع الاختبارات
 
-- [Software testing fundamentals: levels of tests](http://softwaretestingfundamentals.com/software-testing-levels/) **Copyleft - 2019 STF**
+- [أساسيات اختبار البرمجيات: مستويات الاختبارات](http://softwaretestingfundamentals.com/software-testing-levels/) **نسخ - 2019 STF**
 
-## Materials used: Smoke testing
+## المواد المستخدمة: اختبار الدخان
 
-- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [الرخصة الرقمية](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعية-غير تجارية-المساهمة مثل 4.0**
 
-## Materials used: Unit testing
+## المواد المستخدمة: اختبار الوحدة
 
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
-- [Software testing fundamentals: unit tests](http://softwaretestingfundamentals.com/unit-testing/) **Copyleft - 2019 STF**
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
+- [أساسيات اختبار البرامج: اختبار الوحدة](http://softwaretestingfundamentals.com/unit-testing/) **نسخ - 2019 STF**
 
-## Materials used: Integration testing
+## المواد المستخدمة: اختبار الدمج
 
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
-- [Software testing fundamentals: integration testing](http://softwaretestingfundamentals.com/integration-testing/) **Copyleft - 2019 STF**
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
+- [أساسيات اختبار البرامج: اختبار التكامل](http://softwaretestingfundamentals.com/integration-testing/) **نسخ - 2019 STF**
 
-## Materials used: System testing
+## المواد المستخدمة: اختبار النظام
 
-- [Software testing fundamentals: system testing](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [أساسيات اختبار البرامج: اختبار النظام](http://softwaretestingfundamentals.com/system-testing/) **نسخ - 2019 STF**
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
 
-## Materials used: Acceptance testing
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+## المواد المستخدمة: اختبار القبول
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
 
-## Materials used: Regression testing
+## المواد المستخدمة: اختبار التراجع
 
-- [Sound software](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License**
-- [Software testing fundamentals regression testing](http://softwaretestingfundamentals.com/regression-testing/) **Copyleft**
-- [Examples of Regression Testing by Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **Creative Commons Attribution-ShareAlike License 2.0**
-- [Adopting automated testing](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- [برنامج الصوت](http://soundsoftware.ac.uk/unit-testing-why-bother/) **رخصة المشاع الإبداعي-غير التجاري 3.0**
+- [اختبار اختبار البرمجيات الأساسية للتراجع](http://softwaretestingfundamentals.com/regression-testing/) **نسخ**
+- [أمثلة لاختبار الانحراف من قبل Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **رخصة المشاع الإبداعي-المساهمة المشاع الإبداعية 2.0**
+- [تبني الاختبار التلقائي](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **رخصة أباتشي 2.0**
 
-## Materials used: Runtime testing
+## المواد المستخدمة: اختبار وقت التشغيل
 
-- [Talk by Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**](https://chryswoods.com/main/copyright.html)
+- [تحدث بواسطة Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**](https://chryswoods.com/main/copyright.html)
 
-## Materials used: Test driven development
+## المواد المستخدمة: اختبار التطوير المدفوع
 
-- [Testing your software](https://software.ac.uk/resources/guides/testing-your-software) **Creative Commons Attribution-NonCommercial 3.0 License.**
-- [Why bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License.**
+- [اختبار برنامجك](https://software.ac.uk/resources/guides/testing-your-software) **رخصة المشاع الإبداعي-غير تجاري 3.0**
+- [لماذا العزيزة](http://soundsoftware.ac.uk/unit-testing-why-bother/) **رخصة المشاع الإبداعي-غير التجاري 3.0**
 
-## Materials used: glossary
+## المواد المستخدمة: المسرد
 
-- [Netherlands eScience centre](https://guide.esciencecenter.nl/best_practices/testing.html) **Creative Commons Attribution 4.0 International License**
+- [المركز الهولندي للعلوم](https://guide.esciencecenter.nl/best_practices/testing.html) **التراخيص الدولية المشاع الإبداعي 4.0**

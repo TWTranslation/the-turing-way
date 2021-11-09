@@ -1,73 +1,73 @@
-(rr-open)=
-# Open Research
+(rr-abierto)=
+# Abrir investigación
 
-(rr-open-prerequisites)=
-## Prerequisites
+(rr-open-requisitos)=
+## Prerrequisitos
 
-| Prerequisite  | Importance | Notes                                         |
-| ------------- | ---------- | --------------------------------------------- |
-| {ref}`rr-vcs` | Helpful    | Experience with GitHub is particularly useful |
+| Prerrequisito | Importancia | Notas                                             |
+| ------------- | ----------- | ------------------------------------------------- |
+| {ref}`rr-vcs` | Útil        | La experiencia con GitHub es particularmente útil |
 
 
 ```{figure} ../figures/evolution-open-research.jpg
 ---
 name: evolution-open-research
-alt: This image shows a researcher evolving their research practices to move towards the era of open research.
+alt: Esta imagen muestra un investigador que evoluciona sus prácticas de investigación para avanzar hacia la era de la investigación abierta.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-open-summary)=
+(rr-open-Resumen)=
 ## Summary
 
-Open research aims to transform research by making it more reproducible, transparent, reusable, collaborative, accountable, and accessible to society. It pushes for change in the way that research is carried out and disseminated by digital tools. One definition of open research, [as given by the Organisation for Economic Co-operation and Development (OECD)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25"), is the practice of making "the primary outputs of publicly funded research results – publications and the research data – publicly accessible in a digital format with no or minimal restriction." To achieve this openness in research, each element of the research process should:
+La investigación abierta tiene como objetivo transformar la investigación haciéndola más reproducible, transparente, reutilizable, colaboradora, responsable y accesible para la sociedad. Presta para que se produzca un cambio en la forma en que la investigación se lleva a cabo y divulga mediante herramientas digitales. Una definición de investigación abierta, [dada por la Organización para la Cooperación y el Desarrollo Económico (OCDE)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25"), es la práctica de hacer que "los resultados primarios de los resultados de la investigación financiados públicamente -publicaciones y datos de investigación- sean públicamente accesibles en un formato digital sin restricciones o mínimas". Para lograr esta apertura en la investigación, cada elemento del proceso de investigación debería:
 
-- _Be publicly available_: It is difficult to use and benefit from knowledge hidden behind barriers such as passwords and paywalls.
-- _Be reusable_: Research outputs need to be licensed appropriately, so that prospective users know any limitations on re-use.
-- _Be transparent_: With appropriate metadata to provide clear statements of how research output was produced and what it contains.
+- _Estar públicamente disponible_: Es difícil de usar y beneficiarse de conocimientos ocultos detrás de barreras como contraseñas y muros de pago.
+- _Ser reutilizable_: Las salidas de investigación deben ser autorizadas apropiadamente, para que los usuarios potenciales conozcan cualquier limitación en la reutilización.
+- _Sea transparente_: Con los metadatos apropiados para proporcionar declaraciones claras de cómo se produjo el resultado de la investigación y qué contiene.
 
-The research process typically has the following form: data is collected and then analysed (usually using software). This process may involve the use of specialist hardware. The results of the research are then published. Throughout the process, it is good practice for researchers to document their working in notebooks. Open research aims to make each of these elements open:
+El proceso de investigación típicamente tiene el siguiente formulario: los datos se recopila y luego se analiza (generalmente usando software). Este proceso puede implicar el uso de hardware especializado. A continuación se publican los resultados de la investigación. A lo largo del proceso, es una buena práctica que los investigadores documenten su trabajo en cuadernos. La investigación abierta pretende hacer que cada uno de estos elementos sea abierto:
 
-- _Open Data_: Documenting and sharing research data openly for re-use.
-- _Open Source Software_: Documenting research code and routines, and making them freely accessible and available.
-- _Open Hardware_: Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
-- _Open Access_: Making all published outputs freely accessible for maximum use and impact.
-- _Open Notebooks_: An emerging practice, documenting and sharing the experimental process of trial and error.
+- _Open Data_: Documentando y compartiendo datos de investigación abiertamente para reutilizarlos.
+- _Software de Código Abierto_: Documentar código de investigación y rutinas, y hacerlos libremente accesibles y disponibles.
+- _Open Hardware_: Diseños, materiales y otra información relevante relacionada con el hardware, haciéndolos libremente accesibles y disponibles.
+- _Acceso Abierto_: Hacer que todas las salidas publicadas sean libremente accesibles para el máximo uso e impacto.
+- _Open Notebooks_: Una práctica emergente, documentando y compartiendo el proceso experimental de prueba y error.
 
-These elements are expanded upon in this chapter.
+Estos elementos se expanden en este capítulo.
 
-Open scholarship [{term}`def<Open Scholarship>`] is a concept that extends open research further. It relates to making other aspects of scientific research open to the public, for example:
+Becas abiertas [{term}`def<Open Scholarship>`] es un concepto que amplía aún más la investigación abierta. Se trata de abrir al público otros aspectos de la investigación científica, por ejemplo:
 
-- _Open educational resources_: Making educational resources publicly available to be re-used and modified.
-- _Equity, diversity, inclusion_: Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
-- _Citizen science_: The inclusion of members of the public in scientific research.
+- _Recursos educativos abiertos_: Hacer públicos los recursos educativos para ser reutilizados y modificados.
+- _Equidad, diversidad, inclusión_: Asegurar que la beca esté abierta a cualquier persona sin barreras basadas en factores como raza, antecedente, género y orientación sexual.
+- _Ciencia ciudadana_: La inclusión de miembros del público en la investigación científica.
 
-These elements are also discussed in detail in this chapter.
+Estos elementos también se discuten en detalle en este capítulo.
 
 (rr-open-useful)=
-## Motivation and Background
+## Motivación y fondo
 
-There are five main schools of thought motivating open practices to benefit research:
+Hay cinco escuelas principales de pensamiento que motivan las prácticas abiertas para beneficiar a la investigación:
 
-| School         | Belief                                                                     | Aim                                                                       |
-| -------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Infrastructure | Efficient research depends on the available tools and applications.        | Creating openly available platforms, tools, and services for researchers. |
-| Pragmatic      | Knowledge-creation could be more efficient if researchers worked together. | Opening up the process of knowledge creation.                             |
-| Measurement    | Academic contributions today need alternative impact measurements.         | Developing an alternative metric system for research impact.              |
-| Democratic     | The access to knowledge is unequally distributed.                          | Making knowledge freely available for everyone.                           |
-| Public         | Research needs to be made accessible to the public.                        | Making research accessible for citizens.                                  |
+| Escuela         | Creer                                                                                          | Aim                                                                             |
+| --------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Infraestructura | La investigación eficiente depende de las herramientas y aplicaciones disponibles.             | Creación abierta de plataformas, herramientas y servicios para investigadores.  |
+| Pragmático      | La creación de conocimientos podría ser más eficiente si los investigadores trabajaran juntos. | Apertura del proceso de creación del conocimiento.                              |
+| Medida          | Las contribuciones académicas actuales necesitan mediciones de impacto alternativas.           | Desarrollar un sistema métrico alternativo para el impacto en la investigación. |
+| Democrático     | El acceso al conocimiento está distribuido de manera desigual.                                 | Poner el conocimiento a disposición de todos.                                   |
+| Público         | La investigación debe hacerse accesible al público.                                            | Hacer que la investigación sea accesible para los ciudadanos.                   |
 
-Open practices also benefit the researchers that propagate them. For example, there is evidence {cite:ps}`McKiernan et al. 2016<McKiernan2016Open>` that open access articles are cited more often, as shown by the metastudy presented in the figure below.
+Las prácticas abiertas también benefician a los investigadores que las propagan. Por ejemplo, hay evidencia {cite:ps}`McKiernan et al. 2016<McKiernan2016Open>` que los artículos de acceso abierto se citan más a menudo, como muestra la metástuza presentada en la figura de abajo.
 
 ```{figure} ../figures/open-access-citations.jpg
 ---
 height: 500px
 name: open-access-citations
-alt: A scatter plot of the relationship between citation rates and discipline
+alt: A scatter plot of the relationship between cittation rates and discipline
 ---
-The relative citation rate (OA: non-OA) in 19 fields of research. This rate is defined as the mean citation rate of OA articles divided by the mean citation rate of non-OA articles. Multiple points for the same discipline indicate different estimates from the same study or estimates from several studies. (See footnote 1 for references.)
+The relative citation rate (OA: non-OA) in 19 fields of research. Esta tasa se define como la tasa de referencia media de artículos OA divididos por la tasa de referencia media de artículos no OA. Múltiples puntos para la misma disciplina indican diferentes estimaciones del mismo estudio o estimaciones de varios estudios. (Ver nota al pie de página 1 para referencias.)
 ```
 
-Another benefit of openness is that while research collaborations are essential to advancing knowledge, identifying and connecting with appropriate collaborators is not trivial. Open practices can make it easier for researchers to connect by increasing the discoverability and visibility of one's work, facilitating rapid access to novel data and software resources, and creating new opportunities to interact with and contribute to ongoing communal projects.
+Otro beneficio de la apertura es que si bien las colaboraciones de investigación son esenciales para promover el conocimiento, identificar y conectar con los colaboradores apropiados no es trivial. Las prácticas abiertas pueden facilitar la conexión de los investigadores aumentando la visibilidad y la visibilidad del trabajo de uno facilitando el acceso rápido a los nuevos datos y recursos de software, y creando nuevas oportunidades para interactuar con los proyectos comunitarios en curso y contribuir a ellos.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Etiquetas de capítulo**: Este capítulo está supervisado para el `Grupo de estudio de datos de Turing` (`turing-dsg`).*

@@ -1,42 +1,42 @@
 (rr-vcs)=
-# Version Control
+# 版本控制
 
 (rr-vcs-prerequisites)=
-## Prerequisites
+## 必备条件
 
-| Prerequisite                                                                                  | Importance | Notes |
-| --------------------------------------------------------------------------------------------- | ---------- | ----- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Helpful    |       |
+| 前提条件：                                                               | 重要性 | 注 |
+| ------------------------------------------------------------------- | --- | - |
+| [命令行的经验](https://programminghistorian.org/en/lessons/intro-to-bash) | 有帮助 |   |
 
-**Recommended Skill Level**: _Beginner-Intermediate_
+**推荐的技能等级**: _初中级_
 
 (rr-vcs-summary)=
 ## Summary
 
-No matter how your group is organized, the work of many contributors needs to be managed into a single set of shared working documents. Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions. Management of changes or revisions to any types of information made in a file or project is called versioning.
+无论你们的小组是如何组织的，许多撰稿人的工作都需要管理成一套共同的工作文件。 版本控制是一种方法来记录文件或一组文件中一段时间的更改，以便您和您的合作者能够跟踪他们的历史。 查看任何更改，然后恢复或返回以前的版本。 对档案或项目中任何类型信息的更改或修订的管理称为版本。
 
-In this chapter, we discuss the best practices that are relevant regardless of tools. Versioning practices mainly come from managing changes in the code repositories. However, in reality, you can use version control for nearly any type of file on a computer. For example, when writing a paper with multiple collaborators, version control can help track what changed, who changed them, and what updates were made.
+在本章中，我们讨论了无论采用何种手段都相关的最佳做法。 版本操作主要来自代码仓库中的更改。 然而，在现实中，您可以对计算机上几乎任何类型的文件使用版本控制。 例如，当与多个合作者撰写一份文件时，版本控制可以帮助跟踪已经变化、谁已经改变以及做了什么更新。
 
-Different version control systems can be used through a program with a graphical user interface, web browser-based applications, or command-line tools. We have all seen a simple file versioning approach where different versions of a file are stored with a different name. Tools such as Google Drive and Dropbox offer platforms to update files and share them with others in real-time, collaboratively. More sophisticated version control system exists within tools like [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/). These allow collaborators to update files while storing each version in its version history (we will discuss this in detail). Advanced version control systems (VCS) such as [Git](https://en.wikipedia.org/wiki/Git), [Mercurial](https://www.mercurial-scm.org/), and [SVN](https://subversion.apache.org/) provide much more powerful tools.
+不同的版本控制系统可以通过带图形用户界面、基于网络浏览器的应用程序或命令行工具的程序使用。 我们都看到了一种简单的文件版本处理方法，不同的文件版本都是用不同的名称存储的。 Google Drive 和 Dropbox 等工具提供了更新文件和实时共享文件的平台。 更复杂的版本控制系统存在于工具中，例如 [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/)。 这些允许合作者在每个版本的版本历史中存储时更新文件 (我们将详细讨论这个问题)。 高级版本控制系统 (VCS) ，例如 [Git](https://en.wikipedia.org/wiki/Git), [Mercurial](https://www.mercurial-scm.org/), 和 [SVN](https://subversion.apache.org/) 提供了更强大的工具。
 
-This chapter aims to cover the general principles underpinning all the advanced version control systems and best practice which applies for all such systems. We discuss many tools and features; however, we encourage readers to use features that are useful for their work and tools they are comfortable with. Most instructions given in this chapter will also be geared towards Git, which is most commonly used by researchers, and a web-based Git repository hosting service, [GitHub](https://github.com/), which facilitates online collaborations.
+本章旨在涵盖所有先进版本控制系统所依据的一般原则以及适用于所有这类系统的最佳做法。 我们讨论许多工具和特色；然而，我们鼓励读者使用对他们的工作有用的功能和他们所喜欢的工具。 本章下达的大多数指示也将以研究人员最常使用的Git为导向。 和 Web Git 存储库托管服务， [GitHub](https://github.com/), 它促进了在线合作。
 
-Later in this chapter, we also discuss version control for data, which is applied to keep track of revisions of large amounts of data, especially when working collaboratively. It is useful to know that data can be volatile and versioning them can improve the reproducibility of your scientific analyses.
+在本章稍后部分，我们也讨论数据版本控制问题。 它用于跟踪大量数据的订正，特别是在协作时。 了解数据可能起伏不定的作用是有益的，对数据进行修订可以提高你们的科学分析的可得性。
 
 ```{figure}  ../figures/project-history.jpg
 ---
-name: project-history
-alt: Contrast in project history management. On the left - choosing between ambiguosly named files. On the right - picking between successive versions (from V1 to V6).
+名称：项目历史
+Altt：项目历史管理中的对比。 在左边 - 在模糊命名文件之间进行选择。 关于右边——在连续版本之间选择(从V1到V6)。
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-(rr-vcs-useful)=
-## Motivation and Background
+(rr-vcs-usi)=
+## 动机和背景
 
-Version control helps us understand what changes we made in the past or why we did a specific analysis in the way we did it, even weeks or months later. With the help of comments and commit messages, each version can explain what changes it contains compared to the previous versions. This is helpful when we share our analysis (not only data), and make it auditable or **reproducible** - which is good scientific practice.
+版本控制帮助我们理解我们过去做了哪些修改，或者我们为什么进行了具体的分析。 甚至在几周或几个月之后。 在评论和提交消息的帮助下，每个版本都可以解释它与以前版本相比包含什么更改。 当我们分享我们的分析(不仅仅是数据)并使其可审计或 **可重复的** - 这是良好的科学实践时，这将是有帮助的。
 
-A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
+版本控制系统很好地存储了历史上的更改和由谁做出更改，所以尽管仍然很容易访问。 您的工作目录不会被前几个版本的碎片打乱，这些碎片是保持正常状态所必需的。 同样，在版本管制方面也是如此。 如果你需要再次回到旧版本，就不需要离开代码块。
 
 
-Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other's work. It allows the changes made by different people to be tracked and can automatically combine people's work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as {ref}`GitHub<cl-github-novice-motivation>` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
+最后，版本控制对于协作项目非常宝贵，在这些项目中，不同的人同时使用同一代码，并以彼此的工作为基础。 它使人们能够跟踪不同人所做的变化，并能够自动地将人们的工作结合起来，同时为了手工做出大量艰苦的努力。 为您的研究项目使用版本控制意味着您的工作是完全透明的。 并且因为您的所有操作都被记录，它使他人能够复制您的学习记录。 此外， 版本控制托管服务，例如 {ref}`GitHub<cl-github-novice-motivation>` 提供了一种更有条理的方式进行沟通与合作的方式 例如合并请求、代码审查和问题。

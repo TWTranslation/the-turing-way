@@ -1,36 +1,36 @@
-(ch-bookdash-preparation)=
-# Participant Selection Process
+(ch-bookdash-preparación)=
+# Proceso de selección de participantes
 
-This subchapter explains the process of selection and logistics for organising the Book Dash.
+Este subcapítulo explica el proceso de selección y logística para organizar el Dazo del Libro.
 
-## Selection of Book Dash Planning Committee
+## Selección del Comité de Planificación del Libro
 
-To ensure that the Book Dash continues to evolve as per the community needs and preferences, invite returning members of the Book Dash events to join a planning committee. Members of the Book Dash planning committee participate in the planning meetings, provides feedback on the ongoing process and when possible takes the lead on organisation tasks related to the Book Dash.
+Para asegurar que el Libro Dash siga evolucionando según las necesidades y preferencias de la comunidad, invitar a los miembros que regresen a los eventos del Book Dash a unirse a un comité de planificación. Los miembros del comité de planificación del Libro Dash participan en las reuniones de planificación, proporciona retroalimentación sobre el proceso en curso y, cuando sea posible, toma la iniciativa en las tareas de la organización relacionadas con el Dash del Libro.
 
-These tasks usually include the following roles and responsibilities:
-- **Planning Meeting**: attend a planning meeting to help select a date, agree on the format and share any feedback on the previous event that can help plan the Book Dash(time commitment: up to 30 minutes)
-- **Application Review**: review 2-3 applications based on your availability (time commitment: up to 30 minutes)
-- **Selection meeting**: participate in the selection meeting to help ensure that the selection is equitable (time commitment: 1.5-2 hours)
-- **Organisation meeting**: attend 1 call to finalise the logistics for the organisation (program agenda and participant support will be carried out by The Turing Way core members) (time commitment: 1 hour)
-- **Session host and mentorship**: lead one of the 2 onboarding calls or one GitHub introduction session before and 1-2 of the development sessions or social sessions during the Book Dash based on their schedule (three 1.5 to 2.5 hour-long sessions)
-- **Debrief meeting**: attend a meeting after the event to discuss what went well and what we can improve going forward (time commitment: 1 hour)
-- **Shared Documents**: set up or review shared notes, application form, review rubrics or other required documents for the Book Dash (time commitment: relative to the type of document)
-- **Post-event Documents**: ensure the update of [contributors file](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md), help document the event report and update the Book Dash chapter online
+Estas tareas generalmente incluyen los siguientes roles y responsabilidades:
+- **Reunión de planificación**: asiste a una reunión de planificación para seleccionar una fecha, acuerde el formato y comparta cualquier comentario sobre el evento anterior que pueda ayudar a planificar el Dash(tiempo de compromiso: hasta 30 minutos)
+- **Revisión de la aplicación**: revisar aplicaciones 2-3 basándose en su disponibilidad (tiempo de compromiso: hasta 30 minutos)
+- **Reunión de selección**: participar en la reunión de selección para ayudar a asegurar que la selección sea equitativa (tiempo de compromiso: 1,5-2 horas)
+- **Reunión de la organización**: asistir a 1 llamada para finalizar la logística de la organización (la agenda del programa y el apoyo de los participantes serán llevados a cabo por los miembros principales de The Turing Way) (compromiso horario: 1 hora)
+- **Anfitrión de sesión y mentoría**: lleve una de las 2 llamadas de incorporación o una sesión de introducción de GitHub antes y 1-2 de las sesiones de desarrollo o sesiones sociales durante el Libro, basado en su programa (tres 1. a sesiones de 2,5 horas de duración)
+- **Reunión breve**: asiste a una reunión después del evento para discutir lo que salió bien y lo que podemos mejorar en el futuro (compromiso de tiempo: 1 hora)
+- **Documentos compartidos**: configurar o revisar notas compartidas, formulario de aplicación, revisar rúbricas u otros documentos requeridos para el Dash del Libro (compromiso de tiempo: relativo al tipo de documento)
+- **Documentos post-evento**: asegúrese de actualizar [archivo de colaboradores](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md), ayudar a documentar el informe del evento y actualizar el capítulo Libro Guión online
 
-The invitation to join the planning committee is sent by the core team members based on the applications sent by returning members of the Book Dash expressing their interest in mentoring. This is a volunteer position and there are no expectations of commitment to do multiple tasks described above.
+La invitación para unirse al comité de planificación es enviada por los miembros del equipo central sobre la base de las solicitudes enviadas por los miembros que regresan del Libro Dash expresando su interés en la mentoría. Esta es una posición de voluntariado y no hay expectativas de compromiso para realizar múltiples tareas descritas anteriormente.
 
-## Selection of Book Dash Participants
+## Selección de Participantes Dash del Libro
 
-The Book Dash Planning Committee meets after they have individually scored the applications using the rubrics defined in the previous subchapter. They agree upon a final set of applicants selected to participate in the Book Dash. The panel members also create constructive feedback on the application that can be shared with the applicants who were not selected so that they can assess other pathways to engage with the project and core team.
+El Comité de Planificación del Guión del Libro se reúne después de que hayan anotado individualmente las aplicaciones utilizando los rúbricos definidos en el subcapítulo anterior. Aceptan un conjunto final de candidatos seleccionados para participar en el Diario del Libro. Los miembros del panel también crean retroalimentación constructiva sobre la aplicación que se puede compartir con los solicitantes que no fueron seleccionados para que puedan evaluar otras vías de contacto con el proyecto y el equipo central.
 
-All applicants are contacted at least 4 weeks in advance to ensure that they can assess their situation and availability for the Book Dash.
+Todos los solicitantes son contactados con al menos 4 semanas de antelación para asegurarse de que pueden evaluar su situación y disponibilidad para el Dash del Libro.
 
-Upon confirmation, they are provided with registration details through which they can share any information that can help them and the organisers prepare for the Book Dash. Participants are asked to get familiarised with [_The Turing Way_ GitHub repository](https://github.com/alan-turing-institute/the-turing-way) where they will make their contributions during the Book Dash. The project's [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and {ref}`Code of Conduct<ch-coc>` are also shared with the participants that are applicable to the Book Dash as well.
+Tras la confirmación, se les proporciona con los datos de inscripción a través de los cuales pueden compartir cualquier información que les pueda ayudar a ellos y a los organizadores a prepararse para el Dash del Libro. Se pide a los participantes que se familiaricen con [_El repositorio GitHub_ de GitHub](https://github.com/alan-turing-institute/the-turing-way) donde harán sus contribuciones durante el Dash del Libro. Las [pautas de contribución del proyecto](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) y {ref}`Código de Conducta<ch-coc>` también son compartidas con los participantes que son aplicables al Libro.
 
-To further support the participants, pre-event calls are hosted and further details are shared directly by email (discussed in the next subchapter). The names of the selected participants are announced in _The Turing Way_ newsletter and social media platforms upon agreement with the participants.
+Para seguir apoyando a los participantes, las llamadas pre-evento se alojan y más detalles se comparten directamente por correo electrónico (discutido en el siguiente subcapítulo). Los nombres de los participantes seleccionados se anuncian en el boletín de noticias _The Turing Way_ y en las plataformas de las redes sociales cuando se acuerden con los participantes.
 
 (ch-bookdash-application-additional-materials)=
-## Additional materials
+## Materiales adicionales
 
-- [Template for the application form](https://docs.google.com/forms/d/14JbI_Xqr8vRWAidzcVFhB-5iITA6n9BOZ0RX_aSDauU/edit?usp=sharing)
-- {ref}`templates for planning<ch-templates>`, also see [the issue #806](https://github.com/alan-turing-institute/the-turing-way/issues/806) for example from the book dash
+- [Plantilla para el formulario de aplicación](https://docs.google.com/forms/d/14JbI_Xqr8vRWAidzcVFhB-5iITA6n9BOZ0RX_aSDauU/edit?usp=sharing)
+- {ref}`plantillas para planificar<ch-templates>`, también ver [el problema #806](https://github.com/alan-turing-institute/the-turing-way/issues/806) por ejemplo del guión del libro

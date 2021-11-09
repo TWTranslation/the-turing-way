@@ -1,41 +1,41 @@
-(ch-consistency-language)=
-# Language
+(باللغة الشاملة)=
+# اللغة
 
-Language is concerned with the way concepts and ideas in _The Turing Way_ are expressed. A consistent language ensures that _The Turing Way_ is clear and understandable.
+اللغة مهتمة بالطريقة التي يتم بها التعبير عن المفاهيم والأفكار في _طريق التوريد_. اللغة المتسقة تضمن أن _طريق الترقيق_ واضح ومفهوم.
 
-(ch-consistency-language-hr)=
-## Hard Requirements
+(بالانسجام-اللغة-الساعة)=
+## المتطلبات الصعبة
 
-The hard checks that deal with _The Turing Way's_ language include:
+وتشمل التحريات الصلبة التي تتعامل مع لغة _طريق التورينج_ ما يلي:
 
-(ch-consistency-language-hr-grammar)=
-### Check 1: Ensure correct grammar and a consistent tone across the book
+(الاتساق اللغة-الساعة-النحوية)=
+### التحقق 1: ضمان قواعد صحيحة ونبرة ثابتة عبر الكتاب
 
-Correct grammar and consistent tone would help readers of all backgrounds, knowledge, and skill levels to better understand _The Turing Way_'s content.
+ستساعد النغمة النحوية الصحيحة والمتسقة القراء من جميع الخلفيات والمعرفة ومستويات المهارات على فهم محتوى _الطريق اللطيف_بشكل أفضل.
 
-Aside from being distracting, incorrect grammar might take away what a piece of text is trying to communicate.
+وبغض النظر عن التشتت، فإن القواعد غير الصحيحة قد تستبعد ما يحاول النص التواصل.
 
-Tools such as [Grammarly](https://grammarly.com), [Ginger Grammar](https://gingersoftware.com/grammarcheck), and [Reverso Speller](https://reverso.net/spell-checker/english-spelling-grammar/) can help catch grammatical errors present in a piece of text. These tools can be used to assess grammar in new contributions and existing content of _The Turing Way_. Furthermore, when raising PRs for new content, invite reviewers to check for grammar as well. This could help minimize the number of grammatical errors that make it to the final version of _The Turing Way_.
+أدوات مثل [غراملي](https://grammarly.com)، [Ginger Gramar](https://gingersoftware.com/grammarcheck)، و [يمكن لـ Reverso Speller](https://reverso.net/spell-checker/english-spelling-grammar/) أن يساعد في التقاط الأخطاء النحوية الموجودة في جزء من النص. يمكن استخدام هذه الأدوات لتقييم القواعد في المساهمات الجديدة والمحتوى الحالي لـ _طريق التوريد_. وعلاوة على ذلك، تدعو المراجعين عند إثارتها للمحتوى الجديد إلى التدقيق في القواعد النمطية. يمكن أن يساعد هذا في تقليل عدد الأخطاء النحوية التي تجعلها إلى النسخة النهائية من _طريق التوفير_.
 
-With respect to tone, ensure that chapters adhere to a formal style of writing and that sentences are easy to digest. One rule of thumb to consider is that if a sentence needs to be read more than once to be understood, then it likely needs to be rephrased.
+فيما يتعلق بالنغمة، تأكد من أن الفصول تتقيد بأسلوب رسمي للكتابة وأن الجمل سهلة الاستيعاب. وثمة قاعدة من قواعد الإبهام التي ينبغي النظر فيها هي أنه إذا كان من الضروري قراءة جملة أكثر من مرة لفهمها، ثم من المحتمل أن تحتاج إلى إعادة صياغة.
 
-#### Demo
+#### تجريبي
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Prv23kGekVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-language-hr-language)=
-### Check 2: Ensure chapters use a consistent language
-`{note} Language, in this context, refers to the American and British variants of the English language.`
+(بالانسجام-اللغة-الساعة)=
+### الاختيار 2: التأكد من أن الفصول تستخدم لغة متسقة
+`{note} اللغة ، في هذا السياق ، تشير إلى الخيارين الأمريكي والبريطاني للغة الإنجليزية.`
 
-With contributors from around the world, _The Turing Way_ does not restrict the language used to write chapters. This makes it easier for contributors to bring in their perspectives as they write content for _The Turing Way_. Rather, the recommendation is that if a chapter is written in one style (for example, British English), then it should remain consistent throughout. This makes _The Turing Way_ less distracting and easier to read.
+مع المساهمين من جميع أنحاء العالم، _طريق التوريق_ لا يقيد اللغة المستخدمة لكتابة الفصول. هذا يجعل من الأسهل على المساهمين إحضار وجهات نظرهم أثناء كتابة المحتوى لـ _طريق التوريد_. بل إن التوصية هي أنه إذا كُتب الفصل بأسلوب واحد (مثل الإنكليزية البريطانية)، فينبغي أن يظل متسقا في جميع الأحوال. هذا يجعل _طريق اللعنة_ أقل تشتيت وأسهل للقراءة.
 
-(ch-consistency-language-hr-abbreviations)=
-### Check 3: Ensure Latin abbreviations are not used in writing chapters
+(بآلاف دولارات الولايات المتحدة)=
+### الاختيار 3: التأكد من عدم استخدام الاختصارات اللاتينية في كتابة الفصول
 
-When writing content for _The Turing Way_, the use of Latin abbreviations is discouraged. This is because screen readers may read them aloud in a manner that is confusing to those who rely on such devices.
+عند كتابة المحتوى لـ _طريق التوفير_، يتم عدم تشجيع استخدام الاختصارات اللاتينية. ويرجع ذلك إلى أن قراء الشاشة قد يقرأونها بصوت عالٍ على نحو يربك أولئك الذين يعتمدون على هذه الأجهزة.
 
-Furthermore, as described in the {ref}`style guide<ch-style>`, contributions that contain Latin abbreviations will fail the _The Turing Way_ repository's continuous integration workflow.
+علاوة على ذلك، كما هو مبين في دليل الطراز {ref}`<ch-style>`، المساهمات التي تحتوي على اختصارات لاتينية سوف تفشل _مسار الدمج المستمر للمستودع_ في المستودع.
 
-Please refer to the {ref}`style guide<ch-style>` for recommendations on how to avoid common Latin abbreviations in your writing.
+يرجى الرجوع إلى دليل الطراز {ref}`<ch-style>` للحصول على توصيات حول كيفية تجنب الاختصارات اللاتينية الشائعة في كتابتك.

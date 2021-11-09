@@ -1,36 +1,36 @@
-(project-repo-recommendations)=
-# Recommendations and Resources
+(مشروع -repo-recommendations)=
+# التوصيات والموارد
 
-(project-repo-recommendations-checklist)=
-## Checklist for Setting your Project
+(مشروع - توصية - قائمة مرجعية) =
+## قائمة التحقق لإعداد مشروعك
 
-* Create README and Vision file
-* Create a project roadmap to share
-* Develop a CONTRIBUTING file
-* Select & adopt a Code of Conduct with reporting & enforcement guide
-* You can also create a page dedicated to help your community members explore your project and its resources (see [Django Documentation](https://docs.djangoproject.com/)).
+* إنشاء ملف README و Vision
+* إنشاء خارطة طريق مشروع لمشاركتها
+* إنشاء ملف مشاركة
+* حدد & اعتمد مدونة قواعد سلوك مع دليل الإبلاغ &
+* يمكنك أيضا إنشاء صفحة مخصصة لمساعدة أعضاء مجتمعك على استكشاف مشروعك وموارده (انظر [Django Documentation](https://docs.djangoproject.com/)).
 
-These documents are also effective tools for community building as it supports early contributors to get easily onboarded and makes it easy for past contributors to return.
+وتشكل هذه الوثائق أيضا أدوات فعالة لبناء المجتمعات المحلية حيث أنها تدعم المساهمين الأوائل في الحصول على سهولة الوصول إليها وتسهل على المساهمين السابقين العودة.
 
 ### GitHub Insights
 
-GitHub encourages collaboration practice in their community guidelines. The insights tab of your GitHub project provides a section called "Community" that includes a list of recommended documents that your project should have.
+ويشجع GitHub الممارسة التعاونية في مبادئها التوجيهية المجتمعية. يوفر تبويب الرؤى في مشروع GitHub الخاص بك قسما يسمى "المجتمع" الذي يتضمن قائمة بالمستندات الموصى بها التي ينبغي أن يكون لدى مشروعك.
 
 ```{figure} ../../figures/community-profile.png
 ---
-name: community-profile
-alt: Image of a checklist in Community section of Insights tab of a GitHub project.
+الاسم: ملف المجتمع
+البديل : صورة لقائمة التحقق في قسم المجتمع من علامة التبويب الخاصة بمشروع GitHub .
 ---
-Checklist of recommended documents
+قائمة مرجعية بالمستندات الموصى بها
 ```
 
-(project-repo-recommendations-advanced)=
-## Resources for Advanced Structure for Data Analysis
+(مشروع - توصيات - متقدمة)=
+## الموارد اللازمة للهيكل المتقدم لتحليل البيانات
 
-- See the {ref}`rr-compendia` chapter.
-- Max Joseph, [How (and why) to make a research compendia](https://mbjoseph.github.io/intro-research-compendia/#1). (2020, March 19). Presentation.
-- Nüst, D., Boettiger, C., & Marwick, B. (2018). [How to Read a Research Compendium](https://arxiv.org/abs/1806.09525v1). arXiv, 1806.09525. Manuscript.
-- Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., da Veiga Leprevost, F.,  Christian Fufezan, Ternent, T., Eglen, S. J., Katz, D. S., Pollard, T. J., Konovalov, S., Flight, R. M., Blin, K., Vizcaíno, J. A. (2016). [Ten Simple Rules for Taking Advantage of Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947). PLoS Comput. Biol., 12(7), e1004947. doi: 10.1371/journal.pcbi.1004947. Peer-reviewed Article.
-- Venigalla, A. S. M., & Chimalakonda, S. (2021). [What's in a GitHub Repository? -- A Software Documentation Perspective](https://arxiv.org/abs/2102.12727v2). arXiv, 2102.12727.
-- [The Relationship Between Folder Use and the Number of Forks: A Case Study on Github Repositories](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.650.8150). (2021, July 02).
-- Marwick, B., Boettiger, C., & Mullen, L. (2018). [Packaging Data Analytical Work Reproducibly Using R (and Friends)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375986). American Statistician, 72(1), 80–88. doi: 10.1080/00031305.2017.1375986
+- راجع الفصل الخاص بـ {ref}`rr-compendia`.
+- ماكس جوزيف، [كيف (ولماذا) إعداد خلاصة بحثية](https://mbjoseph.github.io/intro-research-compendia/#1). (2020، 19 آذار/مارس). عرض
+- Nüst, D., Boettiger, C., & Marwick, B. (2018). [كيفية قراءة خلاصة البحث](https://arxiv.org/abs/1806.09525v1). arXiv, 1806.09525. مخطوط.
+- () انظر: Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., da Veiga Leagost, F., Christian Fufezan, Ternent, T. () Eglen, S. J., Katz, D. S., Pollard, T. J., Konovalov, S., Flight, R. M., Blin, K., Vizcai<unk> no, J. A. (2016). [عشر قواعد بسيطة للاستفادة من Git و GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947). حساب PLoS. بيول، 12(7)، 1004947. doi: 10.1371/journal.pcbi.1004947. مادة مستعرضة من النظراء.
+- Venigalla, A. S. M., & Chimalakonda, S. (2021). [ماذا يوجد في مستودع GitHub ؟ -- منظور التوثيق البرمجي](https://arxiv.org/abs/2102.12727v2). arXiv, 2102.12727.
+- [العلاقة بين استخدام المجلد وعدد الفروك: دراسة حالة إفرادية على مستودعات Github](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.650.8150). (2021، يوليو 02).
+- Marwick, B., Boettiger, C., & Mullen, L. (2018). [تغليف العمل التحليلي للبيانات باستخدام R (والأصدقاء)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375986). الإحصائيون الأمريكيون، 72(1)، 80-88. دوي: 10.1080/00031305.2017.1375986

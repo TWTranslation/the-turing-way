@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------*\ 
 
-This file contains the CSS that handles styling across the entire book.
-Use the classes defined here to control the look of HTML elements in your contribution.
+يحتوي هذا الملف على CSS الذي يتعامل مع النمط عبر الكتاب بأكمله.
+استخدم الصفوف المحددة هنا للتحكم في مظهر عناصر HTML في مساهمتك.
 
-If you add new styles, remember explain what it does as shown below. 
+إذا أضفت أنماطاً جديدة، تذكروا كيف تفعل كما هو موضح أدناه. 
 
-Index
-  - Styling for Table of Contents
-  - Styling for Embedded Videos
+الفهرس
+  - النمط على جدول المحتويات
+  - التصميم للفيديوهات المضمنة
 
 \*--------------------------------------------------------------------*/ 
 
 /*--------------------------------------------------------------------*\ 
-Styling for Table of Contents 
+النمط لجدول المحتويات 
 
-- Ensures that menu items in the table of contents are big enough for readers
+- ضمان أن عناصر القائمة في جدول المحتويات كبيرة بما فيه الكفاية للقراء
 
 \*--------------------------------------------------------------------*/ 
 
@@ -24,65 +24,65 @@ Styling for Table of Contents
 
 /*--------------------------------------------------------------------*\
 
-Styling for Embedded Videos (iframes) 
+التصميم للفيديوهات المضمنة (إطار) 
 
-- Ensures that videos can resize to suit the screen the book is read from.
-- Also ensures that videos are horizontally centered.
+- يضمن أن مقاطع الفيديو يمكن أن تغير الحجم لتلائم الشاشة التي يقرأ منها الكتاب.
+- التأكد أيضا من أن الفيديوهات تتركز أفقيا.
 
 \*--------------------------------------------------------------------*/ 
 
-.video-container {
-  position: relative;
+.فيديو-حاوية {
+  المنصب النسبي؛
   padding-bottom: 56.25%;
   padding-top: 35px;
-  height: 0;
+  الطول: 0؛
   overflow: hidden;
 }
 
 .video-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
+  المنصب: مطلقة؛
+  أعلى:0;
+  اليسار: 0؛
   width: 100%;
-  height: 100%;
+  الطول: 100%؛
 }
 
 iframe {
-  margin: auto;
-  display:block;
+  الهامش: أوتو؛
+  عرض :block؛
 }
 
 /*--------------------------------------------------------------------*\
 
-Styling for Tables
+التهيئة للجداول
 
-- Improves styling of tables over the default Markdown standard
-- Adds borders to tables, and allows a rows to be highlighted when hovered
+- تحسين نمط الجداول بالمقارنة مع معيار Markdown الافتراضي
+- يضيف الحدود إلى الجداول، ويسمح بتسليط الضوء على الصفوف عند تكوينها
 
 \*--------------------------------------------------------------------*/ 
 
 th, td {
-  border: 1px solid #999999 !important; 
+  الحدود: 1px صلب #999999 مهم; 
   text-align: center; 
   padding: 10px
 }
 
-th {
-  font-weight: bold; 
-  background-color: #EEEEEE;
+الحدث:
+  وزن الخط: عريضة؛ 
+  الخلفية-اللون: #EEEEEEEE؛
 }
 
-table caption {
-  color: black; 
+وصف الجدول {
+  اللون: أسود؛ 
   text-align: center;
 }
 
-table caption .footnote {
-  color: #666666; 
-  text-align: left; 
-  font-size: smaller;
+شرح الجدول .الحاشية {
+  اللون: #666666; 
+  محاذاة النص: يسار؛ 
+  حجم الخط: أصغر؛
 }
 
 tr:hover {
-  background-color: #f7f7f7;
+  الخلفية-اللون: #f7f7f7f7;
 }

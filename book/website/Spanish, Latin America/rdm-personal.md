@@ -1,132 +1,132 @@
 (rr-rdm-personal)=
 
-## Personal data management
-This section provides a general overview of things to consider when working with personal data. For a more practical overview on tools and practises that facilitate reproducibility, please see the {ref}`Sensitive Data Projects<pd-sdp>` chapter.
+## Gestión de datos personales
+Esta sección proporciona una visión general de las cosas a tener en cuenta cuando se trabaja con datos personales. Para obtener una visión general más práctica sobre las herramientas y prácticas que facilitan la reproducibilidad, consulte el capítulo {ref}`Proyectos de Datos Sensitivos<pd-sdp>`.
 
-### Personal data
+### Datos personales
 
-Personal data is information about **living people** who can be identified using the data that you are processing, either directly or indirectly (for example, a person's name, address or other unique identifier such as their Social Security number). "[Data related to the deceased are not considered personal data in most cases under the GDPR](https://gdpr.eu/eu-gdpr-personal-data/)." Indirect identifiers include health, economic, cultural or social characteristics. Especially when a certain combination of these identifiers can be used to identify a person, care must be taken to manage the data properly. Particularly sensitive data include data relating to a person's:
-* racial/ethnic identity
-* political opinions
-* religious/philosophical beliefs
-* trade union membership
-* genetic and biometric data
-* physical or mental health
-* sexual orientation
+Los datos personales son información sobre **personas vivas** que pueden ser identificadas utilizando los datos que está procesando, ya sea directa o indirectamente (por ejemplo, el nombre de una persona, la dirección u otro identificador único como su número de Seguro Social). "[Los datos relacionados con los fallecidos no se consideran datos personales en la mayoría de los casos bajo el RGP](https://gdpr.eu/eu-gdpr-personal-data/)." Los identificadores indirectos incluyen características sanitarias, económicas, culturales o sociales. Específicamente cuando una cierta combinación de estos identificadores puede ser utilizada para identificar a una persona, se debe tener cuidado para gestionar los datos correctamente. Los datos especialmente sensibles incluyen datos relativos a las personas:
+* identidad racial/étnica
+* opiniones políticas
+* creencias religiosas/filósofas
+* afiliación sindical
+* datos genéticos y biométricos
+* salud física o mental
+* orientación sexual
 
-### Personal data policies
-There are various policies in place in different countries to protect the rights of individuals over their personal data. For example, in Australia personal data is regulated under the [Australian Privacy Act](https://www.oaic.gov.au/privacy/the-privacy-act/). In the European Union the **GDPR** (General Data Protection Regulation) applies to the processing of personal data and may require you to carry out a Data Protection Impact Assessment ([DPIA](https://youtu.be/YRiCb3unz3g?t=988)). Processing means doing anything with a person's information, including collection, storage, analysis, sharing, deletion and destruction. To ensure that you are up to date with the requirements of managing sensitive data, please review the national/institutional policies that apply to your research. See {cite}`Smith2015participantdata` for recommended practices for sharing clinical trial data.
-
-
-(rr-rdm-informed-consent)=
-
-### Informed consent
-
-Informed, voluntary and fair consent to participate in a study is very important for any research project that involves human participants. It is through this consent process that research participants can understand what taking part in a specific study will mean for them. Each person can then choose whether to participate using the consent form. See also the {ref}`Guide for Ethical Research<er>`.
-
-Note that the informed consent form is considered to be personal data and should therefore be handled with the same care as other personal data. Do not store the consent forms where you store the rest of the data you collect; use a separate locked cabinet or an encrypted folder for example.
-
-In case you cannot use a written consent form, try to make a recording of verbal consent.
-
-**Consent documentation should include:**
-
-* a participant information sheet and
-
-* a consent form signed by the participant.
-
-The **participant information sheet** is used to inform participants about the study. The information should be clear and easy to understand and should cover the following:
-* What the project is about.
-* What their participation will involve.
-* Any risks involved for participants and safeguards to minimise those risks.
-* Assurances about data security and participant confidentiality.
-   * Mention who has access to the data
-* How the data will be used in the study (for published articles, reports and presentations).
-* Proposed plans for archiving data at the end of the study and potential future secondary re-use of data.
-    * Tiered consent may be a solution here, by allowing the participants to choose what type of information will be shared publicly
-* Details of the organisation overseeing the research.
-* Whom to contact for more information about the study.
-
-The **consent form** is used to verify that the research participant understands and agrees to participate in the study. The consent form should cover the following points at a minimum:
-* The participant
-    * has read and understood the participant information sheet
-    * has been given the opportunity to ask questions
-    * understands that participation is voluntarily
-    * understands that they may withdraw from the study at any time without giving reasons and without penalty
-    * understands how the data will be managed, shared and archived (as detailed in the information sheet)
-       * to increase the chance of your data to be reused, do not promise to delete the data but instead ask for consent to retain and share the data (see {cite}`Meyer2018personaldata`)
-* Signatures of both the participant and the researcher, and the date of signing
-
-Think ahead and plan how you will:
-
-* collect, store and manage the data (see {ref}`Data storage and organisation<rr-rdm-storage>`)
-
-* control access permissions
-
-* prepare data for archiving/sharing at the end of the project if possible (see {ref}`Sharing and archiving data<rr-rdm-sharing>`)
+### Políticas de datos personales
+Existen diversas políticas en vigor en diferentes países para proteger los derechos de las personas sobre sus datos personales. Por ejemplo, en Australia los datos personales están regulados por la [Ley de privacidad australiana](https://www.oaic.gov.au/privacy/the-privacy-act/). En la Unión Europea, el **RGP** (Regulación General de Protección de Datos) se aplica al procesamiento de datos personales y puede requerir que realice una evaluación de impacto de protección de datos ([DPIA](https://youtu.be/YRiCb3unz3g?t=988)). Procesar significa hacer cualquier cosa con la información de una persona, incluyendo recogida, almacenamiento, análisis, compartir, eliminar y destruir. Para asegurarse de que está al día con los requisitos de gestión de datos sensibles, revise las políticas nacionales e institucionales que se aplican a su investigación. Vea {cite}`Smith2015participantdata` para las prácticas recomendadas para compartir los datos de los ensayos clínicos.
 
 
-(rr-rdm-privacy)=
+(rr-rdm-informado-consentimiento)=
 
-There are a number of strategies that you can adopt to **safeguard the privacy** of your research subjects:
+### Consentimiento informado
 
-**1. Data minimisation**
+El consentimiento informado, voluntario y justo para participar en un estudio es muy importante para cualquier proyecto de investigación que involucre a participantes humanos. Es a través de este proceso de consentimiento que los participantes en la investigación pueden entender lo que significará para ellos participar en un estudio específico. A continuación, cada persona puede elegir si desea participar utilizando el formulario de consentimiento. Vea también la {ref}`Guía para la Investigación Ética<er>`.
 
-* If personal information isn't needed, don't collect it.
-* Periodically review whether you are retaining unnecessary identifying information.
-* When identifying information is no longer needed, safely remove, delete or destroy it.
+Tenga en cuenta que el formulario de consentimiento informado se considera como datos personales y, por lo tanto, debe tratarse con el mismo cuidado que otros datos personales. No almacene los formularios de consentimiento donde almacena el resto de los datos que recopila; usar un gabinete cerrado separado o una carpeta cifrada, por ejemplo.
 
-**2. Data retention limits**
-* Decide how long you will retain identifiable data before removing direct identifiers, applying more complex anonymisation techniques, or deleting the data altogether.
-* When deleting sensitive data you need to be aware that standard methods for deleting files (for example moving files to the recycle bin and emptying it) are not secure. These deleted files may be recovered. Use software like BleachBit to safely delete the data.
+En caso de que no pueda utilizar un formulario de consentimiento por escrito, intente hacer una grabación de consentimiento verbal.
 
-**3. Secure data transfer**
-* Before deciding to transfer personal data, you should consider whether the transfer of identifiable data is necessary. For example, can data be de-identified or anonymised?
-* If data cannot be made unidentifiable then you must ensure you have authority to transfer the personal data, and that there are appropriate safeguards in place to protect the data before, during and after transit.
-* Often your university or institute will provide solutions for secure file transfer. Contact you research data, privacy or IT support team for guidance.
+**La documentación del consentimiento debe incluir:**
 
-**4. Encryption**
-* Encryption provides protection by ensuring that only someone with the relevant encryption key (or password) will be able to access the contents.
-    * Protect on disk level: Bitlocker for Windows, FileVault for MacOS
-    * Protect on “container” level (a folder containing multiple files):  Veracrypt (or Archive for MacOS)
-    * Portable storage: Bitlocker
-    * File level / Exchange information:
-      * Simple method: use 7zip, and pack with a password
-      * More complicated to setup: use PGP tooling (can also be used to securely send email)
-    * See the [Ghent University Encryption for Researchers manual](https://osf.io/nx8km/) for more details and step-by-step guides
+* una hoja de información de los participantes y
 
-**5. Access permissions**
-* Management of shared folder permissions.
-* Password protection.
+* un formulario de consentimiento firmado por el participante.
+
+La hoja de información del participante **** se utiliza para informar a los participantes sobre el estudio. La información debe ser clara y fácil de entender y debe abarcar lo siguiente:
+* De lo que trata el proyecto.
+* Cuál será su participación.
+* Cualquier riesgo que implique para los participantes y salvaguardas para minimizar esos riesgos.
+* Garantías sobre la seguridad de los datos y confidencialidad de los participantes.
+   * Mencionar quién tiene acceso a los datos
+* Cómo se utilizarán los datos en el estudio (para artículos publicados, informes y presentaciones).
+* Planes propuestos para archivar datos al final del estudio y la posible reutilización secundaria de los datos en el futuro.
+    * El consentimiento escalado puede ser una solución aquí, permitiendo a los participantes elegir qué tipo de información se compartirá públicamente
+* Detalles de la organización que supervisa la investigación.
+* A quién contactar para obtener más información sobre el estudio.
+
+El **formulario de consentimiento** se utiliza para verificar que el participante de la investigación entiende y acepta participar en el estudio. El formulario de consentimiento debe cubrir los siguientes puntos como mínimo:
+* El participante
+    * ha leído y entendido la hoja de información del participante
+    * se le ha dado la oportunidad de hacer preguntas
+    * entiende que la participación es voluntaria
+    * entiende que pueden retirarse del estudio en cualquier momento sin dar razones y sin penalizar
+    * entiende cómo los datos serán administrados, compartidos y archivados (como se detalla en la hoja de información)
+       * para aumentar la probabilidad de que sus datos sean reutilizados, no se compromete a eliminar los datos, sino que solicita el consentimiento para retener y compartir los datos (ver {cite}`Meyer2018personaldata`)
+* Firmas tanto del participante como del investigador, y la fecha de firma
+
+Piense en el futuro y planee cómo lo harás:
+
+* recoger, almacenar y administrar los datos (ver {ref}`Almacenamiento de datos y organización<rr-rdm-storage>`)
+
+* controlar permisos de acceso
+
+* preparar datos para archivar/compartir al final del proyecto si es posible (ver {ref}`Compartir y archivar datos<rr-rdm-sharing>`)
+
+
+(rr-rdm-privacidad)=
+
+Hay una serie de estrategias que puedes adoptar para **proteger la privacidad** de tus investigadores:
+
+**1. Minimización de datos**
+
+* Si no se necesita información personal, no la recopiles.
+* Revise periódicamente si está conservando información de identificación innecesaria.
+* Cuando la identificación de la información ya no es necesaria, elimina, elimina o destruye con seguridad.
+
+**2. Límites de retención de datos**
+* Decida cuánto tiempo conservará los datos identificables antes de eliminar los identificadores directos, aplicar técnicas de anonimato más complejas, o eliminar los datos completamente.
+* Al eliminar datos sensibles debe tener en cuenta que los métodos estándar para eliminar archivos (por ejemplo, mover archivos a la papelera de reciclaje y vaciarla) no son seguros. Estos archivos eliminados pueden ser recuperados. Utilice software como BleachBit para eliminar los datos de forma segura.
+
+**3. Transferencia de datos segura**
+* Antes de decidir transferir datos personales, debe considerar si la transferencia de datos identificables es necesaria. Por ejemplo, ¿se pueden desidentificar o anonimizar los datos?
+* Si los datos no pueden ser identificables, debe asegurarse de que tiene autoridad para transferir los datos personales y que existen salvaguardas adecuadas para proteger los datos antes, durante y después de la transacción.
+* A menudo su universidad o instituto proporcionará soluciones para la transferencia segura de archivos. Contacte con su equipo de investigación de datos, privacidad o soporte informático para obtener orientación.
+
+**4. Encriptación**
+* El cifrado proporciona protección asegurando que sólo alguien con la clave de cifrado (o contraseña) pueda acceder a los contenidos.
+    * Proteger en el nivel de disco: Bitlocker para Windows, FileVault para MacOS
+    * Proteger en el nivel de “contenedor” (una carpeta que contiene varios archivos): Veracrypt (o Archivo para MacOS)
+    * Almacenamiento portátil: Bitlocker
+    * Nivel de archivo / Información de intercambio:
+      * Método simple: use 7zip, y empaque con una contraseña
+      * Más complicado de configurar: usar herramientas PGP (también se puede utilizar para enviar correo electrónico)
+    * Consulte el manual de [Encriptación para investigadores de la Universidad de Ghent](https://osf.io/nx8km/) para más detalles y guías paso a paso
+
+**5. Permisos de acceso**
+* Gestión de permisos de carpetas compartidas.
+* Protección de contraseña.
 
 
 **6. Anonymisation**
 
-Anonymisation is a process by which identifying information in a dataset is removed. It is used primarily to allow data to be shared or published without revealing the confidential information it contains, while limiting the loss of information.
-* Where possible, direct identifiers (such as names, addresses, telephone numbers and account numbers) should be removed as soon as the identifying information is no longer needed. You can delete the data or replace it with pseudonyms. For qualitative data you should replace or generalise identifying characteristics when transcribing interviews.
-* De-identified data that can be re-identified using a linkage file (for example, information linking data subjects to identifiable individuals) is known as pseudonymised data. NOTE: In this instance, the linkage file should be encrypted and stored securely and separately from the de-identified research data.
-  * Identification of individuals in pseudonymised or de-identified data may still be possible using combinations of indirect identifiers (such as age, education, employment, geographic area and medical conditions). Further, data and outputs containing small cell counts may be potentially disclosive, particularly where samples are drawn from small populations or include cases with extreme values or relatively rare characteristics.
-   * As such, when intending to share potentially identifiable data or the outputs generated from the data, you may need to consider more advanced anonymisation techniques such as statistical disclosure control (SDC, see [this handbook](https://securedatagroup.org/sdc-handbook/) for more information).
-* For more information about anonymisation you can watch [this webinar by Enrico Glerean](https://www.youtube.com/watch?v=ILXeA4fx3cI).
+La anonimización es un proceso mediante el cual se elimina la información identificativa en un conjunto de datos. Se utiliza principalmente para permitir que los datos sean compartidos o publicados sin revelar la información confidencial que contiene, limitando al mismo tiempo la pérdida de información.
+* Cuando sea posible, identificadores directos (como nombres, direcciones, los números de teléfono y los números de cuenta) deben ser eliminados tan pronto como la información identificadora ya no sea necesaria. Puede eliminar los datos o reemplazarlos con seudónimos. Para datos cualitativos debería reemplazar o generalizar las características de identificación al transcribir entrevistas.
+* Los datos desidentificados que pueden ser reidentificados mediante un archivo de enlace (por ejemplo, información que vincula a los sujetos de datos a individuos identificables) se conocen como datos seudónimos. NOTA: En este caso, el archivo de enlace debe ser cifrado y almacenado de forma segura y separada de los datos de investigación desidentificados.
+  * La identificación de individuos en datos seudónimos o desidentificados puede ser aún posible utilizando combinaciones de identificadores indirectos (como edad, educación, empleo, área geográfica y condiciones médicas). Además, los datos y salidas que contengan un pequeño recuento de células pueden ser potencialmente reveladores, particularmente cuando las muestras se extraen de poblaciones pequeñas o incluyen casos con valores extremos o características relativamente raras.
+   * Como tal, cuando se pretende compartir datos potencialmente identificables o las salidas generadas a partir de los datos, puede que necesite considerar técnicas de anonimato más avanzadas, como el control de información estadística (SDC, vea [este manual](https://securedatagroup.org/sdc-handbook/) para más información).
+* Para más información sobre anonimato, puede ver [este seminario web de Enrico Glerean](https://www.youtube.com/watch?v=ILXeA4fx3cI).
 
-**7. Sharing sensitive data**
+**7. Compartir datos sensibles**
 
-If you plan to share or publish your data you must ensure that your data are appropriate and safe to share. For example, you should consider whether the data can be adequately anonymised, and whether anonymised data will remain useful (see also {ref}`Barriers to data sharing<rr-rdm-sharing>`Open Research Chapter). After applying methods to de-identify and anonymise sensitive data, there may still be a risk of re-identification (see {cite}`Meyer2018personaldata`).
+Si planea compartir o publicar sus datos, debe asegurarse de que sus datos son apropiados y seguros para compartirlos. Por ejemplo, debe considerar si los datos pueden ser anonimizados adecuadamente, y si los datos anónimos seguirán siendo útiles (ver también {ref}`barreras para compartir datos<rr-rdm-sharing>`Capítulo de Investigación Abierta). Después de aplicar métodos para des-identificar y anonimizar datos sensibles, todavía puede haber un riesgo de re-identificación (ver {cite}`Meyer2018personaldata`).
 
-An additional safety measure, or alternative to anonimisation, is applying access controls to ensure the data are shared appropriately and securely. This may involve finding a data repository which can provide suitable access controls (see [here](https://osf.io/tvyxz/wiki/8.%20Approved%20Protected%20Access%20Repositories/) for a list of protected Access Repositories). These repositories can provide access to the metadata of the project, which allows others to find and {ref}`cite the data<cm-citable-cite>`. Restricted/conditional access also provides potential re-users with the information they need to access the data, making the data {ref}`FAIR <rr-rdm-fair>`. For example, conditions to access the data could require the potential data re-user to:
-  * Register and/or provide contact details to ensure reusers are genuine and aware of their responsibilities
-  * Provide information about how they use the data
-  * Agree to conditions (data security, privacy, restrictions included in consent forms)
+Una medida de seguridad adicional, o alternativa a la anonimización, está aplicando controles de acceso para garantizar que los datos se comparten de forma adecuada y segura. Esto puede implicar encontrar un repositorio de datos que pueda proporcionar controles de acceso adecuados (ver [aquí](https://osf.io/tvyxz/wiki/8.%20Approved%20Protected%20Access%20Repositories/) para una lista de repositorios de acceso protegidos). Estos repositorios pueden proporcionar acceso a los metadatos del proyecto, lo que permite a otros encontrar y {ref}`citar los datos<cm-citable-cite>`. El acceso restringido/condicional también proporciona a los re-usuarios potenciales la información que necesitan para acceder a los datos, haciendo que los datos {ref}`FAIR <rr-rdm-fair>`. Por ejemplo, las condiciones para acceder a los datos podrían requerir el potencial re-usuario de datos a:
+  * Registrar y/o proporcionar datos de contacto para asegurar que los reusuarios sean genuinos y conscientes de sus responsabilidades
+  * Proporcionar información sobre cómo utilizan los datos
+  * Aceptar condiciones (seguridad de datos, privacidad, restricciones incluidas en los formularios de consentimiento)
 
-**Resources**
-* [Protecting sensitive data course](https://mantra.edina.ac.uk/protectionrightsandaccess) by [MANTRA](https://mantra.edina.ac.uk)
+**Recursos**
+* [Protegiendo el curso de datos sensibles](https://mantra.edina.ac.uk/protectionrightsandaccess) por [MANTRA](https://mantra.edina.ac.uk)
 * {cite}`Meyer2018personaldata`.
-* [Presentations](https://www.youtube.com/watch?v=J9kWkzK83i4&list=PLyeHH3bEQqIbgbw75gheV27nFF2ctPPpR&index=1) by [Zosia Beckles](https://youtu.be/J9kWkzK83i4), [Michele Voznick](https://youtu.be/w5v5d6r6irs) and [Tessa Darbyshire](https://youtu.be/jEFu1ykVI_I) on Responsible Data Management: Legal & Ethical Aspects as part of the [Fail to Nail it sessions](https://www.youtube.com/c/AI4ScientificDiscovery).
-* [Presentation](https://www.youtube.com/watch?v=H2mv6q4WwOU&) by Rob Gommans on GDPR and the Processing of (Identifiable) Image, Audio, and Video Data for Scientific Research Purposes.
-* [Presentation](https://youtu.be/_3bufely0c0) by Stephan Heunis on Brain research data and personal data privacy: practical tips to share and protect.
-* [Presentation](https://youtu.be/eAKhI0qde2w?t=1104) by Walter Scholger on the GDPR with resources such as informed consent templates (18:30 - 38:50).
-* [Presentation](https://www.youtube.com/watch?v=PSe2V1KTQ8w&) on handling personal data by Enrico Glerean and Päivi Lindström from Aalto University. See [here](https://www.aalto.fi/en/services/rdm-training) for the full course.
-* [Presentation](https://www.youtube.com/watch?v=J457qBdQ3xo) on the GDPR by Rosalie Salameh.
-* [Presentation](https://vimeo.com/362161972) and [article](https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/) on **privacy by design**.
-* [Presentation](https://www.youtube.com/watch?v=2WebuDlzEIw&list=PLG87Imnep1Sln3F69_kBROUrIbT5iderf&index=2) on Ethical and legal issues in data sharing by Hina Zahid.
-* [Slides](https://osf.io/5xhya/) by Hanne Elsen on Privacy and the GDPR in the Research Life Cycle.
-* [Workshop materials](https://osf.io/em3da/) on data de-identification procedures for data sharing.
+* [Presentaciones](https://www.youtube.com/watch?v=J9kWkzK83i4&list=PLyeHH3bEQqIbgbw75gheV27nFF2ctPPpR&index=1) de [Zosia Beckles](https://youtu.be/J9kWkzK83i4), [Michele Voznick](https://youtu.be/w5v5d6r6irs) y [Tessa Darbyshire](https://youtu.be/jEFu1ykVI_I) en la gestión de datos responsables: Legal & Aspectos Éticos como parte del [Fail to Nail it sessions](https://www.youtube.com/c/AI4ScientificDiscovery).
+* [Presentación](https://www.youtube.com/watch?v=H2mv6q4WwOU&) de Rob Gommans sobre GDPR y el procesamiento de datos de imagen, audio y vídeo (identificables) para fines de investigación científica.
+* [Presentación](https://youtu.be/_3bufely0c0) de Stephan Heunis sobre datos de investigación cerebral y privacidad de datos personales: consejos prácticos para compartir y proteger.
+* [Presentación](https://youtu.be/eAKhI0qde2w?t=1104) de Walter Scholger en el GDPR con recursos como plantillas de consentimiento informado (18:30 - 38:50).
+* [Presentación](https://www.youtube.com/watch?v=PSe2V1KTQ8w&) sobre el manejo de datos personales por Enrico Glerean y Pa)[video] ivi Lindstroä m de la Universidad de Aalto. Mira [aquí](https://www.aalto.fi/en/services/rdm-training) para el curso completo.
+* [Presentación](https://www.youtube.com/watch?v=J457qBdQ3xo) sobre el RGPR por Rosalie Salameh.
+* [Presentación](https://vimeo.com/362161972) y [artículo](https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/) sobre **privacidad por diseño**.
+* [Presentación](https://www.youtube.com/watch?v=2WebuDlzEIw&list=PLG87Imnep1Sln3F69_kBROUrIbT5iderf&index=2) sobre cuestiones éticas y legales en el intercambio de datos por Hina Zahid.
+* [Desliza](https://osf.io/5xhya/) por Hanne Elsen sobre la privacidad y el GDPR en el Ciclo de Investigación de Vida.
+* [Taller de materiales](https://osf.io/em3da/) sobre procedimientos de des-identificación de datos para compartir datos.

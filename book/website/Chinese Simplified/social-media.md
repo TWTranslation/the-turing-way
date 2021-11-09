@@ -1,73 +1,73 @@
 (cm-social-media)=
-# Social Media for Research Communications
+# Social Media for Research Communication
 
-There are billions of users of social media around the world. It is now common practice for the researcher to advertise their work on social media or other internet-based communication platforms. You can use social media to communicate with many different groups both academic or lay audiences.
+全世界有数十亿使用社会媒体的人。 研究人员现在通常在社会媒体或其他基于互联网的通信平台上刊登其工作广告。 您可以使用社交媒体与许多不同的学术或非专业受众进行沟通。
 
-(cm-social-media-benefits)=
-## Benefits of Using Social Media
+(cm-socio-media-benefit)=
+## 利用社会媒体的利益
 
-* Quickly and easily showcases what you, your team or your institution do.
-* Builds awareness of a topic or project that you are working on.
-* Doesn’t cost anything as most accounts can be set up and run for free. Although, maintaining a social media account successfully can be time-consuming.
-* Provides an insight into the impact that you are having in terms of followers, visits and downloads.
-* Increases visits to your website and affects search rankings.
-* You can find out about what others are doing in related projects, disciplines or organisations.
-* You can build relationships, and hopefully collaborations, through these networks.
+* 快速和轻松地展示你、你的团队或你的机构所做的事情。
+* 提高对您正在处理的主题或项目的认识。
+* 由于大多数帐户可以免费设置和运行，没有任何费用。 虽然维持社交媒体帐户成功可能耗费时间。
+* 提供关于您对关注者、访问者和下载者的影响的见解。
+* 增加访问您的网站的次数并影响搜索排名。
+* 您可以找到其他人在相关项目、学科或组织中所做的事情。
+* 你可以通过这些网络建立关系，希望能够进行合作。
 
-(cm-social-media-platforms)=
-## Social Media Platforms
+(cm-socio-media-platforms)=
+## 社交媒体平台
 
-You could use academic-based social media sites such as ResearchGate or Academia.edu or more general ones such as Twitter, Facebook, Instagram, Youtube and Linkedin.
+您可以使用基于学术的社交媒体网站，如ResearchGate 或 Acadia.edu 或更多的一般网站，如Twitter、Facebook、Instagram、Youtube和Linkedin。
 
-More than 20 million researchers (figure from spring 2021) have signed up to ResearchGate and it can therefore offer a great opportunity for sharing papers, connecting with colleagues through the messaging feature and can be used to advertise projects. There are similar benefits to using Academia.edu or Mendeley, although they are not used as much as Researchgate.
+2 000多万研究人员(2021年春季的数字)已报名进入研究门，因此可以提供分享论文的大好机会。 通过消息功能与同事连接，可用来为项目做广告。 使用Academia.edu或Mendeley也有类似的好处，尽管它们没有像研究门那样使用。
 
-A regular criticism of these sites is the spamming of your email with constant updates that are hard to turn off.
+对这些站点的定期批评是您的电子邮件的垃圾邮件，并不断更新，很难关闭。
 
-More general social media sites are very popular with academic audiences and a recent Nature survey {cite:ps}`Noorden2014social` highlighted that researchers mostly use Twitter and Linkedin for professional use rather than Facebook.
+更普遍的社交媒体网站在学术界受众中非常受欢迎，最近的一次自然调查 {cite:ps}`Noorden2014社交` 突出表明，研究人员大多使用Twitter和Linkedin进行专业使用，而不是使用Facebook。
 
-This survey also showed that Twitter had a wider range of uses compared to the other social media platforms, such as following discussions, posting work content, discovering peers, discovering recommended papers and commenting on others research. It has become the communication channel of choice for many researchers and is opening up research discussions at a much earlier stage than previously seen.
+这次调查还表明，Twitter与其他社交媒体平台相比具有更广泛的用途，例如在讨论之后。 发布工作内容，发现同伴，发现推荐的论文并评论其他研究。 它已成为许多研究人员选择的交流渠道，并正在比以往更早的阶段开始研究讨论。
 
-Twitter can be used to build up a personal academic profile, for use throughout a research project and can also be used by organisations to promote their work and message. It can make research more visible and understandable to wider communities by allowing non-scientists to find new research instantaneously. Scientists can also be contacted directly by the public, which enables a more approachable level of communication {cite:ps}`Kelesidou2021scicomm`.
+Twitter可以用来建立个人学术资料库， 在整个研究项目中使用，各组织也可利用这一工具来宣传其工作和信息。 它允许非科学家即时寻找新的研究，从而使更广泛的社区更能看到和理解研究工作。 公众也可以直接与科学家联系，这样就可以更容易地进行通信 {cite:ps}`Kelesidou2021scicomm`
 
-Due to its popularity and wide range of uses for academic purposes, the next two sub-chapters focus on using Twitter. However, below is an overview of the most popular general social media sites used by researchers - Twitter, Linkedin, Facebook and Instagram.
+由于它很受欢迎，而且用于学术目的的范围很广，下面两章的重点是使用Twitter。 然而，下文概述了研究人员使用的最受欢迎的一般社会媒体网站――Twitter、Linkedin、Facebook 和 Instagram。
 
-### Twitter
+### 推特
 
-* They have 353 million monthly active users.
-* It is less formal than other platforms and very popular with academic audiences.
-* Character limit is small, only 280. But you can join tweets in threads.
-* You can tag others in your tweets or photos.
-* You can add links, photos (size 1200 x 628 pixels) and videos (max 2 minutes 20 seconds) in tweets. You can also add links to videos.
-* If you don't have an image, adding a link will generate a preview image.
-* It is a conversational and chatty platform. So be chatty in tweets and use images and gifs to make your tweets more fun.
+* 他们每月有3.53亿名活跃用户。
+* 它不如其他平台正规化，而且受到学术界人士的欢迎。
+* 字符限制小，只有280。 但你可以在线程里加入推文。
+* 您可以在您的推文或照片中标记他人。
+* 您可以在推文中添加链接、照片 (大小 1200 x 628 像素)和视频 (最多 2 分钟20 秒)。 您也可以添加链接到视频。
+* 如果您没有图像，添加链接将生成预览图像。
+* 这是一个交谈和聊天平台。 所以在tweets中聊天并使用图像和gifs使您的推文更加有趣。
 
 ### Linkedin
 
-* They have 250 million monthly active users.
-* It is a more formal and professional communication channel than Twitter and Facebook.
-* Character limit is larger than Twitter at 63,206.
-* You can tag others in your posts.
-* You can add links, photos (size 1200 x 628 pixels) and videos (max 10 minutes) in posts.
-* It is used as an interactive CV, for recruitment and professional networking.
-* Keeping posts brief is a good idea.
-* You can target a particular sector or industry.
-* If you have no image for your post but do have a link, it will make a preview of the link so make sure the page you are linking to is up to date and has a relevant image.
+* 每月有2.5亿名活跃用户。
+* 这是一个比Twitter和Facebook更加正规和专业的沟通渠道。
+* 字符限制在 63 206 上大于Twitter 。
+* 您可以在您的帖子中给他人添加标签。
+* 您可以在帖子中添加链接、照片 (大小 1200 x 628 像素)和视频 (最大 10 分钟)。
+* 它作为一种交互式的志愿人员方案用于征聘和建立专业网络。
+* 保持职位简短是一个好主意。
+* 您可以针对某个特定部门或行业。
+* 如果您的帖子没有图片，但确实有链接， 它将预览链接，以确保您链接的页面是最新的，并具有相关的图像。
 
 ### Facebook
 
-* They have 2.8 billion monthly active users.
-* Character limit the same as Linkedin at 63,206.
-* You can add tags to other users.
-* You can add links, photos (size 1200 x 628 pixels) and videos (up to 240 minutes and max 4GB size file) to your posts.
-* It is a community-based platform so you have to create that community and be relevant to it.
-* Businesses have to pay for their posts to be seen as Facebook prioritises friends and family in the news feed algorithm. So it's not the best platform for professional organisations.
+* 每月有28亿名活跃用户。
+* 字符上限与Linkedin相同：63,206。
+* 您可以向其他用户添加标签。
+* 您可以将链接、照片 (大小 1200 x 628 像素)和视频 (最多 240 分钟，最多4GB 大小文件) 添加到您的帖子。
+* 这是一个基于社区的平台，所以你必须创建这个社区并与之相关。
+* 在新闻源算法中，企业必须支付其帖子的费用才能被视为Facebook的优先朋友和家人。 因此，它不是专业组织的最佳平台。
 
 ### Instagram
 
-* They have 1.2 billion monthly active users.
-* Character limit is 2,200. So larger than Twitter but less than Facebook and Linkedin.
-* You can add tags to other users.
-* You can only add links in your bio so not in posts. But you can feature links using Linktree.
-* Photos are square (1080 x 1080 pixels).
-* Video length between 3 and 60 seconds, max file size is 4GB. Stories are 15 seconds long.
-* It is a visual media platform so you need a bank of videos to use it effectively for professional use.
+* 他们每月有12亿名活跃用户。
+* 字符上限为2 200人。 比Twitter大，但小于Facebook和Linkedin。
+* 您可以向其他用户添加标签。
+* 您只能在您的个人信息中添加链接，所以不能在帖子里添加链接。 但您可以使用 Linktree 来添加链接。
+* 照片为方形(1080 x 1080 像素)。
+* 视频长度介于 3 到 60 秒之间，最大文件大小是 4GB。 故事长度为15秒。
+* 它是一个视觉媒体平台，因此您需要一个视频库才能有效地用于专业用途。

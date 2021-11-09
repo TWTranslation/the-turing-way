@@ -1,178 +1,178 @@
 (er-activism-unionisation)=
 # Unionisation
 
-(er-activism-unionisation-what)=
-## What is a union?
+(النشطة-النقابات-ماتو)=
+## ما هو الاتحاد؟
 
-A trade union is a formalised way for workers to organise and bargain collectively at an institutional, sectoral or national level. A union is organised into branches which are spread geographically (for example, North London) or at an institutional level (for example, labs or departments), depending on the distribution of members and how the union works. Members of unions typically pay a monthly fee, although this is sometimes waived for certain categories of members, for example, the UK union UCU allows graduate students to join for free.
+والنقابة هي طريقة ذات طابع رسمي للعمال لكي ينظموا ويفاوضوا جماعياً على المستوى المؤسسي أو القطاعي أو الوطني. يتم تنظيم النقابة في فروع موزعة جغرافياً (على سبيل المثال شمال لندن) أو على مستوى مؤسسي (على سبيل المثال المختبرات أو الأقسام) حسب توزيع الأعضاء وكيفية عمل النقابة. وعادة ما يدفع أعضاء النقابات رسماً شهرياً، على الرغم من الإعفاء من ذلك أحياناً لفئات معينة من الأعضاء، فعلى سبيل المثال، يسمح اتحاد نقابات المملكة المتحدة لطلاب الدراسات العليا بالانضمام مجاناً.
 
-Some members take up additional responsibilities as "reps" or "shop stewards", helping to organise the running of branches, supporting members with workplace issues, and sometimes representing the branch at a national level. Larger unions often have full-time employees to support reps and workers, who are also responsible for areas such as developing union policy, press relations, and organising any large meetings for example, annual conferences.
+ويضطلع بعض الأعضاء بمسؤوليات إضافية بوصفهم "مديرين" أو "مديرين للمتاجر"، مما يساعد على تنظيم إدارة الفروع، • دعم الأعضاء الذين لديهم قضايا تتعلق بمكان العمل، وتمثيل الفرع أحياناً على المستوى الوطني. وكثيراً ما يكون لدى النقابات الكبرى موظفون متفرغون لدعم المؤسسات والعمال، وهم مسؤولون أيضاً عن مجالات مثل وضع السياسة النقابية. العلاقات مع الصحافة وتنظيم أي اجتماعات كبيرة مثل المؤتمرات السنوية.
 
-In some, but not all countries, being a member of a trade union is a protected characteristic. This means organisations are not allowed to fire people for being members (but this has not always been the case). Under the General Data Protection Regulation (GDPR), the European Union considers union membership to be sensitive data and in the same category as genetic data or data on gender.
+وفي بعض البلدان، وليس جميعها، يشكل الانضمام إلى عضوية نقابة عمالية سمة محمية. وهذا يعني أن المنظمات غير مسموح لها بطرد الأشخاص بسبب عضويتها (ولكن هذا لم يحدث دائماً). بموجب اللائحة العامة لحماية البيانات، ويعتبر الاتحاد الأوروبي أن العضوية في النقابات بيانات حساسة وتندرج في نفس فئة البيانات الجينية أو البيانات المتعلقة بنوع الجنس.
 
-(er-activism-unionisation-unionactivities)=
-## What can unions do?
+(النشاط النقابي - الأنشطة النقابية) =
+## ماذا تستطيع الاتحادات أن تفعل؟
 
-Unions are a vehicle for their members to orgaise together and support each other in their workplace and industry. Unions take lots of different actions to improve working conditions for their members.
+والنقابات هي وسيلة لأعضائها لكي يعملوا معا ويدعموا بعضهم بعضا في مكان عملهم وصناعتهم. وتتخذ النقابات الكثير من الإجراءات المختلفة لتحسين ظروف العمل لأعضائها.
 
-These can be at individual, workplace, or industry level.
+ويمكن أن يكون ذلك على مستوى الفرد أو مكان العمل أو الصناعة.
 
-At an individual level, unions can:
-* Offer support for individuals who have issues at work: for example, supporting individuals who have been discriminated against or bullied in their workplace, or whose duties involve unsafe practices
-* Make people aware of their rights at work, how policies affect them, and what the legal obligations of the organisation are
+وعلى المستوى الفردي، يمكن للنقابات القيام بما يلي:
+* تقديم الدعم للأفراد الذين لديهم مشاكل في العمل: على سبيل المثال دعم الأفراد الذين تعرضوا للتمييز أو المضايقة في مكان عملهم، أو الذين تنطوي واجباتهم على ممارسات غير مأمونة
+* جعل الناس على وعي بحقوقهم في العمل، وكيفية تأثير السياسات عليهم، وما هي الالتزامات القانونية للمنظمة.
 
-At a workplace level, union branch members can:
-* Negotiate with management on behalf of their members: this is called 'collective bargaining' and can be used to improve working conditions, salaries, pensions
-* Review existing policies in a workplace and advocate for changes that improve equity, remove patriarchal/societal influences, and increase support for marginalised members of the workforce
-* Raise health and safety concerns about particular work areas or duties
-* Organise members to "work to rule", where no overtime or duties outside those in formal job descriptions are undertaken
-* Go on strike, where no work is performed and workers instead "picket" their workplaces by meeting outside and encouraging others to join them
-* Organise other industrial action
-* Discuss policies and positions the members would like to adopt on particular issues
+وعلى مستوى العمل، يستطيع أعضاء فروع النقابات القيام بما يلي:
+* التفاوض مع الإدارة نيابة عن أعضائها: ويسمى هذا "المساومة الجماعية" ويمكن استخدامه لتحسين ظروف العمل والمرتبات والمعاشات التقاعدية
+* استعراض السياسات القائمة في مكان العمل والدعوة إلى إجراء تغييرات من شأنها تحسين الإنصاف، وإزالة التأثيرات الأبوية/المجتمعية، وزيادة الدعم المقدم إلى أفراد القوة العاملة المهمشين
+* زيادة الشواغل المتعلقة بالصحة والسلامة في مجالات عمل معينة أو واجبات معينة
+* تنظيم الأعضاء على أساس "العمل كقاعدة" حيث لا يتم الاضطلاع بساعات إضافية أو بواجبات غير تلك الواردة في توصيفات الوظائف الرسمية.
+* اذهب إلى الإضراب، حيث لا يؤدى أي عمل والعمال بدلاً من ذلك "ينظمون" أماكن عملهم عن طريق الاجتماع بالخارج وتشجيع الآخرين على الانضمام إليهم
+* تنظيم عمل صناعي آخر
+* مناقشة السياسات والمواقف التي يود الأعضاء اعتمادها بشأن مسائل معينة
 
-At an industry level, unions can:
-* Input into government policy through consultation responses or lobbying (for example, speaking to the press on an issue, writing articles, or submitting to formal processes such as hearings)
-* Organise strikes and industrial action across whole industries
+وعلى صعيد الصناعة، يمكن للنقابات القيام بما يلي:
+* المساهمة في السياسات الحكومية من خلال الاستجابات للتشاور أو ممارسة الضغط (على سبيل المثال التحدث إلى الصحافة بشأن مسألة أو كتابة مقالات أو الخضوع لإجراءات رسمية مثل جلسات الاستماع)
+* تنظيم الإضرابات والإجراءات الصناعية في جميع الصناعات
 
-(er-activism-unionisation-industrialaction)=
-### What is industrial action?
+(النشطة-النقابات-الصناعية)=
+### ما هو العمل الصناعي؟
 
-Industrial action covers a range of different activities that unions members take together to highlight issues in their workplace or industry. The most well-known of these is "striking" or "work stoppages", where members refuse to come into work and form picket lines outside their workplaces. However, there are a lot of other types of activities that fall under industrial action, including: working to rule (or working to contract), mass reporting of health and safety violations, work place occupations, banner drops, or marches.
+ويغطي العمل الصناعي مجموعة من الأنشطة المختلفة التي يضطلع بها أعضاء النقابات معاً لإبراز القضايا في أماكن عملهم أو صناعاتهم. وأكثر هذه الحالات شهرة هي "الإضراب" أو "التوقف عن العمل"، حيث يرفض الأعضاء الدخول إلى العمل ويشكلون خطوطا للتضليل خارج أماكن عملهم. غير أن هناك الكثير من أنواع الأنشطة الأخرى التي تدخل في نطاق العمل الصناعي، بما في ذلك: العمل على وضع القواعد (أو العمل على التعاقد) الإبلاغ على نطاق واسع عن انتهاكات الصحة والسلامة، والمهن في أماكن العمل، وقطع اللافتات، والمسيرات.
 
 (er-activism-unionisation-unionhow)=
-## How does a union help scientists and researchers?
+## كيف تساعد النقابات العلماء والباحثين؟
 
-Scientists and researchers do lots of different roles, and there are specific ways that unions can help with those roles.
+ويقوم العلماء والباحثون بأدوار كثيرة مختلفة، وهناك طرق محددة يمكن أن تساعد النقابات في القيام بهذه الأدوار.
 
-* Advocating for open research to be actively supported and encouraged by institutions as well as taken into consideration in career progression
-* Demanding legal support in research
-* Supporting PhDs and post doctoral researchers in their relationships with PIs
-* Campaigning against casualisation of work, for example, short-term, hourly-paid teaching or research positions
-* Offering an alternative vision of academic research as a collaborative, open, iterative endeavour rather than a solo, competitive pursuit
-* Providing a forum for sharing other concerns around how scientific research is done and finding other researchers who want to tackle them
+* الدعوة إلى دعم وتشجيع البحوث المفتوحة من جانب المؤسسات وكذلك مراعاتها في التقدم الوظيفي
+* طلب الدعم القانوني في مجال البحوث
+* دعم الدكتوراه والباحثين في مرحلة ما بعد الدكتوراه في علاقاتهم مع مؤسسات التعليم العالي
+* تنظيم حملات ضد إصابات العمل، على سبيل المثال وظائف التدريس أو البحث القصيرة الأجل بأجر في الساعة
+* عرض رؤية بديلة للبحث الأكاديمي كمسعى تعاوني ومفتوح وتكراري لا كمسعى فردي تنافسي
+* توفير منتدى لتبادل الشواغل الأخرى بشأن كيفية إجراء البحوث العلمية وإيجاد باحثين آخرين يريدون معالجتها
 
-Scientists and researchers work in universities, research institutions, and nonprofits. These are all workplaces: they have workplace policies, and unions can help create policies and monitor whether they are being enforced.
+ويعمل العلماء والباحثون في الجامعات ومؤسسات البحوث وغير الربحية. وهذه كلها أماكن عمل: فلديها سياسات في أماكن العمل، ويمكن للنقابات أن تساعد في وضع السياسات ومراقبة ما إذا كانت تُنفَّذ أم لا.
 
 (er-activism-unionisation-unionhistory)=
-### A Bit of History: The Association of Scientific Workers (United Kingdom)
+### مجموعة من التاريخ: رابطة العمال العلميين (المملكة المتحدة)
 
-This was a trade union for scientists founded in the early 20th Century, which had a leading role in founding similar unions across the globe.
+كانت هذه نقابة للعلماء تأسست في أوائل القرن العشرين، وكان لها دور رائد في تأسيس نقابات مماثلة في جميع أنحاء العالم.
 
 ```{figure} ../../figures/scientific-union-badge.jpg
 ---
-height: 500px
-name: scientific-union-badge
-alt: A blue enamel badge with AScW, that stands for Association of Scientific Workers printed on it on a wooden background.
+الطول: 500px
+الاسم: شارة الاتحاد العلمي
+البديل : شارة ناميل أزرق مع AScW, وهو يمثل رابطة العمال العلميين المطبوعة عليها على خلفية خشبية.
 ---
-AScW (stands for
-Association of Scientific Workers) badge. Image from the Instagram account [@BadgesofStruggle](https://www.instagram.com/badgesofstruggle/) *(text and image reproduced under CC-BY with permission from the account)*
+شارة AScW (تعني
+رابطة العمال العلميين). صورة من حساب Instagram [@BadgesofStruggle](https://www.instagram.com/badgesofstruggle/) *(نص وصورة مستنسخة تحت CC-BY مع إذن من الحساب)*
 ```
-> The union began its history as the National Union of Scientific Workers in 1918, as a result of the rapid and increased class and professional consciousness, as well as politicisation of scientists in the wake of the First World War. In 1927 the name was changed to the AScW, and it continued as such until 1968 when it merged with the Association of Supervisory Staff, Executives and Technicians (ASSET) to form the Association of Scientific, Technical and Managerial Staffs (ASTMS) a precursor of MSF and ultimately Unite. The union was established “with an explicitly socialist platform”, and several of its leading figures were both respected scientists and active socialists and Communist Party members, such as Hyman Levy and John Desmond Bernal. Several Nobel Prize winners were members. The union organised scientists and technicians in government and private sector research, and became a prominent propagandist for the expansion of publicly funded R&D as well as taking political positions regarding the ethical use of science, against the global threat of fascism, and of guiding scientific research towards peaceful ends. The AScW went on to found the World Federation of Scientific Workers in 1946, an organisation which during the Cold War was accused of toeing the Soviet line, and being a communist front.
+> وقد بدأت النقابة تاريخها في عام 1918 بوصفها الاتحاد الوطني للعمال العلميين. نتيجة للوعي الطبقي والمهني السريع والمتزايد، وكذلك تسييس العلماء في أعقاب الحرب العالمية الأولى. وفي عام 1927، تغير الاسم ليصبح اسمه ”AcW“، واستمر على هذا النحو حتى عام 1968 عندما اندمجت مع رابطة الموظفين الإشرافيين، • إنشاء رابطة الموظفين العلميين والتقنيين والإداريين كسلائف لأطقم الموظفين العلمية والتقنية والإدارية، وفي نهاية المطاف وحدة واحدة. وقد تأسس الاتحاد "على أساس برنامج اشتراكي صريح"، وكان العديد من شخصياتها الرائدة علماء محترمين واشتراكيين نشطين وأعضاء في الحزب الشيوعي مثل هيمان ليفي وجون ديزموند برنال. وكان العديد من الفائزين بجائزة نوبل أعضاء. ونظمت النقابة علماء وتقنيين في مجال بحوث الحكومة والقطاع الخاص، وأصبح دعاية بارزة لتوسيع نطاق الـ R&D الممول من القطاع العام فضلا عن اتخاذ مواقف سياسية فيما يتعلق بالاستخدام الأخلاقي للعلوم، ضد التهديد العالمي المتمثل في الفاشية، وتوجيه البحث العلمي نحو تحقيق غايات سلمية. واستمرت الرابطة في تأسيس الاتحاد العالمي للعمال العلميين في عام 1946. منظمة اتهمت خلال الحرب الباردة بخوض الخط السوفياتي، وبكونها جبهة شيوعية.
 
-The AScW communicated with members via branch bulletins as well as a national paper: The Scientific Worker [Click here to read a copy on the Wellcome Archive](https://wellcomelibrary.org/item/b19915299#?c=0&m=0&s=0&cv=0&z=-0.8157%2C-0.0826%2C2.6314%2C1.6529)
+اتصل AcW بالأعضاء عبر نشرات فرع بالإضافة إلى ورقة وطنية: العامل العلمي [انقر هنا لقراءة نسخة من أرشيف Wellcome](https://wellcomelibrary.org/item/b19915299#?c=0&m=0&s=0&cv=0&z=-0.8157%2C-0.0826%2C2.6314%2C1.6529)
 
-(er-activism-unionisation-start)=
-## I have never been part of a union before: where do I start?
+(er-actim-ionisation-start)=
+## لم أكن أبدا جزءا من اتحاد من قبل: أين أبدأ؟
 
-Start by finding out if there is a union already in your workplace. If so, there will be a person you can talk to about joining: they might be known as the union rep or steward. Joining the union that already represents people in your workplace increases its ability to bargain on behalf of everyone and organise the workplace. Some workplaces may have several different unions that represent different types of staff. In these cases, you should join the one you feel best matches the type of work you do.
+ابدأ بالتعرف على ما إذا كانت هناك نقابة موجودة في مكان عملك. إذا كان الأمر كذلك، فسيكون هناك شخص يمكنك التحدث إليه عن الانضمام: قد يُعرف باسم الاتحاد أو الراعي. الانضمام إلى الاتحاد الذي يمثل بالفعل الناس في مكان عملك يزيد من قدرته على المساومة نيابة عن الجميع وتنظيم مكان العمل. من الممكن أن يكون لبعض أماكن العمل عدة نقابات مختلفة تمثل فئات مختلفة من الموظفين. في هذه الحالات، يجب أن تنضم إلى الشخص الذي تشعر بأنه أفضل تطابق نوع العمل الذي تقوم به.
 
-If there is not a union in your workplace, look into the unions that already exist in your area or country. [link to section on examples of unions](er-activism-unionisation-unionexamples) You might be able to join one that is relevant to your industry or duties: or you might be able to join a general union that represents lots of different workers.
+إذا لم تكن هناك نقابة في مكان عملك، فانظر إلى النقابات الموجودة بالفعل في منطقتك أو في بلدك. [رابط القسم الخاص بأمثلة النقابات](er-activism-unionisation-unionexamples) قد تكون قادراً على الانضمام إلى واحدة ذات صلة بصناعتك أو بواجباتك: أو قد تكون قادراً على الانضمام إلى نقابة عامة تمثل الكثير من العمال المختلفين.
 
-To join a union, you might have to pay union fees or dues. These are almost always sliding scale, based on how much you earn: some unions also have free membership for people in certain positions or roles.
+للانضمام إلى النقابة، من الممكن أن يكون عليك دفع رسوم النقابة أو رسوم الاتحاد. وهي تقريباً مقياس متدنٍ، استناداً إلى مقدار ما تكتسبه: فبعض النقابات لديها أيضاً عضوية حرة للأشخاص الذين يشغلون مناصب أو أدوار معينة.
 
 (er-activism-unionisation-unionjoin)=
-## What you can do as a union member
+## ماذا بإمكانك أن تفعله كعضو في النقابة
 
-Unions are collective projects and they are people-powered!
+فالاتحادات هي مشاريع جماعية وهي مكونة من الناس!
 
-### Be an active member
+### كن عضوا نشطا
 
-Once you are a member, you can attend meetings. Attending union meetings in your workplace is also a good way to find out what issues are affecting your colleagues. Meetings are a good place to find out what issues the union is working on and to discuss them with other members. Attending meetings and keeping up with union communications are good way to find out how to raise issues that you are concerned about. Your union may also have regional or national meetings: these are good places to find out more about union work in different areas.
+عندما تكون عضوا فيمكنك أن تحضر الاجتماعات. كما أن حضور اجتماعات النقابات في مكان العمل هو طريقة جيدة للتعرف على المسائل التي تؤثر على زملائك. وتشكل الاجتماعات مكانا جيدا للتعرف على المسائل التي يعكف الاتحاد على تناولها ومناقشتها مع أعضاء آخرين. إن حضور الاجتماعات ومواكبة البلاغات النقابية طريقة جيدة لمعرفة كيفية إثارة القضايا التي تهمك. من الممكن أن يعقد اتحاد نقاباتك أيضاً اجتماعات إقليمية أو وطنية: إنها أماكن جيدة للتعرف على المزيد عن العمل النقابي في مختلف المجالات.
 
-Like any organisations, unions have their own systems of governance and decision-making processes. These are ways for you to have a say in what your union is doing. You can get involved by voting for people to take on particular roles at workplace or industry level, proposing topics for debate in meetings, or contributing to ongoing debates. You might also be asked to vote on specific actions that your workplace union will take, including accepting or rejecting a policy proposal made by management.
+وللنقابات، شأنها في ذلك شأن أي منظمات، نظمها الخاصة للحكم وعمليات صنع القرار. هذه هي الطرق التي تساعدك على أن يكون لك رأي في ما يفعله الاتحاد. يمكنك المشاركة عن طريق التصويت للأشخاص للقيام بأدوار معينة في مكان العمل أو على مستوى الصناعة. اقتراح مواضيع للمناقشة في الاجتماعات أو المساهمة في المناقشات الجارية. من الممكن أن يطلب منك التصويت على الإجراءات المحددة التي ستتخذها نقابة العمل لديك، • إدراج قبول أو رفض اقتراح بشأن السياسة العامة مقدم من الإدارة.
 
-Your union may ask you for input about issues: these can range from things that are specific to your job or workplace, to issues that affect your whole industry. This input is valuable to help unions raise concerns and make changes. Your union should have a safe, confidential way for you to share your experiences and opinions (if you're not sure about the channels of communication your union is using, talk about this to the specific people who are asking for input: you can ask to use alternative channels if need be.)
+من الممكن أن تطلب منك إتحاد نقاباتك مدخلات عن الأمور: هذه الأمور من الممكن أن تتفاوت من أشياء خاصة بعملك أو مكان عملك. إلى المشكلات التي تؤثر على الصناعة بأكملها. وهذه المساهمة مفيدة لمساعدة النقابات على إثارة الشواغل وإجراء التغييرات. يجب أن يكون اتحادك آمناً، طريقة سرية لتقاسم تجاربك ووجهات نظرك (إذا لم تكن متأكداً من قنوات الاتصال التي يستخدمها الاتحاد، تحدث عن هذا للأشخاص الذين يطلبون مدخلات: يمكنك أن تطلب استخدام قنوات بديلة إذا لزم الأمر.)
 
-Your union may ask you to take specific actions: for example, to sign a petition, write to an elected official, or take part in a social media campaign. In some cases, your union may decide to consider or take strike action. The process for going on strike differs in different unions, and in some countries there are legal restrictions that cover what kinds of actions are protected.
+بإمكان الاتحاد أن يطلب منك اتخاذ إجراءات محددة: على سبيل المثال توقيع الالتماس. الكتابة إلى مسؤول منتخب، أو المشاركة في حملة إعلامية اجتماعية. في بعض الحالات من الممكن أن يقرر اتحاد نقاباتك النظر في الإضراب أو أن يقوم بإضراب. وتختلف عملية الإضراب باختلاف النقابات. وتوجد في بعض البلدان قيود قانونية تغطي أنواع الإجراءات التي تحظى بالحماية.
 
-(er-activism-unionisation-representative)=
-### Become a representative
+(المناضلون - الممثلون النقابيون)=
+### كن ممثلاً
 
-Like any community, unions need people to take on organisational roles within the union. These roles will vary depending on how big your union is, and what it is working in.
+وعلى غرار أي مجتمع محلي، تحتاج النقابات إلى أن يقوم الناس بأدوار تنظيمية داخل الاتحاد. هذه الأدوار تختلف باختلاف حجم الاتحاد، وما هو العمل فيه.
 
-Some roles might include:
-* Supporting other union members: for example, accompanying your colleagues to disciplinary meetings or meetings with management, to provide support and take notes
-* Being a union rep for a particular group of workers within your workplace: this might be a team or a department, or a group of workers doing similar roles across the workplace
-* Negotiating a particular issue, for example pay, pensions, or holiday entitlements, with management
-* Representing your workplace at larger union gatherings, for example a national meeting
+وقد تشمل بعض الأدوار ما يلي:
+* دعم أعضاء النقابة الآخرين: على سبيل المثال مرافقة زملائك في الاجتماعات التأديبية أو الاجتماعات مع الإدارة لتقديم الدعم وتلقي الملاحظات
+* كونك نقابة لمجموعة معينة من العمال داخل مكان عملك: قد يكون هذا فريق أو إدارة، أو مجموعة من العمال يقومون بأدوار مماثلة في جميع أنحاء مكان العمل
+* التفاوض بشأن مسألة معينة، مثل الأجور أو المعاشات التقاعدية أو استحقاقات العطلات مع الإدارة
+* تمثيل مكان عملك في تجمعات نقابية أكبر، على سبيل المثال اجتماع وطني
 
-The process for becoming a representative will vary depending on how your union operates. You might need to stand for election, or be approved by a meeting of union members.
+سوف تختلف عملية أن تصبح ممثلاً باختلاف الطريقة التي تعمل بها نقاباتك. قد تحتاج إلى الترشح للانتخاب، أو الحصول على موافقة من اجتماع لأعضاء النقابات.
 
 (er-activism-unionisation-campaign)=
-### Lead a campaign
+### قيادة حملة
 
-If you have issues in your workplace or industry that you feel strongly about then one way to push for change is by leading a campaign within your union (at either a branch or national level). Campaigns can take almost as many forms as there are issues to campaign on!
+إذا كانت لديك مشاكل في مكان العمل أو الصناعة لديك تشعر بها بشدة عندها طريقة واحدة للضغط من أجل التغيير هي قيادة حملة داخل نقابتك (على مستوى الفرع أو على المستوى الوطني). يمكن للحملات أن تأخذ ما يقرب من عدد القضايا المطروحة للحملة!
 
-As a starting point, it's good to have a clear issue and aim(s) in mind for what you would like to achieve and a few other people who agree with what you want to change.
+كنقطة انطلاق، من الجيد أن يكون لدينا قضية واضحة و هدف (أهداف) في أذهاننا لما تريد أن تحققه و عدد قليل من الناس الآخرين الذين يتفقون مع ما تريد تغييره.
 
-If you think this is what you want to do, your union will usually have resources on how to get started. You can also find more practical steps in the Internal Policy Advocacy Chapter of the Ethics Book.
+إذا كنت تعتقد أن هذا هو ما تريد أن تفعله، فإن اتحادك لديه عادة موارد حول كيفية البدء. ويمكنكم أيضا أن تجدوا خطوات عملية أكثر في الفصل الخاص بالدعوة للسياسات الداخلية في كتاب الأخلاقيات.
 
-(er-activism-unionisation-resources)=
-#### More resources
-Most unions will have examples or guides on how to join or start campaigns (for example, UNISON, a UK union has a [webpage with details](https://www.unison.org.uk/get-involved/campaign-for-change/)).
+(النشطون - الموارد النقابية)
+#### المزيد من الموارد
+وستحصل معظم النقابات على أمثلة أو أدلة عن كيفية الانضمام إلى الحملات أو الشروع فيها (على سبيل المثال UNISON، اتحاد المملكة المتحدة لديه صفحة ويب [مع التفاصيل](https://www.unison.org.uk/get-involved/campaign-for-change/)).
 
-Other organisations that offer training and support on how to campaign effectively include:
+وتشمل المنظمات الأخرى التي تقدم التدريب والدعم بشأن كيفية القيام بحملات فعالة ما يلي:
 
-* [The Ella Baker School of Organising](https://www.ellabakerorganising.org.uk/)
-* [The Union of Concerned Scientists](https://www.ucsusa.org/building-skills-science-network)
+* [مدرسة إيلا بيكر للتنظيم](https://www.ellabakerorganising.org.uk/)
+* [اتحاد العلماء المهتمين](https://www.ucsusa.org/building-skills-science-network)
 
 (er-activism-unionisation-unionexamples)=
-### Examples of relevant unions
+### أمثلة على النقابات ذات الصلة
 
-We recognise that the list below is very UK-centric and would welcome additions for other countries.
+ونحن ندرك أن القائمة الواردة أدناه تتمحور حول المملكة المتحدة ونرحب بإضافاتها إلى البلدان الأخرى.
 
-#### Global
-* Tech Workers Coalition, Global (organisation focused on tech workers in industry) [website](https://techworkerscoalition.org/)
+#### عام
+* تحالف عمال التكنولوجيا، منظمة عالمية (تركز على عمال التكنولوجيا في الصناعة) [موقع ويب](https://techworkerscoalition.org/)
 
-#### United Kingdom
-* **Unite**, United Kingdom, the largest professional services union with over 1 million members [website](https://unitetheunion.org/)
-* **University & Colleges Union (UCU)**, United Kingdom, covers researchers, academic staff and higher grades of professional services staff in Higher Education & Further Education institutions [website](https://www.ucu.org.uk/)
-* **Prospect**, United Kingdom, union covering scientists & engineers [website](https://members.prospect.org.uk/our-industries/science/index)
-* **Public and Commercial Services Union (PCS)**, United Kingdom, civil service union [website](https://www.pcs.org.uk/about-pcs)
-* United Voices of the World (UVW), Charity Sector Workers Branch [website](https://www.uvwunion.org.uk/en/sectors/charity-sector/)
-* Independent Workers’ Union of Great Britain (IWGB), Charity Sector Workers Branch [website](https://iwgb.org.uk/page/iwgb-charity-workers-branch/)
-    * IWGB also has a number of branches covering cleaners, receptionists and game industry workers
+#### المملكة المتحدة
+* **اتحدوا**، المملكة المتحدة ، أكبر اتحاد خدمات مهني مع أكثر من مليون عضو [موقع ويب](https://unitetheunion.org/)
+* **جامعة & اتحاد الكليات (UCU)**المملكة المتحدة، تغطي الباحثين، الموظفون الأكاديميون والدرجات العليا من موظفي الخدمات المهنية في التعليم العالي & مؤسسات التعليم التكميلي [على شبكة الإنترنت](https://www.ucu.org.uk/)
+* **التوقعات**المملكة المتحدة، اتحاد يغطي العلماء & المهندسين [موقع](https://members.prospect.org.uk/our-industries/science/index)
+* **اتحاد الخدمات العامة والتجارية (PCS)**، المملكة المتحدة ، اتحاد الخدمة المدنية [موقع الويب](https://www.pcs.org.uk/about-pcs)
+* أصوات العالم المتحدة (UVW)، فرع عمال قطاع الأعمال الخيرية [موقع](https://www.uvwunion.org.uk/en/sectors/charity-sector/)
+* اتحاد العمال المستقلين في بريطانيا العظمى، فرع عمال قطاع الأعمال الخيرية [الموقع الإلكتروني](https://iwgb.org.uk/page/iwgb-charity-workers-branch/)
+    * ولدى الفريق العامل الدولي أيضا عدد من الفروع تشمل عمال التنظيف والاستقبال والعاملين في صناعة الألعاب.
 
-#### Ireland
-* **Medical Laboratory Scientists Association (MLSA)**, Ireland, is the sole trade union representing over 1600 Medical Scientists in Ireland [website](https://mlsa.ie/who-we-are)
+#### آيرلندا
+* **رابطة علماء المختبرات الطبية**، أيرلندا، هي النقابة الوحيدة التي تمثل أكثر من 1600 عالم طبي في أيرلندا [موقع الويب](https://mlsa.ie/who-we-are)
 
-#### France
-* **Confédération Française Démocratique du Travail (CFDT)** is the largest French trade union confederation by number of members. It originated as a secular branch of the Christian trade union Confédération Française des Travailleurs Chrétiens (CFTC) [website](https://cfdt.fr/)
-* **Confédération Générale du Travail (CGT)** is the second largest French trade union by number of members. The CGT is concentrating its attention to trade-unionism in the private sector [website](https://www.cgt.fr/)
+#### فرنسا
+* **Confe<unk> de<unk> ration Franc<unk> aise De<unk> mocratique du Travail (CFDT)** هو أكبر اتحاد نقابي فرنسي بعدد الأعضاء. نشأ كفرع علماني في موقع النقابة المسيحية Confe<unk> de<unk> ration Francaise des Travailurs Chre<unk> tiens [](https://cfdt.fr/)
+* **Confédération Générale du Travail (CGT)** is the second largest French trade union by number of members. يركز فريق الخبراء الاستشاري اهتمامه على النزعة النقابية في موقع القطاع الخاص [](https://www.cgt.fr/)
 * **Confédération Générale du Travail-Force Ouvrière (CGT-FO)** was founded by former members of the General Confederation of Labor (CGT) who accused that federation to be influenced by the French Communist Party [website](https://www.force-ouvriere.fr/?lang=fr)
-* **Confédération Française de l’Encadrement-Confédération Générale des Cadres (CFE-CGC)** is solely focused on organising unions for professional employees having higher education or in management or executive positions [website](https://cfecgc.org/)
+* **Confe<unk> de<unk> ration Franc<unk> aise de l'Encadrement-Confe<unk> de<unk> ration Ge<unk> ne<unk> rale des Cadres (CFE-CGC)** يركز فقط على تنظيم نقابات للموظفين المحترفين الحاصلين على تعليم عال أو في مناصب إدارية أو تنفيذية [موقع الويب](https://cfecgc.org/)
 
-#### Italy
-* **Confederazione Generale Italiana Lavoratori (CGIL)** is the largest Italian union that counts more than 5 million members [website](http://www.cgil.it/)
-* **Confederazione Italiana Sindacato dei Lavoratori (CISL)** is based on Roman Catholic values groups linked with Christian Democracy [website](https://www.cisl.it/)
-* **Unione Italiana Lavoratori  (UIL)** is the socialist, social democratic, (republican) and secular split from the CGIL [website](https://www.uil.it/)
-* **Unione Sindacale Professori e Ricercatori (USPUR)** is aimed at university professors and researchers [website](https://www.uspur.it/)
-* **Unione Degli Universitari  (UDU)** is focused on improving the university students experience and future career [website](https://www.unionedegliuniversitari.it/)
+#### إيطاليا
+* **الاتحاد الإيطالي العام** هو أكبر اتحاد إيطالي يضم أكثر من 5 ملايين عضو [موقع ويب](http://www.cgil.it/)
+* **الاتحاد الإيطالي لنداكاتو دي لافوراتوري (CISL)** يستند إلى مجموعات القيم الكاثوليكية الرومانية المرتبطة بالديمقراطية المسيحية [موقع الويب](https://www.cisl.it/)
+* **Unione Italiana Lavoratori (UIL)** هو الانقسام الاشتراكي الاجتماعي الديمقراطي (reRepublican) والعلماني عن موقع CGIL [](https://www.uil.it/)
+* **Unione Sindacale Professori e Ricercatori (USPUR)** موجه لأساتذة الجامعات والباحثين [موقع الويب](https://www.uspur.it/)
+* **جامعة يونيون ديغلي (UDU)** تركز على تحسين تجربة طلاب الجامعات ومهنتهم في المستقبل [موقع الويب](https://www.unionedegliuniversitari.it/)
 
-#### Spain
-* **Unión General de Trabajadores (UGT)** is a major Spanish trade union, historically affiliated with the Spanish Socialist Workers' Party (PSOE) [website](https://www.ugt.es/)
-* **Confederación Sindical de Comisiones Obreras (CCOO)** is the second largest union in Spain and is the most successful one in labor elections [website](https://www.ccoo.es/)
-* **Federacion de Jovenes Investigadores (FJI-Precarios)** is focused on improving the labour conditions of young researchers, defending the dignity of the research profession, and overall, improving the situation of science in Spain [website](http://precarios.org/Qui%C3%A9nes+somos)
+#### إسبانيا
+* **Unio<unk> n General de Trabajadores (UGT)** هو نقابة عمالية إسبانية رئيسية، منتسبة تاريخيا إلى موقع حزب العمال الاشتراكي الإسباني [](https://www.ugt.es/)
+* **اتحاد النقابات العمالية** هو ثاني أكبر نقابة في إسبانيا وهو أنجح نقابة في انتخابات العمل [موقع على الإنترنت](https://www.ccoo.es/)
+* **اتحاد أبحاث الجامعات (FJI-Precarios)** يركز على تحسين ظروف عمل الباحثين الشبان، الدفاع عن كرامة مهنة البحوث، وتحسين حالة العلم في إسبانيا بشكل عام، [الموقع الشبكي](http://precarios.org/Qui%C3%A9nes+somos)
 
 
-#### United States
-* **Graduate Student Unions** at multiple universities and colleges are organising [Wikipedia page](https://en.wikipedia.org/wiki/Graduate_student_employee_unionization)
+#### الولايات المتحدة الأمريكية
+* **النقابات الطلابية العليا** في جامعات وكليات متعددة تنظم [صفحة ويكيبيديا](https://en.wikipedia.org/wiki/Graduate_student_employee_unionization)
 
-#### Australia
-* **Professional Scientists Australia**, Australia (union covering industry scientists)[website](https://scientists.professionalsaustralia.org.au/)
-* [General list of Trade Unions in Australia](https://en.wikipedia.org/wiki/List_of_trade_unions_in_Australia)
+#### أستراليا
+* **العلماء المحترفون أستراليا**، أستراليا (اتحاد يغطي علماء الصناعة)[موقع الويب](https://scientists.professionalsaustralia.org.au/)
+* [قائمة عامة بنقابات العمال في أستراليا](https://en.wikipedia.org/wiki/List_of_trade_unions_in_Australia)
 
-(er-activism-unionisation-summary)=
+(النشطة-النقابات-الموجز)=
 ## Summary
 
-Unions offer support for researchers and scientists through many different avenues and there are a variety of ways to get involved in them. The first thing to do is see which unions are active in your instution or field. If your institution does not recognise a union, you can read through Whistleblowing and Internal Advocacy chapters for more ideas on how to work for change.
+وتقدم النقابات الدعم للباحثين والعلماء من خلال العديد من السبل المختلفة، وهناك مجموعة متنوعة من الطرق للمشاركة فيها. أول شيء يمكن القيام به هو رؤية أي نقابات نشطة في منشآتك أو في مجال عملك. إذا كانت مؤسستك لا تعترف باتحاد، يمكنك أن تقرأ من خلال فصول التبليغ عن المخالفات والدعوة الداخلية لمزيد من الأفكار حول كيفية العمل من أجل التغيير.

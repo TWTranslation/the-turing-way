@@ -1,147 +1,147 @@
-(rr-checklist-for-code-review)=
-# Checklist for code review process
+(قائمة مرجعية لاستعراض الرموز)=
+# قائمة التحقق لعملية مراجعة التعليمات البرمجية
 
-This section presents some checklists for both the coder and the reviewer, as part of a formal review process. The reviewer checklists are split into two categories: one for the whole program, and one for individual files or proposed changes.
+ويعرض هذا الفرع بعض القوائم المرجعية لكل من المبرمج والمستعرض، كجزء من عملية استعراض رسمية. وقوائم المراجعة مقسمة إلى فئتين: واحدة للبرنامج بأكمله، والأخرى للملفات الفردية أو التغييرات المقترحة.
 
-The lists are created with a focus on good software engineering practice and are intended to be a source of inspiration. When assessing the checklists, it is recommended to consider to what extent the item mentioned is implemented. Some items on the lists may not apply to your project or programming language, in which case they should be disregarded.
+وقد وضعت القوائم مع التركيز على الممارسة الجيدة لهندسة البرمجيات وكان القصد منها أن تكون مصدرا للإلهام. وعند تقييم القوائم المرجعية، يوصى بالنظر في مدى تنفيذ البند المذكور. بعض البنود المدرجة في القوائم قد لا تنطبق على المشروع أو لغة البرمجة الخاصة بك، وفي هذه الحالة يجب تجاهلها.
 
-In all cases, the goal is to use your programming experience to figure out how to make the code better.
+في جميع الحالات، الهدف هو استخدام تجربة البرمجة الخاصة بك لمعرفة كيفية جعل التعليمات البرمجية أفضل.
 
-## For the coder
+## للمبرمج
 
-- Does the new code meets the required standards of the project? The standards are typically written under `contributing guidelines` by the project you are contributing to.
-- Is there [documentation](#documentation) that meets the required standards of the project?
-- Are you following any declared {ref}`style guide<rr-code-quality>` for the project?
-- Are there new [tests](#tests) for the new material, based on the required standards of the project?
-  - Do these tests pass locally?
-  - Are the tests in the rest of the code base still passing locally?
-- Create the pull request.
-- Many {ref}`continuous integration (CI)<rr-ci>` systems will check if the tests in the main project pass automatically once you create a pull request. If the repository is using a CI, make sure all builds and tests complete. Consult the CI reports to see if your code is causing the tests in the main project to fail.
-- If necessary, now formally request a review.
+- هل يستوفي الرمز الجديد المعايير المطلوبة للمشروع؟ عادة ما تكون المعايير مكتوبة تحت `إرشادات المساهمة` من قبل المشروع الذي تسهم فيه.
+- هل يوجد [وثائق](#documentation) تفي بالمعايير المطلوبة للمشروع؟
+- هل تتابع أي دليل نمط معلن {ref}`<rr-code-quality>` للمشروع؟
+- هل هناك [اختبارات جديدة](#tests) للمواد الجديدة بناء على المعايير المطلوبة للمشروع؟
+  - هل تمر هذه الاختبارات محلياً؟
+  - هل الاختبارات في بقية قاعدة التعليمات البرمجية لا تزال تمر محلياً؟
+- إنشاء طلب سحب.
+- العديد من أنظمة {ref}`التكامل المستمر (CI)<rr-ci>` ستتحقق مما إذا كانت الاختبارات في تمرير المشروع الرئيسي تلقائياً بمجرد إنشاء طلب سحب. إذا كان المستودع يستخدم CI، تأكد من اكتمال جميع الإنشاءات والاختبارات. استشار تقارير CI لمعرفة ما إذا كان الرمز الخاص بك يتسبب في فشل الاختبارات في المشروع الرئيسي.
+- وعند الضرورة، يطلب الآن إجراء استعراض رسميا.
 
-## For the reviewer
+## بالنسبة للمستعرض
 
-- Check the required standards of the project. The standards are typically written under `contributing guidelines` by the project you are contributing to.
-- Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
-- Do the [tests](#tests) and [documentation](#documentation) conform to the standards?
-- Is all the code easily understood? Depending on the language, files may contain interfaces, classes or other type definitions, and functions (see [Architecture](#architecture)). The essential architectural concepts can be reviewed as follows:
-  - Check the [interfaces](#interfaces) lists.
-  - Check the [classes and types](#classes-and-types) lists.
-  - Check the [function/method declarations](#function-method-declarations) lists.
-  - Check the [function/method definitions](#function-method-definitions) lists.
-- Do the [tests](#tests) actually ensure the code is robust in its intended use?
-  - Are there any bugs or other defects?
-- Are [security](#security) issues handled correctly?
-  - Check the [security of new codes](#security-of-new-codes).
-- Does the new code meet the [legal requirements](#legal)?
+- 3 - التحقق من المعايير المطلوبة للمشروع. عادة ما تكون المعايير مكتوبة تحت `المبادئ التوجيهية المساهمة` من قبل المشروع الذي تسهم فيه.
+- تحقق من أن الكود يفي بالدليل الأساسي لمشروع {ref}`نمط<rr-code-quality>`، إذا لم يتم التحقق من هذا تلقائياً بواسطة {ref}`الدمج المستمر (CI)<rr-ci>`.
+- هل يتطابق [الاختبارات](#tests) و [المستندات](#documentation) مع المعايير؟
+- هل كل التعليمات البرمجية مفهومة بسهولة؟ تبعاً للغة، قد تحتوي الملفات على واجهات أو فئات أو تعاريف أنواع أخرى، ووظائف (أنظر [معماري](#architecture)). ويمكن استعراض المفاهيم المعمارية الأساسية على النحو التالي:
+  - تحقق من [قوائم واجهات](#interfaces).
+  - تحقق من [الفئات وأنواع](#classes-and-types) قائمة.
+  - تحقق من قوائم [وظيفة/طريقة الإعلانات](#function-method-declarations).
+  - تحقق من قوائم [الدالة/الطريقة التعريفية](#function-method-definitions).
+- هل [اختبارات](#tests) في الواقع تأكد من أن الكود قوي في استخدامه المقصود؟
+  - هل هناك أي أخطاء أو عيوب أخرى؟
+- هل تمت معالجة [مشكلات الأمان](#security) بشكل صحيح؟
+  - تحقق من [أمان الرموز الجديدة](#security-of-new-codes).
+- هل يستوفي الرمز الجديد المتطلبات القانونية [](#legal)؟
 
-## Program level checklist
+## قائمة التحقق لمستوى البرنامج
 
-Here is a list of things to consider when looking at the program as a whole, rather than when looking at an individual file or change.
+إليك قائمة بالأمور التي يجب أخذها بعين الاعتبار عند النظر إلى البرنامج ككل، بدلاً من النظر إلى ملف أو تغيير فردي.
 
-### Documentation
+### الوثائق
 
-Documentation is a prerequisite for using, developing, and reviewing the program. Someone who isn’t involved with your project should understand what your code does, and what approach you’re taking. Here are some things to check for.
+ويعتبر التوثيق شرطاً أساسياً لاستخدام البرنامج وتطويره واستعراضه. يجب على أي شخص لا يشارك في مشروعك أن يفهم ما تفعله التعليمات البرمجية الخاصة بك، وما هو النهج الذي تتبعه. إليك بعض الأشياء التي يجب التحقق منها.
 
-- Is there a description of the purpose of the program or library?
-- Are detailed requirements listed?
-- Are requirements ranked according to [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)?
-- Is the use and function of third-party libraries documented?
-- Is the structure/architecture of the program documented? (see below)
-- Is there an installation manual?
-- Is there a user manual?
-- Is there documentation on how to contribute?
-  - Including how to submit changes
-  - Including how to document your changes
+- هل هناك وصف للغرض من البرنامج أو المكتبة؟
+- هل ترد تفاصيل المتطلبات؟
+- هل المتطلبات مرتبة وفقا [MOSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)؟
+- هل يتم توثيق استخدام المكتبات الخارجية ووظائفها؟
+- هل تم توثيق هيكل/هندسة البرنامج؟ (انظر أدناه)
+- هل هناك دليل تثبيت؟
+- هل هناك دليل المستخدم؟
+- هل هناك وثائق عن كيفية المساهمة؟
+  - بما في ذلك كيفية تقديم التغييرات
+  - بما في ذلك كيفية توثيق التغييرات الخاصة بك
 
-### Architecture
+### معماري
 
-These items are mainly important for larger programs, but may still be good to consider for small ones as well.
+هذه العناصر مهمة بشكل رئيسي للبرامج الأكبر، ولكن قد تكون لا تزال جيدة للنظر فيها بالنسبة للبرامج الصغيرة أيضًا.
 
-- Is the program split up into clearly separated modules?
-- Are these modules as small as they can be?
-- Is there a clear, hierarchical or layered, dependency structure between these modules?
-  - If not, the functionality should be rearranged, or perhaps heavily interdependent modules should be combined.
-- Can the design be simplified?
+- هل البرنامج مقسم إلى وحدات منفصلة بوضوح؟
+- هل هذه الوحدات صغيرة بقدر ما يمكن أن تكون؟
+- هل هناك بنية تبعية واضحة أو هرمية أو طبقات بين هذه الوحدات؟
+  - إذا لم يكن الأمر كذلك، يجب إعادة ترتيب الوظيفة، أو ربما يجب دمج الوحدات المترابطة بكثير.
+- هل يمكن تبسيط التصميم؟
 
-### Security
+### أمان
 
-If you're making software that is accessible to the outside world (for example a web application), then security becomes important. Security issues are defects, but not all defects are security issues. A security-conscious design can help mitigate the security impact of defects.
+إذا كنت تصنع برمجيات يمكن الوصول إليها للعالم الخارجي (على سبيل المثال تطبيق ويب )، يصبح الأمان مهما. مشاكل الأمان عيوب, ولكن ليست كل العيوب مشاكل أمنية. التصميم الواعي للأمن يمكن أن يساعد في تخفيف التأثير الأمني للعيوب.
 
-- Which modules deal with user input?
-- Which modules generate output?
-- Are input and output compartmentalized?
-  - If not, consider making separate modules that manage all input and output, so validation can happen in one place.
-- In which modules is untrusted data present?
-  - The fewer the better.
-- Is untrusted data compartmentalized?
-  - Ideally, validate in the input module and pass only validated data to other parts.
+- ما هي الوحدات التي تتعامل مع مدخلات المستخدم؟
+- ما هي الوحدات التي تولد الإخراج؟
+- هل المدخلات والمخرجات مجزأة؟
+  - إذا لم يكن الأمر كذلك، فكر في إنشاء وحدات منفصلة تدير كل المدخلات والمخرج، لذا يمكن التحقق من الصحة في مكان واحد.
+- في أي وحدات بيانات غير موثوق بها؟
+  - فكلما قل ذلك كان أفضل.
+- هل البيانات مجزأة غير موثوقة؟
+  - من الناحية المثالية، تحقق من صحة وحدة الإدخال وتمرير فقط البيانات التي تم التحقق منها إلى أجزاء أخرى.
 
-### Legal
+### قانوني
 
-As a developer, you should pay attention to the legal rights of the creators of the code you're using. Here are some things to check. When in doubt, ask someone experienced in licensing for advice.
+كمطور، يجب عليك أن تولي الاهتمام للحقوق القانونية لـ منشئي التعليمات البرمجية التي تستخدمها. إليك بعض الأشياء التي يجب التحقق منها. عندما يكون موضع شك، اسأل شخصا ذا خبرة في الترخيص للحصول على المشورة.
 
-- Are the licenses of all modules/libraries that are used documented?
-- Are the requirements set by those licenses fulfilled?
-  - Are the licenses included where needed?
-  - Are copyright statements included in the code where needed?
-  - Are copyright statements included in the documentation where needed?
-- Are the licenses of all the parts compatible with each other?
-- Is the project license compatible with all libraries?
+- هل التراخيص الخاصة بجميع الوحدات/المكتبات المستخدمة موثقة ؟
+- هل الشروط التي تحددها هذه التراخيص مستوفاة؟
+  - هل تُدرج التراخيص عند الحاجة؟
+  - هل تتضمن الكود بيانات حقوق التأليف والنشر عند الحاجة؟
+  - هل ترد بيانات حقوق التأليف والنشر في الوثائق عند الاقتضاء؟
+- هل التراخيص لجميع الأجزاء متوافقة مع بعضها البعض؟
+- هل رخصة المشروع متوافقة مع جميع المكتبات؟
 
-## File/Change level checklist
+## ملف/تغيير قائمة التحقق من المستوى
 
-When you're checking individual changes or files in a pull request, the code itself becomes the subject of scrutiny. Depending on the language, files may contain interfaces, classes or other type definitions, and functions. All these should be checked.
+عندما تقوم بالتحقق من التغييرات الفردية أو الملفات في طلب الجذب، يصبح الرمز نفسه موضوع تمحيص. اعتمادا على اللغة، قد تحتوي الملفات على واجهات أو فئات أو تعاريف نوع آخر، ووظائف. يجب التحقق من كل هذه .
 
-### Interfaces
+### واجهات
 
-- Is the interface documented?
-- Does the concept it models make sense?
-- Can it be split up further? (Interfaces should be as small as possible)
+- هل الواجهة موثقة ؟
+- هل المفهوم الذي ينتهجه منطقي؟
+- هل يمكن تقسيمه أكثر من ذلك؟ (ينبغي أن تكون الوصلات البينية صغيرة قدر الإمكان)
 
 Note that most of the following items assume an object-oriented programming style, which may not be relevant to the code you're looking at.
 
-### Classes and types
+### الفصول والأنواع
 
-- Is the class documented?
-  - Are external programs needed by the class documented?
-- Does it have a single responsibility? Can it be split?
-- If it's designed to be extended, can it be?
-- If it's not designed to be extended, is it protected against that?
-- If it's derived from another class, can you substitute an object of this class for one of its parent class(es)?
-- Is the class testable?
-  - Are the dependencies clear and explicit?
-  - Does it have a small number of dependencies?
-  - Does it depend on interfaces, rather than on classes?
+- هل يتم توثيق الفصل الدراسي؟
+  - هل البرامج الخارجية مطلوبة من قبل الصف الدراسي موثقة ؟
+- هل تتحمل مسؤولية واحدة؟ هل يمكن تقسيمه؟
+- إذا تم تصميمه ليتم توسيعه، هل يمكن أن يكون؟
+- إذا لم يتم تصميمه ليتم توسيعه، هل هو محمي من ذلك؟
+- إذا كانت مشتقة من صف دراسي آخر، هل يمكنك استبدال كائن من هذا الصف لواحد من صفوفه الأم (الفئات)؟
+- هل الفصل قابل للتصفح؟
+  - هل التبعيات واضحة وصريحة؟
+  - هل لها عدد صغير من التبعيات؟
+  - هل يعتمد على الواجهات وليس على الصفوف؟
 
-### Function/Method declarations
+### الوظائف/الإعلانات المنهجية
 
-- Are there comments that describe the intent of the function or method?
-- Are input and output documented? Including units?
-- Are pre- and postconditions documented?
-- Are edge cases and unusual things commented?
+- هل هناك تعليقات تصف القصد من الوظيفة أو الطريقة؟
+- هل المدخلات والمخرجات موثقة ؟ بما في ذلك؟
+- هل توثق الشروط المسبقة والبريدية؟
+- هل يتم التعليق على حالات الحافة وأشياء غير عادية؟
 
-### Function/Method definitions
+### تعريف الوظيفة/الطريقة
 
-- Are edge cases and unusual things commented?
-- Is there any incomplete code?
-- Could this function be split up (is it not too long)?
-- Does it work? Perform intended function, logic correct, ...
-- Is it easy to understand?
-- Is there redundant or duplicate code? (DRY)
-- Do loops have a set length and do they terminate correctly?
-- Can debugging or logging code be removed?
-- Can any of the code be replaced by library functions?
+- هل يتم التعليق على حالات الحافة وأشياء غير عادية؟
+- هل هناك أي رمز غير مكتمل؟
+- هل يمكن تقسيم هذه الوظيفة (أليس طويلا جدا)؟
+- هل تعمل ؟ أداء الدالة المقصودة، المنطق صحيح، ...
+- هل من السهل فهمه؟
+- هل هناك رمز متكرر أو متكرر؟ (DRY)
+- هل الحلقات لها طول معين وهل تنتهي بشكل صحيح؟
+- هل يمكن إزالة تصحيح الأخطاء أو رمز التسجيل؟
+- هل يمكن استبدال أي من التعليمات البرمجية بوظائف المكتبة؟
 
-### Security of new codes
+### أمن الرموز الجديدة
 
-- If you're using a library, do you check errors it returns?
-- Are all data inputs checked?
-- Are output values checked and encoded properly?
-- Are invalid parameters handled correctly?
+- إذا كنت تستخدم مكتبة، هل تتحقق من الأخطاء التي تعيدها؟
+- هل تم تحديد جميع مدخلات البيانات؟
+- هل يتم التحقق من قيم الإخراج وترميزها بشكل صحيح؟
+- هل يتم التعامل مع المعلمات غير صالحة بشكل صحيح؟
 
-### Tests
+### الاختبارات
 
-- Do unit tests actually test what they are supposed to?
-- Is bounds checking being done?
-- Is a test framework and/or library used?
+- هل اختبارات الوحدة تختبر بالفعل ما هو مفترض منها؟
+- هل يتم التحقق من الحدود ؟
+- هل يستخدم إطار الاختبار و/أو المكتبة؟

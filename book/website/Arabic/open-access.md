@@ -1,58 +1,58 @@
-(rr-open-access)=
-# Open Access
+(r-open access)=
+# فتح الوصول
 
-(rr-open-access-whatis)=
-## What Is Open Access?
+(r-open access-whatis)=
+## ما هو الوصول المفتوح؟
 
-One of the most common ways to disseminate research results is by writing a manuscript and publishing it in a journal, conference proceedings or book. For many years those publications were available to the public if purchased through a subscription fee or individually. However, new knowledge is built by synthesizing current scholarship and then building upon it. At the turn of the 21st century, a new movement appeared with a clear objective: make all the research results available to anyone interested in reading it, free of charge by any user, with no technical obstacles such as mandatory registration or login to specific platforms. This movement took the name of "open access" [{term}`def<Open Access>`] and established two initial strategies to achieve its final goal: self-archiving and open access publishing.
+ومن أكثر الطرق شيوعا لنشر نتائج البحوث كتابة مخطوطة ونشرها في مجلة أو وقائع مؤتمرات أو كتاب. ولسنوات عديدة، كانت هذه المنشورات متاحة للجمهور إذا اشتُريت برسوم اشتراك أو بصورة فردية. غير أن المعارف الجديدة مبنية على تجميع المنح الدراسية الحالية ثم البناء عليها. في بداية القرن الحادي والعشرين، وقد ظهرت حركة جديدة ذات هدف واضح: إتاحة جميع نتائج البحوث لأي شخص مهتم بقراءتها، مجاناً من قبل أي مستخدم، بدون أي عقبات تقنية مثل التسجيل الإلزامي أو تسجيل الدخول إلى منصات محددة. أخذت هذه الحركة اسم "الوصول المفتوح" [{term}`ديف<Open Access>`] ووضعت استراتيجيتين أوليتين لتحقيق هدفها النهائي: الأرشيف الذاتي والنشر المفتوح الوصول.
 
-(rr-open-access-whatis-repositories)=
-### Repositories and Self-Archiving
+(r-open-access-whatis-repositores)=
+### المستودعات والمحفوظات الذاتية
 
-The self-archiving [{term}`def<Self Archiving>`] movement aims to provide tools and assistance to scholars to deposit and disseminate their refereed journal articles in open institutional or subject-based repositories.
+وتهدف الحركة التي تقوم على الأرشفة الذاتية لـ [{term}`ديف<Self Archiving>`إلى توفير الأدوات والمساعدة للباحثين لإيداع ونشر مقالاتهم الصحفية المحفوظة في مستودعات مؤسسية أو مواضيعية مفتوحة.
 
-There has also been a growth in the publication of preprints through institutional repositories and preprint servers. Preprints are widely used in physical sciences and now emerging in life sciences and other fields. Preprints are documents that have not been peer-reviewed but are considered as a complete publication in a first stage. Some preprint servers include open peer-review services and the option to post new versions of the initial paper once reviewed by peers.
+وحدث أيضا نمو في نشر الطبعات المسبقة من خلال المستودعات المؤسسية وخوادم خدمة المطبوعات. وتستخدم بصمات مسبقة على نطاق واسع في العلوم الفيزيائية وتظهر الآن في علوم الحياة وغيرها من الميادين. والمطبوعات المسبقة هي وثائق لم تخضع لاستعراض الأقران ولكنها تعتبر منشورا كاملا في مرحلة أولى. وتشمل بعض حواسيب الخدمة السابقة على الطباعة خدمات استعراض الأقران المفتوحة وخيار نشر نسخ جديدة من الورقة الأولية بمجرد استعراضها من جانب الأقران.
 
-At the beginning of 2019, more than 4000 repositories were available for researchers to self-archive their publications according to the [Registry of Open Access Repositories](http://roar.eprints.org/). This list features institutional repositories, subject-based or thematic repositories, and harvesters.
-
-
-Institutional repositories are generally managed by research performing institutions to provide to their community a place to archive and share papers and other research outputs openly. Research communities usually manage subject-based repositories, and most of the contents are related to a specific discipline. Finally, harvesters aggregate content from different repositories, becoming sites to perform general searches and build other value-added services.
-
-When choosing a journal to publish research results, researchers should take a moment to read the journal policy regarding the transfer of copyright. Many journals still require that authors transfer full copyright for publication.
-
-This transfer of rights implies that authors must ask for permission to reuse their work beyond what is allowed by the applicable law, unless there are some uses already granted. Such granted uses may include teaching, sharing with colleagues, and self-archiving papers in repositories. Sometimes, there are standard policies across all journals maintained by the same publishers.
-
-However, in general, journals have their own policies, especially when they are published on behalf of a scientific society. When looking at the conditions for self-archiving, we must identify two key issues: the version of the paper that can be deposited, and when it can be made publicly available.
-
-Regarding the version, some journals allow the dissemination of the submitted versions, also known as a preprint. They also allow its replacement with the peer-reviewed version once it has been published. Due to the increase of policies requiring access to research results, most of the journals allow self-archiving of the accepted version of the paper, also known as the author manuscript or postprint. This version is the final text following the peer review process but does not yet have publication formatting or layout applied. Finally, some journals do allow researchers to deposit the final published version, also known as the version of record.
-
-Concerning the moment to make the paper publicly available, many journals establish a period from its original publication - the embargo period, which can range from zero to 60 months - where making the paper publicly available is not permitted. Some journals include or exclude embargoes depending on the versions. For instance, the accepted version could be made publicly available after publication, but the published version must wait 12 months.
-
-(rr-open-access-whatis-publishing)=
-### Open Access Publishing
-
-Open access publishing attempts to ensure permanent open access to all the articles published in journals and results in the creation of the open access journals. The number of open access journals has increased during the last years, according to the Directory of Open Access Journals \([DOAJ](http://www.doaj.org)\). Currently, there are more than 12,000. Open access journals must provide free access to its contents, but it also must licence them to allow reusability.
-
-Currently, many paywalled journals offer individual open access options to researchers once the paper is accepted after peer review. Those options include the publication under a free content licence and give free accessibility to anyone since its first publication. This model is commonly known as the hybrid model because, in the same issue of a journal, readers can find open access and paywalled contributions. Usually, publishers ask for a fee to open individual contributions.
-
-Open access publishing has two primary versions — gratis and libre. Gratis open access [{term}`def<Open Access publishing (gratis)>`] is simply making research available for others to read without having to pay for it. However, it does not grant the user the right to make copies, distribute, or modify the work in any way beyond fair use. Libre open access [{term}`def<Open Access Publishing (libre)>`] is gratis, meaning the research is available free of charge. However, it goes further by granting users additional rights, usually via a Creative Commons licence, so that people are free to reuse and remix the research. There are varying degrees of what may be considered libre open access. For example, some scholarly articles may permit all uses except commercial use, some may permit all uses except derivative works, and some may permit all uses and require attribution. While some would argue that libre open access should be free of any copyright restrictions (except attribution), other scholars consider a work that removes at least some permission barriers to be libre.
-
-(rr-open-access-why)=
-## Why Does Open Access Matter?
-
-Research is useless if it is not shared; even the best research is ineffectual if others are not able to read and build on it. When price barriers keep articles locked away, research cannot achieve its full potential. Open access benefits researchers who can work more effectively with a better understanding of the literature. It also helps avoid duplication of effort. No researcher (or funder) wants to waste time and money conducting a study if they know it has been attempted elsewhere. However, duplication of effort is all-too-possible when researchers can’t effectively communicate with one another and make results known to others in their field and beyond. It also benefits researchers by providing better visibility, and therefore higher impact/citation rate for their scholarship.  
-Numerous publishers, both non-profit and for-profit, voluntarily make their articles openly available at the time of publication or within 6-12 months. Many have switched from a closed, subscription model to an open one as a strategic business decision to increase their journal's exposure and impact. Further, it can be argued that taxpayers who pay for much of the research published in journals have a right to access the information resulting from that investment without charge. Finally, if research is available to the broadest possible pool of readers, then it is more likely to be checked and reproduced.
-
-(rr-open-access-practice)=
-## Best Practice for Open Access
-
-(rr-open-access-practice-archiving)=
-### Self-Archiving
+في بداية عام 2019، أكثر من 4000 مستودع متاح للباحثين لأرشفة منشوراتهم ذاتياً وفقاً ل [سجل مستودعات الوصول المفتوح](http://roar.eprints.org/). وتتضمن هذه القائمة مستودعات مؤسسية، ومستودعات مواضيعية أو مواضيعية، ومحاصيل.
 
 
-Self-archive a publication in a suitable repository, institutional or subject-based, following the possible restrictions posed by the publisher. A restriction could be an embargo period, or limits on the allowed version to be deposited in such archives. In doing this, it is crucial to make sure you are aware of the copyright implications of any documents/agreements you make when submitting your manuscript to a journal. If your institution does not have an institutional repository, advocate for the creation of one. You can check journal policies on self-archiving using [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php).
+وتدير المؤسسات المنفذة للأبحاث المستودعات المؤسسية عموما لكي توفر لمجتمعها المحلي مكانا لحفظ الأوراق وغيرها من نواتج البحوث وتبادلها علنا. وتدير الأوساط البحثية عادة المستودعات القائمة على المواضيع، وتتصل معظم المحتويات بتخصصات محددة. وأخيرا، تجمع المحتويات من مختلف المستودعات، وتصبح مواقع لإجراء بحوث عامة وبناء خدمات أخرى ذات قيمة مضافة.
 
-(rr-open-access-practice-publication)=
-### Publication
+وعند اختيار المجلة لنشر نتائج البحوث، ينبغي للباحثين أن يأخذوا لحظة لقراءة سياسة المجلة فيما يتعلق بنقل حقوق التأليف والنشر. ولا تزال العديد من المجلات تشترط أن ينقل المؤلفون كامل حقوق التأليف والنشر للنشر.
 
-Consider submitting your work to a journal that is open access. When doing this, be aware that there may be funds or discounts available to cover any associated costs.
+ويعني نقل الحقوق هذا ضمناً أنه يجب على المؤلفين أن يطلبوا الإذن لهم بإعادة استخدام عملهم بما يتجاوز ما يسمح به القانون المنطبق. ما لم تكن هناك استخدامات ممنوحة بالفعل. وقد تشمل هذه الاستخدامات الممنوحة التدريس، والتشارك مع الزملاء، وأوراق المحفوظات الذاتية في المستودعات. وفي بعض الأحيان، توجد سياسات موحدة في جميع المجلات التي تحتفظ بها نفس الناشرين.
+
+غير أن للمجلات عموماً سياسات خاصة بها، لا سيما عندما تنشر نيابة عن مجتمع علمي. عند النظر إلى شروط المحفوظات الذاتية، ويجب أن نحدد مسألتين رئيسيتين: صيغة الورقة التي يمكن إيداعها، ومتى يمكن إتاحتها للجمهور.
+
+وفيما يتعلق بالنسخة، تسمح بعض المجلات بنشر النسخ المقدمة، والمعروفة أيضا باسم الطباعة. كما أنها تسمح بالاستعاضة عنه بنسخة مستعرضة من الأقران بمجرد نشرها. ونتيجة لزيادة السياسات التي تتطلب الحصول على نتائج البحوث، وتسمح معظم المجلات بإجراء حفظ ذاتي للنسخة المقبولة من الورقة، والمعروفة أيضا بالمخطوطات أو الطباعة البريدية. وهذه النسخة هي النص النهائي الذي يلي عملية استعراض الأقران ولكن لم يتم بعد تطبيق شكل أو تخطيط المنشورات. وأخيراً، تسمح بعض المجلات للباحثين بإيداع النسخة النهائية المنشورة، والمعروفة أيضاً باسم نسخة السجل.
+
+وفيما يتعلق بحظة إتاحة هذه الورقة للجمهور، فإن العديد من المجلات يحدد فترة تبدأ من نشرها الأصلي - فترة الحظر. والتي يمكن أن تتراوح بين صفر و60 شهراً - حيث لا يسمح بإتاحة الورقة للجمهور. وتتضمن بعض المجلات حظرا أو تستبعده تبعا للنصوص. فعلى سبيل المثال، يمكن إتاحة النسخة المقبولة للجمهور بعد نشرها، ولكن النسخة المنشورة يجب أن تنتظر 12 شهرا.
+
+(r-open-access-whatis-publishing)=
+### فتح نشر الوصول
+
+ويحاول الوصول المفتوح إلى النشر ضمان الوصول المفتوح الدائم إلى جميع المقالات المنشورة في المجلات ويؤدي إلى إنشاء مجلات مفتوحة الدخول. ازداد عدد مجلات الوصول المفتوحة خلال السنوات الماضية، وفقا لدليل يوميات الوصول المفتوح \([DOAJ](http://www.doaj.org)\). ويوجد حاليا أكثر من 000 12 شخص. ويجب أن توفر مجلات الوصول المفتوحة إمكانية الوصول مجاناً إلى محتوياتها، ولكن يجب أيضاً أن تسمح لها بأن تسمح بإعادة الاستخدام.
+
+وفي الوقت الحاضر، يتيح العديد من المجلات المجهزة للباحثين خيارات فردية مفتوحة للوصول إليها بمجرد قبول الورقة بعد استعراض الأقران. وتشمل هذه الخيارات النشر بموجب ترخيص بالمضمون المجاني وإتاحة إمكانية الوصول مجانا لأي شخص منذ نشره الأول. ويعرف هذا النموذج عادة بالنموذج المختلط لأن القراء يستطيعون في نفس العدد من المجلات أن يجدوا إمكانية وصول مفتوحة ومساهمات مسحوبة على الجدار. وعادة ما يطلب الناشرون رسوما لفتح المساهمات الفردية.
+
+النشر المفتوح للدخول يحتوي على نسختين أساسيتين - مجانا و ليبر. الوصول المفتوح [{term}`def<Open Access publishing (gratis)>`] هو ببساطة إتاحة البحث للآخرين للقراءة دون الحاجة إلى دفع ثمنها. غير أنه لا يمنح المستعمل الحق في إصدار نسخ أو توزيع أو تعديل العمل بأي شكل يتجاوز الاستخدام المنصف. حرية الوصول المفتوحة [{term}`def<Open Access Publishing (libre)>`] مجاناً، مما يعني أن البحث متاح مجانا. غير أنه يذهب إلى أبعد من ذلك بمنح المستعملين حقوقا إضافية، عادة عن طريق ترخيص المشاع الإبداعي، بحيث يكون للناس حرية إعادة الاستخدام وإعادة تعديل البحوث. وهناك درجات متفاوتة مما يمكن اعتباره إمكانية الوصول إلى المكتبة المفتوحة. فعلى سبيل المثال، قد تسمح بعض المواد العلمية بجميع الاستخدامات، باستثناء الاستخدام التجاري، وقد يسمح بعضها بجميع الاستخدامات باستثناء الأعمال الاشتقاقية، وقد يسمح بعضها بجميع الاستخدامات ويتطلب الإسناد. وفي حين سيجادل البعض بأن حرية الوصول إلى المكتبة ينبغي أن تكون خالية من أي قيود على حقوق التأليف والنشر (باستثناء الإسناد)، ويرى باحثون آخرون أن العمل الذي يزيل على الأقل بعض الحواجز التصريحية هو كذب.
+
+(r-open-access-why)=
+## لماذا يهم الوصول المفتوح؟
+
+فالبحوث عديمة الفائدة إذا لم يتم تقاسمها؛ وحتى أفضل البحوث تكون غير فعالة إذا لم يتمكن الآخرون من قراءتها والبناء عليها. وعندما تبقي الحواجز السعرية على المقالات محجوبة، لا يمكن للبحوث أن تحقق إمكاناتها الكاملة. ويستفيد الباحثون الذين يستطيعون العمل بمزيد من الفعالية وبفهم أفضل للأدبيات من الوصول المفتوح. كما أنها تساعد على تفادي ازدواجية الجهود. ولا يريد أي باحث (أو ممول) أن يهدر الوقت والمال الذي يجري دراسة إذا كان يعلم أنه قد جرت محاولة لإجرائها في مكان آخر. غير أن ازدواجية الجهود ممكنة جداً عندما لا يتمكن الباحثون من الاتصال ببعضهم البعض بصورة فعالة ويعرفون الآخرين بالنتائج في مجالهم وخارجه. كما يفيد الباحثين من خلال تحسين وضوحهم، وبالتالي ارتفاع معدل التأثير/الاقتباس فيما يتعلق بمنحهم الدراسية.  
+العديد من الناشرين، الذين لا تستهدف الربح أو الربح، يجعلون مقالاتهم متاحة بشكل طوعي وقت النشر أو في غضون 6-12 شهرا. وتحول الكثيرون من نموذج الاشتراك المغلق إلى نموذج مفتوح بوصفه قرارا استراتيجيا للأعمال التجارية يرمي إلى زيادة تعرض المجلة وتأثيرها. وعلاوة على ذلك، ويمكن القول بأن دافعي الضرائب الذين يدفعون جزءا كبيرا من البحوث المنشورة في المجلات لهم الحق في الحصول دون مقابل على المعلومات الناتجة عن ذلك الاستثمار. وأخيرا، إذا كانت البحوث متاحة لأوسع مجموعة ممكنة من القراء، فمن الأرجح أن يتم فحصها واستنساخها.
+
+(r-open-access-practice)=
+## أفضل ممارسة للوصول المفتوح
+
+(r-open-access-practice-archiving)=
+### الأرشيف الذاتي
+
+
+يحفظ ذاتيا منشورا في مستودع مناسب أو مؤسسي أو موضوعي، بعد القيود المحتملة التي يفرضها الناشر. ويمكن أن يكون التقييد فترة للحظر، أو وضع حدود على النص المسموح بإيداعه في هذه المحفوظات. وبالقيام بذلك، من الأهمية بمكان التأكد من إدراكك للآثار المترتبة على حقوق التأليف والنشر المترتبة على أي وثائق/اتفاقات تبرمها عند تقديم مخطوطك إلى إحدى المجلات. إذا لم يكن لمؤسستك مستودع مؤسسي، فدافع عن إنشاء مستودع مؤسسي. يمكنك التحقق من سياسات اليومية على الأرشفة الذاتية باستخدام [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php).
+
+(r-open-access-practice-publication)=
+### النشر
+
+فكر في تقديم عملك إلى مجلة مفتوحة الوصول. وعند القيام بذلك، يكون على علم بأنه قد تكون هناك أموال أو خصومات متاحة لتغطية أي تكاليف ذات صلة.

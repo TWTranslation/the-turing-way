@@ -1,61 +1,61 @@
 (rr-vcs-workflow)=
-# General Workflow
+# 一般工作流
 
-Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. A typical procedure for using version control is as follows:
+版本控制是一种系统的方法，用以记录文件或一组文件在一段时间内所作的更改。 这使您和您的合作者能够跟踪历史，看看变化情况，并在需要时稍后重现特定版本。 使用版本控制的典型程序如下：
 
-1. Create files - these may contain text, code or both.
-2. Work on these files, by changing, deleting or adding new content.
-3. Create a snapshot of the file status (also known as version) at this time.
+1. 创建文件 - 这些文件可能包含文本、代码或两者。
+2. 通过更改、删除或添加新内容来处理这些文件。
+3. 此时创建文件状态的快照(也称为版本)。
 
-This process of creating a snapshot is described differently in different version control software. For example, Git describes it as "a commit". Some systems call it "a time-point" or "a checkpoint"; and this is referred to as "saving your work" in other cases such as in [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/).
+不同版本控制软件对创建快照的过程作了不同的描述。 例如，Git将其描述为“提交”。 有些系统称它为“时间点”或“检查站”； 并且这在其他情况下被称为“保存您的工作”，例如在 [Google 文档](https://docs.google.com/) 或 [HackMD](http://hackmd.io/) 中。
 
-As you keep saving your work by adding changes, you make more and more snapshots. You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
+当您通过添加更改来保存您的工作时，您会制作更多的快照。 您可以将这些文件视为保存这些文件的版本，同时记录它们的历史。 如果您因错误需要返回到文件的上一个版本， 或者如果您改变了对上一次更新的主意， 您可以访问您喜欢的版本中的文件，或者将您的整个项目退回到过去的状态。
 
-An illustration of this is shown below.
+这方面的说明见下文。
 
 ```{figure} ../../figures/main-branch.png
 ---
-name: main-branch
-alt: An illustration of a main branch
----
-An illustration of a main branch
+名称：主分支
+备选: 主分支
+-
+主分支的图示.
 ```
 
-In many version control systems, you will be able to add a comment every time you save a new version. These comments should be clear and concise to make it easy to understand what changes were proposed and what updates were made in a version. This ensures that it is easy to find what you are looking for when you need to go back to a past version. Your collaborators will thank you, but so will future versions of yourself.
+在许多版本控制系统中，每次保存新版本，您都可以添加评论。 这些评论应简明扼要，便于理解拟议的修改和更新的版本。 这确保了当您需要回到过去的版本时，很容易找到您正在寻找的东西。 您的合作者将感谢您，但是您自己的未来版本也将感谢您。
 
 (rr-vcs-workflow-branches)=
-## Non-Linear Development of Your Project with "Branches"
+## 使用 "分支" 的非线性项目开发
 
-So you have your project and you want to add something new or try something out before reflecting the changes in the main project folder. To add something new, you can continue editing your files and save them with the proposed changes. Suppose you want to try something without reflecting the changes in the central repository. In that case, you can use the "branching" feature of more advanced version control systems such as Git. A branch creates a local copy of the main repository where you can work and try new changes. Any work you do on your branch will not be reflected on your main project (referred to as your main branch) so it remains secure and error-free. At the same time, you can test your ideas and troubleshoot in a local branch.
+所以你有你的项目，你想要添加一些新项目或试试一些东西，然后才能反映主要项目文件夹中的变化。 要添加新内容，您可以继续编辑您的文件并使用拟议的更改保存它们。 假定您想要尝试一些东西而不反映中央仓库中的更改。 在这种情况下，您可以使用 Git 等高级版本控制系统的“分支”功能。 一个分支创建一个本地版本库，您可以在其中工作并尝试新的更改。 您在您的分支上所做的任何工作都不会反映在您的主要项目上(称为您的主要分支)，因此它是安全和没有错误的。 同时，您可以在本地分支中测试您的想法和故障排除点。
 
-When you are happy with the new changes, you can introduce them to the main project. The merge feature in Git allows the independent lines of development in a local branch to get integrated into the main branch.
+当您对新的更改感到满意时，您可以将它们介绍到主项目。 Git的合并功能使得本地分支的独立发展线能够并入主分支。
 
 ```{figure} ../../figures/one-branch.png
 ---
-name: one-branch
-alt: An illustration of a development and main branch in git
----
-An illustration of a development and main branch in git.
+名称：单分支
+备选案文：git
+中开发和主分支的图示--
+Git中开发和主分支的图示.
 ```
 
-You can have more than one branch off of your main copy. If one of your branches ends up not working, you can either abandon it or delete it without impacting the main branch of your project.
+您的主副本可以有多个分支。 如果你的一个分支最终无法工作，你可以放弃它或删除它而不影响你的项目的主要分支。
 
 ```{figure} ../../figures/two-branches.png
 ---
-name: two-branches
-alt: An illustration of two development branches and one main branch in git
----
-Two development branches and one main branch in git.
+名称：两个分支
+备选案文：两个开发分支和一个主分支在 git
+中的示例。
+两个开发分支和一个主分支在 git 中。
 ```
 
-If you want, you can create branches from branches (and branches off of those branches and so on).
+如果你想要，你可以从分支中创建分支(以及这些分支的分支等等)。
 
 ```{figure} ../../figures/sub-branch.png
 ---
-name: sub-branch1
-alt: An illustration of a development branch in git.
+名称：子分支1
+备选案文：git中开发分支的图示.
 ---
-A development branch in git.
+git中的开发分支。
 ```
 
-No matter how many branches you have, you can access the past versions you made on any of them. If you are curious to know how to use this feature in practice, you will find more details a few sections ahead.
+无论你拥有多少分支，你都可以访问你过去对其中任何一个版本的版本。 如果你想知道如何在实践中使用这个功能，你会在下面找到更多的细节。

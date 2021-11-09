@@ -1,34 +1,34 @@
-(rr-code-quality)=
-# Code Quality
+(r-code-quality)=
+# جودة الرمز
 
-| Prerequisite                                                                                  | Importance |
-| --------------------------------------------------------------------------------------------- | ---------- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Helpful    |
+| الشروط المسبقة                                                                     | الأهمية |
+| ---------------------------------------------------------------------------------- | ------- |
+| [الخبرة في سطر الأوامر](https://programminghistorian.org/en/lessons/intro-to-bash) | مساعدة  |
 
 ## Summary
 
-There are several ways to improve software quality that require relatively little effort. By following a coding style, code will be easier for yourself and others to understand and therefore it will contain fewer bugs. Tools for static code analysis can report bugs as well as style issues without even running the code.
+وهناك عدة طرق لتحسين نوعية البرمجيات التي تتطلب جهداً ضئيلاً نسبياً. باتباع أسلوب البرمجة، سيكون الكود أسهل على نفسك وعلى الآخرين فهمه ومن ثم سوف يحتوي على عدد أقل من الأخطاء. أدوات تحليل التعليمات البرمجية الثابتة يمكن أن تبلغ عن الأخطاء وكذلك عن مشكلات في النمط دون حتى تشغيل التعليمة البرمجية.
 
-## Static code analysis
+## تحليل الكود الثابت
 
-Static code analysis is a method that examines code and detects software vulnerabilities before your code is executed or the project is built and deployed. This analysis is capable of identifying quality issues, including security weaknesses and errors. In addition to finding bugs, many of these tools can also help maintain a consistent coding style.
+تحليل الكود الثابت هو طريقة تفحص الكود وتكشف نقاط ضعف البرامج قبل تنفيذ الكود الخاص بك أو بناء المشروع ونشره. وهذا التحليل قادر على تحديد مسائل الجودة، بما في ذلك مواطن الضعف والأخطاء الأمنية. بالإضافة إلى العثور على الأخطاء، يمكن أن يساعد العديد من هذه الأدوات أيضا في الحفاظ على نمط برمجة ثابت.
 
-### Advantages of Static code analysis
+### مزايا تحليل الكود الثابت
 
-- Write high-quality code: Early detection of possible programming errors help developers to know where they went wrong.
+- كتابة كود عالي الجودة: الكشف المبكر عن أخطاء البرمجة المحتملة يساعد المطورين على معرفة أين حدث خطأ.
 
-- Achieve regulatory compliance: Achieving software compliance is crucial for the stability and security of products. With this, developers can comprehensively test their code in a non-runtime environment, ensuring all code standards are met and enterprise security is achieved.
+- تحقيق الامتثال التنظيمي: إن تحقيق الامتثال للبرمجيات أمر حاسم لاستقرار المنتجات وأمنها. وبذلك، يمكن للمطورين اختبار تعليماتهم بشكل شامل في بيئة غير قابلة للتشغيل، وضمان استيفاء جميع معايير الشفرة وتحقيق أمن المؤسسة.
 
-- Accelerate software development life-cycles: Static code analysis ensures high-quality code reaches testers in less time. This means that even testers take much less time to test the product, thus accelerating software development life-cycles.
+- تسريع دورة حياة تطوير البرمجيات: يكفل تحليل الشفرة الثابتة وصول الشفرة العالية الجودة إلى المختبرين في وقت أقل. وهذا يعني أنه حتى الاختبارين يستغرقون وقتا أقل بكثير لاختبار المنتج، مما يعجل بدورة حياة تطوير البرمجيات.
 
-Some of the most widely used `linters` are mentioned in the below table:
+يُذكر في الجدول أدناه بعض من `انترنات` الأكثر استخداما:
 
-| Language   | Static code analysis tool                                                                                                    |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| C/C++      | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                                   |
-| Python     | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                                  |
-| Javascript | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                                  |
-| Java       | [Checkstyle](https://checkstyle.sourceforge.io/), [FindBugs](http://findbugs.sourceforge.net), [PMD](https://pmd.github.io/) |
-| Perl       | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                                |
-| R          | [lintr](https://github.com/jimhester/lintr)                                                                                  |
-| Shell/Bash | [shellcheck](https://www.shellcheck.net)                                                                                     |
+| اللغة       | أداة تحليل الكود الثابت                                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------ |
+| C/C++       | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                               |
+| Python      | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                              |
+| جافا سكريبت | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                              |
+| جافا        | [اختبار](https://checkstyle.sourceforge.io/)، [FindBugs](http://findbugs.sourceforge.net)، [PMD](https://pmd.github.io/) |
+| Perl        | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                            |
+| ر           | [lintr](https://github.com/jimhester/lintr)                                                                              |
+| قذيفة/باش   | [قذيفة](https://www.shellcheck.net)                                                                                      |

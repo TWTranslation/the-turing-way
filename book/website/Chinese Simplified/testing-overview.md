@@ -1,26 +1,26 @@
 (rr-testing-overview)=
-# Overview of Testing Types
+# 测试类型概述
 
-There are a number of different kinds of tests, which will be discussed here.
+这里将讨论若干不同类型的测试。
 
-Firstly there are positive tests and negative tests. Positive tests check that something works, for example testing that a function that multiplies some numbers together outputs the correct answer. Negative tests check that something generates an error when it should. For example nothing can go quicker than the speed of light, so a plasma physics simulation code may contain a test that an error is outputted if there are any particles faster than this, as it indicates there is a deeper problem in the code.
+首先是肯定的测试和消极的测试。 正测试检查某些东西是否起作用，例如测试一个函数将一些数字乘以一起输出正确的答案。 负测试检查当某些东西出现错误时是否会发生。 例如，任何东西都不可能比光速更快。 所以一个等离子物理模拟代码可能包含一个测试，如果有任何粒子更快，则输出错误， 因为它表明代码中存在一个更深的问题。
 
-In addition to these two kinds of tests, there are also different levels of tests which test different aspects of a project. These levels are outlined below and both positive and negative tests can be present at any of these levels. A thorough test suite will contain tests at all of these levels (though some levels will need very few).
+除了这两类试验之外，还存在不同程度的试验，试验项目的不同方面。 下文概述了这些水平，并且在其中任何一级都可以进行正反两方面的检验。 一套透彻的试验套装将包括所有这些级别的试验(尽管有些级别所需的数量非常少)。
 
-## Types of Testing
+## 测试类型
 
-[Smoke testing](#Smoke_testing): Very brief initial checks that ensures the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+[烟雾测试](#Smoke_testing): 非常简短的初步检查，确保运行项目挂卡所需的基本要求。 如果未能做到这一点，在确定试验水平之前就没有任何意义。
 
-[Unit testing](#Unit_tests):    A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+[单元测试](#Unit_tests): 在软件测试过程中测试软件的单个单元. 其目的是验证软件的每个单位是否按设计行事。
 
-[Integration testing](#Integration_testing): A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+[集成测试](#Integration_testing): 一定水平的软件测试，将单个单元合并并作为一个组进行测试。 这一测试水平的目的是揭示一体化单位之间相互作用中的缺陷。
 
-[System testing](#System_tests):    A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+[系统测试](#System_tests): 一个完整、综合的系统测试过程中的一个等级。 这项试验的目的是评估整个系统是否为特定投入提供了正确的产出。
 
-[Acceptance testing](#Acceptance_testing):  A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+[接受测试](#Acceptance_testing): 软件测试过程的一个级别，测试一个系统是否可以接受。 这次测试的目的是评价该系统是否符合项目要求，并评估它是否可以接受。
 
-Here's an analogy: during the process of manufacturing a ballpoint pen, the cap, the body, the tail, the ink cartridge and the ballpoint are produced separately and unit tested separately. When two or more units are ready, they are assembled and integration testing is performed, for example a test to check the cap fits on the body. When the complete pen is integrated, system testing is performed to check it can be used to write like any pen should. Acceptance testing could be a check to ensure the pen is the colour the customer ordered.
+下面是一个类比：在生产球点钢的过程中，钢帽，身体。 尾料、墨盒和球点是分开生产和单独测试的。 一旦两个或两个以上的单位准备就绪，就组装起来，并进行整合测试。 例如，用于检查物体顶部是否适合的测试。 当完整的笔集成时，将进行系统测试以检查它是否可以像任何笔一样写入。 接受测试可以是一张支票，以确保笔是客户订购的颜色。
 
-There is also another kind of testing called regression testing. Regression testing is a type of testing that can be performed at any of the four main levels and compares the results of tests before and after a change is made to the code, and gives an error if these are different.
+还有另一种称为回归试验的试验。 回归测试是一种可在四个主要层次中的任何一个层次进行的测试，并对修改守则之前和之后的测试结果进行比较。 如果它们不同则给出一个错误。
 
-These different types of tests are discussed in more detail in the next subchapters.
+下一节将更详细地讨论这些不同类型的检验。

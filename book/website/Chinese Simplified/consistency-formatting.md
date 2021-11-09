@@ -1,64 +1,64 @@
-(ch-consistency-formatting)=
-# Formatting
+(ch-一致性格式)=
+# 格式化
 
-Formatting refers to how _The Turing Way_ book is written and directly affects the book's appearance and presentation.
+格式化是指如何编写 _诱惑路径_ 书，并直接影响书的外观和演示。
 
-_The Turing Way_ is hosted online as a Jupyter Book and uses the formatting recommendations as described in their [documentation](https://jupyterbook.org/intro.html). Proper formatting ensures that _The Turing Way_ is readable, accessible, and resembles a modular piece of work.
+_Ting Way_ 是作为Jupyter 书在线托管的，使用了他们 [文档](https://jupyterbook.org/intro.html) 中描述的格式化建议。 正确格式化确保 _诱惑路径_ 是可读、可访问的，并类似于模块化的工作。
 
 
-(ch-consistency-formatting-hr)=
-## Hard Requirements
+(ch-uniency-forming-hr)=
+## 硬要求
 
-The hard requirements in the consistency checklist ensure that _The Turing Way_ prioritises accessibility, collaboration, readability and ease of use. The checks that deal with the _The Turing Way's_ formatting include:
+一致性清单中的硬性要求确保 _优秀方式_ 优先访问、协作、可读性和易于使用。 涉及 _Ting Way的_ 格式化的检查包括：
 
-(ch-consistency-formatting-hr-markdown)=
-### Check 1:  Use Markdown for creating your content
+(ch-uniency-forming-hr-markdown)=
+### 检查1：使用Markdown 来创建您的内容
 
-_The Turing Way_ should be written in [Markdown](https://en.wikipedia.org/wiki/Markdown) where possible, so that the Jupyter Book renders as intended.
+_只要有可能，就应该在 [Markdown](https://en.wikipedia.org/wiki/Markdown) 中写入诱惑路径_ ，以便Jupyter 书能够像预定的那样渲染。
 
 
 #### Markdown x HTML
 
 Parts of earlier chapters in _The Turing Way_ were written in `HTML`, making some of their content hard to read.
 
-For example, {ref}`html-to-markdown` depicts a table that was written in `HTML`.
+例如， {ref}`到Markdown` 描述了一个在 `HTML` 中写入的表。
 
 ```{figure} ../../figures/html-to-markdown.png
 ---
-name: html-to-markdown
-alt: A screenshot of a poorly formatted table written in HTML. The table is squished together and does not have column or row borders. This makes it hard for a reader to decipher its meaning.
+名称：html到Markdown
+alt：用HTML写入的格式不正确的表的截图。 这个表格被浪费在一起，而且没有一列或一列边界。 这使得读者难以解读其含义。
 ---
-Content written in HTML may not render properly.
+在 HTML 中写入的内容可能无法正常渲染。
 ```
 
-When reformatted to Markdown, the table became cleaner and easier to read:
+当改装为Markdown 时，表格变得更干净，更容易做到：
 
 ```{figure} ../../figures/html-to-markdown2.png
 ---
-name: html-to-markdown2
-alt: A screenshot of a table converted to Markdown from HTML. The table becomes easier to read and understand when converted to Markdown.
+名称：html-markdown2
+Alt：从HTML转换为Markdown 的表的截图 当转换为Markdown时，该表更容易阅读和理解。
 ---
-Converting HTML to Markdown makes The Turing Way book easier to read.
+将 HTML 转换为 Markdown 使得读取诱惑路径书更加容易。
 ```
 ```{note} A PR that addresses this check can be found [here](https://github.com/alan-turing-institute/the-turing-way/pull/1460).
 ```
 
-Chapter content written in `HTML` are usually enclosed in tags which begin and end with angle brackets `<>`.
-[W3Schools](https://www.w3schools.com/html/html_elements.asp) is an excellent resource for understanding what these tags mean, and Markdown reference guides, such as [this cheatsheet](https://www.markdownguide.org/cheat-sheet/), can help translate `HTML` formatting to Markdown.
-There are also helpful tools on the web, such as [Turndown](https://domchristie.github.io/turndown/) and [CloudConvert](https://cloudconvert.com/html-to-md), that convert `HTML` to Markdown with a single click.
+在 `HTML` 中写入的章节内容通常包含在以角度括号开始和结尾的<> `的标签中。
+[W3Schools](https://www.w3schools.com/html/html/html_elements.asp) 是一个很好的资源来理解这些标签意味着什么，Markdown reference guides, such as [this cheatsheet](https://www) 。 arkdownguide.org/cheat-sheet/)，可以帮助将 `HTML` 格式翻译成Markdown。
+网站上还有一些有用的工具，例如 [Turndown](https://domchristie.github.io/turdown/) 和 [CloudConvert](https://cloudconvert.com/htmlto-md)，只需单击即可将`HTML`转换为Markdown。
 
-Please note that if `HTML` is the only option for you to format your text the way you desire, you can use it only if the content in the online book can still be read and understood (use the Netlify preview in your PR to test).
-For example, [superscripts and subscripts](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet#toc-superscript-and-subscript) can be written in `HTML` because they always appear as intended.
-In addition, content like YouTube videos and tables with headers that span multiple columns or rows can be written in `HTML`.
+请注意，如果`HTML`是你想要的格式化文本的唯一选项， 您只能在仍然可以阅读和理解在线书中的内容时才能使用它(在您的 PR 中使用 Netlify 预览进行测试)。
+例如，[overcript and subscripts](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet#toc-abescript-and-subscript) 可以写入`HTML` ，因为它们总是按原意出现。
+此外，跨越多列或行的YouTube视频和带有头部的表格等内容可以使用 `HTML` 写入。
 
 
 ```{attention} A Note About Styling
 :class: tip
 
-_The Turing Way_ has a [book-wide stylesheet](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) that controls the look of content written in `HTML`.
-If you include `HTML` in your contribution, ensure that your formatting includes the relevant classes and IDs from the stylesheet.
+_The Ting Way_ has a [booksible stylesheet](https://github)。 Oom/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) 控制`HTML`所写内容的外观。
+如果您在您的贡献中包含 `HTML` ，请确保您的格式包含相关的类和样式表中的ID。
 
-For example, if you want to add a YouTube video to your content using the `<iframe>` tag, wrap the `<iframe>` in a `<div>` tag, and give the `div` a `video-container` class as shown below.
+例如，如果您想要使用 `<iframe>` 标签将YouTube 视频添加到您的内容中。 把<iframe>`作为一个`<div>`标签，然后给`div` 一个`video-container` 类，如下所示。
 
 <div class="video-container">
     <iframe>....</iframe>
@@ -66,160 +66,160 @@ For example, if you want to add a YouTube video to your content using the `<ifra
 
 ```
 
-This is also described in the {ref}`Style Guide<ch-style-custom-styling-videos>`.
+{ref}`风格指南<ch-style-custom-styling-videos>` 中也描述了这一点。
 
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tv0HlVgxDdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### Writing Checklists
+#### 写入清单
 
-When writing a new chapter for _The Turing Way_, you might include a Checklist subchapter that itemises key action points you want readers to take based on the chapter content. For earlier chapters in _The Turing Way_, this subchapter is written in Markdown as a Task List with checkboxes:
-
-```
-# Checklist
-- [ ] Item One
-- [ ] Item Two
-- [ ] Item Three
+编写新章节时 _正在酝酿的路径_您可能会包含一个核对表子章, 其中包含您想要读者根据章节内容使用的关键行动点。 对于 _的早期章节_, 此子章节是用Markdown编写的带有复选框的任务列表：
 
 ```
+# 清单
+- [ ] 项目一
+- [ ] 项目二
+- [ ] 项目三
 
-However, the checkboxes do not display as intended in the online version of the book, for example:
+```
+
+然而，复选框并未按该书在线版本中显示，例如：
 
 ```{figure} ../../figures/checklist-formatting.png
 ---
-name: checklist-formatting
-alt: When the Checklist subchapter of any chapter is written in Markdown as a Task List with checkboxes, square brackets are displayed rather than checkboxes in the web version of the book.
+名称：复选列表格式
+备选案文：当任何章节的复选列表子章节被标记为带复选框的任务列表时， 在书的网页版中显示方括号而不是复选框。
 ---
-Checkboxes are displayed as square brackets in the web version of the book.
+复选框以方括号显示在书的网页版中。
 ```
 
-Thus, we recommend that you format your Checklist subchapters as unordered lists in your future contributions, and edit earlier chapters that follow the other convention:
+因此，我们建议您在今后的报告中将核对表分章格式化为无序列表，并在其他公约后编辑更早的章节：
 
 ```
-# Checklist
-- Item One
-- Item Two
-- Item Three
+# 清单
+- 项目一
+- 项目二
+- 项目三
 
 ```
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/oe2Up1pU5DY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-hr-headers)=
-### Check 2: Use headers in sequential order.
+(ch-unience-forming-hr-headers)=
+### 检查 2: 按顺序使用标题。
 
-Non-consecutive headers refer to an increase in header levels of more than one. For example:
-
-```
-# Heading
-### Another Heading
-```
-Such an increase of two header levels results in warnings when building _The Turing Way_ locally. Ideally, all Markdown files should start with a level 1 heading and increase sequentially as appropriate:
+非连续标题是指头部水平增加了一个以上。 例如：
 
 ```
-# Heading
-## Another Heading
+# 标题
+### 另一个标题
+```
+这种增加两个顶部级别会导致在本地构建 _Ting Way_ 时发出警告。 理想的情况是，所有Markdown 文件应该以一级标题开头，并酌情相继增加：
+
+```
+# 标题
+## 另一个标题
 ```
 
-Several files in _The Turing Way_ book do not follow this convention. A list of such files can be found in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1321), and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) is a great example of how to fix a file with non-consecutive headers.
+_中的几个文件。_ 书没有遵循这个公约。 这种文件列表可以在 [这个问题](https://github.com/alan-turing-institute/the-turing-way/issues/1321)中找到。 and [此 PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) 是一个很好的例子，说明如何修复一个非连续标题的文件。
 
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qq9QCrykdbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-hr-labels)=
-### Check 3: Add labels to chapters, subchapters, sections, and images to enable cross-referencing.
+(ch-uniency-forming-hr-labels)=
+### 勾选3：在章节、小章、小节和图像中添加标签以启用交叉引用。
 
-Often, a chapter might refer to content from another chapter to explain concepts or expand on points. Cross-referencing facilitates this by ensuring that the referred content is easy to find with a simple click. This helps make _The Turing Way_ more navigable and accessible.
+一个章节往往可以从另一个章节中提及内容，以解释概念或扩大内容。 交叉引用有助于实现这一点，确保所引用的内容易于通过简单点击查找。 这有助于使 _诱惑路径_ 更易于导航和访问。
 
-{ref}`Cross-referencing <ch-style-crossref>` is discussed in detail in the {ref}`ch-style`. The subchapter explains what labels are, provides a naming convention for labels in _The Turing Way_, and gives several useful examples for how cross-referencing should be done.
+{ref}`交叉引用 <ch-style-crossref>` 在 {ref}`ch-style` 中详细讨论。 该小章解释了什么标签，提供了 _标签的 Ting Way_的命名协议， 并举出一些有用的例子，说明如何进行相互参照。
 
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ikcjxjklLVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-hr-images)=
-### Check 4: Use `MyST` for image formatting
+(ch-consisting-hr-images)=
+### 检查 4：在图像格式中使用 `MyST`
 
-Some figures and images in _The Turing Way_ are embedded using Markdown syntax. While this works, it does not allow the images to adapt to the screen size of the device the book is read from.
+_中的一些数字和图像。正在使用 Markdown 语法嵌入。_。。 虽然这个作品，但它不允许图像适应该书读取的设备的屏幕大小。
 
-Markedly Structured Text (`MyST`) is a flavour of Markdown that addresses this and enables responsive images in the _The Turing Way_.
+Markdown Text (`MyST`) 是一个触发此问题的Markdown的闪烁，它使得在 _Ting Way_ 中的响应图像成为可能。
 
-It also allows the use of captions and alternative text (ALT text), which are the invisible image descriptions that are read aloud to readers of the _The Turing Way_ who use a screen reader. If no ALT text is provided with an image, these users will be unable to understand the purpose of the image.
+它还允许使用标题和备选案文（ALT案文）， 这些是向使用屏幕阅读器的 _诱惑路径_ 读者大声读取的隐形图像描述。 如果没有为 ALT 文本提供图像，这些用户将无法理解图像的目的。
 
-When writing ALT text, remember to:
-- **Be descriptive** - Adequately describe the image using its content and context for guidance. In doing so, there is no need to "announce" an image in your description (for example, using "illustration of" or "picture of") since screen readers will already do this.
-- **Keep it as short as possible** - Although a long description may be necessary for some images, it is better to keep them as short as possible. This ensures that the descriptions are easy to understand.
+写入 ALT 文本时，记住：
+- **描述性** - 使用图像的内容和上下文来描述图像。 在这样做时，您的描述中无需“宣布”一个图像(例如) 使用"示意图"或"画面") 因为屏幕阅读器已经这样做了。
+- **保持尽可能短的** - 虽然某些图像可能需要长度描述， 最好保持尽可能短的时间。 这确保了这些描述易于理解。
 
-Please note that images included in _The Turing Way_ book should be less than 1MB. This allows the book load faster, especially for readers who may have slow internet connections.
+请注意，包含在 _Ting 路径_ 书中的图像应该小于 1MB。 这使书载量更快，尤其是对于网络连接速度较慢的读者。
 
-Please refer to the {ref}`style guide <ch-style-figures>` for examples on formatting images using `MyST` and adding ALT text to them. When including images in your contributions, it may be better to avoid the height parameter as the wrong value could make your image appear distorted on mobile devices. You should always check how your image looks in the Netlify preview of the book when you make a PR.
+关于使用 `MyST` 格式化图像的示例，请参考 {ref}`样式指南 <ch-style-figures>` 并向它们添加ALT 文本。 何时将图像纳入您的报告中。 最好是避免高度参数，因为错误的值可能会使您的图像在移动设备上被扭曲。 当您制作PR时，您应该随时检查您的图像如何在 Netlify 预览中看到。
 
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/upBiKLR_A5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-sr)=
-## Soft Requirements
+(ch-一致性格式-sr)=
+## 软要求
 
-Soft requirements help improve the overall look and feel of _The Turing Way_. When effected, these checks may go unnoticed, but they also contribute to making _The Turing Way_ a polished piece of work. Soft requirements that deal with _The Turing Way's_ formatting include:
+Soft requirements help improve the overall look and feel of _The Turing Way_. 一旦实施，这些检查可能不受注意，但它们也有助于使 _诱惑之路_ 成为一件已磨成的工作。 处理 _的软要求。正在酝酿的怀_ 格式包括：
 
-(ch-consistency-formatting-sr-one)=
-### Check 1: Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`
+(ch-一致性格式-sr-one)=
+### 勾选1： 确保章节/子章节的名称较短，并准确映射它们在 `_toc.yml 中的标题`
 
-Some chapters and subchapters in _The Turing Way_ do not match their corresponding references in the book-wide table of contents that appears on the left of the webpage. This may be confusing for users, especially when the chapter/subchapter's reference in the table of contents significantly varies from the chapter/subchapter's name.
+_中的一些章节和小章节_ 与页面左边出现的全书目录中的相应引用不匹配。 对于使用者来说，这可能会引起混淆，尤其是当目录中的章节/小章的名称与小章/小章的名称大不相同时。
 
 ```{figure} ../../figures/mismatched-title-toc.png
 ---
-name: mismatched-title-toc
-alt: A subchapter whose title differs from its reference in the table of contents. The title of the subchapter is 'Using Spreadsheets for Research Data', however in the table of contents, it is referred as 'Data Organisation in Spreadsheets'.
+名称：不匹配的标题
+备选案文：其标题不同于其在目录表中的参考内容的子章节。 该小章的标题是“使用预报表作为研究数据”，但在内容表中却称为“Spreadsheets中的数据组织”。
 ---
-The title of this subchapter is 'Using Spreadsheets for Research Data', however the table of content refers to the same file as 'Data Organisation in Spreadsheets'.
+本分章的标题是“使用预告式表作为研究数据” 但内容表指的是“Spreadsheets中的数据组织”相同的文件。
 ```
 
-In ensuring that _The Turing Way's_ content passes this check, one recommendation to follow is to keep the titles short. When writing a new chapter, ensure that its title is short and has the same name in the table of contents. Similarly, when reviewing existing chapters, if its title and reference in the table of contents differ, make the shorter of the two the chapter's title, and update the `_toc.yml` if necessary.
+为了确保 _Ting Way的_ 内容通过这次检查，需要遵循的一条建议是保留标题。 在撰写新章节时，确保其标题较短，并在目录中具有相同的名称。 同样，在审查现有各章时，如果其标题和目录中的参考内容不同， 使这两个章节的较短标题成为章节的标题，并更新 `_toc。 如有必要，ml`
 
 ```{note}
-The `_toc.yml` is the file where the book-wide table of contents for _The Turing Way_ lives.
+`_toc.yml` 是指_Ting Way_live的全书目录的文件。
 ```
 
-Nonetheless, remember that the final title should adequately tell readers what to expect from a chapter or subchapter.
+不过，请记住，最后标题应适当地告诉读者对某一章或某一小章的期望。
 
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HxcdqKJbCE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-sr-two)=
-### Check 2: Ensure proper title-casing for headers
+(ch-一致性格式-sr-2)=
+### 检查 2: 确保标题适当的标题
 
-The titles of some chapters in _The Turing Way_ do not use title-casing. [Title-casing](https://en.wikipedia.org/wiki/Title_case) is a capitalisation style used to format the titles and headings of published works. Being a citeable reference for individuals seeking to carry out reproducible data science, titles and headings in _The Turing Way_ should be title-cased.
+_中一些章节的标题_ 不使用标题。 [标题外壳](https://en.wikipedia.org/wiki/Title_case) 是一种资本化风格，用于格式化已发布作品的标题和标题。 作为寻求在 _中进行可复制的数据科学、标题和标题的个人可引用的参考资料。Ting Way_ 应该是标题。
 
-Although _The Turing Way_ does not follow a specific title capitalisation style, some general, non-exhaustive rules to consider include:
-- Capitalise principal or important words
-- Lowercase articles, conjunctions, and prepositions (unless when these are stressed)
-- Capitalise the first and last words
+虽然 _诱惑方式_ 并不遵循特定的标题资本化风格，但一些一般性的、非详尽无遗的规则包括：
+- 使用主或重要单词
+- 小写文章、连结和前置(除非有压力)
+- 使用第一个和最后一个单词
 
-There are helpful tools, such as [CapitalizeMyTitle](https://capitalizemytitle.com/) and [Title Case Converter](https://titlecaseconverter.com/), that can be used to title-case headers when writing your content. Furthermore, headers in _The Turing Way_ can be run through these tools to ensure they follow title-casing conventions. They can then be replaced within chapters and in the `_toc.yml` as appropriate.
+有一些有用的工具，例如 [CapitalizeMyTitle](https://capitalizemytitle.com/) and [Title Case 转换器](https://titlecaseconverter.com/), 在撰写您的内容时可以用于标题栏标题。 此外， _的标题可以通过这些工具来操作_ ，以确保它们遵循标题传输公约。 然后可以在章节内并酌情在 `_toc.yml` 中替换它们。
 
-For example, In {ref}`mismatched-title-toc` above, **Using spreadsheets for research data** should be title-cased to **Using Spreadsheets for Research Data**.
+例如，在上面的 {ref}`个不匹配的标题` 中。 **使用电子表格进行研究数据** 应命名为 **使用电子表格进行研究数据**
 
-Certain headers may not need to be title-cased depending on the context in which they are used. For example, because some of the headers in this chapter make up a checklist - they do not need to be title-cased.
+根据使用的背景，某些标题可能不需要头衔。 例如，由于本章的一些标题构成了核对表——它们不必打标题。
 
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ET_LI5dwP9M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

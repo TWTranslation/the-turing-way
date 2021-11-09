@@ -1,100 +1,100 @@
 (er-intro)=
-# Introduction to Research Ethics
+# مقدمة لأخلاقيات البحث
 
 ## Summary
 
-This section briefly introduces the key concepts of *Responsible Research and Innovation* (RRI) and *Research Integrity*. Both refer to different questions within the field of research ethics. Below is a table summarising these questions.
+يقدم هذا القسم بإيجاز المفاهيم الرئيسية لـ *البحث المسؤول والابتكار* (RRI) و *نزاهة البحث*. وكلاهما يشير إلى مسائل مختلفة في مجال أخلاقيات البحوث. ويرد أدناه جدول يلخص هذه الأسئلة.
 
-| Factor                              | RRI                                                                            | Research Integrity                                                                     |
-| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
-| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
-| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
+| عامل                        | RRI                                                                       | نزاهة البحث                                                                             |
+| --------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **إدراك المسائل الأخلاقية** | إلى الخارج (على سبيل المثال: كيف ينظر الجمهور إلى الناتج العلمي؟)         | إلى الداخل (على سبيل المثال: كيف يتصرف الباحثون بأنفسهم؟)                               |
+| **من يتفاعل مع الباحثين**   | مع مواضيع البحث (على سبيل المثال: هل نعالجها باحترام؟)                    | مع زملائنا الباحثين (على سبيل المثال: هل نتقيد بمدونة سلوك؟)                            |
+| **ما هو شكل البحث**         | شكل المجتمع (على سبيل المثال: كيف تفهم منظمة العفو الدولية كحل بوجه عام؟) | تتشكل حسب المعايير المؤسسية (على سبيل المثال: ما هي المسائل البحثية التي يجري تمويلها؟) |
 
 ```{figure} ../figures/ethical-research.jpg
 ---
-name: ethical-research
-alt: One person looks for research integrity and another person holds up a map and looks for the research consequences.
+الاسم: البحث الأخلاقي
+البديل : شخص واحد يبحث عن نزاهة البحث و شخص آخر يحمل خريطة ويبحث عن نتائج البحث.
 ---
-Looking at different aspects of research ethics. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+النظر إلى جوانب مختلفة من أخلاقيات البحوث. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Motivation
-> why we think you should read the whole thing
+## الدافع
+> لماذا نعتقد أنه يجب عليك قراءة كل الشيء
 
- In conducting research within academic institutions, it is common to be faced with ethical questions posed by "Ethics Committees". Decisions made throughout the lifecycle of a project will also raise ethical concerns. This chapter introduces some of these questions within the broad field of research ethics.
+ ولدى إجراء البحوث داخل المؤسسات الأكاديمية، من الشائع أن نواجه أسئلة أخلاقية تثيرها "لجان الأخلاقيات". كما أن القرارات المتخذة طوال دورة حياة المشروع تثير شواغل أخلاقية. ويعرض هذا الفصل بعض هذه المسائل في المجال الواسع لأخلاقيات البحوث.
 
-## Chapter content
+## محتوى الفصل
 
-### Introducing Ethics
+### تقديم الأخلاقيات
 
- With no intention of doing justice to the vast literature that there is on the topic, we can take *Ethics* to be the subject of study of moral philosophy, which seeks --amongst other things -- to distinguish right from wrong. Nowadays, philosophers speak of three levels of discussion in ethics (Fieser, IEP): metaethics, normative ethics and applied ethics. Roughly, metaethics questions the nature of good and evil, as well as the underlying assumptions held by different ethical frameworks. Normative ethics, then, provides the tools for us to create such ethical frameworks and think within them. Applied ethics, finally, is what is most pertinent to this guide, as we will be discussing the ins and outs of ethical and responsible research and innovation.
+ وإذ لا تنوي إنصاف المؤلفات الواسعة النطاق المتعلقة بالموضوع، يمكننا أن نعتبر *الأخلاق* موضوعا لدراسة الفلسفة الأخلاقية، الذي يسعى - ضمن أمور أخرى - لتمييز الصواب عن الخطأ. وفي الوقت الحاضر، يتحدث الفلاسفة عن ثلاثة مستويات من المناقشة في مجال الأخلاقيات (فيزر، المعهد الدولي للأخلاقيات المهنية، الأخلاقيات وأخلاقيات التطبيق. وتشكك الأخلاقيات تقريبا في طبيعة الخير والشر، فضلا عن الافتراضات الأساسية التي تستند إليها مختلف الأطر الأخلاقية. ومن ثم فإن الأخلاقيات المعيارية توفر لنا الأدوات لإنشاء مثل هذه الأطر الأخلاقية والتفكير فيها. أخلاقيات التطبيق، في النهاية، هي الأكثر صلة بهذا الدليل، لأننا سنناقش جوانب البحث والابتكار الأخلاقي والمسؤول.
 
- We begin this introductory chapter with clarifying why *research ethics* matters. Then we discuss two critical concepts relating with research ethics: *responsible research and innovation* and *research integrity*. We then unpick the ethical questions different questions each concept raises.
+ نبدأ هذا الفصل الاستهلالي بتوضيح لماذا *يهم أخلاقيات البحث* ثم نناقش مفهومين حاسمين يتعلقان بأخلاقيات البحث: *البحث المسؤول والابتكار* و *سلامة البحث*. ثم نفحص الأسئلة الأخلاقية المختلفة التي يثيرها كل مفهوم من المفاهيم.
 
- ### Motivating Research Ethics
+ ### تحفيز آداب البحث
 
- Taking *ethics* as the study of what behaviours are right and what behaviours are wrong highlights that it refers to *action*. Considering this, ethics is relevant to research insofar that researchers are *acting* and *behaving* in certain ways when conducting their work. Taking this definition seriously also means accepting moral philosophy as paramount in our everyday lives: ethics pertains to us all. Furthermore, the potential ripple effects of any research project may be far greater than an individual's actions under normal circumstances.
+ أخذ *الأخلاق* كدراسة لماهية السلوكيات الصحيحة والسلوكيات الخاطئة تسلط الضوء على أنها تشير إلى *إجراء*. وبالنظر إلى هذا، فإن الأخلاقيات ذات صلة بالبحث حيث أن الباحثين *يتصرفون* و *يتصرفون* بطرق معينة عند القيام بعملهم. ويعني الأخذ بهذا التعريف بجدية أيضا قبول الفلسفة الأخلاقية بوصفها الفلسفة العليا في حياتنا اليومية: الأخلاق تتعلق بنا جميعا. وعلاوة على ذلك، فإن الآثار المحتملة لأي مشروع بحثي قد تكون أكبر بكثير من الأعمال التي يقوم بها الفرد في الظروف العادية.
 
- To this effect, the importance of acting ethically within the academic sphere is heightened. Scientists must reflect on the ethical questions their research projects raise.
+ ولهذا الغرض، تتزايد أهمية العمل الأخلاقي داخل المجال الأكاديمي. ويجب على العلماء أن يفكروا في المسائل الأخلاقية التي تثيرها مشاريعهم البحثية.
 
- ## Defining Research Ethics
+ ## تعريف أخلاقيات البحث
 
- In practice, the historical development of research ethics has been driven due to ethical concerns around how research has traditionally been conducted and cases of clear controversy (European Commission, 2010). Unfortunately, this reactive nature of research ethics has led to there being many ethical codes for research, each regarding distinct fields of inquiry, designed by and for different institutions, and sometimes affecting scientific work conducted within specific regions. Therefore, researchers are right to feel overwhelmed by the diversity of rules and guidelines they face throughout their careers.
+ من الناحية العملية وقد كان التطور التاريخي لأخلاقيات البحوث مدفوعا بسبب الشواغل الأخلاقية المتعلقة بكيفية إجراء البحوث تقليديا وحالات الخلاف الواضح (المفوضية الأوروبية) 2010). ومما يؤسف له أن هذا الطابع التفاعلي لأخلاقيات البحوث قد أدى إلى وجود العديد من المدونات الأخلاقية للبحوث، كل فيما يتعلق بميادين منفصلة من مجالات التحقيق. وقد صممت من قبل مؤسسات مختلفة ومن أجلها، وأحياناً تؤثر على العمل العلمي الذي يجري داخل مناطق محددة. ولذلك فإن الباحثين محقون في الشعور بأنهم مغمورون بتنوع القواعد والمبادئ التوجيهية التي يواجهونها طوال حياتهم المهنية.
 
- One source of diversity of ethical frameworks relates with how research institutions generally have "Ethics Committees" that appraise the ethics of research conducted within their institutions. This is traditionally done for institutions to protect themselves from legal liabilities. However, further reflection -- beyond questions of data protection -- can be required by these processes. The point is that one university's process for ethical appraisal will, more often than not, differ from another's.
+ ويتصل أحد مصادر تنوع الأطر الأخلاقية بالكيفية التي توجد بها عموما في مؤسسات البحوث ”لجان الأخلاقيات“ التي تقيّم أخلاقيات البحوث التي تجرى داخل مؤسساتها. ويتم ذلك تقليديا لكي تحمي المؤسسات نفسها من المسؤوليات القانونية. بيد أن هذه العمليات يمكن أن تتطلب المزيد من التفكير - بما يتجاوز مسائل حماية البيانات. والنقطة هي أن عملية التقييم الأخلاقي التي تقوم بها إحدى الجامعات ستختلف في أغلب الأحيان عن عملية التقييم الأخلاقي.
 
-  The below section simply outlines two critical concepts in the realm of research ethics: *responsible research and innovation* (RRI) and *research integrity*.
+  ويوجز القسم أدناه ببساطة مفهومين حاسمين في مجال أخلاقيات البحث: *البحث المسؤول والابتكار* (RRI) و *سلامة البحث*.
 
-### Responsible Research and Innovation
+### البحث المسؤول والابتكار
 
-  *RRI* is a term which has been around for several decades but which gained traction in 2011, when becoming an important term in the context of European policy (Owen et al., 2012). Turning to the European Union’s “Horizon 2020” research programme, we can find one definition of RRI:
-> “[RRI is] an approach that anticipates and assesses potential implications and societal expectations with regard to research and innovation, with the aim to foster the design of inclusive and sustainable research and innovation” (European Commission, n.d.).
+  *RRI* هو مصطلح استمر لعدة عقود ولكنه اكتسب قوة في عام 2011 عندما تصبح مصطلحاً هاماً في سياق السياسة الأوروبية (Owen et al. 2012). وإذا انتقلنا إلى برنامج أبحاث "أفق 2020" التابع للاتحاد الأوروبي، فيمكننا أن نجد تعريفاً واحداً للتعريف بالروابط الريفية:
+> "[إن مبادرة RRI] هي نهج يتوخى ويقيّم الآثار المحتملة والتوقعات المجتمعية فيما يتعلق بالبحث والابتكار، بهدف تعزيز تصميم بحوث وابتكارات شاملة ومستدامة" (European Commission, n. ).
 
- There are two aspects of this definition worth focusing on for the purpose of this introductory section. Firstly, RRI refers to “potential implications and societal expectations.” Secondly, it is about “the design of inclusive and sustainable research”. These are two traditionally important aspects of the ethics of science: how research is set up or designed, and what societal consequences this setup has. What is important here is that we consider these aspects of research when speaking of making it ethical.
+ وهناك جانبان من جوانب هذا التعريف يستحقان التركيز عليهما لأغراض هذا الفرع التمهيدي. أولاً، تشير مبادرة RRI إلى "الآثار المحتملة والتوقعات المجتمعية". ثانيا، يتعلق الأمر بـ “تصميم بحوث شاملة ومستدامة”. هذان جانبان مهمان تقليدياً لأخلاقيات العلم: كيف يتم إنشاء أو تصميم البحوث، وما هي العواقب الاجتماعية لهذا الإنشاء. والمهم هنا هو أن ننظر في هذه الجوانب من البحوث عندما نتكلم عن جعلها أخلاقية.
 
-### Research Integrity
+### نزاهة البحث
 
- Defined by the Office for Research Integrity:
-> "[Research integrity refers to] active adherence to the ethical principles and professional standards essential for the responsible practice of research” (Korenman, n.d.).
+ () عرّفه مكتب نزاهة البحوث:
+> "[تشير نزاهة البحث إلى] الالتزام النشط بالمبادئ الأخلاقية والمعايير المهنية الضرورية لممارسة البحث على نحو مسؤول" (Korenman, n.d).
 
- What this term brings into the discussion about research ethics are “professional standards” and “responsible practice”. Unlike in RRI, the question is no longer on the ethics of scientific output and its consequences, but on the ethics of how scientists conduct themselves in practice. Research integrity, in a sense, captures the ethics of the work done “behind the scenes”, outside the view of the general public.
+ وما يدلي به هذا المصطلح في المناقشة بشأن أخلاقيات البحوث هو ”المعايير المهنية“ و ”الممارسة المسؤولة“. وخلافاً لما ورد في تقرير مراجعة الحسابات، لم يعد السؤال يتعلق بأخلاقيات الناتج العلمي ونتائجه، ولكن بشأن أخلاقيات كيفية تصرف العلماء في الواقع العملي. فالنزاهة في البحوث، إلى حد ما، تعكس أخلاقيات العمل المنجز "خلف الكواليس"، خارج رأي عامة الجمهور.
 
-#### Comparing RRI to Research Integrity
+#### مقارنة RRI بنزاهة البحث
 
- The two concepts of RRI and research integrity are by no means entirely distinct, as they can overlap in important ways. However, three differences between both concepts are outlined below for the purpose of drawing out more diverse questions pertaining to research ethics at large. A table with the list of concept spefici questions is shared at the end of this subsection.
+ والمفهومان المتعلقان بمفهوم RI ونزاهة البحوث ليسا منفصلين تماماً بأي حال من الأحوال، إذ أنهما يمكن أن يتداخلا بطرق هامة. غير أن هناك ثلاثة اختلافات بين المفهومين ترد أدناه لغرض طرح مسائل أكثر تنوعا تتعلق بأخلاقيات البحث عموما. ويرد في نهاية هذا القسم الفرعي جدول يتضمن قائمة بالأسئلة المسموحة المفاهيمية.
 
- Firstly, we can see that who *perceives* the ethical questions differs in either case. To start with, RRI can be understood as outward-looking, or visible to the public. For example, people might ask for what it means when scientists keep animals’ brains alive hours after their decapitation (Reardon, 2019). In the meantime, research integrity refers to how research findings are produced — it is inward-looking. A common term to describe a *lack* of research integrity is “research misconduct”, for which there are many examples. One such example is that of Brian Wansink's work in food science, who endorsed p-hacking and has had a number of papers retracted (see Oransky, 2018).
+ أولاً، يمكننا أن نرى من *يرى* تختلف الأسئلة الأخلاقية في أي من الحالتين. بادئ ذي بدء، يمكن فهم RI على أنه منظر للخارج، أو مرئي للجمهور. على سبيل المثال، قد يسأل الناس عما يعنيه ذلك عندما يبقي العلماء عقول الحيوانات على قيد الحياة بعد ساعات من تفكك رأسمالهم (Reardon, 2019). وفي هذه الأثناء، تشير نزاهة البحوث إلى كيفية التوصل إلى نتائج البحوث - وهي نظرة إلى الداخل. المصطلح الشائع لوصف *نقص* نزاهة البحث هو "سوء سلوك البحث" الذي توجد أمثلة كثيرة عليه. وأحد هذه الأمثلة هو عمل براين وانسينك في مجال علوم الأغذية، الذين أيدوا القرصنة وكان لديهم عدد من الأوراق تراجعوا (انظر أورانسكي، 2018).
 
- Secondly, each term refers to different people scientists interact with during research. On the one hand, RRI questions how scientists engage with research subjects. Consider, for example, how volunteers are treated during clinical trials. The point here is to work with data subjects in a respectful and inclusive way. One (in)famous case in which there was no respect for data subjects was the Tuskagee experiments, wherein African-American men were recruited to study the development of untreated syphilis, but the volunteers were falsely told they were receiving free treatment — the monitoring and lies persisted for forty years (CDC, 2020). On the other hand, we can question how scientists engage with fellow researchers. We can here discuss the importance of codes of conduct in open source collaborations, for example, [*The Turing Way*'s](https://the-turing-way.netlify.app/community-handbook/coc.html?highlight=code%20conduct); or — returning to “research misconduct” — how one might engage in authorship fraud. Once again, there are many examples of this sort of practice. From being insincere about who contributed to a paper because the academic incentives system almost encourages this (see Harvey, 2018) to inventing entirely fictional authors (see this piece by Marcus & Oransky, 2016), these are questions that are not commonly within the public’s purview.
+ ثانياً، يشير كل مصطلح إلى تفاعل مختلف العلماء مع أشخاص مختلفين أثناء البحوث. فمن ناحية، تتساءل منظمة RRI عن كيفية مشاركة العلماء في مواضيع البحوث. ولنتأمل على سبيل المثال كيفية علاج المتطوعين أثناء التجارب السريرية. والنقطة هنا هي العمل مع مواضيع البيانات بطريقة تتسم بالاحترام والشمول. ومن بين الحالات الشهيرة التي لم يحترم فيها موضوع البيانات تجارب توسكاجي؛ حيث تم توظيف رجال أمريكيين من أصل أفريقي لدراسة ظهور الزهري غير المعالج، غير أن المتطوعين قيل لهم زورا إنهم يتلقون العلاج المجاني - وهو الرصد والأكاذيب المستمرة لمدة أربعين عاما (CDC, 2020). ومن ناحية أخرى، يمكننا أن نتساءل عن كيفية تعامل العلماء مع زملائهم الباحثين. ويمكننا هنا أن نناقش أهمية مدونات قواعد السلوك في مجال التعاون بين المصادر المفتوحة، على سبيل المثال، [*طريق اللارجح*هو](https://the-turing-way.netlify.app/community-handbook/coc.html?highlight=code%20conduct)؛ أو - العودة إلى ”سوء السلوك البحثي“ - كيف يمكن للمرء أن يتورط في الاحتيال على المؤلفين. ومرة أخرى، هناك أمثلة كثيرة على هذا النوع من الممارسة. من أن يكون متشرداً على من ساهم في ورقة لأن نظام الحوافز الأكاديمية يشجع ذلك تقريباً (انظر هارفيي، 2018) لاختراع المؤلفين الخياليين بالكامل (أنظر هذه القطعة من ماركوس & أورانسكي، إن هذه التساؤلات ليست شائعة في نطاق اختصاص الجمهور.
 
- Thirdly, RRI and research integrity question the ethics of how scientific solutions are framed and shaped either by society at large (RRI) or by institutional practices in particular (research integrity). With our RRI hat on, we can ask how we communicate the validity of scientific outputs. Whilst how scientific findings are communicated is not a new question, it is worth highlighting that artificial intelligence (AI) and machine learning might be framed as delivering much more for research and innovation than what they actually can. Along these lines, we can ask about the role of “AI” as a marketing tool, as a way to grant research findings undeserved credibility (Lanier and Weyl, 2020). A more specific example is available in Nagendran et al.'s' (2020) concerns over exaggerated claims of AI outperforming doctors. Switching to our research integrity goggles, we can question how academic infrastructures shape scientific work.
+ ثالثا، وتتساءل مبادرة RRI ونزاهة البحوث عن أخلاقيات كيفية وضع الحلول العلمية وتشكيلها إما من جانب المجتمع ككل أو من خلال الممارسات المؤسسية بوجه خاص (نزاهة البحوث). مع قبعتنا الخاصة بالرنين المغناطيسي يمكننا أن نسأل كيف نبلغ صحة النواتج العلمية. وفي حين أن كيفية الإبلاغ عن النتائج العلمية ليست سؤالا جديدا، ومن الجدير بالتنويه أن الذكاء الاصطناعي وتعلم الآلات يمكن أن يصيغا على أنهما يقدمان من أجل البحث والابتكار، أكثر بكثير مما يمكنهما فعله. ومن هذا المنطلق، يمكننا أن نسأل عن دور مبادرة "AI" كأداة تسويقية، كوسيلة لمنح نتائج البحوث مصداقيتها غير المصداقية (لانير وويل، 2020). وثمة مثال أكثر تحديداً متاح في قضية Nagendran et al.'' (2020) بشأن المطالبات المبالغ فيها التي قدمها أطباء منظمة العفو الدولية فوق الأداء. بالتبديل إلى نظارتنا الخاصة بالنزاهة في البحوث، يمكننا أن نتساءل كيف تشكل الهياكل الأساسية الأكاديمية العمل العلمي.
 
- Consider, for example, how researchers must weigh the noble pursuit of *truth*, with the need to earn *credit* (on this weighing of options, see, for example, Zollman, 2018). We can also reflect on the impact of funding on scientific endeavours. Questions can be raised regarding the size of research grants (Bloch & Sorensen, 2014) and even the values that motivate the funding of some research projects and not others. Institutional norms might even encourage a “publication bias” whereby positively framed findings will be easier to get published (see Kaiser et al.’s, (2009) finding that studies showing differences in sex/gender are easier to publish than studies *not* supporting such differences).
+ انظر، على سبيل المثال، كيف يجب أن يزن الباحثون البحث النبيل عن *الحقيقة*، مع الحاجة إلى كسب *رصيد* (بشأن هذا الوزن من الخيارات، انظر، على سبيل المثال، زولمان، 2018). ويمكننا أيضا أن نفكر في أثر التمويل على المساعي العلمية. يمكن طرح أسئلة فيما يتعلق بحجم منح البحث (Bloch & Sorensen, 2014) وحتى القيم التي تحفز على تمويل بعض المشاريع البحثية وليس غيرها. بل إن المعايير المؤسسية قد تشجع على "التحيز في النشر" حيث يكون من الأسهل نشر النتائج ذات الإطار الإيجابي (انظر Kaiser et al. ), (2009) وجدت أن الدراسات التي تظهر اختلافات في الجنس/الجنس أسهل نشرها من الدراسات *غير* التي تدعم هذه الاختلافات).
 
- Below is a table illustrating the three differences outlined above. The point here is not to argue for this conceptual distinction but to introduce two important concepts in research ethics and, in doing so, present different questions we must be ready to reflect on when thinking about ethical research.
+ ويرد أدناه جدول يوضح الفروق الثلاثة المبينة أعلاه. والمقصود هنا ليس الدفاع عن هذا التمييز المفاهيمي بل إدخال مفهومين هامين في أخلاقيات البحوث، وفي القيام بذلك، نطرح أسئلة مختلفة يجب أن نكون مستعدين للتفكير عند التفكير في البحوث الأخلاقية.
 
-| Factor                              | RRI                                                                            | Research Integrity                                                                     |
-| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
-| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
-| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
+| عامل                        | RRI                                                                       | نزاهة البحث                                                                             |
+| --------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **إدراك المسائل الأخلاقية** | إلى الخارج (على سبيل المثال: كيف ينظر الجمهور إلى الناتج العلمي؟)         | إلى الداخل (على سبيل المثال: كيف يتصرف الباحثون بأنفسهم؟)                               |
+| **من يتفاعل مع الباحثين**   | مع مواضيع البحث (على سبيل المثال: هل نعالجها باحترام؟)                    | مع زملائنا الباحثين (على سبيل المثال: هل نتقيد بمدونة سلوك؟)                            |
+| **ما هو شكل البحث**         | شكل المجتمع (على سبيل المثال: كيف تفهم منظمة العفو الدولية كحل بوجه عام؟) | تتشكل حسب المعايير المؤسسية (على سبيل المثال: ما هي المسائل البحثية التي يجري تمويلها؟) |
 
 
-## What to learn next
+## ماذا نتعلم بعد ذلك
 
-There are plenty of ways to navigate the realm of Ethics at large and Research Ethics in particular. And there are many reasons why Research Ethics is important to science. We invite you to keep learning about RRI and research integrity, but also to reach out and support the building of this book!
+وهناك الكثير من الطرق للإبحار في مجال الأخلاقيات بوجه عام وأخلاقيات البحث بوجه خاص. وهناك العديد من الأسباب التي تجعل أخلاقيات البحث مهمة للعلم. نحن ندعوكم إلى مواصلة التعلم حول RI ونزاهة البحوث، ولكن أيضًا للوصول ودعم بناء هذا الكتاب!
 
-## Definitions/glossary
+## التعاريف/المسرد
 
-* Applied ethics: the subfield of ethics that examines specific moral questions
-* Ethics: moral principles that govern a person's behaviour or the conducting of an activity
-* Ethics Committee: a body within a wider research institution that is responsible for ensuring that research is carried out in an ethical manner in accordance with the law and some ethical principles or framwork
-* Metaethics: the subfield of ethics that investigates where our ethical principles come from, and what they mean
-* Moral philosophy: the branch of philosophy concerned with ethics
-* Normative ethics: the subfield of ethics that seeks to arrive at moral standards that regulate right and wrong conduct
-* P-hacking: the misreporting of true effect sizes in published studies
-* Research integrity: active adherence to the ethical principles and professional standards essential for the responsible practice of research
-* Responsible research and innovation (RRI): an approach that anticipates and assesses potential implications and societal expectations with regard to research and innovation, with the aim to foster the design of inclusive and sustainable research and innovation
+* الأخلاقيات التطبيقية: المجال الفرعي للأخلاقيات الذي يبحث مسائل أخلاقية محددة
+* الأخلاقيات: المبادئ الأخلاقية التي تحكم سلوك الشخص أو القيام بنشاط ما
+* اللجنة المعنية بالأخلاقيات: هيئة داخل مؤسسة بحثية أوسع مسؤولة عن كفالة إجراء البحوث بطريقة أخلاقية وفقا للقانون ولبعض المبادئ الأخلاقية أو الأطر
+* أخلاقيات المهنة: المجال الفرعي للأخلاقيات الذي يحقق من أين تأتي مبادئنا الأخلاقية وما تعنيه
+* الفلسفة الأخلاقية: فرع الفلسفة المعني بالأخلاقيات
+* الأخلاقيات المعيارية: المجال الفرعي للأخلاقيات الذي يسعى إلى التوصل إلى معايير أخلاقية تنظم السلوك السليم والخاطئ
+* القرصنة الشخصية: الإبلاغ الخاطئ عن أحجام التأثير الحقيقية في الدراسات المنشورة
+* نزاهة البحث: الالتزام النشط بالمبادئ الأخلاقية والمعايير المهنية الضرورية لممارسة البحث على نحو مسؤول
+* البحث المسؤول والابتكار: نهج يتوقع ويقيم الآثار المحتملة والتوقعات المجتمعية فيما يتعلق بالبحث والابتكار، بهدف تعزيز تصميم بحوث وابتكارات شاملة ومستدامة
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

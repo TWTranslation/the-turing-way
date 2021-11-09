@@ -1,86 +1,86 @@
 (ch-style)=
 # Style Guide
 
-To ensure that the book can be read easily by everyone, including screen readers and non-native English speakers, we have compiled a set of guidelines to keep a consistent style across all chapters of the book.
+确保每个人都能方便地阅读该书，包括屏幕阅读器和非母语英语发言者， 我们已经编纂了一套准则，以便使该书所有章节保持连贯的风格。
 
-We follow the [GOV.UK guidance](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) to improve accessibility of the resources in _The Turing Way_.
+我们遵循 [GOV.UK 指导](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) 来改进资源的可访问性 _Ting ways_
 
-## Write each sentence in a new line (line breaks)
+## 以新行写入每个句子 (行断)
 
-Please write all sentences in the markdown file on separate lines. Having each sentence on a new line will make no difference to how the text is displayed, there will still be paragraphs, but it will mean that any pull requests will be easier to check; the changes will be on a single line instead of somewhere in a paragraph. Consider the example below.
+请在Markdown 文件中单独写下所有句子。 将每一句置于新的一行都不会改变案文的显示方式， 将仍然有段落，但这将意味着任何合并请求都将更容易核对。 改动将放在单行上，而不是放在一段中。 请考虑下面的示例。
 
  ```
-Today you are you, that is truer than true. There is no one alive who is youer than you. - Dr Seuss
+今天你是你，这比事实更加真实。 没有人活着比你更年轻。 - Dr Seuss
 ```
 
-A pull request on this correcting it to have a ‘.’ after Dr would show as a change to the whole paragraph. Contrast this with the next example which will be displayed online in the exact same way, but would see a change to a single line.
+在这个修改后的拉取请求会显示为对整个段落的修改。 与此相反的是，下一个示例将以完全相同的方式在线显示但会看到一个单行的变化。
 
  ```
-Today you are you, that is truer than true.
-There is no one alive who is youer than you.
+今天你是你，这比事实更加真实。
+没有人活着比你更年轻。
 - Dr Seuss
 ```
 
-## Opinions are welcome, but ...
+## 欢迎意见，但...
 
-_The Turing Way_ book is intended to be only *lightly* opinionated. Whilst more opinionated content is allowed, such content should be clearly marked. The best way to do this is by displaying it in a quote box. This can be done by either prefixing every line with the greater than symbol `>`. Note, that the formatting will be retained, so we can split each sentence to a new line as recommended before.
+_诱惑路径_ 书只能是 *轻松的* 咨询意见。 虽然允许发表更多意见的内容，但这种内容应当明确标明。 这样做的最好方法是在报价框中显示它。 这可以通过前缀每行符号大于符号 `>` 来实现。 请注意，格式将被保留，以便我们能够按照以前的建议将每句分成新的一行。
 
 ```
-> I will not eat them in a house,
-> i will not eat them with a mouse,
-> i will not eat them in a box i will not eat them with a fox,
-> i will not eat them here of there i will not eat them anywhere,
-> I do not like green eggs and ham i do not like them sam i am
+> 我不会在家里吃他们。
+> i 不会用鼠标吃他们。
+> i 不会在一个盒子里吃他们，一个盒子里不会吃他们。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
+> i 不会在这里吃他们。i 不会在任何地方吃他们。
+> 我不喜欢绿色鸡蛋，ham i 不喜欢这些蛋。
 ```
 
-## Avoid Latin Abbreviation
+## 避免拉丁缩写
 
-Please do not use Latin abbreviations. See the [Gov.uk recommendations](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style) for details.
+请不要使用拉丁文缩写。 详情请参阅 [Gov.uk 建议](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)。
 
-Some of these abbreviations are:
+其中一些简称如下：
 
 ```{figure} ../figures/latin-abbreviation.png
 ---
-height: 400px
-name: latin-abbreviation
-alt: an image with a list of 3 latin abbreviations
+高度： 400px
+名称：拉丁缩写
+Alt：一个包含3 拉丁缩写列表
 ---
-A list of latin abbreviations for *exempli gratia* (for example), *et-cetera* (so on), and *id est* (that is).
-Screenshot of part of the [list of Common Latin Abbreviations for APA Style](https://blog.apastyle.org/files/apa-latin-abbreviations-table-2.pdf).
+一个拉丁缩写列表的拉丁缩写列表（例如） *et-cetera*（如此）和*id-est*（即）。
+[APA风格拉丁语通用缩写清单]部分截图(https://blog.apastyle.org/files/apa-latin-abbreviations-table-2.pdf)。
 ```
 
-Instead of the first abbreviation in the table for *exempli gratia*, which can sometimes read aloud as ‘egg’ by screen reading software, please use ‘for example’ or ‘such as’ or ‘like’ or ‘including’ - whichever works best in the specific context.
+而不是 *范例惠给金表中的第一个缩写*有时可以通过屏幕阅读软件大声读为“蛋”。 请使用“例如”或“例如”或“类似”或“包括”—— 在特定上下文中工作得最好的人。
 
-Instead of the second abbreviation in the table for *et-cetera* to indicate open ended list, please start the list with words like ‘for example’ or ‘such as’ or ‘like’ or ‘including’.
+而不是在 *et-cetera* 表中的第二个缩写来表示未打开的结束列表。 请用单词开始列表，如“举例”或“这种”或者“喜欢”或“包括”。
 
-Instead of third abbreviation in the table for *id est* that is often used to clarify a sentence, try (re)writing sentences to avoid the need to use it. If that is not possible, use an alternative such as ‘meaning’ or ‘that is’.
+*id est* 通常用于澄清句子，而不是表格中的第三缩写。 请尝试改写句子，以避免需要使用句子。 如果不可能做到这一点，使用诸如'有意义'或'那'的替代方法。
 
-Any chapter containing a Latin abbreviation will fail the continuous integration (CI) workflow of the _The Turing Way_ GitHub repository from passing successfully, which is tested by this [Python script](https://github.com/alan-turing-institute/the-turing-way/blob/main/tests/no-bad-latin.py).
+包含拉丁缩写的任何一章都会使 _的 Ting 路径_ GitHub 存储库无法成功通过的连续集成 (CI) 工作流失败， 由 [Python 脚本测试的](https://github.com/alan-turing-institute/the-turing-way/blob/main/tests/no-bad-latin.py).
 
-*To avoid CI from failing, even in this chapter we have avoided to write those abbreviations and instead used an image to illustrate the above examples.*
+*为了避免CI 失败， 即使在本章中，我们也避免了写这些缩写，而是用图象来说明上述例子。*
 
-## Tips
+## 提示
 
-### Indentation
+### 缩进
 
-Indent the content following each item of a numbered list. If the content is unindented, the list numbering will be reset.
+缩进编号列表中每个项目的内容。 如果内容未缩进，列表编号将被重置。
 
-For instance, please avoid:
-1. First list item
+例如，请避免：
+1. 第一个列表项
 ```
-This content belongs to the first list item.
+此内容属于第一列表项。
 ```
-2. Second list item
+2. 第二个列表项
 
-Instead, the following is recommended:
-1. First list item
+建议如下：
+1. 第一个列表项
    ```
-   This content belongs to the first list item.
+   此内容属于第一列表项。
    ```
 
-2. Second list item
+2. 第二个列表项
 
 
-### External links
+### 外部链接
 
-Write external links using "http://" instead of "www". This ensures they are correctly recognised as hyperlinks.
+使用"http://"而不是"www"写外部链接。 这将确保它们被正确地视为超链接。

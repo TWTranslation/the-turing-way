@@ -1,104 +1,104 @@
 (rr-vcs-git-merge)=
-# Merging Branches in Git
+# Combinando ramas en Git
 
 (rr-vcs-merge-command)=
-## The `git merge` Command
+## La combinación de `git` Comando
 
-Once you have finished up some work on a branch and you are ready to integrate it to your main project (or any other branch), you can merge the branch that you worked on into the main branch or any other target branch of your interest. You can also use merging to combine work that other people have done with your own and vice versa.
+Una vez que hayas terminado algo de trabajo en una rama y estarás listo para integrarlo a tu proyecto principal (o a cualquier otra sucursal), puede fusionar la rama en la que trabajó en la rama principal o cualquier otra rama de destino de su interés. También puedes usar la fusión para combinar el trabajo que otras personas han hecho con el tuyo y viceversa.
 
-To merge a branch, branch_A, into another branch, branch_B, switch to branch_A via:
+Para combinar una rama, branch_A, en otra rama, branch_B, cambie a branch_A vía:
 ```
 git checkout branch_A
 ```
-Merge it into branch_B by:
+Fusionarlo en branch_B por:
 
 ```
-git merge branch_B
+fusionar rama_B git
 ```
 
-Merging will not be possible if there are changes in either your working directory or staging area that could be written over by the files that you are merging in. If this happens, there are no merge conflicts in individual files. You need to commit or stash the files it lists and then try again. The error messages are as follows:
+La fusión no será posible si hay cambios en su directorio de trabajo o en el área de puesta en escena que puedan ser escritos por los archivos en los que se está fusionando. Si esto sucede, no hay conflictos de fusión en archivos individuales. Necesita confirmar o guardar los archivos que lista y luego vuelva a intentarlo. Los mensajes de error son los siguientes:
 
 ```
-error: Entry 'your_file_name' not update. Cannot merge. (Changes in working directory)
+error: La entrada 'su_nombre_archivo' no se actualiza. No se puede combinar. (Cambios en el directorio de trabajo)
 ```
 
-or
+o
 
 ```
-error: Entry 'your_file_name' would be overwritten by merge. Cannot merge. (Changes in staging area)
+error: La entrada 'your_file_name' sería sobrescrita por fusión. No se puede combinar. (Cambios en el área de escena)
 ```
 
 (rr-vcs-merge-command-practice)=
-### Good practice
+### Buenas prácticas
 
-First and foremost, your **main branch should always be stable**. Only merge work that is finished and tested (for example, on a different branch). If your project is collaborative, then it is a good idea to merge changes that others make into your own work frequently or share your changes with your collaborators. If you do not do it often, it is very easy to merge conflicts that arise (next section).
+En primer lugar, tu rama principal **debe ser siempre estable**. Únicamente combina el trabajo que está terminado y probado (por ejemplo, en una rama diferente). Si tu proyecto es colaborativo, entonces es una buena idea combinar los cambios que otros hacen en su propio trabajo con frecuencia o compartir sus cambios con sus colaboradores. Si no lo hace a menudo, es muy fácil fusionar conflictos que surgen (siguiente sección).
 
 (rr-vcs-merge-conflicts)=
-## Merge Conflicts
+## Combinar conflictos
 
-When changes are made to the same file on different branches, sometimes those changes may be incompatible. This most commonly occurs in collaborative projects, but it happens in solo projects too. Say there is a project that contains a file with this line of code:
-
-```
-print('hello world')
-```
-
-Suppose one person, on their branch, decides to "pep it up" a bit and changes the line to:
+Cuando se hacen cambios en el mismo archivo en diferentes ramas, a veces esos cambios pueden ser incompatibles. Esto ocurre más comúnmente en proyectos colaborativos, pero también en proyectos solos. Decir que hay un proyecto que contiene un archivo con esta línea de código:
 
 ```
-print('hello world!!!')
+print('Hola mundo')
 ```
 
-while someone else, on another branch, decides to change it to:
+Supongamos que una persona, en su rama, decide "pep up" un poco y cambia la línea a:
 
 ```
-print('Hello World')
+print('¡¡hola mundo!!!')
 ```
 
-They continue doing work on their respective branches and eventually decide to merge. Their version control software then goes through and combines their changes into a single version of the file; *but*, when it gets to the `hello world` statement, it does not know which version to use. This is a merge conflict: incompatible changes have been made to the same file.
+mientras que alguien más, en otra rama, decide cambiarla:
 
-When a merge conflict arises, it will be flagged during the merge process. Within the files with conflicts, the incompatible changes will be marked so you can fix them:
+```
+print('Hola Mundo')
+```
+
+Siguen trabajando en sus respectivas ramas y finalmente deciden fusionarse. Su software de control de versiones luego pasa y combina sus cambios en una sola versión del archivo; *pero*, cuando llega a la declaración `hola world` , no sabe qué versión usar. Se trata de un conflicto de fusiones: se han hecho cambios incompatibles en el mismo archivo.
+
+Cuando surja un conflicto de fusión, se marcará durante el proceso de fusión. Dentro de los archivos con conflictos, los cambios incompatibles serán marcados para que puedas arreglarlos:
 
 ```
 <<<<<<< HEAD
-print('hello world!!!')
+print('hola mundo!!!')
 =======
-print('Hello World')
->>>>>>> main
+print('Hola Mundo')
+>>>>>>> principal
 ```
-`<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.
+`<<<<<<<`: Indica el inicio de las líneas que tenían un conflicto de fusión. El primer conjunto de líneas son las líneas del archivo en el que intentaba combinar los cambios.
 
-`=======`: Indicates the breakpoint used for comparison. It separates the changes the user has committed (above), from the changes coming from the merge (below), for visual comparison.
+`=======`: Indica el punto de interrupción utilizado para la comparación. Separa los cambios que el usuario ha confirmado (arriba), de los cambios que provienen de la fusión (abajo), para comparación visual.
 
-`>>>>>>>`: Indicates the end of the lines that had a merge conflict.
+`>>>>>>>`: Indica el final de las líneas que tenían un conflicto de fusión.
 
-You resolve a conflict by editing the file to manually merge the parts of the file that Git had trouble merging. This may mean discarding either your changes or someone else's or doing a mix of the two. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. In this project, the users may decide in favour of one `hello world` over another, or they may decide to replace the conflict with:
+Resuelve un conflicto editando el archivo para combinar manualmente las partes del archivo que Git tuvo problemas para fusionar. Esto puede significar descartar los cambios o los cambios de otra persona o hacer una mezcla de ambos. También necesitará eliminar el `<<<<<<<`, `=======`, y `>>>>>>>>` en el archivo. En este proyecto, los usuarios pueden decidir a favor de un `mundo hola` sobre otro. o pueden decidir reemplazar el conflicto con:
 
 ```
-print('Hello World!!!')
+print('Hola Mundo!!!')
 ```
 
-Once you have fixed the conflicts, commit the new version. You have now resolved the conflict. If during the process, you need a reminder of which files the conflicts are in, you can use `git status` to find out.
+Una vez que haya solucionado los conflictos, confirme la nueva versión. Ahora ha resuelto el conflicto. Si durante el proceso, necesitas un recordatorio de los archivos en los que se encuentran los conflictos, puedes usar `git status` para averiguarlo.
 
-If you find there are particularly nasty conflicts, and you want to abort the merge you can use:
+Si encuentras conflictos particularmente desagradables y quieres abortar la fusión que puedes usar:
 ```
-git merge --abort
+fusión git --abort
 ```
 
 (rr-vcs-merge-conflicts-practice)=
-### Good practice
+### Buenas prácticas
 
-Before you start trying to resolve conflicts, make sure you fully understand the changes and how they are incompatible to avoid the risk of making things more tangled. Merge conflicts can be intimidating to resolve, especially if you are merging branches that diverged many commits ago and now have numerous incompatibilities. However, it is worth remembering that your previous versions are safe and that you can go about fixing this issue without affecting the past versions. This is why it is good practice to **merge other's changes into your work frequently**.
+Antes de empezar a intentar resolver conflictos, asegúrese de entender totalmente los cambios y cómo son incompatibles para evitar el riesgo de hacer las cosas más enredadas. Los conflictos de fusión pueden ser intimidantes de resolver, especialmente si se fusionan ramas que divergían hace mucho y ahora tienen numerosas incompatibilidades. Sin embargo, vale la pena recordar que sus versiones anteriores están seguras y que puede solucionar este problema sin afectar a las versiones anteriores. Esta es la razón por la que es una buena práctica **fusionar los cambios de otros en su trabajo con frecuencia**.
 
-There are tools available to assist in resolving merge conflicts, some are free; some are not. Find and familiarise yourself with one that works for you. Commonly used merge tools include [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), and [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). To set a tool as your default do:
+Existen herramientas disponibles para ayudar a resolver los conflictos de fusión, algunos son libres; otros no. Encuéntrate y familiarizate con uno que funcione para ti. Las herramientas de fusión usadas por empresas incluyen [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/)y [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). Para establecer una herramienta como su valor predeterminado:
 
 ```
 git config --global merge.tool name_of_the_tool
 ```
 
-and launch it with:
+y lanzarlo con:
 
 ```
 git mergetool
 ```
 
-Fundamentally, the best way to deal with merge conflicts is, as far as it is possible, to try to avoid them in the first place. You can improve your odds on this by keeping branches clean and focused on a single issue and involving as few files as possible. Before merging, make sure you know what is in both branches. If you are not the only one that has worked on the branches, then keep the lines of communication open, so you are all aware of what the others are doing.
+En términos generales, la mejor manera de abordar los conflictos de fusión es, en la medida de lo posible, intentar evitarlos en primer lugar. Puedes mejorar tus probabilidades de esto manteniendo las ramas limpias y centradas en un solo problema e involucrando el menor número posible de archivos. Antes de fusionarse, asegúrese de saber lo que hay en ambas ramas. Si no eres el único que ha trabajado en las ramas, entonces mantén las líneas de comunicación abiertas, así que todos ustedes son conscientes de lo que están haciendo los demás.

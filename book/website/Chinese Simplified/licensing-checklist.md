@@ -1,17 +1,17 @@
 (rr-licensing-checklist)=
 # Checklist
 
-This is a checklist for adding a license to your project repository.
+这是一个将许可证添加到您的项目仓库的核对表。
 
-- Go to your repository folder (local computer or online repository on GitHub/GitLab/BitBucket)
-- Create a new file and name is `License.txt` or `License.md` based on your  preference of the file format
-- Choose a type of license (or multiple license for mixed content) that is suitable for your project (visit [choosealicense.com](https://choosealicense.com/))
-- Copy the license content to the newly created file, for example, you can use an Open Source license [CC-BY 4.0](https://choosealicense.com/licenses/cc-by-4.0/) for text content and [MIT License](https://choosealicense.com/licenses/mit/) for software
-- Save your file and add details in your README.md file
+- 转到您的资源库文件夹(本地计算机或在线存储库在 GitHub/GitLab/BitBucket)
+- 基于您对文件格式的偏好创建一个新的文件和名称是 `License.txt` 或 `License.md`
+- 选择适合您项目的许可证类型(或混合内容的多个许可证) (访问 [选择ealicense.com](https://choosealicense.com/))
+- 将许可证内容复制到新创建的文件，例如，您可以使用开放源代码许可证 [CC-BY 4。](https://choosealicense.com/licenses/cc-by-4.0/) 用于文本内容 [MIT 授权](https://choosealicense.com/licenses/mit/) 用于软件
+- 保存您的文件并在您的README.md文件中添加详细信息
 
-(rr-licensing-reading)=
-## Further Reading
+(rr-许可读取)=
+## 进一步阅读
 
-Additional resources you can read to learn more about software licenses.
+您可以读取更多关于软件许可的信息。
 
- - [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)
+ - [开放源代码许可：什么、什么及其原因](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)

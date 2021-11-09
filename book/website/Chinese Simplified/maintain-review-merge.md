@@ -1,6 +1,6 @@
-(cl-maintain-review-merging)=
-# Merging Contributions
-Pull requests made by contributors can be approved or merged by maintainers after the review. There are different ways of merging a pull request:
-- *Merge pull request*: Merges all commits to base branch. It keeps all commits made in the PR as separate and merges them as they are, through a single merge commit to the base branch.
-- *Squash and merge*: Squashes all commits created in the pull request into one commit and merges them as a single commit (with the help of a merge commit) to the base branch (see this [blog for details](https://github.blog/2016-04-01-squash-your-commits/)).
-- *Rebase and merge*: Rebases all commits individually to base branch (integrating changes from one branch to other) before merging. In the prompt message, the maintainer can provide a merge message along with comments(if any) and then press the “confirm merge” button.
+(cl-维护者 - review-merging)=
+# 合并捐款
+审核贡献者提出的请求可以由维护者在审核后批准或合并。 合并拉取请求有不同方式：
+- *合并拉取请求*: 合并所有提交到基础分支。 它将所有在PR 中做出的承诺作为单独的承诺并将它们合并为单一的对基础分支的承诺。
+- *方形并合并*: 在合并请求中创建的所有提交将它们合并为一个提交并合并为一个提交(在合并提交的帮助下) 到基础分支(详情请参阅 [博客](https://github.blog/2016-04-01-squash-your-commits/))。
+- *重置和合并*: 在合并之前所有单独提交的分支(从一个分支到另一个分支的变化合并)。 在提示消息中，维护者可以提供合并消息和评论(如果有的话)，然后按“确认合并”按钮。

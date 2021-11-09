@@ -1,41 +1,41 @@
-(ch-consistency-language)=
-# Language
+(ch-一致性语言)=
+# 语言
 
-Language is concerned with the way concepts and ideas in _The Turing Way_ are expressed. A consistent language ensures that _The Turing Way_ is clear and understandable.
+语言涉及 _概念和想法的表达方式_。 一种连贯一致的语言确保 _诱惑的方式_ 是明确和可以理解的。
 
-(ch-consistency-language-hr)=
-## Hard Requirements
+(ch-university-language-hr)=
+## 硬要求
 
-The hard checks that deal with _The Turing Way's_ language include:
+处理 _Ting Way的_ 语言的硬性检查包括：
 
-(ch-consistency-language-hr-grammar)=
-### Check 1: Ensure correct grammar and a consistent tone across the book
+(ch-university-language-hr-语法)=
+### 检查 1: 确保整个书中正确的语法和一致的音调
 
-Correct grammar and consistent tone would help readers of all backgrounds, knowledge, and skill levels to better understand _The Turing Way_'s content.
+正确语法和一致语音将帮助所有背景、知识和技能水平的读者更好地了解 _正在酝酿的方式_的内容。
 
-Aside from being distracting, incorrect grammar might take away what a piece of text is trying to communicate.
+除了分散注意力外，不正确的语法可能会夺走某一文本试图传送的内容。
 
-Tools such as [Grammarly](https://grammarly.com), [Ginger Grammar](https://gingersoftware.com/grammarcheck), and [Reverso Speller](https://reverso.net/spell-checker/english-spelling-grammar/) can help catch grammatical errors present in a piece of text. These tools can be used to assess grammar in new contributions and existing content of _The Turing Way_. Furthermore, when raising PRs for new content, invite reviewers to check for grammar as well. This could help minimize the number of grammatical errors that make it to the final version of _The Turing Way_.
+工具如 [语法](https://grammarly.com), [Ginger 语法](https://gingersoftware.com/grammarcheck), 和 [Reverso Speller](https://reverso.net/spell-checker/english-spelling-grammar/) 可以帮助捕获一段文字中存在的语法错误。 这些工具可以用来评估新的贡献和 _Ting Way_ 的现有内容。 此外，在为新内容提升PR时，请审核者也检查语法。 这可能有助于最大限度地减少导致它达到 _最后版本的 Ting Way_ 的语法错误。
 
-With respect to tone, ensure that chapters adhere to a formal style of writing and that sentences are easy to digest. One rule of thumb to consider is that if a sentence needs to be read more than once to be understood, then it likely needs to be rephrased.
+关于语音，确保各章遵守正式的书写风格，并确保判决容易被消化。 需要考虑的一条规则是，如果一项句子需要阅读不止一次才能理解， 然后很可能需要改写。
 
-#### Demo
+#### 演示模式
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Prv23kGekVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-language-hr-language)=
-### Check 2: Ensure chapters use a consistent language
-`{note} Language, in this context, refers to the American and British variants of the English language.`
+(ch-university-language-hr-language)=
+### 检查 2: 确保章节使用一致的语言
+`在这方面，{note} 语言是指英语的美国和英国文版本。`
 
-With contributors from around the world, _The Turing Way_ does not restrict the language used to write chapters. This makes it easier for contributors to bring in their perspectives as they write content for _The Turing Way_. Rather, the recommendation is that if a chapter is written in one style (for example, British English), then it should remain consistent throughout. This makes _The Turing Way_ less distracting and easier to read.
+对于来自世界各地的贡献者来说， _Ting Way_ 并不限制用于撰写章节的语言。 这使得贡献者能够更容易地从他们的角度为 _Ting ways_ 撰写内容。 相反，建议是，如果某一章是以一种风格（例如英国英文）撰写的，则该章应始终如一。 这使 _诱惑方式_ 较少分散且易于阅读。
 
-(ch-consistency-language-hr-abbreviations)=
-### Check 3: Ensure Latin abbreviations are not used in writing chapters
+(ch-university-language-h-breviations)=
+### 勾选3：确保在写入章节时不使用拉丁缩写
 
-When writing content for _The Turing Way_, the use of Latin abbreviations is discouraged. This is because screen readers may read them aloud in a manner that is confusing to those who rely on such devices.
+在为 _编写内容时，诱惑方式_，不鼓励使用拉丁文缩写。 这是因为屏幕阅读器可能会大声朗读这些设备给那些依赖这些设备的人造成混淆。
 
-Furthermore, as described in the {ref}`style guide<ch-style>`, contributions that contain Latin abbreviations will fail the _The Turing Way_ repository's continuous integration workflow.
+此外，如 {ref}`样式指南<ch-style>`所述， 包含拉丁语缩写的贡献将失败 _Ting Way_ 版本库的连续整合工作流。
 
-Please refer to the {ref}`style guide<ch-style>` for recommendations on how to avoid common Latin abbreviations in your writing.
+关于如何在您的写入中避免拉丁缩写的建议，请参阅 {ref}`样式指南<ch-style>`。

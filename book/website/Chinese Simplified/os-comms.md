@@ -1,23 +1,23 @@
 (cm-os-comms)=
-# Communications in Open Source Projects
+# 开放源码项目中的通信
 
 ## Summary
 
-> Conversation as Collaboration
+> 作为协作的对话
 
-In an Open Source project, a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions (likely many of them!). It is therefore really important to plan carefully _how_ and _where_ these interactions take place. Community interactions should maintain the transparency and openness of the project to facilitate the growth of your community, and the choice of the platforms should ensure that your project is welcoming, accessible, and secure for its collaborators.
+在一个开源项目中， 核心或领导小组与更广泛的社区之间以在线互动形式进行了大量协作(可能有许多协作！)。 It is therefore really important to plan carefully _how_ and _where_ these interactions take place. 社区互动应保持项目的透明度和公开性，以促进您社区的发展。 平台的选择应确保您的项目对合作者是欢迎、开放和安全的。
 
-This chapter gives an overview of the most common ways to track, support and maintain community interactions such as by raising issues, reporting bugs and attracting contributions that lead to improvements in the project.
+本章概述了跟踪、支持和维持社区互动的最常见方式，例如提出问题。 报告错误和吸引捐款导致项目的改进。
 
 ```{figure} ../figures/research-tools.jpg
 ---
-name: research-tools
-width: 500px
-alt: A few people are looking for different information about experiment, tools, privacy. There are different places or channels where these details can be identified, which is displayed in a findable manner.
+名称：研究工具
+宽度：500px
+Alt：少数人正在寻找关于实验、工具、隐私的不同信息。 有不同的地方或渠道可以识别这些详细情况，并以一种可查的方式予以显示。
 ---
-Idetifying right channel to communicate and find information. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+让正确的渠道进行沟通和查找信息。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-## Background ad Motivation
+## 背景广告动机。
 
-When trying to build a community around an Open Source project, the content in this chapter will help make sure that your communications are as open, transparent and accessible as possible. This will help foster trust between the project team and the wider community and give them the agency to contribute where they can.
+尝试围绕开开源项目建立社区时， 本章的内容将有助于确保您的通信尽可能公开、透明和易于查阅。 这将有助于促进项目小组与更广泛的社区之间的信任，并使它们能够在力所能及的范围内作出贡献。

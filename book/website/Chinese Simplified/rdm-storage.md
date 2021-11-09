@@ -1,68 +1,68 @@
 (rr-rdm-storage)=
-# Data Storage and Organisation
+# 数据存储和组织
 
-Data loss can be catastrophic for your research project and can happen often. You can prevent data loss by picking suitable storage solutions and backing your data up frequently.
+数据丢失对您的研究项目来说可能是灾难性的，并可能经常发生。 您可以通过选择合适的存储解决方案和经常支持您的数据来防止数据丢失。
 
 ```{figure} ../../figures/version-control.jpg
 ---
-height: 500px
-name: version-control
-alt: Two images are shown to represent the benefits of using version control. On the left, there is an image of two people rummaging through a blue box on top of a table. The box is full of jumbled documents and the people look confused and frustrated. The documents are named "final 2" and "let this be the final". On the right, the same two people look happy and are searching through files organised clearly in a blue filing cabinet. There are "V1, V2, V3 and V4" separations organising the files.
+高度：500px
+name: 版本控制
+Alt: 两张图像显示了使用版本控制的好处。 左边有一幅图像，两个人通过一个桌子顶部的蓝色盒子散布谣言。 这个盒子充斥着激烈的文件，人们看起来感到困惑和沮丧。 文件名为“最终2”，并“让它成为最终文件”。 就右边而言，这两个人看起来很高兴，正在搜寻明显编入蓝色档案柜的档案。 在这些文件中有“V1、V2、V3和V4”分隔。
 ---
-_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
+_Ting Way_ 项目示意图由 Storeria 标明。 Zenodo的原始版本。 [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
 (rr-rdm-storage-where)=
-## Where to Store Data
+## 存储数据的位置
 
-- Most institutions will provide a _network drive_ that you can use to store data.
-- _Portable storage media_ such as memory sticks (USB sticks) are more risky and vulnerable to loss and damage.
-- _Cloud storage_ provides a convenient way to store, backup and retrieve data. You should check terms of use before using them for your research data.
+- 大多数机构将提供一个 _网络驱动器_ 用于存储数据。
+- _便携式存储介质_ 等内存棒(USB 大棒)更加危险，更容易遭受损失和伤害。
+- _云存储_ 提供了存储、备份和检索数据的方便方式。 您应该先检查使用条款才能获取您的研究数据。
 
-Especially if you are handling personal or sensitive data, you need to ensure the cloud option is compliant with any data protection rules the data is bound by. To add an extra layer of security, you should encrypt devices and files where needed.
+特别是如果您正在处理个人或敏感的数据。 您需要确保云选项符合数据绑定的任何数据保护规则。 要添加额外的一层安全性，您应该在需要时加密设备和文件。
 
-Your institution might provide local storage solutions and policies or guidelines restricting what you can use. Thus, we recommend you familiarise yourself with your local policies and recommendations.
+您的机构可能会提供本地存储解决办法和政策或准则，限制您可以使用的东西。 因此，我们建议你熟悉当地的政策和建议。
 
-When you are ready to release the data to the wider community, you can also search for the appropriate databases and repositories in [FAIRsharing](https://fairsharing.org/databases), according to your data type, and type of access to the data. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
+当您准备好向更广泛的社区发布数据时， 您也可以在 [FAIRsharing](https://fairsharing.org/databases)中搜索相应的数据库和仓库， 根据您的数据类型和访问数据的类型。 Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
 
 (rr-rdm-storage-organisation)=
-## Data Organisation
+## 数据组织
 
-To organise your data, you can create a folder structure, or re-use a previous structure (see an example below), to ensure that you can find your files.
+为了组织您的数据，您可以创建文件夹结构。 或重新使用以前的结构(见下面的示例)，以确保您可以找到文件。
 
--   Make sure you have enough (sub)folders so that files can be stored in the right folder and are not scattered in folders where they do not belong, or stored in large quantities in a single folder.
--   Use a clear folder structure. You can structure folders based on the person that has generated the data/folder, chronologically (month, year, sessions), per project (as done in the example below), or based on analysis method/equipment or data type.
+-   请确保您有足够的(子)文件夹，以使文件能够存储在正确的文件夹中，并且不会分散在它们不属于的文件夹中。 或大量存储在单个文件夹中。
+-   使用一个清晰的文件夹结构。 您可以根据生成数据/文件夹的人排列文件夹，时间(月份，年份) 这种方法的依据是：分析方法/设备或数据类型。
 
-(rr-rdm-storage-organisation-examples)=
-### Data Organisation Examples
+(rr-rdm-storage-organisation-exampes)=
+### 数据组织示例
 
-- Download [this](http://nikola.me/folder_structure.html) folder structure by Nikola Vukovic
-- You can pull/download folder structures using GitHub: [This template](https://github.com/bvreede/good-enough-project) by Barbara Vreede, based on [cookiecutter](https://github.com/cookiecutter/cookiecutter), follows recommended practices for scientific computing by [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
-- See [this template](https://osf.io/4sdn3/) by Chris Hartgerink for file organisation on the [Open Science Framework](https://osf.io/).
+- 由 Nikola Vukovic 下载 [这个](http://nikola.me/folder_structure.html) 文件夹结构
+- 您可以使用 GitHub： [此模板](https://github.com/bvreede/good-enough-project) 通过 Barbara Vreede 拉取/下载文件夹结构。 根据 [cookiecuter](https://github.com/cookiecutter/cookiecutter), 遵循建议的科学计算做法 [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510)
+- 查看 [这个模板](https://osf.io/4sdn3/) 由 Chris Hartgerink 提供的文件组织在 [开放科学框架](https://osf.io/) 上的文件组织。
 
 (rr-rdm-storage-conventions)=
-## File Naming Conventions
+## 文件命名协议
 
-Structure your file names and set up a template for this. For example, it may be advantageous to start naming your files with the date each file was generated (such as `YYYYMMDD`). This will sort your files chronologically and create a unique identifier for each file. The utility of this process is apparent when you generate multiple files on the same day that may need to be versioned to avoid overwriting.
+结构您的文件名并为此设置一个模板。 例如，开始按每个文件生成的日期命名您的文件可能是有利的 (如 `YYYYMMDD`)。 这将按时间顺序排序您的文件并为每个文件创建一个唯一的标识符。 当您在同一天生成多个可能需要版本才能避免覆盖的文件时，此进程的用途是显而易见的。
 
 
-Some other tips for file naming include:
-- Use the date or date range of the experiment: `YYYYMMDD`
-- Use the file type
-- Use the researcher's name/initials
-- Use the version number of file (v001, v002) or language used in the document (ENG)
-- Do not make file names too long (this can complicate file transfers)
-- Avoid special characters (?\!@\*%{[<>) and spaces
+文件命名的一些其他提示包括：
+- 使用实验的日期或日期范围： `YYYYMMDD`
+- 使用文件类型
+- 使用研究人员的姓名/初始化
+- 使用文档中使用的版本号 (v001, v002) 或语言 (ENG)
+- 不要使文件名太长(这会使文件传输复杂化)
+- 避免特殊字符 (?\!@\*%{[<>) 和空格
 
-You can explain the file naming convention in a README.txt file so that it will also become apparent to others what the file names mean.
+您可以在 README.txt 文件中解释文件命名协议，这样它也会使其他人明白文件名称的意思。
 
 (rr-rdm-storage-backups)=
-## Backups
+## 备份
 
-To avoid losing your data, you should follow good backup practices.
+为了避免丢失您的数据，您应该遵循良好的备份做法。
 
-- You should have 2 or 3 copies of your files, stored on
-- at least 2 different storage media,
-- in different locations.
+- 您应该有 2 份或3 份您的文件存储在
+- 至少2个不同的存储介质
+- 在不同的地点。
 
-The more important the data and the more often the datasets change, the more frequently you should back them up. If your files take up a large amount of space and backing up all of them proves to be challenging or expensive, you may want to create a set of criteria for when you back up the data. This can be part of your data management plan (DMP).
+数据越重要，数据集的变化就越频繁，您就越应该备份这些数据。 如果您的文件占用了大量空间并备份所有文件证明是富有挑战性的或昂贵的。 您可能想要为备份数据时创建一套标准。 这可以成为您的数据管理计划(DMP)的一部分。

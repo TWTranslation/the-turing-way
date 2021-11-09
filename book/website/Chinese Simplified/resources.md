@@ -1,16 +1,16 @@
-(communication-aa-resources)=
-# Resources:
-* American Journal of Experts [The ethics of manuscript authorship](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) including a link to the white paper - credit where credits due.
+(通信-aa-resources)=
+# 资源：
+* American Journal of Experts [The ethics of manuscript authorship](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) including a link to the White paper - credit within which credit
 
-* [British sociological association authorship guidelines](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
+* [英国社会学协会作者准则](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
 
-* [Committe of Publication Ethics (COPE) website](https://publicationethics.org/).
+* [出版道德操守网站的承诺](https://publicationethics.org/)。
 
-* [How to handle authorship disputes: a guide for new researchers](https://publicationethics.org/files/2003pdf12_0.pdf).
+* [如何处理著作权争端：新研究人员的指南](https://publicationethics.org/files/2003pdf12_0.pdf)。
 
-* [CRediT Taxonomy](https://casrai.org/credit/)
+* [CrediT 分类法](https://casrai.org/credit/)
 
-* [London School of Economics Impacts of Social Sciences blog on CRediT Taxonomy](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
+* [伦敦经济学院社会科学博客对CrediT 分类法的影响](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
 
 
 

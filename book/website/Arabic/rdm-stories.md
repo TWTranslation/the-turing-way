@@ -1,29 +1,29 @@
-(rr-rdm-stories)=
-# Personal Impact Stories
+(r-rdm-stories)=
+# قصص التأثير الشخصي
 
-## Susanna-Assunta Sansone: From FAIR Co-Author to FAIR Doer
+## سوزانا - أسونتا سانسون: من المؤلف المشارك للاتحاد إلى مؤسسة فاير دور
 
-Let us start with my digital footprints so that you can discover my activities:
+دعونا نبدأ ببصماتي الرقمية حتى تتمكن من اكتشاف أنشطتي:
 
-- [Biography](https://www.eng.ox.ac.uk/people/susanna-assunta-sansone)
-- [The Data Readiness group I run at Oxford University](https://sansonegroup.eng.ox.ac.uk)
+- [السيرة الذاتية](https://www.eng.ox.ac.uk/people/susanna-assunta-sansone)
+- [مجموعة استعداد البيانات التي أدارتها في جامعة أكسفورد](https://sansonegroup.eng.ox.ac.uk)
 - [ORCID: 0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
-- [Profile on LinkedIn](https://uk.linkedin.com/in/sasansone)
-- [Talks on SlideShare](https://www.slideshare.net/SusannaSansone)
-- [Twitter; yes I am the FAIRlady](https://twitter.com/SusannaASansone)
-- [Activities on GitHub; yeah, no code sorry](https://github.com/SusannaSansone)
-- [Google Scholar](https://scholar.google.co.uk/citations?user=gfJ8wsIAAAAJ&hl=en)
+- [الملف الشخصي على Linkedin](https://uk.linkedin.com/in/sasansone)
+- [محادثات على SlideShare](https://www.slideshare.net/SusannaSansone)
+- [تويتر، نعم أنا الفاردة](https://twitter.com/SusannaASansone)
+- [الأنشطة في GitHub، نعم، لا يوجد رمز آسف](https://github.com/SusannaSansone)
+- [عالم جوجل](https://scholar.google.co.uk/citations?user=gfJ8wsIAAAAJ&hl=en)
 
-I have worked on research data management since 2001, yes, way before this area was even considered a 'thing'. I was also told that there is no career to make in research data management. Well, how wrong that comment was! Formerly seen as an intersection between service provision and IT, data management has become a first-class citizen, recognised as a research and development subject, as it should be. A lot of the credit for this change goes to the FAIR principles. Love it or hate it, FAIR is now an internationally-known lighthouse brand. Since we published the first article on the [FAIR principles](https://doi.org/10.1038/sdata.2016.18), enabling FAIR has been my focus.
+لقد عملت على إدارة البيانات البحثية منذ عام 2001، نعم، قبل أن يعتبر هذا المجال ”شيئا“. وقد قيل لي أيضا إنه لا يوجد مجال وظيفي في إدارة بيانات البحوث. حسنًا، كم كان هذا التعليق خاطئًا! وقد أصبحت إدارة البيانات مواطنا من الدرجة الأولى، وهو ما كان ينظر إليه سابقا على أنه تقاطع بين تقديم الخدمات وتكنولوجيا المعلومات. واعترف به كموضوع للبحث والتطوير، كما ينبغي أن يكون. ويرجع الكثير من الفضل في هذا التغيير إلى مبادئ FIR. أحبها أو كرهها، أصبحت الآن العلامة التجارية المنارة المعروفة دوليا. منذ نشرنا المقالة الأولى حول [مبادئ FAIR](https://doi.org/10.1038/sdata.2016.18)، كان تمكين FAIR هو تركيزي.
 
-The reuse of other people’s data is providing useful insights for new research questions and products, and driving new scientific discoveries. To realise its potential, however, we need new mechanisms to manage the growing availability and scale of scholarly digital products, such as datasets, software, algorithms, articles. FAIR has been specifically designed to emphasise the machine-readability of these digital objects.
+إن إعادة استخدام بيانات أشخاص آخرين توفر رؤى مفيدة لطرح أسئلة ومنتجات بحثية جديدة، وتحرك اكتشافات علمية جديدة. بيد أننا، لكي نحقق إمكاناته، نحتاج إلى آليات جديدة لإدارة توافر المنتجات الرقمية العلمية ونطاقها المتزايدين، مثل مجموعات البيانات والبرمجيات والخوارزميات والمقالات. وقد صممت هذه الوثيقة خصيصا للتأكيد على قابلية هذه الأجسام الرقمية للقراءة آليا.
 
-Within my group of research software and knowledge engineers, we address the grand challenges related to information science and scholarly communications, where data quality and readiness for (re)use is a prerequisite for success. I believe that better data means better science, and this underpins reusable research, aids scholarly publishing, and enables faster and reliable data-driven discoveries. As I say in my [one minute video](https://youtu.be/3VDw7XIulIk), my vision is to transform the concept of data readiness into a powerful toolkit at the researchers’ fingertips to realize FAIR data by stealth.
+وفي إطار مجموعتي من البرمجيات البحثية ومهندسي المعارف، نتصدى للتحديات الكبرى المتصلة بعلم المعلومات والاتصالات العلمية، حيثما تكون جودة البيانات واستعدادها للاستخدام (إعادة استخدامها) شرطاً أساسياً للنجاح. أعتقد أن تحسين البيانات يعني تحسين العلم، وهذا يدعم البحث القابل لإعادة الاستخدام، ويساعد على النشر العلمي، ويمكّن من اكتشافات أسرع وموثوق بها تستند إلى البيانات. كما أقول في فيديو [دقيقة واحدة](https://youtu.be/3VDw7XIulIk)، وتتلخص رؤيتي في تحويل مفهوم استعداد البيانات إلى مجموعة أدوات قوية في أصابع الباحثين لتحقيق بيانات FIR عن طريق السرقة.
 
-FAIR is not a magic wand. There is a lot to be done to enable and enact this transformation. We need all hands on deck! Researchers, service providers, journal publishers, library science experts, funders and learned societies in the academic as well as the commercial and governmental settings all play a role: from providing use cases to drive policy and culture changes that motivates, rewards and credits researchers for disseminating and publishing high-quality, machine-readable data; to building tools and services, to inform, training and educate.
+فاير ليس عصا سحرية. وهناك الكثير مما ينبغي القيام به للتمكين من إجراء هذا التحول وسنه. نحن بحاجة إلى كل الأيدي على سطح السفينة! الباحثون، مقدمو الخدمات، ناشرون المجلات، خبراء علوم المكتبات. الممولون والجمعيات العلمية في الأوساط الأكاديمية وكذلك في الأوساط التجارية والحكومية جميعهم يلعبون دور: من توفير حالات الاستخدام لدفع التغييرات في السياسات والثقافة التي تحفز، مكافآت وإعانات الباحثين لنشر ونشر بيانات عالية الجودة ومقروءة آليا؛ بناء الأدوات والخدمات، الإعلام والتدريب والتثقيف.
 
-There are many community efforts around FAIR; keeping abreast with these is an activity in itself. I spend considerable time to bring my group activities (such as [ISA](https://isa-tools.org) and [FAIRsharing](https://fairsharing.org)) in and under larger international umbrella organizations like [GO FAIR](https://www.go-fair.org/implementation-networks/overview/fair-strepo) and the [RDA](http://dx.doi.org/10.15497/RDA00030) to interact with others, learn from them, compare and contrast efforts and build new collaborations. I also play leading roles, sitting on boards and chairing working groups with colleagues, because you must get your hands dirty and lead by example.
+وهناك جهود مجتمعية كثيرة تبذل في جميع أنحاء القوات المسلحة الرواندية؛ ومواكبة هذه الجهود نشاط في حد ذاته. أقضي وقتا طويلا لجلب أنشطة مجموعتي (مثل [ISA](https://isa-tools.org) و [FAIRsharing](https://fairsharing.org)) إلى منظمات مظلة دولية أكبر مثل [GO FAIR](https://www.go-fair.org/implementation-networks/overview/fair-strepo) و [RDA](http://dx.doi.org/10.15497/RDA00030) للتفاعل مع الآخرين، التعلم منهم، ومقارنة الجهود ومقارنتها وبناء علاقات تعاون جديدة. وأضطلع أيضا بأدوار قيادية وجلستي في المجالس وترؤس الأفرقة العاملة مع الزملاء، لأنه يجب أن تكون أيديكم قذرة وأن تقودكم بالقدوة.
 
-In research data management, the history is the future. The one I envision is a future where scientific evidence is routinely available in a transparent, trustworthy and persistent manner to support peer-review and withstand reproducibility, to underpin new results and discoveries, and effectively drive sciences forward.
+وفي مجال إدارة بيانات البحوث، فإن التاريخ هو المستقبل. أما الذي أتصوره فهو مستقبل تتوافر فيه الأدلة العلمية بصورة روتينية وبطريقة شفافة، وبطريقة جديرة بالثقة ومتواصلة لدعم استعراض الأقران ولتحمل القدرة على التكرار، ولدعم النتائج والاكتشافات الجديدة، ولدفع العلوم بفعالية إلى الأمام.
 
-**My advice: _be aware, be FAIR!_**
+**نصيحتي: _كن على علم ، كن على علم !_**

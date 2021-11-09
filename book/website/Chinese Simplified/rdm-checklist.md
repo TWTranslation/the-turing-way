@@ -3,12 +3,12 @@
 
 <!-- This is a different style than the other chapters, but I really love what Alex provided so I just kept it. -->
 
-- Do not touch the raw data. Back it up somewhere reasonable and keep a read-only copy.
+- 不触碰原始数据。 备份某些合理的地方并保留一份只读的副本。
 
-- Have a plan! Decide where your data is going to be stored, what it is called, when/if it needs to be deleted BEFORE you start collecting it and note it down in a data management plan. If you collect sensitive data, plan for consent for sharing from the start!
+- 有一个计划！ 决定您的数据存储在哪里，它被叫做什么， 当/如果需要删除BEFORE时，你开始收集它，并在数据管理计划中注明它。 如果您收集敏感数据，计划从开始分享！
 
-- Document everything. You know who the worst person at replying to emails is about what the sampling frequency of channel X was. Nope not him, it's actually yourself from a year ago. Keep the documentation with the data!
+- 记录一切。 您知道回复电子邮件的最坏人是关于X频道的取样频率。 不是他，实际上是从一年前开始的。 保存文档的数据！
 
-- Create the data you want to see in the word. Imagine someone was about to give you a dataset that you needed to analyse well in order to get that job you have been dreaming about. What would you want it to look like? That is how yours should look.
+- 创建您想要在单词中看到的数据。 想象一下，有人会给你一个数据集，你需要进行分析才能获得你一直在梦想的工作。 你想要它看起来是什么？ 这就是你们应该如何看待的问题。
 
-- Try not to re-invent the wheel. Before you start creating some crazy new schema, storage format or naming protocol, have a quick google or ask your colleagues. Something that is already being used is likely to be better in the long run, even if you think there is a better solution.
+- 请不要重新发明轮子。 在您开始创建一些疯狂的新架构、存储格式或命名协议之前，使用快速谷歌或询问您的同事。 从长远来看，已经使用的东西可能会更好，即使你认为有更好的解决办法。

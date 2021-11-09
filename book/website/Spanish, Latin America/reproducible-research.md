@@ -1,22 +1,22 @@
 (rr)=
-# Guide for Reproducible Research
+# Guía de Investigación Reproducible
 
-***This guide covers topics related to skills, tools and best practices for research reproducibility.***
+***Esta guía cubre temas relacionados con las habilidades, herramientas y mejores prácticas para la reproducibilidad de la investigación.***
 
-_The Turing Way_ defines reproducibility in data research as data and code being available to fully rerun the analysis.
+_La Vía Turística_ define la reproducibilidad en la investigación de datos como datos y código disponibles para volver a ejecutar completamente el análisis.
 
-There are several definitions of reproducibility in use, and we discuss these in more detail in the {ref}`rr-overview-definitions` section of this chapter. While it is absolutely fine for us each to use different words, it will be useful for you to know how _The Turing Way_ defines *reproducibility* to avoid misunderstandings when reading the rest of the handbook.
+Hay varias definiciones de reproducibilidad en uso, y las discutimos con más detalle en la sección {ref}`rr-overview-definitions` de este capítulo. Aunque está absolutamente bien que cada uno utilice palabras diferentes, será útil para saber cómo _La Vía Turística_ define *reproducibilidad* para evitar malentendidos cuando leas el resto del manual.
 
 
 ```{figure} ../figures/reproducibility.jpg
 ---
 height: 500px
 name: reproducible
-alt: A person showing another person what steps to take to make your data research reproducible.
+alt: Una persona que muestra a otra persona qué pasos tomar para hacer que su investigación de datos sea reproducible.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-_The Turing Way_ started by defining reproducibility in the context of this handbook, laying out its importance for science and scientists, and providing an overview of the common concepts, tools and resources. The first few chapters were on {ref}`version control<rr-vcs>`, {ref}`testing<rr-testing>`, and {ref}`reproducible computational environments<rr-renv>`. Since the start of this project in 2019, many additional chapters have been written, edited, reviewed, read and promoted by over 100 contributors.
+_La Vía Turística_ comenzó definiendo la reproducibilidad en el contexto de este manual, exponer su importancia para la ciencia y los científicos y proporcionar una visión general de los conceptos, herramientas y recursos comunes. Los primeros capítulos fueron en {ref}`control de versiones<rr-vcs>`, {ref}`prueba<rr-testing>`, y {ref}`entornos computacionales reproducibles<rr-renv>`. Desde el inicio de este proyecto en 2019, muchos otros capítulos han sido escritos, editados, revisados, leídos y promovidos por más de 100 colaboradores.
 
-We welcome your contributions to improve these chapters, add other important concepts in reproducibility, and empower researchers to work reproducibly from the start. Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+Acogemos con satisfacción sus contribuciones para mejorar estos capítulos, añadir otros conceptos importantes en reproducibilidad, y capacitar a los investigadores para que trabajen reproduciblemente desde el principio. Echa un vistazo a nuestras [pautas de contribución](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para participar.

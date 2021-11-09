@@ -1,32 +1,32 @@
 (cl-github-novice-motivation)=
-# Motivation for Using GitHub
+# Motivación para usar GitHub
 
-GitHub is an online web interface for collaborating, developing, sharing and using {ref}`git<rr-vcs-git)>` ({ref}`version control<rr-vcs>`). It’s designed to be easily accessible (you do not need to be a coder!) to share your work and (if you want) allow other people to test, modify, remix and reuse it. It also provides space and tools for collaboration and maintenance.
+GitHub es una interfaz web en línea para colaborar, desarrollar, compartir y usar {ref}`git<rr-vcs-git)>` ({ref}`control de versión<rr-vcs>`). Está diseñado para ser fácilmente accesible (no necesitas ser un programador! para compartir tu trabajo y (si quieres) permitir a otras personas probarlo, modificarlo, remezclarlo y reutilizarlo. También proporciona espacio y herramientas para la colaboración y el mantenimiento.
 
-GitHub is not the only available development platform, but it hosts this book and is widely used across disciplinary and private-public boundaries. Thus, this chapter is tailored towards GitHub and its resources, though other platforms probably have analogous functions.
+GitHub no es la única plataforma de desarrollo disponible, pero alberga este libro y es ampliamente utilizado a través de límites disciplinarios y privados-públicos. Por lo tanto, este capítulo se adapta a GitHub y sus recursos, aunque otras plataformas probablemente tengan funciones análogas.
 
-Some key things to know about GitHub: – it has terrific project management features, a social platform and communication tools that are useful for any project where a group of people is working together on the same set of documents.
-- it can be used to store documentation, data and make web pages for projects.
-- it provides an easy-to-use interface for {ref}`version control<rr-vcs>` that allows all activities to be recorded so you can revisit past versions and you know who made each contribution to the project.
-- it has many options for automating repeated project management tasks.
+Algunas cosas clave para saber acerca de GitHub: – tiene excelentes características de gestión de proyectos, una plataforma social y herramientas de comunicación que son útiles para cualquier proyecto donde un grupo de personas está trabajando juntos en el mismo conjunto de documentos.
+- se puede utilizar para almacenar documentación, datos y hacer páginas web para proyectos.
+- proporciona una interfaz fácil de usar para {ref}`control de versiones<rr-vcs>` que permite grabar todas las actividades para que puedas revisar versiones anteriores y sabes quién hizo cada contribución al proyecto.
+- tiene muchas opciones para automatizar las tareas repetidas de gestión de proyectos.
 
 
-## Project Management
+## Gestión de proyectos
 
-You can manage your project by creating project boards that include to-do lists and issues (problems or tasks that need to be done). Discussion forums and flexibility in user permissions mean you can give team members (and/or the general public) the appropriate levels of access.
+Puedes administrar tu proyecto creando tableros de proyectos que incluyan listas de tareas y problemas (problemas o tareas que necesitan hacerse). Los foros de discusión y la flexibilidad en los permisos de usuario significan que puedes dar a los miembros del equipo (y/o al público en general) los niveles de acceso adecuados.
 
-## Easy to use
+## Fácil de usar
 
-You can use GitHub directly in your web browser or download it to your computer. Most instructions about how to use GitHub will start with you downloading it to your computer. However, there is no need to download GitHub onto your computer; it is much simpler to use it in a web browser.
+Puede utilizar GitHub directamente en su navegador web o descargarlo a su ordenador. La mayoría de las instrucciones sobre cómo usar GitHub comenzarán con la descarga a su computadora. Sin embargo, no hay necesidad de descargar GitHub en su ordenador; es mucho más sencillo usarlo en un navegador web.
 
-In order to use GitHub, you do not need to be a computer coder! To format text, you only need to learn a very simple type of file formatting syntax called markdown. Again, you do not need to download a markdown editor as it can all be written directly in GitHub in your web browser. Markdown syntax [{term}`def<Syntax>`] is designed to be human readable even if it isn’t rendered [{term}`def<Rendered Output>`]. This allows you to format your text into a nice-looking document, including adding in links, pictures, tables and web links. In most cases, GitHub even provides a "preview" option that allows you to see what your rendered document will look like.
+Para poder usar GitHub, no necesitas ser un programador de computadora! Para formatear texto, sólo necesitas aprender un tipo muy simple de sintaxis de formato de archivo llamada markdown. De nuevo, no necesita descargar un editor de markdown ya que todo puede ser escrito directamente en GitHub en su navegador web. La sintaxis de Markdown [{term}`def<Syntax>`] está diseñada para ser legible por el ser humano, incluso si no es renderizada [{term}`def<Rendered Output>`]. Esto le permite formatear su texto en un documento de aspecto agradable, incluyendo la adición de enlaces, imágenes, tablas y enlaces web. En la mayoría de los casos, GitHub incluso proporciona una opción de "vista previa" que le permite ver cómo se verá su documento renderizado.
 
-For example, if you want to put a heading in markdown you use a ‘#’ (hash symbol) followed by a space and the title. Like this `# heading 1`, this will produce the first level header style for that text.
+Por ejemplo, si desea colocar un encabezado en markdown utiliza un '#' (símbolo hash) seguido de un espacio y el título. Al igual que este `# título 1`, esto producirá el estilo de cabecera de primer nivel para ese texto.
 
-### Resources to help you learn markdown:
+### Recursos para ayudarte a aprender markdown:
 
-* How to write faster, better & longer: [the ultimate guide to Markdown](https://ghost.org/changelog/markdown/)
+* Cómo escribir más rápido, mejor & más: [la guía definitiva de Markdown](https://ghost.org/changelog/markdown/)
 * [Markdowncheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* Markdown guide: [Basic syntax](https://www.markdownguide.org/basic-syntax/)
+* Guía Markdown: [Sintaxis básica](https://www.markdownguide.org/basic-syntax/)
 
-How and when you use Markdown formatting in your file will become clearer as you go through this chapter.
+Cómo y cuando utilices el formato Markdown en tu archivo será más claro a medida que pases por este capítulo.

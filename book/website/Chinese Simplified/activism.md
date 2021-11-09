@@ -1,39 +1,39 @@
-(er-activism)=
-# Activism for Researchers
+(a-activism)=
+# 研究人员活动协会
 
-(er-activism-prerequisites)=
-## Prerequisites
+(er-activity - prequirectes)=
+## 必备条件
 
-There are no prerequisite for this chapter.
+本章没有先决条件。
 
-(er-activism-summary)=
+(a-activism-summary)=
 ## Summary
 
-This chapter covers why activism can be an important part of ethical data science practice. It also covers different kinds of activism and how you can be an activist within your workplace, your field, your country, or the world at large!
+本章阐述为什么积极性可以成为伦理数据科学实践的一个重要部分。 它还涉及不同类型的活动以及你如何能够成为您工作场所中的积极分子。 你的领域、你的国家或整个世界！
 
-(er-activism-motivation)=
-## Motivation and Background
+(a-activity - motives)=
+## 动机和背景
 
-There are many different scenarios where scientists and researchers would engage in activism to achieve change, such as a different institutional policy on open data, increasing ethical standards of research (see the {ref}`er`), or improving working conditions. Scientists may engage in activism across topics related to their work, institutions, fields, or cross-disciplinary issues such as open research, or on topics unrelated to their career.
+科学家和研究人员为实现变革而开展活动有许多不同的情景，例如关于公开数据的不同的体制政策。 增加研究的道德标准(见 {ref}`er`)，或改善工作条件。 科学家可以积极参加与其工作、机构、领域和领域有关的各个专题。 或跨学科问题，如公开研究，或与其职业无关的专题。
 
-The [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/activism) defines activism as "the use of direct and noticeable action to achieve a result, usually a political or social one". Activism can take many forms and achieve many different things, but it's most effective when people work together as a community with a shared goal.
+[Cambridge 词典](https://dictionary.cambridge.org/dictionary/english/activism) 将活动定义为“利用直接和明显的行动来取得结果，通常是政治或社会结果”。 积极主义可以采取多种形式并实现许多不同的成就，但是当人们作为一个具有共同目标的社区一道努力时，它最为有效。
 
-You don't have to have a lot of experience in activism - or even call yourself an activist - to put some of these methods into practice. However, it can be difficult to know where to start when you want to make a change.
+您不必有很多活动经验――甚至将自己称为活动家――才能将其中一些方法付诸实践。 然而，在你想要改变的时候，很难知道从哪里开始。
 
-(er-activism-ways)=
-## Ways to make change
+(er-activem-ways)=
+## 改变方式
 
-Activism in your workplace can include:
-* *{ref}`er-activism-unionisation`* collective organisation of workers to improve working conditions
-* *{ref}`er-internal-policy`* campaigning to change the way your institution makes decisions or handles certain situations: this can include, for example, advocating for open data practices!
-* *{ref}`er-activismwhistleblowing`* the act of alerting authorities or the press to problems in your institution
+工作场所的活动可以包括：
+* *{ref}`积极分子工会`* 工人集体组织，以改善工作条件
+* *{ref}`内部政策`* 竞选改变您的机构决策或处理某些情况的方式：这可以包括： 例如，提倡开放数据实践！
+* *{ref}`积极活动的告密者`* 提醒当局或新闻界注意你机构中问题的行为
 
-In the future, we would like to expand this chapter to include guides to activism in wider society for scientists, for example, how to engage with government policy-making processes.
+今后，我们希望将这一章扩大到包括科学家在更广泛的社会中开展活动的指南。 例如，如何参与政府决策进程。
 
-Activism in your field can include
-* Working to change policies and practices for professional organisations.
-* Outreach to encourage people to work in your field, especially people from backgrounds that are underrepresented
+在您的字段中的活动可以包含
+* 努力改变专业组织的政策和做法。
+* 外联，鼓励人们在自己的领域工作，特别是来自任职人数偏低背景的人
 
-Activism can also work towards changing laws or policies: for example, lobbying for better data protection legislation in your country, or for resources to implement existing laws. In Australia, activists collaborated with legal aid groups to {ref}`resist 'Robodebt'<er-activism-robodebt>` (an automated system that told welfare benefits recipients that they owed money).
+积极分子也可以致力于改变法律或政策：例如： 为改进贵国的数据保护立法或为执行现有法律而进行游说。 在澳大利亚， 活动家们与法律援助团体合作， {ref}`抵制“Robodebt”<er-activism-robodebt>` (一个自动系统告诉福利金领取者他们欠款)。
 
-Activism can also be part of changing the world for the better! This can include for example awareness-raising about data literacy.
+活动主义也可以成为改变世界以改善的一部分！ 这可包括提高对数据扫盲的认识。

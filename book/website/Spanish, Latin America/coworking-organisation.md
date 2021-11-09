@@ -1,101 +1,101 @@
-(ch-coworking-organisation)=
-# Organising coworking call for your community
+(ch-coworking-organization)=
+# Organizando llamada de colaboración para tu comunidad
 
-If you would like to set up coworking calls for your community, you can repurpose and adapt the format, templates, and materials discussed in this chapter to support your teams and communities.
+Si quieres configurar llamadas de colaboración para tu comunidad, puedes rediseñar y adaptar el formato, plantillas y materiales discutidos en este capítulo para apoyar a sus equipos y comunidades.
 
-Practices described here are what we use in _The Turing Way_, but there are more ways to run such coworking calls. Below, I describe different aspects that you should take into consideration when planning or designing your coworking calls.
+Las prácticas descritas aquí son las que usamos en _The Turing Way_, pero hay más formas de ejecutar estas llamadas de cotrabajo. A continuación, describo diferentes aspectos que debe tener en cuenta a la hora de planificar o diseñar sus llamadas de colaboración.
 
-## Designing a format the works for you
+## Diseñando un formato de las obras para ti
 
-To identify what could be the best format for your coworking calls, you need to think about the following aspects:
+Para identificar cuál podría ser el mejor formato para tus llamadas de colaboración, debes pensar en los siguientes aspectos:
 
-**Purpose of your coworking calls**
+**Propósito de tus llamadas de colaboración**
 
-In _The Turing Way_, as described in the {ref}`motivation <ch-coworking-motivation>` subchapter, we host these calls for building connections, supporting our contributors, onboarding new members and celebrating their work.
+En _The Turing Way_, como se describe en el subcapítulo {ref}`motivación <ch-coworking-motivation>` , organizamos estas convocatorias para construir conexiones, apoyar a nuestros colaboradores, incorporar nuevos miembros y celebrar su trabajo.
 
-Your purpose for hosting coworking calls could be completely different and identifying that is important for you to plan the remaining logistics. A few other scenarios could be:
-  - If you work from home, you would like to see your colleagues and stay connected with them through designated coworking schedules.
-  - If you are working with a distributed group of people on a common project, and if communication and exchange related to the project while working asynchronously is an issue, you can get a lot of your work done over a coworking call.
-  - If you are working on multiple projects and struggle to focus on one task at a time, coworking can help you put aside a few hours of your time to work with your colleagues who you share the project with.
-  - If there is a task you are struggling to complete, you can invite support from your trusted colleagues through coworking calls.
+Su propósito de hospedar llamadas de cooperación podría ser completamente diferente e identificar que es importante para usted planificar la logística restante. Algunos otros escenarios podrían ser:
+  - Si trabajas desde casa, te gustaría ver a tus colegas y mantenerte en contacto con ellos a través de horarios de trabajo designados.
+  - Si estás trabajando con un grupo distribuido de personas en un proyecto común, y si la comunicación e intercambio relacionados con el proyecto mientras trabaja de forma asincrónica es un problema, puedes conseguir mucho de tu trabajo en una llamada de colaboración.
+  - Si estás trabajando en múltiples proyectos y lucha para enfocarte en una tarea a la vez, colaborar puede ayudarte a dejar a un lado unas horas de tu tiempo para trabajar con tus colegas con los que compartas el proyecto.
+  - Si hay una tarea que estás empezando a completar, puedes invitar al apoyo de tus colegas de confianza a través de llamadas de colaboración.
 
-**Target audience**
+**Público objetivo**
 
-If you already know the purpose of your coworking calls, you will be able to identify who your target audience is.
+Si ya conoces el propósito de tus llamadas de colaboración, podrás identificar quién es tu público objetivo.
 
-For example, if you host your coworking calls for an open source project such as _The Turing Way_, you can expect your current members, past contributors or even new members to the project to participate. If you are part of a small project, you would expect the same familiar faces in all your coworking calls.
+Por ejemplo, si alojas tus llamadas de colaboración para un proyecto de código abierto como _The Turing Way_, puedes esperar que tus miembros actuales, colaboradores anteriores o incluso nuevos miembros del proyecto participen. Si usted es parte de un proyecto pequeño, usted esperaría las mismas caras familiares en todas sus llamadas de colaboración.
 
-**Organisers and hosts**
+**Organizadores y hosts**
 
-Many tasks go into organising a coworking call (discussed later). These tasks can be taken care of by one person like a community manager, project manager, or a volunteer organiser. However, it is always a good idea to involve more people as co-organisers so that the coworking call still happens even when the main organiser can't join for any reason. To avoid one person to burden themselves with "not so exciting" organisation issues, you can also decide to rotate the role within the members of your project.
+Muchas tareas se dedican a organizar una llamada de trabajo conjunta (discutida más adelante). Estas tareas pueden ser llevadas a cabo por una persona como un gestor de comunidades, un gestor de proyectos o un organizador voluntario. Sin embargo, siempre es una buena idea involucrar a más personas como coorganizadores para que la llamada de colaboración siga teniendo lugar incluso cuando el organizador principal no pueda unirse por ninguna razón. Para evitar que una persona se cargue con problemas de organización "no tan emocionantes". también puedes decidir girar el rol dentro de los miembros de tu proyecto.
 
-**Size of the call**
+**Tamaño de la llamada**
 
-No matter what the purpose and who the target audience of your calls are, you can decide the size of your call by managing participation by prior registration. If you organise these calls for your project members on a mutually agreed time and with an agenda to work on specific tasks, you can expect most of them to show up. If you keep your call open for any of your community members join, you may end up having a different number of participants on different calls. This would also mean that for some calls, there won't be anyone available to co-work with you.
+No importa cuál sea el propósito y quiénes sea el público objetivo de tus llamadas, usted puede decidir el tamaño de su llamada administrando la participación mediante registro previo. Si organizas estas llamadas para los miembros de tu proyecto en un tiempo acordado mutuamente y con una agenda para trabajar en tareas específicas, puede esperar que la mayoría de ellos aparezcan. Si mantiene su llamada abierta para cualquiera de los miembros de su comunidad, usted puede terminar teniendo un número diferente de participantes en diferentes llamadas. Esto también significaría que para algunas llamadas, no habrá nadie disponible para co-trabajar contigo.
 
-It's useful to handle some sort of sign-up sheet or registration system so the organisers know who to expect on the call. In _The Turing Way_, we use dedicated HackMD notes that can be updated before each call by the participants.
+Es útil manejar algún tipo de hoja de inscripción o sistema de registro para que los organizadores sepan a quién esperar en la llamada. En _The Turing Way_, usamos notas de HackMD dedicadas que pueden ser actualizadas antes de cada llamada por los participantes.
 
-**Frequency of these calls**
+**Frecuencia de estas llamadas**
 
-Once you have identifies the purpose, target audience and size of your calls, you can decide how often you would like to host them. If you work with the same group of people, you can host it as per your common availability and a mutually agreed time on a weekly or monthly basis.
+Una vez que hayas identificado el propósito, el público objetivo y el tamaño de tus llamadas, puedes decidir con qué frecuencia te gustaría alojarlas. Si trabajas con el mismo grupo de personas, Usted puede alojarlo según su disponibilidad común y un tiempo mutuamente acordado de forma semanal o mensual.
 
-If the expected participants of your call also work on multiple projects, you might consider regularly hosting it on the same day and time each week or each month. This consistency will allow them to check their availability in advance and block these hours in their calendar. This will also reduce the extra work of coordinating the common availability every time (though you will have to do this in the beginning).
+Si los participantes esperados de su llamada también trabajan en varios proyectos, Usted podría considerar hospedarlo regularmente en el mismo día y hora cada semana o cada mes. Esta coherencia les permitirá comprobar su disponibilidad con antelación y bloquear estas horas en su calendario. Esto también reducirá el trabajo adicional de coordinar la disponibilidad común cada vez (aunque deberás hacerlo al principio).
 
-**Resource availability**
+**Disponibilidad de recursos**
 
-Based on the resources available to you, you might have to fine-tune other aspects of your call. For example:
-- Shared calendar: If there is a calendar that are updated with the coworking calls schedule, people can subscribe to them and indicate their availability.
-- Communication platforms: software like Zoom can allow you to connect with many people at the same time. However, you will need a paid subscription (pro account) to control who joins your call (by activating waiting room to avoid Zoom bombing), manage breakout rooms (to allow multiple small groups and discussions) or host longer calls (>40 minutes).
-- Chat system: If you have a group Slack or Gitter channel, information can be exchanged with everyone, including those who can not join the calls but want to offer suggestions or carry out related tasks asynchronously but in coordination with the group. This also allows people to keep each other informed of any last-minute changes such as updated links for joining calls, correct notes, or cancellation of calls.
+Basado en los recursos disponibles para usted, puede que tenga que afinar otros aspectos de su llamada. Por ejemplo:
+- Calendario compartido: Si hay un calendario que se actualiza con el programa de llamadas conjuntas, la gente puede suscribirse a ellos e indicar su disponibilidad.
+- Plataformas de comunicación: el software como el zoom le permite conectarse con mucha gente al mismo tiempo. Sin embargo, necesitarás una suscripción de pago (cuenta pro) para controlar quién se une a tu llamada (activando la sala de espera para evitar bombardeos Zoen), administrar salas de descanso (para permitir múltiples grupos pequeños y discusiones) o organizar llamadas más largas (>40 minutos).
+- Sistema de chat: Si tienes un grupo de Slack o un canal de Gitter, la información se puede intercambiar con todos, incluyendo aquellos que no pueden unirse a las llamadas pero quieren ofrecer sugerencias o llevar a cabo tareas relacionadas de forma asincrónica, pero en coordinación con el grupo. Esto también permite a la gente mantenerse informada de cualquier cambio de última hora, como enlaces actualizados para unirse a las llamadas, notas correctas o cancelación de llamadas.
 
-## Logistics and tasks
+## Logística y tareas
 
-Like any event, coworking calls requires planning, organising, hosting and making sure that they happen. As the organisers of the event, you will be required to:
+Como cualquier evento, las llamadas de colaboración requieren planificar, organizar, alojar y asegurarse de que ocurran. Como organizadores del evento, se te exigirá a:
 
-**1. Choose the tools**
+**1. Elija las herramientas**
 
-The following aspects will require you to make choices in regards of what tools you will use.
+Los siguientes aspectos requieren que usted elija las herramientas que va a utilizar.
 
-- maintaining shared notes: few options are [Etherpad](https://etherpad.org/), [HackMD](https://hackmd.io/), [GitHub](https://github.com/), [Google doc](https://en.wikipedia.org/wiki/Google_Docs)
-- managing registration: few options are via shared notes, [Zoom](https://zoom.us), [Eventbrite](https://www.eventbrite.com/), [Google Form](https://en.wikipedia.org/wiki/Google_Forms)
-- hosting the calls: few options are [Zoom](https://zoom.us), [Google Hangout](https://en.wikipedia.org/wiki/Google_Hangouts), [Skype](https://www.skype.com/en/), [Jisti](https://meet.jit.si/)
-- facilitating chats: few options are [Slack](https://slack.com/), [Gitter](https://gitter.im/), other [web-based or phone applications](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)
-- sharing timers: few options are [cuckoo.team](https://cuckoo.team/), [vclock](https://vclock.com/timer/) or other web-based timers
-- finding a common availability: few options are [Doodle](https://doodle.com/poll/), [when2meet.com](https://www.when2meet.com/), or other [meeting schedule apps](https://zapier.com/blog/best-meeting-scheduler-apps/)
+- manteniendo notas compartidas: pocas opciones son [Etherpad](https://etherpad.org/), [HackMD](https://hackmd.io/), [GitHub](https://github.com/), [Google doc](https://en.wikipedia.org/wiki/Google_Docs)
+- administrando el registro: pocas opciones son a través de notas compartidas, [zoom](https://zoom.us), [Eventbrite](https://www.eventbrite.com/), [Formulario de Google](https://en.wikipedia.org/wiki/Google_Forms)
+- alojar las llamadas: pocas opciones son [ZOO](https://zoom.us), [Google Hangout](https://en.wikipedia.org/wiki/Google_Hangouts), [Skype](https://www.skype.com/en/), [Jisti](https://meet.jit.si/)
+- facilitando chats: pocas opciones son [Slack](https://slack.com/), [Gitter](https://gitter.im/), otras [aplicaciones web o telefónicas](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)
+- temporizadores compartidos: pocas opciones son [cuckoo.team](https://cuckoo.team/), [vclock](https://vclock.com/timer/) u otros temporizadores basados en web
+- encontrar una disponibilidad común: pocas opciones son [Doodle](https://doodle.com/poll/), [when2meet.com](https://www.when2meet.com/), u otras [aplicaciones de programación de reuniones](https://zapier.com/blog/best-meeting-scheduler-apps/)
 
-**2. Plan and host the calls**
+**2. Planificar y alojar las llamadas**
 
-As discussed earlier, you will need to agree upon dates and time with people who would like to participate in coworking calls. Your calls could be organised on a weekly or monthly basis that consistently take place on a certain day and time periodically, or it could be organised once in a while by finding a common availability.
+Como ya se ha comentado anteriormente, tendrá que acordar fechas y horas con las personas que quieran participar en las llamadas de colaboración. Sus llamadas podrían organizarse semanalmente o mensualmente y tener lugar de forma periódica en un determinado día y hora periódicamente, o podría organizarse de vez en cuando encontrando una disponibilidad común.
 
-Once you have found a schedule (date, time and frequency), the following tasks will go into planning them:
-- update the schedule, agenda and calendar to share them with the attendees (or potential target audience). It is also quite effective when they receive a calendar invite.
-- maintain communication (by email, newsletter, or social media) so that everyone is aware of the next calls and the resources available for them to participate. It is particularly crucial to use meeting links like [arewemeetingyet](https://arewemeetingyet.com/) for communicating these schedules for members from different countries so that they can see the time in their time zones.
+Una vez que haya encontrado un horario (fecha, hora y frecuencia), las siguientes tareas irán a planificarlas:
+- actualizar el calendario, la agenda y el calendario para compartirlos con los asistentes (o el público potencial de destino). También es bastante eficaz cuando reciben una invitación al calendario.
+- mantener la comunicación (por correo electrónico, boletines o redes sociales) para que todos estén al tanto de las próximas llamadas y de los recursos disponibles para que puedan participar. Es especialmente crucial usar enlaces de reunión como [arewemeetingyet](https://arewemeetingyet.com/) para comunicar estos programas para miembros de diferentes países para que puedan ver la hora en sus zonas horarias.
 
-For hosting these calls, you can reuse and adapt the agenda, techniques and templates described in the earlier chapters. You main tasks as a host will be to:
-- provide adequate support to the participants so that they can make the best of their time. In _The Turing Way_ coworking calls, we find it useful to use breakout rooms when there are many people working in small groups or if some people need more discussions, while others want to quietly work on their tasks.
-- facilitate shared notes with participants before, during and after the call, so that they can keep track of useful resources or ideas they discuss during the coworking call.
+Para alojar estas llamadas, puede reutilizar y adaptar la agenda, técnicas y plantillas descritas en los capítulos anteriores. Tareas principales como host serán:
+- proporcionar el apoyo adecuado a los participantes para que puedan aprovechar al máximo su tiempo. En _La Vía Turística_ llamadas de colaboración, nos parece útil utilizar salas de descanso cuando hay mucha gente trabajando en grupos pequeños o si algunas personas necesitan más discusiones, mientras que otros quieren trabajar silenciosamente en sus tareas.
+- facilitar notas compartidas con los participantes antes, durante y después de la llamada, para que puedan hacer un seguimiento de los recursos o ideas útiles que discuten durante la llamada de colaboración.
 
-**3. Create a safe and accountable space**
+**3. Crear un espacio seguro y responsable**
 
-Though discussed last, this should be your highest priority.
+Aunque se discutió últimamente, esta debería ser su máxima prioridad.
 
-You should design these calls with an intention to make everyone feel welcome, involved and safe. It's highly recommended to choose a Code of Conduct and put reporting guideline in place to share with everyone in advance. See this minimal [CoC from Contributor Covenant](https://www.contributor-covenant.org/) and an expanded version of {ref}`The Turing Way CoC<ch-coc>`. Additionally, you should also communicate the basic etiquettes, such as muting microphones when not speaking or not interrupting others when working in a Pomodoro session unless necessary.
+Deberías diseñar estas llamadas con la intención de hacer que todos se sientan bien involucrados y seguros. Es altamente recomendable elegir un Código de Conducta y poner en marcha una guía para compartir con todos con antelación. Vea este mínimo [CoC del Pacto de Colaboradores](https://www.contributor-covenant.org/) y una versión expandida de {ref}`The Turing Way CoC<ch-coc>`. Adicionalmente, también debe comunicar las etiquetas básicas, tales como silenciar micrófonos cuando no se habla o no interrumpir a otros cuando se trabaja en una sesión de Pomodoro a menos que sea necesario.
 
-It is useful to let everyone know who they can contact if they need help in troubleshooting during the call or need more time to discuss their ideas. Create an agenda that states clearly what is expected of them, such as if they should bring their tasks and questions in the call or communicate them beforehand. In _The Turing Way_, we have dedicated slots for both group discussions and quiet working.
+Es útil que todos sepan a quién pueden ponerse en contacto si necesitan ayuda para solucionar problemas durante la llamada o necesitan más tiempo para discutir sus ideas. Crear una agenda que diga claramente lo que se espera de ellos como si debieran llevar sus tareas y preguntas en la llamada o comunicarlas de antemano. En _The Turing Way_, tenemos espacios dedicados para discusiones grupales y trabajo silencioso.
 
 
-## Some Examples
+## Algunos ejemplos
 
-### Open calls for building connections
+### Abrir llamadas para construir conexiones
 
-One of _The Turing Way_ contributors, Natalie Thurlby has adapted the Collaboration Café to create a [Data science online co-working group](http://bristol.ac.uk/golding/ask-jgi/data-science-online-co-working-group/). They have designed their call format for the Jean Golding Institute's community members in Bristol to work together and build connections while working on their data science projects. This is a great example of using coworking calls for community building and supporting others with similar research interests.
+Uno de los colaboradores de _The Turing Way_ , Natalie Thurlby ha adaptado el Café de Colaboración para crear un grupo de co-trabajo de [Ciencias de la información en línea](http://bristol.ac.uk/golding/ask-jgi/data-science-online-co-working-group/). Han diseñado su formato de llamada para que los miembros de la comunidad del Instituto Jean Golding en Bristol trabajen juntos y construyan conexiones mientras trabajan en sus proyectos de ciencias de la información. Este es un gran ejemplo del uso de llamamientos de cooperación para la construcción de la comunidad y el apoyo a otros con intereses de investigación similares.
 
-### Small groups for supporting each other
+### Grupos pequeños para apoyarse unos a otros
 
-You can also plan your coworking calls with a small group of (2-3) colleagues with whom you can mutually hold accountability for your time and work. A small group reduces the burden of coordinating multiple time zones and finding a schedule that is suitable for everyone. Naomi Penfold and Stefanie Butland have written about their 1:1 coworking format in this post: [Online Co-working Partnerships are Community of Practice in Action](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/#more-3009). While reviewing this chapter, Naomi described their 1:1 call format in contrast with _The Turing Way_ group format as follows:
+También puede planificar sus llamadas de cooperación con un pequeño grupo de colegas (2-3) con los que pueda responsabilizarse mutuamente por su tiempo y trabajo. Un grupo pequeño reduce la carga de coordinar múltiples zonas horarias y encontrar un programa adecuado para todos. Naomi Penfold y Stefanie Butland han escrito sobre su formato de cotrabajo 1:1 en esta publicación: [Las Asociaciones en Línea de Co-working son Comunidad de Prácticas en Acción](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/#more-3009). Mientras se revisaba este capítulo, Naomi describió su formato de llamada 1:1 en contraste con _El formato de grupo de la Vía Turística_ de la siguiente manera:
 
-> In the co-working calls I have, it's 1:1 and we often spend 20 minutes in the beginning catching up and talking about our progress since last time. If there is something we want to discuss more intensely, we allocate 30 minutes of our call time to that, for example, one of us asking the other how to troubleshoot something. For the time in between, we do a few quiet working sessions (sometimes 25 minutes, sometimes longer). This is likely a combination of a co-mentoring call and a co-working Pomodoro call, and it works well for me.
+> En las llamadas de colaboración que tengo, es de 1:1 y a menudo pasamos 20 minutos en el comienzo de ponerse al día y hablar de nuestro progreso desde la última vez. Si hay algo que queremos debatir más intensamente, asignamos 30 minutos de nuestro tiempo de llamada a eso, por ejemplo, uno de nosotros preguntando al otro cómo solucionar algo. Por el tiempo intermedio, hacemos algunas sesiones de trabajo tranquilas (a veces 25 minutos, a veces más largas). Esto es probablemente una combinación de una llamada de co-mentor y una llamada de co-trabajadora Pomodoro, y funciona bien para mí.
 
-You can read an adapted version of their blog post along with other ideas for virtual events in the document by Center for Scientific Collaboration and Community Engagement {cite:ps}`CSCCE2020virtual`.
+Puedes leer una versión adaptada de su entrada en el blog junto con otras ideas para eventos virtuales en el documento por Center for Scientific Collaboration and Community Engagement {cite:ps}`CSCCE2020virtual`.
 
-If you organise or host a coworking call in your community, you are welcome to highlight them in this chapter by creating a [pull request](https://github.com/alan-turing-institute/the-turing-way/pulls) on the GitHub repository (see [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) for details).
+Si organizas o organizas una llamada de colaboración en tu comunidad, es bienvenido a resaltarlos en este capítulo creando una [pull request](https://github.com/alan-turing-institute/the-turing-way/pulls) en el repositorio de GitHub (ver [pautas de contribución](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para más detalles).

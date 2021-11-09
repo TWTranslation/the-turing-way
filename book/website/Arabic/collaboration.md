@@ -1,28 +1,28 @@
 (cl)=
-# Guide for Collaboration
+# دليل التعاون
 
-***This guide covers topics related to effective and inclusive collaboration.***
+***ويغطي هذا الدليل مواضيع تتصل بالتعاون الفعال والشامل.***
 
-Data science is defined by its interdisciplinarity. Our work can only reach its highest potential if there are diverse teams of people involved in designing and delivering the research or product.
+وعلم البيانات يحدده تعدد التخصصات. ولا يمكن لأعمالنا أن تصل إلى أقصى إمكاناتها إلا إذا كانت هناك أفرقة متنوعة من الناس تشارك في تصميم البحوث أو المنتجات وإنجازها.
 
 ```{figure} ../figures/collaboration.jpg
 ---
-name: collaboration
-width: 500px
-alt: An iceberg's tip is labelled with the project related technical terms, and a few divers are exploring a huge part of iceberg underwater which are labelled with community oriented collaborative terms
----
-There is more to collaboration than we see. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+الاسم: التعاون
+العرض: 500px
+بديل : نصيحة لبرج الجليد موصولة بالمصطلحات التقنية ذات الصلة بالمشروع. ويقوم عدد قليل من الغواصين باستكشاف جزء كبير من جبل الجليد تحت الماء الذي يوصف بشروط تعاونية موجهة للمجتمع المحلي
+- --
+هناك المزيد مما نراه من التعاون. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-There are many different skills required to work well in groups with a wide range of expertise. In this guide, we welcome contributions in developing guidance on following (but not limited to) topics:
+وهناك العديد من المهارات المختلفة المطلوبة للعمل بشكل جيد في مجموعات ذات خبرة واسعة النطاق. وفي هذا الدليل، نرحب بالمساهمات في وضع توجيهات بشأن متابعة المواضيع (على سبيل المثال لا الحصر):
 
-* Designing a project that welcomes contributions
-* Distributed collaboration on GitHub
-* Reviewing team member's contributions
-* Remote working
-* Running an inclusive event
-* Chairing a meeting
-* Defining explicit expectations
-* Participatory co-creation
+* تصميم مشروع يرحب بالمساهمات
+* التعاون الموزع على GitHub
+* استعراض مساهمات أعضاء الفريق
+* العمل عن بعد
+* تشغيل حدث شامل
+* رئاسة اجتماع
+* تعريف التوقعات الصريحة
+* المشاركة المشتركة
 
-Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+تحقق من [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) لدينا للمشاركة .

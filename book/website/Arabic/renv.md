@@ -1,60 +1,60 @@
 (rr-renv)=
-# Reproducible Environments
+# بيئات قابلة للتكرار.
 
-(rr-renv-prerequisites)=
-## Prerequisites
+(rr-renv-prerequireites) =
+## الشروط المسبقة
 
-| Prerequisite                                                                                  | Importance | Notes                                                                            |
-| --------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  | Experience with downloading software via the command line is particularly useful |
-| {ref}`rr-vcs`                                                                                 | Helpful    | Experience using git and GitHub are helpful                                      |
+| الشروط المسبقة                                                                     | الأهمية | الحواشي                                              |
+| ---------------------------------------------------------------------------------- | ------- | ---------------------------------------------------- |
+| [الخبرة في سطر الأوامر](https://programminghistorian.org/en/lessons/intro-to-bash) | ضروري   | تجربة تنزيل البرمجيات عبر سطر الأوامر مفيدة بشكل خاص |
+| {ref}`rr-vcs`                                                                      | مساعدة  | تجربة استخدام git و GitHub مفيدة                     |
 
-**Recommended Skill Level**: _Intermediate-Advanced_
+**مستوى المهارة الموصى به**: _متقدمة متوسطة_
 
 (rr-renv-summary)=
 ## Summary
 
-Every computer has its unique computational environment [{term}`def<Computational Environment>`] consisting of its operating system, installed software, versions of installed software packages, and other features that we will describe later. Suppose a research project is carried out on one computer but transferred to a different computer. There is no guarantee that the analysis will be able to run or generate the same results if the analysis is dependent on any of the considerations listed above.
+كل كمبيوتر لديه بيئته الحسابية الفريدة [{term}`ديف<Computational Environment>`] تتكون من نظام تشغيله، البرمجيات المثبتة، إصدارات من حزم البرمجيات المثبتة، وغيرها من الميزات التي سنوصفها لاحقاً. ولنفترض أن مشروعا بحثيا يجري على حاسوب واحد ولكنه ينقل إلى حاسوب مختلف. وليس هناك ما يضمن أن يكون التحليل قادرا على إجراء أو تحقيق نفس النتائج إذا كان التحليل متوقفا على أي من الاعتبارات المذكورة أعلاه.
 
-In order for research to be reproducible, the computational environment that it was conducted in must be captured in such a way that others can replicate it. This chapter describes a variety of methods for capturing computational environments and gives guidance on their strengths and weaknesses.
+ولكي تكون البحوث قابلة للاستنساخ، إن البيئة الحسابية التي تمت في إطارها يجب أن تؤخذ بطريقة تمكن الآخرين من تكرارها. ويصف هذا الفصل مجموعة متنوعة من الطرق لاستيعاب البيئات الحسابية ويقدم إرشادات بشأن مواطن قوتها ونقاط ضعفها.
 
-### What is a Computational Environment?
+### ما هي البيئة الحسابية؟
 
-In broad terms, a computational environment is the system where a program is run. This includes features of hardware (such as the numbers of cores in any CPUs) and features of software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
+وبعبارة عامة، فإن البيئة الحسابية هي النظام الذي يدار فيه البرنامج. ويشمل ذلك ميزات الأجهزة (مثل أعداد النواة في أي وحدة من وحدات المعالجة المركزية) ومميزات البرمجيات (مثل نظام التشغيل). لغات البرمجة، الحزم الداعمة، القطع الأخرى من البرامج المثبتة، إلى جانب إصداراتها وتشكيلاتها).
 
-Software versions are often defined via [semantic versioning](https://semver.org). In this system, three numbers - for example, 2.12.4 - are used to define each version of a piece of software. When a change is made to the software, its version is incremented. These three numbers follow the pattern _MAJOR.MINOR.PATCH_, and are incremented as follows:
+غالباً ما يتم تعريف إصدارات البرمجيات عن طريق [الإصدار الدلالي](https://semver.org). وفي هذا النظام، تستخدم ثلاثة أرقام - على سبيل المثال 2-12-4 - لتحديد كل نسخة من قطعة برمجيات. وعندما يتم إدخال تغيير على البرمجيات، يصبح إصدارها متزايدا. هذه الأرقام الثلاثة تتبع النمط _MAJOR.MINOR.PATCH_، ويتم زيادتها على النحو التالي:
 
-- *MAJOR*: significant changes
-- *MINOR*: to add functionality
-- *PATCH*: for bug fixes
+- *ماجور*: تغييرات هامة
+- *ماينور*: لإضافة وظيفة
+- *PATCH*: لإصلاح الأخطاء
 
 (rr-renv-useful)=
-## Why This is Useful
+## لماذا هذا مفيد
 
-Let us go through an example of why computational environments are important. Say I have a very simple Python script:
+دعونا نضع مثالا على سبب أهمية البيئات الحسابية. قل لدي نص بايثون بسيط جدا:
 
 ```
-a = 1
-b = 5
+أ = 1
+ب = 5
 print(a/b)
 ```
 
-One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. This is because integer division is applied to integers in Python 2, but (normal) division is applied to all types, including integers, in Python 3.
+مقسمة على خمسة هي `0.2`، وهذا ما يتم طباعته إذا كان البرنامج النصي يتم تشغيله باستخدام Python 3. ومع ذلك، إذا تم استخدام إصدار قديم قليلا من Python، مثل Python 2، فإن النتيجة المطبوعة هي `0`. هذا لأن تقسيم عدد صحيح يطبق على عدد صحيح في Python 2, ولكن التقسيم (عادي) يطبق على جميع الأنواع، بما في ذلك عدد صحيح، في Python 3.
 
-Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
+لذلك فإن هذا البرنامج النصي البسيط يرجع إجابات _مختلفة_ اعتماداً على البيئة الحسابية التي يتم تشغيلها فيها. من السهل استخدام الإصدار الخاطئ من بايثون ، ويوضح كيف يمكن لقطعة من التعليمات البرمجية صالحة تماما أن تعطي نتائج مختلفة اعتمادا على بيئتها. إذا كانت هذه المشكلات يمكن أن تؤثر على نص بسيط كهذا، تخيل كم عدد الحالات التي يمكن أن تظهر في عملية تحليل معقدة قد تنطوي على آلاف الأسطر من التعليمات البرمجية والعشرات من الحزم التابعة.
 
-Researchers need to understand and capture the computational environments in which they are conducting their work, as it has the potential to impact three parties:
+وينبغي للباحثين أن يفهموا ويحصلوا على البيئات الحسابية التي يقومون فيها بعملهم، حيث أن ذلك يمكن أن يؤثر على ثلاثة أطراف:
 
-### Researchers
+### الباحثون
 
-Researchers' working environments evolve as they update software, install new software, and move to different computers. If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. They will have no way of knowing what changes to a specific research environment have occurred and what impact those changes might have on their ability to run the code, and on the results.
+تتطور بيئات عمل الباحثين عندما يقومون بتحديث البرمجيات، وتركيب برمجيات جديدة، والانتقال إلى حواسيب مختلفة. وإذا لم يتم استيعاب بيئة المشروع وكان على الباحثين أن يعودوا إلى مشروعهم بعد أشهر أو سنوات (كما هو شائع في البحث)، ولن يتمكنوا من القيام بذلك بثقة. ولن يكون لديهم أي سبيل لمعرفة التغييرات التي طرأت على بيئة بحثية محددة وما هو أثر تلك التغييرات على قدرتهم على تشغيل الشفرة، وعلى أساس النتائج.
 
-### Collaborators
+### المتعاونون
 
-Much research is now collaborative, and researching multiple different computational environments opens up a minefield of potential bugs. Trying to fix these kinds of issues is often time-consuming and frustrating as researchers have to figure out what the differences between computational environments are, and their effects. Worse, some bugs may remain undetected, potentially impacting the results.
+والكثير من البحوث يتعاون الآن، والبحث في بيئات حسابية متعددة مختلفة يفتح حقلاً للألغام من الأخطاء المحتملة. محاولة حل هذه الأنواع من المشاكل غالبا ما تستغرق وقتا طويلا وتحبط لأن الباحثين يضطرون إلى معرفة الاختلافات بين البيئات الحسابية، وتأثيرها. والأسوأ من ذلك أن بعض الأخطاء قد تظل غير مكتشفة، ويمكن أن تؤثر على النتائج.
 
-### Science
+### العلوم
 
-Scholarly research has evolved significantly over the past decade, but the same cannot be said for the methods by which research processes are captured and disseminated. The primary method for dissemination - the scholarly publication - is largely unchanged since the advent of the scientific journal in the 1660s. This is no longer sufficient to verify, reproduce, and extend scientific results. Despite the increasing recognition of the need to share all aspects of the research process, scholarly publications today are often disconnected from the underlying analysis and, crucially, the computational environment that produced the findings. For research to be reproducible, researchers must publish and distribute the entire contained analysis, not just its results. The analysis should be _mobile_. Mobility of Compute is defined as the ability to define, create, and maintain a workflow locally while remaining confident that the workflow can be executed elsewhere. In essence, mobility of compute means being able to contain the entire software stack, from data files up through the library stack, and reliably move it from system to system. Any research that is limited to where it can be deployed is instantly limited in the extent that it can be reproduced.
+وقد تطورت البحوث العلمية تطورا كبيرا على مدى العقد الماضي. ولكن لا يمكن قول الشيء نفسه عن الأساليب التي يتم بها استخلاص ونشر عمليات البحث. ولم يتغير إلى حد كبير الأسلوب الرئيسي للنشر - المنشور الأكاديمي - منذ ظهور المجلة العلمية في الستينات من القرن العشرين. ولم يعد هذا كافيا للتحقق من النتائج العلمية واستنساخها وتوسيع نطاقها. وعلى الرغم من الاعتراف المتزايد بالحاجة إلى تقاسم جميع جوانب عملية البحوث، وكثيراً ما تكون المنشورات العلمية اليوم منفصلة عن التحليل الذي يستند إليه، ولا سيما عن البيئة الحسابية التي أسفرت عنها النتائج. ولكي تكون البحوث قابلة للاستنساخ، يجب على الباحثين أن ينشروا ويوزعوا التحليل المحتوي بأكمله، وليس فقط نتائجه. يجب أن يكون التحليل _محمول_. يُعرَّف التنقل في الحاسوب بأنه القدرة على تعريف أو إنشاء، والحفاظ على سير العمل محليا مع البقاء على ثقة بأن سير العمل يمكن أن ينفذ في مكان آخر. ومن حيث الجوهر، فإن حركة الحواسيب تعني أن تكون قادرة على احتواء كامل مجموعة البرمجيات، من ملفات البيانات إلى الأعلى من خلال مكدس المكتبة ، ونقلها بشكل موثوق من نظام إلى نظام. وأي بحوث تقتصر على المجالات التي يمكن أن تنشر فيها تكون محدودة على الفور من حيث مدى إمكانية استنساخها.
 
-This chapter will describe how to capture, preserve and share computational environments and code to ensure research is reproducible.
+سيصف هذا الفصل كيفية التقاط وحفظ وتقاسم البيئات الحسابية والرموز البرمجية لضمان أن تكون البحوث قابلة للاستنساخ.

@@ -1,16 +1,16 @@
-(rr-binderhub-inntroduction)=
-# Introduction to BinderHub
+(r-binderhub-ntroduction)=
+# مقدمة إلى BinderHub
 
-[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) is a cloud-based technology that can launch a repository of code (from GitHub, GitLab, and others) in a browser window such that the code can be executed and interacted with. A unique URL is generated allowing the interactive code to be easily shared.
+[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) هي تقنية قائمة على السحابة يمكنها إطلاق مستودع للتعليمات البرمجية (من GitHub، GitLab, وغيرها) في نافذة المتصفح بحيث يمكن تنفيذ التعليمات البرمجية والتفاعل معها. يتم إنشاء عنوان URL فريد يتيح مشاركة التعليمات البرمجية التفاعلية بسهولة.
 
-The purpose of these Binder instances is to promote reproducibility in research projects by encouraging researchers to document their software dependencies and produce fun, interactive environments!
+والغرض من أمثلة بيندر هذه هو تعزيز قابلية الاستنساخ في مشاريع البحوث عن طريق تشجيع الباحثين على توثيق اعتماداتهم على البرمجيات وتحقيق المتعة، بيئات تفاعلية!
 
-Binder, as a user interface, is useful for reproducibility because the code needs to be version controlled and the computational environment needs to be documented in order to benefit from the functionality of Binder. Each change to the code repository also forces a new build of the Binder instance. This acts as a proxy for continuous integration of the computational environment as the Binder instance will break if the configuration file is not updated.
+بيندر، كواجهة مستخدم، هو مفيد لقابلية التكرار، لأن التعليمات البرمجية تحتاج إلى التحكم في الإصدار، ويجب توثيق البيئة الحسابية من أجل الاستفادة من وظيفة Binder. كل تغيير في مستودع التعليمات البرمجية يفرض أيضا بناء جديد من مثيل بيندر. يعمل هذا كوكيل للتكامل المستمر للبيئة الحسابية لأن مثيل Binder سيتوقف إذا لم يتم تحديث ملف التكوين.
 
-Learn more about Continuous Integration {ref}`here<rr-ci>`.
+تعرف على المزيد حول التكامل المستمر {ref}`هنا<rr-ci>`.
 
-## How does a BinderHub work?
+## كيف يعمل BinderHub ؟
 
-BinderHub relies on different tools and resources in order to create and launch the Binder instances.
+يعتمد BinderHub على أدوات وموارد مختلفة من أجل إنشاء وإطلاق مثيلات Binder.
 
-For more information, see this [high-level explanation of the BinderHub architecture](https://binderhub.readthedocs.io/en/latest/overview.html).
+للمزيد من المعلومات، انظر [شرح رفيع المستوى لهيكل BinderHub](https://binderhub.readthedocs.io/en/latest/overview.html).

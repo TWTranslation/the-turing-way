@@ -5,17 +5,17 @@
 
 ```{glossary}
 
-Acceptance Testing
- A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+接受测试
+ 一个软件测试过程的水平，在这个过程中，一个系统被测试为可接受性。 这次测试的目的是评价该系统是否符合项目要求，并评估它是否可以接受。
 
 Acknowledgements
  Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
 
 Add
- Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
+ Command used to add files to the staging area. 允许用户指定在下次提交中包含哪些文件或目录。
 
 Authors
-  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
+  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. 所有作者都在整个书上被点名为共同作者。
 ```
 ---
 
@@ -24,22 +24,22 @@ Authors
 ```{glossary}
 
 Binder
-  A web-based service which allows users to upload and share fully-functioning versions of their projects in an environment they define.
+  是一个基于网络的服务，允许用户在他们定义的环境中上传和共享其项目的完全正常运行的版本。
 
-Binderhub
-  A service which generates Binders. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+绑定中心
+  生成绑定器的服务。 The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
 
 Binderize
   To make a Binder of a project.
 
-Branch
-  A parallel version of a repository. Although it is contained within the same repository it allows you to develop it separately and then merge changes back into the ‘live’ repository or with other branches when appropriate.
+分支
+  一个并行版本的资源库。 虽然它包含在同一个仓库中，但它允许您单独开发它，然后将更改合并到'live'仓库，或酌情与其他分支合并。
 
-Bug
-  This is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.
+错误
+  这是一个错误， 错误或计算机程序或系统中导致其产生错误或意外结果的错误或故障 或以非故意的方式行事。
 
-Build
-  A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
+生成
+  个作业群。 例如，建筑物可能有两项工作，每项工作都测试不同版本的编程语言项目。 当它的所有任务完成后，建筑就会完成。
 ```
 ---
 
@@ -47,35 +47,35 @@ Build
 
 ```{glossary}
 
-Checkout
-  Git command to switch to a specific file, branch, or commit. Allows you to activate older versions of files or commits or switch between active branches.
+签出
+  Git 命令切换到特定的文件、分支或提交。 允许您激活旧版本的文件或提交或在活动分支之间切换。
 
 Citizen Science
   The inclusion of members of the public in scientific research.
 
-Clone
-  Copy of an existing Git repository, normally from some remote location to your local environment. When you clone a repo you copy its entire history as well as all branches.
+克隆
+  已存在的 Git 仓库，通常从某些远程位置复制到您的本地环境。 When you clone a repo you copy its entire history as well as all branches.
 
-Code Coverage
-  A measure which describes how much of the source code is exercised by the test suite.
+代码封面
+  一个描述测试套件执行多少源代码的计量。
 
 Code of Conduct
   Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
 
-Code Review
-  An additional way of testing code quality. Code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
+代码审核
+  是测试代码质量的另一种方式。 代码审核使得另一个程序员能够查看并评估新代码。 The goal is to point out strengths and also potential areas of improvement.
 
 Coercive authorship
   When a senior researcher forces a junior researcher to include a gift or guest author.
 
-Commit
-  Snapshot of project history. A commit can be made after changes of a single file or a range of files and directories.
+提交
+  项目历史快照. A commit can be made after changes of a single file or a range of files and directories.
 
 Commit Message
   A message the user can attach to a commit to explain what it contains.
 
-Communication Channel
-  The method of communication established for projects that might include mailing lists, community forums, chats and/or social media.
+通讯频道
+  为可能包括邮件列表、社区论坛、聊天和/或社交媒体的项目建立的通讯方法。
 
 Community Member
   People who use the project. They might be active in conversations or express their opinion on the project’s direction.
@@ -86,32 +86,32 @@ Computational Environment
 Conda
   A commonly used package management system.
 
-Consortia authorship
- A collective or community group authorship model. All members of the consortium are considered authors and are usually required to be listed in the published article although sometimes the article is published in the groups name. If not all members of the consortium agree to the responsibilities of authorship, the members that are authors will be listed separately from those who are not. 
+联谊会作者
+ 集体或社区团体作者模式。 联营集团的所有成员都被视为作者，通常需要在已发表的文章中列出，但有时文章是以团体名称发表的。 如果不是所有联营集团成员都同意作者的责任， 作者的成员将与未作者的成员分开列出。 
 
-Container
-  Lightweight files that can encapsulate an entire computational environment including its operating system, customised settings, software and files.
+容器
+  轻量文件可以封装整个计算环境，包括其操作系统、定制设置、软件和文件。
 
-Continuous Delivery
-  It automates and runs the steps required to build and test a project.
+持续交付
+  自动化并运行构建和测试项目所需的步骤。
 
-Continuous Deployment
-  It automatically deploys each time a code change is made.
+持续部署
+  它会在每次更改代码时自动部署。
 
-Continuous Integration
-  It is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). Also called CI.
+持续集成
+  是将个人对项目的更改整合成主体的做法， 经常共享版本(通常每天多次)。 Also called CI.
 
 Contributing Guidelines
   Guidelines outlining how a person should go about contributing to an open source project.
 
-Contributors
-  Everyone who has contributed something back to the project. These are members of a research project that have done some work that has made a contribution to the overall completion of the research. This could be a small contribution such as fixing a bug in software or a much larger contribution such as writing an academic article. 
+贡献者
+  每个人都为项目贡献了一些东西。 这些人是一个研究项目的成员，该项目完成了一些工作，为全面完成研究工作做出了贡献。 这可能是一个小的贡献，如修复软件中的错误，或者是一个更大的贡献，如撰写学术文章。 
 
-Corresponding author
- The person who administers an academic article for the research group. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
+相应作者
+ 为研究小组管理一篇学术文章的人。 They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
 
 CRediT Taxonomy
- The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
+ The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. 角色描述了每个贡献者对学术产出的具体贡献。 These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
 
 ```
 ---
@@ -127,19 +127,19 @@ DMP
   Data management plan.
 
 Docker Container
-  An active computational environment executed from a Docker image.
+  一个从Docker图像执行的活动计算环境。
 
 Dockerfile
-  A file used for creating Docker images
+  用于创建 Docker 图像
 
-Docker Image
-  A machine-readable set of instructions to create a specified computational environment.
+Docker 图像
+  一组机器可读的说明来创建特定的计算环境。
 
-Docker Registry
-  A storage and distribution system for named Docker images. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). Such systems are often hosted in the cloud for ease of access.
+Docker Registration
+  是一个名叫Docker 图像的存储和分发系统。 The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). 这种系统往往存放在云层，以方便进入。
 
-Digital Object Identifier
-  A digital object identifier (DOI) is a persistent identifier or handle used to identify objects uniquely, standardized by the International Organization for Standardization (ISO). An implementation of the Handle System, DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports, data sets, and official publications. However, they also have been used to identify other types of information resources, such as commercial videos.
+数字对象标识符
+  数字对象标识符 (DOI) 是一个用于唯一识别对象的持久标识符或句柄。 国际标准化组织（标准化组织）标准化。 在实施处理系统的过程中，指定经营实体正在广泛使用，主要是为了查明学术界和专业界的情况。 政府的资料，例如刊物文章、研究报告、数据集和官方出版物。 However, they also have been used to identify other types of information resources, such as commercial videos.
 ```
 ---
 ## E
@@ -159,7 +159,7 @@ End to End Test
 ```{glossary}
 
 FAIR
-  Findable, Accessible, Interoperable and Reusable.
+  可查找、可访问、可互操作和可重复使用。
 
 First author
  The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research. 

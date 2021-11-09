@@ -1,88 +1,88 @@
-(cm-comms-overview-resources)=
-# Resources and Recommendations
+(م م-أوامر - نظرة عامة-الموارد)=
+# الموارد والتوصيات
 
-(cm-comms-overview-resources-accessibility)=
-## Accessibility
+(m-comms-overview-resources-accessibility)=
+## إمكانية الوصول
 
-Read more in this chapter: {ref}`cm-comms-overview-accessibly`.
+اقرأ المزيد في هذا الفصل: {ref}`cm-comms-overview-available`.
 
-* [Ability Net](https://abilitynet.org.uk/) for guides to making your documents more accessible.
-* [Contrast calculator](https://contrastchecker.com/) is a good website to freely check if you meet the Web Content Accessibility Guidelines (WCAG) ratings.
-* [Outlier conf](https://www.outlierconf.com/) is a good example of accessibility in conference participation fees and data experience (vs visualisation).
+* [شبكة القدرة](https://abilitynet.org.uk/) للأدلة لجعل المستندات الخاصة بك أكثر سهولة الوصول.
+* [آلة حاسبة التباين](https://contrastchecker.com/) هي موقع جيد للتحقق بحرية مما إذا كنت تستوفي معايير إمكانية الوصول إلى محتوى الويب (WCAG).
+* [Outlier conf](https://www.outlierconf.com/) مثال جيد على إمكانية الوصول إلى رسوم المشاركة في المؤتمرات والخبرة في البيانات (مقابل التصوير).
 
-(cm-comms-overview-resources-blogs)=
-## Blogs
+(m-comms-overview-resources-blogs)=
+## المدوّنات
 
-Read more in this chapter: {ref}`cm-blogs`.
+اقرأ المزيد في هذا الفصل: {ref}`cm-blogs`.
 
-* [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
-* [Start a Wordpress blog](https://www.podcastinsights.com/start-a-wordpress-blog/)
-* [Comparing Google sites and Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
+* [20 مقياس كل مدوّن يحتاج إلى تتبع لقياس النجاح](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* [بدء تشغيل مدونة Wordpress](https://www.podcastinsights.com/start-a-wordpress-blog/)
+* [مقارنة مواقع Google و Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
 
-### Some of our favourite blogs
-* Dr Veronika Cheplygina's [How I fail series](https://veronikach.com/failure/)
-* [Software Sustainability Institute Blog](https://www.software.ac.uk/blog)
-* [Open Working](https://openworking.wordpress.com/) by 4TU.ResearchData & TU Delft Library and Data Stewards. Uses WordPress.
-* [Metadocencia](https://metadocencia.netlify.app/post/) - This is in Spanish but you can also read it in English [here](https://metadocencia.netlify.app/en/post/).
+### بعض مدوناتنا المفضلة
+* الدكتورة فيرونيكا شيبليجينا [كيف فشلت في سلسلة](https://veronikach.com/failure/)
+* [مدونة معهد استدامة البرمجيات](https://www.software.ac.uk/blog)
+* [افتح العمل](https://openworking.wordpress.com/) بواسطة 4TU.ResearchData & TU Delft Library و Data Stewards. يستخدم WordPress.
+* [Metadocencia](https://metadocencia.netlify.app/post/) - هذا باللغة الاسبانية ولكن يمكنك أيضا قراءته باللغة الإنجليزية [هنا](https://metadocencia.netlify.app/en/post/).
 
-(cm-comms-overview-resources-lay)=
-## Lay summaries
+(m-comms-overview-resources-lay)=
+## ملخصات معلنة
 
-Read more in this chapter: {ref}`cm-lay-summaries`.
+اقرأ المزيد في هذا الفصل: {ref}`سم - ملخصات`.
 
-* See  [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/) for a good example of how an abstract can be changed into a lay summary.
+* انظر  [Perfecting the lay Summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/) للحصول على مثال جيد لكيفية تغيير الخلاصة إلى موجز عادي.
 
-**Readability tests:**
+**اختبارات قابلية القراءة:**
 * [Hemingway app](http://www.hemingwayapp.com/)
-* [The forst word readability test](http://thefirstword.co.uk/readabilitytest/)
+* [اختبار القابلية للقراءة في كلمة الفوز](http://thefirstword.co.uk/readabilitytest/)
 
 
-(cm-comms-overview-resources-podcasts)=
+(m-comms-overview-resources-podcasts)=
 ## Podcasts
 
-Read more in this chapter: {ref}`cm-podcasts`.
+اقرأ المزيد في هذا الفصل: {ref}`cm-podcasts`.
 
-* [How to start a podcast blog](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
+* [كيفية تشغيل مدونة podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
 
-### Some of our favourite podcasts
+### بعض البث الصوتي المفضل لدينا
 * [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
-* [Open Science talk](https://soundcloud.com/opensciencetalk).
-* [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast).
+* [حديث العلوم المفتوح](https://soundcloud.com/opensciencetalk).
+* [تورينج Podcast](https://www.turing.ac.uk/news/turing-podcast).
 * [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
-* [Open science stories](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
+* [قصص علمية مفتوحة](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
 
-(cm-comms-overview-resources-presentations)=
-## Presentations
+(أوامر استعراض عام-الموارد - العروض)=
+## العروض
 
-Read more in this chapter: {ref}`cm-presentations`.
+اقرأ المزيد في هذا الفصل: {ref}`سم عرض`.
 
-Here are some websites that offer free resources making different aspects of presenations:
+وفيما يلي بعض المواقع التي توفر موارد مجانية تقوم بجوانب مختلفة من أشكال التواجد:
 
-* [The Noun Project](https://thenounproject.com) for icons and photographs.
-* [Unsplash](https://unsplash.com) for photographs.
-* [Pexels](https://www.pexels.com) for photographs.
-* [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations.
-* [Flaticon](https://www.flaticon.com/free-icons/english) for icons.
-* [Canva](https://www.canva.com) for icons.
+* [مشروع نون](https://thenounproject.com) للأيقونات والصور.
+* [Unsplash](https://unsplash.com) للصور.
+* [السلاسل](https://www.pexels.com) للصور.
+* [فريك](https://www.freepik.com/free-photos-vectors/english) للأيقونات والرسوم التوضيحية.
+* [Flaticon](https://www.flaticon.com/free-icons/english) للأيقونات
+* [كانفا](https://www.canva.com) للأيقونات
 
-For recording talks:
-* [OBS](https://obsproject.com). See [this guide for using OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute.
-* [Amara](https://amara.org) or [Otter](https://otter.ai/) can be used to generate your subtitles. Video conferencing platforms such as Zoom or Google meet also have captions.
+لتسجيل المحادثات:
+* [OBS](https://obsproject.com). انظر [هذا الدليل لاستخدام OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) من قبل معهد استدامة البرمجيات.
+* [أمارا](https://amara.org) أو [Otter](https://otter.ai/) يمكن استخدامها لتوليد الترجمات الخاصة بك. منصات التداول بالفيديو مثل التكبير أو اجتماع جوجل لها أيضا تعليقات.
 
-* Many of the technical aspects and tools for giving remote talks (or classes) are covered in [The Carpentries tips for teaching online](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) and the webinar ["Teaching Online on Short Notice"](https://rstd.io/teach-online-2020) by RStudio, a source for several points of this section.
+* العديد من الجوانب التقنية والأدوات لإلقاء محادثات (أو فصول) عن بعد مغطاة في [نصائح النجارة لتدريس الإنترنت](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) و ["التعليم عبر الإنترنت على الإشعار القصير"](https://rstd.io/teach-online-2020) بواسطة RStudio، مصدر لعدة نقاط في هذا الفرع.
 
-* The Outlier conference has some excellent tips on [speech development](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [structure](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/), and [technical setup](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
+* يحتوي مؤتمر Outlier على بعض النصائح الممتازة حول [تطوير الكلام](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/)و [بنية](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/)و [الإعداد الفني](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
 
-* Author Nancy Duarte offers some insights in her books, articles and [talks](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) on how to structure presentations that involve a call to action.
+* تقدم المؤلف نانسي دوارتي بعض الأفكار في كتبها ومقالاتها و [تتحدث](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) حول كيفية تشكيل العروض التي تنطوي على دعوة للعمل.
 
-(cm-comms-overview-resources-social)=
-## Social Media
+(m-comms-overview-resources-social)=
+## وسائل التواصل الاجتماعي
 
-Read more in this chapter: {ref}`cm-social-media`.
+اقرأ المزيد في هذا الفصل: {ref}`سم - الوسائط الاجتماعية`.
 
-* [Tweetdeck](https://tweetdeck.twitter.com/)
-* [Buffer](https://buffer.com/)
-* This is a good [guide to getting set up on Twitter](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
-* [Ten simple rules to getting started on Twitter as a scientist](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
-* [Ten simple rules of live-tweeting at scientific conferences](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
-* [How to use Twitter to further your research career](https://www.nature.com/articles/d41586-019-00535-w)
+* [تغريدة](https://tweetdeck.twitter.com/)
+* [مخزن](https://buffer.com/)
+* هذا دليل [جيد للحصول على الإعداد على تويتر](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
+* [عشر قواعد بسيطة للبدء على تويتر كعالم](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
+* [عشر قواعد بسيطة للتغريدات الحية في المؤتمرات العلمية](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
+* [كيفية استخدام تويتر لتعزيز مهنتك البحثية](https://www.nature.com/articles/d41586-019-00535-w)

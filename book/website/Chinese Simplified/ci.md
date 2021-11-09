@@ -1,31 +1,31 @@
 (rr-ci)=
-# Continuous integration
+# 连续集成
 
-| Prerequisite                                                                                  | Importance   | Notes                                                                                                                          |
-| --------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary    | Continuous integration will follow command line instructions                                                                   |
-| {ref}`Version control<rr-vcs>`                                                          | Necessary    | Continuous integration runs every time a new _commit_ is made to your project                                                  |
-| {ref}`Reproducible computational environments<rr-renv>`                                 | Necessary    | Continuous integration runs your tests on a separate computer (usually in the cloud) so you need to set it up in the same way. |
-| {ref}`Testing<rr-testing>`                                                              | Very helpful | Continuous integration _tests_ if anything important has changed when you make a change in your project                        |
+| 前提条件：                                                               | 重要性   | 注                                         |
+| ------------------------------------------------------------------- | ----- | ----------------------------------------- |
+| [命令行的经验](https://programminghistorian.org/en/lessons/intro-to-bash) | 必需的   | 连续集成将按照命令行说明                              |
+| {ref}`版本控制<rr-vcs>`                                           | 必需的   | 每次向您的项目提交新的 _提交_ 时，连续集成运行                 |
+| {ref}`可复现的计算环境<rr-renv>`                                      | 必需的   | 连续集成在单独的计算机上运行您的测试(通常在云中)，所以您需要以同样的方式设置它。 |
+| {ref}`测试<rr-testing>`                                         | 非常有帮助 | 当你改变你的项目时，如果任何重要的变化都会持续集成 _测试_            |
 ## Summary
 
-Continuous integration (CI) is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). CI software is also typically used to identify any conflicts and bugs that are introduced by changes, so they are found and fixed early, minimising the effort required to do so. Running tests regularly also saves humans from needing to do it manually. By making users aware of bugs as early as possible researchers (if the project is a research project) do not waste a lot of time doing work that may need to be thrown away, which may be the case if tests are run infrequently and results are produced using faulty code.
+持续融合是将个人对项目的修改纳入主体的做法。 经常共享版本(通常每天多次)。 CI 软件通常也用于识别因更改而引入的任何冲突和bug。 这样就能及早找到和固定这些武器，最大限度地减少为此所需的努力。 运行测试也经常使人类免于需要手工操作。 尽早让用户了解故障（如果该项目是一个研究项目），并不会浪费可能需要放弃的大量时间， 如果测试不经常进行，结果使用错误代码生成，情况就可能如此。
 
 ```{figure} ../figures/continuous-integration-may19.jpg
 ---
-height: 500px
-name: continuous-integration-may19
-alt: A sketch showing how continuous integration helps developers plan, design, integrate code into a shared repository, and then observe the influence of any changes.
+高度：500px
+名称：连续性-整合-may19
+高度：显示连续整合如何帮助开发者规划的草图 设计，将代码整合到共享仓库中，然后观察任何更改的影响。
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-## How this will help you/ why this is useful
+## 这将如何帮助您/为什么这是有用的
 
-CI has a number of key benefits:
+CI 有若干主要好处：
 
-- Helps bugs to be found early, minimising their damage and making them easier to fix
-- Keeps project contributors up to date with each other's work so they can benefit from it as soon as possible
-- Encourages users to write tests
-- Automates running of tests
-- Ensures tests are run frequently
+- 帮助提早发现错误，尽量减少伤害，使其更容易修复
+- 使项目贡献者随时了解彼此的工作，以便他们能够尽快从中受益。
+- 鼓励用户写测试
+- 自动运行测试
+- 确保测试经常运行

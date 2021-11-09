@@ -1,90 +1,90 @@
-(communication-aa-intps)=
-# Personal stories - Authorship on Interdisciplinary projects
+(通信-aa-intps)=
+# 个人故事——多学科项目作者
 
 ## Federico Nanni and Mariona Coll Ardanuy - Living with Machines
 
-[Living with Machines](https://livingwithmachines.ac.uk/) is a research project that rethinks the impact of technology on the lives of ordinary people during the Industrial Revolution.
+[与机器共存](https://livingwithmachines.ac.uk/) 是一个研究项目，它重新思考技术在工业革命期间对普通人生活的影响。
 
-It brings together an interdisciplinary group of researchers from a range of disciplines to create research methods, tools and data. They are working to change perceptions of how collaborations can be done and in doing this are discovering and working through some interesting challenges, including the issue of academic authorship.
+它汇集了来自一系列学科的跨学科研究人员小组，以制定研究方法、工具和数据。 它们正在努力改变人们对如何进行协作的看法，在这样做时，正在发现一些有趣的挑战，并在这些挑战中发挥作用。 其中包括学术著作权问题。
 
-#### Find out more about their work below:
+#### 了解更多关于他们工作的信息：
 
 **Federico Nanni:**
 * [ORCID](https://orcid.org/0000-0003-2484-4331)
-* [Twitter](https://twitter.com/f_nanni)
-* [Website](https://github.com/fedenanni)
+* [推特](https://twitter.com/f_nanni)
+* [网址](https://github.com/fedenanni)
 
 **Mariona Coll Ardanuy**
 * [ORCID](http://orcid.org/0000-0001-8455-7196)
-* [Website](https://github.com/mcollardanuy)
+* [网址](https://github.com/mcollardanuy)
 
-**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
+**1. 您学科的 *是正常的* 学术论文作者实践？ 或曾经是通常做法？**
 
-We are an interdisciplinary project and therefore bring with us the usual practices of authorship from two distinct disciplines: Computational linguistics and the Humanities (History). This makes it trickier when trying to decide how to tackle authorship on our publications.
+我们是一个跨学科项目，因此带给我们两个不同学科的通常作者做法：计算语言学和人文学（人文学）。 这使得在我们的出版物上决定如何处理作者的问题时变得更加复杂。
 
-Some of our team are Computational linguists, which is a scientific field concerned with modelling language computationally. In the project, we use natural language processing that is the engineering side of Computational linguistics. We are used to working on papers that have a team of authors and papers are produced and published at pace.
+我们的一些团队是计算语言学家，这是一个涉及以计算方式模拟语言的科学领域。 在该项目中，我们使用的是自然语言处理，这是计算语言学的工程方面。 我们被用来撰写一组作者的论文，并按时印制和出版。
 
-Other team members are from Humanities disciplines where sole author papers are common and are even required for career progression. The pace of publication in humanities is much slower.
+其他小组成员来自人文学科，在这些学科中，唯一的作者文件很普遍，甚至职业进展也需要这些文件。 人文出版物的速度要慢得多。
 
-These two different approaches to authorship make it very hard to establish who should be an author or who should just be acknowledged. It is also difficult to work out who contributed the most, therefore establishing a ranking order of authors for papers, as we all have different roles in the project that are equally important to the overall goals.
+这两种不同的作者方式使得很难确定谁应该是作者或谁应该得到承认。 也很难找出贡献最大的人，从而确定文件作者的排名顺序。 因为我们都在该项目中发挥着不同的作用，这对总体目标同样重要。
 
-The publications we have published so far are more focused on the computational linguistics side of the project and therefore we have been generous with authorship for the whole team. This is due to the acceptance in computational linguistics that a team would have worked together to achieve this work.
+我们迄今出版的出版物更多地侧重于该项目的计算语言方面，因此我们慷慨地为整个团队撰写了著作。 这是因为在计算语言方面接受了一个小组会共同努力完成这项工作。
 
-However, when writing more historically based papers we may need to consider that some of our team members need sole author publications and that adding authors onto these papers devalues the perceived prestige of the paper for them. In this case, we will be careful to fully cite our previous technical papers and acknowledge all of the team in an acknowledgement section.
+然而，仍然存在着这种情况。 在撰写更具历史基础的文件时，我们可能需要考虑到我们的团队中的一些成员需要唯一的作者出版物，而在这些文件上增加作者会贬低他们所认为的文件威望。 在这种情况下，我们将谨慎地充分引用我们以前的技术文件，并在一节中对所有小组表示肯定。
 
 
-**2. When did you discuss authorship in your project?**
+**2. 在你的项目中讨论作者的时候？**
 
-We started this process early but did not make much progress really until the first major paper of the project was about to be submitted. We then had to decide how to properly credit everyone in our team and it was driven by the need to get it done.
+我们很早就开始了这一进程，但在该项目的第一份主要文件即将提交之前并未真正取得多大进展。 然后我们不得不决定如何适当地赞扬我们的团队中的每一个人，这是因为需要做到这一点。
 
-**3. Who had the discussion of authorship in your project?**
+**3. 在你的项目中谁讨论过作者？**
 
-Everyone was involved in the discussions about authorship in meetings led by the Principal Investigator - Professor Ruth Ahnert. All our voices were listened to in these discussions and the approach to authorship in the project had good intentions from the start.
+在首席调查员Ruth Ahner教授领导的会议上，每个人都参与了关于作者身份的讨论。 我们在这些讨论中听取了我们的所有声音，从一开始就对项目作者采取了良好的态度。
 
-The discussions were very interdisciplinary as the project has a lot of postdoctoral researchers that all bring with them expert knowledge.
+讨论是跨学科的，因为该项目有许多博士后研究人员，他们都带有专家知识。
 
-**4. What approach have you decided to take in your project?**
+**4. 你决定在你的项目中采取什么办法？**
 
-We adopted the [CRediT taxonomy](https://casrai.org/credit/) to better present each author's contributions to the work. However, we felt it does not cover all the roles in our project so we adapted it. We felt that some of the categories were a bit vague and we wanted to be specific about the roles played by our team members.
+我们通过了 [CrediT 分类法](https://casrai.org/credit/) 来更好地介绍每个作者对作品的贡献。 然而，我们觉得它没有涵盖我们项目中的所有作用，因此我们对它进行了调整。 我们认为，其中一些类别有点模糊，我们希望具体说明我们团队成员所发挥的作用。
 
-The categories that we added were implementation, reproducibility, interpretation, historical analysis and annotation.
+我们添加的类别是执行、可再生性、解释、历史分析和说明。
 
-We encountered an issue with the roles that were not being perceived equally, such as conceptualisation and supervision being seen as having more prestige than other roles. Therefore, even when trying to acknowledge team members contributions more inclusively there are still problems that arise.
+我们遇到的一个问题与人们对其作用的看法并不相同， 例如，概念化和监督被视为比其他作用更具威望。 因此，即使试图以更具包容性的方式确认团队成员的贡献，但仍然存在问题。
 
-We decided to produce a cover page for the pre-print of our first methods paper. We wanted to reflect our thinking about moving away from an author list and raise the curtain on roles that are often hidden in research projects.
+我们决定为我们第一份方法文件预印制作一个封面页。 我们想要反映出我们关于摆脱作者名单的想法并提高对常常隐藏在研究项目中的角色的屏幕。
 
-The cover page makes the jobs on the project more explicit, you therefore do not presume what the authors do as you would with a list.
+封面页使项目上的任务更加明确， 因此，你并不假定作者的行为与你的名单一样。
 
-You can find out more about this in our blog - [Highlighting authors' contributions and interdisciplinary collaborations in Living with Machines](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
+您可以在我们的博客中找到更多关于这个问题的信息 - [突出显示作者的贡献以及在生活在机器中的跨学科合作](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/)。
 
-As we are trying to challenge how things are usually done, we were expecting this approach to bring conflicts and difficult discussions. Everyone came to this project with a similar mindset and this helped us to resolve any issues.
+在我们试图质疑通常如何做事的时候，我们期待着这种方法带来冲突和困难的讨论。 每个人都怀着同样的心态来参加这个项目，这有助于我们解决任何问题。
 
-**5. How have you gone about this practically?**
+**5. 你如何实际处理这个问题？**
 
-We used a Google doc to send around the CRediT taxonomy and everyone could fill in their own name under the different categories.
+我们使用了一个 Google doc 来发送CrediT 分类，每个人都可以在不同类别下填写自己的名字。
 
-We did find that everyone had different opinions - some people did put themselves in many categories and others would only put their name in one when they should have got credit for more.
+我们确实发现每个人都有不同的意见――有些人确实将自己归入许多类别，而另一些人只是在他们应该得到更多的荣誉的时候才把自己的名字放在一个名字上。
 
-This meant that there had to be a degree of moderation when finalising the list of contributions.
+这意味着在最后确定捐款清单时必须有一定程度的节制。
 
-**6. What have been the problems with doing this?**
+**6. 这样做有什么问题？**
 
-The cover page was a statement that was put in our pre-print to try to solve the issue of assigning contributions fairly and the need for a list of authors but it was a footnote in the final published article. Therefore, there still had to be a list of authors, and a first author for publication.
+封面页是在我们的预印版上发表的一项声明，试图解决公平分配缴款和需要一份作者名单的问题，但它是最后发表文章中的一个脚注。 因此，仍然必须有一份作者名单和第一份作者供出版。
 
-The main author, Mariona, was easy to decide as she had been the main writer and lead in everything to do with that paper but after that the order of authors was difficult.
+主要作者Mariona， 她很容易决定，因为她是主要的作者，并在与该文件有关的一切方面发挥了领导作用，但在这之后作者的顺序是困难的。
 
-Some team members don't have the same need for publications as postdoctoral researchers because they hold permanent positions or work in areas where other types of outputs, such as code, are more important. This adds another layer of consideration that needs to be addressed when discussing the author list.
+一些小组成员不像博士后研究人员那样需要出版物，因为他们在其他类型产出的领域长期担任职务或工作。 例如，守则就更加重要。 这增加了在讨论提交人名单时需要处理的另一层考虑。
 
-There are also issues with assigning corresponding authors as in some fields this carries a perception of supervision or seniority in the team. In our case, it was just who was best to contact to find out more about the project.
+在指派相应的作者方面也存在一些问题，因为在某些领域，这就带有监督或团队资历的感觉。 在我们的情况下，最好是谁来联系，以了解更多有关该项目的情况。
 
-**7. How are you approaching the writing of the papers?**
+**7. 你是如何撰写这些文章的？**
 
-We had one person leading on a publication. They defined the structure, had an understanding of what was expected by the journal in terms of structure and formatting, they split up the paper into sections for different people to write and then everyone could write their parts. Then one person edited this work. It does need one person to edit the whole paper so they can have an idea of the overall flow and structure.
+我们有一人领头出版了一份出版物。 他们界定了结构，了解了杂志在结构和格式方面的期望。 他们将文件分成不同的部分，以便不同的人撰写，然后每个人都可以撰写自己的部分。 然后有一人编辑了这项工作。 它确实需要一个人来编辑整个文件，以便他们能够了解整体的流动情况和结构。
 
-This approach worked well for the technical papers we have written.
+这种做法对我们编写的技术文件来说是很好的。
 
-**8. What collaborative tools are you using for the writing and projects?**
+**8. 您在写作和项目中使用了哪些协作工具？**
 
-We are using Overleaf, which is a LaTex based writing software, but I think some people are using Google docs for collaborative writing.
+我们正在使用 Overleafe, 这是一个基于 LaTex 的书写软件，但我想一些人正在使用谷歌文档进行协作写作。
 
-*This interview was conducted by Emma Karoune. We would like to thank Federico and Mariona for the useful discussions about academic authorship, and for commenting on this personal story and the wider academic authorship chapter.*
+*这次访谈是由Emma Karoune进行的。 我们要感谢Federico和Mariona就学术著作权问题进行了有益的讨论。 并对这一个人故事和更广泛的学术著作章节发表评论。*

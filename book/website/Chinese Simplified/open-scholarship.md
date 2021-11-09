@@ -1,72 +1,72 @@
-(rr-open-scholarship)=
-# Open Scholarship
+(rr-open奖学金)=
+# 开放奖学金
 
-Open research and its subcomponents fit under the umbrella of a broader concept - open scholarship [{term}`def<Open Scholarship>`].
+开放研究及其子组件适合于一个更广泛的概念——开放奖学金[{term}`def<Open Scholarship>`]。
 
 ```{figure} ../../figures/open-umbrella.png
 ---
-height: 500px
-name: open-umbrella
-alt: A depiction of Open Scholarship as an umbrella with other elements of Open Research beneath it.
+高度：500px
+name: open-market
+alt: A description of Open Scholarship as a market with other elements of Open Research under its
 ---
 ```
 
-(rr-open-scholarship-resources)=
-## Open Educational Resources
+(rr-open奖学金-resources)=
+## 开放教育资源
 
-Open educational resources (OERs) [{term}`def<Open Educational Resources>`] are teaching and learning materials that can be freely used and reused for learning or teaching at no cost, and without needing to ask permission. Examples are courses, including Massive Online Open Courses (MOOCs), lectures, teaching materials, assignments, and various other resources. OERs are available in many different formats compatible with online usage, most obviously text, images, audio, and video. Anyone with internet access can access and use OERs; access is not dependent on location or membership of a particular institution.
+开放的教育资源 (OERs) [{term}`def<Open Educational Resources>`] 是教学和学习材料，可免费用于学习或教学。 并且无需请求许可。 例如课程，包括大规模在线开放课程、讲座、教材、分派和各种其他资源。 OER有许多不同的格式，与在线使用相符，最明显的是文本、图像、音频和视频。 任何能够上网的人都可以上网使用OER；接入不取决于某个机构的地点或成员资格。
 
-Unlike copyrighted resources, OERs have been authored or created by an individual or organization that chooses to retain few, if any, ownership rights. In some cases, that means anyone can download a resource and share it with colleagues and students. In other cases, this may go further and enable people to edit resources and then re-post them as a remixed work. How do you know your options? OERs often have a Creative Commons licence or other permission to let you know how the material may be used, reused, adapted, and shared.
+与受版权保护的资源不同，OER是由选择保留极少（如果有的话）所有权的个人或组织撰写或创建的。 在某些情况下，这意味着任何人都可以下载并与同事和学生分享资源。 在另一些情况下，这可能会更进一步，使人们能够编辑资源，然后将其重新安置为混杂的工作。 您如何知道您的选项？ OER通常有知识共享许可证或其他权限让您知道如何使用、重新使用、修改和共享材料。
 
-Fully open OERs comply with the 5 Rs:
+完全开启的OER符合5R：
 
-- _Retain_: the right to make, own, and control copies of the content.
-- _Reuse_: the right to use the content in a wide range of ways (for example, in a class, in a study group, on a website, in a video).
-- _Revise_: the right to adapt, adjust, modify, or alter the content itself (for example, translate the content into another language).
-- _Remix_: the right to combine the original or revised content with other open content to create something new (for example, incorporate the content into a mashup).
-- _Redistribute_: the right to share copies of the original content, your revisions, or your remixes with others (for example, give a copy of the content to a friend).
+- _保留_: 有权制作、拥有和控制内容的副本。
+- _重用_: 以多种方式使用内容的权利 (例如) 在一个班级、一个研究组、一个网站、一个录象带上)。
+- _修改_: 调整、调整、修改或更改内容本身的权利(例如，将内容翻译成另一种语言)。
+- _变换_: 将原始内容或修改后的内容与其他打开的内容结合起来以创建新内容的权利 (例如) 将内容并入mashup)。
+- _重命名_: 分享原始内容副本的权利 您的修订版，或您与其他人的混杂版(例如将内容副本提供给朋友)。
 
-Researchers generate a great deal of educational resources in the course of teaching students and each other (at workshops, for example). By making these openly available (for example, in the [open educational resource commons](https://www.oercommons.org/)), the wider community can benefit from them in three main ways:
+研究人员在教学过程中产生了大量的教育资源，并相互交流（例如在讲习班上）。 通过公开提供这些信息(例如，在 [开放的教育资源公共](https://www.oercommons.org/)中)， 广大社区可以通过以下三种主要方式从中受益：
 
-1. Most obviously, the community can use the materials to learn about the content they cover.
-2. Sharing resources reduces duplication of effort. If an educator needs materials for teaching and such materials already exist openly, then they need not make their own from scratch, thereby saving time.
-3. Making materials openly available helps a community build better resources by improving those that already exist. The community can combine several OERs to take advantage of their different strengths, such as a great diagram or explanation.
+1. 最明显的是，社区可以利用这些材料了解它们所包含的内容。
+2. 分享资源减少了重复工作。 如果教育者需要教材，而这种教材已经公开存在，那么他们就不必从零开始就能够自食其力，从而节省时间。
+3. 公开提供材料有助于社区通过改进现有材料建立更好的资源。 社区可以将几种露天环境综合起来，利用其不同的优势，例如一个大图或解释。
 
-Beyond the raw practical benefits, the worldwide OER movement is rooted in the human right to access high-quality education. This shift in educational practice is about participation and co-creation. Open Educational Resources (OERs) offer opportunities for systemic change in teaching and learning content by involving educators in new participatory processes and leveraging effective technologies for learning engagement.
+除了原始的实际好处外，全世界的平等机会运动植根于获得高质量教育的人权。 教育实践的这种转变涉及参与和共同创造。 开放式教育资源使教育工作者参与新的参与进程，并利用有效的技术进行学习，从而为系统地改变教学和学习内容提供机会。
 
-(rr-open-scholarship-equity)=
-## Equity, Diversity, Inclusion [{term}`def<Equitable, Diverse and Inclusive Practices>`]
+(rr-openopolship-equity)=
+## 公平、多样性，包含 [{term}`def<Equitable, Diverse and Inclusive Practices>`]
 
-Open scholarship means open to *everyone* without discrimination based on factors such as race, gender, sexual orientation, or any number of other factors. As a community, we should undertake to ensure equitable opportunities for all. We can go about that by deliberately fostering welcoming, inclusive cultures within our communities. For example, reasonable accommodations should be made wherever possible to include community members with disabilities to enable them to participate fully, and this can be as simple as choosing colourblind-safe colour schemes when making graphs.
+开放奖学金意味着向所有 *人开放，* 不存在基于种族、性别、性取向等因素或任何其他因素的歧视。 作为一个社区，我们应该承诺确保人人享有平等机会。 我们可以通过在我们社区内有意识地培养欢迎性和包容性的文化来实现这一目标。 例如，应尽可能提供合理的便利，使残疾社区成员能够充分参与。 而且，在绘制图时，这可以像选择色盲-安全色彩计划一样简单。
 
-(rr-open-scholarship-citizen)=
-## Citizen Science
+(rr-openholship-citizen)=
+## 公民科学
 
-Citizen science [{term}`def<Citizen Science>`] is the involvement of the public in scientific research – whether community-driven research or global investigations. The Oxford English Dictionary recently defined it as: "scientific work undertaken by members of the general public, often in collaboration with or under the direction of professional scientists and scientific institutions". Citizen science offers the power of science to everyone and the power of everyone to science.
+公民科学[{term}`def<Citizen Science>`] 是公众参与科学研究——无论是社区驱动的研究还是全球调查。 《牛津英语词典》最近将其定义为：“一般公众从事的科学工作。 常常与专业科学家和科学机构合作或在其指导下”。 公民科学为每个人提供科学的力量和科学的力量。
 
-By allowing members of the public to contribute to scientific research, citizen science helps engage and invest the broader world in science. It also benefits researchers by offering human resources that would not be accessible otherwise. Examples of this include [finding](https://citizensciencegames.com/games/eterna/) ways of folding molecules and [classifying](https://www.zooniverse.org/) different types of galaxies.
+通过让公众对科学研究作出贡献，公民科学有助于使更广泛的世界参与科学并将其投资于科学。 它还向研究人员提供否则无法获得的人力资源，从而使他们受益。 这方面的例子包括 [查找](https://citizensciencegames.com/games/eterna/) 个折叠分子的方法和 [分类](https://www.zooniverse.org/) 不同类型的星系。
 
-(rr-open-scholarship-involvement)=
-## Patient and Public Involvement
+(rr-open-openmarship-involvement)=
+## 患者和公众参与
 
-Whilst citizen science encompasses one way of contributing to scientific research, Patient and Public Involvement (PPI) is a far more specialized form of citizen science which is particularly useful when researching health or social issues.
+虽然公民科学包括对科学研究作出贡献的一种方式。 病人和公众参与是公民科学的一种更加专门化的形式，对研究健康或社会问题尤其有用。
 
 PPI is *not*:
-- _Participation_: Recruitment of participants (such as for a clinical trial or survey) to contribute data to a project.
-- _Engagement_: Dissemination, such as presenting at patient interest groups or writing a blog post.
+- _参与_: 招聘参与者(例如临床试验或调查)为项目提供数据。
+- _参与_: 传播, 例如在患者兴趣小组中展示或撰写博客文章。
 
-PPI *is*:
+PPI *是*:
 - _Involvement_: patients and members of the public contribute at *all* stages of the research cycle.
 
-When incorporating PPI into research, researchers work *with* volunteers, rather than doing work *about* them. PPI volunteers are usually patients or members of the public with a particular interest in some area of research, which means that the topic is often very personal, and being involved in the research cycle can be an empowering experience. For the researcher, PPI often generates unique and invaluable insights from the volunteers' expertise which the researcher cannot always predict.
+当将PPI纳入研究时，研究人员与</em> 志愿者一起工作 *，而不是做关于* 的工作 *工作。 PPI志愿人员通常是病人或公众成员，对某些研究领域特别感兴趣。 这意味着这个专题往往是个人的，而且参与研究周期可以是一种增强能力的经验。 对研究人员来说，PPI常常从志愿人员的专门知识中获得独特和宝贵的见解，而研究人员并不总是能够预测这一点。</p>
 
-It is a good idea to consider PPI very early in a project, ideally before any grant applications or submissions for ethical approval have been written. PPI volunteers can help researchers in many ways, such as the following:
-1. Generate or shape research questions.
-2. Contribute to, or review, study design.
-3. Help with grant applications or submissions to research ethics committees (particularly the lay summary).
-4. Collect data.
-5. Analyse data.
-6. Contribute to the manuscript and be listed as a co-author.
-7. Disseminate findings in plain English.
+在一个项目的早期阶段考虑PPI是一个好主意。 最好是在任何赠款申请或要求道德批准的申请书编写之前。 PPI志愿者可以通过多种方式帮助研究人员，例如：
+1. 产生或影响研究问题。
+2. 促进或审查学习设计。
+3. 帮助向研究道德委员会申请赠款或提交材料(特别是非正规摘要)。
+4. 收集数据。
+5. 分析数据。
+6. 为草稿撰写稿并被列为共同作者。
+7. 以英语传播调查结果。
 
-One of the most significant barriers to PPI is not knowing how to get started. The UK National Institute for Health Research has its own site, [INVOLVE](https://www.invo.org.uk/), to help familiarise yourself with the foundations of PPI. Additionally, charities related to your specific research field may be able to facilitate or support PPI; for example, [Cancer Research UK](https://www.cancerresearchuk.org/funding-for-researchers/patient-involvement-toolkit-for-researchers) and [Parkinson's UK](https://www.parkinsons.org.uk/research/patient-and-public-involvement-ppi) have formal guides in place that provide a comprehensive overview of PPI.
+PPI最重要的障碍之一是不知道如何开始。 联合王国国家卫生研究所有自己的网站， [INVOLVE](https://www.invo.org.uk/)，以帮助自己熟悉PPI的基础。 此外，与您特定研究领域有关的慈善机构也许能够促进或支持购买力平价； 例如： [癌症研究 UK](https://www.cancerresearchuk.org/funding-for-researchers/patient-involvement-toolkit-for-researchers) and [Parkinson's UK](https://www.parkinsons.org.uk/research/patient-and-public-involvement-ppi) 有正式的指南，可以全面概述PPI。

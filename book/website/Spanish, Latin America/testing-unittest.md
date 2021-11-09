@@ -1,107 +1,107 @@
 (rr-testing-unittest)=
-# Unit Testing
+# Prueba unitaria
 
-Unit tests are responsible for testing individual elements of code in an isolated and highly targeted way. The functionality of individual functions and classes are tested on their own. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. In procedural programming, a unit may be an individual program, function or procedure. In object-oriented programming the smallest unit is typically a method. It usually has one or a few inputs and usually a single output. Any external dependencies should be replaced with stub or mock implementations to focus the test completely on the code in question.
+Las pruebas unitarias son responsables de probar elementos individuales de código de una manera aislada y altamente dirigida. La funcionalidad de las funciones individuales y las clases son probadas por sí solas. El propósito es validar que cada unidad del software realiza como está diseñado. Una unidad es la parte más pequeña de prueba de cualquier software. En programación de procedimientos, una unidad puede ser un programa, función o procedimiento individual. En la programación orientada a objetos, la unidad más pequeña es típicamente un método. Normalmente tiene una o unas pocas entradas y generalmente una sola salida. Cualquier dependencia externa debe ser reemplazada con implementaciones stub o mock para enfocar la prueba completamente en el código en cuestión.
 
-Unit tests are essential to test the correctness of individual code components for internal consistency and correctness before they are placed in more complex contexts. The limited extent of the tests and the removal of dependencies makes it easier to hunt down the cause of any defects. It also is the best time to test a variety of inputs and code branches that might be difficult to hit later on. For example system tests are often time consuming to run and it will likely be impractical to have system tests for every possible path through a code that has more than a few conditional statements. Unit tests are smaller, faster, and so it is more practical to cover all possible cases with them.
+Las pruebas unitarias son esenciales para comprobar la exactitud de los componentes individuales de código para la consistencia interna y la corrección antes de que se coloquen en contextos más complejos. El alcance limitado de las pruebas y la eliminación de las dependencias facilitan la búsqueda de la causa de cualquier defecto. También es el mejor momento para probar una variedad de entradas y ramas de código que podrían ser difíciles de golpear más adelante. Por ejemplo, las pruebas del sistema suelen consumir mucho tiempo para ejecutarse y es probable que no sea práctico tener pruebas del sistema para cada ruta posible a través de un código que tiene más de unas pocas sentencias condicionales. Las pruebas unitarias son más pequeñas, más rápidas, por lo que es más práctico cubrir todos los casos posibles con ellas.
 
-Often, after any smoke tests, unit tests are the first tests that are run when any changes are made.
+A menudo, después de cualquier prueba de humo, las pruebas unitarias son las primeras pruebas que se ejecutan cuando se hacen cambios.
 
 ## Benefits of Unit Testing
 
-If a researcher makes a change to a piece of code or how it is run then how can they be sure that doing so has not broken something? They may run a few tests, but without testing every small piece of code individually how can they be certain? Unit testing gives researchers that certainty, and allows them to be confident when changing and maintaining their code.
+Si un investigador hace un cambio en una pieza de código o cómo se ejecuta entonces ¿cómo pueden estar seguros de que no ha roto algo? Pueden ejecutar algunas pruebas, pero sin probar cada pequeño código individualmente, ¿cómo pueden estar seguros? Las pruebas unitarias brindan a los investigadores esa certeza, y les permiten estar seguros a la hora de cambiar y mantener su código.
 
-Here's a little example. Say a researcher has a small function that does one simple thing (here only a single line for brevity). In this example this will be raising a number to the 5th power:
+He aquí un pequeño ejemplo. Decir que un investigador tiene una pequeña función que hace una cosa simple (aquí sólo una línea por brevedad). En este ejemplo esto aumentará un número a la quinta potencia:
 
 ```
 def take_fifth_power(x):
-  result = x * x * x * x * x
-  return result
+  resultado = x * x * x * x * x * x
+  resultado de retorno
 ```
 
-The unit test for this function could look like this:
+La prueba unitaria para esta función podría verse así:
 ```
 def test_take_fifth_power():
-  assert take_fifth_power(1.5) == 7.59375
+  afirmación take_fifth_power(1.5) == 7.59375
 ```
 
-So it checks that the correct result is outputted for a given input. If not the test will fail. The researcher carries on with their work. In the middle of it they decide to tidy up this function, multiplying the number five times like this is a bit crude. They change the `result = x * x * x * x * x` line to `result = x * 5`. Next time they run their unit tests, this test will fail, because they just made a mistake. Maybe they needed a coffee, maybe their finger slipped, maybe their coworker shot them in the ear with a nerf dart and distracted them, but when they were tidying up this function they should have written `result = x ** 5` *not* `result = x * 5`. The failed test will flag up the mistake and it can quickly be corrected. If a mistake like this went unobserved it could lead to serious errors in the researcher's work.
+Por lo tanto, comprueba que el resultado correcto se obtenga para una entrada determinada. Si no es así, la prueba fallará. El investigador continúa con su trabajo. En medio de ella deciden cansar esta función, multiplicar el número cinco veces es un poco crudo. Cambian el resultado `= x * x * x * x * x` línea a `resultado = x * 5`. La próxima vez que ejecuten sus pruebas unitarias, esta prueba fallará, porque simplemente cometieron un error. Tal vez necesitaban un café, tal vez el dedo se deslizaba, tal vez su compañero les disparó en la oreja con un dardo nervioso y los distraía, pero cuando estaban ordenando esta función deberían haber escrito `resultado = x ** 5` *no* `resultado = x * 5`. La prueba fallida marcará el error y puede corregirse rápidamente. Si un error como este no se observara, podría conducir a graves errores en el trabajo del investigador.
 
-So unit testing leads to more reliable code, but there are other benefits too. Firstly, it makes development faster by making bugs easier to find. Larger-scale tests which test large chunks of code (while still useful) have the disadvantage that if they fail it is difficult to pinpoint the source of the bug. Because unit tests by their very definition test small pieces of code, they help developers find the cause of a bug much more quickly than higher-level tests or code with no tests at all. Unit tests also make fixing bugs faster and easier because they catch bugs early while the impact is limited to small individual units. If bugs are not detected early via unit tests then it may be a long time before they are discovered, impacting later work that built on the faulty code. This means that much more code is at risk and that fixing the bug is more time consuming.
+Así que las pruebas unitarias conducen a un código más fiable, pero también hay otros beneficios. En primer lugar, hace que el desarrollo sea más rápido haciendo que los errores sean más fáciles de encontrar. Pruebas a gran escala que prueban grandes trozos de código (aunque todavía útiles) tienen la desventaja de que si fallan es difícil identificar la fuente del error. Porque las pruebas unitarias por su propia definición prueban pequeñas piezas de código, ayudan a los desarrolladores a encontrar la causa de un error mucho más rápido que pruebas de alto nivel o código sin ninguna prueba. Las pruebas unitarias también hacen que la corrección de errores sea más rápida y fácil porque captan errores con antelación, mientras que el impacto se limita a unidades individuales pequeñas. Si los errores no se detectan temprano a través de pruebas unitarias, entonces puede pasar mucho tiempo antes de que sean descubiertos, impactando el trabajo posterior que se construyó sobre el código defectuoso. Esto significa que hay mucho más código en riesgo y que la corrección del error consume más tiempo.
 
-The other major benefit of unit testing is that it strongly incentivises researchers to write modular code because modular code is far easier to write unit tests for. Modular code is code that is broken up into manageable chunks which each accomplish simple tasks. This is typically achieved by dividing the code into functions and groups of functions. In contrast a script which is just one long continuous series of lines which produces a result is highly non-modular.
+El otro gran beneficio de las pruebas unitarias es que incentivar fuertemente a los investigadores a escribir código modular porque el código modular es mucho más fácil de escribir pruebas unitarias. El código modular es el código que se divide en pedazos manejables que cada uno de ellos realiza tareas sencillas. Esto se logra dividiendo el código en funciones y grupos de funciones. En contraste, un script que es sólo una larga serie continua de líneas que produce un resultado es altamente no-modular.
 
-Modular code is much easier to reuse, too. For example, if a researcher has an individual function that does some Useful Thing and in a future project they need to do that thing again, it is trivial to copy or import the function. In contrast, if the code that does this Useful Thing is entwined with a great deal of other code in a long script it is much harder to separate it out for re-use.
+El código modular también es mucho más fácil de reutilizar. Por ejemplo, si un investigador tiene una función individual que hace algo útil y en un proyecto futuro necesitan hacer eso otra vez es trivial copiar o importar la función. En contraste, si el código que hace esto Useful Thing está entrelazado con una gran cantidad de otro código en un script largo, es mucho más difícil separarlo para reutilizarlo.
 
-## Unit Testing Tips
+## Consejos de pruebas unitarias
 
-- Many testing frameworks have tools specifically geared towards writing and running unit tests.
-- Isolate the development environment from the test environment.
-- Write test cases that are independent of each other. For example, if a unit A utilises the result supplied by another unit B, you should test unit A with a [test double](#Use_test_doubles_stubs_mocking_where_appropriate), rather than actually calling the unit B. If you don't do this your test failing may be due to a fault in either unit A *or* unit B, making the bug harder to trace.
-- Aim at covering all paths through a unit. Pay particular attention to loop conditions.
-- In addition to writing cases to verify the behaviour, write cases to ensure the performance of the code. For example, if a function that is supposed to add two numbers takes several minutes to run there is likely a problem.
-- If you find a defect in your code write a test that exposes it. Why? First, you will later be able to catch the defect if you do not fix it properly. Second, your test suite is now more comprehensive. Third, you will most probably be too lazy to write the test after you have already fixed the defect. Say a code has a simple function to classify people as either adults or children:
+- Muchos frameworks de pruebas tienen herramientas específicamente engranadas hacia la escritura y ejecución de pruebas unitarias.
+- Aislar el entorno de desarrollo del entorno de prueba.
+- Escribir casos de prueba que sean independientes unos de otros. Por ejemplo, si una unidad A utiliza el resultado proporcionado por otra unidad B, debes probar la unidad A con un [doble prueba](#Use_test_doubles_stubs_mocking_where_appropriate), en lugar de llamar a la unidad B. Si no lo haces, tu prueba fallida puede deberse a un fallo en la unidad A *o* unidad B, haciendo que el error sea más difícil de rastrear.
+- Aim a cubrir todos los caminos a través de una unidad. Preste especial atención a las condiciones del ciclo.
+- Además de escribir casos para verificar el comportamiento, escribir casos para asegurar el rendimiento del código. Por ejemplo, si una función que se supone que añade dos números toma varios minutos para ejecutarse, es probable que haya un problema.
+- Si encuentras un defecto en tu código, escribe una prueba que lo expone a él. ¿Por qué? En primer lugar, más adelante podrá atrapar el defecto si no lo arregla correctamente. En segundo lugar, su suite de pruebas es ahora más ambiciosa. Tercero, muy probablemente será demasiado perezoso para escribir la prueba después de que ya haya arreglado el defecto. Decir que un código tiene una función simple para clasificar a las personas como adultos o niños:
 
 ```
 def adult_or_child(age):
 
-  # If the age is greater or equal to 18 classify them as an adult
+  # Si la edad es mayor o igual a 18 los clasifique como un adulto
   if age >= 18:
-    person_status = 'Adult'
+    person_status = 'Adulto'
 
-  # If the person is not an adult classify them as a child
+  # Si la persona no es adulta la clasifica como un niño
   else:
     person_status = 'Child'
 
   return person_status
 ```
 
-And say this code has a unit test like this:
+Y decir que este código tiene una prueba unitaria como esta:
 
 ```
 def test_adult_or_child():
 
-  # Test that an adult is correctly classified as an adult
-  assert adult_or_child(22) == 'Adult'
+  # Prueba que un adulto está correctamente clasificado como un adulto
+  asertar adult_or_child(22) == 'Adulto'
 
-  # Test that an child is correctly classified as a child
+  # Prueba que un niño está correctamente clasificado como un hijo
   assert adult_or_child(5) == 'Child'
 
   return
 ```
 
-There's a problem with this code that isn't being tested: if a negative age is supplied it will happily classify the person as a child despite negative ages not being possible. The code should throw an error in this case.
+Hay un problema con este código que no está siendo probado: si se suministra una edad negativa, felizmente clasificará a la persona como un niño a pesar de que no es posible tener edades negativas. El código debe arrojar un error en este caso.
 
-So once the bug is fixed:
+Así que una vez que el error ha sido corregido:
 ```
 def adult_or_child(age):
 
-# Check age is valid
-if age < 0:
-  raise ValueError, 'Not possible to have a negative age'
+# Verificar que la edad es válida
+si la edad < 0:
+  elevar ValueError, 'No es posible tener una edad negativa'
 
-# If the age is greater or equal to 18 classify them as an adult
-if age >= 18:
-  person_status = 'Adult'
+# Si la edad es mayor o igual a 18 los clasifique como adulto
+si la edad >= 18:
+  person_status = 'Adulto'
 
-# If the person is not an adult classify them as a child
-else:
+# Si la persona no es un adulto los clasifica como un niño
+más:
   person_status = 'Child'
 
 return person_status
 ```
 
-Go ahead and write a test to ensure that future changes in the code can't cause it to happen again:
+Sigue adelante y escribe una prueba para asegurar que los futuros cambios en el código no puedan causar que vuelva a ocurrir:
 ```
 def test_adult_or_child():
 
-#Test that an adult is correctly classified as an adult
-assert adult_or_child(22) == 'Adult'
+#Prueba que un adulto está correctamente clasificado como un adulto
+asertar adult_or_child(22) == 'Adulto'
 
-# Test that an child is correctly classified as a child
+# Prueba que un niño está correctamente clasificado como un hijo
 assert adult_or_child(5) == 'Child'
 
-# Test that supplying an invalid age results in an error
-with pytest.raises(ValueError):
+# Prueba que suministrar una edad inválida da como resultado un error
+con pitest. aises(ValueError):
     adult_or_child(-10)
 ```

@@ -1,58 +1,58 @@
 (ch-coc-enforcement)=
-# 4 Enforcement Manual
+# 4 《执法手册》
 
-This is the enforcement manual followed by the Turing Way project research team. It's used when we respond to an issue to make sure we're consistent and fair. Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
+这是执行手册，接着是Ting Way项目研究小组。 当我们回答某个问题时，它被用来确保我们是一致和公平的。 《行为守则》的执行应得到尊重，不应包括任何骚扰行为。
 
-## 4.1 The Code of Conduct Committee
+## 4.1 行为守则委员会
 
-The Code of Conduct committee is:
+行为守则委员会是：
 
 * Kirstie Whitaker: kwhitaker@turing.ac.uk
 * Anna Krystalli: a.krystalli@sheffield.ac.uk
 * Ben Murton: bmurton@turing.ac.uk
 
-As the community grows, we will seek to build a larger committee including members outside of the core development team.
+随着社区的发展，我们将设法建立一个更大的委员会，其中包括核心发展小组以外的成员。
 
-## 4.2 Urgent Situations: Acting Unilaterally
+## 4.2 紧急局势：单方面行动
 
-If the incident involves physical danger, or involves a threat to anyone's safety (such as threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member. This can include contacting law enforcement (or other local personnel) and speaking on behalf of the Turing Way team.
+如果事件涉及人身危险，或涉及对任何人的安全的威胁(如暴力威胁)， 社区的任何成员可以而且应该单方面采取行动，保护任何社区成员的安全。 这可以包括与执法部门(或其他当地人员)联系，并代表“Ting Way”小组发言。
 
-If the act is ongoing, any community member may act immediately, before reaching consensus, to diffuse the situation. In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.
+如果该法仍在继续，社区成员可在达成共识之前立即采取行动，化解这种状况。 在目前的情况下，任何成员可酌情使用本执行手册中现有的任何工具， 包括在线禁止和封禁，或从有形空间移除。
 
-In situations where an individual community member acts unilaterally, they must inform Kirstie Whitaker as soon as possible, and report their actions for review within 24 hours.
+在某个社区成员单方面行为的情况下， 他们必须尽快通知Kirstie Whitaker，并在24小时内报告其行动以供审查。
 
-## 4.3 Less-Urgent Situations
+## 4.3 较小的紧急情况
 
-Upon receiving a report of an incident, the CoC committee will review the incident and determine, to the best of their ability:
+在收到事件报告后，联合指挥中心委员会将审查该事件，并尽最大能力确定：
 
-- whether this is an ongoing situation
-- whether there is a threat to anyone's physical safety
-- what happened
-- whether this event constitutes a Code of Conduct violation
-- who, if anyone, was the bad actor
+- 这是否是一个持续的情况
+- 是否存在对任何人人身安全的威胁
+- 发生了什么
+- 这一事件是否构成违反行为守则
+- 谁是坏行为者
 
-This information will be collected either in person or in writing. The CoC committee will provide a written summary of the information surrounding the incident. All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1". The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
+将亲自或以书面形式收集这些资料。 合作中心委员会将提供关于这一事件的资料的书面摘要。 所有与会者都将在简要报告中被误译，简称“社区成员1”、“社区成员2”或“研究小组成员1”。 “去除匿名密钥”将保留在一个单独的文件中，只能在一段时间内访问以链接对同一个人的重复报告。
 
-The CoC committee will aim to have a resolution agreed upon within one week. In the event that a resolution can't be determined in that time, a member of the CoC committee will respond to the reporter(s) with an update and projected timeline for resolution.
+合作委员会委员会的目标是在一周内商定一项决议。 如果当时无法确定某个分辨率， 该委员会的一名成员将向报告人作出答复，提供最新情况和预计的解决时间表。
 
-## 4.4 Resolutions
+## 4.4 决议
 
-The CoC committee will seek to agree on a resolution by consensus of all members investigating the report in question. If the committee cannot reach consensus and deadlocks for over a week, Dr Whitaker, as lead investigator of the Turing Way project, will break the tie. If Dr Whitaker is unable to take part in the discussion due to a conflict of interest, Dr Ben Murton, as an external member of the CoC committee, will make the decision.
+合作委员会委员会将设法以协商一致方式由调查有关报告的所有成员商定一项决议。 如果委员会在一周多的时间内无法达成协商一致和僵持不下， Whitaker博士作为Ting Way 项目的主要调查员将打破这种关系。 如果Whitaker博士因利益冲突而无法参加讨论， Ben Murton博士作为欧洲委员会委员会的外部成员将作出决定。
 
-Possible responses may include:
+可能的应对措施可包括：
 
-* A mediated conversation or agreement between the impacted community members.
-* A request for a verbal or written apology, public or private, from a community member.
-* A public announcement clarifying community responsibilities under the Code of Conduct.
-* Nothing, if the issue reported is not a violation or outside of the scope of this Code of Conduct.
-* A private in-person conversation between a member of the research team and the individual(s) involved. In this case, the person who has the conversation will provide a written summary for record keeping.
-* A private written reprimand from a member of the research team to the individual(s) involved. In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing Kirstie Whitaker for record keeping.
-* A public announcement of an incident, ideally in the same venue that the violation occurred (such as on the listserv for a listserv violation; and GitHub for a GitHub violation). The committee may choose to publish this message elsewhere for posterity.
-* An imposed "time out" from online spaces. Kirstie Whitaker will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all Turing Way project spaces (like on GitHub, online calls or in-person events). The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained. If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
+* 受影响社区成员之间的调停对话或协议。
+* 要求社区成员作出公开或私下的口头或书面道歉。
+* 《行为守则》规定的社区责任的公开声明。
+* 如果所报告的问题不是违反或不属于本《行为守则》的范围，则没有任何问题。
+* 研究小组成员与有关个人进行私下面谈。 在这种情况下，进行对话的人将提供一份书面简要记录以供保存记录。
+* 研究小组的一名成员向有关个人私下提出书面申斥。 在这种情况下，研究小组成员将通过电子邮件向个人发出谴责，将Kirstie Whitaker送交保存记录。
+* 3. 公开宣布发生违反行为最好发生在同一地点的事件(例如在邮件列表服务器上发生违反行为)； GitHub 和 GitHub for a GitHub violation)。 委员会可以选择在别处发表这一信息供子孙后代使用。
+* 从在线空间强制“超时”。 Kirstie Whitaker将把这个“超时”通知有关个人。
+* 永久或暂时禁止某些或所有正在进行的道路项目空间(如GitHub、在线通话或面对面活动)。 研究小组将保存所有这类禁令的记录，以便今后对其进行审查。 在建立或以其他方式维持《行为守则》安全小组。 如果某个社区的成员被从某个事件中撤出，他们将不会因其失去的任何部分而得到补偿。
 
-Once a resolution is agreed upon, but before it is enacted, a member of the CoC committee will contact the original reporter and any other affected parties and explain the proposed resolution. The CoC committee member will ask if this resolution is acceptable, and must note feedback for the record. However, the CoC committee is not required to act on this feedback.
+一旦商定了一项决议，但在该决议颁布之前， 该委员会的一名成员将与原始报告人和任何其他受影响方联系，并解释拟议的决议。 欧洲委员会委员会成员将询问这项决议是否可以接受，并且必须注意反馈意见以备记录在案。 然而，合作委员会不必就这一反馈采取行动。
 
-## 4.5 Conflicts of Interest
+## 4.5 利益冲突
 
-In the event of any conflict of interest such that Dr Whitaker is not able to evaluate or enforce the reported violation, Ben Murton will take Kirstie's place.
+在出现利益冲突的情况下，Whitaker博士无法评估或执行所报告的违约情事， Ben Murton将取代基尔斯蒂德。

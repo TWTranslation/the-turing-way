@@ -1,41 +1,41 @@
-(pd-code-styling-tools)=
-# Code Styling Tools
+(pd-code-estilo-herramientas)=
+# Herramientas de estilo de código
 
-As mentioned earlier, there are some automatic tools that you can use to lint your code to existing guidelines. These range from plugins for IDEs packages that 'spell-check' your style, and scripts that automatically lint for you.
+Como se ha mencionado anteriormente, hay algunas herramientas automáticas que puedes utilizar para ajustar tu código a las pautas existentes. Estos van desde plugins para paquetes IDEs que "revisen ortografía" tu estilo, y scripts que te hacen lint automáticamente.
 
 ## lintr
 
-[lintr](https://cran.r-project.org/web/packages/lintr/lintr.pdf) is an R package that spell-checks your code using a variety of style guidelines.  It can be installed from CRAN. The function `lint` takes a filename as an argument and a list of 'linters' that it should check your code against. These range from whitespace conventions to checking that curly brackets do not have their lines. The output provides a list of markers with recommendations for changing the formatting of your code line-by-line, meaning it is best used early and often in your project.
+[lintr](https://cran.r-project.org/web/packages/lintr/lintr.pdf) es un paquete R que revisa tu código usando una variedad de pautas de estilo.  Se puede instalar desde CRAN. La función `lint` toma un nombre de archivo como un argumento y una lista de 'linters' que debería verificar tu código en su lugar. Estos varían desde convenciones de espacios en blanco hasta comprobar que los corchetes de lluvia no tienen sus líneas. La salida proporciona una lista de marcadores con recomendaciones para cambiar el formato de tu código línea por línea lo que significa que es mejor usarlo temprano y a menudo en su proyecto.
 
 ```{figure} ../../figures/lintr-output.png
 ---
 height: 500px
 name: lintr_output
-alt: lintr output showing recommendations to add space, remove commented code, remove training whitespace, have character size per line less than 80 where needed in the input code.
+alt: salida de lintr mostrando recomendaciones para añadir espacio, remover código comentado, remover espacio en blanco de entrenamiento, tener tamaño de caracteres por línea inferior a 80 donde sea necesario en el código de entrada.
 ---
-An example of how the lintr output may look like for an input file with R code.
+Un ejemplo de cómo puede ser la salida de lintr para un archivo de entrada con código R.
 ```
 
-For more details, please visit the [GitHub repository](https://github.com/jimhester/lintr).
+Para más detalles, por favor visite el [repositorio GitHub](https://github.com/jimhester/lintr).
 
 ## Autopep8
 
-[Autopep8](https://pypi.org/project/autopep8/) is a Python module that can be run from the terminal and automatically formats a file to [pycodestyle](https://github.com/PyCQA/pycodestyle) (formerly called pep8) guidelines.  
-It is available on [pypy](https://pypi.org) and can be installed using pip.
+[Autopep8](https://pypi.org/project/autopep8/) es un módulo Python que puede ejecutarse desde la terminal y formatear automáticamente un archivo a las pautas [pycodestyle](https://github.com/PyCQA/pycodestyle) (antes llamado pep8).  
+Está disponible en [pypy](https://pypi.org) y puede ser instalado usando pip.
 
 ```
 # Install autopep8
 $ pip install --upgrade autopep8
 ```
 
-You can modify a file in place by running the following command:
+Puede modificar un archivo ejecutando el siguiente comando:
 
 ```
 $ autopep8 --in-place --aggressive --aggressive <filename>
 ```
 
-To some extent, the module can also be used on R scripts!
+En cierta medida, el módulo también puede ser utilizado en scripts R!
 
-## Auto formating by Black
+## Formato automático por negro
 
-[Black](https://black.readthedocs.io/en/stable/) is an auto-formating package for Python. This means that it will automatically change your code to adhere to certain guidelines, like spaces around operators and removing unnecessary whitespace. It is also consistent, so that the code that you and your collaborators work on, will look the same once black formats it. It does not change what the code does. This can reduce the time spent making the above changes to the code.
+[Black](https://black.readthedocs.io/en/stable/) es un paquete de formato automático para Python. Esto significa que automáticamente cambiará el código para que se adhiera a ciertas directrices, como espacios alrededor de los operadores y eliminando espacios en blanco innecesarios. También es consistente, de modo que el código en el que trabajas tú y tus colaboradores se verá el mismo una vez que los formatos negros. No cambia lo que hace el código. Esto puede reducir el tiempo dedicado a hacer los cambios anteriores en el código.

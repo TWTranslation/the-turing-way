@@ -1,136 +1,136 @@
-(ch-style-figures)=
-# Using figures in _The Turing Way_
+(أرقام على الطراز)=
+# استخدام الأرقام في _طريق التورينج_
 
-We encourage you to add images to _The Turing Way_ book chapters. This section of the style guide will explain how to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format to add them to the book with appropriate {ref}`alt text<ch-style-figures-alttext>` and {ref}`captions<ch-style-figures-caption>`.
+نحن نشجعك على إضافة صور إلى الفصول المكتوبة _الطريق الوشيك_ هذا القسم من دليل النمط سيشرح كيفية استخدام تنسيق [النص المميز بنية](https://myst-parser.readthedocs.io/en/latest/) (MyST) لإضافته إلى الكتاب مع النص البديل المناسب {ref}`<ch-style-figures-alttext>` و {ref}`التسميات التوضيحية<ch-style-figures-caption>`.
 
-We are very passionate about ensuring that the creators of the original image files (including you!) are {ref}`acknowledged appropriately<ch-style-figures-licence>`. Please do not use images that are not licenced for reuse.
+نحن متحمسون جدا للتأكد من أن منشئي ملفات الصور الأصلية (بما في ذلك أنت!) هم {ref}`معترف بهم بشكل مناسب<ch-style-figures-licence>`. الرجاء عدم استخدام الصور غير المرخصة لإعادة الاستخدام.
 
-In this sub-chapter we have used the term **figure** to refer to an illustration that conveys information in the context of _The Turing Way_ chapters. The term **image** is used to refer to the file object itself.
+في هذا الفصل الفرعي استخدمنا مصطلح **الشكل** للإشارة إلى مثال توضيحي ينقل المعلومات في سياق _فصول طريقة التوفير_. يستخدم مصطلح **صورة** للإشارة إلى كائن الملف نفسه.
 
-(ch-style-figures-licence)=
-## Open licence
+(بالطراز - الترخيص) =
+## رخصة مفتوحة
 
-Please ensure that you attribute the image files fairly and avoid files that are either restricted from reuse or lack reproduction permissions.
+الرجاء التأكد من أنك تسند ملفات الصور بإنصاف وتجنب الملفات المقيدة من إعادة الاستخدام أو التي تفتقر إلى أذونات الاستنساخ.
 
-The following recommendations will help you to check that you're using the images according to their licence permissions:
+سوف تساعدك التوصيات التالية على التحقق من أنك تستخدم الصور وفقاً لأذونات الترخيص الخاصة بها:
 
-* If you are using your own images, please add them to the `figures` folder. They will then be made available under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) licence as with the rest of the book.
-* Alternatively, you can source images in the public domain ([CC0 licence](https://creativecommons.org/share-your-work/public-domain/cc0)) or images licensed through appropriate Creative Commons terms. Images that are also available under CC-BY 4.0 permissions are very easily interoperable with the _The Turing Way_ as this is the same licence as the rest of the content for the book.
-* If an image (for example that you have found on the internet), is not available under an open licence please contact the original author of the image and seek permission to reproduce their image. Make sure to ask them **how they would like to be credited** in the caption for the figure.
+* إذا كنت تستخدم صورك الخاصة، يرجى إضافتها إلى مجلد `الأرقام`. ثم ستتاح بعد ذلك تحت [المشاع الإبداعي إسناد 4. ترخيص دولي (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) كما هو الحال بالنسبة لبقية الكتاب.
+* بدلاً من ذلك، يمكنك الحصول على صور في المجال العام ([رخصة CC0](https://creativecommons.org/share-your-work/public-domain/cc0)) أو صور مرخصة من خلال شروط المشاع الإبداعي المناسبة. الصور المتاحة أيضا بموجب CC-BY 4. الأذونات سهلة الاستخدام مع _طريق التوريق_ لأن هذا هو نفس الترخيص الذي هو بقية محتوى الكتاب.
+* إذا كانت الصورة (على سبيل المثال التي وجدتها على الإنترنت)، غير متاح بموجب ترخيص مفتوح، يرجى الاتصال بالمؤلف الأصلي للصورة والتماس إذن لاستنساخ صورتهم. تأكد من أن يسألهم **كيف يرغبون في أن يتم تسجيلهم** في العنوان الخاص بالرقم.
 
-In general, make sure to always cite the image properly as directed by the image owners. "Image from the internet" is not enough.
+على العموم، تأكد دائماً من الاستشهاد بالصورة بشكل صحيح كما يوجهها مالكو الصورة. "الصورة من الإنترنت" ليست كافية.
 
-(ch-style-figures-image)=
-## Image type, file name, size and location
+(صورة على الطراز)=
+## نوع الصورة، اسم الملف، الحجم والموقع
 
-Please upload `.jpg` or `.png` files that are under 1MB to allow them to load faster in the online book. If your file is larger than 1MB, please use a local image editing tools, or online tool like [IMG2GO](https://www.img2go.com/compress-image) to compress your file.
+الرجاء تحميل ملفات `.jpg` أو `.png` التي هي تحت 1 ميغابايت للسماح لها بالتحميل بشكل أسرع في الكتاب عبر الإنترنت. إذا كان ملفك أكبر من 1 ميغابايت، فيرجى استخدام أدوات تعديل الصور المحلية، أو أداة على الإنترنت مثل [IMG2GO](https://www.img2go.com/compress-image) لضغط ملفك.
 
-To name your image file, please use all-lowercase and separate words with hyphens. Every image file used in this book should be located in the file `_figure-list.md` in the directory `book/website/figures` of our [GitHub Repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website/figures). If you use a new image file, please add the file in the `figures` directory, and add details in the `_figure-list.md`.
+لتسمية ملف الصورة الخاص بك، يرجى استخدام كل الأحرف الصغيرة والكلمات المنفصلة مع الواصلات. يجب أن يكون كل ملف صورة مستخدم في هذا الكتاب في الملف `_figure-قائمة. (د)` في الدليل `كتاب/موقع/أرقام` من [مستودع GitHub](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website/figures). إذا كنت تستخدم ملف صورة جديد، يرجى إضافة الملف في دليل `الأرقام` ، وإضافة تفاصيل في `قائمة _figure-list. (د)`.
 
 (ch-style-figures-syntax)=
-## MyST syntax to add a figure to a _Turing Way_ chapter
+## بناء الجملة MyST لإضافة رقم إلى فصل _طريق التوفير_
 
-All our chapters are written in Markdown files. Therefore, using Markdown syntax to include a figure in a Markdown file will work fine, for example, `![](../../figures/file-collection.jpg)`, where the relative path of the image file is provided inside the round brackets '()'.
+كل فروعنا مكتوبة في ملفات Markdown. لذلك، فإن استخدام صيغة Markdown لإدراج رقم في ملف Markdown سيعمل بشكل جيد، على سبيل المثال، `![](../.. الأرقام/file-collection.jpg)`، حيث يتم توفير المسار النسبي لملف الصورة داخل الأقواس المستديرة '()'.
 
-**However**, this formatting does not allow images to be responsive to screen sizes, making them inaccessible to read on small screens and smartphones. Furthermore, this doesn't allow authors to resize figures in their chapters or cross reference them somewhere else in the book.
+**ومع ذلك،**هذا التنسيق لا يسمح للصور بأن تكون مستجيبة لحجم الشاشة، يجعلهم غير قادرين على القراءة على الشاشات الصغيرة والهواتف الذكية. علاوة على ذلك، هذا لا يسمح للمؤلفين بتغيير الأرقام في فصولهم أو إشارتهم إليها في مكان آخر في الكتاب.
 
-Therefore, our recommendation is to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format available in Jupyter Book.
+لذلك، توصيتنا هي استخدام تنسيق [النص المميز](https://myst-parser.readthedocs.io/en/latest/) (MyST) المتاح في كتاب المشتري.
 
-You can resize figures to adjust how they appear in our chapters using the parameters: `width` and `height` (takes value in px, for example, 400px) or `scale` (takes value in percentage, for example, 50%), especially if your original figure is large. Using the parameter: `name`, you can reference figures in other chapters in a similar manner as defined in {ref}`ch-style-crossref`.
+يمكنك تغيير حجم الأرقام لضبط كيفية ظهورها في فصولنا باستخدام المعلمات: `العرض` و `الارتفاع` (يأخذ القيمة في px، على سبيل المثال 400px) أو `مقياس` (يأخذ القيمة بالنسب المئوية على سبيل المثال 50%)، خاصة إذا كان رقمك الأصلي كبيراً. استخدام المعلمة : `اسم`, يمكنك الرجوع إلى الأرقام في فصول أخرى بطريقة مشابهة كما هو معرّف في {ref}`على نمط chle-crossref`.
 
-All the components of your figure (figures location, size and name) can be encapsulated in section within a markdown file using the following directive:
+يمكن إيجاز جميع مكونات الشكل الخاص بك (الأرقام والحجم والاسم) في قسم داخل ملف markdown باستخدام التوجيه التالي:
 
 ````
 ```{figure} ../../figures/file-collection.jpg
 ---
-height: 500px
-name: file-collection
+الطول: 500px
+الاسم: جمع الملفات
 ---
 ```
 ````
-This figure can be referred in other files using the {ref} role like:
+يمكن الإشارة إلى هذا الرقم في ملفات أخرى باستخدام دور {ref} مثل:
 
 ```
-{ref}`file-collection`
+{ref}`ملف المجموعة`
 ```
-Please note that a height of 500px works very well with _The Turing Way_ book, but this is only a suggestion.
+يرجى ملاحظة أن ارتفاع 500 بكسل يعمل بشكل جيد جدا مع _كتاب طريق التورين_ ، ولكن هذا مجرد اقتراح.
 (ch-style-figures-alttext)=
-## Alternative text
-Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. Our example figure can be explained with this sentence: *Two people happily browsing files in a drawer of documents.*
-Adding alternative text to figure is one of the first principles of web accessibility. Screen reader software can read an alt text to better explain the content of the figure to its users.
-All the components of your figure (image file location, size, name, alt text and title) can be encapsulated in section within a markdown file using the following directive:
+## نص بديل
+يستخدم نص بديل أو نص بديل لوصف مظهر ودالة صورة على صفحة HTML. يمكن تفسير رقم مثالنا بهذه الجملة: *شخصين يتصفحون الملفات بسعادة في درج المستندات*
+وإضافة نص بديل إلى الشكل هو أحد المبادئ الأولى لتيسير الوصول إلى الشبكة. برنامج قارئ الشاشة يمكنه قراءة نص بديل لشرح محتوى الرقم بشكل أفضل لمستخدميه.
+جميع مكونات الرقم الخاص بك (موقع ملف الصورة، الحجم، الاسم، النص البديل وعنوانه) يمكن إيجازه في القسم داخل ملف markdown باستخدام التوجيه التالي:
 
 ````
 ```{figure} ../../figures/file-collection.jpg
 ---
-height: 500px
-name: file-collection
-alt: Two people happily browsing files in a drawer of documents.
+الطول: 500px
+الاسم: مجموعة الملفات
+البديل: شخصين يتصفحان بسعادة في قائمة الوثائق.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 ````
-Another advantage of using alt text is when an image cannot be loaded in a browser, or the link to the image breaks, it is displayed in place of an figure like shown below:
+ميزة أخرى لاستخدام نص بديل هي عندما لا يمكن تحميل صورة في المتصفح، أو الرابط إلى استراحة الصورة، يتم عرضه بدلاً من رقم كالموضح أدناه:
 
 ```{figure} ../../figures/alt-text-demo.png
 ---
-name: alt-text-demo
-alt: Two people happily browsing files in a drawer of documents.
+الاسم: alt-text-Demo
+البديل : شخصين متصفحا الملفات بسعادة في درج المستندات.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-When all these components are used correctly, a figure included in a file will be rendered in the online book like in this page:
+عندما يتم استخدام جميع هذه المكونات بشكل صحيح، سيتم تقديم رقم مضمن في ملف في دفتر الإنترنت مثل هذه الصفحة:
 
 ```{figure} ../../figures/file-collection.jpg
 ---
-height: 500px
-name: file-collection
-alt: Two people happily browsing files in a drawer of documents.
+الطول: 500px
+الاسم: مجموعة الملفات
+بديل: شخصين متصفحين بسعادة في درج المستندات.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(ch-style-figures-caption)=
-## Caption
+(chstyle-figures-caption)=
+## شرح
 
-Captions appear below the figure. They should be short and concise and include a reference to the source where they are taken from. In particular it is important to describe the licence under which the image is re-used.
+العناوين التوضيحية تظهر تحت الشكل. وينبغي أن تكون قصيرة وموجزة وأن تتضمن إشارة إلى المصدر الذي تؤخذ منه. ومن المهم بصفة خاصة وصف الترخيص الذي يعاد بموجبه استخدام الصورة.
 
-For example, a caption might say:
+فعلى سبيل المثال، يمكن أن يقول أحد العبارات ما يلي:
 
-> Making your first pull request on GitHub. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+> تقديم طلب السحب الأول الخاص بك على GitHub. _طريق تنجيل_ المشروع التوضيحي من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 
-The syntax for this image is as follows, and the way it appears in the book is below the code snippet.
+بناء الجملة لهذه الصورة هو كما يلي، والطريقة التي تظهر بها في الكتاب هي تحت كتلة التعليمات البرمجية.
 
 ````
-```{figure} ../../figures/first-pull-request.png
+```{figure} ../../الأرقام/أول سحب الطلب. ng
 ---
-height: 400px
-name: first-pull-request
-alt: A person helping out another person making their first pull request on GitHub
+الطول: 400px
+الاسم: أول سحب للطلب
+البديل: شخص يساعد شخص آخر يقدم طلب السحب الأول على GitHub
 ---
-Making your first pull request on GitHub.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+تقديم طلب السحب الأول الخاص بك على GitHub.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 ````
 
 ```{figure} ../../figures/first-pull-request.png
 ---
-height: 400px
-name: first-pull-request
-alt: A person helping out another person making their first pull request on GitHub
+الطول: 400px
+الاسم: أول سحب للطلب
+بديل: شخص يساعد شخص آخر في تقديم طلب السحب الأول على GitHub
 ---
-Making your first pull request on GitHub.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+تقديم طلب السحب الأول على GitHub.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Please make sure that the link to the source is the {term}`digital object identifier <Digital Object Identifier>` not the Zenodo record. Also ensure that you have created a link to the source using markdown link formatting: `[text](url)`.
+الرجاء التأكد من أن الرابط إلى المصدر هو {term}`معرف الكائن الرقمي <Digital Object Identifier>` ليس سجل زينودو. تأكد أيضا من أنك قمت بإنشاء رابط إلى المصدر باستخدام تنسيق رابط markdown: `[text](url)`.
 
-(ch-style-figures-advanced)=
-## Advanced features and "gotchas"
+(متقدمة-على الطراز)=
+## ميزات متقدمة و "قبضة"
 
-For more advanced parameters, please see the [Jupyter Book Documentation](https://jupyterbook.org/content/figures.html). That page includes information on how to [scale and align](https://jupyterbook.org/content/figures.html#figure-scaling-and-aligning) the figures, and how to add the figures or their captions to the [margins](https://jupyterbook.org/content/figures.html#margin-captions-and-figures) of the book.
+لمزيد من المعلمات المتقدمة، يرجى الاطلاع على [وثائق كتاب المشتري](https://jupyterbook.org/content/figures.html). تحتوي هذه الصفحة على معلومات عن كيفية [قياس وحفظ](https://jupyterbook.org/content/figures.html#figure-scaling-and-aligning) الأرقام، وكيفية إضافة الأرقام أو تعليماتها إلى [هامش](https://jupyterbook.org/content/figures.html#margin-captions-and-figures) من الكتاب.
 
-We've noticed a couple of "gotchas" from contributors to _The Turing Way_ and we'll try to keep this section of the guide up to date for anyone else learning the MyST syntax for figures
+لقد لاحظنا بعض من "gotchas" من المساهمين في _طريق التوفير_ وسوف نحاول إبقاء هذا القسم من الدليل محدثاً لأي شخص آخر يتعلم صياغة MyST للأرقام
 
-* Both `:` and `"` have syntactic meaning for Sphinx. That means it is important that you do not use these characters in your alt text.
+* كل من `:` و `"` لديهم معنى تكتيكي لـ Sphinx. وهذا يعني أنه من المهم ألا تستخدم هذه الأحرف في النص البديل الخاص بك.

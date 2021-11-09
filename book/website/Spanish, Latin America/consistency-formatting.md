@@ -1,64 +1,64 @@
-(ch-consistency-formatting)=
-# Formatting
+(formato de la consistencia-ch)=
+# Formateando
 
-Formatting refers to how _The Turing Way_ book is written and directly affects the book's appearance and presentation.
+El formato se refiere a cómo se escribe el libro _The Turing Way_ y afecta directamente a la apariencia y presentación del libro.
 
-_The Turing Way_ is hosted online as a Jupyter Book and uses the formatting recommendations as described in their [documentation](https://jupyterbook.org/intro.html). Proper formatting ensures that _The Turing Way_ is readable, accessible, and resembles a modular piece of work.
+_La Vía Turística_ está alojada en línea como un Libro de Jupyter y utiliza las recomendaciones de formato como se describe en su [documentación](https://jupyterbook.org/intro.html). El formato adecuado asegura que _La Vía Turística_ es legible, accesible y se asemeja a una pieza de trabajo modular.
 
 
-(ch-consistency-formatting-hr)=
-## Hard Requirements
+(ch-consistencia-formato-hr)=
+## Requisitos duros
 
-The hard requirements in the consistency checklist ensure that _The Turing Way_ prioritises accessibility, collaboration, readability and ease of use. The checks that deal with the _The Turing Way's_ formatting include:
+Los duros requisitos en la lista de verificación de consistencia garantizan que _La Vía Turística_ priorice la accesibilidad, colaboración, legibilidad y facilidad de uso. Las verificaciones que se ocupan del formato de _The Turing Way_ incluyen:
 
-(ch-consistency-formatting-hr-markdown)=
-### Check 1:  Use Markdown for creating your content
+(ch-consistencia-formato-hr-markdown)=
+### Comprueba 1: Usa Markdown para crear tu contenido
 
-_The Turing Way_ should be written in [Markdown](https://en.wikipedia.org/wiki/Markdown) where possible, so that the Jupyter Book renders as intended.
+_La Vía Turística_ debería escribirse en [Markdown](https://en.wikipedia.org/wiki/Markdown) donde sea posible, para que el Libro de Jupyter se muestre como se pretende.
 
 
 #### Markdown x HTML
 
-Parts of earlier chapters in _The Turing Way_ were written in `HTML`, making some of their content hard to read.
+Partes de capítulos anteriores en _The Turing Way_ fueron escritos en `HTML`, haciendo difícil leer algunos de sus contenidos.
 
-For example, {ref}`html-to-markdown` depicts a table that was written in `HTML`.
+Por ejemplo, {ref}`html-to-markdown` muestra una tabla que fue escrita en `HTML`.
 
 ```{figure} ../../figures/html-to-markdown.png
 ---
 name: html-to-markdown
-alt: A screenshot of a poorly formatted table written in HTML. The table is squished together and does not have column or row borders. This makes it hard for a reader to decipher its meaning.
+alt: Una captura de pantalla de una tabla mal formateada escrita en HTML. La tabla se quita juntos y no tiene bordes de columnas o registros. Esto hace difícil para un lector descifrar su significado.
 ---
-Content written in HTML may not render properly.
+Es posible que el contenido escrito en HTML no se muestre correctamente.
 ```
 
-When reformatted to Markdown, the table became cleaner and easier to read:
+Cuando se reformatea Markdown, la tabla se volvió más limpia y más fácil de leer:
 
 ```{figure} ../../figures/html-to-markdown2.png
 ---
 name: html-to-markdown2
-alt: A screenshot of a table converted to Markdown from HTML. The table becomes easier to read and understand when converted to Markdown.
+alt: Una captura de pantalla de una tabla convertida a Markdown desde HTML. La tabla se vuelve más fácil de leer y entender cuando se convierte en Markdown.
 ---
-Converting HTML to Markdown makes The Turing Way book easier to read.
+Convertir HTML a Markdown hace que el libro Turing Way sea más fácil de leer.
 ```
-```{note} A PR that addresses this check can be found [here](https://github.com/alan-turing-institute/the-turing-way/pull/1460).
+```{note} Un PR que se dirige a esta comprobación se puede encontrar [aquí](https://github.com/alan-turing-institute/the-turing-way/pull/1460).
 ```
 
-Chapter content written in `HTML` are usually enclosed in tags which begin and end with angle brackets `<>`.
-[W3Schools](https://www.w3schools.com/html/html_elements.asp) is an excellent resource for understanding what these tags mean, and Markdown reference guides, such as [this cheatsheet](https://www.markdownguide.org/cheat-sheet/), can help translate `HTML` formatting to Markdown.
-There are also helpful tools on the web, such as [Turndown](https://domchristie.github.io/turndown/) and [CloudConvert](https://cloudconvert.com/html-to-md), that convert `HTML` to Markdown with a single click.
+El contenido del capítulo escrito en `HTML` normalmente está encerrado en etiquetas que comienzan y terminan con corchetes de ángulo `<>`.
+[W3Schools](https://www.w3schools.com/html/html_elements.asp) es un recurso excelente para entender lo que significan estas etiquetas, y guías de referencia de Markdown, como [esta hoja de trampa](https://www. arkdownguide.org/cheat-sheet/), puede ayudar a traducir el formato `HTML` a Markdown.
+También hay herramientas útiles en la web, como [Turndown](https://domchristie.github.io/turndown/) y [CloudConvert](https://cloudconvert.com/html-to-md), que convierten `HTML` a Markdown con un solo clic.
 
-Please note that if `HTML` is the only option for you to format your text the way you desire, you can use it only if the content in the online book can still be read and understood (use the Netlify preview in your PR to test).
-For example, [superscripts and subscripts](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet#toc-superscript-and-subscript) can be written in `HTML` because they always appear as intended.
-In addition, content like YouTube videos and tables with headers that span multiple columns or rows can be written in `HTML`.
+Ten en cuenta que si `HTML` es la única opción para formatear tu texto de la manera que deseas, sólo puede utilizarlo si el contenido del libro en línea todavía puede ser leído y entendido (utilice la vista previa de Netlify en sus relaciones públicas para probar).
+Por ejemplo, [superíndices y suscriptos](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet#toc-superscript-and-subscript) puede ser escrito en `HTML` porque siempre aparecen como se pretende.
+Además, el contenido como los vídeos de YouTube y las tablas con los encabezados que abarcan múltiples columnas o filas se pueden escribir en `HTML`.
 
 
 ```{attention} A Note About Styling
-:class: tip
+:class: propina
 
-_The Turing Way_ has a [book-wide stylesheet](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) that controls the look of content written in `HTML`.
-If you include `HTML` in your contribution, ensure that your formatting includes the relevant classes and IDs from the stylesheet.
+_The Turing Way_ tiene una [hoja de estilo de libro](https://github. om/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) que controla el aspecto del contenido escrito en `HTML`.
+Si incluyes `HTML` en tu contribución, asegúrate de que tu formato incluya las clases e IDs relevantes de la hoja de estilos.
 
-For example, if you want to add a YouTube video to your content using the `<iframe>` tag, wrap the `<iframe>` in a `<div>` tag, and give the `div` a `video-container` class as shown below.
+Por ejemplo, si quieres añadir un vídeo de YouTube a tu contenido usando la etiqueta `<iframe>`, envuelve el `<iframe>` en una etiqueta `<div>`, y da al `div` una clase `video-contenedor` como se muestra a continuación.
 
 <div class="video-container">
     <iframe>....</iframe>
@@ -66,7 +66,7 @@ For example, if you want to add a YouTube video to your content using the `<ifra
 
 ```
 
-This is also described in the {ref}`Style Guide<ch-style-custom-styling-videos>`.
+Esto también se describe en la {ref}`Guía de Estilo<ch-style-custom-styling-videos>`.
 
 #### Demo
 
@@ -74,35 +74,35 @@ This is also described in the {ref}`Style Guide<ch-style-custom-styling-videos>`
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tv0HlVgxDdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### Writing Checklists
+#### Listas de verificación de escritura
 
-When writing a new chapter for _The Turing Way_, you might include a Checklist subchapter that itemises key action points you want readers to take based on the chapter content. For earlier chapters in _The Turing Way_, this subchapter is written in Markdown as a Task List with checkboxes:
-
-```
-# Checklist
-- [ ] Item One
-- [ ] Item Two
-- [ ] Item Three
+Al escribir un nuevo capítulo para _The Turing Way_, puede incluir un subcapítulo de lista de verificación que itemes los puntos de acción clave que desea que los lectores tomen basándose en el contenido del capítulo. Para capítulos anteriores en _The Turing Way_, este subcapítulo está escrito en Markdown como una lista de tareas con casillas de verificación:
 
 ```
+# Lista de control
+- [ ] Artículo Uno
+- [ ] Artículo Dos
+- [ ] Artículo Tres
 
-However, the checkboxes do not display as intended in the online version of the book, for example:
+```
+
+Sin embargo, las casillas de verificación no se muestran como se pretende en la versión en línea del libro, por ejemplo:
 
 ```{figure} ../../figures/checklist-formatting.png
 ---
 name: checklist-formatting
-alt: When the Checklist subchapter of any chapter is written in Markdown as a Task List with checkboxes, square brackets are displayed rather than checkboxes in the web version of the book.
+alt: Cuando el subcapítulo de lista de control de cualquier capítulo está escrito en Markdown como una lista de tareas con casillas de verificación, los corchetes cuadrados se muestran en lugar de las casillas de verificación en la versión web del libro.
 ---
-Checkboxes are displayed as square brackets in the web version of the book.
+Las casillas de verificación se muestran como corchetes en la versión web del libro.
 ```
 
-Thus, we recommend that you format your Checklist subchapters as unordered lists in your future contributions, and edit earlier chapters that follow the other convention:
+Por lo tanto, recomendamos que formatee sus subcapítulos de listas de verificación como listas desordenadas en sus futuras contribuciones, y edite los capítulos anteriores que siguen la otra convención:
 
 ```
-# Checklist
-- Item One
-- Item Two
-- Item Three
+# Lista de control
+- Artículo Uno
+- Artículo Dos
+- Artículo Tres
 
 ```
 #### Demo
@@ -111,23 +111,23 @@ Thus, we recommend that you format your Checklist subchapters as unordered lists
     <iframe width="560" height="315" src="https://www.youtube.com/embed/oe2Up1pU5DY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-hr-headers)=
-### Check 2: Use headers in sequential order.
+(ch-consistencia-formato-hr-headers)=
+### Comprobar 2: Usar cabeceras en orden secuencial.
 
-Non-consecutive headers refer to an increase in header levels of more than one. For example:
-
-```
-# Heading
-### Another Heading
-```
-Such an increase of two header levels results in warnings when building _The Turing Way_ locally. Ideally, all Markdown files should start with a level 1 heading and increase sequentially as appropriate:
+Las cabeceras no consecutivas se refieren a un aumento de los niveles de cabecera de más de uno. Por ejemplo:
 
 ```
-# Heading
-## Another Heading
+# Encabezado
+### Otro rumbo
+```
+Tal aumento de dos niveles de encabezados provoca advertencias cuando se construye _la Vía Turística_ localmente. Idealmente, todos los archivos de Markdown deben comenzar con un encabezamiento de nivel 1 y aumentar secuencialmente según sea apropiado:
+
+```
+# Encabezado
+## Otro rumbo
 ```
 
-Several files in _The Turing Way_ book do not follow this convention. A list of such files can be found in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1321), and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) is a great example of how to fix a file with non-consecutive headers.
+Varios archivos en el libro _The Turing Way_ no siguen esta convención. Se puede encontrar una lista de estos archivos en [este problema](https://github.com/alan-turing-institute/the-turing-way/issues/1321), y [este PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) es un gran ejemplo de cómo reparar un archivo con cabeceras no consecutivas.
 
 #### Demo
 
@@ -135,12 +135,12 @@ Several files in _The Turing Way_ book do not follow this convention. A list of 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qq9QCrykdbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-hr-labels)=
-### Check 3: Add labels to chapters, subchapters, sections, and images to enable cross-referencing.
+(ch-consistencia-formato-hr-etiquetas)=
+### Revisar 3: Añadir etiquetas a capítulos, subcapítulos, secciones e imágenes para habilitar referencias cruzadas.
 
-Often, a chapter might refer to content from another chapter to explain concepts or expand on points. Cross-referencing facilitates this by ensuring that the referred content is easy to find with a simple click. This helps make _The Turing Way_ more navigable and accessible.
+A menudo, un capítulo puede referirse al contenido de otro capítulo para explicar los conceptos o expandir los puntos. La referencia cruzada facilita esto asegurando que el contenido referido sea fácil de encontrar con un simple clic. Esto ayuda a hacer _La Vía Turística_ más navegable y accesible.
 
-{ref}`Cross-referencing <ch-style-crossref>` is discussed in detail in the {ref}`ch-style`. The subchapter explains what labels are, provides a naming convention for labels in _The Turing Way_, and gives several useful examples for how cross-referencing should be done.
+{ref}`Cross-referencing <ch-style-crossref>` es discutido en detalle en el {ref}`ch-style`. El subcapítulo explica qué etiquetas son, proporciona una convención de nombres para etiquetas en _The Turing Way_, y da varios ejemplos útiles de cómo hacer referencias cruzadas.
 
 #### Demo
 
@@ -148,22 +148,22 @@ Often, a chapter might refer to content from another chapter to explain concepts
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ikcjxjklLVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-hr-images)=
-### Check 4: Use `MyST` for image formatting
+(ch-consistencia-formato-hr-imágenes)=
+### Compruebe 4: Use `MyST` para el formato de imagen
 
-Some figures and images in _The Turing Way_ are embedded using Markdown syntax. While this works, it does not allow the images to adapt to the screen size of the device the book is read from.
+Algunas figuras e imágenes en _The Turing Way_ están incrustadas usando la sintaxis Markdown. Mientras esto funciona, no permite que las imágenes se adapten al tamaño de pantalla del dispositivo desde el que se lee el libro.
 
-Markedly Structured Text (`MyST`) is a flavour of Markdown that addresses this and enables responsive images in the _The Turing Way_.
+Texto estructurado marcadamente (`MyST`) es un sabor de Markdown que resuelve esto y permite imágenes receptivas en _The Turing Way_.
 
-It also allows the use of captions and alternative text (ALT text), which are the invisible image descriptions that are read aloud to readers of the _The Turing Way_ who use a screen reader. If no ALT text is provided with an image, these users will be unable to understand the purpose of the image.
+También permite el uso de subtítulos y texto alternativo (ALT text), que son las descripciones de imágenes invisibles que se leen en voz alta a los lectores de _The Turing Way_ que utilizan un lector de pantalla. Si no se proporciona ningún texto ALT con una imagen, estos usuarios no podrán entender el propósito de la imagen.
 
-When writing ALT text, remember to:
-- **Be descriptive** - Adequately describe the image using its content and context for guidance. In doing so, there is no need to "announce" an image in your description (for example, using "illustration of" or "picture of") since screen readers will already do this.
-- **Keep it as short as possible** - Although a long description may be necessary for some images, it is better to keep them as short as possible. This ensures that the descriptions are easy to understand.
+Cuando escriba texto ALT, recuerde a:
+- **Ser descriptivo** - describir adecuadamente la imagen usando su contenido y contexto para la guía. Al hacerlo, no hay necesidad de "anunciar" una imagen en su descripción (por ejemplo, usando "ilustración de" o "imagen de") ya que los lectores de pantalla ya harán esto.
+- **Manténgalo lo más corto posible** - Aunque una descripción larga puede ser necesaria para algunas imágenes, es mejor mantenerlos lo más cortos posible. Esto asegura que las descripciones sean fáciles de entender.
 
-Please note that images included in _The Turing Way_ book should be less than 1MB. This allows the book load faster, especially for readers who may have slow internet connections.
+Ten en cuenta que las imágenes incluidas en _El libro de la Vía Turística_ deben ser inferiores a 1 MB. Esto permite la carga del libro más rápida, especialmente para lectores que pueden tener conexiones lentas a Internet.
 
-Please refer to the {ref}`style guide <ch-style-figures>` for examples on formatting images using `MyST` and adding ALT text to them. When including images in your contributions, it may be better to avoid the height parameter as the wrong value could make your image appear distorted on mobile devices. You should always check how your image looks in the Netlify preview of the book when you make a PR.
+Por favor, consulte la {ref}`guía de estilo <ch-style-figures>` para ver ejemplos sobre el formato de imágenes usando `MyST` y agregándoles texto ALT. Al incluir imágenes en tus contribuciones, puede ser mejor evitar el parámetro de altura ya que el valor incorrecto podría hacer que su imagen parezca distorsionada en dispositivos móviles. Siempre debería comprobar cómo se ve su imagen en la vista previa de Netlify del libro cuando haga un PR.
 
 #### Demo
 
@@ -171,31 +171,31 @@ Please refer to the {ref}`style guide <ch-style-figures>` for examples on format
     <iframe width="560" height="315" src="https://www.youtube.com/embed/upBiKLR_A5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-sr)=
-## Soft Requirements
+(ch-consistencia-formato-sr)=
+## Requisitos suaves
 
-Soft requirements help improve the overall look and feel of _The Turing Way_. When effected, these checks may go unnoticed, but they also contribute to making _The Turing Way_ a polished piece of work. Soft requirements that deal with _The Turing Way's_ formatting include:
+Los requisitos blandos ayudan a mejorar la apariencia general de _The Turing Way_. Cuando se realiza, estas comprobaciones pueden pasar desapercibidas, pero también contribuyen a hacer de _The Turing Way_ un trabajo pulido. Los requisitos blandos que se ocupan de _el formato de la Vía Turística_ incluyen:
 
-(ch-consistency-formatting-sr-one)=
-### Check 1: Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`
+(ch-consistencia-formato-sr-one)=
+### Verifica 1: Asegúrate de que los nombres de los capítulos/subcapítulos son cortos y mapea exactamente cómo están titulados en el `_toc.yml`
 
-Some chapters and subchapters in _The Turing Way_ do not match their corresponding references in the book-wide table of contents that appears on the left of the webpage. This may be confusing for users, especially when the chapter/subchapter's reference in the table of contents significantly varies from the chapter/subchapter's name.
+Algunos capítulos y subcapítulos en _The Turing Way_ no coinciden con sus referencias correspondientes en la tabla de contenidos que aparece a la izquierda de la página web. Esto puede ser confuso para los usuarios, especialmente cuando la referencia del capítulo o subcapítulo en la tabla de contenidos varía significativamente del nombre del capítulo/subcapítulo.
 
 ```{figure} ../../figures/mismatched-title-toc.png
 ---
-name: mismatched-title-toc
-alt: A subchapter whose title differs from its reference in the table of contents. The title of the subchapter is 'Using Spreadsheets for Research Data', however in the table of contents, it is referred as 'Data Organisation in Spreadsheets'.
+name: misched-title-toc
+alt: Un subcapítulo cuyo título difiere de su referencia en la tabla de contenidos. El título del subcapítulo es "Utilizar hojas de cálculo para los datos de investigación", sin embargo en la tabla de contenidos, se denomina "Organización de datos en hojas de cálculo".
 ---
-The title of this subchapter is 'Using Spreadsheets for Research Data', however the table of content refers to the same file as 'Data Organisation in Spreadsheets'.
+El título de este subcapítulo es 'Usar hojas de cálculo para los datos de investigación', Sin embargo, la tabla de contenido se refiere al mismo archivo que "Organización de datos en hojas de cálculo".
 ```
 
-In ensuring that _The Turing Way's_ content passes this check, one recommendation to follow is to keep the titles short. When writing a new chapter, ensure that its title is short and has the same name in the table of contents. Similarly, when reviewing existing chapters, if its title and reference in the table of contents differ, make the shorter of the two the chapter's title, and update the `_toc.yml` if necessary.
+Para asegurarse de que el contenido de _The Turing Way_ pase esta verificación, una recomendación a seguir es mantener los títulos cortos. Cuando escriba un nuevo capítulo, asegúrese de que su título es corto y tiene el mismo nombre en la tabla de contenidos. Del mismo modo, al revisar los capítulos existentes, si su título y referencia en la tabla de contenidos difieren, hace más corto el título de los dos capítulos y actualiza el `_toc. ml` si es necesario.
 
 ```{note}
-The `_toc.yml` is the file where the book-wide table of contents for _The Turing Way_ lives.
+El archivo `_toc.yml` es el archivo donde vive la tabla de contenidos de todo el libro para _The Turing Way_ .
 ```
 
-Nonetheless, remember that the final title should adequately tell readers what to expect from a chapter or subchapter.
+No obstante, recuerde que el título final debe decirle adecuadamente a los lectores qué esperar de un capítulo o subcapítulo.
 
 #### Demo
 
@@ -203,21 +203,21 @@ Nonetheless, remember that the final title should adequately tell readers what t
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HxcdqKJbCE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-formatting-sr-two)=
-### Check 2: Ensure proper title-casing for headers
+(ch-consistencia-formato-sr-dos)=
+### Verificar 2: Asegurar que los encabezados tengan el título adecuado
 
-The titles of some chapters in _The Turing Way_ do not use title-casing. [Title-casing](https://en.wikipedia.org/wiki/Title_case) is a capitalisation style used to format the titles and headings of published works. Being a citeable reference for individuals seeking to carry out reproducible data science, titles and headings in _The Turing Way_ should be title-cased.
+Los títulos de algunos capítulos en _The Turing Way_ no usan la carátula de título. [Título-casing](https://en.wikipedia.org/wiki/Title_case) es un estilo de mayúsculas utilizado para formatear los títulos y los encabezados de las obras publicadas. Ser una referencia citable para individuos que buscan llevar a cabo ciencias de datos, títulos y títulos reproducibles en _La Vía Turística_ debería ser titulada.
 
-Although _The Turing Way_ does not follow a specific title capitalisation style, some general, non-exhaustive rules to consider include:
-- Capitalise principal or important words
-- Lowercase articles, conjunctions, and prepositions (unless when these are stressed)
-- Capitalise the first and last words
+Aunque _La Vía Turística_ no sigue un estilo específico de capitalización de títulos, algunas reglas generales y no exhaustivas a considerar incluir:
+- Capitalizar palabras principales o importantes
+- Artículos, conjunciones y preposiciones en minúsculas (a menos que cuando estos estén estresados)
+- Capitalizar las primeras y las últimas palabras
 
-There are helpful tools, such as [CapitalizeMyTitle](https://capitalizemytitle.com/) and [Title Case Converter](https://titlecaseconverter.com/), that can be used to title-case headers when writing your content. Furthermore, headers in _The Turing Way_ can be run through these tools to ensure they follow title-casing conventions. They can then be replaced within chapters and in the `_toc.yml` as appropriate.
+Hay herramientas útiles, como [CapitalizeMyTitle](https://capitalizemytitle.com/) y [Title Cascase Converter](https://titlecaseconverter.com/), que pueden ser usados para títulos de cabeceras de caso al escribir su contenido. Además, los encabezados en _The Turing Way_ pueden ser ejecutados a través de estas herramientas para asegurarse de que siguen convenciones de la caja de títulos. Entonces pueden ser reemplazados dentro de los capítulos y en el `_toc.yml` según corresponda.
 
-For example, In {ref}`mismatched-title-toc` above, **Using spreadsheets for research data** should be title-cased to **Using Spreadsheets for Research Data**.
+Por ejemplo, en {ref}`no coincide con el title-toc` anterior, **El uso de hojas de cálculo para datos de investigación** debe tener un título para **Usar hojas de cálculo para datos de investigación**.
 
-Certain headers may not need to be title-cased depending on the context in which they are used. For example, because some of the headers in this chapter make up a checklist - they do not need to be title-cased.
+Algunas cabeceras pueden no necesitar una carcasa de título dependiendo del contexto en el que se usen. Por ejemplo, debido a que algunos de los encabezados de este capítulo componen una lista de comprobación - no necesitan ser casados con títulos.
 
 #### Demo
 

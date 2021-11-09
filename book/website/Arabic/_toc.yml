@@ -6,836 +6,836 @@
 #Below are some special values that trigger specific behavior:
 #- header: My Header  # Will insert a header with no link in the sidebar
 #===== Main Landing Page ========================================
-format: jb-book
-root: welcome
+format: دفتر
+root: مرحبا
 parts:
   - 
     chapters:
       - 
         #===== Guide for Reproducible Research ========================================
-        file: reproducible-research/reproducible-research
+        file: البحوث الاستباقية/البحوث الاستباقية
         sections:
           - 
-            title: Overview
-            file: reproducible-research/overview
+            title: نظرة عامة
+            file: أبحاث/نظرة عامة
             sections:
               - 
-                title: Definitions
-                file: reproducible-research/overview/overview-definitions
+                title: التعاريف
+                file: تعاريف البحث والاستعراض العام/الاستعراض العام
               - 
-                title: Added Advantages
-                file: reproducible-research/overview/overview-benefit
+                title: الميزات المضافة
+                file: استحقاق البحث/نظرة عامة/نظرة عامة-فائدة
               - 
-                title: Barriers
-                file: reproducible-research/overview/overview-barriers
+                title: الحواجز
+                file: حواجز البحث والاستعراض والاستعراض العام
               - 
-                title: Resources
-                file: reproducible-research/overview/overview-resources
+                title: الموارد
+                file: موارد البحث والاستعراض العام/الاستعراض العام
           - 
-            title: Open Research
-            file: reproducible-research/open
+            title: بحث مفتوح
+            file: أبحاث/مفتوحة
             sections:
               - 
-                title: Open Data
-                file: reproducible-research/open/open-data
+                title: فتح البيانات
+                file: بحث مفتوح/بيانات مفتوحة
               - 
-                title: Open Source Software
-                file: reproducible-research/open/open-source
+                title: برنامج مفتوح المصدر
+                file: أبحاث/مفتوح/مفتوح المصدر
               - 
-                title: Open Hardware
-                file: reproducible-research/open/open-hardware
+                title: فتح الجهاز
+                file: أبحاث/مفتوح/أجهزة مفتوحة
               - 
-                title: Open Access
-                file: reproducible-research/open/open-access
+                title: فتح الوصول
+                file: بحث مفتوح/فتح الوصول
               - 
-                title: Open Notebooks
-                file: reproducible-research/open/open-notebooks
+                title: فتح ملاحظات
+                file: دفتر تمهيدي/بحث/مفتوح/مفتوح
               - 
-                title: Open Scholarship
-                file: reproducible-research/open/open-scholarship
+                title: منحة مفتوحة
+                file: بحث/بحث مفتوح/منحة مفتوحة
               - 
                 title: Checklist
-                file: reproducible-research/open/open-checklist
+                file: قائمة تمهيدية/بحث/مفتوحة/مفتوحة
               - 
-                title: Resources
-                file: reproducible-research/open/open-resources
+                title: الموارد
+                file: بحث مفتوح/موارد مفتوحة
           - 
-            title: Version Control
-            file: reproducible-research/vcs
+            title: التحكم في الإصدار
+            file: بحث تجريبي/vcs
             sections:
               - 
-                title: General Workflow
-                file: reproducible-research/vcs/vcs-workflow
+                title: سير العمل العام
+                file: إعادة البحث/vcs/vcs-workflow
               - 
-                title: Getting Started with Git
-                file: reproducible-research/vcs/vcs-git
+                title: البدء مع Git
+                file: البحث الاستنساخ/vcs/vcs-git
               - 
-                title: Git Commit Command
-                file: reproducible-research/vcs/vcs-git-commit
+                title: أمر التزام Git
+                file: إعادة البحث/vcs/vcs-git-commitment
               - 
-                title: Retrieving and Comparing Versions
-                file: reproducible-research/vcs/vcs-git-compare
+                title: استرجاع ومقارنة الإصدارات
+                file: إعادة البحث/vcs/vcs-git-compare
               - 
-                title: Git Branches
-                file: reproducible-research/vcs/vcs-git-branches
+                title: فروع Git
+                file: أبحاث/vcs/vcs-git-branches
               - 
-                title: Merging Branches in Git
-                file: reproducible-research/vcs/vcs-git-merge
+                title: دمج الفروع في Git
+                file: إعادة البحث/vcs/vcs-git-دمج
               - 
-                title: Interactive, Visual Git
-                file: reproducible-research/vcs/vcs-git-interactive
+                title: تفاعلية، مرئية Git
+                file: ريدوسي-بحوث/vcs/vcs-git-تفاعلية
               - 
-                title: Git Commands to Work on GitHub
-                file: reproducible-research/vcs/vcs-github
+                title: أوامر Git للعمل على GitHub
+                file: إعادة البحث/vcs/vcs-github
               - 
-                title: Summary Table of Git Commands
-                file: reproducible-research/vcs/vcs-git-summary
+                title: جدول موجز لأوامر Git
+                file: ملخّص الاستنساخ البحثي/vcs/vcs-git-Summary
               - 
-                title: Version Control for Data
-                file: reproducible-research/vcs/vcs-data
+                title: التحكم في الإصدار للبيانات
+                file: بيانات الاستنساخ البحثي/vcs/vcs-data
               - 
-                title: Personal Stories
-                file: reproducible-research/vcs/vcs-personal-stories
+                title: قصص شخصية
+                file: قصص الاستنساخ البحثي/vcs/vcs-شخصية.
               - 
                 title: Checklist
-                file: reproducible-research/vcs/vcs-checklist
+                file: قائمة الاستنساخ البحثي/vcs/vcs-checklist
               - 
-                title: Resources
-                file: reproducible-research/vcs/vcs-resources
+                title: الموارد
+                file: موارد البحث المبدئي/vcs/vcs-Resources
           - 
-            title: Licensing
-            file: reproducible-research/licensing
+            title: الترخيص
+            file: البحث والتراخيص
             sections:
               - 
-                title: Software Licenses
-                file: reproducible-research/licensing/licensing-software
+                title: تراخيص البرمجيات
+                file: برمجيات الاستنساخ والبحث/الترخيص/الترخيص
               - 
-                title: License Compatibililty
-                file: reproducible-research/licensing/licensing-compatibility
+                title: توافق التراخيص
+                file: إجراء البحث/الترخيص/الترخيص - التوافق
               - 
-                title: Data Licenses
-                file: reproducible-research/licensing/licensing-data
+                title: رخص البيانات
+                file: بيانات البحث أو الترخيص/الترخيص
               - 
                 title: Checklist
-                file: reproducible-research/licensing/licensing-checklist
+                file: قائمة البحث أو الترخيص/الترخيص
           - 
-            title: Research Data Management
-            file: reproducible-research/rdm
+            title: إدارة بيانات البحث
+            file: أبحاث/rdm
             sections:
               - 
-                title: Research Data
-                file: reproducible-research/rdm/rdm-data
+                title: بيانات البحث
+                file: بيانات الاستنساخ البحثي/rdm/rdm-rdm-data
               - 
-                title: Data Management Plan
-                file: reproducible-research/rdm/rdm-dmp
+                title: خطة إدارة البيانات
+                file: بحث تجريبي/rdm/rdm-dmp
               - 
-                title: The FAIR Principles and Practices
-                file: reproducible-research/rdm/rdm-fair
+                title: ألف - مبادئ وممارسات الاتحاد
+                file: البحث المبدئي/rdm/rdm-fair
               - 
-                title: Personal data management
-                file: reproducible-research/rdm/rdm-personal
+                title: إدارة البيانات الشخصية
+                file: بحث تجريبي/rdm/rdm-شخصي
               - 
-                title: Data Storage and Organisation
-                file: reproducible-research/rdm/rdm-storage
+                title: تخزين البيانات وتنظيمها
+                file: التخزين الاستبدالي/البحث/rdm/rdm-storage
               - 
-                title: Data Organisation in Spreadsheets
-                file: reproducible-research/rdm/rdm-spreadsheets
+                title: تنظيم البيانات في جداول البيانات
+                file: جداول بيانات البحث الأولي
               - 
-                title: Documentation and Metadata
-                file: reproducible-research/rdm/rdm-metadata
+                title: الوثائق والبيانات الوصفية
+                file: البيانات الوصفية للأبحاث/rdm/rdm-rdm-rtadata
               - 
-                title: Sharing and Archiving Data
-                file: reproducible-research/rdm/rdm-sharing
+                title: مشاركة وأرشيف البيانات
+                file: بحث تجريبي/rdm/rdmshare
               - 
-                title: Research Data Management Toolkits
-                file: reproducible-research/rdm/rdm-toolkits
+                title: مجموعات أدوات إدارة بيانات البحث
+                file: مجموعات أدوات البحث المبدئي/rdm/rdm-rdm-toolts
               - 
-                title: Personal Impact Stories
-                file: reproducible-research/rdm/rdm-stories
+                title: قصص التأثير الشخصي
+                file: قصص البحث التجريبي/rdm/rdm-قصص
               - 
                 title: Checklist
-                file: reproducible-research/rdm/rdm-checklist
+                file: قائمة البحث / rdm/rdm-checklist
               - 
-                title: Resources
-                file: reproducible-research/rdm/rdm-resources
+                title: الموارد
+                file: موارد البحث / rdm/rdm-rdm-rdm-موارد
           - 
-            title: Reproducible Environments
-            file: reproducible-research/renv
+            title: بيئات قابلة للتكرار.
+            file: أبحاث/رينف
             sections:
               - 
-                title: Capturing Computational Environments
-                file: reproducible-research/renv/renv-options
+                title: التقاط البيئات الحسابية
+                file: خيارات إعادة البحث/renv/renv-options
               - 
-                title: Package Management Systems
-                file: reproducible-research/renv/renv-package
+                title: نظم إدارة الحزم
+                file: حزمة إعادة البحث/renv/renv-package
               - 
-                title: YAML
-                file: reproducible-research/renv/renv-yaml
+                title: ياميل
+                file: أبحاث/renv/renv-yaml
               - 
-                title: Binder
-                file: reproducible-research/renv/renv-binder
+                title: عشق
+                file: بحث تجريبي/renv/renv-binder
               - 
-                title: Virtual Machines
-                file: reproducible-research/renv/renv-virtualmachine
+                title: الآلات الظاهرية
+                file: استنساخ البحث/renv/renv-virtualmachine
               - 
-                title: Containers
-                file: reproducible-research/renv/renv-containers
+                title: الحاويات
+                file: حاويات تجريبية
               - 
-                title: Resources and Checklist
-                file: reproducible-research/renv/renv-resources
+                title: الموارد وقائمة المراجعة
+                file: موارد البحث / renv/renv-resources
           - 
-            title: BinderHub
-            file: reproducible-research/binderhub
+            title: بيندرهوب
+            file: البحوث/البندقية
             sections:
               - 
-                title: Introduction to BinderHub
-                file: reproducible-research/binderhub/binderhub-introduction
+                title: مقدمة إلى BinderHub
+                file: أبحاث/حاجزة/مقدمة ثنائية
               - 
-                title: Compute Resources
-                file: reproducible-research/binderhub/binderhub-compute
+                title: الموارد الحاسوبية
+                file: أبحاث/Binderhub/binderhub-compute
               - 
-                title: Build Your Own BinderHub
-                file: reproducible-research/binderhub/binderhub-build
+                title: بناء BinderHub الخاص بك
+                file: أبحاث/حافزات مزدوجة
               - 
-                title: Resources for BinderHub
-                file: reproducible-research/binderhub/binderhub-resources
+                title: موارد BinderHub
+                file: موارد البحث/التجزؤ/التجزؤ
           - 
-            title: Code quality
-            file: reproducible-research/code-quality
+            title: جودة الرمز
+            file: جودة الترميز للبحث/البحث
             sections:
               - 
-                title: Code Style and Formatting
-                file: reproducible-research/code-quality/code-quality-style
+                title: نمط التعليمات البرمجية وتنسيقها
+                file: نسخة تجريبية/بحث/جودة رموز/نوعية الرمز
               - 
-                title: Checklist and Resources
-                file: reproducible-research/code-quality/code-quality-resources
+                title: قائمة المراجعة والموارد
+                file: موارد إعادة البحث/جودة الشفرة/جودة الشفرة
           - 
-            title: Code Testing
-            file: reproducible-research/testing
+            title: اختبار التعليمات البرمجية
+            file: أبحاث/اختبار تجريبي
             sections:
               - 
-                title: General Guidance for Testing
-                file: reproducible-research/testing/testing-guidance
+                title: إرشادات عامة للاختبار
+                file: إرشادات البحث/الاختبار/الاختبار
               - 
-                title: Overview of Testing Types
-                file: reproducible-research/testing/testing-overview
+                title: لمحة عامة عن أنواع الاختبار
+                file: نظرة عامة للبحث والاختبار/الاختبار
               - 
-                title: Smoke Testing
-                file: reproducible-research/testing/testing-smoketest
+                title: اختبار الدخان
+                file: دخان البحث/الاختبار/الاختبارات
               - 
-                title: Unit Testing
-                file: reproducible-research/testing/testing-unittest
+                title: اختبار الوحدة
+                file: أبحاث/اختبار/إختبار
               - 
-                title: Integration Testing
-                file: reproducible-research/testing/testing-integrationtest
+                title: اختبار التكامل
+                file: إجراء البحوث/الاختبار/الاختبار - اختبار التكامل
               - 
-                title: System Testing
-                file: reproducible-research/testing/testing-systemtest
+                title: اختبار النظام
+                file: أبسط نظام البحث/الاختبارات
               - 
-                title: Acceptance and Regression Testing
-                file: reproducible-research/testing/testing-acceptance-regression
+                title: اختبار القبول والانكماش
+                file: التقهقر - البحوث/الاختبارات - القبول
               - 
-                title: Runtime Testing
-                file: reproducible-research/testing/testing-runtime
+                title: اختبار وقت التشغيل
+                file: فترة تشغيل البحث والاختبار/الاختبار
               - 
-                title: Test Driven Development
-                file: reproducible-research/testing/testing-driven-development
+                title: اختبار التطوير المدفوع
+                file: البحث والاختبار/التطوير القائم على الاختبار
               - 
-                title: Challenges and Exceptional Cases
-                file: reproducible-research/testing/testing-exceptions
+                title: التحديات والحالات الاستثنائية
+                file: استثناءات البحث/الاختبار/الاختبارات
               - 
-                title: Checklist for Code Testing
-                file: reproducible-research/testing/testing-checklist
+                title: قائمة التحقق لاختبار التعليمات البرمجية
+                file: قائمة البحث/الاختبار/الاختبارات المرجعية
               - 
-                title: Further Recommendations
-                file: reproducible-research/testing/testing-resources
+                title: توصيات أخرى
+                file: موارد البحث/الاختبار/الاختبار
           - 
-            title: Code Reviewing Process
-            file: reproducible-research/reviewing
+            title: عملية مراجعة الرمز
+            file: البحث/الاستعراض
             sections:
               - 
-                title: Motivation for code reviewing
-                file: reproducible-research/reviewing/reviewing-motivation
+                title: الدافع لمراجعة التعليمات البرمجية
+                file: دافع البحث والاستعراض/الاستعراض
               - 
-                title: Recommendations for code reviewing
-                file: reproducible-research/reviewing/reviewing-recommend
+                title: توصيات لاستعراض الرموز
+                file: البحث والاستعراض/التوصية
               - 
-                title: Code review workflow
-                file: reproducible-research/reviewing/reviewing-workflow
+                title: مراجعة شفرة سير العمل
+                file: التدفق التجريبي/البحث/الاستعراض/استعراض العمل
               - 
-                title: Checklist for code reviewing
-                file: reproducible-research/reviewing/reviewing-checklist
+                title: قائمة التحقق لمراجعة التعليمات البرمجية
+                file: قائمة البحث/الاستعراض/الاستعراض المرجعية
               - 
-                title: Resources for code reviewing
-                file: reproducible-research/reviewing/reviewing-resources
+                title: موارد لمراجعة التعليمات البرمجية
+                file: موارد البحث/الاستعراض/الاستعراض
           - 
-            title: Continuous Integration (CI)
-            file: reproducible-research/ci
+            title: التكامل المستمر (CI)
+            file: أبحاث/سي
             sections:
               - 
-                title: Intro to Continuous integration (CI)
-                file: reproducible-research/ci/ci-options
+                title: مقدمة للتكامل المستمر (CI)
+                file: خيارات البحث / ci/ci-options
               - 
-                title: Getting started with GitHub actions
-                file: reproducible-research/ci/ci-github-actions
+                title: البدء بإجراءات GitHub
+                file: أعمال الاستنساخ/البحوث/سي-جيثوب
               - 
-                title: Building a Block of a Github actions
+                title: بناء كتلة من إجراءات Github
                 file: reproducible-research/ci/ci-building-gh-actions.md
               - 
-                title: Best practices and recommendations
-                file: reproducible-research/ci/ci-practices
+                title: أفضل الممارسات والتوصيات
+                file: الممارسات الاستنسابية/البحث/سي-سي
               - 
-                title: Checklist and Resources
-                file: reproducible-research/ci/ci-resources
+                title: قائمة المراجعة والموارد
+                file: موارد بحثية/مدنية/مدنية
           - 
-            title: Reproducible Research with Make
-            file: reproducible-research/make
+            title: بحث قابل للتكاثر مع صنع
+            file: أبحاث/صنع
             sections:
               - 
-                title: Learn "Make" by examples
-                file: reproducible-research/make/make-examples
+                title: تعلم "Make" عن طريق الأمثلة
+                file: أمثلة-أبحاث/ماكي/صياع-أمثلة
               - 
-                title: Debugging Makefiles
-                file: reproducible-research/make/make-debugging
+                title: تصحيح الأخطاء
+                file: إعادة البحث/الصنع/تصحيح الأخطاء
               - 
-                title: Case Study of a Reproducible Paper
-                file: reproducible-research/make/make-casestudy
+                title: دراسة حالة إفرادية لورقة يمكن استنساخها
+                file: أبحاث/ماكي/حقائب
               - 
-                title: Including numerical results and tables
-                file: reproducible-research/make/make-results
+                title: بما في ذلك النتائج الرقمية والجداول
+                file: أبحاث/ماكي/ماكي-نتائج
               - 
-                title: Resources for "Make"
-                file: reproducible-research/make/make-resources
+                title: الموارد لـ "صنع"
+                file: الموارد الاستنسابية/البحث/الصنع/الصنع
               - 
-                title: Appendix
-                file: reproducible-research/make/make-appendix
+                title: تذييل
+                file: أبحاث/ماكي/تذييل
           - 
-            title: Research Compendia
-            file: reproducible-research/compendia
+            title: خلاصة البحوث
+            file: خلاصات البحث/الدراسات الأولية
           - 
-            title: Risk Assessment
-            file: reproducible-research/risk-assess
+            title: تقييم المخاطر
+            file: البحث - تقييم المخاطر
             sections:
               - 
-                title: Complexity and Impact of Risk Assessment
-                file: reproducible-research/risk-assess/risk-assess-impact
+                title: تعقيد تقييم المخاطر وتأثيره
+                file: البحث - تقييم المخاطر/تقييم المخاطر - الأثر
               - 
-                title: Summary of Risk Assessment
-                file: reproducible-research/risk-assess/risk-assess-resources
+                title: موجز تقييم المخاطر
+                file: موارد البحث وتقييم المخاطر/تقييم المخاطر
           - 
-            title: Case Studies
-            file: reproducible-research/case-studies
+            title: دراسات الحالات الإفرادية
+            file: البحوث والدراسات الإفرادية
             sections:
               - 
-                title: A Statistical Methods Manuscript
-                file: reproducible-research/case-studies/case-study-statistical
+                title: مخطوطة الأساليب الإحصائية
+                file: البحوث/دراسات الحالة/دراسة الحالة - الإحصاءات
       - 
         #===== Guide for Project Design ========================================
-        file: project-design/project-design
+        file: تصميم المشاريع/تصميم المشاريع
         sections:
           - 
-            title: Overview of Project Design
-            file: project-design/pd-overview
+            title: لمحة عامة عن تصميم المشروع
+            file: مشروع تصميم/صفحة نظرة عامة
             sections:
               - 
-                title: Planning for Project Design
-                file: project-design/pd-overview/pd-overview-planning
+                title: التخطيط لتصميم المشروع
+                file: مشروع التصميم/استعراض عام/استعراض عام
               - 
-                title: Communication and Collaboration
-                file: project-design/pd-overview/pd-overview-repro
+                title: الاتصال والتعاون
+                file: مشروع تصميم/pd-Overview/pd-Overview-repro
               - 
-                title: Reproducibility Methods
-                file: project-design/pd-overview/pd-overview-methods
+                title: أساليب التناسب
+                file: طرق التصميم/pd-Overview/pd-Overview-methods
               - 
-                title: Version Control and Documentation
-                file: project-design/pd-overview/pd-overview-version
+                title: مراقبة الإصدار والوثائق
+                file: مشروع تصميم/pd-Overview/pd-Overview-version
               - 
-                title: Sharing Your Research Work
-                file: project-design/pd-overview/pd-overview-sharing
+                title: مشاركة بحثك
+                file: تقاسم التصميم/النظرة العامة/النظرة العامة
           - 
-            title: Creating Project Repositories
-            file: project-design/project-repo
+            title: إنشاء مستودعات المشروع
+            file: مشروع-تصميم/مشروع-ريبو
             sections:
               - 
-                title: Landing Page - README File
-                file: project-design/project-repo/project-repo-readme
+                title: صفحة الهبوط - ملف
+                file: مشروع تصميم/مشروع/مشروع/مشروع-repo-readme
               - 
-                title: Roadmapping
-                file: project-design/project-repo/project-repo-roadmapping
+                title: رسم الخرائط
+                file: مشروع - تصميم/مشروع/مستعرض/مشروع/إعادة تخطيط الطريق
               - 
-                title: Contributors and Communication Pathways
-                file: project-design/project-repo/project-repo-contributors
+                title: المساهمون ومسارات الاتصال
+                file: مشروع - تصميم/مشروع/مستعرض/مشروع/مستعرض المساهمين
               - 
-                title: Participation Guidelines
-                file: project-design/project-repo/project-repo-participation
+                title: المبادئ التوجيهية للمشاركة
+                file: تصميم المشروع/المشروع/المشاركة في المشروع/المشروع
               - 
-                title: Advanced Structure for Data Analysis
-                file: project-design/project-repo/project-repo-advanced
+                title: الهيكل المتقدم لتحليل البيانات
+                file: مشروع تصميم/مشروع/مشروع/مشروع/مستعرض متطور
               - 
-                title: Further Recommendations
-                file: project-design/project-repo/project-repo-resources
+                title: توصيات أخرى
+                file: مشروع تصميم/مشروع/مستقبل/مشروع/موارد
           - 
-            title: Personas and Pathways
-            file: project-design/persona
+            title: الأشخاص والمسارات
+            file: مشروع - تصميم/شخص
             sections:
               - 
-                title: Persona Creation Tool
-                file: project-design/persona/persona-creation
+                title: أداة إنشاء شخصية
+                file: مشروع التصميم/الشخص/إنشاء الأشخاص
               - 
-                title: Contributor Pathways
-                file: project-design/persona/persona-contributors
+                title: مسارات المساهم
+                file: مشروع تصميم/شخص/شخصي/شخصي-مساهمين
           - 
-            title: File Naming Convention
-            file: project-design/filenaming
+            title: اتفاقية تسمية الملفات
+            file: تصميم المشروع/تسمية الملفات
           - 
-            title: Code Styling and Linting
-            file: project-design/code-styling
+            title: تصميم الرمز وربطه
+            file: تصميم المشروع/تصميم الكود
             sections:
               - 
-                title: Guidelines for Code Styling
-                file: project-design/code-styling/code-styling-guidelines
+                title: المبادئ التوجيهية لتصميم البرمجة
+                file: المبادئ التوجيهية لتصميم المشروع/استخراج الرموز/ستينغ
               - 
-                title: Writing Human Readable Code
-                file: project-design/code-styling/code-styling-readability
+                title: كتابة كود مقروء بشري
+                file: مشروع التصميم/استخراج الرموز/قابلية القراءة
               - 
-                title: Code Styling Tools
-                file: project-design/code-styling/code-styling-tools
+                title: أدوات تصميم التعليمات البرمجية
+                file: تصميم المشروع/أدوات استخراج الرموز/أدوات الاستنباط البرمجي
       - 
         #===== Guide for Communication ========================================
-        file: communication/communication
+        file: الاتصال/الاتصال
         sections:
           - 
-            title: Overview of Guide for Communication
-            file: communication/comms-overview
+            title: لمحة عامة عن دليل الاتصالات
+            file: الاتصال/نظرة عامة على الأوامر
             sections:
               - 
-                title: Principles of Communicating with Wider Audiences
-                file: communication/comms-overview/comms-overview-principles
+                title: مبادئ الاتصال بالجماهير الكبرى
+                file: باء - مبادئ الاتصال/الأوامر العامة/النظرة العامة
               - 
-                title: Communicating Accessibly
-                file: communication/comms-overview/comms-overview-accessibly
+                title: الاتصال بشكل ممكن
+                file: الاتصال/الأوامر العامة/الأوامر العامة - يمكن الوصول إليها
               - 
-                title: Resources and Recommendations
-                file: communication/comms-overview/comms-overview-resources
+                title: الموارد والتوصيات
+                file: الاتصالات/الأوامر العامة/الأوامر العامة - الموارد
           - 
-            title: Blogs for Research Communication
-            file: communication/blogs
+            title: مدونات للبحث والاتصال
+            file: الاتصال/المدونات
             sections:
               - 
-                title: Building a Webpage for Blogs
-                file: communication/blogs/blogs-webpage
+                title: بناء صفحة ويب للمدونات
+                file: الاتصال/المدونة/صفحة المدونات
               - 
-                title: Personal stories - Blogs
-                file: communication/blogs/blogs-personal-stories
+                title: قصص شخصية - مدونات
+                file: الاتصال/المدونة/المدونات - القصص الشخصية
           - 
-            title: Lay Summaries
-            file: communication/lay-summaries
+            title: الملخصات الصريحة
+            file: الاتصالات/الملخصات
             sections:
               - 
-                title: Personal Stories - Lay summaries
-                file: communication/lay-summaries/lay-summaries-personal-stories
+                title: قصص شخصية - ملخصات مكتوبة
+                file: الاتصالات/الموجزات/الموجزات/الموجزات - القصص الشخصية
           - 
-            title: Podcasts for Research Communication
-            file: communication/podcasts
+            title: Podcasts للاتصالات البحثية
+            file: الاتصالات/البث الصوتي
             sections:
               - 
-                title: Personal Stories - Podcasts
-                file: communication/podcasts/podcasts-personal-stories
+                title: قصص شخصية - Podcasts
+                file: الاتصالات/البث الصوتي (podcasts/podcasts-شخصي-قصص شخصية
           - 
-            title: Presenting Posters and Conference Talks
-            file: communication/presentations
+            title: عرض الملصقات ومحادثات المؤتمرات
+            file: الرسائل/العروض
             sections:
               - 
-                title: Presenting at Remote Events
-                file: communication/presentations/presentations-remote
+                title: عرض في الأحداث البعيدة
+                file: الاتصالات/العروض/العروض - البعيدة
               - 
-                title: Personal Stories - Presentations
-                file: communication/presentations/presentations-personal-stories
+                title: قصص شخصية - عروض
+                file: الاتصالات/العروض/العروض - القصص الشخصية
           - 
-            title: Social Media for Research Communications
-            file: communication/social-media
+            title: وسائل الإعلام الاجتماعية للاتصالات البحثية
+            file: الاتصالات/وسائل الإعلام الاجتماعية
             sections:
               - 
-                title: Tips for starting with twitter
-                file: communication/social-media/social-media-twitter-tips
+                title: نصائح للبدء مع تويتر
+                file: الاتصالات/وسائل الإعلام الاجتماعية/وسائل الإعلام الاجتماعية - تلميحات
               - 
-                title: Managing multiple twitter accounts
-                file: communication/social-media/social-media-twitter-multiple
+                title: إدارة حسابات تويتر متعددة
+                file: الاتصالات/وسائط الإعلام الاجتماعية/الوسائط الاجتماعية - المتعددة
           - 
-            title: Making Research Objects Citable
-            file: communication/citable
+            title: جعل كائنات البحث قابلة للقبول
+            file: الاتصال/الكابل
             sections:
               - 
-                title: Steps for Making Research Objects Citable
-                file: communication/citable/citable-steps
+                title: خطوات لجعل عناصر البحث قابلة للحساب
+                file: خطوات الاتصال/المثال/المثال/citable-
               - 
-                title: Citing Research Objects
-                file: communication/citable/citable-cite
+                title: الاستشهاد بأشياء البحث
+                file: الاتصال/الحائط/السيتبل
               - 
-                title: Linking Research Objects
-                file: communication/citable/citable-linking
+                title: ربط عناصر البحث
+                file: رابط الاتصال/المثال/citable-
               - 
-                title: ORCID to Collect your Research Objects
-                file: communication/citable/citable-orcid
+                title: ORCID لجمع عناصر البحث الخاصة بك
+                file: الاتصال/الحائط/citable-orcid
               - 
-                title: Checklists and Resources
-                file: communication/citable/citable-resources
+                title: قوائم المراجعة والموارد
+                file: موارد الاتصال/الحائط/الحبوب
           - 
-            title: Communications in Open Source Projects
-            file: communication/os-comms
+            title: الاتصالات في المشاريع المفتوحة المصدر
+            file: الاتصالات/os-comms
             sections:
               - 
-                title: Issue Tracking
-                file: communication/os-comms/os-comms-issue-tracking
+                title: تتبع المشكلة
+                file: تعقب الاتصالات/الأوامر / الأوامر
               - 
-                title: Communication Channels
-                file: communication/os-comms/os-comms-channels
+                title: قنوات الاتصال
+                file: قناة الاتصال/os-comm/os-comms-channels
           - 
-            title: Authorship and Contributions on Academic Articles
-            file: communication/aa
+            title: المؤلف والإسهامات بشأن المقالات الأكاديمية
+            file: الاتصال/(أ)
             sections:
               - 
-                title: Overview of Academic Authorship
-                file: communication/aa/overview
+                title: لمحة عامة عن السلطة الأكاديمية
+                file: الاتصال/a/نظرة عامة
               - 
-                title: Types of Authorship Misconduct
-                file: communication/aa/misconduct
+                title: أنواع سوء سلوك السلطة
+                file: الاتصالات/سوء السلوك
               - 
-                title: Discipline Specific Authorship Traditions
-                file: communication/aa/traditions
+                title: التقاليد النظامية الخاصة بالسلطة
+                file: الاتصال/التقاليد
               - 
-                title: Large and Equitable Authorships
-                file: communication/aa/equitable
+                title: سلطات كبيرة ومنصفة
+                file: الاتصال/الإنصاف
               - 
-                title: Tips on How to Get Authorship Right
-                file: communication/aa/tips
+                title: نصائح حول كيفية الحصول على السلطة بشكل صحيح
+                file: الاتصال/ااا/نصائح
               - 
-                title: Personal Stories - Authorship on Interdisciplinary Projects
-                file: communication/aa/interdisciplinary-personal-stories
+                title: قصص شخصية - تأليف مشاريع متعددة التخصصات
+                file: الاتصالات/القصص الشخصية المتعددة التخصصات
               - 
-                title: Personal Stories - Large Collaborative Research Community
-                file: communication/aa/large-personal-stories
+                title: القصص الشخصية - مجتمع البحث التعاوني الكبير
+                file: الاتصالات/القصص الشخصية الكبيرة
               - 
-                title: Resources
-                file: communication/aa/resources
+                title: الموارد
+                file: الاتصالات/الموارد
       - 
         #===== Guide for Collaboration ========================================
-        file: collaboration/collaboration
+        file: التعاون/التعاون
         sections:
           - 
-            title: Getting Started With GitHub
-            file: collaboration/github-novice
+            title: البدء مع GitHub
+            file: تعاون/غيثوب المبتدئ
             sections:
               - 
-                title: Motivation for Using GitHub
-                file: collaboration/github-novice/github-novice-motivation
+                title: الدافع لاستخدام GitHub
+                file: الدافع للتعاون/github-novic/github-novice-motivation
               - 
-                title: First steps on Github
-                file: collaboration/github-novice/github-novice-firststeps
+                title: الخطوات الأولى على Github
+                file: التعاون بين المهندسين والمديرين والمديرين
               - 
-                title: Using more Github features
-                file: collaboration/github-novice/github-novice-features
+                title: استخدام المزيد من ميزات Github
+                file: ميزات التعاون/github-novic/github-novice-features
               - 
-                title: Advanced Github features
-                file: collaboration/github-novice/github-novice-advanced
+                title: ميزات Github المتقدمة
+                file: متقدم للتعاون/github-novic/github-novice
           - 
-            title: Maintainers and Reviewers on GitHub
-            file: collaboration/maintain-review
+            title: المشرفين والمراجعين على GitHub
+            file: التعاون والاستمرار
             sections:
               - 
-                title: Project Maintenance
-                file: collaboration/maintain-review/maintain-review-maintenance
+                title: صيانة المشروع
+                file: التعاون/الصيانة/الصيانة/الصيانة
               - 
-                title: Ownership and Permissions
-                file: collaboration/maintain-review/maintain-review-permissions
+                title: الملكية والأذونات
+                file: التعاون/الصيانة/الاستعراض/الصيانة - أذونات المراجعة
               - 
-                title: Reviewing Contributions
-                file: collaboration/maintain-review/maintain-review-review
+                title: استعراض المساهمات
+                file: التعاون/الصيانة/الاستعراض/الاستعراض
               - 
-                title: Merging Contributions
-                file: collaboration/maintain-review/maintain-review-merge
+                title: دمج المساهمات
+                file: التعاون/الصيانة/الاستعراض/الاستعراض - الدمج
               - 
-                title: Resources
-                file: collaboration/maintain-review/maintain-review-resources
+                title: الموارد
+                file: موارد التعاون/الصيانة/الاستعراض/الاستعراض
           - 
-            title: Managing a New Community and Team
-            file: collaboration/new-community
+            title: إدارة مجتمع جديد وفريق جديد
+            file: التعاون/المجتمع الجديد
             sections:
               - 
-                title: Guide to Planning a Community
-                file: collaboration/new-community/new-community-guide
+                title: دليل التخطيط لمجتمع محلي
+                file: دليل التعاون/المجتمعات الجديدة/المجتمعات المحلية الجديدة
               - 
-                title: Addressing Technical Issues
-                file: collaboration/new-community/new-community-techissues
+                title: معالجة المسائل التقنية
+                file: التعاون/المجتمعات الجديدة/المجتمعات المحلية الجديدة
               - 
-                title: Valuing Diversity and Differences
-                file: collaboration/new-community/new-community-differences
+                title: تقييم التنوع والاختلافات
+                file: أوجه التباين بين التعاون/المجتمع الجديد/المجتمعات المحلية الجديدة
           - 
-            title: Leadership in Data Science
-            file: collaboration/leadership
+            title: القيادة في علوم البيانات
+            file: التعاون/القيادة
             sections:
               - 
-                title: Personal Stories of Leadership
-                file: collaboration/leadership/leadership-stories
+                title: قصص شخصية للقيادة
+                file: قصص التعاون/القيادة/القيادة
           - 
-            title: Remote Collaboration
-            file: collaboration/remote-collab
+            title: التعاون عن بعد
+            file: التعاون/المختبر عن بعد
             sections:
               - 
-                title: Organising Remote Meetings
-                file: collaboration/remote-collab/remote-collab-meetings
+                title: تنظيم الاجتماعات عن بعد
+                file: اجتماعات التعاون/التنسيق عن بعد/التنسيق عن بعد
               - 
-                title: Guidelines for Remote Collaboration
-                file: collaboration/remote-collab/remote-collab-guidelines
+                title: المبادئ التوجيهية للتعاون عن بعد
+                file: المبادئ التوجيهية للتعاون/التنسيق عن بعد/التنسيق عن بعد
               - 
-                title: Tools for Remote Collaboration
-                file: collaboration/remote-collab/remote-collab-tools
+                title: أدوات التعاون عن بعد
+                file: أدوات التعاون/التلاقي عن بعد/التلاقي عن بعد
               - 
-                title: Organising Online Coworking Calls
-                file: collaboration/remote-collab/remote-collab-coworking
+                title: تنظيم المكالمات المشتركة عبر الإنترنت
+                file: التعاون/التنسيق عن بعد/التنسيق عن بعد
               - 
-                title: Organising Remote Conferences
-                file: collaboration/remote-collab/remote-collab-conferences
+                title: تنظيم المؤتمرات عن بعد
+                file: مؤتمرات التعاون/التنسيق عن بعد/التنسيق عن بعد
               - 
-                title: Chairing Remote Events
-                file: collaboration/remote-collab/remote-collab-chairs
+                title: رئاسة الأحداث البعيدة
+                file: كراسي التعاون/التجميع عن بعد/التجميع عن بعد
               - 
-                title: Participating in Remote Events
-                file: collaboration/remote-collab/remote-collab-participation
+                title: المشاركة في الأحداث البعيدة
+                file: التعاون/المشاركة عن بعد/المشاركة عن بعد
               - 
-                title: Managing Distributed Teams
-                file: collaboration/remote-collab/remote-collab-management
+                title: إدارة الفرق الموزعة
+                file: التعاون والإدارة عن بعد
               - 
-                title: Informal Coffee Chats
-                file: collaboration/remote-collab/remote-collab-informal
+                title: دردشة قهوة غير رسمية
+                file: التعاون/التنسيق عن بعد/التنسيق عن بعد - غير الرسمي
               - 
-                title: Perceived Pros and Cons
-                file: collaboration/remote-collab/remote-collab-prosandcons
+                title: الحجج المؤيدة والملابسات المتصورة
+                file: التعاون/التلاقي عن بعد/التلاقي عن بعد
           - 
-            title: Shared Ownership in Open Source Projects
-            file: collaboration/shared-ownership
+            title: الملكية المشتركة في مشاريع مفتوحة المصدر
+            file: التعاون/المشاركة في الملكية
             sections:
               - 
-                title: Project Ownership
-                file: collaboration/shared-ownership/shared-ownership-projects
+                title: ملكية المشروع
+                file: مشاريع التعاون/الملكية المشتركة/الملكية المشتركة
               - 
-                title: Shared Ownership Models
-                file: collaboration/shared-ownership/shared-ownership-models
+                title: نماذج الملكية المشتركة
+                file: نماذج التعاون/الملكية المشتركة/الملكية المشتركة
               - 
-                title: Challenges with Applying Ownership Models Retroactively
-                file: collaboration/shared-ownership/shared-ownership-challenges
+                title: التحديات في تطبيق نماذج الملكية التراجعية
+                file: تحديات التعاون/تقاسم الملكية/تقاسم الملكية - الملكية
               - 
-                title: Nudging for a Better Default
-                file: collaboration/shared-ownership/shared-ownership-defaults
+                title: تمرير من أجل إفتراضي أفضل
+                file: التعاون/تقاسم الملكية / تقاسم الملكية - الافتراضي
       - 
         #===== Guide for Ethical Research ========================================
-        file: ethical-research/ethical-research
+        file: البحوث الأخلاقية/البحوث الأخلاقية
         sections:
           - 
-            title: Introduction to Research Ethics
-            file: ethical-research/ethics-intro
+            title: مقدمة لأخلاقيات البحث
+            file: مقدمة البحث الأخلاقي/الأخلاقيات
           - 
-            title: Research Ethics Committees Workflows
-            file: ethical-research/ethics-committees
+            title: تدفقات عمل لجان أخلاقيات البحوث
+            file: اللجان المعنية بالأخلاقيات والبحوث/الأخلاقيات
           - 
-            title: Ethical Decisions in Preclinical Research
-            file: ethical-research/preclinical-research
+            title: القرارات الأخلاقية في البحوث السريرية
+            file: البحوث الأخلاقية/البحوث السابقة للإكلينيكية
           - 
-            title: Law, Policy and Human Rights in Ethics
-            file: ethical-research/law-policy
+            title: القانون والسياسة العامة وحقوق الإنسان في الأخلاقيات
+            file: الأخلاقيات والبحوث/السياسة القانونية
             sections:
               - 
-                title: Ethics and law
-                file: ethical-research/law-policy/law-policy-ethics
+                title: ألف - الأخلاقيات والقانون
+                file: أخلاقيات البحوث/السياسات القانونية/السياسات العامة
               - 
-                title: Human rights
-                file: ethical-research/law-policy/law-policy-rights
+                title: حقوق الإنسان
+                file: حقوق البحوث الأخلاقية/السياسات القانونية/السياسات القانونية
               - 
-                title: Further Recommendations
-                file: ethical-research/law-policy/law-policy-resources
+                title: توصيات أخرى
+                file: موارد البحوث الأخلاقية/السياسات القانونية/السياسات القانونية
           - 
-            title: Activism for Researchers
-            file: ethical-research/activism
+            title: نشاط الباحثين
+            file: البحث الأخلاقي/النشاط
             sections:
               - 
                 title: Unionisation
-                file: ethical-research/activism/activism-unionisation
+                file: البحوث الأخلاقية/النشاط/النشاط النقابي
               - 
-                title: Whistleblowing
-                file: ethical-research/activism/activism-whistleblowing
+                title: التبليغ عن المخالفات
+                file: البحث الأخلاقي/النشاط/التبليغ عن المخالفات
               - 
-                title: Case study - Robodebt
-                file: ethical-research/activism/activism-robodebt
+                title: دراسة حالة إفرادية - روبوديون
+                file: البحوث الأخلاقية/الناشطة/الدَين الروبوتي النشط
               - 
-                title: Case study - Google Workers
-                file: ethical-research/activism/activism-case-study-google.md
+                title: دراسة حالة إفرادية - عمال جوجل
+                file: البحث الأخلاقي/النشاط/دراسة حالة أخلاقية-google.md
           - 
-            title: Internal Policy Advocacy
-            file: ethical-research/internal-policy
+            title: الدعوة للسياسات الداخلية
+            file: السياسة الأخلاقية - البحث/الداخلية
       - 
         #===== Community Handbook ========================================
-        file: community-handbook/community-handbook
+        file: كتيب مجتمعي/كتيب مجتمعي
         sections:
           - 
-            title: Code of Conduct
-            file: community-handbook/coc
+            title: مدونة قواعد السلوك
+            file: دليل/coc المجتمعي
             sections:
               - 
-                title: Code of Conduct in Detail
-                file: community-handbook/coc/coc-details
+                title: مدونة قواعد السلوك في التفاصيل
+                file: كتيب المجتمع المحلي/تفاصيل الكوك/الكوكا
               - 
-                title: Incident Reporting Guideline
-                file: community-handbook/coc/coc-reporting
+                title: المبادئ التوجيهية للإبلاغ عن الحوادث
+                file: الكتيب المجتمعي/الإبلاغ عن الكوكا/الكوكا
               - 
-                title: Enforcement Manual
-                file: community-handbook/coc/coc-enforcement
+                title: دليل الإنفاذ
+                file: دليل مجتمعي/انفاذ قوانين الكوكا/الكوكا
               - 
-                title: Acnowledgements
-                file: community-handbook/coc/coc-acknowledgement
+                title: الكياسات
+                file: كتيب المجتمع/الاعتراف بالكوكا/الكوكا
           - 
             title: Style Guide
-            file: community-handbook/style
+            file: دليل/أسلوب المجتمع
             sections:
               - 
-                title: Citing and Referencing External Resources
-                file: community-handbook/style/style-citing
+                title: الاستشهاد بالموارد الخارجية والإحالة إليها
+                file: كتيب مجتمعي/أسلوب/استشهاد بالأسلوب
               - 
-                title: Cross-Referencing Sections and Chapters
-                file: community-handbook/style/style-crossref
+                title: الأقسام والفروع المتقاطعة
+                file: كتيب مجتمعي/نمط/نمط - تقاطع النمط
               - 
-                title: Using Figures
-                file: community-handbook/style/style-figures
+                title: استخدام الأرقام
+                file: كتيب المجتمع/النمط والرموز
               - 
-                title: Glossary, Special Blocks and More Styling
-                file: community-handbook/style/style-more-styling
+                title: المسرد، الكتل الخاصة والمزيد من التصميم
+                file: كتيب مجتمعي/أسلوب/نمط - موري
               - 
-                title: Custom Styling
-                file: community-handbook/style/style-custom-styling
+                title: نمط مخصص
+                file: كتيب المجتمع/أسلوب/نمط التخصيص
           - 
-            title: Maintaining Consistency
-            file: community-handbook/consistency
+            title: الحفاظ على الاتساق
+            file: كتيب مجتمعي/اتساق
             sections:
               - 
-                title: Formatting
-                file: community-handbook/consistency/consistency-formatting
+                title: التنسيق
+                file: كتيب للمجتمعات المحلية/الاتساق/التنسيق
               - 
-                title: Structure
-                file: community-handbook/consistency/consistency-structure
+                title: الهيكل
+                file: كتيب للمجتمعات المحلية/الاتساق/هيكل الاتساق/الاتساق/الهيكل
               - 
-                title: Language
-                file: community-handbook/consistency/consistency-language
+                title: اللغة
+                file: الكتيب/الاتساق/اللغة المجتمعية
           - 
-            title: Contributing and Developing Chapters - Templates and Workflow
-            file: community-handbook/contributing
+            title: المساهمة في الفصول وتطويرها - القوالب وسير العمل
+            file: كتيب للمجتمعات المحلية/المساهمة
             sections:
               - 
-                title: Templates
-                file: community-handbook/contributing/contributing-templates
+                title: قوالب
+                file: كتيب المجتمع/المساهمة/النماذج المجتمعية
               - 
-                title: Workflow
-                file: community-handbook/contributing/contributing-workflow
+                title: سير العمل
+                file: دليل المجتمع المحلي/المساهمة/المساهمة - سير العمل
           - 
-            title: Acknowledging Contributors
-            file: community-handbook/acknowledgement
+            title: الاعتراف بالمساهمين
+            file: دليل/اعتراف المجتمع المحلي
             sections:
               - 
-                title: Community Members and Shared Ownership
-                file: community-handbook/acknowledgement/acknowledgement-members
+                title: أعضاء المجتمع والملكية المشتركة
+                file: كتيب مجتمعي/اعتراف/اعتراف - أعضاء
               - 
-                title: Record of Contributions
-                file: community-handbook/acknowledgement/acknowledgement-record
+                title: سجل الاشتراكات
+                file: دليل/اعتراف/سجل الاعتراف المجتمعي
               - 
-                title: Different Contributions and Acknowledgements
-                file: community-handbook/acknowledgement/acknowledgement-examples
+                title: مساهمات واعترافات مختلفة
+                file: كتيب مجتمعي/اعتراف/أمثلة اعتراف
           - 
-            title: Monthly Newsletters
-            file: community-handbook/newsletters
+            title: النشرات الإخبارية الشهرية
+            file: كتيب مجتمعي/رسائل إخبارية
             sections:
               - 
-                title: A Process of Creating a newsletter
-                file: community-handbook/newsletters/newsletters-process
+                title: عملية إنشاء رسالة إخبارية
+                file: دليل مجتمعي/رسائل إخبارية/عملية الرسائل الإخبارية
               - 
-                title: Newsletter's Style Guide
-                file: community-handbook/newsletters/newsletters-style
+                title: دليل نمط النشرة الإخبارية
+                file: كتيب مجتمعي/رسائل إخبارية/أسلوب الرسائل الإخبارية
               - 
-                title: The Turing Way Newsletter Template
-                file: community-handbook/newsletters/newsletters-template
+                title: قالب النشرة الإخبارية Ting Way
+                file: كتيب مجتمعي/رسائل إخبارية/رسائل إخبارية - قالب
           - 
-            title: Book Dash Events
-            file: community-handbook/bookdash
+            title: أحداث دش الكتاب
+            file: دليل المجتمع/مكتبة
             sections:
               - 
-                title: Application and Review Process
-                file: community-handbook/bookdash/bookdash-application
+                title: عملية التطبيق والاستعراض
+                file: دليل المجتمع/bookdash/bookdash-application
               - 
-                title: Book Dash Logistics
-                file: community-handbook/bookdash/bookdash-logistics
+                title: لوجيستيات الكتاب
+                file: دليل المجتمع المحلي/bookdash/bookdash-لوجستيات
               - 
-                title: Participant Selection Process
-                file: community-handbook/bookdash/bookdash-selection
+                title: عملية اختيار المشاركين
+                file: دليل المجتمع/bookdash/bookdash-selection
               - 
-                title: Book Dash Main Event Plans
-                file: community-handbook/bookdash/bookdash-events
+                title: خطط الحدث الرئيسي للكتاب
+                file: دليل المجتمع/bookdash/bookdash-events
               - 
-                title: After the Book Dash
-                file: community-handbook/bookdash/bookdash-after
+                title: بعد دشة الكتاب
+                file: دليل المجتمع/bookdash/bookdash-after
           - 
-            title: Community Coworking Calls
+            title: مكالمات تعاون المجتمع
             file: community-handbook/coworking
             sections:
               - 
-                title: Background, Motivations, and Techniques
-                file: community-handbook/coworking/coworking-motivation
+                title: الخلفية، والدوافع، والتقنيات
+                file: كتيب مجتمعي/عمل مشترك/دافع للعمل المشترك
               - 
-                title: Online Collaboration Cafe
-                file: community-handbook/coworking/coworking-collabcafe
+                title: مقهى التعاون عبر الإنترنت
+                file: دليل المجتمع/العمل التعاوني/العمل التعاوني المشترك
               - 
-                title: Weekly Coworking Calls
-                file: community-handbook/coworking/coworking-weekly
+                title: مكالمات التعاون الأسبوعية
+                file: كتيب مجتمعي/عمل مشترك/عمل مشترك أسبوعيا
               - 
-                title: Organising coworking calls
+                title: تنظيم المكالمات الجماعية
                 file: community-handbook/coworking/coworking-organisation
           - 
-            title: Template Collection
-            file: community-handbook/templates
+            title: مجموعة النماذج
+            file: دليل/قوالب المجتمع
             sections:
               - 
-                title: Book Dash Main Shared Document
-                file: community-handbook/templates/template-bookdash-index
+                title: كتاب داش المستند الرئيسي المشترك
+                file: دليل/قالب/قالب/قالب-كتب-فهرس المجتمعات المحلية
               - 
-                title: Book Dash Pre-event Onboarding
-                file: community-handbook/templates/template-bookdash-precall
+                title: كتاب داش ما قبل الحدث أونبواردينج
+                file: كتيب مجتمعي/قالب/قالب/قالب/كتبة-سابقة
               - 
-                title: Book Dash GitHub Session
-                file: community-handbook/templates/template-bookdash-github
+                title: كتاب جلسة GitHub
+                file: دليل/قالب/قالب/قالب الكتاب المجتمعي
               - 
-                title: Book Dash Template for Shared Notes
-                file: community-handbook/templates/template-bookdash-notes
+                title: كتاب قالب داش للملاحظات المشتركة
+                file: كتيب مجتمعي/قالب/قالب/قالب-كتب-ملاحظات
               - 
-                title: Book Dash Template for Feedback
-                file: community-handbook/templates/template-bookdash-feedback
+                title: كتاب القالب للحصول على ردود الفعل
+                file: كتيب مجتمعي/قالب/قالب/قالب-كتبا - تعليقات
               - 
-                title: Online Collaboration Cafe Templates
-                file: community-handbook/templates/template-coworking-collabcafe
+                title: قوالب مقهى التعاون عبر الإنترنت
+                file: كتيب دليل/قالب/قالب/التعاون الجماعي مع المجتمع المحلي
               - 
-                title: Weekly Coworking Call Template
-                file: community-handbook/templates/template-coworking-weekly
+                title: قالب المكالمة التعاونية الأسبوعية
+                file: كتيبات ونماذج/نماذج مجتمعية للعمل المشترك أسبوعيا
               - 
-                title: Template for Drafting Newsletters
-                file: community-handbook/templates/template-newsletter-draft
+                title: قالب لصياغة النشرات الإخبارية
+                file: كتيب للمجتمعات المحلية/قالب/مسودة الرسالة الإخبارية
       - 
         #===== Afterword ========================================
         file: afterword/afterword
         sections:
           - 
-            title: Legal Disclaimer
-            file: afterword/legal-disclaimer
+            title: إخلاء المسؤولية القانونية
+            file: بعد كلمة / إخلاء المسؤولية
           - 
             title: Glossary
             file: afterword/glossary
           - 
-            title: Bibliography
-            file: afterword/bibliography
+            title: الببليوغرافيا
+            file: بعد الكلمات/الببليوغرافيا
           - 
-            title: Contributors Record
-            file: afterword/contributors-record
+            title: سجل المساهمين
+            file: بعد كلمة / سجل المساهمين

@@ -1,46 +1,46 @@
-(rr-make)=
-# Reproducibility with Make
+(r-make)=
+# قابلية التكرار مع صنع
 
-(rr-make-prerequisites)=
-## Prerequisites
+(r-make-prerequireites) =
+## الشروط المسبقة
 
-| Prerequisite                                                                                  | Importance | Notes                                                        |
-| --------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  |                                                              |
-| {ref}`Version Control<rr-vcs>`                                                          | Helpful    | Experience using git is useful to follow along with examples |
+| الشروط المسبقة                                                                     | الأهمية | الحواشي                                                   |
+| ---------------------------------------------------------------------------------- | ------- | --------------------------------------------------------- |
+| [الخبرة في سطر الأوامر](https://programminghistorian.org/en/lessons/intro-to-bash) | ضروري   |                                                           |
+| {ref}`التحكم في الإصدار<rr-vcs>`                                             | مساعدة  | التجربة في استخدام git مفيدة في متابعتها إلى جانب الأمثلة |
 
-Recommended skill level: intermediate
+مستوى المهارة الموصى به: متوسط
 
-(rr-make-summary)=
+(r-make-summary)=
 ## Summary
 
-A data science or research project can be seen as a tree of dependencies: the report depends on the figures and tables, and these in turn depend on the data and the analysis scripts used to process this data (illustrated in the figure below).  Make is a tool for creating output files from their dependencies through pre-specified rules.  It is possible to combine these two ideas to create a reproducible project with Make.  In this chapter we give an introduction to Make and provide a tutorial on how Make can be used for a data analysis pipeline.  We also describe a real-world reproducible research project that uses Make to go from the raw input data to the experiments all the way to the pdf file of the paper!
+يمكن النظر إلى مشروع علم البيانات أو البحث على أنه شجرة من التبعيات: يعتمد تقرير على الأرقام والجداول، وتتوقف هذه بدورها على البيانات والنصوص المستخدمة في التحليل لمعالجة هذه البيانات (الموضحة في الشكل أدناه).  اصنع أداة لإنشاء ملفات إخراج من تبعيهم من خلال قواعد محددة مسبقا.  من الممكن الجمع بين هاتين الفكرتين لإنشاء مشروع قابل للتكرار مع مايك.  في هذا الفصل نقدم مقدمة لصنع وتقديم دروس حول كيفية استخدام إعداد البيانات لخط أنابيب التحليل.  ونصف أيضًا مشروع بحث في العالم الحقيقي الذي يستخدم جعل للانتقال من بيانات الإدخال الخام إلى التجارب كلها في الطريق إلى ملف pdf للورقة!
 
 ```{figure} ../figures/make-research-dag.png
 ---
-name: make-research-dag
-alt: Schematic of a research project.
+الاسم: Make-research-dag
+البديل : مخطط لمشروع بحث.
 ---
-Schematic of a research project.
+مخطط لمشروع بحث.
 ```
 
-(rr-make-intro)=
-## An Introduction to Make
+(r-make-intro)=
+## مقدمة لصنع
 
-Make is a build automation tool. It uses a configuration file called a Makefile that contains the *rules* for what to build. Make builds *targets* using *recipes*.  Targets can optionally have *prerequisites*.  Prerequisites can be files on your computer or other targets. Make determines what to build based on the dependency tree of the targets and prerequisites (technically, this is a {ref}`rr-make-resources-tools`). It uses the *modification time* of prerequisites to update targets only when needed.
+اصنع أداة أتمتة للبناء. يستخدم ملف تكوين يسمى Makefile الذي يحتوي على *قواعد* لما يجب بناؤه. اصنع *أهدافا* باستخدام *وصفات*.  يمكن أن يكون للأهداف اختيارياً *الشروط المسبقة*.  المتطلبات الأساسية يمكن أن تكون ملفات على جهاز الكمبيوتر الخاص بك أو أهداف أخرى. قم بتحديد ما تريد بناء بناء على شجرة التبعية للأهداف والمتطلبات الأساسية (تقنياً، هذا هو {ref}`rr-make-resources-tool`). يستخدم *وقت التعديل* لـ المتطلبات المسبقة لتحديث الأهداف فقط عند الحاجة.
 
-(rr-make-why)=
-### Why use Make for Reproducibility?
+(r-make-why)=
+### لماذا نستخدم صنع من أجل التكرار؟
 
-There are several reasons why Make is a good tool to use for reproducibility:
+هناك العديد من الأسباب التي تجعل من إعداد أداة جيدة لاستخدامها من أجل التكرار:
 
-1. Make is easy to learn
-1. Make is available on many platforms
-1. Make is flexible
-1. Many people are already familiar with Make
-1. Makefiles reduce cognitive load because as long as the common Make targets `all` and `clean` are present (explained below), you can be up and running without having to read lengthy instructions. This is especially useful when you work on someone else's project or on one that you haven't used in a long time.
-1. Makefiles are human-readable and machine-readable text files. So instead of writing instructions to a human for how to build a report or output, you can provide a Makefile with instructions that can be read by a human *and* executed by a computer.
+1. اجعل من السهل التعلم
+1. إتاحة الوصول على العديد من المنصات
+1. اجعل مرنة
+1. العديد من الناس على دراية بالفعل بصنع
+1. Makefiles يقلل من الحمل المعرفي لأنه طالما أن الأهداف المشتركة لجعل `كلها` و `نظيفة` موجودة (الموضحة أدناه)، يمكنك أن تكون في الأعلى و تعمل دون الحاجة إلى قراءة تعليمات طويلة. هذا بشكل خاص مفيد عندما تعمل على مشروع شخص آخر أو على مشروع لم تستخدمه منذ وقت طويل.
+1. Makefiles هي ملفات نصية مقروءة آليا وقابلة للقراءة. لذا بدلاً من كتابة تعليمات إلى إنسان لكيفية بناء تقرير أو إخراج، يمكنك توفير Makefile مع تعليمات يمكن قراءتها بواسطة شخص *و* ينفذها جهاز كمبيوتر.
 1. Because Makefiles are text files they are easy to share and keep in version control.
-1. Using Make doesn't exclude using other tools such as Travis and Docker.
+1. استخدام تصنيع لا يستبعد استخدام أدوات أخرى مثل ترافيس و دوكر.
 
-With a clever Makefile, you can share a complete analysis (code, data, and computational workflows) and let collaborators or the readers of your paper recompute your results. By using tools such as LaTeX, you can even generate a complete manuscript that includes freshly computed figures and results! This can increase the trust in the research output that you generate, it can make your research more accessible, and it can make collaborating easier. This chapter can show you how to get started.
+مع Makefile، يمكنك مشاركة تحليل كامل (الكود والبيانات و سير العمل الحاسوبي) و السماح للمتعاونين أو قراء ورقتك بإعادة حساب النتائج الخاصة بك. باستخدام أدوات مثل LaTeX، يمكنك حتى إنشاء مخطوطة كاملة تحتوي على أرقام ونتائج محسوبة حديثاً! هذا يمكن أن يزيد الثقة في ناتج البحث الذي تولده، يمكنه أن يجعل بحثك أكثر سهولة ، ويمكنه أن يجعل التعاون أسهل. يمكن أن يظهر لك هذا الفصل كيفية البدء.

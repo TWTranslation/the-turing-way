@@ -1,47 +1,47 @@
 (rr-rdm-fair)=
-# The FAIR Principles
+# Los principios de FAIR
 
-The FAIR guiding principles for scientific data management and stewardship {cite:ps}`Wilkinson2016fair` were developed as guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of digital assets; all of which support research reproducibility. The FAIR principles play an important role in making your data available to others for reuse.
+Los principios rectores de FAIR para la gestión y administración de datos científicos {cite:ps}`Wilkinson2016fair` fueron desarrollados como pautas para mejorar la indabilidad **F**, **A**cesibilidad, ****nteroperabilidad y **R**eusabilidad de activos digitales; todas ellas apoyan la reproducibilidad de la investigación. Los principios FAIR juegan un papel importante en la puesta a disposición de sus datos para su reutilización.
 
-It is much easier to make data FAIR if you plan to do this from the beginning of your research project. You can plan for this in your Data Management Plan (DMP) (see points 4 and 5 of the {ref}`Data Management Plan<rr-rdm-dmp>` chapter).
+Es mucho más fácil hacer FAIR de datos si usted planea hacer esto desde el comienzo de su proyecto de investigación. Puede planear esto en su Plan de Gestión de Datos (DMP) (ver los puntos 4 y 5 del capítulo {ref}`Plan de Gestión de Datos<rr-rdm-dmp>`).
 
-Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. The capacity of computational systems to find, access, interoperate, and reuse data, with none or minimal human intervention, is essential in today's data-driven era, where humans increasingly rely on computational support to deal with data as a result of the increase in [volume, velocity and variety](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/).
+Aunque los principios FAIR han sido definidos para permitir a las máquinas encontrar y usar objetos digitales automáticamente, mejoran también la reutilizabilidad de los datos por parte de los humanos. La capacidad de los sistemas computacionales para encontrar, acceder, interoperar y reutilizar datos, sin ninguna o mínima intervención humana, es esencial en la era actual impulsada por los datos donde los humanos dependen cada vez más del apoyo computacional para tratar los datos como resultado del aumento del volumen [, velocidad y variedad](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/).
 
-This chapter provides an abstract and broad view of what the FAIR principles are. How to put the FAIR principles into practise is discussed in other sub chapters ( {ref}`Data Organisation in Spreadsheets<rr-rdm-fair>`, {ref}`Documentation and Metadata<rr-rdm-metadata>` and {ref}`Sharing and Archiving Data<rr-rdm-sharing>`). You can also use the [Wellcome Getting Started Guide](https://f1000researchdata.s3.amazonaws.com/resources/FAIR_Open_GettingStarted.pdf) or the [How To FAIR](https://howtofair.dk/) website to find out more about the FAIR principles and how to get started.
+Este capítulo proporciona una visión abstracta y amplia de cuáles son los principios de las FAIR. Cómo poner en práctica los principios FAIR se discute en otros subcapítulos ( {ref}`Organización de datos en hojas de cálculo<rr-rdm-fair>`, {ref}`Documentación y metadatos<rr-rdm-metadata>` y {ref}`Compartir y archivar datos<rr-rdm-sharing>`). También puede utilizar la [Guía de inicio del bienestar](https://f1000researchdata.s3.amazonaws.com/resources/FAIR_Open_GettingStarted.pdf) o el sitio web [Cómo FAIR](https://howtofair.dk/) para averiguar más sobre los principios de FAIR y cómo empezar.
 
 ```{figure} ../../figures/fair-principles.jpg
 ---
-name: fair-principles
-alt: Illustration of the FAIR principles to show the definition of being Findable, Accessible, Interoperable and Reusable.
+nombre: principios
+alt: Ilustración de los principios FAIR para mostrar la definición de ser encontrable, accesible, interoperable y reutilizable.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-rdm-fair-theory)=
-## Theory
+(rr-rdm-teoría)=
+## Teoría
 
-In brief, FAIR data should be:
+En resumen, los datos FAIR deberían ser:
 
-**Findable:** The first step in (re)using data is to find them! Descriptive metadata (information about the data such as keywords) are essential.
+**Buscar:** ¡El primer paso en (re)usando los datos es encontrarlos! Los metadatos descriptivos (información sobre los datos como palabras clave) son esenciales.
 
-**Accessible:** Once the user finds the data and software they need to know how to access it. Data could be openly available but it is also possible that authentication and authorisation procedures are necessary.
+**Accesible:** Una vez que el usuario encuentra los datos y el software que necesita saber cómo acceder a ellos. Los datos podrían estar disponibles abiertamente, pero también es posible que sean necesarios procedimientos de autenticación y autorización.
 
-**Interoperable:** Data needs to be integrated with other data and interoperate with applications or workflows.
+**Interoperable:** Los datos deben integrarse con otros datos e interactuar con aplicaciones o flujos de trabajo.
 
-**Reusable:** Data should be well-described so that they can be used, combined, and extended in different settings.
+**Reutilizable:** Los datos deben estar bien descritos para que puedan ser utilizados, combinados y extendidos en diferentes ajustes.
 
-You can find a more detailed [overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. You can also read [A FAIRy tale](https://doi.org/10.5281/zenodo.2248200) for an understandable explanation of each principle.
+Puede encontrar un [resumen más detallado de los principios de FAIR por parte de GO FAIR](https://www.go-fair.org/fair-principles) de lo que recomiendan los principios de FAIR. También puedes leer [Un cuento FAIRy](https://doi.org/10.5281/zenodo.2248200) para una explicación comprensible de cada principio.
 
-Making data 'FAIR' is not the same as making it 'open'. Accessible means that there is a procedure in place to access the data. Data should be as open as possible, and as closed as necessary.
+Hacer 'FAIR' de datos no es lo mismo que hacerlo 'abierto'. Accesible significa que existe un procedimiento para acceder a los datos. Los datos deben estar tan abiertos como sea posible y tan cerrados como sea necesario.
 
-It is also important to say that the FAIR principles are aspirational: they do not strictly define how to achieve a state of FAIRness, but rather describe a continuum of features, attributes, and behaviours that will move a digital resource closer to that goal.
+También es importante decir que los principios FAIR son aspiracionales: no definen estrictamente cómo lograr un estado de FAIRness, sino más bien describir un continuo de características, atributos y comportamientos que acercarán un recurso digital a ese objetivo.
 
-The FAIR principles are also applied to software (see {cite:ps}`Lamprecht2020FAIRsoftware`and {cite:ps}`Hasselbring2020FAIRsoftware`).
+Los principios FAIR también se aplican al software (ver {cite:ps}`Lamprecht2020FAIRsoftware`y {cite:ps}`Hasselbring2020FAIRsoftware`).
 
 
-(rr-rdm-fair-community)=
-## Community involvement
+(comunidad rr-rdm-f.)=
+## Participación de la comunidad
 
-Although started by a community operating in the life science, the FAIR principles have rapidly been adopted by publishers, funders, and pan-disciplinary infrastructure programmes and societies. Many groups and organisation are working to define guidance and tools to help researchers and other stakeholders (like librarians, funders, publishers, and trainers) make data more FAIR. If you are interested in participating in these communities there are two global initiatives that act as umbrella organizations and reference points for many discipline-specific efforts: [GOFAIR](https://www.go-fair.org) and the [Research Data Alliance (RDA)](https://www.rd-alliance.org).
-* Under GOFAIR, there are many [Implementation Networks (INs)](https://www.go-fair.org/implementation-networks) committed to implementing the FAIR principles.
-* Under the RDA, there are several groups tackling different aspects relevant to the RDM life cycle. Among these, one [group](https://www.rd-alliance.org/groups/fair-data-maturity-model-wg) is reviewing existing efforts, building on them to define a standard set of common assessment criteria for the evaluation of FAIRness.
+Aunque comenzó una comunidad que opera en la ciencia de la vida, los principios FAIR han sido rápidamente adoptados por los editores, financiadores, y programas de infraestructura y sociedades pan-disciplinarios. Muchos grupos y organizaciones están trabajando para definir la orientación y las herramientas para ayudar a los investigadores y otros interesados (como los bibliotecarios, fundadores, editores y formadores) hacen que los datos sean más FAIR. Si está interesado en participar en estas comunidades, hay dos iniciativas globales que actúan como organizaciones paraguas y puntos de referencia para muchos esfuerzos específicos de disciplina: [GOFAIR](https://www.go-fair.org) y [Research Data Alliance (RDA)](https://www.rd-alliance.org).
+* Bajo GOFAIR, hay muchas [Redes de Implementación (INs)](https://www.go-fair.org/implementation-networks) comprometidos con la implementación de los principios FAIR.
+* En el marco de la RDA, hay varios grupos que abordan diferentes aspectos relevantes para el ciclo de vida de los RDM. Entre estos, un [grupo](https://www.rd-alliance.org/groups/fair-data-maturity-model-wg) está revisando los esfuerzos existentes, a partir de ellos para definir un conjunto estándar de criterios de evaluación comunes para la evaluación de FAIRness.

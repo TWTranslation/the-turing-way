@@ -1,28 +1,28 @@
-(cl-remote-collab-prosandcons)=
-# Perceived Pros and Cons
+(جناح اصطناعي) =
+# الحجج المؤيدة والملابسات المتصورة
 
-It is needless to say that the same setting can not always work for everyone, which applies to remote collaboration, working, and event participation. For many, it may not always feel as effective as working in physical offices, for example, when they live in a small apartment, share their place with a large family, have an inadequate remote-work setting or feel less connected with their colleagues. However, for others, remote working may be more enjoyable and productive.
-> "As someone who used to commute 4 hours per day for 12 years, I can sum my experiences in four words - *remote working reduces inequality*", says one of our contributors, Pablo Rodríguez-Sánchez (GitHub: PabRod).
+وغني عن القول إن نفس الإطار لا يمكن أن ينجح دائما بالنسبة للجميع، وهو ينطبق على التعاون عن بعد والعمل والمشاركة في الأحداث. وبالنسبة للكثيرين، قد لا تشعر دوما بفعالية العمل في المكاتب الفعلية، على سبيل المثال عندما تعيش في شقة صغيرة، يشاطرونهم مكانهم مع أسرة كبيرة أو لديهم بيئة عمل غير ملائمة عن بعد أو يشعرون أنهم أقل ارتباطاً بزملائهم. غير أن العمل عن بعد قد يكون أكثر متعة وإنتاجية بالنسبة للآخرين.
+> "كشخص اعتاد على تخفيف 4 ساعات يومياً لمدة 12 عاماً، يمكنني أن أجمل تجاربي في أربع كلمات - *العمل عن بعد يقلل من عدم المساواة*"، يقول أحد مساهمينا، بابلو رودريغيس - ساونشيز (غيتهوب: بابرود).
 
-In this subchapter, we have captured *light opinions* a few contributors on their experience of collaborating remotely with others under "pro" and "cons" sections.
+في هذا الفصل الفرعي، لقد استطعنا *آراء مصغرة* عدد قليل من المساهمين حول تجربتهم في التعاون عن بعد مع الآخرين تحت أقسام "برو" و "موافقة".
 
 ## Pros
 
-- Remote collaboration dramatically improves the life quality of those who cannot comfortably travel or afford to live close to their office.
-- It has a positive impact on the environment by reducing travel-related CO2 emissions.
-- A well-established format works equally well for low resource environments as the overall organisational cost can be reduced by not having to deal with the on-site expense.
-- Distributed team format attracts people from different time zones, different workplace requirements or those who work best with flexible working hour arrangements.
-- This can lead to innovative ways to establish social interactions and social dynamics in general.
-- It will help us learn about more colleagues from different parts of the world and educate us more about our cultural differences and accommodations to make in our work environment.
-- Decision making will become more efficient by involving all stakeholders irrespective of their locations, given the meeting is done at a mutually convenient time.
+- ومن شأن التعاون عن بعد أن يحسن بشكل كبير نوعية حياة أولئك الذين لا يستطيعون السفر على نحو مريح أو الذين يتحملون تكلفة العيش بالقرب من مكتبهم.
+- وهو يؤثر تأثيراً إيجابياً على البيئة من خلال الحد من انبعاثات ثاني أكسيد الكربون المتصلة بالسفر.
+- ويعمل الشكل الراسخ بشكل جيد بنفس القدر بالنسبة لبيئات الموارد المنخفضة حيث يمكن خفض التكلفة التنظيمية الإجمالية بعدم التعامل مع النفقات في الموقع.
+- ويجتذب شكل الفريق الموزع أشخاصا من مناطق زمنية مختلفة، أو متطلبات مختلفة في أماكن العمل، أو أولئك الذين يعملون على أفضل وجه بترتيبات مرنة لساعات العمل.
+- ويمكن أن يؤدي ذلك إلى إيجاد طرق مبتكرة لإقامة تفاعلات اجتماعية وديناميات اجتماعية بوجه عام.
+- وسيساعدنا ذلك على معرفة المزيد من الزملاء من مختلف أنحاء العالم، وسيعلمنا المزيد عن اختلافاتنا الثقافية وتوافقاتنا في بيئة عملنا.
+- وسيصبح صنع القرار أكثر كفاءة بإشراك جميع أصحاب المصلحة بغض النظر عن مواقعهم، نظرا لأن الاجتماع يتم في وقت مناسب للطرفين.
 
-## Cons
+## السياقات
 
-- Developing camaraderie may be challenging as we are used to developing this in-person.
-- The boundaries between working life and personal life become more blurred.
-- If running an online meeting, the allocated time might not be enough to conclude and may sometime lead to misinterpretation of decisions made by the team.
-- Conflict resolution may be difficult if most interactions happen in an allocated time slot.
-- Sometimes, such interactions may lack body language or tone (online chat) and may lead to misunderstanding or unnecessary conflict.
-- May lose the possibility of chanced interaction or water-cooler-effects and innovative ideas that they produce.
-- People will have different working conditions, for example, limited access to hardware that can lead to wrong assumptions regarding replication of certain tasks.
-- May be distracting if working from a busy co-working space or home without a sufficient arrangement for work that can make it difficult for some people to focus and have disciplined work practices.
+- وقد يكون تطوير المبشر أمرا صعبا لأننا اعتدنا على تطوير هذا الشخص.
+- وتصبح الحدود الفاصلة بين حياة العمل والحياة الشخصية أكثر وضوحا.
+- في حالة تشغيل اجتماع على شبكة الإنترنت، وقد لا يكون الوقت المخصص كافياً للاختتام وقد يؤدي في بعض الأحيان إلى إساءة تفسير القرارات التي يتخذها الفريق.
+- وقد يكون حل الصراعات صعبا إذا حدثت معظم التفاعلات في فترة زمنية محددة.
+- وفي بعض الأحيان، قد تفتقر هذه التفاعلات إلى لغة جسدية أو لهجة (دردشة على الإنترنت) وقد تؤدي إلى سوء فهم أو تضارب لا لزوم له.
+- وقد تفقد إمكانية تغيير التفاعل أو الآثار المترتبة على الماء والكولوليرا والأفكار المبتكرة التي تنتجها.
+- فالناس سيتمتعون بظروف عمل مختلفة، مثل محدودية الوصول إلى الأجهزة التي يمكن أن تؤدي إلى افتراضات خاطئة فيما يتعلق بتكرار بعض المهام.
+- وقد يكون ذلك مشتتا إذا كان العمل في مكان عمل مشغول أو في المنزل بدون ترتيب كاف للعمل يمكن أن يجعل من الصعب على بعض الناس أن يركزوا ويمارسوا ممارسات عمل منضبطة.

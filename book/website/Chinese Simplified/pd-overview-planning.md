@@ -1,50 +1,50 @@
 (pd-overview-planning)=
-# Planning for Project Design
+# 项目设计规划
 
-Thinking about reproducibility from the start of your project is the best way to save time and get the most out of the available tools. Creating connections between data, code, methodology, as well as diverse collaborators, can seem like a daunting task if it has not been planned from the beginning (see this illustration of {ref}`Research Cycle<research-cycle>`). By documenting and sharing project workflows and processes for research and researchers we can ensure sustainability and reusability of research for both the developers and future users.
+从你的项目开始思考可否再生产是节省时间和最大限度地利用现有工具的最佳途径。 在数据、代码、方法以及各种合作者之间建立联系； 如果从一开始还没有计划它，就可能会像一项艰巨的任务(见这个 {ref}`研究周期<research-cycle>` 的图示)。 通过记录和分享项目工作流量和研究人员流程，我们可以确保研究的可持续性和可用于开发人员和未来用户。
 
-A human-centred approach in the context of the research project can lead to a better development process, maintenance, and future extension of our work. Furthermore, it will help improve the quality of future project design as we can learn lessons from what worked and what can be improved.
+在研究项目中采取以人为中心的做法可以导致更好的发展进程、维持和今后扩大我们的工作。 此外，它还将有助于提高未来项目设计的质量，因为我们可以从行之有效和可以改进的工作中吸取经验教训。
 
-(pd-overview-planning-expectation)=
-## Setting Expectations Explicitly
+(pd-overview-planning-expect)=
+## 设定期望值
 
-Project design practices help provide guidance and set clear expectations by explicitly communicating norms and empowering project members at different levels of hierarchy to collaborate equitably. A project design for reproducible research encompasses a variety of aspects, starting from defining the purpose, main research questions, expected users or target audience, available resources and skills required in the project. It also requires researchers to explore the possible outcomes, plans to address expected challenges or risks, ensure diversity of stakeholders and reduce possible barriers to participation.
+项目设计做法明确传达规范并赋予各级项目成员平等合作的权力，从而有助于提供指导和明确期望。 可再生产研究的项目设计包括从界定目的开始的多个方面。 主要研究问题、预期用户或目标对象、项目所需的现有资源和技能。 它还要求研究人员探索可能产生的成果、应对预期挑战或风险的计划； • 确保利益攸关方的多样性，并减少参与的可能障碍。
 
-Project design practices help all stakeholders to be certain about their roles and responsibilities, skill requirements, environment and research setup they want to create for their collaborators, values they want to promote and how they can achieve their goals collaboratively.
+项目设计做法有助于所有利益攸关方确定其作用和责任、技能要求。 他们想要为他们的合作者创造的环境和研究设置，他们想要促进的价值，以及他们如何能够合作实现他们的目标。
 
 (pd-overview-planning-started)=
-## Getting Started
+## 正在开始
 
-We can begin with the project design process by identifying different parts of our research such as main research questions, methods and materials, code and data requirement, workflow, communication channels, ways of working, collaborative practices and so on. This process allows us to be intentional from the start to ensure that our research is reproducible, well communicated and inclusive of all stakeholders where decisions are collaboratively made. We can explore and select the right tools and methods for reproducibility in our research and promote good practices such as documentation, version control, peer-review processes, testing, workflow, archiving and data management plan can be promoted from the beginning. Finally, we can plan for publishing and sharing of research components before, during and after the project.
+我们可以从项目设计进程开始，确定我们研究的不同部分，例如主要的研究问题。 • 方法和材料、代码和数据要求、工作流程、交流渠道、工作方式、合作做法等。 这一过程使我们能够从一开始就有意确保我们的研究可以复制。 在作出决定时，所有利益攸关方都能够充分交流信息，并且包括所有利益攸关方。 我们可以在我们的研究中探索和选择正确的工具和方法，并促进诸如文献资料等良好做法。 可以从一开始就推动版本控制、同行审查进程、测试、工作流程、存档和数据管理计划。 最后，我们可以计划在项目之前、期间和之后出版和分享研究部分。
 
-(pd-overview-planning-ethics)=
-## Getting Ethical and Legal Approval
+（pd-overview-planning-ethics）=
+## 获得道德和法律批准
 
-Every research has the capacity to generate change - this is the basis of discovery and progress. Therefore, it is necessary to consider how your investigation could generate an impact on other people's lives and under which ethical and legal standards it should be conducted.
+每项研究都有能力产生变化——这是发现和取得进展的基础。 因此， 有必要考虑你们的调查如何能够对他人的生活产生影响，以及应根据何种道德和法律标准进行调查。
 
-A project has to be designed considering legal and ethical issues in every step: from the question formulation, data collection and analysis to the results and interpretation. It's important to ask yourself if your project is designed to be inclusive and sustainable, taking into account the implications and social expectations and following ethical principles and professional standards.
+必须设计一个项目，从问题拟订开始，在每个步骤中考虑法律和伦理问题。 (b) 收集和分析有关结果和解释的数据。 重要的是要问自己你的项目是否是包容性和可持续的。 考虑到所涉问题和社会期望，并遵循道德原则和专业标准。
 
-Getting ethical and legal approval is a crucial step of the project, this way you can make sure your research is being conducted in a responsible and ethical manner. There are several ways in which a research ethics committee (RECs) proceeds, but there are five principal topics that the ethics committee might want to know about:
+获得道德和法律上的批准是该项目的一个关键步骤。 这样你就可以确保你的研究是以负责任和合乎道德的方式进行的。 有几种方式使研究道德委员会能够进取， 但道德操守委员会可能想知道的五个主要专题：
 
-1. Project Description
-2. Data and Methodology
-3. Consent
-4. Privacy and Security
-5. Further Societal Consequences
+1. 项目描述
+2. 数据和方法
+3. 同意
+4. 隐私和安全
+5. 进一步的社会后果
 
-The {ref}`Research Ethics Committees Processes<er-committees>` chapter have more information about each item. Read other chapters in the {ref}`Guide for Ethical Research<er>`.
+{ref}`研究伦理委员会进程<er-committees>` 章节有更多关于每个项目的信息。 阅读 {ref}`伦理研究指南中的其他章节<er>`
 
-## Organising Files and Documents
+## 组织文件和文档
 
 ```{note}
-**Top three 'selfish' reasons to use project design practices**
-1. **Saves time**: once the project is designed and all the connections between different parts of research can be organized with little effort.
-2. **Makes your research openly available**: having your research open from the start can help others working in similar subjects or starting research.
-3. **Get people interested**: you can get people to help you from the start since your project is documented and is easy to share.
+**使用项目设计实践的前三个“自私”原因**
+1。 **节省时间**：一旦项目设计，研究不同部分之间的所有联系都可以用很少的精力来安排。
+2. **公开提供你的研究**：从一开始就开放你的研究可以帮助他人从事类似的学科或开始研究。
+3. **让人们感兴趣**：你可以从一开始就得到一些人的帮助，因为你的项目已经被记录下来，很容易分享。
 ```
 
-Create a shared repository to allow easy access to information and different documents related to your project. A project repository can be openly available if you are developing an open source project, or can be shared only with your collaborators. In the chapter {ref}`pd-project-repo`, you can learn about how to set up a repository with key documents like a landing page, contribution guidelines and communication pathways.
+创建共享仓库，便于访问与您项目相关的信息和不同文档。 如果您正在开发一个开源项目，项目仓库可以公开使用，或者只能与您的合作者共享。 在第 {ref}章`pd-project-repo`, 您可以学习如何建立一个包含关键文档的仓库，如登陆页面、贡献指南和通信路径。
 
-Start by documenting your vision, mission, goals and roadmap in a README file (see the {ref}`pd-project-repo-readme` chapter), followed by a description of resources and norms for collaboration and communication. In the next chapter, we discuss how project design enables good communication and collaboration in research. In the subsequent chapters, we describe different methods and tools for ensuring research reproducibility.
+首先在README 文件中记录您的视野、任务、目标和行进图(见 {ref}`pd-project-repo-repo-readme` 章节)， 随后介绍了协作和沟通方面的资源和规范。 在下一章中，我们讨论项目设计如何能够促进研究方面的良好沟通与合作。 在随后的章节中，我们描述了确保研究可再生性的不同方法和工具。
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

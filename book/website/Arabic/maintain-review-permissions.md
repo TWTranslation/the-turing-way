@@ -1,18 +1,18 @@
-(cl-maintain-review-permissions)=
-# Ownership and Permissions
-In any team or organisation owned project, there are different contributors.
+(أذونات الصيانة والاستعراض) =
+# الملكية والأذونات
+في أي فريق أو مشروع مملوك للمنظمة، هناك مساهمين مختلفين.
 
-Owners of a project are individuals or teams who generally start a project, or join it at the time of project creation with a defined vision and goals. The owners have the right to give different [levels of permission](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to outside contributors.
+أصحاب المشروع هم الأفراد أو الفرق الذين يبدؤون المشروع بشكل عام، أو الانضمام إليه وقت إنشاء المشروع برؤية وأهداف محددة. للمالكين الحق في منح [مستويات مختلفة من الأذونات](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) للمساهمين الخارجيين.
 
-In Github, there are five levels of permissions: read, triage, write, maintain, and admin.
-* Readers are non-code contributors who are read the content or join discussions on GitHub issues.
-* With triage permission, contributors can manage issues and pull requests without write access.
-* Write permission allows contributors to push changes to the project.
-* Maintain permission is for project managers but have no access to sensitive or destructive actions (such as project deletion).
-* Admins are people who have full access to the project, including sensitive and destructive actions, and are responsible for granting permission to make other contributors.
+في Github، هناك خمسة مستويات من الأذونات: القراءة والفرز والكتابة والصيانة والمدير.
+* القراء هم المساهمون غير الرموز الذين يقرأون المحتوى أو ينضمون إلى المناقشات حول مشاكل GitHub .
+* مع إذن التراث، يمكن للمساهمين إدارة المشكلات وسحب الطلبات بدون الوصول إلى الكتابة.
+* السماح لكتابة الإذن للمساهمين بدفع التغييرات إلى المشروع.
+* وصيانة إذن هو لمديري المشاريع ولكن ليس لديهم إمكانية الوصول إلى إجراءات حساسة أو مدمرة (مثل حذف المشروع).
+* المشرفون هم الأشخاص الذين يمكنهم الوصول الكامل إلى المشروع، بما في ذلك الأعمال الحساسة والمدمرة، وهم مسؤولون عن منح الإذن للمساهمين الآخرين.
 
-These roles are often defined in a project file such as a [CODEOWNERS file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) or a Ways of Working file (see _The Turing Way_'s [Ways of Working](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) as an example). These files provide insight into the core project team and members responsible for maintenance roles in the project.
+غالباً ما يتم تعريف هذه الأدوار في ملف مشروع مثل ملف [CODEOWNERS](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) أو ملف طرق العمل (أنظر _طريق التوريد_ [طرق العمل](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) كمثال). وتوفر هذه الملفات نظرة ثاقبة على الفريق الأساسي للمشروع وعلى الأعضاء المسؤولين عن أدوار الصيانة في المشروع.
 
-In this chapter, anyone with triage, write and maintain permission is referred to as maintainers. Maintainers are involved with creating issues and pull requests whenever required. They keep the codebase or project updated and help in reviewing contributions. They can often approve and merge pull requests. They can also request reviews from someone else.
+في هذا الفصل، يُشار إلى أي شخص لديه إذن بالفرز والكتابة والإبقاء على أنه مشرف. ويشارك المشرفون في خلق المشكلات وسحب الطلبات كلما اقتضى الأمر. وتقوم هذه المنظمات بتحديث النظام التعاوني أو المشروع وتساعد في استعراض المساهمات. ويمكنهم في كثير من الأحيان الموافقة على طلبات السحب ودمجها. ويمكنهم أيضاً أن يطلبوا مراجعة من شخص آخر.
 
-*For more information on permission level, please see this [documentation on GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*
+*لمزيد من المعلومات حول مستوى الإذن، يرجى الاطلاع على [هذه الوثائق على GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*

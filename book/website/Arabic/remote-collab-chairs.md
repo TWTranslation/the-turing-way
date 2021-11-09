@@ -1,107 +1,107 @@
-(cl-remote-collab-chairs)=
-# Chairing Remote Events
+(كرسي - كلي-ناطق)=
+# رئاسة الأحداث البعيدة
 
-To run an event smoothly, part of planning and preparation is to delegate tasks of leading and chairing different sessions of an event to different individuals. The main duties of a chair are to moderate their session by introducing speakers and keep their sessions as planned - within the time limit by keeping their session on the topic, avoid distractors and help address any challenges that may appear. However, their roles may include other tasks depending on the purpose of the event, attendees, format and so on.
+لتشغيل الحدث بسلاسة، ويتمثل جزء من التخطيط والتحضير في تفويض مهام قيادة وترؤس مختلف دورات الحدث إلى أفراد مختلفين. وتتمثل المهام الرئيسية للرئيس في تسيير أعمال دورتهم عن طريق تقديم المتكلمين والاحتفاظ بدوراتهم على النحو المقرر - في غضون المهلة الزمنية المحددة من خلال الإبقاء على دورتهم بشأن الموضوع؛ تجنب التشتت والمساعدة في التصدي لأي تحديات قد تظهر. غير أن أدوارهم قد تشمل مهام أخرى تبعاً للغرض من الحدث والحضور والشكل وما إلى ذلك.
 
-In this subchapter, we provide guidelines for the chairs of different types of sessions, which can be adapted and built upon by the event organisers and chairs to prepare ahead of time.
+وفي هذا الفصل الفرعي، نقدم مبادئ توجيهية لرؤساء مختلف أنواع الدورات، والتي يمكن تكييفها والبناء عليها من قبل منظمي الحدث والكراسي للتحضير مسبقاً للوقت.
 
-## Talks and presentations
-*Checklist for the chair of the designated talk*
+## باء - المحادثات والعروض
+*قائمة مرجعية لرئيس المحادثة المعينة*
 
-- Coordinate with the organisers regarding the schedule, exact responsibilities and other people involved in the event they'll chair.
-- Coordinate with a designated note-taker, or be ready to assign one at the beginning of the event.
-- Share the link to the notes or shared document with all the attendees.
-- Remind everyone of the Code of the Conduct contact person in case something needs to be reported.
-- Introduce the speaker and note-takers (and sign language interpreter if available).
-- Remind everyone if the video will be recorded.
-- Request everyone to keep their camera on whenever possible.
-- Indicate if the speakers should speed up or slow down, or if there is a technical issue that the speaker should check.
-- Help answer procedural questions like “where is this button that I should click”.
-- Direct technical questions to the organiser when needed.
-- Note-takers take notes to capture main points from the talk.
-- With note-takers, gather questions, opinion and response, on the shared document for the open discussion.
-  - This can be done on a document or by using interactive tools like [sli.do](https://www.sli.do/).
-- Ask people to add '+1' next to the points that they like or agree with.
-- Verbalise some of the popular insights, opinion and thoughts.
-- Close session in time by thanking the speakers and note-takers.
-- Take a moment to thank the speakers for their talks.
+- التنسيق مع المنظمين فيما يتعلق بالجدول الزمني والمسؤوليات الدقيقة والأشخاص الآخرين المشاركين في الحدث الذي سيترأسونه.
+- التنسيق مع مدوني ملاحظات معينين، أو كن على استعداد لتعيين واحد منهم في بداية الحدث.
+- شارك الرابط إلى الملاحظات أو الوثيقة المشتركة مع جميع الحاضرين.
+- تذكير الجميع بمدونة سلوك شخص الاتصال في حالة الحاجة إلى الإبلاغ عن شيء.
+- عرض المتحدث والملاحظات (ومترجم لغة الإشارة إذا توافرت).
+- تذكر الجميع إذا تم تسجيل الفيديو.
+- نطلب من الجميع أن يعملوا على تشغيل الكاميرا كلما كان ذلك ممكنا.
+- ويرجى بيان ما إذا كان ينبغي للمتكلمين أن يعجّلوا أو أن يبطئوا وتيرة عملهم، أو ما إذا كانت هناك مسألة فنية ينبغي للمتكلم أن يدققها.
+- المساعدة في الإجابة على أسئلة إجرائية مثل "أين هذا الزر الذي ينبغي أن أنقر عليه".
+- توجيه الأسئلة التقنية إلى المنظم عند الحاجة.
+- ويأخذ المدراء المذكرات التي يلتقطون النقاط الرئيسية من المحادثة.
+- وبالاشتراك مع مدوني الملاحظات، جمع الأسئلة والرأي والرد بشأن الوثيقة المشتركة للمناقشة المفتوحة.
+  - يمكن القيام بذلك على مستند أو باستخدام أدوات تفاعلية مثل [sli.do](https://www.sli.do/).
+- اطلب من الناس إضافة '+1' بجانب النقاط التي يحبون أو يوافقون عليها.
+- ترقيم بعض الرؤى والآراء والأفكار الشعبية.
+- أغلق الجلسة في الوقت المناسب بتوجيه الشكر إلى المتكلمين وواضعي الملاحظات.
+- خذ لحظة لأشكر المتكلمين على محادثاتهم.
 
-## Short workshops, up-skilling or discussion sessions
+## ورش عمل قصيرة، تطوير المهارات أو جلسات المناقشة
 
-*Checklist for the session lead, helpers and note-takers of the designated session*
-- Share the link to the shared document.
-- Remind of the Code of the Conduct contact person in case something needs to be reported.
-- Introduce the helpers and note-takers (and sign language interpreter if available).
-- If recording the call, make sure to tell the participants before you hit the record button.
-- Allow them to turn off their video when recording.
-- To allow participation with the video on, don't record general discussions.
-- Help notetakers in documenting important outcomes from every discussion.
-- Encourage everyone to help the notetaker in documenting correct information.
-- With helpers and note-takers, gather questions, opinion and response, on the shared document for the open discussion.
-- Ask people to add '+1' next to the points that they like or agree with.
-- Verbalise some of the popular insights, opinion and thoughts.
-- Take note of any technical issue that the speaker or others come across and help troubleshoot them.
-- Help answer procedural questions like “where is this button that I should click”.
-- Direct technical questions to the organiser when needed.
-  - This can be done on a document or by using interactive tools like sli.do.
-- Create breakout rooms  whenever possible to ensure that people can connect while discussing mutually useful question or issues.
-- Facilitate fair discussion, don’t fixate on one argument.
-- In the last part of the session, take some time to collect feedback from the participants.
-- Ask people to volunteer to write short blogs about their experience.
-- Close their sessions in time by thanking the speakers and note-takers.
-- Take a moment to celebrate the session and everyone involved in running it.
+*قائمة مرجعية لقيادة الدورة ومساعديها ومقدمي ملاحظات الدورة المعينة*
+- شارك الرابط إلى الوثيقة المشتركة.
+- تذكير بمدونة شخص الاتصال المعني بالسلوك في حالة الحاجة إلى الإبلاغ عن شيء ما.
+- • تقديم المساعدين وواضعي الملاحظات (ومترجم لغة الإشارة إذا توافرت).
+- في حالة تسجيل المكالمة، تأكد من إخبار المشاركين قبل أن تضغط على زر التسجيل.
+- السماح لهم بإيقاف تشغيل الفيديو عند التسجيل.
+- للسماح بالمشاركة في الفيديو، لا تسجل المناقشات العامة.
+- مساعدة القائمين على تدوين الملاحظات في توثيق النتائج الهامة من كل مناقشة.
+- شجع الجميع على مساعدة مأخوذ الملاحظات في توثيق المعلومات الصحيحة.
+- وبالاشتراك مع المساعدين وواضعي الملاحظات، جمع الأسئلة والرأي والرد بشأن الوثيقة المشتركة للمناقشة المفتوحة.
+- اطلب من الناس إضافة '+1' بجانب النقاط التي يحبون أو يوافقون عليها.
+- ترقيم بعض الرؤى والآراء والأفكار الشعبية.
+- خذ علما بأي مسألة فنية يتصدى لها المتحدث أو الآخرون وتساعد على حل المشاكل.
+- المساعدة في الإجابة على أسئلة إجرائية مثل "أين هذا الزر الذي ينبغي أن أنقر عليه".
+- توجيه الأسئلة التقنية إلى المنظم عند الحاجة.
+  - ويمكن القيام بذلك على وثيقة أو باستخدام أدوات تفاعلية مثل sli.do.
+- إنشاء غرف انفصالية كلما كان ذلك ممكنا لضمان أن يتمكن الناس من التواصل في الوقت الذي يناقشون فيه المسائل أو المسائل ذات الفائدة المتبادلة.
+- تيسير المناقشة النزيهة، لا تركز على حجة واحدة.
+- وفي الجزء الأخير من الدورة، يستغرق جمع التعليقات من المشاركين بعض الوقت.
+- اطلب من الناس التطوع لكتابة مدونات قصيرة عن تجربتهم.
+- 3 - إغلاق جلساتهم في الوقت المناسب بتوجيه الشكر إلى المتكلمين وواضعي الملاحظات.
+- خذ لحظة للاحتفال بالدورة وجميع المشاركين في إدارتها.
 
-## Lightning talks
+## محادثات البرق
 
-*Checklist for the designated chair of these sessions*
+*قائمة مرجعية للرئيس المعين لهذه الدورات*
 
-- Share the link of the shared notes for the session along with the link to the pre-recorded lightning talks (see details in the subchapter on {ref}`organising conference<cl-remote-collab-conferences>`).
-- Ask presenters who are attending the session to write down their names so that other attendees can ask questions specific to their talks.
-- Allow enough time for everyone to check out multiple Lightning Talks.
-- Run an open question and answer period where anyone can ask questions to any presenters; remind everyone to keep their questions and responses short.
-  - Use a shared document or Slido for taking questions.
-- Keep the format informal and allow flexibility for participation.
-- Finish the session by thanking all the participants, and ask everyone to leave encouraging words, gifs or emojis to celebrate the session and presenters' work.
-- If the feedback for the session is available, use the last few minutes to gather those from the participants.
+- شارك رابط الملاحظات المشتركة للدورة، بالإضافة إلى الرابط إلى محادثات الإضاءة المسجلة مسبقاً (أنظر التفاصيل في الفصل الفرعي حول {ref}`تنظيم المؤتمر<cl-remote-collab-conferences>`).
+- اطلب من مقدمي العروض الذين يحضرون الجلسة كتابة أسماءهم حتى يتمكن الحضور الآخرون من طرح أسئلة محددة لمحادثاتهم.
+- السماح للجميع بالتحقق من العديد من محادثات البرق.
+- تشغيل فترة مفتوحة للأسئلة والأجوبة حيث يمكن لأي شخص أن يطرح أسئلة على أي من المتكلمين؛ تذكر الجميع بجعل أسئلتهم وإجاباتهم قصيرة.
+  - استخدم وثيقة مشتركة أو Slido لطرح الأسئلة.
+- الإبقاء على الشكل غير الرسمي والسماح بالمرونة للمشاركة.
+- إنهاء الدورة بشكر جميع المشاركين، ودعوة الجميع إلى ترك كلمات مشجعة أو هدايا أو تعبيرات لإحتفال الدورة وعمل المتكلمين.
+- وإذا كانت التغذية المرتدة بشأن الدورة متاحة، استخدم الدقائق القليلة الأخيرة لجمع الدقائق من المشاركين.
 
-## Poster sessions
+## جلسات الملصقات
 
-*Checklist for the designated chair of these sessions*
+*قائمة مرجعية للرئيس المعين لهذه الدورات*
 
-- Share the link of the shared notes for the session along with the link to the gallery where the posters can be browsed (see details in {ref}`organising conference<cl-remote-collab-conferences>`).
-  - If short pre-recorded lightning talks on the posters are available, allow time to watch a few videos.
-- Ask presenters who are attending the session to write down their names so that other attendees can ask questions specific to their talks.
-- Allow enough time for everyone to ask questions on the shared document, dedicated channel (Slack or sli.do) for poster discussions.
-- Keep an eye on the document to see if everything is going well.
-- Remind everyone of the time at regular intervals.
-- At the end, run an open question and answer session where anyone can ask a question to any presenters in that session. Remind everyone to keep their questions and responses short.
-  - Use shared documents or [Slido](https://www.sli.do/) for taking questions.
-- Keep the format informal and allow flexibility for participation.
-- Finish the session by thanking all the participants, and ask everyone to leave nice words, gif or emoji to celebrate the session and presenters' work.
-- If the feedback for the session is available, use the last few minutes to gather that from the participants.
+- شارك رابط الملاحظات المشتركة للدورة بالإضافة إلى الرابط إلى معرض الصور حيث يمكن تصفح الملصقات (انظر التفاصيل في {ref}`تنظيم المؤتمر<cl-remote-collab-conferences>`).
+  - وإذا توافرت محادثات قصيرة مسجلة مسبقاً للضوء على الملصقات، فسيتيح الوقت لمشاهدة بضعة أشرطة فيديو.
+- اطلب من مقدمي العروض الذين يحضرون الجلسة كتابة أسماءهم حتى يتمكن الحضور الآخرون من طرح أسئلة محددة لمحادثاتهم.
+- اسمح للجميع بالوقت الكافي لطرح الأسئلة على الوثيقة المشتركة، القناة المخصصة (Slack أو sli.do) لمناقشات الملصقات.
+- إبقاء عين على الوثيقة لمعرفة ما إذا كان كل شيء يسير على ما يرام.
+- قم بتذكير الجميع في ذلك الوقت على فترات منتظمة.
+- وفي نهاية المطاف، عقد جلسة مفتوحة للأسئلة والأجوبة حيث يمكن لأي شخص أن يوجه سؤالا إلى أي متكلم في تلك الدورة. ذكّر الجميع بأن يحافظوا على قصر أسئلتهم وإجاباتهم.
+  - استخدم المستندات المشتركة أو [Slido](https://www.sli.do/) لطرح الأسئلة.
+- الإبقاء على الشكل غير الرسمي والسماح بالمرونة للمشاركة.
+- إنهاء الدورة بشكر جميع المشاركين، ودعوة الجميع إلى ترك كلمات جميلة أو هدية أو إيموجي للاحتفال بالجلسة وعمل المتكلمين.
+- وإذا كانت التغذية المرتدة بشأن الدورة متاحة، استخدم الدقائق القليلة الأخيرة لجمع ذلك من المشاركين.
 
-## Social events
+## الأنشطة الاجتماعية
 
-*Checklist for the session lead, helpers and note-takers of the designated session*
-- Host loosely themed social events so that the participants know what to expect, most importantly keep the theme and format informal.
-- Keep these sessions longer than what they would be in an in-person event, for example, 2 hours lunch instead of 1 hour.
-- Don't keep these sessions too late in the day, remember that your attendees may not want to spend extra hours on the online call for a variety of reasons.
-- Start the online call at least 15 minutes before the actual event starts, and keep the call running for 5-15 minutes after the main event is over.
-- Share the collaborative notes with an agenda or a plan, links to join the call from the session or a social event chat system (for example, Slack) - an agenda will help attendees to be prepared of what to expect at the event.
-- Start with an informal ice breaker - allow everyone to introduce themselves to everyone on the call.
-- Follow the "show, don't tell" format, such as visual artefacts in the session format as much as possible.
-- Host online games that are not too hard to explain and can be played by multiple people.
-- Other parallel activities such as online treasure hunt, virtual museum or movie viewing can be organised.
-- Conference dinners can be hosted in parallel in multiple locations. Perhaps a care package with ingredients can be sent out before the conference, or provide a budget so participants can order their favourite meal.
-  - Other options could be to host a cooking and dining session (see the [Tweet thread](https://twitter.com/kevin_kunzmann/status/1240921979462520834), add your ideas too!).
+*قائمة مرجعية لقيادة الدورة ومساعديها ومقدمي ملاحظات الدورة المعينة*
+- استضافة أحداث اجتماعية ذات مواضيع غير محددة بحيث يعرف المشاركون ما يتوقعونه، والأهم من ذلك إبقاء الموضوع والشكل غير رسمي.
+- إبقاء هذه الجلسات أطول مما ستكون عليه في حدث شخصي، على سبيل المثال، ساعتان للغداء بدلاً من ساعة واحدة.
+- لا تحافظ على هذه الجلسات متأخرة جدًا في اليوم، تذكر أن الحاضرين قد لا يريدون قضاء ساعات إضافية في المكالمة عبر الإنترنت لأسباب مختلفة.
+- ابدأ المكالمة عبر الإنترنت قبل 15 دقيقة على الأقل من بدء الحدث الفعلي، وإبقاء المكالمة جارية لمدة 5-15 دقيقة بعد انتهاء الحدث الرئيسي.
+- مشاركة الملاحظات التعاونية مع جدول الأعمال أو الخطة، روابط للمشاركة في المكالمة من الجلسة أو نظام دردشة الأحداث الاجتماعية (على سبيل المثال عدم وجود جدول أعمال - سيساعد الحاضرين على إعداد ما يتوقع منهم في هذا الحدث.
+- ابدأ بقاطع الجليد غير الرسمي - اسمح للجميع بتقديم أنفسهم للجميع بناء على مكالمة.
+- اتبع تنسيق "العرض ، لا تخبر" ، مثل المصنوعات المرئية في صيغة الجلسة قدر الإمكان.
+- استضافة ألعاب على الإنترنت ليس من الصعب شرحها ويمكن لعبها من قبل أشخاص متعددين.
+- ويمكن تنظيم أنشطة موازية أخرى مثل البحث عن الكنز على الإنترنت أو المتحف الافتراضي أو عرض الأفلام.
+- ويمكن استضافة عشاء المؤتمر بالتوازي في أماكن متعددة. وربما يمكن إرسال حزمة رعاية تحتوي على مكونات قبل انعقاد المؤتمر، أو تقديم ميزانية حتى يتمكن المشاركون من طلب وجباتهم المفضلة.
+  - قد تكون الخيارات الأخرى استضافة جلسة الطبخ والطعام (أنظر [موضوع التغريدة](https://twitter.com/kevin_kunzmann/status/1240921979462520834)، إضافة أفكارك أيضا!).
 
-## Handling breakout rooms
+## مناولة غرف التفريغ
 
-*If using breakout rooms in Zoom (or similar tool), make sure that the organiser helps you create Groups*
+*إذا كان استخدام غرف التفكيك في التكبير(أو أداة مماثلة)، تأكد من أن المنظمة تساعدك على إنشاء مجموعات*
 
-- Create groups that are more diverse (they will have a better discussion).
-- Remind everyone to give others a fair chance to speak.
-- Ask them to write notes from their discussion in the shared document.
-- Send messages periodically reminding everyone of how much time for discussion is left.
-  - Remind them to move on to the next person if only one person has spoken so far in their Groups.
-- When people come back from their breakout rooms, ask them to share main points from their discussion.
+- إنشاء مجموعات أكثر تنوعا (سيكون لها نقاش أفضل).
+- تذكير الجميع بإعطاء الآخرين فرصة عادلة للتكلم.
+- اطلب منهم كتابة الملاحظات من مناقشتهم في الوثيقة المشتركة.
+- إرسال رسائل دورية لتذكير الجميع بمقدار الوقت المتبقي للمناقشة.
+  - ذكّرهما بالانتقال إلى الشخص التالي إذا كان شخص واحد فقط قد تكلم حتى الآن في جماعاتهما.
+- وعندما يعود الناس من غرف الانهيار، يطلبون منهم أن يتقاسموا النقاط الرئيسية من مناقشتهم.

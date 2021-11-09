@@ -1,40 +1,40 @@
-(ch-acknowledgement-members)=
-# Community and Shared Ownership
+(ch-reconocimiento-miembros)=
+# Comunidad y Propiedad Compartida
 
-As a community-led project, we believe in and promote a collaborative approach to develop the content of this book. For example, writing _The Turing Way_ chapter is an iterative process that involves designing, outlining, writing, reviewing, and editing its contents. Similarly, community-oriented processes evolve over time with the help and feedback from the community members.
+Como proyecto liderado por la comunidad, creemos y promovemos un enfoque colaborativo para desarrollar el contenido de este libro. Por ejemplo, escribir el capítulo _The Turing Way_ es un proceso iterativo que involucra diseñar, delimitar, escribir, revisar y editar su contenido. De la misma manera, los procesos orientados a la comunidad evolucionan con el tiempo con la ayuda y la retroalimentación de los miembros de la comunidad.
 
-## Community members, contributors and co-authors
+## Miembros de la comunidad, colaboradores y coautores
 
-Everyone who contributes to this book, no matter how small or big their contributions are, is recognised in this project as a contributor and a community member.
+Cualquiera que contribuya a este libro, no importa cuán pequeñas o grandes sean sus contribuciones es reconocido en este proyecto como colaborador y miembro de la comunidad.
 
-Their contributions may include carrying out small tasks such as reporting bugs, correcting factual errors, adding references, opening issues to discuss an idea, commenting on an ongoing discussion, exchanging ideas with other members or citing and promoting _The Turing Way_. As discussed in the next subchapter, these contributors are highlighted in the {ref}`Contributors Table<contributors-record-contributors>`.
+Sus contribuciones pueden incluir llevar a cabo pequeñas tareas tales como reportar errores, corregir errores factuales, agregar referencias, abrir temas para discutir una idea, comentando sobre una discusión en curso, intercambiando ideas con otros miembros o citando y promocionando _The Turing Way_. Como se explica en el siguiente subcapítulo, estos colaboradores se resaltan en la {ref}`tabla de colaboradores<contributors-record-contributors>`.
 
-Many contributors will also make substantial contributions such as writing a subchapter, maintaining community interactions, setting up or maintaining project's infrastructure, helping others in their work and supporting their participation. All the substantial contributors are also highlighted in the Contributors Table and named as co-authors [{term}`def<Authors>`] on the book as a whole. As stated in our [Governance document](https://github.com/alan-turing-institute/the-turing-way/blob/main/GOVERNANCE.md), "substantial contribution" is a subjective term. Therefore, we have tried to add much detail as possible in the next subchapters through personas, contribution types and acknowledgements of those contributions including when a contributor is named as an author.
+Muchos colaboradores también harán contribuciones sustanciales como escribir un subcapítulo, manteniendo interacciones comunitarias, establecer o mantener la infraestructura del proyecto, ayudar a otros en su trabajo y apoyar su participación. Todos los colaboradores sustanciales también están resaltados en la tabla de colaboradores y nombrados coautores [{term}`def<Authors>`en el libro en su conjunto. Como se indica en nuestro [documento de Gobernanza](https://github.com/alan-turing-institute/the-turing-way/blob/main/GOVERNANCE.md), la "contribución substancial" es un término ejecutivo. Por lo tanto, hemos intentado añadir mucho detalle en los siguientes subcapítulos a través de personas, tipos de contribuciones y reconocimientos de esas contribuciones, incluyendo cuando un colaborador es nombrado como autor.
 
-Authors are listed in alphabetical order by last name. The first author is always **The Turing Way Community**.
+Los autores están listados en orden alfabético por apellido. El primer autor es siempre **la comunidad Turing Way**.
 
-Authorship is cumulative. If you have been added as an author on one release, you will stay as an author on all future releases.
+La autorización es acumulativa. Si ha sido añadido como autor en una versión, permanecerá como autor en todas las versiones futuras.
 
-If these subchapters do not contain the contribution type that you are interested in or if you would like to know whether you are eligible to be named as an author, please contact the core team by emailing [theturingway@gmail.com](mailto:theturingway@gmail.com).
+Si estos subcapítulos no contienen el tipo de contribución que te interesa o si quieres saber si eres elegible para ser nombrado como autor, ponte en contacto con el equipo central enviando un correo electrónico a [theturingway@gmail. om](mailto:theturingway@gmail.com).
 
-## Creating opportunities for shared ownership
+## Crear oportunidades para la propiedad compartida
 
-As an open-source community, the project invites contributions from the experts and enthusiasts alike to collectively develop guidance, recommendations, and practical resources that can foster a gold-standard for reproducible research.
+Como comunidad de código abierto, el proyecto invita a contribuciones de los expertos y entusiastas por igual a desarrollar una guía colectiva, recomendaciones, y recursos prácticos que puedan fomentar un estándar de oro para la investigación reproducible.
 
-_The Turing Way_ core team values and promotes a culture of collaboration. In contrast to the traditional incentive structure in academia, which often discourages open collaboration, public engagements in project advancement and sharing data early on, we promote a collaborative working culture in _The Turing Way_.
+_La Vía Turística_ valora el equipo principal y promueve una cultura de colaboración. En contraste con la estructura tradicional de incentivos en el mundo académico, que a menudo desalienta la colaboración abierta, los compromisos públicos en el avance del proyecto y el intercambio de datos desde el principio, promocionamos una cultura de trabajo colaborativa en _The Turing Way_.
 
-We intentionally avoid individual authorship in favor of establishing shared ownership and agency in this project. This means that no single person or organisation owns the book or any of its chapters. The book belongs to the community and the chapters are always considered 'work in progress' so that they can evolve over time with newer contributions. We encourage authors to actively involve others in reviewing their work, providing missing information and adding diverse examples, which are impossible to be written by a single person.
+Nosotros evitamos intencionalmente la autoría individual en favor de establecer la propiedad compartida y la agencia en este proyecto. Esto significa que ninguna persona u organización posee el libro o ninguno de sus capítulos. El libro pertenece a la comunidad y los capítulos se consideran siempre "trabajo en curso" para que puedan evolucionarse con el tiempo con nuevas contribuciones. Animamos a los autores a involucrar activamente a otros en la revisión de su obra, proporcionar información faltante y añadir diversos ejemplos, que son imposibles de ser escritos por una sola persona.
 
-We hope that such collaborative efforts lower the psychological barriers for the new contributors who can propose improvements in the book by editing, moving, and adapting its content as the book grows.
+Esperamos que estos esfuerzos de colaboración reduzcan las barreras psicológicas para los nuevos contribuyentes que pueden proponer mejoras en el libro editando, mover y adaptar su contenido a medida que el libro crece.
 
-Furthermore, with our commitment to fair acknowledgement in this project, we create opportunities to highlight the work of every contributor without trying to fit _The Turing Way_ into a traditional credit system.
+Además, con nuestro compromiso de reconocer de forma justa en este proyecto. creamos oportunidades para destacar el trabajo de cada colaborador sin intentar encajar _The Turing Way_ en un sistema de crédito tradicional.
 
-This is also an opportunity for us to promote a cultural change in the research assessment system to better recognise an individual's contributions to open science. These contributions include exchanging skills, sharing research components for reuse, and offering other academic services such as leading collaborative efforts, organising events, offering consulting, maintaining community resources, teaching and mentoring for the benefit of the broader scientific community.
+Esta es también una oportunidad para promover un cambio cultural en el sistema de evaluación de la investigación a fin de reconocer mejor las contribuciones de un individuo a la ciencia abierta. Estas contribuciones incluyen el intercambio de habilidades, compartir componentes de investigación para reutilización y ofrecer otros servicios académicos como dirigir esfuerzos de colaboración, organizar eventos, ofrecer consultas, mantener recursos comunitarios, enseñar y mentorizar en beneficio de la comunidad científica más amplia.
 
-## Highlight your contributions!
+## ¡Resalta tus contribuciones!
 
-In the {ref}`next subchapter <ch-acknowledgement-record>`, we have listed all the documents in this project that is considered "Record of Contributions".
+En el {ref}`subcapítulo siguiente <ch-acknowledgement-record>`, hemos listado todos los documentos de este proyecto que se considera "Registro de Contribuciones".
 
-We want our community members to take pride in the valuable work they have done this project. We invite them to edit these documents to add details of their contributions that they want to highlight in _The Turing Way_.
+Queremos que los miembros de nuestra comunidad se sientan orgullosos del valioso trabajo que han realizado este proyecto. Les invitamos a editar estos documentos para agregar detalles de sus contribuciones que quieren resaltar en _The Turing Way_.
 
-We welcome your suggestions and ideas for creating more ways to acknowledge you.
+Agradecemos sus sugerencias e ideas para crear más formas de reconocerle.

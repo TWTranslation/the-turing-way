@@ -1,43 +1,43 @@
 (pd-overview-version)=
-# Version Control and Documentation
+# 版本控制和文档
 
-Once the project is designed, is important to keep track of all the changes. This will save you a lot of time and can help others understand and reuse your research - you have a record of what worked best and information to understand why.
+一旦项目设计，就必须跟踪所有变化。 这将节省您很多时间，并可以帮助他人理解和重新使用您的研究 — — 您有最有效的记录和信息来理解原因。
 
-(pd-overview-version-experiments)=
-## Experimental Work
+(pd-overview-version-experience)=
+## 实验性工作
 
-It is necessary to write down all the details about your experimental work. This allows future reader, a colleague and your future self to understand and reproduce all the experimental work related to your project.
+必须写下所有关于您实验性工作的细节。 这使得未来的阅读者、同事和你的未来能够理解和复制与你的项目相关的所有实验性工作。
 
-An useful tool to do this is {ref}`Electronic Lab Notebooks<rr-open-notebooks>` (ELNs). ELNs are a digital version of the paper notebook, with the added advantage of searchability, secure storage and remote access. They also are easy to share among team members and collaborators.
+进行这项工作的一个有用工具是 {ref}`电子实验室笔记本<rr-open-notebooks>` (ELNs)。 ELNs是纸面笔记本的数字版，具有搜索、安全储存和远程访问的额外优势。 他们也很容易在团队成员和合作者之间分享。
 
-It is important to document and share the methodology, analysis and procedures used, as well as data specific information.
+重要的是记录和分享所采用的方法、分析和程序以及具体的数据。
 
-(pd-overview-version-comp)=
-## Computational Work
+(pd-overview.version-comp)=
+## 计算工作
 
-In the active phase of a project is important to keep consistency in your code (read this chapter on {ref}`code quality<rr-code-quality>`), as well as documenting and creating tests for it.
+在一个项目的活动阶段，保持您的代码的一致性很重要(阅读本章关于 {ref}`代码质量<rr-code-quality>`)， 以及记录和创建测试结果。
 
-Documenting your code will help others understand your work. Some tools that can be used to document your code more easily are:
-- "Docstring" in R or Python
-- "Javadoc" format in Java
-- Integrated software development (RStudio, Eclipse, VS Code) facilitate the comment writing process and the generation of documentation.
+记录你的代码将有助于其他人了解你的工作。 一些工具可以更容易地记录您的代码：
+- 以R或Python为单位的“Docstring”
+- Javadoc的"Javadoc"格式
+- 综合软件开发(RStudio、Eclipse、VS Code)便于撰写评论和编写文件。
 
-Creating tests helps to save time and money. By providing a way to know if your code works, mistakes can be easily addressed by you and others.
+创建测试有助于节省时间和资金。 通过提供一个了解您的代码是否工作的方法，您和其他人可以轻松地处理错误。
 
-To read more about code testing go to the {ref}`Code Testing chapter<rr-testing>`.
+要阅读更多关于代码测试的信息，请到 {ref}`代码测试章节<rr-testing>`。
 
 (pd-overview-version-vcs)=
-## Version Control
+## 版本控制
 
-Recording all the changes made while researching is a principal part of doing reproducible research. It helps you and others understand the decisions made and makes the work reproducible - you will have all the information about the steps taken.
+记录在研究过程中所做的所有更改是进行可复制研究的主要部分。 它有助于您和其他人理解所作的决定，并使工作可以重置－您将掌握所有关于所采取步骤的信息。
 
-If working on a collaborative project, this will also help to keep track of who performed each change.
+如果开展一个协作项目，这也将有助于跟踪谁执行了每一项变化。
 
-The added advantage is that everything will be neatly organized, with easy access to the current version of your project and ways to look for changes made in the past.
+另一个好处是，一切都将组织得很严谨。 可以轻松访问当前版本的你的项目以及寻找过去所做的更改的方法。
 
-Some systems for controlling versions are:
+有些版本控制系统是：
 - Git
 - Mercurial
 - Subversion
 
-There is an extensive chapter about {ref}`Version Control System<rr-vcs>` in the Guide for Reproducible Research that can be helpful at this stage.
+在本阶段可复制研究指南中有关于 {ref}`版本控制系统<rr-vcs>` 的大篇章可以很有帮助。

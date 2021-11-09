@@ -1,47 +1,47 @@
 (ch-template-newsletter-draft)=
-# Template for drafting _The Turing Way_ Newsletters
+# 草拟 _的模版_ 简易通讯的模版
 
 ```
-Date: DD Month YYYY
+日期：YYYY
 
-# title
+# 标题
 
-Hello Turing Way friends!
+你好路朋友！
 
-This month ...
+本月...
 
-Shout out ...
+冲出...
 
-Events ...
+事件...
 
-Find more details on these topics below 👇
+在:backhand_index_pointing_down下面找到这些主题的更多细节：
 
 
-## Community meetings
+## 社区会议
 
     <About events like Collaboration Café, book dash, other meetings>
 
-## News from the community
+## 来自社区的新闻
 
     <Any news from the team, community members, and new chapters>
 
-## Relevant resources
+## 相关资源
 
     <Any useful resources like relevant publication, training items, and materials from collaborators>
 
-## Tips & Tricks for new contributors
+##提示 & 推荐给新贡献者
 
     <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
 
-## Acknowledgments and celebrations
+#纪念和庆祝
 
     <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
 
-## Special mentions
+## 特别提及
 
     <Shout out to the reviewers for this newsletter other than the team members>
 
-## Connect with us!
+## 与我们联系！
 
 - [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
@@ -54,6 +54,6 @@ Find more details on these topics below 👇
 You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*Did you miss the last newsletters?*
-*Check them out [here](https://tinyletter.com/TuringWay/archive).*
+*您错过了上次的通讯吗？*
+*查看他们 [here](https://tinyletter.com/TuringWay/archive).*
 ```

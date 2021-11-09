@@ -1,58 +1,58 @@
 (ch-coc-enforcement)=
-# 4 Enforcement Manual
+# 4 Manual de refuerzo
 
-This is the enforcement manual followed by the Turing Way project research team. It's used when we respond to an issue to make sure we're consistent and fair. Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
+Este es el manual de ejecución seguido por el equipo de investigación del proyecto Turing Way. Se utiliza cuando respondemos a un problema para asegurarnos de que somos consistentes y justos. La aplicación del Código de Conducta debe ser respetuosa y no incluir ningún comportamiento acosador.
 
-## 4.1 The Code of Conduct Committee
+## 4.1 El Comité del Código de conducta
 
-The Code of Conduct committee is:
+El Comité del Código de Conducta es:
 
 * Kirstie Whitaker: kwhitaker@turing.ac.uk
 * Anna Krystalli: a.krystalli@sheffield.ac.uk
 * Ben Murton: bmurton@turing.ac.uk
 
-As the community grows, we will seek to build a larger committee including members outside of the core development team.
+A medida que la comunidad crezca, trataremos de crear un comité más grande que incluya miembros fuera del equipo de desarrollo principal.
 
-## 4.2 Urgent Situations: Acting Unilaterally
+## 4.2 Situaciones urgentes: Actuación unilateral
 
-If the incident involves physical danger, or involves a threat to anyone's safety (such as threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member. This can include contacting law enforcement (or other local personnel) and speaking on behalf of the Turing Way team.
+Si el incidente implica peligro físico, o implica una amenaza para la seguridad de cualquier persona (como amenazas de violencia), cualquier miembro de la comunidad puede (y debe) actuar de manera permanente para proteger la seguridad de cualquier miembro de la comunidad. Esto puede incluir ponerse en contacto con la policía (o con otro personal local) y hablar en nombre del equipo de Turing Way.
 
-If the act is ongoing, any community member may act immediately, before reaching consensus, to diffuse the situation. In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.
+Si el acto está en curso, cualquier miembro de la comunidad puede actuar inmediatamente, antes de llegar a un consenso, para diferir la situación. En situaciones en curso, cualquier miembro puede emplear a su discreción cualquiera de las herramientas disponibles en este manual de aplicación, incluyendo prohibiciones y bloques en línea, o remover de un espacio físico.
 
-In situations where an individual community member acts unilaterally, they must inform Kirstie Whitaker as soon as possible, and report their actions for review within 24 hours.
+En situaciones en las que un miembro individual de la comunidad actúa de manera multilateral, deben informar a Kirstie Whitaker lo antes posible, e informar de sus acciones para su revisión en un plazo de 24 horas.
 
-## 4.3 Less-Urgent Situations
+## 4.3 Situaciones menos urgentes
 
-Upon receiving a report of an incident, the CoC committee will review the incident and determine, to the best of their ability:
+Tras recibir un informe de un incidente, el Comité del Comité de la CoC revisará el incidente y determinará, en la medida de sus posibilidades:
 
-- whether this is an ongoing situation
-- whether there is a threat to anyone's physical safety
-- what happened
-- whether this event constitutes a Code of Conduct violation
-- who, if anyone, was the bad actor
+- si esta es una situación continua
+- si hay una amenaza para la seguridad física de alguien
+- qué pasó
+- si este evento constituye una violación del Código de Conducta
+- quien, si alguien, era el mal actor
 
-This information will be collected either in person or in writing. The CoC committee will provide a written summary of the information surrounding the incident. All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1". The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
+Esta información se recogerá personalmente o por escrito. El Comité de CoC proporcionará un resumen escrito de la información relacionada con el incidente. Todos los participantes serán anonimizados en el informe resumido, denominado "Miembro de la Comunidad 1", "Miembro de la Comunidad 2" o "Miembro del Equipo de Investigación 1". La "clave de des-anónima" se mantendrá en un archivo separado y sólo se accederá para enlazar informes repetidos contra la misma persona a lo largo del tiempo.
 
-The CoC committee will aim to have a resolution agreed upon within one week. In the event that a resolution can't be determined in that time, a member of the CoC committee will respond to the reporter(s) with an update and projected timeline for resolution.
+El Comité de la Coca tratará de alcanzar un acuerdo sobre una resolución en el plazo de una semana. En el caso de que una resolución no se pueda determinar en ese tiempo, un miembro del Comité CoC responderá a los reportero(s) con una actualización y proyectada cronología para su resolución.
 
-## 4.4 Resolutions
+## 4.4 Resoluciones
 
-The CoC committee will seek to agree on a resolution by consensus of all members investigating the report in question. If the committee cannot reach consensus and deadlocks for over a week, Dr Whitaker, as lead investigator of the Turing Way project, will break the tie. If Dr Whitaker is unable to take part in the discussion due to a conflict of interest, Dr Ben Murton, as an external member of the CoC committee, will make the decision.
+El Comité CoC tratará de acordar una resolución por consenso de todos los miembros que investiguen el informe en cuestión. Si la comisión no puede alcanzar un consenso y un bloqueo durante más de una semana, El Dr. Whitaker, como investigador principal del proyecto Turing Way, romperá la corbata. Si el Dr. Whitaker no puede participar en la discusión debido a un conflicto de intereses. El Dr. Ben Murton, como miembro externo del Comité de la CoC, tomará la decisión.
 
-Possible responses may include:
+Las posibles respuestas pueden incluir:
 
-* A mediated conversation or agreement between the impacted community members.
-* A request for a verbal or written apology, public or private, from a community member.
-* A public announcement clarifying community responsibilities under the Code of Conduct.
-* Nothing, if the issue reported is not a violation or outside of the scope of this Code of Conduct.
-* A private in-person conversation between a member of the research team and the individual(s) involved. In this case, the person who has the conversation will provide a written summary for record keeping.
-* A private written reprimand from a member of the research team to the individual(s) involved. In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing Kirstie Whitaker for record keeping.
-* A public announcement of an incident, ideally in the same venue that the violation occurred (such as on the listserv for a listserv violation; and GitHub for a GitHub violation). The committee may choose to publish this message elsewhere for posterity.
-* An imposed "time out" from online spaces. Kirstie Whitaker will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all Turing Way project spaces (like on GitHub, online calls or in-person events). The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained. If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
+* Una conversación mediada o un acuerdo entre los miembros de la comunidad afectados.
+* Solicitud de disculpa verbal o escrita, pública o privada, por parte de un miembro de la comunidad.
+* Un anuncio público que aclara las responsabilidades de la comunidad en virtud del Código de Conducta.
+* Nada, si la cuestión informada no es una violación o fuera del alcance de este Código de Conducta.
+* Una conversación privada en persona entre un miembro del equipo de investigación y el individuo involucrado. En este caso, la persona que tenga la conversación le proporcionará un resumen escrito para guardar registros.
+* Una reprimenda privada por escrito de un miembro del equipo de investigación al individuo (s) involucrado. En este caso, el miembro del equipo de investigación entregará esa reprimenda al individuo (s) por correo electrónico, cc'ing Kirstie Whitaker para mantener los registros.
+* Un anuncio público de un incidente, idealmente en el mismo lugar que ocurrió la violación (como en el listserv para una violación de listserv; y GitHub para una violación de GitHub). El comité puede optar por publicar este mensaje en otro lugar para la posteridad.
+* Un "tiempo agotado" impuesto de los espacios en línea. Kirstie Whitaker comunicará este "tiempo agotado" al individuo (s) involucrado.
+* Una prohibición permanente o temporal de algunos o todos los espacios del proyecto Turing Way (como en GitHub, llamadas en línea o eventos en persona). El equipo de investigación mantendrá registros de todas estas prohibiciones para que puedan ser revisadas en el futuro, extendido a un equipo de seguridad del Código de Conducta a medida que se construye, o se mantiene de otro modo. Si un miembro de la comunidad es retirado de un evento, no serán reembolsados por ninguna parte del evento que se pierdan.
 
-Once a resolution is agreed upon, but before it is enacted, a member of the CoC committee will contact the original reporter and any other affected parties and explain the proposed resolution. The CoC committee member will ask if this resolution is acceptable, and must note feedback for the record. However, the CoC committee is not required to act on this feedback.
+Una vez que se acuerde una resolución, pero antes de su promulgación, un miembro del comité de la CoC se pondrá en contacto con el reportero original y con cualquier otra parte afectada y explicará la resolución propuesta. El miembro del comité de la CoC preguntará si esta resolución es aceptable y debe tomar nota de los comentarios para que conste en acta. Sin embargo, el Comité de la CoC no está obligado a actuar conforme a estos comentarios.
 
-## 4.5 Conflicts of Interest
+## 4.5 Conflictos de interés
 
-In the event of any conflict of interest such that Dr Whitaker is not able to evaluate or enforce the reported violation, Ben Murton will take Kirstie's place.
+En caso de conflicto de intereses tal que el Dr. Whitaker no sea capaz de evaluar o hacer cumplir la violación informada, Ben Murton tomará el lugar de Kirstie.

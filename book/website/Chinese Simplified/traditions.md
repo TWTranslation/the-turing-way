@@ -1,51 +1,51 @@
-(communication-aa-traditions)=
-# Discipline specific authorship traditions
+(通信-aa-traditions)=
+# 特定学科的作者传统。
 
-When you speak to researchers from different disciplines about academic authorship, you get many different answers about who they think should be an author, what order the authors should take and what the order means. It is therefore apparent that there are different discipline-specific traditions about how authorship is conducted for journal articles.
+当你与来自不同学科的研究人员谈论学术著作， 关于谁应该是作者，谁应该是作者，作者应该采取什么样的顺序以及订单的含义，你得到了许多不同的答案。 因此，在如何为期刊文章撰写作方面，显然存在着不同的不同学科传统。
 
-(communication-aa-traditions-humss)=
-## Humanities and social science disciplines
+(通信-aa-traditions-humss)=
+## 人文学和社会学科。
 
-Single author publications are more common in Humanities disciplines than in Science, Technology and Medicine. Research, and the writing aspect of this, is more often seen as a solo endeavour due to the nature of the subjects involved and therefore single author papers and books are highly valued. However, a recent [white paper by Taylor & Francis](https://authorservices.taylorandfrancis.com/co-authorship-in-the-humanities-and-social-sciences/) concerning co-authorship in the humanities and social sciences found that co-authorship seems to be increasing with 74% of respondents to a recent survey reporting their typical number of authors per paper being two or more.
+单一作者出版物在人文学科比在科学、技术和医学学科中更为常见。 研究和写作方面 由于所涉主题的性质，人们往往将其视为一种独特的努力，因此单一的作者论文和书籍受到高度重视。 然而，仍然存在着这种情况。 泰勒最近编写的一份 [白皮书 & Francis](https://authorservices.taylorandfrancis.com/co-authorship-in-the-humanities-and-social-sciences/) 涉及人文学和社会科学方面的共同作者，发现合著者人数似乎在增加，最近一项调查的74%的答复者报告说，他们每份作者的典型人数是两人或更多。
 
-This tradition though does mean that co-authorship is less well discussed and there seems to be no consensus on how it should be approached. The Taylor & Francis white paper also states that issues have arisen concerning the over-crediting of senior or supervisory researchers and only 18% of respondents reporting having received training in determining academic authorship.
+虽然这种传统确实意味着共同作者讨论较少，而且似乎没有就如何处理共同作者问题达成共识。 Taylor & Francis 白皮书还指出，出现了对高级或主管研究人员的过度委派问题，只有18%的答复者报告接受过确定学术著作的培训。
 
-(communication-aa-traditions-med)=
-## Medical Sciences
-The [International Committee of Medical Journal Editors (ICMJE) has a clear set of guidelines for medical science](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) that is also used more widely in other scientific disciplines journals. The criteria are clear for authorship and require substantial contributions to several areas of the research project, including writing or editing. It sets out four criteria that must all be met to be deemed an author on the paper:
-* Significant involvement in the study design, data collection or analysis.
-* Involvement in drafting or revising the manuscript.
-* Approval of the final version of the manuscript.
-* Responsibility for accuracy and integrity of all aspects of research.
+(通信-aa-traditions-med)=
+## 医学科学
+[国际医学杂志编辑委员会(医学期刊编辑委员会)有一套明确的医学准则](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) ，其他学科杂志也更广泛地使用这些准则。 编写标准很明确，需要对研究项目的几个领域作出大量贡献，包括撰写或编辑。 它规定了必须符合四项标准才能被视为文件的作者：
+* • 大量参与研究设计、数据收集或分析。
+* 参与起草或修订手稿。
+* 核准手稿的最后版本。
+* 负责研究所有方面的准确性和完整性。
 
-If all these criteria are not met then these contributors can only be added to the acknowledgements. Therefore, these criteria are not inclusive in terms of authorship for all contributions to a research project, even if they are substantial contributions such as software development.
+如果不符合所有这些标准，则只能将这些贡献者添加到确认书中。 因此，就研究项目所有捐款的编写方式而言，这些标准并不包括在内。 即使它们是软件开发等巨大贡献。
 
-Many journals in this discipline still use their own guidelines or modified versions of the ICMJE guidelines due in part to a disagreement that an individual whose sole contribution is as the main writer would not qualify as an author {cite}`Panter2021bestpractices`. It is thought that this should allow authorship because to write a paper you would also need to understand and interpret the data therefore fulfilling the first criteria.
+这个学科的许多期刊仍然使用自己的准则或经修改的ICMJE准则版本，部分原因是有人不同意单独贡献为主要作者的个人不符合作者的资格： {cite}`Panter2021最佳做法` 据认为，这应该允许作者，因为要编写一份文件，你也需要理解和解释数据，因此符合第一个标准。
 
-(communication-aa-traditions-nat)=
-## Natural Sciences
-The natural sciences have no standard way to define academic authorship.
+(通信-aa-traditions-nat)=
+## 自然科学
+自然科学没有界定学术著作权的标准方法。
 
-Leading journals such as the Proceedings of the National Academy of Sciences of the United States of America ([PNAS](https://blog.pnas.org/iforc.pdf)) have set out that 'authorship must be limited to those who have contributed substantially to the work'.
+诸如美利坚合众国国家科学院议事录（[PNAS](https://blog.pnas.org/iforc.pdf)）等主要刊物规定，“作者必须限于对作大量贡献者”。
 
-They also specify that the specific contributions of authors to the published work must be written in the footnote to the paper. Examples of designations include: designed research, performed research, contributed new reagents or analytic tools, analyzed data, wrote the paper.
+它们还具体规定，作者对已出版作品的具体贡献必须写在文件的脚注中。 命名的例子包括：设计研究、进行研究、提供新试剂或分析工具、分析数据、写本文件。
 
-This does mean that an author could be someone that does not write the paper, however, they must have agreed to the version of the paper that is submitted so this implies they have at least read and made comments on the final version.
+但这并不意味着作者可能是不撰写文件的人。 他们必须已经同意提交的文件文本，这意味着他们至少阅读了最后文本并提出了意见。
 
-Other journals such as [PLOS One](https://journals.plos.org/plosone/s/authorship), [e-life](https://reviewer.elifesciences.org/author-guide/journal-policies) and [F1000 Research](https://f1000research.com/gateways/nc3rs/for-authors/article-guidelines/research-articles) are using the ICMJE criteria for authorship but in combination with a wider attribution for different contributions using the [CRediT Taxonomy](https://casrai.org/credit/).  
-This is a high-level taxonomy that includes 14 roles to represent typical roles within scientific research making the contributions section of a paper at least more inclusive.
+其他日记，例如 [浮动一个](https://journals.plos.org/plosone/s/authorship)， [电子生活](https://reviewer.elifesciences.org/author-guide/journal-policies) 和 [F1000 Research](https://f1000research.com/gateways/nc3rs/for-authors/article-guidelines/research-articles) 正在使用ICMJE 的作者标准，但使用 [CRediT 分类法，结合更广泛的不同贡献归属](https://casrai.org/credit/)  
+这是一个高级别分类法，其中包括14个角色，代表科学研究中的典型角色，使论文的贡献部分至少更具包容性。
 
-(communication-aa-traditions-order)=
-## Order of authors and what this means
+(通信-aa-traditions-order)=
+## 作者顺序和这意味着什么
 
-The order of authors is also different in each discipline and the placement of each author is often not understood outside of each discipline. The nuances of the author order are not explained anywhere in an academic paper for others to understand, such as how the authors have decided this order and the relevance of it to them.
+每个学科的作者顺序也不同，每个学科以外的作者的位置往往不被理解。 提交人命令的细微差别在学术论文中没有任何地方加以解释，供他人理解。 例如，提交人是如何决定这项命令的，以及这项命令对他们的相关性的。
 
-However, in general the first author is seen as the person that has given the main contribution to the project in terms of forming the ideas and structure for the research paper, writing and editing of the article and being in charge of organising the article submission. They are also often the corresponding author that deals with any queries regarding the article. Although, in some academic circles being the corresponding author is a measure of academic status and does not have to be the same person as the first author.
+然而，仍然存在着这种情况。 一般而言，第一作者被视为在形成研究论文的想法和结构方面对该项目作出主要贡献的人， 撰写和编辑文章并负责组织文章提交。 他们也常常是处理与该条有关的任何问题的相应作者。 尽管， 在某些学术界，作为相应的作者，是一种衡量学术地位的标准，不必与第一作者是同一人。
 
-In social sciences, the first author indicates who should get the most credit for the research and the authors are then listed in order of descending contributions, all the way to the last author who has made the least contribution. See the LSE Impact of social sciences blog - [First among equals](https://blogs.lse.ac.uk/impactofsocialsciences/2015/06/18/first-among-equals-guidelines-authorship-credit/) for a wider discussion on first authors.
+社会科学领域： 第一位作者指出，谁应该为研究获得最大的荣誉，然后按捐款降序排列作作者名单。 给最后一个贡献最小的作者。 请参阅社交科学博客的LSE 影响 - [首先等于等于](https://blogs.lse.ac.uk/impactofsocialsciences/2015/06/18/first-among-equals-guidelines-authorship-credit/) 来更广泛地讨论第一作者。
 
-However, in many disciplines the last author or the last two authors have significance and are senior members of the research team. These team members are likely to be in supervisory roles in the project. This could be as PhD supervisors, Principal Investigators or Co-investigators.
+然而，在许多学科中，最后一位作者或最后两位作者具有重要意义，并且是研究小组的高级成员。 这些小组成员很可能在项目中发挥监督作用。 这可以是博士督导员、主要调查员或共同调查员。
 
-The authors in the middle of the list, between the first author and last author/s, can be in the order of most contributions to least, or as an alphabetical list.
+提交人在名单中间第一提交人与最后提交人之间， 可以至少按多数贡献顺序排列，也可以按字母顺序排列。
 
-Some disciplines, such as mathematics (see this [Wikipedia page on academic authorship](https://en.wikipedia.org/wiki/Academic_authorship) for more information), have always used alphabetical lists with no indication in the order given to the amount of contributions made. 
+一些学科，如数学(详情请参阅 [维基百科学术作者网页](https://en.wikipedia.org/wiki/Academic_authorship) )。 总是使用按字母顺序排列的清单，没有注明捐款数额。 

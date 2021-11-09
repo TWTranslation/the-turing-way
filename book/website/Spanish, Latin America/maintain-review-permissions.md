@@ -1,18 +1,18 @@
 (cl-maintain-review-permissions)=
-# Ownership and Permissions
-In any team or organisation owned project, there are different contributors.
+# Propiedad y permisos
+En cualquier proyecto de equipo u organización, hay diferentes colaboradores.
 
-Owners of a project are individuals or teams who generally start a project, or join it at the time of project creation with a defined vision and goals. The owners have the right to give different [levels of permission](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to outside contributors.
+Los propietarios de un proyecto son individuos o equipos que generalmente comienzan un proyecto o únase a él en el momento de la creación del proyecto con una visión y metas definidas. Los propietarios tienen derecho a otorgar diferentes [niveles de permiso](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) a los colaboradores externos.
 
-In Github, there are five levels of permissions: read, triage, write, maintain, and admin.
-* Readers are non-code contributors who are read the content or join discussions on GitHub issues.
-* With triage permission, contributors can manage issues and pull requests without write access.
-* Write permission allows contributors to push changes to the project.
-* Maintain permission is for project managers but have no access to sensitive or destructive actions (such as project deletion).
-* Admins are people who have full access to the project, including sensitive and destructive actions, and are responsible for granting permission to make other contributors.
+En Github, hay cinco niveles de permisos: read, triage, write, maintain, y admin.
+* Los lectores son colaboradores que no son de código que se leen el contenido o se unen a discusiones sobre asuntos de GitHub.
+* Con permiso de triage, los colaboradores pueden gestionar problemas y pull requests sin acceso de escritura.
+* El permiso de escritura permite a los colaboradores enviar cambios al proyecto.
+* El permiso de mantenimiento es para los administradores de proyectos pero no tienen acceso a acciones sensibles o destructivas (como la eliminación del proyecto).
+* Los administradores son personas que tienen pleno acceso al proyecto, incluyendo acciones delicadas y destructivas, y son responsables de conceder permiso para hacer otros colaboradores.
 
-These roles are often defined in a project file such as a [CODEOWNERS file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) or a Ways of Working file (see _The Turing Way_'s [Ways of Working](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) as an example). These files provide insight into the core project team and members responsible for maintenance roles in the project.
+Estos roles a menudo se definen en un archivo de proyecto como un [archivo CODEOWNERS](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) o un archivo de Formas de Trabajo (ver _The Turing Way_'s [Ways of Working](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) como ejemplo). Estos archivos proporcionan información sobre el equipo central del proyecto y los miembros responsables de los roles de mantenimiento en el proyecto.
 
-In this chapter, anyone with triage, write and maintain permission is referred to as maintainers. Maintainers are involved with creating issues and pull requests whenever required. They keep the codebase or project updated and help in reviewing contributions. They can often approve and merge pull requests. They can also request reviews from someone else.
+En este capítulo, cualquier persona con permisos de prueba, escritura y mantenimiento es referida como mantenedores. Los mantenedores están involucrados en la creación de problemas y pull requests cuando sea necesario. Mantienen el código base o proyecto actualizado y ayudan a revisar las contribuciones. A menudo pueden aprobar y fusionar solicitudes de extracción. También pueden solicitar reseñas de otra persona.
 
-*For more information on permission level, please see this [documentation on GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*
+*Para más información sobre el nivel de permisos, por favor vea esta [documentación en GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*

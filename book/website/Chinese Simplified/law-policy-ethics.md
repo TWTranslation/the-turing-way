@@ -1,80 +1,78 @@
-(er-law-policy-ethics)=
-# Ethics and law
+(er-law-policy ethics)=
+# 道德和法律
 
-Laws are made by humans. They reflect the outcomes of negotiations between different people, with different interests and different amounts of power. Complying with laws is usually necessary, but *rarely sufficient*, to ensure that you are acting ethically.
+法律由人类制定。 它们反映了不同民族之间的谈判结果，具有不同的利益和不同的权力水平。 Complying with laws is usually necessary, but *rarely sufficient*, to ensure that you are acting ethically.
 
-## Domestic and regional law
+## 国内法和地区法
 
-You should be aware of what laws cover the open science work that you are doing. This will depend on which jurisdictions you work in: usually the geographical area covered by a law. You should be aware of the laws that cover you at local, state or regional, national, and international levels.
+你应该知道什么法律涵盖你正在从事的开放科学工作。 这将取决于你在法律所涵盖的地理区域通常是哪个管辖区开展工作。 你应该知道在地方、州或区域、国家和国际各级适用于你的法律。
 
-You should also be aware what steps you should take to ensure that you are compliant with all relevant laws. This section is not exhaustive! It is designed to give you some idea of the kinds of laws you should be aware of.
+你也应该知道你应该采取什么步骤来确保你遵守所有相关法律。 本节不是详尽无遗的！ 它旨在让你对你应该知道的法律种类有所了解。
 
-### Data protection law
+### 数据保护法
 
-Data protection laws cover what is permitted by law when collecting and processing data. The aim of data protection laws is to protect the privacy of individuals when collecting and using information about them.
+数据保护法涵盖法律在收集和处理数据时允许的内容。 数据保护法的目的是在收集和使用有关个人的资料时保护个人的隐私。
 
-Data protection laws need to be updated frequently in order to make sure they cover all the ways that different actors are using new forms of technology to collect and use data in new ways. Because data protection laws sit at the limits of what companies - especially big tech giants - are able to do, the process of making, updating and enforcing data protection laws has become increasingly newsworthy. For example, new pieces of legislation such as the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)) in the EU have attracted a lot of attention.
+需要经常更新数据保护法，以确保这些法律涵盖不同行为者利用新形式的技术以新方式收集和使用数据的所有方式。 因为数据保护法处于公司、尤其是大型科技巨人能够做什么的极限。 制定、更新和执行数据保护法的进程越来越具有新闻价值。 例如， 欧盟的一般数据保护条例（[GDRPR](https://gdpr-info.eu/)）等新立法引起了很多关注。
 
-Many countries have a national data protection authority, which is tasked with protecting data. They often produce guidance on how to comply with data protection laws in their country. Wikipedia has a [list of data protection authorities](https://en.wikipedia.org/wiki/National_data_protection_authority) covering lots of countries.
+许多国家都设有国家数据保护机构，负责保护数据。 它们往往就如何遵守本国的数据保护法律提供指导。 维基百科有一份 [的数据保护当局](https://en.wikipedia.org/wiki/National_data_protection_authority) 清单涵盖许多国家。
 
-Data protection laws are sometimes confused with privacy laws, but they are not the same thing.
+数据保护法有时与隐私法混为一谈，但并不是一回事。
 
-### Privacy law
+### 隐私法
 
-Privacy laws protect people's ability to keep themselves, or information about themselves, away from public view. The specific content of privacy laws varies between jurisdictions. Laws may be general, or they may only cover certain kinds of information, sometimes referred to as 'sensitive information' or 'personally identifiable information.' This might include, for example, medical or financial information about a person.
+隐私法保护人们远离公众视线的自我维持或自我信息的能力。 隐私法的具体内容因法域而异。 法律可能是一般性的，或者只能涵盖某些类型的信息，有时被称为“敏感信息”或“可识别个人身份的信息”。 例如，这可以包括有关某人的医疗或财务信息。
 
-Privacy laws have periodically been updated to take into account new technologies, which have offered new ways for privacy to be invaded and for information about people to be shared. This started in the 19th century when newspapers became widespread, and is still happening as legislators try to keep up with developments in the internet and in data collection.
+已定期修订隐私法，以考虑到新技术， 它为侵犯隐私和分享有关人的信息提供了新的途径。 这始于19世纪，当时报纸很普遍， 随着立法者努力跟上互联网和数据收集方面的发展，仍在发生这种情况。
 
-Privacy is sometimes confused with data protection, but it is much broader. For example, the right to privacy protects individuals from having blood samples taken without their permission. It means that body searches must be done in a way that preserves the dignity of the person being searched, and that home searches must only be done to search for evidence, not for harassment. It also makes laws that criminalise private, consensual sex between adults of the same sex unlawful (nonetheless, these laws have not yet been repealed everywhere). Privacy is also a {ref}`human right<er-law-policy-rights>`.
+隐私有时与数据保护混为一谈，但范围要广得多。 例如，隐私权保护个人不在未经其许可的情况下采集血样。 这意味着搜身必须以维护被搜查者尊严的方式进行， 而且家庭搜查只能是为了搜查证据，而不能是为了骚扰。 它还规定将同性成年人之间私下自愿性行为定为犯罪的法律（但这些法律尚未在所有地方被废除）。 隐私也是 {ref}`人权<er-law-policy-rights>`。
 
-### Intellectual property law
+### 知识产权法
 
-Intellectual property refers to creations that have been made by humans. These can include literary and artistic works, as well as inventions. They can also include scientific works and discoveries. Intellectual property rights aim to protect the interests of the creators of these works.
+知识产权是指人类创造的作物。 其中包括文学和艺术作品以及发明。 它们还可包括科学作品和发现。 知识产权旨在保护这些作品创作者的利益。
 
-These can include:
-- copyright: covers creative works, and gives the owner the right to make copies.
-- trademark: covers goods or services, and identifies them as coming from a particular provider.
-- patent: covers inventions, and gives the owner the right to stop other actors from making or selling that invention.
+这些措施可包括：
+- 版权：涵盖创造性作品，并赋予所有者制作副本的权利。
+- 商标：涵盖货物或服务，并将其确定为来自某一特定供应商。
+- 专利：涵盖发明，并赋予所有者阻止其他行为者制造或出售发明的权利。
 
-The World Intellectual Property Organisation (the UN agency which oversees intellectual property issues) has produced FAQs on [copyright](https://www.wipo.int/copyright/en/faq_copyright.html), [trademarks](https://www.wipo.int/trademarks/en/), and [patents](https://www.wipo.int/patents/en/faq_patents.html).
+世界知识产权组织（负责监督知识产权问题的联合国机构）已经在 [版权](https://www.wipo.int/copyright/en/faq_copyright.html)方面产生了问题问答。 [商标](https://www.wipo.int/trademarks/en/)和 [专利](https://www.wipo.int/patents/en/faq_patents.html)。
 
-The extent to which any intellectual property is protected in law varies by jurisdiction, and is often time-limited. Enforcement of intellectual property law also varies by jurisdiction. In general, it is the owner of the intellectual property who is responsible for enforcing their rights, for example by suing another person in court.
+任何知识产权在法律上得到保护的程度因法域而异，而且往往是有时限的。 知识产权法的执行也因法域而异。 一般来说，知识产权所有人负责强制执行其权利，例如通过向法院起诉另一人。
 
-You should know who owns the intellectual property you create. In some situations, it will be you personally. If you are employed, depending on the terms of your employment, your employer may own the intellectual property you create while you work for them. This may impact what you are able to do with the intellectual property you create, including the terms under which you can license it. The relationship between intellectual property law and open source is complicated but it is not necessarily incompatible.
+你应该知道谁拥有你创造的知识产权。 在某些情况下，这将是你个人的。 如果你就业，根据你的就业条件，你的雇主可以拥有你在为他们工作时创造的知识产权。 这可能会影响到您所创建的知识产权，包括您许可该知识产权的条款。 知识产权法与开放源码之间的关系很复杂，但并不一定不相容。
 <!--- Link to the activism chapter, section on advocating for open practice, when we've written it -->
 
-If you own the intellectual property that you create, you should think carefully about how to license it. If you do not explicitly license your content differently, it generally falls under copyright and technically cannot be remixed without your permission. This can present problems for working openly!
+如果你拥有你创建的知识产权，你应该仔细考虑如何授权它。 如果您没有以不同的方式明确授权您的内容，它通常属于版权范围，未经您的许可在技术上不能混杂。 这可能会给公开工作带来问题！
 
-You may use an open license to share code, or content, or both. There are lots of licenses designed especially for sharing broadly, and organizations like Creative Commons and the Free Software Foundation have created tools and resources to facilitate sharing of content, data and code. There is more information in the [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html) chapter.
+您可以使用开放许可证分享代码或内容，或两者兼而有之。 有许多许可证是专门为了广泛分享而设计的。 与知识共享和自由软件基金会等组织建立了工具和资源，以促进内容、数据和代码的共享。 [许可证](https://the-turing-way.netlify.app/reproducible-research/licensing.html) 章节中有更多信息。
 
-## Tort law
+## 侵权法
 
-Tort law is the branch of law which allows people who have been harmed to sue for compensation or other remedy for that harm. Tort law varies by jurisdiction. It can include both harm that arises from negligence, and intentional harm. If you harm someone, either intentionally or negligently, you may be legally liable for the harm caused.
+民事侵权法是法律的分支，它允许受到伤害的人对这种伤害提起诉讼，要求赔偿或其他补救办法。 民事侵权法因法域而异。 它既可包括过失造成的损害，也可包括故意损害。 如果你故意或疏忽伤害某人，你可以对所造成的损害承担法律责任。
 
-Acting ethically, however, usually means going beyond thinking only about legal liability. You should be aware of all the possible harm that your work could cause, not only what you might be legally liable for.
+然而，从道德上讲，行动通常意味着超越仅仅考虑法律责任的范围。 你应该知道你的工作可能造成的一切伤害，而不仅仅是你可能承担的法律责任。
 
-### Contract law
+### 合同法
 
-Contract law is the branch of law which handles how contracts - legal agreements between parties - are enforced. You should know the terms of contracts you have signed, and what those terms mean. You should also know which jurisdiction covers the contract you have signed (this should be in the contract).
+合同法是处理如何执行合同——当事方之间的法律协议——的法律分支。 你应该知道你已经签署的合同条款以及这些条款的含义。 您还应该知道哪个法域涵盖您已经签署的合同(这应该在合同中)。
 
-Ethical work can also include thinking critically about contracts. You should think about what obligations you are signing up for when you sign a contract. You should also think about what contractual obligations you are imposing on other people when you form a contract with them.
+伦理工作还可包括批判性地思考合同问题。 你应该考虑当你签署合约时你要注册什么义务。 你还应该考虑当你与他人订立合同时，你对他人规定了什么合同义务。
 
-## How to change laws
+## 如何修改法律
 
-Law is not static and unchanging. The law is made by humans and it can be changed by humans. If you feel that the law in your jurisdiction works in a way that is unhelpful or damaging, consider joining efforts to change it! Changing laws is a long-term project and can take decades.
+法律不是静止不变的。 法律由人类制定，人类可以改变法律。 如果你觉得你管辖范围内的法律运作方式无助或无益，请考虑共同努力改变它！ 改变法律是一个长期项目，可能需要几十年时间。
 
-This section is not intended to explain how to do this: a good place to start is to find a campaigning organisation who is working on the issue, and ask them how to get involved.
-<!--- edit this to refer to the activism chapter, when we have written it -->
-See details in the chapters on {ref}`er-activism` for more details.
+本节并不是要解释如何这样做：一个良好的起点是找到一个从事这一问题工作的宣传组织。 并问他们如何参与。<!--- 将此编辑到活动一章， 当我们写到它时 -->查看关于 {ref}的章节`er-activm` 的详细信息以获取更多信息。
 
-## Policy
+## 政策
 
-Policy is a general term for a set of ideas or principles that guide actions in particular situations. Policies are not legally binding, but they are designed to encourage certain kinds of behaviours and discourage others. For example, the Turing Way community agrees to abide by the policy set out in the [Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html).
+政策是指导特定情况下行动的一套想法或原则的一般用语。 政策不具有法律约束力，但其目的是鼓励某些行为和劝阻其他行为。 例如，诱惑方式社区同意遵守 [行为守则](https://the-turing-way.netlify.app/community-handbook/coc.html) 规定的政策。
 
-Policies are agreed between groups of people: this can be at organisational, intra-organisational, or governmental level. It is useful to be aware, for example, of policies on ethical research and innovation that are set by your government, or your funding organisation. For example, the American Statistical Association has created [ethical guidelines for statistical practice](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx). Policies can also be set by national or international organisations. If you are a member of a professional or academic organisation, you should be aware of the policies that cover ethical research for your profession.
+政策由各群体商定：可以是组织、组织内或政府一级的政策。 例如，了解贵国政府或贵国供资组织制定的道德研究和创新政策是有益的。 例如，美国统计协会为统计实践制定了 [道德准则](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx)。 政策也可以由国家或国际组织制定。 如果你是专业组织或学术组织的成员，你应该知道为你的职业进行道德研究的政策。
 
-Many ethical guidelines that have been produced are in the form of policy. These can provide useful guidance.
+已经制定的许多道德准则采取政策形式。 这可以提供有益的指导。
 
-Because policies are the result of negotiation and agreement, they can be influenced. If you don't think your professional organisation's policies are strong or effective enough, you can lobby for changes as a member of that organisation. The process for doing this will depend on the organisation. Many companies and organisations have advocacy and lobbying staff who argue for changes in government policy that will benefit their organisation.
+由于政策是谈判和协议的结果，它们可能受到影响。 如果你认为你的专业组织的政策不够强大或有效，你可以作为该组织的成员游说争取改变。 这样做的过程将取决于工发组织。 许多公司和组织都有宣传和游说工作人员，他们要求改变政府政策，使其组织从中受益。
 
-See details in the chapters on {ref}`er-internal-policy` for more details.
+更多详细信息请参阅关于 {ref}的章节`-内部政策` 中的详细信息。

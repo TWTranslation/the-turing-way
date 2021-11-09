@@ -1,27 +1,27 @@
-(rr-licensing)=
-# Licensing
+(rr-licencia)=
+# Licencia
 
-(rr-licensing-prerequisites)=
-## Prerequisites
+(rr-requisitos-licencias)=
+## Prerrequisitos
 
-No previous knowledge is needed, but it is important to understand how licensing can affect your project.
+No se necesita ningún conocimiento previo, pero es importante entender cómo la licencia puede afectar a su proyecto.
 
-(rr-licensing-summary)=
+(resumen de licencia-rr)=
 ## Summary
 
-> This chapter was written using American English, in which the word **license** is a noun **_and_** a verb. With British English, however, **licence** is a noun (as in, _to issue a licence_), while **license** is a verb (as in, _they licensed the event_).
+> Este capítulo se escribió utilizando el inglés estadounidense, en el que la palabra **licencia** es una palabra **_y_** un verbo. Sin embargo, con el inglés británico, **licencia** es una palabra clave (como en, _para emitir una licencia_), mientras que **licencia** es un verbo (como en, _licenciaron el evento_).
 
-As with anything else in society, some of what you can and cannot do in software development is determined by the law. Most of the constraints in this particular domain stem from intellectual property laws: laws that make abstract things like designs, stories, or computer programs resemble physical objects by allowing them to be owned.
+Como cualquier otra cosa en la sociedad, parte de lo que se puede y no se puede hacer en el desarrollo de software está determinada por la ley. La mayoría de las restricciones en este dominio particular provienen de leyes de propiedad intelectual: leyes que hacen cosas abstractas como diseños, , o programas de computadora se asemejan a objetos físicos al permitirles ser dueños.
 
-This chapter aims to give a brief summary of relevant intellectual property laws (enough to be able to read most software licenses), explain free and open source software licensing, and explain how combining software from different sources works from a legal perspective. It also gives some rules we have worked out to deal with common situations.
+Este capítulo pretende dar un breve resumen de las leyes de propiedad intelectual relevantes (suficiente para poder leer la mayoría de las licencias de software), explicar las licencias de software libre y de código abierto, y explicar cómo la combinación de software de diferentes fuentes funciona desde una perspectiva legal. También proporciona algunas normas que hemos elaborado para hacer frente a situaciones comunes.
 
-## Motivation
+## Motivación
 
-Without a license, all rights are with the author of the code, and that means nobody else can use, copy, distribute, or modify the work without consent. A license gives this consent. If you do not have a license for your software, it is effectively unusable by the whole research community.
+Sin una licencia, todos los derechos son con el autor del código, y eso significa que nadie más puede usar, copiar, distribuir o modificar el trabajo sin consentimiento. Una licencia da este consentimiento. Si usted no tiene una licencia para su software, es efectivamente inutilizable por toda la comunidad investigadora.
 
 ```{Attention}
-Good legal advice is timely, specific, and given by an expert; this chapter is none of these.
-It was written by an engineer, not by a lawyer, and it is a heavily simplified overview of a very complex field.
-The intent is to give you an overview of the basics so that you will know when to check whether something you want to do has potential legal ramifications.
-Do not make any important decisions based solely on the contents of this chapter.
+Un buen asesoramiento jurídico es oportuno, específico y proporcionado por un experto; este capítulo no es ninguno de ellos.
+Fue escrito por un ingeniero y no por un abogado, y es una visión muy simplificada de un ámbito muy complejo.
+La intención es darle una visión general de lo básico para que sepa cuándo comprobar si algo que desea hacer tiene posibles ramificaciones legales.
+No tome decisiones importantes basadas únicamente en el contenido de este capítulo.
 ```

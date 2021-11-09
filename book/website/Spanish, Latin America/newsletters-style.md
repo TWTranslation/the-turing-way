@@ -1,45 +1,45 @@
 (ch-newsletters-style)=
-# Newsletter's Style Guide
+# Guía de Estilo de Boletín
 
-In the previous subchapter, we described the process of drafting, reviewing and publishing _The Turing Way_'s monthly newsletters.
+En el subcapítulo anterior, describimos el proceso de borrar, revisar y publicar _los boletines mensuales de The Turing Way_.
 
-In this document, we have listed some guidelines to maintain consistency across all the newsletters.
+En este documento hemos enumerado algunas pautas para mantener la consistencia en todos los boletines.
 
-- **File format**: Draft the newsletter in [Markdown](https://en.wikipedia.org/wiki/Markdown)
-- **Filename**: Create a filename with the "newsletter_serial_MonthYYYY.md " format, where "serial" should be replaced by the serial number (in numerical) of the newsletter, the month should be replaced by the short name of the month and YYYY with the year in numerical.
-- **File location on _The Turing Way_ GitHub**: The newsletters are currently stored in the path "the-turing-way/communications/newsletters/".
-    - This location also consists of a "README.md" file that has a table for all the published newsletters that are updated after each release.
-    - This location has a folder called "images" that centrally holds all the images and linked to the corresponding newsletters.
-- **Dates**: "DD Month YYYY" format
-    - use it consistently in the entire document
-    - To reflect a range, use "from DD to DD Month YYYY" format.
-    - Even if the sentences have reference to a day in "yesterday", "today" or "tomorrow", provide the exact date inside parenthesis so that it still makes sense if someone reads a newsletter in the future.
-- **Time**: Use time in [Greenwich Mean Time](https://greenwichmeantime.com/what-is-gmt/) (GMT) or [British Summer Time](https://greenwichmeantime.com/uk/time/british-summer-time/) (BST), followed by a link from [arewemeetingyet.com](https://arewemeetingyet.com/#form) to check the time in relative time zones
-- **Links**: Use the Markdown formatting for link like this, `[text that needs to be linked](full HTTP link)`
-    - Provide links wherever useful, for example, [HackMD for Collaboration Café](https://hackmd.io/@KirstieJane/CollabCafe), [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues), [registration pages](https://www.eventbrite.co.uk/) and [see details](https://github.com/alan-turing-institute/the-turing-way).
-    - Create link for email ids using this Markdown syntax - `[real-email-id](mailto:real-email-id)`
-- **Quoting others**: Use smaller than (>) symbol followed by a space before the quoted sentence. For example: `> This is my legendary quote.` will appear as: > This is my legendary quote.
-- **Header and styling**: The newsletter title is the top header.
-    - Different sections as suggested in the newsletters are second-level headers and the sub-sections are third-level headers.
-    - Use bold letters, italics, hyperlinked texts and quotations wherever applicable
-    - The project name, _The Turing Way_, should be italicised.
-    - Use line breaks for each line consistent with _The Turing Way_ writing format.
-    - Leave at least one line space after each section and subsection.
-- **Language and tone**: Keep the overall language simple and jargon-free, see [_The Turing Way_ style guide](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md#style-guide) for reference.
-    - The tone should be welcoming, friendly and preferably informal. This can be personal to the author's writing style.
-    - Ask more than one person to review your draft to make sure that its content is easy to understand and written clearly.
-    - If using content from a language or culture different from your own, ask people with that language or culture to review your draft to make sure that contents are not misrepresented.
-- **Use of emojis**: It is encouraged to use emoji (*show your personality*) 😇, but keep it simple, neutral and positive.
-    - Be aware that that ambiguous emojis can be misinterpreted by different readers.
-    - When in doubt, ask someone to review your draft.
-- **Use of images**: Only use relevant images linked to the news item in the newsletter.
-    - Make sure that the images are available under CC-BY license or approved to be reused by the owners.
-    - Avoid using memes, images with political or sexual innuendo, or anything that is not directly related to the community.
-    - When drafting the newsletter in a HackMD, drag-n-drop an image into the editor or copy-paste an image to automatically upload the image to [Imgur](https://en.wikipedia.org/wiki/Imgur).
-    - When drafting the newsletter on the GitHub, upload the images in the folder "the-turing-way/communications/newsletters/".
-    - File naming convention for the images is "short-name-monthYYYY.png", where the short-name should be replaced with the identifiable short name of the image, the month should be replaced by the short name of the month and YYYY should be replaced by the year.
-    - File extension can be '.jpg', '.png' or other with compatible image file type.
-    - Use Markdown syntax to link the images in the newsletter: `![](image/path)`.
-    - As suggested in [_The Turing Way_ style guide](https://the-turing-way.netlify.app/community-handbook/style/style-figures.html), create an alt text for the image: `![Alt: Description of the image - this is not the title but actual explanation of the image](image/path)`
-    - Below the image, write a short descriptive title for the image followed by an empty line. Link title to the source such as a tweet or related event.
-    - When using multiple images as panels in one collective image, number each image clearly (this can be done in any photo or text editor) and provide a numbered title for each image. See an example [here](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/newsletter_14_May2020.md#tweets-from-the-community).
+- **Formato de archivo**: Borra el boletín en [Markdown](https://en.wikipedia.org/wiki/Markdown)
+- **Nombre de archivo**: Crea un nombre de archivo con el "newsletter_serial_MonthYYYY. formato d ", donde "serial" debe ser reemplazado por el número de serie (en cero) del boletín, el mes debe ser reemplazado por el nombre corto del mes y YYYY por el año en número.
+- **Ubicación del archivo en _The Turing Way_ GitHub**: Los boletines están actualmente almacenados en la ruta "the-turing-way/communications/newsletters/".
+    - Esta ubicación también consiste en un archivo "README.md" que tiene una tabla para todos los boletines publicados que se actualizan después de cada lanzamiento.
+    - Esta ubicación tiene una carpeta llamada "imágenes" que guarda centralmente todas las imágenes y está enlazada a los boletines de noticias correspondientes.
+- **Fechas**: formato "DD Mes AAAA"
+    - usarlo consistentemente en todo el documento
+    - Para reflejar un rango, utilice el formato "de DD a DD Mes AAAA".
+    - Incluso si las frases tienen referencia a un día en "ayer", "hoy" o "mañana", proporcionar la fecha exacta dentro de paréntesis para que todavía tiene sentido si alguien lee un boletín de noticias en el futuro.
+- **Tiempo**: Usa el tiempo en [Tiempo de Greenwich](https://greenwichmeantime.com/what-is-gmt/) (GMT) o [Tiempo de verano británico](https://greenwichmeantime.com/uk/time/british-summer-time/) (BST), seguido de un enlace de [arewemeetingyet. om](https://arewemeetingyet.com/#form) para comprobar la hora en zonas horarias relativas
+- **Enlaces**: Utilice el formato Markdown para este enlace `[texto que necesita ser enlazado](full HTTP link)`
+    - Proporcionar enlaces siempre que sea útil, por ejemplo, [HackMD para Café de Colaboración](https://hackmd.io/@KirstieJane/CollabCafe), [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues), [páginas de registro](https://www.eventbrite.co.uk/) y [ver detalles](https://github.com/alan-turing-institute/the-turing-way).
+    - Crear enlace para ids de correo electrónico usando esta sintaxis Markdown - `[real-email-id](mailto:real-email-id)`
+- **Citando a otros**: Utilice un símbolo menor que (>) seguido de un espacio antes de la frase citada. Por ejemplo: `> Esta es mi cita legendaria.` aparecerá como: > Esta es mi cita legendaria.
+- **Encabezado y estilo**: El título del boletín es el encabezado superior.
+    - Las diferentes secciones que se sugieren en los boletines son las cabeceras de segundo nivel y las subsecciones son las cabeceras de tercer nivel.
+    - Usar letras en negrita, cursiva, textos hiperenlazados y citas siempre que sea aplicable
+    - El nombre del proyecto, _The Turing Way_, debería ser cursivo.
+    - Utilice saltos de línea para cada línea consistentes con el formato de escritura de _The Turing Way_.
+    - Dejar al menos un espacio de línea después de cada sección y subsección.
+- **Idioma y tono**: Mantenga el lenguaje general simple y libre de jerga, vea [_La ruta de Turing_ guía de estilo](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md#style-guide) para referencia.
+    - El tono debería ser acogedor, amable y preferiblemente informal. Esto puede ser personal al estilo de escritura del autor.
+    - Pida a más de una persona que revise su borrador para asegurarse de que su contenido es fácil de entender y escrito claramente.
+    - Si utiliza contenido de un idioma o una cultura diferente a la tuya, pida a las personas con ese idioma o cultura que revisen su borrador para asegurarse de que los contenidos no están mal representados.
+- **Uso de emojis**: Se anima a usar emoji (*mostrar tu personalidad*) 😇, pero manténgalo simple, neutral y positivo.
+    - Tenga en cuenta que ese emojis ambiguo puede ser malinterpretado por diferentes lectores.
+    - Cuando esté en duda, pida a alguien que revise su borrador.
+- **Uso de imágenes**: Utilice sólo imágenes relevantes vinculadas a la noticia en el boletín de noticias.
+    - Asegúrese de que las imágenes están disponibles bajo licencia CC-BY o aprobadas para ser reutilizadas por los propietarios.
+    - Evite usar memes, imágenes con innuendo político o sexual, o cualquier cosa que no esté directamente relacionada con la comunidad.
+    - Al redactar el boletín en un HackMD, arrastrar una imagen en el editor o copiar y pegar una imagen para subir automáticamente la imagen a [Imgur](https://en.wikipedia.org/wiki/Imgur).
+    - Al redactar el boletín en el GitHub, sube las imágenes en la carpeta "the-turing-way/communications/newsletters/".
+    - La convención de nombres de archivos para las imágenes es "short-name-monthYYYY. ng", donde el nombre corto debe ser reemplazado por el nombre corto identificable de la imagen, el mes debe ser reemplazado por el nombre corto del mes y YYY debe ser reemplazado por el año.
+    - La extensión del archivo puede ser '.jpg', '.png' u otros con el tipo de archivo de imagen compatible.
+    - Usa la sintaxis de Markdown para enlazar las imágenes en el boletín: `![](image/path)`.
+    - Como se sugiere en la guía de estilo [_The Turing Way_](https://the-turing-way.netlify.app/community-handbook/style/style-figures.html), crear un texto alternativo para la imagen: `! Alt: Descripción de la imagen - este no es el título sino la explicación real de la imagen](image/path)`
+    - Debajo de la imagen, escriba un título descriptivo para la imagen seguido de una línea vacía. Enlace el título a la fuente como un tweet o evento relacionado.
+    - Cuando se utilizan múltiples imágenes como paneles en una imagen colectiva, numerar cada imagen claramente (esto se puede hacer en cualquier editor de fotos o texto) y proporcionar un título numerado para cada imagen. Ver un ejemplo [aquí](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/newsletter_14_May2020.md#tweets-from-the-community).

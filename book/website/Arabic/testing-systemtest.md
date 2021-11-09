@@ -1,26 +1,26 @@
-(rr-testing-systemtest)=
-# System Testing
+(r-test-systemtest)=
+# اختبار النظام
 
-Once integration tests are performed, another level of testing called system testing can begin. System testing is a level of software testing where a complete and integrated software is tested. The tester supplies the program with input and verifies if the program's output is correct. If it is not then there is a problem somewhere in the system. Note that this does not have to be done manually, it can be automated. The purpose of these tests is to evaluate the system's compliance with the specified requirements. In many ways, system testing acts as an extension to integration testing. The focus of system tests are to make sure that groups of components function correctly as a cohesive whole.
+وبمجرد إجراء اختبارات التكامل، يمكن أن يبدأ مستوى آخر من الاختبارات يسمى اختبار النظام. واختبار النظام هو مستوى من اختبار البرمجيات حيث يتم اختبار برمجيات كاملة ومتكاملة. يزود المختبر البرنامج بالمدخلات ويتحقق مما إذا كان ناتج البرنامج صحيحا. وإذا لم تكن هناك مشكلة في مكان ما في النظام. لاحظ أنه ليس من الضروري القيام بذلك يدوياً، بل يمكن أن يتم تلقائياً. والغرض من هذه الاختبارات هو تقييم مدى امتثال النظام للمتطلبات المحددة. ومن نواح عديدة، يشكل اختبار النظام امتداداً لاختبار الإدماج. وينصب تركيز اختبارات النظام على التأكد من أن مجموعات المكونات تعمل بشكل صحيح ككل متماسك.
 
-However, instead of focusing on the interfaces between components, system tests typically evaluate the outward functionality of a full piece of software. This set of tests ignores the constituent parts in order to gauge the composed software as a unified entity. Because of this distinction, system tests usually focus on user- or externally-accessible outputs.
+غير أنه بدلا من التركيز على الوصلات البينية بين المكونات، تقيّم اختبارات النظام عادة قدرة برنامج حاسوبي كامل على العمل في الخارج. وتتجاهل هذه المجموعة من الاختبارات الأجزاء المكونة لها من أجل قياس البرمجيات المكونة ككيان موحد. وبسبب هذا التمييز، عادة ما تركز اختبارات النظام على النواتج المتاحة للمستخدم أو الخارجية.
 
-System testing can also test features of the system other than correctness. Examples include:
+كما يمكن لاختبار النظام أن يختبر ميزات النظام خلاف الصلاحية. ومن الأمثلة على ذلك:
 
-- Performance testing: does the program performance meet the minimum requirements? A performance test may measure how long the system takes to run in a given case.
-- Migration testing: does the program work when transferred to another computational environment?
-- Stress/scale/load testing: testing how the program behaves when under stress, for example, when required to process very large volumes of data.
-- Usability testing: how user-friendly the program is (more common in commercial software, tests typically conducted by humans rather than automated).
-- Recovery testing: whether the program can continue if errors occur (again, more common in commercial software).
+- اختبار الأداء: هل يفي أداء البرنامج بالحد الأدنى من المتطلبات؟ وقد يقيس اختبار الأداء المدة التي يستغرقها تشغيل النظام في حالة معينة.
+- اختبار الهجرة: هل ينجح البرنامج عند نقله إلى بيئة حسابية أخرى؟
+- الإجهاد/اختبار الحجم/التحميل: اختبار كيفية تصرف البرنامج عندما يكون تحت الضغط، على سبيل المثال، عندما يكون مطلوبا لمعالجة كميات كبيرة جدا من البيانات.
+- اختبار الاستخدام: مدى سهولة استخدام البرنامج (أكثر شيوعاً في البرمجيات التجارية، والاختبارات التي يجريها عادة البشر بدلاً من الاختبارات الآلية).
+- اختبار الاسترداد: ما إذا كان البرنامج يمكن أن يستمر إذا وقعت أخطاء (ومرة أخرى، أكثر شيوعاً في البرمجيات التجارية).
 
-## System Testing Tips
+## نصائح اختبار النظام
 
-System tests, also called end-to-end tests, run the program, well, from end to end. As such these are the most time consuming tests to run. Therefore you should only run these if all the lower-level tests (smoke, unit, integration) have already passed. If they haven't, fix the issues they have detected first before wasting time running system tests.
+كما أن اختبارات النظام، التي تسمى أيضا الاختبارات من النهاية إلى النهاية، تقوم بتشغيل البرنامج، جيدا، من النهاية إلى النهاية. وعلى هذا النحو، فإن هذه الاختبارات هي أكثر الاختبارات استهلاكاً للوقت. لذلك يجب عليك تشغيل هذه الاختبارات فقط إذا كانت جميع الاختبارات ذات المستوى الأدنى (الدخان، الوحدة، التكامل) قد اجتازت بالفعل. إذا لم تكن لديهم، قم بإصلاح المشكلات التي اكتشفوها أولاً قبل إضاعة الوقت في تشغيل اختبارات النظام.
 
-Because of their time-consuming nature it will also often be impractical to have enough system tests to trace every possible route through a program, especially if there are a significant number of conditional statements. Therefore you should consider the system test cases you run carefully and prioritise:
+ونظراً لطابعها الذي يستغرق وقتاً طويلاً فإنه غالباً ما يكون من غير العملي أيضاً إجراء اختبارات نظام كافية لتتبع كل طريق ممكن من خلال برنامج، ولا سيما إذا كان هناك عدد كبير من البيانات المشروطة. لذلك يجب أن تنظر في حالات اختبار النظام التي تقوم بتشغيلها بعناية وأولوية:
 
-- The most common routes through a program.
-- The most important routes for a program. For example, the LIGO detector aims to find gravitational wave events, which are extremely rare. If there's a bug in that path through the program which monitors the detector then it's a *huge* problem.
-- Cases that are prone to breakage due to structural problems within the program. Though ideally it's better to just fix those problems, but cases exist where this may not be feasible.
+- أكثر الطرق شيوعا من خلال البرنامج.
+- أهم الطرق لبرنامج ما. فعلى سبيل المثال، يهدف جهاز الكشف عن الموجات الجاذبية إلى العثور على أحداث نادرة للغاية. إذا كان هناك خلل في ذلك المسار من خلال البرنامج الذي يراقب الكاشف فستكون مشكلة *كبيرة*
+- الحالات التي تكون عرضة للكسر بسبب مشاكل هيكلية داخل البرنامج. على الرغم من أنه من الأفضل فقط حل تلك المشاكل، لكن الحالات موجودة حيث قد لا يكون هذا ممكنا.
 
-Because system tests can be time consuming it may be impractical to run them very regularly (such as multiple times a day after small changes in the code). Therefore it can be a good idea to run them each night (and to automate this process) so that if errors are introduced that only system testing can detect the programmer will be made aware of them relatively quickly.
+وبما أن اختبارات النظام قد تستغرق وقتا طويلا، فقد يكون من غير العملي إجراء هذه الاختبارات بصورة منتظمة جدا (مثل عدة مرات في اليوم بعد تغييرات صغيرة في الشفرة). ولذلك يمكن أن تكون فكرة جيدة هي تشغيلها كل ليلة (والتشغيل الآلي لهذه العملية) بحيث يمكن الاطلاع عليها بسرعة نسبية إذا ما أُدخلت أخطاء مفادها أن اختبار النظام وحده هو الذي يمكن أن يكتشف المبرمج.

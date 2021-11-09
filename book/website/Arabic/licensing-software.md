@@ -1,29 +1,29 @@
-(rr-licensing-software)=
-# Software Licenses
+(r-licensing-software)=
+# تراخيص البرمجيات
 
-A software license governs the extent of use or redistribution of software, with or without software documentation.
+ويحكم ترخيص البرمجيات مدى استخدام البرمجيات أو إعادة توزيعها، بوثائق البرمجيات أو بدونها.
 
-There are many software licenses in existence. Many of those allow the licensee to do very little, but some give you more freedom to use and re-use the licensed software.
+هناك العديد من تراخيص البرمجيات الموجودة. العديد من هؤلاء يسمحون للمرخَّص لهم بأن يفعلوا القليل جداً، لكن البعض يمنحك المزيد من الحرية في استخدام وإعادة استخدام البرنامج المرخص.
 
-The [https://choosealicense.com/](https://choosealicense.com/) website offers a straightforward mechanism to help you pick the best license for your project.
+يوفر موقع الويب [https://choosealicense.com/](https://choosealicense.com/) آلية مباشرة لمساعدتك على اختيار أفضل ترخيص لمشروعك.
 
-To make some sense of this variety, we can categorize them as follows.
+ولتكوين فكرة عن هذا التنوع، يمكننا تصنيفه على النحو التالي.
 
-## License Categories
+## فئات الترخيص
 
 <table>
     <thead>
         <tr>
-            <th colspan="3">Free</th>
-            <th rowspan="3">Proprietary</th>
+            <th colspan="3">مجاني</th>
+            <th rowspan="3">الملكية</th>
         </tr>
         <tr>
-            <th colspan="2">Copyleft</th>
-            <th rowspan="2">Permissive</th>
+            <th colspan="2">نسخ</th>
+            <th rowspan="2">مسموح</th>
         </tr>
         <tr>
-            <th>Strong</th>
-            <th>Weak</th>
+            <th>قوي</th>
+            <th>ضعيف</th>
         </tr>
     </thead>
     <tbody>
@@ -31,122 +31,122 @@ To make some sense of this variety, we can categorize them as follows.
         <td>GPL<sup>1</sup> CDDL<sup>2</sup></td>
         <td>LGPL<sup>3</sup> MPL<sup>4</sup></td>
         <td>BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
-            <td>Research Only: No&nbsp;copying, No&nbsp;modification</td>
+            <td>البحث فقط: لا&nbsp;نسخ، رقم&nbsp;تعديل</td>
         </tr>
     </tbody>
     <caption>
       <div class="footnote">
-        <sup>1</sup>GPL: GNU General Public License <sup>2</sup>CDDL: Common Development and Distribution License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup> MPL: Mozilla Public License <sup>5</sup> BSD: Berkeley Software Distribution <sup>6</sup> MIT: Massachusetts Institute of Technology
+        <sup>1</sup>GPL: رخصة غنو العامة العامة <sup>2</sup>CDDL: رخصة التنمية والتوزيع المشتركة <sup>3</sup>LGPL: رخصة غنو العامة الأقل العامة <sup>4</sup> MPL: رخصة موزيلا العامة <sup>5</sup> BSD: توزيع برمجيات بيركلي <sup><sup></sup> MIT: معهد ماساتشوستس للتكنولوجيا
       </div>
-      Licenses can either be Free or Proprietary, with Free Licenses further classified as Copyleft or Permissive.
+      ويمكن أن تكون التراخيص إما مجانية أو ملكية، مع تصنيف التراخيص الحرة كتراخيص مؤلفة من نسخ مؤلفة من اليسار أو مسموح بها.
     </caption>
 </table>
 
-(rr-licensing-software-free)=
-## Free Software
+(r-licensing-software-free)=
+## برنامج مجاني
 
-Software licenses are either free or proprietary. Free software comes with license terms that give you ([as defined by GNU](https://www.gnu.org/philosophy/free-sw.html)):
+أما تراخيص البرمجيات فهي إما مجانية أو مملوكة. البرنامج المجاني يأتي مع شروط الترخيص التي تعطيك ([كما عرّفها GNU](https://www.gnu.org/philosophy/free-sw.html)):
 
-* _Freedom 0_: The freedom to run the program as you wish, for any purpose.
-* _Freedom 1_: The freedom to study how the program works, and change it, so it does your computing as you wish. Access to the source code is a precondition for this.
-* _Freedom 2_: The freedom to redistribute copies so you can help others in your community.
-* _Freedom 3_: The freedom to distribute copies of your modified versions to others. By doing this, you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+* _الحرية 0_: حرية تشغيل البرنامج كما تريد، لأي غرض.
+* _الحرية 1_: حرية دراسة كيفية عمل البرنامج، وتغييره، لذلك تقوم بالحوسبة كما تريد. ويعتبر الوصول إلى رمز المصدر شرطاً مسبقاً لذلك.
+* _الحرية 2_: حرية إعادة توزيع النسخ حتى تتمكن من مساعدة الآخرين في مجتمعك.
+* _الحرية 3_: حرية توزيع نسخ من الإصدارات المعدلة على الآخرين. من خلال القيام بذلك، يمكنك أن تعطي المجتمع بأكمله فرصة للاستفادة من التغييرات الخاصة بك. ويعتبر الوصول إلى رمز المصدر شرطاً مسبقاً لذلك.
 
-These four freedoms together effectively neutralize copyright; *Freedoms 0* and *2* let you use the original software and share it with others. *Freedoms 1* and *3* let you create derivative works based on the software and share these with others.
+وهذه الحريات الأربع مجتمعة تحييد حقوق التأليف والنشر فعلياً؛ *الحريات 0* و *2* تسمح لك باستخدام البرنامج الأصلي ومشاركته مع الآخرين. *الحريات 1* و *3* تسمح لك بإنشاء أعمال مشتقة مبنية على البرمجيات ومشاركة هذه الأعمال مع الآخرين.
 
-Note that it is perfectly acceptable to sell copies of free software, warranty, or development services; this is about the freedom to do things with the software, not about its price.
+ملاحظة أن من المقبول تماما بيع نسخ من البرمجيات المجانية أو الضمان أو خدمات التطوير؛ هذا يتعلق بحرية القيام بأشياء مع البرمجيات، وليس بسعرها
 
-There are two other, similar definitions in use; the Open Source Institute's [Open Source Definition](https://opensource.org/osd-annotated) and the [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). The free software definition above, by Richard Stallman, is the most straightforward and concise, and in practice, the categories they define are almost identical.
+وهناك تعريفان متشابهان آخران قيد الاستخدام؛ [تعريف المصدر المفتوح الخاص بمعهد المصدر المفتوح](https://opensource.org/osd-annotated) و [المبادئ التوجيهية البرمجية الحرة Debian Free Software](https://www.debian.org/social_contract#guidelines). وتعريف البرمجيات الحرة الوارد أعلاه، من جانب ريتشارد ستومان، هو أوضح تعريف مباشر ودقيق، ومن الناحية العملية، فإن الفئات التي تعرفها تكاد تكون متطابقة.
 
-Software that is not free is proprietary. Software that you are not allowed to copy or modify falls into this category, as does software with usage restrictions, for example, "For research use only" or "For non-commercial use only".
+والبرمجيات التي لا تكون مجانية هي البرمجيات الملكية. البرنامج الذي لا يسمح لك بنسخه أو تعديله يندرج في هذه الفئة، كما تفعل البرمجيات ذات القيود على الاستخدام، على سبيل المثال، "للاستخدام البحثي فقط" أو "للاستخدام غير التجاري فقط".
 
-There are some confusingly-named subcategories of proprietary software. _Freeware_ is software that can be copied without paying anyone, but comes without source and cannot be modified. _Shared-source_ comes with source, but without permission to modify. Neither of these is free in the above sense.
+وهناك بعض الفئات الفرعية المثيرة للارتباك من البرمجيات المسجلة الملكية. _البرمجيات المجانية_ هي برمجيات يمكن نسخها بدون دفع لأي شخص، ولكنها تأتي بدون مصدر ولا يمكن تعديلها. _المصدر المشترك_ يأتي مع المصدر، ولكن بدون إذن للتعديل. وليس أي من هذين الأمرين حرا بالمعنى الوارد أعلاه.
 
-(rr-licensing-software-derivative)=
-## Derivative Software
+(r-licensing-software-derivative)=
+## برمجيات مشتقة
 
-Within the category of free software, there are several subcategories, which are distinguished by what is allowed when making derivative software. There are two basic ways of making a derivative work of a program or library: modifying it (forking), or combining it with other software (for example using a library in your program). Of course, you can modify and then combine as well.
+وفي إطار فئة البرمجيات الحرة، هناك عدة فئات فرعية يميزها ما هو مسموح به عند صنع البرمجيات المشتقة. هناك طريقتان أساسيتان لعمل عمل مشتقة لبرنامج أو مكتبة: تعديله (شوكينغ)، أو دمجها مع برامج أخرى (على سبيل المثال استخدام مكتبة في برنامجك). وبطبيعة الحال، يمكنك التعديل ثم الجمع أيضاً.
 
-Modifying a program leads to a new program that is derived from the original. This is similar to deriving the new edition of a textbook from the original. Both the original and modified versions are works under copyright law, and both of them may be licensed.
+ويفضي تعديل البرنامج إلى برنامج جديد مستمد من الأصل. وهذا يشبه استخلاص الطبعة الجديدة من كتاب مدرسي من الأصل. وكل من الإصدارات الأصلية والمعدلة هي أعمال بموجب قانون حقوق التأليف والنشر، وقد يتم الترخيص بكليهما.
 
-As an example of combining software, imagine a program A that uses two preexisting libraries B and C. The complete program A will consist of library B, library C, and some code D that connects the libraries together and perhaps adds additional functionality. Each of these four items is a work of authorship with a license. Program A can sometimes be referred to as the "Combined work", "Work as a whole" or "Larger work".
+وكمثال على الجمع بين البرمجيات، تخيلوا برنامجاً A يستخدم مكتبين موجودين مسبقاً هما باء وجيم. البرنامج الكامل ألف سيتألف من المكتبة باء، المكتبة ج، وبعض التعليمات البرمجية D التي تربط المكتبات معا وربما تضيف وظائف إضافية. وكل بند من هذه البنود الأربعة هو عمل يقوم به المؤلفون مع الحصول على ترخيص. ويمكن في بعض الأحيان الإشارة إلى البرنامج ألف على أنه "العمل الموحد" أو "العمل ككل" أو "العمل الأكبر".
 
-Different free software licenses place different constraints on how modified versions and combined works can be licensed.
+وتضع تراخيص البرمجيات المجانية المختلفة قيودا مختلفة على كيفية ترخيص الإصدارات المعدلة والأعمال المجمعة.
 
-(rr-licensing-software-permissive)=
-## Permissive Licenses
+(r-licensing-software-permissive)=
+## التراخيص المسموح بها
 
-As the name implies, permissive free software licenses are the least restrictive. They let you distribute the software unchanged under that license, with or without source code. They will also let you distribute a modified version under any license you like, and let you distribute a combined work under any license.
+وكما يعني الاسم، فإن رخص البرمجيات الحرة المسموح بها هي الأقل تقييدا. يسمحون لك بتوزيع البرنامج دون تغيير بموجب ذلك الترخيص، مع أو بدون شفرة المصدر. كما أنها ستسمح لك بتوزيع نسخة معدلة بموجب أي ترخيص تريده، وتسمح لك بتوزيع عمل مشترك بموجب أي ترخيص.
 
-Examples of well-known permissive licenses are the various BSD licenses, the MIT license, and the Apache License 2.0.
+ومن الأمثلة على التراخيص المرخصة المعروفة جيداً تراخيص BSD المختلفة، ورخصة MIT ورخصة أباتشي 2.0.
 
-(rr-licensing-software-copyleft)=
-## Copyleft
+(r-licensing-software-copyleft)=
+## نسخ
 
-Copyleft licenses add some restrictions to the licensing of derivative works. Like permissive licenses, they let you distribute the software unchanged under that license. However, if you distribute a binary, then you have to include the source code as well. Modified versions have to be distributed under the same license as the original; you are not allowed to change the license.
+وتضيف تراخيص التأليف والنشر بعض القيود على ترخيص الأعمال المشتقة. مثل التراخيص المتساهلة، تسمح لك بتوزيع البرنامج بدون تغيير بموجب ذلك الترخيص. ومع ذلك، إذا قمت بتوزيع ثنائي، فيجب عليك أن تضمِّن رمز المصدر كذلك. الإصدارات المعدلة يجب أن توزع تحت نفس الترخيص كالأصل؛ لا يسمح لك بتغيير الترخيص.
 
-When creating a combined work, a further distinction can be made. _Strong_ copyleft licenses on a component require a combined work to be licensed under the same license as the component. In the example above, if library B is distributed under a strong copyleft license such as the GNU GPL, then program A must be distributed under that same license.
+ويمكن إجراء مزيد من التمييز عند إنشاء عمل مشترك. __ رخص نسخ قوية على المكون تتطلب عمل مجمع للحصول على ترخيص بموجب نفس الترخيص كالمكون. وفي المثال الوارد أعلاه، إذا كانت المكتبة باء موزعة بموجب ترخيص قوي من اليسار المؤلف مثل غنو GPL، ثم يجب توزيع البرنامج A بموجب نفس الترخيص.
 
-_Weak_ copyleft licenses allow the combined work (A) to be distributed under any license, as long as the source for the licensed component (B) is also made available under its original license. They may also require that the recipient of the combined work can re-link the modules after modifying the component.
+_رخص ضعيفة_ نسخ اليسار تسمح للعمل المجمع (A) بأن يتم توزيعه تحت أي رخصة، وما دام مصدر العنصر المرخص به (B) متاحا أيضا بموجب الترخيص الأصلي. وقد تتطلب أيضا أن يتمكن المتلقي للعمل المشترك من إعادة ربط الوحدات بعد تعديل العنصر.
 
-(rr-licensing-software-overview)=
-## Permission Overview
+(r-licensing-software-Overview)=
+## نظرة عامة للصلاحيات
 
 <table>
     <thead>
         <tr>
             <th rowspan="2"></th>
-            <th colspan="2">Copyleft</th>
-            <th rowspan="2">Permissive</th>
-            <th rowspan="2">Proprietary</th>
+            <th colspan="2">نسخ</th>
+            <th rowspan="2">مسموح</th>
+            <th rowspan="2">الملكية</th>
         </tr>
         <tr>
-            <th>Strong</th>
-            <th>Weak</th>
+            <th>قوي</th>
+            <th>ضعيف</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th>Use for anything</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Sometimes</td>
+            <th>استخدام لأي شيء</th>
+            <td>نعم</td>
+            <td>نعم</td>
+            <td>نعم</td>
+            <td>في بعض الأحيان</td>
         </tr>
         <tr>
-            <th>Private changes</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Rarely</td>
+            <th>التغييرات الخاصة</th>
+            <td>نعم</td>
+            <td>نعم</td>
+            <td>نعم</td>
+            <td>نادراً</td>
         </tr>
         <tr>
-            <th>Distribute original</th>
-            <td>Same license, with source</td>
-            <td>Same license, with source</td>
-            <td>Same license, also binary-only<sup>1</sup></td>
-            <td>Rarely</td>
+            <th>توزيع الأصل</th>
+            <td>نفس الرخصة، مع المصدر</td>
+            <td>نفس الرخصة، مع المصدر</td>
+            <td>نفس الرخصة، أيضًا ثنائيًا فقط<sup>1</sup></td>
+            <td>نادراً</td>
         </tr>
         <tr>
-            <th>Distribute modified</th>
-            <td>Same license, with source</td>
-            <td>Same license, with source<sup>2</sup></td>
-            <td>Any license, also binary-only</td>
-            <td>Rarely</td>
+            <th>توزيع التعديل</th>
+            <td>نفس الرخصة، مع المصدر</td>
+            <td>نفس الترخيص، مع المصدر<sup>2</sup></td>
+            <td>أي ترخيص، أيضًا ثنائيًا فقط</td>
+            <td>نادراً</td>
         </tr>
         <tr>
-            <th>Distribute combined</th>
-            <td>Same license, with source</td>
-            <td>Any license, binary additions</td>
-            <td>Any license, also binary-only</td>
-            <td>Rarely</td>
+            <th>توزيع مجمع</th>
+            <td>نفس الرخصة، مع المصدر</td>
+            <td>أي ترخيص، إضافات ثنائية</td>
+            <td>أي ترخيص، أيضًا ثنائيًا فقط</td>
+            <td>نادراً</td>
         </tr>
     </tbody>
     <caption>
       <div class="footnote">
-        <sup>1</sup>Under any license for the MIT license <sup>2</sup>Relicensing LGPL to GPL is allowed
+        <sup>1</sup>بموجب أي رخصة لرخصة MIT <sup>2</sup>نقل LGPL إلى GPL مسموح به
       </div>
-      Permissive licenses grant the largest set of permissions to users. Copyleft licenses require redistribution of the original or modified source to use the same license, with weak copyleft licences allowing a different choice of license for the combined work. Proprietary licenses rarely provide any permissions beyond the right to use the software.
+      تمنح التراخيص المسموح بها أكبر مجموعة من الأذونات للمستعملين. تتطلب تراخيص التأليف والنسخ إعادة توزيع المصدر الأصلي أو المعدل لاستخدام نفس الترخيص، مع رخص ضعيفة للنسخة، مما يسمح باختيار مختلف لرخصة العمل المشترك. ونادرا ما توفر التراخيص المسجلة الملكية أي أذونات تتجاوز الحق في استخدام البرمجيات.
     </caption>
 </table>
 

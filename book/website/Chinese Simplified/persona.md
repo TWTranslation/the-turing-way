@@ -1,29 +1,29 @@
 (pd-persona)=
-# Personas and Pathways
+# 人文和路径
 
-(pd-persona-prerequisites)=
-## Prerequisites
-None.
+（pd-persona-requirementes）=
+## 必备条件
+无。
 
 (pd-persona-summary)=
 ## Summary
-A persona is a detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members. It is meaningful when paired with pathways through which these personas engage with a project.
+一个人是根据对现有成员或未来潜在成员的现实世界观察和理解而想象的使用者或成员的详细情况。 当这些人与某个项目相配对时，它是有意义的。
 
 ```{figure} ../figures/personas.png
 ---
-height: 400px
+高度：400px
 name: personas
-alt: 4 people with diverse appearances are talking to each other, sharing ideas directly with each other and also sharing on social media.
+al:4个不同外观的人正在相互交谈。 彼此直接交流意见，并分享社会媒体信息。
 ---
-People sharing their ideas through direct conversations and on social media. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+人们通过直接对话和社交媒体分享他们的想法。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
 
-(pd-persona-motivation)= In a community-oriented and open source project, participants come with different levels of technical skills, as well as from different backgrounds, identities, demographic distribution and lived experiences. The personas and pathways development tool allows us to take experiences and expectations of individuals into account when planning the community aspects of our projects.
+(个人动机)= 在面向社区和开放源码项目中，参与者掌握不同水平的技术技能。 而且来自不同背景、特性、人口分布和长期经历。 人性和途径发展工具使我们能够在规划我们项目的社区方面时考虑到个人的经验和期望。
 
-This chapter aims to capture different 'personas' of members or users and understand the 'pathways' they take to come in contact or staying involved with the project.
+本章旨在捕捉不同的“个人”成员或用户，并了解他们与项目接触或保持联系的“路径”。
 
-In the first subchapter, we provide a {ref}`persona creation tool<pd-persona-creation>`. In the second subchapter, {ref}`Contributors Personas and Pathways <pd-persona-contributors>`, we discuss how one can identify pathways using examples from _The Turing Way_ community.
+在第一个小章中，我们提供了一个 {ref}`个人创建工具<pd-persona-creation>`。 在第二章， {ref}`贡献者个人和路径 <pd-persona-contributors>`, 我们讨论如何能够利用来自 _的诱惑路径_ 社区的示例来确定路径。
 
-*We welcome you to add your personas and pathways in this chapter to provide more examples from different projects.*
+*我们欢迎您在本章中添加您的个人和路径，以提供更多不同项目的例子。*
 

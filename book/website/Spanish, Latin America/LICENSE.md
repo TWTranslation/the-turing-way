@@ -1,3 +1,3 @@
-# License for this book
+# Licencia para este libro
 
-All content in this book (located in the `book/website/` folder) is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. For more details please see our [README.md](../../README.md) file.
+Todo el contenido de este libro (ubicado en la carpeta `libro/website/` ) está licenciado bajo la [Creative Commons Attribution 4. Licencia internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Para obtener más información, consulte nuestro archivo [README.md](../../README.md).

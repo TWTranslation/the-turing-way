@@ -1,35 +1,35 @@
-(cl-remote-collab-informal)=
-# Informal Coffee Chats
+(cl-remoto-colabo-informal)=
+# Chats de Coffee Informales
 
-When a team is working remotely, they can get together at specific times for online "coffee chats". These are scheduled in advance so that everyone can plan their work and other meetings around them as needed and specifically have no agenda. The purpose is to share a social break together.
+Cuando un equipo está trabajando de forma remota, pueden reunirse en momentos específicos para los "chats de café". Se han programado de antemano para que todos puedan planificar su trabajo y otras reuniones a su alrededor según sea necesario y específicamente no tengan agenda. El propósito es compartir una ruptura social.
 
 ```{figure} ../../figures/remote-book-dash.jpg
 ---
 name: remote-book-dash
-width: 500px
-alt: A person sitting on a chair in front of their computer with their dog beside. There are four different people who have joined online with their coffee/drinks for an informal chat.
+ancho: 500px
+alt: Una persona sentada en una silla frente a su ordenador con su perro al lado. Hay cuatro personas diferentes que se han unido en línea con su café/bebidas para un chat informal.
 ---
-Informal Online Coffee Chats. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Chats Informales de Coffee Online. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Motivation
+## Motivación
 
-All work and no play makes teams anxious and sad. If all of your group's conversations revolve around work and are scheduled as meetings, the team will lose both the serendipity of informal knowledge sharing and the enjoyment of taking a break away from their work. It isn't just fun, their productivity will be higher if they take regular breaks and socialise with others! See [this post](https://buffer.com/resources/science-taking-breaks-at-work/) to discover some reasons why it is good to take breaks.
+Todo el trabajo y ningún juego hace que los equipos se sientan angustiosos y tristes. Si todas las conversaciones de tu grupo se muestran alrededor del trabajo y están programadas como reuniones, el equipo perderá tanto la serendipidad de compartir conocimiento informal como el disfrute de quitarle un rato a su trabajo. No es sólo divertido, su productividad será mayor si toman descansos regulares y se socializan con los demás! Mira [este post](https://buffer.com/resources/science-taking-breaks-at-work/) para descubrir algunas razones por las que es bueno tomar descansos.
 
-## Design the coffee chat
+## Diseñar el chat de café
 
-The first step in running a remote coffee chat is considering the purpose of the social break, who will be invited and to set the time for the conversation.
+El primer paso para ejecutar un chat de café remoto es considerar el propósito de la pausa social, quien será invitado y establecer la hora para la conversación.
 
-Conversations, where *anyone* can join, may be what you want. In March 2020, during the COVID-19 pandemic, Kirstie Whitaker hosted [online morning coffee chats on Zoom](https://twitter.com/kirstie_j/status/1239455513080926208?s=20), which she promoted on Twitter. Different people joined at 7:40 am every morning to match her early morning chats at the Turing Institute between when her train arrived and when she usually started working. The purpose of these calls was to have social contact with anyone else who was up early and looking for motivation to get started. It didn't matter who came along, everyone was invited to join for 20 minutes.
+Conversaciones, donde *cualquiera* puede unirse, puede ser lo que quieras. En marzo de 2020, durante el pandemic COVID-19, Kirstie Whitaker organizó [charlas matutinas de café en línea sobre Zodi](https://twitter.com/kirstie_j/status/1239455513080926208?s=20), que ella promovió en Twitter. Diferentes personas se unieron a las 7:40 cada mañana para emparejar sus charlas tempranas de la mañana en el Instituto Turing entre cuando llegó su tren y cuando empezó a trabajar. El propósito de estas llamadas era tener contacto social con cualquier otra persona que estuviera en marcha temprano y buscando motivación para empezar. No importaba quién viniera, todos fueron invitados a unirse durante 20 minutos.
 
-If the purpose of the coffee chat is to build connections with a team, you may want to consider restricting the invitation to the specific group members. Although this appears less *open* it may be more *inclusive*. Joining a conversation where anyone can join is quite a daunting proposition for some people. Knowing who is going to be at the coffee chat on a regular basis makes attending the call more appealing. Therefore, introverted and less confident members are more likely to participate in the conversation. You are more likely to build trust within a group if they can make accurate predictions about who they will be interacting with during the break. A good example of this purpose is coffee chats for members of a research group.
+Si el propósito del chat de café es construir conexiones con un equipo, puede considerar restringir la invitación a los miembros del grupo específico. Aunque esto parece menos *abierto* puede ser más *inclusivo*. Unirse a una conversación en la que cualquiera puede unirse es una propuesta bastante cautelosa para algunas personas. Conocer quién va a estar en el chat de café de forma regular hace que asistir a la llamada sea más atractivo. Por lo tanto, los miembros introvertidos y menos confiados tienen más probabilidades de participar en la conversación. Es más probable que construya confianza dentro de un grupo si pueden hacer predicciones precisas sobre con quién interactuarán durante el descanso. Un buen ejemplo de este propósito son las charlas de café para los miembros de un grupo de investigación.
 
-Finally, the safest spaces are 1:1 conversations. If the purpose of your coffee chat is to check in with a friend or colleague, particularly if you are worried about how they are doing, consider organising an individual and private coffee chat. Remember that the purpose is not to talk about work or to progress an ongoing collaborations. The purpose of individual coffee chats is to make each other feel supported and heard in ways that can be difficult to replicate in an online space.
+Finalmente, los espacios más seguros son las conversaciones 1:1. Si el propósito de su chat de café es registrarse con un amigo o colega, particularmente si usted está preocupado por cómo están haciendo, considere organizar un chat de café individual y privado. Recuerde que el propósito no es hablar de trabajo o progresar en una colaboración continua. El propósito de los chats individuales de café es hacernos sentir apoyados y escuchados de maneras que pueden ser difíciles de replicar en un espacio en línea.
 
-## Schedule the coffee chat
+## Programar el chat de café
 
-Once you know what you want the purpose of the coffee chat to be, you can schedule it.
+Una vez que sepa lo que quiere que sea el propósito del chat de café, puede programarlo.
 
-- **Identify the online medium**: There are many online tools that allow you to have online face to face conversations with others, such as Zoom, Google meet and Facetime.
-- **Maintain consistency**: Try to ensure that the times are predictable if not always identical across different days.
-- **Invite people**: Send a calendar invitation to the invited participants so they are reminded to take the break at that time.
+- **Identificar el medio en línea**: Hay muchas herramientas en línea que le permiten tener conversaciones cara a cara con otros usuarios como Zoom, Google meet y Facetime.
+- **Conformidad de mantenimiento**: Intenta asegurarte de que los tiempos sean predecibles, si no siempre idénticos a lo largo de diferentes días.
+- **Invitar a personas**: Envía una invitación al calendario a los participantes invitados para que se les recuerde tomar el descanso en ese momento.

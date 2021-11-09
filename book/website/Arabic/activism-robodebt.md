@@ -1,26 +1,26 @@
 (er-activism-robodebt)=
-# Case Study: Tackling Robodebt
+# دراسة حالة إفرادية: معالجة مشكلة الروبوت
 
 ```{figure} ../../figures/robo-debt.jpg
 ---
-name: robo-debt
-alt: This illustration shows a big machine that says 'you owe us'. It has a few people automating debt call, which is impacting the low-income community - there is person on wheelchair, a tired looking mother with an infant and a toddler and a distressed man standing next to her.
+اسم: روبو-ديون
+بديل : هذا التوضيح يظهر آلة كبيرة تقول 'أنت مدين'. ولديها عدد قليل من الأشخاص الذين يقومون تلقائياً باستدعاء الديون، وهو ما يؤثر على المجتمع المحلي المنخفض الدخل - ويوجد شخص على الكرسي المتحرك. أم متعبة تبدو مع رضيع وصبية ورجل محزن يقف بجانبها.
 ---
-Illustration of automated decision-making disproportionately affecting low-income communities.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+توضيح القرار الآلي الذي يؤثر بشكل غير متناسب على المجتمعات ذات الدخل المنخفض.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-The Australian Online Compliance Initiative (OCI - dubbed the 'robodebt' debacle by media) involved a large-scale data matching project between the Federal Tax Office and the Department of Human Services. The automated system sending out debt notices based on this data matching exercise was set up at scale quite quickly resulting in disproportionate impact on those with low socioeconomic status.
+واشتملت مبادرة الامتثال على الإنترنت الأسترالية (OCI - التي أطلق عليها اسم كارثة ”الروبوتين“ بواسطة وسائط الإعلام) على مشروع واسع النطاق لمطابقة البيانات بين مكتب الضرائب الاتحادي وإدارة الخدمات البشرية. وقد أنشئ النظام الآلي الذي يرسل إشعارات الديون استنادا إلى عملية المطابقة هذه للبيانات على نطاق سريع جدا مما أسفر عن أثر غير متناسب على من هم في وضع اجتماعي اقتصادي منخفض.
 
-Some of the attempts at resisting these automated debt calls, very cleverly imitated the automated architecture of the Online Compliance Initiative. Activist organizations collaborated with legal aid groups to set up formal appeals processes. GetUp! created an automated appeal template through a campaign called FraudStop where someone on welfare benefit can challenge the debt claim raised against them by entering a few details, explaining why they want to appeal, and hitting send. The system compiles a formal request for review, prints it off, and sends it by post to Centrelink, the frontline social services delivery agency. It also:
+وبعض المحاولات الرامية إلى مقاومة هذه النداءات المؤتمتة للديون، كانت محاكاة ذكية للغاية للهيكل الآلي لمبادرة الامتثال عبر الإنترنت. وتعاونت المنظمات النشطة مع مجموعات المساعدة القانونية لوضع إجراءات طعون رسمية. احصل على! أنشئ نموذج استدعاء آلي من خلال حملة تسمى "الاحتيال أوقف" حيث يمكن لشخص ما يعمل على استحقاق الرعاية الاجتماعية أن يطعن في مطالبة الدين المقدمة ضده بإدخال بعض التفاصيل، شرح سبب رغبتهم في الاستئناف، وضرب الإرسال. ويقوم هذا النظام بتجميع طلب رسمي للاستعراض، وطباعته، وإرساله بالبريد إلى وكالة سنترلينك، وهي الوكالة الأمامية لتقديم الخدمات الاجتماعية. كما أنه:
 
-* Asks their local MP for assistance — as this could really speed up the process.
-* Sends a complaint to the Human Services Minister — responsible for this automated debt letter debacle.
-* Submits a Freedom of Information request for the individual's Centrelink file — so that they have all the necessary information to fight back.
-* The campaign is archived here: [link](https://fraudstop.com.au/) and here [link](https://www.getup.org.au/campaigns/income-support/chip-in-to-expand-fraudstop/)
+* ويطلب منحهم المساعدة من أعضاء البرلمان المحليين - لأن ذلك يمكن بالفعل أن يعجل بالعملية.
+* يرسل شكوى إلى وزير الخدمات الإنسانية المسؤول عن هذا الانهيار الآلي لخطاب الدين.
+* يقدم طلبا لحرية الإعلام للحصول على ملف مركز المعلومات الخاص بالفرد - حتى تتوفر له جميع المعلومات اللازمة لمحاربته.
+* تم أرشفة الحملة هنا: [رابط](https://fraudstop.com.au/) وهنا [رابط](https://www.getup.org.au/campaigns/income-support/chip-in-to-expand-fraudstop/)
 
 
-## Further Reading
-A September 2020 report by Michele Gilman at the Data and Society Research Institute draws on existing public law frameworks to provide guidance to lawyers on how to challenge automated decision making that disproportionately harms low income communities.
+## المزيد من القراءة
+ويستند تقرير صدر في أيلول/سبتمبر 2020 عن ميشيل جيلمان في معهد بحوث البيانات والمجتمع إلى أطر القانون العام القائمة لتوفير التوجيه للمحامين بشأن كيفية الطعن في صنع القرار الآلي الذي يضر على نحو غير متناسب بالمجتمعات ذات الدخل المنخفض.
 
-POVERTYLAWGORITHMS: A Poverty Lawyer’s Guide to Fighting Automated Decision-Making Harms on Low-Income Communities Refers to rights from Consumer Law, Family Law, Housing, Public Benefits, Schools and Education, Workers’ Rights, Immigration Surveillance [link](https://datasociety.net/library/poverty-lawgorithms)
+POVERTYLAWGORITHMS: دليل محام عن الفقر لمكافحة المزارع المؤتمتة لصنع القرار في المجتمعات المنخفضة الدخل يشير إلى الحقوق الواردة في قانون المستهلكين، قانون الأسرة، والإسكان، والاستحقاقات العامة، والمدارس والتعليم، وحقوق العمال، ومراقبة الهجرة [رابط](https://datasociety.net/library/poverty-lawgorithms)

@@ -1,43 +1,43 @@
 (pd-overview-version)=
-# Version Control and Documentation
+# Control de versiones y documentación
 
-Once the project is designed, is important to keep track of all the changes. This will save you a lot of time and can help others understand and reuse your research - you have a record of what worked best and information to understand why.
+Una vez que el proyecto está diseñado, es importante llevar un seguimiento de todos los cambios. Esto le ahorrará mucho tiempo y puede ayudar a otros a entender y reutilizar su investigación - usted tiene un registro de lo que funcionó mejor e información para entender por qué.
 
 (pd-overview-version-experiments)=
-## Experimental Work
+## Trabajo experimental
 
-It is necessary to write down all the details about your experimental work. This allows future reader, a colleague and your future self to understand and reproduce all the experimental work related to your project.
+Es necesario escribir todos los detalles sobre su trabajo experimental. Esto permite al lector futuro, a un colega y a tu futuro ser capaz de entender y reproducir todo el trabajo experimental relacionado con tu proyecto.
 
-An useful tool to do this is {ref}`Electronic Lab Notebooks<rr-open-notebooks>` (ELNs). ELNs are a digital version of the paper notebook, with the added advantage of searchability, secure storage and remote access. They also are easy to share among team members and collaborators.
+Una herramienta útil para hacer esto es {ref}`bloc de notas de laboratorio electrónico<rr-open-notebooks>` (ELNs). Los ELNs son una versión digital del cuaderno de papel, con la ventaja adicional de búsqueda, almacenamiento seguro y acceso remoto. También son fáciles de compartir entre los miembros del equipo y colaboradores.
 
-It is important to document and share the methodology, analysis and procedures used, as well as data specific information.
+Es importante documentar y compartir la metodología, el análisis y los procedimientos utilizados, así como información específica de los datos.
 
 (pd-overview-version-comp)=
-## Computational Work
+## Trabajo computacional
 
-In the active phase of a project is important to keep consistency in your code (read this chapter on {ref}`code quality<rr-code-quality>`), as well as documenting and creating tests for it.
+En la fase activa de un proyecto es importante mantener la consistencia en su código (lea este capítulo sobre {ref}`calidad de código<rr-code-quality>`), así como documentar y crear pruebas para ello.
 
-Documenting your code will help others understand your work. Some tools that can be used to document your code more easily are:
-- "Docstring" in R or Python
-- "Javadoc" format in Java
-- Integrated software development (RStudio, Eclipse, VS Code) facilitate the comment writing process and the generation of documentation.
+Documentar tu código ayudará a otros a entender tu trabajo. Algunas herramientas que pueden utilizarse para documentar tu código más fácilmente son:
+- "Docstring" en R o Python
+- Formato "Javadoc" en Java
+- El desarrollo integrado de software (RStudio, Eclipse, VS Code) facilita el proceso de escritura de comentarios y la generación de documentación.
 
-Creating tests helps to save time and money. By providing a way to know if your code works, mistakes can be easily addressed by you and others.
+Crear pruebas ayuda a ahorrar tiempo y dinero. Proporcionando una forma de saber si tu código funciona, los errores pueden ser fácilmente abordados por ti y otros.
 
-To read more about code testing go to the {ref}`Code Testing chapter<rr-testing>`.
+Para leer más acerca de la prueba de código, vaya al {ref}`capítulo de pruebas de código<rr-testing>`.
 
 (pd-overview-version-vcs)=
-## Version Control
+## Control de versiones
 
-Recording all the changes made while researching is a principal part of doing reproducible research. It helps you and others understand the decisions made and makes the work reproducible - you will have all the information about the steps taken.
+Grabar todos los cambios realizados mientras se investiga es una parte principal de la investigación reproducible. Esto le ayuda a usted y a otros a entender las decisiones tomadas y hace que el trabajo sea reproducible - usted tendrá toda la información sobre los pasos tomados.
 
-If working on a collaborative project, this will also help to keep track of who performed each change.
+Si trabajamos en un proyecto de colaboración, esto también ayudará a mantener un seguimiento de quién realizó cada cambio.
 
-The added advantage is that everything will be neatly organized, with easy access to the current version of your project and ways to look for changes made in the past.
+La ventaja adicional es que todo estará bien organizado, con fácil acceso a la versión actual de su proyecto y formas de buscar cambios realizados en el pasado.
 
-Some systems for controlling versions are:
+Algunos sistemas para controlar las versiones son:
 - Git
-- Mercurial
-- Subversion
+- Mercurio
+- Subversión
 
-There is an extensive chapter about {ref}`Version Control System<rr-vcs>` in the Guide for Reproducible Research that can be helpful at this stage.
+Hay un extenso capítulo sobre {ref}`Sistema de Control de Versiones<rr-vcs>` en la Guía de Investigación Reproducible que puede ser útil en esta etapa.

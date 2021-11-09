@@ -1,50 +1,50 @@
 (pd-overview-planning)=
-# Planning for Project Design
+# Planificación para diseño de proyecto
 
-Thinking about reproducibility from the start of your project is the best way to save time and get the most out of the available tools. Creating connections between data, code, methodology, as well as diverse collaborators, can seem like a daunting task if it has not been planned from the beginning (see this illustration of {ref}`Research Cycle<research-cycle>`). By documenting and sharing project workflows and processes for research and researchers we can ensure sustainability and reusability of research for both the developers and future users.
+Pensar en la reproducibilidad desde el inicio de su proyecto es la mejor manera de ahorrar tiempo y sacar el máximo provecho de las herramientas disponibles. Creando conexiones entre datos, código, metodología, así como diversos colaboradores, puede parecer una tarea de drenaje si no se ha planeado desde el principio (ver esta ilustración de {ref}`Ciclo de investigación<research-cycle>`). Mediante la documentación y el intercambio de procesos y flujos de trabajo de proyectos para investigación e investigadores podemos garantizar la sostenibilidad y reutilización de la investigación tanto para los desarrolladores como para los futuros usuarios.
 
-A human-centred approach in the context of the research project can lead to a better development process, maintenance, and future extension of our work. Furthermore, it will help improve the quality of future project design as we can learn lessons from what worked and what can be improved.
+Un enfoque centrado en el ser humano en el contexto del proyecto de investigación puede conducir a un mejor proceso de desarrollo, mantenimiento y ampliación futura de nuestro trabajo. Además, ayudará a mejorar la calidad del diseño de proyectos en el futuro, ya que podemos aprender lecciones de lo que funcionó y lo que se puede mejorar.
 
 (pd-overview-planning-expectation)=
-## Setting Expectations Explicitly
+## Configurar las expectativas de forma explícita
 
-Project design practices help provide guidance and set clear expectations by explicitly communicating norms and empowering project members at different levels of hierarchy to collaborate equitably. A project design for reproducible research encompasses a variety of aspects, starting from defining the purpose, main research questions, expected users or target audience, available resources and skills required in the project. It also requires researchers to explore the possible outcomes, plans to address expected challenges or risks, ensure diversity of stakeholders and reduce possible barriers to participation.
+Las prácticas de diseño de proyectos ayudan a proporcionar orientación y establecer expectativas claras al comunicar explícitamente las normas y empoderar a los miembros del proyecto a diferentes niveles de jerarquía para que colaboren equitativamente. Un diseño de proyecto para investigación reproducible abarca una variedad de aspectos, comenzando por definir el propósito, preguntas principales de investigación, usuarios esperados o público objetivo, recursos disponibles y habilidades requeridas en el proyecto. También requiere que los investigadores analicen los posibles resultados, planes para abordar los retos o riesgos esperados, asegurar la diversidad de las partes interesadas y reducir las posibles barreras a la participación.
 
-Project design practices help all stakeholders to be certain about their roles and responsibilities, skill requirements, environment and research setup they want to create for their collaborators, values they want to promote and how they can achieve their goals collaboratively.
+Las prácticas de diseño de proyectos ayudan a todas las partes interesadas a estar seguras de sus roles y responsabilidades, requisitos de habilidad, entorno y configuración de investigación que quieren crear para sus colaboradores, valores que quieren promover y cómo pueden lograr sus objetivos de forma colaborativa.
 
 (pd-overview-planning-started)=
-## Getting Started
+## Comenzando
 
-We can begin with the project design process by identifying different parts of our research such as main research questions, methods and materials, code and data requirement, workflow, communication channels, ways of working, collaborative practices and so on. This process allows us to be intentional from the start to ensure that our research is reproducible, well communicated and inclusive of all stakeholders where decisions are collaboratively made. We can explore and select the right tools and methods for reproducibility in our research and promote good practices such as documentation, version control, peer-review processes, testing, workflow, archiving and data management plan can be promoted from the beginning. Finally, we can plan for publishing and sharing of research components before, during and after the project.
+Podemos comenzar con el proceso de diseño del proyecto identificando diferentes partes de nuestra investigación como las principales preguntas de investigación, métodos y materiales, requerimiento de código y datos, flujo de trabajo, canales de comunicación, formas de trabajo, prácticas de colaboración, etc. Este proceso nos permite ser intencionales desde el principio para asegurar que nuestra investigación sea reproducible, bien comunicado e inclusivo de todas las partes interesadas donde las decisiones se toman en colaboración. Podemos explorar y seleccionar las herramientas y métodos adecuados para reproducibilidad en nuestra investigación y promover buenas prácticas como la documentación, el control de versiones, procesos de revisión por pares, pruebas, flujo de trabajo, archivado y plan de gestión de datos pueden ser promovidos desde el principio. Por último, podemos planificar la publicación y el intercambio de componentes de investigación antes, durante y después del proyecto.
 
-(pd-overview-planning-ethics)=
-## Getting Ethical and Legal Approval
+(pd-Overview-planning-ethics)=
+## Obtener la aprobación ética y jurídica
 
-Every research has the capacity to generate change - this is the basis of discovery and progress. Therefore, it is necessary to consider how your investigation could generate an impact on other people's lives and under which ethical and legal standards it should be conducted.
+Todas las investigaciones tienen la capacidad de generar cambios; esta es la base del descubrimiento y el progreso. Por lo tanto, es necesario considerar cómo su investigación puede generar un impacto en la vida de otras personas y bajo qué normas éticas y legales debe llevarse a cabo.
 
-A project has to be designed considering legal and ethical issues in every step: from the question formulation, data collection and analysis to the results and interpretation. It's important to ask yourself if your project is designed to be inclusive and sustainable, taking into account the implications and social expectations and following ethical principles and professional standards.
+Un proyecto debe diseñarse teniendo en cuenta cuestiones legales y éticas en cada paso: desde la formulación de la pregunta, recopilación de datos y análisis de los resultados e interpretación. Es importante preguntarse si tu proyecto está diseñado para ser inclusivo y sostenible, teniendo en cuenta las implicaciones y expectativas sociales y siguiendo principios éticos y normas profesionales.
 
-Getting ethical and legal approval is a crucial step of the project, this way you can make sure your research is being conducted in a responsible and ethical manner. There are several ways in which a research ethics committee (RECs) proceeds, but there are five principal topics that the ethics committee might want to know about:
+Obtener la aprobación ética y jurídica es un paso crucial del proyecto. de esta manera usted puede asegurarse de que su investigación se está llevando a cabo de forma responsable y ética. Hay varias maneras en las que un comité de ética de investigación (RECs) procede, pero hay cinco temas principales que el comité de ética podría querer conocer:
 
-1. Project Description
-2. Data and Methodology
-3. Consent
-4. Privacy and Security
-5. Further Societal Consequences
+1. Descripción del proyecto
+2. Datos y Metodología
+3. Consentimiento
+4. Privacidad y seguridad
+5. Mujeres sociales adicionales
 
-The {ref}`Research Ethics Committees Processes<er-committees>` chapter have more information about each item. Read other chapters in the {ref}`Guide for Ethical Research<er>`.
+El capítulo {ref}`Etica de Investigación de procesos<er-committees>` tiene más información sobre cada artículo. Lee otros capítulos en la {ref}`Guía para la Investigación Ética<er>`.
 
-## Organising Files and Documents
+## Organizar archivos y documentos
 
 ```{note}
-**Top three 'selfish' reasons to use project design practices**
-1. **Saves time**: once the project is designed and all the connections between different parts of research can be organized with little effort.
-2. **Makes your research openly available**: having your research open from the start can help others working in similar subjects or starting research.
-3. **Get people interested**: you can get people to help you from the start since your project is documented and is easy to share.
+**Top tres razones 'egoístas' para usar prácticas de diseño de proyecto**
+1. **Ahorra tiempo**: una vez que el proyecto está diseñado y todas las conexiones entre diferentes partes de la investigación pueden organizarse con poco esfuerzo.
+2. **Haz que tu investigación esté disponible abiertamente**: abrir tu investigación desde el principio puede ayudar a otros a trabajar en temas similares o a comenzar a investigar.
+3. **Hazte interesar a la gente**: puedes conseguir que la gente te ayude desde el principio, ya que tu proyecto está documentado y es fácil de compartir.
 ```
 
-Create a shared repository to allow easy access to information and different documents related to your project. A project repository can be openly available if you are developing an open source project, or can be shared only with your collaborators. In the chapter {ref}`pd-project-repo`, you can learn about how to set up a repository with key documents like a landing page, contribution guidelines and communication pathways.
+Cree un repositorio compartido para permitir un fácil acceso a información y diferentes documentos relacionados con su proyecto. Un repositorio de proyectos puede estar disponible abiertamente si está desarrollando un proyecto de código abierto, o si puede ser compartido sólo con sus colaboradores. En el capítulo {ref}`pd-project-repo`, puede aprender sobre cómo configurar un repositorio con documentos clave como una página de destino, guías de contribución y rutas de comunicación.
 
-Start by documenting your vision, mission, goals and roadmap in a README file (see the {ref}`pd-project-repo-readme` chapter), followed by a description of resources and norms for collaboration and communication. In the next chapter, we discuss how project design enables good communication and collaboration in research. In the subsequent chapters, we describe different methods and tools for ensuring research reproducibility.
+Comience documentando su visión, misión, objetivos y mapa de ruta en un archivo README (ver el capítulo {ref}`pd-project-repo-readme` ), seguido de una descripción de los recursos y las normas para la colaboración y la comunicación. En el siguiente capítulo, discutimos cómo el diseño de proyectos permite una buena comunicación y colaboración en investigación. En los capítulos posteriores, describimos diferentes métodos y herramientas para asegurar la reproducibilidad de la investigación.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Etiquetas de capítulo**: Este capítulo está supervisado para el `Grupo de estudio de datos de Turing` (`turing-dsg`).*

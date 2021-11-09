@@ -1,68 +1,68 @@
-(rr-rdm-storage)=
-# Data Storage and Organisation
+(rr-rdm-almacenamiento)=
+# Almacenamiento de datos y organización
 
-Data loss can be catastrophic for your research project and can happen often. You can prevent data loss by picking suitable storage solutions and backing your data up frequently.
+La pérdida de datos puede ser tópica para su proyecto de investigación y puede ocurrir a menudo. Usted puede prevenir la pérdida de datos escogiendo soluciones de almacenamiento adecuadas y respaldando sus datos con frecuencia.
 
 ```{figure} ../../figures/version-control.jpg
 ---
 height: 500px
 name: version-control
-alt: Two images are shown to represent the benefits of using version control. On the left, there is an image of two people rummaging through a blue box on top of a table. The box is full of jumbled documents and the people look confused and frustrated. The documents are named "final 2" and "let this be the final". On the right, the same two people look happy and are searching through files organised clearly in a blue filing cabinet. There are "V1, V2, V3 and V4" separations organising the files.
+alt: Se muestran dos imágenes para representar los beneficios del uso del control de versión. A la izquierda, hay una imagen de dos personas que rumorean a través de una caja azul en la parte superior de una mesa. La caja está llena de documentos rebosantes y la gente parece confusa y frustrada. Los documentos se llaman "final 2" y "dejar que ésta sea la final". A la derecha, las mismas dos personas parecen felices y están buscando a través de archivos organizados claramente en un archivador azul. Hay separaciones "V1, V2, V3 y V4" organizando los archivos.
 ---
-_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
+_The Turing Way_ ilustración del proyecto por Scriberia. Versión original sobre Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
-(rr-rdm-storage-where)=
-## Where to Store Data
+(rr-rdm-almacenamiento-dónde)=
+## Dónde almacenar datos
 
-- Most institutions will provide a _network drive_ that you can use to store data.
-- _Portable storage media_ such as memory sticks (USB sticks) are more risky and vulnerable to loss and damage.
-- _Cloud storage_ provides a convenient way to store, backup and retrieve data. You should check terms of use before using them for your research data.
+- La mayoría de las instituciones proporcionarán una _unidad de red_ que se puede utilizar para almacenar datos.
+- _Medios de almacenamiento portátiles_ como los dispositivos de memoria (dispositivos USB) son más arriesgados y vulnerables a pérdidas y daños.
+- _Almacenamiento en la nube_ proporciona una forma conveniente de almacenar, respaldar y recuperar datos. Deberías comprobar los términos de uso antes de usarlos para tus datos de investigación.
 
-Especially if you are handling personal or sensitive data, you need to ensure the cloud option is compliant with any data protection rules the data is bound by. To add an extra layer of security, you should encrypt devices and files where needed.
+Especialmente si está tratando datos personales o confidenciales necesita asegurarse de que la opción de la nube cumple con cualquier regla de protección de datos que los datos estén vinculados. Para añadir una capa extra de seguridad, debe cifrar dispositivos y archivos cuando sea necesario.
 
-Your institution might provide local storage solutions and policies or guidelines restricting what you can use. Thus, we recommend you familiarise yourself with your local policies and recommendations.
+Su institución podría proporcionar soluciones de almacenamiento local y políticas o pautas que restringen lo que puede utilizar. Por lo tanto, le recomendamos que se familiarice con sus políticas y recomendaciones locales.
 
-When you are ready to release the data to the wider community, you can also search for the appropriate databases and repositories in [FAIRsharing](https://fairsharing.org/databases), according to your data type, and type of access to the data. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
+Cuando esté listo para publicar los datos a la comunidad en general. también puede buscar las bases de datos y repositorios apropiados en [FAIRsharing](https://fairsharing.org/databases), de acuerdo a su tipo de datos y tipo de acceso a los datos. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
 
-(rr-rdm-storage-organisation)=
-## Data Organisation
+(rr-rdm-organización-almacenamiento)=
+## Organización de datos
 
-To organise your data, you can create a folder structure, or re-use a previous structure (see an example below), to ensure that you can find your files.
+Para organizar sus datos, puede crear una estructura de carpetas, o vuelva a utilizar una estructura anterior (ver un ejemplo más abajo), para asegurarse de que puede encontrar sus archivos.
 
--   Make sure you have enough (sub)folders so that files can be stored in the right folder and are not scattered in folders where they do not belong, or stored in large quantities in a single folder.
--   Use a clear folder structure. You can structure folders based on the person that has generated the data/folder, chronologically (month, year, sessions), per project (as done in the example below), or based on analysis method/equipment or data type.
+-   Asegúrese de que tiene suficientes (sub)carpetas para que los archivos puedan almacenarse en la carpeta correcta y no estén dispersos en carpetas a las que no pertenecen, o almacenado en grandes cantidades en una sola carpeta.
+-   Utilice una estructura de carpetas limpia. Puede estructurar carpetas basadas en la persona que ha generado los datos/carpetas, de forma cronológica (mes, año, sesiones), por proyecto (como se hace en el ejemplo de abajo), o basado en el método/equipo de análisis o tipo de datos.
 
-(rr-rdm-storage-organisation-examples)=
-### Data Organisation Examples
+(rr-rdm-storage-organization-examples)=
+### Ejemplos de organización de datos
 
-- Download [this](http://nikola.me/folder_structure.html) folder structure by Nikola Vukovic
-- You can pull/download folder structures using GitHub: [This template](https://github.com/bvreede/good-enough-project) by Barbara Vreede, based on [cookiecutter](https://github.com/cookiecutter/cookiecutter), follows recommended practices for scientific computing by [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
-- See [this template](https://osf.io/4sdn3/) by Chris Hartgerink for file organisation on the [Open Science Framework](https://osf.io/).
+- Descargar [esta](http://nikola.me/folder_structure.html) estructura de carpetas de Nikola Vukovic
+- Puede descargar estructuras de carpetas usando GitHub: [Esta plantilla](https://github.com/bvreede/good-enough-project) de Barbara Vreede, basado en [cookiecutter](https://github.com/cookiecutter/cookiecutter), sigue las prácticas recomendadas para la computación científica por [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
+- Vea [esta plantilla](https://osf.io/4sdn3/) de Chris Hartgerink para la organización de archivos en el [Open Science Framework](https://osf.io/).
 
-(rr-rdm-storage-conventions)=
-## File Naming Conventions
+(rr-rdm-convenciones-almacenamiento)=
+## Convenciones de nombres de archivos
 
-Structure your file names and set up a template for this. For example, it may be advantageous to start naming your files with the date each file was generated (such as `YYYYMMDD`). This will sort your files chronologically and create a unique identifier for each file. The utility of this process is apparent when you generate multiple files on the same day that may need to be versioned to avoid overwriting.
+Estructure sus nombres de archivo y configure una plantilla para esto. Por ejemplo, puede ser ventajoso empezar a nombrar sus archivos con la fecha en la que se generó cada archivo (como `YYYMMDD`). Esto ordenará sus archivos de forma cronológica y creará un identificador único para cada archivo. La utilidad de este proceso es evidente cuando se generan varios archivos el mismo día que puede necesitar ser versionado para evitar sobreescribirlos.
 
 
-Some other tips for file naming include:
-- Use the date or date range of the experiment: `YYYYMMDD`
-- Use the file type
-- Use the researcher's name/initials
-- Use the version number of file (v001, v002) or language used in the document (ENG)
-- Do not make file names too long (this can complicate file transfers)
-- Avoid special characters (?\!@\*%{[<>) and spaces
+Algunos otros consejos para nombrar archivos incluyen:
+- Utilice la fecha o rango de fechas del experimento: `AAAAYMMDD`
+- Usar el tipo de archivo
+- Usar el nombre/iniciales del investigador
+- Utilice el número de versión del archivo (v001, v002) o el idioma utilizado en el documento G)
+- No hagas demasiados nombres de archivos (esto puede complicar las transferencias de archivos)
+- Evitar caracteres especiales (?\!@\*%{[<>) y espacios
 
-You can explain the file naming convention in a README.txt file so that it will also become apparent to others what the file names mean.
+Puede explicar la convención de nombres de archivos en un archivo README.txt para que también se haga evidente a otros lo que significan los nombres de los ficheros.
 
-(rr-rdm-storage-backups)=
-## Backups
+(rr-rdm-almacenamiento-respaldos)=
+## Copias de seguridad
 
-To avoid losing your data, you should follow good backup practices.
+Para evitar perder sus datos, debe seguir buenas prácticas de copia de seguridad.
 
-- You should have 2 or 3 copies of your files, stored on
-- at least 2 different storage media,
-- in different locations.
+- Debe tener 2 o 3 copias de sus archivos, almacenadas en
+- al menos 2 medios de almacenamiento diferentes
+- en diferentes lugares.
 
-The more important the data and the more often the datasets change, the more frequently you should back them up. If your files take up a large amount of space and backing up all of them proves to be challenging or expensive, you may want to create a set of criteria for when you back up the data. This can be part of your data management plan (DMP).
+Cuanto más importantes sean los datos y más a menudo cambien los conjuntos de datos, más frecuentemente debería hacer una copia de seguridad. Si tus archivos ocupan una gran cantidad de espacio y hacen copias de seguridad de todos ellos resulta ser desafiante o caro, es posible que desee crear un conjunto de criterios para cuando realice una copia de seguridad de los datos. Esto puede ser parte de su plan de gestión de datos (DMP).

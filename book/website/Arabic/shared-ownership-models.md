@@ -1,32 +1,32 @@
-(cl-shared-ownership-models)=
-# Shared Ownership Models
+(نماذج الملكية المشتركة) =
+# نماذج الملكية المشتركة
 
-At the time of writing this chapter, We have identified the following models of shared code ownership:
+وعند كتابة هذا الفصل، حددنا النماذج التالية لملكية الشفرة المشتركة:
 
-## Roles Based on Level of Access
+## الأدوار على أساس مستوى الوصول
 
-For the GitHub users contributing to an open source project, folloing roles are defined by the access levels: “Read -> Triage -> Write -> Maintain -> Admin” (see [GitHub page for reference](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository)). The different access levels define the increasing order of rights and responsibilities a contributor has in a project (see [GitHub documentation](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization) for details).
+لمستخدمي GitHub المساهمين في مشروع مفتوح المصدر، أدوار التمرير محددة بمستويات الوصول: "قراءة -> Triage -> كتابة-> صيانة -> المشرف" (انظر [صفحة GitHub للمراجعة](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository)). مستويات الوصول المختلفة تحدد الترتيب المتزايد للحقوق والمسؤوليات لدى المساهم في مشروع (أنظر [وثائق GitHub](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization) للحصول على التفاصيل).
 
-For GitHub organisations, there are options to [organise members into teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) with different roles and access levels. Owner permissions for a GitHub organisation can be given to a group of people who manage the organization account such as granting permission levels to contributors as needed ([see details](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization)).
+بالنسبة لمنظمات GitHub ، هناك خيارات [لتنظيم الأعضاء في فرق](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) ذات أدوار ومستويات وصول مختلفة. يمكن إعطاء أذونات المالك لمؤسسة GitHub لمجموعة من الناس الذين يديرون حساب المؤسسة مثل منح مستويات الإذن للمساهمين حسب الحاجة ([انظر التفاصيل](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization)).
 
-The default minimum permissions for members allows reading, forking, creating issues, fixing bugs and suggesting minor changes. It is an easy pathway for new contributors to enter a project, however, not sufficient to feel like a part of the community. To foster a sense of shared ownership, the basic level of access should be ‘writers’, who can review new contributions, and make and approve changes allowing them to share responsibility for the development and maintenance of a project.
+الحد الأدنى الافتراضي من الأذونات للأعضاء يسمح بالقراءة، التشييد، إنشاء المشكلات، إصلاح الأخطاء واقتراح تغييرات طفيفة. ومن السهل على المساهمين الجدد أن ينخرطوا في مشروع، غير أنه لا يكفي أن يشعروا بأنهم جزء من المجتمع. ولتعزيز الإحساس بالملكية المشتركة، ينبغي أن يكون المستوى الأساسي للوصول هو "الكتاب" الذين يستطيعون مراجعة المساهمات الجديدة. وإجراء التغييرات والموافقة عليها بما يسمح لهم بتقاسم المسؤولية عن تطوير المشروع وصيانته.
 
-If these roles are not explicitly defined, the burden will be put on contributors to find out what level of access they have and how they can be promoted to the next levels.
+وإذا لم تحدد هذه الأدوار بوضوح، وسيقع العبء على كاهل المساهمين لمعرفة مستوى الوصول الذي لديهم وكيفية ترقيتهم إلى المستويات التالية.
 
-## Open Source Leadership and Governance
+## القيادة والحوكمة المفتوحة المصدر
 
-Unlike the previous example, where the roles are ‘assumed’ based on access level, a more intentional approach can be taken to formalise roles for all contributors under the leadership and governance aspect of an open source project. This allows contributors with specific interests or availability to identify and step into the project. The [Open Source Guides](https://opensource.guide/leadership-and-governance/) project provides a basic framework for setting roles for the maintainers, contributors and committers. Furthermore, they describe how to meet contributors where they are to [facilitate shared ownership](https://opensource.guide/building-community/#share-ownership-of-your-project). In bigger communities, roles can be expanded to include members of different committees, working groups, special interest groups, mentors, trainers and community managers who focus on different areas of development, maintenance and sustainability. In addition to the roles, governance also includes the decision-making processes - how different stakeholders are involved and how these are transparently communicated.
+خلافاً للمثال السابق، حيث الأدوار "مفترضة" استناداً إلى مستوى الوصول، ويمكن اتباع نهج أكثر عمدا لإضفاء الطابع الرسمي على أدوار جميع المساهمين في إطار الجانب القيادي والإداري لمشروع مفتوح المصدر. ويسمح ذلك للمساهمين ذوي المصالح المحددة أو المتوافرين بتحديد المشروع والتدخل فيه. يوفر مشروع [أدلة المصدر المفتوح](https://opensource.guide/leadership-and-governance/) إطاراً أساسياً لتحديد أدوار المشرفين والمساهمين والملتزمين. علاوة على ذلك، يصفون كيفية مقابلة المساهمين حيث هم سيسهلون [الملكية المشتركة](https://opensource.guide/building-community/#share-ownership-of-your-project). وفي المجتمعات المحلية، يمكن توسيع نطاق الأدوار لتشمل أعضاء مختلف اللجان والأفرقة العاملة ومجموعات المصالح الخاصة. • المرشدون والمدربون ومديرو المجتمعات المحلية الذين يركزون على مختلف مجالات التنمية والصيانة والاستدامة. وبالإضافة إلى الأدوار، تشمل الإدارة أيضا عمليات صنع القرار - كيفية إشراك مختلف أصحاب المصلحة وكيفية الإبلاغ عنها بشفافية.
 
-## Defining Roles and Pathways for Contributors
+## تحديد الأدوار والمسارات للمساهمين
 
-As discussed, a clearly defined set of roles and responsibilities allow individuals or groups to build a sense of common purpose and set a clear expectation around shared ownership in the project. These roles can be developed based on the tasks, responsibilities and skill requirements in the project.
+وكما نوقش: وهناك مجموعة محددة بوضوح من الأدوار والمسؤوليات تتيح للأفراد أو الجماعات بناء إحساس بالهدف المشترك وتضع توقعا واضحا بشأن الملكية المشتركة للمشروع. ويمكن تطوير هذه الأدوار على أساس المهام والمسؤوليات والاحتياجات من المهارات في المشروع.
 
 ```{figure} ../../figures/mountain-of-engagement.png
 ---
-name: mountain-of-engagement
-alt: Five steps for developing a “Mountain of Engagement” for Open Source project contributors described in the figure title.
+الاسم: جبل الارتباط
+البديل: خمس خطوات لتطوير "جبل الالتزام" للمساهمين في المشاريع المفتوحة المصدر الموصوفة في العنوان الشكلي.
 ---
-A “Mountain of Engagement” for Open Source project starts with (1) A list of people's interaction with your work, and (2) 3-5 deepening bands/levels of engagement. (3) Then you can brainstorm and group your interactions into bands of engagement, and give each band a name. (4) With your work you can then identify what works and what doesn't work. (5) This gives the insight to prioritise your work to create more opportunities for your contributors.
+"جبل المشاركة" لمشروع مفتوح المصدر يبدأ بـ (1) قائمة بتفاعل الناس مع عملك، (2) 3-5 تعميق نطاقات/مستويات المشاركة. (3) بعد ذلك يمكنك عصف ذهني وتجميع تفاعلاتك في عصابات من الارتباط، وتعطي كل عصابة اسما. (4) ومن خلال عملك، يمكنك بعد ذلك تحديد ما يصلح وما لا يصلح. (5) وهذا يعطي فكرة ثاقبة عن ترتيب أولويات عملك لتهيئة المزيد من الفرص للمساهمين لديك.
 ```
 
-These roles can be contractual or informal, taken by paid or non-paid volunteers, and supported by legal or social policies. These roles and pathways for engagement for the contributors can be understood using [Mountain of Engagement](https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p) as described by [Mozilla Open Leadership](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/) and [Open Life Science](https://openlifesci.org/). The purpose is to identify levels of engagement of contributors as they move from their roles as “observers”, “endorsers”, “contributors”, “leaders” and finally, “owners”.
+ويمكن أن تكون هذه الأدوار تعاقدية أو غير رسمية، يقوم بها متطوعون مدفوع الأجر أو غير مدفوع الأجر، وتدعمها سياسات قانونية أو اجتماعية. يمكن فهم هذه الأدوار والمسارات لمشاركة المساهمين باستخدام [جبل المشاركة](https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p) كما وصفه [زعامة موزيلا المفتوحة](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/) و [علوم الحياة المفتوحة](https://openlifesci.org/). والغرض من ذلك هو تحديد مستويات مشاركة المساهمين في الوقت الذي ينتقلون فيه من أدوارهم بوصفهم ”مراقبين“ و ”مؤيدين“ و ”مساهمين“ و ”زعماء“ وأخيرا ”مالكين“.

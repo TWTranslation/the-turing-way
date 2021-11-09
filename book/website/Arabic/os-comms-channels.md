@@ -1,51 +1,51 @@
-(cm-os-comms-channels)=
-# Communication Channels
+(m-os-channels-channels)=
+# قنوات الاتصال
 
-Communication within a community impacts the contributor experience, influences an individual's sense of belonging, and provides a historical record of project decisions.
+فالاتصال داخل المجتمع يؤثر على خبرة المساهمين، ويؤثر على إحساس الفرد بالانتماء، ويوفر سجلا تاريخيا لقرارات المشاريع.
 
-The choice of channels will depend on the specific requirements of your project, such as keeping the community informed of any known bugs or upcoming features, assessing current needs from the community members, inviting comments on the project's management plans, facilitating the overall progress of the project, as well as having somewhere to field questions and receive/act on feedback.
+سوف يعتمد اختيار القنوات على المتطلبات المحددة لمشروعك، مثل إبقاء المجتمع على علم بأي أخطاء معروفة أو ميزات قادمة، وتقييم الاحتياجات الحالية من أعضاء المجتمع، وإذ يدعو إلى تقديم تعليقات على خطط إدارة المشروع، مما ييسر التقدم العام للمشروع، بالإضافة إلى وجود مكان آخر لطرح الأسئلة وتلقي/التصرف بناء على ردود الفعل.
 
-When setting up your communication channels, there are some important things to consider, such as the following:
+عند إنشاء قنوات الاتصال الخاصة بك، هناك بعض الأمور الهامة التي ينبغي النظر فيها، مثل ما يلي:
 
-* How easy is it for the community to find these channels and subscribe/unsubscribe to them?
-* Are they moderated? Under-represented groups may not participate if a channel is a free-for-all.
-* How easy is it for members of the community to find and join specific conversations they are interested in?
-* Will it be a "noisy" channel (for example, does the channel generate lots of notifications)?
-* Can users control or filter what kind of information they receive?
+* ما هي السهولة التي يمكن بها للمجتمع العثور على هذه القنوات والاشتراك/إلغاء الاشتراك بها؟
+* هل يتم الإشراف عليهم؟ المجموعات الممثلة تمثيلاً ناقصاً قد لا تشارك إذا كانت القناة مجانية للجميع.
+* ما مدى سهولة قيام أفراد المجتمع بالبحث عن محادثات محددة يهتمون بها والانضمام إليها؟
+* هل ستكون قناة "ضوئية" (على سبيل المثال، هل تولد القناة الكثير من الإشعارات)؟
+* هل يمكن للمستخدمين التحكم في نوع المعلومات التي يتلقونها أو تصفية تلك المعلومات؟
 
-There are three commonly used channels: mailing lists (such as [Topicbox](https://www.topicbox.com/) or [Google groups](https://support.google.com/mail/thread/14635045?hl=en)), community forums (such as [Vanilla Forum](https://vanillaforums.com/en/software/) or [Discourse](https://www.discourse.org/)) and chats (such as [Gitter](https://gitter.im/) or [Slack](https://app.slack.com/signin)). Besides these, many communities also use platforms for weekly or monthly newsletters, blogs, and social media on [Twitter](https://twitter.com/) or [Facebook](https://www.facebook.com/).
+هناك ثلاث قنوات شائعة الاستخدام: القوائم البريدية (مثل [Topicbox](https://www.topicbox.com/) أو [مجموعات جوجل](https://support.google.com/mail/thread/14635045?hl=en))، منتديات المجتمع (مثل [منتدى فانيليا](https://vanillaforums.com/en/software/) أو [خطاب](https://www.discourse.org/)) والمحادثة (مثل [Gitter](https://gitter.im/) أو [Slack](https://app.slack.com/signin)). وبالإضافة إلى ذلك، فإن العديد من المجتمعات تستخدم المنصات للنشرات الإخبارية الأسبوعية أو الشهرية والمدونات ووسائل الإعلام الإجتماعية على [تويتر](https://twitter.com/) أو [فيسبوك](https://www.facebook.com/).
 
-In the table below, some properties of the first three communication platforms have been highlighted, which will allow open source project leaders to choose the most appropriate channels for their communities.
+وفي الجدول الوارد أدناه، سُلط الضوء على بعض خصائص منصات الاتصال الثلاث الأولى، مما سيسمح لقادة المشاريع مفتوحة المصدر باختيار أنسب القنوات لمجتمعاتهم المحلية.
 
-(cm-os-comms-channels-features)=
-## Features of Different Communication Channels
+(m-os-comms-channels-features)=
+## خصائص قنوات الاتصال المختلفة
 
-The table below compares features of mailing lists, forums and chats. Here are some of the questions one might wish to ask when thinking about each feature:
+ويقارن الجدول أدناه سمات القوائم البريدية والمنتديات والمحادثات. وفيما يلي بعض الأسئلة التي قد يرغب المرء في طرحها عند التفكير في كل ميزة:
 
-- **Media sharing:** Can media, such as screenshots, be easily shared on this platform?
-- **Archivable:** Is the history of the conversations easily accessible?
-- **Persistent:** Do the conversations remain available and accessible on the platform? If not "forever", for how long? If not all conversations, what proportion?
-- **Noisy:** How many notifications will people receive, and can the number of notifications be managed by users/administrators?
-- **Open:** Can anyone join the platform or is there an invitation/approval process?
-- **Consistent user experience (UX):** Does the platform appear consistent regardless of the user's browser or email client?
-- **Threading/filtering of conversations:** Is it apparent who is replying to whom and what topic each string of messages is addressing?
-- **Social sharing:** Can conversations easily be shared on social media platforms for the purposes of promotion or community engagement?
-- **User profiles:** Is it easy to tell who is participating in the conversation and what their roles are on the project?
-- **"Following"/"blocking" capabilities:** Can users choose whose messages they are alerted to?
-- **Searchable by topic:** Can the conversations by categorised and searched by category?
-- **Easily exportable:** Are the conversations stored in a consistent format? Are tools available to export the conversations (to an archive, for example)?
+- **مشاركة الوسائط:** هل يمكن مشاركة الوسائط، مثل لقطات الشاشة، بسهولة على هذه المنصة؟
+- **محفوظات:** هل يمكن الوصول بسهولة إلى سجل المحادثات؟
+- **ثابت:** هل تبقى المحادثات متاحة ويمكن الوصول إليها على المنصة؟ إن لم يكن "إلى الأبد"، لكم من الوقت؟ إن لم تكن كل المحادثات، فما هي نسبة المحادثات؟
+- **الضوء:** كم عدد الإشعارات التي سيستلمها الناس، وهل يمكن إدارة عدد الإشعارات من قبل المستخدمين/المسؤولين؟
+- **مفتوح:** هل يمكن لأي شخص أن ينضم إلى المنصة أم أن هناك عملية دعوة/موافقة؟
+- **تجربة المستخدم المتسقة (UX):** هل تبدو المنصة متسقة بغض النظر عن متصفح المستخدم أو عميل البريد الإلكتروني؟
+- **مناقشة/تصفية المحادثات:** هل من الواضح من الذي يجيب على من هو والموضوع الذي تتناوله كل سلسلة من الرسائل؟
+- **المشاركة الاجتماعية:** هل يمكن مشاركة المحادثات بسهولة على منصات وسائل الإعلام الاجتماعية لأغراض الترويج أو المشاركة المجتمعية؟
+- **ملفات المستخدم الشخصية:** هل من السهل معرفة من يشارك في المحادثة وما هي أدوارهم في المشروع؟
+- **"متابعة"/"حجب القدرات":** هل يمكن للمستخدمين اختيار الرسائل التي يتم تنبيههم إليها؟
+- **البحث حسب الموضوع:** هل يمكن للمحادثات حسب التصنيف والبحث حسب الفئة؟
+- **سهلة التصدير:** هل المحادثات مخزنة في شكل متسق؟ هل الأدوات متاحة لتصدير المحادثات (إلى أرشيف على سبيل المثال)؟
 
-| Feature                              | Mailing Lists | Forums |      Chat      |
-|:------------------------------------ |:-------------:|:------:|:--------------:|
-| Media sharing                        |       ✅       |   ✅    | ✅ (cumbersome) |
-| Archivable                           |       ✅       |   ✅    |                |
-| Persistent                           |       ✅       |   ✅    |                |
-| Noisy                                |       ✅       |        |       ✅        |
-| Open                                 |               |   ✅    |       ✅        |
-| Consistent UX                        |               |   ✅    |       ✅        |
-| Threading/Filtering of conversations |               |   ✅    |       ✅        |
-| Social sharing                       |               |   ✅    |       ✅        |
-| User profiles                        |               |   ✅    |       ✅        |
-| "Friending"/"Ignoring" capabilities  |               |   ✅    |                |
-| Searchable by topic                  |               |   ✅    |                |
-| Easily Exportable                    |       ✅       |   ❓    |                |
+| الميزة                   | القوائم البريدية | منتديات |   الدردشة    |
+|:------------------------ |:----------------:|:-------:|:------------:|
+| مشاركة الوسائط           |        ✅         |    ✅    | ✅ (جمبيرسوم) |
+| محفوظة                   |        ✅         |    ✅    |              |
+| Persistent               |        ✅         |    ✅    |              |
+| Noisy                    |        ✅         |         |      ✅       |
+| فتح                      |                  |    ✅    |      ✅       |
+| اتساق UX                 |                  |    ✅    |      ✅       |
+| موضوع/تصفية المحادثات    |                  |    ✅    |      ✅       |
+| المشاركة الاجتماعية      |                  |    ✅    |      ✅       |
+| ملفات تعريف المستخدم     |                  |    ✅    |      ✅       |
+| قدرات "الصداقة"/"تجاهل " |                  |    ✅    |              |
+| يمكن البحث حسب الموضوع   |                  |    ✅    |              |
+| سهل الإستيراد            |        ✅         |    ❓    |              |

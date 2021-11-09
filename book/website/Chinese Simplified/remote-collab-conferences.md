@@ -1,304 +1,304 @@
-(cl-remote-collab-conferences)=
-# Organising a Conference
+(cl-遥控钶钽铁矿石会议)=
+# 组织会议
 
-*Recommendations listed in this subchapter also apply to longer collaborative events like sprints and hackathons.*
+*本分章所列建议也适用于较长期的合作活动，如冲刺和黑暗。*
 
-Event planning and organisation involves many roles, tasks and responsibilities, which can be challenging, especially for online conferences or other collaborative events that have a large target audience.
-
-This document lists the various tasks for organising such events, which will be useful for people who do not have any former experience or professional support available to them. In this subchapter, we discuss different aspects of conference organisation, which are listed in chronological order and divided into sets of tasks and responsibilities "before", "during" and "after" the meeting. Though created for longer events, these detailed task lists can be used for planning smaller events that have fewer logistical requirements.
-
-(cl-remote-collab-conferences-before)=
-## Before the event
-
-The different subsections are marked as "Earlier-phase", "Mid-phase", and "Later-phase", based on their importance at the different phases of organisation. A few subsections are marked as "Relevant for all phases", as those aspects should be taken care of in all stages of event organisation.
-
-### The organising committee for the event
+活动规划和组织涉及许多角色、任务和责任，可能具有挑战性， 特别是在线会议或其他目标受众较多的合作活动。
+
+本文件列出了组织这些活动的各种任务。 这将有助于那些以前没有经验或专业支持的人。 在本小节中，我们讨论会议安排的不同方面。 它们按时间顺序排列，分成几组任务和责任“会前”、“会期间”和“会后”。 虽然这些详细的任务清单是为较长的活动而编制的，但可以用来规划后勤需求较少的较小的活动。
+
+(cl-遥控钶钽铁矿石会议之前)=
+## 事件前
+
+不同的分节根据其在不同组织阶段的重要性标为“早期阶段”、“中期阶段”和“后期阶段”。 有几个小节被标为“与所有阶段相关”，因为这些方面应在事件组织的所有阶段加以处理。
+
+### 活动组织委员会
 
-***Earlier-phase***
-- To make organising truly inclusive, include different stakeholders from the community, organisation, and members from diverse backgrounds in the committee.
-- If the organising committee has members across different time zones, the event can be held in a distributed manner.
-- Have 1-2 committee chairs who can capture the overview of the entire team's work.
-- Divide the full committee into smaller subcommittees by different tasks and responsibilities.
-- Identify chairs for the subcommittees and allow members to join more than one subcommittee.
-- Have a common place for documentation and interaction channels to keep communication transparent.
+***早期阶段***
+- 使组织工作真正具有包容性，包括来自社区、组织的不同利益攸关方和委员会中具有不同背景的成员。
+- 如果组织委员会成员跨越不同的时区，活动可以分散进行。
+- 拥有1-2个委员会主席，能够掌握整个小组工作的概况。
+- 将整个委员会划分成若干较小的小组委员会，承担不同的任务和责任。
+- 为小组委员会指定主席，并允许成员参加一个以上的小组委员会。
+- 文件和互动渠道具有共同的位置，以保持沟通的透明度。
 
-### Website for the event (preplanning)
+### 活动网站 (预定)
 
-***Earlier-phase***
+***早期阶段***
 
-*If possible, create a subcommittee dedicated for designing the website and maintaining online communication*
-
-- Take accessibility aspects into account (font size, colour, background).
-- State everything clearly and in simple words.
-- Provide contact details of people with clearly stated roles and responsibilities.
-- Grant edit rights to more than one member in the committee (or subcommittee) across different time zones.
-- Have clearly defined sections for different information, such as:
-  - General information and format of the event.
-  - Draft schedule.
-  - Theme and target audience.
-  - Details about the tools that will be used for connecting.
-  - Sponsors (if any).
-  - Registration details and deadline (if already available).
-  - Call for proposals and guidelines for submitting content.
-
-### Community participation and accessibility
-
-***Relevant for all phases***
-
-- Choose a Code of Conduct that captures your organisation and community values.
-- Describe your community participation guidelines.
-- Create possibilities for people to ask for support to attend your event.
-- Create a reporting guideline for any questions, concerns or breaches of the Code of Conduct.
-- Describe how you intend to create an inclusive event, for example, will there be a sign language interpreter or live transcription.
-- Create one single location for all the information (like an A-to-Z) regarding the events.
-- Host a few community calls in different stages of planning to involve the audience in the process.
-- Invite volunteers who can help you troubleshoot some specific issues.
-- Allow flexibility for the participants to join the call from anywhere (including from home).
-  - Clearly state what are the size limits for the groups that join remotely (or if individual participation is preferred even when joining from the same location).
-
-### Communication channel
-
-***Relevant for all phases***
-
-- A dedicated Slack or Gitter channel within the organisation account for the event.
-- Have a private channel for the organisers.
-- If working in subcommittees, create channels for the subcommittees to post relevant progress.
-- Create a channel for the community where they can receive updates and engage with each other regarding the event.
-- Create appropriate channels for the registered participants (general, introduction, social, program).
-- Have an announcement channel that can be used for announcing important information by the committee members.
-- If the organisation account is not open for others to join, then create an open channel for participants.
-- Create a social media account on Twitter for announcements, branding, improving visibility and wider outreach.
-  - Assign 1-2 volunteers or committee members who can handle social media in collaboration with the committee.
-
-### Storing and sharing information within the organising committee
-
-***Relevant for all phases***
-
-- Use a common, and if possible, single resource management system (like GitHub, Google drive, website) that is easily searchable for storing **organisation related documents**.
-- Establish a common location for storing and sharing documentation.
-- All organisers should have access to all documentation used for planning and organisation.
-- Create a single page summary for the organisers listing the available resources with their links.
-- Have meetings periodically to list and create an overview of the immediate task(s), check with people who these tasks are delegated to and plan the next steps to take before the next meeting.
-- Maintain notes from each call and share with all the members in the organising committee.
-
-### Budget
-
-***Mid-phase***
-
-- Allocate sufficient budget for organising this event (for example for the tools, equipment and childcare).
-- First place to confirm your budget and support for handling it is your organisation.
-- Looking for sponsorship early on is always a good idea.
-  - In the early phase, even though not all the information is sorted, use the website to attract sponsors.
-- Decide how big your event should be based on the available resource (such as online communication tools, assigned budget of the event, size of your community).
-- Calculate how much to make the registration fee if no sponsorship is gained.
-
-### Participation support grants
-
-***Mid-phase***
-
-- Allocate part of your budget for the participation support grant that can be requested by the applicants for the following support:
-  - Free or subsidized childcare during the event so that the participant can attend the event without worrying about taking care of their children.
-  - Software cost or subscription fee if the one being used by the event is not freely available.
-  - Hardware or equipment for facilitating participation, such as headsets, microphone, webcam (create a list of hardware that can be funded by the support grant).
-  - High-speed internet for the duration of the event.
-  - Other aspects that may improve the quality of participation of the applicants.
-- Consider the possibility of waiving the registration fee for people from low-income organisation/country.
-- Create a rubric for selection.
-- Share the application form before the registration deadline.
-- Communicate clearly how many participation support grants are available and what they include.
-- Send decision for participation support grant applicants as soon as possible so that they can decide if they can register to attend the event.
-
-### Event theme and duration
-
-***Mid-phase***
-
-- Identify your target audience within your community and organisation.
-- Invite community members to suggest ideas and collectively choose the most relevant theme.
-- Identify the most suitable time zone and the duration of the event.
-- Use a standard time with a link to different time zones (like [arewemeetingyet](https://arewemeetingyet.com)) when communicating about the event.
-- Add the exact date, time, location (if any!) and choice of tool that will be used for communication.
-
-### Define timeline and invite applications
-
-***Mid-phase***
-
-*Establish a timeline for organising and planning the conference and share on the website*
-- Deadline for abstract submission.
-- Deadline for abstract selection notification and program announcement.
-- Deadline for application for participation support grant (equipment and internet cost).
-  - Include application for participation support grant in the registration (such as equipment for remote joining, internet cost, childcare).
-- Deadline for registration.
-- Deadline for announcing the selected participation support grant awardees.
-- Deadline for registration cancellation.
-- Establish a rubric for selection of the talks and sessions.
-- Invite abstracts for talks and sessions and share rubrics for selection.
-
-### Create a registration form
-
-***Mid-phase***
-
-- If possible use a registration platform such as [Eventbrite](https://www.eventbrite.com/) that stores data centrally, works on most browsers, and enables secure credit card payment.
-- Collect participant details like their name, email, affiliation, accessibility requirements, motivation for participating, and agreement to the privacy statement.
-- Clearly explain why you’re asking for sensitive information and how will you handle those data.
-- If you ask an optional question, make it clear that it’s optional.
-- Do not rely on colour to communicate your questions.
-- Provide clear explanations for complicated questions to guide people towards choosing the correct answer/option.
-- Sequence your questions logically after each other.
-- Provide contact information of the committee member who can be contacted regarding any errors or questions related to registration.
-- Clearly state the next steps upon clicking the submit button.
-- Link the registration form clearly on the webpage and advertise across different community platforms.
-
-### Community suggestion and feedback forms
-
-***Mid-phase***
-
-*Choose a standard platform to manage all your forms, for example, [Surveymonkey](https://www.surveymonkey.com/) or [Google forms](https://www.google.com/forms/about/), with a statement on how you ensure the security of the data collected*.
-
-- Theme suggestion form.
-- Speakers suggestion form.
-- Participation support application form.
-- Sponsorship interest form for those who need grants to facilitate their participation.
-- Abstract submission form for talks (options for the keynote, long, short, lightning talks).
-- Abstract submission form for workshop, up-skilling or breakout session (options for the different lengths of the session).
-- Ideas and leaders for social events.
-- Form to collect community vote on the submitted sessions and social activities.
-- Final feedback form for participants (can be created in the later stage before the event).
-- Feedback form for the chairs, helpers, speakers and notetakers (can be created shortly before the event).
-
-### Program
-
-***Later-phase***
-
-*Agree as a committee and what the rough agenda for the event's program will be. Create slots for keynotes, breakout discussions, workshops, poster and lightning talk session. Provide designated time slots for social events in the main program. Make sure that after each talk/session there is 5 minutes break to allow people to log in to the right online call link, switch rooms, ask a logistics-related question. Provide plenty of breaks, and treat those breaks as virtual coffee sessions.*
-
-- Identify speakers and sessions for the event from the selected abstracts for the talks and community voted sessions.
-- Create a well-balanced agenda that covers the intended theme of the event.
-- If the sessions are supposed to run in parallel, create an agenda based on the session topic/theme.
-- In addition to the talks, have plenty of slots for breakout discussions, short workshops and other opportunities to exchange skills.
-- Provide new and interesting topics that are not selected for long talks as an opportunity to present their idea in short or lightning talks.
-- Instead of having a live lightning talk and poster presentation, invite submission of pre-recorded lightning talks and talks on posters that can be assembled in a gallery (for example, a YouTube playlist) that can be accessed by everyone.
-  - For poster sessions, create a gallery of posters online that can be browsed easily.
-    * Use [F1000 Research](https://f1000research.com/posters/8-400), [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) or [Open Science Framework (OSF)](https://osf.io/meetings) to ensure that a DOI is assigned to each submission and allows browsable collections. Other options are Flicker, Unsplash and Google photos.
-    * Share link of each poster with their online video in the shared document.
-  - Decide the length of these talks (recommended length is 1.5-2 minutes),
-  - Create a designated slot in the program to ensure that people take time to check out these talks and posters.
-- Share program and agenda with everyone (via the website) on time.
-- Make sure that your online program is kept up to date.
-- Invite volunteers from the community to chair sessions.
-- Share speaker's and session guidelines with the selected participants.
-- Share the chair's guidelines and protocols with the selected participants.
-- Treat social events in your program as seriously as any other session; discuss this with the organising committee and agree on social events that are good fits for your community.
-  - Confirm leaders for these social activities.
-- Create shared documents for all the selected talks, sessions and social events to be shared with the participants.
-  - Save all the shared documents in one location (or create a common location with their link) so all the participants can browse them during and after the event.
-
-### Documents and tools for participants
-
-***Relevant for all phases***
-
-- Establish a dedicated location for all the shared documents for different sessions with participants so that they can access and edit online during the event.
-  - Use a standard template that can be similar for all the sessions with minor adaption.
-- If using a tool that is available only upon subscription, make sure that all the participants have access.
-- Share a how-to guide to ensure that everyone knows how to use the tool.
-- If possible, offer help with installation and testing of the tool.
-- Remind everyone to arrange a microphone or headsets.
-  - If possible, provide a grant to buy necessary equipment such as headphones, webcams, and/or high-speed internet.
-- Share the participation guidelines, code of conduct and contact information of people who can help with any issues regarding the meeting.
-- Send a reminder with the links to the document(s) and other important resources to all the participants a week and a day in advance.
-- Create slides or presentations that might be needed from the organisers side (welcome, wrap up).
-
-### Organise a pre-event community call
-*Often referred to by different names such as installation party, coffee-hours or set-up test fest*
-
-***Later-phase***
-
-- Organise a pre-event call for the organising committee to cross-check if all the materials for the event are sorted and have been made available to everyone.
-- Arrange a conference call(s) with volunteers, speakers, session leads and chairs to communicate the guidelines and discuss their responsibilities during the event.
-- Create a collaborative document to collect questions from participants, document answers and share it with those who can't attend the call.
-- Arrange a separate conference call(s) with the participants to answer their questions related to the event and also use collaborative notes to share the main discussion points.
-- Test the technical infrastructure with everyone and help set up any software that is needed during the event.
-- Share important contact details (committee chairs, code of conduct contact person) with everyone.
-- Keep this meeting informal and have as many helpers as possible who can help individuals in breakout rooms.
-
-### Storing and sharing information with the participants
-
-***Later-phase***
-
-- Use a common, and if possible, single resource management system (like GitHub, Google Drive, or a website) that is easily searchable for sharing **information with the participants**.
-- Create a single page summary for the participants of the available resources with their links.
-- Clearly communicate where and how participants can access information and documents.
-- If not using a free platform, provide access to the participants.
-  - This can be communicated in the registration confirmation email and the pre-event community call.
-- Send out short emails with updates and reminders that point the participants to these resources (as people tend to look for all the information right before the event).
-
-### Branding and promotional materials
-
-***Relevant for all phases***
-
-- Use the organisation logo for promoting this event only if agreed by the organisation leadership, otherwise invite logo designs from the community.
-- Use social media to engage with the community.
-  - Reach out to them as frequently as possible during the decision making.
-- Use online store to sell swag to allow people to buy them before or during the event.
-  - If the overall budget is low, this can be used for inviting small donations from the community.
-  - If you have sufficient budget, send these to your organising committees before the event, and to the speakers and volunteers after the event as a *thank you* gift.
-- Design online posters and flyers to share with your community members who can help you promote the event in their networks.
-
-### Designated venues for participation
-
-*If there are physical office locations, or co-working spaces accessible for most members*
-
-- Reserve conference room(s) (or similar venues) with high-speed internet.
-- Share details on how members can access this venue.
-- When possible, use individual cameras to simulate remote participation so that others joining remotely don't feel left out.
-- If the reserved location has a webcam and microphone, check that they work properly.
-- Plan the seating arrangement so that people are facing to the main screen/camera.
-- Test the screen with different light intensity.
-- Arrange all the required materials and equipment, like extension cords or power strips.
-- Create a form to collect dietary requirements, interest in participating in a social event, mobility-related requirement and other location-specific requests.
-- Arrange for beverages/snacks for the breaks, and ensure that the catering service will label the food for contents/allergens.
-- If organising any location-specific social event, run that in parallel to the remote social event.
-  - Book social event venue, transfer, and catering and communicate them clearly.
-
-## During the event
-
-### Kicking off the event
-
-*Checklist for the designated chair of the opening session*
-
-- Start the video call, or any communication channel 30 minutes before the event to check that everything works.
-- Share links to the documents and other resources for the event on the chat system like Slack.
-- Remind attendees of the community participation guideline and the Code of Conduct.
-- Introduce the organising committees and the Code of Conduct contact person for the event.
-- Introduce the format of the meeting and when the breaks are scheduled.
-- Explain the basic protocols for participation.
-  - Muting microphone when not speaking.
-  - Using a chat system during the meeting - if there is one.
-- Remind the guidelines for participating in discussions.
-  - Raise hand - on chat, or virtually (like in [Zoom](https://zoom.us/)) or physically.
-  - Other ways to involve others in the discussion equitably.
-- Ask everyone to write down their name, contact (Twitter, email) and other relevant information.
-  - Provide a place to write down pronouns, but keep that optional.
-- Start the meeting with an icebreaker question.
-  - Create opportunities for everyone to share something personal (about their hobby, or experiences) on the document or verbally.
-- Communicate the ways to have inclusive discussions.
-- Remind everyone if the video will be recorded.
-- Provide an agenda with the names and contact information of the session chairs.
-- Remind session chairs of their guidelines in private and make sure that they have all the information and support they need.
-- Provide everyone with a way to keep track of sessions and time, for example, a shared link to [cuckoo.team](https://cuckoo.team) clock.
-- Share how participants can ask for help with troubleshooting, event information or feedback about the event.
-
-## After the event
-
-- Create a debrief document to capture what went well and what could be improved in future events.
-- Create a small overview blog post to share the main highlights from the event with community/participants immediately.
-- Collect any additional documents or information mentioned by others/speakers during the events.
-- If the event sessions and talks were recorded, process and publish the recorded videos within a defined time frame.
-- Send thank you emails to everyone with the link of the complete notes and all the relevant information.
-- Send a feedback form to all the participants with the thank you email.
-- Settle all the invoices from the event.
-- Host a post-event community call to thank people and share the lessons learned.
-
-## Bibliography
-
-- The *Checklist for running a meeting* is a summarised version of the [Gallantries (Galaxy+The Carpentries handbook)](https://galaxy-carpentries.github.io/gallantries/handbook) which is an expanded version of [The Carpentries workshop checklist](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html).
-- The *Checklist for running a longer event such as a conference or sprint* is a summarised version of the debrief document written by the [chairs of the 1st CarpentryCon conference](https://2018.carpentrycon.org/) organisation committee.
+*如有可能，设立一个专门设计网站和维持在线通信的小组委员会*
+
+- 考虑辅助功能(大小、颜色、背景)。
+- 国家的一切都是明确和简单的。
+- 提供明确规定作用和责任的人员的详细联系方式。
+- 授予跨越不同时区的委员会（或小组委员会）中一名以上成员编辑权利。
+- 有关于不同信息的明确界定的部分，例如：
+  - 4. 活动的一般情况和形式。
+  - 临时议程草案
+  - 3. 主题和目标受众。
+  - 将用于连接的工具的详细信息。
+  - 赞助者(如果有的话)。
+  - 登记细节和截止日期（如有的话）。
+  - 呼吁就提交内容提出建议和准则。
+
+### 社区参与和无障碍环境
+
+***与所有阶段相关的***
+
+- 选择一个包含您的组织和社区价值观的行为守则。
+- 描述您的社区参与指导方针。
+- 为人们寻求支持以参加您的活动创造可能性。
+- • 为任何问题、关切或违反《行为守则》的行为制定报告准则。
+- 描述您打算如何创建一个包容性的活动，例如，将会有一个手语解释器或直播记录。
+- 为事件的所有信息(如A-Z)创建一个单一位置。
+- 在规划的不同阶段接待少数社区的电话，让受众参与这一进程。
+- 邀请志愿者帮助您解决一些具体问题。
+- 允许参与者在任何地方(包括从家里)加入电话。
+  - 清楚地说明远程加入的群体的大小限制(或即使是从同一地点加入，个人参与也是首选的)。
+
+### 通信频道
+
+***与所有阶段相关的***
+
+- 此事件的组织帐户内的专用Slack 或 Gitter频道。
+- 为组织者拥有一个私人频道。
+- 如果在小组委员会中工作，为小组委员会建立渠道以公布相关进展。
+- 为社区创建一个频道，以便他们能够收到最新消息并就该事件相互接触。
+- 为注册参与者建立适当的渠道(一般、引导、社会、方案)。
+- 有一个通知渠道，可用来宣布委员会成员的重要信息。
+- 如果组织帐户不对其他人开放，然后为参与者创建一个开放的渠道。
+- 在 Twitter 上创建一个社交媒体帐户，用于公告、品牌、提高可见度和拓展范围。
+  - 指派1-2名志愿人员或委员会成员，他们可以与委员会合作处理社会传媒问题。
+
+### 在组织委员会内储存和分享信息
+
+***与所有阶段相关的***
+
+- 使用一个共同的资源管理系统，如果可能，请使用单个资源管理系统(如GitHub, Google Drive) 容易搜索的 **个组织相关文档**。
+- 建立一个用于储存和分享文件的共同地点。
+- 所有组织者都应能获得用于规划和组织的所有文件。
+- 为组织者创建一个单页摘要，列出可用资源及其链接。
+- 定期举行会议，列出并概述当前的任务， 与那些受权执行这些任务的人核对，并计划在下次会议之前采取下一步措施。
+- 保持每次呼叫的笔记，并与组织委员会的所有成员分享。
+
+### 三. 预算
+
+***中阶段***
+
+- 为组织这一活动拨出足够的预算(例如工具、设备和儿童保育)。
+- 首先确认您的预算并支持处理它是您的组织。
+- 尽早寻求赞助始终是一个好主意。
+  - 在早期阶段，即使并非所有信息都分类，也利用网站吸引赞助者。
+- 决定您的活动应该基于可用的资源(例如在线通信工具) 您的社区大小已分配事件的预算)。
+- 计算在没有担保的情况下收取登记费的数额。
+
+### 参与支助补助金
+
+***中阶段***
+
+- 将您预算的一部分拨给申请人可以申请以下支助的参与支助补助金：
+  - 在活动期间提供免费或补贴儿童保育，使参与者能够参加活动，而不必担心照料他们的子女。
+  - 软件成本或订阅费，如果活动所使用的软件不能免费获得。
+  - 便利参与的硬件或设备，例如头套、麦克风、网络摄像头（建立可由支助赠款供资的硬件清单）。
+  - 事件持续期间高速互联网。
+  - 可能提高申请人参与质量的其他方面。
+- 考虑是否有可能免除低收入组织/国家的人的登记费。
+- 创建一个标题供选择。
+- 在注册截止日期之前共享申请表。
+- 明确通报可获得多少参与支助赠款以及其中包括哪些内容。
+- 尽快发送参与支助补助金申请人的决定，使他们能够决定是否可以登记参加活动。
+
+### 活动主题和持续时间
+
+***中阶段***
+
+- 在您的社区和组织中识别您的目标受众。
+- 邀请社区成员提出意见并集体选择最相关的主题。
+- 确定最合适的时区和活动持续时间。
+- 在传送事件时使用一个与不同时区链接的标准时间(例如 [arewemeetingyed](https://arewemeetingyet.com))。
+- 添加准确的日期、时间、位置(如果有!)以及用于通信的工具的选择。
+
+### 定义时间线和邀请应用程序
+
+***中阶段***
+
+*确定组织和规划会议并在网站上分享的时间表*
+- 摘要提交截止日期。
+- 摘要选择通知和程序通知的截止日期。
+- 申请参与支助补助金（设备和因特网费用）的截止日期。
+  - 在登记中列入参与支助补助金申请(例如远程加入的设备、互联网费用、儿童保育)。
+- 注册截止日期。
+- 宣布选定参与支助赠款领取者截止日期。
+- 取消登记的最后期限。
+- 确定挑选会谈和会议的题目。
+- 邀请讲课和会话的摘要，并分享歌词供选择。
+
+### 创建注册表
+
+***中阶段***
+
+- 如果可能的话，使用诸如 [Eventbrite](https://www.eventbrite.com/) 这样的注册平台来集中存储数据，可以在大多数浏览器上工作，并启用安全信用卡付款。
+- 收集参与者的详细信息，如姓名、电子邮件、联营、访问要求、参与动机和同意隐私声明。
+- 清楚地解释为什么你想要敏感的信息，以及你将如何处理这些数据。
+- 如果你提出一个可选的问题，请明确它是可选的。
+- 不要依靠颜色来传递您的问题。
+- 为复杂的问题提供明确的解释，以指导人们选择正确的答案/选项。
+- 按逻辑顺序排序您的问题。
+- 请提供委员会成员的联系信息，这些成员可以联系与注册有关的任何错误或问题。
+- 在点击提交按钮时清楚地状态下一步.
+- 在网页上明确链接注册表，并在不同的社区平台上做广告。
+
+### 社区建议和反馈表
+
+***中阶段***
+
+*选择一个标准平台来管理您所有的表格，例如 [Surveymonkey](https://www.surveymonkey.com/) 或 [Google 表格](https://www.google.com/forms/about/), 使用关于如何确保收集到的数据的安全性的说明*
+
+- 主题建议表。
+- 发言者建议的形式。
+- 参与支持申请表。
+- 资助那些需要赠款以便利其参与的人。
+- 讲授的摘要提交表格（键盘、长短、闪电谈的备选办法）。
+- 讲习班、提高技能或分组会议的摘要提交表格（届会不同会期的备选方案）。
+- 社会活动的想法和领导人。
+- 采取何种形式收集社区对所提交的会议和社会活动的投票。
+- 参加者的最后反馈表格（可在活动开始之前的稍后阶段创建）。
+- 会议主席、助手、发言者和笔记者的反馈表格（可在活动开始前不久创建）。
+
+### 程序
+
+***较晚阶段***
+
+*同意作为一个委员会以及活动程序的粗略议程。 创建关键说明、分组讨论、讲习班、海报和闪电谈话会场。 在主程序中为社交活动提供指定的时间段。 确保每次对话/会话结束后有5分钟休息时间让人们登录到正确的在线呼叫链接， 请问一个与物流有关的问题。 提供大量的休息，并将这些休息视为虚拟咖啡会。*
+
+- 从选定的会谈和社区投票会议摘要中确定活动的发言者和会议。
+- 制订一个平衡兼顾的议程，涵盖预定的活动主题。
+- 如果届会应平行举行，则应根据届会主题/主题制定议程。
+- 除了会谈外，还有大量的分会场、短会场和其他交流技能的机会。
+- 提供未被选定进行长时间会谈的新的和令人感兴趣的议题，作为在短时间或闪电会谈中提出其想法的机会。
+- 没有直播闪光的谈话和海报演示。 邀请预先录制的闪电会谈和关于可以在展览馆集合的海报的会谈（例如） a 每个人都可以访问的 YouTube 播放列表。
+  - 对于海报会话，创建一个可以轻松浏览的在线海报画库。
+    * 使用 [F1000 Research](https://f1000research.com/posters/8-400), [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) 或 [Open Science Framework (OSF)](https://osf.io/meetings) 以确保DOI 被分配到每个提交，并允许浏览收藏。 其他选项是 Flicker, Unsplash 和 Google 照片。
+    * 在共享文档中分享每个海报与其在线视频的链接。
+  - 决定这些会谈的时间长度(建议长度为1.5-2分钟)，
+  - 在程序中创建一个指定的栏位，以确保人们花时间查看这些话和海报。
+- 及时与每个人(通过网站)分享程序和议程。
+- 请确保您的在线程序不断更新。
+- 邀请社区志愿者主持会议。
+- 与选定的与会者分享演讲者和会话指南。
+- 与选定的与会者分享主席的准则和协议。
+- 与任何其他会话一样严肃对待您程序中的社交事件； 与组织委员会讨论这个问题，并就适合您社区的社会活动达成一致。
+  - 确认这些社会活动的领导者。
+- 为所有选定的讨论、会议和社交活动创建共享文件，并与参与者共享。
+  - 将所有共享文档保存到一个位置(或创建一个带有链接的共同位置)，这样所有参与者都可以在活动期间和活动之后浏览它们。
+
+### 供与会者使用的文件和工具
+
+***与所有阶段相关的***
+
+- 为不同会议的所有共享文件设立一个专用地点，以便与会者能够在活动期间在线查阅和编辑文件。
+  - 使用一个标准模板，可以对所有会话进行较小的改造。
+- 如果使用仅在订阅时可用的工具，请确保所有参与者都能访问。
+- 分享一个如何使用的指南，以确保每个人都知道如何使用该工具。
+- 如果可能，提供帮助安装和测试工具。
+- 提醒所有人安排麦克风或耳机。
+  - 如有可能，提供赠款购买必要的设备，如耳机、网络摄像头和/或高速互联网。
+- 分享参与准则、行为守则和能够帮助解决与会议有关的任何问题的人的联系信息。
+- 提前一周一天向所有与会者发送一个带有文件和其他重要资源链接的提醒函。
+- 创建可能需要组织者一方提供的幻灯片或演示文稿(欢迎, 换行)。
+
+### 组织一个会前社区呼叫
+*常常被不同的名称提及，例如安装组件、咖啡时或安装测试羽毛等。*
+
+***较晚阶段***
+
+- 组织一次会前活动，要求组织委员会核对是否已对所有活动材料进行了分类并提供给每一个人。
+- 与志愿者、发言者、会议牵头者和主席安排一次电话会议，交流指导方针并讨论他们在活动期间的责任。
+- 创建协作文档，收集参与者提问、整理回答并与那些不能参加电话的人共享。
+- 与与会者单独安排一次会议电话，回答他们提出的与活动有关的问题，并使用协作笔记分享主要讨论点。
+- 与每个人一起测试技术基础设施，并帮助设置活动期间所需的任何软件。
+- 与每个人分享重要的联系方式（委员会主席、行为守则联系人）。
+- 保持本次会议的非正式性，并有尽可能多的帮手，他们能够在分会场帮助个人。
+
+### 与参与者保存和分享信息
+
+***较晚阶段***
+
+- 使用一个共同的资源管理系统，如果可能，请使用单个资源管理系统(如GitHub 、Google Drive) 或一个易于搜索的网站可以与参与者分享 **信息**。
+- 为参与者创建一个带有链接的可用资源摘要单页。
+- 清楚地通报参与者可在何处和如何获取信息和文件。
+- 如果不使用免费平台，请为参与者提供访问权限。
+  - 这可以在注册确认电子邮件和事件前社区电话中传达。
+- 发送包含更新和提醒的短邮件，让参与者关注这些资源(因为人们往往会在事件之前寻找所有信息)。
+
+### 品牌和宣传材料
+
+***与所有阶段相关的***
+
+- 只有在组织领导层同意的情况下，才使用组织徽标来宣传此事件，否则邀请社区设计标识。
+- 使用社交媒体与社区接触。
+  - 在决策过程中尽可能经常地与他们接触。
+- 使用在线商店出售交换机，让人们能够在事件之前或事件发生期间购买。
+  - 如果总体预算很低，这可以用来邀请社区提供小额捐款。
+  - 如果您有足够的预算，请在活动前将这些发送给您的组织委员会。 和作为 *谢谢您* 赠送的活动结束后的发言者和志愿者。
+- 设计在线海报和传单，与您的社区成员分享，这些成员可以帮助您在他们的网络中推广活动。
+
+### 指定与会地点
+
+*如果有形办公地点，或大多数成员可以使用共同工作空间*
+
+- 带高速因特网的预设会议室（或类似地点）。
+- 分享成员如何访问此会场的详细信息。
+- 在可能的情况下，使用单独的摄像头模拟远程参与，从而使其他人不会感到被遗漏。
+- 如果保留位置有摄像头和麦克风，请检查它们是否正常工作。
+- 规划座位安排，以便人们面对主要屏幕/照相机。
+- 以不同的光强度测试屏幕。
+- 安排所有所需材料和设备，例如延伸线或电源线。
+- 创建一种表格，以收集饮食要求、参与社会活动的兴趣、与流动有关的要求和其他针对具体地点的要求。
+- 为休息安排饮料/小吃，并确保餐饮服务将为食品贴上内装物/过敏物质标签。
+- 如果组织任何针对具体地点的社会活动，则与远程社交活动平行运行。
+  - 预订社交活动地点、转移和餐饮，并清楚地传达这些信息。
+
+## 活动期间
+
+### 将事件踢出
+
+*开幕会议指定主席的清单*
+
+- 开始视频通话，或事件发生前30分钟的任何通信频道，以检查所有功能是否正常。
+- 在聊天系统中分享文档和其他资源的链接，如Slack。
+- 提醒与会者注意社区参与准则和《行为守则》。
+- • 介绍活动的组织委员会和《行为守则》联系人。
+- 2. 介绍会议形式和安排休息时间。
+- 解释参与的基本议定书。
+  - 不说话时静音麦克风。
+  - 会议期间使用聊天系统 - 如果有的话.
+- 请注意参加讨论的准则。
+  - 升起手――在聊天中，或几乎是(就像在 [缩放](https://zoom.us/)中)或物理的。
+  - 使其他人公平参与讨论的其他方式。
+- 请每个人写下自己的姓名、联系人(Twitter, email) 和其他相关信息。
+  - 提供一个可写下声明的地方，但保留该选项。
+- 会议开始时有一个冰箱问题。
+  - 创造机会，让每个人都可以在文档或口头上分享个人内容(关于他们的爱好或体验)。
+- 交流开展包容性讨论的方式。
+- 提醒所有人是否将录制视频。
+- 请提供会议主席的姓名和联系信息。
+- 提醒会议主席他们的准则是非公开的，并确保他们得到他们所需要的所有信息和支持。
+- 为每个人提供一个跟踪会话和时间的方法，例如与 [cuckoo.team](https://cuckoo.team) 时钟的共享链接。
+- 分享参与者如何请求帮助解决故障、事件信息或有关活动的反馈。
+
+## 事件之后
+
+- 编写一份情况介绍文件，以了解在今后的活动中取得的好成绩和可以改进的内容。
+- 创建一个小概括博客帖子，以便立即与社区/参与者分享活动的主要精彩内容。
+- 收集其他人/发言者在活动期间提到的任何其他文件或信息。
+- 如果活动会见和谈话被录制，就在规定的时间范围内处理和公布录制的录像。
+- 向所有人发送感谢邮件，并附上完整的说明和所有相关信息。
+- 通过感谢您的电子邮件向所有参与者发送反馈表。
+- 解决事件的所有发票。
+- 主办活动后社区呼吁感谢人们并分享所吸取的教训。
+
+## 参考书目
+
+- 运行会议</em> 的 *清单是 [Gallantries (Galaxy+The Carpentries手册)](https://galaxy-carpentries.github.io/gallantries/handbook) 的一个扩展版本的 [Carpentres 讲习班清单](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html)</li>
+- The *Checklist for running a longer event such as a conference or sprint* is a summarised version of the debrief document written by the [chairs of the 1st CarpentryCon conference](https://2018.carpentrycon.org/) organisation committee.</ul>

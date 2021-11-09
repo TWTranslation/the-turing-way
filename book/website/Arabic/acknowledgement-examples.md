@@ -1,178 +1,178 @@
-(ch-acknowledgement-examples)=
-# Different Contributions and their Acknowledgements
+(أمثلة على الاعتراف)=
+# باء - المساهمات المختلفة وتقديراتها
 
-In the previous subchapters, we discussed how we acknowledge our contributors for their work in _The Turing Way_. We also describe the [Contributors section](https://github.com/alan-turing-institute/the-turing-way#contributors) of the [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) file and the [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) file as {ref}`Record of Contributions<ch-acknowledgement-record>`, which are updated regularly to reflect the contribution types and personal highlights of the contributors.
+في الفصول الفرعية السابقة، ناقشنا كيف نعترف بالمساهمين لدينا على عملهم في _طريق التوريد_. نحن أيضا نصف قسم [المساهمين](https://github.com/alan-turing-institute/the-turing-way#contributors) من [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) ملف [`المساهمين. (د)`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) الملف كـ {ref}`سجل الاشتراكات<ch-acknowledgement-record>`، ويجري استكمالها بانتظام لتعكس أنواع المساهمات والمعالم الشخصية للمساهمين.
 
-In this subchapter, we will explore the different types of contributions that exist within _The Turing Way_, and describe those with the help of {ref}`personas and pathways<pd-persona-creation>` our contributors may take to make their contributions. Furthermore, we describe how each persona will be acknowledged in _The Turing Way_.
+في هذا الفصل الفرعي، سنقوم باستكشاف مختلف أنواع المساهمات الموجودة في _طريق التوفير_، ووصف هؤلاء بمساعدة {ref}`شخصيات ومسارات<pd-persona-creation>` قد يأخذ مساهمنا لتقديم مساهماتهم. علاوة على ذلك، نحن نصف كيف سيتم الاعتراف بكل شخص في _طريق التورين_.
 
-## Bug fixing
+## إصلاح الأخطاء
 
-We use the term "bug" for small errors in the text or code like typos formatting issues or broken links, or minor fixes.
+نحن نستخدم مصطلح "خطأ" للأخطاء الصغيرة في النص أو الرمز مثل مشاكل تنسيق الطباعة، أو الروابط المكسورة، أو الإصلاحات الثانوية.
 
-- *Persona for Small bug fixing*: Fraya found a typo and fixed it.
-  - **Acknowledgement:** They are acknowledged in the Contributors table with a 🐛 (`bug`) emoji.
-- *Persona for fixing bug while maintaining sustained engagement*: Amal has found multiple typos on multiple visits to the project and contributes to conversations in issues about where these typos cause confusion or need additional input to fix. Amal has had a sustained engagement with the community.
-  - **Acknowledgement:** Amal is acknowledged in the Contributors table with a 🐛 (`bug`) and a 🤔 (`idea`) emoji and named as an author on the last 2 releases of the book.
+- *شخصية لإصلاح الشوائب الصغيرة*: فرايا وجدت نموذجا وإصلاحه.
+  - **تقدير:** تم الاعتراف بهم في طاولة المساهمين مع 🐛 (`خطأ`) emoji.
+- *شخصية لإصلاح الأخطاء مع الحفاظ على المشاركة المستمرة*: عثر أمل على طباعيات متعددة في زيارات متعددة للمشروع ويسهم في المحادثات في المشاكل التي تسبب فيها هذه الطباعيات ارتباكاً أو تحتاج إلى مدخلات إضافية لإصلاح المشروع. وانخرط أمل بشكل مستمر مع المجتمع المحلي.
+  - **اعتراف:** أمل معترف به في طاولة المساهمين مع 🐛 (`bug`) و 🤔 (`فكرة`) رمز تعبيري و اسمه كمؤلف في الإصدارين الأخيرين من الكتاب.
 
-## Providing examples
+## تقديم أمثلة
 
-Contributors can also provide examples that can make _The Turing Way_ chapters comprehensible for the readers.
+يمكن للمساهمين أيضًا تقديم أمثلة تجعل _طريق التوريق_ فصول مفهومة للقراء.
 
-- *Persona for adding examples*: Divna made a pull request to add an example that enhanced the quality of the chapter.
-  - **Acknowledgement:** Divna is acknowledged with 💡(`example`) emoji in the Contributors table.
-- *Persona for adding examples*: Pawel wrote a subchapter and added it through a pull request to add a detailed example that demonstrated the content of the chapter being used in a real world example.
-  - **Acknowledgement:** Pawel is acknowledged with 💡(`example`) emoji in the Contributors table and named as an author on the last 3 releases of the book.
+- *شخصية لإضافة أمثلة*: Dvna قدمت طلب سحب لإضافة مثال يعزز جودة الفصل.
+  - **اعتراف:** Divna معترف به مع 💡(`example`) emoji في طاولة المساهمين.
+- *شخصية لإضافة أمثلة*: كتب باويل فصلا فرعيا وأضافه من خلال طلب سحب لإضافة مثال مفصل يوضح محتوى الفصل الذي يستخدم في مثال العالم الحقيقي.
+  - **اعتراف:** باويل معترف به مع 💡(`مثال`) emoji في طاولة المساهمين ويسمى مؤلف في آخر 3 إصدارات من الكتاب.
 
-## Code and scripts
+## التعليمات البرمجية والنصوص البرمجية
 
-We encourage our contributors to write a piece of code, bots or scripts to help improve the project workflow.
+نحن نشجع مساهمينا على كتابة قطعة من التعليمات البرمجية أو البوتات أو البرامج النصية للمساعدة في تحسين سير عمل المشروع.
 
-- *Persona for writing scripts for the project*: Kendra wrote a Python script to spot a Latin word in a new contribution, which should be avoided in this book.
-  - **Acknowledgement:** Kendra is acknowledged with 💻 (`code`) emoji in the Contributors table.
-- *Persona for reusing an existing tool*: Serena set up the continuous integration pipeline for the book using GitHub action features. They further wrote a Python script to make the error report easy to understand and fix.
-  - **Acknowledgement:** Serena is acknowledged with 💻 (`code`) emoji in the Contributors table along with the 🚧 (`maintenance`) emoji and named as an author in the most recent release of the book.
+- *شخصية لكتابة البرامج النصية للمشروع*: كتبت كندرا نص بايثون لرؤية كلمة لاتينية في مساهمة جديدة، والذي يجب تجنبه في هذا الكتاب.
+  - **اعتراف:** Kendra معترف بها مع 💻 (`code`) emoji في طاولة المساهمين.
+- *شخصية لإعادة استخدام أداة موجودة*: سيرينا إعداد خط أنابيب التكامل المستمر للكتاب باستخدام ميزات عمل GitHub . كما أنهم كتبوا نص Python لجعل تقرير الخطأ سهلاً لفهمه وإصلاحه.
+  - **اعتراف:** سيرينا معترف بها مع 💻 (`code`) emoji في طاولة المساهمين مع 🚧 (`صيانة`) emoji وسميت كمؤلف في أحدث إصدار للكتاب.
 
 ## Dataset
 
-Contributors can provide test data for a test or to link with a chapter to improve the overall content.
+يمكن للمساهمين أن يقدموا بيانات اختبار لاختبار أو أن يربطوا فصلاً لتحسين المحتوى الإجمالي.
 
-- *Persona for reusing a self-generated dataset*: Yan created a small dataset to link to the version control chapter to demonstrate how to version control data.
-  - **Acknowledgement:** Yan is acknowledged with 🔣 (`data`) emoji in the Contributors table.
-- *Persona for creating a data set for the project*: Xenia added a data set in the research compendia chapter and wrote a section to explain how to create a compendia for the research data using the example date set.
-  - **Acknowledgement:** Xenia is acknowledged with 🔣 (`data`) emoji in the Contributors table along with 🖋 (`content`) emoji for writing a chapter. They are named as an author in the most recent version of the book.
+- *شخصية لإعادة استخدام مجموعة البيانات التي تم إنشاؤها ذاتياً*: عين أنشأ مجموعة بيانات صغيرة لربط فصل التحكم في الإصدار لإظهار كيفية إصدار بيانات التحكم.
+  - **اعتراف:** ين معترف به مع 🔣 (`بيانات`) emoji في طاولة المساهمين.
+- *شخصية لإنشاء مجموعة بيانات للمشروع*: أضافت Xenia مجموعة بيانات في فصل الخلاصة البحثية وكتبت قسما لشرح كيفية إنشاء خلاصة وافية للبيانات البحثية باستخدام قائمة التواريخ المحددة.
+  - **الاحتراف:** Xenia معترف بها مع 🔣 (`data`) emoji في طاولة المساهمين مع 🖋 (`محتوى`) emoji لكتابة فصل. وقد وردت أسماؤهم كمؤلفين في أحدث نسخة من الكتاب.
 
-## Reviewing chapters and other pull requests
+## استعراض الفصول وطلبات السحب الأخرى
 
-Review process of a newly contributed chapter or a subsection of an existing chapter involves approving the language and structure of a chapter or a section of a chapter, flagging errors or typos, asking for clarifications if certain parts of the content or statements are unclear, suggesting modifications and improving the overall quality of someone's contribution.
+وتنطوي عملية استعراض فصل مساهم به حديثا أو جزء فرعي من فصل قائم على الموافقة على لغة وبنية فصل أو جزء من فصل، علامة الأخطاء أو الطباعة، طلب توضيحات إذا كانت أجزاء معينة من المحتوى أو البيانات غير واضحة، مع اقتراح تعديلات وتحسين النوعية العامة لمساهمة شخص ما.
 
-- *Persona for reviewing one pull request*: Tashan has reviewed a pull request that contributed one additional paragraph to an already existing chapter. They approved the pull request after catching two typos and giving a suggestion for a clearer phrasing of one sentence.
-  - **Acknowledgement:** They are acknowledged in the Contributors table with the 👀 (`review`) emoji.
-- *Persona for reviewing pull request over sustained engagement*: Sadaf has reviewed a new chapter on "Secure communication for distributed teams". She gave comprehensive feedback on the structure of the proposed references and suggested a new format. She was engaged for multiple reviews of the same pull request and engaged closely with the community member who wrote the chapter.
-  - **Acknowledgement:** Sadaf is acknowledged in the Contributors table with the 👀 (`review`) and 🤔 (`idea`) emojis, and she is named as an author on the last release of the book.
+- *شخصية لمراجعة طلب سحب واحد*: تاشان قد راجع طلب سحب الذي أسهم بفقرة إضافية واحدة في فصل موجود بالفعل. وقد وافقوا على طلب السحب بعد الاستحواذ على طابعين، وتقديم اقتراح بصياغة أكثر وضوحا لجملة واحدة.
+  - **تقدير:** تم الاعتراف بهم في طاولة المساهمين مع 👀 (`review`) emoji.
+- *شخصية لمراجعة طلب السحب على المشاركة المستمرة*: قام صداف بمراجعة فصل جديد حول "الاتصال الآمن للفرق الموزعة". وقدمت تغذية مرتدة شاملة بشأن هيكل المراجع المقترحة واقترحت صيغة جديدة. وقد اشتركت في إجراء استعراضات متعددة لنفس الطلب المتعلق بالجذب وانخرطت بشكل وثيق مع عضو المجتمع المحلي الذي كتب الفصل.
+  - **تقدير:** Sadaf معترف به في طاولة المساهمين مع 👀 (`review`) و 🤔 (`idea`) emojis, وقد سُميت صاحبة البلاغ على أنها صاحبة البلاغ في الإفراج الأخير عن الكتاب.
 
-## Chapter contribution
+## مساهمة الفصل
 
-The various contributions to a chapter are made towards designing, writing, and reviewing its content through GitHub issues, pull requests and reviewing processes.
+وتُقدم مختلف المساهمات في هذا الفصل من أجل تصميم محتوياته وكتابتها ومراجعتها من خلال قضايا GitHub وطلبات السحب واستعراض العمليات.
 
-- *Persona for writing a chapter*: Jordon has written a chapter on "Setting expectations across academia and industry". He started writing the chapter at a Turing Way Book Dash event, based on an idea they had developed in advance of the event. He responded to review comments and iteratively improved the chapter until the pull request was merged.
-  - **Acknowledgement:** He is acknowledged in the Contributors table with a 👀 (`review`), 🤔 (`idea`) and 🖋 (`content`) emoji. He is also named as an author on the last release of the book.
-- *Persona for reviewing and making chapter contribution*: Sia recently learned about _The Turing Way_ project and started contributing by reviewing a pull request for the chapter "Setting expectations across academia and industry". She offered some critical suggestions and engaged in helpful discussions with the author to help them improve their contribution. She ended up writing a new section of that chapter as well.
-  - **Acknowledgement:** She is acknowledged in the Contributors table with  👀 (`review`), 🤔 (`idea`) and 🖋 (`content`) emoji and is named as an author in the last release of the book.
-- *Persona for designing a chapter*: At the event, Ishan collaborated with Mafalda in brainstorming a chapter together and created an issue on that. After the event, Ishan did not have time to contribute to the chapter anymore as an author or contributor.
-  - **Acknowledgement:** Ishan is acknowledged in the Contributors table with the 🤔 (`idea`) emoji.
-- *Persona for designing and writing a chapter*: After the same event as above, Mafalda completed the chapter that she brainstormed with Ishan. She submitted her contribution as a pull request to the Turing Way and responded to the review comments.
-  - **Acknowledgement:** She is acknowledged in the Contributors table with 🤔 (`idea`) and 🖋 (`content`) emoji and is named as an author in the last release of the book.
+- *شخصية لكتابة الفصل*: لقد كتب الأردن فصلا عن "تحديد التوقعات عبر الأوساط الأكاديمية والصناعة". وبدأ في كتابة الفصل في حدث كتاب "تورينج درب داش"، بناء على فكرة تطوروها قبل الحدث. ورد على تعليقات الاستعراض وأدخل تحسينات متكررة على الفصل إلى أن يدمج طلب الجذب.
+  - **اعتراف:** هو معترف به في طاولة المساهمين مع 👀 (`view`)، 🤔 (`فكرة`) و 🖋 (`محتوى`) emoji. كما أُطلق عليه اسم صاحب البلاغ عند الإفراج الأخير عن الكتاب.
+- *شخصية لمراجعة وتقديم مساهمة الفصل*: تعلم Sia مؤخرا حول _مشروع طريق التوحيد_ وبدأت المساهمة بمراجعة طلب سحب للفصل "تحديد التوقعات عبر الأوساط الأكاديمية والصناعة". وقدمت بعض الاقتراحات الهامة ودخلت في مناقشات مفيدة مع صاحبة البلاغ لمساعدتها على تحسين إسهامها. وانتهت بها الحال بكتابة جزء جديد من ذلك الفصل أيضا.
+  - **تقدير:** تم الاعتراف بها في طاولة المساهمين مع 👀 (`المراجعة`)، 🤔 (`فكرة`) و 🖋 (`محتوى`) الرموز التعبيرية و اسمها كمؤلف في الإصدار الأخير من الكتاب.
+- *شخصية لتصميم الفصل*: في الحدث، وتعاون إيشان مع مافالدا في تقارع الأفكار معا وأوجد قضية في هذا الشأن. وبعد هذا الحدث، لم يعد لدى إيشان الوقت للإسهام في الفصل بوصفه مؤلفاً أو مساهماً.
+  - **تقدير:** إشان معترف به في طاولة المساهمين مع 🤔 (`فكرة`) emoji.
+- *شخصية لتصميم وكتابة الفصل*: بعد نفس الحدث كما حدث أعلاه، أكملت مافالدا الفصل الذي عصفت به أفكارا مع إيشان. وقدمت مساهمتها كطلب جذب إلى طريق تورينغ وردّت على تعليقات الاستعراض.
+  - **اعتراف:** تم الاعتراف بها في طاولة المساهمين مع 🤔 (`فكرة`) و 🖋 (`محتوى`) الرمز التعبيري ويتم تسميتها كمؤلف في الإصدار الأخير من الكتاب.
 
-## Accessibility
+## إمكانية الوصول
 
-Contributors reporting or working on accessibility issues.
+المساهمون الذين يقدمون تقارير أو يعملون بشأن مسائل تيسير الوصول.
 
-- *Persona for technical improvement for accessibility*: Endre wrote a script to make sure that _The Turing Way_ book is properly readable for low vision readers.
-  - **Acknowledgement:** He is acknowledged with ♿️ (`ally`) emoji  in the Contributors Table along with 💻 (`code`) emoji and named as an author in the last 3 releases of the book.
-- *Persona for writing accessibility related resources*: Rajmund wrote chapters on the community participation in the Community Handbook that discusses the accessibility aspects of working in a research team.
-  - **Acknowledgement:** He is acknowledged with ♿️ (`ally`) emoji  in the Contributors Table, along with 🖋 (`content`) emoji for writing and named as an author in the last 2 releases of the book.
-- *Persona for enhancing the accessibility aspects of the resources*: Sammy reviewed a few chapters in _The Turing Way_ to remove the gendered language. They also wrote a subchapter in the community handbook's chapter on a style guide to help others follow a guideline to avoid gendered language from future contributions.
-  - **Acknowledgement:** They are acknowledged with ♿️ (`ally`) emoji  in the Contributors Table along with 🖋 (`content`) emoji for chapter contributions and named as an author in the last 2 releases of the book.
+- *شخصية للتحسين التقني للوصول*: اكتب برنامج نصي للتأكد من أن _طريق التوبيغ_ كتاب يمكن قراءته بشكل صحيح للقراء ذوي البصر المنخفض.
+  - **مرحباً:** تم الاعتراف به مع ♿ (`حليف`) الرموز التعبيرية في طاولة المساهمين مع 💻 (`التعليمات البرمجية`) الرمز التعبيري وتم تسميته كمؤلف في آخر 3 إصدارات من الكتاب.
+- *شخصية لكتابة الموارد المتعلقة بإمكانية الوصول*: كتب راجموند فصولا عن مشاركة المجتمع المحلي في دليل المجتمع المحلي الذي يناقش جوانب إمكانية الوصول للعمل في فريق بحثي.
+  - **تقدير:** تم الاعتراف به مع ♿ (`حليف`) emoji في طاولة المساهمين، جنبا إلى جنب مع 🖋 (`محتوى`) emoji للكتابة وتسميته كمؤلف في الإصدارتين الأخيرتين من الكتاب.
+- *شخصية لتعزيز جوانب إمكانية الوصول إلى الموارد*: راجع سامي بعض الفصول في _طريق التورين_ لإزالة اللغة الجنسانية. كما كتبوا فصلا فرعيا في الفصل الخاص بالدليل المجتمعي بشأن دليل الأسلوب لمساعدة الآخرين على اتباع مبدأ توجيهي لتفادي استخدام صيغة جنسانية من المساهمات المقبلة.
+  - **مرحباً:** تم الاعتراف بهم مع ♿ (`حليف`) الرموز التعبيرية في طاولة المساهمين مع 🖋 (`محتوى`) للرموز التعبيرية لمساهمات الفصول وتسميتهم كمؤلف في الإصدارتين الأخيرتين من الكتاب.
 
-## Translation
+## الترجمة
 
-Translation process in _The Turing Way_ includes aspects translating _The Turing Way_ chapters into languages other than English and reviewing them. The translation infrastructure as of May 2020 is [Trasifex](https://www.transifex.com/theturingway/theturingway/dashboard/).
+عملية الترجمة في _طريقة الترقيق_ تتضمن جوانب ترجمة _فصول طريق الترقيق_ إلى لغات أخرى غير اللغة الإنجليزية ومراجعة تلك الفروع. البنية التحتية للترجمة في مايو 2020 هي [تراسيفيكس](https://www.transifex.com/theturingway/theturingway/dashboard/).
 
-- *Persona for translating resources*: Anika has translated 3 paragraphs of the version control chapter into Swedish following the standard process defined in _The Turing Way_ repository.
-  - **Acknowledgement:** She is acknowledged in the Contributors table with the 🌍 (`translation`) emoji.
-- *Persona for translating and improving resources*: Jamil has translated the version control chapter into Arabic following the standard process defined in The Turing Way repository and adapted the chapter to make it more logical to read in Arabic.
-  - **Acknowledgement:** He is acknowledged in the Contributors table with the 🌍 (`translation`) emoji and 🖋  (`content`), and named as an author on the last release of the book.
-- *Persona for translating resources and mentoring others*: Anabel has written a general guideline for translation and translated the introduction chapter into Turkish.
-  - **Acknowledgement:** Anabel is acknowledged with 🌍 (`translation`), 🤔 and 🖋 (`content`) emoji, and named as an author on the last release of the book.
-- *Persona for translating resources, mentoring others and maintaining an infrastructure*: Anthony has set up the infrastructure and process for managing translation of The Turing Way into multiple languages. They have translated 3 chapters into Chinese and worked closely with the core team to get mentored contributions by other members in multiple languages.
-  - **Acknowledgement:** They are acknowledged with 🌍 (`translation`), 🤔 (`idea`), 🚇(`infra`) and 🚧 (`maintenance`) emoji, and named as an author on the last release of the book.
+- *شخصية لترجمة الموارد*: ترجمت أنيكا 3 فقرات من الفصل الخاص بالتحكم في الإصدار إلى اللغة السويدية باتباع العملية القياسية المحددة في _مستودع طريقة تورينج_.
+  - **تقدير:** تم الاعتراف بها في طاولة المساهمين مع 🌍 (`ترجمة`) emoji.
+- *شخصية لترجمة وتحسين الموارد*: قام جميل بترجمة الفصل الخاص بالتحكم في الإصدار إلى العربية باتباع العملية القياسية المحددة في مستودع طريق التوفير وتكييف الفصل لجعله أكثر منطقية للقراءة باللغة العربية.
+  - **تقدير:** هو معترف به في طاولة المساهمين مع 🌍 (`ترجمة`) emoji و 🖋 (`محتوى`)، وأدرج اسمه كمؤلف في الإصدار الأخير من الكتاب.
+- *شخصية لترجمة الموارد وتوجيه الآخرين*: أنابل كتبت مبدأ توجيهيا عاما للترجمة وترجمت فصل المقدمة إلى اللغة التركية.
+  - **تقدير:** إن أنابل معترف بها مع 🌍 (`ترجمة`)، 🤔 و 🖋 (`محتوى`) emoji ، وسُمي كمؤلف في الإصدار الأخير من الكتاب.
+- *شخصية لترجمة الموارد، إرشاد الآخرين والحفاظ على بنية تحتية*: قام Anthony بإنشاء بنية تحتية وعملية لإدارة ترجمة طريق «تورينج» إلى لغات متعددة. وقد ترجمت ثلاثة فصول إلى اللغة الصينية وعملت بشكل وثيق مع الفريق الأساسي للحصول على مساهمات إرشادية من أعضاء آخرين بلغات متعددة.
+  - **تقدير:** تم الاعتراف بها مع 🌍 (`ترجمة`)، 🤔 (`فكرة`)، 🚇(`أدناه`) و 🚧 (`صيانة`) emoji و اسمه كمؤلف في الإصدار الأخير من الكتاب.
 
-## Organisational support
+## الدعم التنظيمي
 
-When members participate in _The Turing Way_ community with the in-kind support of their funders and organisation, we acknowledge each member individually and list their organisations as "Collaborating organisations". Such organisational supports are applicable when one or multiple members from a project or community collaborate to build resources in _The Turing Way_. These efforts are highly encouraged to ensure the sustainability of their resources that can benefit a much wider community.
+عندما يشارك الأعضاء في _طريق الترقيق_ المجتمع بدعم عيني من مموليه ومنظمتهم، ونحن نعترف بكل عضو على انفراد وندرج منظماتهم بوصفها "منظمات متعاونة". يمكن تطبيق هذه الدعم التنظيمي عندما يتعاون عضو واحد أو أكثر من أعضاء مشروع أو مجتمع لبناء الموارد في _طريق التوريد_. وتشجع هذه الجهود تشجيعا شديدا على ضمان استدامة مواردها التي يمكن أن تفيد مجتمعا أوسع بكثير.
 
-- *Persona of a collaborating organisation*: The Narnia National AI Institute (NNAII) have agreed to share their internal guidance on communicating safe and ethical artificial intelligence to _The Turing Way_. The chapters were written by a team of people within NNAII and converted into pull requests that fit _The Turing Way_ style guide. Each individual from the team is listed as a contributor in the Contributors Table with a 🖋 (`content`) emoji or other relevant contributions they have made.
-  - **Acknowledgement:** The NNAII is acknowledged as a "Collaborating organisation" in the {ref}`the record of contributions<ch-acknowledgement-record>` with detailed contributions from each of their members involved in this project.
-- *Persona for a contributing member from the organisation*: Abby is one of the members of the NNAII who contributed to the guidance before she left to join a non-profit last year. After leaving NNAII, Abby has designed and written a new chapter in her own time.
-  - **Acknowledgement:** In addition to her previous acknowledgments, she will be acknowledged with a 🖋  (`content`) and 🤔 (`idea`) emoji in the Contributors Table and her {ref}`the record of contributions<ch-acknowledgement-record>` will develop independently of the NNAII.
-- *Persona for the supporting (indirect contributor) members from the organisation*: Kadie is a programme director at the NNAII who manages the team that wrote the guidance that has been incorporated into _The Turing Way_.
-  - **Acknowledgement:** She is acknowledged in the Contributors table with the 💵 (`finance`) emoji. Kadie was asked if she would like to be an author on the most recent release of _The Turing Way_ book but declined as she did not personally feel that she had contributed enough to be named as an author.
-- *Persona for a contributing member from the organisation with sustained engagement*: Patty works in a National Library and her employers have approved her to host their resources as chapters in _The Turing Way_. Patty has developed materials, contributed to the community discussions and reviewed others' pull requests on the GitHub repository.
-  - **Acknowledgement:** Patty will be listed in the Contributors Table with a 🤔 (`idea`), 🖋  (`content`) and 👀 (`review`) emoji and named as an author on the last release of the book..
+- *شخصية من منظمة متعاونة*: وافق معهد نارنيا الوطني AI (NNAII) على تقاسم توجيهاته الداخلية بشأن نقل الذكاء الاصطناعي الآمن والأخلاقي إلى _طريق التوحيد_. تم كتابة الفصول من قبل فريق من الأشخاص داخل NNAII وتحويلها إلى طلبات سحب تناسب _دليل طريق التوريج_. كل فرد من أعضاء الفريق مدرج كمساهم في جدول المساهمين مع 🖋 (`محتوى`) رمز تعبيري أو مساهمات أخرى ذات صلة قدموها.
+  - **تقديراً:** NNAII معترف به "كمنظمة متعاونة" في {ref}`سجل المساهمات<ch-acknowledgement-record>` مع مساهمات مفصلة من كل عضو من أعضائه المشاركين في هذا المشروع.
+- *شخصية لعضو مساهم من المنظمة*: آبي هو أحد أعضاء المعهد الوطني للإحصاء الذين ساهموا في التوجيه قبل مغادرتها للانضمام إلى منظمة لا تستهدف الربح في العام الماضي. وبعد أن غادر أبي الحولية الوطنية الثانية للأمم المتحدة، صممت فصلا جديدا في وقتها الخاص.
+  - **اعتراف:** بالإضافة إلى اعترافاتها السابقة، سيتم الاعتراف بها بواسطة 🖋 (`محتوى`) و 🤔 (`فكرة`) emoji في طاولة المساهمين و {ref}`سجل المساهمات<ch-acknowledgement-record>` سيتم تطويره بشكل مستقل عن NNAII.
+- *شخصية للأعضاء الداعمين (المساهم غير المباشر) من المنظمة*: القاضي هو مدير برنامج في المعهد الوطني للضمان الاجتماعي الذي يدير الفريق الذي كتب الإرشادات التي تم إدماجها في _طريق التورين_.
+  - **اعتراف:** تم الاعتراف بها في طاولة المساهمين مع :$_banknote: (`التمويل`) emoji. سئلت كادي عما إذا كانت ترغب في أن تكون مؤلفة في أحدث إصدار لكتاب _الطريق الوشيك_ ولكنها رفضت لأنها لم تشعر شخصياً بأنها ساهمت بما يكفي لتسميتها كمؤلف.
+- *شخصية لعضو مساهم من المنظمة مع مشاركة مستمرة*: Patty تعمل في مكتبة وطنية وقد وافق عليها أرباب عملها لاستضافة مواردهم كفصول في _طريق الغناء_. وقد استحدثت باتي مواد وساهمت في مناقشات المجتمع المحلي واستعرضت طلبات سحب الآخرين في مستودع GitHub .
+  - **مرحباً:** ستدرج Patty في طاولة المساهمين مع 🤔 (`فكرة`)، 🖋 (`محتوى`) و 👀 (`مراجعة`) emoji و اسمه كمؤلف في الإصدار الأخير من الكتاب..
 
-## Maintenance
+## صيانة
 
-Maintenance work in _The Turing Way_ applies to the multiple aspects, some of which are: responding to the questions in community spaces such as Gitter, GitHub issues, or Twitter; the technical infrastructure of the GitHub repository, associated GitHub bots, scripts and continuous integration pipeline; online hosting platforms of Jupyter book and Netlify; and translation infrastructure of Transifex.
+أعمال الصيانة في _طريق التدوين_ ينطبق على الجوانب المتعددة. وفيما يلي بعض هذه الأسئلة: الرد على الأسئلة في أماكن المجتمع المحلي مثل قضايا Gitter أو GitHub أو تويتر؛ البنية التحتية التقنية لمستودع GitHub ، وبوتات GitHub المرتبطة به، والنصوص النصية وخطوط أنابيب التكامل المستمر؛ منصات الاستضافة الإلكترونية لكتاب المشتري و Netlifyter؛ والبنية التحتية للترجمة لـ Transifex.
 
 - *Persona for maintaining community interactions*: Neve has helped two contributors on two individual occasions by responding to a question on the Turing Way Gitter channel and a question on one of the issues in _The Turing Way_ GitHub repository.
-  - **Acknowledgement:** He is acknowledged in the Contributors table with the 💬 (`question`) and 🤔 (`idea`) emoji.
-- *Persona for maintaining community interactions with sustained engagement*: Ursula regularly points new contributors to documentation and submits pull requests to improve the guidance when she sees unclear areas. She reviews pull requests from others working to make the process of contributing smoother.
-  - **Acknowledgement:** She is acknowledged in the Contributors table with the 💬 (`question`), 🤔 (`idea`), 👀 (`review`) and 🚧 (`maintenance`) emoji , and named as an author on the last two releases of the book.
-- *Persona for maintaining project infrastructure*: Gaia is maintaining the back-end infrastructure of the Jupyter Book and supports the continuous integration aspect of the project repository by replying to related issues and providing solutions to fix them.
-  - **Acknowledgement:** She is acknowledged in the Contributors table with 🚇 (`infra`) and 🚧 (`maintenance`) emoji, and named as an author on the last release of the book.
-- *Persona for maintaining project infrastructure and mentoring other*: Jamil has set up the infrastructure and process for managing translation of _The Turing Way_ into multiple languages. They support new translators by answering their questions related to the translation process.
-  - **Acknowledgement:** They are acknowledged with 🤔 (`idea`), 🚇 (`infra`) and 🚧 (`maintenance`) emoji, and named as an author on the last release of the book.
+  - **اعتراف:** هو معترف به في طاولة المساهمين مع 💬 (`سؤال`) و 🤔 (`فكرة`) emoji.
+- *شخصية للحفاظ على تفاعلات المجتمع مع المشاركة المستمرة*: أورسولا تشير بانتظام إلى مساهمين جدد في التوثيق وتقدم طلبات سحب لتحسين التوجيه عندما ترى مناطق غير واضحة. وتستعرض طلبات السحب المقدمة من جهات أخرى تعمل على جعل عملية المساهمة أكثر سلاسة.
+  - **تقدير:** تم الاعتراف بها في طاولة المساهمين مع 💬 (`سؤال`)، 🤔 (`فكرة`)، 👀 (`مراجعة`) و 🚧 (`صيانة`) emoji , وسُمي كمؤلف في النشرتين الأخيرتين من الكتاب.
+- *شخصية للحفاظ على البنية التحتية للمشروع*: تقوم Gaia بصيانة البنية التحتية الخلفية لكتاب المشتري، وتدعم جانب التكامل المستمر لمستودع المشروع عن طريق الرد على المشكلات ذات الصلة وتوفير الحلول لإصلاحها.
+  - **تقدير:** تم الاعتراف بها في طاولة المساهمين بـ 🚇 (`أدناه`) و 🚧 (`صيانة`) emoji ، وأدرج اسمه كمؤلف في الإصدار الأخير من الكتاب.
+- *شخصية للحفاظ على البنية التحتية للمشروع و إرشاد الآخرين*: قام جميل بإنشاء البنية التحتية و العملية لإدارة الترجمة _الطريق_ إلى لغات متعددة. وهي تدعم المترجمين الجدد بالإجابة على أسئلتهم المتعلقة بعملية الترجمة.
+  - **تقدير:** تم الاعتراف بها مع 🤔 (`فكرة`)، 🚇 (`أدناه`) و 🚧 (`صيانة`) emoji، وأدرج اسمه كمؤلف في الإصدار الأخير من الكتاب.
 
-## Representing the Turing Way
+## تمثيل طريق التورينج
 
-Anyone who shares _The Turing Way_ resources in any relevant publication, learning material, conference presentations or community event are acknowledged for representing _The Turing Way_. These members may or may not have previously contributed to the project. They either volunteer or are recommended by _The Turing Way_ team members for representing this community within or outside the project.
+أي شخص يشترك في موارد _طريق الترقيب_ في أي منشور ذي صلة، مواد تعليمية، تم الاعتراف بعروض المؤتمرات أو الأحداث المجتمعية لتمثيلها _طريق التورينغ_. وقد يكون هؤلاء الأعضاء قد ساهموا في المشروع أو لم يساهموا فيه من قبل. إنهم إما متطوعون أو يوصى بهم من قبل _الطريق الوشيك_ أعضاء الفريق لتمثيل هذا المجتمع داخل المشروع أو خارجه.
 
-- *Persona for highlighting project resources*: Yehuda used one of the Scriberia and _The Turing Way_ illustrations in a recent talk they gave at an open source workshop that was hosted by their company. They included links to _The Turing Way_ book, GitHub repository and Twitter handle. Their slides are available under a CC-BY license and are requested to be linked in a monthly newsletter.
-  - **Acknowledgement:** They are acknowledged in the Contributors table with the 🔊 (`Talk`) emoji.
-- *Persona for giving a talk on _The Turing Way_*: Noah is a long time contributor to _The Turing Way_, they answer questions and review pull requests regularly. In March 2020, Kirstie - lead developer of _The Turing Way_ - recommended Noah as a suggested speaker to give a talk about the Project Design section of _The Turing Way_ at a conference on open source community management. She worked with Noah to practice his presentation in advance of the talk. Noah's slides are available under a CC-BY license and are linked from a page in the community handbook.
-  - **Acknowledgement:** They are acknowledged in the Contributors table with the 🔊 (`Talk`), 🚧 , 👀 (`review`), 🤔 (`idea`) and 💬 (`question`) emoji and named as an author on the last release of the book.
+- *شخصية لتسليط الضوء على موارد المشروع*: استخدم يهودا أحد الرسوم التوضيحية في سكريبيريا و _طريق التوريد_ في حديث ألقاه مؤخرا في ورشة عمل مفتوحة المصدر استضافتها شركتهم. وتضمنت وصلات إلى كتاب _طريق الترقيق_ ومستودع GitHub ومعالج تويتر. وتتاح شرائحها بموجب ترخيص C-BY ويُطلب ربطها في نشرة إخبارية شهرية.
+  - **تقدير:** تم الاعتراف بهم في طاولة المساهمين مع 🔊 (`تحدثي`) emoji.
+- *شخصية لإلقاء حديث حول _طريق اللارجح_*: نوح هو مساهم طويل الوقت في _طريق اللعب،_، وهم يجيبون على الأسئلة ويراجعون طلبات السحب بانتظام. في مارس 2020، Kirstie - رائد مطور _الطريق الوشيك_ - أوصى Noah كمتحدث مقترح لإلقاء حديث عن قسم تصميم المشروع _طريق التورينج_ في مؤتمر عن إدارة مجتمع المصدر المفتوح. وعملت مع نوح لممارسة عرضه قبل الكلام. شرائح نوه متاحة بموجب ترخيص CC-BY وهي مرتبطة من صفحة في دليل المجتمع.
+  - **تقدير:** تم الاعتراف بهم في طاولة المساهمين مع 🔊 (`تحدثي`)، 🚧 ، 👀 (`مراجعة`)، 🤔 (`فكرة`) و 💬 (`السؤال`) الرموز التعبيرية والمسماة كمؤلف في الإصدار الأخير من الكتاب.
 
-## Training, workshops or community events
+## التدريب أو حلقات العمل أو المناسبات المجتمعية
 
-Members can help in organising a training session, host a workshop delivered by the team members, or help in delivering a community event.
+ويمكن للأعضاء أن يساعدوا في تنظيم دورة تدريبية، أو أن يستضيفوا حلقة عمل يقدمها أعضاء الفريق، أو أن يساعدوا في تنظيم حدث مجتمعي.
 
-1. Klara **delivered a training** session on Binder co-organized by _The Turing Way_ core team members.
-2. Petra **help organising** a 2-hour long workshop by _The Turing Way_ at a PhD conference and helped deliver it by managing contributions on the GitHub repository.
-3. Uri previously attended a bookdash event as a selected participant and joined the most recent bookdash as a **helper to support new attendees**.
-4. Paolo **hosted a Collaboration Cafe** in a time zone compatible with the contributors from New Zealand.
+1. قدم كلارا **جلسة تدريب** على بيندر اشترك في تنظيمها _طريقة التورين_ أعضاء الفريق الأساسي.
+2. يساعد بيترا **في تنظيم** ورشة عمل لمدة ساعتين من قبل _طريق التورين_ في مؤتمر الدكتوراة وساعد في تقديمها من خلال إدارة المساهمات في مستودع GitHub .
+3. حضرت أوري سابقاً حدثاً من أحداث الكتاب كمشارك مختار وانضمت إلى أحدث لوحة كمساعد **لدعم الحضور الجدد**.
+4. استضاف باولو **مقهى التعاون** في منطقة زمنية متوافقة مع المساهمين من نيوزيلندا.
 
-**Acknowledgement:** All these contributors will be acknowledged with 📋 (`eventOrganizing`) emoji in the Contributors Table.
+**تقدير:** سيتم الاعتراف بجميع هؤلاء المساهمين مع 📋 (`eventOrganizing`) emoji في جدول المساهمين.
 
-## Tutorial and training material
+## المواد التعليمية والتدريبية
 
-We invite our members to create tutorials or share their training materials that can be supplemented with the existing chapters in _The Turing Way_.
+نحن ندعو أعضاءنا إلى إنشاء دروس أو مشاركة موادهم التدريبية التي يمكن استكمالها بالفصول الموجودة في _طريق الترقيق_.
 
-- *Persona for creating training materials in the project*: Aune added multiple-choice questions (as a tool for formative assessment) at the end of 3 different chapters to help readers evaluate their understanding of the concepts described in those chapters.
-  - **Acknowledgement:** She is acknowledged with ✅ (`tutorial`) emoji in the Contributors table.
-- *Persona for reusing a training material in the project*: Leo had developed training material on machine learning for a workshop they organised in the past for their colleagues. They have added this material with a new chapter they authored in the book for reproducibility in _The Turing Way_.
-  - **Acknowledgement:** They are acknowledged with ✅ (`tutorial`) emoji in the Contributors table along with 🖋 (`content`) emoji and named as an author on the last release of the book.
+- *شخصية لإنشاء مواد تدريبية في المشروع*: أضافت Aune أسئلة متعددة الخيارات (كأداة للتقييم التكوين) في نهاية 3 فصول مختلفة لمساعدة القراء على تقييم فهمهم للمفاهيم الموصوفة في تلك الفصول.
+  - **اعتراف:** تم الاعتراف بها مع ✅ (`درس تعليمي`) الرموز التعبيرية في طاولة المساهمين.
+- *شخصية لإعادة استخدام مواد التدريب في المشروع*: قام ليو بتطوير مواد تدريبية عن تعلم الآلات لحلقة عمل نظموها في الماضي لزملائهم. لقد أضافوا هذه المواد مع فصل جديد قاموا بتأليفه في الكتاب لقابلية التكرار في _طريق التدوين_.
+  - **اعتراف:** تم الاعتراف بهم مع ✅ (`درس تعليمي`) emoji في طاولة المساهمين مع 🖋 (`محتوى`) emoji وتم تسميتهم كمؤلف في الإصدار الأخير من الكتاب.
 
-## Blog posts and articles
+## منشورات المدونة والمقالات
 
-Contributors writing about _The Turing Way_ in articles, blogs, or other online publication platforms.
+المساهمون يكتبون عن _طريق التوريق_ في المقالات أو المدونات أو غيرها من منصات النشر عبر الإنترنت.
 
-1. Khasan wrote a relevant online **blogpost that was highlighted** in the monthly newsletter.
-2. Eva wrote a research article and **cited a chapter from _The Turing Way_**, which was then added to the _The Turing Way_ bibliography.
+1. كتب خسان مدونة على الإنترنت ذات صلة **تم تسليط الضوء عليها** في النشرة الإخبارية الشهرية.
+2. كتبت إيفا مقالا بحثيا و **استشهدت بفصل من _طريق التورين_**، وقد أضيفت بعد ذلك إلى الببليوغرافيا الصادرة عن _The Ting Way_.
 
-**Acknowledgement:** These contributors are acknowledged with 📝 (`blog`) emoji in the Contributors Table.
+**تقدير:** يتم الاعتراف بهؤلاء المساهمين مع 📝 (`المدونة`) emoji في جدول المساهمين.
 
-## Videos and recordings
+## مقاطع الفيديو والتسجيلات
 
-We encourage creating video content or animations, record online interactive discussions or link any relevant videos our contributors may have created in the past that can be used as a learning tool and enhance the quality of _The Turing Way_ content.
+نحن نشجع على إنشاء محتوى الفيديو أو الرسوم المتحركة، تسجيل المناقشات التفاعلية عبر الإنترنت أو ربط أي مقاطع فيديو ذات صلة ربما يكون المساهمون قد أنشأوها في الماضي والتي يمكن استخدامها كأداة للتعلم وتعزيز جودة محتوى _طريق الترقيق_.
 
-- *Persona for helping record and edit videos for the project*: Jakaria hosted a collaboration cafe, recorded the session, edited to be uploaded on _The Turing Way_ YouTube channel.
-  - **Acknowledgement:** Jakaria is acknowledged with 📹 (`video`) emoji in the Contributors table along with 📋 (`eventOrganizing`) emoji for event organisation.
-- *Persona for creating training videos*: Rene created 3 short videos to guide step by step learning of git-based version control and linked them to an existing chapter on git and GitHub.
-  - **Acknowledgement:** Rene is acknowledged with 📹 (`video`) emoji in the Contributors table and named as an author on the last release of the book.
+- *شخصية للمساعدة في تسجيل وتعديل مقاطع الفيديو للمشروع*: جاكاريا استضافت مقهى تعاوني, تم تسجيل الجلسة، تم تحريرها ليتم تحميلها على _قناة تورينج_ قناة يوتيوب.
+  - **الاحتراف:** جاكاريا معترف بها مع 📹 (`فيديو`) emoji في طاولة المساهمين مع 📋 (`eventOrganizing`) emoji لتنظيم الحدث.
+- *شخصية لإنشاء مقاطع فيديو تدريب*: أنشأ Rene 3 مقاطع فيديو قصيرة لتوجيه التعلم خطوة بخطوة من التحكم في الإصدار Git، وربطها بالفصل الموجود على git و GitHub.
+  - **اعتراف:** Rene معترف به مع 📹 (`فيديو`) emoji في طاولة المساهمين ويسمى مؤلف في الإصدار الأخير من الكتاب.
 
-## Financial support
+## الدعم المالي
 
-Researchers and support staff from a collaborating organisation can help with searching for funding, help with writing a grant proposal or providing financial support directly or indirectly for the development of the project.
+يمكن للباحثين وموظفي الدعم من منظمة متعاونة أن يساعدوا في البحث عن التمويل، المساعدة في كتابة اقتراح المنحة أو تقديم الدعم المالي بشكل مباشر أو غير مباشر لتطوير المشروع.
 
-- *Persona for managing funding*: Laura is managing the sponsorship offered to _The Turing Way_ through one of its collaborating organisation.
-  - **Acknowledgement:** Laura is acknowledged with 💵 (`financial`) emoji in the Contributors table.
-- *Persona for helping gain funding*: Ismael shared a funding opportunity with an intention to financially support the development of the guide on ethical research. They also helped in editing a grant proposal.
-  - **Acknowledgement:** Ismael is acknowledged with 🔍 (`fundingFinding`) emoji in the Contributors table and 💵 (`financial`) emoji for their support and work and named as an author on the last release of the book.
+- *شخصية لإدارة التمويل*: تقوم لورا بإدارة الرعاية المقدمة لـ _طريق التوريد_ من خلال إحدى مؤسساتها المتعاونة.
+  - **اعتراف:** لاورا معترف بها مع :$_banknote: (`مال`) emoji في طاولة المساهمين.
+- *شخصية للمساعدة في الحصول على التمويل*: اشتركت إسماعيل في فرصة تمويل بنية تقديم الدعم المالي لتطوير دليل البحوث الأخلاقية. وساعدوا أيضا في تحرير اقتراح المنح.
+  - **اعتراف:** اسماعيل معترف به مع 🔍 (`fundingFinding`) emoji في طاولة المساهمين و :$ Banknote: (`المالية`) emoji لدعمهم وعملهم و اسمها كمؤلف في الإصدار الأخير من الكتاب.
 
-## Project Management
+## إدارة المشاريع
 
-Team members, core contributors and community members with sustained engagements often take on project management tasks and support _The Turing Way_ community and project as a whole.
+أعضاء الفريق، غالباً ما يقوم المساهمون الأساسيون وأعضاء المجتمع الذين لديهم ارتباطات مستمرة بمهام إدارة المشروع ودعم _طريق التوحيد_ والمجتمع والمشروع ككل.
 
-**Acknowledgement:** These members are acknowledged with 📆 (`ProjectManagement`) emoji in the Contributors table.
+**تقدير:** هؤلاء الأعضاء معترف بهم مع 📆 (`ProjectManagement`) emoji في طاولة المساهمين.
 
-*Did we miss listing a contribution type? Please create an issue on the GitHub repository to discuss that with the team members.*
+*هل فاتنا قائمة نوع المساهمة؟ الرجاء إنشاء مشكلة في مستودع GitHub لمناقشة ذلك مع أعضاء الفريق.*

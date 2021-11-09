@@ -1,70 +1,70 @@
-(rr-make-results)=
-# Including numerical results and tables
+(r-make-results)=
+# بما في ذلك النتائج الرقمية والجداول
 
-At this point you may be thinking "That's so cool that I can now include figures into my manuscripts! But how exactly does this work for numerical results?"
+في هذه المرحلة ربما تفكرون "هذا رائع جداً لدرجة أنني أستطيع الآن إدراج الأرقام في مخطوطاتي! ولكن كيف يمكن لهذا أن ينجح في تحقيق نتائج رقمية؟ "
 
-The reproducible paper linked above shows one way of doing it: After the results are computed, they are written out in the form of a LaTeX table. Here is how one of these tables looks like right after it was computed:
+الورق القابل للتكاثر المرتبط أعلاه يظهر طريقة واحدة للقيام بذلك: بعد حساب النتائج، يتم كتابتها في شكل جدول لاتيكس . إليك كيف تبدو إحدى هذه الجداول كما لو أنها حسبت مباشرة:
 
 ```latex
-\begin{tabular}{lrrr|rrrr}
-Property & HypoParsr & Sniffer & Suitability & Pattern & Type & No Tie & Full\\
+\star{tabular}{lrrr|rrrr}
+خاصية & HypoParsr & Sniffer & مناسبة & نمط & نوع & لا يوجد & Full\\
 \hline
-Delimiter & 87.48 & 86.82 & 65.41 & 92.61 & 88.33 & 91.38 & \textbf{94.92}\\
-Quotechar & 82.90 & 92.36 & 44.60 & 95.23 & 90.10 & 93.80 & \textbf{97.36}\\
-Escapechar & 87.96 & 94.37 & 74.85 & 97.95 & 96.26 & 95.44 & \textbf{99.25}\\
-Overall & 80.60 & 85.45 & 38.19 & 90.99 & 83.61 & 90.61 & \textbf{93.75}\\
+Delimiter & 87. 8 & 86.82 & 65.41 & 92.61 & 88.33 & 91. 8 & \tكابد{94.92}\\
+كوتيكهار & 82. 0 & 92.36 & 44.60 & 95. 3 & 90.10 & 93.80 & \textbf{97.36}\\
+Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95. 4 & \tXbf{99.25}\\
+إجمالي & 80. 0 & 85.45 & 38.19 & 90. 9 & 83.61 & 90.61 & \textbf{93.75}\\
 \hline
 \end{tabular}
 ```
 
-To include this table into your manuscript, you can use LaTeX's `\input{}` function. If the file with the table is called `mytable.tex`, this command can insert it into your manuscript:
+لتضمين هذا الجدول في مخطوطك، يمكنك استخدام دالة LaTeX's `\input{}` . إذا كان الملف مع الجدول يسمى `mytable.tex`، يمكن لهذا الأمر إدراجه في المخطوطة الخاصة بك:
 
 ```latex
-\begin{table}
+\start{table}
 \input{mytable}
 \end{table}
 ```
 
-An alternative is to make use of variables. Instead of creating a table in a separate file, you can write a table skeleton and populate it with variables. The results you compute are associated with the variables, and once your manuscript is compiled, variables are exchanged for real numerical results. Here is how such a table looks like in your manuscript:
+ويتمثل أحد البدائل في استخدام المتغيرات. بدلاً من إنشاء جدول في ملف منفصل، يمكنك كتابة هيكل جدول الهيكل الأساسي وتمكينه من خلال المتغيرات. وترتبط النتائج التي تحسبها مع المتغيرات، وبمجرد تجميع المخطوطة الخاصة بك، يتم تبادل المتغيرات للحصول على نتائج رقمية حقيقية. إليك كيف يبدو مثل هذا الجدول في المخطوطة الخاصة بك:
 
 ```latex
-\begin{table}
+\start{table}
     \begin{tabular*}{ccc}
-        \textbf{Variable} & \textbf{Mean}   & \textbf{Std. deviation} \
+        \textbf{Variable} & \textbf{Mean}   & \textbf{Std. الانحراف} \
         \hline
-        Variable 1        & \var1mean       & \var1std                \
-        Variable 2        & \var2mean       & \var2std                \
+        المتغير 1        & \var1عنى       & \var1std \
+        المتغير 2        & \var2وسطي       & \var2std \
     \end{tabular*}
 \end{table}
 ```
 
-Ỳou may notice that `\var1mean` is no standard LaTeX command: It is a variable that you can define yourself! How is this done? Have your script print the results you compute within a `\newcommand{}{}` definition into a file, for example like this (simplified Python example):
+قد يلاحظ Y<unk> ou أن `\var1medi` ليس الأمر القياسي لاتيكس: إنه متغير يمكنك تعريف نفسك! كيف يتم ذلك؟ ضع نصك البرمجي طباعة النتائج التي قمت بحسابها ضمن تعريف `\newcommand{}}` في ملف، على سبيل المثال مثل هذا (مثال بايثون المبسط):
 
 ```python
-# this loops to data vectors of two variables (data1, data2), compute the
-# mean and standard deviation, and print the results together with the
-# variable name ('var1', 'var2')
-for name, data in (['var1', data1], ['var2', data2]):
-    mean = np.mean(data)
-    std = np.mean(data)
-    print('\\newcommand{\\%s }{ %f }' % (name + 'mean', mean))
-    print('\\newcommand{\\%s }{ %f }' % (name + 'std', std))
+# هذه الحلقات لناقلات البيانات من متغيرين (البيانات(1)، البيانات2)، قم بحساب
+# المتوسط والانحراف القياسي، وطبع النتائج مع
+# اسم المتغير ('var1', 'var2')
+للاسم، البيانات في (['var1', data1]، ['var2', data2]):
+    تعني = np. ean(data)
+    std = np. ean(data)
+    print('\\newcommand{\\%s }{ %f }' ٪ (الاسم + 'وسط'، الوسيطة))
+    print('\\newcommand{\\%s }{ %f }' % (الاسم + 'std', std))
 ```
 
-Let's say the mean of the first dataset is 9.2, the definition would look like this: `\newcommand{\var1mean}{9.2}`. Note that this example uses Python, but you can use any language or method you are familiar with to print definitions like this. With this definition, LaTeX exchanges the table cell with `\var1mean` with the numeric result from the computation. You can capture the definitions and write them to a file using redirection with `>`. In this example, we write it to a file called `results_def.tex`
+دعونا نقول أن متوسط مجموعة البيانات الأولى هو 9.2، سيبدو التعريف مثل هذا: `\newcommand{\var1mean}{9.2}`. لاحظ أن هذا المثال يستخدم Python، ولكن يمكنك استخدام أي لغة أو طريقة تتعرف عليها لطباعة تعاريف مثل هذه. مع هذا التعريف، تبادل LaTeX خلية الجدول مع `\var1وسط` مع النتيجة الرقمية من الحساب. يمكنك التقاط التعاريف وكتابتها إلى ملف باستخدام إعادة التوجيه مع `>`. في هذا المثال ، نقوم بكتابته على ملف يسمى `results_def.tex`
 
 ```makefile
-results_def.tex: code/make_summary_stats.py
+النتائج_def.tex: code/make_summary_stats.py
     python code/make_summary_stats.py > results_def.tex
 ```
 
-As an alternative to `>`, you could also redirect the results using the Unix [pipe](https://en.wikipedia.org/wiki/Pipeline_(Unix)) and the [tee](https://en.wikipedia.org/wiki/Tee_(command)) command (`python code/make_summary_stats.py | tee results_def.tex`). This will not only redirect the output of the script to a file, but also print them into your terminal. This helpful trick can help you observe whether everything works as expected during the execution of your script.
+كبديل ل `>`، يمكنك أيضًا إعادة توجيه النتائج باستخدام يونكس [أنابيب](https://en.wikipedia.org/wiki/Pipeline_(Unix)) و [tee](https://en.wikipedia.org/wiki/Tee_(command)) الأمر (`python code/make_summary_stats. y <unk> tee results_def.tex`). هذا لن يقوم فقط بإعادة توجيه إخراج البرنامج النصي إلى ملف، ولكن أيضا بطباعته في المحطة الطرفية الخاصة بك. هذه الخدعة المفيدة يمكن أن تساعدك على ملاحظة ما إذا كان كل شيء يعمل كما هو متوقع أثناء تنفيذ البرنامج النصي الخاص بك.
 
-Finally, use the `input{}` command to include the new variables in your manuscript and the variables in the tables:
+أخيرا، استخدم الأمر `input{}` لتضمين المتغيرات الجديدة في مخطوطك والمتغيرات في الجداول:
 
 ```latex
-\begin{document}
+\star{document}
 \input{results_def.tex}
 ```
 
-The examples shown here are simplistic, but with a bit of thinking, you can make sure to include results into your manuscript just as they are computed. This helps you (no mistakes copying results to tables, yay!) and makes your research more accessible and reproducible.
+الأمثلة المعروضة هنا مبسطة، ولكن بقدر من التفكير، يمكنك التأكد من تضمين النتائج في مخطوطك كما يتم حسابها. هذا يساعدك (لا توجد أخطاء في نسخ النتائج إلى الجداول، ياي!) ويجعل البحث الخاص بك أيسر منالا وأكثر قابلية للتكرار.

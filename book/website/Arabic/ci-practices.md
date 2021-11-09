@@ -1,32 +1,32 @@
 (rr-ci-practices)=
-# Best Practices and Recommendations
+# أفضل الممارسات والتوصيات
 
-## Small, iterative changes
+## تغييرات صغيرة متكررة
 
-One of the most important practices when adopting continuous integration is to encourage project members to make and commit small changes. Small changes minimise the possibility and impact of problems cropping up when they're integrated, which minimises the time and effort cost of integration.
+ومن أهم الممارسات عند اعتماد التكامل المستمر تشجيع أعضاء المشروع على إجراء تغييرات صغيرة وعلى الالتزام بها. التغييرات الصغيرة تقلل من إمكانية وتأثير المشاكل التي تنشأ عندما تكون متكاملة، مما يقلل من الوقت وتكلفة الجهد للتكامل.
 
-## Trunk-based development
+## التطوير القائم على الترانك
 
-With trunk-based development, work is done in the main branch of the repository or merged back into the shared repository at frequent intervals. Short-lived feature branches are permissible as long as they represent small changes and are merged back as soon as possible.
+ومع التطوير القائم على الجذر، يجري العمل في الفرع الرئيسي من المستودع أو يعاد دمجه في المستودع المشترك على فترات متكررة. ويسمح بفروع الميزات القصيرة الأجل ما دامت تمثل تغييرات صغيرة وتدمج في أقرب وقت ممكن.
 
-The idea behind trunk-based development is to avoid large commits that violate of concept of small, iterative changes discussed above. Code is available to peers early so that conflicts can be resolved when their scope is small.
+والفكرة الكامنة وراء التنمية القائمة على الجذور هي تفادي ارتكاب أفعال كبيرة تنتهك مفهوم التغييرات الصغيرة والمتكررة التي نوقشت أعلاه. وتتاح التعليمات البرمجية للأقران في وقت مبكر حتى يمكن حل النزاعات عندما يكون نطاقها صغيرا.
 
-## Keep the building and testing phases fast
+## الحفاظ على مراحل البناء والاختبار بسرعة
 
-Because the build and test steps must be performed frequently, it is essential that these processes be streamlined to minimise the time spent on them. Increases in build time should be treated as a major problem because the impact is compounded by the fact that each commit kicks off a build.
+وبما أنه يجب القيام بخطوات البناء والاختبار بصورة متكررة، فمن الضروري تبسيط هذه العمليات للتقليل إلى أدنى حد من الوقت الذي تستغرقه فيها. وينبغي التعامل مع الزيادة في وقت البناء كمشكلة رئيسية لأن التأثير يتفاقم بسبب أن كل واحد منها يطرد من مبنى ما.
 
-When possible, running different sections of the test suite in parallel can help move the build through the pipeline faster. Care should also be taken to make sure the proportion of each type of test makes sense. Unit tests are typically very fast and have minimal maintenance overhead. In contrast, automated system or acceptance testing is often complex and prone to breakage. To account for this, it is often a good idea to rely heavily on unit tests, conduct a fair number of integration tests, and then back off on the number of later, more complex testing.
+إن تشغيل أجزاء مختلفة من مجموعة الاختبار بالتوازي يمكن أن يساعد في تحريك البناء من خلال خط الأنابيب بشكل أسرع. كما ينبغي الحرص على التأكد من أن نسبة كل نوع من أنواع الاختبارات ذات معنى. وعادة ما تكون اختبارات الوحدات سريعة جدا وتتسم بأدنى قدر من الصيانة العامة. وعلى النقيض من ذلك، كثيرا ما يكون اختبار النظام الآلي أو القبول معقدا ومعرضا للكسر. ولأخذ ذلك في الاعتبار، كثيراً ما يكون من المفيد الاعتماد بشدة على اختبارات الوحدة، إجراء عدد لا بأس به من اختبارات التكامل، ثم الرجوع إلى عدد الاختبارات الأكثر تعقيداً لاحقاً.
 
-## Computational expense
+## المصروفات الحسابية
 
-Some software will require significant compute resource to build and/or run. Examples include weather and climate models. This can make the use of continuous integration impractical as the tests either take too long or use too much resource. Therefore, a compromise needs to be found to balance the risk of incomplete testing against a usable development process.
+تحتاج بعض البرمجيات إلى موارد حاسوبية كبيرة لبناء و/أو تشغيل. وتشمل الأمثلة نماذج الطقس والمناخ. وهذا قد يجعل من استخدام التكامل المستمر أمرا غير عملي لأن الاختبارات إما تستغرق وقتا طويلا جدا أو تستخدم موارد أكثر مما ينبغي. ولذلك، يلزم التوصل إلى حل وسط يوازن بين خطر الاختبار غير المكتمل وعملية إنمائية قابلة للاستعمال.
 
-One approach is to use different levels of testing, with different subgroups being required depending on what is being changed. A common broad subgroup can be used in every case, with additional ones being invoked to test certain areas in more detail. This introduces an element of judgement to the testing process, but can be applied successfully.
+ويتمثل أحد النهوج في استخدام مستويات مختلفة من الاختبار، مع الحاجة إلى مجموعات فرعية مختلفة تبعاً لما يجري تغييره. ويمكن استخدام مجموعة فرعية واسعة مشتركة في كل حالة، مع اللجوء إلى حالات إضافية لاختبار مجالات معينة بمزيد من التفصيل. وهذا يُدخل عنصر تقدير في عملية الاختبار، ولكن يمكن تطبيقه بنجاح.
 
-## Dependencies tracking
+## تتبع التبعيات
 
-Checking for dependency updates should be done regularly. It can save a lot of time, avoiding bugs due to code dependent on deprecated functionality. Services such as [David](https://david-dm.org/) are available for dependency management.
+وينبغي التحقق من وجود تحديثات للاعتماد على الغير بانتظام. يمكن أن يوفر الكثير من الوقت، وتجنب الأخطاء بسبب التعليمات البرمجية اعتمادا على الوظائف المهملة. خدمات مثل [ديفيد](https://david-dm.org/) متوفرة لإدارة الإعالة.
 
-## Consistency throughout the pipeline
+## الاتساق في جميع مراحل التنفيذ
 
-A project should be built once at the beginning of the pipeline, the resulting software should be stored and accessible to later processes without rebuilding. By using the exact same artefact in each phase, you can be certain that you are not introducing inconsistencies as a result of different build tools.
+وينبغي بناء مشروع بمجرد بداية خط الأنابيب، ينبغي تخزين البرامجيات الناتجة عن ذلك وإتاحتها للعمليات اللاحقة دون إعادة بنائها. باستخدام نفس الحرف بالضبط في كل مرحلة، يمكنك أن تتأكد من أنك لا تقدم تناقضات نتيجة لمختلف أدوات البناء.

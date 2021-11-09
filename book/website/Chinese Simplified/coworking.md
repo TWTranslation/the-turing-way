@@ -1,22 +1,22 @@
-(ch-coworking)=
-# Community Coworking Calls
+(ch-coopering)=
+# 社区合作电话
 
-The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers. This allows people, who otherwise may feel isolated while working alone at home, to use traditional office setups, create a work routine, and build a sense of companionship with others who they share their office spaces with.
+共事概念一般与与不同独立工作的人，如远距离雇员或自由职业者共享实际办公空间的做法有关。 这使人们能够利用传统的办公设施，否则他们可能会感到在家里单独工作时感到孤立。 创建例行工作并与共享办公室空间的其他人建立同伴感。
 
-_The Turing Way_ community is distributed around the world. Our members are from diverse backgrounds, different skills and interests, working many different jobs, and contribute to this project for a great variety of reasons. They are also, for the most part, unpaid to contribute to this open source project.
+_诱惑路径_ 社区分布在世界各地。 我们的成员来自不同的背景、不同的技能和兴趣，从事许多不同的工作，出于各种原因为这一项目作出贡献。 他们也大部分没有得到付款，不能为这个开放源码项目作出贡献。
 
-We bring the practice of coworking to _The Turing Way_ using online coworking calls, through which we intend to develop a sense of energy and inspiration similar to in-person interactions but without the time and travel commitments.
+我们带来了共事的做法到 _使用在线共用电话的诱惑路径_ ， 我们打算通过这种方式形成一种能量和灵感，类似于亲自互动，但没有时间和旅行承诺。
 
 ```{figure} ../figures/coworking.png
 ---
-height: 300px
+高度：300px
 name: coworking
-alt: An illustration of a group of people who are working together and discussing something
----
-An illustration of a group coworking. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
-Our coworking calls provide opportunities for community members to allocate time to their desired tasks in _The Turing Way_ and get them done, partially or fully, with the support of others in the call who can help discuss their plans, share ideas or hold accountability.
+alt: 一个示例显示一组人正在一起工作并讨论一些问题
+-
+一个小组合作的示例。 [许多Pixels免税图像](https://www.manypixels)。 o/相册/。
+我们的共事通话为社区成员分配时间以完成他们想要的任务提供了机会。 部分或全部在其他人的支持下，协助讨论他们的计划、交流想法或追究责任。
 ```
 
-In this chapter, you will learn about the motivation behind holding coworking calls, techniques we use for making effective use of the allocated time, the two types of calls we host: {ref}`Collaboration Cafes <ch-coworking-collabcafe>` and {ref}`Weekly Coworking<ch-coworking-weekly>` and their formats.
+在本章中，您将了解举行共用电话背后的动机、我们使用的有效利用分配时间的技巧。 我们主办的两种呼叫类型： {ref}`协作咖啡厅 <ch-coworking-collabcafe>` 和 {ref}`每周合作<ch-coworking-weekly>` 及其格式。
 
-We want to make collaborative events like these as useful as possible for as many people as possible. Please [let the team members know](/README.md#get-in-touch) if there are other ways we can make these calls more welcoming and helpful for you.
+我们希望开展这样的协作活动，使尽可能多的人受益。 请 [让团队成员知道](/README.md#get-in-touch) 如果还有其他方式，我们可以让这些来电对您更加欢迎和帮助。

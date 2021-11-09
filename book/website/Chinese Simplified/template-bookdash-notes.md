@@ -1,46 +1,46 @@
-(ch-template-bookdash-notes)=
-# HackMD Template for Shared Notes
+(ch-template-bookdash-note )=
+# 共享笔记的 HackMD 模板
 
-*This template can be used for shared note-taking and information exchange in HackMD during the book dash events. The access permission can be set so that the notes can be read by everyone and edited by any signed-in users.*
+*这个模板可以用于书签破事件期间HackMD 中的共用笔记和信息交换。 访问权限可以设置，以便每个人都能阅读笔记，并由任何登录用户进行编辑。*
 
 ```
-# Book Dash, DD Month YYYY - Day 1 <-- create one for each day
+# 预约达什， DD month YYYY - Day 1 <-- 为每日创建一个
 
-###### tags: `bookdash YYYY` `month` `event`
+#### 标签: `bookdash YYYYY` `mon` `event`
 
-==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
+==如果你是新的 HackMD, 请参阅本简短指南：[https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
 
 :::info
-- **Location:** Online/in-person
-- **Date:** DD Month YYYY
-- **Document with all links:** (provide link to the index page) <--- update this
+- **Location:** Online/in-personal
+- **Date:** DD 月份YYYY
+- **文档与所有链接:** (提供索引页面的链接) <- 更新这个
 :::
 
 **Development sessions**
 
-Cuckoo clock: https://cuckoo.team/tw-bookdash
+Cuckoo 时钟: https://cuckoo. eam/tw-bookdash
 
-Each day we will hold 3 development sessions and an one themed discussion/networking session where you can interact with others, continue your disucssion outside development session or take a break as it's most sustainable and helpful for your participation.
+我们每天将举行3次开发会议和一次主题讨论/网络会议，你可以在会上与其他人互动。 继续在发展会议之外退步，或休息，因为这对你的参与是最可持续和最有帮助的。
 
-Each development session will follow the Pomodoro technique that we also use for our coworking calls. We will use [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to manage our time ([Coworking chapter in The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html))
+每次开发会议都将沿用我们也用于共用电话的番茄钟技术。 我们将使用 [基于浏览器共享(cuckoo) clock](https://cuckoo.team/tw-bookdash) 来管理我们的时间 (https://the-turing-way.netlify.app/community-handbook/coworking-coworking-motivation.html))
 
-All time provided in London Time (UTC+1). Please use this link to convert in your time zone: convert time: https://arewemeetingyet.com/london/YYYY-MM-DD/hh:mm (update DD: date, hh:mm: hours:minutes)
+在伦敦时间 (UTC+1)。 请使用此链接转换时间：https://arewemeeting。 om/london/YYYY-MM-DD/hh:mm (更新 DD: 日期) hhh:mm: 小时数)
 
-**Use the Pomodoro sessions for comfort breaks as needed**
+**在需要时使用番茄钟会话来提供舒适休息
 
 [TOC]
 
-## Introduction to the event
+## 活动介绍
 
-- Intro to Turing Way book dash day :books:
-- GitHub resources and managing your contributions
-- An onboarding breakout room for new members and people who need refresher in GitHub
-- Feel free to propose breakout rooms if you have already identified your groups (topic, language, discussions)
-- Please use this HackMD as extensively as needed
+- 引导预览小节 :books:
+- GitHub 资源和管理您的贡献
+- 需要在 GitHub 中刷新的成员和人员的登机休息室
+- 如果您已经确定了您的小组的话请免费提出破解房间(主题) 语言， 讨论)
+- 请根据需要广泛使用这个HackMD
 
-## Groupings for breakout rooms based on the topics of interest:
+## 分组来根据感兴趣的主题进行分区：
 
-> Feel free to move between the breakout rooms! 
+> 自由移动到分区间！ 
 
 **Room 1 (Reproducibility):** (add name)
 **Room 2 (Ethics):** (add name)

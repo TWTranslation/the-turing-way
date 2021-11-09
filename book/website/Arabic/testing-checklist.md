@@ -1,23 +1,23 @@
-# Checklist for Code Testing
+# قائمة التحقق لاختبار التعليمات البرمجية
 
-This checklist contains a lot of items. As [mentioned](#Write_tests_any_tests) it is far better to do some of the items than none of them. Do not be discouraged if this list of tasks seems insurmountable.
+تحتوي قائمة المراجعة هذه على الكثير من العناصر. كما ذكر [](#Write_tests_any_tests) من الأفضل بكثير القيام ببعض العناصر من لا شيء منها. ولا تثبط عزيمتك إذا كانت قائمة المهام هذه تبدو مستعصية.
 
-## Writing tests
+## اختبارات الكتابة
 
-- Write a few smoke tests.
-- Write unit tests for all your code units.
-- Write integration tests to check the integration between units.
-- Write a few system tests. Prioritise common and important paths through the program.
-- Write regression tests. Regression tests can exist at any level of testing.
-- If appropriate for your project write acceptance tests.
-- Add runtime tests into your project.
+- اكتب بعض اختبارات الدخان.
+- كتابة اختبارات الوحدة لجميع وحدات التعليمات البرمجية الخاصة بك.
+- كتابة اختبارات التكامل للتحقق من التكامل بين الوحدات.
+- كتابة بعض اختبارات النظام. • إعطاء الأولوية للمسارات المشتركة والهامة من خلال البرنامج.
+- كتابة اختبارات التراجع. ويمكن أن توجد اختبارات الانحراف في أي مستوى من الاختبار.
+- إذا كان ذلك مناسباً لاختبارات قبول الكتابة في مشروعك.
+- أضف اختبارات التشغيل إلى مشروعك.
 
-## Good practice checks
+## عمليات التحقق من الممارسات الجيدة
 
-- Document the tests and how to run them.
-- Write scripts to set up and configure any resources that are needed to run the tests.
-- Pick and make use of a testing framework.
-- Run the tests regularly.
-- Automate the process of running tests. Consider making use of continuous integration (see continuous integration chapter) to do this.
-- Check the code coverage of your tests and try to improve it.
-- Engage in code review with a partner.
+- توثيق الاختبارات وكيفية تشغيلها.
+- اكتب البرامج النصية لإعداد وتكوين أي موارد مطلوبة لتشغيل الاختبارات.
+- اختيار إطار الاختبار والاستفادة منه.
+- تشغيل الاختبارات بانتظام.
+- أتمتة عملية تشغيل الاختبارات. النظر في الاستفادة من التكامل المستمر (انظر الفصل الخاص بالتكامل المستمر) للقيام بذلك.
+- تحقق من تغطية التعليمات البرمجية للاختبارات الخاصة بك وحاول تحسينها.
+- المشاركة في مراجعة التعليمات البرمجية مع الشريك.

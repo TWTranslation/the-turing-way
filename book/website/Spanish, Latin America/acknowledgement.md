@@ -1,23 +1,23 @@
-(ch-acknowledgement)=
-# Acknowledging Contributors
+(ch-reconocimiento)=
+# Colaboradores de Reconocimiento
 
-_The Turing Way_ is collaboratively developed by its diverse community of researchers, learners, educators, and other stakeholders. This project can simply not exist without the collaborative nature of this project and the willingness of our community members to work cooperatively to create this book.
+_La Vía Turística_ es desarrollada en colaboración por su diversa comunidad de investigadores, estudiantes, educadores y otras partes interesadas. Este proyecto simplemente no puede existir sin la naturaleza colaborativa de este proyecto y la voluntad de los miembros de nuestra comunidad de trabajar cooperativamente para crear este libro.
 
-Everyone has a skill that is useful for someone, and therefore anyone can contribute to _The Turing Way_. We value all kinds of contributions in this project and are committed to recognising each of them fairly.
+Todo el mundo tiene una habilidad que es útil para alguien, y por lo tanto cualquier persona puede contribuir a _La Vía de Turnos_. Valoramos todo tipo de contribuciones en este proyecto y nos comprometemos a reconocerlas de forma justa.
 
 ```{figure} ../figures/theturingway-acknowledgement.jpg
 ---
 height: 400px
 name: theturingway-acknowledgement
-alt: This illustration shows that the traditional acknowledgement system is broken then it shows how we try to acknowledge them fairly. We have a contributors bot that catches all the contributors information and stores them in contributors record
+alt: Esta ilustración muestra que el sistema de reconocimiento tradicional está roto y muestra cómo intentamos reconocerlos de forma justa. Tenemos un bot de colaboradores que capta toda la información de los contribuyentes y los almacena en el registro de colaboradores
 ---
-The process of acknowledging contributors in *The Turing Way*. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+El proceso de reconocimiento de los colaboradores en *The Turing Way*. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-We recognise all kinds of contributions that are possible in this project. We update our {ref}`Contributors Table<contributors-record-contributors>` by appropriately acknowledging our contributors' work within _The Turing Way_. Furthermore, we invite every community member to update the {ref}`Record of Contributions<contributors-record-highlights>` with their personal highlights in _The Turing Way_ and use it for promoting their contributions to open science in general.
+Reconocemos todo tipo de contribuciones posibles en este proyecto. Actualizamos nuestra {ref}`tabla de colaboradores<contributors-record-contributors>` al reconocer apropiadamente el trabajo de nuestros colaboradores dentro de _The Turing Way_. Además, invitamos a cada miembro de la comunidad a actualizar el {ref}`Registro de contribuciones<contributors-record-highlights>` con sus destacados personales en _The Turing Way_ y usarlo para promover sus contribuciones para abrir la ciencia en general.
 
-In this chapter, we provide details on the following aspects:
-- who our contributors and community members are
-- how we create opportunities for a shared ownership of this project
-- how we can use record of contributions to highlight work of our community members
-- what the different types and possible pathways for contributions exist in _The Turing Way_
+En este capítulo, proporcionamos detalles sobre los siguientes aspectos:
+- quiénes son nuestros colaboradores y miembros de la comunidad
+- cómo creamos oportunidades para compartir la propiedad de este proyecto
+- cómo podemos utilizar el registro de contribuciones para resaltar el trabajo de los miembros de nuestra comunidad
+- que existen los diferentes tipos y rutas posibles para las contribuciones en _La Vía Turística_

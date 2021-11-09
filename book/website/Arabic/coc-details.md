@@ -1,46 +1,46 @@
-(ch-coc-details)=
-# 2 Code of Conduct: Details
+(ب-تفاصيل الكوكا)=
+# (2) مدونة قواعد السلوك: التفاصيل
 
-The Turing Way team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
+ويكرس الفريق المعني بطريق تورينغ جهوده لتوفير بيئة ترحيبية وداعمة لجميع الناس، بغض النظر عن خلفيتهم أو هويتهم. وعلى هذا النحو، فإننا لا نتسامح مع السلوك الذي لا يحترم أفراد مجتمعنا المحلي أو الذي يستبعد الآخرين أو يخيفهم أو يسببهم عدم ارتياحهم. ونحن لا نتسامح مع التمييز أو المضايقة على أساس خصائص تشمل، على سبيل المثال لا الحصر، الهوية الجنسانية والتعبير عن الجنسين، التوجه الجنسي، والإعاقة، والمظهر البدني، وحجم الجسم، والمواطنة، والجنسية الأصل الإثني أو الاجتماعي، والحمل، والمركز الأسري، والمركز المحاربين القدماء، والمعلومات الجينية، والدين أو المعتقد (أو عدم وجودها) العضوية في أقلية قومية، والملكية، والسن، والتعليم، والمركز الاجتماعي - الاقتصادي، والخيارات التقنية، ومستوى الخبرة.
 
-Everyone who participates in the Turing Way project activities is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in person focus groups and workshops, and communications online via GitHub. By participating, contributors indicate their acceptance of the procedures by which the Turing Way project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
+ويتعين على كل شخص يشارك في أنشطة مشروع طريق التورينغ أن يمتثل لمدونة قواعد السلوك هذه. وتنطبق مدونة قواعد السلوك هذه على جميع المجالات التي يديرها مشروع طريق التوريغ، بما في ذلك: على سبيل المثال لا الحصر، في المجموعات وحلقات العمل ذات التركيز الشخصي، والاتصالات عبر شبكة GitHub. ويبدي المساهمون، بمشاركتهم، قبولهم للإجراءات التي يقوم بها الفريق الرئيسي لتطوير مشروع طريق تورينغ بحل أي حوادث تتعلق بمدونة قواعد السلوك، ويمكن أن يشمل ذلك تخزين المعلومات الشخصية وتجهيزها.
 
-## 2.1 Expected Behaviour
+## 2-1 السلوك المتوقع
 
-We are confident that our community members will together build a supportive and collaborative atmosphere at our events and during online communications. The following bullet points set out explicitly what we hope you will consider to be appropriate community guidelines:
+ونحن على ثقة من أن أعضاء مجتمعنا سيعملون معا على تهيئة مناخ داعم وتعاوني في أحداثنا وخلال الاتصالات المباشرة. والنقاط التالية تبين بوضوح ما نأمل أن تعتبرونه مبادئ توجيهية مناسبة للمجتمع:
 
-* **Be respectful of different viewpoints and experiences**. Do not engage in homophobic, racist, transphobic, ageist, ableist, sexist, or otherwise exclusionary behaviour.
-* **Use welcoming and inclusive language**. Exclusionary comments or jokes, threats or violent language are not acceptable. Do not address others in an angry, intimidating, or demeaning manner. Be considerate of the ways the words you choose may impact others. Be patient and respectful of the fact that English is a second (or third or fourth!) language for some participants.
-* **Do not harass people**. Harassment includes unwanted physical contact, sexual attention, or repeated social contact. Know that consent is explicit, conscious and continuous—not implied. If you are unsure whether your behaviour towards another person is welcome, ask them. If someone tells you to stop, do so.
-* **Respect the privacy and safety of others**. Do not take photographs of others without their permission. Do not share other participant’s personal experiences without their express permission. Note that posting (or threatening to post) personally identifying information of others without their consent ("doxing") is a form of harassment.
-* **Be considerate of others’ participation**. Everyone should have an opportunity to be heard. In update sessions, please keep comments succinct so as to allow maximum engagement by all participants. Do not interrupt others on the basis of disagreement; hold such comments until they have finished speaking.
-* **Don’t be a bystander**. If you see something inappropriate happening, speak up. If you don't feel comfortable intervening but feel someone should, please feel free to ask a member of the Code of Conduct response team for support.
-* As an overriding general rule, please **be intentional in your actions and humble in your mistakes**.
+* **كن محترما لوجهات النظر والتجارب المختلفة**. لا تمارس سلوكا معاديا للمثليين أو عنصريا أو تحويليا بالكراهية أو المسن أو القنوط أو التحيز الجنسي أو أي شكل آخر من أشكال الاستبعاد.
+* **استخدم لغة الترحيب والشمول**. والتعليقات أو النكات الاستبعادية أو التهديدات أو اللغة العنيفة غير مقبولة. ولا تخاطب الآخرين بطريقة غاضبة أو تخويفية أو مهينة. كن على علم بالطرق التي قد تؤثر فيها الكلمات التي تختارها على الآخرين. كن صبوراً واحتراماً لحقيقة أن اللغة الإنجليزية هي لغة ثانية (أو الثالثة أو الرابعة!) لبعض المشاركين.
+* **لا تتحرش بالناس**. ويشمل التحرش الاتصال البدني غير المرغوب فيه أو الاهتمام الجنسي أو الاتصال الاجتماعي المتكرر. معرفة أن الموافقة صريحة وواعية ومستمرة - وليست ضمنية. إذا كنت غير متأكد مما إذا كان سلوكك تجاه شخص آخر موضع ترحيب، اسأليهم. إذا أخبرك شخص ما بالتوقف عن العمل، قم بذلك.
+* **احترام خصوصية الآخرين وسلامتهم**. لا تلتقط صوراً للآخرين بدون إذنهم. لا تشارك الخبرات الشخصية للمشارك الآخر بدون إذنهم الصريح. لاحظ أن نشر (أو التهديد بإرسال) معلومات تعريف شخصية للآخرين دون موافقتهم هو شكل من أشكال المضايقة.
+* **كن مدركاً لمشاركة الآخرين**. وينبغي أن تتاح لكل شخص فرصة الاستماع إليه. وفي جلسات الاستكمال، يرجى توخي الإيجاز في التعليقات لإتاحة أقصى قدر من المشاركة من جانب جميع المشاركين. لا تقطع الآخرين بسبب عدم الاتفاق، ولا تبقي مثل هذه التعليقات إلى أن تنتهي من الكلمة.
+* **لا تكون متفرجا**. إذا رأيتم شيئاً غير مناسب يحدث، تحدثي بصراحة. إذا كنت لا تشعر بالارتياح للتدخل ولكن تشعر بأنه يجب على شخص ما، ولا تتردد في طلب الدعم من أحد أعضاء فريق الاستجابة لمدونة قواعد السلوك.
+* كقاعدة عامة غالبة، يرجى **أن تكون متعمداً في أفعالك و متواضعة في أخطائك**.
 
-All interactions should be professional regardless of platform: either online or in-person. See [this explanation of the four social rules](https://www.recurse.com/manual#sub-sec-social-rules) - no feigning surprise, no well-actually's, no back-seat driving, no subtle -isms - for further recommendations for inclusive behaviours.
+وينبغي أن تكون جميع التفاعلات مهنية بغض النظر عن المنصة: إما على الإنترنت أو على أساس شخصي. راجع [هذا التفسير للقواعد الاجتماعية الأربعة](https://www.recurse.com/manual#sub-sec-social-rules) - لا مفاجأة، لا في الواقع جيداً، لا يوجد سائق في المقعد الخلفي، لا خفي - لمزيد من التوصيات بشأن السلوكيات الشاملة.
 
-## 2.2 Unacceptable Behaviour
+## 2-2 السلوك غير المقبول
 
-Examples of unacceptable behaviour by Turing Way community members at any project event or platform include:
+ومن الأمثلة على السلوك غير المقبول من جانب أفراد المجتمع المحلي في أي نشاط أو برنامج للمشروع ما يلي:
 
-* written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
-* causing someone to fear for their safety, such as through stalking, following, or intimidation
-* violent threats or language directed against another person
-* the display of sexual or violent images
-* unwelcome sexual attention
-* nonconsensual or unwelcome physical contact
-* sustained disruption of talks, events or communications
-* insults or put downs
-* sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
-* excessive swearing
-* incitement to violence, suicide, or self-harm
-* continuing to initiate interaction (including photography or recording) with someone after being asked to stop
-* publication of private communication without consent
+* تعليقات خطية أو شفوية يترتب عليها استبعاد الأشخاص على أساس عضويتهم في أي مجموعة محددة
+* التسبب في خوف شخص ما على سلامته، مثل الملاحقة أو المتابعة أو التخويف
+* التهديدات العنيفة أو اللغة الموجهة ضد شخص آخر
+* عرض صور جنسية أو عنيفة
+* الاهتمام الجنسي غير المرحب به
+* اتصال جسدي غير رضائي أو غير مرحب به
+* التعطيل المستمر للمحادثات أو الأحداث أو الاتصالات
+* يهين أو يوضع في الأسفل
+* النكات الجنسية أو العنصرية أو المعادية للمثليين جنسياً أو المحرومين أو المستبعدين
+* إفراط القسم
+* التحريض على العنف أو الانتحار أو الإيذاء الذاتي
+* الاستمرار في بدء التفاعل (بما في ذلك التصوير أو التسجيل) مع شخص ما بعد أن يطلب منه التوقف
+* نشر رسالة خاصة دون موافقة
 
-## 2.3 Consequences of Unacceptable Behaviour
+## 2-3 عواقب السلوك غير المقبول
 
-Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to all Turing Way community events and platforms, either online or in-person. If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the [enforcement manual](#4-enforcement-manual) for details).
+ويتوقع من المشاركين الذين يُطلب منهم وقف أي سلوك غير لائق أن يمتثلوا فورا. وينطبق هذا على جميع الأحداث والمنصات المجتمعية لطريق التوريث، سواء على الإنترنت أو على شخصية. وإذا تورط أحد المشاركين في سلوك ينتهك مدونة قواعد السلوك هذه، يجوز لأي عضو من أعضاء فريق التطوير الأساسي أن يحذر مرتكب الجريمة، اطلب منهم مغادرة الحدث أو المنصة (بدون استرداد)، أو فرض أي جزاءات أخرى مناسبة (أنظر [دليل الإنفاذ](#4-enforcement-manual) للحصول على التفاصيل).
 
-## 2.4 Feedback
+## 2-4 التغذية العكسية
 
-This Code of Conduct is not intended as a static set of rules by which everyone must abide. Rather, you are invited to make suggestions for updates or clarifications by contacting Dr Kirstie Whitaker at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk) or by making a pull request to this document on GitHub.
+ولا يقصد بمدونة قواعد السلوك هذه أن تكون مجموعة جامدة من القواعد التي يجب أن يلتزم بها الجميع. بالأحرى، أنتم مدعوون لتقديم اقتراحات للتحديثات أو التوضيحات عن طريق الاتصال بالدكتورة كيرستي ويتاكر على [kwhitaker@turing. c.uk](mailto:kwhitaker@turing.ac.uk) أو عن طريق تقديم طلب سحب إلى هذا المستند على GitHub.

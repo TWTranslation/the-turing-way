@@ -1,23 +1,23 @@
-(cl-maintain-review)=
-# Maintainers and Reviewers on GitHub
+(صيانة - استعراض)=
+# المشرفين والمراجعين على GitHub
 
-## Prerequisites
+## الشروط المسبقة
 
-| Prerequisite                                         | Importance |
-| ---------------------------------------------------- | ---------- |
-| {ref}`Experience with version control<rr-vcs>` | Helpful    |
+| الشروط المسبقة                                  | الأهمية |
+| ----------------------------------------------- | ------- |
+| {ref}`تجربة في التحكم في الإصدار<rr-vcs>` | مساعدة  |
 
 ## Summary
-For any open source project, one of the most challenging tasks for a new contributor is to identify ways to get involved by making online contributions to propose appropriate changes. Contribution guidelines of open source projects outline how community members can make such a contribution, but it often does not explain how one can the project by taking up a maintainer's role. Dedicated project maintainers from the project's core team or volunteer community often take up the role of supporting such contributions by other contributors.
+لأي مشروع مفتوح المصدر، ومن أكثر المهام تحديا للمساهم الجديد تحديد سبل المشاركة بتقديم مساهمات على الإنترنت لاقتراح التغييرات المناسبة. وتوضح المبادئ التوجيهية المتعلقة بالمساهمات في المشاريع المفتوحة المصدر كيف يمكن لأفراد المجتمع المحلي تقديم مثل هذه المساهمة، ولكنه لا يفسر في كثير من الأحيان كيف يمكن للمرء أن يقوم بدور المشرف. وكثيراً ما يضطلع المشرفون المكرسون للمشاريع من الفريق الأساسي للمشروع أو مجتمع المتطوعين بدور دعم هذه المساهمات المقدمة من المساهمين الآخرين.
 
-This subchapter sheds light on the role and tasks of such project maintainers who manage or coordinate community discussions, mentor contributions, support resource development, help in issue triaging, and review Pull Requests or PRs on an online collaborative GitHub project. It also provides the best practices to be used while contributing to a project as a maintainer.
+ويلقي هذا الفصل الفرعي الضوء على دور ومهام القائمين على صيانة المشاريع الذين يديرون أو ينسقون المناقشات المجتمعية والمساهمات الإرشادية دعم تطوير الموارد، والمساعدة في معالجة المشكلات، ومراجعة طلبات السحب أو التقييمات على مشروع GitHub التعاوني عبر الإنترنت. كما أنها توفر أفضل الممارسات التي يتعين استخدامها في الوقت الذي تساهم فيه في المشروع كجهة صيانة.
 
-### This subchapter covers:
+### يغطي هذا الفصل الفرعي:
 
-This chapter will be particularly useful for the community members who want to provide support in maintenance and review work in _The Turing Way_  repository and or similar projects online.
+سيكون هذا الفصل مفيداً بشكل خاص لأعضاء المجتمع الذين يريدون تقديم الدعم في أعمال الصيانة والمراجعة في _طريق التوفيق_  والمستودع أو مشاريع مماثلة على الإنترنت.
 
-The Git workflow is difficult to understand, especially when collaborating with a group of contributors for a project. Hence, this chapter aims to guide the review processes so that all the contributions made on a GitHub project are regularly and properly done.
+ويصعب فهم سير العمل في نظام Git، لا سيما عند التعاون مع مجموعة من المساهمين في مشروع ما. ومن ثم فإن هذا الفصل يهدف إلى توجيه عمليات الاستعراض بحيث تتم جميع المساهمات المقدمة بشأن مشروع GitHub بصورة منتظمة وعلى النحو السليم.
 
-### This subchapter does not cover:
+### لا يشمل هذا الفصل الفرعي:
 
-Please note that it is not a "how-to" guide to how to make contributions but lists the major responsibilities of a project maintainer and how these responsibilities should ideally be carried out when working in online and collaborative projects.
+ويرجى ملاحظة أنه ليس دليلاً "كيفية تقديم المساهمات" ولكنه يورد المسؤوليات الرئيسية لمشرفي المشروع والكيفية المثلى التي ينبغي بها الاضطلاع بهذه المسؤوليات عند العمل في مشاريع إلكترونية وتعاونية.

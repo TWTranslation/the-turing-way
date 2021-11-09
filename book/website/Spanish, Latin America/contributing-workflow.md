@@ -1,104 +1,105 @@
 (ch-contributing-workflow)=
-# Contribution Workflow
+# Flujo de trabajo de contribución
 
-Whether you are writing new content or reviewing existing ones, contributing to _The Turing Way_ generally encompasses the steps discussed in this section. You may refer to the recommendations here to ensure that you have adequately prepared your contribution for review. Please note that the order of these recommendations are not strict and we encourage you to follow the approach that suits you best.
+Ya sea que estés escribiendo nuevos contenidos o revisando los ya existentes, contribuyendo a _The Turing Way_ generalmente engloba los pasos discutidos en esta sección. Usted puede hacer referencia a las recomendaciones para garantizar que ha preparado adecuadamente su contribución para su revisión. Tenga en cuenta que el orden de estas recomendaciones no es estricto y le animamos a seguir el enfoque que más le convenga.
 
 (ch-contributing-workflow-template)=
-## Select a template
+## Seleccione una plantilla
 
-Once you have decided on the type of content you want to contribute to _The Turing Way_, use the relevant [template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) to prepare your contribution.
+Una vez que hayas decidido el tipo de contenido al que quieres contribuir _The Turing Way_, usa la plantilla [correspondiente](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) para preparar tu contribución.
 
 ```{note}
-Please note that we welcome new template contributions.
-If the chapter or case study templates do not suit your needs, please open a Pull Request with suggestions for improving them.
-If you want to contribute content for which there is no corresponding template, you are also encouraged to create the missing template and add it to the template collection.
+Tenga en cuenta que agradecemos las nuevas contribuciones de la plantilla.
+Si el capítulo o las plantillas de estudio no se adaptan a sus necesidades, por favor abra una Pull Request con sugerencias para mejorarlas.
+Si desea contribuir con contenido para el que no hay una plantilla correspondiente, también se le recomienda crear la plantilla faltante y añadirla a la colección de plantillas.
 ```
 
 (ch-contributing-workflow-location)=
-## Place new files and folders in appropriate locations
+## Colocar nuevos archivos y carpetas en ubicaciones apropiadas
 
-_The Turing Way_'s Github repository follows an overall file structure where Guides are folders and chapters are sub-folders within them. Similarly, case studies are located inside a `case-studies` sub-folder within the Guide folders. All folders are located inside the [`book/website`](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website) directory.
+_El repositorio GitHub de la Vía Turística_sigue una estructura general de archivos donde las Guías son carpetas y capítulos son subcarpetas dentro de ellas. Del mismo modo, los estudios de casos se encuentran dentro de una subcarpeta de `estudios de casos` dentro de la carpeta Guía. Todas las carpetas se encuentran dentro del directorio [`libro/sitio web`](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website).
 
-When writing new content, ensure that the new files and folders you create are placed appropriately to preserve _The Turing Way's_ file structure.
+Al escribir un nuevo contenido, asegúrese de que los nuevos archivos y carpetas que cree estén ubicados apropiadamente para preservar _la estructura de archivos_ de la Vía Turística.
 
-For example, the [Version Control](https://the-turing-way.netlify.app/reproducible-research/vcs.html) chapter in the Guide for Reproducible Research is placed as follows:
+Por ejemplo, el capítulo [Control de versiones](https://the-turing-way.netlify.app/reproducible-research/vcs.html) en la Guía de Investigación Reproducible se coloca de la siguiente manera:
 
 ````{admonition} Adding new files and folders
-:class: dropdown
+:class: desplegable
 ```
-book\website
-│
-└───reproducible-research <---- (folder for the Guide to Reproducible Research)
-│   │   reproducible-research.md <---- (Guide's Landing Page)
-│   │   vcs.md <---- (Landing page for the Version Control chapter)
-|   |   new-chapter <---- (Landing page for a new chapter)
-│   │
-│   └───vcs (chapter folder)
-│   |   │   vcs-workflow.md
-|   |   |   vcs-git.md
-|   |   |   vcs-git-commit.md
-|   |   |   ...
-|   |   |   vcs-personal-stories.md
-│   |   │   vcs-checklist.md
-│   |   │   vcs-resources.md
-│   |
-|   |
-|   └───new-chapter (new chapter folder)
-|   |   |   ...
+libro\website
+mañana
+Documento-investigación reproducible <---- (carpeta para la Guía para la Investigación Reproducible)
+Reproducible-research. d <---- (Página Landing de la Guía)
+mañana: vcs. d <---- (Página de acceso para el capítulo de Control de Versiones)
+| | nuevo capítulo <---- (Página de acceso para un nuevo capítulo)
+mañanas
+(carpeta de capítulos)
+mañanas/as (carpeta de capítulos) 
+ mañanas|vcs-workflow. d
+| | vcs-git. d
+| | | vcs-git-commit.md
+| | | ...
+| | | vcs-personal-stories.md
+mañana.md | mañvcs-checklist. d
+► | Cv-recursos. d
+mañana|
+| |
+| mañanotinew-chapter (nueva carpeta de capítulos)
+| | | ...
 |    
-└───project-design <---- (folder for the Guide for Project Design)
-    │   project-design.md
-    │   ...
+► project-design <---- (carpeta para la Guía para el Diseño del Proyecto)
+    deletre-project-design.md
+    mañana...
 ```
 ````
 
-New chapters in the Guide for Reproducible Research should be added like `new-chapter` in the example above.
+Se deben añadir nuevos capítulos en la Guía para la Investigación Reproducible como `nuevo capítulo` en el ejemplo anterior.
 
 (ch-contributing-workflow-naming)=
-## Name files/folders appropriately
+## Archivos/carpetas de nombre apropiados
 
-Please follow _The Turing Way's_ conventions for naming files. With proper file names, other contributors can easily identify the purpose and location of your files and add to or improve them if necessary.
+Por favor, sigue _las convenciones de la Vía de Turno_ para nombrar archivos. Con nombres de archivo adecuados, otros colaboradores pueden identificar fácilmente el propósito y la ubicación de sus archivos y añadirlos o mejorarlos si es necesario.
 
 (ch-contributing-workflow-guidelines)=
-## Follow the style and consistency guidelines
+## Seguir las pautas de estilo y consistencia
 
-As you write your chapter, keep _The Turing Way's_ [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations in mind. This ensures that your new content is accessible, and fits the overall style, structure, and formatting of the book.
+Mientras escribes tu capítulo, ten en mente _el estilo_ [del Vía Turnadora](https://the-turing-way.netlify.app/community-handbook/style.html) y [las recomendaciones](https://the-turing-way.netlify.app/community-handbook/consistency.html) de consistencia Esto asegura que su nuevo contenido sea accesible y se adapte al estilo, estructura y formato general del libro.
 
 (ch-contributing-workflow-toc)=
-## Add your new files to the book's table of contents
+## Añade tus nuevos archivos a la tabla de contenidos del libro
 
-The book-wide table of contents lives in the `_toc.yml` [file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_toc.yml). This file structures _The Turing Way_ and defines the order in which chapters appear. Your chapter's files should be added to the `_toc.yml` as appropriate.
+La tabla de contenidos para todo el libro vive en el archivo `_toc.yml` [](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_toc.yml). Este archivo estructura _La Vía Turística_ y define el orden en que aparecen los capítulos. Los archivos de tu capítulo deben ser añadidos al `_toc.yml` según corresponda.
 
-For example, because the [Statistical Methods Manuscript](https://the-turing-way.netlify.app/reproducible-research/case-studies/statistical-methods-manuscript.html) case study belongs to the Guide for Reproducible Research, it was added to the table of contents as follows:
+Por ejemplo, porque el [Manuscrito de Métodos Estatisticos](https://the-turing-way.netlify.app/reproducible-research/case-studies/statistical-methods-manuscript.html) pertenece a la Guía de Investigación Reproducible, se añadió a la tabla de contenidos de la siguiente manera:
 
 ````{admonition} Updating the book-wide table of contents
 :class: dropdown
 ```
 
 - file: reproducible-research/reproducible-research
-  sections:
-  ...
+  secciones:
+...
 
-  - title: Case Studies
-    file: reproducible-research/case-studies
-    sections:
-    - title: A Statistical Methods Manuscript
-      file: reproducible-research/case-studies/statistical-methods-manuscript
+  - title: Estudios de casos
+    archivo: reproducible-research/case-studies
+    secciones:
+    - título: Un manuscrito de métodos estáticos
+      archivo: reproducible-research/case-studies/statisal-methods-manuscript
 ```
 
 ````
 
 (ch-contributing-workflow-referencing)=
-## Reference external sources appropriately
+## Fuentes externas de referencia apropiadamente
 
-Ensure external sources are properly referenced and included in _The Turing Way's_ centralised bibtex file as recommended in the [style guide](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
+Asegúrate de que las fuentes externas están correctamente referenciadas e incluidas en el archivo bibtex centralizado de _The Turing Way_ según se recomienda en la guía de estilo [](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
 
-(ch-contributing-workflow-glossary)=
-## Update the book-wide glossary
+(ch-contributing-workflow-glosary)=
+## Actualizar el glosario de todo el libro
 
-_The Turing Way_ maintains a book-wide glossary located in its [Afterword](https://the-turing-way.netlify.app/afterword/glossary.html). When writing your chapter, [update the book-wide glossary](https://the-turing-way.netlify.app/community-handbook/style/style-more-styling.html) with the key terms in your chapter that readers should remember.
+_The Turing Way_ mantiene un glosario de todo tipo de libros ubicado en su [Afterword](https://the-turing-way.netlify.app/afterword/glossary.html). Al escribir su capítulo, [actualice el glosario del libro](https://the-turing-way.netlify.app/community-handbook/style/style-more-styling.html) con los términos clave de su capítulo que los lectores deben recordar.
 
 (ch-contributing-workflow-crosschecking)=
-## Cross check your Pull Request
+## Comprueba tu Pull Request
 
-The content of the templates are only meant to guide and structure your writing. Please remove all of the template's placeholders, tips, and suggestions from your chapter before you submit your PR for review.
+El contenido de las plantillas sólo está destinado a guiar y estructurar su escritura. Por favor, elimine todos los marcadores de la plantilla, consejos y sugerencias de su capítulo antes de enviar su PR para su revisión.

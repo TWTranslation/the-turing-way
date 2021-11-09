@@ -1,47 +1,47 @@
-(rr-rdm-fair)=
-# The FAIR Principles
+(r-rdm-fair)=
+# مبادئ FIR
 
-The FAIR guiding principles for scientific data management and stewardship {cite:ps}`Wilkinson2016fair` were developed as guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of digital assets; all of which support research reproducibility. The FAIR principles play an important role in making your data available to others for reuse.
+المبادئ التوجيهية لإدارة البيانات العلمية والإشراف عليها {cite:ps}`Wilkinson2016fair` تم تطويرها كمبادئ توجيهية لتحسين العجز **واو** ****إمكانية الوصول، **طاء**قابلية التشغيل و **R**قابلية الأصول الرقمية للاستخدام الإلكتروني؛ كل ذلك يدعم قابلية البحث للتكرار. وتؤدي مبادئ FIR دورا هاما في جعل بياناتك متاحة للآخرين لإعادة استخدامها.
 
-It is much easier to make data FAIR if you plan to do this from the beginning of your research project. You can plan for this in your Data Management Plan (DMP) (see points 4 and 5 of the {ref}`Data Management Plan<rr-rdm-dmp>` chapter).
+من الأسهل بكثير جعل بيانات FAIR إذا كنت تخطط للقيام بذلك منذ بداية مشروعك البحثي. يمكنك التخطيط لهذا في خطة إدارة البيانات (DMP) الخاصة بك (انظر النقطتين 4 و 5 من {ref}`خطة إدارة البيانات<rr-rdm-dmp>` فصل).
 
-Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. The capacity of computational systems to find, access, interoperate, and reuse data, with none or minimal human intervention, is essential in today's data-driven era, where humans increasingly rely on computational support to deal with data as a result of the increase in [volume, velocity and variety](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/).
+وعلى الرغم من أن مبادئ FIR قد عُرِّفت للسماح للآلات بالعثور على الأجسام الرقمية واستخدامها تلقائياً، وهي تحسن من قابلية البيانات لإعادة استخدامها من جانب البشر أيضا. وقدرة النظم الحاسوبية على العثور على البيانات والوصول إليها وتبادلها وإعادة استخدامها، مع عدم وجود أي تدخل بشري أو الحد الأدنى منها، ضرورية في العصر الحالي الذي تحركه البيانات. حيث يعتمد البشر بشكل متزايد على الدعم الحسابي للتعامل مع البيانات نتيجة لزيادة حجم الصوت، [، السرعة و المجموعة](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/).
 
-This chapter provides an abstract and broad view of what the FAIR principles are. How to put the FAIR principles into practise is discussed in other sub chapters ( {ref}`Data Organisation in Spreadsheets<rr-rdm-fair>`, {ref}`Documentation and Metadata<rr-rdm-metadata>` and {ref}`Sharing and Archiving Data<rr-rdm-sharing>`). You can also use the [Wellcome Getting Started Guide](https://f1000researchdata.s3.amazonaws.com/resources/FAIR_Open_GettingStarted.pdf) or the [How To FAIR](https://howtofair.dk/) website to find out more about the FAIR principles and how to get started.
+ويقدم هذا الفصل نظرة مجردة وواسعة النطاق عن ماهية مبادئ الاتحاد. تُناقش كيفية وضع مبادئ FIR في الممارسة العملية في فصول فرعية أخرى ( {ref}`منظمة البيانات في جداول البيانات<rr-rdm-fair>`، {ref}`الوثائق والبيانات الوصفية<rr-rdm-metadata>` و {ref}`بيانات المشاركة والمحفوظة<rr-rdm-sharing>`). يمكنك أيضًا استخدام [دليل حسن البدء](https://f1000researchdata.s3.amazonaws.com/resources/FAIR_Open_GettingStarted.pdf) أو [كيف لـ FAIR](https://howtofair.dk/) لمعرفة المزيد عن مبادئ FAIR وكيفية البدء.
 
 ```{figure} ../../figures/fair-principles.jpg
 ---
-name: fair-principles
-alt: Illustration of the FAIR principles to show the definition of being Findable, Accessible, Interoperable and Reusable.
+الاسم: المبادئ العادلة
+البديلة: مثال توضيحي لمبادئ FIR لإظهار تعريف كونه قابلاً للإلغاء، ويمكن الوصول إليه، ويمكن تشغيله على نحو متبادل، ويمكن إعادة استخدامه.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-rdm-fair-theory)=
-## Theory
+(r-rdm-fair-theory)=
+## النظرية
 
-In brief, FAIR data should be:
+وباختصار، ينبغي أن تكون بيانات الاتحاد كما يلي:
 
-**Findable:** The first step in (re)using data is to find them! Descriptive metadata (information about the data such as keywords) are essential.
+**قابل للإيجاد:** الخطوة الأولى في (إعادة استخدام) البيانات هي العثور عليها! والبيانات الوصفية الوصفية (المعلومات عن البيانات مثل الكلمات الرئيسية) ضرورية.
 
-**Accessible:** Once the user finds the data and software they need to know how to access it. Data could be openly available but it is also possible that authentication and authorisation procedures are necessary.
+**يمكن الوصول:** بمجرد أن يجد المستخدم البيانات والبرمجيات التي يحتاجونها لمعرفة كيفية الوصول إليها. ويمكن أن تكون البيانات متاحة علنا، ولكن من المحتمل أيضا أن تكون إجراءات التوثيق والتصريح ضرورية.
 
-**Interoperable:** Data needs to be integrated with other data and interoperate with applications or workflows.
+**قابل للتشغيل:** يجب دمج البيانات مع البيانات الأخرى والتفاعل مع التطبيقات أو تدفق العمل.
 
-**Reusable:** Data should be well-described so that they can be used, combined, and extended in different settings.
+**قابلة لإعادة الاستخدام:** يجب أن تكون البيانات موصوفة جيداً بحيث يمكن استخدامها ودمجها وتوسيعها في إعدادات مختلفة.
 
-You can find a more detailed [overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. You can also read [A FAIRy tale](https://doi.org/10.5281/zenodo.2248200) for an understandable explanation of each principle.
+يمكنك العثور على [نظرة عامة أكثر تفصيلاً لمبادئ FIR من قبل GO FAIR](https://www.go-fair.org/fair-principles) لما توصي به مبادئ FAIR. يمكنك أيضًا قراءة [حكاية الذاكرة](https://doi.org/10.5281/zenodo.2248200) للحصول على تفسير مفهوم لكل مبدأ.
 
-Making data 'FAIR' is not the same as making it 'open'. Accessible means that there is a procedure in place to access the data. Data should be as open as possible, and as closed as necessary.
+جعل البيانات 'FAIR' ليس مثل جعلها 'مفتوحة'. ويمكن الوصول إليها يعني وجود إجراء قائم للوصول إلى البيانات. وينبغي أن تكون البيانات مفتوحة قدر الإمكان، وأن تكون مغلقة حسب الاقتضاء.
 
-It is also important to say that the FAIR principles are aspirational: they do not strictly define how to achieve a state of FAIRness, but rather describe a continuum of features, attributes, and behaviours that will move a digital resource closer to that goal.
+ومن المهم أيضا القول إن مبادئ الاتحاد الدولي للبحث والتدريب من أجل النهوض بالمرأة هي مبادئ طموحة: فهي لا تحدد بدقة كيفية تحقيق حالة الاتحاد، لكن بالأحرى وصف سلسلة متصلة من المميزات والسمات والسلوكيات التي ستجعل المورد الرقمي أقرب إلى ذلك الهدف.
 
-The FAIR principles are also applied to software (see {cite:ps}`Lamprecht2020FAIRsoftware`and {cite:ps}`Hasselbring2020FAIRsoftware`).
+تطبق مبادئ FIR أيضا على البرمجيات (انظر {cite:ps}`Lamprecht20FAIRsoftware`و {cite:ps}`Hasselbring20FAIRsoftware`).
 
 
-(rr-rdm-fair-community)=
-## Community involvement
+(r-rdm-fair-community)=
+## مشاركة المجتمع المحلي
 
-Although started by a community operating in the life science, the FAIR principles have rapidly been adopted by publishers, funders, and pan-disciplinary infrastructure programmes and societies. Many groups and organisation are working to define guidance and tools to help researchers and other stakeholders (like librarians, funders, publishers, and trainers) make data more FAIR. If you are interested in participating in these communities there are two global initiatives that act as umbrella organizations and reference points for many discipline-specific efforts: [GOFAIR](https://www.go-fair.org) and the [Research Data Alliance (RDA)](https://www.rd-alliance.org).
-* Under GOFAIR, there are many [Implementation Networks (INs)](https://www.go-fair.org/implementation-networks) committed to implementing the FAIR principles.
-* Under the RDA, there are several groups tackling different aspects relevant to the RDM life cycle. Among these, one [group](https://www.rd-alliance.org/groups/fair-data-maturity-model-wg) is reviewing existing efforts, building on them to define a standard set of common assessment criteria for the evaluation of FAIRness.
+وعلى الرغم من أن هذه المبادئ بدأها مجتمع يعمل في مجال علوم الحياة، فإن الناشرين قد اعتمدوا على وجه السرعة. • الممولون وبرامج وجمعيات الهياكل الأساسية الشاملة لعدة تخصصات. وتعمل العديد من المجموعات والمنظمات على تحديد الإرشادات والأدوات لمساعدة الباحثين وغيرهم من أصحاب المصلحة (مثل أمناء المكتبات). ويجعل الممولون والناشرون والمدربون البيانات أكثر فعالية. إذا كنت مهتما بالمشاركة في هذه المجتمعات فهناك مبادرتان عالميتان تعملان كمنظمات جامعة ونقاط مرجعية للعديد من الجهود الخاصة بكل تخصص: [GOFAIR](https://www.go-fair.org) و [تحالف بيانات البحوث](https://www.rd-alliance.org).
+* وبموجب نظام GOFAIR، هناك العديد من [شبكات التنفيذ (INs)](https://www.go-fair.org/implementation-networks) الملتزمة بتنفيذ مبادئ FIR.
+* وفي إطار هذا البرنامج، هناك عدة مجموعات تعالج جوانب مختلفة ذات صلة بدورة حياة إدارة الموارد البشرية. ومن بين هؤلاء، تقوم مجموعة واحدة [](https://www.rd-alliance.org/groups/fair-data-maturity-model-wg) بمراجعة الجهود الموجودة، وبناء عليها لتحديد مجموعة معيارية من معايير التقييم المشتركة من أجل تقييم الفريق الحكومي الدولي المعني بتغير المناخ.

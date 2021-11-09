@@ -1,62 +1,62 @@
 (rr-vcs-git-merge)=
-# Merging Branches in Git
+# 合并Git中的分支
 
 (rr-vcs-merge-command)=
-## The `git merge` Command
+## `git 合并` 命令
 
-Once you have finished up some work on a branch and you are ready to integrate it to your main project (or any other branch), you can merge the branch that you worked on into the main branch or any other target branch of your interest. You can also use merging to combine work that other people have done with your own and vice versa.
+一旦您完成了某个分支的一些工作，您准备好将其整合到您的主要项目 (或任何其他分支)， 您可以将您工作的分支合并为主分支或任何其他目标分支。 您也可以使用合并来合并其他人自己做的工作，反之亦然。
 
-To merge a branch, branch_A, into another branch, branch_B, switch to branch_A via:
+要合并一个分支，branch_A到另一个分支，branch_B，切换到branch_A via：
 ```
-git checkout branch_A
+git 结帐branch_A
 ```
-Merge it into branch_B by:
-
-```
-git merge branch_B
-```
-
-Merging will not be possible if there are changes in either your working directory or staging area that could be written over by the files that you are merging in. If this happens, there are no merge conflicts in individual files. You need to commit or stash the files it lists and then try again. The error messages are as follows:
+合并到 branch_B
 
 ```
-error: Entry 'your_file_name' not update. Cannot merge. (Changes in working directory)
+git 合并分支_B
 ```
 
-or
+如果您的工作目录或暂存区域有可能被您正在合并的文件写入，合并将是不可能的。 如果发生这种情况，个别文件中没有合并冲突。 您需要提交或保存它列出的文件，然后重试。 错误消息如下：
 
 ```
-error: Entry 'your_file_name' would be overwritten by merge. Cannot merge. (Changes in staging area)
+错误：条目'your_file_name'未更新。 无法合并。 (工作目录的变化)
+```
+
+或
+
+```
+错误：条目'your_file_name'将被合并覆盖。 无法合并。 （中转区的变化）
 ```
 
 (rr-vcs-merge-command-practice)=
-### Good practice
+### 良好做法
 
-First and foremost, your **main branch should always be stable**. Only merge work that is finished and tested (for example, on a different branch). If your project is collaborative, then it is a good idea to merge changes that others make into your own work frequently or share your changes with your collaborators. If you do not do it often, it is very easy to merge conflicts that arise (next section).
+首先，您的 **个主要分支应该始终是稳定的**。 仅合并已完成和测试的工作(例如在一个不同的分支)。 如果您的项目是协作性的， 然后将其他人经常对您自己的工作进行的更改合并或与您的合作者分享您的更改是一个好主意。 如果你不经常这样做，就很容易合并产生的冲突(下一节)。
 
 (rr-vcs-merge-conflicts)=
-## Merge Conflicts
+## 合并冲突
 
-When changes are made to the same file on different branches, sometimes those changes may be incompatible. This most commonly occurs in collaborative projects, but it happens in solo projects too. Say there is a project that contains a file with this line of code:
-
-```
-print('hello world')
-```
-
-Suppose one person, on their branch, decides to "pep it up" a bit and changes the line to:
+当在不同的分支上对同一个文件进行更改时，这些更改有时可能不兼容。 这种情况最常见于合作项目，但也发生在单一项目中。 有一个包含此代码的文件的项目：
 
 ```
-print('hello world!!!')
+打印('hello world')
 ```
 
-while someone else, on another branch, decides to change it to:
+假定一个人会在他们的分支上决定“把它套上”，并将行更改为:
 
 ```
-print('Hello World')
+打印('hello world!!!')
 ```
 
-They continue doing work on their respective branches and eventually decide to merge. Their version control software then goes through and combines their changes into a single version of the file; *but*, when it gets to the `hello world` statement, it does not know which version to use. This is a merge conflict: incompatible changes have been made to the same file.
+当其他人在另一个分支上，决定将其更改为:
 
-When a merge conflict arises, it will be flagged during the merge process. Within the files with conflicts, the incompatible changes will be marked so you can fix them:
+```
+打印('Hello World')
+```
+
+它们继续在各自部门开展工作，并最终决定合并。 然后他们的版本控制软件将他们的更改合并成单一版本的文档； *但是*, 当它收到 `hello 世界` 语句时，它不知道要使用哪个版本。 这是一个合并冲突：对同一文件进行了不兼容的更改。
+
+当出现合并冲突时，它将在合并过程中被标记。 在有冲突的文件中，将标记不兼容的更改，以便您可以修复它们：
 
 ```
 <<<<<<< HEAD
@@ -65,40 +65,40 @@ print('hello world!!!')
 print('Hello World')
 >>>>>>> main
 ```
-`<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.
+`<<<<<<<`: 表示有合并冲突的行的开头。 第一组行是你试图合并更改的文件中的行数。
 
-`=======`: Indicates the breakpoint used for comparison. It separates the changes the user has committed (above), from the changes coming from the merge (below), for visual comparison.
+`=======`注：表示用于比较的断点。 它将用户已经做出的更改(上文)与合并后的更改(下文)分开，以便进行直观比较。
 
-`>>>>>>>`: Indicates the end of the lines that had a merge conflict.
+`>>>>>>>`: 表示有合并冲突的行末尾。
 
-You resolve a conflict by editing the file to manually merge the parts of the file that Git had trouble merging. This may mean discarding either your changes or someone else's or doing a mix of the two. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. In this project, the users may decide in favour of one `hello world` over another, or they may decide to replace the conflict with:
+您通过编辑文件来手动合并文件中Git有问题的部分来解决冲突。 这可能意味着放弃您的更改或其他人的更改，或做两者混合的事情。 You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. 在这个项目中，用户可能会决定支持一个 `hello 世界` 而不是另一个世界。 或者他们可以决定以以下方式取代冲突：
 
 ```
-print('Hello World!!!')
+打印('Hello World!!!')
 ```
 
-Once you have fixed the conflicts, commit the new version. You have now resolved the conflict. If during the process, you need a reminder of which files the conflicts are in, you can use `git status` to find out.
+一旦您解决了冲突，提交新版本。 你们现在已经解决了冲突。 如果在这个过程中，你需要提醒冲突在哪个文件中，你可以使用 `git 状态` 来查找。
 
-If you find there are particularly nasty conflicts, and you want to abort the merge you can use:
+如果你发现有特别严重的冲突，你想要中止合并，你可以使用：
 ```
-git merge --abort
+git 合并 --abort
 ```
 
 (rr-vcs-merge-conflicts-practice)=
-### Good practice
+### 良好做法
 
-Before you start trying to resolve conflicts, make sure you fully understand the changes and how they are incompatible to avoid the risk of making things more tangled. Merge conflicts can be intimidating to resolve, especially if you are merging branches that diverged many commits ago and now have numerous incompatibilities. However, it is worth remembering that your previous versions are safe and that you can go about fixing this issue without affecting the past versions. This is why it is good practice to **merge other's changes into your work frequently**.
+在您开始尝试解决冲突之前， 确保你完全理解这些更改以及它们是如何不兼容的，以避免使事情变得更加紧凑的风险。 合并冲突可能会令人恐惧地解决问题，特别是如果你合并了分支，这些分支在许多承诺之前发生了分歧，而且现在有许多不兼容之处。 然而，值得记住的是，你以前的版本是安全的，你可以在不影响过去版本的情况下解决这个问题。 这就是为什么 **经常将对方的更改合并到您的工作中** 是好的做法。
 
-There are tools available to assist in resolving merge conflicts, some are free; some are not. Find and familiarise yourself with one that works for you. Commonly used merge tools include [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), and [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). To set a tool as your default do:
+有些工具可用来帮助解决合并冲突，有些工具是免费的；有些工具则不是免费的。 找到并熟悉为您服务的人。 常用的合并工具包括 [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), 和 [P4合并](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). 设置一个工具作为您的默认操作：
 
 ```
 git config --global merge.tool name_of_the_tool
 ```
 
-and launch it with:
+然后通过以下方式启动它：
 
 ```
-git mergetool
+git 合并工具
 ```
 
-Fundamentally, the best way to deal with merge conflicts is, as far as it is possible, to try to avoid them in the first place. You can improve your odds on this by keeping branches clean and focused on a single issue and involving as few files as possible. Before merging, make sure you know what is in both branches. If you are not the only one that has worked on the branches, then keep the lines of communication open, so you are all aware of what the others are doing.
+从根本上说，处理合并冲突的最佳办法是尽可能首先设法避免冲突。 您可以通过保持分支清理并集中处理单个问题和尽可能少的文件来改善您在这个问题上的奇数。 在合并之前，请确保您知道两个分支中的内容。 如果你不是唯一在分支上工作的, 然后保持通信线路打开，所以你都知道其他人正在做什么。

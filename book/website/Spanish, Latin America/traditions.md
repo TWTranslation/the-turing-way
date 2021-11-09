@@ -1,51 +1,51 @@
-(communication-aa-traditions)=
-# Discipline specific authorship traditions
+(comunicación-aa-tradiciones)=
+# Disciplina tradiciones específicas de autoría
 
-When you speak to researchers from different disciplines about academic authorship, you get many different answers about who they think should be an author, what order the authors should take and what the order means. It is therefore apparent that there are different discipline-specific traditions about how authorship is conducted for journal articles.
+Cuando hablas con investigadores de diferentes disciplinas acerca de la autoría académica, obtienes muchas respuestas diferentes sobre quién piensan que debe ser un autor, qué orden deben tomar los autores y qué significa el pedido. Por lo tanto, es evidente que existen diferentes tradiciones específicas de disciplina sobre cómo se lleva a cabo la autoría de los artículos de revistas.
 
-(communication-aa-traditions-humss)=
-## Humanities and social science disciplines
+(comunicación-aa-tradiciones-hums)=
+## Humanidades y disciplinas de ciencias sociales
 
-Single author publications are more common in Humanities disciplines than in Science, Technology and Medicine. Research, and the writing aspect of this, is more often seen as a solo endeavour due to the nature of the subjects involved and therefore single author papers and books are highly valued. However, a recent [white paper by Taylor & Francis](https://authorservices.taylorandfrancis.com/co-authorship-in-the-humanities-and-social-sciences/) concerning co-authorship in the humanities and social sciences found that co-authorship seems to be increasing with 74% of respondents to a recent survey reporting their typical number of authors per paper being two or more.
+Las publicaciones de un solo autor son más comunes en disciplinas de humanidades que en Ciencia, Tecnología y Medicina. Investigación, y el aspecto de la escritura de esto, se considera más a menudo como un esfuerzo en solitario debido a la naturaleza de los temas involucrados y, por lo tanto, los documentos y libros de autor individuales son muy valorados. Sin embargo, un reciente [libro blanco de Taylor & Francis](https://authorservices.taylorandfrancis.com/co-authorship-in-the-humanities-and-social-sciences/) relativo a la co-autoría en las humanidades y ciencias sociales descubrió que la coautoría parece estar aumentando con un 74% de los encuestados a una encuesta reciente que informa de que su número típico de autores por artículo es dos o más.
 
-This tradition though does mean that co-authorship is less well discussed and there seems to be no consensus on how it should be approached. The Taylor & Francis white paper also states that issues have arisen concerning the over-crediting of senior or supervisory researchers and only 18% of respondents reporting having received training in determining academic authorship.
+Esta tradición, sin embargo, significa que la coautoría está menos debatida y que no parece haber consenso sobre cómo debe abordarse. El Libro Blanco de Taylor & Francis también afirma que han surgido problemas relativos a la sobredimensión de investigadores superiores o supervisores y sólo el 18% de los encuestados que informan haber recibido capacitación para determinar la autoría académica.
 
-(communication-aa-traditions-med)=
-## Medical Sciences
-The [International Committee of Medical Journal Editors (ICMJE) has a clear set of guidelines for medical science](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) that is also used more widely in other scientific disciplines journals. The criteria are clear for authorship and require substantial contributions to several areas of the research project, including writing or editing. It sets out four criteria that must all be met to be deemed an author on the paper:
-* Significant involvement in the study design, data collection or analysis.
-* Involvement in drafting or revising the manuscript.
-* Approval of the final version of the manuscript.
-* Responsibility for accuracy and integrity of all aspects of research.
+(comunicación-aa-tradiciones-med)=
+## Ciencias Médicas
+El [Comité Internacional de Edites de Revisión Médica (ICMJE) tiene un conjunto claro de directrices para la ciencia médica](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) que también se utiliza más ampliamente en otras revistas de disciplinas científicas. Los criterios son claros para la autoría y requieren contribuciones sustanciales a varias áreas del proyecto de investigación, incluida la redacción o la edición. Establece cuatro criterios que deben cumplirse para ser considerados autores en el documento:
+* Participación significativa en el diseño, recopilación de datos o análisis del estudio.
+* Participación en la redacción o revisión del manuscrito.
+* Aprobación de la versión final del manuscrito.
+* Responsabilidad de la exactitud e integridad de todos los aspectos de la investigación.
 
-If all these criteria are not met then these contributors can only be added to the acknowledgements. Therefore, these criteria are not inclusive in terms of authorship for all contributions to a research project, even if they are substantial contributions such as software development.
+Si no se cumplen todos estos criterios, estos contribuidores sólo podrán añadirse a los reconocimientos. Por lo tanto, estos criterios no son inclusivos en términos de autoría para todas las contribuciones a un proyecto de investigación, incluso si son contribuciones sustanciales como el desarrollo de software.
 
-Many journals in this discipline still use their own guidelines or modified versions of the ICMJE guidelines due in part to a disagreement that an individual whose sole contribution is as the main writer would not qualify as an author {cite}`Panter2021bestpractices`. It is thought that this should allow authorship because to write a paper you would also need to understand and interpret the data therefore fulfilling the first criteria.
+Muchas revistas de esta disciplina todavía utilizan sus propias directrices o versiones modificadas de las directrices de ICMJE debido en parte a un desacuerdo de que un individuo cuya única contribución es como el escritor principal no calificaría como autor {cite}`Panter2021bestpractices`. Se cree que esto debería permitir la autoría porque para escribir un documento también es necesario entender e interpretar los datos cumpliendo así los primeros criterios.
 
-(communication-aa-traditions-nat)=
-## Natural Sciences
-The natural sciences have no standard way to define academic authorship.
+(comunicación-aa-tradiciones-nat)=
+## Ciencias Naturales
+Las ciencias naturales no tienen una forma estándar de definir la autoría académica.
 
-Leading journals such as the Proceedings of the National Academy of Sciences of the United States of America ([PNAS](https://blog.pnas.org/iforc.pdf)) have set out that 'authorship must be limited to those who have contributed substantially to the work'.
+Las revistas líderes como las Actas de la Academia Nacional de Ciencias de los Estados Unidos de América ([PNAS](https://blog.pnas.org/iforc.pdf)) han establecido que 'la autoría debe limitarse a aquellos que han contribuido sustancialmente a la obra'.
 
-They also specify that the specific contributions of authors to the published work must be written in the footnote to the paper. Examples of designations include: designed research, performed research, contributed new reagents or analytic tools, analyzed data, wrote the paper.
+También especifican que las contribuciones específicas de los autores a la obra publicada deben estar escritas en la nota al pie de página del artículo. Ejemplos de diseñadores incluyen: investigación diseñada, investigación realizada, nuevos reactivos o herramientas analíticas, datos analizados, escribió el papel.
 
-This does mean that an author could be someone that does not write the paper, however, they must have agreed to the version of the paper that is submitted so this implies they have at least read and made comments on the final version.
+Sin embargo, esto significa que un autor podría ser alguien que no escriba el artículo. deben haber aceptado la versión del documento que se presenta, por lo que esto implica que al menos han leído y hecho comentarios sobre la versión final.
 
-Other journals such as [PLOS One](https://journals.plos.org/plosone/s/authorship), [e-life](https://reviewer.elifesciences.org/author-guide/journal-policies) and [F1000 Research](https://f1000research.com/gateways/nc3rs/for-authors/article-guidelines/research-articles) are using the ICMJE criteria for authorship but in combination with a wider attribution for different contributions using the [CRediT Taxonomy](https://casrai.org/credit/).  
-This is a high-level taxonomy that includes 14 roles to represent typical roles within scientific research making the contributions section of a paper at least more inclusive.
+Otras revistas como [PLOS One](https://journals.plos.org/plosone/s/authorship), [e-life](https://reviewer.elifesciences.org/author-guide/journal-policies) y [F1000 Research](https://f1000research.com/gateways/nc3rs/for-authors/article-guidelines/research-articles) están utilizando los criterios de ICMJE para la autoría, pero en combinación con una atribución más amplia para diferentes contribuciones usando la [Taxonomía CRediT](https://casrai.org/credit/).  
+Esta es una taxonomía de alto nivel que incluye 14 roles para representar roles típicos dentro de la investigación científica haciendo que la sección de contribuciones de un documento al menos más inclusivo.
 
-(communication-aa-traditions-order)=
-## Order of authors and what this means
+(comunicación-aa-tradiciones-orden)=
+## Orden de los autores y qué significa esto
 
-The order of authors is also different in each discipline and the placement of each author is often not understood outside of each discipline. The nuances of the author order are not explained anywhere in an academic paper for others to understand, such as how the authors have decided this order and the relevance of it to them.
+El orden de los autores también es diferente en cada disciplina y la colocación de cada autor a menudo no se entiende fuera de cada disciplina. Los matices de la orden del autor no se explican en ningún lugar de un documento académico para que otros lo entiendan, como la forma en que los autores han decidido esta orden y su pertinencia para ellos.
 
-However, in general the first author is seen as the person that has given the main contribution to the project in terms of forming the ideas and structure for the research paper, writing and editing of the article and being in charge of organising the article submission. They are also often the corresponding author that deals with any queries regarding the article. Although, in some academic circles being the corresponding author is a measure of academic status and does not have to be the same person as the first author.
+Sin embargo, en general el primer autor es visto como la persona que ha dado la principal contribución al proyecto en términos de formación de las ideas y estructura para el documento de investigación, escribir y editar el artículo y encargarse de organizar la presentación del artículo. También son a menudo el autor correspondiente que se ocupa de cualquier consulta sobre el artículo. Aunque, en algunos círculos académicos siendo el autor correspondiente es una medida de estatus académico y no tiene que ser la misma persona que el primer autor.
 
-In social sciences, the first author indicates who should get the most credit for the research and the authors are then listed in order of descending contributions, all the way to the last author who has made the least contribution. See the LSE Impact of social sciences blog - [First among equals](https://blogs.lse.ac.uk/impactofsocialsciences/2015/06/18/first-among-equals-guidelines-authorship-credit/) for a wider discussion on first authors.
+En las ciencias sociales, el primer autor indica quién debe obtener más crédito por la investigación y los autores están listados en orden de contribuciones descendentes, hasta el último autor que ha hecho la menor contribución. Ver el blog Impacto de las ciencias sociales LSE - [El primero entre iguales](https://blogs.lse.ac.uk/impactofsocialsciences/2015/06/18/first-among-equals-guidelines-authorship-credit/) para una discusión más amplia sobre los primeros autores.
 
-However, in many disciplines the last author or the last two authors have significance and are senior members of the research team. These team members are likely to be in supervisory roles in the project. This could be as PhD supervisors, Principal Investigators or Co-investigators.
+Sin embargo, en muchas disciplinas el último autor o los dos últimos autores tienen importancia y son miembros de alto nivel del equipo de investigación. Es probable que estos miembros estén en funciones de supervisión en el proyecto. Esto podría ser como supervisores de doctorado, investigadores principales o coinvestigadores.
 
-The authors in the middle of the list, between the first author and last author/s, can be in the order of most contributions to least, or as an alphabetical list.
+Los autores en el centro de la lista, entre el primer autor y el último/s, puede estar en el orden de la mayoría de las contribuciones por lo menos, o como una lista alfabética.
 
-Some disciplines, such as mathematics (see this [Wikipedia page on academic authorship](https://en.wikipedia.org/wiki/Academic_authorship) for more information), have always used alphabetical lists with no indication in the order given to the amount of contributions made. 
+Algunas disciplinas, como las matemáticas (ver esta página de [Wikipedia en la autoría académica](https://en.wikipedia.org/wiki/Academic_authorship) para más información), siempre han utilizado listas alfabéticas sin ninguna indicación en el orden dado a la cantidad de contribuciones realizadas. 

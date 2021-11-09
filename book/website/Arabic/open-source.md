@@ -1,168 +1,168 @@
-(rr-open-source)=
-# Open Source Software
+(r-open-source)=
+# برنامج مفتوح المصدر
 
-(rr-open-source-whatis)=
-## What Is Open Source Software?
+(r-open-source-whatis)=
+## ما هو برنامج المصدر المفتوح؟
 
-When a project is open-source [{term}`def<Open Source Software>`], anybody can view, use, modify, and distribute the project for any purpose. These permissions are enforced through an open-source licence. Open source is powerful because it lowers the barriers to adoption, allowing ideas to spread quickly. In its most basic form, open-sourcing your software means putting your code online where it can be viewed and reused by others.
+عندما يكون المشروع مفتوح المصدر [{term}`def<Open Source Software>`]، يمكن لأي شخص عرض المشروع واستخدامه وتعديله وتوزيعه لأي غرض. ويتم إنفاذ هذه الأذونات من خلال ترخيص مفتوح المصدر. المصدر المفتوح قوي لأنه يقلل من الحواجز التي تحول دون اعتماده، مما يسمح بانتشار الأفكار بسرعة. في شكلها الاساسي الاساسي يعني استخدام البرنامج الخاص بك وضع التعليمات البرمجية الخاصة بك على الانترنت حيث يمكن مشاهدتها وإعادة استخدامها من قبل الآخرين.
 
-Many of the most widely used research software is open source. Perhaps the paradigmatic example is the scikit-learn Python package for machine learning (Pedregosa et al., 2011), which, in the space of just over five years, has attracted over 500 unique contributors, 20,000 individual code contributions, and 2,500 article citations. Producing a comparable package using a traditional closed-source approach would likely not be feasible. It would, at the very least, require a budget of tens of millions of dollars. While scikit-learn is an outlier, hundreds of other open-source packages that support much more domain-specific needs depend similarly on unsolicited community contributions; for example, the NIPY (neuroimaging in Python) group of projects in neuroimaging (Gorgolewski et al., 2016). Notably, such contributions not only result in new functionality from which the broader community can benefit, but also regularly provide their respective authors with greater community recognition, and lead to new project and employment opportunities.
+وكثير من البرمجيات البحثية الأكثر استخداماً هي برمجيات مفتوحة المصدر. وربما يكون المثال النموذجي هو حزمة Python لتعلم الآلات (Pedregosa et al. 2011)، التي اجتذبت في غضون أكثر من خمس سنوات بقليل، أكثر من 500 مساهم فريد، و 000 20 مساهمة فردية في الرموز، و 500 2 اقتباس من المقالات. ومن المرجح ألا يكون إنتاج مجموعة قابلة للمقارنة باستخدام نهج تقليدي للمصادر المغلقة. وسيتطلب ذلك، على أقل تقدير، ميزانية تبلغ عشرات الملايين من الدولارات. وفي حين أن تعلم مجموعات المواد العلمية أمر خارج، فإن مئات الحزم الأخرى المفتوحة المصدر التي تدعم المزيد من الاحتياجات الخاصة بالميادين تعتمد بالمثل على مساهمات المجتمع غير الملتمسة؛ على سبيل المثال، مجموعة مشاريع التصوير العصبي في بيثون) في التصوير العصبي (Gorgolewski et al. 2016). ومن الجدير بالملاحظة أن هذه المساهمات لا تؤدي فقط إلى وظيفة جديدة يمكن للمجتمع الأوسع أن يستفيد منها، ولكنها توفر أيضاً بصورة منتظمة لواضعيها قدراً أكبر من الاعتراف المجتمعي، وتؤدي إلى إيجاد مشاريع جديدة وفرص عمل جديدة.
 
-Researchers that make use of open-source software often make changes to them, such as adding features they need for their research, or fixing bugs. They can then contribute these improvements back to the main project so the wider community can take advantage of them.
+الباحثون الذين يستخدمون برمجيات المصدر المفتوح غالبا ما يجرون تغييرات لهم، مثل إضافة الميزات التي يحتاجون إليها في بحوثهم، أو إصلاح الأخطاء. ويمكنهم بعد ذلك أن يسهموا بهذه التحسينات في المشروع الرئيسي حتى يتمكن المجتمع المحلي الأوسع من الاستفادة منها.
 
-(rr-open-source-benefitsyou)=
-## How Running and Contributing to Open-Source Software Projects Benefits You
+(r-open-source-efitsyou)=
+## كيف تعمل وتساهم في مشاريع البرمجيات المفتوحة المصدر وتستفيد منها
 
-- _Improve existing skills_: Whether it is coding, user interface design, graphic design, writing, or organizing, if you are looking for practice, there is a task for you on an open-source software project. Further, open source necessitates cleaner, more maintainable code to enable collaboration between potentially thousands of people who may never meet. This helps to build and maintain good coding habits. Not to be underestimated are the people skills you can develop on open source software projects. Open source offers opportunities to practice leadership and management skills, such as resolving conflicts, organising teams of people, and prioritising work.
-- _Advance your career_: By definition, all of your open source work is public, and this presents opportunities:
-  - _Demonstrate technical ability_: Technical interviews traditionally involve working on a simulated problem that can be tackled in a set amount of time with little additional context. Such simulations, by definition, are not real-world use cases, nor do they show what working with an applicant would be like. Open source provides visibility into both how a candidate solves problems, and how they work with others. You make a much more appealing employee if an employer can see the quality of your work and see you working with others over a long period rather than taking a chance on a single short, high-stress case which may not play to your strengths.
-  - _Reputation_: Becoming an active member of the open source community can gain you a favourable reputation which may bolster future job prospects.
-- _Meet people with similar interests_: Open source software projects with warm, welcoming communities keep people coming back for years, and many people form lifelong friendships through their participation in open source.
-- _Find mentors and teach others_: Working with others on a shared project means you will have to explain how you do things, as well as ask other people for help. The acts of learning and teaching can be a fulfilling activity for everyone involved.
+- _تحسين المهارات الحالية_: سواء كانت تقوم بالبرمجة، تصميم واجهة المستخدم، تصميم الرسوم البيانية، الكتابة، أو تنظيم، إذا كنت تبحث عن ممارسة، هناك مهمة لك على مشروع برمجيات مفتوح المصدر. وعلاوة على ذلك، فإن المصدر المفتوح يتطلب مدونة أنظف وأكثر قابلية للتطبيق للتمكين من التعاون بين آلاف الأشخاص الذين يحتمل ألا يلتقوا أبدا. هذا يساعد على بناء عادات البرمجة الجيدة والحفاظ عليها. لا يمكن الاستهانة بمهارات الناس التي يمكنك تطويرها في مشاريع برمجيات المصدر المفتوح. ويتيح المصدر المفتوح فرصاً لممارسة المهارات القيادية والإدارية، مثل حل المنازعات، وتنظيم أفرقة الناس، وتحديد أولويات العمل.
+- _التقدم في حياتك المهنية_: حسب التعريف، كل العمل مفتوح المصدر الخاص بك عام ، وهذا يوفر الفرص:
+  - _إثبات القدرة التقنية_: المقابلات التقنية تنطوي تقليدياً على العمل على مشكلة محاكاة يمكن معالجتها في غضون فترة زمنية محددة مع القليل من السياق الإضافي. وهذه المحاكاة، بحكم تعريفها، ليست حالات استخدام حقيقية في العالم، كما أنها لا تبين ما سيكون عليه التعامل مع مقدم الطلب. يوفر المصدر المفتوح وضوحاً للكيفية التي يحل بها المرشح المشاكل، وكيف يعمل مع الآخرين. إذا كان بإمكان رب العمل أن يطلع على نوعية عملك ويراك العمل مع الآخرين على مدى فترة طويلة بدلاً من الحصول على فرصة قصيرة، حالة شديدة الإجهاد قد لا تلعب على قوتك.
+  - _السمعة_: أن تصبح عضوا نشطا في مجتمع المصدر المفتوح يمكن أن يكسبك سمعة مؤاتية من شأنها أن تعزز فرص العمل في المستقبل.
+- _مقابلة أشخاص ذوي اهتمامات مماثلة_: مشاريع برمجيات المصدر المفتوح بدفئة، والترحيب بالمجتمعات المحلية يبقي الناس عائدين لسنوات عديدة، والعديد من الناس يقيمون صداقات مدى الحياة من خلال مشاركتهم في مصادر مفتوحة.
+- _ابحث عن مرشدين وعلم آخرين_: العمل مع الآخرين على مشروع مشترك يعني أنه يجب عليك شرح كيفية عمل الأشياء، بالإضافة إلى طلب المساعدة من الآخرين. ويمكن أن تكون أعمال التعلم والتدريس نشاطا يحقق الأهداف بالنسبة لكل من يعنيهم الأمر.
 
-### Making Your Work Open Source
+### جعل عملك مفتوح المصدر
 
-- _Re-usability_: Making your work openly available for re-use makes it easier for others to incorporate into their research. If you make your software citeable, via a DOI [{term}`def<Digital Object Identifier>`] for example, this can increase your citations.
-- _Contribution_: When you write closed source software, the only developers that can potentially detect, diagnose, triage, and resolve software bugs are those that have a copy of the code. If your project is open, the number of potential contributing developers and thus the potential knowledge pool is orders of magnitude larger.
-- _Feedback_: Making your work open enables you to get feedback and improve your project in a way you may never have thought of alone.
-- _Accountability_: There is an argument that any software developed using government money should be open source by default; if the public has paid for its development they have a right to make use of it. If your work is government-funded, making it open is a step you can take towards government openness and accountability.
+- _إعادة الاستخدام_: جعل عملك متاحا بشكل علني لإعادة الاستخدام يجعل من الأسهل على الآخرين أن يدرجوا في بحوثهم. إذا قمت بجعل برنامجك قابل للاستشهاد، عن طريق DOI [{term}`def<Digital Object Identifier>`على سبيل المثال، فإن هذا يمكن أن يزيد من الاقتباس الخاص بك.
+- _المساهمة_: عندما تكتب برمجيات المصدر المغلقة، المطورين الوحيدين الذين يمكن أن يكتشفوا، التشخيص، والتجرب، وحل أخطاء البرامج هي تلك التي لديها نسخة من الكود. إذا كان مشروعك مفتوحا، فإن عدد المطورين المساهمين المحتملين وبالتالي مجمع المعرفة المحتمل هو أكبر بكثير.
+- _الملاحظات_: جعل عملك مفتوحا يتيح لك الحصول على ردود الفعل وتحسين مشروعك بطريقة ربما لم تفكر فيها لوحدك أبدا.
+- _المساءلة_: هناك حجة بأن أي برنامج تم تطويره باستخدام أموال الحكومة يجب أن يكون مفتوح المصدر بشكل افتراضي؛ وإذا كان الجمهور قد دفع ثمن تنميتها، فإن له الحق في الاستفادة منها. وإذا كان عملكم ممولا من الحكومة، فإن جعله مفتوحا خطوة يمكن أن تتخذوها نحو انفتاح الحكومة وخضوعها للمساءلة.
 
-### Contributing to Others' Open Source Software Projects
+### المساهمة في مشاريع برمجيات المصدر المفتوح للآخرين
 
-- _It is empowering to be able to make changes, even small ones_: You do not have to become a lifelong contributor to enjoy participating in open source. Have you ever seen a typo on a website, and wished someone would fix it? On an open source software project, you can do just that. Open source helps people feel agency over their lives and how they experience the world, and that in itself is gratifying.
-- _It is fun_: Open source provides an endless, ever-changing set of Rubix cubes for you to solve on weekends. Just like puzzles, both crossword and jigsaw, open source provides bite-sized intellectual escapes.
+- _هو تمكين أن تكون قادرة على إجراء التغييرات، حتى صغيرة_: ليس عليك أن تصبح مساهما مدى الحياة للاستمتاع بالمشاركة في المصدر المفتوح. هل سبق لك أن رأيت نموذجا على موقع ويب، وتمنت لشخص ما أن يصلحه؟ في مشروع برمجيات المصدر المفتوح، يمكنك فعل ذلك فقط. المصدر المفتوح يساعد الناس على الإحساس بالوكالة في حياتهم وكيف يجربون العالم، وهذا في حد ذاته يبعث على الارتياح.
+- _إنه ممتع_: المصدر المفتوح يوفر مجموعة لا نهاية لها من المكعبات الروبيكس المتغيرة لحلها في عطلة نهاية الأسبوع. ومثلها تماما مثل الألغاز المتداخلة والناشر على حد سواء، يوفر المصدر المفتوح هروب فكري ثنائي الحجم.
 
-(rr-open-source-benefitsresearch)=
-## How Open Source Software Benefits Research
+(r-open-source-efitsresearch)=
+## كيفية بحث فوائد البرمجيات المفتوحة المصدر
 
-There are several in which open-source software benefits research:
+وهناك العديد من البرامج التي تفيد فيها البرامج المفتوحة المصدر البحث:
 
-(rr-open-source-benefitsresearch-reusable)=
-### Re-usable
+(r-open-source-efitsresearch-reus)=
+### إعادة الاستخدام
 
-Open source software projects allow researchers to take advantage of each others’ work. This enables researchers to apply their efforts to high-value work. It is sometimes said that “all the easy problems have already been solved”. Blogging, content management, and operating systems are all problems with established (and mainstream) open-source solutions, to name a few. While developers could spend their time reinventing wheels that the open-source community has already perfected, it is highly preferable to use the world’s best wheel, especially when that wheel comes at no cost to you. This reduces duplication of effort and allows researchers to focus on yet-unsolved challenges.
+تتيح مشاريع برمجيات المصدر المفتوح للباحثين الاستفادة من عمل بعضهم البعض. وهذا يمكّن الباحثين من تطبيق جهودهم على الأعمال العالية القيمة. ويقال في بعض الأحيان إن “جميع المشاكل السهلة قد تم حلها بالفعل”. فالتسجيل وإدارة المحتوى ونظم التشغيل كلها مشاكل مع الحلول المستقرة (والمتاحة) المفتوحة المصدر، على سبيل المثال لا الحصر. في حين يمكن للمطورين قضاء وقتهم في إعادة اختراع العجلات التي تم اكتمالها بالفعل مجتمع المصادر المفتوحة، من المفضل للغاية استخدام أفضل عجلة في العالم، وخاصة عندما تأتي تلك العجلة بدون تكلفة عليكم. وهذا يقلل من ازدواجية الجهود ويسمح للباحثين بالتركيز على التحديات التي لم تحل بعد.
 
-(rr-open-source-benefitsresearch-checkable)=
-### Checkable
+(r-open-source-efitsresearch-checkable)=
+### قابل للفحص
 
-Open-source projects allow the broader research community to read and test each others' code. This way, bugs can be found more quickly, and other researchers can validate results.
+وتسمح المشاريع المفتوحة المصدر لمجتمع البحوث الأوسع بقراءة واختبار شفرة بعضها البعض. بهذه الطريقة، يمكن العثور على الأخطاء بسرعة أكبر، والباحثون الآخرون يمكنهم التحقق من النتائج.
 
-(rr-open-source-benefitsresearch-collaborative)=
-### Collaborative
-Working openly also allows any number of researchers to collaborate on projects that could not possibly be developed by single researchers/research groups. Examples include [Linux](https://www.linux.org/) operating systems, Python packages such as [scipy](https://www.scipy.org/) and [numpy](http://www.numpy.org/), and the machine learning library [TensorFlow](https://www.tensorflow.org/).
+(r-open-source-efitsresearch-cooperative)=
+### تعاوني
+كما أن العمل علناً يسمح لأي عدد من الباحثين بالتعاون في المشاريع التي لا يمكن وضعها بواسطة باحثين/أفرقة بحثية منفردة. وتشمل الأمثلة [لينوكس](https://www.linux.org/) أنظمة التشغيل، حزم بايثون مثل [scipy](https://www.scipy.org/) و [numpy](http://www.numpy.org/)، ومكتبة تعلم الآلات [TensorFlow](https://www.tensorflow.org/).
 
-(rr-open-source-run)=
-## How to Run Your Open Source Software Project
+(r-open-source-run)=
+## كيفية تشغيل مشروع برمجيات المصدر المفتوح الخاص بك
 
-You can open source an idea, a work in progress, or after years of being closed source. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. You can make your code citeable by assigning it a DOI [{term}`def<Digital Object Identifier>`] (as discussed in the section on {ref}`rr-rdm-sharing`). This helps ensure that you get proper credit if people use or build upon your work.
+يمكنك أن تفتح مصدر فكرة أو عمل جاري أو بعد سنوات من غلق المصدر. في المستوى الأساسي جدا، كل ما عليك فعله هو وضع التعليمات البرمجية الخاصة بك على الإنترنت في مكان ما من المحتمل أن يستمر لفترة طويلة. يمكنك جعل التعليمات البرمجية الخاصة بك قابلة للاستشهاد بها عن طريق تعيينه معينا [{term}`def<Digital Object Identifier>`] (على النحو الذي نوقش في القسم الخاص بـ {ref}`rr-rdmsharing`). وهذا يساعد على ضمان حصولك على رصيد مناسب إذا كان الناس يستخدمون عملك أو يستندون إليه.
 
-A popular place to make your code available is GitHub [{term}`def<Github>`] (see the chapter on {ref}`rr-vcs`). You must include a license file stating that anyone has permission to use, copy, and modify your work. Without this, no one can legally use your work, and so it is not open source. The {ref}`rr-licensing` chapter will help you to pick the best license for your project. There are also a few other files you should include with your code, as described below.
+المكان الشائع لجعل تعليماتك البرمجية متاحة هو GitHub [{term}`def<Github>`] (انظر الفصل على {ref}`rr-vcs`). يجب عليك تضمين ملف ترخيص ينص على أن أي شخص لديه إذن لاستخدام العمل الخاص بك ونسخه وتعديله. وبدون ذلك، لا يمكن لأحد أن يستخدم عملك بصورة قانونية، وبالتالي فهو ليس مصدرا مفتوحا. الفصل {ref}`ترخيص rr-licen` سيساعدك على اختيار أفضل ترخيص لمشروعك. هناك أيضا بعض الملفات الأخرى التي يجب أن تضمنها مع الرمز الخاص بك، كما هو مبين أدناه.
 
-(rr-open-source-run-readme)=
-### Welcome Users by Adding Information to Your README
+(r-open-source-run-readme)=
+### مرحبا بالمستخدمين عن طريق إضافة معلومات إلى README
 
-You should include a README [{term}`def<README>`] file where you include useful information about what the project is, how to use it, and how to contribute to it. Here is a list of the main things a README should include:
+يجب أن تحتوي على ملف '{term}`def<README>`حيث تحتوي على معلومات مفيدة حول ما هو المشروع، كيفية استخدامه، وكيفية المساهمة فيه. وفيما يلي قائمة بالأشياء الرئيسية التي ينبغي أن تتضمن إعادة تنظيمها:
 
-- _The project name and what it is_: This will significantly help someone that comes across it to get an idea of the project. Include a few key points that describe the main features of the project and what features you are implementing. This helps to quickly compare other projects with yours and gives an idea of why the project exists in the first place.
-- _Instructions on how to install the project_: The installer might be a collaborator, someone that comes across and is interested in the project, or even you - if you get a new machine and need to re-install your project. Nevertheless, it is a total waste of your resources to figure out how to get started with the project from scratch. The instructions should also include any prerequisites that will be needed to run the project. The best thing you can do is to write up the installation instructions when you first do them yourself, and you will quickly save hours of work in the future.
-- _Instructions for how to run the code and any associated tests_: If you've been working on your project it may seem obvious how to run it, but this will likely not be the case for someone coming across it for the first time.
-- _Links to related material_
-- _List of authors/contributors to the project, possibly with contact information_
-- _Acknowledgements_
+- _اسم المشروع وما هو_: هذا سوف يساعد بشكل كبير شخص ما الذي يعبره للحصول على فكرة عن المشروع. قم بتضمين بعض النقاط الرئيسية التي تصف السمات الرئيسية للمشروع وما هي الميزات التي تقوم بتنفيذها. وهذا يساعد على مقارنة المشاريع الأخرى مع مشروعك بسرعة ويعطي فكرة عن سبب وجود المشروع في المقام الأول.
+- _تعليمات حول كيفية تثبيت المشروع_: قد يكون المثبت متعاون، شخص يأتي ويهتم بالمشروع، أو حتى أنت - إذا كنت تحصل على آلة جديدة وتحتاج إلى إعادة تثبيت مشروعك. ومع ذلك، فإن معرفة كيفية البدء في المشروع من الصفر هي إهدار كامل لمواردك. وينبغي أن تتضمن التعليمات أيضا أي شروط مسبقة تلزم لتشغيل المشروع. أفضل ما يمكنك فعله هو كتابة تعليمات التثبيت عندما تقوم بها بنفسك، وستوفر بسرعة ساعات العمل في المستقبل.
+- _تعليمات لكيفية تشغيل التعليمات البرمجية وأي اختبارات مرتبطة بها_: إذا كنت تعمل على مشروعك قد يبدو من الواضح كيفية تشغيله. ولكن من المرجح ألا يكون هذا هو الحال بالنسبة لشخص يمر بها لأول مرة.
+- _وصلات بالمواد ذات الصلة_
+- _قائمة بالمؤلفين/المساهمين في المشروع، ربما مع معلومات الاتصال_
+- _الإشادة_
 
-Suppose you intend for other people to collaborate on your project (as opposed to just making your code available and considering it complete). In that case, you should include Contributing Guidelines and most likely, a Code of Conduct.
+لنفترض أنك تنوي أن يتعاون أشخاص آخرين في مشروعك (بدلاً من مجرد إتاحة التعليمات البرمجية الخاصة بك والنظر في إكمالها). في تلك الحالة، يجب أن تتضمن مبادئ توجيهية للمساهمة، وعلى الأرجح مدونة سلوك.
 
-(rr-open-source-run-guidelines)=
-### Contributing Guidelines
+(r-open-sour-run-guidelines)=
+### المبادئ التوجيهية للإسهام
 
-Contributing Guidelines [{term}`def<Contributing Guidelines>`] tell your audience how to participate in your project. For example, you might include information on:
+المبادئ التوجيهية المساهمة [{term}`def<Contributing Guidelines>`تخبر جمهورك عن كيفية المشاركة في مشروعك. على سبيل المثال قد تضمّن معلومات عن:
 
-- How to file a bug report
-- How to suggest a new feature
-- Your roadmap or vision for the project
-- How contributors should (or should not) get in touch with you
+- كيفية تقديم تقرير الخلل
+- كيفية اقتراح ميزة جديدة
+- خريطة الطريق أو رؤيتكم للمشروع
+- كيف ينبغي (أو لا ينبغي للمساهمين) الاتصال بك
 
-Using a warm, friendly tone and offering specific suggestions for contributions (such as writing documentation, or making a website) can go a long way in making newcomers feel welcomed and excited to participate. For example, [Active Admin](https://activeadmin.info/index.html) starts its [contributing guide](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md) with: "First off, thank you for considering contributing to Active Admin. It’s people like you that make Active Admin such a great tool."
+استخدام لهجة دافئة وودية وتقديم اقتراحات محددة للمساهمات (مثل كتابة الوثائق)، أو إنشاء موقع على شبكة الإنترنت) يمكن أن يقطع شوطا طويلا في جعل الوافدين الجدد يشعرون بالترحيب والحماس للمشاركة. على سبيل المثال ، [المشرف النشط](https://activeadmin.info/index.html) يبدأ [دليل المساهمة](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md) الخاص به : "أولاً ، شكراً لك على النظر في المساهمة في المشرف النشط. أناس مثلك هم الذين يصنعون المشرف النشط مثل هذه الأداة الرائعة."
 
-In the earliest stages of your project, your Contributing Guidelines file can be simple. You should always explain how to report bugs or file issues, and any technical requirements (like tests) to make a contribution. Over time, you might add other frequently asked questions here or in your readme file. Writing down this information means fewer people will ask you the same questions over and over again. It is also a good idea to link to your contributing guidelines file from your README, so more people see it.
+في المراحل الأولى من مشروعك، يمكن أن يكون ملف المبادئ التوجيهية المساهم بسيطاً. يجب عليك دائماً شرح كيفية الإبلاغ عن الأخطاء أو المشكلات في الملف، وأي متطلبات تقنية (مثل الاختبارات) لتقديم المساهمة. مع مرور الوقت، قد تضيف أسئلة أخرى متكررة هنا أو في ملف القراءة الخاص بك. كتابة هذه المعلومات تعني أن عددا أقل من الناس سيوجهون إليك نفس الأسئلة مرارا وتكرارا. من الجيد أيضا ربط ملف المبادئ التوجيهية الخاص بك المساهمة من README، لذا يرى المزيد من الناس ذلك.
 
-(rr-open-source-run-conduct)=
-### Code of Conduct
+(r-open-source-run-conduct)=
+### مدونة قواعد السلوك
 
-A Code of Conduct [{term}`def<Code of Conduct>`] helps set ground rules for behaviour for your project's participants. This is especially valuable if you are launching an open-source project for a community or company. A Code of Conduct empowers you to facilitate healthy, constructive community behaviour, which will reduce your stress as a maintainer. It communicates how you expect participants to behave and describes who these expectations apply to, when they apply, and what to do if a violation occurs.
+تساعد مدونة قواعد السلوك [{term}`def<Code of Conduct>`] على وضع قواعد أساسية للسلوك للمشاركين في مشروعك. هذا مهم بشكل خاص إذا كنت تقوم بإطلاق مشروع مفتوح المصدر لمجتمع أو شركة. وهناك مدونة لقواعد السلوك تمكنك من تيسير السلوك المجتمعي الصحي والبناء، الذي سيقلل من الإجهاد كمشرف. وهو ينقل كيف تتوقع من المشاركين أن يتصرفوا ويصف من تنطبق عليهم هذه التوقعات، وعندما يتقدمون بطلباتهم وما ينبغي أن يفعلوا في حالة حدوث انتهاك.
 
-Much like open source licences, there are also emerging standards for codes of conduct, so you do not have to write your own. The [Contributor Covenant](https://contributor-covenant.org/) is a drop-in Code of Conduct that is used by [over 40,000 open source projects](https://www.contributor-covenant.org/adopters). No matter which text you use, you should be prepared to enforce your Code of Conduct when necessary.
+مثل التراخيص المفتوحة المصدر، هناك أيضا معايير ناشئة لمدونات قواعد السلوك، لذلك لا يتوجب عليك كتابة رخصتك. [العهد الخاص بالمساهم](https://contributor-covenant.org/) هو مدونة قواعد سلوك غير مسبوقة يستخدمها [أكثر من 000 40 مشروع مفتوح المصدر](https://www.contributor-covenant.org/adopters). بغض النظر عن النص الذي تستخدمه، يجب أن تكون مستعدا لإنفاذ مدونة قواعد السلوك الخاصة بك عند الضرورة.
 
-Keep the file in your project's root directory, so it is easy to find, and link to it from your README.
+حافظ على الملف في الدليل الجذر للمشروع الخاص بك، لذلك من السهل العثور عليه، وربطه من README.
 
-(rr-open-source-contribute)=
-## How to Contribute to Other's Open Source Software Projects
+(r-open-source-contribute)=
+## كيفية المساهمة في مشاريع برمجيات المصدر المفتوح الأخرى
 
-(rr-open-source-contribute-anatomy)=
-### Anatomy of an Open Source Software Project
+(r-open-source-contribute-anatomy)=
+### تشريح مشروع برمجيات المصدر المفتوح
 
-Every open source community is different. That said, many open source software projects follow a similar organizational structure. Understanding the different community roles and the overall process will help you get quickly oriented to any new project.
+كل مجتمع مفتوح المصدر مختلف. ومع ذلك، فإن العديد من مشاريع برمجيات المصدر المفتوح تتبع هيكلا تنظيميا مماثلا. ففهم الأدوار المختلفة للمجتمع المحلي والعملية العامة سيساعدك على التوجُّه بسرعة نحو أي مشروع جديد.
 
-A typical open source software project has the following types of people:
+ويضم مشروع نموذجي للبرمجيات المفتوحة المصدر الأنواع التالية من الأشخاص:
 
-- _Author_: The person/s or organization that created the project.
-- _Owner_: The person/s who has administrative ownership over the organization or repository (not always the same as the original author).
-- _Maintainers_: Contributors who are responsible for driving the vision and managing the organizational aspects of the project. They may also be authors and/or owners of the project.
-- _Contributors_: Everyone who has contributed something back to the project.
-- _Community Members_: People who use the project. They might be active in conversations or express their opinion on the project's direction.
+- _الكاتب_: الشخص /s أو المنظمة التي أنشأت المشروع.
+- _المالك_: الشخص /s الذي يملك ملكية إدارية على المنظمة أو المستودع (ليس دائماً نفس المالك الأصلي).
+- _القائمين على الصيانة_: المساهمون المسؤولون عن قيادة الرؤية وإدارة الجوانب التنظيمية للمشروع. وقد يكونون أيضا مؤلفين و/أو مالكين للمشروع.
+- _المساهمون_: كل من ساهم بشيء ما في المشروع.
+- _أعضاء المجتمع_: الأشخاص الذين يستخدمون المشروع. وقد يكونون نشطين في المحادثات أو يعربون عن رأيهم في اتجاه المشروع.
 
-Bigger projects may also have subcommittees or working groups focused on different tasks, such as tooling, triage, community moderation, and event organizing. Look on a project’s website for a “team” page, or in the repository for governance documentation, to find this information.
+وقد يكون للمشاريع الكبرى أيضا لجان فرعية أو أفرقة عاملة تركز على مهام مختلفة مثل الأدوات والفرز والاعتدال المجتمعي وتنظيم المناسبات. انظر إلى موقع المشروع على شبكة الإنترنت لصفحة "الفريق"، أو في مستودع وثائق الحكم، للعثور على هذه المعلومات.
 
-A great many open source projects are hosted on GitHub (see the chapter on version control for more detail), which has facilities such as:
+يتم استضافة عدد كبير من المشاريع المفتوحة المصدر على GitHub (انظر الفصل الخاص بالتحكم في الإصدارات لمزيد من التفاصيل)، والتي تحتوي على تسهيلات مثل:
 
-- _Issue tracker_: Where people discuss issues related to the project.
-- _Pull requests_: Where people discuss and review changes that are in progress.
-- _Discussion forums or mailing lists_: Some projects may use these channels for conversational topics (for example, "How do I..." or "What do you think about..." instead of bug reports or feature requests). Others use the issue tracker for all conversations.
-- _Synchronous chat channel_: Some projects use chat channels (such as Slack or IRC) for casual conversation, collaboration, and quick exchanges.
+- _تعقب المشكلة_: حيث يناقش الناس المشكلات المتعلقة بالمشروع.
+- _طلبات السحب_: حيث يناقش الناس التغييرات التي هي قيد الاستعراض ومراجعتها.
+- _منتديات المناقشة أو القوائم البريدية_: بعض المشاريع قد تستخدم هذه القنوات لموضوعات المحادثة (على سبيل المثال، "كيف لي. " أو " ماذا تفكر فيه..." بدلاً من تقارير الأخطاء أو طلبات الميزات). ويستخدم آخرون تعقب القضايا لجميع المحادثات.
+- _قناة الدردشة المتزامنة_: بعض المشاريع تستخدم قنوات الدردشة (مثل Slack أو IRC) للمحادثات المؤقتة، والتعاون، والتبادل السريع.
 
-(rr-open-source-contribute-changes)=
-### Contribute Your Changes
+(بآلاف دولارات الولايات المتحدة)
+### ساهم بالتغييرات الخاصة بك
 
-Say you have added a feature or fixed a bug and want to contribute this work to the main project.
+قل أنك قمت بإضافة ميزة أو إصلاح خطأ وترغب في المساهمة بهذا العمل في المشروع الرئيسي.
 
-1. _Read the documentation_: The main project may have contributing guidelines or information in a README instructing prospective contributors on how to supply their changes.
-2. _Make sure your conventions match the style and structure of the main project_: For example, if all the variables in a project are named in some particular way yours should be too. Consistent conventions make it much easier for someone who has not seen your piece of the project before to understand it rather than having to figure out your particular set of conventions *and* what the code is doing. The project's conventions may be outlined in its documentation, or may just be evident from inspection of the code itself.
-3. _Break your changes up into manageable, well-defined chunks_: For example, if you have added two separate features, do not submit them together. Keeping things "clean" in this way makes your work simpler to understand and review.
-4. _Test your changes_: If the project comes with tests, run them. Make sure you are testing against an up to date version of the project as it may have evolved considerably over time. Write specific tests for your changes and submit those too.
-5. _Do not just submit code, update relevant documentation too_: If your changes are incorporated, it will have to be updated. If you do not do it, someone else will have to.
-6. _Ask questions_: If there are things you are unsure about, there is no harm in asking. Many larger projects have dedicated forums or other venues for questions and discussion.
-7. _Be clear_: When you submit your changes, clearly describe the changes you have made, why you have made them, and how they have been implemented. This makes it as easier for someone looking at your work and deciding whether to incorporate it into the main project to do so. In the likely case the main project is hosted on GitHub, you should put this in the pull request (see the chapter {ref}`rr-vcs` for more details).
+1. _اقرأ الوثائق_: المشروع الرئيسي قد يكون لديه إرشادات أو معلومات مساهمة في README لتوجيه المساهمين المحتملين حول كيفية توفير التغييرات الخاصة بهم.
+2. _تأكد من أن الاتفاقيات الخاصة بك تتطابق مع نمط وبنية المشروع الرئيسي_: على سبيل المثال، إذا كانت جميع المتغيرات في مشروع ما تسمى بطريقة معينة ينبغي أن تكون لك أيضا. الاتفاقيات المتسقة تجعل من الأسهل لشخص لم ير قطعتك من المشروع من قبل فهمها بدلاً من أن تضطر إلى معرفة مجموعتك الخاصة من الاتفاقيات *و* ما تفعله التعليمات البرمجية. ويمكن إيجاز اتفاقيات المشروع في وثائقه أو يمكن أن تكون واضحة من خلال تفتيش الرمز نفسه.
+3. _كسر التغييرات الخاصة بك إلى أجزاء يمكن التحكم بها ومحددة جيدا_: على سبيل المثال، إذا كنت قد أضفت ميزتين منفصلتين، لا تقم بإرسالها معا. الحفاظ على الأشياء "النظيفة" بهذه الطريقة يجعل عملك أبسط لفهم ومراجعة.
+4. _اختبر تغييراتك_: إذا جاء المشروع مع الاختبارات، قم بتشغيلها. تأكد من أنك تقوم بالاختبار مقابل إصدار حديث للمشروع كما أنه قد يكون تطور بشكل كبير بمرور الوقت. اكتب اختبارات محددة للتغييرات الخاصة بك و قم بتقديمها أيضا.
+5. _لا تقدم الكود فقط، قم بتحديث الوثائق ذات الصلة أيضا_: إذا تم دمج التغييرات الخاصة بك، فسيتعين تحديثها. وإذا لم تقم بذلك، فسيتعين على شخص آخر أن يفعل ذلك.
+6. _اسأل الأسئلة_: إذا كانت هناك أشياء غير متأكدة منها، ليس هناك ضرر في السؤال. وهناك العديد من المشاريع الكبيرة التي تكرس محافل أو أماكن أخرى للأسئلة والمناقشات.
+7. _كن واضحاً_: عند إرسال التغييرات الخاصة بك، وصف بوضوح التغييرات التي أجريتموها، ولماذا أجريتها، وكيف تم تنفيذها. هذا يجعل من الأسهل لشخص ما أن ينظر إلى عملك ويقرر ما إذا كان يجب إدماجه في المشروع الرئيسي للقيام بذلك. وفي الحالة التي يحتمل أن يكون المشروع الرئيسي مستضيفاً في جيتهوب، يجب عليك وضع هذا في طلب السحب (أنظر الفصل {ref}`rr-vcs` لمزيد من التفاصيل).
 
-(rr-open-source-contribute-looking)=
-### Looking for Projects to Contribute to and How to Contribute to Them
+(r-open-source-look te-contribuking)=
+### البحث عن مشاريع للمساهمة فيها وكيفية المساهمة فيها
 
-You do not need to overthink what exactly your first contribution will be, or how it will look. Instead, start by thinking about the projects you already use or want to use. The projects you will actively contribute to are the ones you find yourself coming back to. Within those projects, whenever you catch yourself thinking that something could be better or different, act on your instinct. You might scan a README and find a broken link or a typo. Alternatively, you could be a new user and notice something is broken, or find an issue that you think should be in the documentation. Instead of ignoring it and moving on, or asking someone else to fix it, see whether you can help out by pitching in. That is what open source is all about.
+ولست بحاجة إلى المبالغة في التفكير في ما ستكون عليه مساهمتك الأولى بالضبط، أو كيف ستبدو هذه المساهمة. بدلاً من ذلك، ابدأ بالتفكير في المشاريع التي تستخدمها بالفعل أو تريد استخدامها. المشاريع التي ستساهم بها بنشاط هي المشاريع التي تجد نفسك ستعود إليها. في إطار تلك المشاريع، كلما كنت تلتقط نفسك تفكيرا بأن شيئا ما يمكن أن يكون أفضل أو مختلفا، تتصرف على غريزتك. قد تقوم بفحص README وتعثر على رابط مكسور أو طابعي. بدلاً من ذلك، يمكنك أن تكون مستعملاً جديداً وأن تلاحظ أن شيئاً ما معطل، أو أن تجد مشكلة تعتقد أنه ينبغي أن تكون في الوثائق. بدلاً من تجاهله والمضي قدماً، أو مطالبة شخص آخر بإصلاحه، انظر ما إذا كان يمكنك المساعدة عن طريق الإمساك. وهذا هو كل ما يدور حوله المصدر المفتوح.
 
-You can also use one of the following resources to help you discover and contribute to new projects:
+يمكنك أيضًا استخدام أحد المصادر التالية لمساعدتك على اكتشاف المشاريع الجديدة والمساهمة فيها:
 
-- [Open Source Friday](https://opensourcefriday.com/)
-- [First Timers Only](https://www.firsttimersonly.com/)
-- [CodeTriage](https://www.codetriage.com/)
+- [الجمعة مفتوحة المصدر](https://opensourcefriday.com/)
+- [الموقّعات الأولى فقط](https://www.firsttimersonly.com/)
+- [الكودتريج](https://www.codetriage.com/)
 
-If you are not sure how to start, there are a few other ways you can go about it, such as finding an open issue to tackle or asking if you can help write a new feature.
+إذا لم تكن متأكداً من كيفية البدء، فهناك بعض الطرق الأخرى التي يمكنك أن تدور حولها، مثل العثور على مشكلة مفتوحة للمعالجة أو السؤال عما إذا كان بإمكانك المساعدة في كتابة ميزة جديدة.
 
-A common misconception about contributing to open source is that you need to contribute code. In fact, it is often the other parts of a project that are most neglected or overlooked. You will do the project a huge favour by offering to pitch in with these types of contributions. You could:
+من المفاهيم الخاطئة الشائعة عن المساهمة في المصدر المفتوح هو أنك بحاجة إلى المساهمة في التعليمات البرمجية. والواقع أن الأجزاء الأخرى من المشروع هي التي غالبا ما تكون أهملت أو أغفلت أكثر من غيرها. سوف تقوم بعمل المشروع لصالح كبير من خلال عرض التلاعب بهذه الأنواع من المساهمات. يمكنك:
 
-- Review code on other people's submissions.
-- Write and improve the project's documentation.
-- Curate a folder of examples showing how the project is used.
-- Answer questions about the project on, for example, Stack Overflow,
-- Keep things organized, for example, on GitHub by:
-    - Linking to duplicate issues.
-    - Suggesting new issue labels.
-    - Going through open issues and suggesting closing old ones.
-    - Ask clarifying questions on recently opened issues to move the discussion forward.
+- إعادة النظر في التعليمات المقدمة من أشخاص آخرين.
+- كتابة وتحسين وثائق المشروع.
+- قم برسم مجلد من الأمثلة يبين كيفية استخدام المشروع.
+- أجب على أسئلة حول المشروع على سبيل المثال عن تكدس التدفق،
+- الحفاظ على الأشياء المنظمة على سبيل المثال في GitHub بواسطة:
+    - الربط مع تكرار المشكلات.
+    - اقتراح تسميات مشكلة جديدة.
+    - الانتقال إلى المشكلات المفتوحة واقتراح إغلاق المشكلات القديمة.
+    - طرح أسئلة توضيحية بشأن القضايا التي فتحت في الآونة الأخيرة لدفع المناقشة إلى الأمام.
 
-(rr-open-source-closed)=
-## Closed Software
+(r-open-source-مغلقة)=
+## برنامج مغلق
 
-What if you are working with people that do not use the open source model for their software? This may initially seem an affront to all the principles discussed so far. However, there are usually very good reasons for why things are the way they are (for example legal, commercial, or security reasons). Often, it will still be possible to use and contribute, but the details of how might be different. The kinds of practices used in 'closed' software are generally the same, and the concepts and tools you can learn about in the Turing Way still apply.
+ماذا لو كنت تعمل مع أشخاص لا يستخدمون نموذج المصدر المفتوح لبرامجهم؟ وقد يبدو ذلك في البداية إهانة لجميع المبادئ التي نوقشت حتى الآن. غير أنه توجد في العادة أسباب وجيهة جدا وراء كون الأشياء هي الطريقة التي تكون بها (مثل الأسباب القانونية أو التجارية أو الأمنية). وفي كثير من الأحيان، سيظل من الممكن الاستخدام والإسهام، ولكن تفاصيل كيف يمكن أن تكون مختلفة. وأنواع الممارسات المستخدمة في البرمجيات ”المغلقة“ هي نفسها عموما، والمفاهيم والأدوات التي يمكنك تعلمها في طريق تورينج لا تزال تطبق.
 
-Sometimes, however, there might not be good reasons for the closed source approach. Different areas of research have different cultures which run against the grain of open principles and feel very frustrating. Tackling this barrier can be very tricky as cultures can take years or decades to change.
+غير أنه قد لا تكون هناك في بعض الأحيان أسباب وجيهة لنهج المصدر المغلق. ولمختلف مجالات البحث ثقافات مختلفة تتعارض مع المبادئ المفتوحة وتشعر بالإحباط الشديد. والتصدي لهذا الحاجز يمكن أن يكون صعبا جدا لأن الثقافات قد تستغرق سنوات أو عقودا لكي تتغير.
 
-Working with closed software can offer both opportunities and threats to your research. In all cases, understanding and respecting other's perspectives offers the greatest chances of success.
+العمل مع البرمجيات المغلقة يمكن أن يوفر فرصاً وتهديدات لبحثك. وفي جميع الحالات، يتيح فهم وجهات نظر الآخرين واحترامها أكبر فرص النجاح.

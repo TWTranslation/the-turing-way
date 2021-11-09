@@ -1,25 +1,25 @@
-(glossary)=
+(مسرد)=
 # Glossary
 
-## A
+## أ
 
 ```{glossary}
 
 قبول اختبار
  مستوى من عملية اختبار البرمجيات حيث يتم اختبار نظام للتحقق من مقبوليته. والغرض من هذا الاختبار هو تقييم مدى امتثال النظام لمتطلبات المشروع وتقدير ما إذا كان مقبولا لهذا الغرض.
 
-Acknowledgements
- Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
+يشكر
+ حيث يتم كتابة المساهمات في مشروع لا تؤهل كمؤلف. وهو يسجل اسم المساهمين وما قدموه من مساهمات.
 
-Add
- Command used to add files to the staging area. يسمح للمستخدم بتحديد أي الملفات أو الدلائل لتضمينها في الالتزام التالي.
+إضافة أمر
+ مستخدم لإضافة ملفات إلى منطقة التجهيز. يسمح للمستخدم بتحديد أي الملفات أو الدلائل لتضمينها في الالتزام التالي.
 
-Authors
-  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. ويشارك جميع المؤلفين في تأليف الكتاب ككل.
+المؤلفون
+  المؤلفون في هذا السياق هم المساهمون في مشروع -The Turing Way_ الذين قدموا مساهمة كبيرة في المشروع مثل كتابة فصل فرعي، تيسير التفاعلات المجتمعية، وصيانة البنية الأساسية للمشروع ودعم مشاركة الآخرين من خلال المساهمات الإرشادية. ويشارك جميع المؤلفين في تأليف الكتاب ككل.
 ```
 ---
 
-## B
+## ب
 
 ```{glossary}
 
@@ -27,10 +27,10 @@ Binder
   خدمة قائمة على الويب تسمح للمستخدمين بتحميل ومشاركة الإصدارات الكاملة التشغيل لمشاريعهم في بيئة يحددونها.
 
 
-  Binderhub خدمة تولد الباندرز. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+  Binderhub خدمة تولد الباندرز. وأكثر ما يستعمل هو mybinder.org، الذي يديره فريق بيندر. من الممكن إنشاء BinderHubs الأخرى التي يمكن أن تدعم تشكيلات أكثر تخصصاً. ويمكن أن يشمل أحد هذه التشكيلات المصادقة لتمكين المستودعات الخاصة من تقاسمها فيما بين المتعاونين الوثيقين.
 
-Binderize
-  To make a Binder of a project.
+تثبيت
+  لصنع بندر للمشروع.
 
 الفرع
   نسخة موازية من المستودع. على الرغم من أنه موجود داخل نفس المستودع فإنه يسمح لك بتطويره بشكل منفصل ثم دمج التغييرات مرة أخرى في المستودع "المباشر" أو مع فروع أخرى عند الاقتضاء.
@@ -50,41 +50,41 @@ Binderize
 قم بالخروج
   أمر Git للتبديل إلى ملف معين أو فرع أو إلتزام. يسمح لك بتفعيل الإصدارات القديمة من الملفات أو الإلتزامات أو التبديل بين الفروع النشطة.
 
-Citizen Science
-  The inclusion of members of the public in scientific research.
+علم المواطن
+  إدراج أفراد الجمهور في البحث العلمي.
 
 استنساخ
-  نسخ من مستودع Git الموجود، عادة من بعض المواقع البعيدة إلى بيئتك المحلية. When you clone a repo you copy its entire history as well as all branches.
+  نسخ من مستودع Git الموجود، عادة من بعض المواقع البعيدة إلى بيئتك المحلية. عند استنساخ مستودع تقوم بنسخ تاريخه بأكمله وكذلك جميع الفروع.
 
 كود تغطية
   مقياس يصف كمية التعليمات البرمجية المصدر التي تمارسها مجموعة الاختبار.
 
-Code of Conduct
-  Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
+مدونة قواعد السلوك
+  المبادئ التوجيهية التي تحدد نوع السلوك المشجع في المجتمع، • تحديد العملية التي سيتم بها التصدي للمشاكل أو انتهاكات المبادئ التوجيهية وتحديد الجهة المسؤولة عن إنفاذها.
 
 مراجعة التعليمات البرمجية
-  طريقة إضافية لاختبار جودة التعليمات البرمجية. مراجعة التعليمات البرمجية تحصل على مبرمج آخر للبحث عن التعليمات البرمجية الجديدة وتقييمها. The goal is to point out strengths and also potential areas of improvement.
+  طريقة إضافية لاختبار جودة التعليمات البرمجية. مراجعة التعليمات البرمجية تحصل على مبرمج آخر للبحث عن التعليمات البرمجية الجديدة وتقييمها. والهدف من ذلك هو الإشارة إلى مواطن القوة وكذلك إلى مجالات التحسين المحتملة.
 
-Coercive authorship
-  When a senior researcher forces a junior researcher to include a gift or guest author.
+المؤلف القسري
+  عندما يجبر أحد الباحثين الأقدم الباحث المبتدئ على تضمين مؤلف الهدية أو الضيوف.
 
 ارتكاب
-  لقطة لسجل المشروع. A commit can be made after changes of a single file or a range of files and directories.
+  لقطة لسجل المشروع. يمكن الالتزام بعد تغيير ملف واحد أو مجموعة من الملفات والدلالات.
 
-Commit Message
-  A message the user can attach to a commit to explain what it contains.
+ارسل رسالة
+  رسالة يمكن للمستخدم إرفاقها بالتزام لشرح ما تحتويه.
 
 قناة الاتصال
   طريقة الاتصال التي تم إنشاؤها للمشاريع التي قد تشمل القوائم البريدية، والمنتديات المجتمعية، والمحادثات، و/أو وسائل الإعلام الاجتماعية.
 
-Community Member
-  People who use the project. They might be active in conversations or express their opinion on the project’s direction.
+عضو المجتمع
+  الأشخاص الذين يستخدمون المشروع. وقد يكونون نشطين في المحادثات أو يعربون عن رأيهم في اتجاه المشروع.
 
-Computational Environment
-  Features of a computer which can impact the behaviour of work done on it, such as its operating system, what software it has installed, and what versions of software packages are installed.
+البيئة الحسابية
+  خصائص الكمبيوتر التي يمكن أن تؤثر على سلوك العمل المنجز فيها، مثل نظام التشغيل الخاص بها، والبرمجيات التي تم تركيبها، وما هي إصدارات مجموعات البرمجيات التي تم تركيبها.
 
 Conda
-  A commonly used package management system.
+  نظام إدارة الحزمة الشائع الاستخدام.
 
 مؤلف الكونسورتيا
  نموذج مؤلف جماعي أو مجموعة مجتمعية. وجميع أعضاء الاتحاد يعتبرون مؤلفين وعادة ما يتعين إدراجهم في المقال المنشور، رغم أن المقال ينشر أحيانا باسم المجموعات. وإذا لم يتفق جميع أعضاء الاتحاد على مسؤوليات المؤلف، أما الأعضاء الذين قدموا المشروع فستدرج أسماؤهم بمعزل عن الأعضاء الذين لم يقدموا. 
@@ -99,19 +99,19 @@ Conda
   ينشر تلقائياً في كل مرة يتم فيها تغيير التعليمات البرمجية.
 
 الدمج المستمر
-  هي ممارسة دمج التغييرات على المشروع الذي يقوم به الأفراد في الأساس، الإصدار المشترك بشكل متكرر (عادة عدة مرات في اليوم). Also called CI.
+  هي ممارسة دمج التغييرات على المشروع الذي يقوم به الأفراد في الأساس، الإصدار المشترك بشكل متكرر (عادة عدة مرات في اليوم). يسمى أيضا CI.
 
-Contributing Guidelines
-  Guidelines outlining how a person should go about contributing to an open source project.
+المبادئ التوجيهية المساهمة
+  التي تحدد كيفية مساهمة الشخص في مشروع مفتوح المصدر.
 
 المساهمون
   كل من ساهم بشيء ما في المشروع. وهم أعضاء في مشروع بحثي أنجز بعض العمل الذي أسهم في إنجاز البحث بشكل عام. ويمكن أن يكون ذلك مساهمة صغيرة مثل إصلاح خطأ في البرمجيات أو مساهمة أكبر بكثير مثل كتابة مقالة أكاديمية. 
 
 المؤلف المناظر
- الشخص الذي يدير مقالة أكاديمية لمجموعة البحوث. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
+ الشخص الذي يدير مقالة أكاديمية لمجموعة البحوث. وهم مسؤولون عن تلقي تعليقات المستعرِضين وإثباتهم، وتطبع تفاصيلها على النسخة النهائية من المقالة المنشورة.
 
-CRediT Taxonomy
- The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. وتصف الأدوار المساهمة المحددة لكل مساهم في الناتج العلمي. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
+CRediT تصنيف
+ تصنيف CRediT هو تصنيف رفيع المستوى، بما في ذلك 14 دور، ويمكن استخدامها لتمثيل الأدوار التي يقوم بها عادة المساهمون في المخرجات العلمية العلمية. وتصف الأدوار المساهمة المحددة لكل مساهم في الناتج العلمي. وتتزايد الحاجة إلى هذه التفاصيل في الصحف وفي أوساط المؤلفين الذين يستوفون معايير المؤلفين.
 
 ```
 ---
@@ -120,11 +120,11 @@ CRediT Taxonomy
 
 ```{glossary}
 
-Data repository
-  See repository.
+مستودع البيانات
+  شاهد المستودع.
 
 DMP
-  Data management plan.
+  خطة إدارة البيانات.
 
 حاوية Docker
   بيئة حسابية نشطة منفذة من صورة Docker.
@@ -136,10 +136,10 @@ Dockerfile
   مجموعة من التعليمات التي يمكن قراءتها آليا لإنشاء بيئة حسابية محددة.
 
 سجل Docker
-  نظام تخزين وتوزيع لصور Docker. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). وكثيراً ما تستضيف هذه النظم في السحابة لتيسير الوصول إليها.
+  نظام تخزين وتوزيع لصور Docker. ويسمح السجل لمستخدمي دوكر بسحب الصور محلياً، فضلاً عن دفع صور جديدة إلى السجل (منح أذونات الوصول الكافية عند الاقتضاء). وكثيراً ما تستضيف هذه النظم في السحابة لتيسير الوصول إليها.
 
 معرف الكائن الرقمي
-  معرف الكائن الرقمي (DOI) هو معرف ثابت أو معالج يستخدم لتحديد الكائنات بشكل فريد، () قامت المنظمة الدولية لتوحيد المقاييس بتوحيدها. ويستخدم تنفيذ نظام إدارة المعلومات على نطاق واسع في تحديد الأكاديميين والمهنيين في المقام الأول. • المعلومات الحكومية، مثل المقالات الصحفية، وتقارير البحوث، ومجموعات البيانات، والمنشورات الرسمية. However, they also have been used to identify other types of information resources, such as commercial videos.
+  معرف الكائن الرقمي (DOI) هو معرف ثابت أو معالج يستخدم لتحديد الكائنات بشكل فريد، () قامت المنظمة الدولية لتوحيد المقاييس بتوحيدها. ويستخدم تنفيذ نظام إدارة المعلومات على نطاق واسع في تحديد الأكاديميين والمهنيين في المقام الأول. • المعلومات الحكومية، مثل المقالات الصحفية، وتقارير البحوث، ومجموعات البيانات، والمنشورات الرسمية. بيد أنها استخدمت أيضا لتحديد أنواع أخرى من موارد المعلومات، مثل أشرطة الفيديو التجارية.
 ```
 ---
 ## ه
@@ -149,229 +149,229 @@ Dockerfile
 الممارسات العادلة والمتنوعة والشاملة
   ضمان الحصول على منح دراسية مفتوحة لأي شخص لا توجد حواجز قائمة على عوامل مثل العرق والخلفية ونوع الجنس والميل الجنسي.
 
-End to End Test
-  A test that runs the program from beginning to end and verifies that the output is correct.
+إنهاء إنهاء اختبار
+  اختبار تشغيل البرنامج من البداية إلى النهاية والتحقق من أن الإخراج صحيح.
 
 ```
 ---
-## F
+## ف
 
 ```{glossary}
 
 FIR
   قابل للإيجاد، ويمكن الوصول إليه، ويمكن تشغيله، ويمكن إعادة استخدامه.
 
-First author
- The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research. 
+المؤلف الأول
+ المركز الأبرز في المؤلف الأكاديمي. وهو يعبر عن موقف هذا الشخص كباحث قدم أكبر مساهمة في البحوث. 
 
 ```
 ---
-## G
+## ج
 
 ```{glossary}
-Generalisable
-  Combining replicable and robust findings allow us to form generalisable results. Note that running an analysis on a different software implementation and with a different dataset does not provide generalised results. There will be many more steps to know how well the work applies to all the different aspects of the research question. Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
+
+  يمكن التعميم للجمع بين النتائج القابلة للتكرار والقوية يسمح لنا بتشكيل نتائج قابلة للتعميم. لاحظ أن إجراء تحليل لتنفيذ برامجيات مختلفة مع مجموعة بيانات مختلفة لا يوفر نتائج معممة. وستكون هناك خطوات أخرى كثيرة لمعرفة مدى انطباق العمل على جميع الجوانب المختلفة لمسألة البحوث. ويشكل التعميم خطوة هامة نحو فهم أن النتيجة لا تتوقف على مجموعة بيانات معينة ولا على نسخة معينة من خط التحليل.
 
 Git
-  Version control system that GitHub is built around. It is a widely used open source distributed version control system developed by the author of Linux.
+  نظام التحكم في الإصدار الذي تم بناؤه في GitHub . وهو نظام لمراقبة النسخ موزع على نطاق واسع ومفتوح المصدر استحدثه مؤلف لينوكس.
 
 Github
-  An online code hosting and version control service. It has a great many features to aid collaboration between users, and hosts a large number of open source projects.
+  خدمة استضافة التعليمات البرمجية عبر الإنترنت والتحكم في الإصدار. وهي تنطوي على الكثير من السمات للمساعدة في التعاون بين المستخدمين، وتستضيف عددا كبيرا من المشاريع المفتوحة المصدر.
 
 GitLab
-  GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
+  GitLab هو أداة دورة حياة DevOps على شبكة الإنترنت والتي توفر مدير مستودع Git-repository الذي يوفر ويكي، • تتبع المسائل ومواصلات خطوط الأنابيب للتكامل والنشر، باستخدام ترخيص مفتوح المصدر وضعته شركة GitLab Inc.
 
-Ghost author
- It is a person who writes an academic article without having carried out the research. It could be a professional writer. They would often not qualify as an author under the ICMJE criteria for authorship.
+مؤلف الشبح
+ هو الشخص الذي يكتب مقالة أكاديمية دون أن يكون قد أجرى البحث. يمكن أن يكون كاتب محترف. وكثيراً ما لا يكونون مؤهلين لأن يكونوا مؤلفين بموجب معايير اللجنة الدولية للعلم والعدالة فيما يتعلق بالمؤلف.
 
-Gift author
- People who are listed as authors but who did not make significant contributions to the research. This is also known as a guest author.
+مؤلف الهدايا
+ أشخاص مدرجون كمؤلفين لكنهم لم يقدموا مساهمات كبيرة في البحث. وهذا يُعرف أيضًا باسم ضيف مؤلف.
 
-Group authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as shared authorship.
+مؤلف المجموعة
+ بعض المجلات تسمح باستخدام أسماء المجموعات ولكن العديد منها يتطلب إدراج المساهمين و/أو تسمية مجموعة الكتابة. وهذا هو نفس ما قام به المؤلف المشترك.
 
-Guarantor
- As well as fulfilling criteria for being a named author, some journals require one or more authors that take responsibility for the integrity of the work as a whole from inception to the published article.
+الضامن
+ بالإضافة إلى استيفاء المعايير لكونه مؤلفاً بالاسم، وتتطلب بعض المجلات مؤلفاً واحداً أو أكثر من المؤلفين الذين يتحملون المسؤولية عن نزاهة العمل ككل منذ بدايته وحتى صدور المقالة المنشورة.
 ```
 ---
-## H
+## خ
 
 ```{glossary}
-Head
-  The latest commit on the branch which is currently checked out.
+رأس
+  آخر إلتزامات على الفرع الذي يتم إخراجه حاليا.
 
-Helm
-  A package manager for Kubernetes applications.
+مرحبا
+  مدير حزمة لتطبيقات كوبرنيتس.
 
-Honorary authorship
- This is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
+المؤلف الفخري
+ هذا هو عندما يصبح الفرد مؤلفاً بالاسم على الرغم من أنه لم يقدم مساهمة كبيرة و/أو يستوفي معايير المؤلف.
 
-Human Readable
-  A human readable medium or human readable format is any encoding of data or information that can be naturally read by humans. Some human readable formats, such as PDF, are not machine readable as they are not structured data, such as the representation of the data on disk does not represent the actual relationships present in the data.
+
+  مقروء للإنسان هو أي تنسيق مقروء للإنسان أو مقروء للإنسان هو أي ترميز للبيانات أو المعلومات التي يمكن أن يقرأها البشر بشكل طبيعي. وبعض الصيغ التي يمكن قراءتها بشرية، مثل قوات الدفاع الشعبي، ليست مقروءة آليا لأنها ليست بيانات منظمة. ولا يمثل عرض البيانات على القرص العلاقات الفعلية الموجودة في البيانات.
 ```
 ---
-## I
-
-```{glossary}
-
-Image
-  Files used for generating containers.
-
-Integration Testing
-  A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
-
-Issues
-  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
-
-Issue Tracking
-  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
-```
----
-## J
+## ص
 
 ```{glossary}
 
-Job
-  An automated process that clones your repository into a virtual environment and then carries out a series of phases such as compiling your code and running tests. A job fails if the return code of the script encounters an error.
+صور
+  الملفات المستخدمة لتوليد الحاويات.
 
-JupyterHub
-  A multi-user server for Jupyter Notebook instances.
+اختبار التكامل
+  مستوى اختبار البرامج حيث يتم دمج الوحدات الفردية واختبارها كمجموعة. والغرض من هذا المستوى من الاختبار هو كشف الأخطاء في التفاعل بين الوحدات المتكاملة.
+
+مشكلات
+  نظام تتبع الأخطاء لـ GitHub. يمكن للمتعاونين استخدام المشكلات للإبلاغ عن الأخطاء أو طلب الميزات أو تعيين معالم للمشاريع. ويقوم المتعاونون بتتبع القضايا والإبلاغ عنها وإغلاقها خلال عملية التنمية. إنها طريقة رائعة للتواصل مع فريقك والإبلاغ عن التقدم المحرز.
+
+تتبع المشكلة
+  عملية تتبع المشكلات الحالية في المشروع، مثل إصلاح الأخطاء، نشر ميزات جديدة أو خطط مشاركة المجتمع.
 ```
 ---
-## K
+## ياء
 
 ```{glossary}
 
-Kubernetes
-  Autonomous computational cluster manager.
+المهمة
+  عملية آلية تستنسخ مستودعك إلى بيئة افتراضية ثم تنفذ سلسلة من المراحل مثل تجميع التعليمات البرمجية الخاصة بك وتشغيل الاختبارات. فشلت الوظيفة إذا واجهت خطأ رمز العودة للنص البرمجي.
+
+
+  JupyterHub خادم متعدد المستخدمين لملاحظات المشتري.
 ```
 ---
-## L
+## ك
 
 ```{glossary}
 
-License
-  This is a legal document that sets out the permissions for creative and academic work. It explains copyright, ensures proper attribution and sets out how others can copy, distribute and make use of the works.
 
-Last author
- Usually the person in the research team with a supervisory role such as a PhD supervisor or Principal investigator. This is discipline dependent as sometimes the last author is the person that has made the smallest contribution to the research.
+  كوبيرنيتس مدير مجمّع حاسوبي مستقل.
 ```
 ---
-## M
+## ل
 
 ```{glossary}
 
-Machine Readable
-  Machine readable refers to documents, data or other digital outputs whose content can be readily processed by computers. Such documents are distinguished from machine readable data by virtue of having sufficient structure to provide the necessary context to support the business processes for which they are created. Machine readable data can be defined as data in a format that can be easily processed by a computer without human intervention while ensuring no semantic meaning is lost.
+الترخيص
+  هذا مستند قانوني يحدد الصلاحيات للعمل الإبداعي والأكاديمي. وهو يشرح حقوق التأليف والنشر، ويكفل الإسناد الصحيح ويحدد كيف يمكن للآخرين نسخ الأعمال وتوزيعها واستخدامها.
 
-Main
-  The repository’s main branch. Depending on the workflow, it is the one people work on or the one where the integration happens. This used to be called ‘Master’ in Github.
+المؤلف الأخير
+ عادة شخص في فريق البحث له دور إشرافي مثل مشرف الدكتوراه أو محقق رئيسي. وهذا يتوقف على الانضباط حيث أن آخر مؤلف هو في بعض الأحيان الشخص الذي قدم أصغر مساهمة في البحوث.
+```
+---
+## م
 
-Maintainers
-  Contributors who are responsible for driving the vision and managing the organizational aspects of the project. They may also be authors and/or owners of the project.
+```{glossary}
+
+
+  مقروءة آلياً تشير إلى المستندات أو البيانات أو النواتج الرقمية الأخرى التي يمكن معالجة محتواها بسهولة بواسطة الحواسيب. وتميز هذه الوثائق عن البيانات المقروءة آليا بحكم وجود هيكل كاف لتوفير السياق اللازم لدعم العمليات التجارية التي تنشأ من أجلها. ويمكن تعريف البيانات المقروءة آليا بأنها بيانات في شكل يمكن معالجتها بسهولة بواسطة حاسوب دون تدخل بشري مع ضمان عدم فقدان أي معنى دلالي.
+
+الرئيسية
+  الفرع الرئيسي للمستودع. اعتمادا على سير العمل، هو الشخص الوحيد الذي يعمل عليه أو الشخص الذي يحدث فيه الدمج. كان هذا يسمى "ماجستير" في جيثوب.
+
+صيانة
+  المساهمين الذين هم مسؤولون عن قيادة الرؤية وإدارة الجوانب التنظيمية للمشروع. وقد يكونون أيضا مؤلفين و/أو مالكين للمشروع.
 
 Makefile
-  A text file that contains the configuration for the build.
+  ملف نصي يحتوي على تكوين البناء.
 
-Merge
-  The process of combining branches. Changes made on one or more branches are applied to another.
+دمج
+  عملية الجمع بين الفروع. وتطبق التغييرات التي تجرى على أحد الفروع أو أكثر على فروع أخرى.
 
-Merge Conflict
-  Incompatibilities between branches being merged.
+دمج التنازع
+  عدم التوافق بين الفروع يتم دمجها.
 
-Metadata
-  Data used to describe other data. For example (35, 33, 27, 30, 33) is data but the units (miles per hour) and the fact these are the speeds of cars on a certain stretch of road is metadata.
+بيانات التعريف
+  البيانات المستخدمة لوصف البيانات الأخرى. على سبيل المثال (35, 33, 27, 30, 33) هي بيانات ولكن الوحدات (بالأميال في الساعة) وحقيقة أن هذه هي سرعات السيارات على امتداد طريق معين هي بيانات فكية.
 
-Mock Test
-  Replace a real object with a pretend one to use when running tests.
+الاختبار الوهمي
+  استبدل كائن حقيقي بكائن متظاهر لاستخدامه عند تشغيل الاختبارات.
 ```
 ---
-## N
+## ن
 
 ```{glossary}
 
 ```
 ---
-## O
+## ع
 
 ```{glossary}
 
-Open Access
-  Making all published outputs freely accessible for maximum use and impact.
+فتح الوصول
+  جعل جميع النواتج المنشورة متاحة مجانا لأقصى قدر من الاستخدام والتأثير.
 
-Open Access publishing (gratis)
-  The practice of making research publications available to anyone to read without charge.
+فتح النشر (العمومي)
+  ممارسة جعل المنشورات البحثية متاحة لأي شخص للقراءة بدون رسوم.
 
-Open Access Publishing (libre)
-  Libre open access is gratis, meaning the research is available free of charge, but it goes further by granting users the right to copy, reuse, and remix the publication.
+النشر المفتوح (libre)
+  الوصول الحر المفتوح مجاناً، بمعنى أن البحث متاح مجاناً، ولكنه يذهب أبعد من ذلك بمنح المستخدمين الحق في نسخ وإعادة استخدام وإعادة تعديل المنشور.
 
-Open data
-  Documenting and sharing research data openly for re-use.
+فتح البيانات
+  توثيق ومشاركة بيانات البحث علنا لإعادة الاستخدام.
 
-Open Educational Resources
-  Making educational resources publicly available to be re-used and modified.
+الموارد التعليمية المفتوحة
+  جعل الموارد التعليمية متاحة للجمهور لإعادة استخدامها وتعديلها.
 
-Open Source Hardware
-  Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
+معدات المصدر المفتوح
+  توثيق التصاميم والمواد وغيرها من المعلومات ذات الصلة بالمعدات، وجعلها متاحة ومتاحة مجانا.
 
-Open License
-  A license is a document that specifies what can and cannot be done with a work. It grants permissions and states restrictions. Broadly speaking, an open license is one that grants permission to access, re-use and redistribute a work with few or no restrictions.
+الترخيص المفتوح
+  الترخيص هو مستند يحدد ما يمكن أو لا يمكن القيام به من خلال العمل. وهي تمنح الأذونات وتقييدات الولايات. وبصفة عامة، فإن الترخيص المفتوح هو الترخيص الذي يمنح الإذن بالوصول إلى العمل وإعادة استخدامه وإعادة توزيعه مع قيود قليلة أو معدومة.
 
-Open Notebooks
-  An emerging practice, documenting and sharing the experimental process of trial and error.
+فتح ملاحظات
+  ممارسة ناشئة، وتوثيق ومشاركة العملية التجريبية والتجريبية والخطأ.
 
-Open Scholarship
-  This is a concept that extends open research further. It relates to making other aspects of scientific research open to the public such as open educational resources, having inclusive practice and citizen science.
+المنحة الدراسية المفتوحة
+  هذا المفهوم الذي يوسع البحث المفتوح أكثر. وهي تتعلق بجعل جوانب أخرى من البحث العلمي مفتوحة للجمهور مثل الموارد التعليمية المفتوحة، والممارسة الشاملة للجميع وعلم المواطنين.
 
-Open Project
-  *Same as Open Science or Open Research Projects*. A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
+فتح المشروع
+  *نفس مشاريع العلوم المفتوحة أو البحث المفتوح*. • مشروع يجري فيه قدر كبير من التعاون بين الفريق الأساسي أو فريق القيادة والمجتمع المحلي الأوسع نطاقا في شكل تفاعلات على الإنترنت. وينبغي أن تحافظ التفاعلات المجتمعية على الشفافية والانفتاح في المشروع لتيسير نمو مجتمعك.
 
-Open Source Software
-  Documenting research code and routines, and making them freely accessible and available.
+البرمجيات المفتوحة المصدر
+  توثيق التعليمات البرمجية والاعتيادات البحثية وجعلها متاحة ومتاحة مجاناً.
 
 ORCID
-  Open Researchers and Contributor iD. It is a long lasting unique identifier for you as a researcher. A persistent digital identifier for researchers' that can be used on publications to ensure fair credit is given for all the researchers works. 
+  الباحثون المفتوحون والمساهمون iD. إنه معرف فريد طويل الأمد لك كباحث. ويُعطى لجميع الباحثين الحق في الحصول على معرف رقمي دائم للباحثين يمكن استخدامه في المنشورات لضمان الحصول على ائتمان عادل لجميع أعمال الباحثين. 
 
-Owner
-  The person/s who has administrative ownership over the organization or repository (not always the same as the original author).
+المالك
+  الشخص / س الذي يملك ملكية إدارية على المنظمة أو المستودع (ليس دائماً نفس المالك الأصلي).
 ```
 ---
-## P
+## ب
 
 ```{glossary}
 
-Package Management System
-  A tool for installing, managing, and uninstalling software packages including specific versions.
+نظام إدارة الحزمة
+  أداة لتثبيت وإدارة وإلغاء تثبيت حزم البرامج بما في ذلك الإصدارات المحددة.
 
-Persistent Identifier
-  A long-lived method for identifying a resource that is unique, and widely understandable by a community.
+معرف ثابت
+  طريقة طويلة العمر لتحديد مورد فريد ويمكن فهمه على نطاق واسع من قبل المجتمع.
 
-Pattern
-  A pattern rule is a rule that contains exactly one % character in the target, which can be used to match a part of a filename.
+نمط
+  قاعدة النمط هي قاعدة تحتوي بالضبط على حرف واحد ٪ في الهدف، التي يمكن استخدامها لمطابقة جزء من اسم الملف.
 
-Persona
-  A persona is the detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
+شخصية
+  شخصية هي تفاصيل مستخدم أو عضو وهمي، () استنادا إلى ملاحظات العالم الحقيقي وتفاهمات الأعضاء الحاليين أو الأعضاء المحتملين في المستقبل.
 
-Persona Canvas
-  The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
+شخصية كانفاس
+  يمكن استخدامها لتجميع كل ردودك في مكان واحد شارك هذه المعلومات الملموسة عن نموذجك الذهني (المفاهيم المجردة من أفكارنا) مع زملائك و أنشئ لغة مشتركة للتواصل حول أعضاء مجتمعك. المستخدمون والمساهمون.
 
-Phony Target
-  A phony target is one that doesn’t correspond to a file on the filesystem. A target is marked as phony by making it a prerequisite of the .PHONY target.
+هدف الهاتف
+  الهدف هو الهدف الذي لا يتطابق مع ملف في نظام الملفات. يتم وضع علامة صوتية على الهدف بجعله شرطا مسبقا لهدف .PHONY .
 
-Power Users
-  These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient.
+مستخدمو الطاقة
+  هؤلاء أشخاص مألوفون بالفعل بما فيه الكفاية مع منصة للتعرف على الغوغتشا والخداع التي تجعل تجربتهم أكثر كفاءة.
 
-Prerequisite
-  The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.
+الشرط المسبق
+  الشروط المسبقة للقاعدة تتوافق مع الملفات أو الأهداف الأخرى في ماكيفيلي التي يجب أن تكون محدثة قبل تشغيل القاعدة.
 
-Project Design
-  An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.
+تصميم المشروع
+  مرحلة مبكرة من المشروع حيث يتم التخطيط لخصائص المشروع الرئيسية وهيكله ومعايير نجاحه ونتائجه الرئيسية.
 
-Pull Request
-  Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.
+طلب سحب
+  التغييرات المقترحة للمستودع البعيد. يمكن للمتعاونين الذين ليس لديهم صلاحية الكتابة إرسال طلب سحب إلى المسؤول مع التغييرات التي أجروها على المستودع. ثم يمكن للمدير الموافقة على التغييرات في المستودع الرئيسي ودمجها أو رفضها. لمشاريع مفتوحة المصدر يمكن إرسال طلبات السحب من قبل أي شخص اشترك في مشروع.
 
-Push
-  Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
+اضغط على
+  إرسال التغييرات إلى مستودع عن بعد. يتم تحديث المستودع عن بعد مع التغييرات التي تم دفعها وهي الآن تعكس المستودع المحلي.
 ```
 ---
 ## Q
@@ -380,163 +380,163 @@ Push
 
 ```
 ---
-## R
+## ر
 
 ```{glossary}
 
 RDM
-  Abbreviation for research data management - see research data management for definition.
+  اختصار لإدارة بيانات البحث - أنظر إدارة بيانات البحث للتعريف.
 
-README
-  A file which contains useful information about a project such as what it is, how to use/install it, how to test it, and how to contribute to it.
+إعادة النظر
+  ملف يحتوي على معلومات مفيدة حول مشروع مثل ما هو، كيفية استخدامها/تثبيتها، وكيفية اختبارها، وكيفية المساهمة فيها.
 
-Recipe
-  One or more shell commands that are executed by Make. Usually these commands update the target of the rule.
+وصفة
+  أمر قذيفة واحد أو أكثر يتم تنفيذه من قبل Make. عادة ما تقوم هذه الأوامر بتحديث هدف القاعدة.
 
-Regression Test
-  Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
+اختبار التراجع
+  مقارنة نتيجة اختبار قبل وبعد تغيير الكود البرمجي. إذا كان الناتج قد تغير مشكلة تم إدخاله في مكان ما من البرنامج، ويتم إلقاء خطأ.
 
-Replicable
-  A result is replicable when the same analysis performed on different datasets produces qualitatively similar answers.
+قابل للنسخ
+  النتيجة قابلة للتكرار عندما ينتج نفس التحليل المنجز على مختلف مجموعات البيانات إجابات متشابهة نوعيا.
 
 repo2docker
-  A tool to build Docker images from code repositories.
+  أداة لبناء صور Docker من مستودعات البرمجة.
 
-Repository
-  *Same as Data or Code Reprository*. A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
-
-Reproducible
-  A result is reproducible when the same analysis steps performed on the same dataset consistently produces the same answer.
-
-Rendered Output
-  This is what the text will look like on an online page in Github or web page
-
-Research Compendia
-  This is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, metadata). The collection is created in such a way that reproducing all results is straight forward.
-
-Research Data Management
-  *Acronym: RDM*. Refers to the organisation, storage and preservation of data created during a research project. It covers initial planning, day-to-day processes and long-term archiving and sharing. Shortened to RDM.
-
-Research Ethics
-  Research ethics are the moral principles that govern how researchers should carry out their work. These principles are used to shape research regulations agreed by groups such as university governing bodies, communities or governments. All researchers should follow any regulations that apply to their work.
-
-Review
-  Suggesting changes or asking for committing something to an already created pull request.
-
-Risk Assessment
-  This is used to help choose the appropriate sustainable software concepts for your project.
-
-Risk Matrix
-  A risk matrix is a way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
-
-Roadmapping
-  This is the creation of a roadmap for your project. It is an outline for the work you need to do. It covers your goals, vision and a timeline for tasks.
+مستودع
+  *نفس البيانات أو التعليمات البرمجية*. مكان طويل العمر على الإنترنت حيث يمكن تخزين الموارد (سواء كانت بيانات أو برمجيات أو منشورات أو أي شيء آخر) والوصول إليها. غالباً ما يتم اختصار هذه الكلمة إلى "repo".
 
 
-Robust
-  A result is robust when the same dataset is subjected to different analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
+  يمكن الاستنساخ، النتيجة يمكن استنساخها عندما تكون نفس خطوات التحليل التي يتم القيام بها على نفس المجموعة من البيانات تنتج الإجابة.
 
-Rule
-  An element of the Makefile that defines something that must be built, usually consists of targets, recipes, and optionally, prerequisites.
+إعادة توليد المخرجات
+  هذا هو ما سيبدو عليه النص على صفحة على الإنترنت في Github أو صفحة الويب
 
-Runtime Test
-  Tests embedded within the program which are run as part of it.
+خلاصة البحوث
+  هذه مجموعة من جميع الأجزاء الرقمية لمشروع بحث بما في ذلك البيانات، الشفرة والنصوص (البروتوكولات، التقارير، الاستبيانات، البيانات الوصفية). وقد أنشئت هذه المجموعة بطريقة تجعل استنساخ جميع النتائج أمرا مباشرا إلى الأمام.
+
+إدارة بيانات البحث
+  *Acronym: RDM*. يشير إلى تنظيم وتخزين وحفظ البيانات التي تنشأ أثناء مشروع بحثي. وهو يغطي التخطيط الأولي، والعمليات اليومية، وحفظ المحفوظات وتقاسمها على المدى الطويل. مقتصرة إلى RDM.
+
+أخلاقيات البحث
+  أخلاقيات البحث هي المبادئ الأخلاقية التي تحكم كيفية اضطلاع الباحثين بعملهم. وتستخدم هذه المبادئ لتشكيل أنظمة البحوث التي تتفق عليها مجموعات مثل الهيئات الإدارية الجامعية أو المجتمعات المحلية أو الحكومات. وينبغي لجميع الباحثين أن يتبعوا أي أنظمة تنطبق على عملهم.
+
+راجع
+  اقتراح التغييرات أو طلب ارتكاب شيء ما لطلب سحب تم إنشاؤه مسبقاً.
+
+تقييم المخاطر
+  يستخدم للمساعدة في اختيار مفاهيم البرمجيات المستدامة المناسبة لمشروعك.
+
+مصفوفة المخاطر
+  مصفوفة المخاطر هي طريقة لتحديد كمية ما يجري مع الشيء الذي تهتم به. ويقيس أحد المحاورين التعرض بطريقة أو بأخرى، ويقيس الآخر تأثير سوء التصرف. وكلما ازدادت الحاجة إلى مزيد من الضمانات من أجل جعل الخطر مقبولا.
+
+خريطة الطريق
+  هذا هو إنشاء خريطة طريق لمشروعك. إنه مخطط عام للعمل الذي تحتاج إلى القيام به. إنه يغطي أهدافك ورؤيتك وجدولا زمنيا للمهام.
+
+
+النتيجة القوية
+  تكون قوية عندما تخضع نفس مجموعة البيانات لتدفق عمل تحليلي مختلف للإجابة على نفس سؤال البحث (على سبيل المثال خط أنابيب مكتوب في R وآخر مكتوب في بايتون) ويتم تقديم إجابة متشابهة أو متطابقة نوعيا. وتبين النتائج القوية أن العمل لا يتوقف على خصائص لغة البرمجة المختارة لإجراء التحليل.
+
+القاعدة
+  عنصر من عناصر ماكيفيلي الذي يحدد شيئا يجب بناؤه، يتكون عادة من الأهداف، الوصفات، واختياريا، الشروط المسبقة.
+
+اختبار وقت التشغيل
+  الاختبارات المضمنة في البرنامج الذي يتم تشغيله كجزء منه.
 
 ```
 ---
-## S
+## س
 
 ```{glossary}
 
-Self Archiving
-  Placing a publication or other research outputs in a suitable repository, institutional or subject-based, following the possible restrictions posed by the publisher, for example an embargo period, or limits on the allowed version to be deposited in such archives.
+
+  الأرشيف الذاتي وضع منشور أو نواتج بحث أخرى في مستودع مناسب، مؤسسي أو موضوعي مناسب، وفي ضوء القيود المحتملة التي يفرضها الناشر، مثل فترة الحظر، أو القيود المفروضة على النسخة المسموح بإيداعها في هذه المحفوظات.
 
 SHA
-  Unique string of numbers of letters used to identify every commit or node in the repository.
+  سلسلة فريدة من أعداد الحروف المستخدمة للتعرف على كل التزام أو عقدة في المستودع.
 
-Shared authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as group authorship.
+المؤلف المشترك
+ بعض المجلات تسمح باستخدام أسماء المجموعات ولكن العديد منها يتطلب إدراج المساهمين و/أو تسمية مجموعة الكتابة. وهذا هو نفس المؤلف للمجموعة.
 
-Smoke Testing
-  Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+اختبار الدخان
+  فحوصات أولية موجزة جدا تضمن المتطلبات الأساسية المطلوبة لتشغيل المشروع. وإذا ما فشلت هذه المهام، فلا جدوى من الانتقال إلى مستويات إضافية من الاختبار إلى أن يتم تثبيتها.
 
-Staged
-  Staging the changes that will be included in the next git commit.
+مرحلت
+  لتجهيز التغييرات التي سيتم تضمينها في الالتزام Git التالي.
 
-Stochastic Code
-  Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+رمز التسوق
+  التي، على الرغم من صحتها، لا تنتج دائما نفس النتيجة. على سبيل المثال، البرنامج الذي ينتج عشرة أرقام عشوائية سيولد نتيجة مختلفة في كل مرة، على الرغم من صحته.
 
-Syntax
-  The structure of statements in a computer language.
+بناء الجملة
+  بنية العبارات بلغة الكمبيوتر.
 
-System Testing
-  A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs. Also see end to end test.
+اختبار النظام
+  مستوى من عملية اختبار البرمجيات حيث يتم اختبار نظام كامل ومتكامل. والغرض من هذا الاختبار هو تقييم ما إذا كان النظام ككل يعطي النواتج الصحيحة لمدخلات معينة. انظر أيضا نهاية اختبار النهاية.
 
 ```
 ---
-## T
+## ت
 
 ```{glossary}
 
-Target
-  The outcome of a rule in a Makefile. It is usually a file. If it is not a file, it’s a phony target.
+الهدف
+  نتيجة قاعدة في ماكيفيلي. إنه في العادة ملف. إذا لم يكن ملفاً، فإنه هدف صوتي.
 
-Test Driven Development
-  A process of code development where unit tests are written before the units themselves.
+اختبار التطوير الذي يقوده
+  عملية تطوير التعليمات البرمجية حيث يتم كتابة اختبارات الوحدة قبل الوحدات نفسها.
 
-Test Stub
-  Fake implementations of parts of code which are used in testing to remove dependencies.
+اختبار
+  تطبيقات وهمية لأجزاء من التعليمات البرمجية التي تستخدم في اختبار إزالة التبعيات.
 
-Test Suite
-  The tests that have been written for a project.
+مجموعة الاختبار
+  الاختبارات التي تم كتابتها للمشروع.
 
-Testing Framework
-  Tools that make writing and running tests less labour intensive.
+إطار الاختبار
+  أدوات تجعل الكتابة وإجراء الاختبارات أقل كثافة في اليد العاملة.
 
-Travis
-  A commonly used continuous integration platform.
+ترافيس
+  منصة تكامل مستمر شائعة الاستخدام.
 ```
 ---
-## U
+## يو
 
 ```{glossary}
 
-Unit
-  A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
+وحدة
+  قطعة صغيرة من التعليمات البرمجية التي تقوم بشيء واحد بسيط. وعادة ما يكون لديها مدخل واحد أو بضعة مدخلات، وعادة ما يكون ناتجا واحدا.
 
-Unit Testing
-  A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+اختبار الوحدة
+  مستوى من عملية اختبار البرمجيات حيث يتم اختبار وحدات فردية من البرمجيات. والغرض من ذلك هو التحقق من أن كل وحدة من وحدات البرمجيات تؤدي عملها على النحو المصمم.
 ```
 ---
-## V
+## ف
 
 ```{glossary}
 
-Virtual Machine
-  A simulated computer that can encapsulate and entire computational environment including its operating system, customised settings, software and files.
+الآلة الافتراضية
+  جهاز كمبيوتر محاكاة يمكن أن يعبئ بيئة حسابية كاملة بما في ذلك نظام التشغيل الخاص به، الإعدادات المخصصة، البرمجيات والملفات.
 
 ```
 ---
-## W
-
-```{glossary}
-
-```
----
-## X
+## ق
 
 ```{glossary}
 
 ```
 ---
-## Y
+## س
+
+```{glossary}
+
+```
+---
+## ص
 
 ```{glossary}
 YAML
-  A human readable/writable markup language which used by many projects for configuration files.
+  لغة ترميز قابلة للقراءة أو الكتابة التي استخدمتها العديد من المشاريع لملفات الإعداد.
 ```
 ---
-## Z
+## ع
 
 ```{glossary}
 

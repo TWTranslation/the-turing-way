@@ -1,115 +1,115 @@
-(cl-remote-collab-meetings)=
-# Organising Remote Meetings
+(cl-remoto-connivención-reuniones)=
+# Organizar reuniones remotas
 
-A successful online event is organised by defining goals of the event, setting up tools for collaboration, identifying effective approaches for stakeholder-engagement and successfully managing all the associated tasks. An online meeting is such an event. A 1:1 meeting may be organised by simply sharing a link to join the call on an agreed date and time. However, often online meetings involve multiple participants including team members, speakers and guests from different groups, time zones and locations. Furthermore, collaborative activities like breakout discussions and documentation are often integral for creating a welcoming space when bringing a diverse group of participants together online. Hence, there is more to organising online meetings than just sharing a joining link.
+Un evento en línea exitoso se organiza definiendo las metas del evento, estableciendo herramientas para la colaboración, identificar enfoques efectivos para la participación de las partes interesadas y gestionar con éxito todas las tareas asociadas. Una reunión en línea es un evento así. Una reunión de 1:1 puede organizarse simplemente compartiendo un enlace para unirse a la llamada en una fecha y hora acordadas. Sin embargo, a menudo las reuniones en línea involucran a múltiples participantes, incluyendo miembros del equipo, oradores e invitados de diferentes grupos, zonas horarias y lugares. Además, las actividades de colaboración como los debates y la documentación son a menudo integrales para crear un espacio acogedor al reunir a un grupo diverso de participantes en línea. Por lo tanto, hay algo más que organizar reuniones en línea que simplemente compartir un enlace de unión.
 
-This subchapter provides a structured list of tasks that go into organising remote meetings. We have listed them in chronological order and divided into sections for "before", "during" and "after" the meeting.
+Este subcapítulo proporciona una lista estructurada de tareas que se dedican a la organización de reuniones remotas. Los hemos enumerado en orden cronológico y dividido en secciones para "before", "during" y "after" de la reunión.
 
-## Before the meeting
+## Antes de la reunión
 
-- Identify the most suitable slot that is time zone compatible for all the members using tools like [Doodle](https://doodle.com/en/) or [when2meet](https://www.when2meet.com/).
-  - If you are planning a meeting that includes time zones with over 12 hours difference, consider having two sessions to avoid holding a meeting very early or very late in the day.
-  - Assign different chairs when holding calls in two different time zones.
-- Use a standard time with a custom link like [arewemeetingyet](https://arewemeetingyet.com/) or [timeanddate.com](https://www.timeanddate.com/worldclock/fixedform.html) to different time zones when communicating.
-- Set a protocol for your meeting participants (if there is not one available already), which should include basic etiquette explaining the following:
-  - Is keeping the webcam and microphone on recommended? Can they be turned off during the call?
-  - Is there a password needed to join the call? Can attendees join before the host?
-  - How can attendees ensure the privacy of their family member? Provide instructions for blurring their background, or using a virtual background?
-  - How will attendees be able to participate in an ongoing discussion? How can they raise their hands to ask the chair personally?
-  - What kind of challenges may attendees face while joining the call/meeting and how can they troubleshoot them?
-- Identify a chair and note-taker for the meeting.
-  - Share guidelines and protocols for chairing and note-taking.
-- Decide if there will be designated speakers with presentations.
-  - Share the speaker's guidelines and protocols with them.
-- Establish a shared document that can be updated online for agenda and note-taking. For example, using [Google Docs](https://docs.google.com) or [HackMD](https://hackmd.io).
-  - Create a template for this meeting (that can also be used for future meetings).
-- Create a shared document to share the following:
-  - Participation guidelines.
-  - Code of conduct and contact information of people who can help with any issues regarding the meeting.
-  - The exact date, time, location (if any!) and choice of tool that will be used for communication.
-  - Agenda of the meeting.
-  - A place to indicate their participation or absence.
-- Share this document via an email to all the attendees and also add this to a calendar invite so that people have it handy when needed.
-- The choice of tool should be preferably an open source tool to avoid inaccessibility.
-  - If using a tool that is available only upon subscription, make sure that all the members have the access information.
-  - Share a how-to guide to ensure that everyone knows how to use the tool.
-  - If possible, offer help with installation and testing of the tool in advance.
-- Distribute the shared document a few days before the meeting.
-  - Ask everyone to add any agenda items that they would like to discuss at the meeting.
-  - Ask everyone to write their name indicating their participation in or absence from the meeting.
-- Remind everyone to arrange a microphone or headsets.
-  - If possible, provide any hardware that the organisation prefers to use.
-  - Ask people to check before the meeting that their system and headsets are working.
-- Send a reminder with a link to the document and other important resources to all the participants a day in advance.
-- Create slides or a presentation that might be needed by the organiser's (welcome, wrap up).
-  - Add contact details, date and location of resources and licence, to make your slides reusable.
-- Set-up your calls with closed-captioning (cc) such as by using software like otter.ai or cc options in google slides or hangout.
+- Identificar la franja horaria más adecuada que es compatible para todos los miembros usando herramientas como [Doodle](https://doodle.com/en/) o [cuando2meet](https://www.when2meet.com/).
+  - Si estás planeando una reunión que incluya zonas horarias con más de 12 horas de diferencia, Considere tener dos sesiones para evitar celebrar una reunión muy temprano o muy tarde en el día.
+  - Asigne diferentes sillas al realizar llamadas en dos zonas horarias diferentes.
+- Utilice una hora estándar con un enlace personalizado como [arewemeetingyet](https://arewemeetingyet.com/) o [timeanddate.com](https://www.timeanddate.com/worldclock/fixedform.html) a diferentes zonas horarias al comunicarse.
+- Establezca un protocolo para los participantes de la reunión (si ya no hay uno disponible), el cual debe incluir una hoja informativa básica explicando lo siguiente:
+  - ¿Se recomienda mantener la cámara web y el micrófono? ¿Se pueden apagar durante la llamada?
+  - ¿Hay una contraseña necesaria para unirse a la llamada? ¿Pueden unirse los asistentes antes del anfitrión?
+  - ¿Cómo pueden los asistentes garantizar la privacidad de su familia? ¿Proporcionar instrucciones para desenfocar su fondo o usar un fondo virtual?
+  - ¿Cómo podrán participar los asistentes en un debate en curso? ¿Cómo pueden levantarse las manos para pedir personalmente a la silla?
+  - ¿Qué tipo de desafíos pueden enfrentar los asistentes mientras se unen a la llamada/reunión y cómo pueden resolverlos?
+- Identificar una silla y un tomador de notas para la reunión.
+  - Comparte directrices y protocolos para presidir y tomar notas.
+- Decida si habrá ponentes designados con presentaciones.
+  - Comparta las directrices y los protocolos de los oradores con ellos.
+- Establezca un documento compartido que se pueda actualizar en línea para agenda y toma de notas. Por ejemplo, usando [Google Docs](https://docs.google.com) o [HackMD](https://hackmd.io).
+  - Crear una plantilla para esta reunión (que también se puede utilizar para futuras reuniones).
+- Crear un documento compartido para compartir lo siguiente:
+  - Directrices de participación.
+  - Código de conducta e información de contacto de las personas que pueden ayudar con cualquier problema relacionado con la reunión.
+  - La fecha, hora, ubicación (si existe) y la elección de la herramienta que se utilizará para la comunicación.
+  - Orden del día de la reunión.
+  - Un lugar para indicar su participación o ausencia.
+- Comparta este documento a través de un correo electrónico a todos los asistentes y añádelo a una invitación al calendario para que la gente lo tenga útil cuando sea necesario.
+- La elección de la herramienta debería ser preferiblemente una herramienta de código abierto para evitar la inaccesibilidad.
+  - Si se utiliza una herramienta que sólo está disponible tras la suscripción, asegúrese de que todos los miembros tienen la información de acceso.
+  - Comparte una guía de cómo asegurar que todo el mundo sepa cómo usar la herramienta.
+  - Si es posible, ofrezca ayuda con la instalación y la prueba de la herramienta de antemano.
+- Distribuir el documento compartido unos días antes de la reunión.
+  - Pídale a todos que añadan los puntos de la agenda que les gustaría discutir en la reunión.
+  - Solicite a todos que escriban su nombre indicando su participación en la reunión o ausencia.
+- Recuerda a todo el mundo que organice un micrófono o auriculares.
+  - Si es posible, proporcione cualquier hardware que la organización prefiera utilizar.
+  - Pida a la gente que antes de la reunión compruebe que su sistema y auriculares están funcionando.
+- Enviar un recordatorio con un enlace al documento y otros recursos importantes a todos los participantes con un día de antelación.
+- Crea diapositivas o una presentación que pueda ser necesaria por el organizador (bienvenido, envolverse).
+  - Añade datos de contacto, fecha y ubicación de recursos y licencia, para hacer que tus diapositivas sean reutilizables.
+- Configura tus llamadas con subtítulos (cc) como por ejemplo usando software como otter.ai o opciones de cc en diapositivas de google o hangout.
 
-### Designated venues to participate from
+### Lugares diseñados para participar desde
 
-*If there are physical office locations, or co-working spaces accessible for most members.*
+*Si hay ubicaciones físicas de oficinas, o espacios de co-trabajo accesibles para la mayoría de los miembros.*
 
-- Reserve conference room(s), or similar venues, with high-speed internet.
-- Share details on how members can access this venue.
-- When possible, use individual cameras to simulate remote participation so that those who are not attending in person don't feel left out.
-- If the reserved location has a webcam and microphone, check that they work properly.
-  - Plan the seating arrangement so that people are facing to the main screen/camera.
-  - Test the screen with different light intensities.
-  - Arrange all the required materials and equipment, like extension cords or power strips.
-  - Arrange for beverages/snacks for the breaks, and ensure that the catering service will label the food for contents/allergens.
-- Make sure that the protocols are written to favour the remote participants.
+- Reserve sala(s) de conferencias, o lugares similares, con Internet de alta velocidad.
+- Comparte detalles sobre cómo los miembros pueden acceder a este lugar.
+- Cuando sea posible, utilice cámaras individuales para simular la participación remota de modo que los que no asistan en persona no se sientan fuera.
+- Si la ubicación reservada tiene una cámara web y un micrófono, compruebe que funcionan correctamente.
+  - Planifique la disposición de los asientos para que la gente esté mirando a la pantalla principal/cámara.
+  - Evalúa la pantalla con diferentes intensidades de luz.
+  - Organiza todos los materiales y equipos necesarios, como cuerdas de extensión o tiras de energía.
+  - Ordene para bebidas/pausas para las pausas y asegúrese de que el servicio de catering etiquetará los alimentos para los contenidos/alérgenos.
+- Asegúrese de que los protocolos están escritos para favorecer a los participantes remotos.
 
-## During the meeting
+## Durante la reunión
 
-- Re-share the links to the collaborative notes for the meeting in the chat system or email.
-- Give a reminder of the community participation guidelines and the Code of conduct.
-- Introduce the chair and notetaker, and let the chair take over for the rest of the tasks.
-- Introduce the format of the meeting and briefly describe the overall schedule, such as the timing of breaks.
-- If possible, keep the video call separate from chat system to ensure that the speakers are not distracted and the conversations can be recorded on the chat system.
-- Explain the basic protocols for participation.
-  - Muting microphone when not speaking.
-  - Using a chat system during the meeting - if there is one.
-- Request everyone to keep their camera on whenever possible.
-- If recording the call, make sure that all the participants are aware before you hit the record button.
-  - Allow people to turn their video off when recording.
-- Give a reminder of the guidelines for participating in discussions.
-  - Raise hand - on chat, or virtually (like in Zoom) or physically.
-  - Other ways to involve others in the discussion equitably.
-- Start the meeting with an icebreaker question that can be either written down or shared out verbally depending on how many people are on the call.
-  - Create opportunities for everyone to share something personal (about their hobby, or experiences) on the document or verbally.
-- Facilitate questions and answers, or discussion on the agenda points.
-- Help answer procedural questions like “where is this button that I should click”.
-- Direct technical questions to the organiser when needed.
-- Use breakout rooms whenever possible to ensure that people can connect with each other while discussing questions or issues of mutual interest (more tips below).
-- For gathering opinion and response, use silent writing time rather than open discussion.
-  - Give clear instructions of what's expected from the writing exercises and how long it should take.
-  - Give a reminder in the last minute to wrap up.
-- Ensure that the discussion is inclusive of everyone, aim to have a fair discussion, don’t fixate on one argument or speaker.
-- Indicate if the speakers should speed up or slow down, or if there is a technical issue that the speakers should check.
-- Notetakers should document important outcomes from every discussion.
-- Encourage everyone to help the notetaker in documenting correct information.
-- In the last part of the call, create action points and delegate them to different people while on the call.
-  - Ask people to volunteer to assign themselves to each task, but be inclusive and equitable in this process.
-- End the meeting on time by thanking everyone and sharing the date for a next call, if any!
-- If possible, stay a few minutes extra on the call to make sure that people have a chance to clarify their questions after the meeting.
+- Vuelva a compartir los enlaces a las notas de colaboración para la reunión en el sistema de chat o correo electrónico.
+- Recordar las directrices de participación de la comunidad y el Código de conducta.
+- Introducir la silla y el notetaker, y dejar que la silla se haga cargo del resto de las tareas.
+- Introduzca el formato de la reunión y describa brevemente el calendario general, como el tiempo de los descansos.
+- Si es posible, mantener la videollamada separada del sistema de chat para asegurarse de que los altavoces no están distraídos y de que las conversaciones se pueden grabar en el sistema de chat.
+- Explicar los protocolos básicos para la participación.
+  - Silenciando el micrófono cuando no habla.
+  - Utilizando un sistema de chat durante la reunión - si hay uno.
+- Solicite a todos que mantengan su cámara encendida siempre que sea posible.
+- Si se graba la llamada, asegúrese de que todos los participantes son conscientes antes de pulsar el botón de grabar.
+  - Permitir que la gente apague su video al grabar.
+- Recordar las directrices para participar en los debates.
+  - Aumentar la mano - en el chat, o virtualmente (como en Zoom) o físicamente.
+  - Otras formas de involucrar a otros en el debate de manera equitativa.
+- Comience la reunión con una pregunta sobre el rompecabezas que puede ser escrita o compartida verbalmente dependiendo de cuántas personas estén en la llamada.
+  - Crea oportunidades para que todos compartan algo personal (acerca de su afición o experiencias) en el documento o verbalmente.
+- Facilitar preguntas y respuestas, o debatir sobre los puntos del orden del día.
+- Ayuda a responder preguntas de procedimiento como “dónde está este botón que debería hacer click”.
+- Preguntas técnicas directas al organizador cuando sea necesario.
+- Utilice salas de descanso siempre que sea posible para asegurar que la gente pueda conectarse entre sí mientras discute cuestiones o cuestiones de interés mutuo (más consejos a continuación).
+- Para obtener opinión y respuesta, utilice el tiempo de escritura silenciosa en lugar de la discusión abierta.
+  - Dé instrucciones claras de lo que se espera de los ejercicios de escritura y cuánto tiempo debería tardar.
+  - Recordar en el último minuto para cerrar.
+- Asegurarse de que la discusión sea inclusiva de todos, apunte a tener un debate justo, no se fije en un argumento o orador.
+- Indique si los oradores deben acelerar o desacelerar, o si existe un problema técnico que los oradores deberían comprobar.
+- Los notetakers deben documentar resultados importantes de cada discusión.
+- Anime a todos a ayudar al notetaker a documentar la información correcta.
+- En la última parte de la llamada, crear puntos de acción y delegarlos a diferentes personas durante la llamada.
+  - Pida a la gente que se asigne voluntariamente a cada tarea, pero sea inclusivo y equitativo en este proceso.
+- Termine la reunión a tiempo dando las gracias a todos y compartiendo la fecha para una próxima llamada, si acaso!
+- Si es posible, espere unos minutos más en la llamada para asegurarse de que la gente tenga la oportunidad de aclarar sus preguntas después de la reunión.
 
-### Breakout rooms
+### Salas de ruptura
 
-*If using breakout rooms in Zoom, or a similar tool, make sure that each breakout has a chair, or someone to help.*
-- Create groups that are more diverse (they will have better discussions).
-- Create some breakout rooms for speaking and some for writing to be more inclusive of those with English as a second language. Remember to ask participants before hand what their preference is.
-- Remind everyone to give others a fair chance to speak.
-- Ask them to write notes from their discussion in the shared document.
-- Send messages periodically reminding everyone of how much time is left for discussion.
-  - Reminding them to move on to the next person if only one person has spoken so far in their group.
-- When people come back from their breakout rooms, ask them to share the main arguments from their discussion.
+*Si se utilizan salas de descanso en el Zoom, o una herramienta similar, asegúrese de que cada interrupción tenga una silla o alguien para ayudar.*
+- Crear grupos que sean más diversos (tendrán mejores discusiones).
+- Cree algunas salas de ruptura para hablar y algunas para escribir para ser más inclusivo de las que tienen inglés como segunda lengua. Recuerde preguntar a los participantes antes de la mano cuáles son sus preferencias.
+- Recordar a todos que den a los demás una oportunidad justa de hablar.
+- Pídeles que escriban notas de su discusión en el documento compartido.
+- Enviar mensajes periódicamente recordando a todos cuánto tiempo queda para la discusión.
+  - Recordarles que pasar a la siguiente persona si una sola persona ha hablado hasta ahora en su grupo.
+- Cuando la gente regrese de sus salones, pídales que compartan los principales argumentos de su discusión.
 
-## After the meeting
+## Después de la reunión
 
-- Create a debrief document to capture what went well and what could be improved.
-  - This can also be requested from the participants by circulating a feedback form.
-- Request any additional documents or information mentioned by others/speakers during the meeting. These links can be added into the shared documents or in the chat.
-- If the meeting call was recorded, process and share the recorded video with everyone.
-- Send a thank you email with the link to the complete notes and other relevant information.
+- Crea un documento de debrief para capturar lo que salió bien y lo que se podría mejorar.
+  - Esto también se puede solicitar a los participantes a través de un formulario de retroalimentación.
+- Solicite cualquier documento adicional o información mencionada por otros oradores durante la reunión. Estos enlaces pueden ser añadidos a los documentos compartidos o en el chat.
+- Si la llamada de reunión fue grabada, procese y comparta el vídeo grabado con todos.
+- Envíe un correo electrónico de agradecimiento con el enlace a las notas completas y otra información relevante.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Etiquetas de capítulo**: Este capítulo está supervisado para el `Grupo de estudio de datos de Turing` (`turing-dsg`).*

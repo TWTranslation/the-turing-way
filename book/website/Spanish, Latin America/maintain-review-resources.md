@@ -1,10 +1,10 @@
 (cl-maintain-review-resources)=
-# Resources
+# Recursos
 
-* [Community communications for open source](https://the-turing-way.netlify.app/open-source-comms/intro.html) has some relevant information for getting involved with this community-driven project.
-* [GitHub help](https://help.github.com/en) is a great resource to know about almost everything concerning collaborating on a GitHub project.
-* [Guide to Open Source](https://opensource.guide/) provides guides related to Open Source. Be it maintaining or contributing, most of the topics have been covered in these guides.
-* [An article on using Open source research tools](https://opensource.com/education/15/11/tools-analyze-collaborate-share-research)
-* [A guide on Pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
-* [How to guide to workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
-* [A Blog on Open source and academia](https://opensource.com/article/19/9/how-open-source-academic-work)
+* [Las comunicaciones comunitarias para código abierto](https://the-turing-way.netlify.app/open-source-comms/intro.html) tienen alguna información relevante para involucrarse en este proyecto impulsado por la comunidad.
+* [La ayuda de GitHub](https://help.github.com/en) es un gran recurso para saber sobre casi todo lo concerniente a colaborar en un proyecto de GitHub.
+* [Guide to Open Source](https://opensource.guide/) proporciona guías relacionadas con Open Source. Ya sea manteniendo o contribuyendo, la mayoría de los temas han sido cubiertos en estas guías.
+* [Un artículo sobre el uso de herramientas de investigación de código abierto](https://opensource.com/education/15/11/tools-analyze-collaborate-share-research)
+* [Una guía sobre Pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
+* [Cómo guiar los flujos de trabajo](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [Un blog sobre código abierto y academia](https://opensource.com/article/19/9/how-open-source-academic-work)

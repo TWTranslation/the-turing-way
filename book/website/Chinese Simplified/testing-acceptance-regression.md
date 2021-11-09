@@ -1,31 +1,31 @@
-(rr-testing-acceptance-regression)=
-# Acceptance and Regression Testing
+(rr-testing-acceptance-retression)=
+# 接受和回归测试
 
 (rr-testing-acceptance)=
-## Acceptance testing
+## 验收测试
 
-Acceptance tests are one of the last tests types that are performed on software prior to delivery. Acceptance testing is used to determine whether a piece of software satisfies all of the requirements from the business or user's perspective. Does this piece of software do what it needs to do? These tests are sometimes built against the original specification.
+验收试验是交货前对软件进行的最后一类试验之一。 接受测试用来确定一种软件是否从企业或用户的角度满足了所有要求。 这个软件是否做它需要做的事？ 这些试验有时是根据原有的规格进行的。
 
-Because research software is typically written by the researcher that will use it (or at least with significant input from them) acceptance tests may not be necessary.
+由于研究软件通常是由将使用软件（或至少有大量投入）的研究人员撰写的，因此可能没有必要进行验收测试。
 
-(rr-testing-regression)=
-## Regression testing
+(rr-testing-retression)=
+## 回归测试
 
-Regression testing is a style of testing that focuses on retesting after changes are made. The results of tests after the changes are compared to the results before, and errors are raised if these are different. Regression testing is intended to ensure that changes (enhancements or defect fixes) to the software have not adversely affected it. The likelihood of any code change impacting functionalities that are not directly associated with the code is always there and it is essential that regression testing is conducted to make sure that fixing one thing has not broken another. Regression testing can be performed during any level of testing (unit, integration, system, or acceptance) but it is mostly relevant during system testing. Any test can be reused, and so any test can become a regression test.
+回归测试是一种测试风格，侧重于更改后的重新测试。 更改之后的测试结果与以前的结果进行比较，如果不同则提出错误。 回归测试旨在确保软件的更改(增强或缺陷修复)不会对其产生不利影响。 任何代码更改都可能影响与代码没有直接关联的功能，必须进行回归测试，以确保修复一件东西不会破坏另一件东西。 回归测试可以在任何级别的测试(单元、集成、系统或接受)中进行，但在系统测试中大多是相关的。 任何试验都可以重新使用，因此任何试验都可以成为一种回归测试。
 
-Regression testing is obviously especially important in team working, but it is surprisingly easy to break your own code without noticing it, even if you are working on your own. And because regression testing is next to impossible to do satisfactorily by hand (it's simply too tedious), it's an obvious case for automation.
+回归测试显然对团队工作特别重要， 但令人吃惊的是，如果不注意到你自己的代码，就很容易破坏你自己的代码，即使你是自己工作的。 由于回归测试几乎不可能以手工方式令人满意地完成(这只是过于累赘)，这是自动化的明显例子。
 
-Regression tests are written by first running the (or part of the) code for given inputs and recording the outputs. This could be done by writing input files and saving the corresponding output files. These outputs serve as the expected outputs from the program given the corresponding inputs. Regression tests are then written. Each regression test runs the code for the set of inputs. It then compares the output from the code to the expected outputs, and raises an error if these do not match.
+回归测试是由首次运行给定输入的代码(或其中一部分)并记录输出写入的。 这可以通过写入输入文件和保存相应的输出文件来完成。 鉴于相应的投入，这些产出可作为方案的预期产出。 然后写回归测试。 每次回归测试运行输入组的代码。 然后将代码中的产出与预期产出相比较，如果不一致，则造成错误。
 
-Regression testing approaches differ in their focus.
+回归测试方法的重点不同。
 
-Common examples include:
-- Bug regression: We retest a specific bug that has been allegedly fixed.
-- Old fix regression testing: We retest several old bugs that were fixed, to see if they are back. (This is the classical notion of regression: the program has regressed to a bad state.)
-- General functional regression: We retest the project broadly, including areas that worked before, to see whether more recent changes have destabilized working code.
-- Conversion or port testing: The program is ported to a new platform and a regression test suite is run to determine whether the port was successful.
-- Configuration testing: The program is run with a new device or on a new version of the operating system or in conjunction with a new application. This is like port testing except that the underlying code hasn't been changed--only the external components that the software under test must interact with.
+通常的例子包括：
+- 错误回归：我们重新测试了一个据称已经修复的特定错误。
+- 旧修复回归测试：我们重新测试了几个已修复的旧错误，以查看它们是否返回。 (这是经典的回归概念：程序已经倒退到坏状态。)
+- 总的功能倒退：我们对该项目进行了广泛的重新考验，包括以前工作的领域，以了解最近的变化是否破坏了工作守则的稳定性。
+- 转换或端口测试：程序被移植到一个新平台，回归测试套件正在运行，以确定端口是否成功。
+- 配置测试：程序与新设备或操作系统的新版本或与新应用程序一起运行。 这就像端口测试，除非基础代码没有被更改--仅仅是正在测试的软件必须交互的外部组件。
 
-### Limitations of Regression Testing
+### 回归测试的限制
 
-Regression tests are not guaranteed to test all parts of the code. Most importantly, regression tests do not test if the result outputted by a piece of code is *correct*, only that it has not changed. This the remit of other kinds of tests, though regression tests can serve as the starting point for introducing tests for correctness, by both the use of analytical solutions, and through test functions which read output files and check the data for correctness, as defined by a researcher.
+回归测试不能保证测试代码的所有部分。 最重要的是，回归测试如果一个代码为 *正确的*，则不测试结果输出， 只是说它没有改变。 尽管回归测试可以作为引入正确性测试的起点， (b) 利用分析性解决办法； 并通过读取输出文件并检查研究人员定义的数据是否正确的测试函数。

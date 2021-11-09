@@ -1,132 +1,132 @@
-(pd-persona-creation)=
-# Persona Creation Tool
+(pd-persona-creación)=
+# Herramienta de Creación de Persona
 
-Persona development for a project or community is a great way for recognising who the stakeholders of that project are, why they would associate with the project, what their needs are and how those needs could be met. Persona creation tools can allow team members to collaborate efficiently with each other, develop a common understanding of their target audience and bring design principles into their work while ultimately creating an empathetic pathway for engagement.
+El desarrollo de Persona para un proyecto o comunidad es una gran manera de reconocer quiénes son los actores de ese proyecto. por qué se asociarían con el proyecto, cuáles son sus necesidades y cómo se podrían satisfacer esas necesidades. Las herramientas de creación de Persona pueden permitir a los miembros del equipo colaborar eficientemente entre sí desarrollar un entendimiento común de su público objetivo e incorporar los principios de diseño a su trabajo a la vez que en última instancia crea un camino empático para el compromiso.
 
-In this chapter, we provide a simple step by step guide that one can use for creating different personas for their communities and projects. Your project-specific personas will then be useful in enhancing the pathways your members take to engage with your project, examples for which has been provided in the next subchapter.
+En este capítulo, proporcionamos una simple guía paso a paso que se puede utilizar para crear diferentes personas para sus comunidades y proyectos. Las personas específicas de tu proyecto serán entonces útiles para mejorar las vías que tus miembros toman para participar en tu proyecto, ejemplos para los que se ha proporcionado en el siguiente subcapítulo.
 
-## Step-by-step guide for building a persona
+## Guía paso a paso para construir una persona
 
-### Section 1: Name and Role
+### Sección 1: Nombre y rol
 
-Start by giving your persona a real name and real role with the help of some assumed professional skills. This will help you anchor them in reality. You can use the random name generator website [behindthename.com](https://www.behindthename.com/random/) to create diverse names.
+Comienza dando a tu persona un nombre real y un papel real con la ayuda de algunas habilidades profesionales asumidas. Esto le ayudará a anclarlos en la realidad. Puede utilizar el sitio web aleatorio del generador de nombres [behindthename.com](https://www.behindthename.com/random/) para crear diversos nombres.
 
 ```{figure} ../../figures/persona-creation.png
 ---
 name: persona-creation
 alt: Persona Canvas by DESIGNBETTERBUSINESS.COM
 ---
-Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) available under the CC-BY-SA 4.0 license
+Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persons/canvas) disponible bajo la licencia CC-BY-SA 4.0
 ```
 
-### Section 2: Background and demography
+### Sección 2: Fondo y demografía
 
-This section is to create an image of your persona. Be aware of your own biases in terms of how you imagine your persona looks like based on their name or assumed gender.
+Esta sección es para crear una imagen de tu persona. Ten en cuenta tus propios prejuicios en términos de cómo te imaginas que tu persona se ve basada en su nombre o en su presunción de género.
 
-#### Section 2.1: Background
+#### Sección 2.1: Fondo
 
-Reflect on the job, career, education, and family aspect of your persona by answering the following questions:
+Reflexiona sobre el aspecto laboral, cuidador, educación y familia de tu persona respondiendo a las siguientes preguntas:
 
-- Which job does your persona hold?
-- What is your persona's family status?
-  - Some options: single, parent, married, pet-owner, parent, or carer.
-- Does your persona have any health issues?
-    - You don't need to go in detail (though that would add more value to your planning), but start by answering in 'yes' or 'no'.
-- What is your persona's social environment like?
-  - Some options: neutral, favorable, supportive, non-supportive, financially challenging, distracting, politically challenging.
+- ¿Qué trabajo tiene su persona?
+- ¿Cuál es el estatus familiar de su persona?
+  - Algunas opciones: single, padre, matrimonio, dueño de mascotas, padre, o cuidador.
+- ¿Su persona tiene algún problema de salud?
+    - No necesita entrar en detalle (aunque eso añadiría más valor a su planificación), pero empiece por responder en 'sí' o 'no'.
+- ¿Cómo es el entorno social de tu persona?
+  - Algunas opciones: neutral, favorable, solidario, no solidario, financieramente desafiante, distraído y políticamente desafiante.
 
-#### Section 2.2: Demography
+#### Sección 2.2: demografía
 
-Reflect on the age range, gender, location, and living situation of your persona by answering the following questions:
+Reflexión sobre el rango de edad, género, ubicación y situación de vida de tu persona respondiendo a las siguientes preguntas:
 
-- What age group that your persona belongs to?
-  - Some options: below 16, 17 - 21, 21 - 30, 31 - 45, 45 - 65, above 65
-- What is your persona's gender?
-  - Some options: man, woman, non-binary, cisgender, transgender, gender-queer, gender-fluid or other (learn more [here](http://thepbhscloset.weebly.com/a-list-of-genders--sexualities-and-their-definitions.html))
-- Which time zone does your persona live in?
-  - Some options: UTC - GMT, EET - GMT+2:00, IST - GMT+5:30, JST - GMT+9:00, NST - GMT+12:00, CST - GMT-6:00, BET - GMT-3:00, CAT - GMT-1:00
-- What is your persona's living situation?
-- If there is any disability or physical barrier that your persona has to deal with when participating?
+- ¿A qué grupo de edad pertenece tu persona?
+  - Algunas opciones: por debajo de 16, 17 - 21, 21 - 30, 31 - 45, 45 - 65, sobre 65
+- ¿Cuál es el género de tu persona?
+  - Algunas opciones: hombre, mujer, no binario, cisgender, transgénero, género-queer, sexo-fluido u otros (aprender más [aquí](http://thepbhscloset.weebly.com/a-list-of-genders--sexualities-and-their-definitions.html))
+- ¿En qué zona horaria vive su persona?
+  - Algunas opciones: UTC - GMT, EET - GMT+2:00, IST - GMT+5:30, JST - GMT+9:00, NST - GMT+12:00, CST - GMT-6:00, BET - GMT-3:00, CAT - GMT-1:00
+- ¿Cuál es la situación de vida de tu persona?
+- ¿Si hay alguna discapacidad o barrera física con la que su persona tenga que lidiar al participar?
 
-*For this section, you can continue using the random name generator website [behindthename.com](https://www.behindthename.com/random/) with the option "generate life story".*
+*Para esta sección, puede continuar utilizando el sitio web del generador de nombres aleatorios [behindthename.com](https://www.behindthename.com/random/) con la opción "generar historia de vida".*
 
-### Section 3: Needs and Resources
+### Sección 3: Necesidad y Recursos
 
-This section will reflect on the resources available to your persona to participate in your project or community online. This section defines your persona's needs and decisions they make, which you can sketch out by asking the following questions:
+Esta sección reflexionará sobre los recursos disponibles para su persona para participar en su proyecto o comunidad en línea. Esta sección define las necesidades y decisiones de tu persona, que puedes esbozar haciendo las siguientes preguntas:
 
-- What is the level of interest your persona has in your project?
-- Does your persona have a suitable schedule to participate in your project activity?
-- Does your persona have the appropriate resources to collaborate or contribute to your project?
-  - Some options: hardware, software, appropriate work arrangement, proper documentation
-- How much time (minimum) your persona needs to dedicate to make contributions to your project by completing different tasks?
-  - This can result in a list of tasks that your members are invited to do with approximate time and skill requirements for each of them.
-- What else can influence your persona's decisions on a day-to-day basis?
+- ¿Cuál es el nivel de interés que su persona tiene en su proyecto?
+- ¿Su persona tiene un calendario adecuado para participar en la actividad de su proyecto?
+- ¿Su persona tiene los recursos apropiados para colaborar o contribuir a su proyecto?
+  - Algunas opciones: hardware, software, arreglo de trabajo apropiado, documentación adecuada
+- ¿Cuánto tiempo (mínimo) necesita su persona para dedicar a hacer contribuciones a su proyecto completando diferentes tareas?
+  - Esto puede resultar en una lista de tareas que tus miembros están invitados a realizar con requisitos de tiempo y habilidades aproximados para cada uno de ellos.
+- ¿Qué más puede influir en las decisiones de su persona día a día?
 
-### Section 4: Persona Profile (positive trends)
+### Sección 4: Perfil de Persona (tendencias positivas)
 
-This section will reflect on the hobbies, interests, and things your persona enjoys doing regularly. This can be approached to understand what makes your persona's experience positive. You can sketch out this information by answering the following questions:
+Esta sección reflexionará sobre las aficiones, intereses y cosas que a su persona le gusta hacer regularmente. Esto puede ser abordado para entender lo que hace que la experiencia de tu persona sea positiva. Puedes esbozar esta información respondiendo a las siguientes preguntas:
 
-- What hobbies and interests your persona has?
-- What personality/demeanor (such as introvert, extrovert) matches your persona's?
-- Through which communication channel will your persona potentially find out about the event?
-  - Some options: by email, mailing list or forums, Twitter, Facebook, Slack, Gitter, newsletters, website or community repository
-- What keeps your persona motivated on a typical day?
+- ¿Qué aficiones e intereses tiene su persona?
+- ¿Qué personalidad/demeanor (como introvert, extrovert) coincide con la de tu persona?
+- ¿A través de qué canal de comunicación se enterará su persona potencialmente sobre el evento?
+  - Algunas opciones: por correo electrónico, lista de correo o foros, Twitter, Facebook, Slack, Gitter, boletines, sitio web o repositorio comunitario
+- ¿Qué mantiene su persona motivada en un día típico?
 
-### Section 5: Provisions and opportunities
+### Sección 5: Disposiciones y oportunidades
 
-This section will reflect on the provisions available to your persona to participate in this project by asking the following questions:
+Esta sección reflexionará sobre las disposiciones disponibles para su persona para participar en este proyecto haciendo las siguientes preguntas:
 
-- What equipment or support can you offer your persona to participate in the project?
-- Are there funding or skill-building opportunity that your persona can share more widely.
-- What other resources does your persona need to fully participate with?
+- ¿Qué equipo o apoyo puede ofrecer a su persona para participar en el proyecto?
+- ¿Hay fondos o oportunidades de creación de habilidades que su persona pueda compartir más ampliamente.
+- ¿Con qué otros recursos necesita su persona para participar plenamente?
 
-### Section 6: Hopes and dreams
+### Sección 6: Esperanzas y sueños
 
-This section will reflect on the expectations, goals, and emotions of your persona in regards to this project by asking the following questions:
+Esta sección reflexionará sobre las expectativas, metas y emociones de su persona con respecto a este proyecto haciendo las siguientes preguntas:
 
-- What does your persona want to achieve from this project?
-- What information does your persona want to gain from their participation?
-- What fear or anxiety may your persona have regarding the project?
-- What could inspire your persona at the project?
-- How will your persona know that their goal has been achieved?
+- ¿Qué quiere conseguir su persona con este proyecto?
+- ¿Qué información quiere obtener su persona de su participación?
+- ¿Qué miedo o ansiedad puede tener su persona con respecto al proyecto?
+- ¿Qué podría inspirar a su persona en el proyecto?
+- ¿Cómo sabrá su persona que se ha alcanzado su objetivo?
 
-### Section 7: Perceived Barriers (negative trends)
+### Sección 7: Barreras percibidas (tendencias negativas)
 
-This section will reflect on the perceived barriers that your persona may face in regards to this project by asking the following questions:
+Esta sección reflexionará sobre las barreras percibidas que su persona puede enfrentar en relación con este proyecto haciendo las siguientes preguntas:
 
-- What can frustrate your persona on a typical day?
-- Why would your persona not join this project?
-- What is speaking against this project that can discourage your persona from joining?
-- What could alienate your persona from this project?
-- What improvements can be introduced to help your persona overcome these barriers?
+- ¿Qué puede frustrar a su persona en un día típico?
+- ¿Por qué su persona no se uniría a este proyecto?
+- ¿Qué está hablando en contra de este proyecto que puede disuadir a su persona de adherirse?
+- ¿Qué podría alienar a su persona de este proyecto?
+- ¿Qué mejoras se pueden introducir para ayudar a su persona a superar estas barreras?
 
-### Section 8: Hurdles in the project (headaches)
+### Sección 8: Hurdles en el proyecto (dolores de cabeza)
 
-This section will reflect on the hurdles and issues that your persona may encounter in regards to this project by asking the following questions:
+Esta sección reflexionará sobre los hurdles y los problemas que su persona pueda encontrar en relación a este proyecto haciendo las siguientes preguntas:
 
-- What challenges does your persona face when participating in this project?
-- What are your persona's hurdles specific to this project?
-- How can your persona be supported in overcoming the challenges?
-- How can we surpass your persona's expectations?
+- ¿A qué desafíos se enfrenta su persona al participar en este proyecto?
+- ¿Cuáles son los hurdles de tu persona específicos para este proyecto?
+- ¿Cómo se puede apoyar a su persona para superar los desafíos?
+- ¿Cómo podemos superar las expectativas de tu persona?
 
-### Section 9: Fears and personal issues
+### Sección 9: Miedos y problemas personales
 
-This section will reflect on fears and personal issues that your persona may face while participating in this project or community online by asking the following questions:
+Esta sección reflexionará sobre los temores y problemas personales que su persona puede enfrentar mientras participa en este proyecto o comunidad en línea haciendo las siguientes preguntas:
 
-- Would your persona be able to participate for a long period?
-- In what situations your persona might encounter difficulties during their participation?
-- What interruptions they might face while participating in this project?
-- What are the resources available to support your persona better (like funding or equipment)?
-- How can we assist your persona in reaching their goals?
+- ¿Su persona podría participar por un largo período?
+- ¿En qué situaciones su persona puede encontrar dificultades durante su participación?
+- ¿Qué interrupciones pueden sufrir al participar en este proyecto?
+- ¿Cuáles son los recursos disponibles para apoyar mejor a su persona (como financiación o equipo)?
+- ¿Cómo podemos ayudar a su persona a alcanzar sus metas?
 
-## Putting this together in a persona canvas
+## Colocar esto en un lienzo de persona
 
-The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
+El lienzo de persona se puede utilizar para ensamblar todas tus respuestas en un solo lugar comparte esta información tangible de tu modelo mental (conceptos abstractos de nuestros pensamientos) con tus colegas y crea un lenguaje común para comunicarte sobre los miembros de tu comunidad, usuarios y colaboradores.
 
-The [https://www.designabetterbusiness.tools](https://www.designabetterbusiness.tools) have created multiple persona canvases (one is shown in the figure above) which are available for reuse under CC-BY ShareAlike 4.0 License, which can be downloaded [here](https://www.designabetterbusiness.tools/tools/persona-canvas).
+El [https://www.designabetterbusiness. los ools](https://www.designabetterbusiness.tools) han creado múltiples lienzos de personas (uno se muestra en la figura anterior) que están disponibles para su reutilización bajo CC-BY ShareAlike 4. Licencia, que puede ser descargada [aquí](https://www.designabetterbusiness.tools/tools/persona-canvas).
 
-## Examples of personas in _The Turing Way_ community
+## Ejemplos de personas en la comunidad _The Turing Way_
 
-In the next subchapter, you will find examples of personas and pathways in _The Turing Way_ community. With the help of different personas, we have also collected a list of contribution pathways in _The Turing Way_ and how they are acknowledged (see {ref}`Contribution types and pathways <ch-acknowledgement-examples>`).
+En el siguiente subcapítulo, encontrarás ejemplos de personas y rutas en la comunidad _The Turing Way_. Con la ayuda de diferentes personas, también hemos recolectado una lista de rutas de contribución en _The Turing Way_ y cómo se reconocen (ver {ref}`Tipos de contribución y rutas <ch-acknowledgement-examples>`).
 
-*You are welcome to contribute to this chapter by testing the process described here to create a persona for your project. Your feedback will help us improve this process, and your output can be added here under the example section.*
+*Usted es bienvenido a contribuir a este capítulo probando el proceso descrito aquí para crear una persona para su proyecto. Sus comentarios nos ayudarán a mejorar este proceso, y su salida puede ser añadida aquí en la sección de ejemplo.*

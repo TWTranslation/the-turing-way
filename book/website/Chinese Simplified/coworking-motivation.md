@@ -1,67 +1,67 @@
-(ch-coworking-motivation)=
-# Background, Motivations, and Techniques
+(ch-cooperation-motives)=
+# 背景、动力和技术
 
-## Background and Motivation
+## A. 背景和动机。
 
-When _The Turing Way_ started with around 10 members located in the United Kingdom, they could work in real-time and often together in the same location. They shared ideas, helped each other out, got huge amounts of writing, editing and reviewing done, and had lots of fun interacting with each other.
+_Ting Way_ 始于约10个成员在联合王国境内。 他们可以实时工作，而且常常在同一地点一起工作。 他们交流想法，相互帮助，获得大量的写作、编辑和审查，并且有很多有趣的相互交流。
 
-To help the community of contributors grow beyond the core team, the in-person book dash (a shorter version of [book sprints](https://www.booksprints.net/)) were hosted to offer interested participants a similar collaborative environment with an advantage to connect with each other informally. However, not everyone can join such in-person events. These only work for people who can take 1-2 full days from their job-related and personal responsibilities to attend the event. Moreover, they take a lot of time and effort in organisation and are expensive to run, especially if we want to host them frequently to allow more and more participants to experience the joy of working together.
+帮助捐助界超越核心小组的力量壮大， 面对面的书籍破折号( [书冲印](https://www.booksprints.net/)的较短版本)是为了给感兴趣的参与者提供一个类似的合作环境，并且具有与对方进行非正式联系的优势。 然而，并非每个人都能亲自参加这种活动。 只有那些能够从与工作有关的责任和个人责任中全天参加活动的人才能参加这些活动。 此外，它们在组织方面花费了许多时间和精力，而且运作费用昂贵。 尤其是如果我们想要经常接待他们，使越来越多的与会者能够体验合作的喜悦。
 
-This is where the practice of online coworking is extremely valuable for _The Turing Way_ as a community project.
+在这个地方，网上共用的做法对 _社区项目的 Ting Way_ 极为宝贵。
 
-The motivation behind hosting these online calls for _The Turing Way_ community are the following:
+主办这些在线通话的动机是 _Ting Way_ 社区：
 
-1. Onboard members who are new to the project by providing a real-time orientation
-2. Build personal connections between members of the community
-3. Support contributors as they edit, review, design and write content for the book
-4. Create a sense of accountability and ownership for the goals our members want to accomplish in the project
-5. Celebrate the progress of _The Turing Way_ and collaboratively build consensus on the next steps and future directions.
+1. 提供实时方向的在线项目成员
+2. 在社区成员之间建立个人联系
+3. 支持贡献者编辑、审查、设计和写入书内容
+4. 为我们成员希望在项目中实现的目标创造一种责任感和主人翁感。
+5. 庆祝 _前进之路_ 并协作就今后的步骤和今后的方向达成共识。
 
-We aim to create a safe space for shared experience, connection, support and collaboration for the distributed community of _The Turing Way_.
+我们的目标是为分布式社区 _Ting Way_ 创建一个安全的共享经验、连接、支持与协作空间。
 
-If you want to attend these calls but don't know what to work on, don't worry! _The Turing Way_ core team members will be on the call and point you to some starting points in the project and other ongoing efforts where you can make a difference.
+如果你想要参加这些通话，但不知道要做什么，别担心！ _优秀方式_ 核心团队成员将接到呼叫，指向您在项目中的一些起点和其他正在进行的努力让您有所作为。
 
-## Techniques
+## 技术
 
-We offer two types of coworking calls: 1-hour short calls every week to work on ongoing projects in the community, and 2-hour long bimonthly Collaboration Cafes that offers a mix of community discussion and quiet working slots. We encourage our members to attend for as long during these designated hours as their schedule allows, even if they can't be present during the entire call.
+我们提供两种共用电话：每周1小时短电话，就社区正在进行的项目开展工作。 双月制双月制协作咖啡厅，提供社区讨论和静静的工作场所。 我们鼓励我们的成员在他们的时间安排允许的情况下尽可能长的时间参加会议。 即使他们在整个通话中不能存在。
 
-These calls use a combination of two techniques:
-1. Shut up & Write method
-2. Pomodoro Interval Technique
+这些呼叫使用两种技术组合：
+1. 关闭 & 写入方法
+2. 番茄时间间隔
 
-### Shut up & Write
+### 关闭 & 写入
 
-The [Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*. Their [method](https://shutupwrite.com/method) divides the writing process into eight steps: ideation, structuring, drafting, editing, restructuring and revising, polishing, publishing, and promoting. They encourage their participants to identify what they want to write and where they are in this eight-step process. Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
+[关闭 & 写入！](https://shutupwrite.com/) 是 *本地写入会话，您可以在会话中完成撰写* 他们的 [方法](https://shutupwrite.com/method) 将写作过程分为八个步骤：理想化、结构、起草、编辑、结构调整和修订、打磨、出版和宣传。 他们鼓励与会者确定他们想写什么和他们在这八步进程中的位置。 一旦他们确定了他们的起点，并承诺通过练习一致性来完成下一步的工作 *稳定到“末日”*。
 
-They explain that the Shut up & Write! events provide two things:
+他们解释说关机 & 写入！ 事件提供了两件事：
 
-**1. Accountability & Habit Formation:**
+**1. 问责制 & 习惯形成：**
 
-A new habit becomes a part of our routine when we commit to doing them consistently on a specific day, time, and location. Based on this principle, Shut up & Write events allow participants to yield successful outcomes for their writing assignments by making the commitment to attend the writing event each week at the same time for 1 hour.
+当我们承诺在某个特定的日、时间和地点坚持这样做时，新的习惯就成为我们例行工作的一部分。 基于这一原则。 关闭 & 写入事件使得参与者能够通过承诺每周同时参加写作活动1小时的方式在他们的写作任务中获得成功的结果。
 
-**2. Social Motivation & Support:**
+**2. 社交动机 & 支持：**
 
-The *sense of belonging* can increase performance and engagement in tasks. In a survey conducted on 2000 participants from different sectors, high belonging was linked to a whopping 56% increase in job performance {cite:ps}`HBR2019Belonging`. Along the same line, Shut Up & Write events provide a sense of community where attendees feel supported and motivated by everyone else writing around them.
+*归属感* 可以提高业绩和参与任务。 在对来自不同部门的2000年参与者进行的一次调查中， 高归属率与工作表现增长56%相关联。 {cite:ps}`HBR2019归属` 沿着同一线， 关闭 & 写入事件提供了一种社区感情，在这种感情中，参与者感觉到所有其他人都在他们周围写信。
 
-They create a cycle of 3 experiences: "habit building and progress", "social support and accountability" and "great writing experience", which keep people engaged, feel committed and accomplish what they set out to do.
+它们创造了一个由3种经验组成的周期：“习惯建设和进步”、“社会支持和问责制”和“伟大的写作经验”， • 使人们参与进来，感到他们的承诺和完成他们准备做的事情。
 
 ### Pomodoro Technique
 
-The [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) uses a timer to break down work into smaller intervals usually of 25 minutes called "Pomodoros", separated by short breaks of 5 minutes. Like the previous technique, the Pomodoro technique allows planning, tracking, recording, processing and visualizing the task at hand.
+[番茄钟技术](https://en.wikipedia.org/wiki/Pomodoro_Technique) 使用计时器将工作分成较小的间隔，通常为25分钟，称为“番茄钟”， 用短课间休息5分钟隔开。 像先前的技术一样，番茄钟技术允许规划、跟踪、记录、处理和视觉完成手头的任务。
 
-> Pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Francesco Cirillo used as a university student. {cite:ps}`Lifehack2020pomodoro`
+> 在Francesco Cirillo作为大学生使用的番茄土形厨房计时器之后，从意大利语中的“番茄色”中引出。 {cite:ps}`Lifehack2020pomodoro`
 
-The goal of this technique is to avoid procrastinating and get things done with the help of the following workflow:
-- identify the task
-- set the Pomodoro timer (25 minutes long)
-- work on the task until the timer rings
-- take a 5 minutes break
-- identify what would you work on next
-- restart the timer and repeat the workflow
+这种技术的目的是避免拖延，并在以下工作流程的帮助下完成事情：
+- 确认任务
+- 设置番茄计时器 (25分钟长)
+- 工作到计时器铃声
+- 休息5分钟
+- 确定下一步你会做哪些工作
+- 重新启动计时器并重复工作流
 
-The original method recommends putting a checkmark on a piece of paper to count the number of Pomodoros and suggests taking a longer break of 15-30 minutes after four Pomodoros. The longer breaks can be used for the following tasks:
-- Reflect on the work that you could get done in the last Pomodoros
-- Reflect on what you learned and what you would do differently going forward
-- Identify the next set of tasks or the next steps in the project you are working on
+最初的方法建议在一张纸上放一个校验标记来计算番茄钟的数量，并建议在四个番茄钟后延长15-30分钟的休息时间。 更长的休息时间可以用于以下任务：
+- 思考你可以在最后一个番茄土豆中完成的工作
+- 思考你所学到的东西和你将以不同的方式向前迈进的内容
+- 确定您正在执行的项目中的下一组任务或下一步骤
 
-In the next subchapters, we explain our coworking call formats where we combine these two techniques to host the biweekly Collaboration Cafes and weekly coworking calls for our community members.
+在下一个小节中， 我们解释了我们的共用通话格式，我们将这两种技术结合起来主办双周协作咖啡厅和每周社区成员的共用电话。

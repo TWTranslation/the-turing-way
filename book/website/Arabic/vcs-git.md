@@ -1,52 +1,52 @@
 (rr-vcs-git)=
-# Getting Started with Git
+# البدء مع Git
 
-To get started, please make sure that your have Git installed on your computer. Instructions for installing Git on Linux, Windows and Mac machines are available [here](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git). Once the installation is complete, go to your project directory via terminal or command-line interface (for example, `cd my-project-folder`). Your project folder contains all of your files, including subdirectories.
+للبدء، يرجى التأكد من تثبيت Git على جهاز الكمبيوتر الخاص بك. التعليمات لتثبيت Git على لينكس و ويندوز و ماك آلات متوفرة [هنا](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git). بمجرد اكتمال التثبيت، انتقل إلى دليل المشروع الخاص بك عبر واجهة المحطة الطرفية أو سطر الأوامر (على سبيل المثال، `cd my-project-folder`). يحتوي مجلد المشروع الخاص بك على جميع ملفاتك، بما في ذلك الدلائل الفرعية.
 
-When working on a project, you will make numerous changes to your files as you progress. Sometimes you may need to undo changes, take another look at past versions, or compare versions. Saving each version individually (such as `version_1.py` and `version_2.py`) is messy and quickly becomes impractical.
+عند العمل على مشروع ، ستجري العديد من التغييرات على ملفاتك أثناء تقدمك. قد تحتاج أحيانا إلى التراجع عن التغييرات، أو إلقاء نظرة أخرى على الإصدارات السابقة، أو مقارنة الإصدارات السابقة. حفظ كل نسخة منفردة (مثل `version_1.py` و `الإصدار_2.py`هو أمر فوضوي ويصبح بسرعة غير عملي.
 
-Commits serve as checkpoints where individual files or an entire project can be safely reverted to when necessary. By making commits, you can save versions of your code and switch between them/compare them easily without cluttering up your directory.
+وتعمل الالتزامات كنقاط تفتيش حيث يمكن العودة بأمان إلى ملفات فردية أو إلى مشروع كامل عند الضرورة. من خلال الدخول في التزامات، يمكنك حفظ إصدارات التعليمات البرمجية الخاصة بك والتبديل بينهم/مقارنتهم بسهولة دون الاستحواذ على الدليل الخاص بك.
 
-To get started with your Git repository, run the following Git command in the terminal to create/initialise your Git repository:
+للبدء مع مستودع Git الخاص بك، قم بتشغيل أمر Git التالي في المحطة الطرفية لإنشاء / تهيئة مستودع Git الخاص بك:
 
 ```
 git init
 ```
 
-This only needs to be done once per project.
+ولا يلزم القيام بذلك إلا مرة واحدة لكل مشروع.
 
-Think of the repository as a place where the history is being stored. When you first initialise a repository with `git init`, all of the files in your project would not be added to the Git repository as they are  untracked by Git by default. Therefore, the next step is to add your files to the Git repository and allow Git to track them.
+فكر في المستودع كمكان يتم فيه تخزين التاريخ. عندما تقوم بتهيئة مستودع باستخدام `git init`، لن تتم إضافة جميع الملفات في مشروعك إلى مستودع Git حيث أنها غير متبوعة بواسطة Git بشكل افتراضي. لذلك، الخطوة التالية هي إضافة ملفاتك إلى مستودع Git والسماح Git بتعقبها.
 
-Run the following command to add all files in the current folder:
+قم بتشغيل الأمر التالي لإضافة جميع الملفات في المجلد الحالي:
 ```
-git add .
+git يضاف
 ```
-OR run the following command to add only the files ('your_file_name' in this example):
+أو قم بتشغيل الأمر التالي لإضافة الملفات فقط ('your_file_name' في هذا المثال:
 ```
-git add your_file_name
+git أضف ملف_اسمك
 ```
 
-This command puts your newly added files or any other changes into what is called the "staging" state.
+هذا الأمر يضع ملفاتك المضافة حديثا أو أي تغييرات أخرى في ما يسمى حالة "التجهيز".
 
 ```{figure} ../../figures/change-stage-repo.png
 ---
 name: change-stage-repo
-alt: An illustration of the `git add` and git commit Commands.
+البديل : مثال توضيحي لـ `git add` و git يلتزمان بالأمرين.
 ---
-How `git add` and `git commit` works
+كيف 'git إضافة' و 'git commit' يعملان
 ```
 
-If you are ever unsure what files have been added, what files have been changed, or what files are untracked, you can run the following to find out:
+إذا كنت غير متأكد من الملفات التي تمت إضافتها، فما هي الملفات التي تم تغييرها، أو ما هي الملفات التي لم يتم تعقبها، يمكنك تشغيل ما يلي لمعرفة ذلك:
 
 ```
 git status
 ```
 
-The next step is to "commit" any changes stored in your staging area so that they are recorded in your repository.
+الخطوة التالية هي "التزام" بأي تغييرات مخزنة في منطقة التجهيز الخاصة بك بحيث يتم تسجيلها في المستودع الخاص بك.
 
 ```
-git commit
+التزام git
 ```
-Congratulations, you have finished setting up your repository!
+تهانينا، لقد انتهت من إعداد المستودع الخاص بك!
 
-You will learn more about `git commit` in the next chapter.
+سوف تتعلم المزيد عن `git الالتزام` في الفصل التالي.

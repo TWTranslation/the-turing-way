@@ -1,227 +1,227 @@
-(rr-licensing-compatibility)=
-# License Compatibility
+(rr-licencia-compatibilidad)=
+# Compatibilidad de la licencia
 
-If you use multiple external components in your program, then you may end up with multiple different constraints on the license of the combined work. If these constraints conflict, then you cannot legally distribute the result (if proprietary software is involved, then you may not legally be able to make the combined work at all).
+Si utiliza múltiples componentes externos en su programa, puede terminar con múltiples restricciones diferentes sobre la licencia del trabajo combinado. Si estas restricciones entran en conflicto, entonces no puede distribuir legalmente el resultado (si está involucrado el software propietario, entonces usted no podrá hacer legalmente el trabajo combinado en absoluto).
 
-If two licenses specify incompatible constraints on the license of the combined work, then they are _incompatible_.
+Si dos licencias especifican restricciones incompatibles con la licencia del trabajo combinado, entonces son _incompatibles_.
 
-The GNU GPL, for instance, is incompatible with proprietary licenses, because it requires the combined work to be licensed under the GPL, with no additional restrictions allowed. Having a part of the work under a proprietary license is such an additional restriction, so you cannot distribute such a combination (unless the copyright owner of the GPL code gives special permission).
+El GNU GPL, por ejemplo, es incompatible con licencias propietarias, porque requiere que el trabajo combinado sea licenciado bajo el GPL, sin restricciones adicionales permitidas. Tener una parte de la obra bajo una licencia autónoma es una restricción adicional, por lo que no puede distribuir dicha combinación (a menos que el propietario de derechos de autor del código GPL otorgue permisos especiales).
 
-When you use different pieces of software together to solve a problem, and want to distribute the result, here are the questions you have to answer:
+Cuando utiliza diferentes piezas de software juntos para resolver un problema, y quiere distribuir el resultado, aquí están las preguntas que tiene que responder:
 
-- Which separate works are there, and what is derived from what?
-- Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
-- How should the work(s) be licensed?
+- ¿Qué obras separadas están ahí, y qué se deriva de qué?
+- ¿Se pueden distribuir las obras derivadas? ¿Las licencias lo permiten, y son compatibles?
+- ¿Cómo se debe licenciar la(s) obra(s) obras?
 
-The next section shows some examples of how this is done.
+La siguiente sección muestra algunos ejemplos de cómo se hace.
 
-(rr-licensing-compatibility-examples)=
-## Examples
+(rr-licencia-compatibilidad-ejemplos)=
+## Ejemplos
 
-Many of the examples in this section relate to [xtas](http://xtas.net). xtas is a natural language processing toolkit for Python that reuses many third-party libraries, programs and data sets, and therefore provides a variety of excellent examples.
+Muchos de los ejemplos de esta sección se relacionan con [xtas](http://xtas.net). xtas es un conjunto de herramientas de procesamiento de lenguaje natural para Python que reutiliza muchas librerías de terceros, y conjuntos de datos, y por lo tanto proporciona una variedad de excelentes ejemplos.
 
 ```{figure} ../../figures/xtas-overview96.png
 ---
-name: xtas-overview96
-alt: A graphical overview of xtas. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Underneath this, there are three side-by-side squares, representing respectively Python libraries, software, and data, that are used by xtas. Within the Python libraries square, there are three boxes. The first box contains the words "BSD", "MIT" and "ALv2". The second box contains "LGPLv2.1". The third box contains "GPLv2+". Within the Software square, there are four boxes. The first box contains "Web Service". The second box contains "LGPL v2.1+". The third box contains "Research only", and the fourth box contains "GPL 2+/3+". The Data square also contains four boxes. The first box contains "CC BY-SA 3.0". The second box contains "Research Only". The third box contains "No license, US" and the fourth box contains "CoNLL'02 only".
+nombre: xtas-overview96
+alt: Un resumen gráfico de xtas. Un gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de esto, hay tres cuadrados lado a lado, representando respectivamente bibliotecas de Python, software y datos, que son usados por xtas. Dentro del cuadrado de las bibliotecas de Python, hay tres cajas. La primera caja contiene las palabras "BSD", "MIT" y "ALv2". La segunda caja contiene "LGPLv2.1". La tercera caja contiene "GPLv2+". Dentro del cuadrado del Software, hay cuatro cajas. La primera caja contiene "Servicio Web". La segunda caja contiene "LGPL v2.1+". La tercera caja contiene "Sólo investigación", y la cuarta caja contiene "GPL 2+/3+". La plaza de datos también contiene cuatro casillas. La primera caja contiene "CC BY-SA 3.0". La segunda caja contiene "Sólo Investigación". La tercera caja contiene "Sin licencia, EE.UU." y la cuarta caja contiene "sólo CoNLL'02".
 ---
-A graphical overview of xtas.
+Un resumen gráfico de xtas.
 ```
 
-xtas itself is written in Python, and it uses a number of Python libraries that are licensed under common free licenses. These include the simple permissive BSD and MIT licenses, the permissive Apache License version 2.0 (ALv2), the GNU Lesser General Public License version 2.1 (LGPLv2.1), and the GNU General Public License version 2 or later (GPLv2+).
+xtas está escrito en Python, y utiliza una serie de bibliotecas Python que están licenciadas bajo licencias libres. Estos incluyen las licencias BSD y MIT simples, la versión 2 de la Licencia Apache permisiva. (ALv2), GNU Lesser General Public License versión 2.1 (LGPLv2.1), y GNU General Public License versión 2 o posterior (GPLv2+).
 
-(Note that the dependency on the GPLv2+ Python library is deprecated, but for the sake of these examples, we will assume it to still be there.)
+(Tenga en cuenta que la dependencia de la librería GPLv2+ Python está obsoleta, pero por el bien de estos ejemplos, asumiremos que todavía está ahí.)
 
-xtas' Python code is distributed under the Apache License version 2.0. Since the xtas authors own the copyright, they can license it any way they like (although there is a gray area concerning GPL dependencies, see below). The xtas authors do not distribute any combined works or binaries, but in the examples below, we will assume that there is a combined work, so that we can consider how it should be licensed.
+El código Python de xtas se distribuye bajo la licencia Apache versión 2.0. Puesto que los autores de xtas poseen los derechos de autor, pueden licenciarlo de cualquier manera que les guste (aunque hay un área gris en relación a las dependencias GPL, véase abajo). Los autores de xtas no distribuyen ninguna obra combinada o binarios, sino en los ejemplos siguientes, suponemos que hay un trabajo combinado, para que podamos considerar cómo debe ser autorizado.
 
-In the following examples, we will simplify most of this away and look at one or a few dependencies in turn.
+En los siguientes ejemplos, simplificaremos la mayor parte de esto y analizaremos una o algunas dependencias a su vez.
 
-(rr-licensing-compatibility-examples-apachevsbsd)=
+(rr-licencia-compatibilidad-ejemplos-apachevsbsd)=
 ### Apache vs. BSD
 
 ```{figure} ../../figures/xtas-snowball96.png
 ---
 name: xtas-snowball96
-alt: An illustration of the xtas vs. Snowball example.  A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Snowball Stemmer" and "Python lib BSD".
+alt: Una ilustración del ejemplo xtas vs. Snowball.  Un gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de ese es un cuadrado que contiene las palabras "Snowball Stemmer" y "Python lib BSD".
 ---
-An illustration of the xtas vs. Snowball example.
+Una ilustración del ejemplo xtas vs. Bola de nieve.
 ```
 
-xtas uses [Snowball](https://snowballstem.org/), a Python-based stemming library. Snowball is published under the 3-clause BSD license. Considering only xtas and Snowball, we can answer the three questions as follows:
+xtas usa [Snowball](https://snowballstem.org/), una librería basada en Python. Snowball se publica bajo la licencia BSD de 3 cláusulas. Considerando solo xtas y Snowball, podemos responder a las tres preguntas de la siguiente manera:
 
-#### Which separate works are there, and what is derived from what?
+#### ¿Qué obras separadas están ahí, y qué se deriva de qué?
 
-There are three works: Snowball, the xtas Python code, and the combined work xtas. The combined work is derived from Snowball and xtas Python code, which are both independent works.
+Hay tres obras: Snowball, el código xtas Python y el trabajo combinado xtas. El trabajo combinado se deriva del código Snowball y xtas Python, ambos trabajos independientes.
 
-Note that the ALv2 and the LGPL v2.1 explicitly state that source code that is intended to work in combination with a library is not a derivative work, while the binary resulting from (statically or dynamically) linking the pieces together is. Other licenses, including the GPL, do not make any explicit statement about this.
+Tenga en cuenta que el ALv2 y el LGPL v2. indica explícitamente que el código fuente que está destinado a funcionar en combinación con una biblioteca no es un trabajo derivado, mientras que el binario resultante (estática o dinámicamente) de unir las piezas juntas. Otras licencias, incluyendo el GPL, no hacen ninguna declaración explícita al respecto.
 
-As far as I know, there is no case law on this; we will assume it to be the case in these examples.
+Que yo sepa, no hay jurisprudencia al respecto; suponemos que así es en estos ejemplos.
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### ¿Se pueden distribuir las obras derivadas? ¿Las licencias lo permiten, y son compatibles?
 
-Snowball is licensed under a permissive license. It can be redistributed under that license, and there are no constraints on the license of derivative works. The xtas authors can license it any way they want.
+Snowball está licenciado bajo una licencia permisiva. Puede redistribuirse bajo esa licencia, y no hay restricciones a la licencia de obras derivadas. Los autores de xtas pueden licenciarlo como quieran.
 
-#### How should the work(s) be licensed?
+#### ¿Cómo se debe licenciar la(s) obra(s) obras?
 
-The xtas Python code, and the xtas combined work, are licensed under the Apache License v2.0.
+El código xtas Python y el trabajo combinado xtas están licenciados bajo la Apache License v2.0.
 
-If xtas authors redistribute Snowball, they must do so under the BSD license granted by Snowball authors. (They cannot give additional permissions for Snowball, since they do not own the copyright, and additional restrictions would be unenforceable for the same reason.)
+Si los autores xtas redistribuyen Snowball, deben hacerlo bajo la licencia BSD otorgada por autores de Snowball. (No pueden dar permisos adicionales para Snowball, ya que no poseen los derechos de autor, y las restricciones adicionales no se podrían aplicar por la misma razón.)
 
-(rr-licensing-compatibility-examples-apachevslgpl)=
+(rr-licencia-compatibilidad-ejemplos-apachevslgpl)=
 ### Apache vs. LGPL
 
 ```{figure} ../../figures/xtas-chardet96.png
 ---
-name: xtas-chardet96
-alt: An illustration of the xtas vs. chardet example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "chardet" and "Python lib LGPLv2.1".
+nombre: xtas-chardet96
+alt: Una ilustración del ejemplo xtas vs. chardet. Un gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de eso hay un cuadrado que contiene las palabras "chardet" y "Python lib LGPLv2.1".
 ---
-An illustration of the xtas vs. chardet example.
+Una ilustración del ejemplo xtas vs. chardet.
 ```
 
-xtas uses [chardet](https://pypi.org/project/chardet/), a Python library for detecting the character set used in a string of text. Chardet is published under the GNU Lesser General Public License v2.1. Considering only xtas and chardet, we can answer the three questions as follows.
+xtas usa [chardet](https://pypi.org/project/chardet/), una biblioteca de Python para detectar el conjunto de caracteres usado en una cadena de texto. Chardet está publicado bajo la Licencia Pública General Lesser GNU v2.1. Considerando sólo xtas y chardet, podemos responder las tres preguntas de la siguiente manera.
 
-#### Which separate works are there, and what is derived from what?
+#### ¿Qué obras separadas están ahí, y qué se deriva de qué?
 
-There are three works: chardet, the xtas Python code, and the combined work. The combined work is derived from chardet and xtas Python code. The others are independent works.
+Hay tres obras: chardet, el código xtas Python y el trabajo combinado. El trabajo combinado se deriva del código chardet y xtas Python. Los demás son obras independientes.
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### ¿Se pueden distribuir las obras derivadas? ¿Las licencias lo permiten, y son compatibles?
 
-Chardet is licensed under a weak copyleft license, so it can be redistributed under the terms of that license. Derivative works can be licensed under any license. However, the LGPL v2.1 requires that the recipient can (and is allowed to) modify the library and use the modified library with the derivative work.
+Chardet está licenciado bajo una licencia de copyleft débil, por lo que puede ser redistribuida bajo los términos de dicha licencia. Las obras derivadas pueden ser licenciadas bajo cualquier licencia. Sin embargo, el LGPL v2.1 requiere que el destinatario pueda (y esté autorizado) modificar la biblioteca y utilizar la biblioteca modificada con el trabajo derivado.
 
-#### How should the work(s) be licensed?
+#### ¿Cómo se debe licenciar la(s) obra(s) obras?
 
-xtas as a whole, and the xtas Python code, can be licensed in any way the authors want, so they used the Apache License v2.0. If they distribute chardet, they must do so under the LGPL v2.1 license granted by its copyright owners.
+xtas en su conjunto, y el código xtas Python, pueden ser licenciados de la forma que deseen los autores, así que usaron la Apache License v2.0. Si distribuyen chardet, deben hacerlo bajo la licencia LGPL v2.1 otorgada por sus propietarios de derechos de autor.
 
-(rr-licensing-compatibility-examples-apachevsgplv2)=
+(rr-licencia-compatibilidad-ejemplos-apachevsgplv2)=
 ### Apache vs. GPLv2
 
 ```{figure} ../../figures/xtas-unidecode96.png
 ---
 name: xtas-unidecode96
-alt: An illustration of the xtas vs. unidecode example. The large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
+alt: Una ilustración del ejemplo xtas vs. unidecode. El gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de eso hay un cuadrado que contiene las palabras "unidecode" y "Python lib GPLv2+".
 ---
-An illustration of the xtas vs. unidecode example.
+Una ilustración del ejemplo xtas vs. unidecode.
 ```
 
-xtas previously used [unidecode](https://pypi.org/project/Unidecode/), a Python library for converting text encoded according to The Unicode® Standard into an ASCII approximation of it. Unidecode is published under the GNU General Public License version 2 or later (GPLv2+). Considering only xtas and unidecode, we can answer the three questions as follows.
+xtas previamente usó [unidecode](https://pypi.org/project/Unidecode/), una biblioteca de Python para convertir texto codificado de acuerdo a The Unicode® Standard a una aproximación ASCII de él. Unidecode se publica bajo la Licencia Pública General GNU versión 2 o posterior (GPLv2+). Considerando sólo xtas y unidecode, podemos responder las tres preguntas de la siguiente manera.
 
-#### Which separate works are there, and what is derived from what?
+#### ¿Qué obras separadas están ahí, y qué se deriva de qué?
 
-There are three works: unidecode, the xtas Python code, and the combined work. The combined work derives from unidecode and the xtas Python code.
+Hay tres obras: unidecode, el código xtas Python y el trabajo combinado. El trabajo combinado deriva de unidecode y el código Python xtas.
 
-Whether the xtas Python code is a derivative work of unidecode is not clearly defined by the law, and there is no case law on this. The Apache license and the LGPL explicitly state that it is not for the purpose of those licenses, but the GPL does not contain such a clause.
+Si el código de Python xtas es un trabajo derivado de unidecode no está claramente definido por la ley, y no hay jurisprudencia al respecto. La licencia Apache y la LGPL afirman explícitamente que no es para el propósito de esas licencias, pero la GPL no contiene tal cláusula.
 
-As they are developed separately, and there is no code from unidecode in the xtas code, we assume here that it is not a derivative work.
+A medida que se desarrollan por separado, y no hay código de unidecode en el código xtas, partimos de la base de que no se trata de un trabajo derivado.
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### ¿Se pueden distribuir las obras derivadas? ¿Las licencias lo permiten, y son compatibles?
 
-Unidecode is licensed under a strong copyleft license, so it is redistributed under the terms of that license. Derivative works must be licensed under the same license.
+Unidecode está licenciado bajo una fuerte licencia de copyleft, por lo que se redistribuye bajo los términos de dicha licencia. Las obras derivadas deben ser licenciadas bajo la misma licencia.
 
-Unidecode is licensed under the GPL version 2 or later. This is known as a _disjunctive license_. The copyright owners of unidecode offer everyone a GPLv2 license, but also a GPLv3 license, and even proactively any later version of the GNU GPL that may be created in the future. A potential user may choose to accept any one of these licenses, or a combination of them, if they want to copy the work or make derivative works.
+Unidecode está licenciado bajo la GPL versión 2 o posterior. Esto es conocido como una licencia _disyuntiva_. Los propietarios de derechos de autor de unidecode ofrecen a todos una licencia GPLv2, pero también una licencia GPLv3, e incluso proactivamente cualquier versión posterior de la GNU GPL que pueda ser creada en el futuro. Un usuario potencial puede optar por aceptar cualquiera de estas licencias, o una combinación de ellos, si quieren copiar la obra o hacer trabajos derivados.
 
-#### How should the work(s) be licensed?
+#### ¿Cómo se debe licenciar la(s) obra(s) obras?
 
-If the xtas authors distribute unidecode, they should do so under the GPL version 2 or higher, as arbitrarily removing licenses from someone else's code does not make sense. The combined work xtas must be distributed under the same licenses or a subset of them. The xtas Python code can be licensed in any way they want.
+Si los autores xtas distribuyen unidecode, deben hacerlo bajo la versión 2 de GPL o superior, ya que la eliminación arbitraria de licencias del código de otra persona no tiene sentido. Las xtas de trabajo combinadas deben ser distribuidas bajo las mismas licencias o un subconjunto de ellas. El código xtas Python puede ser licenciado de la manera que quieran.
 
-The xtas authors should choose a license for the xtas Python code that is compatible with at least one of the licenses that unidecode can be distributed under so that others can assemble and distribute combined works. The ALv2 is compatible with the GPLv3 (but not with the GPLv2, for technical reasons), so they can use it here.
+Los autores de xtas deben elegir una licencia para el código de xtas Python que sea compatible con al menos una de las licencias bajo las cuales se puede distribuir unidecode para que otros puedan ensamblar y distribuir trabajos combinados. El ALv2 es compatible con el GPLv3 (pero no con el GPLv2, por razones técnicas), por lo que pueden usarlo aquí.
 
-The combined work should then be licensed under the GPL version 3 or later. If it is important that it can be used under the GPLv2 as well, then the xtas authors can license the xtas Python code under both the ALv2 and the GPLv2 (meaning, they offer both licenses, and the user can choose to accept either or both), and the combined work under the GPL version 2 or later.
+El trabajo combinado debe ser licenciado bajo la versión 3 de GPL o posterior. Si es importante que se pueda utilizar también bajo el GPLv2 entonces los autores de xtas pueden licenciar el código Python xtas bajo ALv2 y el GPLv2 (significado, ofrecen ambas licencias, y el usuario puede optar por aceptar cualquiera o ambos), y el trabajo combinado bajo la versión 2 de la GPL o posterior.
 
-Finally, it may be decided later that the xtas Python source code is a derivative work of unidecode because it calls into it. Even if none of unidecode is included in the work, then the xtas authors must distribute the xtas Python code under at least one of the GPL licenses that unidecode is distributed under. In that case, they can offer xtas under the ALv2 and GPLv2+ set of licenses.
+Por último, puede decidirse más tarde que el código fuente xtas Python es un trabajo derivado de unidecode porque lo llama. Incluso si ninguno de los códigos unidecode está incluido en el trabajo, entonces los autores de xtas deben distribuir el código xtas Python bajo al menos una de las licencias GPL bajo las que se distribuye unidecode. En ese caso, pueden ofrecer xtas bajo el conjunto de licencias ALv2 y GPLv2+.
 
-The simplest solution, in this case, would be to simply license the xtas Python code and the derived work under the GPLv3.
+La solución más simple, en este caso, sería simplemente licenciar el código xtas Python y el trabajo derivado bajo el GPLv3.
 
-As is probably clear by now, dependencies that are under a strong copyleft license complicate your life if you want people to be able to make proprietary works based on your software.
+Como probablemente está claro hasta ahora, las dependencias que están bajo una licencia fuerte de copyleft complican su vida si quiere que la gente pueda hacer obras propietarias basadas en su software.
 
-(rr-licensing-compatibility-examples-apachevsall)=
+(rr-licencia-compatibilidad-ejemplos-apachevsall)=
 ### Apache vs BSD vs LGPL vs GPLv2
 
 ```{figure} ../../figures/xtas-all-python-libs96.png
 ---
 name: xtas-all-python-libs96
-alt: An illustration of the xtas and all Python libraries example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below this, there are three squares. The first square contains the words "Snowball" and "Python lib BSD". The second square contains "chardet" and "Python lib LGPLv2.1". The third square contains the words "unidecode" and "Python lib GPLv2+".
+alt: Una ilustración de xtas y de todas las librerías Python. Un gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de esto hay tres cuadrados. El primer cuadrado contiene las palabras "Snowball" y "Python lib BSD". El segundo cuadrado contiene "chardet" y "Python lib LGPLv2.1". El tercer cuadrado contiene las palabras "unidecode" y "Python lib GPLv2+".
 ---
-An illustration of the xtas and all Python libraries example.
+Una ilustración de las xtas y todas las librerías de Python.
 ```
 
-Now, we will consider all three of the above examples at the same time.
+Ahora consideraremos los tres ejemplos mencionados al mismo tiempo.
 
-#### How many separate works are there, and what is derived from what?
+#### ¿Cuántas obras separadas existen y qué se derivan de qué?
 
-There are five works: Snowball, chardet, unidecode, the xtas Python code, and xtas the combined work. The combined work is derived from all its components.
+Hay cinco obras: Snowball, chardet, unidecode, el código xtas Python y xtas el trabajo combinado. El trabajo combinado se deriva de todos sus componentes.
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### ¿Se pueden distribuir las obras derivadas? ¿Las licencias lo permiten, y son compatibles?
 
-The four non-xtas components are under free software licenses, and the xtas authors own the copyright to the xtas Python code, so all five components can be distributed by the xtas authors. The BSD, LGPLv2.1 and GPLv2+ all allow licensing the combined work under the GPL version 2 or higher, so there is at least one license that the combined work can be licensed under.
+Los cuatro componentes que no son xtas están bajo licencias de software libre, y los autores de xtas poseen los derechos de autor del código xtas Python, para que los cinco componentes puedan ser distribuidos por los autores xtas. El BSD, LGPLv2. y GPLv2+ permiten licenciar el trabajo combinado bajo la versión 2 de GPL o superior, para que haya al menos una licencia bajo la que el trabajo combinado puede ser licenciado.
 
-#### How should the work(s) be licensed?
+#### ¿Cómo se debe licenciar la(s) obra(s) obras?
 
-The xtas Python code should be licensed under the Apache License v2 and the combined work under the GPL version 3 or higher. (See the {ref}`unicode example <rr-licensing-compatibility-examples-apachevsgplv2>` above for alternatives.)
+El código xtas Python debe ser licenciado bajo la Licencia Apache v2 y el trabajo combinado bajo la versión 3 de GPL o superior. (See the {ref}`unicode example <rr-licensing-compatibility-examples-apachevsgplv2>` above for alternatives.)
 
 
-### Call External Program
+### Llamar al programa externo
 
-xtas can run the [Stanford CoreNLP program](https://stanfordnlp.github.io/CoreNLP/), which is written in Java and distributed under the GNU GPL version 3 or later. When the user calls the corresponding xtas function, CoreNLP is started by xtas, the user's input is sent to it through a pipe, and then the CoreNLP output is handed back to the user or processed further.
+xtas puede ejecutar el [programa Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/), que está escrito en Java y distribuido bajo la versión 3 de GNU GPL o posterior. Cuando el usuario llama a la función xtas correspondiente, CoreNLP es iniciado por xtas, la entrada del usuario se envía a ella a través de una tubería, y luego la salida CoreNLP se devuelve al usuario o se procesa más adelante.
 
 ```{figure} ../../figures/xtas-corenlp1-96.png
 ---
-name: xtas-corenlp1-96
-alt: An illustration of the xtas vs. CoreNLP example. The square represents the combined work xtas. Within this square, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Stanford CoreNLP" and "Java program GPLv3+".
+nombre: xtas-corenlp1-96
+alt: Una ilustración del ejemplo xtas vs. CoreNLP. El cuadrado representa las xtas de trabajo combinadas. Dentro de este cuadrado, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de ese es un cuadrado que contiene las palabras "Stanford CoreNLP" y "Java program GPLv3+".
 ---
-An illustration of the xtas vs. CoreNLP example.
+Una ilustración del ejemplo xtas vs. CoreNLP.
 ```
 
-One interpretation of this situation is that it is no different from calling a function in a library and that any distribution of xtas, as a whole, including CoreNLP, should therefore be under the GPLv3+. Contributing to this interpretation is the fact that xtas will download and install CoreNLP automatically if needed.
+Una interpretación de esta situación es que no es diferente de llamar a una función en una biblioteca y que cualquier distribución de xtas, en su conjunto, incluida CoreNLP, debería estar por tanto bajo el GPLv3+. Contribuir a esta interpretación es el hecho de que xtas descargará e instalará CoreNLP automáticamente si es necesario.
 
 ```{figure} ../../figures/xtas-corenlp2-96.png
 ---
-name: xtas-corenlp2-96
-alt: Another illustration of the xtas vs. CoreNLP example. The square on the left represents the combined work xtas. Within this square, there is a rectangle representing the xtas Python code, licensed under the Apache License v2. On the right is a separate square representing CoreNLP, with the text "Stanford CoreNLP" and "Java program GPLv3+". Between the squares are two arrows, one at the top pointing from xtas to CoreNLP, and one at the bottom pointing from CoreNLP to xtas.
+nombre: xtas-corenlp2-96
+alt: Otra ilustración del ejemplo xtas vs. CoreNLP. El cuadrado a la izquierda representa las xtas de trabajo combinadas. Dentro de este cuadro, hay un rectángulo que representa el código xtas Python, licenciado bajo la Apache License v2. A la derecha es un cuadrado separado que representa a CoreNLP, con el texto "Stanford CoreNLP" y "Java programa GPLv3+". Entre los cuadrados hay dos flechas, una en la parte superior apuntando de xtas a CoreNLP, y otra en la parte inferior apuntando de CoreNLP a xtas.
 ---
-Another illustration of the xtas vs. CoreNLP example.
+Otra ilustración de las xtas contra CoreNLP.
 ```
 
-Another interpretation is that xtas and CoreNLP are separate works and that xtas merely communicates with CoreNLP over its standard user interface.
+Otra interpretación es que xtas y CoreNLP son trabajos separados y que xtas simplemente se comunica con CoreNLP sobre su interfaz de usuario estándar.
 
-In this interpretation xtas is a separate program that helps a user use the CoreNLP program from the Python language, and not a derivative work of CoreNLP. One can consider xtas analogous to a package installer and a command shell here, which are clearly not derivative works of the packages they install or the programs they start.
+En esta interpretación xtas es un programa separado que ayuda al usuario a utilizar el programa CoreNLP del lenguaje Python, y no una obra derivada de CoreNLP. Se puede considerar xtas análoga a un instalador de paquetes y a un intérprete de comandos aquí, que claramente no son trabajos derivados de los paquetes que instalan o de los programas que inician.
 
-Under this interpretation, xtas as a whole (not including CoreNLP) can be distributed under any given license (subject to restrictions imposed by its other dependencies of course).
+Bajo esta interpretación, xtas en su conjunto (sin incluir CoreNLP) puede ser distribuido bajo cualquier licencia dada (sujeto a restricciones impuestas por sus otras dependencias, por supuesto).
 
-In practice, the xtas authors do not distribute CoreNLP at all; they only distribute the xtas Python code, under the Apache License version 2.
+En la práctica, los autores de xtas no distribuyen en absoluto CoreNLP; sólo distribuyen el código de xtas Python, bajo la Licencia Apache versión 2.
 
 
-### GPLv3 vs Proprietary License
+### GPLv3 vs Licencia Propietaria
 
-In this example project we want to combine the [OpenIFS global circulation model](https://confluence.ecmwf.int/display/OIFS) with the [DALES large-eddy simulation model](https://github.com/dalesteam/dales). Both these models are available as libraries, so the project entails combining the OpenIFS and Dales libraries into a single program.
+En este proyecto de ejemplo queremos combinar el [modelo de circulación global OpenIFS](https://confluence.ecmwf.int/display/OIFS) con el [modelo de simulación DALES de eddy](https://github.com/dalesteam/dales). Ambos modelos están disponibles como bibliotecas, por lo que el proyecto implica combinar las bibliotecas OpenIFS y Dales en un solo programa.
 
-(This is a simplified example, the reality of this project is a notch or two more complicated, and the below is not exactly what we do.)
+(Este es un ejemplo simplificado, la realidad de este proyecto es un poco más complicado, y lo siguiente no es exactamente lo que hacemos.)
 
-The OpenIFS library (part of the ECMWF weather model code) is available under a proprietary license that allows running the program and making private modifications, but does not allow distributing the program or any derivatives. DALES is published under the GPL version 3.
+La biblioteca OpenIFS (parte del código del modelo de tiempo ECMWF) está disponible bajo una licencia propietaria que permite ejecutar el programa y realizar modificaciones privadas, pero no permite distribuir el programa ni ningún derivado. DALES se publica bajo la versión 3 de GPL.
 
-#### How many separate works are there, and what is derived from what?
+#### ¿Cuántas obras separadas existen y qué se derivan de qué?
 
-There are four works: OpenIFS, DALES, the rest of the program written by us, and the combination of them all. The combined work is derived from its components.
+Hay cuatro obras: OpenIFS, DALES, el resto del programa escrito por nosotros, y la combinación de todas ellas. El trabajo combinado se deriva de sus componentes.
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### ¿Se pueden distribuir las obras derivadas? ¿Las licencias lo permiten, y son compatibles?
 
-The OpenIFS license does not allow redistribution, so it cannot be distributed. DALES can be distributed, under the GPLv3. The rest of the program is written by us and can be licensed by us if we want to.
+La licencia OpenIFS no permite la redistribución, por lo que no se puede distribuir. Las DALES se pueden distribuir, bajo el GPLv3. El resto del programa está escrito por nosotros y puede ser licenciado por nosotros si lo deseamos.
 
-The whole combined work cannot be distributed, since it incorporates OpenIFS. If it did not include OpenIFS, it would have to be distributed under the GPLv3, because of the DALES dependency.
+Todo el trabajo combinado no puede ser distribuido, ya que incorpora OpenIFS. Si no incluyera OpenIFS, tendría que distribuirse bajo el GPLv3, debido a la dependencia DALES.
 
-#### Can we work on this privately, without distributing anything?
+#### ¿Podemos trabajar en esto en privado, sin distribuir nada?
 
-The GPL allows making private modifications of software covered by it, with no restrictions, provided the changed software is not distributed at all. The OpenIFS license also allows making private modifications. So we can work on this project (and prepare and run combined works) without violating the licenses, as long as we do not share the results with anyone.
+La GPL permite realizar modificaciones privadas del software cubierto por él, sin restricciones, siempre que el software modificado no se distribuya en absoluto. La licencia OpenIFS también permite realizar modificaciones privadas. Así que podemos trabajar en este proyecto (y preparar y ejecutar trabajos combinados) sin violar las licencias, mientras no compartamos los resultados con nadie.
 
-However, if we want to collaborate with someone outside our organization, this means that we exchange materials between different legal entities, which counts as distribution. We can do that with our own code (which we can even publish openly under the ALv2) and with DALES, but not with OpenIFS or any combined works.
+Sin embargo, si queremos colaborar con alguien fuera de nuestra organización, esto significa que intercambiamos materiales entre diferentes entidades legales, que cuenta como distribución. Podemos hacerlo con nuestro propio código (que incluso podemos publicar abiertamente bajo el ALv2) y con DALES, pero no con OpenIFS o cualquier trabajo combinado.
 
-#### What other options are there in this kind of situation?
+#### ¿Qué otras opciones existen en este tipo de situación?
 
-We can try to split up the system into independent programs that run in separate processes and communicate with each other over well-documented, generic interfaces. In this way, there would never be a combined work, just a few independent works that exchange information. However, to not be considered a single work, how separate the programs have to be is unclear.
+Podemos tratar de dividir el sistema en programas independientes que se ejecutan en procesos separados y se comunican entre sí a través de interfaces genéricas bien documentadas. De este modo, nunca habría un trabajo combinado, sólo unos pocos trabajos independientes que intercambian información. Sin embargo, para no ser considerado un solo trabajo, no está claro hasta qué punto tienen que estar separados los programas.
 
-We could also ask the OpenIFS and DALES copyright owners for permission to share combined works between our organization and the outsider. That would remove all uncertainty, but may not be practical in general.
+También podríamos pedir permiso a los propietarios de derechos de autor de OpenIFS y DALES para compartir trabajos combinados entre nuestra organización y el exterior. Esto eliminaría toda incertidumbre, pero puede que no sea práctica en general.
 
-Another option would be to replace one of the dependencies by one we write. This is usually impractical, both due to time constraints and because the new version would not have the scientific pedigree of the existing one.
+Otra opción sería reemplazar una de las dependencias por una que escribimos. Esto suele ser poco práctico, tanto por las limitaciones de tiempo como porque la nueva versión no tendría el pedigrí científico de la existente.
 
-The fundamental issue here is that the GPL tries to make everyone shared stewards of the software we use, while proprietary software tries to keep control in the hands of a single owner.
+La cuestión fundamental aquí es que la GPL intenta hacer que todos compartan los administradores del software que usamos mientras que el software propietario intenta mantener el control en manos de un único propietario.
 
-Combining them in a single project is complicated and not without legal risk, and you should avoid it. If that is not possible, you should tread carefully.
+Combinarlos en un solo proyecto es complicado y no sin riesgo legal, y hay que evitarlo. Si esto no es posible, debería andar con cuidado.

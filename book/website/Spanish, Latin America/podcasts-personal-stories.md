@@ -1,92 +1,92 @@
-(cm-podcasts-personal-stories)=
-# Personal stories - Podcasts
+(cm-podcasts-personales-historias)=
+# Historias personales - Podcasts
 
-## Zoe Ingram and Emma Harris: Orion Open Science Podcast
+## Zoe Ingram y Emma Harris: Podcast de Orion Open Science
 
-The ORION Open Science podcast is structured around a series of interviews with interesting guests about a variety of topics related to Open Science.
+El podcast ORION Open Science está estructurado alrededor de una serie de entrevistas con interesantes invitados sobre una variedad de temas relacionados con Open Science.
 
-It is also co-hosted and co-produced by **Dr. Luiza Bengtsson**.
+También es co-alojado y coproducido por **Dr. Luiza Bengtsson**.
 
-If you want to find out more information about the podcast then look at their [website](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) and the [podcast on PodBean](https://orionopenscience.podbean.com/).
+Si desea obtener más información sobre el podcast, consulte su [sitio web](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) y el [podcast en PodBean](https://orionopenscience.podbean.com/).
 
-We would like to thank **Zoe Ingram** and **Emma Harris** for answering our interview questions about their very successful and enjoyable blog series.
+Nos gustaría agradecer a **Zoe Ingram** y **Emma Harris** por responder a nuestras preguntas de entrevista sobre su exitosa y divertida serie de blogs .
 
-## 1. Why did you start your podcast?
+## 1. ¿Por qué comenzó su podcast?
 
-**Emma** - While there are a good number of podcasts on Open Science now (which is great), back in 2018 there was only Open Science Radio, which was excellent but often only in German.
+**Emma** - Aunque ahora hay un buen número de podcasts en Open Science (que es genial), en 2018 sólo había Open Science Radio, que era excelente pero a menudo sólo en alemán.
 
-**Zoe** - We are part of the Orion Open Science Project and our task is doing training so Luiza decided that doing the podcast as part of the training material would be a good idea.
+**Zoe** - Somos parte del Proyecto de Ciencia Abierta de Orion y nuestra tarea es entrenar para que Luiza decidió que hacer el podcast como parte del material de entrenamiento sería una buena idea.
 
-**Emma** - We felt that a podcast, with the format of interviews with experts on different topics, would be an easy and entertaining way of communicating open science concepts to researchers and others. Even with the rise of e-learning and online workshops, there is an upper limit on how many people you can reach with traditional training. The podcast allows everyone to have access, and for different aspects of open science to be explored in-depth.
+**Emma** - Consideramos que un podcast, con el formato de las entrevistas con expertos en diferentes temas, sería una forma fácil y entretenida de comunicar conceptos de ciencia abierta a investigadores y otros. Incluso con el aumento del e-learning y de los talleres en línea, existe un límite máximo en cuanto a cuántas personas se puede alcanzar con la formación tradicional. El podcast permite que todo el mundo tenga acceso y que diferentes aspectos de la ciencia abierta sean explorados en profundidad.
 
-## 2. How did you get started?
+## 2. ¿Cómo empezaron?
 
-**Zoe** - It was something that none of us had done before. We had a colleague whose wife had skills in this area so she taught us how to get started. She gave Emma and Luiza feedback about speaking and how to adjust their voices for speaking on the podcast.
+**Zoe** - Era algo que ninguno de nosotros había hecho antes. Teníamos una colega cuya esposa tenía habilidades en este ámbito, por lo que nos enseñó cómo empezar. Le dio comentarios a Emma y Luiza sobre hablar y cómo ajustar sus voces para hablar en el podcast.
 
-**Emma** - We just started interviewing people and learned by doing, so the early podcasts are lower in quality and we are pretty awkward! But slowly we learned to be more relaxed and how to handle the technical side of things more competently.
+**Emma** - Acabamos de entrevistar a la gente y aprendimos haciéndolo, por lo que los podcasts tempranos son más bajos en calidad y somos bastante incómodos! Pero poco a poco aprendimos a ser más relajados y a manejar el aspecto técnico de las cosas más competentemente.
 
-**Zoe** - We did get a sound editor to help with it. This was for the technical and time constraint in doing this.
+**Zoe** - Hemos conseguido un editor de sonido para ayudarlo. Esto fue para la restricción técnica y de tiempo para hacer esto.
 
-We made a jingle and there is a new jingle for the new season.
+Hicimos un jingle y hay un nuevo jingle para la nueva temporada.
 
-## 3. What impact do you think your podcast is making on your research/project/community?
+## 3. ¿Qué impacto cree que está haciendo su podcast en su investigación/proyecto/comunidad?
 
-**Zoe** - It is hard to know who is listening as you are sending things out to a black box. We do get mail and feedback about the podcast from people that want to suggest themes and volunteer take part.
+**Zoe** - Es difícil saber quién está escuchando mientras estás enviando cosas a una caja negra. Recibimos correo electrónico y comentarios sobre el podcast de personas que quieren sugerir temas y voluntarios.
 
-**Emma** - The global impact always makes me happy - we have people from all over the world on the show and have heard from listeners from even more countries. I think the podcast does not have a huge audience in numbers but it is very geographically diverse.
+**Emma** - El impacto global siempre me hace feliz- tenemos personas de todo el mundo en el programa y hemos oído hablar de oyentes de más países. Creo que el podcast no tiene una enorme audiencia en números, pero es muy geográficamente diverso.
 
-The episodes are very useful and engaging on particular topics. For example, I recently gave a talk on Creative Commons Licenses and someone wrote to me who had missed it and wanted some information, so I referred them to the podcast episode we did with Cable Green, the CEO of Creative Commons. So they are an excellent open educational resource, as well as being generally interesting.
+Los episodios son muy útiles y participan en temas particulares. Por ejemplo, recientemente di una charla sobre licencias Creative Commons y alguien me escribió que me había perdido y quería alguna información, así que los referí al episodio podcast que hicimos con Cable Green, el CEO de Creative Commons. Por lo tanto, son un excelente recurso educativo abierto, además de ser en general interesante.
 
-**Zoe** - I like talking to people and have missed our Institute's Beer Hour in which I got to meet and speak to scientists about their work. I enjoy having these types of conversations about open science.
+**Zoe** - Me gusta hablar con la gente y he perdido la Hora de la Cerveza de nuestro Instituto, en la que tuve que reunirme y hablar con los científicos acerca de su trabajo. Me gusta tener este tipo de conversaciones sobre la ciencia abierta.
 
-I think the podcast is a format that is flexible and it is easier to follow a conversation than say listening to someone give a talk. This means that someone can listen to the podcast while they are doing another activity as it is a different way to take in information.
+Creo que el podcast es un formato que es flexible y es más fácil seguir una conversación que decir escuchar a alguien dar una charla. Esto significa que alguien puede escuchar el podcast mientras está haciendo otra actividad ya que es una forma diferente de recibir información.
 
-Luiza pointed out what a benefit it is for us to be able to learn so much from the guests. It is hard to stay on top of so many fast-paced developments. So, we are in that sense lucky to be able to get to the level of depth of information through the conversations and ask the questions that we want to be answered. I also think it connects people as they hear about other researchers work.
+Luiza señaló que es un beneficio para nosotros poder aprender tanto de los huéspedes. Es difícil mantenerse a la cabeza de tantos desarrollos rápidos. Así que, en ese sentido, tenemos la suerte de poder llegar al nivel de profundidad de la información a través de las conversaciones y hacer las preguntas que queremos que se nos responda. También creo que conecta a la gente mientras oyen hablar de otros investigadores trabajan.
 
-## 4. What tools/software do you use most in your podcast?
+## 4. ¿Qué herramientas/software utiliza más en su podcast?
 
-**Emma** - The mic we used pre-pandemic was an H6 Zoom. For online interviews: Zencastr and a decent headset with a built-in mic. Editing was done on Adobe Premiere Pro.
+**Emma** - El micrófono que usamos pre-pandemia era un Zoom H6. Para entrevistas en línea: Zencastr y unos auriculares decentes con micrófono incorporado. La edición se realizó en Adobe Premiere Pro.
 
-**Zoe** - The podcast is hosted on PodBean. We are thinking of going over to Audacity for editing as it is free, open source software.
+**Zoe** - El podcast está alojado en PodBean. Estamos pensando en pasar a la autenticidad para editar, ya que es software libre y de código abierto.
 
-## 5. Do you have any top tips for other people that might be interested in starting a podcast?
+## 5. ¿Tienes alguna sugerencia para otras personas que puedan estar interesadas en iniciar un podcast?
 
-**Emma** - Decide on your audience and cater to them, what are their concerns and interests? Create material that reflects those things.
+**Emma** - Decide sobre tu público y cuéntalos, ¿cuáles son sus preocupaciones e intereses? Crea material que refleje esas cosas.
 
-It is incredibly hard to relax ‘on tape’, even if you are a good public speaker. It is normal to feel anxious so don’t be surprised if you get very tense. The best thing to do to overcome this is to press record and then just chat with people, even do some warm-up/ice breaker type exercises to get everyone comfortable.
+Es increíblemente difícil relajar «en la cinta», incluso si usted es un buen orador público. Es normal sentir angustia, así que no te sorprendas si te vuelves muy tenso. Lo mejor que hay que hacer para superar esto es pulsar el registro y luego simplemente chatear con la gente, incluso haga algunos ejercicios de calentamiento/interruptor de hielo para que todo el mundo se sienta cómodo.
 
-You will hate your voice, everybody does, but you will learn to accept it in time. Aim to speak normally, as you would to someone sitting next to you. Smile when you speak, it makes a difference.
+Odiarás tu voz, todo el mundo lo hace, pero aprenderás a aceptarla a tiempo. Az para hablar normalmente, como lo haría con alguien sentado a su lado. Sonreír al hablar, esto marca la diferencia.
 
-Always ensure you get people to say their name at least once on the recording so you have the correct pronunciation (and check people’s preferred pronouns too).
+Siempre asegúrese de que la gente diga su nombre al menos una vez en la grabación para que tenga la pronunciación correcta (y compruebe también los pronombres preferidos por la gente).
 
-Take some brief notes as they speak so you can come back to earlier points or ask follow-up questions.
+Tome unas breves notas al hablar para que pueda volver a los puntos anteriores o hacer preguntas de seguimiento.
 
-Aim for quality, not quantity, better to have one great episode a month than four okay ones. However, if you are looking to have a large audience it is probably best to be weekly or biweekly.
+Aim por la calidad, no por la cantidad, mejor tener un gran episodio al mes que cuatro okay. Sin embargo, si usted desea tener una gran audiencia probablemente sea mejor ser semanal o semestral.
 
-**Zoe** - Do it as a conversation and have an idea of the audience in mind. Make sure that you ask questions to get the information for listeners to put ideas into practice - empower people to take action.
+**Zoe** - Hazlo como una conversación y tener una idea del público en mente. Asegúrate de que haces preguntas para obtener la información para que los oyentes pongan en práctica ideas -capacitar a la gente para que actúe-.
 
-If you are trying to start a listener base, then try to interview people that have a lot of followers on Twitter so they can retweet.
+Si está intentando iniciar una base de oyente, luego trate de entrevistar a la gente que tiene un montón de seguidores en Twitter para que puedan retweet.
 
-Also, make sure you block the whole day for the interview as it is time-consuming and takes up a lot of energy.
+Además, asegúrese de bloquear todo el día para la entrevista, ya que consume mucho tiempo y consume mucha energía.
 
-## 6. Do you have any tips on things to avoid?
+## 6. ¿Tiene algún consejo sobre las cosas que evitar?
 
-**Emma** - See other podcasts as opportunities for collaboration and cross-promotion, not competition.
+**Emma** - Ver otros podcasts como oportunidades de colaboración y promoción cruzada, no de competencia.
 
-Don’t be vain: if you are interviewing you should try and ensure your guests sound good and edit your content down unless you are making a truly important point.
+No seas vain: si estás entrevistando deberías intentar asegurar que tus invitados suenen bien y editar tu contenido a menos que estés haciendo un comentario realmente importante.
 
-Don’t be afraid to ask ‘stupid questions’: if you don’t understand something your listeners might not either.
+No tengas miedo de hacer ‘preguntas estúpidas’: si no entiendes algo que tus oyentes podrían no entender.
 
-**Zoe** - Nobody likes bad sound so don’t record in noisy environments - particularly outside in windy conditions.
+**Zoe** - A nadie le gusta mal el sonido así que no grabe en entornos ruidosos, particularmente fuera en condiciones de viento.
 
-## 7. Where do you see your podcast going in the future?
+## 7. ¿Dónde ves que tu podcast va en el futuro?
 
-**Zoe** - We presented a poster at the [Open Science Conference 2021](https://www.open-science-conference.eu/). It looked at the talks that had been covered and mapped these on to the [FOSTER taxonomy of Open Science](https://www.fosteropenscience.eu/resources). This has highlighted what topics we have covered most and what topics we still need to do.
+**Zoe** - Presentamos un cartel en la [Open Science Conference 2021](https://www.open-science-conference.eu/). Revisó las charlas que habían sido cubiertas y mapeadas en ellas a la [taxonomía FOSTER de Open Science](https://www.fosteropenscience.eu/resources). Esto ha puesto de relieve los temas que más hemos tratado y los temas que todavía tenemos que hacer.
 
-The podcast is part of the Orion open science project and this will end in September. So we are not happy that it might end and we are looking into how we can fund the podcast going forward.
+El podcast forma parte del proyecto de ciencia abierta de Orión, que terminará en septiembre. Así que no estamos contentos de que esto pueda terminar y estamos estudiando cómo podemos financiar el podcast hacia adelante.
 
-## 8. Is there anything else that you want to add to the interview that has not been covered in the questions above?
+## 8. ¿Hay algo más que desea añadir a la entrevista que no se ha abordado en las preguntas de arriba?
 
-**Emma** - I guess to try and innovate, the podcast format can be quite similar to look at how radio programming has presented the material in different ways for inspiration. Find a unique content or format!
+**Emma** - Supongo que intentar innovar, el formato podcast puede ser bastante similar a ver cómo la programación de radio ha presentado el material de diferentes maneras para la inspiración. ¡Encuentre un contenido o formato único!
 
-*This interview was conducted by Emma Karoune.*
+*Esta entrevista la realizó Emma Karoune.*

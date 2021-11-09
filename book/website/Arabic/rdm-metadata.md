@@ -1,14 +1,14 @@
-(rr-rdm-metadata)=
-# Documentation and Metadata
+(r-rdm-metadata)=
+# الوثائق والبيانات الوصفية
 
-Having data available is of no use if it cannot be understood. For example, a table of numbers is useless if there are no headings that describe what the columns/rows contain. Therefore you should ensure that open datasets include consistent metadata, that is information about the data, so that the data is fully described. This requires that all documentation accompanying data is written in clear, plain language, and that data users have sufficient information to understand the source, strengths, weaknesses, and analytical limitations of the data so that they can make informed decisions when using it.
+فتوافر البيانات ليس له أي فائدة إذا تعذر فهمها. فعلى سبيل المثال، يكون جدول الأرقام عديم الفائدة إذا لم تكن هناك عناوين تصف ما تحتويه الأعمدة/الصفوف. ولذلك ينبغي أن تتأكد من أن مجموعات البيانات المفتوحة تتضمن بيانات فوقية متسقة، أي معلومات عن البيانات، حتى يتم وصف البيانات وصفا كاملا. ويتطلب ذلك أن تكون جميع الوثائق المصاحبة للبيانات مكتوبة بلغة واضحة وواضحة، وأن يكون لدى مستخدمي البيانات معلومات كافية لفهم المصدر، نقاط القوة والضعف والقصور التحليلية في البيانات بحيث تتمكن من اتخاذ قرارات مستنيرة عند استخدامها.
 
-- The level of documentation and metadata [{term}`def<Metadata>`] will vary according to the project, and the range of people the data needs to be understood by.
-- Variables should be defined and explained using [data dictionaries](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary).
-- Data should be stored in logical and hierarchical folder structures, with a README file used to describe the structure. The README file is helpful for others and will also help you find your data in the future {cite:ps}`Fuchs2018documentation`. See the [README template from Cornell](https://cornell.app.box.com/v/ReadmeTemplate) for an example.
-- It is best practice to use recognised community metadata standards to make it easier for datasets to be combined.
+- سيختلف مستوى الوثائق والبيانات الوصفية [{term}`def<Metadata>`] وفقا للمشروع، ومن الضروري فهم هذه البيانات ونطاق الأشخاص الذين يجب أن تكون بياناتهم مفهومة.
+- يجب تعريف المتغيرات وشرحها باستخدام [قواميس البيانات](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary).
+- وينبغي تخزين البيانات في هياكل مجلدات منطقية وهرمية، مع استخدام ملف README لوصف الهيكل. ملف README مفيد للآخرين، وسوف يساعدك أيضًا في العثور على بياناتك في المستقبل {cite:ps}`Fuchs2018document`. راجع قالب [README من Cornell](https://cornell.app.box.com/v/ReadmeTemplate) على سبيل المثال.
+- ومن أفضل الممارسات استخدام معايير البيانات الفوقية المجتمعية المعترف بها لتيسير الجمع بين مجموعات البيانات.
 
-(rr-rdm-metadata-standards)=
-## Community Standards - Metadata
+(r-rdm-metadata-standards)=
+## معايير المجتمع - البيانات الوصفية
 
-The use of community-defined standards for metadata is vital for reproducible research and allows for comparison of heterogeneous data from multiple sources, domains and disciplines. Metadata standards are discipline specific. For example, for brain data, the [Brain Imaging Data Structure](https://doi.org/10.25504/FAIRsharing.rd1j6t) is the standard to use. Not every discipline may use metadata standards, however. You can see if your discipline uses metadata standards through [FAIRsharing](https://fairsharing.org/), a resource to identify and cite the metadata or identifier schemas, databases or repositories that exist for your data and discipline.
+ويعتبر استخدام المعايير التي تحددها المجتمعات المحلية فيما يتعلق بالبيانات الفوقية أمرا حيويا لإجراء بحوث قابلة للتكرار، ويتيح مقارنة البيانات المتباينة المستمدة من مصادر ومجالات وتخصصات متعددة. ومعايير البيانات الوصفية محددة التخصصات. على سبيل المثال، بالنسبة لبيانات الدماغ، [هيكل بيانات تصوير الدماغ](https://doi.org/10.25504/FAIRsharing.rd1j6t) هو المعيار للاستخدام. بيد أنه لا يجوز لكل تخصص أن يستخدم معايير البيانات الفوقية. يمكنك أن ترى ما إذا كان تخصصك يستخدم معايير البيانات الوصفية من خلال [FAIRShar](https://fairsharing.org/)، مورد لتحديد واستشهاد مخططات البيانات الفوقية أو المعرفة، وقواعد البيانات أو المستودعات الموجودة لبياناتك وانضباطك.

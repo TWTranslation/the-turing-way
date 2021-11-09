@@ -1,62 +1,62 @@
 (ch-bookdash)=
-# _The Turing Way_ Book Dashes
+# _La Vía Turística_ Guiones de libros
 
-_The Turing Way_ [Book Dash events](https://the-turing-way.netlify.app/community-handbook/bookdash.html) are a less intense version of [Book Sprints](https://en.wikipedia.org/wiki/Book_sprint), where participants collaboratively work on _The Turing Way_ book synchronously to develop new chapters and review/edit existing ones to make them more accessible, comprehensive and up-to-date. They also contribute to enhancing the project by improving the ways we work in the community and take the lead on accomplishing different tasks or subprojects.
+_The Turing Way_ [Book Dash eventos](https://the-turing-way.netlify.app/community-handbook/bookdash.html) son una versión menos intensa de [Book Sprints](https://en.wikipedia.org/wiki/Book_sprint), donde los participantes colaboran en _The Turing Way_ libro sincrónicamente para desarrollar nuevos capítulos y revisar/editar los ya existentes para hacerlos más accesibles, completa y actualizada. También contribuyen a mejorar el proyecto mejorando las formas en que trabajamos en la comunidad y liderando la realización de diferentes tareas o subproyectos.
 
-In the past, we have organised 1-2 days long Book Dash events in person or in a hybrid format, where one of the participants coordinated with their team remotely. However, to ensure that international participants have an equal chance to join and address the challenges of hosting in-person events during the COVID-19 pandemic, we started hosting Book Dashes virtually. These virtual Book Dashes are five days long, designed for flexible participation by members in different time zones. Meaning, rather than committing their entire working day, participants can choose one or multiple 2.5 hours short co-working sessions each day based on their availability.
+En el pasado, hemos organizado eventos de 1-2 días de duración en persona o en formato híbrido, donde uno de los participantes coordinado con su equipo de forma remota. Sin embargo, para asegurar que los participantes internacionales tengan las mismas oportunidades de unirse y abordar los desafíos de organizar eventos en persona durante la COVID-19 pandemia, hemos comenzado a alojar Libros Dashes virtualmente. Estos guiones virtuales son de cinco días de duración, diseñados para la participación flexible de los miembros en diferentes zonas horarias. En vez de comprometer toda su jornada laboral, los participantes pueden elegir una o múltiples sesiones cortas de trabajo de 2,5 horas cada día según su disponibilidad.
 
 ```{figure} ../figures/first-pull-request.png
 ---
 height: 400px
 name: book-dash
-alt: A person helping out another person making their first pull request on GitHub
+alt: Una persona ayudando a otra persona haciendo su primera pull request en GitHub
 ---
-Making your first pull request on GitHub.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+haciendo su primera pull request en GitHub.
+_The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
-## Inviting Diverse Contributions
+## Invitando a diversas contribuciones
 
-As a community-driven guidebook, _The Turing Way_ aims to co-create contents that are comprehensible and beneficial for the wider community of data scientists and researchers. Hence, _The Turing Way_ specifically welcomes contributors from diverse fields, identities, and backgrounds who can propose ideas and work on new aspects of an existing chapter or create new chapters in its guides.
+Como guia dirigida por la comunidad, _La Vía Turística_ apunta a co-crear contenidos que sean susceptibles y beneficiosos para la comunidad más amplia de científicos e investigadores de datos. Por lo tanto, _The Turing Way_ específicamente da la bienvenida a los colaboradores de diversos campos, identidades, y orígenes que pueden proponer ideas y trabajar sobre nuevos aspectos de un capítulo existente o crear nuevos capítulos en sus guías.
 
-All the contributions are managed through GitHub. Since many participants of the Book Dash are new community members, and often new users of GitHub, the team members make sure that they take time to introduce the project and teach collaboration through GitHub before the Book Dash.
+Todas las contribuciones se gestionan a través de GitHub. Dado que muchos participantes del Book Dash son nuevos miembros de la comunidad, y a menudo nuevos usuarios de GitHub, los miembros del equipo se aseguran de que se toman tiempo para introducir el proyecto y enseñar la colaboración a través de GitHub antes del Tash del Libro.
 
-The skills and contributions that we invite at the Book Dash include, but are not limited to:
+Las habilidades y contribuciones que invitamos a la Guía del Libro incluyen, pero no se limitan a:
 
-- Science communication and technical writing skills.
-- Examples and case studies of reproducible research.
-- Editing and reviewing of existing content.
-- Technical tools and methods in data science.
-- Interest in creating content on community building and collaboration.
-- Developing learning resources and reusable content on ethics and AI.
-- Artistic skills for illustrations, sketch notes, and infographics.
-- Enhancing online aspects of the book (for example, CSS, layout, interactivity, continuous integration).
-- Improving accessibility of the content and sharing accessibility principles in data science.
-- Data visualisation skills and best practices.
-- Storytelling skills that can help make our content more engaging.
+- Comunicación científica y habilidades técnicas de escritura.
+- Ejemplos y estudios de casos de investigación reproducible.
+- Edición y revisión del contenido existente.
+- Herramientas técnicas y métodos en ciencias de datos.
+- Interesado en crear contenido en la creación y colaboración de la comunidad.
+- Desarrollo de recursos de aprendizaje y contenido reutilizable sobre ética y IA.
+- Habilidades artísticas para ilustraciones, notas de dibujo e infografía.
+- Mejorar los aspectos en línea del libro (por ejemplo, diseño CSS, interactividad, integración continua).
+- Mejorar la accesibilidad del contenido y compartir los principios de accesibilidad en las ciencias de datos.
+- Capacidades de visualización de datos y buenas prácticas.
+- Habilidades de narración que pueden ayudar a que nuestro contenido sea más atractivo.
 
-## Who Should Apply to Join the Book Dash
+## Quién debería aplicar para unirse a la guía del libro
 
-We want to support participants in getting the most out of these Book Dash events. Therefore, we encourage applications from members of our community, including both new and existing contributors. We want applicants to know about _The Turing Way_, how we work collaboratively and have a good idea of how they can contribute to our resources.
+Queremos apoyar a los participantes para sacar el máximo provecho de estos eventos del Libro. Por lo tanto, alentamos las solicitudes de los miembros de nuestra comunidad, incluyendo colaboradores nuevos y ya existentes. Queremos que los solicitantes sepan sobre _The Turing Way_, cómo trabajamos en colaboración y tenemos una buena idea de cómo pueden contribuir a nuestros recursos.
 
-This does not mean that you must have made a contribution before - it is more about having interacted with our community in some way so that you will be able to make a contribution during the Book Dash more easily, even if this is with the support of more experienced community members. If you have previously contributed to a collaborative project or have a specific proposal for contribution in mind, you are highly encouraged to apply. Do get in touch with one of the core contributors who can help you shape your idea by identifying where and how they fit in the bigger vision of the project.
+Esto no significa que deba haber hecho una contribución antes - se trata más de haber interactuado con nuestra comunidad de alguna manera para que pueda hacer una contribución durante el Cuadro de Libros más fácilmente, incluso si esto es con el apoyo de miembros más experimentados de la comunidad. Si previamente ha contribuido a un proyecto de colaboración o tiene en mente una propuesta específica de contribución, le recomendamos encarecidamente que solicite. Póngase en contacto con uno de los colaboradores principales que puede ayudarle a dar forma a su idea identificando dónde y cómo encajan en la visión más amplia del proyecto.
 
-If you have not interacted with our community before, but want to take part in a Book Dash, please join one of our community events such as [co-working sessions](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-weekly.html) or the [collaboration cafe](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-collabcafe.html#ch-coworking-collabcafe). This way, you will get to know about our project and understand more about how you could contribute during a Book Dash.
+Si no has interactuado con nuestra comunidad antes, pero quieres participar en un Libro Dash, por favor únete a uno de nuestros eventos comunitarios como [sesiones de co-working](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-weekly.html) o el [café de colaboración](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-collabcafe.html#ch-coworking-collabcafe). De esta manera, conocerás nuestro proyecto y entenderás más sobre cómo puedes contribuir durante un Dash del Libro.
 
-## Support In-Person, Hybrid and Remote Participation
+## Apoyo en persona, hibrida y participación remota
 
-Previous Book Dashes have been organised for in-person participation in venues located in the UK (home country of the project), as hybrid events, or entirely online.
+Se han organizado guiones de libros anteriores para la participación en persona en lugares ubicados en el Reino Unido (país de origen del proyecto), como eventos híbridos, o totalmente en línea.
 
-**For participants attending a Book Dash in person:**
-* All the participants who need to travel to the event's venue are offered financial support to cover their travel, accommodation, and related expense such as childcare or special accessibility requirements.
-* In the past, due to the funding model of _The Turing Way_, we had to limit our selection to the contributors within European countries.
+**Para los participantes que asisten a un libro en persona:**
+* A todos los participantes que necesiten viajar al lugar del evento se les ofrece apoyo financiero para cubrir sus viajes, alojamiento, y gastos relacionados, como el cuidado de los niños o requisitos especiales de accesibilidad.
+* En el pasado, debido al modelo de fondos de _The Turing Way_, Tuvimos que limitar nuestra selección a los colaboradores dentro de los países europeos.
 
-**For participants attending a Book Dash remotely:**
-* We have experimented with hybrid (partial remote) participation where one of the participants coordinated with their team remotely. Based on the success of this hybrid format and further demand for more remote participation, we have had two virtual events that did not involve travel. In the future, we aim to experiment with a multi-hub format allowing multiple small groups across the globe to meet in person as they work synchronously with other international contributors remotely.
-* Financial support is made available to support the remote accessibility requirements of the participants at hybrid and fully remote Book Dashes. It includes (but not be limited to) temporary access to high-speed internet, childcare grant and live transcription during the event. These bursaries are also available for rent or purchasing small hardware such as headphones or webcam to enhance participants overall experience.
-* There is also financial support for subsistence costs such as buying meals or treat for the online social events during the Book Dash.
+**Para los participantes que asisten a un libro a distancia:**
+* Hemos experimentado con participación híbrida (parcial remota) donde uno de los participantes coordinado con su equipo de forma remota. Basado en el éxito de este formato híbrido y en una mayor demanda de participación más remota, hemos tenido dos eventos virtuales que no implicaban viajes. En el futuro, nuestro objetivo es experimentar con un formato multi-Hub que permita a múltiples grupos pequeños de todo el mundo reunirse en persona ya que trabajan de forma sincrónica con otros colaboradores internacionales de forma remota.
+* El apoyo financiero está disponible para apoyar los requerimientos de accesibilidad remota de los participantes a través de guiones de libros híbridos y completamente remotos. Incluye (pero no limitado) acceso temporal a Internet de alta velocidad, subsidio para el cuidado de niños y transcripción en vivo durante el evento. Estos bursaries también están disponibles para alquilar o comprar pequeño hardware como auriculares o webcam para mejorar la experiencia general de los participantes.
+* También hay apoyo financiero para gastos de subsistencia como la compra de comidas o el tratamiento para los eventos sociales en línea durante el Dash del Libro.
 
-## More Resources on Book Dash
+## Más recursos en el guión del libro
 
-In this chapter, we discuss the {ref}`application<ch-bookdash-application>`, {ref}`event preparation and participant selection<ch-bookdash-preparation>` and {ref}`event preparation<ch-bookdash-events>` processes.
+En este capítulo, discutimos la aplicación {ref}`<ch-bookdash-application>`, {ref}`preparación de eventos y selección de participantes<ch-bookdash-preparation>` y {ref}`preparación de eventos<ch-bookdash-events>` procesos.
 
-All the templates related to book dash is provided in the {ref}`community template collection<ch-templates>`.
+Todas las plantillas relacionadas con el guión de libros se proporcionan en la {ref}`colección de plantillas comunitarias<ch-templates>`.

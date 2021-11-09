@@ -1,39 +1,39 @@
-(rr-overview-benefits)=
-# Added Advantages
+(rr-overview.benefits =
+# 添加的优势
 
-In the {ref}`rr-overview-definitions` section, we discussed the different aspects of reproducible research that are beneficial for the scientific community. In this chapter, we will share some less obvious aspects of working reproducibly for individual researchers and teams.
+In the {ref}`rr-overview-definitions` section, we discussed the different aspects of reproducible research that are beneficial for the scientific community. 在本章中，我们将分享一些不太明显的方面，为个别研究人员和团队再复制工作。
 
 
 ```{figure} ../../figures/reasons-reproducibility.png
 ---
-name: reasons-reproducibility
-alt: Why we should care about working reproducibly.
+名称：理由-重复性
+Alt：我们为什么要注意工作重现？
 ---
-An illustration of reasons why we should care about working reproducibly.
+说明我们为什么要注意重现工作的原因。
 ```
 
-**1. Track a complete history of your research**
+**1. 跟踪您研究的完整历史**
 
-Reproducible research must contain a complete history and narrative (also known as [Provenance](https://en.wikipedia.org/wiki/Provenance)) of the project planning and development process. This includes information on the data, tools, methods, codes, and documentation used in the research project. By storing a complete track-record of our work, we can ensure research sustainability, fair citation/acknowledgement, and usefulness of our and others' work in our research fields.
+可重复的研究必须包含项目规划和发展过程的完整历史和叙述（也称为 [出处](https://en.wikipedia.org/wiki/Provenance)）。 这包括关于研究项目所使用的数据、工具、方法、代码和文件的信息。 通过储存我们工作的完整轨迹记录，我们可以确保研究的可持续性。 我们和其他人在我们的研究领域的工作得到公平的赞扬/承认并发挥有益作用。
 
-**2. Facilitate collaboration and review process**
+**2. 促进协作和审查进程**
 
-By designing reproducible workflows and sharing them with the different components of our research project, we can allow others to develop an in-depth understanding of our work. This encourages them to review our methods, test our code, propose useful changes and make thoughtful contributions to develop our project further. Reproducible workflows facilitate the peer review process tremendously by allowing reviewers access to the different parts of the projects that are necessary to validate the research outcomes.
+通过设计可再生产的工作流程，并与我们研究项目的不同组成部分分享这些流程， 我们可以让其他人深入了解我们的工作。 这鼓励他们审查我们的方法，检验我们的守则，提出有益的修改建议，并为进一步发展我们的项目作出深思熟虑的贡献。 可重复的工作流程使审查人员能够进入项目中验证研究成果所必需的不同部分，极大地便利了同行审查进程。
 
-**3. Publish validated research and avoid misinformation**
+**3. 发布已验证的研究并避免错误信息**
 
-Lack of reproducibility is one of the major factors that lead to paper retractions (source [Retraction Watch](https://retractionwatch.com/)). The best-known analyses of scientific literature in psychology {cite:ps}`Begley2012` and cancer biology {cite:ps}`OpenScienceCollaboration2015Reproducibility` found the reproducibility rates of their research output of around 40% and 10%, respectively. By working reproducibly, we can develop validated research work, avoid misinformation that can limit replicability of our work and publish accurate research outputs. This aspect does not only support the validity of the current work, but any future studies that are based on reproducible research {cite:ps}`MozillaScienceLab`.
+缺乏可再生产性是导致纸张回收的主要因素之一(来源 [Retract Watch](https://retractionwatch.com/))。 对心理 {cite:ps}`2012年初` 癌症生物学 {cite:ps}`2015年公开科学合作复发性` 最著名的科学文献分析发现，其研究产出的复发率约为40%和10%。 分别为之。 通过可复制的工作，我们可以发展有效的研究工作，避免错误的信息，这种信息可能限制我们工作的可复制性，并公布准确的研究成果。 这方面不仅支持目前工作的有效性。 但基于可复制研究 {cite:ps}`Mozilla Science实验室` 的任何未来研究。
 
-**4. Write your papers, thesis and reports efficiently**
+**4. 高效率地编写您的文件、论文和报告**
 
-Well documented analyses help us maintain easy access to all the results generated within a project that can be written up efficiently. If working in a team, collaborators can easily get recognition in terms of authorship for their contributions. Furthermore, by availing the underlying dataset and methods we can easily comply with the highest-level journal guidelines.
+详细记载的分析有助于我们能够方便地获得一个能够有效编写的项目中产生的所有结果。 如果在团队中工作，合作者可以很容易地获得他们贡献的作者承认。 此外，通过利用基础数据集和方法，我们可以很容易地遵守最高级别的期刊准则。
 
-**5. Get credits for your work fairly**
+**5. 公平获取您工作的积分**
 
-Applying reproducibility practices separately on different parts of the project such as data, independently executable codes and scripts, protocols, and reports allow other researchers to test and reuse our work in their research and brings fair recognition for our work. Researchers who publish their work with the underlying information, get cited more often as their research outcome can be broadly replicated and trusted. This fair credit system encourages researchers to further maintain reproducibility practices in their work.
+在项目的不同部分分别采用可再生产的做法，如数据，独立执行的代码和脚本， 议定书和报告使其他研究人员能够在他们的研究中测试和重新利用我们的工作，并使我们的工作得到公正的承认。 出版其基本信息的研究人员经常被引述为他们的研究成果可以广泛推广和信任。 这种公平信贷制度鼓励研究人员在其工作中进一步保持可再生产的做法。
 
-**6. Ensure continuity of your work**
+**6. 确保您工作的连续性**
 
-By following guidelines for reproducibility, we can easily communicate our work with different stakeholders such as our supervisors, funders, reviewers, students, and potential collaborators. This aspect of reproducibility increases the usefulness of our research by enabling others to easily build on our results, and re-use our research materials {cite:ps}`MozillaScienceLab`. This ensures the continuity of a research idea and can even find fresh applications in other contexts. Progress of such projects can easily be tracked and continued - either by other researchers, or yourself if you want to build on your own work after a longer period {cite:ps}`Markowetz2015`.
+通过遵循可再生产的指导方针，我们可以很容易地与我们的监督者、资助者、审查者、学生和潜在合作者等不同的利益攸关者交流我们的工作。 可再生产的这个方面使其他人能够很容易地利用我们的结果，从而增加我们研究的效用。 并重新使用我们的研究材料 {cite:ps}`Mozilla Science实验室` 这确保了研究构想的连续性，甚至可以在其他情况下找到新的应用。 这类项目的进展可以很容易地由其他研究人员跟踪和继续。 如果您想要在更长时间后继续您自己的工作 {cite:ps}`Markowetz2015` ，或者您自己。
 
 To learn about other benefits of working reproducibly on Open Research projects are covered in our {ref}`rr-open` chapter.

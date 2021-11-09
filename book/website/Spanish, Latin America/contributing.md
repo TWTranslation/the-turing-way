@@ -1,17 +1,17 @@
 (ch-contributing)=
-# Contributing and Developing Chapters - Templates and Workflow
+# Contribución y Desarrollo de Capítulos - Plantillas y flujo de trabajo
 
-As _The Turing Way_ project grows and evolves, we actively welcome and encourage continuous contributions from community members in the form of new chapters and case studies. However, these new contributions need to be consistent with the overall theme, purpose, format, and style of the book's existing content.
+A medida que el proyecto _The Turing Way_ crece y evoluciona, recibimos activamente y alentamos las contribuciones continuas de los miembros de la comunidad en forma de nuevos capítulos y estudios de caso. Sin embargo, estas nuevas contribuciones deben ser coherentes con el tema general, el propósito, el formato y el estilo del contenido existente del libro.
 
-Since _The Turing Way_ is written asynchronously by multiple authors around the world, we created a series of templates to guide different kinds of content development while maintaining a consistent format of the book.
+Desde _The Turing Way_ está escrito de forma asincrónica por varios autores de todo el mundo, creamos una serie de plantillas para guiar diferentes tipos de desarrollo de contenido manteniendo al mismo tiempo un formato consistente del libro.
 
 ```{figure} ../figures/that-could-be-a-chapter.jpg
 ---
 height: 400px
-name: that-could-be-a-chapter
-alt: A sketch of Kirstie saying “That could be a chapter”
+name: that-could be-a-chapter
+alt: A sketch of Kirstie saying "That could be a characterter"
 ---
-"That could be a chapter in The Turing Way!" - Kirstie Whitaker. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+"That could be a chapter in The Turing Way!" - Kirstie Whitaker. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-This chapter provides a brief overview of the workflow for writing chapters and case studies for _The Turing Way_. We encourage you to read through and follow the recommendations if you wish to make a contribution. Also, ensure that you read our [Contributor Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) in addition to our [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations as you prepare your contributions.
+Este capítulo proporciona una breve visión general del flujo de trabajo para escribir capítulos y estudios de caso para _The Turing Way_. Le animamos a leer y seguir las recomendaciones si desea hacer una contribución. Además, asegúrate de leer nuestras [Directrices de colaboradores](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) además de nuestras recomendaciones de [estilo](https://the-turing-way.netlify.app/community-handbook/style.html) y [consistencia](https://the-turing-way.netlify.app/community-handbook/consistency.html) al preparar tus contribuciones.

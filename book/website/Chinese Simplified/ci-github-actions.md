@@ -1,88 +1,88 @@
 (rr-ci-github-actions)=
-# Continuous Integration with GitHub Actions
+# 与 GitHub 操作的持续集成
 
-This section will walk you through the basic setup of continuous integration (CI) using **GitHub Actions (GHA)**. GHA is a task automation system fully integrated with GitHub. In other words, it is an API that orchestrates any workflow based on any event. Although there are many CI service providers, GHA makes it easier than ever to incorporate CI into your repositories. It provides a flexible way to automate nearly every aspect of your project workflow. Here are just a few examples of use cases of GitHub Actions:
+本节将通过使用 **GitHub 动作 (GHA)** 的连续集成(CI)的基本设置。 GHA 是一个与GitHub 完全结合的任务自动化系统。 换言之，它是一个基于任何事件的任何工作流程的API。 虽然有许多CI 服务供应商，但GHA 比以往任何时候都更容易将CI 纳入您的资源库。 它提供了一种自动化项目工作流程几乎每个方面的灵活方法。 下面只是使用GitHub 操作的几个实例：
 
-- Automated testing of the software
-- Generate reports of the status of any changes in the repository
-- Responding to workflow triggers using labels, issues, special mentions, and more
-- Triggering code reviews and pull requests
-- Managing branches
+- 软件自动测试
+- 生成存储库中任何更改状态的报告
+- 响应工作流触发器使用标签、问题、特殊提示和更多
+- 触发代码评论和拉取请求
+- 管理分支
 
-GitHub Actions are event-driven, which means it responds to any event (Examples: pull request (PR) created, issue created) and triggers an action (Examples: adds a label, runs tests, sort). Any collection of these actions is called a workflow. A more detailed description of this GitHub-related Vocabulary is described in the next section.
+GitHub 操作是事件驱动的，这意味着它对任何事件的回应 (示例：已创建拉取请求 (PR) 创建问题并触发动作(例如：添加标签、运行测试、排序)。 这些行动的任何集合都被称为工作流。 下一节将更详细地介绍与GitHub有关的词汇。
 
 ```{figure} ../../figures/github-actions.jpg
 ---
-width: 700px
-align: center
-name: Github actions
-alt: A diagram describing how GitHub action listen to an event (for example, `PR` created, issue created, PR merged) and then trigger a job which can be testing, sorting, labelling or deployment.
+宽度：700px
+校准：居中
+名称：Github 动作
+每个名称：一个图表，描述GitHub 动作如何聆听某个事件(例如，例如) `PR` 创建、 创建、 PR 合并，然后触发一个可以测试、分类、标签或部署的作业。
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
-## GitHub-related Vocabulary
+## GitHub相关词汇表
 
-### 1. WorkFlow
+### 1. 工作流
 
-**The workflow** is a unit of automation from start to finish. It consists of all the aspects which should be taken into account during the automation including what event can trigger the automation. The workflow can be used to build, test, package, release, or deploy a project on GitHub. It is made of multiple jobs which is formed from steps as shown in the overview diagram below.
+**工作流** 是一个从开始到完成的自动化单位。 它包括自动化过程中应予考虑的所有方面，包括何种事件可引发自动化。 工作流可以用来构建、测试、包裹、释放或部署一个在 GitHub 上的项目。 它是由多个工作组成的，这些工作是通过如下概述图所示的步骤产生的。
 
 ```{figure} ../../figures/ci-01.png
 ---
-name: ContinuousIntegration-Nov20
-alt: An illustration of how continuous integration works with multiple jobs and actions working alongside each other to feed into an illustration of steps to show merging into the main version.
+名称：ContinuousIntegration-Nov20
+备选案文：一个说明连续整合如何与多个任务和操作并肩运行，为显示合并到主版本的步骤提供一个示例。
 ---
-On the left: _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807). On the right: Overview diagram of the most important concepts of GitHub Actions, adapated from [morioh.com](https://morioh.com/p/aadcfe6cac57).
+左边：_Ting Way_ 项目示意图由 Stereria 绘制。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。 右边：从 [morioh.com](https://morioh.com/p/aadcfe6cac57) 的 GitHub 行动最重要概念的概览图。
 ```
 
-### 2. Job
+### 2. 任务
 
-A **job** is defined as a set of sequential steps run on the same runner. A workflow can build up of one or several jobs, and can be run either parallel (default) or sequentially.
+**作业** 被定义为在同一运行器上运行的一组顺序步骤。 一个工作流可以建立一个或几个工作, 可以同时运行(默认) 或顺序运行。
 
-### 3. Step
+### 3. 步骤
 
-A **step** represents one individual task. A step could be either an action or another command unit, like running a Python script or printing something to the console.
+**步** 是一个单独的任务。 一个步骤可以是一个动作或另一个命令单位，例如运行一个 Python 脚本或打印某些东西到控制台。
 
-### 4. Actions
+### 4. 行动
 
-A GitHub **Action** is a piece of automation written in a way that is compatible with workflows. Actions can be written by [GitHub](https://github.com/actions), by the open source [community](https://github.com/sdras/awesome-actions), or you can write them yourself!
+一个 GitHub **动作** 是一块以兼容工作流的方式编写的自动化。 动作可以由 [GitHub](https://github.com/actions)编写，由开源 [社区](https://github.com/sdras/awesome-actions)编写，或者您可以自己撰写！
 
-## Getting started with GitHub Action
+## 开始使用 GitHub 操作
 
-GitHub Actions uses YAML syntax and stored in a directory called `.github/workflows` in the repository. You can either use a templated workflow or create your own.
+GitHub 操作使用 YAML 语法并存储在资源库中名为 `.github/workflow` 的目录。 您可以使用模板工作流或创建自己的工作流。
 
 
-### 1- Using GitHub Actions template
+### 1-使用 GitHub 操作模板
 
-If you want to get started with GitHub Actions, you can start by clicking the "Actions" tab in the repository where you want to create a workflow, as shown below. Under the "Actions" tab, you will find popular CI workflows, which can help deploy or automate some tasks in the repository.
+如果您想开始使用 GitHub 动作， 您可以先点击仓库中的"动作"选项卡来创建一个工作流，如下所示。 在“动作”选项卡下，您将找到受欢迎的 CI 工作流，它可以帮助部署或自动化某些任务在资源库中。
 
 ```{figure} ../../figures/gifs/start_ghactions.gif
 ---
-width: 600px
-align: center
-name: GitHub action template
-alt: A gif showing where you can find GitHub Actions template in your Github repo.
+宽度：600px
+校准：中心
+名称：GitHub 动作模板
+每个名称：gif显示您在 Github 仓库中可以找到 GitHub 行动模板的位置。
 ---
 ```
-You can choose any of these starter workflows and customise them further.  An explanation for building blocks within the workflow is described in a later section.
+您可以选择这些启动器中的任何一个工作流，并且进一步定制它们。  下一节将说明工作流程中的构件的解释。
 
 
-### 2- Using libraries-specific templates.
+### 2- 使用针对图书馆的模板。
 
 
-Github Action template is not the only starter kit available; there are libraries-specific templates for the language of interest. For example, you can  use  {usethis} package in R to create a template for R packages by running `usethis::use_github_action_check_standard()`. This will generate GitHub Actions to run CRAN checks after every commit or pull request. That’s all you have to do!
+Github 动作模板不是唯一可用的启动包。有用于感兴趣的语言的库特定模板。 例如，你可以用  {usethis} 软件包在 R 中通过运行 `usethis::use_github_action_check_standard()` 来为R 软件包创建一个模板。 这将生成GitHub 动作，用于在每次提交或拉取请求后运行 CRAN。 这是你必须做的！
 
 
-### 3- Using the configuration of other projects as inspriration
+### 3- 使用其他项目的配置作为固件
 
-Many well maintained open source libraries and estableshed projects use GitHub Actions for their CI. Have a look at the checks lists on pull requests of these projects for inspiration and ideas; following by checking out their CI configuration files. In most cases their licence will allow to copy the bits that would work for your case. The advantage of this approach is to use some approaches that are already working.
+许多维护良好的开放源码库和不稳定的项目使用 GitHub Activity for their CI。 查看这些项目的拉取请求的检查清单以获得启发和想法； 随后检查他们的 CI 配置文件。 在大多数情况下，他们的许可证将允许复制适用于你情况的笔记。 这种办法的优点是采用一些已经行之有效的办法。
 
-For example:
+例如：
 
-- The Turing Way workflow to [build the Turing Way book and to provide a preview for the pull requests](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/workflows/ci.yml)
-- A matrix of tests on [3 operating systems and multiple Python versions for the Python package NetworkX](https://github.com/networkx/networkx/blob/main/.github/workflows/test.yml)
-- A more complex setup of testing the [build in multiple circumstances for the Python package Numpy](https://github.com/numpy/numpy/blob/main/.github/workflows/build_test.yml)
+- 为 [构建诱导路径书并为拉取请求提供预览](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/workflows/ci.yml)
+- 一个 [3 运行系统测试矩阵和 Python 软件包网络X 的多个Python 版本](https://github.com/networkx/networkx/blob/main/.github/workflows/test.yml)
+- 在 Python 软件包编号的多重环境下测试 [的更加复杂的设置](https://github.com/numpy/numpy/blob/main/.github/workflows/build_test.yml)
 
 
-In the next section, we will explain building blocks for the workflow.
+在下一节中，我们将解释工作流程的构件。
 
 <!-- (I'll explain each vocab separately using diagrams made with adobe illustrator) -->

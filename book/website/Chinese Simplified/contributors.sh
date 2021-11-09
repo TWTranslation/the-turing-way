@@ -1,28 +1,28 @@
 #! /bin/bash
-# Copy the latest contributors.md file content to afterword
-# this will publish the contributors file online in The Turing Way book
+# 将最新贡献者.md文件内容复制到后缀。
+# 这将在线发布贡献者文件在 Ting Way Book
 
-all_contributors='../../README.md' # Path to the main README file of The Turing Way
-contributor_highlights='../../contributors.md'
-collaborating_projects='../../collaborating_projects.md'
-contributors_record='afterword/contributors-record.md'
+all_contributors='../../README.md' # 到正确路径的主要README 文件路径
+contributor_highlights='../../../contributors.md'
+collaborating_projects.md'
+contributors_record='after word/contributors-record.md'
 
-# Copy everything from the contributors highlight
-echo '(contributors-record-highlights)=' > $contributors_record
+# 复制贡献者高亮显示的所有内容
+echo '(贡献者-记录高亮)=' > $contributors_record
 cat $contributor_highlights >> $contributors_record
 
-# # Get linenumber where all contributors list starts
-echo '\n(contributors-record-all)=' >> $contributors_record
-echo '\n# All Contributors\n' >> $contributors_record
-echo '\n✨Using [all-contributors](https://allcontributors.org/) specification, _The Turing Way_ Recognises all contributors, not just the ones who push code. ✨' >> $contributors_record
-line_num=$(grep -n '## Contributors' $all_contributors | cut -d: -f1)
-echo '\n(contributors-record-contributors)=' >> $contributors_record
+# # 获取所有贡献者列表开头的行号
+echo '\n(贡献者-记录)=' >> $contributors_record
+echo '\n# 所有贡献者\n' >> $contributors_record
+echo '\n✨Using [all-contributors](https://allcontributors.org/) specifiation, _The Ting Way_ recognizniznizes all contributors, not only who passed code ✨' >> $contributors_record
+line_num=$(grep -n '## 贡献者 $all_contributors |剪切-d：-f1)
+echo '\n(贡献者-记录贡献者)=' >> $contributors_record
 
-tail -n +"$line_num" "$all_contributors" | while read line;
-do
+tail -n +"$line_num"$all_contributors" | while read line;
+完成
   echo $line >> $contributors_record
-done
+完成
 
-# Copy everything from the collaborating projects files
-echo '\n(contributors-record-collaborators)=' >> $contributors_record
+# 复制协作项目文件中的所有内容
+echo '\n(贡献者-记录合作者)=' >> $contributors_record
 cat $collaborating_projects >> $contributors_record

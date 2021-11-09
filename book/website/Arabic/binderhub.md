@@ -1,26 +1,26 @@
-(rr-binderhub)=
-# BinderHub
+(r-binderhub)=
+# بيندرهوب
 
-## Prerequisites/recommended skill level
+## الشروط الأولية/مستوى المهارة الموصى بها
 
-| Prerequisite                                    | Importance     |
-| ----------------------------------------------- | -------------- |
-| {ref}`Version Control<rr-vcs>`            | Very Important |
-| {ref}`Reproducible Environments<rr-renv>` | Very Important |
+| الشروط المسبقة                            | الأهمية |
+| ----------------------------------------- | ------- |
+| {ref}`التحكم في الإصدار<rr-vcs>`    | مهم جدا |
+| {ref}`بيئات قابلة للتكرار<rr-renv>` | مهم جدا |
 
-This chapter will discuss [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html), which is the cloud technology powering [Binder](https://mybinder.readthedocs.io/en/latest/). We will cover the technologies and tools that BinderHub utilises and the resources you will need to setup your own BinderHub.
+سيناقش هذا الفصل [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html)، وهو مسحوق تكنولوجيا السحابة [Binder](https://mybinder.readthedocs.io/en/latest/). سوف نغطي التكنولوجيات والأدوات التي يستخدمها BinderHub والموارد التي ستحتاج إليها لإعداد BinderHub.
 
-This chapter is primarily aimed at Research Software Engineers and IT Services who wish to provide a BinderHub as a service to a group of researchers. Though anyone can build a BinderHub.
+ويستهدف هذا الفصل في المقام الأول مهندسي البرمجيات البحثية وخدمات تكنولوجيا المعلومات الذين يرغبون في توفير BinderHub كخدمة لمجموعة من الباحثين. على الرغم من أن أي شخص يمكنه بناء BinderHub.
 
 ```{figure} ../figures/binderhub.jpg
 ---
-name: binderhub
-alt: A representation of the BinderHub architecture that involves GitHub, repo2docker, docker, jupyterhub and shipping to clients in company.
+الاسم: Binderhub
+البديل : تمثيل بنية BinderHub التي تشمل GitHub, repo2docker, docker, jupyterhub والشحن للعملاء في الشركة.
 ---
-Illustration about BinderHub architecture.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+توضيح عن هندسة BinderHub المعمارية.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
 ```
 
-## Motivation
+## الدافع
 
-Reading this chapter will give you a clearer picture of how Binder services (such as [mybinder.org](https://mybinder.org)) operate, the technologies powering BinderHub and how they interact with one another. This chapter also covers reasons why you might build your own BinderHub, rather than using the public service at mybinder.org.
+ستعطيك قراءة هذا الفصل صورة أوضح لكيفية خدمات Binder (مثل [mybinder. rg](https://mybinder.org)) تعمل التكنولوجيات التي تعمل على تشغيل BinderHub وكيف تتفاعل فيما بينها. ويغطي هذا الفصل أيضاً الأسباب التي تجعلك تبني BinderHub، بدلاً من استخدام الخدمة العامة في mybinder.org.

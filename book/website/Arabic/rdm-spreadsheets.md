@@ -1,148 +1,148 @@
-(rr-rdm-spreadsheets)=
-# Data Organisation in Spreadsheets
+(جداول بيانات r-rdm)=
+# تنظيم البيانات في جداول البيانات
 
-Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used to collect, store, manipulate, analyse, and share research data. Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans. However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow. There is a collection of [horror-stories](http://www.eusprig.org/horror-stories.htm) that tells how the use of spreadsheets can ruin analysis-based studies due to unexpected behaviour of the spreadsheet or error-prone editing processes. Some of these mishaps are not unique to spreadsheets, but many, such as [this](https://doi.org/10.1186/s13059-016-1044-7) and [this](https://doi.org/10.1186/1471-2105-5-80), are.
+جداول البيانات مثل ملفات مايكروسوفت إكسيل، ولوحات جوغل، والبديل المفتوح المصدر [(على سبيل المثال) LibreOffice](https://www.libreoffice.org)، تستخدم عادة لجمع وتخزين ومعالجة وتحليل وتقاسم بيانات البحوث. صحائف البيانات هي أدوات مناسبة وسهلة الاستخدام لتنظيم المعلومات في نماذج سهلة الكتابة وسهلة القراءة للبشر. غير أنه ينبغي للمرء أن يستخدمها بحذر، لأن استخدام صحيفة جدولية غير مناسبة هو سبب رئيسي للأخطاء في تدفق العمل المتعلق بتحليل البيانات. هناك مجموعة من [القصص الرهيبة](http://www.eusprig.org/horror-stories.htm) التي تخبر كيف يمكن لاستخدام جداول البيانات أن يدمر الدراسات القائمة على التحليل بسبب السلوك غير المتوقع في جدول البيانات أو عمليات التحرير المعرضة للأخطاء. قد لا تكون بعض هذه الأخطاء فريدة من نوعها في جداول البيانات، ولكن العديد منها، مثل [هذا](https://doi.org/10.1186/s13059-016-1044-7) و [هذا](https://doi.org/10.1186/1471-2105-5-80).
 
-Fortunately, most problems can be avoided with the following recommendations:
-- Use spreadsheet in a text-only format (.csv or .tsv),
-- Create tidy spreadsheets,
-- Make spreadsheets consistent (with each other) and implement rules for data entries, and
-- Avoid manipulating and analysing data in spreadsheet software (this includes copy-paste).
+ولحسن الطالع، يمكن تفادي معظم المشاكل بالتوصيات التالية:
+- استخدام جدول البيانات بتنسيق النص فقط (.csv أو .tsv)،
+- إنشاء جداول بيانات،
+- جعل جداول البيانات متسقة (مع بعضها البعض) وتنفيذ قواعد لإدخال البيانات، و
+- تجنب التلاعب بالبيانات وتحليلها في برمجيات جداول البيانات (ويشمل ذلك النسخ واللصق).
 
-Spreadsheets are a powerful tool only if the dataset is collected and organised in specific formats that are usable for both the computers and researchers.
+لا تكون صحائف البيانات أداة قوية إلا إذا تم جمع وتنظيم مجموعة البيانات في أشكال محددة يمكن استخدامها لكل من الحواسيب والباحثين.
 
-(rr-rdm-spreadsheets-nondata)=
-## 1. Avoid Non-Data Content
+(جداول بيانات r-rdm-nondata)=
+## 1. تجنب محتوى غير بيانات
 
-Spreadsheets are used for organising data in a tabular form. The subject, the object and the relationship between them are transformed into rows, cells and columns, respectively. For example, the subject: `experiment`, relationship: `was performed on the date`, and the object: `2020-06-06` gives one row for each experiment, one column for `date of experiment`, and the value `2020-06-06` in the cell. Unfortunately, spreadsheet programs allow you to add other kinds of contents to this, like color to specific cells. While it may help the researchers at some point, one needs to remember that this kind of **cell modification should not be considered as data**, primarily because they cannot be exported to other software.
+وتستخدم صحائف البيانات لتنظيم البيانات في شكل جدول. ويتحول الموضوع وجوهره والعلاقة بينه إلى صفوف وخلايا وأعمدة على التوالي. على سبيل المثال، الموضوع: `تجربة`، العلاقة: `تم تنفيذها في التاريخ`، والكائن: `2020-06-06` يعطي صف واحد لكل تجربة، عمود واحد لـ `تاريخ التجربة`، والقيمة `2020-06-06` في الخلية. لسوء الحظ، تسمح لك برامج جدول البيانات بإضافة أنواع أخرى من المحتويات إلى هذا، مثل اللون إلى خلايا محددة. وفي حين أنه قد يساعد الباحثين في مرحلة ما، يحتاج المرء إلى تذكر أن هذا النوع من تعديل الخلية **لا ينبغي اعتباره كبيانات**، أساسا لأنها لا يمكن تصديرها إلى برامج أخرى.
 
-As a simple rule, what can be exported in a text-only format, comma-separated values (CSV), or tab-separated values (TSV), can be considered as the data. Other functions should be avoided when using these programs for research data. This includes:
-- changing font, color or borders,
-- using functions,
-- merging cells (this one is particularly problematic),
-- using specific cell formats (especially dates, see below).
+وكقاعدة بسيطة، يمكن اعتبار ما يمكن تصديره في شكل نص فقط، أو قيم مفصولة بفواصل (CSV)، أو قيم مفصولة بتبويب (TSV)، كبيانات. وينبغي تجنب وظائف أخرى عند استخدام هذه البرامج في بيانات البحوث. ويشمل ذلك:
+- تغيير الخط أو اللون أو الحدود،
+- استخدام الدوام،
+- دمج الخلايا (هذه الخلايا مشكلة بشكل خاص)،
+- استخدام صيغ خلية محددة (التواريخ، انظر أدناه).
 
-As a test for your spreadsheet compatibility with reproducible research, export your data from the spreadsheet to the CSV format and reopen it. If you can still get all the information that you stored in your sheet, then your data is fine.
-
-```
-Tip: If you want to use color to help with a rapid highlight in your document, create a new column to indicate which cells are highlighted (it becomes a part of your data).
-In addition to the visual feedback, you can now also use this information to filter or sort your data and get the highlighted cells quickly.
+كاختبار لتوافق جدول البيانات الخاص بك مع البحوث القابلة للتكرار، قم بتصدير بياناتك من جدول البيانات إلى تنسيق CSV وإعادة فتحها. إذا كنت لا تزال تستطيع الحصول على جميع المعلومات التي قمت بتخزينها في ورقتك، فإن بياناتك على ما يرام.
 
 ```
-(rr-rdm-spreadsheets-format)=
-## 2. Tidy Format For Spreadsheets
+نصيحة: إذا كنت ترغب في استخدام اللون للمساعدة في تسليط الضوء السريع في المستند الخاص بك، إنشاء عمود جديد للإشارة إلى الخلايا التي يتم تسليط الضوء عليها (تصبح جزءا من بياناتك).
+بالإضافة إلى الملاحظات المرئية، يمكنك الآن استخدام هذه المعلومات لتصفية أو فرز بياناتك والحصول على الخلايا البارزة بسرعة.
 
-If the spreadsheet is poorly organised, then it may be [difficult for collaborators](https://luisdva.github.io/pls-don't-do-this/) to easily {ref}`read-in and re-use <rr-rdm-fair>` your data for further analysis.
+```
+(r-rdm-pladsheets-format)=
+## 2. تنسيق اللوحات البرمجية
 
-Indeed, a large part of the work of data scientists is to transform the data into a form that the computer can read. However, this is incredibly time-consuming when the information is split between several spreadsheets and when there are no concrete data transformation plans before the data is acquired.
+إذا كان جدول البيانات ضعيفا، ثم قد يكون [صعب على المتعاونين](https://luisdva.github.io/pls-don't-do-this/) بسهولة {ref}`قراءة وإعادة استخدام <rr-rdm-fair>` بياناتك لمزيد من التحليل.
 
-There are very simple rules to facilitate data use, which go into the concept of [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
+والواقع أن جزءا كبيرا من عمل علماء البيانات يتمثل في تحويل البيانات إلى شكل يمكن أن يقرأه الحاسوب. غير وهذا يستغرق وقتا طويلا للغاية عندما تقسم المعلومات بين عدة جداول بيانات وعندما لا تكون هناك خطط ملموسة لتحويل البيانات قبل الحصول على البيانات.
 
-In short:
+هناك قواعد بسيطة جدا لتسهيل استخدام البيانات، والتي تدخل في مفهوم [**البيانات المرتبة**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). ويسمح شكل البيانات المنسقة بفرز البيانات وتصفيتها بسهولة في برامجيات جداول البيانات.
 
-- One column = one variable (no more, no less, this implies that two header names can not be identical)
-- One row = one sample
-- One cell = one information
-- **The first row is the header**
-- Header names must not include a special character (including space) or start with a number
+باختصار:
+
+- عمود واحد = متغير واحد (لا أكثر، لا أقل، هذا يعني ضمناً أن اسمين للرأس لا يمكن أن يكونا متطابقين)
+- صف واحد = عينة واحدة
+- خلية واحدة = معلومات واحدة
+- **الصف الأول هو رأس الصفحة**
+- يجب ألا تتضمن أسماء الترويسة حرف خاص (بما في ذلك المساحة) أو أن تبدأ بعدد
 
 ```{figure} ../../figures/tidy-1.png
 ---
 name: tidy-1
-alt: The image depicts tidy data. One column represents a variable, one row represents a sample, and one cell represents a piece of information.
+البديل : الصورة تصور البيانات المرتبة . ويمثل عمود واحد متغير، ويمثل صف واحد عينة، وتمثل خلية واحدة جزءا من المعلومات.
 ---
-An illustration of tidy data.
+مثال توضيحي للبيانات المرتبة
 ```
 
-Three rules make a dataset tidy:
-1. Each variable must have its own column.
-2. Each observation must have its own row.
-3. Each value must have its own cell.
+ثلاث قواعد تجعل مجموعة البيانات مربوطة :
+1. ويجب أن يكون لكل متغير عموده الخاص به.
+2. ويجب أن يكون لكل ملاحظة صفوفها الخاص.
+3. يجب أن يكون لكل قيمة خلية خاصة بها.
 
-There are data validation tools available, like https://goodtables.io, that allow you to automatically check whether your spreadsheets are tidy.
+هناك أدوات للتحقق من صحة البيانات متاحة، مثل https://goodtables.io، التي تسمح لك بالتحقق تلقائياً مما إذا كانت جداول البيانات الخاصة بك مرتبة.
 
-(rr-rdm-spreadsheets-consistent)=
-## 3. Consistent Values
+(جداول جدولية - متسقة)=
+## 3. قيم متسقة
 
-When you work with several spreadsheets or with a team during data collection, it is crucial to make sure the same information will be entered with the same term, and that the same term always conveys the same information. In the example of iris data, if some people use different terms to record information for a specific column - such as naming the column `species` instead of `Species` or using `iris setosa`, `set.` or `i.setosa` instead of `setosa` - the creation of a reproducible workflow will be more difficult, and errors may even be overlooked.  
-Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
+عندما تعمل مع عدة جداول بيانات أو مع فريق أثناء جمع البيانات، ومن الأهمية بمكان التأكد من إدخال المعلومات نفسها بنفس المصطلح، وأن نفس المصطلح ينقل دائما نفس المعلومات. في مثال البيانات الشديدة، إذا كان بعض الناس يستخدمون مصطلحات مختلفة لتسجيل المعلومات لعمود معين - مثل تسمية العمود `نوع` بدلاً من `نوع` أو استخدام `iris setosa`، `تم تعيينه.` أو `` `1'. etosa `` بدلاً من `setosa` - سيكون إنشاء سير عمل قابل للتكرار أكثر صعوبة، بل وقد يتم تجاهل الأخطاء.  
+كثيرا ما تؤدي الاختلافات إلى أخطاء، خاصة عندما يكون من الممكن أن تعني نفس المصطلحات أشياء مختلفة اعتمادا على من يدخل البيانات. على سبيل المثال، فإن الإشارة إلى التاريخ ب `02-03` تعني 3 فبراير<sup>ثالثا</sup> في الولايات المتحدة الأمريكية، ولكن آذار/مارس<sup>الثاني</sup> في أوروبا.
 
-It is good practice to implement a `data dictionary` or a `taxonomy` of accepted terms and document the convention used in a README file. Depending on the software you use, you may be able to restrict the accepted values in specific columns. If such a taxonomy or ontology is available, using it may allow you (and others) to use the data in conjunction with other datasets. For example, you may use the generic `male` and `female` term for the sex of an animal (without capitals, and without using abbreviation), as many ontologies use these terms. Besides, you may want to use some extra tools to validate the spreadsheets before its integration in the analysis.
+من الممارسات الجيدة تنفيذ `قاموس البيانات` أو `تصنيف` بشروط مقبولة ومستندات الاتفاقية المستخدمة في ملف README. اعتماداً على البرنامج الذي تستخدمه، قد تكون قادراً على تقييد القيم المقبولة في أعمدة محددة. وإذا كان هذا التصنيف أو علم الأورام متاحا، فقد يتيح لك (وغيره) استخدام البيانات بالاقتران مع مجموعات بيانات أخرى. على سبيل المثال يمكنك استخدام المصطلح العام `ذكر` و `أنثى` لنوع جنس حيوان (بدون عواصم)، ومن دون استخدام الاختصار)، فإن الكثير من علم الأورام يستخدم هذه المصطلحات. بالإضافة إلى ذلك، قد ترغب في استخدام بعض الأدوات الإضافية للتحقق من صحة جداول البيانات قبل إدماجها في التحليل.
 
-You should also have clear rules about missing data points. Using `NA`, `NULL`, or empty cells is not trivial and may have different meanings (impossible data point, not recorded, or lost data point). Imagine a researcher wants to record the time spent before seeing a pollinator land on an iris flower, and no pollinator was seen during the 10-minute experiment. Suppose the researcher reports `600` (the duration of the experiment in seconds). In that case, there will be no way to distinguish a scenario where no pollinator was seen, and one when a pollinator was seen at the end of the experiment (and you may forget that rule and treat `600` as a normal value).
+يجب أن يكون لديك أيضا قواعد واضحة حول نقاط البيانات المفقودة. باستخدام `NA`، `NULL`، أو الخلايا الفارغة ليست تافهة وقد تكون لها معاني مختلفة (نقطة بيانات مستحيلة، غير مسجلة أو نقطة بيانات مفقودة). تخيل أحد الباحثين يريد تسجيل الوقت الذي يقضيه قبل رؤية أرض ملقح على زهرة حديدة، ولم يشاهد أي ملقح خلال تجربة 10 دقائق. افترض تقارير الباحث `600` (مدة التجربة بالثواني). وفي تلك الحالة، لن تكون هناك طريقة للتمييز بين سيناريو لم يُشاهد فيه أي ملقح، وواحدة عندما شوهد ملقح في نهاية التجربة (وقد تنسى تلك القاعدة وتتعامل مع `600` كقيمة عادية).
 
-If `NA` is reported, one may interpret this value as a non-existing data point (the experiment had not been performed). An elegant solution is to have a second column stating whether a pollinator was seen during the experiment, where `TRUE`, `FALSE` and `NA` values are accepted.
+إذا تم الإبلاغ عن `NA` ، قد يفسر المرء هذه القيمة على أنها نقطة بيانات غير موجودة (لم يتم تنفيذ التجربة). الحل الأنيق هو أن يكون هناك عمود ثان يبين ما إذا كان ملقح قد شوهد أثناء التجربة، حيث يتم قبول قيم `TRUE`و `FALSE` و `NA`.
 
-Finally, you should also be aware of the default behaviour of your spreadsheet program, as it may be different for different programs, and different versions of the same program. For instance, the decimal is usually indicated with a comma in the French or German versions of Excel. In the English versions, a dot is used since the comma has no meaning (`9,000` will be translated into `9000` or `9` depending on the version you are using).
+وأخيرا، يجب أن تكون على علم بالسلوك الافتراضي لبرنامج جدول البيانات الخاص بك، كما أنه قد يكون مختلفاً بالنسبة للبرامج المختلفة، والإصدارات المختلفة من نفس البرنامج. فعلى سبيل المثال، يشار عادة إلى الكسور العشرية بفاصلة في النسختين الفرنسية والألمانية من إكسيل. في الإصدارات الإنجليزية، يتم استخدام نقطة بما أن الفاصلة لا معنى لها (`9، 00` سيتم ترجمته إلى `9000` أو `9` تبعاً للإصدار الذي تستخدمه).
 
-(rr-rdm-spreadsheets-manipulation)=
-## 4. Data Manipulation and Analysis
+(جداول جداول-التلاعب) =
+## 4. معالجة البيانات وتحليلها
 
-***Do not manipulate or analyse data in a spreadsheet program.***
+***لا تتلاعب بالبيانات أو تحللها في برنامج جدول بيانات.***
 
-In particular, only copy-paste from one spreadsheet to another if the process is used very rarely. It is now effortless to read and combine different spreadsheets in the analysis software, with the additional advantage that the software will return an error message if the headers do not fit.
+وعلى وجه الخصوص، لا يتم نسخ اللصق من صحيفة جدولية إلى أخرى إلا إذا استخدمت العملية نادرا جدا. ومن غير المجدي الآن قراءة جداول بيانات مختلفة في برامجيات التحليل وجمعها معا، مع الميزة الإضافية أن البرنامج سوف يعيد رسالة خطأ إذا كانت العناوين غير مناسبة.
 
-(rr-rdm-spreadsheets-tips)=
-## Other Tips
+(rr-rdm-pladets-tips)=
+## نصائح أخرى
 
-(rr-rdm-spreadsheets-tips-time)=
-### Dealing With Time Information
+(rr-rdm-pladsheets-tips-time)=
+### التعامل مع معلومات الوقت
 
-While dates should be written as `yyyy-mm-dd`, Excel and other software tend to transform this data into their own date formats (even during data import from a CSV file). The only 100% secure way to deal with this is to make different columns for years, months, and days and recreate the data in the software used for analysis. Time entered with `hh:mm:ss` normally works.
+بينما يجب كتابة التواريخ كـ `yyyyy-mm-dd`، وتميل برمجيات إكسل وغيرها إلى تحويل هذه البيانات إلى صيغ التواريخ الخاصة بها (حتى أثناء استيراد البيانات من ملف CSV). الطريقة الوحيدة المؤمنة بنسبة 100% للتعامل مع هذا هو إنشاء أعمدة مختلفة لسنوات، الأشهر والأيام وإعادة إنشاء البيانات في البرنامج الحاسوبي المستخدم في التحليل. الوقت الذي تم إدخاله مع `hhh:mm:ss` يعمل عادة.
 
-(rr-rdm-spreadsheets-tips-several)=
-### Working With Several Sheets
+(rr-rdm-scalets-tips-several)=
+### العمل مع عدة صحائف
 
-We often use several sheets for different but related data. It is a handy tool indeed, especially when one wants to share the complete dataset with colleagues.  
-On the other hand, CSV files only save one sheet at a time. Though most data analysis software have several ways to import `xlsx` files, the practical solution is to work with the `xlsx` format while making sure that the information is available in CSV format for each sheet. A better solution, especially for long term storage, is to save all sheets separately in a CSV file and zip them together. This solution also allows including extra documentation that could be in a different format (for example, a text file explaining the meaning of the headers and the chosen unit).
+وكثيرا ما نستخدم عدة صحائف لبيانات مختلفة ولكنها ذات صلة. وهي أداة مفيدة حقا، خاصة عندما يريد المرء أن يتقاسم مجموعة البيانات الكاملة مع الزملاء.  
+من ناحية أخرى، ملفات CSV فقط حفظ ورقة واحدة في كل مرة. على الرغم من أن معظم برامج تحليل البيانات لديها عدة طرق لاستيراد ملفات `xlsx` ، الحل العملي هو العمل مع تنسيق `xlsx` مع التأكد من أن المعلومات متوفرة في شكل CSV لكل ورقة من الورقات. الحل الأفضل، لا سيما للتخزين الطويل الأجل، هو حفظ جميع الألواح بشكل منفصل في ملف CSV وتركيبها معا. ويسمح هذا الحل أيضا بإدراج وثائق إضافية يمكن أن تكون في شكل مختلف (على سبيل المثال، ملف نصي يشرح معنى العناوين الرئيسية والوحدة المختارة).
 
-(rr-rdm-spreadsheets-tips-design)=
-### Spreadsheet Design
+(rr-rdm-table sheets-tips-design)=
+### تصميم جدول البيانات
 
-Data is often collected manually, on paper. To be most efficient and avoid mistakes, it is best to collect the data in the same format as it will be digitalised. That is, one should design the computer-readable spreadsheet to be printed for data collection. This poses some design questions, especially for information that is unique to one experiment (one paper) but may change between experiments (for example, experimentalist or temperature of the room). You indeed want that information in one column, but you would like to enter it only once during data acquisition (especially on the paper version). One solution is to move these columns onto a second (non-printed) page on the spreadsheet and adjust the headers and footers to enter the information on the paper version. One needs to make sure the information is entered in the column during digitalisation.
+وكثيرا ما تجمع البيانات يدويا، على الورق. ولكي تكون البيانات أكثر كفاءة وتتجنب الأخطاء، من الأفضل جمع البيانات بنفس الشكل الذي ستتم فيه رقميتها. أي أنه ينبغي للمرء أن يصمم صحيفة جدولية مقروءة بالحاسوب لكي تطبع من أجل جمع البيانات. وهذا يطرح بعض الأسئلة المتعلقة بالتصميم، لا سيما بالنسبة للمعلومات التي تنفرد بها تجربة واحدة (ورقة واحدة) ولكنها قد تتغير بين التجارب (على سبيل المثال اختبار أو درجة حرارة الغرفة). أنت تريد بالفعل هذه المعلومات في عمود واحد، لكنك ترغب في إدخالها مرة واحدة فقط أثناء الحصول على البيانات (خاصة على النسخة الورقية). ويتمثل أحد الحلول في نقل هذه الأعمدة إلى صفحة ثانية (غير مطبوعة) في جدول البيانات وتعديل العناوين الرئيسية والتذييلات لإدخال المعلومات في النسخة الورقية. ويحتاج المرء إلى التأكد من إدخال المعلومات في العمود أثناء الرقمية.
 
-The way you enter the information (that is, the way you design your headers and cell content) may be different depending on the analysis you want to perform. One should still always try to be as generic and objective as possible and think about any additional analyses one may want to perform.
+الطريقة التي تقوم بها بإدخال المعلومات (أي: الطريقة التي تصمم بها رؤوسك ومحتوى الخلايا قد تكون مختلفة تبعاً للتحليل الذي تريد أداءه. وينبغي للمرء أن يحاول دائما أن يكون عاما وموضوعيا قدر الإمكان، وأن يفكر في أي تحليلات إضافية قد يرغب المرء في إجرائها.
 
 
-As an example, let us suppose you are interested in depicting if the percentage of flowers whose sepal length is longer than 6 mm is different in three iris species. You may be inclined to record a true or false column `is-sepal-longer-than-6cm`, but this will restrict the analysis you can perform. A better solution is to record the length of the sepal (in mm) and automatically create the categorization later.
+على سبيل المثال، دعونا نفترض أنك مهتم بتصوير ما إذا كانت النسبة المئوية من الزهور التي يزيد طولها عن 6 ملم مختلفة في ثلاثة أنواع ساخنة. قد تميل إلى تسجيل عمود صحيح أو كاذب `is-sepal-أطول من -6cm`، ولكن هذا سيقيد التحليل الذي يمكنك إجراؤه. الحل الأفضل هو تسجيل طول الفصل (بالمم) وإنشاء التصنيف تلقائياً في وقت لاحق.
 
-If you are using R, you would then plot what you wanted with:
+إذا كنت تستخدم R، فسترسم بعد ذلك ما تريده مع:
 ```
-iris %>% ## the iris dataset is included in R base
-  dplyr::mutate ("is-sepal-longer-than-6cm" = ifelse(Sepal.Length >6, TRUE, FALSE)) %>% ## this create the new column
-  ggplot2::ggplot (aes (x=`is-sepal-longer-than-6cm` , fill= Species)) + ggplot2::geom_bar() ## this plots the data
+iris %>% ## مجموعة البيانات الحدية متضمنة في قاعدة R
+  dplyr::mutate ("is-sepal-أطول من -6cm" = ifelse(Sepal. طول >6، TRUE، FALSE)) ٪>٪ ## هذا ينشئ العمود الجديد
+  ggplot2:ggplot (أيس (x=`is-sepal-أطول من -6cm` , ملء = الأنواع) + ggplot2:geom_bar() ## هذا يرسم البيانات
 ```
 
-Headers names should be chosen with care, and when it is not clear what is meant and what unit is used, you may want to add some explanation in an external document. You may also share a sample spreadsheet to a colleague to receive feedback on how understandable your sheet is.
+ينبغي اختيار أسماء الرؤوس بعناية وعندما لا يكون من الواضح ما المقصود والوحدة المستخدمة، قد ترغب في إضافة بعض التوضيح في مستند خارجي. كما يمكنكم تقاسم جدول بيانات عينة مع زميل للحصول على تعليقات بشأن مدى فهمك لهذه الورقة.
 
-Another alternative is to add some explanations on top of the sheet in the first rows before the headers. By keeping human-readable information at the top of the file, one can better understand the data that starts in the header rows. This information can also help in analysing that data, making sure that the scripts ignore the explanation lines and only consider it during analysis. However, a good file with tidy columns and rows should not need extra explanation.
+وثمة بديل آخر يتمثل في إضافة بعض التفسيرات إلى الصفحة الأولى قبل الرؤوس. من خلال الاحتفاظ بالمعلومات القابلة للقراءة البشرية في الجزء العلوي من الملف، يمكن للمرء أن يفهم بشكل أفضل البيانات التي تبدأ في صفوف الترويسة. ويمكن أن تساعد هذه المعلومات أيضا في تحليل تلك البيانات، مع التأكد من تجاهل النصوص النصية لخطوط التفسير وعدم النظر فيها إلا أثناء التحليل. ومع ذلك، فإن وجود ملف جيد يتضمن أعمدة وصفوف مرتبة ينبغي ألا يحتاج إلى تفسير إضافي.
 
-As for header names, the size of the headers is not an issue for computers. However, for human readability, it is better to keep it short (up to 32 characters).
+أما فيما يتعلق بأسماء الرؤوس فإن حجم الرؤوس ليس مشكلة بالنسبة للحواسيب. غير أنه من الأفضل أن تظل مقتصرة (حتى 32 حرفا) على القراءة البشرية.
 
-You do not have to think about the order of the columns for the analysis, as it has no importance for data analysis software. You can, therefore, completely optimise that parameter for the data collection step.
+ليس عليك أن تفكر في ترتيب أعمدة التحليل، لأنه ليس له أهمية بالنسبة لبرمجيات تحليل البيانات. لذلك يمكنك تحسين هذا المعلم بشكل كامل لخطوة جمع البيانات.
 
-(rr-rdm-spreadsheets-tips-versioning)=
-### Standard and Versioning
+(rr-rdm-table sheets-tips-versioning)=
+### الاصدار القياسي
 
-A good spreadsheet design has instructive and intuitive header names, and it facilitates both data collection and analysis. Building such a spreadsheet design is difficult as it takes time, multiple iterations, and consensus. It is therefore beneficial to look for a standard spreadsheet before designing your own and to share your design openly once it is created. One should also use a version history of the spreadsheets (as they will evolve), and the analysis script should mention the version number of the spreadsheet. Documentation of the spreadsheet, its version history, and the ontologies it is linked to, can be useful for future users.
+ولتصميم جدول بيانات جيد أسماء مفيدة وبديهية للرأس وييسر جمع البيانات وتحليلها. ومن الصعب وضع مثل هذا التصميم لصحائف البيانات لأن الأمر يستغرق وقتا وتكرارا متعددا وتوافق في الآراء. لذلك من المفيد البحث عن جدول بيانات قياسي قبل تصميم تصميمك الخاص ومشاركة التصميم الخاص بك علنا بمجرد إنشائه. كما ينبغي للمرء أن يستخدم تاريخ إصدار الصحائف الجدولية (حيث أنها ستتطور)، وينبغي أن يذكر نص التحليل رقم الإصدار من جدول البيانات. ويمكن أن يكون من المفيد للمستخدمين في المستقبل توثيق صحيفة البيانات وتاريخ إصدارها وعلم الأورام المرتبط بها.
 
-(rr-rdm-spreadsheets-tips-team)=
-### Working In A Team: Wrap-up
+(rr-rdm-scalets-tips-team)=
+### العمل في فريق: الاختتام
 
-If you are working with a team on data collection, make sure:
-- Everyone uses the same software (and software version) to enter the data.
-- Everyone uses the same version of the spreadsheet template.
-- Everyone understands what each column represents, and the unit that should be used.
-- Every column has a defined standard on how to enter data in it or taxonomy of terms that one can use.
-- One person is responsible for answering putative questions during data collection.
-- Every spreadsheet is validated before entering the analysis workflow, and as soon as possible.
+إذا كنت تعمل مع فريق لجمع البيانات، تأكد مما يلي:
+- ويستخدم الجميع نفس البرنامج (وإصدار البرامج) لإدخال البيانات.
+- الجميع يستخدمون نفس الإصدار من قالب جدول البيانات.
+- ويفهم الجميع ما يمثله كل عمود، والوحدة التي ينبغي استخدامها.
+- ولكل عمود معيار محدد بشأن كيفية إدخال البيانات فيه أو تصنيف للمصطلحات التي يمكن للمرء استخدامها.
+- وهناك شخص واحد مسؤول عن الإجابة على الأسئلة المفترضة أثناء جمع البيانات.
+- ويتم التحقق من صحة كل جدول بيانات قبل إدخال سير عمل التحليل، وفي أقرب وقت ممكن.
 
 
-(rr-rdm-spreadsheets-summary)=
+(جداول جدولة-موجزة)=
 ## Summary
 
-While spreadsheets can be a very user-friendly way to collect and share data, they can also be the source of mistakes if misused. When aiming at developing a reproducible workflow for analyses, one should design the spreadsheet for both computer and human readability, and, even before starting data collection, they should consider what would make their data analysis easy. Data manipulation and analysis in spreadsheets, in particular, is best avoided as it leads to non-reproducible workflows. Using version control and making the data read-only are two additional data management practices that can prevent accidents.
+وفي حين أن جداول البيانات يمكن أن تكون وسيلة سهلة الاستعمال جدا لجمع البيانات وتقاسمها، فإنها يمكن أن تكون أيضا مصدرا للأخطاء في حالة إساءة استخدامها. وعند السعي إلى تطوير تدفق عمل قابل للاستنساخ لأغراض التحليل، ينبغي للمرء أن يصمم جدول البيانات لجهاز الكمبيوتر وسهولة القراءة البشرية على حد سواء. وينبغي لها، حتى قبل البدء في جمع البيانات، أن تنظر في ما سيجعل تحليلها للبيانات سهلا. وأفضل طريقة لتفادي التلاعب بالبيانات وتحليلها في جداول البيانات، على وجه الخصوص، لأنها تؤدي إلى تدفقات عمل غير قابلة للتكرار. واستخدام مراقبة النسخ وإجراء قراءة البيانات فقط هما ممارستان إضافيتان لإدارة البيانات يمكن أن تحول دون وقوع حوادث.
 
-Use a README [{term}`def<README>`] file and and other structure choices to explain naming conventions. It will make it clear to others what the file and header names mean, and what criteria to consider when designing an analysis workflow. If you work in a team, you should take particular care of the conventions and make sure everyone follows them.
+استخدم ملف [{term}`def<README>`] وخيارات البنية الأخرى لشرح اتفاقيات التسمية. وسيوضح للآخرين ما تعنيه أسماء الملفات والرؤوس وما هي المعايير التي ينبغي أخذها في الاعتبار عند تصميم سير العمل التحليلي. إذا كنت تعمل في فريق ما، فيجب عليك أن تولي عناية خاصة للاتفاقيات وأن تتأكد من أن الجميع يتبعونها.
 
-To learn more about data organisation in spreadsheets, you may have a look at the Data Carpentry lessons for [Social Scientists](https://datacarpentry.org/spreadsheets-socialsci/) and [Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/).
+لمعرفة المزيد عن تنظيم البيانات في جداول البيانات، قد يكون لديك نظرة على دروس نجار البيانات من أجل [علماء الإجتماع](https://datacarpentry.org/spreadsheets-socialsci/) و [علماء البيئة](https://datacarpentry.org/spreadsheet-ecology-lesson/).

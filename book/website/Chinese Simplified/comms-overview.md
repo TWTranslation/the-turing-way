@@ -1,26 +1,26 @@
 (cm-comms-overview)=
-# Overview of the Guide for Communication
+# A. 通信指南概述
 
-Research projects, publications and communities are evaluated based on the impact that they make. This is often based on academic journal articles, generally published on completion of a project. However, there is much more scope to plan communication in a research project to enable effective collaboration, sharing progress as well as reporting results and conclusions at different stages of research through different streams of dissemination.
+研究项目、出版物和社区是根据它们所产生的影响进行评价的。 这往往是以学术杂志文章为基础的，一般是在项目完成后发表的。 然而，在研究项目中规划沟通的余地要大得多，以便能够进行有效的合作。 通过不同的传播渠道分享进展以及在不同研究阶段报告结果和结论。
 
-In this guide, we present tools, methods and recommendations for communicating our research with wider audiences. Communication methods described here can be used for establishing efficient ways to work with your collaborators, share different research objects as well as increase the breadth of the audience for your research or community.
+在本指南中，我们提出了与更广泛的受众交流我们研究情况的工具、方法和建议。 这里描述的交流方法可以用来确定与您的合作者合作的有效方式。 分享不同的研究对象，增加你的研究或社区的受众范围。
 
 ```{figure} ../figures/communication-styles.jpg
 ---
-name: communication-styles
-alt: Two people sitting working. One using a feather and scroll with the words inaccessible and too technical written on the scroll. The other person sitting at a computer with different communication methods coming out of the computer including blogs, podcasts, lay summaries and social media. There are also dictionaries for foreign languages showing that it is important to translate our research into different languages. Accessibility is written on the computer screen.
+名称：通讯风格
+备选案文：两个人在工作中。 一个使用羽毛和滚动，单词不可访问且太技术性太强写在滚动上。 坐在计算机上的另一人使用不同的通信方法，包括博客、播客、传单、简讯和社交媒体。 还有一些外语字典表明，必须将我们的研究译成不同的语言。 可访问性写在计算机屏幕上。
 ---
-Illustration about communicating with a wider audience.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+关于与更广泛的受众进行沟通的图解说明。
+Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：10.5281/zenodo.3332807。
 ```
 
 (cm-comms-overview-jargon)=
-## Avoid Jargon
+## 避免Jargon
 
-> Plain language makes it easier for the public to read, understand, and use [all] communications. When we say not to use jargon, we’re not advocating leaving out necessary technical terms, but we are saying to make sure your language is as clear as possible. - [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/words/avoid-jargon)
+> 纯语言使得公众更容易阅读、理解和使用 [all] 通信。 当我们说不使用术语时，我们不主张遗漏必要的技术术语。 但我们要说的是确保你的语言尽可能明确。 - [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/words/avoid-jargon)
 
-Choosing to communicate in a jargon-free and less technical manner, with more consideration for accessibility ultimately results in our research being read and heard by more people. This includes writing your papers, guidelines and documentation simply and jargon-free. Other forms of communication include blogging, writing lay summaries, podcasting, presenting posters and talks at conferences outside of your discipline, and using social media. This can involve translating technical scientific writing into different styles that make your research more accessible to specialists outside of your specific discipline and also to the wider public. We also describe different communication channels you can select for your project to enable collaboration with your team or community members.
+选择以无术语和技术性较低的方式进行沟通， 更多地考虑无障碍环境最终导致更多的人阅读和听取我们的研究。 这包括编写你的文件、准则和文件，不用言语写。 其他形式的交流包括博客、撰写布告摘要、播客、在你学科以外的会议上展示海报和演讲以及利用社会媒体。 这可能需要将科学技术文献翻译成不同的风格，使您的研究更易于在您的特定学科之外的专家以及广大公众使用。 我们还描述了您可以为您的项目选择不同的沟通渠道，以启用与您的团队或社区成员的合作。
 
-We present several case studies from groups and individuals that have successfully used these methods of communication. They describe how they have practically gone about doing the communication method and offer some tips for others to get started. You are welcome to share your personal stories and impact studies in this guide.
+我们介绍了成功使用这些交流方法的团体和个人的若干个案研究。 他们描述了他们实际上如何采取了沟通方法，并为其他人提供了一些启迪。 欢迎您在本指南中分享您的个人故事和影响研究。
 
-Lessons learnt in this guide will enable researchers to communicate their research more clearly with wider audiences and therefore increase its overall impact. Methods discussed in the guide can have a considerable impact on the overall project or community in terms of gaining interest within your scientific discipline, engaging with the wider scientific community and gaining interest from the general public.
+从该指南中吸取的经验教训将使研究人员能够更明确地与更广泛的受众交流其研究结果，从而扩大其总体影响。 指南中讨论的方法在你们的科学学科中引起兴趣方面可能对整个项目或社区产生相当大的影响。 • 与更广泛的科学界接触并引起公众的兴趣。

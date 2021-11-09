@@ -1,20 +1,20 @@
-(cl-shared-ownership)=
-# Shared Ownership in Open Source Projects
+(cl-共享所有权)=
+# 在开源项目中共享所有权
 
-Open source or open research movement allows anybody to use, study, modify, and distribute software or research projects freely and for any purpose ([reference](https://opensource.org/osd)). As much as open source is about sharing and distribution of software, it is equally important to highlight practices that support people’s interactions with the project as well as the communities that are built around a common interest and mission. Volunteer contributions are central to the success of open source projects who use frameworks for project peer-production and collaborations. These contributions can be witnessed in the context of coding, reviewing, documenting, error reporting, bug fixing, method selection, mentorship, training, project maintenance and other community interactions. In this chapter, we explore the “shared ownership” models to highlight that the open source projects should be owned by the community of contributors who work to ensure their development and sustainability.
+开放源码或开放的研究运动允许任何人使用、学习、修改。 并为任何目的免费发布软件或研究项目 ([reference](https://opensource.org/osd))。 开放源码也涉及软件的共享和分配。 同样重要的是，要强调支持人们与项目以及围绕共同利益和使命建立的社区互动的做法。 志愿人员的贡献是利用同行生产框架和合作项目的开放源项目成功的关键。 这些贡献可从编码、审查、记录和错误报告方面看出。 错误修复、方法选择、辅导、培训、项目维护和其他社区交互。 在本章中， 我们探索“共享所有权”模式，以强调开放源码项目应由致力于确保其发展和可持续性的捐助界拥有。
 
 ```{figure} ../figures/open-source-collaboration.jpg
 ---
-name: open-source-collaboration
-alt: This illustration shows that closed source projects are driven by the needs of the institution or the individuals whereas the open source community allows different people to interact, exchange ideas, collaborate and build resources using “by the community - for the community” principles
----
-Open source collaborative pathway compared to closed source projects that are driven by institute's personal motivation. Picture credit: _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+名称：开放源码协作
+备选案文：这个示例表明，封闭源项目是由机构或个人的需要驱动的，而开放源码社区则允许不同的人相互作用。 交换意见 利用“社区――社区”原则
+协作并建立资源
+与由机构个人动机驱动的封闭源项目相比，开放源码合作途径。 图片积分: _Ting Way_Community, & Spreria。 （11月20日）。 故事书中的插图描述. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
-## Motivation
+## B. 动机。
 
-A shared sense of ownership is important for motivating contributors to collaborate in a project as they align their interests with the project’s goals. The concept of shared or collective ownership is widely practised in open source (see definition for [collective ownership](https://www.agilealliance.org/glossary/collective-ownership/)), but unfortunately, it is not always described in the projects. Often it is vaguely communicated or assumed either based on the contributors’ time or the scale of their contributions. In the long term, it is not helpful for most contributors who don’t know if their contributors are valued, acknowledged or rewarded in the project.
+一种共同的主人翁意识对于鼓励捐助方在一个项目中进行合作十分重要，因为捐助方将其利益与项目的目标结合起来。 共享或集体所有权的概念在公开来源中广泛采用(见 [集体所有权](https://www.agilealliance.org/glossary/collective-ownership/)的定义)。 但不幸的是，项目中并不总是描述这种情况。 往往根据捐款者的时间或捐款比额表而含糊地传达或假定。 从长远来看，大多数贡献者不知道他们的贡献者是否在项目中得到珍视、承认或奖励，对他们没有帮助。
 
-In the subchapter {ref}`cl-shared-ownership-projects`, we explore what project ownership means in an open source world, in the subchapter {ref}`cl-shared-ownership-models`, we discuss different models that are out there and in the subchapter {ref}`cl-shared-ownership-challenges`, we discuss challenges that exist in adopting them in open source projects. Ultimately, in the subchapter {ref}`cl-shared-ownership-defaults`, we nudge researchers to apply good practices for establishing shared ownership in their open source projects.
+在 {ref}`cl-shared-ownership-projects`中，我们探索项目所有权在开源世界中意味着什么。 在子章节 {ref}`cl-shared-ownership-model`我们讨论了那里的不同模式，并且在第 {ref}章`克隆共享所有权挑战`我们讨论在开放源码项目中采用这些方法时存在的挑战。 Ultimately, in the subchapter {ref}`cl-shared-ownership-defaults`, we nudge researchers to apply good practices for establishing shared ownership in their open source projects.
 
-*This chapter was originally discussed and written in an online post by Malvika Sharan, Warrick Ball, Ben Krikler, and Andrew Brown as a part of the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21) speed blog series hosted by [Software Sustainability Institute](https://www.software.ac.uk).*
+*本章最初是由Malvika Sharan、Warrick Ball、Ben Krikler在线文章讨论和撰写的。 and Andrew Brown, as a part of the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21) spek blog series hosted by [Software Sustainability Institute](https://www.software.ac.uk)*

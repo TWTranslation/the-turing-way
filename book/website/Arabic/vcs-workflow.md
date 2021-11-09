@@ -1,61 +1,61 @@
 (rr-vcs-workflow)=
-# General Workflow
+# سير العمل العام
 
-Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. A typical procedure for using version control is as follows:
+التحكم في الإصدار هو نهج منهجي لتسجيل التغييرات التي تحدث في ملف، أو مجموعة من الملفات، مع مرور الوقت. وهذا يتيح لك ولمعاونيك تتبع التاريخ، ومعرفة ما تم تغييره، واستدعاء إصدارات محددة في وقت لاحق عند الحاجة. وفيما يلي إجراء نموذجي لاستخدام التحكم في النسخة:
 
-1. Create files - these may contain text, code or both.
-2. Work on these files, by changing, deleting or adding new content.
-3. Create a snapshot of the file status (also known as version) at this time.
+1. إنشاء ملفات - قد تحتوي على نص أو كود أو كليهما.
+2. العمل على هذه الملفات، بتغيير أو حذف أو إضافة محتوى جديد.
+3. إنشاء لقطة من حالة الملف (المعروفة أيضًا بالإصدار) في هذا الوقت.
 
-This process of creating a snapshot is described differently in different version control software. For example, Git describes it as "a commit". Some systems call it "a time-point" or "a checkpoint"; and this is referred to as "saving your work" in other cases such as in [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/).
+ووصفت عملية إنشاء لقطة بشكل مختلف في مختلف برامج التحكم في الإصدار. فعلى سبيل المثال، تصف Git ذلك بأنه "التزام". بعض النظم تسميها "نقطة زمنية" أو "نقطة تفتيش"؛ وهذا يشار إليه باسم "حفظ عملك" في حالات أخرى مثل [مستندات جوجل](https://docs.google.com/) أو [HackMD](http://hackmd.io/).
 
-As you keep saving your work by adding changes, you make more and more snapshots. You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
+بينما تستمر في حفظ عملك بإضافة تغييرات، تصنع المزيد والمزيد من اللقطة. يمكنك التفكير في هذه على أنها حفظ إصدارات من هذه الملفات أثناء توثيق تاريخها. إذا كنت بحاجة إلى العودة إلى نسخة سابقة من الملف بسبب الخطأ، أو إذا غيرت رأيك حول تحديث سابق، يمكنك الوصول إلى الملف في الإصدار المفضل الخاص بك، أو إعادة المشروع بأكمله إلى حالة سابقة.
 
-An illustration of this is shown below.
+ويرد أدناه مثال على ذلك.
 
 ```{figure} ../../figures/main-branch.png
 ---
 name: main-branch
-alt: An illustration of a main branch
+البديل : مثال توضيحي للفرع الرئيسي
 ---
-An illustration of a main branch
+مثال توضيحي للفرع الرئيسي
 ```
 
-In many version control systems, you will be able to add a comment every time you save a new version. These comments should be clear and concise to make it easy to understand what changes were proposed and what updates were made in a version. This ensures that it is easy to find what you are looking for when you need to go back to a past version. Your collaborators will thank you, but so will future versions of yourself.
+في العديد من أنظمة تحكم الإصدار، ستتمكن من إضافة تعليق في كل مرة تقوم بحفظ إصدار جديد. وينبغي أن تكون هذه التعليقات واضحة وموجزة لتيسير فهم التغييرات المقترحة والتحديثات التي أجريت في صيغة ما. وهذا يضمن أنه من السهل العثور على ما تبحث عنه عندما تحتاج إلى العودة إلى إصدار سابق. سيشكرك المتعاونون معك، ولكن كذلك ستصدر الإصدارات من نفسك.
 
-(rr-vcs-workflow-branches)=
-## Non-Linear Development of Your Project with "Branches"
+(rr-vcs-workflow-Branches)=
+## التطوير غير الخطي لمشروعك مع "الفروع"
 
-So you have your project and you want to add something new or try something out before reflecting the changes in the main project folder. To add something new, you can continue editing your files and save them with the proposed changes. Suppose you want to try something without reflecting the changes in the central repository. In that case, you can use the "branching" feature of more advanced version control systems such as Git. A branch creates a local copy of the main repository where you can work and try new changes. Any work you do on your branch will not be reflected on your main project (referred to as your main branch) so it remains secure and error-free. At the same time, you can test your ideas and troubleshoot in a local branch.
+إذاً لديك مشروعك وترغب في إضافة شيء جديد أو محاولة شيء قبل أن تعكس التغييرات في مجلد المشروع الرئيسي. لإضافة شيء جديد، يمكنك الاستمرار في تحرير ملفاتك وحفظها مع التغييرات المقترحة. لنفترض أنك تريد تجربة شيء ما دون أن تعكس التغييرات في المستودع المركزي. في تلك الحالة، يمكنك استخدام خاصية "فرع" أنظمة تحكم أكثر تقدماً مثل Git. يقوم الفرع بإنشاء نسخة محلية من المستودع الرئيسي حيث يمكنك العمل وتجربة تغييرات جديدة. لن يتم التفكير في أي عمل تقوم به في فرعك في مشروعك الرئيسي (المشار إليه بفرعك الرئيسي) لذلك فإنه يبقى آمناً وخالياً من الأخطاء. في نفس الوقت، يمكنك اختبار أفكارك واستكشاف الأخطاء في فرع محلي.
 
-When you are happy with the new changes, you can introduce them to the main project. The merge feature in Git allows the independent lines of development in a local branch to get integrated into the main branch.
+عندما تكون سعيدا بالتغييرات الجديدة، يمكنك تقديمها للمشروع الرئيسي. وتسمح خاصية الدمج في نظام Git بإدماج خطوط التنمية المستقلة في فرع محلي في الفرع الرئيسي.
 
 ```{figure} ../../figures/one-branch.png
 ---
-name: one-branch
-alt: An illustration of a development and main branch in git
+الاسم: فرع واحد
+البديل : مثال توضيحي للتطوير والفرع الرئيسي في git
 ---
-An illustration of a development and main branch in git.
+مثال توضيحي للتطوير والفرع الرئيسي في git.
 ```
 
-You can have more than one branch off of your main copy. If one of your branches ends up not working, you can either abandon it or delete it without impacting the main branch of your project.
+يمكنك أن يكون لديك أكثر من فرع واحد من نسختك الرئيسية. إذا كان أحد فروعك لا يعمل، يمكنك إما التخلي عنه أو حذفه دون التأثير على الفرع الرئيسي لمشروعك.
 
 ```{figure} ../../figures/two-branches.png
 ---
-name: two-branches
-alt: An illustration of two development branches and one main branch in git
+الاسم: فرعان
+البديل : مثال توضيحي لفرعين للتنمية وفرع رئيسي واحد في git
 ---
-Two development branches and one main branch in git.
+فرعان للتنمية وفرع رئيسي واحد في git.
 ```
 
-If you want, you can create branches from branches (and branches off of those branches and so on).
+إذا أردت، يمكنك إنشاء فروع من الفروع (وفروع من هذه الفروع وما إلى ذلك).
 
 ```{figure} ../../figures/sub-branch.png
 ---
-name: sub-branch1
-alt: An illustration of a development branch in git.
+الاسم: فرع فرعي 1
+البديل : مثال توضيحي لفرع التطوير في Git.
 ---
-A development branch in git.
+فرع تنمية في Git.
 ```
 
-No matter how many branches you have, you can access the past versions you made on any of them. If you are curious to know how to use this feature in practice, you will find more details a few sections ahead.
+بغض النظر عن عدد الفروع التي لديك، يمكنك الوصول إلى الإصدارات السابقة التي قمت بها على أي منها. إذا كنت ترغب في معرفة كيفية استخدام هذه الميزة في الممارسة، سوف تجد المزيد من التفاصيل في بعض الأقسام المقبلة.

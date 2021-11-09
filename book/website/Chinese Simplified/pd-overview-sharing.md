@@ -1,55 +1,55 @@
 (pd-overview-sharing)=
-# Sharing Your Research Work
-Now that you are in the last phase of your project, you want to make sure that your outputs are available to anyone interested in analysing or reusing them. Science can only progress from building on top of each other's results. The first step is sharing your work.
+# 分享您的研究工作
+现在您处于项目的最后阶段， 您想要确保您的输出能够提供给任何有兴趣分析或重新使用它们的人。 科学只能在彼此成果的基础上取得进展。 第一步是分享您的工作。
 
-But only sharing is not enough. You need to make sure that your research objects are **F**indable, **A**ccesible, **I**noperable and **R**eusable. This is referred to as {ref}`FAIR Principles<rr-rdm-fair>` that provides guidelines to improve the Findability, Accessibility, Interoperability and Reusability of digital assets; all of which support research reproducibility.
+但仅仅分享是不够的。 您需要确保您的研究对象是 **F**无法忍受。 **A**ccesible, **I**nable and **R**eusable 这被称为 {ref}`FAIR Principles<rr-rdm-fair>` 提供了提高查找能力的指导方针。 a. 数字资产的可获得、互操作性和可再利用性； 所有这些都有助于研究的可得性。
 
-This aspect is already considered when developing your {ref}`Data Management Plan (DMP)<rr-rdm-dmp>` (see {ref}`pd-overview-planning-dmp`). Therefore, it is important to revisit your DMP to make sure that the guidelines are also applied when making your results available. You can learn more about this in a chapter on {ref}`making data FAIR<rr-rdm-fair>`).
+开发您的 {ref}`数据管理计划 (DMP)<rr-rdm-dmp>` 时已经考虑到这个方面(见 {ref}`pd-overview-dmp`)。 因此，必须重新审查您的债务管理和政策分析，以确保在提供结果时也适用这些准则。 您可以在 {ref}`制作数据 FAIR<rr-rdm-fair>` 中了解更多关于这个问题的信息。
 
 (pd-overview-sharing-archive)=
-## Archive your Outputs
+## 存档您的输出
 
-Like your data, your outputs should be archived in an open place, where people can access them. A repository is a good place to store your results.
+像您的数据一样，您的输出应该被存档在一个开放的地方，在那里人们可以访问它们。 仓库是存储您结果的好地方。
 
-An overview of some repositories available for archiving your data can be found in [re3data.org](https://www.re3data.org/).
+可以在 [re3data.org](https://www.re3data.org/) 中找到用于将您的数据存档的一些仓库的概述。
 
-Another good resource where you can read more about this topic is the chapter on {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
+您可以阅读更多关于此主题的另一个很好的资源是 {ref}`共享和归档数据<rr-rdm-sharing>`
 
-(pd-overview-sharing-protocols)=
-## Share your Protocols
+(pd-overview-sharing-protocol)=
+## 分享您的协议
 
-One of the reasons to do reproducible research is to provide others with the tools to build on top of it. If the details of the protocols are not shared, researchers can spend months optimizing them before being able to start with their projects.
+进行可重复研究的原因之一是为其他人提供了进一步发展的工具。 如果不分享协议的细节，研究人员可以花几个月的时间优化它们，然后才能开始他们的项目。
 
-A tool that can be used to avoid this is [protocols.io](https://www.protocols.io/). It provides a way to ensure that your protocols are openly available, allowing you to update them while keeping track of the changes. Furthermore, having your protocols online makes them easier to share, creating opportunity for contributing.
+可以用来避免这种情况的工具是 [protocols.io](https://www.protocols.io/)。 它提供了一种确保您的协议公开可用的方法，允许您在跟踪变化的同时更新它们。 此外，您的协议在线使它们更容易分享，为贡献创造机会。
 
-## Share Analysis Scripts and Research Software
+## 分享分析脚本和研究软件
 
-If you have been using a version control system you will have this covered.
+如果您一直在使用版本控制系统，您将有此覆盖。
 
-If developing analysis scripts and research software is part of your research, you need to use a version control system. If you are new to version control you can read more about it in the {ref}`Version Control<rr-vcs>` chapter.
+如果开发分析脚本和研究软件是您研究的一部分，您需要使用版本控制系统。 如果您是新版本控制器，您可以在 {ref}`版本控制<rr-vcs>` 章节中阅读更多关于它的信息。
 
-You can integrate your version control system with a general-purpose repository. For example, when integrating GitHub with Zenodo you can get Digital Object Identifiers or DOIs for your software. This automatically makes it easier to share and makes it citable. You can read about DOIs in the chapter on {ref}`Making Research Components Citable<cm-citable>`.
+您可以将您的版本控制系统与普通用途仓库集成。 例如，在 GitHub 和 Zenodo 集成时，您可以为您的软件获取数字对象标识符或 DOI。 这自动使得分享更加容易，并使其易于查找。 您可以在关于 {ref}的章节中阅读有关DOI的信息`让研究组件易于获取<cm-citable>`。
 
-## Collecting your Research
+## 收集您的研究
 
-Once you are done with your research you may want to collect all the digital parts of your project in one place. This is called a research compendium. Publishing your paper along with a research compendium allows the full extent of your research: from the design of the project, through the data recollection and analysis and the resulting outputs.
+一旦你完成了你的研究，你可能想要在一个地方收集你项目的所有数字部分。 这是一份研究简编。 出版你的论文和研究简编能够充分发挥你的研究作用：从项目设计开始， 通过数据回忆和分析以及由此产生的产出。
 
-This has endless advantages. It makes your work shareable and reproducible, others can build upon it and gives you more visibility.
+这有着无休止的好处。 它使你的工作可以分享并可复制，其他人可以在它的基础上更上一层楼，让你更加引人注目。
 
-You can read how to set up your research compendia, {ref}`this chapter<rr-compendia>`.
+您可以阅读如何设置您的研究简编， {ref}`本章<rr-compendia>`。
 
-(pd-overview-sharing-License)=
-## Add License to Research Outputs
+(pd-overview-sharing-license)=
+## 添加许可证到研究产出
 
-Even if you got a license at the beginning of the project you need to think about it again when sharing your outputs and final results - this allows people to have the information about how your research should be reused and shared.
+即使您在项目开始时获得许可证，您在分享您的产出和最终结果时也需要再次考虑它——这使得人们能够了解如何重新使用和分享您的研究。
 
-If you want more information about how to choose and add a license to your project you can check the {ref}`Licensing Chapter<rr-licensing>`.
+如果你想要更多关于如何选择并将许可证添加到你的项目的信息，你可以检查 {ref}`许可章节<rr-licensing>`。
 
-(pd-overview-citation)=
-## Receive Citations
+（pd-overview-citation）=
+## 接收引文
 
-All this hard work will have its reward. Having published all your research from the design to the results adds visibility to your work and more opportunity to get credit.
+所有这些艰苦工作都将得到奖励。 在发布了您从设计到结果的所有研究后，您的工作更加引人注目，获得更多的奖励机会。
 
-Not only can your results can be cited, but your methods and protocols can be reused and your design can be shared.
+不仅可以引用您的结果，而且您的方法和协议可以重新使用，您的设计也可以共享。
 
-Read {ref}`this chapter on ORCID<cm-citable-orcid>` for more information about how you can collect different research outputs in one place using ORCID and highlight them to get fair credit for your work.
+阅读 {ref}`关于ORCID 的这一章<cm-citable-orcid>` 了解更多关于您如何能够在一个地方使用ORCID 收集不同的研究输出并突出显示它们以获得您的工作的公允积分。

@@ -1,87 +1,87 @@
 (ch-template-bookdash-github)=
-# Book Dash GitHub Session
+# Dash GitHub 会话
 
-*This template can be shared via a HackMD page to facilitate a pre-event GitHub session for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
+*此模板可以通过 HackMD 页面共享，以方便预事件GitHub 片段参与者的会话。 访问权限可以设置，以便每个人都能阅读笔记并由登录用户编辑。*
 
 ```
-# Book Dash, DD Month YYYY - GitHub Session
+# Book Dash, DD month YYYY - GitHub Session
 
-###### tags: `bookdash YYYY` `month` `event`
+#### 标签: `bookdash YYYYY` `mon` `event`
 
-==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
+==如果你是黑体字的新手， 请参阅本简短指南：[https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
 
 :::info
-- **Date:** DD Month <--- Update this
-- **Time:** 16:00 - 17:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/16:00)) <--- Update this
-- **Hosts:** (Add name) <--- Update this
-- Join Zoom Meeting: (Add link) <--- Update this
-:::
+- **日期:** DD 月 <- 更新这个
+- **时间:** 16:00 - 17:00 London time ([在你的时区](https://arewemeetingay) om/London/YYYY-MM-D/16：00)) <- 更新这个
+- **主机：** (添加名称) <- 更新这个
+- 加入缩放会议：(添加链接) <- 更新这个
+:::::
 
-**Before this meeting:**
+**在这次会议之前:**
 
-- Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
+- 检查[Friendly GitHub Intro](https://kirstiejane. ithub。 o/friendly-github-intro/)
 
-**At this call**
-we will give you an optional 1 hour GitHub tutorial:
+**在这次通话上**
+我们将给您一个可选的 1 小时GitHub 教程：
 
-- Creating a new repository
-- Creating a README file
-- Writing in Markdown
-- Submit changes (to _The Turing Way_) via Pull Request (PR)
-- demo: Review PR, Create issue
+- 创建一个新的资源库
+- 创建一个README 文件
+- 书写Markdown
+- 通过Pull 请求提交更改(_Ting Way_)
+- demo: Review PR, 通过添加您的名字
 
-## Sign up below by adding your name
+名称/机构或附属关系/GitHub 的哪个特定部分来创建问题
 
-Name / Institute or affiliation / What specific aspect of GitHub do you find challenging?
+## 在下面注册？
 * 
 * 
 * 
 
-🗣️ Welcome!
+🗣️ 欢迎!
 
-- Reminder: [Code of conduct & community participation guidelines](https://the-turing-way.netlify.app/community-handbook/coc.html)
-- If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Malvika and Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
+- 提醒：[行为守则 & 社区参与准则](https://the-turing-way.netlify.app/community-handbook/coc)。 tml
+- 如果您经历或见证了不可接受的行为，或有任何其他顾虑。 请联系组织者Malvika和Kirstie报告。 ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
-### Roll call
+### 滚称为
 
-- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... 
+- 名称/断开器问题：分享那些让你感到厌倦或最近给你带来和平的大自然中的东西——也许是一朵花， 一个视图，一个照片，一个精选的植物，一个飞过去的鸟…… 
 * 
 * 
 *  
 
 🗣️ Introduction to GitHub
 
-- Training materials: https://malvikasharan.github.io/developing_collaborative_document/
-- Slides: [Friendly GitHub Intro](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
-- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+- Training materials: https://malvikasharan. ithub.io/developing_collaborative_document/
+- 幻灯片：[Friendly GitHub Intro](https://docs.google)。 om/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwEnkLrDy-Fd4/edit?usp=sharing)
+- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online。 df
 
-**Breakout room task:** 
+**断路室任务：** 
 - 
 - 
 - 
 
 **Resources** :
 
-- Useful GitHub resources
-  - [GitHub for Collaboration (from Mozilla)](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
-  - [Understanding the GitHub workflow](https://guides.github.com/introduction/flow/)
-  - [A Friendly Github Intro Workshop (from Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
-  - [GitHub help](https://help.github.com/)
-  - [Oh Shit, Git!?!](http://ohshitgit.com/)
-  - [Try Git](https://try.github.io/)
+- 有用的GitHub 资源
+  - [GitHub for Collaboration (from Mozilla)](https://mozilla)。 io/open-leadership-training-series/articles/github-for-collaboration/)
+  - [了解GitHub workflow](https://guides. ithub.com/introduction/flow/
+  - [友好的Github Intro Workshop (来自Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
+  - [GitHub help](https://help.github. om/)
+  - [[Oh Shit, Git!?!](http://ohshitgit.com/)
+  - [尝试Git](https://try.github)。 o/)
   - [Git book](https://git-scm.com/book/en/v2)
-  - [GitHub glossary](https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md)
-  - [Writing on Github](https://help.github.com/categories/writing-on-github/)
-  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [GitHub glossary](https://github) om/joeyklee/friendly-github-intro/blob/master/glossary.md)
+  - [writting on Github](https://help.github.com/categories/writting-on-github/)
+  - [Markdown Cheatsheet](https://github. om/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
 **Questions / Comments?**
   - 
   -
 
-**Feedback**
+**反馈**
 
-What worked? What did not work? What additional support would you need before or during the Book Dash?
+哪些有效？ 什么不起作用？ 您在书签前或书签期间需要什么额外支持？
 
 -
 -

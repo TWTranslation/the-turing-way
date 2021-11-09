@@ -1,57 +1,57 @@
-(rr-overview-definitions)=
-# Definitions
+(r-overview-تعريفات) =
+# التعاريف
 
-The most common definition of reproducibility (and replication) was first noted by Claerbout and Karrenbach in 1992 {cite:ps}`ClaerboutKarrenbach1992Reproducibility` and has been used in computational science literature since then. Another popular definition has been introduced in 2013 by the Association for Computing Machinery (ACM) {cite:ps}`Ivie2018SciComp`, which swapped the meaning of the terms 'reproducible' and 'replicable' compared to Claerbout and Karrenbach.
+وقد أشار كلاربوت وكارينباخ لأول مرة إلى التعريف الأكثر شيوعاً لقابلية التكرار (وتكراراره) في عام 1992 {cite:ps}`كلايربوت كارينباش1992 للتكرار` واستخدم في أدبيات العلوم الحاسوبية منذ ذلك الحين. تم إدخال تعريف شعبي آخر في عام 2013 من قبل رابطة الآلات الحاسوبية {cite:ps}`Ivie2018SciComp`، الذي قام بتبديل معنى مصطلحي 'قابل للتكرار` و 'قابل للتكرار` بالمقارنة مع كلاربوت وكارينباخ.
 
-The following table contrasts both definitions {cite:ps}`Heroux2018Reproducibility`.
+الجدول التالي يتناقض مع كلا التعريفين {cite:ps}`Heroux2018القابلية للتكامل`.
 
-| Term         | Claerbout & Karrenbach                                                                                                                                    | ACM                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reproducible | Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.                                         | (Different team, different experimental setup.) The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently.                                                |
-| Replicable   | A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses. | (Different team, same experimental setup.) The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author's artifacts. |
+| المصطلح      | Claerbout & Karrenbach                                                                                                       | الإسبستوس                                                                                                                                                                                                                                                                                                         |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| قابل للنسخ   | ويقدم المؤلفون جميع البيانات والرموز الحاسوبية اللازمة لتشغيل التحليل مرة أخرى، مما يعيد خلق النتائج.                        | (فريق مختلف، إعداد تجريبي مختلف) ويمكن الحصول على القياس بدقة محددة بواسطة فريق مختلف، ونظام قياس مختلف، في موقع مختلف في تجارب متعددة. وبالنسبة للتجارب الحسابية، يعني هذا أنه يمكن لمجموعة مستقلة أن تحصل على نفس النتيجة باستخدام مصنوعات تطورها بشكل مستقل تماما.                                             |
+| قابل للتكرار | دراسة تتوصل إلى نفس النتائج العلمية التي تتوصل إليها دراسة أخرى، تجمع بيانات جديدة (ربما بطرق مختلفة) وتستكمل تحليلات جديدة. | (فريق مختلف، نفس الإعداد التجريبي) ويمكن أن يحصل فريق مختلف على القياس بدقة محددة باستخدام نفس إجراء القياس، نفس نظام القياس، في نفس ظروف التشغيل، في نفس الموقع أو في مكان مختلف في محاكمات متعددة. وبالنسبة للتجارب الحسابية، يعني هذا أنه يمكن لمجموعة مستقلة أن تحصل على نفس النتيجة باستخدام مصنوعات المؤلف. |
 
-Barba (2018) {cite:ps}`Barba2018Reproducibility` conducted a detailed literature review on the usage of reproducible/replicable covering several disciplines. Most papers and disciplines use the terminology as defined by Claerbout and Karrenbach, whereas microbiology, immunology and computer science tend to follow the ACM use of reproducibility and replication. In political science and economics literature, both terms are used interchangeably.
+باربا (2018) {cite:ps}`باربا 2018التناثري` أجرى استعراضا مفصلا للأدبيات حول استخدام المواد القابلة للتكرار والتي تغطي عدة تخصصات. وتستخدم معظم الورقات والتخصصات المصطلحات على النحو الذي حدده كلاربوت وكارنباخ، في حين تستخدم علم الميكروبيولوجيا، ويميل علم المناعة وعلوم الحاسوب إلى اتباع استخدام مادة الأسبستوس لقابلية التكاثر وتكراره. وفي العلوم السياسية والآداب الاقتصادية، يستخدم المصطلحان كلاهما على نحو متبادل.
 
-In addition to these high level definitions of reproducibility, some authors provide more detailed distinctions. Victoria Stodden {cite:ps}`Victoria2014Reproducibility`, a prominent scholar on this topic, has for example identified the following further distinctions:
+وبالإضافة إلى هذه التعاريف الرفيعة المستوى لقابلية الاستنساخ، يقدم بعض المؤلفين فروقا أكثر تفصيلا. فيكتوريا ستودن {cite:ps}`فيكتوريا 2014الاسترجاع`، وهي باحثة بارزة في هذا الموضوع، قد حددت على سبيل المثال الفوارق الإضافية التالية:
 
-- _Computational reproducibility_: When detailed information is provided about code, software, hardware and implementation details.
+- _التكرار الحسابي_: عندما يتم توفير معلومات مفصلة عن الكود والبرمجيات والمعدات وتفاصيل التنفيذ.
 
-- _Empirical reproducibility_: When detailed information is provided about non-computational empirical scientific experiments and observations. In practice, this is enabled by making the data and details of how it was collected freely available.
+- _الاستنساخ التجريبي_: عندما يتم توفير معلومات مفصلة عن التجارب والملاحظات العلمية التجريبية غير الحسابية. ومن الناحية العملية، يمكن تحقيق ذلك عن طريق إتاحة البيانات والتفاصيل المتعلقة بكيفية جمعها مجاناً.
 
-- _Statistical reproducibility_: When detailed information is provided, for example, about the choice of statistical tests, model parameters, and threshold values. This mostly relates to pre-registration of study design to prevent p-value hacking and other manipulations.
+- _قابلية الاستنساخ الإحصائي_: عندما يتم تقديم معلومات مفصلة، على سبيل المثال، عن اختيار الاختبارات الإحصائية، ومعايير النموذج، والقيم الحدية. ويتصل ذلك في معظمه بالتسجيل المسبق لتصميم الدراسة لمنع القرصنة ذات القيمة الصلبة وغير ذلك من التلاعب بها.
 
-(rr-overview-definitions-reproducibility)=
-## Table of Definitions for Reproducibility
+(r-overview-definitions-reduciity)=
+## جدول تعاريف القابلية للتكرار.
 
-At _The Turing Way_, we define **reproducible research** as work that can be independently recreated from the same data and the same code that the original team used. Reproducible is distinct from replicable, robust and generalisable as described in the figure below.
+في _طريق التورنج_، نحن نعرّف **بحث قابل للتكرار** بأنه عمل يمكن إعادة إنشائه بشكل مستقل من نفس البيانات ونفس التعليمات البرمجية التي استخدمها الفريق الأصلي. وقابل للنسخ التناسبي يختلف عن قابليته للتكرار والقوة والقابلية للتعميم، على النحو المبين في الشكل الوارد أدناه.
 
 
 ```{figure} ../../figures/reproducible-matrix.jpg
 ---
-name: reproducible-matrix
-alt: Kirstie's definition of reproducible research.
+name: reducible-Matrix
+البديل: تعريف Kirstie's للأبحاث القابلة للتكرار.
 ---
-How the Turing Way defines reproducible research
+كيف يعرّف طريقة تورينج البحث القابل للتكاثر
 ```
 
-The different dimensions of reproducible research described in the matrix above have the following definitions:
+6 - وتتضمن الأبعاد المختلفة للبحوث القابلة للاستنساخ الموصوفة في المصفوفة أعلاه التعاريف التالية:
 
-- **Reproducible:** A result is reproducible when the _same_ analysis steps performed on the _same_ dataset consistently produces the _same_ answer.
-- **Replicable:** A result is replicable when the _same_ analysis performed on _different_ datasets produces qualitatively similar answers.
-- **Robust:** A result is robust when the _same_ dataset is subjected to _different_ analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
-- **Generalisable:** Combining replicable and robust findings allow us to form generalisable results. Note that running an analysis on a different software implementation and with a different dataset does not provide _generalised_ results. There will be many more steps to know how well the work applies to all the different aspects of the research question. Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
+- **استنساخ:** النتيجة قابلة للاستنساخ عندما _نفس_ الخطوات التحليلية التي تم القيام بها على _نفس_ مجموعة البيانات تنتج باستمرار _نفس الإجابة_.
+- **قابل للتكرار:** النتيجة قابلة للتكرار عندما ينتج _نفس_ تحليل __ مجموعة بيانات مختلفة إجابات متشابهة نوعيا.
+- **روبست:** النتيجة قوية عندما يتم إخضاع _نفس_ مجموعة البيانات __ مختلفة من أعمال التحليل للإجابة على نفس سؤال البحث (على سبيل المثال خط أنابيب مكتوب في R وآخر مكتوب في بايتون) ويتم إنتاج إجابة مماثلة أو متماثلة نوعيا. وتبين النتائج القوية أن العمل لا يتوقف على خصائص لغة البرمجة المختارة لإجراء التحليل.
+- **قابلة للتعميم:** الجمع بين النتائج القابلة للتكرار والقوية يتيح لنا تشكيل نتائج قابلة للتعميم. لاحظ أن تشغيل تحليل على تطبيق برنامج مختلف ومع مجموعة بيانات مختلفة لا يوفر _نتائج معممة_. وستكون هناك خطوات أخرى كثيرة لمعرفة مدى انطباق العمل على جميع الجوانب المختلفة لمسألة البحوث. ويشكل التعميم خطوة هامة نحو فهم أن النتيجة لا تتوقف على مجموعة بيانات معينة ولا على نسخة معينة من خط التحليل.
 
-More information on these definitions can be found in "Reproducibility vs. Replicability: A Brief History of a Confused Terminology" by Hans E. Plesser {cite:ps}`Plesser2018Reproducibility`.
+() يمكن الاطلاع على مزيد من المعلومات عن هذه التعاريف في "Reproduciability vs. Replicity: A Brief History of a Confused Terminology" الذي قدمه هانز إ. مصنع {cite:ps}`Plesser2018Reproduciability`.
 
 ```{figure} ../../figures/reproducible-definition-grid.jpg
 ---
-name: reproducible-definition-grid.jpg
-alt: Grid with the characteristics of reproducible, replicable, robust and generalisable research
+name: reproducible-definition-net. pg
+بديل : شبكة ذات خصائص البحوث القابلة للتكرار والقوية والعامة
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ التوضيحية لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-overview-reproducible)=
-## Reproducible But Not Open
+(r-overview-reducible)=
+## يمكن التكرار، ولكن ليس مفتوحا
 
-_The Turing Way_ recognises that some research will use sensitive data that cannot be shared and this handbook will provide guides on how your research can be reproducible without all parts necessarily being open.
+_طريق الترقيق_ يدرك أن بعض البحوث ستستخدم بيانات حساسة لا يمكن تقاسمها، وسيوفر هذا الدليل إرشادات حول كيفية إجراء البحوث الخاصة بك دون أن تكون جميع الأجزاء بالضرورة مفتوحة.

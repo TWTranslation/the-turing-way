@@ -1,36 +1,36 @@
-(communication-aa-misconduct)=
-# Types of authorship misconduct
+(الاتصالات/سوء السلوك)=
+# أنواع سوء سلوك المؤلف
 
-There are various forms of authorship misconduct. These reflect unequal power structures in academia. Authorship misconduct results in a lack of transparency and accountability in research.
+وهناك أشكال مختلفة من سوء سلوك المؤلفين. وهي تعكس عدم المساواة في هياكل السلطة في الأوساط الأكاديمية. ويؤدي سوء سلوك السلطة إلى انعدام الشفافية والمساءلة في البحوث.
 
-A study of inappropriate authorship in biomedical journals found 21.0% of the article included honorary authorship, ghost authorship or both in 2008. This is a reduction from a study in 1996 (29.2%) but shows that these practices are still prevalent {cite}`wislar2011honorary`.
+وخلصت دراسة للمؤلفين غير الملائمين في المجلات الطبية الحيوية إلى أن 21 في المائة من المقالة شملت المؤلفين الفخريين، أو المؤلفين الأشباح، أو كليهما في عام 2008. وهذا انخفاض عن الدراسة التي أجريت في عام 1996 (29.2 في المائة) ولكنه يبين أن هذه الممارسات لا تزال سائدة في {cite}`الحكمة الفخرية 2011`.
 
-(communication-aa-misconduct-honorary)=
-## Honorary authorship
-Honorary authorship is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
+(الاتصالات: - آنا - سوء السلوك الشرفي)=
+## المؤلف الفخري
+ويكون المؤلف الفخري عندما يصبح الفرد مؤلفاً بالاسم حتى وإن لم يقدم إسهاماً كبيراً و/أو لم يستوف معايير المؤلف.
 
-A recent study of academic misconduct found 35.5% of survey respondents across all disciplines had added authors to their own manuscripts even though those authors made minimal contributions to the project {cite}`fong2017manipulation`. The study also found that being an Assistant or Associate Professors significantly increases your likelihood of being an honorary author.
+وخلصت دراسة أجريت مؤخرا عن سوء السلوك الأكاديمي إلى وجود 35 حالة. % من المجيبين على الاستقصاء في جميع التخصصات أضافوا مؤلفين إلى المخطوطات الخاصة بهم على الرغم من أن هؤلاء المؤلفين قدموا مساهمات ضئيلة في المشروع {cite}`التلاعب بالفونج 2017`. ووجدت الدراسة أيضا أن كونك أستاذاً مساعداً أو مشاركاً يزيد بشكل كبير من احتمال كونك مؤلفاً شرفياً.
 
-This can also be called:
-* Gift or guest authorship - naming an individual author out of respect or gratitude.
-* Coercive authorship - a senior researcher forcing a junior researcher to include a gift or guest author.
+ويمكن أيضا تسمية ذلك:
+* مؤلف الهدايا أو الضيوف - تسمية شخص مقدم البلاغ احتراما أو امتنانا.
+* مؤلف قسري - باحث أقدم يجبر باحثا مبتدئا على إدراج مؤلف هدية أو ضيف.
 
-This practice happens for a number of reasons:
-* Junior researchers may feel pressured into accepting honorary authorship for more senior researchers in their research group in an attempt not to offend or due to these researchers having power over their career progression.
-* In some disciplines, department head or senior researchers may be added regardless of their contribution.
-* It could also be seen as a good move to include more experienced colleagues to raise the apparent quality of the paper and therefore give more chance for publication.
+وهذه الممارسة تحدث لعدد من الأسباب:
+* وقد يشعر الباحثون المبتدئون بالضغوط لقبول المؤلفين الفخريين للباحثين الأقدم في مجموعتهم البحثية في محاولة لعدم الإساءة إلى هؤلاء الباحثين أو بسبب تمتعهم بالسلطة في تقدمهم الوظيفي.
+* وفي بعض التخصصات، يمكن إضافة رؤساء الإدارات أو كبار الباحثين بغض النظر عن إسهامهم.
+* ويمكن أيضا النظر إليها على أنها خطوة جيدة نحو ضم زملاء أكثر خبرة لتحسين نوعية الورقة على ما يبدو، ومن ثم إتاحة المزيد من الفرص للنشر.
 
-(communication-aa-misconduct-ghost)=
-## Ghost authorship
-Ghost authorship is an author that makes a significant contribution to the writing of the article without getting acknowledged.
+(الاتصالات-aa-misconduct-ghost)=
+## كاتب الشبح
+مؤلف الشبح هو مؤلف يسهم إسهاما كبيرا في كتابة المقال دون الاعتراف به.
 
-This could be due to:
-* a professional writer employed to draft an article on behalf of a company.
-* a scientist could employ a professional writer to overcome a lack of writing skills, limited time or lack of knowledge of journal requirements.
+ويمكن أن يعزى ذلك إلى:
+* - كاتب محترف يعمل في صياغة مادة نيابة عن شركة.
+* ويمكن للعالم أن يستعين بكتاب محترف للتغلب على الافتقار إلى مهارات الكتابة أو الوقت المحدود أو الافتقار إلى المعرفة بمتطلبات اليومية.
 
-There are also ghost contributors that are contributors to a project but are not usually involved in the writing process. Therefore, these contributors are unlikely to be named on academic papers such as those that collected the data, performed data analysis, make software and contribute in other many ways to a research project.
+وهناك أيضا المساهمون في الأشباح الذين يساهمون في مشروع ما ولكنهم لا يشاركون عادة في عملية الكتابة. ولذلك، من غير المرجح أن يُذكر هؤلاء المساهمون في ورقات أكاديمية مثل تلك التي جمعت البيانات؛ يقوم بتحليل البيانات ويصنع البرمجيات ويساهم بطرق عديدة أخرى في مشروع بحثي.
 
-It is common that those on temporary or short-term contracts, such as postdoctoral researchers, may have moved on to another project before publications are finalised. This can also include voluntary work such as University students working on a project during their studies.
+ومن الشائع أن يكون الأشخاص الذين يعملون بعقود مؤقتة أو قصيرة الأجل، مثل الباحثين في مرحلة ما بعد الدكتوراة، قد انتقلوا إلى مشروع آخر قبل الانتهاء من إصدار المنشورات. ويمكن أن يشمل ذلك أيضاً العمل التطوعي مثل طلاب الجامعة الذين يعملون في مشروع أثناء دراستهم.
 
-These contributions may therefore be missed off the authorship of any publications even though they have contributed to the research in some way. Therefore, without significant effort on the part of the article writers or whoever is in overall charge of the article, and also without a more inclusive authorship policy, these researchers will not get a chance for their contributions to be recognised. 
+ومن ثم يمكن إغفال هذه المساهمات من تأليف أي منشورات، حتى وإن كانت قد أسهمت في البحث بطريقة ما. ولذلك، وبدون بذل جهد كبير من جانب كتاب المادة أو من يتولى المسؤولية العامة عن هذه المادة. كما أن هؤلاء الباحثين لن يحصلوا على فرصة للاعتراف بمساهماتهم بدون سياسة مؤلفة أكثر شمولا. 
 

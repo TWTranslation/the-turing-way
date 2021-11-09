@@ -1,80 +1,78 @@
-(er-law-policy-ethics)=
-# Ethics and law
+(أخلاقيات القانون والسياسات)=
+# ألف - الأخلاقيات والقانون
 
-Laws are made by humans. They reflect the outcomes of negotiations between different people, with different interests and different amounts of power. Complying with laws is usually necessary, but *rarely sufficient*, to ensure that you are acting ethically.
+القوانين يصنعها البشر. وهي تعكس نتائج المفاوضات بين مختلف الشعوب، ذات المصالح المختلفة والكميات المختلفة من السلطة. عادة ما يكون الامتثال للقوانين ضرورياً، ولكن *نادراً ما يكون كافياً*للتأكد من أنك تتصرف أخلاقياً.
 
-## Domestic and regional law
+## القوانين المحلية والإقليمية
 
-You should be aware of what laws cover the open science work that you are doing. This will depend on which jurisdictions you work in: usually the geographical area covered by a law. You should be aware of the laws that cover you at local, state or regional, national, and international levels.
+يجب أن تكون على علم بالقوانين التي تغطي العمل العلمي المفتوح الذي تقوم به. وسيتوقف ذلك على الولايات القضائية التي تعملون فيها: المنطقة الجغرافية التي يغطيها القانون عادة. يجب أن تكون على علم بالقوانين التي تغطيك على المستويات المحلية أو الإقليمية أو الوطنية أو الدولية.
 
-You should also be aware what steps you should take to ensure that you are compliant with all relevant laws. This section is not exhaustive! It is designed to give you some idea of the kinds of laws you should be aware of.
+كما ينبغي أن تكون على علم بالخطوات التي ينبغي أن تتخذوها لضمان امتثالك لجميع القوانين ذات الصلة. هذا الفرع ليس شاملاً! وهو مصمم لإعطائك فكرة ما عن أنواع القوانين التي يجب أن تكون على علم بها.
 
-### Data protection law
+### قانون حماية البيانات
 
-Data protection laws cover what is permitted by law when collecting and processing data. The aim of data protection laws is to protect the privacy of individuals when collecting and using information about them.
+وتغطي قوانين حماية البيانات ما يسمح به القانون عند جمع البيانات ومعالجتها. والهدف من قوانين حماية البيانات هو حماية خصوصية الأفراد عند جمع المعلومات المتعلقة بهم واستخدامها.
 
-Data protection laws need to be updated frequently in order to make sure they cover all the ways that different actors are using new forms of technology to collect and use data in new ways. Because data protection laws sit at the limits of what companies - especially big tech giants - are able to do, the process of making, updating and enforcing data protection laws has become increasingly newsworthy. For example, new pieces of legislation such as the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)) in the EU have attracted a lot of attention.
+ويلزم تحديث قوانين حماية البيانات بصورة متكررة للتأكد من أنها تغطي جميع الطرق التي تستخدم بها مختلف الجهات الفاعلة أشكالا جديدة من التكنولوجيا لجمع البيانات واستخدامها بطرق جديدة. لأن قوانين حماية البيانات موجودة في حدود ما تستطيع الشركات - ولا سيما عمالقة التكنولوجيا الكبيرة - القيام به، وقد أصبحت عملية سن قوانين حماية البيانات وتحديثها وإنفاذها جديرة بالأنباء بصورة متزايدة. على سبيل المثال اجتذبت أجزاء جديدة من التشريعات مثل اللائحة العامة لحماية البيانات ([GDPR](https://gdpr-info.eu/)) في الاتحاد الأوروبي الكثير من الاهتمام.
 
-Many countries have a national data protection authority, which is tasked with protecting data. They often produce guidance on how to comply with data protection laws in their country. Wikipedia has a [list of data protection authorities](https://en.wikipedia.org/wiki/National_data_protection_authority) covering lots of countries.
+ولدى العديد من البلدان سلطة وطنية لحماية البيانات مكلفة بحماية البيانات. وكثيراً ما تصدر توجيهات بشأن كيفية الامتثال لقوانين حماية البيانات في بلدانها. لدى ويكيبيديا [قائمة بسلطات حماية البيانات](https://en.wikipedia.org/wiki/National_data_protection_authority) تغطي العديد من البلدان.
 
-Data protection laws are sometimes confused with privacy laws, but they are not the same thing.
+وفي بعض الأحيان يتم الخلط بين قوانين حماية البيانات وقوانين الخصوصية، ولكنها ليست نفس الشيء.
 
-### Privacy law
+### قانون الخصوصية
 
-Privacy laws protect people's ability to keep themselves, or information about themselves, away from public view. The specific content of privacy laws varies between jurisdictions. Laws may be general, or they may only cover certain kinds of information, sometimes referred to as 'sensitive information' or 'personally identifiable information.' This might include, for example, medical or financial information about a person.
+وتحمي قوانين الخصوصية قدرة الناس على الاحتفاظ بأنفسهم، أو المعلومات عن أنفسهم، بعيدا عن النظرة العامة. ويختلف المحتوى المحدد لقوانين الخصوصية من ولاية إلى أخرى. وقد تكون القوانين عامة، أو قد لا تغطي إلا أنواعا معينة من المعلومات، يشار إليها أحيانا على أنها ”معلومات حساسة“ أو ”معلومات يمكن التعرف عليها شخصيا“. ويمكن أن يشمل ذلك، على سبيل المثال، معلومات طبية أو مالية عن شخص ما.
 
-Privacy laws have periodically been updated to take into account new technologies, which have offered new ways for privacy to be invaded and for information about people to be shared. This started in the 19th century when newspapers became widespread, and is still happening as legislators try to keep up with developments in the internet and in data collection.
+ويجري تحديث قوانين الخصوصية دورياً لمراعاة التكنولوجيات الجديدة. التي وفرت طرقا جديدة لغزو الخصوصية ولتقاسم المعلومات عن الناس. بدأ هذا في القرن التاسع عشر عندما أصبحت الصحف منتشرة، وما زال يحدث في الوقت الذي يحاول فيه المشرعون مواكبة التطورات في الإنترنت وفي جمع البيانات.
 
-Privacy is sometimes confused with data protection, but it is much broader. For example, the right to privacy protects individuals from having blood samples taken without their permission. It means that body searches must be done in a way that preserves the dignity of the person being searched, and that home searches must only be done to search for evidence, not for harassment. It also makes laws that criminalise private, consensual sex between adults of the same sex unlawful (nonetheless, these laws have not yet been repealed everywhere). Privacy is also a {ref}`human right<er-law-policy-rights>`.
+وفي بعض الأحيان يتم الخلط بين الخصوصية وحماية البيانات، ولكنها أوسع بكثير. وعلى سبيل المثال، فإن الحق في الخصوصية يحمي الأفراد من أخذ عينات دم دون إذن. وهذا يعني أن التفتيش الجسدي يجب أن يتم بطريقة تحافظ على كرامة الشخص الذي يجري تفتيشه، ويجب ألا يتم التفتيش المنزلي إلا للبحث عن الأدلة وليس عن المضايقة. كما ينص القانون على عدم شرعية القوانين التي تجرم ممارسة الجنس بالتراضي في الحياة الخاصة بين البالغين من نفس الجنس (ومع ذلك لم تلغ هذه القوانين بعد في كل مكان). الخصوصية هي أيضا {ref}`حقوق إنسان<er-law-policy-rights>`.
 
-### Intellectual property law
+### قانون الملكية الفكرية
 
-Intellectual property refers to creations that have been made by humans. These can include literary and artistic works, as well as inventions. They can also include scientific works and discoveries. Intellectual property rights aim to protect the interests of the creators of these works.
+وتشير الملكية الفكرية إلى الإبداعات التي صنعها البشر. ويمكن أن تشمل هذه الأعمال الأدبية والفنية، فضلاً عن الاختراعات. ويمكن أن تشمل أيضاً أشغال علمية واكتشافات علمية. وتهدف حقوق الملكية الفكرية إلى حماية مصالح مبدعين هذه الأعمال.
 
-These can include:
-- copyright: covers creative works, and gives the owner the right to make copies.
-- trademark: covers goods or services, and identifies them as coming from a particular provider.
-- patent: covers inventions, and gives the owner the right to stop other actors from making or selling that invention.
+ويمكن أن تشمل ما يلي:
+- حقوق التأليف والنشر: تشمل الأعمال الإبداعية، وتعطي المالك الحق في إصدار نسخ.
+- وتشمل العلامة التجارية: السلع أو الخدمات، وتحدد هذه السلع أو الخدمات على أنها واردة من مورد بعينه.
+- براءة الاختراع: تشمل الاختراعات، وتعطي المالك الحق في منع الجهات الفاعلة الأخرى من صنع أو بيع ذلك الاختراع.
 
-The World Intellectual Property Organisation (the UN agency which oversees intellectual property issues) has produced FAQs on [copyright](https://www.wipo.int/copyright/en/faq_copyright.html), [trademarks](https://www.wipo.int/trademarks/en/), and [patents](https://www.wipo.int/patents/en/faq_patents.html).
+قامت المنظمة العالمية للملكية الفكرية (وكالة الأمم المتحدة التي تشرف على قضايا الملكية الفكرية) بإنتاج أسئلة متكررة بشأن [حقوق التأليف والنشر](https://www.wipo.int/copyright/en/faq_copyright.html)، [علامات تجارية](https://www.wipo.int/trademarks/en/)، و [براءات اختراع](https://www.wipo.int/patents/en/faq_patents.html).
 
-The extent to which any intellectual property is protected in law varies by jurisdiction, and is often time-limited. Enforcement of intellectual property law also varies by jurisdiction. In general, it is the owner of the intellectual property who is responsible for enforcing their rights, for example by suing another person in court.
+ويختلف مدى حماية القانون لأي ملكية فكرية باختلاف الولاية القضائية، وكثيرا ما يكون ذلك محدودا زمنيا. ويختلف إنفاذ قانون الملكية الفكرية أيضا باختلاف الولاية القضائية. وعموما، فإن مالك الملكية الفكرية هو المسؤول عن إنفاذ حقوقه، وذلك مثلا عن طريق مقاضاة شخص آخر أمام المحكمة.
 
-You should know who owns the intellectual property you create. In some situations, it will be you personally. If you are employed, depending on the terms of your employment, your employer may own the intellectual property you create while you work for them. This may impact what you are able to do with the intellectual property you create, including the terms under which you can license it. The relationship between intellectual property law and open source is complicated but it is not necessarily incompatible.
+يجب أن تعرف من يملك الملكية الفكرية التي تنشئها. في بعض الحالات ستكون أنت شخصيا. إذا كنت تعمل في مكان عمل، فبإمكان رب العمل لديك أن يمتلك الممتلكات الفكرية التي تنشئها أثناء العمل لديك، وذلك حسب شروط العمل. وهذا قد يؤثر على ما يمكنك القيام به فيما يتعلق بالملكية الفكرية التي تنشئها، بما في ذلك الشروط التي يمكنك بموجبها الترخيص بذلك. والعلاقة بين قانون الملكية الفكرية والمصدر المفتوح علاقة معقدة ولكنها ليست بالضرورة غير متوافقة.
 <!--- Link to the activism chapter, section on advocating for open practice, when we've written it -->
 
-If you own the intellectual property that you create, you should think carefully about how to license it. If you do not explicitly license your content differently, it generally falls under copyright and technically cannot be remixed without your permission. This can present problems for working openly!
+إذا كنت تملك الملكية الفكرية التي تنشئها، فيجب عليك أن تفكر بعناية في كيفية الترخيص لها. إذا لم تقم صراحة بترخيص محتوياتك بشكل مختلف، فإنه عادة ما يكون تحت حقوق التأليف والنشر ولا يمكن إعادة ترتيب محتوياتك من الناحية الفنية بدون إذنك. هذا يمكن أن يثير مشاكل للعمل علناً!
 
-You may use an open license to share code, or content, or both. There are lots of licenses designed especially for sharing broadly, and organizations like Creative Commons and the Free Software Foundation have created tools and resources to facilitate sharing of content, data and code. There is more information in the [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html) chapter.
+يمكنك استخدام ترخيص مفتوح لمشاركة التعليمة البرمجية أو المحتوى، أو كليهما. هناك الكثير من التراخيص المصممة خصيصا للمشاركة على نطاق واسع، وقد أنشأت منظمات مثل المشاع الإبداعي ومؤسسة البرمجيات الحرة أدوات وموارد لتيسير تبادل المحتويات والبيانات والكود. هناك مزيد من المعلومات في فصل [ترخيص](https://the-turing-way.netlify.app/reproducible-research/licensing.html).
 
-## Tort law
+## قانون الضرر
 
-Tort law is the branch of law which allows people who have been harmed to sue for compensation or other remedy for that harm. Tort law varies by jurisdiction. It can include both harm that arises from negligence, and intentional harm. If you harm someone, either intentionally or negligently, you may be legally liable for the harm caused.
+وقانون الضرر هو فرع القانون الذي يسمح للأشخاص الذين تضرروا برفع دعوى للحصول على تعويض أو غير ذلك من سبل الانتصاف من ذلك الضرر. ويختلف قانون الضرر باختلاف الولاية. ويمكن أن يشمل كلا من الضرر الناجم عن الإهمال، والضرر المتعمد. إذا ألحقت الضرر بشخص ما، سواء عمداً أو بإهمال، فإنه من الممكن أن تكون مسؤولاً قانونياً عن الضرر الحاصل.
 
-Acting ethically, however, usually means going beyond thinking only about legal liability. You should be aware of all the possible harm that your work could cause, not only what you might be legally liable for.
+غير أن التصرف أخلاقيا يعني عادة تجاوز التفكير في المسؤولية القانونية فحسب. وينبغي أن تكون على علم بكل الضرر الذي يمكن أن يسببه عملك، وليس فقط ما قد يكون مسؤولاً عنه قانوناً.
 
-### Contract law
+### قانون العقود
 
-Contract law is the branch of law which handles how contracts - legal agreements between parties - are enforced. You should know the terms of contracts you have signed, and what those terms mean. You should also know which jurisdiction covers the contract you have signed (this should be in the contract).
+وقانون العقود هو فرع القانون الذي يتناول كيفية إنفاذ العقود - الاتفاقات القانونية بين الأطراف. يجب أن تعرف شروط العقود التي وقعتها، وما تعنيه تلك الشروط. يجب أن تعرف أيضا الولاية القضائية التي تشمل العقد الذي وقعت عليه (يجب أن يكون هذا في العقد).
 
-Ethical work can also include thinking critically about contracts. You should think about what obligations you are signing up for when you sign a contract. You should also think about what contractual obligations you are imposing on other people when you form a contract with them.
+ويمكن أن يشمل العمل الأخلاقي أيضا التفكير النقدي في العقود. يجب أن تفكر في الواجبات التي تقوم بالتسجيل لها عند توقيع العقد. كما ينبغي أن تفكروا في الالتزامات التعاقدية التي تفرضونها على الآخرين عندما تشكل عقدا معهم.
 
-## How to change laws
+## كيفية تغيير القوانين
 
-Law is not static and unchanging. The law is made by humans and it can be changed by humans. If you feel that the law in your jurisdiction works in a way that is unhelpful or damaging, consider joining efforts to change it! Changing laws is a long-term project and can take decades.
+فالقانون ليس جامدا ولا يتغير. فالقانون يصنعه البشر ويمكن أن يغيّره البشر. إذا شعرتم بأن القانون في ولايتكم القضائية يعمل بطريقة غير مفيدة أو ضارة، فكروا في الانضمام إلى الجهود الرامية إلى تغييره! إن تغيير القوانين مشروع طويل الأجل ويمكن أن يستغرق عقودا.
 
-This section is not intended to explain how to do this: a good place to start is to find a campaigning organisation who is working on the issue, and ask them how to get involved.
-<!--- edit this to refer to the activism chapter, when we have written it -->
-See details in the chapters on {ref}`er-activism` for more details.
+وليس القصد من هذا القسم شرح كيفية القيام بذلك: فالمكان الجيد للبدء هو إيجاد منظمة تقوم بحملات انتخابية تعمل في هذا المجال. واسأليهم عن كيفية المشاركة.<!--- قم بتحرير هذا للإشارة إلى الفصل النشط، عندما نكون قد كتبناه -->راجع التفاصيل في الفصول على {ref}`- النشاط` لمزيد من التفاصيل.
 
-## Policy
+## السياسة
 
-Policy is a general term for a set of ideas or principles that guide actions in particular situations. Policies are not legally binding, but they are designed to encourage certain kinds of behaviours and discourage others. For example, the Turing Way community agrees to abide by the policy set out in the [Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html).
+والسياسة العامة مصطلح عام لمجموعة من الأفكار أو المبادئ التي توجه الإجراءات المتخذة في حالات معينة. فالسياسات ليست ملزمة قانونا، ولكنها تهدف إلى تشجيع أنواع معينة من السلوك وتثبيط عزيمة أنواع أخرى. على سبيل المثال ، يوافق مجتمع "طريق الشحن" على الالتزام بالسياسة المحددة في [مدونة قواعد السلوك](https://the-turing-way.netlify.app/community-handbook/coc.html).
 
-Policies are agreed between groups of people: this can be at organisational, intra-organisational, or governmental level. It is useful to be aware, for example, of policies on ethical research and innovation that are set by your government, or your funding organisation. For example, the American Statistical Association has created [ethical guidelines for statistical practice](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx). Policies can also be set by national or international organisations. If you are a member of a professional or academic organisation, you should be aware of the policies that cover ethical research for your profession.
+ويتم الاتفاق على السياسات بين مجموعات الأشخاص: ويمكن أن يكون ذلك على المستوى التنظيمي أو داخل المنظمة أو الحكومي. ومن المفيد أن ندرك، على سبيل المثال، السياسات المتعلقة بالبحوث والابتكار في مجال الأخلاقيات التي تضعها حكومتكم أو مؤسستك التمويلية. على سبيل المثال، أنشأت الرابطة الإحصائية الأمريكية [مبادئ توجيهية أخلاقية للممارسة الإحصائية](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx). ويمكن أيضا للمنظمات الوطنية أو الدولية أن تضع السياسات. إذا كنت عضواً في منظمة مهنية أو أكاديمية، فيتوجب عليك أن تكون على علم بالسياسات التي تغطي البحث الأخلاقي للمهنة.
 
-Many ethical guidelines that have been produced are in the form of policy. These can provide useful guidance.
+وكثير من المبادئ التوجيهية الأخلاقية التي تم إعدادها تتخذ شكل سياسة. ويمكن أن توفر هذه المبادئ توجيها مفيدا.
 
-Because policies are the result of negotiation and agreement, they can be influenced. If you don't think your professional organisation's policies are strong or effective enough, you can lobby for changes as a member of that organisation. The process for doing this will depend on the organisation. Many companies and organisations have advocacy and lobbying staff who argue for changes in government policy that will benefit their organisation.
+وبما أن السياسات هي نتاج مفاوضات واتفاق، فإنه يمكن التأثير عليها. إذا كنت لا تعتقد أن سياسات منظمتك المهنية قوية أو فعالة بما فيه الكفاية، فيمكنك الضغط من أجل إجراء تغييرات كعضو في تلك المنظمة. وستعتمد عملية القيام بذلك على المنظمة. ولدى العديد من الشركات والمنظمات موظفون في مجال الدعوة وفي مجال الضغط يدافعون عن إجراء تغييرات في السياسة الحكومية تعود بالفائدة على منظمتهم.
 
-See details in the chapters on {ref}`er-internal-policy` for more details.
+راجع التفاصيل في فصول {ref}`- السياسة الداخلية` لمزيد من التفاصيل.

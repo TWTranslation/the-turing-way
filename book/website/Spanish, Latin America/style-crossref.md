@@ -1,135 +1,135 @@
 (ch-style-crossref)=
 
-# Cross-Referencing Sections and Chapters
+# Secciones y capítulos de referencia cruzada
 
-We recommend using the cross-referencing style as described in the [Jupyter Book](https://jupyterbook.org/content/citations.html) for chapters or files, and different contents of chapters such as sections and figures.
+Recomendamos usar el estilo de referencia cruzada como se describe en el [Libro de Jupyter](https://jupyterbook.org/content/citations.html) para capítulos o archivos, y diferentes contenidos de capítulos como secciones y figuras.
 
-In Jupyter Book, labels are a way to add tags to parts of your content or a file that you can reference later on. This is very helpful because you can insert labels to other parts of your book without worrying about the relative or absolute paths of the file.
+En Jupyter Book, las etiquetas son una forma de añadir etiquetas a partes de su contenido o a un archivo que puede hacer referencia más adelante. Esto es muy útil porque puede insertar etiquetas en otras partes de su libro sin preocuparse por las rutas relativas o absolutas del archivo.
 
-In this document, we have provided examples to describe how you can use labels for different chapters or part of chapters within the book. We have also defined a naming convention for labels for _The Turing Way_ to ensure that the locations of these labels in the book are identifiable by their name.
+En este documento, hemos proporcionado ejemplos para describir cómo puede utilizar etiquetas para diferentes capítulos o parte de capítulos dentro del libro. También hemos definido una convención de nomenclatura para etiquetas para _The Turing Way_ para asegurar que las ubicaciones de estas etiquetas en el libro sean identificables por su nombre.
 
-## Labels in Jupyter Book
+## Etiquetas en el Libro de Jupyter
 
-To add a label for a section or a chapter/subchapter, use a syntax of the following pattern before the element you wish to label:
-
-```
-(my-label-name)=
-# The thing that I want to label
-```
-
-You can insert cross-references to the labels of sections in your file with the following syntax:
+Para añadir una etiqueta para una sección o un capítulo/subcapítulo, utilice una sintaxis del siguiente patrón antes del elemento que desea etiquetar:
 
 ```
-{ref}`my-label-name`
+(mi-nombre-etiqueta)=
+# Lo que quiero etiquetar
+```
+
+Puede insertar referencias cruzadas a las etiquetas de las secciones en su archivo con la siguiente sintaxis:
+
+```
+{ref}`mi-nombre-etiqueta`
 
 ```
 
-Similarly, you can use labels for cross referencing chapters or subchapters.
+Del mismo modo, puede usar etiquetas para referencias cruzadas de capítulos o subcapítulos.
 
-Please see details in the examples given below.
+Por favor, vea los detalles en los ejemplos que se muestran a continuación.
 
-### _The Turing Way_ naming convention for the labels
+### _La Vía de Turno_ convención de nombres para las etiquetas
 
-We recommend using the following naming standard for labels, which will allow different authors and contributors of _The Turing Way_ to intuitively identify the locations of the files where these labels have been created.
+Recomendamos utilizar el siguiente estándar de nombres para las etiquetas, que permitirá a diferentes autores y colaboradores de _The Turing Way_ identificar intuitivamente las ubicaciones de los archivos donde se han creado estas etiquetas.
 
-The following naming convention for the labels for different chapters:
+La siguiente convención de nombres para las etiquetas de los diferentes capítulos:
 
 ```
-(sectioninitials-filename)=
+(nombre de archivo-secciones)=
 ```
 
-Here, the first placeholder `sectioninitials` should be replaced by the initials for different sections in the book and the second placeholder `filename` should be replaced by the name of file where the label is being created.
+Aquí, el primer marcador de posición `sectioninitials` debe reemplazarse por las iniciales para diferentes secciones del libro y el segundo marcador de posición `nombre de archivo` debe reemplazarse por el nombre del archivo donde se está creando la etiqueta.
 
-For the different Guides of the book, we will use the following `sectioninitials`:
+Para las diferentes Guías del libro, utilizaremos las siguientes `sectioninitials`:
 
-- Reproducible Research: `rr`
-- Project Design: `pd`
-- Collaboration: `cl`
-- Communication: `cm`
-- Ethical Research: `er`
+- Investigación Reproducible: `rr`
+- Diseño del proyecto: `pd`
+- Colaboración: `cl`
+- Comunicación: `cm`
+- Investigación Ética: `er`
 - Community Handbook: `ch`
 
-For example, in the guide `Reproducible Research`, we have a chapter called `Overview`. We have created a label for that chapter called `rr-overview` by adding the label on the top of the header by using the following directive
+Por ejemplo, en la guía `Investigación Reproducible`, tenemos un capítulo llamado `Resumen`. Hemos creado una etiqueta para ese capítulo llamado `rr-overview` añadiendo la etiqueta en la parte superior del encabezado usando la siguiente directiva
 
 ```
 (rr-overview)=
-# Overview
+# Resumen
 ```
 
-Similarly, for different subchapters we recommend extending the label name with another placeholder for subchapter's name. For example, `rr-overview-resources` is a label in the guide "Reproducible Research" (rr) for the subchapter "Resources" for the "Overview" chapter (overview-resources). This label can be created by using the following directive in the corresponding file:
+Del mismo modo, para diferentes subcapítulos recomendamos extender el nombre de la etiqueta con otro marcador de posición para el nombre del subcapítulo. Por ejemplo, `rr-overview-resources` es una etiqueta en la guía "Reproducible Research" (rr) para el subcapítulo "Recursos" para el capítulo "Resumen" (overview-resources). Esta etiqueta se puede crear utilizando la siguiente directiva en el archivo correspondiente:
 
 ```
 (sectioninitials-filename)=
-# Resources
+# Recursos
 ```
 
-In the same manner, for different sections in a subchapters we recommend extending the label name with another placeholder. This can be chosen by the authors, which should be a short yet sensible name for the section where the label is being created. For example, `rr-overview-resources-addmaterial` is a label in the guide "Reproducible Research" (rr) for the subchapter "Resources" for the "Overview" chapter (overview-resources) for the section for "Additional Materials" (addmaterails). This label can be created in the corresponding file for the suggested section name using the following directive:
+De la misma manera, para diferentes secciones en un subcapítulo, recomendamos extender el nombre de la etiqueta con otro marcador de posición. Esto puede ser elegido por los autores, que deberían ser un nombre corto pero sensato para la sección en la que se está creando la etiqueta. Por ejemplo, `rr-overview-resources-addmaterial` es una etiqueta en la guía "Investigación Reproducible" (rr) para el subcapítulo "Recursos" para el capítulo "Resumen" (Resumen de recursos) para la sección "Materiales adicionales" (añadidos). Esta etiqueta se puede crear en el archivo correspondiente para el nombre de sección sugerido utilizando la siguiente directiva:
 
 ```
 (sectioninitials-filename-section)=
-## Additional Material
+## Material adicional
 ```
 
-### Examples of cross-referencing
+### Ejemplos de referencias cruzadas
 
-**Examples for cross-referencing sections of chapters and subchapters**
+**Ejemplos de secciones de referencias cruzadas de capítulos y subcapítulos**
 
-We will use examples for the chapters in "Reproducible Research" guide located in the `book/website` directory.
+Utilizaremos ejemplos para los capítulos en la guía "Investigación Reproducible" ubicada en el directorio `book/website`.
 
-**_Case 1_**: When you cross-reference a section of the chapter within the same file _before_ a label has been created.
+**_Caso 1_**: Cuando hace referencia cruzada a una sección del capítulo dentro del mismo archivo _antes de_ se ha creado una etiqueta.
 
-Taking the previous example of `rr-overview-resources-addmaterial`, we can use this label to cross-reference it in an earlier section within the same file using the following:
+Tomando el ejemplo anterior de `rr-overview-resources-addmaterial`, podemos usar esta etiqueta para hacer una referencia cruzada en una sección anterior dentro del mismo archivo usando lo siguiente:
 
 ```
 {ref}`rr-overview-resources-addmaterial`
 ```
 
-This will appear in the online book like so: {ref}`rr-overview-resources-addmaterial`.
+Esto aparecerá en el libro online de la siguiente manera: {ref}`rr-overview-resources-addmaterial`.
 
-**_Case 2_**: When you cross-reference a section of the chapter within the same file _after_ a label has been created.
+**_Caso 2_**: Cuando hace una referencia cruzada a una sección del capítulo dentro del mismo archivo _después de_ se ha creado una etiqueta.
 
-In the same subchapter "Resources", we have created a label `rr-overview-resources-reading` for the section "Further Reading". We can cross-reference it in a later section within the same file using the following:
+En el mismo subcapítulo "Recursos", hemos creado una etiqueta `rr-overview-resources-reading` para la sección "Lectura adicional". Podemos hacer una referencia cruzada en una sección posterior dentro del mismo archivo usando lo siguiente:
 
 ```
 {ref}`rr-overview-resources-reading`
 ```
 
-It will appear in your chapter like this: {ref}`rr-overview-resources-reading`.
+Aparecerá en tu capítulo así: {ref}`rr-overview-resources-reading`.
 
-**_Case 3_**: When you cross-reference a section of a chapter in a different file (chapter) before or after a label has been created.
+**_Caso 3_**: Cuando hace una referencia cruzada a una sección de un capítulo en un archivo diferente (capítulo) antes o después de que se haya creado una etiqueta.
 
-In the subchapter "Definitions" of the "Overview" chapter, we have created a label `rr-overview-definitions` for the section "Table of definitions for reproducibility".
+En el subcapítulo "Definiciones" del capítulo "Resumen", hemos creado una etiqueta `rr-overview-definitions` para la sección "Tabla de definiciones para reproducibilidad".
 
-We can cross-reference it in a different subchapter or chapter. In this case, let's cross-reference it in the landing (main) page of the "Overview" chapter by using the following:
+Podemos hacer una referencia cruzada en un subcapítulo o capítulo diferente. En este caso, hagamos una referencia cruzada en la página de destino (principal) del capítulo "Resumen" usando lo siguiente:
 
 ```
-{ref}`rr-overview-definitions`
+{ref}`rr-definiciones`
 ```
 
-It will appear in your chapter like this: {ref}`rr-overview-definitions`.
+Aparecerá en tu capítulo así: {ref}`rr-overview-definitions`.
 
-Though we are demonstrating this example for subchapters within the same chapter ("Overview"), the similar syntaxes can be used for cross-referencing in other chapters within the book.
+Aunque estamos demostrando este ejemplo para los subcapítulos dentro del mismo capítulo ("Resumen"), las sintaxis similares se pueden usar para hacer referencias cruzadas en otros capítulos dentro del libro.
 
-**Examples for Cross referencing chapters and subchapters**
+**Ejemplos para capítulos y subcapítulos de referencias cruzadas**
 
-**_Case 4_**: Cross-referencing a chapter or subchapter in a different file (chapter/subchapter) before or after a label has been created.
+**_Caso 4_**: Hacer referencia a un capítulo o subcapítulo en un archivo diferente (capítulo/subcapítulo) antes o después de que una etiqueta haya sido creada.
 
-For example, in the landing page of the chapter "Open Research", we have created a label `rr-open`. We can cross-reference it in the section "What to learn next?" in a different subchapter "Resources" of the "Overview" chapter by using the following:
+Por ejemplo, en la página de inicio del capítulo "Abrir investigación", hemos creado una etiqueta `rr-open`. Podemos hacer una referencia cruzada en la sección "¿Qué aprender a continuación?" en un subcapítulo diferente "Recursos" del capítulo "Resumen" usando lo siguiente:
 
 ```
 {ref}`rr-open`
 ```
 
-It will appear in your chapter like this: {ref}`rr-open`.
+Aparecerá en tu capítulo así: {ref}`rr-open`.
 
-Though we are demonstrating this example for cross-referencing chapters and subchapters across the book, the same syntax can be used for cross-referencing subchapters within the same chapter.
+Aunque estamos demostrando este ejemplo para hacer referencias cruzadas de capítulos y subcapítulos en todo el libro, la misma sintaxis puede ser usada para referenciar subcapítulos dentro del mismo capítulo.
 
-### Providing an alternative title for the references
+### Proporcionando un título alternativo para las referencias
 
-For any of the above mentioned references, you can provide an alternative title while cross referencing by adding the title before the label as shown in this example:
+Para cualquiera de las referencias mencionadas, puede proporcionar un título alternativo mientras se hace referencia cruzada añadiendo el título antes de la etiqueta como se muestra en este ejemplo:
 
 ```
-{ref}`Chapter on Open Research<rr-open>`
+{ref}`Capítulo sobre Investigación Abierta<rr-open>`
 ```
 
-here we are giving an alternative title to the 'Open Research chapter', which will appear in your file like this: {ref}`Chapter on Open Research <rr-open>`
+aquí estamos dando un título alternativo al capítulo "Investigación abierta", que aparecerá en tu archivo así: {ref}`Capítulo sobre Abrir Investigación <rr-open>`

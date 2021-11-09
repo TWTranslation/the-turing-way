@@ -1,15 +1,15 @@
-(cm-comms-overview-principles)=
-# Principles of Communicating with Wider Audiences
+(م ع م-نظرة عامة-مبادئ)=
+# مبادئ الاتصال بالجماهير الكبرى
 
-Researchers should consider communicating their research less technically to expand its accessibility to wider audiences. This will increase the impact of the research on different academic disciplines and also on non-specialist audiences.
+وينبغي للباحثين أن ينظروا في نقل أبحاثهم بشكل أقل تقنيا لتوسيع نطاق الوصول إليها أمام جمهور أوسع. وسيؤدي ذلك إلى زيادة أثر البحوث على مختلف التخصصات الأكاديمية وكذلك على جمهور غير المتخصصين.
 
-You need to think carefully about the readability of any written or spoken communications.
+عليك أن تفكر بعناية في إمكانية قراءة أي رسائل مكتوبة أو منطوقة.
 
-## Main Points to Consider:
+## النقاط الرئيسية التي ينبغي النظر فيها:
 
-* **Identify your audience** - It is important to first establish the audience that you want to communicate with as this will determine the level of readability and therefore the level of technical language that you can use.
-    * To assess and organise the characteristics of your audiences, you can use a persona creation tool like the one referenced in the {ref}`Guide for Project Design<pd-persona>`.
-    * Keep in mind that there are usually many different audiences that consume the same content you publish in each of the media that we'll cover in this chapter.
-* **Change your style** - Academic writing is often very formal and uses a lot of passive voice such as 'the authors suggest ...'. This style does not suit a non-academic audience and therefore your writing needs to be adapted to suit the audience you are aiming for.
-* **Make it accessible** - As well as making the technical level of your writing lower, you also need to get rid of any commonly used abbreviations used in your discipline or at least make sure that you explain them. Each discipline has its acronyms that even other scientific fields do not understand. There are also issues concerning different audiences being physically able to access the output that must be considered. Removing as many barriers to research communication as possible will increase its effectiveness.
+* **حدد جمهورك** - من المهم أولا تحديد الجمهور الذي تريد التواصل معه لأن هذا سيحدد مستوى القراءة وبالتالي مستوى اللغة التقنية التي يمكنك استخدامها.
+    * من أجل تقييم وتنظيم خصائص جمهورك، يمكنك استخدام أداة إنشاء شخصية مثل تلك المشار إليها في الدليل {ref}`لتصميم المشروع<pd-persona>`.
+    * ضع نصب أعيننا أن هناك عادة العديد من الجماهير المختلفة التي تستهلك نفس المحتوى الذي نشره في كل من الوسائط والذي سنغطيه في هذا الفصل.
+* **تغيير أسلوبك** - الكتابة الأكاديمية غالبا ما تكون رسمية جدا وتستخدم الكثير من الأصوات السلبية مثل 'يقترح المؤلفون...'. هذا الأسلوب لا يناسب جمهورا غير أكاديمي، ولذلك تحتاج كتابتك إلى أن تتكيف لتلائم الجمهور الذي تستهدفه.
+* **اجعلها متاحة** - بالإضافة إلى جعل المستوى التقني لكتابتك أقل ، تحتاج أيضا إلى التخلص من أي اختصارات شائعة الاستخدام تستخدم في تخصصك أو على الأقل التأكد من تفسيرها. ولكل تخصص من التخصصات اختصاره الذي لا يفهمه حتى ميادين علمية أخرى. وهناك أيضا مسائل تتعلق بقدرة مختلف الجماهير على الوصول ماديا إلى الناتج الذي يجب النظر فيه. ومن شأن إزالة أكبر عدد ممكن من الحواجز التي تعترض سبيل الاتصالات البحثية أن يزيد من فعاليتها.
 

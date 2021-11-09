@@ -1,67 +1,67 @@
-(ch-coworking-motivation)=
-# Background, Motivations, and Techniques
+(بدء-تحفيز العمل)=
+# الخلفية، والدوافع، والتقنيات
 
-## Background and Motivation
+## الخلفية والدافع
 
-When _The Turing Way_ started with around 10 members located in the United Kingdom, they could work in real-time and often together in the same location. They shared ideas, helped each other out, got huge amounts of writing, editing and reviewing done, and had lots of fun interacting with each other.
+عندما بدأ _طريق التورين_ بحوالي 10 أعضاء موجودين في المملكة المتحدة، ويمكنهم العمل في الوقت الحقيقي وغالبا ما يعملون معا في نفس الموقع. لقد شاركوا في الأفكار، وساعدوا بعضهم البعض، وحصل على كميات هائلة من الكتابة، والتحرير والمراجعة، وكان لديهم الكثير من المتعة في التفاعل مع بعضهم البعض.
 
-To help the community of contributors grow beyond the core team, the in-person book dash (a shorter version of [book sprints](https://www.booksprints.net/)) were hosted to offer interested participants a similar collaborative environment with an advantage to connect with each other informally. However, not everyone can join such in-person events. These only work for people who can take 1-2 full days from their job-related and personal responsibilities to attend the event. Moreover, they take a lot of time and effort in organisation and are expensive to run, especially if we want to host them frequently to allow more and more participants to experience the joy of working together.
+لمساعدة مجتمع المساهمين على النمو بما يتجاوز الفريق الأساسي، تم استضافة لوحة الكتب الشخصية (نسخة أقصر من [سباقات الكتب](https://www.booksprints.net/)) لتوفر للمشاركين المهتمين بيئة تعاونية مماثلة ذات ميزة للتواصل مع بعضهم البعض بشكل غير رسمي. غير أنه لا يمكن لأي شخص أن ينضم إلى مثل هذه الأحداث الشخصية. وهي تعمل فقط للأشخاص الذين بإمكانهم أن يستغرقوا يوماً واحداً أو يومين كاملين من مسؤولياتهم المتصلة بالعمل والشخصية لحضور الحدث. وعلاوة على ذلك، فإنهم يستغرقون الكثير من الوقت والجهد في التنظيم وهم مكلفون بتشغيلهم، ولا سيما إذا أردنا أن نستضيفها مرارا وتكرارا للسماح لمزيد من المشاركين بتجربة فرح العمل معا.
 
-This is where the practice of online coworking is extremely valuable for _The Turing Way_ as a community project.
+هذا هو المكان الذي تكون فيه ممارسة التعاون عبر الإنترنت قيمة للغاية ل _طريق التورين_ كمشروع مجتمعي.
 
-The motivation behind hosting these online calls for _The Turing Way_ community are the following:
+الدافع وراء استضافة هذه الأنترنت يستدعي مجتمع _الطريق الوشيك_ ما يلي:
 
-1. Onboard members who are new to the project by providing a real-time orientation
-2. Build personal connections between members of the community
-3. Support contributors as they edit, review, design and write content for the book
-4. Create a sense of accountability and ownership for the goals our members want to accomplish in the project
-5. Celebrate the progress of _The Turing Way_ and collaboratively build consensus on the next steps and future directions.
+1. أعضاء مجلس الإدارة الجدد في المشروع عن طريق توفير توجيه آني
+2. بناء صلات شخصية بين أعضاء المجتمع
+3. دعم المساهمين في تحرير واستعراض وتصميم وكتابة المحتوى للكتاب
+4. خلق إحساس بالمساءلة والملكية فيما يتعلق بالأهداف التي يريد أعضاؤنا تحقيقها في المشروع
+5. احتفل بالتقدم المحرز في _طريق اللارجح_ وبناء توافق في الآراء بشكل تعاوني بشأن الخطوات التالية والاتجاهات المستقبلية.
 
-We aim to create a safe space for shared experience, connection, support and collaboration for the distributed community of _The Turing Way_.
+نحن نهدف إلى إنشاء مساحة آمنة لتقاسم الخبرات والتواصل والدعم والتعاون مع مجتمع _الطريق الوشيك_.
 
-If you want to attend these calls but don't know what to work on, don't worry! _The Turing Way_ core team members will be on the call and point you to some starting points in the project and other ongoing efforts where you can make a difference.
+إذا كنت ترغب في حضور هذه المكالمات ولكن لا تعرف ماذا تعمل، لا تقلق! _الطريق الوشيك_ أعضاء الفريق الأساسي سيكونون على الهاتف وسيوجهون انتباهك إلى بعض نقاط البداية في المشروع والجهود الجارية الأخرى حيث يمكنك إحداث فرق.
 
-## Techniques
+## التقنيات
 
-We offer two types of coworking calls: 1-hour short calls every week to work on ongoing projects in the community, and 2-hour long bimonthly Collaboration Cafes that offers a mix of community discussion and quiet working slots. We encourage our members to attend for as long during these designated hours as their schedule allows, even if they can't be present during the entire call.
+ونقدم نوعين من المكالمات المشتركة: مكالمات قصيرة مدتها ساعة واحدة كل أسبوع للعمل في المشاريع الجارية في المجتمع، ومقهى التعاون الطويل الذي يستغرق ساعتين كل شهرين والذي يوفر مزيجا من المناقشات المجتمعية وأماكن العمل الهادئة. ونشجع أعضاءنا على الحضور لمدة طويلة خلال هذه الساعات المحددة حسبما يسمح به جدولهم الزمني. حتى لو لم يكونوا حاضرين خلال المكالمة بأكملها.
 
-These calls use a combination of two techniques:
-1. Shut up & Write method
-2. Pomodoro Interval Technique
+وتستخدم هذه الدعوات مزيجا من تقنيتين:
+1. إغلاق & طريقة الكتابة
+2. تقنية الفاصل الزمني لبومودورو
 
-### Shut up & Write
+### إغلاق & الكتابة
 
-The [Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*. Their [method](https://shutupwrite.com/method) divides the writing process into eight steps: ideation, structuring, drafting, editing, restructuring and revising, polishing, publishing, and promoting. They encourage their participants to identify what they want to write and where they are in this eight-step process. Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
+[تم إغلاق & الكتابة!](https://shutupwrite.com/) *اجتماعات الكتابة المحلية حيث تمت كتابتك*. الطريقة [الخاصة بهم](https://shutupwrite.com/method) تقسم عملية الكتابة إلى ثماني خطوات: الفكرة، الهيكل، الصياغة، التحرير، إعادة الهيكلة والتنقيح، الصقل، النشر، الترويج. وهم يشجعون المشاركين على تحديد ما يريدون الكتابة وأين يكونون في هذه العملية المؤلفة من ثماني خطوات. بمجرد أن يحددوا نقطة انطلاقهم ويلتزموا بالوصول إلى الخطوات التالية عن طريق ممارسة الاتساق *بثبات إلى "النهاية"*.
 
-They explain that the Shut up & Write! events provide two things:
+يوضحون أن الإغلاق & يكتبون! الأحداث توفر شيئين:
 
-**1. Accountability & Habit Formation:**
+**1. المساءلة & تشكيل الوفاءة:**
 
-A new habit becomes a part of our routine when we commit to doing them consistently on a specific day, time, and location. Based on this principle, Shut up & Write events allow participants to yield successful outcomes for their writing assignments by making the commitment to attend the writing event each week at the same time for 1 hour.
+تصبح عادة جديدة جزءا من روتيننا عندما نلتزم بالقيام بها باستمرار في يوم وموعد ومكان محددين. واستناداً إلى هذا المبدأ، تتيح أحداث الكتابة & للمشاركين الحصول على نتائج ناجحة لمهام الكتابة الخاصة بهم من خلال الالتزام بحضور حدث الكتابة كل أسبوع في نفس الوقت لمدة ساعة واحدة.
 
-**2. Social Motivation & Support:**
+**2. الدافع الاجتماعي & الدعم:**
 
-The *sense of belonging* can increase performance and engagement in tasks. In a survey conducted on 2000 participants from different sectors, high belonging was linked to a whopping 56% increase in job performance {cite:ps}`HBR2019Belonging`. Along the same line, Shut Up & Write events provide a sense of community where attendees feel supported and motivated by everyone else writing around them.
+*الإحساس بالانتماء* يمكن أن يزيد من الأداء والمشاركة في المهام. وفي دراسة استقصائية أجريت في عام 2000 للمشاركين من مختلف القطاعات، تم ربط الانتماء العالي بزيادة قدرها 56% في أداء العمل {cite:ps}`HBR2019Belong`. وعلى نفس المنوال، اغلاق & اكتب الأحداث توفر إحساسا بالمجتمع حيث يشعر الحاضرون بدعم وتحفيز من قبل أي شخص آخر يكتب حولهم.
 
-They create a cycle of 3 experiences: "habit building and progress", "social support and accountability" and "great writing experience", which keep people engaged, feel committed and accomplish what they set out to do.
+وهي تخلق دورة مكونة من ثلاث تجارب: "بناء العادات والتقدم"، و"الدعم الاجتماعي والمساءلة"، و"تجربة الكتابة الرائعة"، التي تبقي الناس على انخراطهم و يشعرون بالالتزام و ينجزون ما اعتزموا القيام به.
 
 ### Pomodoro Technique
 
-The [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) uses a timer to break down work into smaller intervals usually of 25 minutes called "Pomodoros", separated by short breaks of 5 minutes. Like the previous technique, the Pomodoro technique allows planning, tracking, recording, processing and visualizing the task at hand.
+تستخدم تقنية [بومودورو](https://en.wikipedia.org/wiki/Pomodoro_Technique) المؤقت لتقسيم العمل إلى فواصل أصغر عادة من 25 دقيقة تسمى "بومودوروس"، تفصل بينها فترات استراحة قصيرة مدتها 5 دقائق. وكما هو الحال بالنسبة للتقنية السابقة، فإن تقنية بومودورو تسمح بالتخطيط للمهمة قيد البحث وتتبعها وتسجيلها ومعالجتها وتصويرها.
 
-> Pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Francesco Cirillo used as a university student. {cite:ps}`Lifehack2020pomodoro`
+> بومودورو، من الكلمة الإيطالية لـ "الطماطم"، بعد توقيت المطبخ على شكل طماطم، الذي استخدمه فرانشيسكو سيريلو كطالب جامعي. {cite:ps}`Lifehack2020pomodoro`
 
-The goal of this technique is to avoid procrastinating and get things done with the help of the following workflow:
-- identify the task
-- set the Pomodoro timer (25 minutes long)
-- work on the task until the timer rings
-- take a 5 minutes break
-- identify what would you work on next
-- restart the timer and repeat the workflow
+والهدف من هذه التقنية هو تجنب التسويف وتحقيق الأشياء بمساعدة تدفق العمل التالي:
+- تحديد المهمة
+- تعيين مؤقت بومودورو (لمدة 25 دقيقة)
+- العمل على المهمة حتى حلقات المؤقت
+- أخذ استراحة لمدة 5 دقائق
+- تحديد ما ستعمل عليه في المرة القادمة
+- إعادة تشغيل المؤقت وتكرار سير العمل
 
-The original method recommends putting a checkmark on a piece of paper to count the number of Pomodoros and suggests taking a longer break of 15-30 minutes after four Pomodoros. The longer breaks can be used for the following tasks:
-- Reflect on the work that you could get done in the last Pomodoros
-- Reflect on what you learned and what you would do differently going forward
-- Identify the next set of tasks or the next steps in the project you are working on
+وتوصي الطريقة الأصلية بوضع علامة مرجعية على قطعة من الورق لحساب عدد بومودوروس وتقترح أخذ فترة استراحة أطول تتراوح بين 15 و30 دقيقة بعد أربع بومودوروس. ويمكن استخدام فترات الراحة الأطول للقيام بالمهام التالية:
+- أفكر في العمل الذي يمكنك القيام به في بومودورو الأخيرة
+- التفكير في ما تعلمته وما ستفعله بطريقة مختلفة للمضي قدماً
+- تحديد المجموعة التالية من المهام أو الخطوات التالية في المشروع الذي تعمل عليه
 
-In the next subchapters, we explain our coworking call formats where we combine these two techniques to host the biweekly Collaboration Cafes and weekly coworking calls for our community members.
+في الفصول الفرعية التالية، نحن نفسر أشكال مكالمتنا الجماعية حيث نجمع بين هاتين التقنيتين لاستضافة مقاهي التعاون نصف الأسبوعية ونداءات التعاضد الأسبوعية لأعضاء مجتمعنا.

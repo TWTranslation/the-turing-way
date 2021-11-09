@@ -1,98 +1,98 @@
-# Book Dash Logistics
+# لوجيستيات الكتاب
 
-We have created the following checklists, which are chronologically structured to help organise Book Dash online or in-person.
+لقد أنشأنا القوائم المرجعية التالية، التي تم تشكيلها زمنيا للمساعدة في تنظيم كتاب داش على الإنترنت أو شخصيا.
 
-## Before the Event
+## قبل الحدث
 
-- [ ] Establish a Book Dash Planning committee by inviting returning members of the event
-- [ ] Finalise dates based on the location and organisers' availability
-- [ ] Book location for in-person events
-- [ ] Set up an online platform ([Zoom](https://zoom.us/), or other accessible software) for remote collaboration
-- [ ] Set up a form (see a template {ref}`here<ch-bookdash-application-additional-materials>`) for application by updating the previous version of the form
-- [ ] Discuss with co-organisers if some resources (such as email drafts or templates) need to be updated
-- [ ] Write a short description for online advertisement
-- [ ] Clearly state the following information in an application form and later communicate by email with the selected participants:
-  * what financial support will be available for either online or in-person events
-  * What arrangements will be available online (such as online helpers and designated mentors) or on-site (such as quiet room and child care) for in-person events
-  * Include accessibility information such as live captioning for in-person events and quiet room/child nursing room for in-person events
-  * Mention the maximum limit for financial support requests for online (such as for headphones) and in-person (such as for travel and accommodation) events
-- [ ] Set up the Book Dash Planning meeting to discuss these details before the announcement is sent out
-  * Find volunteers from the organisers who would like to host onboarding calls (1 week before the event)
-  * Find volunteers from the organisers who would like to host a GitHub introduction session (1 week before the event)
-  * Find volunteers from the organisers who would like to run social events (discussion session, meal, informal chat) - During the event
-  * Find volunteers from the organisers who would like to run community share out sessions - on the last day
-  * Check with them if there is anything else they would like to suggest or get involved in
-- [ ] Announce in the newsletter and promote on Twitter at least 2-3 months in advance
-- [ ] Think about who else needs to be invited, like Artists, speakers, more diverse participants
-- [ ] Identify helpers from the core members and invite them
-- [ ] Send a reminder in next newsletters with more details if needed
-- [ ] Set an Eventbrite page with a registration code for the selected participants
-- [ ] Close the application round in time (1-2 months ahead of the event)
-- [ ] Set-up a form for reviewing applications (see {ref}`ch-bookdash-application-rubrics` for details)
-- [ ] Review applications in a designated panel (Book Dash Planning Committee) using Book Dash Rubrics for selection
-- [ ] Set up another meeting with the Book Dash Planning Committee to discuss the applications and finalise the selection
-  * Use this meeting to also allocate tasks for during and after the event (indicate that on the GitHub issues)
-- [ ] Send an email to the selected attendees with registration
-- [ ] Send an email to the unselected attendees with feedback
-- [ ] Set up an email chain and a Slack channel to connect all members and share updates
-- [ ] Update presentation for introducing the project to the participants on day-1 of the Book Dash
-- [ ] Update shared HackMD for `pre-event calls<ch-template-bookdash-precall>`, {ref}`book dash event<ch-template-bookdash-notes>` and {ref}`feedback<ch-template-bookdash-feedback>`
-- [ ] Provide details on Code of Conduct, contribution guideline and ways to get involved in an ongoing discussion
-- [ ] Host the onboarding call one week before the event to share logistics and facilitate the drafting of SMART goals
-- [ ] Group participants into the proposed working groups as per their SMART goals from the onboarding call
-- [ ] Host the onboarding call one week before the event to share logistics and facilitate the drafting of SMART goals
-- [ ] Send a reminder email to register on Eventbrite sharing important links and information including support grant, GitHub session, onboarding call info and reimbursement process
-- [ ] Create a GitHub issue to collect bio and highlight of the participants to add them to the Contributors Record
+- [ ] إنشاء لجنة للتخطيط السريع للكتاب عن طريق دعوة الأعضاء العائدين للحدث
+- [ ] تحديد تواريخ نهائية على أساس الموقع ومدى توافر المنظمين
+- [ ] مكان حجز الأحداث الشخصية
+- [ ] إعداد منصة على الإنترنت ([تكبير](https://zoom.us/)، أو أي برامج أخرى يمكن الوصول إليها) للتعاون عن بعد
+- [ ] إعداد نموذج (أنظر قالب {ref}`هنا<ch-bookdash-application-additional-materials>`) للتطبيق عن طريق تحديث الإصدار السابق من النموذج
+- [ ] مناقشة مع المشاركين في التنظيم إذا كانت بعض الموارد (مثل مسودات البريد الإلكتروني أو قوالب البريد الإلكتروني) تحتاج إلى تحديث
+- [ ] كتابة وصف قصير للإعلان عبر الإنترنت
+- [ ] ذكر المعلومات التالية بوضوح في استمارة طلب والاتصال لاحقا بالبريد الإلكتروني بالمشاركين المختارين:
+  * ما هو الدعم المالي الذي سوف يكون متاحاً للأحداث عبر الإنترنت أو للشخصيات الخاصة
+  * ما هي الترتيبات التي ستتاح على شبكة الإنترنت (مثل المساعدين على شبكة الإنترنت والمرشدين المعينين) أو في الموقع (مثل الغرف الهادئة ورعاية الأطفال) للمناسبات الشخصية
+  * إدراج معلومات عن إمكانية الوصول مثل التقاط صورة حية للأحداث الشخصية وغرفة هادئة/غرفة تمريض الأطفال للأحداث الشخصية
+  * ذكر الحد الأقصى لطلبات الدعم المالي على الإنترنت (مثل سماعات الرأس) والمناسبات الشخصية (مثل مناسبات السفر والإقامة)
+- [ ] إعداد اجتماع التخطيط لافتة الكتاب لمناقشة هذه التفاصيل قبل إرسال الإعلان
+  * البحث عن متطوعين من المنظمين الذين يرغبون في استضافة مكالمات أونبواردينج (1 قبل أسبوع من الحدث)
+  * البحث عن متطوعين من المنظمين الذين يرغبون في استضافة جلسة تمهيدية GitHub (أسبوع قبل الحدث)
+  * البحث عن متطوعين من المنظمين الذين يرغبون في إدارة الأحداث الاجتماعية (جلسة النقاش، الوجبة، الدردشة غير الرسمية) - خلال الحدث
+  * البحث عن متطوعين من المنظمين الذين يرغبون في إدارة المجتمع يشاركون الجلسات - في اليوم الأخير
+  * تحقق معهم إذا كان هناك أي شيء آخر يرغبون في اقتراحه أو المشاركة في
+- [ ] الإعلان في الرسالة الإخبارية والترويج لها على تويتر قبل شهرين وثلاثة أشهر على الأقل
+- [ ] فكر في من يحتاج إلى دعوته، مثل الفنانين والمتكلمين والمشاركين الأكثر تنوعاً
+- [ ] تحديد المساعدين من الأعضاء الأساسيين ودعوتهم
+- [ ] إرسال تذكير في النشرات الإخبارية القادمة مع مزيد من التفاصيل إذا لزم الأمر
+- [ ] تعيين صفحة الحدث برمز تسجيل للمشاركين المختارين
+- [ ] إغلاق جولة الطلبات في الوقت المناسب (1-2 قبل شهر من وقوع الحدث)
+- [ ] إنشاء نموذج لاستعراض التطبيقات (أنظر {ref}`ch-dash-applicy-rubrics` للحصول على التفاصيل)
+- [ ] استعراض الطلبات المقدمة في فريق معين (لجنة التخطيط لافتات الكتاب) باستخدام كتاب داش للاختيار
+- [ ] عقد اجتماع آخر مع لجنة التخطيط لافتات الكتاب لمناقشة الطلبات ووضع الصيغة النهائية للاختيار
+  * استخدم هذا الاجتماع أيضا لتخصيص المهام خلال الحدث وبعده (اذكر أنه على مشاكل GitHub )
+- [] إرسال بريد إلكتروني إلى الحاضرين المختارين مع التسجيل
+- [] إرسال بريد إلكتروني إلى الحاضرين غير المختارين مع تعليقات
+- [ ] إعداد سلسلة بريد إلكتروني وقناة Slack للاتصال بجميع الأعضاء ومشاركة التحديثات
+- [ ] تحديث العرض المقدم لتعريف المشاركين بالمشروع في اليوم الأول من نشرات الكتاب
+- [ ] قم بتحديث HackMD المشترك لـ `مكالمات ما قبل الحدث<ch-template-bookdash-precall>`، {ref}`حدث دش الكتاب<ch-template-bookdash-notes>` و {ref}`ردود الفعل<ch-template-bookdash-feedback>`
+- [] يرجى تقديم تفاصيل عن مدونة قواعد السلوك والمبادئ التوجيهية المتعلقة بالإسهام وسبل المشاركة في مناقشة مستمرة.
+- [ ] استضافة المكالمة اللاحقة، قبل أسبوع من انعقاد الحدث، لتقاسم اللوجستيات وتيسير صياغة أهداف SMART
+- [ ] مجموعة المشاركين في الأفرقة العاملة المقترحة وفقا لأهدافها المحددة في مجال إدارة الموارد البشرية استنادا إلى نداء الاتصال
+- [ ] استضافة المكالمة اللاحقة، قبل أسبوع من انعقاد الحدث، لتقاسم اللوجستيات وتيسير صياغة أهداف SMART
+- [ ] أرسل رسالة تذكير بالبريد الإلكتروني للتسجيل على Eventbrite التي تشارك الروابط المهمة والمعلومات بما في ذلك منحة الدعم، جلسة GitHub ، معلومات المكالمات على الشبكة وعملية رد التكاليف
+- [ ] إنشاء مشكلة GitHub لجمع البيانات الحيوية وإبراز المشاركين لإضافتهم إلى سجل المساهمين
 
-**Additional task for an online event**
+**مهمة إضافية لحدث على الإنترنت**
 
-- [ ] State the prerequisites to attend the event
-  * An active GitHub account
-  * Participation in at least one pre-event onboarding call or a Collaboration Cafe
-  * Some experience with using GitHub or attend the Book Dash GitHub session
-  * Familiarity with _The Turing Way_ contribution guidelines and Code of Conduct
-  * Willingness to collaborate with others
-- [ ] Ask them to choose at least one development session (2.5 hours) for each day of the Book Dash to ensure flexibility (rather than blocking the full day)
-- [ ] Collect address if something needs to be posted
+- [ ] بيان الشروط المسبقة لحضور الحدث
+  * حساب GitHub نشط
+  * المشاركة على الأقل في مكالمة ما قبل الحدث أو في مقهى التعاون
+  * بعض التجارب في استخدام GitHub أو حضور جلسة Dash GitHub
+  * الإلمام بالمبادئ التوجيهية للإسهام ومدونة قواعد السلوك في _طريق اللارجح_
+  * الرغبة في التعاون مع الآخرين
+- [ ] يطلب منها أن تختار دورة إنمائية واحدة على الأقل (2). ساعات) لكل يوم من كتاب داش لضمان المرونة (بدلا من منع اليوم الكامل)
+- [ ] اجمع العنوان إذا كان هناك شيء ما يحتاج إلى النشر
 
-**Additional task for an in-person Event**
+**مهمة إضافية للحدث الشخصي**
 
-- [ ] Collate participants' preference for travel, meal, accommodation, and accessibility request through the registration form
-- [ ] Send an email to the participants regarding their travel, accommodation, schedule, and meal
-- [ ] Book dinner for people for day-1
-- [ ] Book hotels rooms for people who requested accommodation
-  - [ ] Double-check with each participant if their plan as given on their registration hasn't changed
-- [ ] Book travel for those who requested
-  - [ ] Double-check with each participant if their plan as given on their registration hasn't changed
-- [ ] Book catering for lunch and coffee breaks
-- [ ] Mention that the event will offer a vegetarian meal as default - and ask participants to get in touch if another meal type is required
+- [ ] تفضيل المشتركين المجمعين لطلب السفر والوجبات والإقامة وإمكانية الوصول من خلال استمارة التسجيل
+- [] إرسال بريد إلكتروني إلى المشاركين فيما يتعلق بسفرهم وإقامتهم وجدولهم الزمني ووجبتهم الغذائية
+- [ ] عشاء الكتاب للناس ليوم 1
+- [ ] حجز غرف فنادق للأشخاص الذين طلبوا الإقامة
+  - [ ] التحقق المزدوج مع كل مشارك من أن خطته على النحو المعطى في تسجيله لم تتغير
+- [ ] كتاب سفر من طلبوا
+  - [ ] التحقق المزدوج مع كل مشارك من أن خطته على النحو المعطى في تسجيله لم تتغير
+- [ ] تقديم الطعام للطعام وللبن
+- [ ] ذكر أن الحدث سيقدم وجبة نباتية كوجبة افتراضية - وطلب من المشاركين الاتصال إذا كان نوع وجبة أخرى مطلوبة
 
-## During the Event
+## خلال الحدث
 
-- [ ] Run onboarding sessions on the first day
-  * Welcome everyone (for each slot)
-  * Ask to fill the icebreaker
-  * One of the organisers delivers introduction talk
-  * Create breakout groups for people working on
-- [ ] Host coworking sessions with Pomodoro sessions 30-35 mins long
-  * At the beginning of the session, ask people to document or verbally share their plan for the session
-  * End each session with any report people want to make
-  * Give 5 minutes break before entering the next Pomodoro
-  * Keep last 10 minutes for final reporting and co-documenting the work that took place during the Pomodoro
-- [ ] If an artist, illustrator or consultant is invited, coordinate the schedule with participants so they have the chance to engage
-- [ ] Run a social session each day
-  * These are run by organisers to ensure everyone has the chance to connect informally
-- [ ] Host community share out the event on the last day to demonstrate and celebrate the contributions made by everyone during the Book Dash
-- [ ] Ask for feedback on the last day (plus and delta)
-- [ ] Share the GitHub issue for adding bio and highlight
-- [ ] Take screenshots or group photos (with permission) to share in reports or social media
+- [ ] تشغيل الدورات الداخلية في اليوم الأول
+  * مرحبا بالجميع (لكل فتحة)
+  * اطلب ملء الكاش
+  * يقدم أحد المنظمين محاضرات مقدمة
+  * إنشاء مجموعات فرعية للأشخاص الذين يعملون على
+- [ ] استضافة جلسات مشتركة مع دورات بومودورو لمدة تتراوح بين 30 و35 دقيقة
+  * في بداية الدورة، نطلب من الناس توثيق خطتهم للدورة أو إبلاغها شفوياً
+  * إنهاء كل جلسة مع أي تقرير يريد الناس القيام به
+  * امنح 5 دقائق استراحة قبل دخول بومودورو التالي
+  * الاحتفاظ بالدقائق العشر الأخيرة لإعداد التقارير النهائية وتوثيق العمل الذي تم خلال بومودورو
+- [ ] إذا دُعي فنان أو رسما أو خبير استشاري إلى تنسيق الجدول الزمني مع المشاركين حتى تتاح لهم فرصة المشاركة
+- [ ] تنظيم دورة اجتماعية كل يوم
+  * يتم تشغيل هذه بواسطة منظمين للتأكد من أن الجميع لديهم الفرصة للاتصال بشكل غير رسمي
+- [ ] تقاسم المجتمع المضيف الحدث في اليوم الأخير لعرض المساهمات التي قدمها الجميع خلال كتاب داش والاحتفال بها.
+- [ ] اسأل عن تغذية مرتدة في اليوم الأخير (زائدا ودلتا)
+- [ ] شارك مشكلة GitHub لإضافة بيو وإبراز
+- [ ] التقاط لقطات شاشة أو صور جماعية (مع إذن) للمشاركة في التقارير أو وسائل الإعلام الاجتماعية
 
-## After the Event
+## بعد الحدث
 
-- [ ] Send a thank you email to everyone for their work
-- [ ] Move bio and highlight from the GitHub issue to the Contributors Record
-- [ ] Summarise the event (number of pull requests, issue, chapters, and other significant news) to share with the participants
-- [ ] Share the update via the newsletter
-- [ ] Develop a report with highlights and updates on GitHub
-- [ ] Set up a debrief meeting with the planning committee
-- [ ] Send a thank you note (or a package when possible) to the planning committee
+- [ ] أرسل لك رسالة شكر عبر البريد الإلكتروني للجميع على عملهم
+- [ ] نقل بيو وإبراز من إصدار GitHub إلى سجل المساهمين
+- [ ] تلخيص الحدث (عدد طلبات السحب والإصدارات والفصول وغيرها من الأخبار المهمة) لتقاسمه مع المشاركين
+- [ ] شارك التحديث عن طريق النشرة الإخبارية
+- [ ] إعداد تقرير يحتوي على النقاط البارزة والتحديثات على GitHub
+- [ ] عقد اجتماع مع لجنة التخطيط بشأن الشُعب المرجانية
+- [ ] إرسال ملاحظة شكرية (أو مجموعة إذا أمكن) إلى لجنة التخطيط

@@ -1,4 +1,4 @@
-(glossary)=
+（术语表）=
 # Glossary
 
 ## A
@@ -8,14 +8,14 @@
 接受测试
  一个软件测试过程的水平，在这个过程中，一个系统被测试为可接受性。 这次测试的目的是评价该系统是否符合项目要求，并评估它是否可以接受。
 
-Acknowledgements
- Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
+鸣谢
+ 给不符合作者资格的项目的贡献被写入。 它记录了缴款人的姓名和他们所作的贡献。
 
-Add
- Command used to add files to the staging area. 允许用户指定在下次提交中包含哪些文件或目录。
+添加
+ 个命令用于将文件添加到暂存区域。 允许用户指定在下次提交中包含哪些文件或目录。
 
-Authors
-  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. 所有作者都在整个书上被点名为共同作者。
+作者
+  在这种情况下的作者是_Ting Way_project 的贡献者，他们为该项目作出了巨大贡献，例如撰写了一个小章， 促进社区互动，维持项目的基础设施，并通过辅导捐助支持其他人的参与。 所有作者都在整个书上被点名为共同作者。
 ```
 ---
 
@@ -27,10 +27,10 @@ Binder
   是一个基于网络的服务，允许用户在他们定义的环境中上传和共享其项目的完全正常运行的版本。
 
 绑定中心
-  生成绑定器的服务。 The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+  生成绑定器的服务。 最广泛使用的 mybinder.org，由Binder团队维护。 可以创建其他可支持更专业化配置的 BinderHub。 其中一个配置可以包括身份验证，以使私人仓库能够在密切的合作者之间分享。
 
-Binderize
-  To make a Binder of a project.
+绑定
+  以使一个项目成为一个进纸器。
 
 分支
   一个并行版本的资源库。 虽然它包含在同一个仓库中，但它允许您单独开发它，然后将更改合并到'live'仓库，或酌情与其他分支合并。
@@ -50,41 +50,41 @@ Binderize
 签出
   Git 命令切换到特定的文件、分支或提交。 允许您激活旧版本的文件或提交或在活动分支之间切换。
 
-Citizen Science
-  The inclusion of members of the public in scientific research.
+公民科学
+  让公众参与科学研究。
 
 克隆
-  已存在的 Git 仓库，通常从某些远程位置复制到您的本地环境。 When you clone a repo you copy its entire history as well as all branches.
+  已存在的 Git 仓库，通常从某些远程位置复制到您的本地环境。 当你克隆一个仓库时，你会复制它的全部历史以及所有分支。
 
 代码封面
   一个描述测试套件执行多少源代码的计量。
 
-Code of Conduct
-  Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
+行为准则
+  确立社区鼓励的行为类型的准则 概述处理问题或违反准则的程序以及由谁负责执行这些程序。
 
 代码审核
-  是测试代码质量的另一种方式。 代码审核使得另一个程序员能够查看并评估新代码。 The goal is to point out strengths and also potential areas of improvement.
+  是测试代码质量的另一种方式。 代码审核使得另一个程序员能够查看并评估新代码。 目标是指出长处和潜在的改进领域。
 
-Coercive authorship
-  When a senior researcher forces a junior researcher to include a gift or guest author.
+强制性作者
+  当高级研究员强迫初级研究员收取礼物或客人作者。
 
 提交
-  项目历史快照. A commit can be made after changes of a single file or a range of files and directories.
+  项目历史快照. 可以在单个文件或一系列文件和目录更改后提交。
 
-Commit Message
-  A message the user can attach to a commit to explain what it contains.
+提交消息
+  用户可以附加到承诺以解释它包含的内容。
 
 通讯频道
   为可能包括邮件列表、社区论坛、聊天和/或社交媒体的项目建立的通讯方法。
 
-Community Member
-  People who use the project. They might be active in conversations or express their opinion on the project’s direction.
+社区成员
+  使用此项目的人。 他们可能积极参加谈话，或对项目的方向发表意见。
 
-Computational Environment
-  Features of a computer which can impact the behaviour of work done on it, such as its operating system, what software it has installed, and what versions of software packages are installed.
+计算环境
+  计算机的功能，可以影响已完成的工作的行为。 例如其操作系统，它已安装什么软件，以及安装什么版本的软件包。
 
 Conda
-  A commonly used package management system.
+  是一个常用的软件包管理系统。
 
 联谊会作者
  集体或社区团体作者模式。 联营集团的所有成员都被视为作者，通常需要在已发表的文章中列出，但有时文章是以团体名称发表的。 如果不是所有联营集团成员都同意作者的责任， 作者的成员将与未作者的成员分开列出。 
@@ -99,19 +99,19 @@ Conda
   它会在每次更改代码时自动部署。
 
 持续集成
-  是将个人对项目的更改整合成主体的做法， 经常共享版本(通常每天多次)。 Also called CI.
+  是将个人对项目的更改整合成主体的做法， 经常共享版本(通常每天多次)。 又称CI。
 
-Contributing Guidelines
-  Guidelines outlining how a person should go about contributing to an open source project.
+贡献准则
+  概述一个人如何为开放源码项目做出贡献。
 
 贡献者
   每个人都为项目贡献了一些东西。 这些人是一个研究项目的成员，该项目完成了一些工作，为全面完成研究工作做出了贡献。 这可能是一个小的贡献，如修复软件中的错误，或者是一个更大的贡献，如撰写学术文章。 
 
 相应作者
- 为研究小组管理一篇学术文章的人。 They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
+ 为研究小组管理一篇学术文章的人。 他们负责接受审查人员的意见和证据， 刊登在刊登文章的最后文本上并刊登有关编辑及其详细内容。
 
-CRediT Taxonomy
- The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. 角色描述了每个贡献者对学术产出的具体贡献。 These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
+CrediT 分类法
+ CrediT 分类法是一个高级分类法，包括14个角色。 可以用来代表科学学术产出贡献者通常发挥的作用。 角色描述了每个贡献者对学术产出的具体贡献。 日趋需要这些细节的是杂志以及符合作者标准的作者。
 
 ```
 ---
@@ -120,11 +120,11 @@ CRediT Taxonomy
 
 ```{glossary}
 
-Data repository
-  See repository.
+数据仓库
+  查看资源库。
 
 DMP
-  Data management plan.
+  数据管理计划。
 
 Docker Container
   一个从Docker图像执行的活动计算环境。
@@ -136,10 +136,10 @@ Docker 图像
   一组机器可读的说明来创建特定的计算环境。
 
 Docker Registration
-  是一个名叫Docker 图像的存储和分发系统。 The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). 这种系统往往存放在云层，以方便进入。
+  是一个名叫Docker 图像的存储和分发系统。 注册表允许Docker用户从本地拉取图像，并将新图像推送到注册表(适用时给予足够的访问权限)。 这种系统往往存放在云层，以方便进入。
 
 数字对象标识符
-  数字对象标识符 (DOI) 是一个用于唯一识别对象的持久标识符或句柄。 国际标准化组织（标准化组织）标准化。 在实施处理系统的过程中，指定经营实体正在广泛使用，主要是为了查明学术界和专业界的情况。 政府的资料，例如刊物文章、研究报告、数据集和官方出版物。 However, they also have been used to identify other types of information resources, such as commercial videos.
+  数字对象标识符 (DOI) 是一个用于唯一识别对象的持久标识符或句柄。 国际标准化组织（标准化组织）标准化。 在实施处理系统的过程中，指定经营实体正在广泛使用，主要是为了查明学术界和专业界的情况。 政府的资料，例如刊物文章、研究报告、数据集和官方出版物。 然而，它们也被用来确定其他类型的信息资源，如商业录像。
 ```
 ---
 ## E
@@ -149,8 +149,8 @@ Docker Registration
 Equitable, Diverse and Inclusive Practices
   Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
 
-End to End Test
-  A test that runs the program from beginning to end and verifies that the output is correct.
+结束测试
+  是一个从开始到结束运行程序的测试，并验证输出是否正确。
 
 ```
 ---
@@ -161,81 +161,81 @@ End to End Test
 FAIR
   可查找、可访问、可互操作和可重复使用。
 
-First author
- The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research. 
+第一作者
+ 学术著作中最著名的职位。 它传达了该人作为对研究作出最大贡献的研究员的地位。 
 
 ```
 ---
 ## G
 
 ```{glossary}
-Generalisable
-  Combining replicable and robust findings allow us to form generalisable results. Note that running an analysis on a different software implementation and with a different dataset does not provide generalised results. There will be many more steps to know how well the work applies to all the different aspects of the research question. Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
+可普遍化的
+  结合可重复和强有力的调查结果使我们能够形成可普遍化的结果。 请注意，对不同的软件实施情况和不同的数据集进行分析并不能提供普遍的结果。 还将采取更多步骤了解这项工作如何适用于研究问题的所有不同方面。 普遍化是一个重要步骤，有助于认识到结果不取决于特定的数据集或分析管道的特定版本。
 
 Git
-  Version control system that GitHub is built around. It is a widely used open source distributed version control system developed by the author of Linux.
+  版本控制系统，GitHub 是围绕这个系统构建的。 这是Linux作者开发的一个广泛使用的开放源码发布版本控制系统。
 
 Github
-  An online code hosting and version control service. It has a great many features to aid collaboration between users, and hosts a large number of open source projects.
+  一个在线代码托管和版本控制服务。 它有许多功能来帮助用户之间的合作，并主办大量开放源码项目。
 
 GitLab
-  GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
+  GitLab 是一个基于网络的 DevOps 生命周期工具，它提供一个Git-版本库管理器提供wiki 利用GitLab Inc.开发的开源许可，对问题进行跟踪和持续整合以及部署管道功能
 
-Ghost author
- It is a person who writes an academic article without having carried out the research. It could be a professional writer. They would often not qualify as an author under the ICMJE criteria for authorship.
+幽灵作者
+ 这是一个在没有进行研究的情况下撰写学术文章的人。 它可以是专业作家。 他们往往没有资格按照ICMJE的著作权标准作为作者。
 
-Gift author
- People who are listed as authors but who did not make significant contributions to the research. This is also known as a guest author.
+礼品作者
+ 被列为作者但没有为研究做出重要贡献的人。 这也被称为客座作者。
 
-Group authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as shared authorship.
+群组作者
+ 某些日记允许使用群组名称，但许多日记要求贡献者被列出和/或写入群组。 这与共有作者相同。
 
-Guarantor
- As well as fulfilling criteria for being a named author, some journals require one or more authors that take responsibility for the integrity of the work as a whole from inception to the published article.
+保证人
+ 以及符合作为指定作者的标准 有些期刊要求一位或多位作者从一开始就对整个作品的完整性负责，并发表文章。
 ```
 ---
 ## H
 
 ```{glossary}
-Head
-  The latest commit on the branch which is currently checked out.
+头
+  当前正在签出的分支上的最新提交。
 
 Helm
-  A package manager for Kubernetes applications.
+  Kubernetes应用软件包管理器。
 
-Honorary authorship
- This is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
+名誉作者
+ 即使个人没有做出大量贡献和/或达到作者标准，也是指名作者。
 
-Human Readable
-  A human readable medium or human readable format is any encoding of data or information that can be naturally read by humans. Some human readable formats, such as PDF, are not machine readable as they are not structured data, such as the representation of the data on disk does not represent the actual relationships present in the data.
+人能读取的
+  人类可读介质或人能读取的格式是任何可以被人类自然读取的数据或信息的编码。 一些可读的人类格式，例如PDF格式，由于没有结构化数据，无法用机器读取。 例如，磁盘上数据的表述并不代表数据中存在的实际关系。
 ```
 ---
-## I
+## 一
 
 ```{glossary}
 
-Image
-  Files used for generating containers.
+图像
+  用于生成容器的文件。
 
-Integration Testing
-  A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+集成测试
+  一个层次的软件测试，将单个单元合并并作为一个组进行测试。 这一测试水平的目的是揭示一体化单位之间相互作用中的缺陷。
 
-Issues
-  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
+问题
+  GitHub 的 Bug 跟踪系统。 协作者可以使用问题报告错误、请求功能或为项目设定里程碑。 合作者在开发过程中跟踪、报告和结案。 他们是与你的团队沟通和报告进度的好办法。
 
-Issue Tracking
-  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
+问题跟踪
+  跟踪项目当前问题的过程，例如修复错误、推出新功能或社区参与计划。
 ```
 ---
-## J
+## 日
 
 ```{glossary}
 
-Job
-  An automated process that clones your repository into a virtual environment and then carries out a series of phases such as compiling your code and running tests. A job fails if the return code of the script encounters an error.
+作业
+  是一个自动化过程，将你的存储库复制到虚拟环境中，然后进行一系列的阶段，如编译你的代码和运行测试。 如果脚本返回代码遇到错误，作业失败。
 
 JupyterHub
-  A multi-user server for Jupyter Notebook instances.
+  Jupyter Notebook 实例的多用户服务器。
 ```
 ---
 ## K
@@ -243,47 +243,47 @@ JupyterHub
 ```{glossary}
 
 Kubernetes
-  Autonomous computational cluster manager.
+  自动计算集群管理器。
 ```
 ---
 ## L
 
 ```{glossary}
 
-License
-  This is a legal document that sets out the permissions for creative and academic work. It explains copyright, ensures proper attribution and sets out how others can copy, distribute and make use of the works.
+授权
+  这是一份法律文件，规定了创造性和学术性工作的权限。 它解释了版权，确保了适当的归属，并说明了他人如何能够复制、分发和利用作品。
 
-Last author
- Usually the person in the research team with a supervisory role such as a PhD supervisor or Principal investigator. This is discipline dependent as sometimes the last author is the person that has made the smallest contribution to the research.
+最后作者
+ 通常是具有博士主管或主要调查员等监督作用的研究小组成员。 这取决于纪律，因为有时最后的作者是对研究作出最小贡献的人。
 ```
 ---
 ## M
 
 ```{glossary}
 
-Machine Readable
-  Machine readable refers to documents, data or other digital outputs whose content can be readily processed by computers. Such documents are distinguished from machine readable data by virtue of having sufficient structure to provide the necessary context to support the business processes for which they are created. Machine readable data can be defined as data in a format that can be easily processed by a computer without human intervention while ensuring no semantic meaning is lost.
+机器可读的
+  机器是指其内容可通过计算机轻松处理的文件、数据或其他数字输出。 将这类文件与机器可读数据区分开来，因为它们具有足够的结构，能够提供必要的背景，支持创建这些文件的业务过程。 机器可读数据可以定义为一种格式的数据，这种格式可以在不受人为干预的情况下由计算机轻易处理，同时确保不丢失语义。
 
-Main
-  The repository’s main branch. Depending on the workflow, it is the one people work on or the one where the integration happens. This used to be called ‘Master’ in Github.
+主要
+  仓库的主要分支。 取决于工作流程，融合是一个人从事的工作或是一个人从事的工作。 在Github，这个名字曾被叫做“主”。
 
-Maintainers
-  Contributors who are responsible for driving the vision and managing the organizational aspects of the project. They may also be authors and/or owners of the project.
+维护者
+  贡献者，他们负责推动项目的愿景和管理项目的组织方面。 他们也可能是项目的作者和/或所有者。
 
 Makefile
-  A text file that contains the configuration for the build.
+  是一个包含构建配置的文本文件。
 
-Merge
-  The process of combining branches. Changes made on one or more branches are applied to another.
+合并
+  合并分支的过程。 对一个或多个分支的更改适用于另一个分支。
 
-Merge Conflict
-  Incompatibilities between branches being merged.
+合并冲突
+  合并分支之间的不兼容性。
 
-Metadata
-  Data used to describe other data. For example (35, 33, 27, 30, 33) is data but the units (miles per hour) and the fact these are the speeds of cars on a certain stretch of road is metadata.
+元数据
+  用于描述其他数据的数据。 例如(35,33,27,30, 这些数据是指每小时数英里的数据，而事实是指某一段路段上汽车的速度，这是元数据。
 
-Mock Test
-  Replace a real object with a pretend one to use when running tests.
+模拟测试
+  用假装在运行测试时使用的对象替换真实对象。
 ```
 ---
 ## N
@@ -296,82 +296,82 @@ Mock Test
 
 ```{glossary}
 
-Open Access
-  Making all published outputs freely accessible for maximum use and impact.
+打开访问
+  免费访问所有已发布的输出以便最大限度地使用和影响。
 
-Open Access publishing (gratis)
-  The practice of making research publications available to anyone to read without charge.
+Open Access Publishing (gratis)
+  The practice of more research publications to only ready to use.
 
 Open Access Publishing (libre)
-  Libre open access is gratis, meaning the research is available free of charge, but it goes further by granting users the right to copy, reuse, and remix the publication.
+  Libre open access，意思是研究是免费的。 但更进一步的是，它赋予用户复制、再使用和重新混合出版物的权利。
 
-Open data
-  Documenting and sharing research data openly for re-use.
+打开数据
+  公开记录和分享研究数据供重新使用。
 
-Open Educational Resources
-  Making educational resources publicly available to be re-used and modified.
+开放教育资源
+  公开提供教育资源以重新使用和修改。
 
-Open Source Hardware
-  Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
+开源硬件
+  记录与硬件相关的设计、材料和其他相关信息，并使其能够自由存取。
 
 Open License
-  A license is a document that specifies what can and cannot be done with a work. It grants permissions and states restrictions. Broadly speaking, an open license is one that grants permission to access, re-use and redistribute a work with few or no restrictions.
+  许可证是一个指定工作可以做和不能做什么的文件。 它授予权限和状态限制。 从广义上讲，开放许可证是一种允许在很少或不受限制的情况下进入、重新使用和重新分配一份作品的许可证。
 
-Open Notebooks
-  An emerging practice, documenting and sharing the experimental process of trial and error.
+打开笔记本
+  一个正在出现的做法，记录和分享试用和错误的实验过程。
 
-Open Scholarship
-  This is a concept that extends open research further. It relates to making other aspects of scientific research open to the public such as open educational resources, having inclusive practice and citizen science.
+开放奖学金
+  这是一个进一步扩大开放研究的概念。 它涉及向公众开放科学研究的其他方面，如开放教育资源、具有包容性的实践和公民科学。
 
-Open Project
-  *Same as Open Science or Open Research Projects*. A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
+打开项目
+  *与开放科学或开放研究项目相同*。 核心或领导小组与广大社区之间以在线互动形式开展大量协作的项目。 社区互动应保持项目的透明度和公开性，以促进您社区的发展。
 
-Open Source Software
-  Documenting research code and routines, and making them freely accessible and available.
+开源软件
+  记录研究代码和例行，并使其能够免费访问和获取。
 
 ORCID
-  Open Researchers and Contributor iD. It is a long lasting unique identifier for you as a researcher. A persistent digital identifier for researchers' that can be used on publications to ensure fair credit is given for all the researchers works. 
+  开放研究人员和贡献者iD。 这是你作为研究人员的一个长期独特的识别工具。 为所有研究人员提供了一个可用于出版物的持久数字识别符号，以确保对所有研究人员作品给予公平的评价。 
 
-Owner
-  The person/s who has administrative ownership over the organization or repository (not always the same as the original author).
+所有者
+  对组织或仓库拥有行政所有权的人(不总是与原作者相同)。
 ```
 ---
 ## P
 
 ```{glossary}
 
-Package Management System
-  A tool for installing, managing, and uninstalling software packages including specific versions.
+软件包管理系统
+  一个用于安装、管理和卸载软件包包括特定版本的工具
 
-Persistent Identifier
-  A long-lived method for identifying a resource that is unique, and widely understandable by a community.
+持久性标识符
+  是一种用来识别一个独特且被社区广泛理解的资源的长期方法。
 
-Pattern
-  A pattern rule is a rule that contains exactly one % character in the target, which can be used to match a part of a filename.
+图案
+  模式规则是指在目标中只包含一个%字符的规则。 它可以用于匹配文件名的一部分。
 
 Persona
-  A persona is the detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
+  个人是一个虚拟用户或成员的详细信息 以现有成员或未来潜在成员的现实世界观察和理解为依据。
 
 Persona Canvas
-  The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
+  人画布可以用来集合您在一个地方的所有响应 与您的同事分享您的智力模型的这种具体信息(我们的思想抽象概念)，并创建一个通用语言来交流您的社区成员。 用户和贡献者。
 
-Phony Target
-  A phony target is one that doesn’t correspond to a file on the filesystem. A target is marked as phony by making it a prerequisite of the .PHONY target.
+Phony 目标
+  是一个与文件系统上的文件不对应的目标。 一个目标被标记为恐惧，将它作为.PHONY目标的先决条件。
 
-Power Users
-  These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient.
+能量用户
+  这些人已经非常熟悉一个平台，知道使他们的体验更有效率的获得和技巧。
 
-Prerequisite
-  The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.
+前提
+  规则的前提条件对应在 Makefile 中的文件或其他目标，而这些文件或目标必须在规则运行之前更新。
 
-Project Design
-  An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.
+项目设计
+  一个项目的早期阶段，项目的主要特点、结构、成功标准和主要可达到的目标都已规划完毕。
 
-Pull Request
-  Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.
+拉取请求
+  提议的更改到远程存储库。 没有写访问权限的协作者可以向管理员发送拉取请求，并且他们已经对仓库进行了修改。 然后管理员可以批准并合并或拒绝对主仓库的更改。 对于开源项目，任何人都可以发送拉取请求。
 
-Push
-  Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
+按下
+  发送更改到远程仓库中。 远程存储库已被推送更新，现在正在镜像本地存储库。
 ```
 ---
 ## Q
@@ -385,92 +385,92 @@ Push
 ```{glossary}
 
 RDM
-  Abbreviation for research data management - see research data management for definition.
+  用于研究数据管理的缩写- 请参阅研究数据管理以便定义。
 
 README
-  A file which contains useful information about a project such as what it is, how to use/install it, how to test it, and how to contribute to it.
+  一个包含有关项目的有用信息的文件，比如它是什么。 如何使用/安装它，如何测试，以及如何贡献它。
 
-Recipe
-  One or more shell commands that are executed by Make. Usually these commands update the target of the rule.
+配方
+  由 Make 执行的一个或多个shell 命令。 通常，这些命令更新规则的目标。
 
-Regression Test
-  Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
+回归测试
+  比较代码更改之前和之后的测试结果。 如果产出已经改变，在程序的某个地方引入了一个问题，并且出现了一个错误。
 
-Replicable
-  A result is replicable when the same analysis performed on different datasets produces qualitatively similar answers.
+在不同数据集进行的相同分析产生质量相似的答案时，可复制
+  结果是可复制的。
 
 repo2docker
-  A tool to build Docker images from code repositories.
+  是一个从代码仓库创建 Docker 图像的工具。
 
-Repository
-  *Same as Data or Code Reprository*. A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
+仓库
+  *与数据或代码仓库相同*。 因特网上长期居住的地方(无论是数据、软件、出版物或其他任何资料)都可以储存和取用。 这个关键词常被缩短为'repo'。
 
-Reproducible
-  A result is reproducible when the same analysis steps performed on the same dataset consistently produces the same answer.
+可重复
+  当相同数据集的分析步骤始终如一地产生相同的答案时，结果可以复制。
 
-Rendered Output
-  This is what the text will look like on an online page in Github or web page
+渲染输出
+  这是在Github的在线页面或网页
 
 Research Compendia
-  This is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, metadata). The collection is created in such a way that reproducing all results is straight forward.
+  这是一个包括数据在内的研究项目所有数字部分的集合。 代码、文本(协议、报告、调查表、元数据)。 收集的方法是以直截了当的方式复制所有结果。
 
-Research Data Management
-  *Acronym: RDM*. Refers to the organisation, storage and preservation of data created during a research project. It covers initial planning, day-to-day processes and long-term archiving and sharing. Shortened to RDM.
+研究数据管理
+  *Acrony: RDM* 系指组织、储存和保存在研究项目期间产生的数据。 它涉及初步规划、日常处理以及长期存档和共享。 缩短到RDM。
 
-Research Ethics
-  Research ethics are the moral principles that govern how researchers should carry out their work. These principles are used to shape research regulations agreed by groups such as university governing bodies, communities or governments. All researchers should follow any regulations that apply to their work.
+研究伦理
+  研究伦理是指导研究人员如何开展工作的道德原则。 这些原则被用来制定由大学管理机构、社区或政府等团体商定的研究条例。 所有研究人员都应遵守适用于其工作的任何条例。
 
-Review
-  Suggesting changes or asking for committing something to an already created pull request.
+查看
+  建议更改或要求对已创建的拉取请求提交某些东西。
 
-Risk Assessment
-  This is used to help choose the appropriate sustainable software concepts for your project.
+风险评估
+  用于帮助选择适合您项目的可持续软件概念。
 
-Risk Matrix
-  A risk matrix is a way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
+风险矩阵
+  风险矩阵是用来量化您感兴趣的事情的一种方法。 一轴以某种方式测量暴露情况，另一轴则测量误差的影响。 就起源而言，为了使风险能够被接受，需要采取更多的保障措施。
 
-Roadmapping
-  This is the creation of a roadmap for your project. It is an outline for the work you need to do. It covers your goals, vision and a timeline for tasks.
+路径
+  是为您的项目创建一个路径图。 这是你需要做的工作的大纲。 它涵盖你的目标、远见和任务时间表。
 
 
-Robust
-  A result is robust when the same dataset is subjected to different analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
+强力
+  当相同的数据集需要接受不同的分析工作流来回答相同的研究问题(例如用R和Python写的一条管道)，并产生一个性质相似或相同的答案时，结果是可靠的。 强有力的成果表明，这项工作不取决于为进行分析而选定的方案编制语言的具体特点。
 
-Rule
-  An element of the Makefile that defines something that must be built, usually consists of targets, recipes, and optionally, prerequisites.
+规则
+  是 Makefile 的一个元素，它定义了必须构建的东西，通常由目标、配方和可选的前提条件组成。
 
-Runtime Test
-  Tests embedded within the program which are run as part of it.
+运行时间测试
+  嵌入作为其一部分运行的程序内的测试。
 
 ```
 ---
-## S
+## 秒
 
 ```{glossary}
 
-Self Archiving
-  Placing a publication or other research outputs in a suitable repository, institutional or subject-based, following the possible restrictions posed by the publisher, for example an embargo period, or limits on the allowed version to be deposited in such archives.
+自封归档
+  将出版物或其他研究产出放置在适当的储存库、机构或主题上。 按照出版商可能施加的限制，例如禁运期或对允许存入这类档案的版本加以限制。
 
 SHA
-  Unique string of numbers of letters used to identify every commit or node in the repository.
+  用于识别仓库中每个提交或节点的字母的唯一字符串。
 
-Shared authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as group authorship.
+共享作者
+ 某些日记允许使用组名，但许多日记要求贡献者被列出和/或写入组名。 这与小组作者相同。
 
-Smoke Testing
-  Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+烟雾测试
+  非常简短的初步检查，确保运行项目挂卡所需的基本要求。 如果未能做到这一点，在确定试验水平之前就没有任何意义。
 
 Staged
-  Staging the changes that will be included in the next git commit.
+  Staging the changes will be included in the next commit.
 
-Stochastic Code
-  Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+存档代码
+  正确，但并不总是输出相同的结果。 例如，一个输出10个随机数的程序将每次产生不同的结果，尽管是正确的。
 
-Syntax
-  The structure of statements in a computer language.
+语法
+  计算机语言的语句结构。
 
-System Testing
-  A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs. Also see end to end test.
+系统测试
+  在测试一个完整、综合的系统的软件测试过程中达到一个水平。 这项试验的目的是评估整个系统是否为特定投入提供了正确的产出。 也见结束端测试。
 
 ```
 ---
@@ -478,46 +478,46 @@ System Testing
 
 ```{glossary}
 
-Target
-  The outcome of a rule in a Makefile. It is usually a file. If it is not a file, it’s a phony target.
+目标
+  在 Makefile 中的规则结果。 它通常是一个文件。 如果它不是一个文件，它是一个电话目标。
 
-Test Driven Development
-  A process of code development where unit tests are written before the units themselves.
+测试驱动开发
+  一个代码开发过程，单位测试由单位自己编写。
 
-Test Stub
-  Fake implementations of parts of code which are used in testing to remove dependencies.
+测试 Stub
+  伪造用于测试以删除依赖的代码部件。
 
-Test Suite
-  The tests that have been written for a project.
+测试套件
+  为一个项目编写的测试。
 
-Testing Framework
-  Tools that make writing and running tests less labour intensive.
+测试 Framework
+  的工具，可以使写作和运行测试降低劳动密集度。
 
-Travis
-  A commonly used continuous integration platform.
+轨迹
+  这是一个常用的连续整合平台。
 ```
 ---
 ## U
 
 ```{glossary}
 
-Unit
-  A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
+单元
+  一个做一件简单事情的小代码。 它通常有一个或几个投入，通常只有一个产出。
 
-Unit Testing
-  A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+单元测试
+  一个软件测试过程中测试某个软件单元的水平。 其目的是验证软件的每个单位是否按设计行事。
 ```
 ---
-## V
+## 五
 
 ```{glossary}
 
-Virtual Machine
-  A simulated computer that can encapsulate and entire computational environment including its operating system, customised settings, software and files.
+虚拟机
+  一个模拟计算机，可以封装整个计算环境，包括其操作系统、定制设置、软件和文件。
 
 ```
 ---
-## W
+## 瓦文
 
 ```{glossary}
 
@@ -533,7 +533,7 @@ Virtual Machine
 
 ```{glossary}
 YAML
-  A human readable/writable markup language which used by many projects for configuration files.
+  一个人类可读/可写标记语言，用于许多项目的配置文件。
 ```
 ---
 ## Z

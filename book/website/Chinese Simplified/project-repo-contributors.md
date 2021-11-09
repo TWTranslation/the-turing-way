@@ -1,32 +1,32 @@
-(pd-project-repo-contributors)=
-# Contributors and Communication Pathways
+（pd-project-repo-contributors）=
+# 贡献者和通信路径
 
-Your project is likely to be better if what you create is used by others and they share their ideas and feedback to add new features or improvements. When designing your project, the Goals and aims are as important as their contributors. When designing your project, it is important to think about who the contributors are and how they will collaborate in the project (as described in {ref}`pd-project-repo-readme` and {ref}`pd-project-repo-roadmapping`).
+如果您创建的项目被其他人使用，并且他们分享他们的想法和反馈以添加新的功能或改进，您的项目可能会更好。 在设计你们的项目时，千年发展目标和目标同它们的贡献者一样重要。 设计您的项目时， 重要的是要考虑贡献者是谁以及他们将如何在项目中进行合作(如 {ref}`pd-project-repo-repo-readme` 和 {ref}`pd-project-repo-roadmap` 中所述)。
 
-It is also important to set clear expectations for your contributors and describe resources available to facilitate their participation, which discuss in this subchapter. The working relationships you establish with your contributors by welcoming them, engaging with them and supporting them, makes your contributors feel valued and excited about their contributions.
+同样重要的是，要对你们的贡献者提出明确的期望，并说明可用于促进他们参与的资源，本章讨论了这些资源。 欢迎您与贡献者建立的工作关系 让你们的贡献者对他们的贡献感到宝贵和兴奋。
 
-(pd-project-repo-contributing-contributors)=
-## Identifying Your Contributors
+（pd-project-repo contribution-contributors）=
+## 识别您的贡献者
 
-Most collaborations in community projects are established and maintained with the contributors. Effective collaboration means that all contributors are given the possibility to combine their diverse perspectives and skills to create meaningful resources. They contribute to the project in various ways, for example by developing documentation or code, fixing bugs, suggesting new features or supporting others.
+社区项目中的大多数协作是与捐助者建立和维持的。 有效的协作意味着所有捐助方都有可能将其不同的观点和技能结合起来，以创造有意义的资源。 它们以各种方式为该项目做出贡献，例如开发文件或代码、修复bug、建议新功能或支持其他功能。
 
-To make sure that you target a diverse set of collaborators, start by designing {ref}`Persona<pd-persona>` for your project.
+为了确保你针对一组不同的合作者，首先为你的项目设计 {ref}`Persona<pd-persona>`。
 
 ```{note}
-A persona is a detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
-It is meaningful when paired with pathways through which these personas engage with a project.
+一个人是根据对现有成员或未来潜在成员的现实世界观察和理解而想象的使用者或成员的详细情况。
+当这些人与某个项目相配对时，它是有意义的。
 ```
 
-When you have selected a few personas that capture your idea of contributors who want to involve, you can develop pathways that they can take to engage and contribute to your project (see {ref}`Persona<pd-persona-contributors>`).
+当你选择了几个人来抓住你想要参与的贡献者的想法时， 您可以开发他们可以参与并为您的项目贡献的路径(见 {ref}`Persona<pd-persona-contributors>`)。
 
-(pd-project-repo-contributing-communication)=
-## Setting Communication Pathways
+(pd-project-repo contributing-communication)=
+## 设置通信路径
 
-When setting up your communication pathways, there are some important things to consider such as the following:
-- How easy is it for the community to find these channels and subscribe/unsubscribe to them?
-- Are they moderated? Under-represented groups may not participate if a channel is free for all.
-- How easy is it for members of the community to find and join specific conversations they are interested in?
-- Will it be a “noisy” channel (for example, lots of notifications)?
-- Can users control or filter what kind of information they receive?
+在设置您的通信路径时，有一些重要的事情需要考虑，例如：
+- 社区找到这些频道并订阅/取消订阅这些频道是多么容易？
+- 它们是否得到了管理？ 如果一个渠道对所有人都是免费的，代表不足的群体不得参加。
+- 社区成员如何容易找到和加入他们感兴趣的具体对话？
+- 它是否是一个“噪音”渠道（例如大量通知）？
+- 用户能够控制或过滤他们收到的哪种信息？
 
-See {ref}`cm-os-comms` to understand various features you can consider for setting a communication channel for your project.
+查看 {ref}`cm-os-comms` 了解您可以考虑为您的项目设置通信频道的各种功能。

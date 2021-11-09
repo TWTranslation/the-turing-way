@@ -1,135 +1,135 @@
-(ch-style-crossref)=
+(النمط - تقاطع الطراز)=
 
-# Cross-Referencing Sections and Chapters
+# الأقسام والفروع المتقاطعة
 
-We recommend using the cross-referencing style as described in the [Jupyter Book](https://jupyterbook.org/content/citations.html) for chapters or files, and different contents of chapters such as sections and figures.
+نوصي باستخدام أسلوب الإحالة المرجعية كما هو مبين في [كتاب المشتري](https://jupyterbook.org/content/citations.html) للفصول أو الملفات، والمحتويات المختلفة للفصول مثل الأقسام والأرقام.
 
-In Jupyter Book, labels are a way to add tags to parts of your content or a file that you can reference later on. This is very helpful because you can insert labels to other parts of your book without worrying about the relative or absolute paths of the file.
+في كتاب المشتري، التسميات هي طريقة لإضافة علامات إلى أجزاء من محتواك أو إلى ملف يمكنك الرجوع إليه لاحقاً. هذا مفيد جدا لأنه يمكنك إدخال تسميات إلى أجزاء أخرى من كتابك دون القلق بشأن المسارات النسبية أو المطلقة للملف.
 
-In this document, we have provided examples to describe how you can use labels for different chapters or part of chapters within the book. We have also defined a naming convention for labels for _The Turing Way_ to ensure that the locations of these labels in the book are identifiable by their name.
+وفي هذه الوثيقة، قدمنا أمثلة لوصف كيفية استخدام التسميات لفصول مختلفة أو جزء من الفصول في الكتاب. لقد حددنا أيضا اتفاقية تسمية لتسميات _طريق الترقيق_ للتأكد من أن مواقع هذه التسميات في الكتاب يمكن تحديدها باسمها.
 
-## Labels in Jupyter Book
+## تسميات في كتاب المشتري
 
-To add a label for a section or a chapter/subchapter, use a syntax of the following pattern before the element you wish to label:
-
-```
-(my-label-name)=
-# The thing that I want to label
-```
-
-You can insert cross-references to the labels of sections in your file with the following syntax:
+لإضافة تسمية لقسم أو فصل / فرعي، استخدم بناء الجملة للنمط التالي قبل العنصر الذي ترغب في تسميته:
 
 ```
-{ref}`my-label-name`
+(my-namel-name)=
+# الشيء الذي أريد تسميته
+```
+
+يمكنك إدخال إحالات مرجعية إلى تسميات الأقسام في ملفك مع الجملة التالية:
+
+```
+{ref}`my-namel-name`
 
 ```
 
-Similarly, you can use labels for cross referencing chapters or subchapters.
+وبالمثل، يمكنكم استخدام التسميات في الفصول أو الفصول الفرعية المتقاطعة بين الإحالات المرجعية.
 
-Please see details in the examples given below.
+يرجى الرجوع إلى التفاصيل في الأمثلة الواردة أدناه.
 
-### _The Turing Way_ naming convention for the labels
+### _طريقة التورينج_ اتفاقية تسمية التسميات للتسميات
 
-We recommend using the following naming standard for labels, which will allow different authors and contributors of _The Turing Way_ to intuitively identify the locations of the files where these labels have been created.
+نوصي باستخدام معيار التسمية التالي للتسميات ، والذي سيتيح للمؤلفين والمساهمين المختلفين في _طريق التوريق_ التعرف بشكل بديهي على مواقع الملفات التي تم إنشاء هذه التسميات فيها.
 
-The following naming convention for the labels for different chapters:
+اتفاقية التسمية التالية لتسميات الفصول المختلفة:
 
 ```
 (sectioninitials-filename)=
 ```
 
-Here, the first placeholder `sectioninitials` should be replaced by the initials for different sections in the book and the second placeholder `filename` should be replaced by the name of file where the label is being created.
+هنا، يجب استبدال العنصر البديل الأول `القسم التمهيدي` بالأحرف الأولى لمختلف الأقسام في الكتاب وينبغي استبدال اسم الملف النائب الثاني `` باسم الملف حيث يتم إنشاء التسمية.
 
-For the different Guides of the book, we will use the following `sectioninitials`:
+للأدلة المختلفة للكتاب، سوف نستخدم `الأقسام التمهيدية التالية`:
 
-- Reproducible Research: `rr`
-- Project Design: `pd`
-- Collaboration: `cl`
-- Communication: `cm`
-- Ethical Research: `er`
+- بحث قابل للتنقيح: `rr`
+- تصميم المشروع: `pd`
+- التعاون: `cl`
+- الاتصال: `سم`
+- البحث الأخلاقي: ``
 - Community Handbook: `ch`
 
-For example, in the guide `Reproducible Research`, we have a chapter called `Overview`. We have created a label for that chapter called `rr-overview` by adding the label on the top of the header by using the following directive
+على سبيل المثال ، في دليل `البحث القابل للتكاثر`، لدينا فصل يسمى `نظرة عامة`. لقد قمنا بإنشاء تسمية لهذا الفصل تسمى `rr-overview` عن طريق إضافة التسمية في الجزء العلوي من الرأس باستخدام التوجيه التالي
 
 ```
-(rr-overview)=
-# Overview
+(r-Overview)=
+# نظرة عامة
 ```
 
-Similarly, for different subchapters we recommend extending the label name with another placeholder for subchapter's name. For example, `rr-overview-resources` is a label in the guide "Reproducible Research" (rr) for the subchapter "Resources" for the "Overview" chapter (overview-resources). This label can be created by using the following directive in the corresponding file:
+وبالمثل، نوصي فيما يتعلق بالفصول الفرعية المختلفة بتوسيع اسم الملصق ليشمل اسم مكان آخر للفصل الفرعي. على سبيل المثال، `rr-overview-Resources` هو تسمية في الدليل "Reproducible Research" (rr) للفصل الفرعي "الموارد" للفصل "Overview" (Overview-resources). يمكن إنشاء هذه التسمية باستخدام التوجيه التالي في الملف المقابل:
 
 ```
-(sectioninitials-filename)=
-# Resources
+(قسم الأوليات-اسم الملف)=
+# الموارد
 ```
 
-In the same manner, for different sections in a subchapters we recommend extending the label name with another placeholder. This can be chosen by the authors, which should be a short yet sensible name for the section where the label is being created. For example, `rr-overview-resources-addmaterial` is a label in the guide "Reproducible Research" (rr) for the subchapter "Resources" for the "Overview" chapter (overview-resources) for the section for "Additional Materials" (addmaterails). This label can be created in the corresponding file for the suggested section name using the following directive:
+وبنفس الطريقة، نوصي بتوسيع اسم العلامة مع عنصر مساعد آخر بالنسبة لمختلف الفروع في الفصول الفرعية. ويمكن للمؤلفين أن يختاروا هذا الاسم، الذي ينبغي أن يكون اسما قصيرا ولكن معقولا للقسم الذي يجري فيه إنشاء البطاقة التعريفية. على سبيل المثال `rr-overview-resources-addmaterial` هو تسمية في الدليل "Reducible Research" (rr) للفصل الفرعي "الموارد" للفصل "Overview" (Overview-resources) لقسم "مواد إضافية" (الإضافات). يمكن إنشاء هذه التسمية في الملف المقابل لاسم القسم المقترح باستخدام التوجيه التالي:
 
 ```
-(sectioninitials-filename-section)=
-## Additional Material
+(sectioninitials-filenname-Section)=
+## مواد إضافية
 ```
 
-### Examples of cross-referencing
+### أمثلة على الإحالات المرجعية
 
-**Examples for cross-referencing sections of chapters and subchapters**
+**أمثلة للإحالات المرجعية للأبواب من الفصول والفصول الفرعية**
 
-We will use examples for the chapters in "Reproducible Research" guide located in the `book/website` directory.
+سوف نستخدم أمثلة للفصول في دليل "البحث التناسبي" الموجود في دليل `كتاب/موقع الويب`
 
-**_Case 1_**: When you cross-reference a section of the chapter within the same file _before_ a label has been created.
+**_القضية 1_**: عندما تقوم بالإحالة إلى جزء من الفصل داخل نفس الملف _قبل_ تم إنشاء ملصق.
 
-Taking the previous example of `rr-overview-resources-addmaterial`, we can use this label to cross-reference it in an earlier section within the same file using the following:
+أخذ المثال السابق من `rr-overview-resources-addmaterial`، يمكننا استخدام هذه العلامة للرجوع إليها في قسم سابق داخل نفس الملف باستخدام ما يلي:
 
 ```
 {ref}`rr-overview-resources-addmaterial`
 ```
 
-This will appear in the online book like so: {ref}`rr-overview-resources-addmaterial`.
+سيظهر هذا في الكتاب على الإنترنت مثل {ref}`rr-overview-resources-addmaterial`.
 
-**_Case 2_**: When you cross-reference a section of the chapter within the same file _after_ a label has been created.
+**_القضية 2_**: عندما تقوم بالإحالة إلى جزء من الفصل داخل نفس الملف _بعد_ تم إنشاء ملصق.
 
-In the same subchapter "Resources", we have created a label `rr-overview-resources-reading` for the section "Further Reading". We can cross-reference it in a later section within the same file using the following:
+في نفس الفصل الفرعي "الموارد"، قمنا بإنشاء تسمية `rr-overview-resources-قرأ` للجزء "المزيد من القراءة". وبوسعنا أن نقارنها في قسم لاحق داخل نفس الملف باستخدام ما يلي:
 
 ```
 {ref}`rr-overview-resources-reading`
 ```
 
-It will appear in your chapter like this: {ref}`rr-overview-resources-reading`.
+سوف تظهر في فصلك مثل هذا: {ref}`نظرة عامة على الموارد-قراءة`.
 
-**_Case 3_**: When you cross-reference a section of a chapter in a different file (chapter) before or after a label has been created.
+**_القضية 3_**: عندما تقوم بالإحالة إلى جزء من فصل في ملف مختلف (فصل) قبل أو بعد إنشاء التسمية.
 
-In the subchapter "Definitions" of the "Overview" chapter, we have created a label `rr-overview-definitions` for the section "Table of definitions for reproducibility".
+في الفصل الفرعي "التعاريف" من الفصل "نظرة عامة"، أنشأنا تسمية `تعاريف rrr-view-view-` لقسم "جدول التعاريف لقابلية الاسترداد".
 
-We can cross-reference it in a different subchapter or chapter. In this case, let's cross-reference it in the landing (main) page of the "Overview" chapter by using the following:
+ويمكننا أن نحيل ذلك في فصل فرعي أو فصل مختلف. وفي هذه الحالة، دعونا نشير إليه في صفحة الإنزال (الرئيسية) من الفصل "نظرة عامة" باستخدام ما يلي:
 
 ```
-{ref}`rr-overview-definitions`
+{ref}`r-overview-definitions`
 ```
 
-It will appear in your chapter like this: {ref}`rr-overview-definitions`.
+سوف تظهر في الفصل الخاص بك مثل هذا: {ref}`rr-Overview-definitions`.
 
-Though we are demonstrating this example for subchapters within the same chapter ("Overview"), the similar syntaxes can be used for cross-referencing in other chapters within the book.
+على الرغم من أننا نوضح هذا المثال للفصول الفرعية في نفس الفصل ("نظرة عامة")، يمكن استخدام الجملة المشابهة للإحالة المرجعية في فصول أخرى داخل الكتاب.
 
-**Examples for Cross referencing chapters and subchapters**
+**أمثلة للفصول والفصول الفرعية المتقاطعة**
 
-**_Case 4_**: Cross-referencing a chapter or subchapter in a different file (chapter/subchapter) before or after a label has been created.
+**_القضية 4_**: إحالة مرجعية إلى فصل أو فصل فرعي في ملف مختلف (فصل/فصل) قبل أو بعد إنشاء التسمية.
 
-For example, in the landing page of the chapter "Open Research", we have created a label `rr-open`. We can cross-reference it in the section "What to learn next?" in a different subchapter "Resources" of the "Overview" chapter by using the following:
+على سبيل المثال، في صفحة الهبوط من الفصل "البحث المفتوح"، قمنا بإنشاء تسمية `rr-open`. يمكننا الإحالة إليه في القسم "ماذا نتعلم بعد ذلك؟" في فصل فرعي مختلف "الموارد" من الفصل "نظرة عامة" باستخدام ما يلي:
 
 ```
 {ref}`rr-open`
 ```
 
-It will appear in your chapter like this: {ref}`rr-open`.
+سوف تظهر في الفصل الخاص بك مثل هذا: {ref}`rr-open`.
 
-Though we are demonstrating this example for cross-referencing chapters and subchapters across the book, the same syntax can be used for cross-referencing subchapters within the same chapter.
+على الرغم من أننا نوضح هذا المثال للإحالة المرجعية للفصول والفصول الفرعية في الكتاب، يمكن استخدام نفس الجملة للإحالة المرجعية للفصول الفرعية داخل نفس الفصل.
 
-### Providing an alternative title for the references
+### توفير عنوان بديل للمراجع
 
-For any of the above mentioned references, you can provide an alternative title while cross referencing by adding the title before the label as shown in this example:
+2 - للاطلاع على أي من المراجع المذكورة أعلاه، يمكنك توفير عنوان بديل أثناء الإحالة المتداخلة بإضافة العنوان قبل التسمية كما هو مبين في هذا المثال:
 
 ```
-{ref}`Chapter on Open Research<rr-open>`
+{ref}`فصل البحث المفتوح<rr-open>`
 ```
 
-here we are giving an alternative title to the 'Open Research chapter', which will appear in your file like this: {ref}`Chapter on Open Research <rr-open>`
+هنا نحن نعطي عنوانا بديلا لـ 'فصل البحث المفتوح'، الذي سيظهر في الملف الخاص بك مثل هذا: {ref}`فصل البحث المفتوح <rr-open>`

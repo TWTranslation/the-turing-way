@@ -1,42 +1,42 @@
 (rr-vcs)=
-# Version Control
+# التحكم في الإصدار
 
 (rr-vcs-prerequisites)=
-## Prerequisites
+## الشروط المسبقة
 
-| Prerequisite                                                                                  | Importance | Notes |
-| --------------------------------------------------------------------------------------------- | ---------- | ----- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Helpful    |       |
+| الشروط المسبقة                                                                     | الأهمية | الحواشي |
+| ---------------------------------------------------------------------------------- | ------- | ------- |
+| [الخبرة في سطر الأوامر](https://programminghistorian.org/en/lessons/intro-to-bash) | مساعدة  |         |
 
-**Recommended Skill Level**: _Beginner-Intermediate_
+**مستوى المهارة الموصى به**: _مبتدئ - متوسط_
 
 (rr-vcs-summary)=
 ## Summary
 
-No matter how your group is organized, the work of many contributors needs to be managed into a single set of shared working documents. Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions. Management of changes or revisions to any types of information made in a file or project is called versioning.
+وبغض النظر عن كيفية تنظيم مجموعتك، يتعين إدارة عمل العديد من المساهمين في مجموعة واحدة من وثائق العمل المشتركة. التحكم في الإصدار هو نهج لتسجيل التغييرات التي أجريت في ملف أو مجموعة من الملفات مع مرور الوقت حتى تتمكن أنت والمتعاونين معك من تتبع تاريخ هذه التغييرات، مراجعة أي تغييرات، والعودة أو العودة إلى الإصدارات السابقة. تسمى إدارة التغييرات أو التنقيحات على أي نوع من المعلومات التي تجرى في ملف أو مشروع ما بنسخة.
 
-In this chapter, we discuss the best practices that are relevant regardless of tools. Versioning practices mainly come from managing changes in the code repositories. However, in reality, you can use version control for nearly any type of file on a computer. For example, when writing a paper with multiple collaborators, version control can help track what changed, who changed them, and what updates were made.
+وفي هذا الفصل، نناقش أفضل الممارسات ذات الصلة بغض النظر عن الأدوات. ممارسات الإصدار تأتي أساسا من إدارة التغييرات في مستودعات الرموز. ومع ذلك، في الواقع، يمكنك استخدام التحكم في الإصدار لأي نوع من الملفات تقريبا على الكمبيوتر. على سبيل المثال، عند كتابة ورقة مع متعاونين متعددين، يمكن للتحكم في الإصدار أن يساعد في تتبع ما تغير، ومن قام بتغييرها، وما هي التحديثات التي تم القيام بها.
 
-Different version control systems can be used through a program with a graphical user interface, web browser-based applications, or command-line tools. We have all seen a simple file versioning approach where different versions of a file are stored with a different name. Tools such as Google Drive and Dropbox offer platforms to update files and share them with others in real-time, collaboratively. More sophisticated version control system exists within tools like [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/). These allow collaborators to update files while storing each version in its version history (we will discuss this in detail). Advanced version control systems (VCS) such as [Git](https://en.wikipedia.org/wiki/Git), [Mercurial](https://www.mercurial-scm.org/), and [SVN](https://subversion.apache.org/) provide much more powerful tools.
+يمكن استخدام نظم تحكم إصدار مختلفة من خلال برنامج مع واجهة مستخدم رسمية، أو تطبيقات قائمة على متصفح الويب، أو أدوات سطر الأوامر. لقد رأينا جميعا نهج إصدار بسيط للملفات حيث يتم تخزين إصدارات مختلفة من الملف باسم مختلف. أدوات مثل Google Drive و Dropbox توفر منصات لتحديث الملفات ومشاركتها مع الآخرين في الوقت الحقيقي. يوجد نظام تحكم أكثر تطورا في الإصدار داخل أدوات مثل [مستندات جوجل](https://docs.google.com/) أو [HackMD](http://hackmd.io/). هذه تسمح للمتعاونين بتحديث الملفات أثناء تخزين كل إصدار في سجل الإصدارات الخاص بهم (سوف نناقش هذا بالتفصيل). توفر أنظمة تحكم النسخة المتقدمة (VCS) مثل [Git](https://en.wikipedia.org/wiki/Git)و [Mercurial](https://www.mercurial-scm.org/)و [SVN](https://subversion.apache.org/) أدوات أكثر قوة.
 
-This chapter aims to cover the general principles underpinning all the advanced version control systems and best practice which applies for all such systems. We discuss many tools and features; however, we encourage readers to use features that are useful for their work and tools they are comfortable with. Most instructions given in this chapter will also be geared towards Git, which is most commonly used by researchers, and a web-based Git repository hosting service, [GitHub](https://github.com/), which facilitates online collaborations.
+ويهدف هذا الفصل إلى تغطية المبادئ العامة التي تقوم عليها جميع نظم مراقبة النسخ المتقدمة وأفضل الممارسات التي تنطبق على جميع هذه النظم. نحن نناقش العديد من الأدوات والمميزات؛ ولكننا نشجع القراء على استخدام الميزات المفيدة لعملهم والأدوات المريحة لهم. وستوجه معظم التعليمات الواردة في هذا الفصل أيضاً نحو Git، وهو ما يشيع استخدامه من جانب الباحثين، و خدمة استضافة مستودع Git على الويب، [GitHub](https://github.com/)، التي تيسر التعاون عبر الإنترنت.
 
-Later in this chapter, we also discuss version control for data, which is applied to keep track of revisions of large amounts of data, especially when working collaboratively. It is useful to know that data can be volatile and versioning them can improve the reproducibility of your scientific analyses.
+لاحقا في هذا الفصل، نناقش أيضا التحكم في الإصدار للبيانات، وهو يطبق لتتبع تنقيحات الكميات الكبيرة من البيانات، ولا سيما عند العمل بصورة تعاونية. من المفيد أن نعرف أن البيانات يمكن أن تكون متقلبة وأن تصديرها يمكن أن يحسن قابلية تحليلاتكم العلمية للتكرار.
 
 ```{figure}  ../figures/project-history.jpg
 ---
-name: project-history
-alt: Contrast in project history management. On the left - choosing between ambiguosly named files. On the right - picking between successive versions (from V1 to V6).
+الاسم: تاريخ المشروع
+البديل : التباين في إدارة سجل المشروع. على اليسار - الاختيار بين الملفات المسمّاة بشكل غامض. على اليمين - الاختيار بين الإصدارات المتتالية (من V1 إلى V6).
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-vcs-useful)=
-## Motivation and Background
+## الدافع والخلفية
 
-Version control helps us understand what changes we made in the past or why we did a specific analysis in the way we did it, even weeks or months later. With the help of comments and commit messages, each version can explain what changes it contains compared to the previous versions. This is helpful when we share our analysis (not only data), and make it auditable or **reproducible** - which is good scientific practice.
+التحكم في الإصدار يساعدنا على فهم التغييرات التي قمنا بها في الماضي أو لماذا قمنا بتحليل محدد في الطريقة التي قمنا بها، حتى بعد أسابيع أو شهور. بمساعدة التعليقات والرسائل الملتزمة، يمكن لكل نسخة أن تشرح التغييرات التي تحتوي عليها مقارنة بالنسخ السابقة. هذا مفيد عندما نشارك تحليلنا (ليس فقط البيانات)، وجعله قابلا للتدقيق أو **قابل للتكرار** - وهو ممارسة علمية جيدة.
 
-A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
+نظام التحكم في الإصدار يخزن بدقة تاريخ التغييرات ومن قام بإجرائها، لذلك بينما لا يزال من السهل الوصول إليها، دليل العمل الخاص بك ليس مستغلا بسبب حطام الإصدارات السابقة التي هي ضرورية للإبقاء على حالة محددة. وبالمثل، مع مراقبة النسخ، ليس هناك حاجة إلى ترك أجزاء من التعليمات البرمجية التي تم تعليقها إذا كنت بحاجة إلى العودة إلى الإصدار القديم مرة أخرى.
 
 
-Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other's work. It allows the changes made by different people to be tracked and can automatically combine people's work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as {ref}`GitHub<cl-github-novice-motivation>` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
+وأخيرا، فإن مراقبة الإصدار قيمة لا تقدر بثمن للمشاريع التعاونية حيث يعمل مختلف الناس على نفس المدونة في وقت واحد ويؤسسون على عمل بعضهم البعض. فهو يتيح تتبع التغييرات التي يجريها مختلف الناس ويمكن أن يجمع تلقائيا بين عمل الناس مع توفير قدر كبير من الجهود المضنية للقيام بذلك يدويا. استخدام التحكم في الإصدار لمشروعك البحثي يعني أن عملك شفاف تماما، ولأن جميع إجراءاتك مسجلة، فإنها تمكن الآخرين من إعادة إنتاج دراستك. وعلاوة على ذلك، توفر خدمات التحكم في الإصدار مثل {ref}`GitHub<cl-github-novice-motivation>` طريقة للاتصال والتعاون بطريقة أكثر تنظيما مثل في طلبات الجذب، ومراجعات الرموز، والمشكلات.

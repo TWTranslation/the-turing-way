@@ -1,39 +1,39 @@
-# Personal Stories of Leadership
+# 领导才能的个人故事
 
-## Diving into Leadership: lessons from leading a hacktahon project
+## 脱身领导：牵头黑龙项目的经验教训
 
-_The following blog post was written by The Turing Way contributor [Sarah Gibson](https://www.turing.ac.uk/people/researchers/sarah-gibson)._
+_以下博客文章是由 Ting Way Contribution [Sarah Gibson](https://www.turing.ac.uk/people/researchers/sarah-gibson) 撰写的。_
 
-Hackathons can be quite intimidating scenarios to put yourself into. You're probably meeting a whole load of new people and getting to grips with a new project or programming language. On top of that, you probably only have a couple of days or less to demonstrate your skills by producing something that is either a prototype or a mock-up version of a product.
+Hackathon可能会让自己放入非常令人恐惧的场景。 你可能正在迎接一整批新的人并掌握一个新的项目或编程语言。 最重要的是， 您可能只需要几天或更少时间来通过生成产品的原型或模拟版本来展示您的技能。
 
-Now imagine if you were to lead and coordinate a group of people to work on your project idea?
+现在想象一下你是否要领导和协调一群人来为你的项目想法工作？
 
-Yeah! That is challenging for many! I've been there, and I was intimidated too! So let me share some of the things I learned the first time I led a hackathon project at the [first Microsoft Research Software Reactor sprint](https://research-software-reactor.github.io/blog/sprint0).
+是的！ 这对许多人来说很有挑战性！ 我已经在那里，我也受到恐吓！ 所以请允许我分享我第一次在 [第一个微软研究软件反应堆冲刺](https://research-software-reactor.github.io/blog/sprint0) 时所学到的一些东西。
 
-## Don't just focus on the code
+## 不仅仅关注代码
 
-There are lots of different things that go into making a project, beyond the code itself. Similarly, there are lots of different people with different skills who may join your hackathon project - not just programmers! Good leaders can identify the strengths of their team, specifically where different skills can be put to best use on a project.
+除了代码本身之外，还有许多不同的事情要做一个项目。 同样，有许多不同的人具有不同的技能，可以加入你的黑客项目，不仅仅是程序员！ 优秀的领导人可以确定其团队的长处，特别是在项目上可以最佳利用不同技能的地方。
 
-Things like documentation are often left until the last moments of a project even though it's just as important, if not more so, than the code itself! If you have someone on your team who likes to write, documentation can be kept up-to-date as your codebase changes through the hackathon.
+像文件这样的事情往往留待项目的最后时刻，即使这也同样重要。 如果不是多于代码本身！ 如果你在你的团队中有人喜欢写，文档可以随着你的代码库通过黑客的改变而随时更新。
 
-The largest benefit of having a well-documented piece of software at the end of the hackathon is that it will be much easier for your team to continue to contribute to the project after the event is over. The last phase of getting a project into a production ready state takes the most time and effort, but luckily you've already documented your scoping process and pathway to getting there! 😉
+Hackathon结束时拥有一台记录良好的软件的最大好处是，你的团队在活动结束后继续为项目做出贡献将容易得多。 使项目进入生产准备状态的最后阶段最需要时间和精力。 但幸运的是，你已经记录了你的范围进程和到达的路径！ 😉
 
-## Find your style of leadership
+## 找出您的领导风格方式
 
-Given this was my first hackathon as a project lead, I found it very beneficial to be operating as an overseer of the project, rather than taking a deep dive into the code.
+鉴于这是我作为项目牵头人的第一个黑客， 我认为担任项目监督员而不是深深地深入了解守则非常有益。
 
-I felt much more able to keep track of the project as a whole and could more easily identify if everyone's skills were being utilised on appropriate tasks. I also found it much easier to mentally switch gears if a team member asked for help or input because I didn't have to disentangle myself from a coding mindset.
+我觉得能够更好地跟踪整个项目，如果每个人的技能被用于适当的任务，我就能够更容易地查明。 我还发现，如果一个团队成员因为我不必从编码心态中分离而要求帮助或输入，就更容易切换智力。
 
-Hackathons can also turn GitHub repositories into a the Wild West of version control 🤠 - so it's not a bad idea to have someone managing issues and pull requests as new work comes in.
+Hackathons 也可以将GitHub 仓库变成版本控制 :cowboy_hat_face 的西方野生动植物：因此，让某人管理问题并在新工作开始时将请求拉取，这不是一个坏主意。
 
-Now just because this leadership style worked for me, that's not to say it's right for you. It may take some time but it's important to test and find a style you're most comfortable with.
+现在只是因为这种领导风格对我起作用，这不是说对你是正确的。 可能需要一些时间，但测试和找到您最舒适的样式是很重要的。
 
 ## Summary
 
-In short, I think hackathons put a lot of emphasis on the coding aspect of project development (helped along by the [unfortunate naming convention](https://github.com/hackseq/October_2016/issues/24), check out the last paragraph of the [Bio-IT Hackathon blog](https://grp-bio-it.embl-community.io/blogs/posts/2019-08-29-hackathon-report/)), but this is not the sole pillar on which a good project stands.
+简而言之， 我认为黑客非常重视项目开发的编码方面(在 [不幸的命名公约](https://github.com/hackseq/October_2016/issues/24)的帮助下， 查看 [Bio-IT Hackathon 博客](https://grp-bio-it.embl-community.io/blogs/posts/2019-08-29-hackathon-report/)的最后一段， 但这不是一个良好项目所依赖的唯一支柱。
 
-So my advice to you if you feel nervous about leading a hackathon project is: break the mould. Your project doesn't have to follow the rules of a typical hack event! Work on and in whatever manner is most suited to your teammates and the task at hand. And most importantly, _have fun!_
+所以，如果你对领导黑客项目感到紧张，我会告诉你：打破模组。 您的项目不必遵循典型的哈克事件的规则！ 以最适合你的队友和手头任务的方式开展工作。 最重要的是， _有趣！_
 
-Happy hacking! (Or not!)
+快乐的黑客！ (不！)
 
-_To read a longer version of this blog, please see the [original post on Medium](https://blog.jupyter.org/diving-into-leadership-to-build-push-button-code-df2a075c9914)._
+_若要读取更长版本的博客，请查看介质上的 [原始帖子](https://blog.jupyter.org/diving-into-leadership-to-build-push-button-code-df2a075c9914)。_

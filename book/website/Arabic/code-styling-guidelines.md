@@ -1,86 +1,86 @@
-(pd-code-styling-guidelines)=
-# Guidelines for Code Styling
+(المبادئ التوجيهية لتنميط الرموز)=
+# المبادئ التوجيهية لتصميم البرمجة
 
-Style guidelines differ between organisations, languages, and over time. Even, the Python style guide Python Enhancement Proposal 8 (PEP 8) has had numerous revisions since it was released in 2001. You must choose a framework that is best for your purposes: be they for your benefit or the benefit of others. It is also important to remain consistent (and not consistently inconsistent)!
+وتختلف المبادئ التوجيهية للنمط بين المنظمات واللغات وعلى مر الزمن. وفي نفس الوقت، أجرى دليل بايثون لنمط اقتراح تعزيز بايثون 8 (PEP 8) تنقيحات عديدة منذ إصداره في عام 2001. يجب أن تختار إطاراً أفضل لأغراضك: سواء كان ذلك لفائدتك أو لمصلحة الآخرين. ومن المهم أيضا المحافظة على الاتساق (وعدم الاتساق باستمرار)!
 
-Style guidelines include advice for file naming, variable naming, use of comments, and whitespace and bracketing.
+وتشمل المبادئ التوجيهية للنمط إسداء المشورة بشأن تسمية الملفات، وتسمية المتغيرات، واستخدام التعليقات، ووضع المساحة البيضاء بين قوسين.
 
-The following are links to existing style guides that may be of use when deciding how to format your code:
+فيما يلي روابط إلى أدلة النمط الموجودة التي قد تكون مفيدة عند تحديد كيفية تنسيق التعليمات البرمجية الخاصة بك:
 
-* [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python.
-* [Hadley Wickham's](http://adv-r.had.co.nz/Style.html) style guide for R.
-* [Google's](https://google.github.io/styleguide/Rguide.xml) style guide for R.
-* [Microsoft's](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) style guide for C#.
-* [PEP7](https://www.python.org/dev/peps/pep-0007/) for C.
+* [PEP8](https://www.python.org/dev/peps/pep-0008/) لبايثون.
+* [Hadley Wickham's](http://adv-r.had.co.nz/Style.html) دليل النمط لـ R.
+* [دليل نمط قوقل](https://google.github.io/styleguide/Rguide.xml) لـ R.
+* [دليل نمط مايكروسوفت](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) لـ C#.
+* [PEP7](https://www.python.org/dev/peps/pep-0007/) ل C.
 
-However, to get started quickly, the following sections present some advice for code style.
+لكن، للبدء بسرعة، تقدم الأقسام التالية بعض النصائح لنمط التعليمات البرمجية.
 
-## File Naming
+## اسم الملف
 
-The [Centre for Open Science](http://help.osf.io/m/bestpractices/l/609932-file-naming) has some useful suggestions for the naming of files, particularly ensuring that they are readable for both humans and machines. This includes avoiding the use of wildcard characters (@£$%) and using underscores ("\_") to delimit information, and dashes ("\-") to conjunct information or spaces. They also suggest dating or numbering files and avoiding words like FINAL (or FINAL-FINAL). The dating suggestion is the long format `YYYY-MM-DD`, followed by the name of the file, and the version number. This results in automatic, chronological order. For example:
+[مركز العلوم المفتوحة](http://help.osf.io/m/bestpractices/l/609932-file-naming) لديه بعض الاقتراحات المفيدة لتسمية الملفات، ولا سيما ضمان أن تكون مقروءة للبشر والآلات على حد سواء. ويشمل ذلك تجنب استخدام أحرف البطاقات البرية (@جنيه استرليني $%) واستخدام الشرطات السفلية ("\_") لتعيين حدود المعلومات والشرطات ("\-") لتجميع المعلومات أو المسافات. وهي تقترح أيضا ملفات تواريخ أو ترقيم وتجنب كلمات مثل FINAL (أو FINAL-FINAL). اقتراح تاريخ هو التنسيق الطويل `YYYY-MM-DD`، يليه اسم الملف، ورقم الإصدار. وهذا يؤدي إلى ترتيب تلقائي زمني. وعلى سبيل المثال:
 
 ```r
-data <- read.csv("2019-05-17_Turing-Way_Book-Dash.csv")
+البيانات <- القراءة.csv("2019-05-17_Turing-Way_Book-Dash.csv")
 
 ```
-The R style guide suggests keeping file names basic. This might be appropriate for small compact projects, however over larger projects with lots of similar files, or if you are not using version control (see chapter /?) it may be more appropriate to use the COS guidelines. For more details please see the chapter on {ref}`File Naming<pd-filenaming>`.
+يقترح دليل نمط R الحفاظ على أسماء الملفات الأساسية. وقد يكون ذلك مناسباً للمشاريع الصغيرة التي تدخل في نطاق الاتفاقات، وإن كان ذلك على نطاق المشاريع الأكبر التي لها الكثير من الملفات المماثلة، أو إذا كنت لا تستخدم تحكم الإصدار (انظر الفصل /؟ وقد يكون من الأنسب استخدام المبادئ التوجيهية لنظام مراقبة المناخ. لمزيد من التفاصيل، يرجى الاطلاع على الفصل الخاص بـ {ref}`اسم الملف<pd-filenaming>`.
 
 ### Versioning
 
-An extra consideration to file-naming is versioning your software. Using versioning guidelines will help avoid using words like `_FINAL.R`. A typical convention is the MajorMinorPatch (or MajorMinorRevision) approach. In this, your first attempt at a package or library might look like this:
+وهناك اعتبار إضافي لتسمية الملفات هو إصدار برنامجك. استخدام إرشادات الإصدار سيساعد على تجنب استخدام كلمات مثل `_FINAL.R`. وهناك اتفاقية نموذجية تتمثل في نهج الماجورمنباتش (أو ماجورمنغون) (MajorMinorRevision). في هذا، قد تبدو محاولتك الأولى في الحزمة أو المكتبة هكذا:
 ```
-my-package_1_0_0.py
+حزمة_1_0_0.py
 ```
-This indicates that the software is in the unrevised/patched alpha stage (0) of the first major release.
+وهذا يشير إلى أن البرمجيات في مرحلة ألفا (صفر) من الإصدار الرئيسي الأول غير المنقحة/المنقحة.
 
-## Variable Naming
+## تسمية المتغير
 
-In maths projects at school,  variables are often unimaginatively named "x", "y", and "z". This brevity is probably because teachers (understandably) do not want to repeatedly write long variable names on the board. In coding, however, you have the freedom to name your variables anything you like. This can be useful for representing the flow of your script.
+في مشاريع الرياضيات في المدرسة، غالبا ما تسمى المتغيرات بطريقة غير خيالية "x" و "y" و "z". وربما يرجع هذا الإيجاز إلى أن المدرسين (وهو أمر مفهوم) لا يرغبون في تكرار كتابة أسماء متغيرة طويلة على اللوحة. في البرمجة، لديك على كل حال حرية تسمية المتغيرات الخاصة بك أي شيء تريده. يمكن أن يكون هذا مفيداً لتمثيل تدفق البرنامج النصي الخاص بك.
 
-Be creative!
+كن مبدعًا!
 
-### Naming conventions
+### اتفاقيات التسمية
 
-For clarity and readability, choosing a set of naming conventions for your variables is useful. There is a large variety, and some people can be quite vocal about which one is 'correct' (pick one that is right for you!). These include:
+من أجل الوضوح والقدرة على القراءة، من المفيد اختيار مجموعة من اتفاقيات التسمية للمتغيرات الخاصة بك. هناك مجموعة كبيرة من الأشخاص، وبعض الأشخاص يمكن أن يكونوا صوتي حول أي منهم هو "صحيح" (اختر واحد صحيح لك!). وهي تشمل:
 
 - CamelCase
-- lowerCamelCase
-- Underscore_Methods
-- Mixed_Case_With_Underscores
-- lowercase
+- أحرف صغيرة
+- أسفل_الأساليب
+- مختلطة_قضية_سحب_Underscores
+- أحرف صغيرة
 
-For example:
+وعلى سبيل المثال:
 
 ```r
-raw_data <- read.csv("data.csv") # Not very creative
-rawData <- read.csv("data.csv")  #lowerCamelCase
+raw_data <- read.csv("data.csv") # غير مبدع جداً
+rawData <- read.csv("data.csv") #lowerCamelCase
 ```
 
-OK, `raw_data` is not very creative, but it could easily have been `spam` or `eggs` if that makes sense in your script. You may also have a function that recodes a variable:
+حسنًا، `raw_data` ليس مبدعاً جداً، ولكن كان من الممكن بسهولة أن يكون `البريد المزعج` أو `البيض` إذا كان ذلك منطقيا في النص البرمجي الخاص بك. قد يكون لديك أيضًا وظيفة تستعيد متغير:
 
 ```r
 rawDat <- recode(rawDat)
 ```
 
-Reusing the variable name provides no information about the process that rawDat has been through. Storing it as a separate variable lets us see what transformations have been carried out on the original variable:
+ولا توفر إعادة استخدام اسم المتغير أي معلومات عن العملية التي مرت بها. إن تخزينه كمتغير منفصل يتيح لنا معرفة التحولات التي أجريت على المتغير الأصلي:
 
 ```
-rawDat_recoded <- recode(rawDat)
+rawDat_recoed <- recoverde(rawDat)
 ```
 
-If you like you can clear out the old variable using remove as above.
+إذا كنت ترغب في مسح المتغير القديم باستخدام إزالة كما هو مبين أعلاه.
 
 ```
 remove(rawDat) #In R
 del(rawDat) # In Python
 ```
 
-It is important to choose one style and stick to it:
+ومن المهم اختيار أسلوب واحد والتمسك به:
 
 ```
-ThisIs Because_SwitchingbetweenDifferentformats is.difficult to read.
+يصعب قراءة_التبديل بينتشينتِسِينِفِرِنِتِسِ.
 ```
 
 ```
-Where_as if_you stick_to one_style, your_code will_be easier_to_follow!
+حيث_كما لو كنت تلصق_إلى نمط_واحد_نمط_الكود الخاص بك_سوف يكون أسهل_إلى_متابعة!
 ```

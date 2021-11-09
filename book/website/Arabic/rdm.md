@@ -1,26 +1,26 @@
 (rr-rdm)=
-# Research Data Management
+# إدارة بيانات البحث
 
-(rr-rdm-prerequisites)=
-## Prerequisites
+(r-rdm-prerequireites) =
+## الشروط المسبقة
 
-The following sections in this handbook provide useful context and complementary information to this chapter:
+وتقدم الفروع التالية من هذا الدليل سياقا مفيدا ومعلومات تكميلية لهذا الفصل:
 
-| Prerequisite   | Importance |
-| -------------- | ---------- |
-| {ref}`rr-vcs`  | Helpful    |
-| {ref}`rr-open` | Helpful    |
+| الشروط المسبقة | الأهمية |
+| -------------- | ------- |
+| {ref}`rr-vcs`  | مساعدة  |
+| {ref}`rr-open` | مساعدة  |
 
-(rr-rdm-summary)=
+(r-rdm-summary)=
 ## Summary
 
-Research Data Management (RDM) [{term}`def<Research Data Management>`] covers how research data can be stored, described and reused. Data here is used as a generic term to encompass all digital objects. RDM is a vital part of enabling reproducible research. RDM ensures efficiency in research workflows, and also greater reach and impact, as data become FAIR (Findable, Accessible, Interoperable and Reusable). Data should be stored in multiple locations and backed-up regularly to prevent loss or data corruption. Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
+إدارة بيانات البحث (RDM) [{term}`def<Research Data Management>`] تغطي كيفية تخزين بيانات البحث ووصفها وإعادة استخدامها. تستخدم البيانات هنا كمصطلح عام يشمل جميع الأجسام الرقمية. وتشكل هذه الإدارة جزءاً حيوياً من التمكين من إجراء بحوث قابلة للتكرار. وتكفل الإدارة الإقليمية للموارد المائية الكفاءة في تدفق أعمال البحوث، كما تكفل زيادة إمكانية الوصول إلى البيانات وتأثيرها، عندما تصبح البيانات قابلة للاستمرار وإمكانية الوصول إليها والتشغيل المشترك وإعادة الاستخدام). وينبغي تخزين البيانات في مواقع متعددة وتوفير نسخ احتياطية منها بانتظام لمنع فقدان البيانات أو فسادها. ويضمن وصف البيانات بوضوح باستخدام الوثائق والبيانات الفوقية معرفة الآخرين بكيفية الوصول إليها. استخدام البيانات الخاصة بك وإعادة استخدامها، وأيضاً تمكين شروط مشاركة ونشر البيانات التي سيتم إيجازها.
 
 (rr-rdm-useful)=
-## Why This is Useful
+## لماذا هذا مفيد
 
-- Managing your data allows you to always find your data and ensure the quality of scientific practice.
-- Storing your data properly and and backing-up regularly prevents data loss.
-- It can help with {ref}`recognition <cm-citable-orcid>` for all research outputs.
-- It stimulates **collaboration** with others, who will find it easier to understand and reuse your data.
-- RDM is cost/time efficient, as you will always be able to find and use your data.
+- إدارة بياناتك تسمح لك دائما بالعثور على بياناتك وضمان جودة الممارسة العلمية.
+- تخزين بياناتك بشكل صحيح والنسخ الاحتياطي بانتظام يمنع فقدان البيانات.
+- يمكن أن يساعد في {ref}`الاعتراف <cm-citable-orcid>` لجميع نواتج البحث.
+- يحفز **التعاون** مع الآخرين، الذين سيجدون أنه من الأسهل فهم البيانات الخاصة بك وإعادة استخدامها.
+- RDM فعال من حيث التكلفة/الوقت، حيث أنك ستكون دائماً قادراً على العثور على البيانات الخاصة بك واستخدامها.

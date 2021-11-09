@@ -1,29 +1,29 @@
-(rr-reviewing)=
-# Code Reviewing Process
+(rr-review)=
+# 代码审查进程
 
-(rr-reviewing-prerequisites)=
-## Prerequisites
+(rr-reviewing-前提)=
+## 必备条件
 
-| Prerequisite                         | Importance | Notes                                                                                                                                  |
-| ------------------------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| {ref}`Version Control<rr-vcs>` | Necessary  | Understanding the way that [Github](https://github.com) arranges its branches, forks, and pull requests within repositories is needed. |
+| 前提条件：                     | 重要性 | 注                                                 |
+| ------------------------- | --- | ------------------------------------------------- |
+| {ref}`版本控制<rr-vcs>` | 必需的 | 需要了解 [Github](https://github.com) 如何安排其分支、叉和拉取请求。 |
 
 ```{figure} ../figures/bug-catching.jpg
 ---
-height: 500px
-name: bug-catching
-alt: People catching different insects in different ways - representing bugs in our code or project.
+高度：500px
+name: bug-cating
+alt: 人们以不同方式捕捉不同的昆虫-表示在我们的代码或项目中的错误。
 ---
-Catching bugs. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+正在抓取漏洞。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
 (rr-reviewing-summary)=
 ## Summary
 
-Code review provides an additional way of testing code quality. Instead of relying simply on {ref}`tests<rr-testing>` which the original author puts together themselves, code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
+代码审查为测试代码质量提供了另一种方式。 原作者不仅仅依靠 {ref}`测试<rr-testing>` 。 代码审核可以让另一个程序员查看并评估新代码。 目标是指出长处和潜在的改进领域。
 
-Code review is often done in pairs, with each reviewer also having some of their code reviewed by their partner. Doing this can help programmers to see and discuss issues and alternative approaches to tasks, and to learn new tips and tricks. This also means code review practices are particularly well-suited to projects with more than one contributor making changes, where each is working on different parts of the code. Nonetheless, even the smallest scale projects can harness these approaches with some creative project management.
+对代码的审查往往同时进行，每个审查人员也有其伙伴审查他们的某些代码。 这样做有助于编程人员看到和讨论各种问题和对任务的替代办法，并学习新的技巧和技巧。 这也意味着代码审查做法特别适合于一个以上贡献者进行改变的项目。 每个单位都在处理守则的不同部分。 然而，即使规模最小的项目也可以通过一些创造性的项目管理来利用这些方法。
 
-Because of their nature, code reviews act as qualitative - rather than quantitative - tests but are no less valuable for that.
+由于其性质，守则审查是质量而不是数量方面的检验，但对此价值并不逊色。
 
-This section will provide an overview of rationales, best practices, and some possible workflows for code review. Some details refer specifically to GitHub's code review functionality as a powerful and widely-used example of a formal code review system; however, equivalent and very similar systems are available elsewhere (for example, [GitLab](https://about.gitlab.com)), and even informal code review practices can also be very beneficial to a project.
+本节将概述代码审查的基本原理、最佳做法和一些可能的工作流程。 一些细节具体提到GitHub的代码审查功能，作为一个强大和广泛使用的正式代码审查系统的范例； 然而，其他地方也有类似和非常相似的系统(例如， [GitLab](https://about.gitlab.com))， 而且，即使是非正式的守则审查做法也对一个项目非常有益。

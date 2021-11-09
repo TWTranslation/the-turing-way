@@ -1,88 +1,88 @@
-(pd-persona-contributors)=
-# Contributor Pathways
+(بآلاف دولارات الولايات المتحدة)
+# مسارات المساهم
 
-In this subchapter, we have developed personas in order to understand how new members might experience their first interactions with an online project and what "pathways" they are likely to take to get further involved as contributors.
+في هذا الفصل الفرعي، لقد قمنا بتطوير شخصيات من أجل فهم كيف يمكن للأعضاء الجدد أن يجربوا تفاعلاتهم الأولى مع مشروع على الإنترنت وما هي "المسار" التي يحتمل أن يسلكوها لزيادة المشاركة كمساهمين.
 
-The interactions with the project followed by the sustained engagements in a project can be understood in the following different phases of community membership:
+ويمكن فهم التفاعلات مع المشروع التي تعقبها المشاركة المستمرة في مشروع ما في المراحل المختلفة التالية من العضوية المجتمعية:
 
-1. Discovery - How they first hear about the project or group.
-2. First Contact - How they first engage with the project or group, their initial interaction.
-3. Participation - How they first participate or contribute.
-4. Sustained Participation - How their contribution or involvement can continue.
-5. Networked Participation - How they may network within the community.
-6. Leadership - How they may take on some additional responsibility on the project, or begin to lead.
+1. اكتشاف - كيف يسمعون أولا عن المشروع أو المجموعة.
+2. الاتصال الأول - كيفية تعاملهم أولاً مع المشروع أو المجموعة، تفاعلهم الأولي.
+3. المشاركة - كيفية مشاركتهم أو إسهامهم أولاً.
+4. المشاركة المستدامة - كيف يمكن أن يستمر إسهامهم أو مشاركتهم.
+5. المشاركة الشبكية - كيف يمكنهم التواصل داخل المجتمع.
+6. القيادة - كيف يمكن أن يتحملوا بعض المسؤولية الإضافية عن المشروع، أو أن يبدأوا في القيادة.
 
-The examples provided below include personas for _The Turing Way_ contributors and users based on their initial engagements with the project as a reader, learner, resource developer, reviewer and maintainer. These personas are created based on GitHub skills and willingness of the community members to contribute to the project.
+وتشمل الأمثلة المقدمة أدناه شخصيات لـ _طريق التوريق_ المساهمين والمستخدمين بناء على ارتباطاتهم الأولية مع المشروع كقارئ، المتعلم، مطور الموارد، والمراجع والصيانة. ويتم إنشاء هؤلاء الأشخاص بناء على مهارات GitHub واستعداد أعضاء المجتمع للمساهمة في المشروع.
 
-For each persona, we highlight how their involvement with _The Turing Way_ can improve and enrich the project and community. This document is meant to suggest ways you might interact with, learn from, and contribute to _The Turing Way_. We hope that one of these personas resonates with you and motivates you to get involved!
+لكل شخص، نسلط الضوء على كيفية تحسين وإثراء مشاركتهم مع _طريق التورين_ للمشروع والمجتمع. والغرض من هذا المستند هو اقتراح الطرق التي قد تتفاعل بها، وتتعلم منها، وتساهم في _طريق التوريق_. نأمل أن يكون أحد هؤلاء الأشخاص صدى معك ويحفزك على المشاركة فيها!
 
 ## Contributor personas
 
-1. Sam, someone who has no GitHub experience
-2. Alia, someone who has a lot of GitHub experience
-3. Amal, someone who knows they want to contribute and does
-4. Noor, someone who doesn't know they want to contribute, but does
-5. Robin, someone who can only contribute outside of their normal working hours
+1. سامي، شخص ليس لديه خبرة GitHub
+2. عليا، شخص لديه الكثير من الخبرة في GitHub
+3. عمال، شخص يعرف أنه يريد المساهمة ويفعل
+4. لا, شخص لا يعرف رغبته في المساهمة, لكنه يفعل
+5. روبين، شخص لا يستطيع المساهمة إلا خارج ساعات عمله العادية
 
-### 1. Sam, a PhD student with no GitHub experience
+### 1. سامي، طالب دكتوراه بدون خبرة GitHub
 
-Sam is a PhD student in biology at University College London. They are learning how to code in Python, but have not yet had any training in version control or GitHub. They're interested in learning how to use open notebooks such as Jupyter to do their analysis so that they can easily share their work for critique with their very busy supervisor.
+سام طالب دكتوراه في علم الأحياء في كلية جامعة لندن. وهم يتعلمون كيفية البرمجة في بايتون، لكنهم لم يتلقوا بعد أي تدريب على التحكم في الإصدار أو GitHub. إنهم مهتمون بتعلم كيفية استخدام الملاحظات المفتوحة مثل المشتري لإجراء تحليلاتهم حتى يتمكنوا بسهولة من مشاركة عملهم للنقد مع مشرفهم المشغول.
 
-1. **Discovery** - Sam hears about _The Turing Way_ Book Dash events through an email from the department's Open Science Champion.
-2. **First Contact** - Sam checks out the GitHub repository to learn more about the project and see what skills are needed that they may be able to contribute.
-3. **Participation** - They attend the London Book Dash, accepted for their enthusiasm to learn how to make their PhD research reproducible. They participate in the discussions, read existing chapters, and scroll through issues to see where they can contribute.
-4. **Sustained Participation** - After gaining experience with GitHub through submitting pull requests and issues during the Book Dash, Sam is empowered to continue contributing to the online discussion and suggesting topics for the book, as well as editing and reviewing existing chapters by applying them to his research.
-5. **Networked Participation** - They encourage some of their fellow PhD students to read _The Turing Way_ and start using GitHub.
-6. **Leadership** - Sam submits one of their research projects as a case study for _The Turing Way_.
+1. **Discovery** - Sam يسمع عن _طريق التورين_ أحداث كتاب داش من خلال بريد إلكتروني من بطل العلوم المفتوحة في القسم.
+2. **الاتصال الأول** - يقوم سام بالتحقق من مستودع GitHub لمعرفة المزيد عن المشروع ومعرفة المهارات التي يحتاج إليها والتي قد يتمكن من المساهمة.
+3. **المشاركة** - أنهم يحضرون دفتر لندن، وقبلوا بحماسهم لتعلم كيفية جعل أبحاثهم في درجة الدكتوراه قابلة للتكرار. وهم يشاركون في المناقشات، ويقرأون الفصول القائمة، وينقلون عبر المسائل لمعرفة أين يمكن أن يسهموا فيها.
+4. **المشاركة المستدامة** - بعد اكتساب الخبرة مع GitHub من خلال تقديم طلبات السحب والمشكلات أثناء لوحة الكتاب، وسام مخول بمواصلة المساهمة في المناقشة على الإنترنت واقتراح مواضيع للكتاب، بالإضافة إلى تحرير واستعراض الفصول الموجودة بتطبيقها على بحوثه.
+5. **المشاركة الشبكية** - هم يشجعون بعض زملائهم من طلاب الدكتوراه على قراءة _طريق اللحم_ والبدء في استخدام GitHub.
+6. **القيادة** - تقدم سام أحد مشاريعها البحثية كدراسة حالة إفرادية لـ _طريق التوريد_.
 
-### 2. Alia, a researcher with Git/GitHub experience and book topic expertise
+### 2. عليا، باحثة ذات خبرة Git/GitHub وخبرة في موضوع الكتاب
 
-Alia is a postdoc in Morocco who programs in R. They are passionate about open data and using data for good, but also understand it can be more complex than that. They attend data science meetups in the city but are interested in finding a community working towards improving how research is conducted. They have experience with GitHub and contributing to open projects.
+عليا عبارة عن دفتر بريدي في المغرب يقوم ببرامج في R. هم متحمسون بشأن البيانات المفتوحة و استخدام البيانات بشكل جيد، و لكن أيضا فهمهم يمكن أن يكون أكثر تعقيدا من ذلك. وهم يحضرون اجتماعات علم البيانات في المدينة ولكنهم مهتمون بإيجاد مجتمع محلي يعمل على تحسين طريقة إجراء البحوث. لديهم خبرة مع GitHub والمساهمة في المشاريع المفتوحة.
 
-1. **Discovery** - Alia first hears about _The Turing Way_ via Twitter ([#TuringWay](https://twitter.com/search?q=%23TuringWay&src=typed_query)).
-2. **First Contact** - They land on the project's README and look for the contributing guidelines to see where their skills can be applied.
-3. **Participation** - They find an issue asking for help on writing the Credit for Reproducible Research chapter and add a few paragraphs on how to properly cite research software.
-4. **Sustained Participation** - After constructive feedback and collaboration with _The Turing Way_ team, Alia follows the community on social media and attend the online Collaboration Cafe.
-5. **Networked Participation** - They invite other friends and colleagues from the Rstats community to get involved, who have expertise on some of the book topics.
-6. **Leadership** - Alia volunteers to write the chapter on "Scoping a data project for RSEs" that they found requested in the [Book Skeleton](https://github.com/alan-turing-institute/the-turing-way/blob/main/book_skeleton.md).
+1. **Discovery** - Alia أولا يسمع عن _طريق تورينج_ عبر تويتر ([#TuringWay](https://twitter.com/search?q=%23TuringWay&src=typed_query)).
+2. **الاتصال الأول** - إنهم يهبطون على مشروع README ويبحثون عن المبادئ التوجيهية المساهمة لمعرفة أين يمكن تطبيق مهاراتهم.
+3. **المشاركة** - يجدون مشكلة في طلب المساعدة في كتابة فصل الائتمان للبحوث القابلة للتكاثر وإضافة فقرات قليلة حول كيفية الاستشهاد ببرمجيات البحث بشكل صحيح.
+4. **المشاركة المستمرة** - بعد ردود الفعل البناءة والتعاون مع _طريق اللارجح_ فريق ، تتابع علية المجتمع في وسائل الإعلام الاجتماعية وتحضر معركة التعاون عبر الإنترنت.
+5. **المشاركة الشبكية** - يدعون الأصدقاء والزملاء الآخرين من مجتمع Rstats للمشاركة ، لديهم خبرة في بعض مواضيع الكتاب.
+6. **الزعامة** - المتطوعون على استعداد لكتابة الفصل حول "استكشاف مشروع بيانات للتنظيمات العلمية" الذي وجدوه مطلوبين في [هيكل الكتاب](https://github.com/alan-turing-institute/the-turing-way/blob/main/book_skeleton.md).
 
-### 3. Amal, a PhD supervisor who is an expert in an aspect of reproducible research
+### 3. أمال، مشرف على درجة الدكتوراه يكون خبيرا في جانب من جوانب البحوث القابلة للتكرار.
 
-Amal is a PhD supervisor who is an expert in running risk assessments for projects using reproducible research. They are always looking for opportunities to share their expertise, particularly with students, as they think the consistent application of best practice is important. They are very keen to collaborate with people and to volunteer their time for collaboration projects. They like seeing their work make an impact and are keen to know about the eventual result of their collaborations.
+أمال هو مشرف على درجة الدكتوراه وهو خبير في عمليات تقييم المخاطر بالنسبة للمشاريع التي تستخدم أبحاثا قابلة للتكرار. وهم يبحثون دائما عن فرص لتقاسم خبراتهم، ولا سيما مع الطلاب، لأنهم يعتقدون أن التطبيق المتسق لأفضل الممارسات أمر هام. وهي حريصة جدا على التعاون مع الناس وعلى التطوع بوقتها لمشاريع التعاون. إنهم يحبون رؤية عملهم يحدث أثرا ويحرصون على معرفة النتيجة النهائية لتعاونهم.
 
-1. **Discovery** - Amal finds out about _The Turing Way_ book from the Twitter feed of experts in reproducible research who they follow.
-2. **First Contact** - Amal navigates to the GitHub repository and reads the content there over a couple of days. While reading, they make notes on areas they could add to from their research.
-3. **Participation** - They compile their work into a chapter format and submit it to the repo.
-4. **Sustained Participation** - Amal checks back frequently to look at feedback on their chapter and respond to it. In their spare time, they make suggestions and edits on other chapters.
-5. **Networked Participation** - Amal directs students to their chapter in the _The Turing Way_ when they ask about risk assessments in reproducible research, and begins to direct students to other chapters as part of their teaching.
-6. **Leadership** - Amal promotes _The Turing Way_  at their institution, suggesting to other academics that they get involved with its creation and adopt it as best practice.
+1. **Discovery** - Amal اكتشف عن _كتاب طريق التورين_ من تغذية تويتر للخبراء في البحوث القابلة للتكرير التي يتبعونها.
+2. **جهة الاتصال الأولى** - ينتقل أمل إلى مستودع GitHub ويقرأ المحتوى هناك على مدى يومين. وأثناء قراءتهم، يتقدمون بملاحظات عن المجالات التي يمكن أن يضيفوها إليها من أبحاثهم.
+3. **المشاركة** - يقومون بتجميع أعمالهم في شكل فصل وتقديمها إلى المستودع.
+4. **المشاركة المستدامة** - يفحص أمل بشكل متكرر للنظر في التعليقات على فصلهم والرد عليه. وفي وقت فراغهم، يتقدمون باقتراحات وتحريرات بشأن فصول أخرى.
+5. **المشاركة الشبكية** - يوجه أمل الطلاب إلى فصلهم في _طريق التوبيخ_ عندما يسألون عن تقييمات المخاطر في البحث القابل للتكرار. ويبدأ في توجيه الطلاب إلى الفصول الأخرى كجزء من تعليمهم.
+6. **القيادة** - يروج أمل _طريق اللارجح_  في مؤسستهم، يقترح على الأكاديميين الآخرين أن يشاركوا في إنشائه وأن يعتمدوه كممارسة فضلى.
 
-### 4. Noor, a PhD student who is trying to finish their dissertation
+### 4. نور، طالب الدكتوراه الذي يحاول إنهاء رسالته
 
-Noor is a final-year PhD student who has their dissertation deadline coming up. They are feeling the pressure of needing to write up the results of their research but finding it easy to procrastinate. They are confident that their research has taught them some particular considerations for reproducible environments, but they are slightly intimidated by the expertise of other people in their field, and they are considering their future after their PhD.
+لا يوجد طالب دكتوراه في السنة النهائية الذي يقترب من الموعد النهائي لرسالته. وهم يشعرون بالضغط المتمثل في الحاجة إلى كتابة نتائج بحوثهم ولكنهم يجدون من السهل المماطلة. وهم على ثقة من أن بحوثهم قد علمتهم بعض الاعتبارات الخاصة لبيئات قابلة للنمو، ولكنهم يخوفون قليلاً من خبرة أشخاص آخرين في ميدانهم، وهم يفكرون في مستقبلهم بعد حصولهم على الدكتوراه.
 
-1. **Discovery** - Noor comes across _The Turing Way_ when they're surfing Twitter while trying to write up their research.
-2. **First Contact** - They read the chapter that's relevant to their research and then continue working on their dissertation.
-3. **Participation** - Later, Noor returns to _The Turing Way_ and makes some suggestions and edits to that chapter.
-4. **Sustained Participation** - They return to the repo periodically to read feedback on their commits and make additional comments, restricted to the one chapter they feel they know about.
-5. **Networked Participation** - Noor tweets a link to _The Turing Way_ during a conversation about reproducible research and retweets a response from another expert which leads to a longer conversation.
-6. **Leadership** - After submitting their PhD, and unsure what they want to do next, Noor volunteers to co-ordinate further research into the chapter by reaching out to experts in the space.
+1. **اكتشف** - لاور يخرج _طريق التونج_ عندما يتتصفح على تويتر بينما يحاول كتابة بحوثه.
+2. **الاتصال الأول** - يقرأون الفصل الذي له صلة ببحوثهم ثم يواصلون العمل على رسالتهم.
+3. **المشاركة** - لاحقا، لاور يعود إلى _طريق اللارجح_ ويقدم بعض الاقتراحات والتحريرات إلى ذلك الفصل.
+4. **المشاركة المستدامة** - يعودون إلى المستودع بشكل دوري لقراءة التعليقات على التزاماتهم وتقديم تعليقات إضافية، مقيدة بالفصل الواحد الذي يشعرون أنهم يعرفون عنه.
+5. **المشاركة الشبكية** - لا تغريدات ترسل رابط إلى _طريق تورينج_ خلال محادثة حول بحث قابل للتكرار، وترسل ردود من خبير آخر مما يؤدي إلى محادثة أطول.
+6. **القيادة** - بعد تقديم الدكتوراه الخاصة بهم ، وعدم التأكد مما يريدون القيام به بعد ذلك، ولا يتطوع أي متطوعين لتنسيق المزيد من البحوث في هذا الفصل عن طريق الاتصال بالخبراء في الفضاء.
 
-### 5. Robin, a Data Scientist in industry
+### 5. روبن، عالم بيانات في الصناعة
 
-Robin is a Data Scientist working at the Co-operative Bank in Lahore. They have lots of meetings throughout the workday, so are looking for ways to make their workflow more efficient and sustainable. They attend online webinars and watch videos on Youtube in their spare time to learn more about reproducibility and collaboration.
+روبن عالم بيانات يعمل في المصرف التعاوني في لاهور. ولديهم الكثير من الاجتماعات طوال يوم العمل، ولذلك فإنهم يبحثون عن سبل لجعل سير عملهم أكثر كفاءة واستدامة. إنهم يحضرون نشرات الويب على الإنترنت ويشاهدون مقاطع الفيديو على Youtube في وقت فراغهم لمعرفة المزيد عن إمكانية التكرار والتعاون.
 
-1. **Discovery** - Robin attended the [Women in Data Science webinar hosted by IBM Code Bristol](https://www.bigmarker.com/ibm-developer-uki/Women-in-Data-Science-IBM-Code-Bristol?bmid=2581093331c4), where they heard Malvika Sharan's talk *The Turing Way: A community built on a culture of collaboration*.
-2. **First Contact** - Robin was so inspired by the talk that they followed the [Turing Way on Twitter](https://twitter.com/turingway) and starred the [GitHub repository](https://github.com/alan-turing-institute/the-turing-way), to come back and learn more when they had time.
-3. **Participation** - When they find time at the weekend, Robin reads the chapter on Continuous Integration to pick up some tips and tricks - however they see that there isn't yet information on using GitHub Actions. Robyn would like to know more about this topic, so reads tutorials on how to incorporate them into their workflow and opens a [WIP] pull request to add a subsection to the chapter based on what they learn.
-4. **Sustained Participation** - As their contributions are made outside of working hours, the process of learning, writing the subsection and iterating on feedback from _The Turing Way_ team moves at a [relatively] slower pace than someone who can contribute during working hours. Robin appreciates the assistance and communication from the team through the pull request conversation.
-5. **Networked Participation** - Robin mentions _The Turing Way_ and what she learned about using GitHub Actions during one of her team's stand-ups, promoting their use to her colleagues.
-6. **Leadership** - Robin gives a lightning talk at a London tech event about GitHub Actions and her contributions to _The Turing Way_. She praises the inclusiveness of the project and invites more industry experts to check out the resource and open issues on topics that they can contribute to or would like to learn more about.
+1. **Discovery** - حضر روبن [المرأة في علوم البيانات على شبكة الإنترنت التي استضافتها IBM Code Bristol](https://www.bigmarker.com/ibm-developer-uki/Women-in-Data-Science-IBM-Code-Bristol?bmid=2581093331c4), حيث سمعوا حديث مالفيكا شارن *طريق الترينج : مجتمع بني على ثقافة التعاون*.
+2. **جهة الاتصال الأولى** - روبن مستوحاة من الحديث لدرجة أنهم اتبعوا [طريق توق على تويتر](https://twitter.com/turingway) ونجحوا في [مستودع GitHub](https://github.com/alan-turing-institute/the-turing-way)، للعودة وتعلم المزيد عندما يكون لديهم وقت.
+3. **المشاركة** - عندما يجدون الوقت في عطلة نهاية الأسبوع روبن يقرأ الفصل الخاص بالتكامل المستمر لالتقاط بعض النصائح والحيل - لكنهم يرون أنه لا توجد معلومات بعد حول استخدام GitHub Actions. روبين يود أن يعرف المزيد عن هذا الموضوع، لذلك يقرأ دروس حول كيفية إدماجها في سير العمل ويفتح طلب سحب [WIP] لإضافة مقطع فرعي إلى الفصل استنادًا إلى ما يتعلمونه.
+4. **المشاركة المستدامة** - بما أن مساهماتهم تقدم خارج ساعات العمل، عملية التعلم، كتابة المقطع الفرعي وتكرار ردود الفعل من _الطريق إلى الشحن_ يتحرك الفريق بوتيرة أبطأ [relatively] من أي شخص يمكنه المساهمة خلال ساعات العمل. ويقدر روبن المساعدة والاتصال من الفريق من خلال محادثة طلب الجذب.
+5. **المشاركة الشبكية** - روبين تذكر _طريق التوريق_ وما تعلمته عن استخدام إجراءات GitHub خلال أحد ترتيبات فريقها، • الترويج لاستخدامهما لدى زملائها.
+6. **القيادة** - روبن يقدم محاضرة برقية في حدث تكنولوجيا لندن حول إجراءات GitHub ومساهماتها في _طريق التورينج_. وهي تثني على شمولية المشروع وتدعو المزيد من خبراء الصناعة إلى التحقق من الموارد والمسائل المفتوحة بشأن المواضيع التي يمكنهم الإسهام فيها أو يرغبون في معرفة المزيد عنها.
 
-If the personas described here do not reflect your experience, and if getting involved with _The Turing Way_ or using its resource are challenging in any way for you, please open an issue or get in contact on our [Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way) letting us know what your persona or pathway might look like! This process will not only help the _The Turing Way_ team members in getting you onboarded, but we will be able to improve the community documents including the [README](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) and [Contributing Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to make it more relatable and usable for the wider community.
+إذا كان الأشخاص المذكورين هنا لا يعكسون خبرتكم، وإذا كانت المشاركة في _طريق التوفيق_ أو استخدام موارده تشكل تحديا لك بأي شكل من الأشكال، الرجاء فتح مشكلة أو الاتصال على [قناة Gitter](https://gitter.im/alan-turing-institute/the-turing-way) التي تمكننا من معرفة ما قد يبدو عليه شخصيتك أو مسارك! هذه العملية لن تساعد فقط أعضاء الفريق _الطريق الوشيك_ في جعلك على الدوام، ولكننا سنكون قادرين على تحسين وثائق المجتمع بما في ذلك [README](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) و [المبادئ التوجيهية للمساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) لجعلها أكثر قابلية للتعويل عليها واستخدامها للمجتمع الأوسع.
 
-## Reference:
+## المرجع:
 
-- This file has remixed and reused material from the [Open Leadership Framework GitHub repository](https://github.com/mozilla/open-leadership-framework/blob/master/personas.md) shared at the [Mozilla Open Leadership training](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/), License: [CC-BY-SA](https://creativecommons.org/licenses/by/4.0/).
+- قام هذا الملف بإعادة ترتيب المواد وإعادة استخدامها من [مستودع GitHub لإطار القيادة المفتوحة](https://github.com/mozilla/open-leadership-framework/blob/master/personas.md) المشاركة في [تدريب القيادة المفتوحة بموزيلا](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/bring-on-contributors-using-personas-and-pathways/)، الترخيص: [CC-BY-SA](https://creativecommons.org/licenses/by/4.0/)
 
 <!---Git Log History: see the full log please see the 'blame button' or use this git command `git log --follow -p -- persona-contributors.md`--->

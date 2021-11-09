@@ -1,19 +1,19 @@
 (cm)=
-# Guide for Communication
+# 通信指南
 
-***This guide covers topics related to effective communication in research.***
+***本指南涵盖与研究中的有效通信有关的专题。***
 
-Data analysis process, statistics and project development can be overwhelming to explain to people, especially when they are not already involved in this process. Therefore, data scientists should not only have a good understanding of data analysis techniques but also develop skills to communicate insights from their work in a clear and accessible format that can help key stakeholders make meaningful decisions. There are many ways we can convey our insights responsibly that can resonate with and impact our target audience.
+数据分析过程、统计和项目开发都可以向人们作出极大的解释，特别是在他们尚未参与这一进程的情况下。 因此， 数据科学家不仅应很好地了解数据分析技术，而且还应发展技能，以明确和容易获得的方式交流他们工作中的见解，帮助关键利益攸关方作出有意义的决定。 我们能够以负责任的方式传达我们的见解，这些见解能够引起我们目标受众的共鸣和影响。
 
 ```{figure} ../figures/communication.jpg
----
-name: communication
-width: 500px
-alt: A network of people exchanging and sharing different information
----
-Communication network for sharing, learning and teaching. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+----
+名称: 通信
+宽度: 500px
+Alt: 一个人员交换和分享不同信息的网络
+-
+分享通信网络 • 学习和教学。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-In this guide, we welcome contributions to developing chapters and guidance on effectively communicating the data-driven outcome to different audience types who may or may not be aware of scientific data analytics. We are excited to support data scientists develop skills ranging from interactive visualisation, how to give a talk, writing your first paper, and being interviewed by the media.
+在本指南中， 我们欢迎为编写关于有效地向可能或可能不了解科学数据分析的不同受众传达数据驱动结果的章节和指南作出的贡献。 我们很高兴支持数据科学家开发从互动视觉化的技能， 如何发表谈话、撰写你的第一篇论文并接受媒体的采访。
 
-_The Turing Way_ itself is a [Jupyter Book](https://jupyterbook.org/intro.html), so please also consider how we can make our communications more exciting! Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+_诱惑方式_ 本身是 [朱皮特尔书](https://jupyterbook.org/intro.html)，所以请考虑我们如何使我们的通信更加激动！ 看看我们的 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 以便参与。

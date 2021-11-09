@@ -1,62 +1,62 @@
-(rr-open-data)=
-# Open Data
+(r-open-data)=
+# فتح البيانات
 
-The world is witnessing a significant global transformation, facilitated by technology and digital media, and fuelled by data and information. This transformation has enormous potential to foster more transparent, accountable, efficient, responsive, and effective research. Only a very small proportion of the original data is published in conventional journals. Despite existing policies on archiving data, in today’s practice data are primarily stored in private files, not in secure institutional repositories, and effectively are lost to the public (and often even to the researcher who generated the data).
+ويشهد العالم تحولا عالميا كبيرا، تيسره التكنولوجيا ووسائط الإعلام الرقمية، تغذيه البيانات والمعلومات. وينطوي هذا التحول على إمكانات هائلة لتشجيع إجراء بحوث أكثر شفافية ومساءلة وكفاءة واستجابة وفعالية. ولا تنشر سوى نسبة ضئيلة جدا من البيانات الأصلية في المجلات التقليدية. على الرغم من السياسات القائمة بشأن أرشيف البيانات، فإن بيانات الممارسة اليوم تخزن في المقام الأول في ملفات خاصة، لا يوجد في مستودعات مؤسسية آمنة، ويفقد الجمهور فعلياً (وفي كثير من الأحيان حتى الباحث الذي أصدر البيانات).
 
-This lack of data sharing is an obstacle to international research (be it academic, governmental, or commercial) for two main reasons:
+ويشكل هذا الافتقار إلى تبادل البيانات عقبة أمام البحوث الدولية (سواء كانت أكاديمية أو حكومية أو تجارية) لسببين رئيسيين هما:
 
-1. It is generally difficult or impossible to reproduce a study without the original data.
-2. The data cannot be reused or incorporated into new work by other researchers if they cannot obtain access to it.
+1. ومن الصعب أو من المستحيل عموما استنساخ دراسة بدون البيانات الأصلية.
+2. ولا يمكن للباحثين الآخرين إعادة استخدام البيانات أو إدماجها في أعمال جديدة إذا لم يتمكنوا من الوصول إليها.
 
-Accordingly, there is an ongoing global data revolution that seeks to advance collaboration and the creation and expansion of effective, efficient research programs. Open data [{term}`def<Open data>`] is crucial to meeting these objectives. Open data is freely available on the internet. Any user is permitted to download, copy, analyse, re-process, and re-use it for any other purpose with minimal financial, legal, and technical barriers.
+وبناء على ذلك، هناك ثورة عالمية جارية في مجال البيانات تسعى إلى تعزيز التعاون وإنشاء وتوسيع برامج بحوث فعالة تتسم بالكفاءة. البيانات المفتوحة [{term}`def<Open data>`] حاسمة لتحقيق هذه الأهداف. البيانات المفتوحة متاحة مجاناً على الإنترنت. ويسمح لأي مستخدم بتنزيل أو نسخ أو تحليل أو إعادة معالجة أو إعادة معالجة أو إعادة استخدام لأي غرض آخر مع الحد الأدنى من الحواجز المالية والقانونية والتقنية.
 
-This represents a real shift in how research works. Funders are starting to require researchers to make their data available and submit data management plans {ref}`Data Management Plans<rr-rdm-dmp>` as part of project proposals. At the moment, anyone who wishes to use data from a researcher often has to contact that researcher and make a request. "Open by default" remedies this with a presumption of publication for all. If access to data is restricted, for instance, due to security reasons, the justification for this should be made clear. Free access to and subsequent use of data is of significant value to society and the economy. That data should, therefore, be open by default and only as closed as necessary.
+وهذا يمثل تحولا حقيقيا في كيفية عمل البحوث. وبدأ الممولون في مطالبة الباحثين بإتاحة بياناتهم وتقديم خطط إدارة البيانات {ref}`خطط إدارة البيانات<rr-rdm-dmp>` كجزء من مقترحات المشاريع. وفي الوقت الراهن، كثيرا ما يتعين على أي شخص يرغب في استخدام بيانات من أحد الباحثين أن يتصل بذلك الباحث وأن يقدم طلبا. وتعالج عبارة "تفتح تلقائياً" هذه المسألة مع افتراض النشر للجميع. وإذا كان الوصول إلى البيانات مقيدا، لأسباب أمنية على سبيل المثال، ينبغي توضيح مبررات ذلك. وللحرية في الوصول إلى البيانات واستخدامها فيما بعد قيمة كبيرة بالنسبة للمجتمع والاقتصاد. ولذلك ينبغي أن تكون تلك البيانات مفتوحة افتراضيا وألا تكون مغلقة إلا عند الضرورة.
 
-You can find more about the practical steps to make your data available in the section describing {ref}`Steps to Share your Data <rr-rdm-sharing-steps>` in the subchapter: {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
+يمكنك العثور على المزيد حول الخطوات العملية لجعل بياناتك متاحة في القسم الذي يصف {ref}`خطوات لمشاركة بياناتك <rr-rdm-sharing-steps>` في الفصل الفرعي: {ref}`مشاركة وأرشيف البيانات<rr-rdm-sharing>`.
 
-(rr-open-data-barriers)=
-## Barriers to Data Sharing
-Many academics find sharing data difficult. Recent surveys {cite:t}`Stuart2018sharing` conducted amongst researchers list the following reasons:
+(r-open-data-barriers) =
+## الحواجز أمام مشاركة البيانات
+ويجد العديد من الأكاديميين أن تبادل البيانات أمر صعب. الدراسات الاستقصائية الأخيرة {cite:t}`Stuart2018تشارك` التي أجريت فيما بين الباحثين تسرد الأسباب التالية:
 
-- Organising data in a presentable and useful way is challenging (mentioned by 46%)
-- Researchers are unsure about copyright and licensing (mentioned by 37%)
-- Researchers do not know which repository to use for different data types (raised by 33%)
+- تنظيم البيانات بطريقة قابلة للعرض ومفيدة أمر صعب (ذكرته 46 في المائة)
+- الباحثون غير متأكدين من حقوق النشر والتأليف والترخيص (ورد ذكرهم بنسبة 37 في المائة)
+- الباحثون لا يعرفون أي مستودع يمكن استخدامه لأنواع مختلفة من البيانات (تم إثارته بنسبة 33 في المائة)
 
-These are cultural challenges that might be addressed in changing practice going forward. However, there are also legal, ethical or contractual reasons that sometimes prevent making data publicly available in its entirety or even in parts. Below, we discuss some reasons explaining why this may be the case.
+وهذه تحديات ثقافية يمكن التصدي لها في الممارسة المتغيرة التي تمضي قدما. بيد أن هناك أيضا أسبابا قانونية أو أخلاقية أو تعاقدية تحول أحيانا دون إتاحة البيانات للجمهور بكاملها أو حتى أجزائها. ونناقش أدناه بعض الأسباب التي تفسر لماذا قد يكون الأمر كذلك.
 
 ```{figure} ../../figures/data-privacy.jpg
 ---
-height: 500px
-name: data-privacy
-alt: An image detailing why private data should be used. A person stands next to a well with 'private data' written on it and a padlock around it. It is black and white and blue. The text lists that 'people deserve - dignity, agency, privacy, rights, confirmed consent.'
+الطول: 500px
+الاسم: الخصوصية - البيانات
+بديل: صورة تفصل لماذا يجب استخدام البيانات الخاصة. يقف الشخص بالقرب من بئر مع "بيانات خاصة" مكتوبة عليه وقفل حوله. إنه أسود وبيض وأزرق. يورد النص الذي 'يستحقه الناس - الكرامة ووكالة وخصوصية وحقوق مؤكدة.'
 ---
-_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. الإصدار الأصلي على Zenodo. [http://doi.org/10.5281/zenodo.3695300] (http://doi.org/10.5281/zenodo.3695300)
 ```
 
-(rr-open-data-barriers-privacy)=
-### Privacy And Data Protection
+(r-open-data-barriers-privacy)=
+### الخصوصية وحماية البيانات
 
-Many fields of research involve working with sensitive personal data, with medical research being the most obvious example. Individuals must be protected from (re)identification via their data used for research. Anonymisation of the data may be sufficient in some cases, but ensuring that (re)identification is not possible is becoming increasingly difficult due to technical progress, growing computational power, and – ironically – more open data. For example, (re)identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify individuals.
+وينطوي العديد من مجالات البحث على العمل بالبيانات الشخصية الحساسة، علما بأن البحوث الطبية هي أوضح مثال على ذلك. ويجب حماية الأفراد من إعادة تحديد هويتهم عن طريق بياناتهم المستخدمة في البحوث. وقد يكون تضييق البيانات كافياً في بعض الحالات، ولكن ضمان عدم إمكانية (إعادة تحديد) التحديد يصبح صعباً بصورة متزايدة بسبب التقدم التقني. نمو الطاقة الحاسوبية، والبيانات الأكثر انفتاحا - ومن المفارقات العجيبة. فعلى سبيل المثال، قد يكون من الممكن تحديد الهوية عن طريق استخراج البيانات التي يمكن الوصول إليها وما يسمى بشبه تحديد الهوية، مجموعة من الخصائص (المشتركة) المحددة ــ في تركيبها ــ بحيث يمكن استخدامها للتعرف على الأفراد.
 
-Preserving privacy may still be possible if partial or generalised datasets are provided. For example, you may provide age bands instead of birth date or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query it whilst keeping the data itself closed. For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points.
+وقد يظل الحفاظ على الخصوصية ممكناً إذا تم توفير مجموعات بيانات جزئية أو عامة. على سبيل المثال، من الممكن أن تقدم نطاقات عمرية بدلاً من تاريخ الميلاد أو الرقمين الأولين فقط من الرموز البريدية. وقد يكون من الممكن أيضا توفير البيانات في شكل يتيح للباحثين الاستفسار عنها مع إبقاء البيانات نفسها مغلقة. على سبيل المثال، قد يكون المستخدم قادراً على إرسال استفسار لاسترداد متوسط مجموعة البيانات، ولكن لا يمكن الوصول إلى أي من نقاط البيانات الفردية.
 
-Many fields of scientific disciplines involve working with sensitive personal data. Their management is well regulated in data protection legislation (in Europe through national implementations of the General Data Protection Regulation) and ethics procedures as they are established in most research institutions. {cite:t}`EU2016protection`.
+وينطوي العديد من مجالات التخصصات العلمية على العمل بالبيانات الشخصية الحساسة. وتنظم إدارتها تنظيما جيدا في تشريعات حماية البيانات (في أوروبا من خلال التنفيذ الوطني للائحة العامة لحماية البيانات) وفي الإجراءات الأخلاقية كما هي راسخة في معظم مؤسسات البحوث. {cite:t}`EU2016protection`.
 
-(rr-open-data-barriers-consent)=
-### Consent
+(r-open-data-barriers-consent)=
+### الموافقة
 
-For anonymised research data to be made available for future reuse, consent forms must cover sharing this data with other researchers. Research so far suggests that study participants are usually less concerned about the data being archived and shared than researchers think {cite:t}`Kuula2010archiving`. Participant information sheets and consent forms should include how research data will be stored, preserved and used in the long term, and how confidentiality will be protected when needed.
+ولكي تتاح بيانات البحوث المميتة لإعادة الاستخدام في المستقبل، يجب أن تشمل استمارات الموافقة تقاسم هذه البيانات مع باحثين آخرين. تشير البحوث حتى الآن إلى أن المشاركين في الدراسة عادة ما يكونون أقل اهتماما بالبيانات التي يتم أرشفتها ومشاركتها مما يعتقد الباحثون {cite:t}`كوولا2010أرشيف`. وينبغي أن تتضمن ورقات المعلومات المقدمة من المشاركين واستمارات الموافقة كيفية تخزين البيانات البحثية، • الحفاظ على السرية واستخدامها في الأجل الطويل، وكيفية حماية السرية عند الحاجة.
 
-(rr-open-data-barriers-anonymisation)=
+(r-open-data-barriers-anonymisation)=
 ### Anonymisation
 
-Individuals must be protected from (re)identification through their data Anonymisation of the data may be sufficient in some cases, but ensuring that re-identification is not possible is becoming increasingly difficult. It might even be impossible due to technical progress, growing computational power and – ironically – more open data.
+يجب حماية الأفراد من (إعادة تحديد هويتهم) من خلال بياناتهم قد يكون خطأ البيانات كافيا في بعض الحالات، ولكن ضمان عدم إمكانية إعادة تحديد الهوية يصبح صعبا بصورة متزايدة. وقد يكون ذلك مستحيلاً بسبب التقدم الفني، وتنامي الطاقة الحسابية والبيانات الأكثر انفتاحاً ــ ومن المفارقات العجيبة.
 
-For example, re-identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify an individual. Preserving privacy may still be possible if partial or generalised datasets are provided, like age groups instead of birth date, or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query whilst keeping the data itself closed. For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points. Another way to provide anonymised data is to provide [synthetic data](https://en.wikipedia.org/wiki/Synthetic_data), data generated to reflect the conditions and properties of the raw data, without including any personal information.
+فعلى سبيل المثال، قد يكون من الممكن إعادة تحديد الهوية عن طريق استخراج البيانات التي يمكن الوصول إليها وما يسمى بشبه تحديد الهوية، مجموعة من الخصائص (المشتركة) التي هي محددة ــ في تركيبها ــ بحيث يمكن استخدامها لتحديد هوية الفرد. الحفاظ على الخصوصية قد يظل ممكناً إذا تم توفير مجموعات بيانات جزئية أو معممة. مثل المجموعات العمرية بدلاً من تاريخ الميلاد، أو أول رقمين فقط من الرموز البريدية. وقد يكون من الممكن أيضا توفير البيانات في شكل يمكن للباحثين الاستفسار عنه مع إبقاء البيانات نفسها مغلقة. على سبيل المثال، قد يكون المستخدم قادراً على إرسال استفسار لاسترداد متوسط مجموعة البيانات، ولكن لا يمكن الوصول إلى أي من نقاط البيانات الفردية. طريقة أخرى لتوفير البيانات المفصلة هي توفير [البيانات الاصطناعية](https://en.wikipedia.org/wiki/Synthetic_data)، البيانات التي تم إنشاؤها لتعكس ظروف وخصائص البيانات الأولية، دون أن تتضمن أي معلومات شخصية.
 
-(rr-open-data-barriers-national)=
-### National and Commercially Sensitive Data
+(r-open-data-barriers-national)=
+### بيانات حساسة وطنية وتجارية
 
-In many cases, companies are understandably unwilling to publish much of their data. The reasoning goes that if commercially sensitive information of a company is disclosed, it will damage the company’s commercial interests and undermine competitiveness. This is based on the thinking that in competitive markets, innovation will only occur with some protection of information. If a company spends time and money developing something new, the details of which are then made public, then its competitors can easily copy it without having to invest the same resources. The result is that no one would innovate in the first place. Similarly, for public safety concerns, governments are often unwilling to publish data that relates to issues such as national security. In such cases, it may not be possible to make data open, or it may only be possible to share partial/obscured datasets.
+وفي كثير من الحالات، يكون من المفهوم أن الشركات لا ترغب في نشر الكثير من بياناتها. ويذهب المنطق إلى أنه إذا تم الكشف عن معلومات حساسة تجارياً لشركة ما، فإن ذلك من شأنه أن يضر بالمصالح التجارية للشركة ويقوض قدرتها التنافسية. ويستند ذلك إلى الاعتقاد بأن الابتكار في الأسواق التنافسية لن يحدث إلا بقدر من الحماية للمعلومات. وإذا ما أنفقت الشركة وقتاً وأموال لتطوير شيء جديد، تُعلن تفاصيله بعد ذلك. ثم يستطيع منافسوها نسخها بسهولة دون أن يضطروا إلى استثمار نفس الموارد. والنتيجة هي أنه لا يمكن لأحد أن يبتكر في المقام الأول. وعلى نحو مماثل، وفيما يتعلق بالشواغل المتعلقة بالسلامة العامة، فإن الحكومات لا ترغب في نشر بيانات تتعلق بمسائل مثل الأمن الوطني. وفي مثل هذه الحالات، قد لا يكون من الممكن جعل البيانات مفتوحة، أو قد لا يكون من الممكن إلا تبادل مجموعات البيانات الجزئية/المحجوزة.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

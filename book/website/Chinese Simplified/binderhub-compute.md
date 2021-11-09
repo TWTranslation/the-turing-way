@@ -1,37 +1,37 @@
 (rr-binderhub-compute)=
-# Compute Resources
+# 计算资源
 
-BinderHub is cloud-neutral which means it can be deployed on any cloud platform. Therefore, the minimum requirement is a subscription to a cloud platform of your choosing.
+BinderHub 是云中性的，这意味着它可以部署在任何云台上。 因此，最低要求是订阅您选择的云端平台。
 
-In fact, BinderHub is not dependent on cloud-hosting at all and can be deployed onto an on-premise computing system.
+事实上，BinderHub 根本不依赖云端托管，可以部署在一个前提下的计算系统。
 
 ## Kubernetes
 
-[Kubernetes](https://kubernetes.io/) is a system for automating deployment, scaling (making more or fewer copies), and management of containers across a compute cluster (it doesn't have to be cloud-based). BinderHub uses Kubernetes to manage the resources requested by the users of the Binder service, and to support the tools that build the environments.
+[Kubernetes](https://kubernetes.io/) 是一个自动部署、缩放(制作更少副本)的系统， 在计算集群中进行集装箱管理(不必以云为基础)。 BinderHub 使用Kubernetes来管理Binder服务用户所需的资源，并支持建立环境的工具。
 
-## Helm
+## 头盔
 
-[Helm](https://helm.sh/) is a package manager for Kubernetes. Packages come in the form of *Charts* which are a set of instructions to deploy, upgrade and manage applications running on a Kubernetes cluster. They can make installing and managing Kubernetes applications much easier and specific Charts for projects can be published online. For example, the Helm Chart for BinderHub is available [here](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub).
+[Helm](https://helm.sh/) 是 Kubernetes 的一个软件包管理器。 包的形式是 *Charts* ，它是一组要部署的指令， 升级和管理运行于Kubernetes集群的应用程序。 它们可以使安装和管理Kubernetes应用程序变得更加容易，项目的具体图表可以在网上公布。 例如，BinderHub 的头盔图在这里有 [](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub)。
 
 ## repo2docker
 
-[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) is a tool that automatically builds a Docker image from a code repository given a configuration file. This Docker image will contain all of the code, data and resources that are listed in the repository. All the software required to run the code will also be preinstalled from the configuration file.
+[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) 是一个自动从代码仓库生成Docker 图像并赋予配置文件的工具。 此 Docker 图像将包含所有列于仓库中的代码、数据和资源。 运行代码所需的所有软件也将从配置文件中预先安装。
 
 ## JupyterHub
 
-[JupyterHub](https://jupyter.org/hub) is a multi-user server for Jupyter Notebooks and containers alike. In the context of Binder, the JupyterHub's main role is to connect the user's browser to the BinderHub instance running on the Kubernetes cluster. However, the JupyterHub can be further customised to provide greater control over the operation of the BinderHub.
+[JupyterHub](https://jupyter.org/hub) 是用于Jupyter 笔记本和容器的多用户服务器。 在Binder，JupyterHub 的主要作用是将用户的浏览器连接到 Kubernetes 集群中运行的BinderHub 实例。 但是，可以进一步定制朱皮特尔胡布，以便对宾德尔胡布的业务进行更大的控制。
 
-BinderHub can be thought of as thin layer that sits on top of repo2docker and JupyterHub, orchestrating their interactions and resolving URLs.
+BinderHub 可以被视为位于repo2docker 和 JupyterHub 顶部的薄层，调节他们的互动和解析URL。
 
-## What happens when a Binder link is clicked?
+## 点击Binder链接会发生什么情况？
 
-1. The link to the repository is resolved by BinderHub.
-2. BinderHub searches for a Docker image relating to the provided reference (for example, git commit hash, branch or tag).
-3. **If a Docker image is not found**, BinderHub requests resources from the Kubernetes cluster to run repo2docker to do the following:
-   - Fetch the repository,
-   - Build a Docker image containing the software requested in the configuration file,
-   - Push that image to the Docker registry.
-4. BinderHub sends the Docker image to JupyterHub.
-5. JupyterHub requests resources from the Kubernetes cluster to serve the Docker image.
-6. JupyterHub connects the user's browser to the running Docker environment.
-7. JupyterHub monitors the container for activity and destroys it after a period of inactivity.
+1. 与仓库的链接由 BinderHub 解决。
+2. 与提供的引用相关的 Docker 图像(例如，git commit hash, brant or tag)进行绑定搜索。
+3. **如果找不到 Docker 图像**，BinderHub 请求来自Kubernetes 集群的资源来运行repo2docker来执行以下操作：
+   - 获取资源库，
+   - 构建包含配置文件中请求的软件的 Docker 图像，
+   - 将此图像推送到 Docker 登记册。
+4. BinderHub 将Docker图像发送给JupyterHub
+5. JupyterHub 请求来自Kubernetes集群的资源来为Docker图像服务。
+6. JupyterHub 将用户的浏览器连接到运行的 Docker 环境。
+7. JupyterHub 监测容器的活动并在一段时间不活动后摧毁容器。

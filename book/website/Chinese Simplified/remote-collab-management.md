@@ -1,20 +1,20 @@
-(cl-remote-collab-manage-teams)=
-# Managing Distributed Teams
+（cl-遥控collab-manage-teams）=
+# 管理分布式团队
 
-In the {ref}`cl-new-community` and {ref}`Leadership in Data Science<cl-leadership>` chapters, we have already discussed in-depth how we can manage a new online community and build healthy leadership for a team. Therefore, in this subchapter, we have listed a few reminders of tasks that are specifically important for managing distributed teams.
+在 {ref}`cl-new-community` 和 {ref}`数据科学领导<cl-leadership>` 章节， 我们已经深入讨论了我们如何能够管理一个新的在线社区并为一个团队建立健康的领导能力。 因此，在这一小章中，我们列举了几个提醒，提醒注意对于管理分布式团队特别重要的任务。
 
-- Set clear expectations for the team members about the project and their roles and responsibilities.
-- Help establish all modes of communication, tools, and resources according to the team's requirements for both their project and social interactions.
-- Coordinate the development and maintenance of all the required documentation such as the organisation's policies, participation guidelines, project charter, and information of other team members.
-- Ensure that details of these resources are available for all members through a central repository, with information on how they can access them.
-- Respect time differences when dealing with members across different time zones and assigning tasks. Allow a degree of flexibility as per their working situation or caring responsibilities they may have.
-- Schedule team meetings where everyone can share what they are working on and invite contributions and support from others in the team.
-- Before the meeting, provide the meeting agenda in a shared document, preferably that can be updated by the team members in case they want to suggest a new agenda point. This document can also be used for taking notes during the event.
-- Share minutes (and video recording when possible) to make sure that everyone is up-to-date, even those who couldn't attend the meeting.
-- Schedule regular one-on-one meetings to ensure that your team members can check-in with you, align ideas as per the project's requirement, hold accountability for their work, and receive constructive feedback.
-- Create opportunities for informal interactions that can help create a friendly work environment and build a strong sense of team spirit.
-- Encourage and embrace diversity and a culture of collaboration.
+- 对小组成员及其作用和责任提出明确的期望。
+- 根据小组在项目和社会互动方面的要求，帮助建立各种沟通、工具和资源。
+- 协调所有必要文件的编制和维护，如本组织的政策、参与准则、项目章程和其他团队成员的信息。
+- 确保通过中央储存库向所有成员提供这些资源的详细资料，并说明他们如何能够获得这些资源。
+- 在不同时区与成员打交道和分配任务时尊重时间差异。 根据他们的工作情况或他们可能承担的照料责任，允许一定程度的灵活性。
+- 安排小组会议，使每个人都能够分享他们正在开展的工作，并请团队其他成员提供捐款和支持。
+- 会前以一份共同文件提交会议议程。 如果小组成员想提出新的议程要点，最好由小组成员对此加以更新。 这份文件也可用来在活动期间进行笔记。
+- 分享分钟(并尽可能录制视频)以确保每个人都是最新的，甚至是那些无法出席会议的人。
+- 定期安排一对一的会议，以确保您的团队成员能够与您一起登录。 按照项目的要求调整构想，对其工作负起责任，并得到建设性的反馈。
+- 为非正式互动创造机会，有助于创造一个友好的工作环境，并培养强烈的团队精神。
+- 鼓励和接受多样性和合作文化。
 
-## Further reading
+## 进一步阅读
 
-- Read this post by Zapier on [How to Manage a Remote Team](https://zapier.com/learn/remote-work/how-manage-remote-team/)
+- 由 Zapier 阅读此帖，在 [如何管理一个远程团队](https://zapier.com/learn/remote-work/how-manage-remote-team/)

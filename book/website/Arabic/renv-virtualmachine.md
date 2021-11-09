@@ -1,67 +1,67 @@
 (rr-renv-vm)=
-# Virtual Machines
+# الآلات الظاهرية
 
 (rr-renv-vm-what)=
-## What are Virtual Machines?
+## ما هي الآلات الافتراضية؟
 
-Virtual Machines (VMs) essentially package a whole computer as an app that can be run. As an example, the figure below shows a windows laptop (note the windows search button in the lower-left corner) running a virtual ubuntu machine (note the terminal outputting the operating system). The machine running the VM is called the `host machine`.
+تقوم الآلات الافتراضية (VMs) في الأساس بحزمة كمبيوتر كامل كتطبيق يمكن تشغيله. على سبيل المثال، ويبين الشكل أدناه حاسوبا محمولا للنوافذ (لاحظ زر البحث عن النوافذ في الزاوية اليسرى السفلية) يعمل بآلة كوبونتو افتراضية (لاحظ إخراج المحطة الطرفية من نظام التشغيل). الماكينة التي تشغل جهاز VM تسمى `آلة المضيف`.
 
-Using software like [VirtualBox](https://www.virtualbox.org/) or [Vagrant](https://www.vagrantup.com/), a user can create and run any number of VMs. As you could probably guess, having several VMs running at once can be a drain on memory. So just because you can run several VMs does not mean you should.
+باستخدام برامج مثل [VirtualBox](https://www.virtualbox.org/) أو [Vagrant](https://www.vagrantup.com/)، يمكن للمستخدم إنشاء وتشغيل أي عدد من VM. كما يمكنكم على الأرجح تخمين ، يمكن أن يكون تشغيل العديد من أجهزة VM في وقت واحد استنزافاً للذاكرة . لذلك فقط لأنه يمكنك تشغيل العديد من وحدات MV لا يعني أنه يجب عليك القيام بذلك.
 
 ```{figure} ../../figures/virtual-machine.png
 ---
-name: virtual-machine
-alt: A screenshot of a Virtual Machine.
+الاسم: الآلة الافتراضية
+البديل : لقطة شاشة من آلة افتراضية.
 ---
 
 ```
 
-Users can download, install, backup and destroy VMs at will, which is why they are an attractive tool for sharing reproducible research. Research often requires specific pieces of software or system settings. If a researcher wishes to reproduce another's work on their computer, making the necessary changes to their environment to run the project may impact their work. For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. Say a researcher installs an updated version of Python to replicate an analysis because the analysis requires features only present in the updated version. By doing so, they put their own work at risk. VMs remove that risk; any tools downloaded or settings changed will only impact the VM, keeping the reproducer's research safe. If they do inadvertently break something in the VM, they can delete it and make another one. VMs are effectively a quarantined area.
+يمكن للمستخدمين تنزيل وتركيب النسخ الاحتياطي وتدمير أجهزة VM عند الحاجة، وهذا هو السبب في أنها أداة جذابة لمشاركة البحوث القابلة للتكرار. وتتطلب البحوث في كثير من الأحيان أجزاء محددة من البرمجيات أو إعدادات النظام. إذا كان الباحث يرغب في استنساخ عمل شخص آخر على حاسوبه، وقد يؤثر إدخال التغييرات اللازمة على بيئتهم لتشغيل المشروع على عملهم. على سبيل المثال، في قسم {ref}`rr-renv-useful` من هذا الفصل، وصفنا كيف أن استخدام نسخة مختلفة من بايثون يمكن أن يؤدي إلى تغييرات غير متوقعة في نتائج التحليل. قل الباحث يقوم بتثبيت نسخة محدثة من بايثون لتكرار تحليل لأن التحليل يتطلب الميزات الموجودة فقط في الإصدار المحدث. وهم بذلك يعرضون أعمالهم الخاصة للخطر. سيزيل أعضاء VM هذا الخطر؛ وأي أدوات تم تنزيلها أو تغيير الإعدادات سوف تؤثر فقط على آلية VM ، مع الحفاظ على أمان أبحاث المستنسخ. إذا قاموا عن غير قصد بكسر شيء ما في آلية VM، يمكنهم حذفه وقم بعمل واحد آخر. أما الألغام المضادة للمركبات فهي في الواقع منطقة حجر صناعي.
 
 (rr-renv-vm-research)=
-## Using Virtual Machines for Reproducible Research
+## استخدام الآلات الظاهرية للبحث القابل للتكاثر
 
-Virtual machines can be shared by exporting them as single files. Another researcher can then import that file using their own virtualisation software like [VirtualBox](https://www.virtualbox.org/) and open up a copy of the VM which will contain all the software files and settings put in place by the person that made the VM. Therefore in practice, they will have a working version of the project without the pain of setting it up themselves.
+يمكن مشاركة الآلات الافتراضية من خلال تصديرها كملفات منفردة. يمكن للباحث الآخر استيراد هذا الملف باستخدام برمجيات الافتراضية الخاصة به مثل [VirtualBox](https://www.virtualbox.org/) وفتح نسخة من VM التي سوف تحتوي على جميع ملفات البرامج والإعدادات التي وضعها الشخص الذي صنع VM. ومن ثم فإنهم، من الناحية العملية، سيتمتعون بصيغة عمل للمشروع دون أن يخلو من الألم الذي يسببه وضعه.
 
 (rr-renv-vm-research-settingup)=
-### Setting up a Virtual Machine
+### إعداد آلة افتراضية
 
-First, choose a tool for generating VMs. Here the widely-used [VirtualBox](https://www.virtualbox.org/) is chosen. Download and install it on your system. To create a new machine, click "New" in the top left. A window will pop up where you can enter a name for the machine and select what operating system (and version) to use. In the figure below, a machine called `demo_VM` running Ubuntu is being created:
+أولاً، اختر أداة لتوليد الجراثيم. هنا يتم اختيار [علبة فرز المستخدم على نطاق واسع.](https://www.virtualbox.org/) قم بتنزيله وتثبيته على النظام الخاص بك. لإنشاء آلة جديدة، انقر فوق "جديد" في أعلى اليسار. ستظهر النافذة حيث يمكنك إدخال اسم الآلة وتحديد نظام التشغيل (والإصدار) الذي سيتم استخدامه. في الشكل أدناه، يتم إنشاء آلة تسمى `demo_VM` تشغيل Ubuntu :
 
 ```{figure} ../../figures/vm-create-machine.png
 ---
-name: vm-create-machine
-alt: A screenshot showing a Virtual Machine is created.
+الاسم: vm-create-machine
+البديل : تم إنشاء لقطة شاشة تظهر آلة افتراضية.
 ---
 
 ```
 
-As you click through, you can adjust other features of the machine to be created, such as how much memory it should have access to. The default options are suitable for most purposes, but this process permits customisation.
+عند النقر من خلالها، يمكنك ضبط الميزات الأخرى للجهاز التي سيتم إنشاؤها، مثل كمية الذاكرة التي يجب أن يكون لها حق الوصول إليها. الخيارات الافتراضية مناسبة لمعظم الأغراض، ولكن هذه العملية تسمح بالتخصيص.
 
 (rr-renv-vm-research-starting)=
-### Starting a Virtual Machine
+### بدء تشغيل آلة افتراضية
 
-To start a virtual machine, select the machine from the list of VMs on the left, and click the green `Start` arrow at the top:
+لبدء تشغيل آلة افتراضية، حدد الآلة من قائمة وحدات VM على اليسار، وانقر فوق السهم الأخضر `ابدأ` في الأعلى:
 
 ```{figure} ../../figures/vm-start-machine.png
 ---
-name: vm-start-machine
-alt: A screenshot showing how to start a Virtual Machine.
+الاسم: vm-start-machine
+البديل : لقطة شاشة تظهر كيفية بدء تشغيل آلة افتراضية.
 ---
 
 ```
 
-(rr-renv-vm-research-sharing)=
-### Sharing Virtual Machines
+(rr-renv-vm-research-تقاسم)=
+### مشاركة الآلات الظاهرية
 
-A researcher can do work on their VM, and then export it. To export a VM, click `File` in the top left and then `Export`. This will export the VM as a single file which can be shared.
+يمكن للباحث أن يعمل على آلية VM الخاصة به، ثم يصدرها. لتصدير VM ، انقر فوق `ملف` في الجزء العلوي الأيسر ثم `تصدير`. سيقوم هذا بتصدير VM كملف واحد يمكن مشاركته.
 
 ```{figure} ../../figures/vm-export-machine.png
 ---
-name: vm-export-machine
-alt: A screenshot showing how to export a Virtual Machine.
+الاسم: vm-export-machine
+البديل : لقطة شاشة تعرض كيفية تصدير ماكينة افتراضية.
 ---
 
 ```
 
-Someone that has access to this file and VirtualBox installed just needs to click `File` in the top left, then `Import` to select that file. Once it is imported, they can start the VM as described before, by selecting it from the menu clicking the green start arrow at the top.
+شخص لديه حق الوصول إلى هذا الملف و VirtualBox مثبت يحتاج فقط إلى النقر فوق `ملف` في أعلى اليسار، ثم `استورد` لتحديد هذا الملف. بمجرد استيرادها، يمكنهم بدء تشغيل VM على النحو الموصوف من قبل، باختياره من القائمة بالنقر على سهم البداية الخضراء في الأعلى.

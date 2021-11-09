@@ -1,55 +1,55 @@
 (rr-testing)=
-# Code Testing
+# 代码测试
 
-| Prerequisite                                                                                  | Importance |
-| --------------------------------------------------------------------------------------------- | ---------- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  |
+| 前提条件：                                                               | 重要性 |
+| ------------------------------------------------------------------- | --- |
+| [命令行的经验](https://programminghistorian.org/en/lessons/intro-to-bash) | 必需的 |
 
 ## Summary
 
-Researcher-written code now forms a part of a huge portion of research, and if there are mistakes in the code the results may be partly or entirely unreliable. Testing code thoroughly and frequently is vital to ensure reliable, reproducible research. This chapter will provide general guidance for writing tests and describe a number of different kinds of testing, their uses and how to go about implementing them.
+研究人员撰写的守则现已成为很大一部分研究工作的一部分。 而且，如果代码中有错误，结果可能部分或完全不可靠。 彻底和经常的测试代码对于确保可靠、可复制的研究至关重要。 本章将为撰写试验提供一般性指导，并介绍若干不同类型的试验。 它们的用途和如何执行它们。
 
 ```{figure}  ../figures/error-management.jpg
+----
+名称：错误管理
+备选案文：一个人很高兴地编码，然后出现错误，代码被混淆。 然后编程器可以找到错误并修复它。
 ---
-name: error-management
-alt: A person is happily coding, then a error throws and the coder gets confused. Then the coder can find the error and fix it.
----
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-## Motivation
+## B. 动机。
 
-It is very, very easy to make mistakes when coding. A single misplaced character can cause a program's output to be entirely wrong. One of the examples above was caused by a plus sign which should have been a minus. Another was caused by one piece of code working in meters while a piece of code written by another researcher worked in feet. *Everyone* makes mistakes, and in research the results can be catastrophic. Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost to exploring incorrect avenues. This is why tests are vital.
+在编码时犯错误是非常、非常容易的。 单个错误的字符会导致程序的输出完全错误。 上文列举的一个例子是一个加号标志造成的，这个加号本应是一个小号。 另一个原因是以米计工作的一部守则，而另一名研究人员编写的一部守则则在脚下工作。 *每一个* 都犯了错误，在研究中，结果可能是灾难性的。 职业可能遭到破坏/结束，大量研究资金可能被浪费掉，探索不正确途径的宝贵时间可能会流失。 这就是为什么试验是至关重要的。
 
-Here's a couple of illustrations exemplifying of why should write tests:
+下面有几个示例说明为什么要写测试：
 
 ```{figure}  ../figures/testing-motivation1.png
 ---
-name: testing-motivation1
-alt:
+名称：测试动机1
+备选案文：
 ---
 ```
 
 ```{figure}  ../figures/testing-motivation2.png
 ---
-name: testing-motivation2
-alt:
+名称：测试动机2
+备选案文：
 ---
 ```
 
-Even if problems in a program are caught before research is published it can be difficult to figure out what results are contaminated and must be re-done. This represents a huge loss of time and effort. Catching these problems as early as possible minimises the amount of work it takes to fix them, and for most researchers time is by far their most scarce resource. You should not skip writing tests because you are short on time, you should write tests *because* you are short on time. Researchers cannot afford to have months or years of work go down the drain, and they can't afford to repeatedly manually check every little detail of a program that might be hundreds or hundreds of thousands of lines long. Writing tests to do it for you is the time-saving option, and it's the safe option.
+即使在公布研究报告之前发现某个方案中的问题，也很难确定哪些结果受到污染，必须重新完成。 这是巨大的时间和努力的损失。 尽早解决这些问题，将尽量减少解决这些问题所需的工作量， 而且就大多数研究人员而言，他们最稀缺的资源远远是最稀缺的。 您不应该跳过写测试，因为您的时间较短，您应该写测试 *因为* 您的时间较短。 研究人员负担不起数月或数年的工作流失， 他们负担不起重复手工检查可能有数百或数十万行长的程序的每一个细微细节。 为您写入测试以做它是节省时间的选项，这是安全的选项。
 
-As researchers write code they generally do some tests as they go along, often by adding in print statements and checking the output. However, these tests are often thrown away as soon as they pass and are no longer present to check what they were intended to check. It is comparatively very little work to place these tests in functions and keep them so they can be run at any time in the future. The additional labour is minimal, the time saved and safeguards provided are invaluable. Further, by formalising the testing process into a suite of tests that can be run independently and automatically, you provide a much greater degree of confidence that the software behaves correctly and increase the likelihood that defects will be found.
+随着研究人员撰写代码，他们通常随时进行一些测试，往往是通过在打印声明中添加和检查输出。 然而，这些测试一经通过就往往被抛弃，不再到场检查打算进行哪些检查。 相对而言，将这些测试放在职能上并使其能够在今后任何时候进行的工作都很少。 额外的劳动力极少，节省的时间和提供的保障是非常宝贵的。 此外，将试验过程正式化为一套可以独立和自动运行的试验， 你提供了更大程度的信任，相信软件的行为是正确的，并增加了发现缺陷的可能性。
 
-Testing also affords researchers much more peace of mind when working on/improving a project. After changing their code a researcher will want to check that their changes or fixes have not broken anything. Providing researchers with a fail-fast environment allows the rapid identification of failures introduced by changes to the code. The alternative, of the researcher writing and running whatever small tests they have time for is far inferior to a good testing suite which can thoroughly check the code.
+测试还使研究人员在开展/改进项目时更加心灵安宁。 在更改他们的代码后，研究人员将想要检查他们的更改或修复是否打破了任何东西。 向研究人员提供一个失败快的环境，使他们能够迅速发现因修改守则而引入的失败。 备选案文， 研究人员写作和运行他们有时间进行的任何小测试远远低于一套能够彻底检查代码的良好测试套件。
 
-Another benefit of writing tests is that it typically forces a researcher to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
-{ref}`Good quality code<rr-code-quality>` is far easier (and altogether more pleasant) to work with than tangled rat's nests of code I'm sure we've all come across (and, let's be honest, written). This point is expanded upon in the section {ref}`rr-testing-unittest`.
+写作测试的另一个好处是，它通常迫使研究人员写清洁器， 更多的模块化代码作为这种代码更容易写入测试，从而提高代码质量。
+{ref}`优质代码<rr-code-quality>` 比轻松的代码套更容易(和完全更愉快) 工作。我肯定我们都已经遇到了 (和 让我们诚实地、写好）。 这个点在第 {ref}节`rr-testing-unitted` 中得到了扩展。
 
-## The advantages of testing for research
+## 研究测试的优势
 
-As well as advantaging individual researchers testing also benefits research as a whole. It makes research more reproducible by answering the question "how do we even know this code works". If tests are never saved, just done and deleted the proof cannot be reproduced easily.
+个别研究人员测试的优点也有利于整个研究。 它通过回答“我们甚至知道这个代码如何发挥作用”问题，使研究变得更加可复制。 如果测试永远不保存，刚刚完成并删除，证明就不能轻易复制了。
 
-Testing also helps prevent valuable grant money being spent on projects that may be partly or wholly flawed due to mistakes in the code. Worse, if mistakes are not at found and the work is published, any subsequent work that builds upon the project will be similarly flawed.
+测试还有助于防止在可能因守则错误而部分或完全有缺陷的项目上花费宝贵的赠款资金。 更糟糕的是，如果找不到错误，工作也已公布，任何以该项目为基础的随后的工作都会有类似的缺陷。
 
-Perhaps the cleanest expression of why testing is important for research as a whole can be found in the [Software Sustainability Institute](https://www.software.ac.uk/) slogan: better software, better research.
+也许测试对整个研究很重要的最干净的表达方式可以在 [软件可持续性研究所](https://www.software.ac.uk/) 口号中找到：更好的软件。 更好的研究。

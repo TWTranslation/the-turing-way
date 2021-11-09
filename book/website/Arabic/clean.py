@@ -1,13 +1,13 @@
-"""A helper script to "clean up" all of your generated markdown and HTML files."""
-import shutil as sh
-from pathlib import Path
+"""برنامج نصي مساعد "تنظيف" كل ما تم إنشاؤه من ملفات الدرجات السفلى و HTML."""
+استيراد إيقاف تشغيل كمادة قاسية
+من مسار استيراد pathlib
 
-path_root = Path(__file__).parent.parent
+path_root = Path(__file__).parent.الأصل
 
-paths = [path_root.joinpath('_site'),
+المسارات = [path_root.joinpath('_site')،
          path_root.joinpath('_build')]
-for path in paths:
-    print(f'Removing {path}...')
-    sh.rmtree(path, ignore_errors=True)
+للمسار في المسارات:
+    print(f'إزالة {path}...')
+    sh.rmtree(المسار , تجاهل_errors=True)
 
-print('Done!')
+print('تم!')

@@ -1,25 +1,25 @@
-# Authorship and contributions on Academic Papers
+# 学术论文作者和贡献
 
-(communication-aa-prerequisites)=
-## Prerequisites
+(通信-aa-前提条件)=
+## 必备条件
 
-| Prerequisite                                  | Importance | Skill Level | Notes |
-| --------------------------------------------- | ---------- | ----------- | ----- |
-| {ref}`Open Research <rr-open-research>` | Helpful    | Beginner    | None  |
+| 前提条件：                                | 重要性 | 技能水平 | 注 |
+| ------------------------------------ | --- | ---- | - |
+| {ref}`打开研究 <rr-open-research>` | 有帮助 | 初学者  | 无 |
 
 ```{figure} ../figures/theturingway-acknowledgement.jpg
 ---
-name: the turing way acknowledgement
-alt: The image shows the current system of acknowledgement with many people holding up one person. Then the Turing Way recognises all contributors as we think all need to be acknowledged equally so we have everyone standing at the same level. It also shows a robot to represent the all-contributors bot and people writing on their contributors file.
+名称：绘制方式认知
+备选案文：图像显示了当前的认知系统，许多人扣住了一个人。 接着，我们认为所有贡献者都需要得到同样的承认，因此我们每个人都站在同一层次。 它还展示了一个机器人来代表所有贡献者的机器人和在贡献者文件中写字。
 ---
-Illustration about acknowledgements on The Turing Way.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+关于小路上的确认的图画。
+Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：10.5281/zenodo.3332807。
 ```
 
-(communication-aa-summary)=
+(通信-aa-summary)=
 ## Summary
-This chapter sets out information about who are considered authors, academic authorship traditions in different disciplines, how practices concerning authorship are changing and how you might go about trying to achieve the authorship model you want to use.
+本章介绍了哪些人被视为作者、不同学科的学术作者传统。 有关作者的做法正在改变，以及您如何尝试实现您想要使用的作者模型。
 
-(communication-aa-motivation)=
-## Motivation and Background
-The academic landscape is rapidly changing in favour of research projects involving large collaborations and interdisciplinary teams. This makes decisions concerning academic authorship hard to navigate and especially the need to consider different types of contributions fairly. Consequently, there is a shift in how researchers are thinking about assigning authorship for research outputs and what types of contributions are recognised and therefore valued.
+(通信-aa-动机)=
+## 动机和背景
+学术界正在迅速变化，有利于涉及大型协作和跨学科小组的研究项目。 这使得有关学术作者的决定难以通信，特别是需要公平地考虑不同类型的贡献。 因此， 研究人员正在考虑如何分配研究产出的作者身份以及哪些贡献得到承认并因此得到重视，这方面的情况正在发生变化。

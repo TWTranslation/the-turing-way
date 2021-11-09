@@ -1,30 +1,30 @@
-# Checklist and Reading Recommendations
+# توصيات القائمة المرجعية والقراءة
 
 ## Checklist
 
-### For code auto-formatting
+### للتنسيق التلقائي للكود
 
-- [ ] Write your development code in your favourite IDE/text-editor.
-- [ ] Enable auto formatting in your editor by tweaking the preferences/settings.
-- [ ] Type `Ctrl + s` (windows, linux) or `⌘ + s` (mac) to save the work to format the code.
+- [ ] اكتب رمز التطوير الخاص بك في محرر النصوص المفضل لديك.
+- [ ] تمكين التنسيق التلقائي في المحرر الخاص بك عن طريق تغيير التفضيلات/الإعدادات.
+- [ ] اكتب `Ctrl + s` (windows, linux) أو `<unk> + s` (mac) لحفظ العمل لتنسيق التعليمة البرمجية.
 
-### For static code analysis
+### لتحليل الكود الثابت
 
-- [ ] Build the project to enable `linters` to spot the errors/warnings in the code (if any).
-- [ ] Make relevant changes and repeat the above step.
-- [ ] {ref}`Commit and push<rr-vcs-git-commit>` the changes to remote **Github/GitLab/BitBucket** repository to run the pre-deployment tests.
+- [ ] قم ببناء المشروع لتمكين `شتاء` لتحديد الأخطاء/التحذيرات في الكود (إن وجدت).
+- [ ] إجراء التغييرات ذات الصلة وتكرار الخطوة المذكورة أعلاه.
+- [ ] {ref}`التزم ودفع<rr-vcs-git-commit>` بالتغييرات إلى **Github/GitLab/BitBucket** لتشغيل اختبارات ما قبل النشر.
 
-## Further reading
+## مزيد من القراءة
 
-- [Article by University of Freiburg](https://swt.informatik.uni-freiburg.de/service/coding-conventions)
-- [Coding Conventions - Wikipedia](https://en.wikipedia.org/wiki/Coding_conventions)
-- [An exhaustive list of static code analysis tools - Wikipedia](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
-- [Excellent compilation of code analysis guidelines - OWASP](https://owasp.org/www-community/controls/Static_Code_Analysis)
-- [ECMA International ES6 guide](http://www.ecma-international.org/ecma-262/6.0/)
+- [مقالة من جامعة فرايبورغ](https://swt.informatik.uni-freiburg.de/service/coding-conventions)
+- [اتفاقيات الترميز - ويكيبيديا](https://en.wikipedia.org/wiki/Coding_conventions)
+- [قائمة شاملة بأدوات تحليل التعليمات البرمجية الثابتة - ويكيبيديا](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+- [تجميع ممتاز للمبادئ التوجيهية لتحليل التعليمات البرمجية - OWASP](https://owasp.org/www-community/controls/Static_Code_Analysis)
+- [دليل ECMA الدولي ES6](http://www.ecma-international.org/ecma-262/6.0/)
 
-## References specific for this chapter
+## المراجع الخاصة بهذا الفصل
 
-- [Static Tool analysis guide](https://en.wikipedia.org/wiki/Static_program_analysis)
-- [KeyBindings in VSCode](https://code.visualstudio.com/docs/getstarted/keybindings)
-- [Dev.To blog about text-editor customization](https://dev.to/josuerodriguez98/my-vs-code-customization-i4o)
-- [EditorConfig guide](https://editorconfig.org/)
+- [دليل تحليل الأدوات الثابتة](https://en.wikipedia.org/wiki/Static_program_analysis)
+- [روابط المفاتيح في VSCode](https://code.visualstudio.com/docs/getstarted/keybindings)
+- [Dev.لتدوين حول تخصيص محرر النص](https://dev.to/josuerodriguez98/my-vs-code-customization-i4o)
+- [دليل تكوين المحرر](https://editorconfig.org/)

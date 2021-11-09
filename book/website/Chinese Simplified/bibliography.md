@@ -1,5 +1,5 @@
-(bibliography)=
-# Bibliography
+(参考书目)=
+# 参考书目
 
-*This file consist of a complete bibliography for this book sorted alphabetically*
+*这个文件包含这本书按字母排序的完整参考书目*
 `{bibliography}`

@@ -1,42 +1,42 @@
-(rr-rdm-sharing)=
-# Sharing and Archiving Data
+(r-rdm-participing)=
+# مشاركة وأرشيف البيانات
 
-(rr-rdm-sharing-motivations)=
-## Motivations For Sharing Data
-There are many reasons to share your research data publicly.
+(r-rdm-sharing الحافز)=
+## الدوافع لمشاركة البيانات
+هناك العديد من الأسباب لمشاركة بيانات بحثك بشكل علني.
 
-1. To allow the possibility to fully reproduce a scientific study.
-2. To prevent duplicate efforts and speed up scientific progress. Large amounts of research funds and careers of researchers can be wasted by only sharing a small part of research in the form of publications.
-3. To facilitate collaboration and increase the impact and quality of scientific research.
-4. To make results of research openly available as a public good, since research is often publicly funded.
+1. • إتاحة إمكانية استنساخ دراسة علمية كاملة.
+2. • منع ازدواجية الجهود والتعجيل بالتقدم العلمي. ولا يمكن إهدار كميات كبيرة من أموال البحوث والوظائف للباحثين إلا بتقاسم جزء صغير من البحوث في شكل منشورات.
+3. • تيسير التعاون وزيادة أثر البحوث العلمية وجودتها.
+4. • إتاحة نتائج البحوث علنا كمنفعة عامة، نظرا لأن البحوث غالبا ما تمول من القطاع العام.
 
-You can read more about why data should be available, and why some data should remain closed, in the {ref}`Open Data section <rr-open-data>`
+يمكنك قراءة المزيد حول لماذا يجب أن تكون البيانات متاحة، ولماذا يجب أن تبقى بعض البيانات مغلقة، في قسم البيانات المفتوحة {ref}` <rr-open-data>`
 
-(rr-rdm-sharing-steps)=
-## Steps To Share Your Data
+(r-rdm-Sharing-steps) =
+## خطوات لمشاركة بياناتك
 
-### Step 1: Select what data you want to share
+### الخطوة 1: حدد البيانات التي تريد مشاركتها
 
-Not all data can be made openly available, due to ethical and commercial concerns (see the {ref}`Open Data section <rr-open-data>), and you may decide that some of your intermediate data is too large to share. As such, you first need to decide which data you need to share for others to be able to reproduce your research.
+لا يمكن جعل جميع البيانات متاحة بشكل عام بسبب الشواغل الأخلاقية والتجارية (أنظر {ref}`قسم البيانات المفتوحة' <rr-open-data>)، وقد تقرر أن بعض البيانات الوسيطة الخاصة بك أكبر من أن تشاركها. وعلى هذا النحو، تحتاج أولاً إلى تحديد البيانات التي تحتاج إلى مشاركتها للآخرين لكي يكونوا قادرين على إعادة إنتاج بحثك.
 
-### Step 2: Choose a data repository or other sharing platform
+### الخطوة 2: اختر مستودع البيانات أو منصة مشاركة أخرى
 
-Data should be shared in a formal, open, and indexed data repository [{term}`def<Repository>`] where possible so that it will be accessible in the long run. Suitable data repositories by subject, content type or location can be found at [Re3data.org](https://www.re3data.org/), and in [FAIRsharing](https://fairsharing.org/databases) where you can also see which standards (metadata and identifier) the repositories implement and which journal/publisher recommend them. If possible use a repository that assigns a DOI, a digital object identifier, to make it easier for others to cite your data. Have a look in the {ref}`cm-citable` to see how to share and cite your data and other research objects. The {ref}`cm-citable-linking` section explains several options for linking your data and other research objects.
+وينبغي تقاسم البيانات في شكل رسمي، مفتوح، ومستودع البيانات المفهرس [{term}`def<Repository>`] كلما كان ذلك ممكنا بحيث يمكن الوصول إليه على المدى الطويل. يمكن العثور على مستودعات البيانات المناسبة حسب الموضوع أو نوع المحتوى أو الموقع في [Re3البيانات. rg](https://www.re3data.org/)، وفي [FAIRparticip](https://fairsharing.org/databases) حيث يمكنك أيضا رؤية المعايير (بيانات التعريف والمعرّف) التي تطبقها المستودعات و أي الصحف/الناشر يوصيها بها. إذا أمكن استخدام مستودع يقوم بتعيين معرف الكائن الرقمي، لجعل من الأسهل للآخرين أن يستشهدوا ببياناتك. احصل على نظرة في {ref}`سم` لمعرفة كيفية مشاركة بياناتك وأشياء بحثية أخرى والاستشهاد بها. {ref}`cm-citable-link` قسم يشرح عدة خيارات لربط بياناتك وغيرها من عناصر البحوث.
 
-A few public data repositories are [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU.ResearchData](https://data.4tu.nl/info/en), and [Dryad](https://datadryad.org/).
+بعض مستودعات البيانات العامة هي [زينودو](https://zenodo.org/)، [الشكل](https://figshare.com/)، [4TU.ResearchData](https://data.4tu.nl/info/en)، و [جاف](https://datadryad.org/).
 
-### Step 3: Choose a licence and link to your paper and code
+### الخطوة 3: اختر الرخصة وربطك بالورقة والكود البرمجي
 
-So that others know what they can do with your data, you need to apply a licence [{term}`def<License>`] to your data. The most commonly used licences are [Creative Commons](https://creativecommons.org/choose/), [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), or an [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/index.html). To get maximum value from data sharing, make sure that your paper and code both link to your data, and vice versa, to allow others understand your project better.
+حتى أن الآخرين يعرفون ما يمكنهم فعله ببياناتك، تحتاج إلى تطبيق الترخيص [{term}`def<License>`] على بياناتك. أكثر التراخيص استخداما هي [المشاع الإبداعي](https://creativecommons.org/choose/)، [الترخيص الحكومي المفتوح](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)، أو [ترخيص إسناد بيانات عامة مفتوحة](https://opendatacommons.org/licenses/by/index.html). للحصول على أقصى قيمة من مشاركة البيانات، تأكد من أن الورق الخاص بك وبرمج كلا الرابط لبياناتك، والعكس صحيح، للسماح للآخرين بفهم مشروعك بشكل أفضل.
 
-### Step 4: Upload your data and documentation
+### الخطوة 4: تحميل بياناتك ووثائقك
 
-In line with the {ref}`FAIR principles <rr-rdm-FAIR>`, upload the data in open formats as much as possible and include sufficient documentation and metadata so that someone else can understand your data. It is also essential to think about the file formats in which the information is provided. Data should be presented in structured and standardised formats to support interoperability, traceability, and effective reuse. In many cases, this will include providing data in multiple, standardized formats, so that it can be processed by computers and used by people.
+تمشياً مع {ref}`مبادئ FAIR <rr-rdm-FAIR>`، تحميل البيانات بأشكال مفتوحة قدر الإمكان وإدراج ما يكفي من الوثائق والبيانات الوصفية حتى يتمكن شخص آخر من فهم بياناتك. ومن الضروري أيضا التفكير في أشكال الملفات التي تقدم فيها المعلومات. وينبغي أن تقدم البيانات في أشكال منظمة وموحدة لدعم قابلية التشغيل المشترك والتعقب وإعادة الاستخدام الفعال. وفي كثير من الحالات، سيشمل ذلك توفير البيانات بأشكال متعددة وموحدة بحيث يمكن معالجتها بواسطة الحواسيب واستخدامها من قبل الناس.
 
-## Additional resources on data sharing
-* '[How can you make research data accessible?](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': a blog that contains five steps to make your data more accessible
-* The European Commission's [data guidelines](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines)
+## الموارد الإضافية المتعلقة بتقاسم البيانات
+* [كيف يمكنك جعل بيانات البحث متاحة؟](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': مدونة تحتوي على خمس خطوات لجعل بياناتك متاحة بشكل أكبر
+* مبادئ المفوضية الأوروبية التوجيهية [للبيانات](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines)
 
-(rr-rdm-data-availability-statement)=
-## Data Availability Statement
-Once you made your data available, it is important to ensure that people can find it when they read the associated article. You should cite your dataset directly in the paper in places where it is relevant, and include a citation in your reference list, as well as include a Data Availability Statement at the end of the paper (similar to the acknowledgement section). See {ref}`cm-citable-cite-data` for some examples.
+(r-rdm-data-availability) =
+## بيان توافر البيانات
+بمجرد أن تكون بياناتك متاحة، من المهم التأكد من أن الناس يمكنهم العثور عليها عندما يقرأون المقالة المرتبطة بها. يجب عليك أن تذكر مجموعة البيانات الخاصة بك مباشرة في الورق في الأماكن التي تكون ذات صلة، وإدراج اقتباس في القائمة المرجعية الخاصة بك، إضافة إلى إدراج بيان عن مدى توافر البيانات في نهاية الورقة (مماثل لقسم الإقرار). انظر إلى {ref}`cm-citable-cite-بيانات` لبعض الأمثلة.

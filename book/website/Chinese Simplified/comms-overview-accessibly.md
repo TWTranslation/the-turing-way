@@ -1,42 +1,42 @@
 (cm-comms-overview-accessibly)=
-# Communicating Accessibly
+# 可访问的通信
 
-Accessibility of your writing or presentation is more than just about the technical level. How it can be accessed in terms of where it is located, the format of text and diagrams, the language and overall FAIRness of the communication all need to be considered.
+您的写作或演示的可访问性不仅仅是技术级别。 如何从其所在位置、文本格式和图表中访问？ 必须考虑到来文的语言和总的前景如何。
 
-FAIR stands for findable, accessible, interoperable and reusable and you can find out more in our sub-chapter {ref}`sub-chapter on The FAIR Principles<rr-rdm-fair>`.
+FAIR 代表查找、可访问。 互可操作和可复用，您可以在我们的子章节 {ref}`关于《FAIR原则》的子章节<rr-rdm-fair>` 中找到更多信息。
 
-## Where you communicate
+## 您通信的位置
 
-Where your research is communicated and how much it costs will have an impact on its accessibility. Most communications to wider audiences will be free to access as they will be distributed online, which makes them even more impactful. However, many scientific articles are not accessible even to researchers because they are behind paywalls. A [paywall](https://en.wikipedia.org/wiki/Paywall#:~:text=A%20paywall%20is%20a%20method,a%20paid%20subscription%2C%20especially%20news.) is the restricting of access to content through a one off payment or subscription cost. You can find out more about paywals by watching the movie [Paywall](https://paywallthemovie.com/).
+你们的研究被传达在哪里进行，花费多少将对其无障碍性产生影响。 向更广大受众传播的大多数信息将可自由获取，因为它们将在网上传播，从而使它们更具影响力。 然而，即使研究人员也无法查阅许多科学文章，因为这些文章在薪水墙后面。 [paywall](https://en.wikipedia.org/wiki/Paywall#:~:text=A%20paywall%20is%20a%20method,a%20paid%20subscription%2C%20especially%20news.) 是指通过一次退款或订阅费用限制访问内容。 您可以通过观看电影 [Paywall](https://paywallthemovie.com/) 了解更多关于付费车的信息。
 
-The cost of academic books is also exclusionary. They often cost five times more than popular novels, although there is a growing movement towards open access e-books.
+学术书籍的费用也是排除在外的。 尽管越来越多地向开放式电子书籍的方向发展，但它们的成本往往比流行的小说要高五倍。
 
-* Conference and workshop fees can exclude some researchers. While you may not have control over conference access, you can share your conference presentations and posters on an open repository which will widen their accessibility. You may also consider recording your presentations and making them available online.
-* If you are organising an event, you can make an effort to reduce the costs or offer grants to certain individuals to ensure that your event is accessible.
+* 会议费和讲习班费可将一些研究人员排除在外。 您可能无法控制会议访问权限， 您可以分享您的会议演示和海报在开放的存储库上，以扩大其可访问性。 你们也可以考虑记录你们的发言并在网上提供。
+* 如果您正在组织一个事件， 您可以努力降低费用或向某些个人提供赠款，以确保您的活动可以访问。
 
-You can try to make your outputs freely available by publishing them in an online repository such as [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) or [Open Science Framework](https://osf.io/). This will allow your content to be accessed by a larger audience and consequently have a greater impact.
+您可以尝试通过在线资源库发布输出，如 [Zenodo](https://zenodo.org/)， 来免费提供您的产出。 [图共享](https://figshare.com/) 或 [开放科学框架](https://osf.io/) 这将使更多的受众能够访问您的内容，从而产生更大的影响。
 
-## Consider Disabilities
+## 视残疾问题
 
-You need to consider how those with disabilities can fully access your communications.
+您需要考虑残疾人如何能够充分访问您的通信。
 
-* Often the text in academic publications is accessible but the images and figures are not.
-* The colour of images needs to be considered for people with colour blindness and it is a must to include alternative text for all images. Also, consider what format is best for screen readers.
-* There are features you can use within most word processing and presentation software that can help you to edit your documents in this manner. These include being able to add alt text to any images and using the specific headings to help a screen reader move to different sections.
-* Microsoft Office has an accessibility checker so you can easily run this feature when your document or presentation is completed and make adjustments.
-* For more information about accessibility see [Ability Net](https://abilitynet.org.uk/) and their [guide to creating accessible documents](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0).
-* There is also a useful [blog about alternative text](https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text) and you can find out more in this useful [introduction to alt text by Webaim](https://webaim.org/techniques/alttext/).
+* 学术出版物中的文本常常可以查阅，但是图像和数字却无法获得。
+* 图像的颜色需要考虑到有色盲的人，而且必须列入所有图像的备选文本。 另外，考虑哪种格式最适合屏幕阅读器。
+* 您可以在大多数文字处理和演示软件中使用一些功能，帮助您以这种方式编辑文档。 其中包括能够在任何图像中添加备用文本，并使用具体的标题帮助屏幕阅读器移动到不同的部分。
+* Microsoft Office有一个辅助功能检查器，因此您可以在文档或演示文稿完成并进行调整时轻松运行此功能。
+* 欲了解更多有关可访问性的信息，请参阅 [能力网](https://abilitynet.org.uk/) 及其 [创建可访问文档的指南](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0)。
+* 还有一个有用的 [博客介绍替代文本](https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text) ，您可以在这个有用的 [介绍中找到更多信息，以通过 Web 目标](https://webaim.org/techniques/alttext/) 更改文本。
 
-## Language Translation
+## 语言翻译
 
-English is considered the academic language and we should be careful to make sure that all our outputs are accessible in this language. Outputs should be written straightforwardly to make them more accessible to those with English as a second language.
+英语被视为学术语言，我们应当小心确保我们的所有产出都能用这种语言获得。 产出应直截了当，使英语作为第二种语言的人更容易获得产出。
 
-* However, not all communications should be in English. Researchers need to consider the wider audience of their communications. There may be a specific community with another language that needs to be engaged fully in the research and therefore communications should be translated.
-* Global research communities should also consider translating key documents into additional languages as has been done for our project [README file](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md).
+* 然而，并非所有来文都应使用英文。 研究人员需要考虑更广泛的函件读者。 可能有一个具有另一种语言的特定社区需要充分参与研究，因此通信应当翻译。
+* 全球研究界还应考虑像我们的项目 [README 文件](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) 那样，将关键文件翻译成其他语言。
 
-## FAIR resources
+## FAIR 资源
 
-It is worth considering applying the FAIR principles to all the science communications that you deposit in open repositories, such as conference presentations and posters, as this will make them more sustainable.
-* Tips to apply the FAIR principles to training materials by Garcia et al (2020) {cite:ps}`Garcia2020ten` can be easily adapted for this purpose.
+值得考虑将FAIR原则应用于您存放在开放仓库中的所有科学通信。 这将使会议介绍和海报更具可持续性。
+* 由 Garcia et al (2020) {cite:ps}`Garcia2020ten` 提供的将FAIR原则应用于培训材料的建议可以很容易地为此目的进行调整。
 
-Find out more in our {ref}`sub-chapter on The FAIR Principles<rr-rdm-fair>`.
+在我们的 {ref}`小章节中找到更多关于 FAIR Principles<rr-rdm-fair>`

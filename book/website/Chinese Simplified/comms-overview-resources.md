@@ -1,88 +1,88 @@
 (cm-comms-overview-resources)=
-# Resources and Recommendations
+# 资源和建议
 
-(cm-comms-overview-resources-accessibility)=
-## Accessibility
+(cm-comms-overview-resource-accessibility) =
+## 无障碍环境
 
-Read more in this chapter: {ref}`cm-comms-overview-accessibly`.
+在本章中阅读更多信息: {ref}`cm-comms-overview-accessible`
 
-* [Ability Net](https://abilitynet.org.uk/) for guides to making your documents more accessible.
-* [Contrast calculator](https://contrastchecker.com/) is a good website to freely check if you meet the Web Content Accessibility Guidelines (WCAG) ratings.
-* [Outlier conf](https://www.outlierconf.com/) is a good example of accessibility in conference participation fees and data experience (vs visualisation).
+* [能力网](https://abilitynet.org.uk/) 用于使您的文件更容易访问。
+* [对比度计算器](https://contrastchecker.com/) 是一个很好的网站，可以自由检查您是否符合网页内容访问指南 (WCAG) 的评级。
+* [outlier conf](https://www.outlierconf.com/) 是会议参与费和数据体验(视觉化)的一个很好的访问例子。
 
-(cm-comms-overview-resources-blogs)=
-## Blogs
+(cm-comms-overview-resource-blogs)=
+## 博文
 
-Read more in this chapter: {ref}`cm-blogs`.
+在本章中阅读更多信息: {ref}`cm-blogs`
 
-* [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
-* [Start a Wordpress blog](https://www.podcastinsights.com/start-a-wordpress-blog/)
-* [Comparing Google sites and Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
+* [每个博客都需要20个尺度来跟踪测量成功与否](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/)。
+* [开始Wordpress 博客](https://www.podcastinsights.com/start-a-wordpress-blog/)
+* [比较谷歌网站和 Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
 
-### Some of our favourite blogs
-* Dr Veronika Cheplygina's [How I fail series](https://veronikach.com/failure/)
-* [Software Sustainability Institute Blog](https://www.software.ac.uk/blog)
-* [Open Working](https://openworking.wordpress.com/) by 4TU.ResearchData & TU Delft Library and Data Stewards. Uses WordPress.
-* [Metadocencia](https://metadocencia.netlify.app/post/) - This is in Spanish but you can also read it in English [here](https://metadocencia.netlify.app/en/post/).
+### 我们最喜欢的博客
+* Veronika Cheplygina博士的 [我如何失败系列](https://veronikach.com/failure/)
+* [软件可持续性研究所博客](https://www.software.ac.uk/blog)
+* [通过4TU研究数据 & TU Delft 库和数据Steward来打开工作](https://openworking.wordpress.com/) 使用 WordPress。
+* [Metaddocencia](https://metadocencia.netlify.app/post/) - 这是西班牙语，但你也可以在这里以英文 [阅读](https://metadocencia.netlify.app/en/post/)。
 
-(cm-comms-overview-resources-lay)=
-## Lay summaries
+(cm-comms-overview-resource-lay)=
+## 淡化摘要
 
-Read more in this chapter: {ref}`cm-lay-summaries`.
+在本章中阅读更多信息: {ref}`cm-lay-summary`
 
-* See  [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/) for a good example of how an abstract can be changed into a lay summary.
+* 请参阅  [穿透那个下面的摘要](https://bitesizebio.com/10871/perfecting-that-lay-summary/) 这个很好的例子来说明如何将一个摘要变成一个非原样的摘要。
 
-**Readability tests:**
+**可读性测试：**
 * [Hemingway app](http://www.hemingwayapp.com/)
-* [The forst word readability test](http://thefirstword.co.uk/readabilitytest/)
+* [忘记词可读性测试](http://thefirstword.co.uk/readabilitytest/)
 
 
-(cm-comms-overview-resources-podcasts)=
-## Podcasts
+(cm-comms-overview-resource-podcasts)=
+## 播客
 
-Read more in this chapter: {ref}`cm-podcasts`.
+在本章中阅读更多信息: {ref}`cm-podcasts`
 
-* [How to start a podcast blog](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
+* [如何启动播客博客](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE)。
 
-### Some of our favourite podcasts
+### 我们最喜欢的播客数
 * [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
-* [Open Science talk](https://soundcloud.com/opensciencetalk).
-* [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast).
+* [开放的科学对话](https://soundcloud.com/opensciencetalk).
+* [诱惑播客](https://www.turing.ac.uk/news/turing-podcast)。
 * [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
-* [Open science stories](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
+* [打开科学故事](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
 
-(cm-comms-overview-resources-presentations)=
-## Presentations
+(cm-comms-overview-resource-presentation)=
+## 发言
 
-Read more in this chapter: {ref}`cm-presentations`.
+在本章中阅读更多信息: {ref}`cm-presentations`
 
-Here are some websites that offer free resources making different aspects of presenations:
+以下是一些免费提供资源的网站，介绍内容不同：
 
-* [The Noun Project](https://thenounproject.com) for icons and photographs.
-* [Unsplash](https://unsplash.com) for photographs.
-* [Pexels](https://www.pexels.com) for photographs.
-* [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations.
-* [Flaticon](https://www.flaticon.com/free-icons/english) for icons.
-* [Canva](https://www.canva.com) for icons.
+* [用于图标和照片的 Noun 项目](https://thenounproject.com)。
+* [为照片释放](https://unsplash.com)。
+* [照片的 Pexels](https://www.pexels.com)。
+* [Freepik](https://www.freepik.com/free-photos-vectors/english) 用于图标和插图。
+* [图标的 Flaticon](https://www.flaticon.com/free-icons/english)。
+* [Canva](https://www.canva.com) 图标。
 
-For recording talks:
-* [OBS](https://obsproject.com). See [this guide for using OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute.
-* [Amara](https://amara.org) or [Otter](https://otter.ai/) can be used to generate your subtitles. Video conferencing platforms such as Zoom or Google meet also have captions.
+用于录制语音：
+* [OBS](https://obsproject.com). 请参阅 [本指南用于使用软件可持续性研究所的 OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide)。
+* [Amara](https://amara.org) 或 [Otter](https://otter.ai/) 可以用于生成您的字幕。 缩放或谷歌会议等视频会议平台也有标题。
 
-* Many of the technical aspects and tools for giving remote talks (or classes) are covered in [The Carpentries tips for teaching online](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) and the webinar ["Teaching Online on Short Notice"](https://rstd.io/teach-online-2020) by RStudio, a source for several points of this section.
+* 提供远程语音(或班级)的许多技术方面和工具都在 [在线教学的 Carpentris 提示](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) 和网络研讨会 [RStudio 的“短通知在线教学”](https://rstd.io/teach-online-2020) 中涉及。 a 本节若干点的来源。
 
-* The Outlier conference has some excellent tips on [speech development](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [structure](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/), and [technical setup](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
+* Outlier会议在 [语音开发](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [结构](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/)和 [技术设置](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/) 等方面有一些优秀的技巧。
 
-* Author Nancy Duarte offers some insights in her books, articles and [talks](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) on how to structure presentations that involve a call to action.
+* 作者Nancy Duarte在她的书籍、文章和 [讲座](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) 中就如何安排涉及呼吁采取行动的演示提供了一些见解。
 
-(cm-comms-overview-resources-social)=
-## Social Media
+(cm-comms-overview-resource-social)=
+## 社交媒体
 
-Read more in this chapter: {ref}`cm-social-media`.
+在本章中阅读更多信息: {ref}`cm-socio-media`
 
 * [Tweetdeck](https://tweetdeck.twitter.com/)
-* [Buffer](https://buffer.com/)
-* This is a good [guide to getting set up on Twitter](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
-* [Ten simple rules to getting started on Twitter as a scientist](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
-* [Ten simple rules of live-tweeting at scientific conferences](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
-* [How to use Twitter to further your research career](https://www.nature.com/articles/d41586-019-00535-w)
+* [缓存器](https://buffer.com/)
+* 这是一个很好的 [指南来在 Twitter](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/) 上设置。
+* [以科学家身份开始使用Twitter的十条简单规则](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
+* [十条简单的科学会议现场直播规则](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
+* [如何使用 Twitter 来推进您的研究工作](https://www.nature.com/articles/d41586-019-00535-w)

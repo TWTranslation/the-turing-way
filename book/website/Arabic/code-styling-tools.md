@@ -1,41 +1,41 @@
-(pd-code-styling-tools)=
-# Code Styling Tools
+(أدوات الأنسجة الرموزية) =
+# أدوات تصميم التعليمات البرمجية
 
-As mentioned earlier, there are some automatic tools that you can use to lint your code to existing guidelines. These range from plugins for IDEs packages that 'spell-check' your style, and scripts that automatically lint for you.
+كما ذكر سابقاً، هناك بعض الأدوات التلقائية التي يمكنك استخدامها لربط التعليمات البرمجية الخاصة بك بالمبادئ التوجيهية الموجودة. هذه تتراوح من الإضافات لحزم IDEs التي 'تأكد من إملاءك' أسلوبك، والنصوص البرمجية التي تتحدث تلقائياً لك.
 
 ## lintr
 
-[lintr](https://cran.r-project.org/web/packages/lintr/lintr.pdf) is an R package that spell-checks your code using a variety of style guidelines.  It can be installed from CRAN. The function `lint` takes a filename as an argument and a list of 'linters' that it should check your code against. These range from whitespace conventions to checking that curly brackets do not have their lines. The output provides a list of markers with recommendations for changing the formatting of your code line-by-line, meaning it is best used early and often in your project.
+[lintr](https://cran.r-project.org/web/packages/lintr/lintr.pdf) هي حزمة R التي تحقق من التعليمات البرمجية الخاصة بك باستخدام مجموعة متنوعة من المبادئ التوجيهية.  يمكن تثبيته من CRAN. الدالة `lint` تأخذ اسم الملف كحجة وقائمة من 'الطلاء' التي يجب أن تتحقق من التعليمات البرمجية الخاصة بك ضدها. وتتراوح هذه بين اتفاقيات الفضاء الأبيض والتأكد من أن الأقواس المتعجرفة ليست لها خطوطها. يوفر المخرجات قائمة بالعلامات مع توصيات لتغيير تنسيق الكود الخاص بك سطر على سطر، بمعنى أنه من الأفضل استخدامه في وقت مبكر وفي كثير من الأحيان في مشروعك.
 
 ```{figure} ../../figures/lintr-output.png
 ---
-height: 500px
-name: lintr_output
-alt: lintr output showing recommendations to add space, remove commented code, remove training whitespace, have character size per line less than 80 where needed in the input code.
+الطول: 500px
+الاسم: lintr_outpu
+alt: lintr خرج يظهر التوصيات لإضافة المساحة. إزالة التعليمات البرمجية المعلّقة، وإزالة المساحة البيضاء للتدريب، وحجم الحروف لكل سطر أقل من 80 عند الحاجة في رمز الإدخال.
 ---
-An example of how the lintr output may look like for an input file with R code.
+مثال على كيف يمكن أن يبدو إخراج الخط على شكل ملف مدخل مع كود R.
 ```
 
-For more details, please visit the [GitHub repository](https://github.com/jimhester/lintr).
+لمزيد من التفاصيل، يرجى زيارة [مستودع GitHub](https://github.com/jimhester/lintr).
 
 ## Autopep8
 
-[Autopep8](https://pypi.org/project/autopep8/) is a Python module that can be run from the terminal and automatically formats a file to [pycodestyle](https://github.com/PyCQA/pycodestyle) (formerly called pep8) guidelines.  
-It is available on [pypy](https://pypi.org) and can be installed using pip.
+[Autopep8](https://pypi.org/project/autopep8/) هي وحدة Python التي يمكن تشغيلها من المحطة الطرفية وتقوم تلقائياً بتنسيق الملف إلى [pycodestyle](https://github.com/PyCQA/pycodestyle) (والتي كانت تسمى في السابق pep8).  
+يتوفر على [pypy](https://pypi.org) ويمكن تثبيته باستخدام الأنابيب.
 
 ```
 # Install autopep8
 $ pip install --upgrade autopep8
 ```
 
-You can modify a file in place by running the following command:
+يمكنك تعديل ملف موجود من خلال تشغيل الأمر التالي:
 
 ```
-$ autopep8 --in-place --aggressive --aggressive <filename>
+$ التشريح التلقائي 8 - في المكان - عدواني - عدواني <filename>
 ```
 
-To some extent, the module can also be used on R scripts!
+إلى حد ما، يمكن استخدام الوحدة أيضا في البرامج النصية R!
 
-## Auto formating by Black
+## التكوين التلقائي باللون الأسود
 
-[Black](https://black.readthedocs.io/en/stable/) is an auto-formating package for Python. This means that it will automatically change your code to adhere to certain guidelines, like spaces around operators and removing unnecessary whitespace. It is also consistent, so that the code that you and your collaborators work on, will look the same once black formats it. It does not change what the code does. This can reduce the time spent making the above changes to the code.
+[الأسود](https://black.readthedocs.io/en/stable/) هو حزمة تكوين تلقائي لبايتون. هذا يعني أنه سيغير تعليماتك البرمجية تلقائياً للتقيد ببعض المبادئ التوجيهية، مثل المسافات حول المشغلين وإزالة المساحة البيضاء غير الضرورية. كما أنه متسق، بحيث أن التعليمات البرمجية التي تعمل عليها أنت والمتعاونين معك، ستبدو نفسها بمجرد أن يتم تنسيقها سوداء. وهو لا يغير ما تفعله المدونة. هذا يمكن أن يقلل الوقت الذي يقضيه إجراء التغييرات المذكورة أعلاه على الشفرة.

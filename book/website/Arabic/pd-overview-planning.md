@@ -1,50 +1,50 @@
-(pd-overview-planning)=
-# Planning for Project Design
+(بآلاف دولارات الولايات المتحدة)
+# التخطيط لتصميم المشروع
 
-Thinking about reproducibility from the start of your project is the best way to save time and get the most out of the available tools. Creating connections between data, code, methodology, as well as diverse collaborators, can seem like a daunting task if it has not been planned from the beginning (see this illustration of {ref}`Research Cycle<research-cycle>`). By documenting and sharing project workflows and processes for research and researchers we can ensure sustainability and reusability of research for both the developers and future users.
+التفكير في إمكانية التكرار منذ بداية مشروعك هو أفضل طريقة لتوفير الوقت والحصول على أقصى ما يمكن من الأدوات المتاحة. إنشاء روابط بين البيانات والكود والمنهجية فضلا عن مختلف المتعاونين، قد تبدو وكأنها مهمة شاقة إذا لم يتم التخطيط لها منذ البداية (انظر هذا التوضيح ل {ref}`دورة البحث<research-cycle>`). ومن خلال توثيق وتبادل تدفقات أعمال المشاريع وعملياتها المتعلقة بالبحوث والباحثين، يمكننا أن نكفل استدامة البحوث وإمكانية إعادة استخدامها لكل من المطورين والمستخدمين في المستقبل.
 
-A human-centred approach in the context of the research project can lead to a better development process, maintenance, and future extension of our work. Furthermore, it will help improve the quality of future project design as we can learn lessons from what worked and what can be improved.
+ويمكن أن يؤدي اتباع نهج محوره الإنسان في سياق مشروع البحوث إلى تحسين عملية التنمية والصيانة وتوسيع عملنا في المستقبل. وعلاوة على ذلك، سيساعد على تحسين نوعية تصميم المشاريع في المستقبل حيث يمكننا أن نتعلم الدروس من ما نجح وما يمكن تحسينه.
 
-(pd-overview-planning-expectation)=
-## Setting Expectations Explicitly
+(بآلاف دولارات الولايات المتحدة)
+## تحديد التوقعات بشكل صريح
 
-Project design practices help provide guidance and set clear expectations by explicitly communicating norms and empowering project members at different levels of hierarchy to collaborate equitably. A project design for reproducible research encompasses a variety of aspects, starting from defining the purpose, main research questions, expected users or target audience, available resources and skills required in the project. It also requires researchers to explore the possible outcomes, plans to address expected challenges or risks, ensure diversity of stakeholders and reduce possible barriers to participation.
+وتساعد ممارسات تصميم المشاريع على توفير الإرشاد وتحديد توقعات واضحة من خلال الإبلاغ الصريح عن المعايير وتمكين أعضاء المشروع على مختلف مستويات التسلسل الهرمي من التعاون على نحو منصف. ويشمل تصميم مشروع للبحث القابل للاستنساخ مجموعة متنوعة من الجوانب، بدءا من تحديد الغرض، الأسئلة البحثية الرئيسية والمستعملون المتوقعون أو الجمهور المستهدف، والموارد المتاحة والمهارات المطلوبة في المشروع. كما يتطلب من الباحثين استكشاف النتائج المحتملة والخطط الرامية إلى التصدي للتحديات أو المخاطر المتوقعة، • ضمان تنوع أصحاب المصلحة وتقليل الحواجز التي يمكن أن تعترض المشاركة.
 
-Project design practices help all stakeholders to be certain about their roles and responsibilities, skill requirements, environment and research setup they want to create for their collaborators, values they want to promote and how they can achieve their goals collaboratively.
+وتساعد ممارسات تصميم المشاريع جميع أصحاب المصلحة على التأكد من أدوارهم ومسؤولياتهم ومتطلباتهم من المهارات. البيئة وإعداد البحوث يريدون أن ينشئوا لتعاونهم والقيم التي يريدون تعزيزها وكيف يمكنهم تحقيق أهدافهم بصورة تعاونية.
 
-(pd-overview-planning-started)=
-## Getting Started
+(بآلاف دولارات الولايات المتحدة)
+## بدء العمل
 
-We can begin with the project design process by identifying different parts of our research such as main research questions, methods and materials, code and data requirement, workflow, communication channels, ways of working, collaborative practices and so on. This process allows us to be intentional from the start to ensure that our research is reproducible, well communicated and inclusive of all stakeholders where decisions are collaboratively made. We can explore and select the right tools and methods for reproducibility in our research and promote good practices such as documentation, version control, peer-review processes, testing, workflow, archiving and data management plan can be promoted from the beginning. Finally, we can plan for publishing and sharing of research components before, during and after the project.
+يمكننا أن نبدأ بعملية تصميم المشروع بتحديد مختلف أجزاء بحثنا مثل الأسئلة البحثية الرئيسية، • الأساليب والمواد، ومتطلبات الرموز والبيانات، وتدفق العمل، وقنوات الاتصال، وطرق العمل، والممارسات التعاونية، وما إلى ذلك. وتتيح لنا هذه العملية أن نكون متعمدين منذ البداية لضمان أن تكون أبحاثنا مستنيرة، • حسن الإبلاغ وشمول جميع أصحاب المصلحة في الحالات التي تتخذ فيها القرارات بصورة تعاونية. ويمكننا أن نستكشف ونختار الأدوات والأساليب الصحيحة لاسترجاع البيانات في بحثنا وأن نعزز الممارسات الجيدة مثل التوثيق، يمكن تشجيع التحكم في الإصدار، عمليات استعراض الأقران، الاختبار، تدفق العمل، الأرشيف وخطة إدارة البيانات منذ البداية. وأخيرا، يمكننا أن نخطط لنشر وتبادل عناصر البحث قبل المشروع وأثناءه وبعده.
 
-(pd-overview-planning-ethics)=
-## Getting Ethical and Legal Approval
+(بآلاف دولارات الولايات المتحدة)
+## الحصول على الموافقة الأخلاقية والقانونية
 
-Every research has the capacity to generate change - this is the basis of discovery and progress. Therefore, it is necessary to consider how your investigation could generate an impact on other people's lives and under which ethical and legal standards it should be conducted.
+ولكل بحث القدرة على إحداث التغيير - وهذا هو أساس الاكتشاف والتقدم. ولذلك، ومن الضروري النظر في الكيفية التي يمكن بها لتحقيقاتكم أن تخلف أثرا على حياة الآخرين وعلى المعايير الأخلاقية والقانونية التي ينبغي إجراؤها.
 
-A project has to be designed considering legal and ethical issues in every step: from the question formulation, data collection and analysis to the results and interpretation. It's important to ask yourself if your project is designed to be inclusive and sustainable, taking into account the implications and social expectations and following ethical principles and professional standards.
+ويتعين تصميم مشروع يتناول المسائل القانونية والأخلاقية في كل خطوة: من صياغة الأسئلة، جمع البيانات وتحليلها فيما يتعلق بالنتائج والتفسير. من المهم أن تسأل نفسك إذا كان مشروعك مصمم ليكون شاملا ومستداما، مع مراعاة الآثار والتوقعات الاجتماعية واتباع المبادئ الأخلاقية والمعايير المهنية.
 
-Getting ethical and legal approval is a crucial step of the project, this way you can make sure your research is being conducted in a responsible and ethical manner. There are several ways in which a research ethics committee (RECs) proceeds, but there are five principal topics that the ethics committee might want to know about:
+ويمثل الحصول على الموافقة الأخلاقية والقانونية خطوة حاسمة في هذا المشروع، وبهذه الطريقة يمكنك التأكد من أن بحثك يجري بطريقة مسؤولة وأخلاقية. وهناك عدة طرق تعمل بها لجنة معنية بأخلاقيات البحوث، ولكن هناك خمسة مواضيع رئيسية قد ترغب لجنة الأخلاقيات في معرفة ما يلي:
 
-1. Project Description
-2. Data and Methodology
-3. Consent
-4. Privacy and Security
-5. Further Societal Consequences
+1. وصف المشروع
+2. البيانات والمنهجية
+3. الموافقة
+4. الخصوصية والأمان
+5. عواقب اجتماعية أخرى
 
-The {ref}`Research Ethics Committees Processes<er-committees>` chapter have more information about each item. Read other chapters in the {ref}`Guide for Ethical Research<er>`.
+{ref}`عمليات لجان أخلاقيات البحث<er-committees>` لديها المزيد من المعلومات حول كل بند. اقرأ الفصول الأخرى في {ref}`دليل البحث الأخلاقي<er>`.
 
-## Organising Files and Documents
+## تنظيم الملفات والمستندات
 
 ```{note}
-**Top three 'selfish' reasons to use project design practices**
-1. **Saves time**: once the project is designed and all the connections between different parts of research can be organized with little effort.
-2. **Makes your research openly available**: having your research open from the start can help others working in similar subjects or starting research.
-3. **Get people interested**: you can get people to help you from the start since your project is documented and is easy to share.
+**أفضل ثلاثة أسباب 'أنانية' لاستخدام ممارسات تصميم المشروع**
+1. **يوفر الوقت**: بمجرد تصميم المشروع و يمكن تنظيم جميع الروابط بين مختلف أجزاء البحث بجهد ضئيل.
+2. **يجعل بحثك متاحاً علناً**: جعل بحثك مفتوحاً منذ البداية يمكن أن يساعد الآخرين الذين يعملون في مواضيع مشابهة أو بدء البحث.
+3. **احصل على أشخاص مهتمين**: يمكنك الحصول على أشخاص لمساعدتك من البداية منذ أن تم توثيق مشروعك وسهولة مشاركته.
 ```
 
-Create a shared repository to allow easy access to information and different documents related to your project. A project repository can be openly available if you are developing an open source project, or can be shared only with your collaborators. In the chapter {ref}`pd-project-repo`, you can learn about how to set up a repository with key documents like a landing page, contribution guidelines and communication pathways.
+إنشاء مستودع مشترك للسماح بسهولة الوصول إلى المعلومات والوثائق المختلفة المتعلقة بمشروعك. يمكن أن يكون مستودع المشروع متاحا علنا إذا كنت تقوم بتطوير مشروع مفتوح المصدر، أو يمكن مشاركته فقط مع المتعاونين معك. في الفصل {ref}`pd-project-repo`، يمكنك معرفة كيفية إنشاء مستودع مع وثائق رئيسية مثل صفحة هبوط، ومبادئ توجيهية للمساهمة ومسارات الاتصال.
 
-Start by documenting your vision, mission, goals and roadmap in a README file (see the {ref}`pd-project-repo-readme` chapter), followed by a description of resources and norms for collaboration and communication. In the next chapter, we discuss how project design enables good communication and collaboration in research. In the subsequent chapters, we describe different methods and tools for ensuring research reproducibility.
+ابدأ بتوثيق رؤيتك ورسالتك وأهدافك وخريطة الطريق في ملف README (انظر {ref}`pd-project-repo-readme` فصل )، ويلي ذلك وصف للموارد وقواعد التعاون والاتصال. وفي الفصل التالي، نناقش كيف يمكن تصميم المشروع من التواصل الجيد والتعاون في البحوث. وفي الفصول اللاحقة، نصف مختلف الأساليب والأدوات لضمان قابلية البحوث للاستنساخ.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

@@ -1,27 +1,27 @@
 (rr-overview-resources)=
-# Resources
-For additional resources like videos and reference papers on reproducibility, see the {ref}`rr-overview-resources-reading` and {ref}`rr-overview-resources-addmaterial` sections.
+# 资源
+欲了解更多的资源，如可复制性视频和参考文件，请参阅 {ref}`rr-overview-resources-read` 和 {ref}`rr-overview-addmateri` 章节。
 
-(rr-overview-resources-learn)=
-## What to Learn Next?
-{ref}`rr-open` would be a good chapter to read next. If you want to start learning hands-on practices, we recommend reading the {ref}`rr-vcs` chapter next.
+(rr-overview-resource-learn)=
+## 下一步学习什么？
+{ref}`rr-open` 将是一个很好的章节来阅读下一个内容。 如果您想要开始学习实践，我们建议下面阅读 {ref}`rr-vcs` 章节。
 
-(rr-overview-resources-reading)=
-## Further Reading
+(rr-overview-resource-reading)=
+## 进一步阅读
 
-* Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
+* Baker, M. (2016). 1 500名科学家提升了可再生性。 自然，533(7604)，452-454。 https://doi.org/10.1038/533452a
 
-* Barba, L. (2017): Barba-group Reproducibility Syllabus. figshare. Paper. https://doi.org/10.6084/m9.figshare.4879928.v1
+* Barba, L. (2017): Barba-group Reduciability Sylllabus. figure share. 文件。 https://doi.org/10.6084/m9.figshare.4879928.v1
 
-* Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data citation advantage. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
+* Piwowar, H. A., & Vision, T. J. (2013). 数据再利用和开放数据引证优势。 PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
 
-* Whitaker, Kirstie (2018): Barriers to reproducible research (and how to overcome them). figshare. Paper. https://doi.org/10.6084/m9.figshare.7140050.v2
+* Whitaker, Kirstie (2018年)：可重复研究的障碍(以及如何克服这些障碍)。 figure share. 文件。 https://doi.org/10.6084/m9.figshare.7140050.v2
 
-(rr-overview-resources-addmaterial)=
-## Additional Material
+(rr-overview-resource-addmaterial)=
+## 附加材料
 
-### Useful Links
+### 有用的链接
 
-* Markowetz, F. (2018). 5 selfish reasons to work reproducibly. Slides available at https://osf.io/a8wq4/. Recording from a talk at  Data Stewardship TU Delft in 2019. [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
+* Markowetz, F. (2018). 5 个自私的工作理由。 幻灯片可访问 https://osf.io/a8wq4/。 2019年在 Data Stewardship TU Delft 录制。 [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q)。
 
-* Leipzig, J (2020). Awesome Reproducible Research: A curated list of reproducible research case studies, projects, tutorials, and media. Github repo. https://github.com/leipzig/awesome-reproducible-research
+* Leipzig, J (2020). 很棒的可再生研究：可再生研究案例研究、项目、教程和媒体的管理清单。 Github repo. https://github.com/leipzig/awesome-reducible-research

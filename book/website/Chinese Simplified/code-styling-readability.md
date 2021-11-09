@@ -1,90 +1,90 @@
 (pd-code-styling-readability)=
-# Writing Human Readable Code
+# 正在写入人类可读代码
 
-Writing clear, well commented, readable and re-usable code benefits not only you but the community (or audience) that you are developing it for. This may be your lab, external collaborators, stakeholders, or you might be writing open source software for global distribution! Whatever scale you work at, readability counts!
+撰写清晰、评论良好、可读和可重复使用的代码不仅有利于您，而且有利于您正在开发它的社区 (或听众)。 这可能是您的实验室、外部合作者、利益攸关者，或者您可能正在编写开放源码软件供全球发行！ 无论您工作的规模如何，可读性计数！
 
-Here are a few aspects to consider when making your code easy to read by others.
+下面是让其他人轻松阅读你的代码时要考虑的几个方面。
 
-## Line Length
+## 行长度
 
-There is some agreement on the length of the coding lines. PEP8 suggests a maximum of 79 characters per line and 80 by the R style guide. This means that the lines can easily fit on a screen, and multiple coding windows can be opened. It is argued that if your line is any longer than this then your function is too complex and should be separated! This is the crux of the Tidy method of R programming, which even has a special operator `%>%` which passes the previous object to the next function, so fewer characters are required:
+对于编码线的长度有一些一致意见。 PEP8建议每行最多79个字符，R风格指南最多80个字符。 这意味着行可以轻松地适合于屏幕，并且可以打开多个编码窗口。 有人争辩说，如果你的线比这更长，你的函数过于复杂，应该分开！ 这是R编程的Tidy方法的症结所在。 那些甚至有一个特殊运算符 `>%` 将前一个对象传递到下一个函数中， 这么少的字符是必需的：
 
 ```r
-recoded_melt_dat <- read_csv('~/files/2019-05-17_dat.csv') %>%
-recode() %>%
-melt() #We now have a recoded, melted dataframe called recoded_melt_dat
+后续_melt_dat_dat <- read_csv('~/files/2019-05-17_dat.csv') %>%
+recomde() %>%
+melt() #我们现在有一个已恢复、已熔化的数据框架被称作后盾_melt_dat
 ```
 
-## Commenting
+## 评论中
 
-Comments have been described as "Love letters to your future self" by Jon Peirce, creator of PsychoPy. Comments can be blocked or inline.  
-The PEP8 guidelines have firm suggestions that block comments should be full sentences, have two spaces following a period, and follow a dated style guide (Strunk and White). Fortunately the Elements of Style no longer 'requires' an unfair emphasis on masculine pronouns. Whereas inline comments should be used sparingly. Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes. The syntax for comments varies with programming languages. In R and Python, a hashtag is used, whereas in C and Java the brackets `/* /*` are used, and in C++/C# a double slash `//` comments single lines.
+心理创作者Jon Peirce将评论描述为“爱情信给你的未来”。 评论可以被屏蔽或内联。  
+PEP8准则有明确的建议，阻止评论应该是完整的句子， 一段时间后有两个空格，遵循一个过时的风格指南(Strunk 和 White)。 幸运的是，风格要素不再“要求”不公平地强调男性的言论。 内联注释应少量使用。 保持简明扼要的评论不仅使您能够随时了解您作出的各项决定， 它还允许其他人看到你的思维过程。 评论语法因编程语言而异。 在 R 和 Python 中使用了一个标签，而在 C 和 Java 中使用了 `/* /*` 的括号。 在 C++C# 中，双斜杠 `//` 评论单行.
 
-In Python:
+Python：
 ```python
-times = 10 # Set integer
-my_variable = "my variable is %s times better than yours" %times #Set my_variable to a string
-print(my_variable) #print the value
+times = 10 # 设置整数
+my_variable = "我的变量是 %s 倍于你的变量" %times #set my_varies to a string
+print(my_variable) #打印值
 ```
 
-In R:
+在 R 中：
 ```r
-my_func = function(number){ #R function
+my_func = function(number)@un.org#R function
 
 (number * 5) - 2
-}
-print(my_func(2))
+
+print(my_func(2) )
 ```
 
-For longer comments, information can be included above the code block. In Python, you can use triple speech marks as a parenthesis. This will comment out anything in between.
+更长的评论可以在代码块上方包含信息。 在 Python 中，你可以使用三个语音标记作为括号。 这将评论两者之间的任何内容。
 
 ```python
 """
-The following function takes a number, multiplies it by 5, and subtracts 2.
-This may seem pointless but is simple for demonstration.
+以下函数需要一个数字, 乘以5, 并减去2.
+这可能看起来毫无意义，但对示威很简单。
 """
 def myfunc(numb): #python function
-      return((numb*5)-2)
+      return(numb*5)-2)
 print(myfunc(8))
 ```
-Longer blocks of comments are not available in R. There are ways around this, such as setting up a string, or an if(false) statement:
+在 R 中无法提供较长的评论方块。 围绕这个问题有一些方法，例如设置一个字符串或一个 if(false) 语句：
 
 ```r
-"1 - This is a string. It will not be evaluated by R, and will not raise
-and exception"
+“1-这是一个字符串。 它将不由R评估。 并且不会引起
+和异常”
 
-if(false){
-2 - All of your comment can go here and will never be evaluated.
-It also means you keep to the 80 character line length suggestion.
-Also, in RStudio you can fold away the comment using the arrow next to the
-line number of the if statement.
+if(false)
+- 您的所有评论都可以去这里并且永远不会被评估。
+这也意味着你要遵守80条字符行长建议。
+另外，在 RStudio 中，您可以使用语句的
+行数旁边的箭头折叠评论。
 }
 ```
 
-Or commenting out individual lines:
+或评论个别行：
 
 ```r
-#This is also a very long comment
-#covering many lines.
+#这也是一个非常长的评论
+#涵盖了许多行。
 ```
-Your IDE will probably have a keyboard shortcut for commenting out blocks.
+您的 IDE 可能有一个键盘快捷键来评论块。
 
-## Indentation
+## 缩进
 
-The R style guide suggests that lines should be separated:
+R样式指南建议应将行分开：
 ```r
-by
-  two spaces
+按
+  两个空格
 ```
-And not
+而不是
 ```r
- a mixture
-   of
-    tabs
-      and   spaces.
+ 一个
+    标签
+      和空格的组合
+   混合物。
 ```
 
-Obviously, sometimes the arguments of a function can far expand 80 characters. In this case, it is recommended that the second line be indented to the start of the arguments:
+显然，某个函数的参数有时可以大大扩展80个字符。 在这种情况下，建议将第二行缩进论点的开头：
 
 ```r
 my_variable <- a_really_long_function(data = "2019-05-17_Long_File_Name_2",
@@ -92,17 +92,17 @@ my_variable <- a_really_long_function(data = "2019-05-17_Long_File_Name_2",
 
 ```
 
-These are of course just guidelines, and you should choose elements that suit your coding style. However, and again, it is important to ensure that you are consistent when collaborating, and can agree on a common style. It could be useful to create a readme file describing your coding style so collaborators or contributors can follow your lead.
+这些当然只是准则，你应该选择适合你编码风格的元素。 然而，同样重要的是，必须确保你在协作时前后一致，并能够商定一种共同的方式。 创建一个描述您编码风格的读取文件可能是有用的，因此合作者或贡献者可以跟随您的引导。
 
-### ...end. ...end.  ...or end.\\n
+### ...结束 ...结束  ...或者结束.\\n
 
-If you are sharing text files or working collaboratively on manuals or documents, then there is a lot of controversy surrounding whether to use one or two spaces after a period. When using Markdown, it can be clearer to include a new line after every sentence. This chapter (and most, if not all, of this book) has a new line after every sentence that makes the raw text easier to read, review and solve the spacing issue.
+如果您正在共享文本文件或在手册或文件上协作， 然后在一段时间后是否使用一两个空间的问题上存在许多争议。 在使用Markdown时，在每句之后增加一条新的线可以更加清楚。 本章(以及本书的大部分(如果不是全部的话)在每句话之后都有一个新的行，从而使原始案文更容易阅读， 审查并解决间隔问题。
 
 ```{figure} ../../figures/xkcd1285.png
 ---
-height: 500px
+高度: 500px
 name: xkcd1285
-alt: Two groups holding different flags and fighting, one says "two spaces after a period" and other says "one space after a period". While a person stands with their flag that says "Line break after every sentence"
----
-*Line break after each sentence makes it easy to review and comment - [XKCD Link](https://www.explainxkcd.com/wiki/index.php/1285:_Third_Way)*
+alt: 两个组持有不同的标志和战斗, 其中一句话是“一段时间之后的两个空间”，另一句话则说“一段时间之后的一个空间”。 当一个人站在他们的旗帜上说"每句后断开线"
+--
+*每句后断开线使得它容易审查和评论 - [XKCD Link](https://www)。 xplaxkcd.com/wiki/index.php/1285:_Third_Way*
 ```

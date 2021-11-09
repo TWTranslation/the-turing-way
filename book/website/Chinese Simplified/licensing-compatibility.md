@@ -1,227 +1,227 @@
 (rr-licensing-compatibility)=
-# License Compatibility
+# 许可兼容性
 
-If you use multiple external components in your program, then you may end up with multiple different constraints on the license of the combined work. If these constraints conflict, then you cannot legally distribute the result (if proprietary software is involved, then you may not legally be able to make the combined work at all).
+如果您在程序中使用多个外部组件，那么您可能最终会对合并工作的许可证产生多个不同的限制。 如果这些制约因素发生冲突，那么您就不能合法地分发结果(如果涉及专利软件)。 因此，你可能在法律上根本无法完成这两项工作)。
 
-If two licenses specify incompatible constraints on the license of the combined work, then they are _incompatible_.
+如果两个许可协议指定了不兼容的混合工作许可限制，那么它们是 _不兼容的_。
 
-The GNU GPL, for instance, is incompatible with proprietary licenses, because it requires the combined work to be licensed under the GPL, with no additional restrictions allowed. Having a part of the work under a proprietary license is such an additional restriction, so you cannot distribute such a combination (unless the copyright owner of the GPL code gives special permission).
+例如，GNU GPL与专有许可证不兼容： 因为它要求合并工作必须在 GPL 下许可，但不允许附加限制。 持有专有许可证的部分作品是这种额外的限制， 所以您不能发布这种组合(除非GPL代码的版权所有者给予特殊的权限)。
 
-When you use different pieces of software together to solve a problem, and want to distribute the result, here are the questions you have to answer:
+当你使用不同的软件一起解决一个问题时， 并想要分发结果。这里是您必须回答的问题：
 
-- Which separate works are there, and what is derived from what?
-- Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
-- How should the work(s) be licensed?
+- 哪种不同的工作是在那里进行的，什么是从什么中得出的？
+- 能否分发衍生作品？ 许可证是否允许这样做，它们是否兼容？
+- 如何授予作品许可证？
 
-The next section shows some examples of how this is done.
+下一节举例说明了如何做到这一点。
 
-(rr-licensing-compatibility-examples)=
-## Examples
+(rr-licensing-compatibility-exampes)=
+## 示例：
 
-Many of the examples in this section relate to [xtas](http://xtas.net). xtas is a natural language processing toolkit for Python that reuses many third-party libraries, programs and data sets, and therefore provides a variety of excellent examples.
+本节中的许多示例涉及 [xtas](http://xtas.net)。 xtas 是 Python 的一个天然语言处理工具包，它会重新使用许多第三方库， 程序和数据集，因此提供了各种出色的例子。
 
 ```{figure} ../../figures/xtas-overview96.png
 ---
-name: xtas-overview96
-alt: A graphical overview of xtas. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Underneath this, there are three side-by-side squares, representing respectively Python libraries, software, and data, that are used by xtas. Within the Python libraries square, there are three boxes. The first box contains the words "BSD", "MIT" and "ALv2". The second box contains "LGPLv2.1". The third box contains "GPLv2+". Within the Software square, there are four boxes. The first box contains "Web Service". The second box contains "LGPL v2.1+". The third box contains "Research only", and the fourth box contains "GPL 2+/3+". The Data square also contains four boxes. The first box contains "CC BY-SA 3.0". The second box contains "Research Only". The third box contains "No license, US" and the fourth box contains "CoNLL'02 only".
+名称：xtas-overview.96
+ 一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 在这种情况下，有三个旁边的方块，分别代表Python图书馆、软件和数据被xtas使用。 Python图书馆广场内有三个盒子。 第一个方框包含“BSD”、“MIT”和“ALv2”等词语。 第二个方框包含“LGPLv2.1”。 第三个方框包含"GPLv2+"。 在软件广场内有四个盒子。 第一个框包含"网页服务"。 第二个方框包含"LGPL v2.1+"。 第三个方框包含“仅研究”，第四个方框包含“GPL 2+/3+”。 数据方框还包含四个方框。 第一个方框包含"CCBY-SA 3.0"。 第二个方框包含“只研究”。 第三个方框包含“无许可证，美国”，第四个方框包含“仅适用于CoNL'02”。
 ---
-A graphical overview of xtas.
+xtas的图形概述。
 ```
 
-xtas itself is written in Python, and it uses a number of Python libraries that are licensed under common free licenses. These include the simple permissive BSD and MIT licenses, the permissive Apache License version 2.0 (ALv2), the GNU Lesser General Public License version 2.1 (LGPLv2.1), and the GNU General Public License version 2 or later (GPLv2+).
+xtas 本身是用Python写的，它使用了一些Python库，这些库是使用共同的免费许可证授权的。 这些包括简单的 BSD 和 MIT 许可证，允许的 Apache 许可证版本 2。 （ALv2）、GNU 较低一般公共许可证版本2.1（LGPLv2.1）和GNU 通用公共许可证版本2或更高版本（GPLv2+）。
 
-(Note that the dependency on the GPLv2+ Python library is deprecated, but for the sake of these examples, we will assume it to still be there.)
+(请注意，对 GPLv2+ Python 库的依赖已经废弃， 但为了这些例子，我们将假定仍然存在。)
 
-xtas' Python code is distributed under the Apache License version 2.0. Since the xtas authors own the copyright, they can license it any way they like (although there is a gray area concerning GPL dependencies, see below). The xtas authors do not distribute any combined works or binaries, but in the examples below, we will assume that there is a combined work, so that we can consider how it should be licensed.
+xtas的 Python 代码在 Apache 许可版本 2.0 下分发。 既然xtas作者拥有版权。 他们可以以他们喜欢的任何方式许可它(尽管对GPL依赖关系有灰色区域, 见下文)。 xtas 作者不分发任何合并作品或二进制作品，但在下面的示例中 我们将假定有一项联合工作，以便我们能够考虑如何才能获得许可。
 
-In the following examples, we will simplify most of this away and look at one or a few dependencies in turn.
+在下面的例子中，我们将简化其中大部分内容，依次看待一种或几种依赖关系。
 
 (rr-licensing-compatibility-examples-apachevsbsd)=
-### Apache vs. BSD
+### Apache 与 BSD
 
 ```{figure} ../../figures/xtas-snowball96.png
 ---
-name: xtas-snowball96
-alt: An illustration of the xtas vs. Snowball example.  A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Snowball Stemmer" and "Python lib BSD".
+名称：xtas-snowball96
+alt: xtas vs. Snowball的示例.  一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个正方形，包含“雪球钢铁”和“Python lib BSD”。
 ---
-An illustration of the xtas vs. Snowball example.
+是 xtas 和 Snowball的示例。
 ```
 
-xtas uses [Snowball](https://snowballstem.org/), a Python-based stemming library. Snowball is published under the 3-clause BSD license. Considering only xtas and Snowball, we can answer the three questions as follows:
+xtas 使用 [雪球](https://snowballstem.org/), 一个基于 Python 的根库。 雪球是在三个条款BSD 许可证下发布的。 只考虑到xtas和Snowball，我们可以回答以下三个问题：
 
-#### Which separate works are there, and what is derived from what?
+#### 哪种不同的工作是在那里进行的，什么是从什么中得出的？
 
-There are three works: Snowball, the xtas Python code, and the combined work xtas. The combined work is derived from Snowball and xtas Python code, which are both independent works.
+有三个作品：雪球、xtas Python 代码和合并工作 xta。 综合工作来自Snowball和xtas Python代码，这两者都是独立的工作。
 
-Note that the ALv2 and the LGPL v2.1 explicitly state that source code that is intended to work in combination with a library is not a derivative work, while the binary resulting from (statically or dynamically) linking the pieces together is. Other licenses, including the GPL, do not make any explicit statement about this.
+请注意ALv2和LGPL v2。 明确声明原本打算与图书馆结合使用的源代码不是衍生作品。 而双进制(静态或动态) 将块连接在一起则是。 包括GPL在内的其他许可证没有对此作出任何明确说明。
 
-As far as I know, there is no case law on this; we will assume it to be the case in these examples.
+据我所知，没有这方面的判例法；我们将假定这些例子是如此。
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### 能否分发衍生作品？ 许可证是否允许这样做，它们是否兼容？
 
-Snowball is licensed under a permissive license. It can be redistributed under that license, and there are no constraints on the license of derivative works. The xtas authors can license it any way they want.
+Snowball是在许可的许可下许可的。 它可以在该许可证下重新分发，衍生作品的许可证没有任何限制。 xtas 作者可以以他们想要的任何方式授权它。
 
-#### How should the work(s) be licensed?
+#### 如何授予作品许可证？
 
-The xtas Python code, and the xtas combined work, are licensed under the Apache License v2.0.
+xtas Python 代码和 xtas 合并工作是在 Apache 许可协议v2.0 下许可的。
 
-If xtas authors redistribute Snowball, they must do so under the BSD license granted by Snowball authors. (They cannot give additional permissions for Snowball, since they do not own the copyright, and additional restrictions would be unenforceable for the same reason.)
+如果xtas 作者重新发行雪球，他们必须使用Snowball作者颁发的 BSD 许可证这样做。 (他们不能授予Snowball更多的权限，因为他们并不拥有版权，出于同样的原因，其他限制将无法执行。)
 
 (rr-licensing-compatibility-examples-apachevslgpl)=
-### Apache vs. LGPL
+### Apache 与 LGPL
 
 ```{figure} ../../figures/xtas-chardet96.png
 ---
-name: xtas-chardet96
-alt: An illustration of the xtas vs. chardet example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "chardet" and "Python lib LGPLv2.1".
+名称：xtas-chardet96
+alt: xtas vs. chardet 示例. 一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个包含“chardet”和“Python lib LGPLv2.1”字样的正方形。
 ---
-An illustration of the xtas vs. chardet example.
+是 xtas 和 chart 示例的示例。
 ```
 
-xtas uses [chardet](https://pypi.org/project/chardet/), a Python library for detecting the character set used in a string of text. Chardet is published under the GNU Lesser General Public License v2.1. Considering only xtas and chardet, we can answer the three questions as follows.
+xtas 使用 [chardet](https://pypi.org/project/chardet/), 一个 Python 库用于检测文本字符集。 此图表在 GNU 较低一般公共许可证v2.1下发布。 只考虑到xtas和xtage，我们可以回答以下三个问题。
 
-#### Which separate works are there, and what is derived from what?
+#### 哪种不同的工作是在那里进行的，什么是从什么中得出的？
 
-There are three works: chardet, the xtas Python code, and the combined work. The combined work is derived from chardet and xtas Python code. The others are independent works.
+有三个作品：图表、xtas Python 代码和合并工作。 合并工作来自字符串和 xtas Python 代码。 其他是独立的工作。
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### 能否分发衍生作品？ 许可证是否允许这样做，它们是否兼容？
 
-Chardet is licensed under a weak copyleft license, so it can be redistributed under the terms of that license. Derivative works can be licensed under any license. However, the LGPL v2.1 requires that the recipient can (and is allowed to) modify the library and use the modified library with the derivative work.
+Chardet是使用软弱的左边许可证授权的，所以它可以根据该许可证的条款重新分配。 衍生作品可以根据任何许可授予执照。 然而，LGPL v2.1要求收款人可以(并被允许)修改图书馆，并用衍生作品使用经修改的图书馆。
 
-#### How should the work(s) be licensed?
+#### 如何授予作品许可证？
 
-xtas as a whole, and the xtas Python code, can be licensed in any way the authors want, so they used the Apache License v2.0. If they distribute chardet, they must do so under the LGPL v2.1 license granted by its copyright owners.
+整个xtas 和 xtas Python 代码可以被作者以任何方式授权，因此他们使用Apache License v2.0 如果他们发行钱，他们必须按照其版权所有人颁发的LGPL v2.1许可证这样做。
 
 (rr-licensing-compatibility-examples-apachevsgplv2)=
-### Apache vs. GPLv2
+### Apache 与 GPLv2
 
 ```{figure} ../../figures/xtas-unidecode96.png
 ---
-name: xtas-unidecode96
-alt: An illustration of the xtas vs. unidecode example. The large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
+名称：xtas-unidecode96
+alt: xtas vs. unidecode 示例. 大长方形代表合并工作 xtas。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个正方形，包含“unidecode”和“Python lib GPLv2+”。
 ---
-An illustration of the xtas vs. unidecode example.
+是 xtas vs unidecode 示例的示例。
 ```
 
-xtas previously used [unidecode](https://pypi.org/project/Unidecode/), a Python library for converting text encoded according to The Unicode® Standard into an ASCII approximation of it. Unidecode is published under the GNU General Public License version 2 or later (GPLv2+). Considering only xtas and unidecode, we can answer the three questions as follows.
+xtas 先前使用 [unidecode](https://pypi.org/project/Unidecode/), Python 库，用于转换以 Unicode® Standard into a ASCII 近似值。 Undecode 发布在 GNU 通用公共许可证第2版或以后版本(GPLv2+)。 只考虑到xtas和unidecode，我们可以回答以下三个问题。
 
-#### Which separate works are there, and what is derived from what?
+#### 哪种不同的工作是在那里进行的，什么是从什么中得出的？
 
-There are three works: unidecode, the xtas Python code, and the combined work. The combined work derives from unidecode and the xtas Python code.
+有三项工作：unidecode、xtas Python代码和合并工作。 综合工作产生于Unidecode和xtas Python代码。
 
-Whether the xtas Python code is a derivative work of unidecode is not clearly defined by the law, and there is no case law on this. The Apache license and the LGPL explicitly state that it is not for the purpose of those licenses, but the GPL does not contain such a clause.
+xtas Python代码是否是Unidecode的衍生作品，法律没有明确界定。 而且没有这方面的判例法。 Apache许可和LGPL明确声明它不是为了这些许可目的： 但GPL没有载有这样的条款。
 
-As they are developed separately, and there is no code from unidecode in the xtas code, we assume here that it is not a derivative work.
+由于它们是单独开发的，而且在xtas代码中没有来自unidecode的代码， 我们在这里认为，这不是一项衍生的工作。
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### 能否分发衍生作品？ 许可证是否允许这样做，它们是否兼容？
 
-Unidecode is licensed under a strong copyleft license, so it is redistributed under the terms of that license. Derivative works must be licensed under the same license.
+Undecode 是使用强大的复制左边许可，因此它是根据该许可条款重新分配的。 衍生作品必须在同一许可证下领取执照。
 
-Unidecode is licensed under the GPL version 2 or later. This is known as a _disjunctive license_. The copyright owners of unidecode offer everyone a GPLv2 license, but also a GPLv3 license, and even proactively any later version of the GNU GPL that may be created in the future. A potential user may choose to accept any one of these licenses, or a combination of them, if they want to copy the work or make derivative works.
+Undecode 是在 GPL 版本 2 或更高版本下授权的。 这被称为 _禁用许可证_。 Unidecode的版权所有者向每个人提供GPLv2许可，但也提供GPLv3许可， 甚至主动地将来可能创建的 GNU GPL 的任何以后版本。 潜在的用户可以选择接受其中的任何一项许可， 如果他们想要复制作品或制作衍生物作品，或者它们的组合。
 
-#### How should the work(s) be licensed?
+#### 如何授予作品许可证？
 
-If the xtas authors distribute unidecode, they should do so under the GPL version 2 or higher, as arbitrarily removing licenses from someone else's code does not make sense. The combined work xtas must be distributed under the same licenses or a subset of them. The xtas Python code can be licensed in any way they want.
+如果xtas 作者分发了unidecode，他们应该在GPL 2或更高版本下分发， 因为任意从别人的代码中删除许可证是没有道理的。 合并工作xtas必须以同样的许可证或其中的一个子集进行分配。 xtas Python 代码可以以他们想要的任何方式被授权使用。
 
-The xtas authors should choose a license for the xtas Python code that is compatible with at least one of the licenses that unidecode can be distributed under so that others can assemble and distribute combined works. The ALv2 is compatible with the GPLv3 (but not with the GPLv2, for technical reasons), so they can use it here.
+xtas 作者应选择一个 xtas Python 代码的许可证，这种代码与至少一种许可证兼容，这种许可证可以根据Unidecode 进行分发，以便他人能够组装和分发合并的作品。 ALv2兼容GPLv3(但出于技术原因不符合GPLv2)，所以他们可以在这里使用。
 
-The combined work should then be licensed under the GPL version 3 or later. If it is important that it can be used under the GPLv2 as well, then the xtas authors can license the xtas Python code under both the ALv2 and the GPLv2 (meaning, they offer both licenses, and the user can choose to accept either or both), and the combined work under the GPL version 2 or later.
+然后应以第三版GPL颁发许可证。 如果重要的是，它也可以在GPLv2下使用， 然后xtas 作者可以通过 ALv2 和 GPLv2 授权的 xtas Python 代码(意思， 他们提供两种许可，用户可以选择接受其中一种或两种方式，并提供GPL版本2或更高版本的合并工作。
 
-Finally, it may be decided later that the xtas Python source code is a derivative work of unidecode because it calls into it. Even if none of unidecode is included in the work, then the xtas authors must distribute the xtas Python code under at least one of the GPL licenses that unidecode is distributed under. In that case, they can offer xtas under the ALv2 and GPLv2+ set of licenses.
+最后，可以稍后决定，xtas Python 源代码是Unidecode的衍生作品，因为它被调用。 即使工作中没有任何未列入的未列入化学品， 然后，xtas 作者必须在至少一种GPL 许可证下发布的 xtas Python 代码。 在这种情况下，他们可以根据ALv2和GPLv2+一套许可证提供xtas。
 
-The simplest solution, in this case, would be to simply license the xtas Python code and the derived work under the GPLv3.
+在这种情况下，最简单的解决办法是简单地授权xtas Python代码和由此产生的GPLv3下的工作。
 
-As is probably clear by now, dependencies that are under a strong copyleft license complicate your life if you want people to be able to make proprietary works based on your software.
+现在可能已经很清楚。 如果你想让人能够根据你的软件制作专利作品，那么你的依赖关系会使你的生活更加复杂。
 
 (rr-licensing-compatibility-examples-apachevsall)=
-### Apache vs BSD vs LGPL vs GPLv2
+### Apache vs BSD vs LGPL vs GPL
 
 ```{figure} ../../figures/xtas-all-python-libs96.png
 ---
-name: xtas-all-python-libs96
-alt: An illustration of the xtas and all Python libraries example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below this, there are three squares. The first square contains the words "Snowball" and "Python lib BSD". The second square contains "chardet" and "Python lib LGPLv2.1". The third square contains the words "unidecode" and "Python lib GPLv2+".
+名称：xtas-all-python-libs96
+Albt：xtas和所有 Python 库的示例说明。 一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面有三个正方形。 第一个方块包含"雪球"和"Python lib BSD"。 第二个方块包含“chardet”和“Python lib LGPLv2.1”。 第三个方格包含“unidecode”和“Python lib GPLv2+”。
 ---
-An illustration of the xtas and all Python libraries example.
+是xtas和所有 Python 库的示例。
 ```
 
-Now, we will consider all three of the above examples at the same time.
+现在，我们将同时审议上述所有三个例子。
 
-#### How many separate works are there, and what is derived from what?
+#### 有多少工作独立？ 从什么中得出什么结果？
 
-There are five works: Snowball, chardet, unidecode, the xtas Python code, and xtas the combined work. The combined work is derived from all its components.
+有五个作品：雪球、图纸、未命名、xtas Python 代码和xtas 合并工作。 这项综合工作源自其所有组成部分。
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### 能否分发衍生作品？ 许可证是否允许这样做，它们是否兼容？
 
-The four non-xtas components are under free software licenses, and the xtas authors own the copyright to the xtas Python code, so all five components can be distributed by the xtas authors. The BSD, LGPLv2.1 and GPLv2+ all allow licensing the combined work under the GPL version 2 or higher, so there is at least one license that the combined work can be licensed under.
+四个非xtas组件属于免费软件许可证，xtas作者拥有xtas Python代码的版权。 这样，所有五个组件都可以由 xtas 作者分发。 BSD, LGPLv2。 和 GPLv2+ 都允许对 GPL 版本 2 或更高版本的合并工作进行许可， 所以至少有一份许可协议可以在下面授予合并工作。
 
-#### How should the work(s) be licensed?
+#### 如何授予作品许可证？
 
-The xtas Python code should be licensed under the Apache License v2 and the combined work under the GPL version 3 or higher. (See the {ref}`unicode example <rr-licensing-compatibility-examples-apachevsgplv2>` above for alternatives.)
+xtas Python 代码应该在 Apache License v2 下和GPL 3或更高版本下的合并工作授权使用。 (备选案文请参阅上面的 {ref}`Unicode 示例 <rr-licensing-compatibility-examples-apachevsgplv2>`。)
 
 
-### Call External Program
+### 呼叫外部程序
 
-xtas can run the [Stanford CoreNLP program](https://stanfordnlp.github.io/CoreNLP/), which is written in Java and distributed under the GNU GPL version 3 or later. When the user calls the corresponding xtas function, CoreNLP is started by xtas, the user's input is sent to it through a pipe, and then the CoreNLP output is handed back to the user or processed further.
+xtas 可以运行 [Stanford CoreNLP 程序](https://stanfordnlp.github.io/CoreNLP/)，它是在 Java 中写的，并且在 GNU GPL 版本 3 或更高版本下分发。 当用户调用对应的 xtas 函数时，CoreNLP 由 xtas： 用户的输入通过管道发送给它，然后将CorenLP的输出交还给用户或进一步处理。
 
 ```{figure} ../../figures/xtas-corenlp1-96.png
 ---
-name: xtas-corenlp1-96
-alt: An illustration of the xtas vs. CoreNLP example. The square represents the combined work xtas. Within this square, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Stanford CoreNLP" and "Java program GPLv3+".
+名称：xtas-corenlp1-96
+alt: xtas 与 CoreNLP 示例的图示. 方形代表合并工作xta。 在这个正方形中，顶部有一个低方形，代表了在 Apache License v2 下许可的 xtas Python 代码。 下面是一个正方形，其中包含"Stanford CorenNLP"和"Java program GPLv3+"。
 ---
-An illustration of the xtas vs. CoreNLP example.
+是 xtas 与 CoreNLP 示例的示例。
 ```
 
-One interpretation of this situation is that it is no different from calling a function in a library and that any distribution of xtas, as a whole, including CoreNLP, should therefore be under the GPLv3+. Contributing to this interpretation is the fact that xtas will download and install CoreNLP automatically if needed.
+对这种情况的一种解释是，它与在图书馆中调用一个函数没有什么不同，而且任何xtas的分发， 因此，包括科雷尼尔民主党在内的整个国家都应置于GPLv3+之下。 如果需要，xtas将自动下载并安装 CoreNLP ，这有助于这种解释。
 
 ```{figure} ../../figures/xtas-corenlp2-96.png
 ---
-name: xtas-corenlp2-96
-alt: Another illustration of the xtas vs. CoreNLP example. The square on the left represents the combined work xtas. Within this square, there is a rectangle representing the xtas Python code, licensed under the Apache License v2. On the right is a separate square representing CoreNLP, with the text "Stanford CoreNLP" and "Java program GPLv3+". Between the squares are two arrows, one at the top pointing from xtas to CoreNLP, and one at the bottom pointing from CoreNLP to xtas.
+名称：xtas-corenlp2-96
+备选案文：另一个 xtas 与 CoreNLP 示例。 左侧的方形代表合并工作xtas。 在这个正方形内有一个长方形代表了在 Apache 许可协议v2 下许可的 xtas Python 代码。 右侧是一个代表CorenNLP的单独方形，其文字是“Stanford CorenNLP”和“Java program GPLv3+”。 两个正方形之间有两条箭头，一条是从xtas到CorenNLP的顶部，另一条是从CorenLP到xtas的底部。
 ---
-Another illustration of the xtas vs. CoreNLP example.
+另一个 xtas 与 CorenNLP 示例。
 ```
 
-Another interpretation is that xtas and CoreNLP are separate works and that xtas merely communicates with CoreNLP over its standard user interface.
+另一种解释是，xtas和CoreNLP是分开的工作，xtas只是就其标准用户界面与CorreNLP联系。
 
-In this interpretation xtas is a separate program that helps a user use the CoreNLP program from the Python language, and not a derivative work of CoreNLP. One can consider xtas analogous to a package installer and a command shell here, which are clearly not derivative works of the packages they install or the programs they start.
+在这个解释中，xtas是一个帮助用户使用Python语言的 CoreNLP 程序的单独程序。 而不是CorenLP的衍生作品。 我们可以在这里考虑类似于包安装程序和命令外壳的xtas。 它们显然不是他们安装的包或他们启动的程序的衍生作品。
 
-Under this interpretation, xtas as a whole (not including CoreNLP) can be distributed under any given license (subject to restrictions imposed by its other dependencies of course).
+根据这一解释， xtas 整体(不包括CoreNLP)可在任何特定许可证下分发(但须受其他依赖方的限制)。
 
-In practice, the xtas authors do not distribute CoreNLP at all; they only distribute the xtas Python code, under the Apache License version 2.
+实际上，xtas作者根本没有分发CorreNLP。他们只是发行Apache License 第二版的 xtas Python 代码。
 
 
-### GPLv3 vs Proprietary License
+### GPLv3与专有许可证
 
-In this example project we want to combine the [OpenIFS global circulation model](https://confluence.ecmwf.int/display/OIFS) with the [DALES large-eddy simulation model](https://github.com/dalesteam/dales). Both these models are available as libraries, so the project entails combining the OpenIFS and Dales libraries into a single program.
+在这个示例项目中，我们想把 [OpenIFS 全局循环模型](https://confluence.ecmwf.int/display/OIFS) 与 [DALES 大编辑模拟模型](https://github.com/dalesteam/dales) 结合起来。 这两种模型都可以作为图书馆使用，所以该项目需要将OpenIFS 和 Dales 图书馆合并为一个程序。
 
-(This is a simplified example, the reality of this project is a notch or two more complicated, and the below is not exactly what we do.)
+（这是一个简化的例子，这个项目的现实是一个或两个更复杂的节点。） 下面不是我们所做的。)
 
-The OpenIFS library (part of the ECMWF weather model code) is available under a proprietary license that allows running the program and making private modifications, but does not allow distributing the program or any derivatives. DALES is published under the GPL version 3.
+OpenIFS 库(ECMWF 天气模型代码的一部分)是一个专有许可证，允许运行程序和私下修改， 但不允许分配程序或任何衍生品。 DALES 发布于GPL版本3。
 
-#### How many separate works are there, and what is derived from what?
+#### 有多少工作独立？ 从什么中得出什么结果？
 
-There are four works: OpenIFS, DALES, the rest of the program written by us, and the combination of them all. The combined work is derived from its components.
+有四种作品：OpenIFS，DALES，我们编写的程序的其余部分，以及所有这些作品的组合。 综合工作源自其构成部分。
 
-#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+#### 能否分发衍生作品？ 许可证是否允许这样做，它们是否兼容？
 
-The OpenIFS license does not allow redistribution, so it cannot be distributed. DALES can be distributed, under the GPLv3. The rest of the program is written by us and can be licensed by us if we want to.
+OpenIFS 许可证不允许重新分发，所以无法分发。 DALES 可在GPLv3下分发。 程序的其余部分由我们撰写，如果我们想要，我们可以领取许可证。
 
-The whole combined work cannot be distributed, since it incorporates OpenIFS. If it did not include OpenIFS, it would have to be distributed under the GPLv3, because of the DALES dependency.
+整个合并工作无法分发，因为它包含OpenIFS。 如果它不包含 OpenIFS ，它就必须在 GPLv3 下分配，因为它依赖于DALES 。
 
-#### Can we work on this privately, without distributing anything?
+#### 我们能够私下工作而不分发任何东西吗？
 
-The GPL allows making private modifications of software covered by it, with no restrictions, provided the changed software is not distributed at all. The OpenIFS license also allows making private modifications. So we can work on this project (and prepare and run combined works) without violating the licenses, as long as we do not share the results with anyone.
+GPL允许对其所覆盖的软件进行私下修改，但没有任何限制，只要改变的软件根本没有分发。 OpenIFS 许可证也允许私密修改。 因此，我们可以在不违反许可证的情况下开展这一项目(并准备和运行综合工作)。 只要我们不与任何人分享结果。
 
-However, if we want to collaborate with someone outside our organization, this means that we exchange materials between different legal entities, which counts as distribution. We can do that with our own code (which we can even publish openly under the ALv2) and with DALES, but not with OpenIFS or any combined works.
+然而，如果我们想与我们组织以外的人合作，这意味着我们在不同的法律实体之间交换材料，这就算是分发。 我们可以通过自己的代码(我们甚至可以在ALv2之下公开出版)和DALES公司来做到这一点。 但不是 OpenIFS 或任何合成的作品。
 
-#### What other options are there in this kind of situation?
+#### 在这种情况下还有哪些其他选择？
 
-We can try to split up the system into independent programs that run in separate processes and communicate with each other over well-documented, generic interfaces. In this way, there would never be a combined work, just a few independent works that exchange information. However, to not be considered a single work, how separate the programs have to be is unclear.
+我们可以试图将该系统分成独立的程序，在不同的程序中运行，并通过有充分文件记载的通用接口相互沟通。 这样，就永远不会有一种合并的工作，只有少数独立的工作来交换信息。 然而，为了不被视为一项单一的工作，方案如何分开是不清楚的。
 
-We could also ask the OpenIFS and DALES copyright owners for permission to share combined works between our organization and the outsider. That would remove all uncertainty, but may not be practical in general.
+我们还可以要求OpenIFS和DALES版权所有人允许我们的组织与外界共享联合作品。 这将消除所有不确定性，但在总体上可能并不实际。
 
-Another option would be to replace one of the dependencies by one we write. This is usually impractical, both due to time constraints and because the new version would not have the scientific pedigree of the existing one.
+另一种选择是用我们写的一个依赖关系代替其中的一个。 这通常是不切实际的，这既是因为时间限制，也是因为新版本没有现有版本的科学基础。
 
-The fundamental issue here is that the GPL tries to make everyone shared stewards of the software we use, while proprietary software tries to keep control in the hands of a single owner.
+这里的根本问题是，全球公益物试图让每一个人共同管理我们所使用的软件。 而专利软件则试图将控制权控制在一个单一的所有者手中。
 
-Combining them in a single project is complicated and not without legal risk, and you should avoid it. If that is not possible, you should tread carefully.
+将它们合并在一个项目中是复杂的，并非没有法律风险，你应该避免。 如果无法做到这一点，你应该认真对待。

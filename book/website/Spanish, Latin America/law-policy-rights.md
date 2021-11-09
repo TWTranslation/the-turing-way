@@ -1,51 +1,51 @@
-(er-law-policy-rights)=
-# Human rights
+(er-ley-derechos-derecho)=
+# Derechos humanos
 
-Human rights and ethics have a close relationship, but they are defined and implemented differently.
+Los derechos humanos y la ética tienen una estrecha relación, pero se definen y aplican de forma diferente.
 
-## What are human rights?
+## ¿Qué son los derechos humanos?
 
-_All human beings are born free and equal in dignity and rights_ (Universal Declaration of Human Rights, Article 1.)
+_Todos los seres humanos nacen libres e iguales en dignidad y derechos_ (Declaración Universal de los Derechos Humanos, Artículo 1.)
 
-Human rights are the rights and freedoms that are inherent to every human being. They include rights like the rights to life, to equality before the law, to freedom from discrimination, to privacy, to education, and to health.
+Los derechos humanos son derechos y libertades inherentes a todo ser humano. Incluyen derechos como el derecho a la vida, a la igualdad ante la ley, a la libertad de discriminación, a la privacidad, a la educación y a la salud.
 
-Human rights are _universal_: they apply to every human being, without exception. Human rights are _inalienable_: they cannot be taken away or limited, except under very specific and defined circumstances. Human rights are _indivisible and interdependent_: we cannot have some rights without others.
+Los derechos humanos son _universales_: se aplican a todo ser humano, sin excepción. Los derechos humanos son _insignificantes_: no pueden ser arrebatados o limitados, excepto en circunstancias muy específicas y definidas. Los derechos humanos son _indivisibles e interdependientes_: no podemos tener algunos derechos sin otros.
 
-## What is human rights law?
+## ¿Qué es el derecho de los derechos humanos?
 
-Human rights law is made up of conventions and covenants - legal instruments - that are signed by countries. These instruments are legally binding: this means that all countries who sign up to them take on legal duties and obligations. These include the obligations to:
-- **respect**: to not do anything that violates human rights;
-- **protect**: to ensure that individuals and groups do not have their human rights abused or violated;
-- **fulfil**: to take action to make sure that individuals and groups are able to enjoy their human rights.
+El derecho de los derechos humanos está constituido por convenios y convenios -instrumentos jurídicos- firmados por los países. Estos instrumentos son jurídicamente vinculantes: esto significa que todos los países que los suscriben asumen obligaciones y obligaciones legales. Estas incluyen las obligaciones para:
+- **respeto**: no hacer nada que viole los derechos humanos;
+- **proteja**: para garantizar que las personas y grupos no sufran abusos o violaciones de sus derechos humanos;
+- **cumple**: tomar medidas para garantizar que las personas y los grupos puedan disfrutar de sus derechos humanos.
 
 <!--- add Scriberia human rights illustration here -->
 
-Some human rights law is made at global level, by the United Nations. There are nine [core human rights instruments](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). They include general instruments on civil and political rights, and on economic, social and cultural rights, as well as instruments that cover specific people, such as children or people with disabilities, or specific topics, such as torture or racial discrimination. Each of these instruments is overseen by a committee of experts: a 'treaty body.' Every few years, each country who has signed a human rights instrument has to report to the treaty body on how well they are implementing the treaty. The treaty body makes recommendations on how the country can continue to improve its implementation. The treaty bodies also periodically issue more detailed guidance on how to interpret different articles of their treaty, to help countries understand better what their obligations are.
+Algunas leyes de derechos humanos son promulgadas a nivel mundial por las Naciones Unidas. Hay nueve [instrumentos básicos de derechos humanos](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). Incluyen instrumentos generales sobre derechos civiles y políticos, y sobre derechos económicos, sociales y culturales, así como instrumentos que abarcan a personas específicas. tales como niños o personas con discapacidad, o temas específicos, como la tortura o la discriminación racial. Cada uno de estos instrumentos es supervisado por un comité de expertos: un "órgano del tratado". Cada pocos años cada país que ha firmado un instrumento de derechos humanos tiene que informar al organismo del tratado sobre lo bien que está aplicando el tratado. El organismo del tratado hace recomendaciones sobre cómo el país puede seguir mejorando su aplicación. Los órganos del Tratado también emiten periódicamente una orientación más detallada sobre cómo interpretar los diferentes artículos de su tratado, para ayudar a los países a entender mejor cuáles son sus obligaciones.
 
-There are also regional human rights instruments:
-- [African Charter on Human and People's Rights](https://au.int/en/treaties/african-charter-human-and-peoples-rights), which covers 54 of the 55 members of the [African Union](https://au.int/en/member_states/countryprofiles2).
-- [American Convention on Human Rights](http://cidh.oas.org/Basicos/English/Basic3.American%20Convention.htm), which covers 23 of the 35 members of the [Organization of American States](http://www.oas.org/en/about/member_states.asp).
-- [European Convention on Human Rights](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005), which covers the 47 members of the [Council of Europe](https://www.coe.int/en/web/about-us/our-member-states).
-- [Charter of Fundamental Rights of the European Union](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT), which covers the 27 members of the [European Union](https://europa.eu/european-union/about-eu/countries_en)
+También hay instrumentos regionales de derechos humanos:
+- [Carta africana sobre los derechos humanos y de las personas](https://au.int/en/treaties/african-charter-human-and-peoples-rights), que abarca 54 de los 55 miembros de la [Unión Africana](https://au.int/en/member_states/countryprofiles2).
+- [Convención Americana de Derechos Humanos](http://cidh.oas.org/Basicos/English/Basic3.American%20Convention.htm), que cubre 23 de los 35 miembros de la [Organización de Estados Americanos](http://www.oas.org/en/about/member_states.asp).
+- [Convención Europea de Derechos Humanos](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005), que cubre a los 47 miembros del [Consejo de Europa](https://www.coe.int/en/web/about-us/our-member-states).
+- [Carta de los Derechos Fundamentales de la Unión Europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT), que cubre a los 27 miembros de la [Unión Europea](https://europa.eu/european-union/about-eu/countries_en)
 
-Some countries have ratified some of the treaties that apply to them: this means that they have incorporated the content of the the treaties into their national law. Many countries also have a national human rights institution, which independently monitors and investigates human rights violations in that country, and advises the government on implementing their obligations.
+Algunos países han ratificado algunos de los tratados que se les aplican: esto significa que han incorporado el contenido de los tratados a su legislación nacional. Muchos países también tienen una institución nacional de derechos humanos, que controla e investiga independientemente las violaciones de los derechos humanos en ese país. y asesora al gobierno en el cumplimiento de sus obligaciones.
 
-Countries that have signed treaties have committed to implementing them. However, the process of implementing treaties in full, so that every person in a country can enjoy all the rights in a treaty, is very long and requires lots of actions from states. Campaigning groups, including non-governmental organisations, work to narrow the gap between what countries have promised to do, and what they have actually done so far. Some campaigning groups are international and work on lots of different human rights issues. Some work only on a small number of issues, or in a small area of the world.
+Los países que han firmado tratados se han comprometido a aplicarlos. Sin embargo, el proceso de aplicación íntegra de los tratados, de modo que todas las personas de un país puedan disfrutar de todos los derechos en un tratado, es muy largo y requiere muchas acciones por parte de los Estados. Los grupos armados, incluidas las organizaciones no gubernamentales, trabajan para reducir la brecha entre lo que los países han prometido hacer y lo que realmente han hecho hasta ahora. Algunos grupos de campaña son internacionales y trabajan en muchas cuestiones de derechos humanos diferentes. Algunos sólo trabajan en un pequeño número de cuestiones o en una pequeña zona del mundo.
 
-## How do human rights apply to data science and research ethics?
+## ¿Cómo se aplican los derechos humanos a la ética de la ciencia de los datos y la investigación?
 
-Human rights are defined in law. This means in many ways they are less malleable than ethics. The letter of human rights, and the ways that they are implemented, are agreed internationally, A violation of human rights is a violation wherever it happens. This is not necessarily true of codes of ethics. An action that one group of people sees as ethical, may be seen as unethical by others. There is a wider shared understanding of what human rights means across different countries, cultures and groups of people. There are accountability and enforcement mechanisms. But because they are a legal framework, they are not as easily accessible, and hard to apply to the daily work of data science and research.
+Los derechos humanos están definidos en la ley. Esto significa que en muchos sentidos son menos maleables que la ética. La carta de los derechos humanos y la forma en que se aplican, se acuerdan internacionalmente, Una violación de los derechos humanos es una violación dondequiera que suceda. Esto no es necesariamente cierto en el caso de los códigos éticos. Una acción que un grupo de personas considera ética, puede ser vista como poco ética por otros. Existe una mayor comprensión compartida de lo que significan los derechos humanos en diferentes países, culturas y grupos de personas. Hay mecanismos de rendición de cuentas y de ejecución. Pero como son un marco jurídico, no son tan fácilmente accesibles. y difícil de aplicar al trabajo diario de la ciencia de los datos y la investigación.
 
-Human rights treaties are signed by countries: that means that ultimately, it is countries that are held responsible for violations of human rights. However, that does not mean that researchers and data scientists are exempt from thinking about the human rights impact of their work!
+Los países firman tratados sobre derechos humanos: eso significa que, en última instancia, son los países los responsables de las violaciones de los derechos humanos. Sin embargo, esto no significa que los investigadores y los científicos de datos estén exentos de pensar sobre el impacto de su trabajo en materia de derechos humanos.
 
-The UN has produced specific guidance for companies on how to ensure that they respect human rights: the [UN Guiding Principles on Business and Human Rights](https://www.business-humanrights.org/en/big-issues/un-guiding-principles-on-business-human-rights/). Companies should comply with these Guiding Principles.
+Las Naciones Unidas han elaborado una guía específica para las empresas sobre cómo garantizar que respetan los derechos humanos: los [Principios Guiantes de las Naciones Unidas sobre Negocios y Derechos Humanos](https://www.business-humanrights.org/en/big-issues/un-guiding-principles-on-business-human-rights/). Las empresas deben cumplir con estos principios de guía.
 
-NGOs and other campaigning organisations also produce guidance on specific areas:
-- [The Toronto Declaration: Protecting the rights to equality and non-discrimination in machine learning systems](https://www.accessnow.org/the-toronto-declaration-protecting-the-rights-to-equality-and-non-discrimination-in-machine-learning-systems/)(_prepared by Amnesty International and Access Now and it has been endorsed by Human Rights Watch and Wikimedia Foundation_)
+Las ONG y otras organizaciones dedicadas a la campaña también ofrecen orientación sobre áreas específicas:
+- [Declaración de Toronto: Proteger los derechos a la igualdad y la no discriminación en los sistemas de aprendizaje automático](https://www.accessnow.org/the-toronto-declaration-protecting-the-rights-to-equality-and-non-discrimination-in-machine-learning-systems/)(_preparada por Amnistía Internacional y Acceso Ahora y ha sido refrescada por la Fundación Human Rights Watch y Wikimedia_)
 
-Making sure that research complies with human rights is not just about ensuring that it doesn't harm. It can also be about doing work that is actively pro-rights.
+Asegurarse de que la investigación cumple con los derechos humanos no consiste sólo en garantizar que no daña. También puede tratarse de hacer un trabajo que esté activamente a favor de los derechos humanos.
 
-Researchers and data scientists should, in general ensure that they:
-- **respect** human rights: this means not doing work that itself abuses human rights
-- **protect** human rights: this means trying to ensure that their work cannot be used by others to abuse human rights
-- **fulfil** human rights: this means doing work that actively helps other people be able to enjoy all their human rights
+Los investigadores y los científicos de datos deberían, en general, garantizar que ellos:
+- **respetar** los derechos humanos: esto significa no hacer un trabajo que abusa de los derechos humanos
+- **proteger** los derechos humanos: esto significa intentar asegurar que su trabajo no pueda ser utilizado por otros para abusar de los derechos humanos
+- **cumplir** los derechos humanos: esto significa hacer un trabajo que ayude activamente a otras personas a disfrutar de todos sus derechos humanos

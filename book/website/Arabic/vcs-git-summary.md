@@ -1,22 +1,22 @@
-(rr-vcs-git-summary)
-# Summary Table of Git Commands
+(rr-vcs-git-summar)
+# جدول موجز لأوامر Git
 
-| Command                         | Use                                                                          |
-| ------------------------------- | ---------------------------------------------------------------------------- |
-| `git init`                      | Initialises a Git repository in that directory                               |
-| `git add .`                     | Adds all changes to the staging area to be committed                         |
-| `git add file_name`             | Adds changes to the specified file to the staging area to be committed       |
-| `git commit`                    | Commits staged changes and allows you to write a commit message              |
-| `git checkout SHA`              | Checks out a past commit with the given SHA                                  |
-| `git checkout SHA -- file_name` | Checks out the past version of a file from the commit with the given SHA     |
-| `git checkout -b branch_name`   | Creates and switches to a new branch                                         |
-| `git checkout branch_name`      | Switches to the specified branch                                             |
-| `git merge branch_name`         | Merges the branch you are on into the specified branch                       |
-| `git log`                       | Outputs a log of past commits with their commit messages                     |
-| `git status`                    | Outputs status, including what branch you are on and what changes are staged |
-| `git diff`                      | Outputs the differences between the working directory and most recent commit |
-| `git diff thing_a thing_b`      | Outputs the differences between two things, such as commits and branches     |
-| `git clone URL`                 | Makes a clone of the repository at the specified URL                         |
-| `git remote add origin URL`     | Links a local repository and an online repository at the specified URL       |
-| `git push origin branch_name`   | Pushes local changes to the specified branch of the online repository        |
-| `git pull origin branch_name`   | Pull changes from the online repository into local repository                |      
+| أمر                              | استخدام                                                                             |
+| -------------------------------- | ----------------------------------------------------------------------------------- |
+| `git init`                       | تهيئة مستودع Git في ذلك الدليل                                                      |
+| `git يضاف`                       | يضيف جميع التغييرات إلى منطقة التجهيز المراد الالتزام بها                           |
+| `git إضافة ملف_اسم`              | يضيف التغييرات إلى الملف المحدد إلى منطقة التجهيز المراد الالتزام بها               |
+| `التزام git`                     | يلتزم بالتغييرات المرحلية ويسمح لك بكتابة رسالة التزام                              |
+| `Git الخروج SHA`                 | إخراج الالتزام السابق مع SHA المعطى                                                 |
+| `git الخروج SHA -- file_name`    | تحقق من الإصدار السابق من الملف من الالتزام مع SHA المعينة                          |
+| `git الدفع -b فرع_الاسم`         | يُنشئ ويبدّل إلى فرع جديد                                                           |
+| `إسم فرع_الدفع Git`              | التبديل إلى الفرع المحدد                                                            |
+| `git دمج فرع_الاسم`              | يدمج الفرع الذي تشغله في الفرع المحدد                                               |
+| `سجل git`                        | إخراج سجل من الإلتزامات السابقة مع رسائل الإلتزام                                   |
+| `git status`                     | حالة المخرجات، بما في ذلك ما هو الفرع الذي تقوم به وما هي التغييرات التي تم إعدادها |
+| `فصل Git`                        | مخرجات الاختلافات بين دليل العمل وأحدث التزام                                       |
+| `git يقطع شيء_شيء_ب`             | ينتج الاختلافات بين شيئين، مثل الالتزامات والفروع                                   |
+| `git clone URL`                  | صنع نسخة من المستودع في الرابط المحدد                                               |
+| `git قم بإضافة عنوان URL الأصلي` | ربط مستودع محلي ومستودع على الإنترنت في عنوان URL المحدد                            |
+| `git دفع الأصل فرع_الاسم`        | يدفع التغييرات المحلية إلى الفرع المحدد من مستودع الإنترنت                          |
+| `git سحب الأصل فرع_الاسم`        | سحب التغييرات من المستودع عبر الإنترنت إلى المستودع المحلي                          |      

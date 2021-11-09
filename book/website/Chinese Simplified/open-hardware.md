@@ -1,96 +1,96 @@
 (rr-open-hardware)=
-# Open Hardware
+# 打开硬件
 
-"Open hardware", or "open source hardware" [{term}`def<Open Source Hardware>`], refers to the design specifications of a physical object that are licenced in such a way that said object can be studied, modified, created, and distributed by anyone. Like open-source software, the "source code" for open hardware - schematics, blueprints, logic designs, Computer Aided Design (CAD) drawings or files, and the like, is available for modification or enhancement by anyone. Users with access to the tools that can read and manipulate these source files can update and improve the physical device and the code that underlies it, and, if they wish, proceed to share such modifications.
+"打开硬件", 或 "开源硬件" [{term}`def<Open Source Hardware>`], 系指以能够研究该物体的方式获得许可证的物理物体的设计规格， 由任何人修改、创建和分发。 像开源软件一样，开源硬件的“源代码”――schematic，蓝图，逻辑设计， 计算机辅助设计 (CAD) 绘图或文件及类似文件可供任何人修改或充能。 能够读取和操纵这些源文件的工具的用户可以更新和改进实际设备和作为其基础的代码。 如果他们愿意，着手分享这种修改。
 
-Open hardware's source code should be readily accessible, and its components are preferably easy for anyone to obtain. Essentially, open hardware eliminates common roadblocks to the design and manufacture of physical goods; it provides as many people as possible the ability to construct, remix, and share their knowledge of hardware design and function.
+打开的硬件源代码应该可以随时获取，它的组件最好对任何人来说都是容易获取的。 基本上，开放式硬件消除了设计和制造有形货物的共同路障； 它使尽可能多的人有能力建造、改装和分享他们对硬件设计和功能的知识。
 
-It is worth noting that open hardware does not necessarily mean free. Units may still be sold (by the original designer or by others), but users *could* build them from scratch. Whether or not they choose to buy the unit, users can still get a full understanding of how the hardware works from available documentation, designs, and similar.
+值得注意的是，开放的硬件并不一定是免费的。 Units may still be sold (by the original designer or by others), but users *could* build them from scratch. 他们是否选择购买该设备。 用户仍然能够从现有文档、设计和类似中充分了解硬件是如何运作的。
 
 (rr-open-hardware-why)=
-## Why Open Hardware?
+## 为什么要打开硬件？
 
-Open hardware allows researchers to understand what their equipment is doing, how it is doing it, and to verify that it is doing it correctly, rather than having to extend a degree of trust. Being aware of how the equipment that generates a result works puts researchers on a firmer footing in assessing those results. Open hardware also makes research more reproducible as researchers looking to verify results can do the same thing.
+开放的硬件使研究人员能够了解他们的设备在做什么、它在做什么； 并核实它是正确的，而不必提供一定程度的信任。 认识到产生结果的设备如何能够使研究人员在评估这些结果方面有更坚实的基础。 开放的硬件也使研究更可复制，因为寻求验证结果的研究人员能够做同样的事情。
 
-Other benefits of open hardware include protection against lock-in. Proprietary software for core infrastructure increases the risk of becoming locked in by the vendor or technology. If this happens, researchers can be at the mercy of vendors' price increases and experience a lack of flexibility they can not easily and readily escape. Further, if researchers want to modify their equipment to suit their needs better, it is much easier to do so (and may only be legal) in the case of open-source hardware.
+开放硬件的其他好处包括免受锁定。 核心基础设施专有软件增加了被供应商或技术锁定的风险。 如果发生， 研究人员可能受供应商价格上涨的支配，他们缺乏灵活性，不能轻易轻易逃脱。 此外，如果研究人员想要修改他们的设备以更好地满足他们的需要， 在开放源码硬件的情况下，这样做要容易得多(而且可能只是合法的)。
 
-(rr-open-hardware-elements)=
-## Elements of an Open Source Hardware Project
+(rr-open-hardare元素)=
+## 开源硬件项目元素
 
-Here are some files that you should consider sharing when publishing your open-source hardware project. You are not required to post them all, but the more you share, the more the community benefits. There is much crossover here with files to include in open source software projects.
+以下是您在发布开源硬件项目时应该考虑分享的一些文件。 您无需将所有人发帖，但是您共享的越多，社区福利越多。 这里有许多文件要包含在开源软件项目中。
 
-(rr-open-hardware-elements-overview)=
-### Overview and Introduction
-Your open-source hardware project should include a general description of the hardware's identity and purpose, written as much as possible for a general audience. That is, explain what the project is and what it is for before you get into the technical details.
+(rr-open-hardare-elements-overview)=
+### 一. 概览和导言
+您的开源硬件项目应该包括对硬件特性和目的的一般描述，尽可能为一般受众编写。 这就是说，在你进入技术细节之前，解释项目是什么和它是什么。
 
-(rr-open-hardware-elements-licence)=
-### A Licence
-An appropriate license on the open hardware project and its content grants legal permission to anyone to re-use, modify and distribute the different components of a project according to the terms stated (for example, they must acknowledge your contribution).
+(rr-open-hardare-elements-licence)=
+### 许可证
+公开硬件项目及其内容的适当许可证给予任何人重新使用的合法许可， 根据声明的条款修改和分配一个项目的不同组成部分(例如，它们必须确认您的贡献)。
 
-(rr-open-hardware-elements-design)=
-### Original Design Files
+(rr-open-hardare-elements-design)=
+### 原设计文件
 
-These are the source files that you would use to make modifications to the hardware's design. The act of sharing these files is the core practice of open-source hardware.
-- Ideally, your open-source hardware project would be designed using a free and open-source software application to maximize the ability of others to view and edit it.
+这些是你用来修改硬件设计的源文件。 共享这些档案是开源硬件的核心做法。
+- 理想的 您的开源硬件项目将使用一个免费的开放源码软件应用程序设计，以最大限度地提高其他人查看和编辑它的能力。
 
-For better or worse, hardware design files are often created in proprietary programs and stored in proprietary formats. It is still essential to share these original design files; they constitute the original "source code" for the hardware. They are the same files that someone will need in order to contribute changes to a given design.
-- Try to make your design files easy for someone else to understand. In particular, organize them in a logical way, comment complex aspects, and note any unusual manufacturing procedures.
-- Examples of Original Design Files include 2D drawings and computer-aided design (CAD) files.
+不论好坏，硬件设计文件往往是在专利程序中创建的，并以专利格式储存。 分享这些原始设计文件仍然很重要；它们构成硬件的原始“源代码”。 他们是某人为了对特定设计做出更改而需要的相同文件。
+- 试着让其他人容易理解您的设计文件。 尤其是以合乎逻辑的方式对其加以编排，评论复杂的方面，并注意到任何异常的制造程序。
+- 原设计文件的例子包括2D绘图和计算机辅助设计(CAD)文件。
 
-(rr-open-hardware-elements-auxiliary)=
-### Auxiliary Design Files
+(rr-open-hardare-elements-associary)=
+### 辅助设计文件
 
-Beyond the original design files, it is often helpful to share your design in additional, more accessible formats. For example, best practice open-sourcing a CAD design is to share the design not just in its native file format, but also in a range of interchangeable and exportable formats that can be opened or imported by other CAD programs.
-- It is also helpful to provide ready-to-view outputs that can easily be viewed by end-users who wish to understand (but not necessarily modify) the design. Such output could be a PDF of a circuit board schematic. These auxiliary design files allow people to study the design of the hardware, and sometimes even fabricate it, even without access to particular proprietary software packages. However, note that auxiliary design files are never recommended as substitutes for original design files.
+除了最初的设计文件外，以更易访问的格式分享您的设计也是很有帮助的。 例如，开放源码软件设计的最佳做法是不仅仅在原始文件格式中共享设计。 但也使用其他CAD方案可以打开或导入的一系列可互换和可出口的格式。
+- 提供即时查看的产出也很有帮助，这些产出可以让希望理解（但不一定需要修改）设计的最终用户轻易地查看。 此种输出可以是电路板模式的 PDF。 这些辅助设计文件允许人们研究硬件的设计， 有时甚至制造它，即使不能使用特定的专利软件包。 然而，请注意，辅助设计文件从未被推荐作为原始设计文件的替代。
 
-(rr-open-hardware-elements-drawings)=
-### Additional Technical Drawings
-It is useful to provide any additional technical drawings in their original formats if they are required for fabrication of the device. These can be supplied in a commonly-readable format such as PDF.
+(rr-open-hardare-elements-draings)=
+### 附加技术图
+如果制造装置需要以原始格式提供任何额外的技术图纸，将是有用的。 这些材料可以通用可读格式提供，如PDF。
 
-(rr-open-hardware-elements-materials)=
-### Bill of Materials
+(rr-open-hardare-elements-materials)=
+### 材料单
 
-While it might be possible to infer from the design files which parts make up a piece of hardware, it is essential to provide a separate bill of materials. A bill of materials can be a spreadsheet (for example, CSV, XLS, Google Doc) or simply a text file with one part per line. Useful things to include in the bill of materials are part numbers, suppliers, costs, and a short description of each part. Make it easy to tell which item in the bill of materials corresponds to which component in your design files: use matching reference designators in both places, provide a diagram indicating which part goes where, or otherwise explain the correspondence.
+虽然可以从设计文件中推断哪些部件构成一件硬件， 必须提供单独的材料单。 材料单可以是电子表格（例如CSV、XLS、Google Doc），也可以是每行一个部分的文本文件。 材料单中包含的有用内容包括部分数字、供应商、成本和对每一部分的简短描述。 让我们很容易知道材料单中的哪个项目与你设计文件中的哪个组件相对应：在这两个地方使用匹配的参考标识符。 提供图表，说明哪一部分去哪里，或以其他方式解释来往公文。
 
-(rr-open-hardware-elements-software)=
-### Software and Firmware
+(rr-open-hardare-elements-software)=
+### 软件和固件
 
-You should share any code or firmware required to operate your hardware. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). It is also helpful to provide an overview of the state of the software (for example, "stable" or "beta" or "barely-working hack").
+您应该分享操作您的硬件所需的任何代码或固件。 这将允许其他人使用硬件或修改它，同时修改你的硬件。 文档构建您的软件所需的过程，包括与任何依赖关系的链接(例如，第三方库或工具)。 提供关于软件状况的概览也很有帮助（例如，“稳定”或“乙型”或“纯粹工作的黑客”）。
 
-(rr-open-hardware-elements-photos)=
-### Photos
-Photos help people understand what your project is and how to put it together. It is good to publish photographs from multiple viewpoints and at various stages of assembly. If you do not have photos, posting 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.
+(rr-open-hardare-elements-photos)=
+### 照片
+照片帮助人们了解你的项目是什么以及如何将它合在一起。 从多种观点和在集会的不同阶段发表照片是很好的。 如果您没有照片，张贴您设计的3D渲染是一个好的替代办法。 不管怎样，提供说明每个图像显示的内容及其有用性的字幕或文字都是很好的。
 
-(rr-open-hardware-elements-instructions)=
-### Instructions and Other Explanations
+(rr-open-hardare-elements-instructions)=
+### 说明和其他解释
 
-In addition to the design files themselves, there are a variety of explanations that are invaluable in helping others to make or modify your hardware:
-- Making the hardware: To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. As part of the instructions, it is helpful to link to datasheets for the components/parts of your hardware and to list the tools required to assemble it. If the design requires specialized tools, tell people where to get them.
-- Using the hardware: Once someone has made the hardware, they need to know how to use it. Provide instructions that explain what it does, how to set it up, and how to interact with it.
-- Design rationale: If someone wants to modify your design, they will want to know why it is the way it is. Explain the overall plan of the hardware's design and why you made the specific choices you did.
-- Limit jargon: Keep in mind that these instructions may be read by someone whose expertise or training is different from yours. As much as possible, try to write to a general audience, check your instructions for industry jargon, and be explicit about what you assume the user knows.
-- Format: The instructions could be in a variety of formats, such as a wiki, text file, Google Doc, or PDF. Remember, though, that others might want to modify your instructions as they modify your hardware design, so it is good to provide the original editable files for your documentation, not just output formats like PDF.
+除了设计文件本身之外，还有各种解释对于帮助他人制作或修改您的硬件非常宝贵：
+- 制作硬件: 帮助他人制作和修改您的硬件设计 您应该提供从设计文件到工作的物理硬件的指示。 作为指示的一部分， 链接到您硬件组件/部件的数据表并列出组装它所需的工具是有帮助的。 如果设计需要专门的工具，告诉人们到哪里得到它们。
+- 使用硬件：一旦有人制作了硬件，他们需要知道如何使用硬件。 提供说明，解释它做些什么，如何设置它，以及如何与它互动。
+- 设计理由：如果有人想修改你的设计，他们会想知道为什么它是这样的。 解释硬件设计的总体计划以及为什么你做出了具体的选择。
+- 限制术语：请记住，这些指令可能由其专长或培训不同于您的人阅读。 尽可能写信给一般听众， 检查您对行业术语的说明，并明确您认为用户知道的内容。
+- 格式：说明可以采用多种格式，如wiki、文本文件、Google Doc或PDF。 但请记住，其他人可能想要修改您的指令，修改您的硬件设计， 为您的文档提供原始可编辑的文件，而不仅仅是输出格式，如PDF，是很好的。
 
-(rr-open-hardware-processes)=
-## Open-Source Hardware Processes and Practices
+(rr-open-hardare-process)=
+## 开源硬件流程和做法
 
-(rr-open-hardware-processes-designing)=
-### Designing Your Hardware
+(rr-open-hardare-processes-designing)=
+### 设计您的硬件
 
-If you are planning to open source a particular piece of hardware, following certain best practices in its design will make it easier for others to make and modify the hardware:
+如果你正在计划打开一个特定的硬件源， 在设计中遵循某些最佳做法将使其他人更容易制造和修改硬件：
 
-- Use free and open source software design (CAD) tools where possible: If that is not feasible, try to use low-cost and/or widely-used software packages.
-- Use standard and widely-available components, materials, and production processes: Try to avoid parts that are not available to individual customers or processes that require expensive setup costs.
+- 尽可能使用免费和开放源码软件设计(CAD)工具：如果不可行，请尝试使用低成本和/或广泛使用的软件包。
+- 使用标准和可广泛获得的组件, 材料, 生产工艺：尝试避免个别客户无法获得的零件或需要昂贵的安装成本的工艺。
 
-(rr-open-hardware-processes-hosting)=
-### Hosting Your Design Files
+(rr-open-hardare-process-hosting)=
+### 托管您的设计文件
 
-A primary way of sharing your files is with a zip file on your website. While this is a great start, it makes it difficult for others to follow your progress or to contribute improvements. Using an online source-code repository (like GitHub, GitLab, or NotaBug) may be a better place to store your open-source hardware projects.
+分享您的文件的主要方式是在您的网站上使用 zip 文件。 虽然这是一个很好的开端，但它使其他人难以跟上你们的进展或促进改进。 使用在线源代码存储库（例如GitHub、GitLab或NotaBug）可能是一个更好的地方来存储您的开源硬件项目。
 
-(rr-open-hardware-processes-distributing)=
-### Distributing Open-Source Hardware
+(rr-open-hardare-process-distribution)=
+### 发布开源硬件
 
-- Provide links to the source (original design files) for your hardware on the product itself, its packaging, or its documentation.
-- Make it easy to find the source (original design files) from the website for a product.
-- Label the hardware with a version number or release date so that people can match the physical object with the corresponding version of its design files.
-- In general, clearly indicate which parts of a product are open source (and which are not).
+- 为您在产品本身、软件包或文档上的硬件提供源链接(原设计文件)。
+- 从网站找到产品的源(原设计文件)。
+- 标记硬件的版本号或发布日期，以便人们能够将物理对象与其相应的设计文件版本匹配。
+- 一般而言，明确指出产品的哪些部分是开放源码(和哪些不是开放源码)。

@@ -1,44 +1,44 @@
 (cm-citable)=
-# Making Research Objects Citable
+# 使研究对象变得易用
 
-## Prerequisites / recommended skill level
+## 前提条件/推荐的技能水平
 
-| Prerequisite                                          | Importance               |
-| ----------------------------------------------------- | ------------------------ |
-| {ref}`Overview of Reproducibility<rr-overview>` | Useful but not essential |
-| {ref}`Open research<rr-open>`                   | Useful but not essential |
+| 前提条件：                          | 重要性      |
+| ------------------------------ | -------- |
+| {ref}`复位概述<rr-overview>` | 有用但不是基本的 |
+| {ref}`打开研究<rr-open>`     | 有用但不是基本的 |
 
 ## Summary
 
-Many researchers argue that time spent on reproducible research practices reduces the time they have available for activities that are traditionally linked to academic credit, such as writing papers.
+许多研究人员认为，花在可再生产的研究实践上的时间减少了他们从事传统上与学术信贷有关的活动的时间。 例如撰写文件。
 
-What if you could get credit for your reproducibility efforts as well? In this chapter, we will describe how working reproducibly will allow you to get most of your research outputs published in a way that can be cited by others (not just your paper)!
+如果你也可以为你的再生产努力获得荣誉，怎么办？ 在本章中， 我们将描述如何能够复制使你能够以其他人可以引用的方式(不仅仅是你的文件)发布你的大多数研究成果！
 
 ```{figure} ../figures/orcid-ids.jpg
 ---
-name: orcid-ids
-alt: This image shows a female researcher in the centre with her arms raised. She is surrounded in an orbit by different types of documents. On the top left, there is a caption stating 'ORCID IDS', while on the bottom right there is the text that says - 'One ring to rule all outputs'.
+名称：orcid-id
+备选案文：这张图像显示了一名女研究员在中心拿起的手臂。 她被各种文件包围在一个轨道上。 在左上角，有一个表示'ORCID IDS'的标题， 当底部右边有这样的文字――“一个环来统治所有输出”。
 ---
-ORCID ID allows a researcher to connect their profile with all the published research objects, each of which also have their unique persistent identifiers. You will learn about these in this chapter. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+ORCID 允许研究人员将他们的个人资料与所有已发布的研究对象连接起来。 其中每一种都有其独特的持久性标识符。 您将在本章中了解这些情况。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-(cm-citable-motivation)=
-## Background & Motivation
+(cm-citable-motives)=
+## 背景 & 动机。
 
-Academic research has traditionally maintained a 'reputation economy' where citations are the currency or considered a major metric of success. Most research institutions' promotion and hiring criteria depend to a greater or lesser extent on your publishing record: how many articles you have published, how "important" the journals were, and how many times each article has been cited using the unique identifiers.
+学术研究历来保持“声誉经济”，在这种经济中，引证是货币，或被视为重大成功。 大多数研究机构的晋升和雇用标准或多或少取决于您的出版记录：您发表了多少篇文章 日记是什么“重要”，以及使用独特标识符引用每篇文章的次数。
 
-This is a well-established practice, and while it has its structural (academic) problems at least all stakeholders understand what's involved. One of the consequences of this system is that labour which *doesn't* result in published articles tends to be ignored, discouraging researchers from making their data more open or specialising in software development.
+这是一种既定的做法，尽管它存在着结构性(学术性)问题，但至少所有利益攸关方都了解所涉问题。 这个系统的后果之一是， *不会导致发布文章中出现* 的劳动倾向于被忽略， 阻止研究人员使他们的数据更加开放或专门从事软件开发。
 
-Establishing good citation practices using persistent and citable identifiers for non-article content is a step towards recognising this valuable work and encouraging more people to take it up. If you can demonstrate the impact of your reproducible research work in addition to more traditional research outputs, you can justify spending more time on doing things right.
+建立良好的引证做法，使用持久和可辨认的非物品内容标识符，是朝着承认这项宝贵的工作并鼓励更多的人从事这项工作迈出的一步。 如果你能够在更传统的研究成果之外证明你可再生产的研究工作所产生的影响， 你有理由花更多的时间来做正确的事情。
 
-We describe, how you can {ref}`prepare your research object to be citable<cm-citable-steps>`, {ref}`how others can cite them<cm-citable-cite>` (or you can cite others work) and how you can use them to {ref}`gain recognition and build your profile<cm-citable-orcid>`.
+我们描述了您如何能够 {ref}`准备您的研究对象有线版<cm-citable-steps>` {ref}`他人如何引用他们<cm-citable-cite>` (或您可以引用他人的工作)，以及您如何使用他们到 {ref}`获得承认并建立您的个人资料<cm-citable-orcid>`
 
 (cm-citable-contribute)=
-## Contribute to this Chapter
+## 为此章节做出贡献
 
-We invite you to contribute to this chapter by writing about one or multiple of the following aspects:
-- Demonstrate impact with various metrics described in this chapter
-- Add some tips for peer-reviewed publishing of research components with DOIs (like data journals, JOSS for software)
-- Add information about [citing JSON](http://citebay.com/how-to-cite/json/)
-- How to cite deprecated practices or legacy versions such as citing an early paper or a software manual
-- More thoughts on what does/doesn't need to be cited
+我们邀请您通过写下以下一个或多个方面来为本章做出贡献：
+- 用本章所述各种衡量标准展示影响
+- 向DOI添加一些供同行审核的研究组件发布的小贴士(例如数据期刊、软件的 JSS 等)
+- 添加关于 [的信息引用JSON](http://citebay.com/how-to-cite/json/)
+- 如何引述被废弃的做法或遗留版本，如引用早期的纸张或软件手册
+- 关于什么事情/不需要引用的更多意见

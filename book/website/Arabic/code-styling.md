@@ -1,24 +1,24 @@
-(pd-code-styling)=
-# Code Styling and Linting
+(pd-stodyling)=
+# تصميم الرمز وربطه
 
-Have you ever opened a syntax or script file two years after running an analysis only to find that you have no immediate memory of the code? Have you received analysis files from a collaborator, or downloaded them from an online repository that you have never used before? Now imagine that these files are very hard to read, or there are lots of variables being passed to arcane functions, or worse, you can't find useful code as they are saved with meaningless file names such as `analysis_1final_FINAL.R`, or `onlyusethisoneforanalysis_onamonday2a.py`.
+هل قمت من قبل بفتح ملف بناء الجملة أو سكريبت بعد سنتين من إجراء تحليل فقط للعثور على أنه ليس لديك ذاكرة فورية للبرمجة؟ هل تلقيت ملفات تحليل من أحد المتعاونين، أو قمت بتنزيلها من مستودع على الإنترنت لم تستخدمه من قبل؟ الآن تخيلوا أن هذه الملفات يصعب قراءتها، أو أن هناك الكثير من المتغيرات التي يتم تمريرها إلى وظائف قصيرة، أو أسوأ، لا يمكنك العثور على كود مفيد لأنه محفوظ بأسماء ملفات لا معنى لها مثل `analysis_1final_FINAL.`، أو `فقط lyusethisoneforanalysis_onamonday2a.py`.
 
-If you have not - then you are one of the lucky ones! But if you have experienced it then you might know how frustrating it is to work with those files.
+إذا لم يكن لديك - فأنت أحد المحظوظين! ولكن إذا كنت قد جربته حينئذ قد تعرف مدى الإحباط الذي يسببه العمل مع تلك الملفات.
 
-This chapter will highlight ways to avoid such challenges in your projects by introducing some principals of 'code hygiene', otherwise known as *linting*.
+هذا الفصل سيسلط الضوء على طرق تجنب مثل هذه التحديات في مشاريعك عن طريق تقديم بعض المبادئ الرئيسية لـ 'شفرة النظافة الصحية', معروف بخلاف ذلك باسم *linting*.
 
 ```{figure} ../figures/zen-of-python.png
 ---
-height: 500px
-name: zen-of-python
-alt: The Zen of Python, by Tim Peters. Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense. Readability counts. Special cases aren't special enough to break the rules. Although practicality beats purity. Errors should never pass silently. Unless explicitly silenced. In the face of ambiguity, refuse the temptation to guess. There should be one-- and preferably only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch. Now is better than never. Although never is often better than *right* now. If the implementation is hard to explain, it's a bad idea. If the implementation is easy to explain, it may be a good idea. Namespaces are one honking great idea -- let's do more of those!
+الطول: 500px
+الاسم: zen-of-python
+alt: Zen of Python، من قبل تيم بيترز. الجمال أفضل من القبيح. فالصريح أفضل من الضمني. البساطة أفضل من التعقيد. التعقيد أفضل من التعقيد. المسطحات أفضل من التداخل. الفطر أفضل من الكثافة. عدد القراءة. الحالات الخاصة ليست خاصة بما فيه الكفاية لخرق القواعد. على الرغم من أن العملية تتفوق على النقية. يجب ألا تمر الأخطاء صامتة أبدا. ما لم يتم إسكات ذلك صراحة. وفي مواجهة الغموض، رفض الإغراء بالتخمين. وينبغي أن تكون هناك طريقة واحدة - ويفضل أن تكون واحدة فقط - واضحة للقيام بذلك. على الرغم من أن هذه الطريقة قد لا تكون واضحة في البداية إلا إذا كنت هولندي. الآن أفضل من لا شيء. على الرغم من أنه في كثير من الأحيان أفضل من *اليمين* الآن. إذا كان من الصعب تفسير التنفيذ، إنها فكرة سيئة. وإذا كان تفسير التنفيذ سهلا، فقد يكون فكرة جيدة. فضاءات الأسماء هي فكرة رائعة -- دعونا نفعل المزيد منها!
 ---
-*Point 7 of the [Zen of Python](https://www.python.org/dev/peps/pep-0020/) is "Readability Counts". (This can be printed with the python command `>>> import this`)*
+*النقطة 7 من [Zen of Python](https://www.python.org/dev/peps/pep-0020/) هي "Readability Counts". (يمكن طباعة هذا مع الأمر python `>>> استيراد هذا`)*
 ```
 
-## Overview
+## نظرة عامة
 
-Linting includes {ref}`guidelines for styling<pd-code-styling-guidelines>` such as for naming, and ensuring that {ref}`code is human readable<pd-code-styling-readability>` such as by using useful formatting, and writing comments.  
-Some integrated development environments (IDEs) include automatic linting, but there are free {ref}`packages and tools for linting<pd-code-styling-tools>` that will lint code for you (for example, [autopep8](https://pypi.org/project/autopep8/)).
+يشمل الربط {ref}`المبادئ التوجيهية للتعبير<pd-code-styling-guidelines>` مثل التسمية، وتأكد من أن رمز {ref}`قابل للقراءة الإنسانية<pd-code-styling-readability>` مثلا باستخدام تنسيق مفيد، وكتابة التعليقات.  
+بعض بيئات التنمية المتكاملة تشمل الربط التلقائي، ولكن هناك {ref}مجاناً`الحزم والأدوات للسطر<pd-code-styling-tools>` التي ستتصل لك (على سبيل المثال، [التشريح 8](https://pypi.org/project/autopep8/)
 
-By keeping the following advice in mind while coding, your code will be more reusable, adaptable, and clear.
+من خلال وضع النصيحة التالية في الاعتبار أثناء البرمجة، ستصبح التعليمات البرمجية الخاصة بك أكثر قابلية لإعادة الاستخدام، وقابلية للتكيف، وواضحة.

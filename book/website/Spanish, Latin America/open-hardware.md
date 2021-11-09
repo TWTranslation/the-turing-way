@@ -1,96 +1,96 @@
 (rr-open-hardware)=
-# Open Hardware
+# Abrir Hardware
 
-"Open hardware", or "open source hardware" [{term}`def<Open Source Hardware>`], refers to the design specifications of a physical object that are licenced in such a way that said object can be studied, modified, created, and distributed by anyone. Like open-source software, the "source code" for open hardware - schematics, blueprints, logic designs, Computer Aided Design (CAD) drawings or files, and the like, is available for modification or enhancement by anyone. Users with access to the tools that can read and manipulate these source files can update and improve the physical device and the code that underlies it, and, if they wish, proceed to share such modifications.
+"Abrir hardware" o "hardware de código abierto" [{term}`def<Open Source Hardware>`], se refiere a las especificaciones de diseño de un objeto físico que están licenciados de tal manera que dicho objeto puede ser estudiado, modificado, creado y distribuido por cualquiera. Como el software de código abierto, el "código fuente" para hardware abierto - esquemas, planos, diseños lógicos, Diseño Asistido por Ordenador (CAD) dibujos o archivos, y similares, está disponible para ser modificado o mejorado por cualquiera. Los usuarios con acceso a las herramientas que pueden leer y manipular estos archivos fuente pueden actualizar y mejorar el dispositivo físico y el código que lo subyace y, si lo desean, proceda a compartir dichas modificaciones.
 
-Open hardware's source code should be readily accessible, and its components are preferably easy for anyone to obtain. Essentially, open hardware eliminates common roadblocks to the design and manufacture of physical goods; it provides as many people as possible the ability to construct, remix, and share their knowledge of hardware design and function.
+El código fuente de Open hardware debería ser fácilmente accesible, y sus componentes son preferiblemente fáciles de obtener para cualquiera. Esencialmente, el hardware abierto elimina los bloques comunes para el diseño y la fabricación de bienes físicos; proporciona a tantas personas como sea posible la capacidad de construir, remezclar y compartir sus conocimientos de diseño y función de hardware.
 
-It is worth noting that open hardware does not necessarily mean free. Units may still be sold (by the original designer or by others), but users *could* build them from scratch. Whether or not they choose to buy the unit, users can still get a full understanding of how the hardware works from available documentation, designs, and similar.
+Vale la pena señalar que el hardware abierto no significa necesariamente libre. Las unidades aún pueden ser vendidas (por el diseñador original o por otros), pero los usuarios *podrían* construirlas desde cero. Si eligen o no comprar la unidad, los usuarios todavía pueden comprender perfectamente cómo funciona el hardware a partir de la documentación, los diseños y los similares.
 
-(rr-open-hardware-why)=
-## Why Open Hardware?
+(rr-open-hardware-why ) =
+## ¿Por qué Open Hardware?
 
-Open hardware allows researchers to understand what their equipment is doing, how it is doing it, and to verify that it is doing it correctly, rather than having to extend a degree of trust. Being aware of how the equipment that generates a result works puts researchers on a firmer footing in assessing those results. Open hardware also makes research more reproducible as researchers looking to verify results can do the same thing.
+El hardware abierto permite a los investigadores entender lo que su equipo está haciendo, cómo lo está haciendo, y verificar que lo está haciendo correctamente, en lugar de tener que ampliar cierto grado de confianza. Ser consciente de cómo funciona el equipo que genera un resultado sitúa a los investigadores sobre una base más firme en la evaluación de dichos resultados. El hardware abierto también hace que la investigación sea más reproducible ya que los investigadores que buscan verificar los resultados pueden hacer lo mismo.
 
-Other benefits of open hardware include protection against lock-in. Proprietary software for core infrastructure increases the risk of becoming locked in by the vendor or technology. If this happens, researchers can be at the mercy of vendors' price increases and experience a lack of flexibility they can not easily and readily escape. Further, if researchers want to modify their equipment to suit their needs better, it is much easier to do so (and may only be legal) in the case of open-source hardware.
+Otros beneficios del hardware abierto incluyen la protección contra bloqueo. El software patentado para la infraestructura central aumenta el riesgo de quedar bloqueado por el proveedor o la tecnología. Si esto sucede, los investigadores pueden estar a merced de los aumentos de precios de los proveedores y experimentar una falta de flexibilidad que no pueden escapar fácil y fácilmente. Además, si los investigadores quieren modificar su equipo para que se adapte mejor a sus necesidades. es mucho más fácil hacerlo (y sólo puede ser legal) en el caso de hardware de código abierto.
 
 (rr-open-hardware-elements)=
-## Elements of an Open Source Hardware Project
+## Elementos de un proyecto de hardware de código abierto
 
-Here are some files that you should consider sharing when publishing your open-source hardware project. You are not required to post them all, but the more you share, the more the community benefits. There is much crossover here with files to include in open source software projects.
+Aquí están algunos archivos que debería considerar compartir cuando publique su proyecto de hardware de código abierto. No es necesario que los publiques a todos, pero cuanto más compartas, más beneficios obtendrás la comunidad. Hay mucho crossover aquí con archivos para incluir en proyectos de software de código abierto.
 
 (rr-open-hardware-elements-overview)=
-### Overview and Introduction
-Your open-source hardware project should include a general description of the hardware's identity and purpose, written as much as possible for a general audience. That is, explain what the project is and what it is for before you get into the technical details.
+### Vista general e introducción
+Su proyecto de hardware de código abierto debe incluir una descripción general de la identidad y el propósito del hardware, escrito tanto como sea posible para un público general. Es decir, explique para qué sirve el proyecto y para qué sirve antes de entrar en los detalles técnicos.
 
-(rr-open-hardware-elements-licence)=
-### A Licence
-An appropriate license on the open hardware project and its content grants legal permission to anyone to re-use, modify and distribute the different components of a project according to the terms stated (for example, they must acknowledge your contribution).
+(rr-open-hardware-elements-licencia)=
+### Una Licencia
+Una licencia apropiada en el proyecto de hardware abierto y su contenido otorga permiso legal a cualquier persona para reutilizarlo modificar y distribuir los diferentes componentes de un proyecto de acuerdo con los términos indicados (por ejemplo, deben reconocer su contribución).
 
 (rr-open-hardware-elements-design)=
-### Original Design Files
+### Archivos de diseño originales
 
-These are the source files that you would use to make modifications to the hardware's design. The act of sharing these files is the core practice of open-source hardware.
-- Ideally, your open-source hardware project would be designed using a free and open-source software application to maximize the ability of others to view and edit it.
+Estos son los archivos fuente que usaría para hacer modificaciones en el diseño del hardware. El acto de compartir estos archivos es la práctica principal del hardware de código abierto.
+- Idealmente, su proyecto de hardware de código abierto sería diseñado usando una aplicación de software libre y de código abierto para maximizar la capacidad de otros de verlo y editarlo.
 
-For better or worse, hardware design files are often created in proprietary programs and stored in proprietary formats. It is still essential to share these original design files; they constitute the original "source code" for the hardware. They are the same files that someone will need in order to contribute changes to a given design.
-- Try to make your design files easy for someone else to understand. In particular, organize them in a logical way, comment complex aspects, and note any unusual manufacturing procedures.
-- Examples of Original Design Files include 2D drawings and computer-aided design (CAD) files.
+Para bien o para mal, los archivos de diseño de hardware a menudo se crean en programas propietarios y se almacenan en formatos propios. Todavía es esencial compartir estos archivos de diseño originales; constituyen el "código fuente" original para el hardware. Son los mismos archivos que alguien necesitará para contribuir con cambios en un determinado diseño.
+- Trata de hacer que tus archivos de diseño sean fáciles de entender para los demás. En particular, organizarlos de forma lógica, comentar aspectos complejos y observar cualquier procedimiento inusual de fabricación.
+- Ejemplos de archivos de diseño original incluyen dibujos en 2D y archivos de diseño con ayuda de ordenador (CAD).
 
 (rr-open-hardware-elements-auxiliary)=
-### Auxiliary Design Files
+### Archivos de diseño auxiliar
 
-Beyond the original design files, it is often helpful to share your design in additional, more accessible formats. For example, best practice open-sourcing a CAD design is to share the design not just in its native file format, but also in a range of interchangeable and exportable formats that can be opened or imported by other CAD programs.
-- It is also helpful to provide ready-to-view outputs that can easily be viewed by end-users who wish to understand (but not necessarily modify) the design. Such output could be a PDF of a circuit board schematic. These auxiliary design files allow people to study the design of the hardware, and sometimes even fabricate it, even without access to particular proprietary software packages. However, note that auxiliary design files are never recommended as substitutes for original design files.
+Más allá de los archivos de diseño originales, a menudo es útil compartir su diseño en formatos adicionales y más accesibles. Por ejemplo, la mejor práctica de Open-sourcing de un diseño CAD es compartir el diseño no sólo en su formato de archivo nativo, pero también en una gama de formatos intercambiables y exportables que pueden ser abiertos o importados por otros programas CAD.
+- También es útil proporcionar salidas listas para ver que pueden ser fácilmente vistas por los usuarios finales que desean entender (pero no necesariamente modificar) el diseño. Tal salida podría ser un PDF de un esquema de placa de circuito. Estos auxiliares archivos de diseño permiten a la gente estudiar el diseño del hardware, y a veces incluso la fabrican, incluso sin acceso a determinados paquetes de software propietarios. Sin embargo, tenga en cuenta que los archivos de diseño auxiliar nunca se recomiendan como sustitutos de los archivos de diseño originales.
 
 (rr-open-hardware-elements-drawings)=
-### Additional Technical Drawings
-It is useful to provide any additional technical drawings in their original formats if they are required for fabrication of the device. These can be supplied in a commonly-readable format such as PDF.
+### Dibujos técnicos adicionales
+Es útil proporcionar cualquier dibujo técnico adicional en sus formatos originales si son necesarios para la fabricación del aparato. Estos se pueden suministrar en un formato común legible como PDF.
 
-(rr-open-hardware-elements-materials)=
-### Bill of Materials
+(rr-open-hardware-elements-materiales)=
+### Factura de materiales
 
-While it might be possible to infer from the design files which parts make up a piece of hardware, it is essential to provide a separate bill of materials. A bill of materials can be a spreadsheet (for example, CSV, XLS, Google Doc) or simply a text file with one part per line. Useful things to include in the bill of materials are part numbers, suppliers, costs, and a short description of each part. Make it easy to tell which item in the bill of materials corresponds to which component in your design files: use matching reference designators in both places, provide a diagram indicating which part goes where, or otherwise explain the correspondence.
+Mientras que puede ser posible infectar desde los archivos de diseño que partes componen una pieza de hardware, es esencial proporcionar una factura separada de los materiales. Una factura de materiales puede ser una hoja de cálculo (por ejemplo, CSV, XLS, Google Doc) o simplemente un archivo de texto con una parte por línea. Las cosas útiles para incluir en la factura de los materiales son los números de piezas, proveedores, costos y una breve descripción de cada parte. Haz fácil saber qué artículo de la factura de materiales corresponde a qué componente de tus archivos de diseño: utiliza los diseñadores de referencia correspondientes en ambos lugares, proporcionar un diagrama que indica qué parte va a dónde, o de otro modo explicar la correspondencia.
 
 (rr-open-hardware-elements-software)=
-### Software and Firmware
+### Software y firmware
 
-You should share any code or firmware required to operate your hardware. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). It is also helpful to provide an overview of the state of the software (for example, "stable" or "beta" or "barely-working hack").
+Debe compartir cualquier código o firmware necesario para operar su hardware. Esto permitirá a otros usarlo con su hardware o modificarlo junto con sus modificaciones a su hardware. Documente el proceso necesario para construir su software, incluyendo enlaces a cualquier dependencia (por ejemplo, bibliotecas o herramientas de terceros). También es útil proporcionar una visión general del estado del software (por ejemplo, "estable" o "beta" o "hack" que no funcionan").
 
-(rr-open-hardware-elements-photos)=
-### Photos
-Photos help people understand what your project is and how to put it together. It is good to publish photographs from multiple viewpoints and at various stages of assembly. If you do not have photos, posting 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.
+(rr-open-hardware-elements-fotos)=
+### Fotos
+Las fotos ayudan a la gente a entender lo que es su proyecto y cómo hacerlo juntos. Es bueno publicar fotografías desde múltiples puntos de vista y en varias etapas de ensamblaje. Si no tienes fotos, publicar renderings en 3D de tu diseño es una buena alternativa. De cualquier manera, es bueno proporcionar leyendas o texto que expliquen lo que se muestra en cada imagen y por qué es útil.
 
 (rr-open-hardware-elements-instructions)=
-### Instructions and Other Explanations
+### Instrucciones y otras explicaciones
 
-In addition to the design files themselves, there are a variety of explanations that are invaluable in helping others to make or modify your hardware:
-- Making the hardware: To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. As part of the instructions, it is helpful to link to datasheets for the components/parts of your hardware and to list the tools required to assemble it. If the design requires specialized tools, tell people where to get them.
-- Using the hardware: Once someone has made the hardware, they need to know how to use it. Provide instructions that explain what it does, how to set it up, and how to interact with it.
-- Design rationale: If someone wants to modify your design, they will want to know why it is the way it is. Explain the overall plan of the hardware's design and why you made the specific choices you did.
-- Limit jargon: Keep in mind that these instructions may be read by someone whose expertise or training is different from yours. As much as possible, try to write to a general audience, check your instructions for industry jargon, and be explicit about what you assume the user knows.
-- Format: The instructions could be in a variety of formats, such as a wiki, text file, Google Doc, or PDF. Remember, though, that others might want to modify your instructions as they modify your hardware design, so it is good to provide the original editable files for your documentation, not just output formats like PDF.
+Además de los propios archivos de diseño, hay una variedad de explicaciones que son invaluables para ayudar a otros a hacer o modificar su hardware:
+- Creando el hardware: Para ayudar a otros a crear y modificar su diseño de hardware, debería proporcionar instrucciones para pasar de sus archivos de diseño al hardware físico funcional. Como parte de las instrucciones, es útil enlazar a hojas de datos para los componentes/partes de su hardware y listar las herramientas necesarias para ensamblarlo. Si el diseño requiere herramientas especializadas, dígale a la gente a dónde llevarlas.
+- Usando el hardware: Una vez que alguien ha hecho el hardware, necesita saber cómo usarlo. Proporcione instrucciones que expliquen lo que hace, cómo configurarlo y cómo interactuar con él.
+- Diseño racional: Si alguien quiere modificar su diseño, querrá saber por qué es así. Explique el plan general del diseño del hardware y por qué hizo las opciones específicas que hizo.
+- jerga de límites: Ten en cuenta que estas instrucciones pueden ser leídas por alguien cuya experiencia o formación es diferente de la tuya. En la medida de lo posible, intente escribir a un público general, compruebe sus instrucciones para la jerga del sector, y sea explícito acerca de lo que usted asume que el usuario sabe.
+- Formato: Las instrucciones podrían estar en una variedad de formatos, tales como un wiki, archivo de texto, Google Doc, o PDF. Recuerde, sin embargo, que otros pueden querer modificar sus instrucciones a medida que modifican su diseño de hardware, por lo que es bueno proporcionar los archivos editables originales para su documentación, no sólo los formatos de salida como PDF.
 
 (rr-open-hardware-processes)=
-## Open-Source Hardware Processes and Practices
+## Procesos y prácticas de hardware de código abierto
 
-(rr-open-hardware-processes-designing)=
-### Designing Your Hardware
+(rr-open-hardware-procesos-diseñando)=
+### Diseñar tu hardware
 
-If you are planning to open source a particular piece of hardware, following certain best practices in its design will make it easier for others to make and modify the hardware:
+Si estás planeando abrir una pieza de hardware en particular, seguir ciertas buenas prácticas en su diseño hará más fácil que otros hagan y modifiquen el hardware:
 
-- Use free and open source software design (CAD) tools where possible: If that is not feasible, try to use low-cost and/or widely-used software packages.
-- Use standard and widely-available components, materials, and production processes: Try to avoid parts that are not available to individual customers or processes that require expensive setup costs.
+- Utilice herramientas de diseño de software libre y de código abierto (CAD) cuando sea posible: Si eso no es factible, intente utilizar paquetes de software de bajo costo y/o ampliamente utilizados.
+- Utilizar componentes, materiales estándar y ampliamente disponibles y procesos de producción: Intente evitar piezas que no estén disponibles para clientes individuales o procesos que requieran costosos costos de configuración.
 
-(rr-open-hardware-processes-hosting)=
-### Hosting Your Design Files
+(rr-open-hardware-procesos-hosting)=
+### Alojando sus archivos de diseño
 
-A primary way of sharing your files is with a zip file on your website. While this is a great start, it makes it difficult for others to follow your progress or to contribute improvements. Using an online source-code repository (like GitHub, GitLab, or NotaBug) may be a better place to store your open-source hardware projects.
+Una forma principal de compartir tus archivos es con un archivo zip en tu sitio web. Si bien esto es un gran comienzo, hace difícil que otros puedan seguir su progreso o contribuir con mejoras. Usar un repositorio de código fuente en línea (como GitHub, GitLab, o NotaBug) puede ser un mejor lugar para almacenar sus proyectos de hardware de código abierto.
 
-(rr-open-hardware-processes-distributing)=
-### Distributing Open-Source Hardware
+(rr-open-hardware-proceso-distribución)=
+### Distribución de hardware de código abierto
 
-- Provide links to the source (original design files) for your hardware on the product itself, its packaging, or its documentation.
-- Make it easy to find the source (original design files) from the website for a product.
-- Label the hardware with a version number or release date so that people can match the physical object with the corresponding version of its design files.
-- In general, clearly indicate which parts of a product are open source (and which are not).
+- Proporcione enlaces a la fuente (archivos de diseño originales) para su hardware en el propio producto, su embalaje o su documentación.
+- Facilitar la búsqueda de la fuente (archivos de diseño originales) de la página web para un producto.
+- Etiqueta el hardware con un número de versión o fecha de lanzamiento para que la gente pueda hacer coincidir el objeto físico con la versión correspondiente de sus archivos de diseño.
+- En general, indica claramente qué partes de un producto son de código abierto (y cuáles no).

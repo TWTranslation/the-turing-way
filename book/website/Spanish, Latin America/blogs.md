@@ -1,64 +1,64 @@
 (cm-blogs)=
-# Blogs for Research Communication
+# Blogs para Comunicación de Investigación
 
-A blog is a website that contains informal articles, usually with a central theme. This could be an academic topic such as open science or be used to report the progress of a research project. Blog posts are the articles on the website and they are typically displayed in reverse chronological order so that the most recent post appears first at the top of the web page.
+Un blog es un sitio web que contiene artículos informales, generalmente con un tema central. Este podría ser un tema académico como la ciencia abierta o ser utilizado para informar sobre el progreso de un proyecto de investigación. Las entradas en el blog son los artículos en el sitio web y normalmente se muestran en orden cronológico inverso, de modo que el post más reciente aparece primero en la parte superior de la página web.
 
-Blog posts are short, informal pieces of writing. They are meant to be written regularly and can be used to build momentum on a particular issue, event or project. In this way, blog posts suit research projects, particularly open projects and communities, because there can be frequent updates of activities and findings to bring greater attention and therefore transparency to your work.
+Las entradas del blog son cortas, piezas informales de escritura. Están pensadas para ser escritas regularmente y pueden ser utilizadas para generar impulso sobre un tema en particular, evento o proyecto. De esta manera, los posts del blog se adaptan a los proyectos de investigación, particularmente los proyectos abiertos y las comunidades, porque puede haber actualizaciones frecuentes de actividades y hallazgos para atraer una mayor atención y por lo tanto transparencia a su trabajo.
 
-Starting a blog does take some investment as a web platform needs to be built and the blog needs to be frequently updated with new posts. It is therefore best to share the load of this work with your team in some way or plan to get people from outside of your immediate team to write guest posts.
+Empezar un blog sí toma algo de inversión como una plataforma web necesita ser construido y el blog necesita ser actualizado con frecuencia con nuevos puestos. Por lo tanto, es mejor compartir la carga de este trabajo con su equipo de alguna manera o planear que la gente de fuera de su equipo inmediato escriba mensajes de invitados.
 
 (cm-wa-comms-blogs-start)=
-## How to Start a Blog
+## Cómo iniciar un blog
 
-### Themes and Audience
+### Temas y audiencia
 
-The first decision to make is to choose the theme and the audience that you want to target. This will determine the readability level and overall style of your blog.
+La primera decisión a tomar es elegir el tema y el público al que se quiere dirigir. Esto determinará el nivel de legibilidad y el estilo general de tu blog.
 
-* Examples of themes include interesting research topics, a personal diary blog of your research career, a project blog to keep track of all the different aspects of the project or a community blog to help with building and maintaining the community.
-* Most importantly the theme needs to have plenty of content for you to write about, be interesting to you and also engaging for others.
+* Ejemplos de temas incluyen temas de investigación interesantes, un blog de diario personal de su cuidador de investigación, un blog del proyecto para llevar un seguimiento de todos los diferentes aspectos del proyecto o un blog de la comunidad para ayudar a construir y mantener la comunidad.
+* Lo más importante es que el tema necesita tener un montón de contenido sobre el que escribir, sea interesante para usted y también para los demás.
 
-## Planning for Maintenance
+## Planificación para mantenimiento
 
-It's always good to make a plan and try to stick to it.
+Siempre es bueno hacer un plan e intentar aferrarse a él.
 
-* You need to plan what posts you could write for your theme for the next six months or a year.
-* This will tell you if your theme is substantial enough for a prolonged period.
-* One post a month is a good starting point as this gives you a manageable amount of time to get material together, progress projects or attend events to write about.
+* Necesitas planificar qué mensajes puedes escribir para tu tema durante los próximos seis meses o un año.
+* Esto le dirá si su tema es lo suficientemente importante para un período prolongado.
+* Un mensaje al mes es un buen punto de partida ya que te da una cantidad manejable de tiempo para reunir material realizar proyectos o asistir a eventos para escribir.
 
-## Building a Website
+## Construir un sitio web
 
-Next, you need to consider where your blog is going to be.
+A continuación, hay que considerar dónde va a estar tu blog.
 
-* If you have never made a website before, it is not as hard as it sounds.
-* There are lots of free and easy options for this but it does depend on your computer skills.
-* You could practice writing blog posts and put them on existing blogging sites (your institution may already have one) before building your own.
+* Si nunca has hecho un sitio web antes, no es tan difícil como parece.
+* Hay muchas opciones gratuitas y fáciles para esto, pero depende de las habilidades de tu ordenador.
+* Podrías practicar la escritura de entradas de blog y ponerlas en los sitios de blogs existentes (tu institución ya tiene una) antes de construir el tuyo propio.
 
-We discuss this in detail in the subchapter {ref}`cm-blogs-webpage`.
+Discutimos esto en detalle en el subcapítulo {ref}`cm-blogs-webpage`.
 
-## Writing Your First Post
+## Escribiendo tu primer mensaje
 
-Often starting a piece of writing is the hardest part, and writing your first blog may seem even harder. Just try to start writing in any way as a messy first draft can always be edited later.
+A menudo comenzar un pedazo de escritura es la parte más difícil, y escribir su primer blog puede parecer incluso más difícil. Sólo trata de empezar a escribir de cualquier manera como un borrador desordenado puede siempre ser editado más tarde.
 
-* The first post could be an introduction to yourself, those involved in the blog or a statement of your intentions for the blog.
-* It might also be good to prepare a few posts for the first release to have a greater impact.
+* El primer post podría ser una introducción para usted, los involucrados en el blog o una declaración de sus intenciones para el blog.
+* También podría ser bueno preparar unos cuantos puestos para la primera versión para tener un mayor impacto.
 
-## Advertising Your Blog
+## Anunciar tu blog
 
-Get your blog noticed.
+Obtén tu blog notado.
 
-* It's a good idea to tell your target audience about your blog and again each time you release a post.
-* Use mailing lists from key associations linked to your research.
-* Use social media such as Twitter or Facebook.
-* Ask colleagues to retweet or send out emails to advertise your blog.
+* Es una buena idea contarle a su público objetivo sobre su blog y de nuevo cada vez que publique un mensaje.
+* Utilice listas de correo de asociaciones clave vinculadas a su investigación.
+* Usar redes sociales como Twitter o Facebook.
+* Pídele a los colegas que vuelvan a enviar o envíen correos electrónicos para anunciar su blog.
 
-## Analysing the Impact
+## Analizando el impacto
 
-Success is very much in the eye of the beholder but there are many methods or metrics that you can use to track the success of your blog.
+El éxito está muy en el ojo del soporte, pero hay muchos métodos o métricas que se pueden utilizar para rastrear el éxito de su blog.
 
-* Google analytics can be used with Google sites or put into Github pages. This gives you information about how many people are accessing your blog and where they are based.
-* There are lots of different metrics that can be tracked. Here is a good post that explains [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* Google Analytics se puede utilizar con sitios de Google o poner en las páginas de Github. Esto te da información sobre cuántas personas están accediendo a tu blog y dónde se basan.
+* Hay muchas métricas diferentes que se pueden seguir. Esta es una buena publicación que explica [20 métricas que cada blogger necesita para medir el éxito](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
 
-## Keep Writing and Planning
+## Sigue escribiendo y planificando
 
-* Stick to your plan, although be responsive to new opportunities such as guest bloggers.
-* Plan time in your schedule for writing the blog and maintaining the website (see the top tips from our case study).
+* Manténgase firme con su plan, aunque responda a las nuevas oportunidades, como los blogueros invitados.
+* Planifique el tiempo en su programa para escribir el blog y mantener el sitio web (ver los consejos principales de nuestro estudio de caso).

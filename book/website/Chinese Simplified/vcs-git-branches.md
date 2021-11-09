@@ -1,55 +1,55 @@
 (rr-vcs-git-branches)=
-# Git Branches
+# 吉特分支
 
-When working on a project, individually or collaboratively, you may encounter the following scenarios:
+当单独或合作开展一个项目时，您可能会遇到以下场景：
 
-- If you add a new feature to your project, you run the risk of accidentally breaking your working code as you test the feature. This would cause unexpected issues for active users of your project, even if the only active user is you.
-- When you collaborate with others, and everyone works on the main branch simultaneously, there could be a lot of confusion and conflicting changes.
-- Some code/feature might not be interesting for everyone. There may need to be a way to allow new work to be done on a project whilst protecting work that has already been done.
+- 如果您为您的项目添加了一个新功能，您可能会在测试功能时意外地破坏您的工作代码。 这将给您项目的活跃用户带来意外的问题，即使您是唯一活跃的用户。
+- 当你与他人合作并且每个人同时在主要分支工作时，可能会出现许多混乱和相互矛盾的变化。
+- 有些代码/功能可能对每个人都不感兴趣。 也许需要有一种方法，允许就一个项目开展新的工作，同时保护已经完成的工作。
 
-Git branches are extremely valuable when addressing any of these issues. For every Git project, by default, you have one branch called 'main' where all commits are recorded. The branching feature of Git allows us to create a copy of a project that we can work on and continue to make commits to without integrating them into the main branch right away. Meanwhile, one can continue to make commits on the main branch, which is untouched by the changes made on other branches. Once you are happy with whatever you were working on on a branch, you can merge it into your main branch (or indeed any other branch). Merging will be covered in the {ref}`rr-vcs-git-merge` subchapter.
+吉特分支机构在处理任何这些问题时都是极其宝贵的。 对于每个Git项目，默认情况下，你有一个名为 'main' 的分支，所有提交都被记录。 Git的分支功能使我们能够创建一个我们能够工作并继续承诺的项目副本，而不会马上将它们纳入主分支。 同时，人们可以继续在主要分支机构做出承诺，但其他分支机构的变动并未触及。 一旦你对你正在从事的分支工作感到满意， 你可以将它合并到你的主分支(或任何其他分支)。 Merging will be covered in the {ref}`rr-vcs-git-merge` subchapter.
 
-If you test a feature on a branch that does not work out, you can delete or abandon it (for example, Feature B in the diagram below) rather than spending time unpicking your changes if you were doing all your work on the main branch. You can have as many branches off of branches as you desire (for example, Feature A-1).
+如果您在一个分支上测试一个功能不正常，您可以删除或放弃它(例如) 下面图表中的B功能，而不是花费时间去选择您的更改，如果您在主分支上做了所有的工作。 您可以随意从分支中获得最多的分支(例如功能A-1)。
 
-Using branches keeps working code safe, particularly in collaborations. Each contributor can have their own branch or branches which are only merged into the main project when they are ready.
+使用分支机构保证工作代码安全，特别是协作中的工作代码。 每个捐助方都可以有自己的分支机构或分支机构，而这些分支机构只有在准备就绪时才合并到主项目中。
 
 ```{figure} ../../figures/sub-branch.png
 ---
-name: sub-branch
-alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. Feature A and B are branches of the main branch, while Feature A-1 is a branch made from Feature A.
+名称：子分支
+备选案文：Git中分支的图示. 有四个分支显示的名称为主角，精英A，精英B和精英A-1。 特征A和特征B是主要分支的分支，而特征A-1则是由特征A制成的分支。
 ---
-An illustration of branching in Git
+在Git中显示分支的示例
 ```
 
-You can create a branch and switch to it using:
+您可以使用以下方式创建分支并切换到它：
 ```
-git checkout -b name_of_your_new_branch
-```
-
-To change between branches, use the following command:
-```
-git checkout name_of_the_branch
+git 签出-b name_of_your_new_branch
 ```
 
-You must commit any work you have in progress before you can to switch to another branch.
+要在分支之间进行更改，请使用以下命令：
+```
+git 签出名称_of_the_branch
+```
 
-You can see all branches of your project using:
+您必须提交您正在进行的任何工作才能切换到另一个分支。
+
+您可以看到项目的所有分支使用：
 
 ```
-git branch
+git 分支
 ```
-This gives the output as a list with an asterisk next to the branch you are on. You can also use `git status` if you have forgotten which branch you are on.
+这给出了一个列表，带星号在您开启的分支旁边。 如果你忘了开启哪个分支，你也可以使用 `git 状态`。
 
-If you decide to get rid of a branch you can delete it with:
+如果您决定去除分支，您可以通过以下方式删除它：
 
 ```
 git branch -D name_of_the_branch
 ```
 (rr-vcs-branches-practice)=
-## Good practice
+## 良好做法
 
-Branches should be used to **keep the main branch clean**. That is, the main should only contain work which is complete, tested, and rightfully belongs in the main version of the project. Similarly, you should try to keep individual branches as clean as possible by **only adding one new feature per branch**. This is because if you are working on several features, some may be finished and ready to merge into main while others are still under development. Keeping your branches clean means only making changes related to the feature on the feature's branch. Give your branches **sensible names**, "new_feature" is all well and good until you start developing a newer feature on another branch.
+分支应该用于 **保持主分支的净化**。 也就是说，主体只应包含完整、经过测试的工作，正确地属于项目的主要版本。 同样，您应该尝试尽可能保持各个分支的干净，只需要 **为分支添加一个新功能**。 这是因为您正在使用多个功能。 一些项目可能已经完成，准备合并为主项目，而另一些项目仍在开发之中。 保持分支干净意味着只在功能分支上做出与功能相关的更改。 给你的分支 **智能名称**, "新功能" 很好，直到你开始在另一个分支开发一个新的功能。
 
-## Interactive tutorial
+## 交互式教程
 
-[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.
+[学习 Git 分支](https://learngitbranching.js.org/) 是一个提供交互方式学习Git 的项目。 通过 通过他们的教程将提供最常用的 git 命令和分支操作技术的丰富经验。

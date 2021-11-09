@@ -1,76 +1,76 @@
 (ch-bookdash-events)=
-# Book Dash Event Plans
+# Reservar planes de eventos guiados
 
-This subchapter provides information on the events that are organised for the book dash attendees. These events include a pre-event webinar for information, onboarding calls, GitHub introduction, development (coworking) sessions during the Book Dash and Community Share-Outs, which are explained below.
+Este subcapítulo proporciona información sobre los eventos que se organizan para los asistentes al guión del libro. Estos eventos incluyen un seminario web pre-evento para obtener información, llamadas de incorporación, introducción de GitHub, sesiones de desarrollo (coworking) durante el Cuadro de Libros y comparticiones comunitarias, que se explican a continuación.
 
-_The Turing Way_ participation guidelines, [Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html) and [Contribution guideline](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) apply to all these events:
+_Las pautas de participación de la Vía Turística_ , [el Código de Conducta](https://the-turing-way.netlify.app/community-handbook/coc.html) y [la directriz de contribución](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) se aplican a todos estos eventos:
 
-## Pre-Event Calls
+## Llamadas Pre-Evento
 
-### Webinar for Information
+### Seminario web para información
 
-The planning committee members will host one webinar to share information about the Book Dash that can help interested members to plan their proposals for the event. These webinars will include a 10-15 minutes introduction talk followed by a session to address any questions participants may have. Recording and notes from this session will be published on the YouTube channel of _The Turing Way_.
+Los miembros del comité de planificación organizarán un seminario web para compartir información sobre el Cuadro de libros que puede ayudar a los miembros interesados a planificar sus propuestas para el evento. Estos seminarios incluirán una charla de introducción de 10-15 minutos seguida de una sesión para responder a las preguntas que puedan tener los participantes. La grabación y las notas de esta sesión se publicarán en el canal de YouTube de _The Turing Way_.
 
-### Pre-event Onboarding Calls
+### Llamadas de incorporación de pre-evento
 
-The planning committee will host two onboarding calls, minimum of one week before the main event to ensure that all the participants are made familiar with the project, the format of the book dash, and how they can be contributing through their involvement at the book dash. It is an opportunity for the organising team and the selected attendees to get to know each other and discuss any concerns that they may have before the book dash.
+El comité de planificación acogerá dos llamadas de incorporación, mínimo de una semana antes del evento principal para asegurar que todos los participantes estén familiarizados con el proyecto, el formato de la basura del libro, y cómo pueden contribuir a través de su participación en el basurero del libro. Es una oportunidad para que el equipo organizador y los asistentes seleccionados se conozcan y discutan cualquier inquietud que puedan tener antes del guión del libro.
 
-Several participants often come to these calls with some plans and topics they would like to explore for their contributions in _The Turing Way_. Therefore, the host of this call facilitates a breakout session to allow attendees to draft their [SMART goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) for the Book Dash. These topics can be something that is either missing in the existing chapters or need to be updated in the project. We also discuss _The Turing Way_ as a project in general and what the core team is working on to support the development of its guide on reproducibility, ethics, project design, collaboration, communication and a meta-book on the project itself. Most importantly, the core team goes through the contribution guideline and explain how attendees can effectively use their time at the book dash.
+Varios participantes a menudo vienen a estas llamadas con algunos planes y temas que les gustaría explorar para sus contribuciones en _The Turing Way_. Por lo tanto, el anfitrión de esta llamada facilita una sesión de descanso para permitir a los asistentes elaborar sus [metas SMART](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) para la Tasa del Libro. Estos temas pueden ser algo que falta en los capítulos existentes o necesitan ser actualizados en el proyecto. También discutimos _The Turing Way_ como proyecto en general y en qué está trabajando el equipo central para apoyar el desarrollo de su guía sobre reproducibilidad, ética, diseño de proyectos, colaboración, comunicación y un meta-libro sobre el proyecto en sí. Lo más importante es que el equipo central pasa por la guía de contribución y explica cómo los asistentes pueden utilizar su tiempo de forma efectiva en el guión del libro.
 
-The template for shared notes can be accessed in the community handbook {ref}`here<ch-template-bookdash-precall>`. You can read notes from the calls from the most recent book dash [here](https://hackmd.io/@turingway).
+Se puede acceder a la plantilla para notas compartidas en el manual de la comunidad {ref}`aquí<ch-template-bookdash-precall>`. Puedes leer notas de las llamadas del guión más reciente del libro [aquí](https://hackmd.io/@turingway).
 
-### GitHub Introduction Session
+### Sesión de introducción de GitHub
 
-One week before the Book Dash, 2-3 members from the planning committee will host a skill-up session for members who don't have any prior experience with GitHub.
+Una semana antes del Dazo del Libro, 2-3 miembros del comité de planificación organizarán una sesión de capacitación para miembros que no tengan experiencia previa con GitHub.
 
-At this call, participants will learn how to:
-- create a new repository
-- create a (README) file: introduction to Markdown
-- submit changes (to The Turing Way) via Pull Request (PR)
-- see how to review PR or create issues
+En esta llamada, los participantes aprenderán a:
+- crear un nuevo repositorio
+- crear un archivo (README): introducción a Markdown
+- enviar cambios (a la Vía Turing) a través de Pull Request (PR)
+- ver cómo revisar PR o crear problemas
 
-This session will help participants identify resources that they can use for self-paced learning. In the previous events, we have used the following materials:
-- [Training materials](https://malvikasharan.github.io/developing_collaborative_document)
-- [Friendly GitHub Introduction](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
-- [Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+Esta sesión ayudará a los participantes a identificar los recursos que pueden utilizar para el aprendizaje a ritmo propio. En los eventos anteriores, hemos utilizado los siguientes materiales:
+- [Materiales de entrenamiento](https://malvikasharan.github.io/developing_collaborative_document)
+- [Introducción amigable de GitHub](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
+- [Hoja de trampas](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## During the Book Dash
+## Durante el guión del libro
 
-### Development Sessions
+### Sesiones de desarrollo
 
-On each day of Book Dash, we will hold three 2.5 hour-long development sessions, when hosting virtually each followed by a break or social event. When hosting an in-person Book Dash, four 75 minutes long development sessions will be facilitated, each separated by 15 minutes for report out followed by a break. Each development session will follow the Pomodoro technique that we also use for the {ref}`coworking calls<ch-coworking-motivation>` using the [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to coordinate the time.
+En cada día de Book Dash, celebraremos tres sesiones de desarrollo de 2,5 horas de duración, cuando acojamos prácticamente cada una de ellas seguidas de un descanso o evento social. Al alojar un libro en persona, se facilitarán cuatro sesiones de desarrollo de 75 minutos de duración, cada una separada por 15 minutos para el informe seguido de un descanso. Cada sesión de desarrollo seguirá la técnica de Pomodoro que también usamos para las {ref}`llamadas de cooperación<ch-coworking-motivation>` usando el [reloj compartido (cuckoo) basado en el navegador](https://cuckoo.team/tw-bookdash) para coordinar la hora.
 
-In the opening session of the first day, one of the planning committee members will provide an overview of _The Turing way_ project and the resources that are available for the participants for their book dash contributions. Attendees will be then allocated in small groups with their collaborators based on their SMART goals. The collaborating groups will work together to build a roadmap and plans for their contributions as chapters, subchapters or other types of content. Participants are also encouraged to come up with the main sections of their contributions and collect their thoughts in bullet points on a GitHub issue.
+En la sesión de apertura del primer día, uno de los miembros del comité de planificación proporcionará una visión general del proyecto _The Turing way_ y de los recursos disponibles para los participantes para sus contribuciones al guión de libros A continuación, los asistentes serán asignados en grupos pequeños con sus colaboradores basados en sus metas SMART. Los grupos colaboradores trabajarán juntos para construir un mapa de ruta y planes para sus contribuciones como capítulos, subcapítulos u otros tipos de contenido. También se anima a los participantes a que presenten las principales secciones de sus contribuciones y recojan sus pensamientos en puntos de bala sobre una cuestión de GitHub.
 
-The rest of the development sessions throughout the Book Dash will be facilitated in breakouts allowing members with similar ideas to collaborate. Participants can also work in self-organised groups or individually on their contribution ideas with the support of mentors. This is also a chance for everyone to meet the participants and helpers informally, learn about each other and connect with specific members who plan to work on the related topic during the book dash. Participants will be supported to collaborate in small groups, organising their thoughts and ideas for contributions during or after the Book Dash. Each development session will end with participants sharing their work with others and identifying new collaborators based on the similarity of their interests.
+El resto de las sesiones de desarrollo a lo largo del Dash del Libro se facilitarán en las interrupciones permitiendo a los miembros con ideas similares colaborar. Los participantes también pueden trabajar en grupos autoorganizados o individualmente en sus ideas de contribución con el apoyo de mentores. Esta es también una oportunidad para que todos conozcan a los participantes y ayuden informalmente, aprende unos sobre otros y comuníquese con miembros específicos que planean trabajar en el tema relacionado durante el guión del libro. Los participantes serán apoyados para colaborar en grupos pequeños, organizando sus ideas y pensamientos para contribuir durante o después del Dash del Libro. Cada sesión de desarrollo finalizará con los participantes compartiendo su trabajo con otros e identificando nuevos colaboradores basados en la similitud de sus intereses.
 
-For participants who are unfamiliar with GitHub or would like a refresher (and did not manage to attend the GitHub introduction session), the planning committee members will guide them through the process of making their first pull request.
+Para los participantes que no están familiarizados con GitHub o quisieran un refrescador (y no lograron asistir a la sesión de introducción de GitHub), los miembros del comité de planificación los guiarán a través del proceso de hacer su primera solicitud de extracción.
 
-### Social Sessions
+### Sesiones sociales
 
-There will also be themed social discussion or networking session where participants can interact with others, continue their discussions outside the development session or take a break as it's most sustainable and helpful for their participation. For a virtual Book Dash, a support fund will be provided to cover the subsistence cost including paying for meals for the social sessions. If hosting an in-person event, the core team members will plan a dinner or social event to allow participants to relax after an intense discussion session and enjoy meals together in an informal setting.
+También habrá discusiones sociales temáticas o sesiones de redes donde los participantes pueden interactuar con los demás. continuar sus discusiones fuera de la sesión de desarrollo o tomar un descanso ya que es más sostenible y útil para su participación. Para un libro virtual Dash, se proporcionará un fondo de apoyo para cubrir el coste de la subsistencia, incluido el pago de comidas para las sesiones sociales. Si organiza un evento en persona, los miembros del equipo central planificarán una cena o un evento social para permitir a los participantes relajarse después de una intensa sesión de discusión y disfrutar juntos de las comidas en un entorno informal.
 
-### Reporting and Documentation
+### Informes y documentación
 
-At the end of each day, participants can gather all their contributions on _The Turing Way_ GitHub repository (issues, pull requests and notes) and add that in the shared notes. Specifically, during the last development session, they will be asked to add their details to the [contributors](https://github.com/alan-turing-institute/the-turing-way/tree/book-dash-chapter/contributors.md) file and provide anonymous feedback on a {ref}`Pluses and Delta<ch-template-bookdash-feedback>` notes. This will help the planning committee to collect notes for their final report and improve future events.
+Al final de cada día, los participantes pueden reunir todas sus contribuciones en _La Vía Turística_ repositorio de GitHub (problemas, pull requests and notes) and add that in the shared notes. Específicamente, durante la última sesión de desarrollo, se les pedirá que añadan sus detalles al archivo de [colaboradores](https://github.com/alan-turing-institute/the-turing-way/tree/book-dash-chapter/contributors.md) y que proporcionen comentarios anónimos sobre {ref}`Pluses y notas Delta<ch-template-bookdash-feedback>`. Esto ayudará al comité de planificación a recoger notas para su informe final y a mejorar los eventos futuros.
 
-### Community Share-Outs & Contributor Celebration
+### Comunidad de Accionistas & Celebración del Colaborador
 
-On the last day of the Book Dash, _The Turing Way_ team along with the planning committee members host Community Share-out and Contributor Celebration sessions that are open to the public. The Community Share-out events provide a public platform to openly recognise the work of our attendees and community contributors.
+En el último día de la basura del libro, _El equipo de Turing Way_ junto con los miembros del comité de planificación organizan sesiones de Acción Comunitaria y Celebración del colaborador que están abiertas al público. Los eventos comunitarios de Share-out proporcionan una plataforma pública para reconocer abiertamente el trabajo de nuestros asistentes y colaboradores comunitarios.
 
-In this session, all the interested contributors including the Book Dash attendees will have a chance to share their work with everyone through a short demo/presentation. All Book Dash attendees are encouraged to invite their colleagues and friends who would like to learn about and celebrate their work and connect with The Turing Way community.
+En esta sesión, todos los colaboradores interesados incluyendo a los asistentes de Book Dash tendrán la oportunidad de compartir su trabajo con todos a través de una breve demostración/presentación. Se anima a todos los asistentes a Dash a invitar a sus colegas y amigos que quieran aprender y celebrar su trabajo y conectarse con la comunidad The Turing Way.
 
-These sessions are generally recorded to share via the project's YouTube channel.
+Estas sesiones se graban generalmente para compartir a través del canal de YouTube del proyecto.
 
-## Creating an environment for self-paced contributions
+## Crear un entorno para contribuciones a ritmo propio
 
-We acknowledge that everyone prefers different settings to work effectively and attentively. Therefore we create an environment for self-paced contributions to _The Turing Way_ project.
+Reconocemos que todos prefieren diferentes escenarios para trabajar de manera eficaz y atenta. Por lo tanto, creamos un entorno para contribuciones a ritmo propio al proyecto _The Turing Way_.
 
-Some recommendations to achieve this by managing the space at the book dash by:
-- set up shared notes for everyone to take notes together and draw inspiration from each other's work (see {ref}`template for notes<ch-template-bookdash-notes>`).
-- offering a separate space (physical space or online breakout room) for open discussion for people who work better by discussing their ideas out loud.
-- when meeting in person, providing semi-quiet spaces or headphones for noise cancellation for people who don't need active discussions.
+Algunas recomendaciones para lograr esto mediante la gestión del espacio en el guión del libro por:
+- configurar notas compartidas para que todos tomen notas juntas y extraigan inspiración del trabajo del otro (ver {ref}`plantilla para las notas<ch-template-bookdash-notes>`).
+- ofrecer un espacio separado (espacio físico o espacio de ruptura en línea) para la discusión abierta para las personas que trabajan mejor discutiendo sus ideas en voz alta.
+- al reunirse en persona, proporcionando espacios semisilenciosos o auriculares para la cancelación de ruido para personas que no necesitan discusiones activas.
 
-Throughout the day, everyone is encouraged to ask for help, move around or change their position or group as needed. Participants are invited to offer feedback on other people's work during the report out session.
+A lo largo del día, se anima a todos a pedir ayuda, moverse o cambiar de posición o de grupo según sea necesario. Se invita a los participantes a ofrecer sus comentarios sobre el trabajo de otras personas durante la sesión de cierre del informe.
 
-Though there are designated breaks, participants are encouraged to take breaks whenever they need to decompress. A quiet room is arranged so that people can step back from the crowd as per their need for quiet time.
+Aunque hay pausas designadas, se anima a los participantes a tomar pausas siempre que necesiten descomprimir. Hay una sala tranquila para que la gente pueda dar un paso atrás de la sinagoga según su necesidad de un tiempo tranquilo.

@@ -1,13 +1,13 @@
-(rr-rdm-resources)=
-# Resources
+(rr-rdm-recursos)=
+# Recursos
 
 (rr-rdm-resources-learn)=
-## What to Learn Next
+## Qué aprender a continuación
 
-If you have not read the chapters on {ref}`rr-open` and {ref}`cm-citable` yet, you might want to read it now for more context on how Research Data Management supports Open Research and how these practises can result in getting attribution for your work.
+Si no has leído los capítulos en {ref}`rr-open` y {ref}`citable` todavía, tal vez quiera leerlo ahora para más contexto sobre cómo Research Data Management apoya Open Research y cómo estas prácticas pueden resultar en obtener atribución para su trabajo.
 
-(rr-rdm-resources-reading)=
-## Further Reading
+(rr-rdm-recursos-lectura)=
+## Leyendo más
 
-- [Detailed guidance on sharing personal or sensitive data from the UK Data Service](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing.aspx)
-- [An overview of storage solutions and their advantages and disadvantages](https://datasupport.researchdata.nl/en/start-the-course/iii-the-research-phase/storing-data)
+- [Guía detallada sobre cómo compartir datos personales o confidenciales del Servicio de Datos del Reino Unido](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing.aspx)
+- [Una visión general de las soluciones de almacenamiento y sus ventajas y desventajas](https://datasupport.researchdata.nl/en/start-the-course/iii-the-research-phase/storing-data)

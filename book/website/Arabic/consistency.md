@@ -1,66 +1,66 @@
-(ch-consistency)=
-# Maintaining Consistency
+(اتساق)=
+# الحفاظ على الاتساق
 
-_The Turing Way_ is an open-source project that empowers contributors around the world to leverage their skills, knowledge, and expertise to build and expand its content. _The Turing Way_ guides are continually evolving, with multiple chapters co-developed by individuals from varied backgrounds - who are all passionate about sharing knowledge around data science and research. To sustain and support this vibrant community, _The Turing Way_ book should remain consistent and accessible as it evolves. The {ref}`ch-style` chapter already provides guidelines for maintaining a consistent style across the book. However, not all chapters follow these suggestions since they're often written asynchronously by different authors. Reviewing consistency across _The Turing Way_ alone is reasonably challenging. This points towards a need to encourage and support our contributors to maintain consistency throughout the chapters in _The Turing Way_ guides. Therefore, this chapter will outline a step-by-step consistency checklist that will guide our contributors. Each step will emphasize a consistency check to look out for as they design and develop chapters in _The Turing Way_ or bring consistency to existing chapters.
+_طريق التورين_ هو مشروع مفتوح المصدر يمكّن المساهمين حول العالم من الاستفادة من مهاراتهم. المعرفة والخبرة لبناء وتوسيع محتواها. _دليل طريق الترقيق_ يتطور باستمرار، مع فصول متعددة اشترك في تطويرها أفراد من خلفيات متنوعة - وكلهم متحمسون لتقاسم المعرفة حول علوم البيانات والبحوث. للحفاظ على هذا المجتمع النابض بالحياة ودعمه، يجب أن يظل الكتاب _الطريق اللطيف_ متسقا ومتاحا مع تطوره. يوفر الفصل {ref}`الجامع` بالفعل مبادئ توجيهية للحفاظ على نمط متسق عبر الكتاب. ومع ذلك، لا تتبع جميع الفصول هذه الاقتراحات لأنها غالباً ما تكتب بشكل متزامن من من مؤلفين مختلفين. إعادة النظر في الاتساق عبر _طريق اللارجح_ وحده أمر صعب إلى حد معقول. هذا يشير إلى الحاجة إلى تشجيع ودعم مساهمينا للحفاظ على الاتساق في جميع الفصول في _طريق التوفيق_ الإرشاد. ولذلك، سيوجز هذا الفصل قائمة مرجعية للاتساق خطوة بخطوة تسترشد بها الدول المساهمة بنا. كل خطوة سوف تركز على التحقق من الاتساق للبحث عن أثناء تصميم وتطوير الفصول في _طريق التوفيق_ أو تحقيق الاتساق للفصول الموجودة.
 
-(ch-consistency-requirements)=
-## Hard vs Soft Requirements
+(بآلاف دولارات الولايات المتحدة)
+## المتطلبات الصارمة ضد الناعمة
 
-Items in the consistency checklist are categorised into hard and soft requirements. Hard requirements are essential consistency checks that a chapter must pass so that _The Turing Way_ builds without errors. Moreover, they make the chapter readable and accessible to everyone.
+وتصنف البنود المدرجة في قائمة التحقق من الاتساق إلى متطلبات مادية وسهلة. المتطلبات الصعبة هي التحقق الأساسي من الاتساق الذي يجب اجتيازه في الفصل بحيث يمكن _طريق اللارجح_ أن يبني بدون أخطاء. وعلاوة على ذلك، فإنها تجعل الفصل مقروءاً ومتاحاً للجميع.
 
-Soft requirements, on the other hand, are nice-to-have consistency checks that a chapter should pass. These checks greatly enhance the overall look and feel of the book, but can be safely ignored if they cannot be integrated into your contribution. You can always return to review your past contributions and enhance their content.
+ومن ناحية أخرى، فإن الشروط غير الماسة هي شروط جيدة للتحقق من الاتساق ينبغي أن ينقلها فصل. وهذه الفحوص تعزز إلى حد كبير الصورة العامة للكتاب، ولكن يمكن تجاهلها بأمان إذا لم يكن من الممكن إدماجها في مساهمتك. يمكنك دائماً العودة لمراجعة مساهماتك السابقة وتعزيز محتوياتها.
 
-An overview of these requirements is itemised {ref}`below <ch-consistency-requirements-checklist>`. For easy description, these consistency checks are classified by format, structure, and language. The subchapters explain these in more detail and describe how they can be achieved.
+تم تفصيل هذه المتطلبات {ref}`أدناه <ch-consistency-requirements-checklist>`. ولتيسير الوصف، تصنف عمليات التدقيق هذه حسب الشكل والهيكل واللغة. والفصول الفرعية تشرح هذه الأمور بمزيد من التفصيل وتصف كيف يمكن تحقيقها.
 
 ```{important} Please note that these requirements are not exhaustive or definitive, and neither are their classifications rigid.
-Moreover, no items are inherently more important than the other.
+وعلاوة على ذلك، لا توجد بنود أكثر أهمية بطبيعتها من البنود الأخرى.
 
-If you identify more consistency issues that need to be addressed, join the conversation [here](https://github.com/alan-turing-institute/the-turing-way/issues/1174).
+إذا قمت بتحديد المزيد من مشاكل الاتساق التي تحتاج إلى معالجة، انضم إلى المحادثة [here](https://github.com/alan-turing-institute/the-turing-way/issues/1174).
 
 ```
 
 ```{figure} ../figures/theturingway-consistency.jpg
 ---
-height: 400px
-name: theturingway-consistency
-alt: This illustration shows a staircase indicating pathway to maintain consistency that has three pillars - formatting, structure and language. One person is guiding two new contributors up the staires.
+الطول: 400px
+الاسم: theturingway-consistency
+البديل : هذا التوضيح يظهر الدرج يشير إلى المسار للحفاظ على الاتساق الذي يحتوي على ثلاثة أركان - التنسيق، البنية واللغة. ويقوم شخص واحد بتوجيه مساهمين جديدين في هذا المجال.
 ---
-Pathway to maintaining consistency. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+الطريق للحفاظ على الاتساق. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(ch-consistency-requirements-checklist)=
-### Consistency Checklist
+(بآلاف دولارات الولايات المتحدة)
+### قائمة التحقق من الاتساق
 
-#### Formatting
+#### التنسيق
 
-| REQUIREMENT | CHECK                                                                                                                                                                            |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hard        | Use Markdown for creating your content (see this [WordPress cheatsheet](https://wordpress.com/support/markdown-quick-reference/)).                                               |
-| Hard        | Use the headers in sequential order. For example, starting the top level with h1 tag `#`, second-level header with h2 tag `##` and so on.                                        |
-| Hard        | Add labels to chapters, subchapters and images to enable cross-referencing as described in the {ref}`style guide<ch-style-crossref>`                                       |
-| Hard        | Use `MyST` for image formatting as described in the {ref}`style guide<ch-style-figures>` | Use public domain images that are less than 1MB in size and cite appropriately. |
-| Soft        | Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`                                                                 |
-| Soft        | Ensure proper title-casing for headers | Capitalise the first, last and 'important' words of every title; for example, 'Snow White and the Seven Dwarves'.                       |
-
-
-#### Structure
-
-| REQUIREMENT | CHECK                                                                                                                                                                            |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hard        | Ensure chapters follow a structure as described in the new [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) |
-| Hard        | Do not add a 'table of contents' in chapters or subchapters as it is auto-generated by the Jupyter Book                                                                          |
-| Hard        | Ensure external sources are properly referenced and included in the centralised BibTeX file as recommended in the {ref}`style guide<ch-style-citing>`                      |
-| Hard        | Do not add any empty files in the `_toc.yml`, instead create an issue for new chapters                                                                                           |
-| Soft        | Ensure each chapter has a good summary on its landing page along with links to its subchapters.                                                                                  |
-| Soft        | Split long chapters into smaller subchapters so they are modular.                                                                                                                |
+| مطلوب | التحقق                                                                                                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| صعب   | استخدم Markdown لإنشاء المحتوى الخاص بك (انظر [WordPress sheatsheet](https://wordpress.com/support/markdown-quick-reference/)).                                                 |
+| صعب   | استخدام الرؤوس في ترتيب متسلسل. على سبيل المثال، بدء المستوى العلوي بعلامة h1 `#`ترويسة المستوى الثاني بعلامة h2 `##` وهلم جرا.                                                 |
+| صعب   | إضافة تسميات للفصول والفصول الفرعية والصور لتمكين الإحالة المرجعية على النحو الموصوف في دليل النمط {ref}`<ch-style-crossref>`                                             |
+| صعب   | استخدم `MyST` لتنسيق الصورة على النحو الموصوف في دليل نمط {ref}`<ch-style-figures>` <unk> استخدم صور النطاق العام التي تقل عن 1 ميغابايت في الحجم واستشهد بها بشكل مناسب. |
+| ناعم  | تأكد من أن أسماء الفصول/الفصول الفرعية قصيرة وخريطة بالضبط لكيفية عنوانها في `_toc.yml`                                                                                         |
+| ناعم  | تأكد من صحة غلاف الألقاب للرؤوس <unk> رأس المال الكلمات الأولى والأخيرة و 'المهمة' من كل عنوان؛ على سبيل المثال 'الثلج الأبيض والقوارب السبعة'.                                 |
 
 
-#### Language
+#### الهيكل
 
-| REQUIREMENT | CHECK                                                                                                                       |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Hard        | Ensure chapters do not use any Latin abbreviation as discussed in the {ref}`style guide<ch-style>`                    |
-| Hard        | Ensure correct grammar and a consistent tone across the book with the help of 1-2 reviewers                                 |
-| Hard        | Ensure chapters use a consistent language, for example, if you choose to write in British English, maintain that throughout |
+| مطلوب | التحقق                                                                                                                                                      |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| صعب   | تأكد من أن الفصول تتبع بنية كما هو مبين في قالب [الجديد](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) |
+| صعب   | لا تضيف "جدول المحتويات" في الفصول أو الفصول الفرعية لأنه يتم إنشاؤه تلقائياً بواسطة كتاب المشتري                                                           |
+| صعب   | تأكد من أن المصادر الخارجية مشار إليها بشكل صحيح وضمنتها في ملف BibTeX المركزي على النحو الموصى به في دليل النمط {ref}`<ch-style-citing>`             |
+| صعب   | لا تضيف أي ملفات فارغة في `_toc.yml`، بدلاً من ذلك قم بإنشاء مشكلة لفصول جديدة                                                                              |
+| ناعم  | ضمان أن يكون لكل فصل ملخص جيد على صفحة الاستقبال الخاصة به إلى جانب وصلات بالفصول الفرعية.                                                                  |
+| ناعم  | تقسيم الفصول الطويلة إلى فصول فرعية أصغر بحيث تكون وحدة.                                                                                                    |
 
-These checks are further explained in the {ref}`Formatting<ch-consistency-formatting>`, {ref}`Structure<ch-consistency-structure>`, and {ref}`Language<ch-consistency-language>` subchapters.
+
+#### اللغة
+
+| مطلوب | التحقق                                                                                                                 |
+| ----- | ---------------------------------------------------------------------------------------------------------------------- |
+| صعب   | تأكد من أن الفصول لا تستخدم أي اختصار لاتيني كما نوقش في دليل النمط {ref}`<ch-style>`                            |
+| صعب   | تأكد من سلامة النحو النغمة الثابتة عبر الكتاب بمساعدة 1-2 من المراجعين                                                 |
+| صعب   | تأكد من أن الفصول تستخدم لغة ثابتة، على سبيل المثال، إذا اخترت الكتابة باللغة الإنجليزية البريطانية، حافظ على ذلك طوال |
+
+يتم شرح هذه الفحوص بمزيد من التفسير في {ref}`التنسيق<ch-consistency-formatting>`، {ref}`هيكل<ch-consistency-structure>`و {ref}`اللغة<ch-consistency-language>` فصول فرعية.

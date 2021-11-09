@@ -1,64 +1,64 @@
 (cm-wa-comms-presenting-remote)=
-# Presenting at Remote Events
+# 在远程事件中提交
 
-Giving a talk or presenting a poster at a remote conference poses particular challenges. Whether this occurs in a live or pre-recorded event, some factors should be paid special attention to related to the technical quality of the presentation and its accessibility.
+在一次远距离会议上发表谈论或展示海报是特别困难的。 这是在活动中还是在预先记录的事件中发生。 应当特别注意与列报的技术质量和无障碍环境有关的一些因素。
 
-## Visual Elements of the Presentation
+## 演示文稿的视觉元素
 
-A presentation for a wide audience can include photos, illustrations, graphics and icons. There are many sites from which you can obtain these types of resources for free (with attribution) or paid to use in your presentations.
+面向广大受众的演示可包括照片、插图、图形和图标。 您可以从许多站点免费获取这些类型的资源（带有属性）或付费用于您的演示。
 
-Some of the websites that offer these resources for free are:
+免费提供这些资源的一些网站有：
 
-* [The Noun Project](https://thenounproject.com) for icons and photographs
-* [Unsplash](https://unsplash.com) for photographs
-* [Pexels](https://www.pexels.com) for photographs
-* [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations
-* [Flaticon](https://www.flaticon.com/free-icons/english) for icons
-* [Canva](https://www.canva.com) for icons
+* [用于图标和照片的 Noun 项目](https://thenounproject.com)
+* [为照片打开](https://unsplash.com)
+* [照片的Pexels](https://www.pexels.com)
+* [Freepik](https://www.freepik.com/free-photos-vectors/english) 用于图标和图案
+* [图标的静态](https://www.flaticon.com/free-icons/english)
+* [Canva](https://www.canva.com) 图标的
 
-## Technical Set-up for Recording a Talk
+## 录制对话的技术设置
 
-Presenting a talk through a digital medium involves tackling some technical challenges, including managing video and sound accessibility and quality.
+通过数字介质进行谈话，涉及应对一些技术挑战，包括管理视频和无障碍环境和质量。
 
-### Video Recording
+### 录制视频
 
-* Use captions during the talk to aid accessibility.
-* A useful step to ensure that people with different devices (and screens) can appreciate the video's content is to develop the presentation using your smallest screen.
-* Even if you are only sharing a slide deck, seeing you on video can help your audience to keep their concentration on the presentation. You don't need the best camera or video post-processing software, but [managing your lighting](https://www.youtube.com/watch?v=rGcAM1CNEU0&ab_channel=Wirecutter) will do wonders for your video quality.
+* 在谈话中使用描述来帮助无障碍环境。
+* 确保拥有不同设备(和屏幕)的人能够欣赏视频内容的一个有用的步骤是使用您最小的屏幕制作演示。
+* 即使您只共享幻灯片牌组，在视频上看到您可以帮助您的观众保持他们对演示文稿的重视。 您不需要最好的摄像头或视频后处理软件，但 [管理您的照明](https://www.youtube.com/watch?v=rGcAM1CNEU0&ab_channel=Wirecutter) 会对您的视频质量产生影响。
 
-### Sound Setting
+### 声音设置
 
-* For the members of your audience who aren't hard of hearing, sound quality will always be more important than video quality.
-* Before the presentation, record your voice using the same device you will be using in the presentation to check the sound quality and make any adjustments you can to ensure a crisp sound.
+* 对于听力不强的听众来说，声音质量总是比视频质量更重要。
+* 在陈述之前。 将您的声音记录在演示文稿中使用的同一设备，以检查声音质量并进行任何调整以确保简洁。
 
-### Video Recording
+### 录制视频
 
-* The simplest way to record the contents of your talk, including your video, voice and presentation, is to record it using a videoconference service (like Zoom) or recording software like [OBS](https://obsproject.com). See [this guide](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute on how to configure OBS for screen recording.
-* If you are recording your talk to present it asynchronously you can use platforms like [Amara](https://amara.org) to generate your subtitles from the video.
+* 最简单的方式来录制您的谈话内容，包括您的视频、语音和演示。 是使用视频会议服务(例如缩放)或录制软件来录制它，如 [OBS](https://obsproject.com)。 请参阅 [本指南](https://software.ac.uk/fellowship-programme/2019/application-video-guide) 软件可持续性研究所关于如何配置OBS用于屏幕录制的指南。
+* 如果您正在录制您的谈话来异步呈现它，您可以使用类似 [Amara](https://amara.org) 的平台从视频中生成您的字幕。
 
-## What to Expect from Speaking Invitations
+## 要从语音邀请中期待什么
 
-If you have published a research piece (like a scientific paper, software or blog), or if you are known for having expertise in your field, you are likely to get invited to give talks at events such as public forums, panels and conference sessions. It could also be something you do upon request, for example, for graduate schools where young researchers can learn from your research work or career path. It is beneficial for your career progression as more people get to know you, learn about your work and establish collaborations. By giving talks at different institutions and events you can receive timely feedback on your progress and improve the quality and impact of your research. For event organisers, inviting experts as speakers can increase the popularity of their events because the participants have opportunities to learn from experts and exchange ideas on topics of common interest.
+如果您已经发表了一篇研究论文(例如科学纸、软件或博客)，或者您因在您的领域拥有专门知识而知晓， 你很可能应邀在公开论坛、小组和会议等活动中进行会谈。 这也可能是你在提出请求时做的事，例如： • 为研究生提供培训，使年轻研究人员能够从你的研究工作或职业道路中学习。 这对您的职业发展是有益的，因为更多的人了解您，了解您的工作并建立合作。 通过在不同机构和活动中进行讨论，您可以及时收到关于您的进度的反馈意见，并提高您研究的质量和影响。 对于事件组织者， 邀请专家发言可以增加他们活动的受欢迎程度，因为与会者有机会向专家学习并就共同关心的问题交流意见。
 
-### Honoraria for Delivering a Talk
+### 4. 开展会谈的酬金
 
-> Honoraria recognises the speaker's work by recompensing them for the time and expertise they invested in developing and delivering a talk.
+> 荣誉表彰了发言者的工作，补偿了他们在发展和发表讲话方面投入的时间和专门知识。
 
-An invited talk is often expected to be delivered for free as it benefits both the organisers and the speakers. However, it is not a fair situation for all, especially when people have personal financial needs, or if they are self-funded. In some cases, honoraria are offered to speakers by event organisers to recompense for the talk preparation time and cover related costs such as accessibility requirements for remote events, or travel and accommodation for in-person events. How much they are offered will vary depending on the organisation (non-profit or private sector), nature of participation (such as short talk, panel discussion or seminar) and also the status of the talk, for example, you might be offered more for being a keynote speaker at a large conference. Many academics are never offered or do not accept honoraria payments for many personal (tax, admin overhead in handling small fund, sufficient salary or personal interest in the event) or professional (their organisation policy prohibits the receiving of honoraria or they donate back to the host organisation) reasons.
+人们往往期望免费提供邀请的谈话，因为这对组织者和发言者都有利。 然而，这对所有人来说都不是一种公平的情况，特别是当人们有个人的经济需要时，或当他们是自筹资金时。 在某些情况下， 活动组织者向发言者提供酬金，以补偿谈话准备时间，并支付有关费用，例如远距离活动的无障碍环境要求。 或亲自参加活动的旅费和住宿费。 它们提供的数量将视组织（非营利或私营部门）、参与性质（如短谈）而有所不同。 例如，发言者名单见附件二。 大型会议也许有更多的机会让你作基调演讲。 许多学者从未接受或不接受许多个人酬金(税收、管理小基金的管理费)。 这些组织的政策禁止领取酬金或向东道组织捐赠。
 
-To have a diverse and inclusive academic community, we need to be aware that not all researchers can afford to dedicate their time to volunteer/unpaid labour or have the money to cover the cost of giving an invited talk. Therefore, organisers should consider offering honoraria, if they have sufficient budget, as developing talks takes a substantial amount of time and effort.
+建立一个多样化和包容性的学术界， 我们需要认识到，并非所有研究人员都能够花费他们的时间从事志愿者/无报酬的劳动，或者有钱支付进行应邀谈话的费用。 因此，组织者如果有足够的预算，应考虑提供酬金，因为开展会谈需要大量时间和努力。
 
-For more information about giving invited talks see the blog "[Speaking as an Academic: What to expect when you are invited to share your work](http://getalifephd.blogspot.com/2017/04/speaking-as-academic-what-to-expect.html)". Also, see [Fix the Gap](https://500womenscientists.org/fix-the-gap) project by '500womenscientists.org' that aims to crowdsource speaking engagement fees & honoraria details to empower researchers to ask for compensation.
+欲了解更多关于授予邀请话题的信息，请参阅博客“[作为学术界说话：当您被邀请分享您的作品时需要做些什么](http://getalifephd.blogspot.com/2017/04/speaking-as-academic-what-to-expect.html)”。 另见 [由500名女科学家修补差距](https://500womenscientists.org/fix-the-gap) 项目。 Rg的目的是集群演讲费 & 酬金细节，以使研究人员能够要求补偿。
 
-### Speaker Rider for Invited Talks
+### 受邀对话的扬声器
 
-A Speaker rider is a framework for speakers to list their expectations from events where they would consider giving an invited talk. Speaker riders allow speakers to evaluate if speaking at an event aligns with their objectives and values. Most importantly, it has a specific role in encouraging organisers to make necessary arrangements to ensure inclusion and accessibility for a diverse audience.
+发言者是一个框架，发言者可以列出他们对将考虑应邀发言的活动的期望。 扬声器允许发言者在某一事件中的发言与其目标和价值观一致时进行评估。 最重要的是，它在鼓励组织者作出必要安排以确保让不同受众参与进来方面发挥具体作用。
 
-In open source space, [Tatiana Mac's Speaker Rider](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552) is highly cited and reused to make open source events more accessible and beneficial for the historically excluded and marginalised communities.
+在开源空间， [Tatiana Mac的扬声器](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552) 被高度引用并被重新使用，以使开放源码事件更易于访问和有利于历史上被排斥和边缘化的社区。
 
 ``` {Note} Speakers: What You Can Do
 
-As Tatiana Mac put it in their speaker rider, speaking comes with immense privilege. Not everyone gets to be a speaker, but if you’re in a position to do so, we encourage you to use this privilege to check whether the event you’re speaking at shares your values, and/or ask that they make sure their event is a better and more inclusive space for historically marginalized communities.
+正如塔蒂亚娜·马克在其发言者骑手中所说的那样，发言具有极大的特权。 不是每个人都可以发言，但如果你有能力这样做。 我们鼓励您使用这个特权来检查您说话的事件是否与您的价值一致。 和/或要求他们确保他们的活动是历史上被边缘化的社区更好和更具包容性的空间。
 
-Source: [Pudding and OpenNews](https://pudding.cool/process/speaker-rider/)
+资料来源：[Pudding and OpenNews](https://pudding.coti/process/speaker-rider/)
 ```

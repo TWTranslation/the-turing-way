@@ -1,125 +1,125 @@
-(ch-acknowledgement-record)=
-# Record of Contributions
+(ch-reconocimiento-registro)=
+# Registro de contribuciones
 
-Two documents in our [GitHub repository](https://github.com/alan-turing-institute/the-turing-way) are used for creating a record of contributions in _The Turing Way_: Contributors Table in the [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) file, and [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) file. This record is made available in the afterword of this book as {ref}`Contributors<contributors-record-contributors>` and {ref}`Personal Highlights<contributors-record-highlights>`. These documents can be used for highlighting skills that our members have gained and shared through their involvement in _The Turing Way_.
+Dos documentos en nuestro [repositorio GitHub](https://github.com/alan-turing-institute/the-turing-way) se utilizan para crear un registro de contribuciones en _La Vía Turística_: Tabla de colaboradores en el [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) archivo, y [`colaboradores. d`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) archivo. Este registro está disponible después de este libro como {ref}`colaboradores<contributors-record-contributors>` y {ref}`Resaltados personales<contributors-record-highlights>`. Estos documentos pueden utilizarse para resaltar las habilidades que nuestros miembros han adquirido y compartido a través de su participación en _The Turing Way_.
 
-We invite all our members to co-create this record to capture the important work they do around answering questions, representing the project, developing and maintaining the infrastructure, and all other nurturing roles that make The Turing Way community so special.
+Invitamos a todos nuestros miembros a co-crear este registro para capturar el trabajo importante que hacen en respuesta a las preguntas, representando el proyecto, desarrollar y mantener la infraestructura, y todas las demás funciones de nutrición que hacen de The Turing Way una comunidad tan especial.
 
-The process of developing this record is described below in detail.
+El proceso de desarrollo de este registro se describe a continuación en detalle.
 
-## 1. Contributors Table
+## 1. Tabla de colaboradores
 
 The [Contributors](https://github.com/alan-turing-institute/the-turing-way#contributors) table in [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) file is updated with every contributor's name using the [all contributors bot](https://allcontributors.org/)'s [emoji key](https://allcontributors.org/docs/en/emoji-key).
 
-No contribution is too small, and these emojis allow us to recognise and fairly acknowledging all kinds of contributions our community members make to the project. Those contributions can include (but are not limited to) bug fixing, chapter planning, writing, editing, reviewing, idea generation, presentation, project management, and maintenance. Please see the subchapter {ref}`Acknowledgement Examples <ch-acknowledgement-examples>` for details.
+Ninguna contribución es demasiado pequeña, y estos emojis nos permiten reconocer y reconocer de forma justa todo tipo de contribuciones que los miembros de nuestra comunidad hacen al proyecto. Estas contribuciones pueden incluir (pero no están limitadas) corrección de errores, planificación de capítulos, escritura, edición, revisión, generación de ideas, presentación, administración de proyectos y mantenimiento. Consulte el subcapítulo {ref}`Ejemplos de reconocimiento <ch-acknowledgement-examples>` para más detalles.
 
 ```{figure} ../../figures/allcontributorsbot-emoji.png
 ---
 height: 400px
 name: AllContributorsEmojiKey
-alt: Table with different emojis that is used by the contributors bot
+alt: tabla con diferentes emojis que utiliza el bot de colaboradores
 ---
-[Emoji key table](https://allcontributors.org/docs/en/emoji-key) of the all contributors bot that _The Turing Way_ uses for acknowledging different contributions from the community members.
+[tabla de claves de Emoji](https://allcontributors. rg/docs/es/emoji-key) del bot de todos los colaboradores que _The Turing Way_ utiliza para reconocer diferentes contribuciones de los miembros de la comunidad.
 ```
 
-## 2. Contributors file
+## 2. Archivo de colaboradores
 
-The contributors file, called [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) in the GitHub repository, will hold specific details provided by community members regarding their involvements in the project. This will be referred to as `contributor's detail` in the rest of this document:
+El archivo de colaboradores, llamado [`colaboradores. d`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) en el repositorio de GitHub, incluirá detalles específicos proporcionados por los miembros de la comunidad en relación con sus actividades en el proyecto. Esto será referido como `detalle del colaborador` en el resto de este documento:
 
-> `Contributor's name` * Role: `This is an optional entry for any specific role contributors have assumed in the project. It is also a place to mention the date/year since a contributor has taken this role. Examples, "Core contributor (2018-present)", Translation lead (2020), or Code of Conduct committee member (2019-2020).` * GitHub id: `GitHub id, example: [@kirstiejane](http://github.com/kirstiejane)` * ORCID: `ORCID id of the contributor, example: [0000-0001-8498-4059](https://orcid.org/0000-0001-8498-4059)` * Short Bio: `1-2 sentences about themselves`
+> `Nombre del colaborador` * Rol: `Esta es una entrada opcional para cualquier contribuidor de rol específico han asumido en el proyecto. También es un lugar para mencionar la fecha/año ya que un colaborador ha asumido este papel. Ejemplos, "Contribuyente Principal (2018-present)", Líder de traducción (2020), o Miembro del Comité de Conducta (2019-2020).` * GitHub id: `GitHub id, ejemplo: [@kirstiejane](http://github. om/kirstiejane)` * ORCID: `ORCID id del colaborador, ejemplo: [0000-0001-8498-4059](https://orcid. rg/0000-0001-8498-4059)` * Biografía corta: `1-2 frases sobre sí mismos`
 
-Then, our contributors will add "Personal highlights", which will hold details of their contributions to _The Turing way_:
-> * Personal highlights: `GitHub contributions, PRs and issues. Further details have been discussed below.`
+Luego, nuestros colaboradores añadirán "Resaltados personales", que mantendrán los detalles de sus contribuciones a _La Vía_:
+> * Resaltados personales: `Contribuciones de GitHub, PRs y problemas. A continuación se han discutido más detalles.`
 
-Additionally, contributors can opt to add more information they think can help them share their work and engagement with _The Turing Way_ project by supplementing "More information":
-> * More information: `Additional information provided by the contributors. This is optional.`
+Adicionalmente, Los colaboradores pueden optar por añadir más información que creen que pueden ayudarles a compartir su trabajo y compromiso con el proyecto _The Turing Way_ completando "Más información":
+> * Más información: `Información adicional proporcionada por los colaboradores. Esto es opcional.`
 
-### Personal highlights
+### Destacados personales
 
-Specifications for all types of contributions made towards _The Turing Way_ can be added in the [contributors file](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) as personal highlights.
+Especificaciones para todo tipo de contribuciones hechas hacia _La Vía Turística_ puede ser añadida en el [archivo de colaboradores](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) como resaltado personal.
 
-These highlights can be individually decided by the contributors to record what they consider to be their significant and useful for their personal profile. This can be supplemented with supporting materials such links to chapters, pull request, issues, and blog posts.
+Estos puntos destacados pueden ser decididos individualmente por los contribuyentes para registrar lo que consideran su significante y útil para su perfil personal. Esto puede ser complementado con materiales de apoyo tales enlaces a capítulos, solicitud de extracción y publicaciones del blog.
 
-This record can be directly translated towards the professional development of our community members, which can be further used for enhancing their personal or professional portfolio (profile, CV, resume) (see the [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/edit/acknowledging-contributors/contributors.md) file).
+Este registro puede traducirse directamente al desarrollo profesional de nuestros miembros de la comunidad, que pueden ser utilizados para mejorar su cartera personal o profesional (perfil, CV, resume) (ver [`colaboradores. d`](https://github.com/alan-turing-institute/the-turing-way/edit/acknowledging-contributors/contributors.md) archivo).
 
-_The Turing Way_ was originally funded by a [Strategic Priority Fund](https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/) investment to the Alan Turing Institute to support [AI For Science and Government](https://www.turing.ac.uk/research/asg). The personal highlights are very valuable for capturing the impact that _The Turing Way_ has for its community members in terms of personal networking, professional development, skill sharing and other relevant activities, and how they have made positive impacts around transparency, reproducibility and ethical collaboration in their organisation.
+_La Vía Turística_ fue originalmente financiada por un [Fondo Estratégico de Prioría](https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/) inversión en el Instituto Alan Turing para apoyar [IA para la Ciencia y el Gobierno](https://www.turing.ac.uk/research/asg). Los puntos destacados personales son muy valiosos para capturar el impacto que _La Vía Turística_ tiene para sus miembros de la comunidad en términos de redes personales, desarrollo profesional, compartir habilidades y otras actividades relevantes, y cómo han tenido impactos positivos en torno a la transparencia, la reproducibilidad y la colaboración ética en su organización.
 
-### Recording different types of contributions
+### Grabando diferentes tipos de contribuciones
 
-In the contribution types discussed below, we use scenarios from some of the most common contribution types.
+En los tipos de contribución que se describen a continuación, utilizamos escenarios de algunos de los tipos de contribución más comunes.
 
-These examples are also outlined in the next subchapter {ref}`Acknowledgement Examples <ch-acknowledgement-examples>` along with other types of contributions that are made to _The Turing Way_.
+Estos ejemplos también se describen en el siguiente subcapítulo {ref}`Ejemplos de reconocimiento <ch-acknowledgement-examples>` junto con otros tipos de contribuciones que se hacen a _La Vía Turística_.
 
-**We recommend using these example statements only as a guide.** As a contributor, you will be able to add as many details as useful for your record.
+**Recomendamos usar estas declaraciones de ejemplo sólo como una guía.** Como colaborador, podrá agregar tantos detalles como útiles para su registro.
 
-#### Bug fixes
+#### Corrección de errores
 
-*A "bug" is a small error in the text or code like typo, formatting issue or broken links.*
+*Un "bug" es un pequeño error en el texto o código como error tipográfico, problema de formato o enlaces rotos.*
 
-Anyone who raises bugs, related issues or fixes them are listed as contributors in the Contributors table with  🐛 (`bug`) emoji.
+Cualquiera que plantee errores, problemas relacionados o los corrija están listados como colaboradores en la tabla de colaboradores con emoji de 🐛 (`bug`).
 
-The contributor's file will be updated for the contributors with a similar statement as below after the `contributor's detail`:
+El archivo del colaborador se actualizará para los colaboradores con una proposición similar como la siguiente después del detalle del colaborador ``:
 
-* Personal highlights: > I have fixed typos and made other contributions `other details like identified sections of the book that are unclear`.
+* Resaltados personales: > He corregido errores tipográficos e hice otras contribuciones `otros detalles como secciones identificadas del libro que no están claras`.
 
-#### Reviewing chapters and other pull requests
+#### Revisando capítulos y otros pull requests
 
-*The review process of a newly contributed chapter or a subsection of an existing chapter involves approving the language and structure of a chapter or a section of a chapter, flagging errors or typos, asking for clarifications if certain parts of the content or statements are unclear, suggesting modifications and improving the overall quality of someone's contribution.*
+*El proceso de revisión de un capítulo recién contribuido o una subsección de un capítulo existente implica aprobar el idioma y la estructura de un capítulo o una sección de un capítulo, errores de marcación o errores tipográficos, pidiendo aclaraciones si ciertas partes del contenido o declaraciones no están claras, sugerir modificaciones y mejorar la calidad general de la contribución de alguien.*
 
-Anyone who reviews a chapter is listed as reviewers and are acknowledged with 👀 (`review`) emoji in the Contributors table.
+Cualquiera que revise un capítulo aparece como revisores y se reconozca con 👀 (`revisión`) emoji en la tabla de colaboradores.
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+El archivo del colaborador se actualizará para los colaboradores con una declaración similar como la siguiente:
 
-* Personal highlights: > I have reviewed the chapter `Chapter name`. > I made other contributions to the chapter `other details like structuring and adding references`.
+* Resaltados personales: > He revisado el capítulo `Nombre del capítulo`. > Hice otras contribuciones al capítulo `otros detalles como la estructura y la adición de referencias`.
 
-#### Chapter contribution
+#### Contribución del capítulo
 
-*The various contributions to a chapter are made towards designing, writing, and reviewing its content through GitHub issues, pull requests, and reviewing processes.*
+*Las diversas contribuciones a un capítulo se hacen para diseñar, escribir y revisar su contenido a través de asuntos de GitHub, pull requests, y revisar procesos.*
 
-The designing, writing, and reviewing of a chapter's content are acknowledged with 🤔 (`idea`), 🖋 (`content`) and 👀 (`review`) emojis respectively in the Contributors table.
+El diseño, la escritura y la revisión del contenido de un capítulo se reconocen con 🤔 (`idea`), 🖋 (`content`) y 👀 (`review`) emojis respectivamente en la tabla de Contributores.
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+El archivo del colaborador se actualizará para los colaboradores con una declaración similar como la siguiente:
 
-* Personal highlights: > I have designed and written a chapter on `chapter name` and `details on reviewing and structuring new content`.
+* Resaltados personales: > He diseñado y escrito un capítulo en `nombre del capítulo` y `detalles sobre la revisión y estructuración de nuevo contenido`.
 
-#### Translation
+#### Traducción
 
-*The translation process in _The Turing Way_ includes aspects translating _The Turing Way_ chapters into languages other than English and reviewing them.* The translation infrastructure as of May 2020 is [Trasifex](https://www.transifex.com/theturingway/theturingway/dashboard/).
+*El proceso de traducción en _La Vía Turística_ incluye aspectos que traducen _La Vía Turística_ capítulos a idiomas distintos del inglés y revisarlos.* La infraestructura de traducción a partir de mayo de 2020 es [Trasifex](https://www.transifex.com/theturingway/theturingway/dashboard/).
 
-Contributors who participate in the translation process will be acknowledged in the Contributors table with the 🌍 (`translation`) emoji.
+Los colaboradores que participen en el proceso de traducción serán reconocidos en la tabla de colaboradores con el emoji :globe_showing_Europe-Europe's (`translation`) .
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+El archivo del colaborador se actualizará para los colaboradores con una declaración similar como la siguiente:
 
-* Personal highlights: > I have translated part of the chapter `chapter name` into `language`. I have also `details like designed and implemented a process to translate the book into multiple languages, mentored multiple contributors within the community and has translated 3 chapters of The Turing Way into Chinese`.
+* Resaltados personales: > He traducido parte del capítulo `nombre del capítulo` al idioma ``. También tengo `detalles como el diseño e implementación de un proceso para traducir el libro a múltiples idiomas, Múltiples colaboradores de la comunidad y ha traducido 3 capítulos de The Turing Way al chino`.
 
-#### Organisational support
+#### Soporte organizativo
 
-*When members participate in _The Turing Way_ community with the in-kind support of their funders and organisation, we acknowledge each member individually and list their organisations as "Collaborating organisations". Such organisational supports are applicable when one or multiple members from a project or community collaborate to build resources in _The Turing Way_.*
+*Cuando los miembros participan en la comunidad _The Turing Way_ con el apoyo en especie de sus financiadores y organización, reconocemos a cada miembro individualmente y listamos sus organizaciones como "Organizaciones colaboradoras". Tales apoyos organizativos son aplicables cuando uno o varios miembros de un proyecto o comunidad colaboran para construir recursos en _The Turing Way_.*
 
-Each organisation who supports its members to collaborate with _The Turing Way_ will be listed as "Collaborating organisations" in the contributor's file. Each contributor from these organisation will be acknowledged individually in the Contributors Table for their specific contributions with emoji keys reflecting specific contributions made with the organisational support. Their contributors will be listed under their organisation's name in the contributor's file.
+Cada organización que apoye a sus miembros a colaborar con _The Turing Way_ aparecerá como "organizaciones colaboradoras" en el archivo del colaborador. Cada colaborador de esta organización será reconocido individualmente en la Tabla de Colaboradores por sus contribuciones específicas con claves emoji, reflejando contribuciones específicas realizadas con el apoyo organizativo. Sus colaboradores estarán listados bajo el nombre de su organización en el archivo del colaborador.
 
-Every contribution from collaborating organisation will be updated with a similar statement as below:
+Cada contribución de la organización colaboradora se actualizará con una declaración similar a la siguiente:
 
-* Personal highlights: > I have made contributions `contribution type` to the chapters `chapter name`. I have also `details on other contributions like managing a team of contributors, writing a chapter`.
+* Resaltados personales: > He hecho contribuciones `tipo de contribución` a los capítulos `nombre del capítulo`. También tengo `detalles sobre otras contribuciones como la gestión de un equipo de colaboradores, escribiendo un capítulo`.
 
-#### Maintenance
+#### Mantenimiento
 
-*Maintenance work in _The Turing Way_ applies to the conversations in community spaces, technical infrastructure, online hosting platforms for the book, and translation infrastructure of Transifex.*
+*Trabajo de mantenimiento en _The Turing Way_ se aplica a las conversaciones en espacios comunitarios, infraestructura técnica, plataformas de alojamiento en línea para el libro y la infraestructura de traducción de Transifex.*
 
-Contributors will be acknowledged in the Contributors table with the 💬 (`question`) emoji for answering questions, 🤔 (`ideas`) emoji for discussions, 🚇 (`infra`) emoji for infrastructure support, and 🚧 (`maintenance`) for community efforts or infrastructure maintenance.
+Los colaboradores serán reconocidos en la tabla de colaboradores con el :speech _balloon: (`question`) emoji por responder preguntas, 🤔 (`ideas`) emoji para los debates, 🚇 (`infra`) emoji para soporte de infraestructura, y 🚧 (`mantenimiento`) para esfuerzos comunitarios o mantenimiento de infraestructura.
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+El archivo del colaborador se actualizará para los colaboradores con una declaración similar como la siguiente:
 
-* Personal highlights: > I have `details like responded to questions in the community's Gitter channel, mentored multiple contributors within the community and has reviewed pull requests to fix typos in the book, maintains the backend infrastructure of the project, provide support and solution regarding Jupyter book and continuous integration, designed and implemented a process to translate the book into multiple languages, helped multiple contributors in facilitating translation efforts`.
+* Resaltados personales: > Tengo `detalles como responder a preguntas en el canal Gitter de la comunidad, varios colaboradores mentalizados dentro de la comunidad y han revisado pull requests para corregir errores tipográficos en el libro, mantiene la infraestructura de backend del proyecto, proporcionar soporte y solución con respecto al libro de Jupyter e integración continua diseñó e implementó un proceso para traducir el libro a varios idiomas, ayudó a varios colaboradores a facilitar los esfuerzos de traducción`.
 
-#### Representing the Turing Way
+#### Representando la Vía Turística
 
-*Anyone who shares _The Turing Way_ resources in any relevant publication, learning material, conference presentations, or community event are acknowledged for representing _The Turing Way_.*
+*Cualquiera que comparta _The Turing Way_ recursos en cualquier publicación relevante, material de aprendizaje, se reconocen presentaciones de conferencias, o eventos comunitarios por representar _The Turing Way_.*
 
-Each contributor who represents _The Turing Way_ at an event is acknowledged in the Contributors table with the 📢 (`Talk`) emoji in the Contributors Table along with other contributions as applicable.
+Cada colaborador que representa _La Vía Turística_ en un evento es reconocida en la tabla de colaboradores con el 📢 (`Habla`) emoji en la tabla de colaboradores junto con otras contribuciones según corresponda.
 
-Their contributions will be listed in the contributor's file with a similar statement as below:
+Sus contribuciones serán listadas en el archivo del colaborador con una declaración similar como la siguiente:
 
-* Personal highlights: > I have presented a talk at _The Turing Way_ at `event's name`. > I have also `details like mentored multiple contributors within the community and have given talks at and event on behalf of the community`.
+* Resaltados personales: > He presentado una charla en _The Turing Way_ en `el nombre del evento`. > También tengo `detalles como varios colaboradores mentalizados dentro de la comunidad y he dado charlas en nombre de la comunidad`.
 
-Please read personas and pathways for different contributions in the next subchapter.
+Por favor, lea personas y caminos para diferentes contribuciones en el siguiente subcapítulo.

@@ -1,64 +1,64 @@
 (cm-wa-comms-presenting-remote)=
-# Presenting at Remote Events
+# Presentar en eventos remotos
 
-Giving a talk or presenting a poster at a remote conference poses particular challenges. Whether this occurs in a live or pre-recorded event, some factors should be paid special attention to related to the technical quality of the presentation and its accessibility.
+Dar una charla o presentar un póster en una conferencia remota plantea retos particulares. Si esto ocurre en un evento en vivo o pre-grabado Hay que prestar especial atención a algunos factores relacionados con la calidad técnica de la presentación y su accesibilidad.
 
-## Visual Elements of the Presentation
+## Elementos visuales de la presentación
 
-A presentation for a wide audience can include photos, illustrations, graphics and icons. There are many sites from which you can obtain these types of resources for free (with attribution) or paid to use in your presentations.
+Una presentación para un amplio público puede incluir fotos, ilustraciones, gráficos e iconos. Hay muchos sitios desde los que puedes obtener estos tipos de recursos de forma gratuita (con atribución) o pagar por usar en tus presentaciones.
 
-Some of the websites that offer these resources for free are:
+Algunos de los sitios web que ofrecen estos recursos de forma gratuita son:
 
-* [The Noun Project](https://thenounproject.com) for icons and photographs
-* [Unsplash](https://unsplash.com) for photographs
-* [Pexels](https://www.pexels.com) for photographs
-* [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations
-* [Flaticon](https://www.flaticon.com/free-icons/english) for icons
-* [Canva](https://www.canva.com) for icons
+* [El Proyecto Nun](https://thenounproject.com) para iconos y fotografías
+* [Unsplash](https://unsplash.com) para fotografías
+* [Pexels](https://www.pexels.com) para fotografías
+* [Freepik](https://www.freepik.com/free-photos-vectors/english) para iconos e ilustraciones
+* [Flaticon](https://www.flaticon.com/free-icons/english) para iconos
+* [Canva](https://www.canva.com) para iconos
 
-## Technical Set-up for Recording a Talk
+## Configuración técnica para grabar una charla
 
-Presenting a talk through a digital medium involves tackling some technical challenges, including managing video and sound accessibility and quality.
+Presentar una charla a través de un medio digital implica abordar algunos retos técnicos, como la gestión de la accesibilidad y la calidad del vídeo y del sonido.
 
-### Video Recording
+### Grabación de vídeo
 
-* Use captions during the talk to aid accessibility.
-* A useful step to ensure that people with different devices (and screens) can appreciate the video's content is to develop the presentation using your smallest screen.
-* Even if you are only sharing a slide deck, seeing you on video can help your audience to keep their concentration on the presentation. You don't need the best camera or video post-processing software, but [managing your lighting](https://www.youtube.com/watch?v=rGcAM1CNEU0&ab_channel=Wirecutter) will do wonders for your video quality.
+* Utilice leyendas durante la charla para facilitar la accesibilidad.
+* Un paso útil para asegurar que las personas con diferentes dispositivos (y pantallas) puedan apreciar el contenido del vídeo es desarrollar la presentación usando la pantalla más pequeña.
+* Incluso si sólo estás compartiendo un deck de diapositivas, verte en video puede ayudar a tu audiencia a mantener su concentración en la presentación. No necesitas la mejor cámara o software de procesamiento de vídeo, pero [administrar tu iluminación](https://www.youtube.com/watch?v=rGcAM1CNEU0&ab_channel=Wirecutter) hará maravillas por tu calidad de vídeo.
 
-### Sound Setting
+### Ajustes de sonido
 
-* For the members of your audience who aren't hard of hearing, sound quality will always be more important than video quality.
-* Before the presentation, record your voice using the same device you will be using in the presentation to check the sound quality and make any adjustments you can to ensure a crisp sound.
+* Para los miembros de su público que no son difíciles de oír, la calidad del sonido siempre será más importante que la calidad del vídeo.
+* Antes de la presentación, graba tu voz usando el mismo dispositivo que usarás en la presentación para comprobar la calidad del sonido y realizar cualquier ajuste que puedas para asegurar un sonido nítido.
 
-### Video Recording
+### Grabación de vídeo
 
-* The simplest way to record the contents of your talk, including your video, voice and presentation, is to record it using a videoconference service (like Zoom) or recording software like [OBS](https://obsproject.com). See [this guide](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute on how to configure OBS for screen recording.
-* If you are recording your talk to present it asynchronously you can use platforms like [Amara](https://amara.org) to generate your subtitles from the video.
+* La forma más sencilla de grabar el contenido de tu charla, incluyendo tu vídeo, voz y presentación, es grabarlo usando un servicio de videoconferencia (como Zoom) o grabando software como [OBS](https://obsproject.com). Vea [esta guía](https://software.ac.uk/fellowship-programme/2019/application-video-guide) del Instituto de Sostenibilidad de Software sobre cómo configurar OBS para la grabación de pantalla.
+* Si está grabando su charla para presentarla de forma asincrónica, puede utilizar plataformas como [Amara](https://amara.org) para generar sus subtítulos desde el vídeo.
 
-## What to Expect from Speaking Invitations
+## Qué esperar de hablar de las invitaciones
 
-If you have published a research piece (like a scientific paper, software or blog), or if you are known for having expertise in your field, you are likely to get invited to give talks at events such as public forums, panels and conference sessions. It could also be something you do upon request, for example, for graduate schools where young researchers can learn from your research work or career path. It is beneficial for your career progression as more people get to know you, learn about your work and establish collaborations. By giving talks at different institutions and events you can receive timely feedback on your progress and improve the quality and impact of your research. For event organisers, inviting experts as speakers can increase the popularity of their events because the participants have opportunities to learn from experts and exchange ideas on topics of common interest.
+Si usted ha publicado una pieza de investigación (como un documento científico, software o blog), o si usted es conocido por tener experiencia en su campo, es probable que le inviten a dar charlas en eventos tales como foros públicos, paneles y sesiones de conferencias. También podría ser algo que usted haga a petición, por ejemplo, para las escuelas de postgrado donde los jóvenes investigadores pueden aprender de su trabajo de investigación o carrera profesional. Es beneficioso para tu progresión profesional a medida que más gente te conozca, aprende sobre tu trabajo y establece colaboraciones. Al dar charlas en diferentes instituciones y eventos, usted puede recibir información oportuna sobre su progreso y mejorar la calidad y el impacto de su investigación. Para organizadores de eventos, invitar a expertos como oradores puede aumentar la popularidad de sus eventos porque los participantes tienen la oportunidad de aprender de expertos e intercambiar ideas sobre temas de interés común.
 
-### Honoraria for Delivering a Talk
+### Honoraria por entregar una Habla
 
-> Honoraria recognises the speaker's work by recompensing them for the time and expertise they invested in developing and delivering a talk.
+> Honoraria reconoce el trabajo del ponente al recompensarlos por el tiempo y la experiencia que invirtieron en desarrollar y ofrecer una charla.
 
-An invited talk is often expected to be delivered for free as it benefits both the organisers and the speakers. However, it is not a fair situation for all, especially when people have personal financial needs, or if they are self-funded. In some cases, honoraria are offered to speakers by event organisers to recompense for the talk preparation time and cover related costs such as accessibility requirements for remote events, or travel and accommodation for in-person events. How much they are offered will vary depending on the organisation (non-profit or private sector), nature of participation (such as short talk, panel discussion or seminar) and also the status of the talk, for example, you might be offered more for being a keynote speaker at a large conference. Many academics are never offered or do not accept honoraria payments for many personal (tax, admin overhead in handling small fund, sufficient salary or personal interest in the event) or professional (their organisation policy prohibits the receiving of honoraria or they donate back to the host organisation) reasons.
+A menudo se espera que se ofrezca una charla invitada, ya que beneficia tanto a los organizadores como a los ponentes. Sin embargo, no es una situación justa para todos, especialmente cuando las personas tienen necesidades financieras personales o si son autofinanciadas. En algunos casos, honoraria son ofrecidas a los ponentes por organizadores de eventos para recompensar el tiempo de preparación de la charla y cubrir los costos relacionados tales como requerimientos de accesibilidad para eventos remotos, o viaje y alojamiento para eventos en persona. Cuánto se ofrezcan variarán dependiendo de la organización (sin fines de lucro o sector privado), la naturaleza de la participación (como charla corta, panel de discusión o seminario) y también el estado de la conversación, por ejemplo, puede que le ofrezcan más por ser un orador principal en una conferencia grande. Muchos académicos nunca son ofrecidos o no aceptan pagos de honoraria por muchos personales (impuestos, gastos de administración en el manejo de fondos pequeños, salario suficiente o interés personal en el evento) o profesional (su política de organización prohíbe la recepción de honoraria o donan de vuelta a la organización anfitriona).
 
-To have a diverse and inclusive academic community, we need to be aware that not all researchers can afford to dedicate their time to volunteer/unpaid labour or have the money to cover the cost of giving an invited talk. Therefore, organisers should consider offering honoraria, if they have sufficient budget, as developing talks takes a substantial amount of time and effort.
+Tener una comunidad académica diversa e inclusiva, tenemos que ser conscientes de que no todos los investigadores pueden permitirse dedicar su tiempo al trabajo voluntario/no remunerado o tener el dinero para cubrir el costo de dar una charla invitada. Por lo tanto, los organizadores deberían considerar ofrecer honorarios, si tienen un presupuesto suficiente, ya que el desarrollo de las conversaciones requiere una cantidad considerable de tiempo y esfuerzo.
 
-For more information about giving invited talks see the blog "[Speaking as an Academic: What to expect when you are invited to share your work](http://getalifephd.blogspot.com/2017/04/speaking-as-academic-what-to-expect.html)". Also, see [Fix the Gap](https://500womenscientists.org/fix-the-gap) project by '500womenscientists.org' that aims to crowdsource speaking engagement fees & honoraria details to empower researchers to ask for compensation.
+Para más información acerca de dar charlas invitadas vea el blog "[Hablando como un Académico: ¿Qué esperar cuando se te invita a compartir tu trabajo](http://getalifephd.blogspot.com/2017/04/speaking-as-academic-what-to-expect.html)". Además, vea [Corregir el Gap](https://500womenscientists.org/fix-the-gap) proyecto de 500womenscientistas. rg' que apunta a crowdsource speaking engagement fees & honoraria details para capacitar a los investigadores a pedir compensación.
 
-### Speaker Rider for Invited Talks
+### Jinete de altavoces para conversaciones invitadas
 
-A Speaker rider is a framework for speakers to list their expectations from events where they would consider giving an invited talk. Speaker riders allow speakers to evaluate if speaking at an event aligns with their objectives and values. Most importantly, it has a specific role in encouraging organisers to make necessary arrangements to ensure inclusion and accessibility for a diverse audience.
+Un jinete de altavoces es un marco para que los altavoces enumeren sus expectativas de eventos en los que considerarían dar una charla invitada. Los pilotos de altavoces permiten a los ponentes evaluar si hablan en un evento con sus objetivos y valores. Lo más importante es que tiene un papel específico a la hora de alentar a los organizadores a hacer los arreglos necesarios para garantizar la inclusión y la accesibilidad para un público diverso.
 
-In open source space, [Tatiana Mac's Speaker Rider](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552) is highly cited and reused to make open source events more accessible and beneficial for the historically excluded and marginalised communities.
+En el espacio de código abierto, [El Altavoz de Tatiana Mac](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552) es muy citado y reutilizado para hacer los eventos de código abierto más accesibles y beneficiosos para las comunidades históricamente excluidas y marginalizadas.
 
 ``` {Note} Speakers: What You Can Do
 
-As Tatiana Mac put it in their speaker rider, speaking comes with immense privilege. Not everyone gets to be a speaker, but if you’re in a position to do so, we encourage you to use this privilege to check whether the event you’re speaking at shares your values, and/or ask that they make sure their event is a better and more inclusive space for historically marginalized communities.
+Como dijo Tatiana Mac en su altavoz, hablar viene con un inmenso privilegio. No todo el mundo puede ser un altavoz, pero si estás en condiciones de hacerlo, te animamos a usar este privilegio para comprobar si el evento en el que estás hablando comparte tus valores, y/o pedir que se aseguren de que su evento es un espacio mejor y más inclusivo para comunidades históricamente marginalizadas.
 
-Source: [Pudding and OpenNews](https://pudding.cool/process/speaker-rider/)
+Fuente: [Pudding y OpenNews](https://pudding.cool/process/speaker-rider/)
 ```

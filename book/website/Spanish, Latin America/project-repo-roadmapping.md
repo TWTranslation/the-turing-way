@@ -1,60 +1,60 @@
 (pd-project-repo-roadmapping)=
-# Roadmapping
+# Mapeo de ruta
 
-If you plan a large piece of work in your project, it is a good idea to produce an outline of the work to share with your potential contributors. Your roadmap should cover your goal and vision and include a timeline for tasks that need to be completed, thus helping new contributors to your project to get an understanding of what is currently happening on the project and what's coming next.
+Si planeas un gran trabajo en tu proyecto, es una buena idea producir un esquema del trabajo para compartir con sus colaboradores potenciales. Tu mapa de ruta debe cubrir tu meta y visión e incluir una línea de tiempo para las tareas que necesitan completarse, ayudando así a los nuevos colaboradores de tu proyecto a entender lo que está ocurriendo actualmente en el proyecto y lo que viene a continuación.
 
 ```{figure} ../../figures/project-roadmap.jpg
 ---
 name: project-roadmap
-alt: image shows a hand holding a smartphone with a map that is marked with milestones 1, 2 and 3. This phone app for map or navigator analogy is helpful to understand milestones and project roadmaps in research projects.
+alt: la imagen muestra una mano sosteniendo un smartphone con un mapa marcado con hitos 1, 2 y 3. Esta aplicación telefónica para mapas o navegadores analógicos es útil para entender hitos y proyectar mapas de ruta en proyectos de investigación.
 ---
-Illustration about project roadmap.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+Ilustración sobre el mapa de ruta del proyecto.
+_The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
-To create a roadmap, it is important to map out the key milestones, tasks needed to accomplish the milestones and related challenges to help you allocate your resources and time to work on them efficiently. Milestones can be organised around your project's objectives, community events, contributors development or timeframes. If you work on GitHub, you can use [GitHub's Project board](https://help.github.com/en/articles/tracking-the-progress-of-your-work-with-project-boards) to manage all the tasks on issues where you provide details and collect relevant information collaboratively and openly.
+Para crear un mapa de rutas, es importante trazar los hitos clave, necesarias para cumplir los hitos y los desafíos relacionados para ayudarle a asignar sus recursos y tiempo para trabajar en ellos de forma eficiente. Los hitos se pueden organizar alrededor de los objetivos de su proyecto, eventos comunitarios, desarrollo de colaboradores o calendarios. Si trabaja en GitHub, puedes usar [el panel del proyecto de GitHub](https://help.github.com/en/articles/tracking-the-progress-of-your-work-with-project-boards) para gestionar todas las tareas en asuntos en los que proporcionas detalles y recopilas la información relevante de forma colaborativa y abierta.
 
-A roadmap can be described in the landing page or README file to describe the following aspects of your project:
+Un mapa de ruta puede describirse en la página de destino o en el archivo README para describir los siguientes aspectos de tu proyecto:
 
-1. Project summary to provide an overview and the current status of your project.
-2. Onboarding information describing how others can get involved and what immediate tasks they can do.
-3. Timeline with both short-term and long-term goals for your project describing tasks that need to be done, what contributors are working on and where it is going to happen next. For example, if a new release of the project will be made or an event will be hosted.
+1. Resumen del proyecto para proporcionar una visión general y el estado actual de su proyecto.
+2. Incorporar información que describe cómo otros pueden involucrarse y qué tareas inmediatas pueden hacer.
+3. Línea temporal con metas a corto y largo plazo para su proyecto que describen las tareas que hay que realizar. en qué están trabajando los contribuyentes y dónde va a pasar a continuación. Por ejemplo, si se realiza una nueva versión del proyecto o un evento será organizado.
 
-For details, please see [this presentation](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) by the [Open Life Science](https://openlifesci.org/) training and mentoring program.
+Para más detalles, por favor vea [esta presentación](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) por el programa [Open Life Science](https://openlifesci.org/) de capacitación y mentoría.
 
-## Case Study: AutSPACES Project
+## Estudio de Caso: Proyecto AutSPACES
 
-*This case study has been drafted by Lotty Coupet, a community manager of the AutSPACES project (2021).*
+*Este estudio de caso ha sido redactado por Lotty Coupet, director comunitario del proyecto AutSPACES (2021).*
 
-[AutSPACEs](https://github.com/alan-turing-institute/AutSPACEs) is a citizen science platform co-created by autistic people and their supporters alongside researchers and the open source community. To successfully communicate where we are and what needs to be done, the AutSPACEs project has created a highly detailed Roadmap.
+[AutSPACES](https://github.com/alan-turing-institute/AutSPACEs) es una plataforma ciudadana de ciencia co-creada por personas audísticas y sus seguidores, junto con investigadores y la comunidad de código abierto. Para comunicarnos con éxito dónde estamos y qué hay que hacer, el proyecto AutSPACES ha creado un mapa de ruta muy detallado.
 
-**How did we get started?**
+**¿Cómo empezamos?**
 
-To kickstart the creation of a Roadmap we used the issues function in GitHub to begin the journey of creating a Roadmap. Here, we have raised an issue in our GitHub repository where we invite contributors to comment on any proposed milestones and surrounding tasks that should be included in the roadmap.
+Para iniciar la creación de una Hoja de Ruta utilizamos la función de problemas en GitHub para comenzar el viaje de la creación de un mapa de ruta. Aquí, hemos planteado un problema en nuestro repositorio de GitHub en el que invitamos a los colaboradores a comentar cualquier hito propuesto y las tareas circundantes que deberían incluirse en el roadmap.
 
-The Community Manager will collate all the information to produce a Roadmap that will be proficient for the community.
+El Administrador de la Comunidad recopilará toda la información para producir una Hoja de Ruta que sea competente para la comunidad.
 
-**What does our Roadmap include?**
+**¿Qué incluye nuestra Hoja de Ruta?**
 
-The road map will include high-level milestones which are made up of a list of issues of which each contains a checklist with granular tasks. This will inform any contributor where they can start participating within the project.
+La hoja de ruta incluirá hitos de alto nivel que están formados por una lista de temas de los cuales cada uno contiene una lista de comprobación con tareas granulares. Esto informará a cualquier colaborador donde pueda empezar a participar en el proyecto.
 
-Milestones, in this project, are seen more as an overarching theme rather than a tick list. The idea behind this is that we don't want to tick off a milestone as we believe work is continuous, open and subject to review and iteration in all aspects.
+Los hitos, en este proyecto, se ven más como un tema general que como una lista de ticks . La idea detrás de esto es que no queremos marcar un hito ya que creemos que el trabajo es continuo, abierto y sujeto a revisión e iteración en todos los aspectos.
 
-Key timelines and dependencies will be highlighted as this will allow for all contributors to know how each task fits into the wider project. There will be a prioritisation of tasks that correlate with the strategic direction of the project; what is needed to be done at this point.
+Las líneas de tiempo clave y las dependencias serán resaltadas ya que esto permitirá a todos los colaboradores saber cómo encaja cada tarea en el proyecto más amplio. Habrá una priorización de tareas que se correspondan con la dirección estratégica del proyecto; lo que es necesario hacer en este momento.
 
-**Where will we put our Roadmap?**
+**¿Dónde pondremos nuestro mapa de ruta?**
 
-The AutSPACEs project is a Citizen Science and Participatory Research project. This means that many of our contributors do not have the technical expertise to use GitHub. Therefore, we need to ensure that our roadmap is accessible for all and thus not only accessed via GitHub. Therefore, our roadmap will be hosted:
-- On our website
-- In a shared document for internal use (Excel sheet)
+El proyecto AutSPACES es un proyecto de Ciencia Ciudadana e Investigación Participativa. Esto significa que muchos de nuestros colaboradores no tienen la experiencia técnica necesaria para usar GitHub. Por lo tanto, tenemos que asegurarnos de que nuestra hoja de ruta sea accesible para todos y no sólo a través de GitHub. Por lo tanto, nuestro mapa de ruta será el anfitrión:
+- En nuestro sitio web
+- En un documento compartido para uso interno (hoja Excel)
 - Github repository (MarkDown file)
 
-However, we will address this technical barrier as our roadmap will include a link to issues in the repository. To overcome this, we have planned to teach basic skills in GitHub, such as creating an account and accessing our issues list.
+Sin embargo, abordaremos esta barrera técnica ya que nuestro mapa de ruta incluirá un enlace a problemas en el repositorio. Para superar esto, hemos planeado enseñar habilidades básicas en GitHub, como crear una cuenta y acceder a nuestra lista de problemas.
 
-**How will we keep it updated?**
+**¿Cómo lo mantendremos actualizado?**
 
-One of the main issues with Roadmaps and similarly project plans is the risk of them becoming out of date. It can confuse rather than help in communicating where the project is and where it needs to go.
+Uno de los principales problemas con los mapas de ruta y los planes de proyectos similares es el riesgo de que se queden anticuados. Puede confundir en lugar de ayudar a comunicar dónde está el proyecto y a dónde tiene que ir.
 
-The AutSPACEs project creates a fortnightly progress report recording updates from the community, software development status and research progress, as well as what tasks have been completed since the last update and what should be the next steps.
+El proyecto AutSPACES crea un informe de progreso de forma contundente que registra las actualizaciones de la comunidad, el estado del desarrollo de software y el progreso de la investigación, así como qué tareas se han completado desde la última actualización y cuáles deben ser los siguientes pasos.
 
-These updates drive and feed into the future updates of the roadmap. This process allows us to ensure that our roadmap and tasks priorities are always up to date.
+Estas actualizaciones manejan y alimentan las futuras actualizaciones de la hoja de ruta. Este proceso nos permite asegurar que nuestra hoja de ruta y nuestras prioridades de tareas estén siempre actualizadas.

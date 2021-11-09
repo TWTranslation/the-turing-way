@@ -1,56 +1,56 @@
-(cm-blogs-personal-stories)=
-# Personal Stories - Blogs
+(cm-blogs-personales-historias)=
+# Historias personales - Blogs
 
-## Veronika Cheplygina: Writing a Successful Blog Series
+## Veronika Cheplygina: Escribiendo una serie de Blog exitosa
 
-**Dr Veronika Cheplygina** is an Associate Professor at the IT University Copenhagen. Veronika strives to make science more open and inclusive.
+**La Dra. Veronika Cheplygina** es Profesora Asociada en la Universidad de Tecnología de la Información (IT). Veronika se esfuerza por hacer la ciencia más abierta e inclusiva.
 
-You can find out more about her work from the links below:
-* Personal website: [veronikach.com](https://veronikach.com/)
+Puedes encontrar más información sobre su trabajo en los siguientes enlaces:
+* Sitio web personal: [veronikach.com](https://veronikach.com/)
 * Twitter: [@DrVeronikaCH](https://twitter.com/DrVeronikaCH)
 * ORCID: [0000-0003-0176-9324](https://orcid.org/0000-0003-0176-9324)
 
 We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
 
-## 1. Why did you start your blog?
+## 1. ¿Por qué comenzó su blog?
 
-Very originally (during university) I wanted to have a blog because I was interested in setting it up, and not actually in writing anything. I did try to write some awkward posts, but felt mostly embarrassed about them and ended up deleting them. Only during my PhD/postdoc, I think, I started writing more frequently, mostly updates about my work, exploring productivity tools, and failures.
+Muy originalmente (durante la universidad) quería tener un blog porque estaba interesado en configurarlo, y no en escribir nada. Intenté escribir algunos mensajes incómodos, pero me sentí casi avergonzado de ellos y terminé borrándolos. Sólo durante mi doctorado/postdoc, creo, empecé a escribir con mayor frecuencia, la mayoría de las actualizaciones sobre mi trabajo, explorando herramientas de productividad y fracasos.
 
-## 2. How did you get started?
+## 2. ¿Cómo empezaron?
 
-As described above it was quite gradual, the first blog I set up, I programmed in PHP myself (and it had lots of bugs). Then I switched to a free WordPress blog and then installed WordPress on my website. As for writing on the blog, when I did start to write more, I made it a habit to write (for example) once a week, and it became more natural after a while. Also, it became more clear what is really "my" topics to write about, or not. The CV of Failures I shared during my postdoc resonated, and that later turned into the How I Fail series.
+Como se describió más arriba, era bastante gradual, el primer blog que establecí, programé en PHP mismo (y tenía muchos errores). Luego cambié a un blog WordPress libre y luego instalado WordPress en mi sitio web. En cuanto a escribir en el blog, cuando empecé a escribir más, Hice de la costumbre de escribir (por ejemplo) una vez a la semana, y se hizo más natural después de un tiempo. Además, se volvió más claro qué es realmente "mi" temas sobre los que escribir o no. El CV de los fracasos que compartí durante mi postdoc resonó y que más tarde se convirtió en la serie Cómo fallo.
 
-## 3. What impact do you think your blog is making on your research/project/community?
+## 3. ¿Qué impacto crees que tu blog está haciendo en tu investigación/proyecto/comunidad?
 
-It helps people to see stories by other real people, and relate to the issues that are discussed.
+Ayuda a la gente a ver historias de otras personas reales y se relacionan con las cuestiones que se debaten.
 
-## Can I just get you to expand on the impact question? Did your blog lead to more impact in a project, or perhaps got you more noticed to secure a job, or help build a community?
+## ¿Puedo hacer que se extienda sobre la cuestión del impacto? ¿Su blog provocó más impacto en un proyecto, o tal vez le dio más atención para asegurar un empleo, o ayudar a construir una comunidad?
 
-Yes, I get noticed because people know me from my Twitter and blog, usually this translates into talk invitations. Last year when I announced I was leaving my tenure track, I also had a few suggestions for jobs, which in the end translated into my current (tenured) position.
+Sí, me doy cuenta porque la gente me conoce de mi Twitter y blog, generalmente esto se traduce en invitaciones de charla. El año pasado, cuando anuncié que iba a abandonar mi trayectoria, también tuve algunas sugerencias para el empleo, que al final traducido a mi posición actual (tenured).
 
-I am not sure there is an explicit community, but I do feel like I have a supportive community on Twitter. It has also resulted in some great projects, like the Avengers for Better Science workshop, which was funded by the Mozilla Foundation, or the Ten Simple Rules paper about Twitter.
+No estoy seguro de que haya una comunidad explícita, pero siento que tengo una comunidad de apoyo en Twitter. También ha dado lugar a algunos grandes proyectos, como el taller Avengers for Better Science, que fue financiado por la Fundación Mozilla, o el documento Ten Simple Rules sobre Twitter.
 
-For the blog, I have a sense of what kind of person reads my blog, even if I have never met them. It's great to see the statistics for previous blog posts, and receive a thank you email or message once in a while.
+Para el blog, tengo un sentido de qué tipo de persona lee mi blog, incluso si nunca los he conocido. Es genial ver las estadísticas de entradas anteriores del blog, y recibir un correo electrónico de agradecimiento o mensaje de vez en cuando.
 
 
-## 4. What tools/software do you use most to produce your blog?
+## 4. ¿Qué herramientas/software utilizas más para producir tu blog?
 
-Primarily WordPress. I use Mailchimp to send out a newsletter (only if there are any new posts) and Canva if I make graphics (but usually I'm too lazy). WordPress shares my new posts to Twitter and LinkedIn.
+Primariamente WordPress. Yo uso Mail.Up para enviar un boletín de noticias (sólo si hay nuevos mensajes) y Canva si hago gráficos (pero generalmente soy demasiado perezoso). WordPress comparte mis nuevos posts en Twitter y LinkedIn.
 
-## 5. Do you have any top tips for other people that might be interested in starting a blog?
+## 5. ¿Tienes algún consejo para otras personas que puedan estar interesadas en iniciar un blog?
 
-Make it a habit to post something. Review your posts after a while to see what kind of tags/categories you seem to use more often, and which kind get more responses.
+Hazlo hábito de publicar algo. Revisa tus mensajes después de un tiempo para ver qué tipo de etiquetas/categorías parece usar más a menudo, y qué tipo de mensajes reciben más respuestas.
 
-## 6. Do you have any tips on things to avoid?
+## 6. ¿Tiene algún consejo sobre las cosas que evitar?
 
-Don't fall into the "X step simple formula for bloggers" which is optimized to create short content with lots of clicks. There are lots of types of "real" blogs that do not do this, and which have dedicated readers.
+No caigas en la fórmula simple de "paso X para los bloggers", que está optimizada para crear contenido corto con muchos clics. Hay muchos tipos de blogs "reales" que no hacen esto, y que tienen lectores dedicados.
 
-## 7. Where do you see your blog going in the future?
+## 7. ¿Dónde ves que tu blog va en el futuro?
 
-It's been on the back burner a bit last year, so first of all I would like to get back to writing regularly. I'm also thinking about compressing some of the information into a book, for example, but I haven't quite decided on the format yet.
+Ha estado un poco en el quemador de fondo el año pasado, así que antes de nada me gustaría volver a escribir regularmente. También estoy pensando en comprimir parte de la información en un libro, por ejemplo, pero todavía no he decidido muy bien el formato.
 
-## 8. Is there anything else that you want to share?
+## 8. ¿Hay algo más que quieres compartir?
 
-It's like running, it's better to just start and go regularly, instead of waiting until you have professional shoes.
+Es como correr, es mejor empezar e ir con regularidad, en lugar de esperar hasta que tengas zapatos profesionales.
 
-*This interview was conducted by Emma Karoune*
+*Esta entrevista fue realizada por Emma Karoune*

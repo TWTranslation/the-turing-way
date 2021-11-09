@@ -1,108 +1,108 @@
-(pd-code-styling-readability)=
-# Writing Human Readable Code
+(pd-code-estilo-legibilidad)=
+# Escribir Código Legible Humano
 
-Writing clear, well commented, readable and re-usable code benefits not only you but the community (or audience) that you are developing it for. This may be your lab, external collaborators, stakeholders, or you might be writing open source software for global distribution! Whatever scale you work at, readability counts!
+Escribir código claro, bien comentado, legible y reutilizable beneficia no sólo a usted, sino también a la comunidad (o al público) para la que lo está desarrollando. Este puede ser su laboratorio, colaboradores externos, partes interesadas, o puede estar escribiendo software de código abierto para la distribución global. Sea cual sea la escala en la que trabajes, la legibilidad cuenta!
 
-Here are a few aspects to consider when making your code easy to read by others.
+Aquí hay algunos aspectos a tener en cuenta al hacer que tu código sea fácil de leer por otros.
 
-## Line Length
+## Longitud de línea
 
-There is some agreement on the length of the coding lines. PEP8 suggests a maximum of 79 characters per line and 80 by the R style guide. This means that the lines can easily fit on a screen, and multiple coding windows can be opened. It is argued that if your line is any longer than this then your function is too complex and should be separated! This is the crux of the Tidy method of R programming, which even has a special operator `%>%` which passes the previous object to the next function, so fewer characters are required:
+Existe cierto acuerdo sobre la longitud de las líneas de codificación. PEP8 sugiere un máximo de 79 caracteres por línea y 80 por la guía de estilo R. Esto significa que las líneas pueden caber fácilmente en una pantalla, y se pueden abrir múltiples ventanas de codificación. Se argumenta que si su línea es más larga que ésta, entonces su función es demasiado compleja y debería separarse. Este es el quid del método Tidy de programación R, que incluso tiene un operador especial `%>%` que pasa el objeto anterior a la siguiente función, para que sean necesarios menos caracteres:
 
 ```r
 recoded_melt_dat <- read_csv('~/files/2019-05-17_dat.csv') %>%
 recode() %>%
-melt() #We now have a recoded, melted dataframe called recoded_melt_dat
+melt() #Ahora tenemos un nombre de datos recobrado y fundido llamado recoded_melt_dat
 ```
 
-## Commenting
+## Comentando
 
-Comments have been described as "Love letters to your future self" by Jon Peirce, creator of PsychoPy. Comments can be blocked or inline.  
-The PEP8 guidelines have firm suggestions that block comments should be full sentences, have two spaces following a period, and follow a dated style guide (Strunk and White). Fortunately the Elements of Style no longer 'requires' an unfair emphasis on masculine pronouns. Whereas inline comments should be used sparingly. Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes. The syntax for comments varies with programming languages. In R and Python, a hashtag is used, whereas in C and Java the brackets `/* /*` are used, and in C++/C# a double slash `//` comments single lines.
+Los comentarios han sido descritos como "Love letters to your future self" por Jon Peirce, creador de PsychoPy. Los comentarios pueden ser bloqueados o en línea.  
+Las directrices PEP8 tienen sugerencias firmes de que los comentarios de bloque deben ser oraciones completas. tienen dos espacios después de un periodo, y siguen una guía de estilo de fecha (Strunk y Blanco). Afortunadamente, los elementos del estilo ya no "requieren" un énfasis injusto en los pronombres masculinos. Cuando los comentarios en línea deben ser utilizados con esparcimiento. Mantener comentarios claros y concisos no sólo le permite hacer un seguimiento de las decisiones que ha tomado. qué funciones particulares hacen, y qué variables se utilizan, también permite a otras personas ver sus procesos de pensamiento. La sintaxis para comentarios varía con lenguajes de programación. En R y Python, se utiliza un hashtag mientras que en C y Java se utilizan los corchetes `/* /*` y en C++/C# una doble barra `//` comenta una sola línea.
 
-In Python:
+En Python:
 ```python
-times = 10 # Set integer
-my_variable = "my variable is %s times better than yours" %times #Set my_variable to a string
-print(my_variable) #print the value
+veces = 10 # Establecer entero
+mi_variable = "mi variable es %s veces mejor que la suya" %times #Establecer mi_variable en una cadena
+print(mi_variable) #imprimir el valor
 ```
 
-In R:
+En R:
 ```r
 my_func = function(number){ #R function
 
-(number * 5) - 2
+(número * 5) - 2
 }
 print(my_func(2))
 ```
 
-For longer comments, information can be included above the code block. In Python, you can use triple speech marks as a parenthesis. This will comment out anything in between.
+Para comentarios más largos, la información puede ser incluida sobre el bloque de código. En Python, puedes usar las marcas de triple voz como paréntesis. Esto comentará cualquier cosa intermedia.
 
 ```python
 """
-The following function takes a number, multiplies it by 5, and subtracts 2.
-This may seem pointless but is simple for demonstration.
+La siguiente función toma un número, lo multiplica por 5 y resta 2.
+Esto puede parecer inútil, pero es sencillo para la manifestación.
 """
 def myfunc(numb): #python function
       return((numb*5)-2)
 print(myfunc(8))
 ```
-Longer blocks of comments are not available in R. There are ways around this, such as setting up a string, or an if(false) statement:
+Los bloques más largos de comentarios no están disponibles en R. Hay maneras de evitar esto, como configurar una cadena, o una declaración if(false):
 
 ```r
-"1 - This is a string. It will not be evaluated by R, and will not raise
-and exception"
+"1 - Esta es una cadena. No será evaluado por R, y no planteará
+y excepción"
 
 if(false){
-2 - All of your comment can go here and will never be evaluated.
-It also means you keep to the 80 character line length suggestion.
-Also, in RStudio you can fold away the comment using the arrow next to the
-line number of the if statement.
+2 - Todo tu comentario puede ir aquí y nunca será evaluado.
+También significa que se mantiene la sugerencia de 80 caracteres de longitud de línea.
+También, en RStudio puede plegar el comentario usando la flecha junto al
+número de línea de la proposición si.
 }
 ```
 
-Or commenting out individual lines:
+O comentando las líneas individuales:
 
 ```r
-#This is also a very long comment
-#covering many lines.
+#Este es también un comentario muy largo
+#que cubre muchas líneas.
 ```
-Your IDE will probably have a keyboard shortcut for commenting out blocks.
+Su IDE probablemente tendrá un atajo de teclado para comentar los bloques.
 
-## Indentation
+## Sangría
 
-The R style guide suggests that lines should be separated:
+La guía de estilo R sugiere que las líneas deben separarse:
 ```r
-by
-  two spaces
+por
+  dos espacios
 ```
-And not
+Y no
 ```r
- a mixture
-   of
-    tabs
-      and   spaces.
+ una mezcla
+   de
+    pestañas
+      y espacios.
 ```
 
-Obviously, sometimes the arguments of a function can far expand 80 characters. In this case, it is recommended that the second line be indented to the start of the arguments:
+Obviamente, a veces los argumentos de una función pueden expandir 80 caracteres. En este caso, se recomienda que la segunda línea se indente al principio de los argumentos:
 
 ```r
 my_variable <- a_really_long_function(data = "2019-05-17_Long_File_Name_2",
-                                      header = TRUE, verbose = TRUE)
+                                      encabezado = TRUE, verboso = TRUE)
 
 ```
 
-These are of course just guidelines, and you should choose elements that suit your coding style. However, and again, it is important to ensure that you are consistent when collaborating, and can agree on a common style. It could be useful to create a readme file describing your coding style so collaborators or contributors can follow your lead.
+Por supuesto, estas son sólo directrices, y deberías elegir elementos que se ajusten a tu estilo de codificación. Sin embargo, y una vez más, es importante asegurarse de que usted es consistente cuando colabora, y puede acordar un estilo común. Podría ser útil crear un archivo readme que describa tu estilo de codificación para que los colaboradores o colaboradores puedan seguir a tu liderazgo.
 
-### ...end. ...end.  ...or end.\\n
+### ...terminar. ...terminar.  ...o final.\\n
 
-If you are sharing text files or working collaboratively on manuals or documents, then there is a lot of controversy surrounding whether to use one or two spaces after a period. When using Markdown, it can be clearer to include a new line after every sentence. This chapter (and most, if not all, of this book) has a new line after every sentence that makes the raw text easier to read, review and solve the spacing issue.
+Si está compartiendo archivos de texto o trabajando colaborativamente en manuales o documentos, entonces hay mucha controversia en torno a si utilizar uno o dos espacios después de un período. Al usar Markdown, puede ser más claro incluir una nueva línea después de cada frase. Este capítulo (y la mayoría, si no todos, de este libro) tiene una nueva línea después de cada frase que hace el texto en bruto más fácil de leer, revisar y resolver el problema del espacio.
 
 ```{figure} ../../figures/xkcd1285.png
 ---
 height: 500px
 name: xkcd1285
-alt: Two groups holding different flags and fighting, one says "two spaces after a period" and other says "one space after a period". While a person stands with their flag that says "Line break after every sentence"
+alt: Dos grupos con diferentes banderas y peleando, Uno dice "dos espacios después de un período" y otro dice "un espacio después de un período". Mientras que una persona está con su bandera que dice "Salto de línea después de cada frase"
 ---
-*Line break after each sentence makes it easy to review and comment - [XKCD Link](https://www.explainxkcd.com/wiki/index.php/1285:_Third_Way)*
+*Salto de línea después de cada frase hace fácil revisar y comentar - [XKCD Link](https://www. xplainxkcd.com/wiki/index.php/1285:_Third_Way)*
 ```

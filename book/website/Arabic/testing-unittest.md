@@ -1,107 +1,107 @@
-(rr-testing-unittest)=
-# Unit Testing
+(r-test-unittest)=
+# اختبار الوحدة
 
-Unit tests are responsible for testing individual elements of code in an isolated and highly targeted way. The functionality of individual functions and classes are tested on their own. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. In procedural programming, a unit may be an individual program, function or procedure. In object-oriented programming the smallest unit is typically a method. It usually has one or a few inputs and usually a single output. Any external dependencies should be replaced with stub or mock implementations to focus the test completely on the code in question.
+واختبارات الوحدات مسؤولة عن اختبار فرادى عناصر التعليمات البرمجية بطريقة معزولة ومحددة الأهداف بدرجة عالية. ويجري اختبار وظيفة كل وظيفة وفئة بمفردها على حدة. والغرض من ذلك هو التحقق من أن كل وحدة من وحدات البرمجيات تؤدي عملها على النحو المصمم. والوحدة هي أصغر جزء قابل للتزوير من أي برامج. وفي البرمجة الإجرائية، يمكن أن تكون الوحدة برنامجا فرديا أو وظيفة أو إجراء. وفي البرمجة الموجهة نحو الأهداف، عادة ما تكون أصغر وحدة أسلوبا. وعادة ما يكون لديها مدخل واحد أو بضعة مدخلات، وعادة ما يكون ناتجا واحدا. يجب استبدال أي تبعية خارجية بأشياء أو تطبيقات صورية لتركيز الاختبار كلياً على التعليمات البرمجية المعنية.
 
-Unit tests are essential to test the correctness of individual code components for internal consistency and correctness before they are placed in more complex contexts. The limited extent of the tests and the removal of dependencies makes it easier to hunt down the cause of any defects. It also is the best time to test a variety of inputs and code branches that might be difficult to hit later on. For example system tests are often time consuming to run and it will likely be impractical to have system tests for every possible path through a code that has more than a few conditional statements. Unit tests are smaller, faster, and so it is more practical to cover all possible cases with them.
+واختبارات الوحدات ضرورية لاختبار صحة عناصر الرموز الفردية من أجل الاتساق الداخلي والصحة قبل وضعها في سياقات أكثر تعقيدا. ومحدودية نطاق الاختبارات وإزالة التبعيات تجعل من الأسهل البحث عن سبب أي عيوب. كما أنه أفضل وقت لاختبار مجموعة متنوعة من المدخلات وفروع التعليمات البرمجية التي قد يكون من الصعب ضربتها في وقت لاحق. على سبيل المثال، كثيراً ما تستغرق اختبارات النظام وقتاً طويلاً لتشغيلها ومن المحتمل أن يكون من غير العملي إجراء اختبارات النظام لكل مسار ممكن من خلال شفرة تحتوي على أكثر من بضع عبارات مشروطة. واختبارات الوحدات أصغر حجما وأسرع، وبالتالي فإن من العملي أكثر تغطية جميع الحالات الممكنة معها.
 
-Often, after any smoke tests, unit tests are the first tests that are run when any changes are made.
+وغالبا ما تكون اختبارات الوحدة، بعد إجراء أي اختبارات للدخان، هي أول اختبارات تجرى عند إجراء أي تغييرات.
 
-## Benefits of Unit Testing
+## فوائد اختبار الوحدة
 
-If a researcher makes a change to a piece of code or how it is run then how can they be sure that doing so has not broken something? They may run a few tests, but without testing every small piece of code individually how can they be certain? Unit testing gives researchers that certainty, and allows them to be confident when changing and maintaining their code.
+إذا قام أحد الباحثين بالتغيير إلى قطعة من التعليمات البرمجية أو كيفية تشغيلها، فكيف لهم أن يتأكدوا من أن القيام بذلك لم يكسر شيئاً؟ قد يجرون بعض الاختبارات، ولكن بدون اختبار كل قطعة صغيرة من التعليمات البرمجية بشكل فردي كيف يمكن التأكد منها؟ اختبار الوحدة يعطي الباحثين هذا اليقين، ويسمح لهم بالثقة عند تغيير التعليمات البرمجية الخاصة بهم والحفاظ عليها.
 
-Here's a little example. Say a researcher has a small function that does one simple thing (here only a single line for brevity). In this example this will be raising a number to the 5th power:
+هذا مثال بسيط. قل الباحث لديه وظيفة صغيرة تقوم بشيء واحد بسيط (هنا خط واحد فقط للإيجاز). وفي هذا المثال سيزيد هذا العدد إلى القوة الخامسة:
 
 ```
 def take_fifth_power(x):
-  result = x * x * x * x * x
-  return result
+  النتيجة = x * x * x * x * x * x * x
+  نتيجة العودة
 ```
 
-The unit test for this function could look like this:
+اختبار الوحدة لهذه الوظيفة يمكن أن يبدو هكذا:
 ```
 def test_take_fifth_power():
-  assert take_fifth_power(1.5) == 7.59375
+  تأكيد take_fifth_power(1.5) == 7.59375
 ```
 
-So it checks that the correct result is outputted for a given input. If not the test will fail. The researcher carries on with their work. In the middle of it they decide to tidy up this function, multiplying the number five times like this is a bit crude. They change the `result = x * x * x * x * x` line to `result = x * 5`. Next time they run their unit tests, this test will fail, because they just made a mistake. Maybe they needed a coffee, maybe their finger slipped, maybe their coworker shot them in the ear with a nerf dart and distracted them, but when they were tidying up this function they should have written `result = x ** 5` *not* `result = x * 5`. The failed test will flag up the mistake and it can quickly be corrected. If a mistake like this went unobserved it could lead to serious errors in the researcher's work.
+لذا فهو يتأكد من أن النتيجة الصحيحة يتم إخراجها لمدخل معين. إذا لم يكن الاختبار سوف يفشل. ويواصل الباحث عمله. في وسطها، يقررون ترتيب هذه الوظيفة، ضرب العدد خمس مرات مثل هذا هو نوع من التقشب. يغيرون نتيجة `= x * x * x * x * x * x * x * x` سطر إلى `النتيجة = x * 5`. في المرة القادمة التي يجرون فيها اختبارات الوحدة، سيفشل هذا الاختبار، لأنهم ارتكبوا خطأ. ربما كانوا بحاجة إلى قهوة، ربما أصابعهم، ربما أصابعهم، ربما قام مساعدهم بإطلاقهم في أذنهم بقنبلة عصبية وتشويههم، ولكن عندما كانوا يرتبون هذه الدالة، كان عليهم كتابة النتيجة `= x ** 5` *ليس* `النتيجة = x * 5`. الاختبار الفاشل سوف يضع علامة على الخطأ ويمكن تصحيحه بسرعة. وإذا حدث خطأ كهذا دون ملاحظة، فإن ذلك قد يؤدي إلى أخطاء خطيرة في عمل الباحث.
 
-So unit testing leads to more reliable code, but there are other benefits too. Firstly, it makes development faster by making bugs easier to find. Larger-scale tests which test large chunks of code (while still useful) have the disadvantage that if they fail it is difficult to pinpoint the source of the bug. Because unit tests by their very definition test small pieces of code, they help developers find the cause of a bug much more quickly than higher-level tests or code with no tests at all. Unit tests also make fixing bugs faster and easier because they catch bugs early while the impact is limited to small individual units. If bugs are not detected early via unit tests then it may be a long time before they are discovered, impacting later work that built on the faulty code. This means that much more code is at risk and that fixing the bug is more time consuming.
+لذا فإن اختبار الوحدة يؤدي إلى شفرة أكثر موثوقية، ولكن هناك فوائد أخرى أيضاً. أولاً، إنه يجعل التنمية أسرع من خلال جعل العثور على الأخطاء أسهل. الاختبارات الواسعة النطاق التي تختبر أجزاء كبيرة من التعليمات البرمجية (رغم أنها لا تزال مفيدة) لها عيب هو أنه إذا فشلت فمن الصعب تحديد مصدر الخطأ. لأن وحدة الاختبارات حسب تعريفها تختبر قطع صغيرة من التعليمات البرمجية، إنها تساعد المطورين على العثور على سبب الخطأ بسرعة أكبر بكثير من الاختبارات ذات المستوى الأعلى أو التعليمات البرمجية بدون أي اختبارات على الإطلاق. كما أن اختبارات الوحدة تجعل إصلاح الأخطاء أسرع وأسهل لأنها تصيد الأخطاء في وقت مبكر بينما يقتصر التأثير على وحدات فردية صغيرة. إذا لم يتم اكتشاف الأخطاء في وقت مبكر عن طريق اختبارات الوحدة، قد يكون وقت طويل قبل اكتشافها، التأثير في العمل اللاحق الذي بني على الشفرة الخاطئة. وهذا يعني أن المزيد من التعليمات البرمجية معرضة للخطر وأن إصلاح الخطأ يستغرق وقتاً أطول بكثير.
 
-The other major benefit of unit testing is that it strongly incentivises researchers to write modular code because modular code is far easier to write unit tests for. Modular code is code that is broken up into manageable chunks which each accomplish simple tasks. This is typically achieved by dividing the code into functions and groups of functions. In contrast a script which is just one long continuous series of lines which produces a result is highly non-modular.
+الميزة الرئيسية الأخرى لاختبار الوحدة هي أنها تحفز الباحثين بقوة على كتابة شفرة نموذجية لأن التعليمات البرمجية النموذجية أسهل بكتابة اختبارات الوحدة لها. الكود البرمجي هو الكود البرمجي الذي يتم تقسيمه إلى أجزاء يمكن التحكم بها والتي ينجز كل منها مهام بسيطة. ويتحقق ذلك عادة بتقسيم المدونة إلى وظائف ومجموعات من الوظائف. وعلى النقيض من ذلك، فإن النص الذي هو مجرد سلسلة طويلة ومتواصلة من الخطوط التي تنتج نتيجة هو غير وحدة نمطية بدرجة كبيرة.
 
-Modular code is much easier to reuse, too. For example, if a researcher has an individual function that does some Useful Thing and in a future project they need to do that thing again, it is trivial to copy or import the function. In contrast, if the code that does this Useful Thing is entwined with a great deal of other code in a long script it is much harder to separate it out for re-use.
+الكود البرمجي التكميلي أسهل بكثير من إعادة الاستخدام. على سبيل المثال إذا كان للباحث وظيفة فردية تقوم ببعض الأشياء المفيدة وفي مشروع مستقبلي فإنهم يحتاجون إلى القيام بذلك مرة أخرى ومن السهل نسخ الوظيفة أو استيرادها. وعلى النقيض من ذلك، إذا كانت التعليمات البرمجية التي تقوم بهذا الشيء المفيد مرتبطة مع الكثير من التعليمات البرمجية الأخرى في برنامج نصي طويل، فمن الأصعب بكثير فصلها لإعادة استخدامها.
 
-## Unit Testing Tips
+## نصائح اختبار الوحدة
 
-- Many testing frameworks have tools specifically geared towards writing and running unit tests.
-- Isolate the development environment from the test environment.
-- Write test cases that are independent of each other. For example, if a unit A utilises the result supplied by another unit B, you should test unit A with a [test double](#Use_test_doubles_stubs_mocking_where_appropriate), rather than actually calling the unit B. If you don't do this your test failing may be due to a fault in either unit A *or* unit B, making the bug harder to trace.
-- Aim at covering all paths through a unit. Pay particular attention to loop conditions.
-- In addition to writing cases to verify the behaviour, write cases to ensure the performance of the code. For example, if a function that is supposed to add two numbers takes several minutes to run there is likely a problem.
-- If you find a defect in your code write a test that exposes it. Why? First, you will later be able to catch the defect if you do not fix it properly. Second, your test suite is now more comprehensive. Third, you will most probably be too lazy to write the test after you have already fixed the defect. Say a code has a simple function to classify people as either adults or children:
+- ولدى العديد من أطر الاختبار أدوات موجهة خصيصا نحو كتابة وإدارة اختبارات الوحدة.
+- عزل البيئة الإنمائية عن بيئة الاختبار.
+- كتابة حالات اختبار مستقلة عن بعضها البعض. فعلى سبيل المثال، إذا استخدمت الوحدة ألف النتيجة التي وفرتها وحدة أخرى باء، يجب عليك اختبار الوحدة ألف مع اختبار [مزدوج](#Use_test_doubles_stubs_mocking_where_appropriate)بدلاً من الاتصال بالوحدة B. إذا لم تقم بهذا الاختبار، قد يكون بسبب خطأ في الوحدة ألف *أو* الوحدة باء، جعل الخطأ أكثر صعوبة لتعقبه.
+- الهدف هو تغطية جميع المسارات من خلال الوحدة. قم بإيلاء اهتمام خاص لشروط الحلقة.
+- بالإضافة إلى كتابة الحالات للتحقق من السلوك، كتابة الحالات لضمان أداء الشفرة. فعلى سبيل المثال، إذا كانت الدالة التي يفترض أن تضيف رقمين تستغرق عدة دقائق لتشغيلها، فمن المرجح أن تكون هناك مشكلة.
+- إذا وجدت عيبا في التعليمات البرمجية الخاصة بك، قم بكتابة اختبار يعرضه. لما؟ أولا، ستتمكن فيما بعد من التقاط العيب إذا لم تقم بإصلاحه بشكل صحيح. ثانياً، مجموعة الاختبارات الخاصة بك الآن أكثر شمولاً. وثالثا، سيكون من الأرجح أنك كسول جدا لكتابة الاختبار بعد أن قمت بالفعل بإصلاح العيب. قل الكود له وظيفة بسيطة لتصنيف الناس إما كبالغين أو أطفال:
 
 ```
 def adult_or_child(age):
 
-  # If the age is greater or equal to 18 classify them as an adult
-  if age >= 18:
-    person_status = 'Adult'
+  # إذا كان العمر أكبر أو يساوي 18 سنة يصنفهم كشخص بالغ
+  إذا كان العمر >= 18:
+    person_status = 'البالغ'
 
-  # If the person is not an adult classify them as a child
-  else:
-    person_status = 'Child'
+  # إذا لم يكن الشخص بالغا يصنفهم كطفل
+  آخر:
+    person_status = 'طفل'
 
-  return person_status
+  Reperson_status
 ```
 
-And say this code has a unit test like this:
+وقول أن هذه التعليمات البرمجية تحتوي على اختبار وحدة كهذا:
 
 ```
 def test_adult_or_child():
 
-  # Test that an adult is correctly classified as an adult
-  assert adult_or_child(22) == 'Adult'
+  # اختبار أن الشخص البالغ مصنف تصنيفاً صحيحاً كشخص بالغ
+  تأكيد على أن الشخص البالغ (22) = 'البالغ'
 
-  # Test that an child is correctly classified as a child
-  assert adult_or_child(5) == 'Child'
+  # اختبار أن الطفل مصنف تصنيفاً صحيحاً كطفل
+  يؤكد أن الطفل بالغ - أو - طفل (5) = 'طفل'
 
-  return
+  العودة
 ```
 
-There's a problem with this code that isn't being tested: if a negative age is supplied it will happily classify the person as a child despite negative ages not being possible. The code should throw an error in this case.
+هناك مشكلة في هذه التعليمات البرمجية التي لم يتم اختبارها: إذا تم توفير سن سالب، فلسوء الحظ سوف يصنف الشخص كطفل على الرغم من أن الأعمار السلبية غير ممكنة. يجب أن يرمي الرمز إلى خطأ في هذه الحالة.
 
-So once the bug is fixed:
+إذاً بمجرد إصلاح الخطأ:
 ```
 def adult_or_child(age):
 
-# Check age is valid
-if age < 0:
-  raise ValueError, 'Not possible to have a negative age'
+# التحقق من العمر صالح
+إذا كان العمر < 0:
+  رفع القيمة 'لا يمكن أن يكون عمر سلبي'
 
-# If the age is greater or equal to 18 classify them as an adult
-if age >= 18:
-  person_status = 'Adult'
+# إذا كان العمر أكبر أو يساوي 18 سنة يصنفهم كبالغ
+إذا كان العمر >= 18:
+  person_status = 'البالغ'
 
-# If the person is not an adult classify them as a child
-else:
-  person_status = 'Child'
+# إذا لم يكن الشخص بالغا يصنفهم كطفل
+آخر:
+  person_status = 'طفل'
 
-return person_status
+Reperson_status
 ```
 
-Go ahead and write a test to ensure that future changes in the code can't cause it to happen again:
+قم بالمضي قدما وكتابة اختبار للتأكد من أن التغييرات المستقبلية في التعليمات البرمجية لا يمكن أن تتسبب في حدوثها مرة أخرى:
 ```
 def test_adult_or_child():
 
-#Test that an adult is correctly classified as an adult
-assert adult_or_child(22) == 'Adult'
+#اختبار أن الشخص البالغ مصنف تصنيفاً صحيحاً كشخص بالغ
+تأكيد على أن الشخص البالغ (البالغ) (22) == 'البالغ'
 
-# Test that an child is correctly classified as a child
-assert adult_or_child(5) == 'Child'
+# اختبار أن الطفل مصنف تصنيفاً صحيحاً كطفل
+يؤكد على أن الطفل (adult_or_child5) = 'طفل'
 
-# Test that supplying an invalid age results in an error
-with pytest.raises(ValueError):
+# اختبار أن تقديم عمر غير صحيح يؤدي إلى خطأ
+مع الاختبار. aises(ValueError):
     adult_or_child(-10)
 ```

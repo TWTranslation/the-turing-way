@@ -1,18 +1,18 @@
 (er)=
-# Guide for Ethical Research
+# دليل البحوث الأخلاقية
 
-***This guide covers topics related to ethical aspects in data science.***
+***ويغطي هذا الدليل مواضيع تتصل بالجوانب الأخلاقية في علوم البيانات.***
 
-Data scientists make data-driven decisions that require the collection of data and model building approaches that can have serious implications for health, security, politics, society and everything associated with them. Researchers or any kind of stakeholders in data science have an obligation to consider the ethical standards and their impact of people's lives {cite:ps}`Loyola2020Ethics`.
+ويتخذ علماء البيانات قرارات تستند إلى البيانات وتتطلب جمع البيانات ونهج بناء النماذج التي يمكن أن تكون لها آثار خطيرة على الصحة، فالأمن والسياسة والمجتمع وكل ما يرتبط بها من أمور. الباحثون أو أي نوع من أصحاب المصلحة في علوم البيانات ملزمون بالنظر إلى المعايير الأخلاقية وتأثيرها على حياة الناس {cite:ps}`Loyola20Ethics`.
 
 ```{figure} ../figures/ethics.jpg
 ---
-name: ethics
-alt: An illustration of a wooden judge hammer labeled with law is hitting a plank labeled with ethics with a quotation "consider necessary restriction around sharing different types of data
+الاسم: الأخلاقيات
+البديل : مثال على المطرقة الخشبية الموصوفة بالقانون يضرب لوح مصنف بالأخلاقيات مع اقتباس "ضع في الاعتبار القيود الضرورية حول مشاركة أنواع مختلفة من البيانات
 ---
-Research Ethics. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+أخلاقيات البحث. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-In this guide, we invite discussions and guidance on ethical considerations that a data scientist should keep in mind to ensure not only that their work maintains a high level of moral integrity, but also that their work is carried out at the highest scientific standards.
+في هذا الدليل، وندعو إلى إجراء مناقشات وتوجيه بشأن الاعتبارات الأخلاقية التي ينبغي لعلماء البيانات أن يضعوها في اعتبارهم ليس فقط لضمان الحفاظ على مستوى عال من السلامة الأخلاقية لعملهم، ولكن أيضاً أن أعمالهم تتم وفقاً لأعلى المعايير العلمية.
 
-Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+تحقق من [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) لدينا للمشاركة .

@@ -1,125 +1,125 @@
-(ch-acknowledgement-record)=
-# Record of Contributions
+(ch-确认记录)=
+# 缴款记录
 
-Two documents in our [GitHub repository](https://github.com/alan-turing-institute/the-turing-way) are used for creating a record of contributions in _The Turing Way_: Contributors Table in the [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) file, and [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) file. This record is made available in the afterword of this book as {ref}`Contributors<contributors-record-contributors>` and {ref}`Personal Highlights<contributors-record-highlights>`. These documents can be used for highlighting skills that our members have gained and shared through their involvement in _The Turing Way_.
+我们 [GitHub 版本库](https://github.com/alan-turing-institute/the-turing-way) 中的两个文档用于创建贡献记录 _Ting Way_: 贡献者表在 [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) 文件， 和 [`贡献者。 d`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) 文件。 此记录已作为 {ref}`贡献者<contributors-record-contributors>` 和 {ref}`个人高亮<contributors-record-highlights>` 在这本书的后缀中提供。 这些文件可以用来突出我们的成员通过参与 _Ting Way_ 获得和分享的技能。
 
-We invite all our members to co-create this record to capture the important work they do around answering questions, representing the project, developing and maintaining the infrastructure, and all other nurturing roles that make The Turing Way community so special.
+我们请我们的所有成员共同创立这一记录，以了解他们在回答问题方面所做的重要工作，代表这一项目， 发展和维护基础设施以及使得“美丽的道路”社区变得如此特殊的所有其他培养作用。
 
-The process of developing this record is described below in detail.
+下文详细介绍了编写这一记录的过程。
 
-## 1. Contributors Table
+## 1. 贡献者表
 
-The [Contributors](https://github.com/alan-turing-institute/the-turing-way#contributors) table in [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) file is updated with every contributor's name using the [all contributors bot](https://allcontributors.org/)'s [emoji key](https://allcontributors.org/docs/en/emoji-key).
+[贡献者](https://github.com/alan-turing-institute/the-turing-way#contributors) 表 [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) 文件用每个贡献者的名字更新了 [所有贡献者机器人](https://allcontributors.org/)的 [表情符号](https://allcontributors.org/docs/en/emoji-key)
 
-No contribution is too small, and these emojis allow us to recognise and fairly acknowledging all kinds of contributions our community members make to the project. Those contributions can include (but are not limited to) bug fixing, chapter planning, writing, editing, reviewing, idea generation, presentation, project management, and maintenance. Please see the subchapter {ref}`Acknowledgement Examples <ch-acknowledgement-examples>` for details.
+没有太小的贡献 而且这些表情使我们能够承认并公正地承认我们的社区成员对该项目所作的各种贡献。 这些贡献可以包括（但不限于）解决错误、规划、撰写、编辑、审查、构想生成、介绍、项目管理和维护。 详情请查看第 {ref}小章`确认示例 <ch-acknowledgement-examples>`
 
 ```{figure} ../../figures/allcontributorsbot-emoji.png
 ---
-height: 400px
-name: AllContributorsEmojiKey
-alt: Table with different emojis that is used by the contributors bot
----
-[Emoji key table](https://allcontributors.org/docs/en/emoji-key) of the all contributors bot that _The Turing Way_ uses for acknowledging different contributions from the community members.
+高度: 400px
+name: AllattorsEmojiKey
+alt: Table with different emojis that are used by contributs bot
+-
+[Emoji key table](https://allcontribuators. 所有贡献者的rg/docs/en/emoji-key都把_Ting Way_用来确认社区成员的不同贡献。
 ```
 
-## 2. Contributors file
+## 2. 贡献者文件
 
-The contributors file, called [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) in the GitHub repository, will hold specific details provided by community members regarding their involvements in the project. This will be referred to as `contributor's detail` in the rest of this document:
+贡献者文件，名为 [`贡献者。 d`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) GitHub 仓库将保存社区成员提供的关于他们参与项目的具体细节。 在本文档的其余部分中，这将被称为 `贡献者的详细信息`：
 
-> `Contributor's name` * Role: `This is an optional entry for any specific role contributors have assumed in the project. It is also a place to mention the date/year since a contributor has taken this role. Examples, "Core contributor (2018-present)", Translation lead (2020), or Code of Conduct committee member (2019-2020).` * GitHub id: `GitHub id, example: [@kirstiejane](http://github.com/kirstiejane)` * ORCID: `ORCID id of the contributor, example: [0000-0001-8498-4059](https://orcid.org/0000-0001-8498-4059)` * Short Bio: `1-2 sentences about themselves`
+> `贡献者姓名` * 角色： `这是任何特定贡献者在项目中承担的角色的可选条目。 它也是一个地方，因为一个捐助国已经承担了这一角色的日期/年份。 例如，“核心贡献者（2018年至今）”、翻译牵头（2020年）或行为守则委员会成员（2019-2020年）。` * GitHub id: `GitHub id, 例如：[@kirstiejane](http://github. om/kirstiejane` * ORCID： `贡献者的ORCID，例如： [0000-0001-8498-4059](https://orcid)。 rg/0000-0001-8498-4059)` * 短生物： `1-2句关于自己的`
 
-Then, our contributors will add "Personal highlights", which will hold details of their contributions to _The Turing way_:
-> * Personal highlights: `GitHub contributions, PRs and issues. Further details have been discussed below.`
+然后，我们的贡献者将添加 "个人高亮"，它将显示他们贡献的详细信息到 _Tacking 路径_：
+> * 个人要闻： `GitHub 贡献、 PRs 和问题。 更多细节已在下面讨论。`
 
-Additionally, contributors can opt to add more information they think can help them share their work and engagement with _The Turing Way_ project by supplementing "More information":
-> * More information: `Additional information provided by the contributors. This is optional.`
+此外， 贡献者可以选择添加他们认为能够帮助他们分享他们的工作和对 _Ting Way_ 项目参与的更多信息，补充"更多信息"：
+> * 更多信息： `贡献者提供的额外信息。 这是可选的。`
 
-### Personal highlights
+### 个人高亮
 
 Specifications for all types of contributions made towards _The Turing Way_ can be added in the [contributors file](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) as personal highlights.
 
-These highlights can be individually decided by the contributors to record what they consider to be their significant and useful for their personal profile. This can be supplemented with supporting materials such links to chapters, pull request, issues, and blog posts.
+这些要点可由撰稿人单独决定，记录他们认为对他们个人情况有重要意义和有用之处。 这可以用与章节、拉取请求、问题和博客帖子链接的辅助材料加以补充。
 
-This record can be directly translated towards the professional development of our community members, which can be further used for enhancing their personal or professional portfolio (profile, CV, resume) (see the [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/edit/acknowledging-contributors/contributors.md) file).
+这一记录可以直接转化为我们社区成员的职业发展。 可以进一步用来提高个人或专业投资组合(简介、CV、续刊)(参见 [`贡献者)。 d`](https://github.com/alan-turing-institute/the-turing-way/edit/acknowledging-contributors/contributors.md) 文件)。
 
-_The Turing Way_ was originally funded by a [Strategic Priority Fund](https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/) investment to the Alan Turing Institute to support [AI For Science and Government](https://www.turing.ac.uk/research/asg). The personal highlights are very valuable for capturing the impact that _The Turing Way_ has for its community members in terms of personal networking, professional development, skill sharing and other relevant activities, and how they have made positive impacts around transparency, reproducibility and ethical collaboration in their organisation.
+_诱惑方式_ 最初由一个 [战略优先基金](https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/) 投资于艾伦·塔林研究所以支持 [AI科学和政府](https://www.turing.ac.uk/research/asg) 提供资金。 个人精彩的精彩节点对于抓住 _Ting Way_ 在个人网络方面对其社区成员的影响非常宝贵， 职业发展和职业发展 分享技能和其他相关活动，以及这些活动是如何围绕其组织内的透明度、可再生性和道德协作产生积极影响的。
 
-### Recording different types of contributions
+### 记录不同类型的捐款
 
-In the contribution types discussed below, we use scenarios from some of the most common contribution types.
+在下文讨论的贡献类型中，我们使用一些最常见的贡献类型的假设情景。
 
-These examples are also outlined in the next subchapter {ref}`Acknowledgement Examples <ch-acknowledgement-examples>` along with other types of contributions that are made to _The Turing Way_.
+这些示例也在下一节 {ref}`确认示例 <ch-acknowledgement-examples>` 以及其他类型的贡献给 _的诱惑方式_
 
-**We recommend using these example statements only as a guide.** As a contributor, you will be able to add as many details as useful for your record.
+**我们建议使用这些示例语句作为指南。** 作为贡献者，您将能够为您的记录添加尽可能多的详细信息。
 
-#### Bug fixes
+#### Bug 修复
 
-*A "bug" is a small error in the text or code like typo, formatting issue or broken links.*
+*"bug"是文本或代码中的一个小错误，如typpo，格式化问题或断开链接。*
 
-Anyone who raises bugs, related issues or fixes them are listed as contributors in the Contributors table with  🐛 (`bug`) emoji.
+任何提升错误、相关问题或修复它们的人都会在 🐛 (`bug`)emoji 的贡献者表中被列为贡献者。
 
-The contributor's file will be updated for the contributors with a similar statement as below after the `contributor's detail`:
+贡献者的文件将在 `贡献者的详细信息` 之后更新给贡献者：
 
-* Personal highlights: > I have fixed typos and made other contributions `other details like identified sections of the book that are unclear`.
+* 个人高亮： > 我有固定的轮胎和其他贡献 `其他详细信息，如书中已识别的不明确章节`
 
-#### Reviewing chapters and other pull requests
+#### 审核章节和其他合并请求
 
-*The review process of a newly contributed chapter or a subsection of an existing chapter involves approving the language and structure of a chapter or a section of a chapter, flagging errors or typos, asking for clarifications if certain parts of the content or statements are unclear, suggesting modifications and improving the overall quality of someone's contribution.*
+*对新增的一章或现有一章中某一分节的审查程序涉及批准某一章或某一章节的措词和结构， 标记错误或轮胎，要求澄清内容或声明的某些部分是否不明确， 建议修改和改进某人贡献的总体质量。*
 
-Anyone who reviews a chapter is listed as reviewers and are acknowledged with 👀 (`review`) emoji in the Contributors table.
+任何评论章节的人都会被列为审核者，并在贡献者表中使用 :ey: (`审阅`表情符号。
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+贡献者的文件将会更新给贡献者。以下是类似的报表：
 
-* Personal highlights: > I have reviewed the chapter `Chapter name`. > I made other contributions to the chapter `other details like structuring and adding references`.
+* 个人高亮: > 我已经审阅了 `章节名称`. > 我对第 `章做出了其他贡献，如结构化和添加引用`
 
-#### Chapter contribution
+#### 章 次 文 件
 
-*The various contributions to a chapter are made towards designing, writing, and reviewing its content through GitHub issues, pull requests, and reviewing processes.*
+*对一章的各种贡献是通过GitHub 问题、拉请求和审查过程来设计、撰写和审查其内容。*
 
-The designing, writing, and reviewing of a chapter's content are acknowledged with 🤔 (`idea`), 🖋 (`content`) and 👀 (`review`) emojis respectively in the Contributors table.
+使用 :thinking_face：(`ideo`) 承认章节内容的设计、写作和审查， :found tain_pen: (`content`) and 👀 (`review`) emojis 分别在贡献者表中。
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+贡献者的文件将会更新给贡献者。以下是类似的报表：
 
-* Personal highlights: > I have designed and written a chapter on `chapter name` and `details on reviewing and structuring new content`.
+* 个人高亮： > 我设计并撰写了一个关于 `章节名称` 和 `关于审查和构建新内容的详细信息`
 
-#### Translation
+#### 翻译
 
-*The translation process in _The Turing Way_ includes aspects translating _The Turing Way_ chapters into languages other than English and reviewing them.* The translation infrastructure as of May 2020 is [Trasifex](https://www.transifex.com/theturingway/theturingway/dashboard/).
+* _翻译过程中的 Ting Way_ 包括一些内容翻译 _Ting Way_ 章节翻译成英文以外的其他语言并审阅。* 截止2020年5月的翻译基础设施为 [Trasifex](https://www.transifex.com/theturingway/theturingway/dashboard/)
 
-Contributors who participate in the translation process will be acknowledged in the Contributors table with the 🌍 (`translation`) emoji.
+参与翻译过程的贡献者将在 :globe_showing_Europe-Africa(`translation`)emoji 的贡献者表中被承认。
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+贡献者的文件将会更新给贡献者。以下是类似的报表：
 
-* Personal highlights: > I have translated part of the chapter `chapter name` into `language`. I have also `details like designed and implemented a process to translate the book into multiple languages, mentored multiple contributors within the community and has translated 3 chapters of The Turing Way into Chinese`.
+* 个人高亮： > 我已将章节 `章节名称的部分` 翻译成 `语言` 我也有 `个详细信息，像设计和实施了一个将书翻译成多种语言的进程。 指导社区内的多个贡献者，并已经将导览路径的3个章节翻译成了中文`。
 
-#### Organisational support
+#### 组织支助
 
-*When members participate in _The Turing Way_ community with the in-kind support of their funders and organisation, we acknowledge each member individually and list their organisations as "Collaborating organisations". Such organisational supports are applicable when one or multiple members from a project or community collaborate to build resources in _The Turing Way_.*
+*当会员在他们的供资者和组织的实物支持下参与 _Ting Way_ 社区 我们单独确认每个成员，并将其组织列为“协作组织”。 当一个项目或社区协作的一个或多个成员在 _Ting Way_ 中建立资源时，这种组织支持是适用的。*
 
-Each organisation who supports its members to collaborate with _The Turing Way_ will be listed as "Collaborating organisations" in the contributor's file. Each contributor from these organisation will be acknowledged individually in the Contributors Table for their specific contributions with emoji keys reflecting specific contributions made with the organisational support. Their contributors will be listed under their organisation's name in the contributor's file.
+Each organisation who supports its members to collaborate with _The Turing Way_ will be listed as "Collaborating organisations" in the contributor's file. 这些组织的每个贡献者都将在贡献者表中单独确认他们的具体贡献，并以表情符号键表示他们在组织支持下做出的具体贡献。 他们的贡献者将被列入贡献者档案中他们的组织名称。
 
-Every contribution from collaborating organisation will be updated with a similar statement as below:
+协作组织提供的每笔捐款将在下文中提供类似的说明：
 
-* Personal highlights: > I have made contributions `contribution type` to the chapters `chapter name`. I have also `details on other contributions like managing a team of contributors, writing a chapter`.
+* 个人高亮： > 我做出了 `贡献类型` 贡献到章节 `章节名` 我也有 `个关于其他贡献的详细信息，如管理一组贡献者，写一章`。
 
-#### Maintenance
+#### 维护费
 
-*Maintenance work in _The Turing Way_ applies to the conversations in community spaces, technical infrastructure, online hosting platforms for the book, and translation infrastructure of Transifex.*
+*_维护工作。诱惑路径_ 适用于社区空间中的对话， 这本书的技术基础设施、在线托管平台以及过渡时期的翻译基础设施。*
 
-Contributors will be acknowledged in the Contributors table with the 💬 (`question`) emoji for answering questions, 🤔 (`ideas`) emoji for discussions, 🚇 (`infra`) emoji for infrastructure support, and 🚧 (`maintenance`) for community efforts or infrastructure maintenance.
+贡献者将在 :speech_clanon: (`question`)表中被承认回答问题。 🤔 (`ideas`) 供讨论使用 🚇 (`infra`) emoji for infrastructure support, and 🚧 (`maintenance`) for community efforts or infrastructure.
 
-The contributor's file will be updated for the contributors with a similar statement as below:
+贡献者的文件将会更新给贡献者。以下是类似的报表：
 
-* Personal highlights: > I have `details like responded to questions in the community's Gitter channel, mentored multiple contributors within the community and has reviewed pull requests to fix typos in the book, maintains the backend infrastructure of the project, provide support and solution regarding Jupyter book and continuous integration, designed and implemented a process to translate the book into multiple languages, helped multiple contributors in facilitating translation efforts`.
+* 个人高亮： > 我有 `详细信息，如对社区Gitter频道中的问题作出答复 指导社区内的多个贡献者，并审查了修复书中的轮胎、维护项目后端基础设施的拉取请求。 提供支持和解决Jupyter书和持续整合， 设计和实施了一个将该书翻译成多种语言的过程，帮助多位撰稿人促进翻译工作`。
 
-#### Representing the Turing Way
+#### 展示美味之路
 
-*Anyone who shares _The Turing Way_ resources in any relevant publication, learning material, conference presentations, or community event are acknowledged for representing _The Turing Way_.*
+*任何人在任何相关的出版物和学习材料中共享 _Ting Way_ 资源。 会议演示或社区活动被承认为代表 _The Ting Way_*
 
 Each contributor who represents _The Turing Way_ at an event is acknowledged in the Contributors table with the 📢 (`Talk`) emoji in the Contributors Table along with other contributions as applicable.
 
-Their contributions will be listed in the contributor's file with a similar statement as below:
+他们的捐款将在捐款者档案中列出，并附有类似的报表如下：
 
-* Personal highlights: > I have presented a talk at _The Turing Way_ at `event's name`. > I have also `details like mentored multiple contributors within the community and have given talks at and event on behalf of the community`.
+* 个人高亮： > 我在 _Ting Way_ 在 `事件的名称` 发表了谈话。 > 我还有 `详情，比如导师在社区内多个贡献者，并代表社区进行了对话和活动。`
 
-Please read personas and pathways for different contributions in the next subchapter.
+请在下一章中阅读不同贡献的人和路径。

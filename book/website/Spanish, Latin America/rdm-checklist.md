@@ -3,12 +3,12 @@
 
 <!-- This is a different style than the other chapters, but I really love what Alex provided so I just kept it. -->
 
-- Do not touch the raw data. Back it up somewhere reasonable and keep a read-only copy.
+- No toque los datos crudos. Copia de seguridad en algún lugar razonable y guarda una copia de sólo lectura.
 
-- Have a plan! Decide where your data is going to be stored, what it is called, when/if it needs to be deleted BEFORE you start collecting it and note it down in a data management plan. If you collect sensitive data, plan for consent for sharing from the start!
+- ¡Ten un plan! Decide dónde se almacenarán tus datos, qué se llama, cuando/si necesita ser borrado BEFORE comienza a recolectarlo y anotarlo en un plan de gestión de datos. Si recopila datos confidenciales, ¡planea el consentimiento para compartir desde el principio!
 
-- Document everything. You know who the worst person at replying to emails is about what the sampling frequency of channel X was. Nope not him, it's actually yourself from a year ago. Keep the documentation with the data!
+- Documentar todo. Sabes quién era la peor persona para responder a los correos electrónicos es cuál era la frecuencia de muestreo del canal X. No, no él, en realidad es usted mismo hace un año. ¡Mantenga la documentación con los datos!
 
-- Create the data you want to see in the word. Imagine someone was about to give you a dataset that you needed to analyse well in order to get that job you have been dreaming about. What would you want it to look like? That is how yours should look.
+- Crea los datos que quieres ver en la palabra. Imagina que alguien estaba a punto de darte un dataset que necesitabas para analizar bien para conseguir ese trabajo con el que has estado soñando. ¿Cómo quieres que luzca? Así es como debería ser el suyo.
 
-- Try not to re-invent the wheel. Before you start creating some crazy new schema, storage format or naming protocol, have a quick google or ask your colleagues. Something that is already being used is likely to be better in the long run, even if you think there is a better solution.
+- Trate de no reinventar la rueda. Antes de empezar a crear algunos nuevos esquemas, formato de almacenamiento o protocolo de nombramiento, pida un Google rápido o pregunte a sus compañeros. Es probable que algo que ya se está utilizando sea mejor a largo plazo, incluso si uno piensa que hay una solución mejor.

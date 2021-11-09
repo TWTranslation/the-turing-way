@@ -1,39 +1,39 @@
-(er-activism)=
-# Activism for Researchers
+(- نشطة)=
+# نشاط الباحثين
 
-(er-activism-prerequisites)=
-## Prerequisites
+(الشروط المسبقة للنشاط)=
+## الشروط المسبقة
 
-There are no prerequisite for this chapter.
+لا يوجد شرط مسبق لهذا الفصل.
 
-(er-activism-summary)=
+(- ناشطة-موجز)=
 ## Summary
 
-This chapter covers why activism can be an important part of ethical data science practice. It also covers different kinds of activism and how you can be an activist within your workplace, your field, your country, or the world at large!
+ويغطي هذا الفصل السبب في أن النشاط يمكن أن يكون جزءاً هاماً من الممارسة الأخلاقية لعلم البيانات. كما أنه يغطي مختلف أنواع النشاط وكيف يمكنك أن تكون ناشطاً في مكان عملك، حقلك أو بلدك أو العالم عموماً!
 
-(er-activism-motivation)=
-## Motivation and Background
+(الدوافع) =
+## الدافع والخلفية
 
-There are many different scenarios where scientists and researchers would engage in activism to achieve change, such as a different institutional policy on open data, increasing ethical standards of research (see the {ref}`er`), or improving working conditions. Scientists may engage in activism across topics related to their work, institutions, fields, or cross-disciplinary issues such as open research, or on topics unrelated to their career.
+وهناك العديد من السيناريوهات المختلفة التي ينخرط فيها العلماء والباحثون في نشاط لتحقيق التغيير، مثل وضع سياسة مؤسسية مختلفة بشأن البيانات المفتوحة، زيادة المعايير الأخلاقية للبحث (أنظر {ref}``)، أو تحسين ظروف العمل. ويمكن للعلماء أن يشاركوا في أنشطة تتعلق بمواضيع تتعلق بعملهم، ومؤسساتهم، وميادين عملهم، وميادين عملهم. أو قضايا متعددة التخصصات، مثل البحث المفتوح، أو مواضيع لا صلة لها بعملهم الوظيفي.
 
-The [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/activism) defines activism as "the use of direct and noticeable action to achieve a result, usually a political or social one". Activism can take many forms and achieve many different things, but it's most effective when people work together as a community with a shared goal.
+[قاموس كمبريدج](https://dictionary.cambridge.org/dictionary/english/activism) يعرف النشاط بأنه "استخدام عمل مباشر وملحوظ لتحقيق نتيجة، عادة ما يكون سياسياً أو اجتماعياً". النشاط يمكن أن يتخذ أشكالا عديدة ويحقق أشياء كثيرة مختلفة، لكنه أكثر فعالية عندما يعمل الناس معا كمجتمع له هدف مشترك.
 
-You don't have to have a lot of experience in activism - or even call yourself an activist - to put some of these methods into practice. However, it can be difficult to know where to start when you want to make a change.
+ليس لديك الكثير من الخبرة في النشاط - أو حتى تسمية نفسك ناشط - لوضع بعض هذه الأساليب موضع التطبيق. ومع ذلك، قد يكون من الصعب معرفة أين تبدأ متى تريد إجراء تغيير.
 
-(er-activism-ways)=
-## Ways to make change
+(طرق - نشطة)=
+## طرق إجراء التغيير
 
-Activism in your workplace can include:
-* *{ref}`er-activism-unionisation`* collective organisation of workers to improve working conditions
-* *{ref}`er-internal-policy`* campaigning to change the way your institution makes decisions or handles certain situations: this can include, for example, advocating for open data practices!
-* *{ref}`er-activismwhistleblowing`* the act of alerting authorities or the press to problems in your institution
+النشاط في مكان عملك من الممكن أن يشمل ما يلي:
+* *{ref}`التنظيم النقابي للنشاط`* التنظيم الجماعي للعمال لتحسين ظروف العمل
+* *{ref}`السياسة الداخلية`* حملة لتغيير الطريقة التي تتخذ بها مؤسستك القرارات أو تتعامل مع حالات معينة: يمكن أن يشمل ذلك: على سبيل المثال، الدعوة إلى ممارسات البيانات المفتوحة!
+* *{ref}`يقوم الناشطون بالإبلاغ عن المخالفات`* فعل تنبيه السلطات أو الصحافة إلى المشاكل في مؤسستك
 
-In the future, we would like to expand this chapter to include guides to activism in wider society for scientists, for example, how to engage with government policy-making processes.
+وفي المستقبل، نود أن نوسع نطاق هذا الفصل ليشمل أدلة للنشاط في المجتمع الأوسع للعلماء، وعلى سبيل المثال، كيفية المشاركة في عمليات صنع السياسات الحكومية.
 
-Activism in your field can include
-* Working to change policies and practices for professional organisations.
-* Outreach to encourage people to work in your field, especially people from backgrounds that are underrepresented
+النشاط في الحقل الخاص بك يمكن أن يتضمن
+* العمل على تغيير السياسات والممارسات للمنظمات المهنية.
+* التوعية لتشجيع الناس على العمل في ميدانكم، ولا سيما الأشخاص من خلفيات ناقصة التمثيل
 
-Activism can also work towards changing laws or policies: for example, lobbying for better data protection legislation in your country, or for resources to implement existing laws. In Australia, activists collaborated with legal aid groups to {ref}`resist 'Robodebt'<er-activism-robodebt>` (an automated system that told welfare benefits recipients that they owed money).
+ويمكن أن يعمل النشاط أيضاً على تغيير القوانين أو السياسات مثلاً: ممارسة الضغط من أجل الحصول على تشريع أفضل لحماية البيانات في بلدكم، أو من أجل الحصول على موارد لتنفيذ القوانين القائمة. في أستراليا، تعاون الناشطون مع مجموعات المساعدة القانونية لـ {ref}`قاوموا 'الروبوديون'<er-activism-robodebt>` (نظام آلي يخبر المستفيدين من استحقاقات الرعاية الاجتماعية بأنهم مدينون بالأموال).
 
-Activism can also be part of changing the world for the better! This can include for example awareness-raising about data literacy.
+النشاط يمكن أن يكون أيضا جزءا من تغيير العالم إلى الأفضل! ويمكن أن يشمل ذلك على سبيل المثال التوعية بشأن محو الأمية بالبيانات.

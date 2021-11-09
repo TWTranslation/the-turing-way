@@ -1,188 +1,188 @@
 (rr-renv-binder)=
-# Binder
+# عشق
 
-(rr-renv-binder-overview)=
-## Overview
+(rr-renv-binder-Overview)=
+## نظرة عامة
 
-Now that we have seen how to use and capture the computational environment used in a Python project, it is time to think about how to share that environment.
+الآن بعد أن رأينا كيفية استخدام واستيعاب البيئة الحسابية المستخدمة في مشروع بايثون (Python)، وقد حان الوقت للتفكير في كيفية تقاسم تلك البيئة.
 
-With an `environment.yml` file (or similar, from alternative package management systems),others can recreate the environment specified by that file. However, this relies on the new user having the same package management system set up, and knowing how to use it. It would be far easier if there was an automated solution to recreate the computational environment - and this is where Binder comes in.
+مع ملف `environment.yml` (أو ما شابه ذلك، من أنظمة إدارة الحزمة البديلة)،يمكن للآخرين إعادة إنشاء البيئة المحددة بهذا الملف. غير أن ذلك يعتمد على وجود نفس نظام إدارة الحزمة للمستخدم الجديد الذي تم إنشاؤه ومعرفة كيفية استخدامه. سيكون من الأسهل بكثير لو كان هناك حل آلي لإعادة إنشاء البيئة الحسابية - وهذا هو المكان الذي يأتي فيه بيندر.
 
-Binder uses a tool called `repo2docker` to create a Docker image of a project based on the configuration files that are included. The resulting image contains the project and the computational environment specified by the original user. Other users can access the image via a cloud-based BinderHub, which allows them to view, edit and run the code from their web browser.
+يستخدم بيندر أداة تسمى `repo2docker` لإنشاء صورة Docker للمشروع استنادًا إلى ملفات التكوين المضمنة. تحتوي الصورة الناتجة على المشروع والبيئة الحسابية التي حددها المستخدم الأصلي. يمكن للمستخدمين الآخرين الوصول إلى الصورة عبر BinderHub، القائم على السحابة، والذي يسمح لهم بعرض وتحرير وتشغيل التعليمات البرمجية من متصفح الويب الخاص بهم.
 
-Juliette Taka's excellent cartoon below illustrates the steps in creating and sharing a "binderized" project.
+ويوضح كارتون جولييت تاكا الممتاز أدناه الخطوات المتخذة في إنشاء مشروع "ملزم" وتقاسمه.
 
-**Step 1:** We start with a researcher who has completed a project and wants to share her work with anyone, regardless of their computational environment. Note that Binder does not only have to be applied to finished projects; it can be used in the same way to share projects that are in progress.
+**الخطوة 1:** نبدأ مع باحثة أكملت مشروعاً وترغب في مشاركة عملها مع أي شخص، بغض النظر عن بيئتهم الحسابية. ملاحظة أن بيندر لا يتعين تطبيقه فقط على المشاريع المنجزة؛ ويمكن استخدامها بنفس الطريقة لتقاسم المشاريع الجارية.
 
-**Step 2:** The researcher's project contains many files of different types. In this case, the researcher has been working in Jupyter notebooks. However, Binder can be used just as effectively with many other file formats and languages which we will cover in more detail shortly.
+**الخطوة 2:** يحتوي مشروع الباحث على العديد من الملفات من أنواع مختلفة. وفي هذه الحالة، كان الباحث يعمل في دفاتر مذكرات المشتري. ومع ذلك، يمكن استخدام Binder بنفس القدر من الفعالية مع العديد من صيغ الملفات واللغات الأخرى التي سنغطيها بمزيد من التفصيل قريبا.
 
-**Step 3:** The researcher uploads her code to a publicly available repository hosting service, such as GitHub, where others can access it. She includes a file describing the computational environment required to run the project.
+**الخطوة 3:** يرفع الباحث تعليماتها البرمجية إلى خدمة استضافة مستودع متاحة للجمهور، مثل GitHub، حيث يمكن للآخرين الوصول إليها. وهي تتضمن ملفاً يصف البيئة الحسابية اللازمة لتشغيل المشروع.
 
-**Step 4:** She generates a link at the [mybinder.org](https://mybinder.org) BinderHub. By clicking on this link, anyone can access a "binderized" version of her project. The click triggers `repo2docker` to build a Docker image based on the contents of the repository and its configuration files. This image is then hosted on the cloud. The person who clicked the link will be taken to a copy of her project in their web browser where they can interact with it. This copy of the project is hosted in the environment the researcher specified in step 3, regardless of the computational environment it is accessed from.
+**الخطوة 4:** تقوم بإنشاء رابط في [mybinder.org](https://mybinder.org) BinderHub. بالنقر على هذا الرابط، يمكن لأي شخص الوصول إلى نسخة "ملزمة" من مشروعها. يؤدي النقر إلى تشغيل `repo2docker` لبناء صورة Docker استنادًا إلى محتويات المستودع وملفات الإعدادات الخاصة به. ثم يتم استضافة هذه الصورة على السحابة. الشخص الذي أنقر على الرابط سوف يُنقل إلى نسخة من مشروعها في متصفح الويب الخاص به حيث يمكنه التفاعل معه. وتستضيف هذه النسخة من المشروع في البيئة التي يحددها الباحث في الخطوة 3، بغض النظر عن البيئة الحسابية التي يمكن الوصول إليها منها.
 
 ```{figure} ../../figures/binder-comic.png
 ---
-name: binder-comic
-alt: An illustration of the steps a person can take to create a binderised project.
+الاسم: binder-comic
+البديل : مثال توضيحي للخطوات التي يمكن أن يتخذها الشخص لإنشاء مشروع مربط.
 ---
-Figure credit - [Juliette Taka, Logilab and the OpenDreamKit project](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
+رصيد الشكل - [Juliette Taka, Logilab و OpenDreamKit project](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
 ```
 
-To get an idea of what this looks like, below is a binder of a simple example project. Files are listed and can be clicked on and modified by the person accessing the Binder.
+للحصول على فكرة عن الشكل الذي يبدو عليه هذا، أدناه هو عبارة عن مشروع نموذج بسيط. الملفات مدرجة ويمكن النقر عليها وتعديلها من قبل الشخص الذي يصل إلى الباندر.
 
 ```{figure} ../../figures/binder-home.png
 ---
-name: binder-home
-alt: A screenshot of a binder of a sample project
+name: binder-Home
+البديل : لقطة شاشة لمنصة لمشروع عينة
 ---
-A binder of a sample project.
+مقطع لمشروع عينة.
 ```
 
-Users can also open terminals to run or otherwise interact with the files by clicking on "New" and then "Terminal" in the top right of the home Binder screen shown above. Here, this is used to run the analysis script in the example Binder which performs a linear regression on some data:
+يمكن للمستخدمين أيضًا فتح المحطات الطرفية لتشغيل أو التفاعل مع الملفات بالنقر على "جديد" ثم على "المحطة الطرفية" في أعلى يمين شاشة بيندر الرئيسية الموضحة أعلاه. هنا يستخدم هذا لتشغيل النص النصي للتحليل في المثال Binder الذي يقوم بانحدار خطي على بعض البيانات:
 
 ```{figure} ../../figures/binder-terminal.png
 ---
-name: binder-terminal
-alt: A screenshot of a terminal where users can run or interact with project files
+name: binder-Teral
+البديل : لقطة شاشة لمحطة طرفية حيث يمكن للمستخدمين تشغيل أو التفاعل مع ملفات المشروع
 ---
-A screenshot of a terminal where users can run or interact with project files
+لقطة شاشة لمحطة طرفية حيث يمكن للمستخدمين تشغيل أو التفاعل مع ملفات المشروع
 ```
 
-As mentioned, Binder is well integrated with Jupyter notebooks. Notebooks can be opened by clicking on "New" and then "Notebook" in the same way terminals can be opened. These may be more convenient for those working with graphical outputs, as shown here where one is used to run `make_plot.py` in the example Binder:
+وكما سبقت الإشارة، فإن بيندر مندمج بشكل جيد مع دفاتر ملاحظات المشتري. يمكن فتح دفاتر الملاحظات بالنقر على "جديد" ثم على "المذكرات" بنفس الطريقة التي يمكن بها فتح المحطات الطرفية. قد تكون هذه أكثر ملاءمة لأولئك الذين يعملون مع مخرجات الرسوم البيانية، كما هو مبين هنا حيث يستخدم واحد لتشغيل `make_plot. y` في المثال Binder:
 
 ```{figure} ../../figures/binder-notebook.png
 ---
-name: binder-notebook
-alt: A screenshot of a Jupyter Notebook integrated with Binder
+الاسم: Binder-note
+البديل : لقطة شاشة لمذكرات المشتري مدمجة مع Binder
 ---
-A screenshot of a Jupyter Notebook integrated with Binder
+لقطة شاشة لمذكرات المشتري مدمجة مع Binder
 ```
 
-If R is installed in a Binder, the dropdown menu will show the options to open R Jupyter notebooks and RStudio sessions in the Binder.
+إذا تم تثبيت R في Binder، ستظهر القائمة المنسدلة الخيارات لفتح دفتر ملاحظات المشتري R و RStudio جلسات في Binder.
 
 (rr-renv-binder-disambiguation)=
-## Disambiguation
+## التشكك
 
-In this section, there are some related terms, which will be outlined here for clarity:
+وفي هذا الفرع، هناك بعض المصطلحات ذات الصلة التي سيجري إيجازها هنا توخيا للوضوح:
 
-- **Binder**: A sharable version of a project that can be viewed and interacted within a reproducible computational environment via a web browser.
-- **BinderHub**: A service which generates Binders. The most widely-used is [mybinder.org](https://mybinder.org), which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
-- **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
-- **Binderize**: To make a Binder of a project.
+- **Binder**: نسخة مشتركة من المشروع الذي يمكن رؤيته والتفاعل معه في بيئة حسابية قابلة للتكرار عن طريق متصفح ويب.
+- **BinderHub**: خدمة تنتج Binders. الأكثر استخداما هو [mybinder.org](https://mybinder.org)، الذي يديره فريق بيندر. من الممكن إنشاء BinderHubs الأخرى التي يمكن أن تدعم تشكيلات أكثر تخصصاً. ويمكن أن يشمل أحد هذه التشكيلات المصادقة لتمكين المستودعات الخاصة من تقاسمها فيما بين المتعاونين الوثيقين.
+- **[mybinder.org](https://mybinder.org)**: BinderHub. لأنه عام، يجب ألا تستخدمه إذا كان مشروعك يتطلب أي معلومات شخصية أو حساسة (مثل كلمات المرور).
+- **قرع**: لصنع باوندر للمشروع.
 
 (rr-renv-binder-creating)=
-## Creating a Binder for a Project
+## إنشاء بايندر لمشروع
 
-Creating a binderized version of a project involves three key steps which will be explained in this section:
+وينطوي إنشاء نسخة مزدوجة من المشروع على ثلاث خطوات رئيسية سيتم شرحها في هذا الفرع:
 
-1. Specify the computational environment
-2. Put the project files somewhere publicly available (we will describe how to do this with GitHub)
-3. Generate a link to a Binder of the project
+1. تحديد البيئة الحسابية
+2. ضع ملفات المشروع في مكان ما متاحة للعموم (سوف نصف كيفية القيام بذلك باستخدام GitHub)
+3. إنشاء رابط إلى بايندر من المشروع
 
-For a list of sample repositories for use with Binder, see the [Sample Binder Repositories](https://mybinder.readthedocs.io/en/latest/sample_repos.html) page.
+للحصول على قائمة من مستودعات العينة لاستخدامها مع Binder، انظر صفحة [مستودعات عينة من Binder](https://mybinder.readthedocs.io/en/latest/sample_repos.html).
 
 (rr-renv-binder-creating-stepone)=
-### Step 1: Specify your Computational Environment
+### الخطوة 1: تحديد البيئة الحسابية
 
-Suppose project contains no file specifying the computational environment. When a Binder is generated, the environment will be the Binder default environment, (containing Python 3.6) which may or may not be suitable for the project. However, if it does contain a configuration file for the environment, then the Binder will be generated with the specified environment. A full list of such files Binder accepts, with examples, can be found [here](https://mybinder.readthedocs.io/en/latest/config_files.html). Key ones are discussed below, some of which are language-specific:
+لنفترض أن المشروع لا يحتوي على ملف يحدد البيئة الحاسوبية. عندما يتم إنشاء Binder ، ستكون البيئة هي بيئة Binder الافتراضية (تحتوي على Python 3. ) الذي قد يكون مناسبا أو غير مناسب للمشروع. ومع ذلك، إذا كان يحتوي على ملف تكوين للبيئة، فسيتم إنشاء Binder مع البيئة المحددة. قائمة كاملة من هذه الملفات يقبل Binder ، مع أمثلة ، يمكن العثور على [هنا](https://mybinder.readthedocs.io/en/latest/config_files.html). وترد أدناه مناقشة للمفاهيم، بعضها خاص بلغات:
 
-- `environment.yml`
-  - Recall that `environment.yml` files were discussed in the {ref}`rr-renv-package` section.
-- Dockerfile
-  - Dockerfiles will be discussed in the {ref}`rr-renv-containers` section, so will not be discussed further here.
+- `البيئة.yml`
+  - تذكر أن ملفات `environment.yml` قد نوقشت في قسم {ref}`rr-renv-package`.
+- ملف Dockerfile
+  - سيتم مناقشة ملفات Dockers في قسم {ref}`rr-renv-containers` ، لذلك لن يتم مناقشتها بمزيد من التفصيل هنا.
 - `apt.txt`
-  - Dependencies that would typically be installed via commands such as `sudo apt-get install package_name` should be listed in an `apt.txt` file, and will be automatically installed in the Binder.
-  - For example if a project uses Latex the `apt.txt` file should read
+  - التبعيات التي يتم تثبيتها عادة عن طريق أوامر مثل `sudo apt-get install package_name` يجب أن تكون مدرجة في `واب. xt` ملف ، وسيتم تثبيته تلقائياً في Binder.
+  - على سبيل المثال إذا كان المشروع يستخدم Latex ملف `apt.txt` يجب أن يكون
     ```
     texlive-latex-base
     ```
-    to install the base Latex package.
+    لتثبيت حزمة Latex الأساسية.
 - `default.nix`
-  - For those that use the {ref}`rr-renv-package` Nix a `default.nix` file can be a convenient way to capture their environment.
+  - لمن يستخدمون {ref}`rr-renv-pack` Nix a `default.nix` يمكن أن يكون طريقة مناسبة للالتقاط بيئتهم.
 - `requirements.txt` (Python)
-  - For Python users a `requirements.txt` file can be used to list dependent packages.
-  - For example to have Binder install `numpy` this file would simply need to read:
+  - بالنسبة لمستخدمي بايثون `requirements.txt` يمكن استخدام ملف لقائمة الحزم المعتمدة.
+  - على سبيل المثال، للحصول على تثبيت Binder `numpy` يحتاج هذا الملف ببساطة إلى ما يلي:
     ```
     numpy
     ```
-  - A specific package version can also be specified using an `==`. For example, to have Binder install version `1.14.5` of `numpy` then the file would be
+  - يمكن أيضا تحديد إصدار حزمة محددة باستخدام `==`. على سبيل المثال، للحصول على نسخة Binder المثبتة `1.14.5` من `numpy` ثم سيكون الملف
     ```
     numpy==1.14.5
     ```
-  - The `requirement.txt` file does not need to be handwritten. Running the command `pip freeze > requirements.txt` will output a `requirements.txt` file that fully defines the Python environment.
+  - الملف `requirement.txt` ليس بحاجة إلى أن يكون مكتوبا يدويا. تشغيل الأمر `pip تجميد > requirements.txt` سيخرج ملف `requirements.txt` الذي يحدد بيئة بايثون تعريفا كاملا.
 - `runtime.txt`
-  - It is used to specify a particular version of Python or R for the Binder to use.
-  - To specify which version of R to use, find the date it was captured on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) and include it in the `runtime.txt` file as
+  - يستخدم لتحديد إصدار معين من Python أو R لاستخدامه Binder .
+  - لتحديد نسخة R المراد استخدامها، ابحث عن التاريخ الذي تم التقاط فيه على [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) وإدراجه في `زمن التشغيل. ملف xt` كـ
     ```
     r-<YYYY>-<MM>-<DD>
     ```
-  - To specify a version of Python, state the version in the `runtime.txt` file. For example, to use Python 2.7, the file would need to read
+  - لتحديد إصدار من Python، حدد الإصدار في ملف `runtime.txt`. على سبيل المثال، لاستخدام Python 2.7، سيحتاج الملف إلى قراءة
     ```
     python-2.7
     ```
-- `install.R` or `DESCRIPTION` (R/RStudio)
-  - An `install.R` file lists the packages to be installed. For example, to install the package `tibble` in the Binder:
+- `install.R` أو `DSCRIPTION` (R/RStudio)
+  - ملف `install.R` يسرد الحزم التي سيتم تثبيتها. على سبيل المثال، لتثبيت الحزمة `tibble` في Binder:
     ```
     install.packages("tibble")
     ```
-  - [DESCRIPTION files](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) are more typically used in the R community for dependency management.
+  - [ملفات DSCRIPTION](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) تستخدم عادة في مجتمع R لإدارة التبعية.
 
 (rr-renv-binder-creating-steptwo)=
-### Step 2: Put your Code on GitHub
+### الخطوة 2: وضع التعليمات البرمجية الخاصة بك على GitHub
 
-GitHub is discussed at length in the chapter on {ref}`rr-vcs`, which you should refer to if you wish to understand more about this step. In this chapter, we will give a brief explanation. GitHub is a very widely used platform where you can make "repositories", and upload code, documentation, or any other files into them. To complete this step:
+تتم مناقشة GitHub مطولاً في الفصل على {ref}`rr-vcs`، الذي يجب أن تشير إليه إذا كنت ترغب في فهم المزيد حول هذه الخطوة. وفي هذا الفصل، سنقدم تفسيرا موجزا. GitHub منصة تستخدم على نطاق واسع جدا حيث يمكنك إنشاء "مستودعات" وتحميل الكود أو الوثائق أو أي ملفات أخرى فيها. لإكمال هذه الخطوة:
 
-1. Make an account on [GitHub](https://github.com/).
-2. Create a repository for the project you wish to make a Binder of.
-3. Upload your project files (including the file you have created to specify your computational environment) to the repository and save ("commit" in the vocabulary of GitHub) them there.
+1. إنشاء حساب على [GitHub](https://github.com/).
+2. قم بإنشاء مستودع للمشروع الذي ترغب في إنشاء مخزن له.
+3. قم بتحميل ملفات مشروعك (بما في ذلك الملف الذي قمت بإنشائه لتحديد البيئة الحسابية الخاصة بك) إلى المستودع وحفظها ("التزام" في مفردات GitHub) هناك.
 
-If you are unable to complete these steps, refer to the chapter on {ref}`version control <rr-vcs>` for a fuller explanation.
+إذا كنت غير قادر على إكمال هذه الخطوات، يرجى الرجوع إلى الفصل الخاص بـ {ref}`التحكم في الإصدار <rr-vcs>` للحصول على تفسير أكمل.
 
-(rr-renv-binder-creating-stepthree)=
-### Step 3: Generate a Link to a Binder of your Project
+(rr-renv-binder-creating-stepالثلاثي)=
+### الخطوة 3: إنشاء رابط إلى بينار من مشروعك
 
-Head to [https://mybinder.org](https://mybinder.org). You will see a form that asks you to specify a repository for [mybinder.org](https://mybinder.org) to build. In the first field, paste the URL of the project's GitHub repository. It will look something like this: `https://github.com/<your-username>/<your-repository>`
+انتقل إلى [https://mybinder.org](https://mybinder.org). سترى استمارة تطلب منك تحديد مستودع لـ [mybinder.org](https://mybinder.org) للبناء. في الحقل الأول، قم بلصق عنوان URL لمستودع GitHub للمشروع. سوف يبدو شيئا مثل هذا: `https://github.com/<your-username>/<your-repository>`
 
 ```{figure} ../../figures/mybinder-gen-link.png
 ---
-name: mybinder-gen-link
-alt: A screenshot of the webpage used to generate a Binder link for your project
+الاسم: mybinder-gen-link
+البديل : لقطة شاشة من صفحة الويب المستخدمة لإنشاء رابط بيندر لمشروعك
 ---
-Interface for generating Binder links for projects
+واجهة لإنشاء روابط بيندر للمشاريع
 ```
 
-As you can see, there are additional fields in this form, but these are optional and will not be discussed here.
+وكما ترون، هناك مجالات إضافية في هذا الشكل، ولكنها اختيارية ولن تناقش هنا.
 
-Once the URL to the project to be binderized is supplied, two fields will be automatically populated on the screen depicted above:
+بمجرد توريد عنوان URL للمشروع المراد ربطه، سيتم ملء حقلين تلقائياً على الشاشة الموضحة أعلاه:
 
-- The `Copy the URL below and share your Binder with others` field, provides a link to the Binder that can be copied and shared.
-- The `Copy the text below, then paste into your README to show a binder badge` field, can be included in GitHub to create a button that allows anyone that accesses your project to launch the Binder.
+- `نسخ عنوان URL أدناه ومشاركة Binder الخاص بك مع الحقل` الآخر، يوفر رابط Binder الذي يمكن نسخه ومشاركته.
+- `نسخ النص أدناه، ثم لصق في README الخاص بك لإظهار حقل شارة بيندر` ، يمكن أن يتم تضمينه في GitHub لإنشاء زر يسمح لأي شخص يصل إلى مشروعك لتشغيل Binder.
 
-Finally, click the launch button. This will ask [mybinder.org](https://mybinder.org) to build the environment needed to run the project. This may take several minutes. You can click on the `Build logs` button to see the logs generated by the build process. These logs help resolve any issues that cause the build to fail, such as errors in the file defining the computational environment to be generated.
+أخيرا، انقر فوق زر التشغيل. هذا سيطلب من [mybinder.org](https://mybinder.org) بناء البيئة اللازمة لتشغيل المشروع. وقد يستغرق ذلك عدة دقائق. يمكنك النقر على زر `بناء سجلات` لرؤية السجلات التي تم إنشاؤها من خلال عملية البناء. هذه السجلات تساعد على حل أي مشاكل تسبب فشل البناء، مثل الأخطاء في الملف الذي يحدد البيئة الحسابية التي سيتم إنشاؤها.
 
-Once it has been built, the Binder will be automatically launched; again, this may take some time.
+وبمجرد أن يتم بناءها، سيطلق البندر تلقائياً؛ ومرة أخرى، قد يستغرق ذلك بعض الوقت.
 
 (rr-renv-binder-data)=
-## Including Data in a Binder
+## بما في ذلك البيانات في Binder
 
-There are a few ways to make data available in your Binder. The best one depends on how big your data is and your preferences for sharing data. Note that the more data that is included, the longer it will take for a Binder to launch. Data also takes up storage space that must be paid for, so it is good to be considerate and minimise the data you include, especially on the publicly provided [mybinder.org](https://mybinder.org).
+هناك بعض الطرق لجعل البيانات متاحة في Binder. يعتمد أفضل واحد على حجم البيانات الخاصة بك والتفضيلات الخاصة بك لمشاركة البيانات. لاحظ أنه كلما زاد عدد البيانات المشمولة، كلما استغرق الأمر وقتا أطول لإطلاقها. البيانات أيضا تستحوذ على مساحة تخزين يجب دفع ثمنها، لذلك من الجيد أن تكون موضع نظر وتقلل من البيانات التي تضمنها، خاصة على [ميبيندر المقدمة للجمهور. rg](https://mybinder.org).
 
 (rr-renv-binder-data-small)=
-### Small Public Files
+### ملفات عامة صغيرة
 
-The simplest approach for small data files that are public is to add them directly to your GitHub repository or include them along with the rest of your project files in the Binder. This works well and is reasonable for files with sizes up to 10MB.
+أبسط نهج لملفات البيانات الصغيرة العامة هو إضافتها مباشرة إلى مستودع GitHub الخاص بك أو تضمينها إلى جانب بقية ملفات مشروعك في Binder. ويعمل هذا بشكل جيد وهو معقول بالنسبة للملفات التي تصل أحجامها إلى 10 ميغابايت.
 
-(rr-renv-binder-data-medium)=
-### Medium Public Files
+(rr-renv-binder-data-medi)=
+### الملفات العامة المتوسطة
 
-For medium-sized files - a few 10s of megabytes to a few hundred megabytes - find some other place online to store them and make sure they are publicly available. Add a file named `postBuild` (which is a shell script so the first line must be `#!/bin/bash`) to your project files. In the `postBuild` file, add a single line reading:
+وبالنسبة للملفات المتوسطة الحجم - بضع 10 ثوان من الميغابايت إلى بضع مئات من الميغابايت - تجد أماكن أخرى على الإنترنت لتخزينها والتأكد من إتاحتها للجمهور. أضف ملفًا اسمه `بريد` (وهو سكريبت قذيفة) لذا يجب أن يكون السطر الأول `#! bin/bash`) إلى ملفات مشروعك. في ملف `بريد` ، أضف سطر واحد يقرأ:
 ```
-wget -q -O name_of_your_file link_to_your_file
+ربح -q -O name_of_your_file link_to_your_file
 ```
 
-The `postBuild` file is used to execute commands when the files to produce the Binder are being generated. In this case, it can be used to download your data into the files used to launch the binder.
+يتم استخدام ملف `بريد` لتنفيذ الأوامر عندما يتم إنشاء الملفات لإنتاج بايندر. في هذه الحالة، يمكن استخدامه لتحميل بياناتك إلى الملفات المستخدمة لتشغيل البوصلة.
 
-(rr-renv-binder-data-large)=
-### Large Public Files
+(rr-renv-binder-data-كبير)=
+### ملفات عامة كبيرة
 
-The best option for large files is to use a library specific to the data format to stream the data as you are using it. There are a few restrictions on outgoing traffic from your Binder that are imposed by the team operating [mybinder.org](https://mybinder.org). Currently only connections to HTTP and Git are allowed. This comes up when people want to use FTP sites to fetch data. For security reasons FTP is not allowed on [mybinder.org](https://mybinder.org).
+الخيار الأفضل للملفات الكبيرة هو استخدام مكتبة خاصة بتنسيق البيانات لبث البيانات أثناء استخدامها. هناك بعض القيود على حركة المرور الصادرة من بيندر الخاص بك والتي يفرضها الفريق الذي يعمل [mybinder.org](https://mybinder.org). يسمح حاليا فقط بالاتصالات مع HTTP و Git. ويأتي هذا عندما يريد الناس استخدام مواقع FTP لجلب البيانات. لأسباب أمنية FTP غير مسموح به على [mybinder.org](https://mybinder.org).

@@ -1,15 +1,15 @@
 (cm-comms-overview-principles)=
-# Principles of Communicating with Wider Audiences
+# 与更广泛的听众交流原则
 
-Researchers should consider communicating their research less technically to expand its accessibility to wider audiences. This will increase the impact of the research on different academic disciplines and also on non-specialist audiences.
+研究人员应考虑将他们的研究工作技术性较低，以扩大对更多受众的利用。 这将增加研究对不同学科以及非专业学者的影响。
 
-You need to think carefully about the readability of any written or spoken communications.
+你需要认真考虑任何书面或口头通信的可读性。
 
-## Main Points to Consider:
+## 要考虑的要点：
 
-* **Identify your audience** - It is important to first establish the audience that you want to communicate with as this will determine the level of readability and therefore the level of technical language that you can use.
-    * To assess and organise the characteristics of your audiences, you can use a persona creation tool like the one referenced in the {ref}`Guide for Project Design<pd-persona>`.
-    * Keep in mind that there are usually many different audiences that consume the same content you publish in each of the media that we'll cover in this chapter.
-* **Change your style** - Academic writing is often very formal and uses a lot of passive voice such as 'the authors suggest ...'. This style does not suit a non-academic audience and therefore your writing needs to be adapted to suit the audience you are aiming for.
-* **Make it accessible** - As well as making the technical level of your writing lower, you also need to get rid of any commonly used abbreviations used in your discipline or at least make sure that you explain them. Each discipline has its acronyms that even other scientific fields do not understand. There are also issues concerning different audiences being physically able to access the output that must be considered. Removing as many barriers to research communication as possible will increase its effectiveness.
+* **识别您的听众** - 重要的是首先确定您想要与之沟通的听众，因为这将决定您可以使用的可读性水平，从而决定您可以使用的技术语言水平。
+    * 评估和组织您的受众， 您可以使用个人创建工具，例如在 {ref}`项目设计指南<pd-persona>` 中引用的个人创建工具。
+    * 请记住，通常有许多不同的受众消耗您在每个媒体上发布的相同内容，我们将在本章中报道。
+* **更改您的样式** - 学术写作常常非常正式，使用许多被动语音，如“作者建议...”。 这种风格不适合非学术受众，因此您的写作需要调整以适应您想要的受众。
+* **使您可以访问** - 以及降低您的写入技术水平， 你还需要去除你学科中常用的缩写，或至少确保你解释这些缩写。 每个学科都有其缩写，甚至是其他科学领域也无法理解。 还有一些问题涉及不同受众实际上能够获取必须加以考虑的产出。 尽可能消除研究交流方面的障碍将提高其效力。
 

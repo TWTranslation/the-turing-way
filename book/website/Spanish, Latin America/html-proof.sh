@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-set -e # halt script on error
+establecer -e # detener script en error
 
-make site 
-bundle exec htmlproofer --allow-hash-href \
---assume-extension ./_site \
+crear sitio 
+bundle exec htmlTester --allow-hash-href \
+---extensión-m./_sitio \
 --url-ignore "/\/apple-touch*.*/,/\/images/logo/favicon.ico/,/#*/" \
 --disable-external \
---only_4xx 
+--solo_4xx 
 

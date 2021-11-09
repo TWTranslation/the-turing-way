@@ -1,29 +1,29 @@
-(legal-disclaimer)=
-# Legal disclaimer: The Turing Way is not legal advice!
+(法律上的免责声明)=
+# 法律免责声明：诱惑途径不是法律咨询意见！
 
-_The Turing Way_ is a lightly opinionated guide to reproducible research. It is *not* a source of legal advice and should never be treated as such.
+_诱导之路_ 是一个轻松引导可重复研究的指南。 It is *not* a source of legal advice and should never be treated as such.
 
-## Good legal advice is timely, specific, and given by a legal expert
+## 良好的法律咨询是及时、具体的，并由一名法律专家提供。
 
-_The Turing Way_ is not these things.
+_诱惑路径_ 不是这些事情。
 
-_The Turing Way_ is not written to be a source of legal expertise. When laws and regulations are referenced, the information provided is heavily simplified. The intent is to give you an overview of the basics so that you will know when to check whether something you want to do has potential legal ramifications. Don’t make any important decisions based solely on information about laws and regulations in this book.
+_创新方式_ 并不是被写入成为法律专业知识的来源。 在参照法律和条例时，所提供的信息将大为简化。 其用意是向您概述基本知识，以便您知道何时检查您想要做的事情是否具有潜在的法律后果。 不要仅仅根据本书中有关法律和条例的信息作出任何重要决定。
 
-### Finding legal expertise
+### 寻找法律专门知识
 
-If you are part of an organisation such as a university, a non-profit or a company, you can likely access legal advice either in-house or from a specialist firm that already works with your institution or organisation. You should check with them first if you have any concerns.
+如果你是大学、非营利或公司等组织的一部分， 您可能会在内部或已经与您的机构或组织合作的专业公司获得法律咨询。 如果你有任何顾虑，你应该先检查他们。
 
-If you are not part of an institution or organisation:
-- There are law firms that specialise in data and technology that can provide advice in many jurisdictions (see below).
-- Many governments make their laws and regulations available online: be aware, however, that these can often be difficult to understand without specialist training.
-- In some jurisdictions, some charities and non-profits produce guidance for complying with laws. They should be clear about the limits of the advice they can provide.
+如果你不是一个机构或组织的一部分：
+- 有些法律事务所专门从事数据和技术，在许多法域可以提供咨询意见（见下文）。
+- 许多政府在网上提供其法律和条例：然而，它们知道如果没有专业培训，往往很难理解这些法律和条例。
+- 在有些法域，一些慈善机构和非利润为遵守法律提供了指导。 他们应当清楚他们能够提供的咨询意见的局限性。
 
-### Jurisdictions
+### 管辖权
 
-Laws are different in different places. You should make sure that you are aware of which jurisdictions you are operating in and that you are complying with all the laws that cover all the relevant jurisdictions. If you are not sure, start by contacting a legal advisor in the place that you are currently working: they will also be able to advise on what other jurisdictions you should be thinking about.
+法律在不同的地方有所不同。 你应确保你知道你在哪些管辖区内运作，并确保你遵守涵盖所有相关管辖区的所有法律。 如果您不确定， 首先联系目前工作地点的法律顾问：他们也能够就你应该考虑的其他法域提出建议。
 
-## What's next?
+## 接下来是什么？
 
-- Identify who you should reach out to should you need legal advice or expertise
-- Learn about your rights, limitations and what legal advice you should seek
-- Learn more about it in the {ref}`Guide for Ethical Research<er>`
+- 如果您需要法律咨询或专门知识，请指明您应该联系哪些人
+- 了解您的权利、限制以及您应该寻求什么样的法律建议
+- 在 {ref}`伦理研究指南<er>中了解更多关于它的信息`

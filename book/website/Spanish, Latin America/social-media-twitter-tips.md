@@ -1,84 +1,84 @@
-(cm-social-media-twitter-tips)=
-# Tips for Starting with Twitter
+(cm-social-media-twitter-props)=
+# Consejos para comenzar con Twitter
 
-Twitter has 353 million monthly active users. You are limited to 280 characters and the style is more informal and chatty than other platforms like Linkedin. You can use links, photos (1200 x 628 pixels) and videos (max 2 minutes 20 secs) in similar ways to the other social media platforms.
+Twitter tiene 353 millones de usuarios activos mensuales. Usted está limitado a 280 caracteres y el estilo es más informal y chatty que otras plataformas como Linkedin. Puedes usar enlaces, fotos (1200 x 628 píxeles) y vídeos (máximo 2 minutos 20 segundos) de formas similares a las demás plataformas de redes sociales.
 
-Below are general tips for starting to use Twitter for personal academic purposes. Some of the tips have been adapted from 'Practical tips for scientists using twitter' {cite:ps}`Chabrol2021twitter`.
+A continuación se muestran consejos generales para comenzar a usar Twitter para propósitos académicos personales. Algunos de los consejos han sido adaptados de 'Consejos prácticos para científicos usando twitter' {cite:ps}`Chabrol2021twitter`.
 
-But when starting with Twitter it is important to first consider what your purpose for using it is. This will help you develop your voice (how you want to be heard, what topics you focus on, your overall message) on Twitter.
+Pero cuando comienza con Twitter es importante primero considerar cuál es su propósito para usarlo. Esto le ayudará a desarrollar su voz (cómo quiere ser escuchado, qué temas usted se centra, su mensaje general) en Twitter.
 
-**1. Choose a good Twitter handle and write a good bio**
+**1. Elige un buen manejo de Twitter y escribe una buena biografía**
 
-* Add a photo, cover image and short bio that is relevant to the research you are doing.
-* Your bio can be linked to accounts such as your institution using their @, your funding body and common hashtags for your subject.
-* You might want to have a specific Twitter account for your project or organisation as well as a personal one.
+* Añade una foto, imagen de portada y biografía corta que sea relevante para la investigación que estás haciendo.
+* Su biografía puede ser vinculada a cuentas tales como su institución usando su @, su entidad de financiación y los hashtags comunes para su tema.
+* Puede que desee tener una cuenta de Twitter específica para su proyecto u organización, así como una cuenta personal.
 
-**2. Make lists**
+**2. Hacer listas**
 
-* This helps you to follow lots of people and can be used for events.
-* Lists can be made public.
+* Esto le ayuda a seguir a mucha gente y puede ser utilizado para eventos.
+* Las listas pueden hacerse públicas.
 
-**3. Think about your audience for each tweet**
+**3. Piensa en tu audiencia para cada tweet**
 
-* It might be that all your tweets are to target your research community but some may also be for the wider public. Therefore, think carefully about the language you use, avoid jargon and subject-specific acronyms, and add links to more information.
+* Puede ser que todos sus tweets estén dirigidos a su comunidad de investigadores, pero algunos también pueden ser para el público en general. Por lo tanto, piense detenidamente en el lenguaje que utiliza, evite la jerga y los acrónimos específicos de los temas y añada enlaces a más información.
 
-**4. Add subject-specific hashtags**
+**4. Añadir hashtags específicos del asunto**
 
-* You only have 280 characters so using hashtags to link to different groups of interest is an important way to get your message out there.
-* Tweets with hashtags can increase engagement by almost 100% for individuals.
-* There are also regular hashtags for each day of the week, for example, #MondayMotivation or #FridayFeeling.
+* Sólo tienes 280 caracteres, por lo que usar hashtags para enlazar a diferentes grupos de interés es una forma importante de hacer llegar tu mensaje allí.
+* Los tweets con hashtags pueden aumentar el compromiso en casi un 100% para las personas.
+* También hay hashtags regulares para cada día de la semana, por ejemplo, #MondayMotivation o #FridayFeeling.
 
-**5. Include some other accounts in your tweet**
+**5. Incluye algunas otras cuentas en tu tweet**
 
-* Linking your tweet to other accounts using @ will mean you get more retweets and therefore will spread your tweet further.
-* It is a good idea to find other researchers and organisation that have large Twitter followings. This gives your tweet the largest reach possible.
+* Vincular su tweet a otras cuentas usando @ significará que obtendrá más retweets y por lo tanto extenderá su tweet aún más.
+* Es una buena idea encontrar otros investigadores y organizaciones que tengan grandes seguidores de Twitter. Esto le da a su tweet el mayor alcance posible.
 
-**6. Add visuals**
+**6. Añadir imágenes**
 
-* You can use images and gifs to draw attention to your tweets.
-* If you don't have an image, a link will generate an image so make sure that the link is up to date and has a relevant image for your tweet.
-* Yow also have the option to add a description of the image so that content is accessible to more people. Here is a link to the twitter help page on [how to make images accessible for people](https://help.twitter.com/en/using-twitter/picture-descriptions).
+* Puedes usar imágenes y gifs para llamar la atención sobre tus tweets.
+* Si no tienes una imagen, un enlace generará una imagen así que asegúrese de que el enlace está actualizado y tiene una imagen relevante para su tweet.
+* También tiene la opción de añadir una descripción de la imagen para que el contenido sea accesible a más personas. Aquí hay un enlace a la página de ayuda de twitter en [cómo hacer que las imágenes sean accesibles para las personas](https://help.twitter.com/en/using-twitter/picture-descriptions).
 
-**7. Don't start a tweet with '@'**
+**7. No iniciar un tweet con '@'**
 
-* These are treated as replies so become hidden.
+* Estas son tratadas como respuestas así que se ocultan.
 
-**8. Be careful with sensitive data**
+**8. Tenga cuidado con los datos sensibles**
 
-* Make sure you are aware of the policy concerning social media in your project or institution.
-* Some projects will not allow you to tweet about progress until a certain time in the project and others will encourage the use of social media from the start.
+* Asegúrate de conocer la política relativa a las redes sociales en tu proyecto o institución.
+* Algunos proyectos no le permitirán tuitear sobre el progreso hasta un cierto tiempo en el proyecto y otros fomentarán el uso de las redes sociales desde el principio.
 
-**9. Take care of yourself**
+**9. Cuida de ti mismo**
 
-* Not all the interactions that you have on Twitter will be pleasant as some people find fun in starting arguments or being offensive towards you.
-* It is best not to interact with these people.
-* You can follow [Charles' Rules of Arguments](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument). This sets out that if you receive an argumentative reply, you should state your position once explaining any misunderstandings and then do not reply again. Let others come to your defence.
-* If it continues, you can block this person and report the abuse.
-* Here is a link to the Twitter help page about [how to block accounts](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts).
+* No todas las interacciones que tienes en Twitter serán agradables ya que algunas personas se divierten al iniciar los argumentos o ser ofensivos para ti.
+* Lo mejor es no interactuar con estas personas.
+* Puedes seguir [las Reglas de Argumentos](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument) de Carlos. Esto establece que si recibe una respuesta argumentativa, debe exponer su posición una vez explicando cualquier malentendido y luego no responda de nuevo. Que otros vengan a su defensa.
+* Si continúa, puede bloquear a esta persona y reportar el abuso.
+* Aquí hay un enlace a la página de ayuda de Twitter sobre [cómo bloquear las cuentas](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts).
 
-Starting to use Twitter might involve tweeting about new papers and useful resources in your field, events that you go to such as workshops and conferences, and retweeting other people in your field to highlight their work.
+Empezar a usar Twitter puede implicar tuitear sobre nuevos documentos y recursos útiles en tu campo, eventos que usted va a tales como talleres y conferencias, y retweeting a otras personas en su campo para destacar su trabajo.
 
-You might also want to start with a series of intro tweets to introduce yourself, your career so far and your current work. You can pin this to your profile so that it is always what people see first.
+También puede que quiera comenzar con una serie de tweets de introducción para presentarse, su carrera hasta ahora y su trabajo actual. Puedes anclar esto en tu perfil para que sea siempre lo que la gente ve primero.
 
 
-## Twitter Terms
+## Términos de Twitter
 
-These terms are adapted from {cite:ps}`Cheplygina2020twitter`.
+Estos términos están adaptados de {cite:ps}`Cheplygina2020twitter`.
 
-* Confirmation step - Enabling a checking process tweets before posting using Tweetdeck.
-* Direct message (DM) — A private message that is only visible to the sender and the specifically identified recipients. By default, regular Twitter messages are visible to the whole world, including (via search engines such as Google) people who do not have a Twitter account.
-* Hashtag (#) — Used to make it easier to find tweets with a common theme by defining keywords, for example, tweets about an event (#BookDash) or career talks (#PhDChat).
-* Hat Tip or Heard Through (HT) - Used for thanking the source of a tweet.
-* Like (♡) - Used for showing you like a tweet—a fast way to give feedback without replying.
-* There is no similar function for disliking a tweet.
-* List — A list of Twitter users that can be public (followed by anyone) or private.
-* Lists can be used to follow accounts that tweet about specific topics, but which you don’t want to follow yourself.
-* Live-tweeting — Tweeting short summaries of an event, for example of a conference talk, as it is happening.
-* Mentioning (@) — If you mention someone with their account handle (“This paper by @CaAl is great”), your tweet will show up in their notifications.
-* Notifications — Tweets that mention you and replies, retweets and likes for your tweets.
-* Quote-tweet — Sharing a tweet by someone else in a quote, while adding your comments.
-* Retweet (RT)— Sharing a tweet that was originally made by someone else.
-* Subtweeting — Tweeting about somebody without explicitly mentioning their handle, so that they are not informed of your comment.
-* Thread — A series of tweets on one subject, for instance, ten tweets about a new research paper.
-* Timeline — The tweets from the people you follow.
-* Tweetdeck - App that can be used to tweet and run multiple accounts.
+* Paso de confirmación - Habilitando un proceso de comprobación de tweets antes de publicar usando Tweetdeck.
+* Mensaje directo (DM) — Un mensaje privado que sólo es visible para el remitente y los destinatarios identificados específicamente. Por defecto, los mensajes de Twitter regulares son visibles para todo el mundo, incluyendo (a través de motores de búsqueda como Google) personas que no tienen una cuenta de Twitter.
+* Hashtag (#) — Utilizado para facilitar la búsqueda de tweets con un tema común definiendo palabras clave, por ejemplo, tweets sobre un evento (#BookDash) o charlas de carrera (#PhDChat).
+* Sombrero Tip o Heard through (HT) - Utilizado por agradecer la fuente de un tweet.
+* "Me gusta" - Utilizado para mostrarte como un tweet, una forma rápida de dar comentarios sin contestar.
+* No hay ninguna función similar para desear un tweet.
+* Lista — Una lista de usuarios de Twitter que pueden ser públicos (seguidos por cualquiera) o privados.
+* Las listas se pueden utilizar para seguir cuentas que tweets sobre temas específicos, pero que no quieres seguirte a ti mismo.
+* Live-tweeting — Twitteando breves resúmenes de un evento, por ejemplo de una conferencia de charla, mientras está sucediendo.
+* Mencionando (@) — Si mencionas a alguien con su manejador de cuenta (“Este documento de @CaAl es genial”), tu tweet aparecerá en sus notificaciones.
+* Notificaciones — Tweets que te mencionan y responden, retweets y "me gusta" para tus tweets.
+* Citar-tweet — Compartir un tweet de otra persona en una cita, mientras que añadir sus comentarios.
+* Retweet (RT)— Compartir un tweet que fue originalmente hecho por otra persona.
+* Subtweeting — Tweeting about someone without explicitly mention their handle, so that they are not informed of your comment.
+* Hilo — Una serie de tweets sobre un tema, por ejemplo, diez tweets sobre un nuevo documento de investigación.
+* Línea de tiempo — Los tweets de la gente que sigues.
+* Tweetdeck - Aplicación que puede ser usada para tuitear y ejecutar múltiples cuentas.

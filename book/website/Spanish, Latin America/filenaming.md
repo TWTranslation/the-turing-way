@@ -1,73 +1,73 @@
 (pd-filenaming)=
-# Naming files, folders and other things
+# Nombrar archivos, carpetas y otras cosas
 
-## Prerequisites / recommended skill level
+## Prerrequisitos / nivel de habilidad recomendado
 
-None.
+Ninguno.
 
 ## Summary
 
-By naming your files, folders, and other research components consistently and descriptively, you can make your work findable, understandable and reusable by yourself, your collaborators, and other people interested in your research. It allows others to understand what the digital object is about: What the files contain and where to find them. Moreover, by following simple tips for file naming, you can make your files easy for computers to identify and process.
+Al nombrar tus archivos, carpetas y otros componentes de investigación de forma consistente y descriptiva, puedes hacer que tu trabajo sea encontrable, entendible y reutilizable por usted mismo, sus colaboradores y otras personas interesadas en su investigación. Permite a otros entender de qué trata el objeto digital: Qué contienen los archivos y dónde encontrarlos. Además, siguiendo consejos sencillos para la identificación de archivos, puede facilitar la identificación y el proceso de sus archivos.
 
-## How this will help you/why this is useful
+## Cómo esto te ayudará / por qué esto es útil
 
-Using good names is probably the easiest way to improve reproducibility and reusability of your research project.
+Usar buenos nombres es probablemente la manera más fácil de mejorar la reproducibilidad y reusabilidad de su proyecto de investigación.
 
-## Chapter content
+## Contenido del capítulo
 
-There are three principles to naming things; the first two apply to all kinds of things and the third is optional but valuable for keeping track of your files {cite:ps}`Bryan2015Filenaming`.
+Hay tres principios para nombrar cosas; los dos primeros se aplican a todo tipo de cosas y el tercero es opcional pero valioso para llevar el seguimiento de tus archivos {cite:ps}`Bryan2015Filenaming`.
 
-File names should be:
-1. Machine readable
-2. Human readable
-3. Optional: Play well with default ordering
-
-
-Before we dive into the details of what they mean, let's look at some examples of bad and good file names.
-
-| ❌ Bad                                             | ✔️ Good                                           |
-| ------------------------------------------------- | ------------------------------------------------- |
-| `Myabstract.docx`                                 | `2020-06-08_abstract-for-sla.docx`                |
-| `Joe’s Filenames Use Spaces and Punctuation.xlsx` | `Joes-filenames-are-getting-better.xlsx`          |
-| `figure 1.png`                                    | `Fig01_scatterplot-talk-length-vs-interest.png`   |
-| `fig 2.png`                                       | `Fig02_histogram-talk-attendance.png`             |
-| `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` | `1986-01-28_raw-data-from-challenger-o-rings.txt` |
+Los nombres de archivo deben ser:
+1. Maquina legible
+2. Legible por humanos
+3. Opcional: Reproducir bien con el orden predeterminado
 
 
-### Machine readable
+Antes de entrar en los detalles de lo que significan, veamos algunos ejemplos de nombres de archivos malos y buenos.
 
-Names of digital components should be easy to understand for computers. Computers like names to have no spaces, deliberate use of delimiters, and no special or accented characters. Also computers are case sensitive, so for them `cat.txt` and `Cat.txt` are different files.
+| ❌ Malo                                                                | ✔️ Bueno                                        |
+| --------------------------------------------------------------------- | ----------------------------------------------- |
+| `Myabstract.docx`                                                     | `2020-06-08_abstract-for-sla.docx`              |
+| `Los nombres de archivos de Joe utilizan espacios y Punctuation.xlsx` | `Joes-filenames-son-obteniendo-mejor.xlsx`      |
+| `figura 1.png`                                                        | `Fig01_scatterplot-talk-length-vs-interest.png` |
+| `higo 2.png`                                                          | `Fig02_histograma talk-attendance.png`          |
+| `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt`                     | `1986-01-28_raw-data-de-challenger-o-rings.txt` |
 
-The file names `Joe´s Filenames Use Spaces and Punctuation.xlsx` and `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` shown above use empty spaces and special characters (`´`, `^`, `(`, `@`,`*`), which can lead to difficulties, for example when you want to send it someone else's computer.
 
-Good file/folder names are easy to search for (also using regular expressions) and easy to compute on (for example by splitting on `_` or `-` characters).
+### Maquina legible
 
-### Human readable
+Los nombres de los componentes digitales deben ser fáciles de entender para los ordenadores. A las computadoras les gusta que los nombres no tengan espacios, el uso deliberado de delimitadores y ningún carácter especial o acentuado. También las computadoras son sensibles a mayúsculas, así que para ellas `cat.txt` y `Cat.txt` son archivos diferentes.
 
-To achieve human readability, it is helpful to have short (< 25 characters) but descriptive names that contain information on the content of the file/folder. Word boundaries in the file name can be indicated by using medial capitalization called camel case, for example "FileName", or underscore, for example "file_name". File names should not have any spaces or other special characters.
+Los nombres de archivo `Joe ́s Use Espacios y Punctuation.xlsx` y `JW7d^(2sl@deletethisandyourcareerisoverWx2*. xt` que se muestra arriba utiliza espacios vacíos y caracteres especiales (`н`, `^`, `(`, `@`,`*`), lo que puede causar dificultades, por ejemplo cuando quieres enviarle el ordenador de otra persona.
 
-For web links or Uniform Resource Locator (URL), this concept is called [clean URL](https://en.wikipedia.org/wiki/Clean_URL).
+Los nombres de archivos y carpetas son fáciles de buscar (también usando expresiones regulares) y fáciles de calcular (por ejemplo, dividiendo en `_` o `-` caracteres).
 
-### Play well with default ordering
+### Legible por humanos
 
-To create a good default ordering adding a number or date at the beginning of the name is often a good idea. This keeps our files sorted in ascending order based on file versions or in chronological order. For instance, we often organize all our slide decks created on different dates in the same folder. To sort them by their date of creation, we can start the file names with `year-month-day` (for example `2020-02-21`). We recommend using something like the [ISO 8601 standard: YYYY-MM-DD](https://en.wikipedia.org/wiki/ISO_8601) for dates. If you use other numbers, we recommend left padding them with zeros, because your computer will order `003 < 004 < 020 < 100` as opposed to `100 < 20 < 3 < 4`.
+Para lograr la legibilidad humana, es útil tener nombres cortos (< 25 caracteres) pero descriptivos que contengan información sobre el contenido del archivo/carpeta. Los límites de palabras en el nombre del archivo se pueden indicar usando mayúsculas mediales llamadas camel case, por ejemplo "FileName", o guión bajo, por ejemplo "file_name". Los nombres de archivo no deben tener ningún espacio u otros caracteres especiales.
 
-Naming folders according to a logical number can lead to a mess if the ordering changes in the future. For example, there is a folder with the book chapters `01_introduction`, `02_naming_files`, and `03_naming_folders`. The author writes a preface of the book and decides to squeeze it before the introduction chapter. This would mean that they will have to rename all the files to maintain the intended order. This happens a lot and clearly, this has more downsides than upsides.
+Para enlaces web o Localizador de Recursos Uniforme (URL), este concepto se llama [URL limpia](https://en.wikipedia.org/wiki/Clean_URL).
+
+### Reproducir bien con el orden predeterminado
+
+Para crear un buen orden por defecto añadir un número o fecha al principio del nombre es a menudo una buena idea. Esto mantiene nuestros archivos ordenados en orden ascendente basado en versiones de archivos o en orden cronológico. Por ejemplo, a menudo organizamos todos nuestros mazos de diapositivas creados en diferentes fechas en la misma carpeta. Para ordenarlos por su fecha de creación, podemos comenzar los nombres de los archivos con `el mes del día` (por ejemplo `2020-02-21`). Recomendamos usar algo como el [estándar ISO 8601: AAA-MM-DD](https://en.wikipedia.org/wiki/ISO_8601) para fechas. Si utilizas otros números, te recomendamos que los rellenes a la izquierda con ceros, porque su computadora pedirá `003 < 004 < 020 < 100` en vez de `100 < 20 < 3 < 4`.
+
+Nombrar carpetas de acuerdo a un número lógico puede llevar a un desastre si el orden cambia en el futuro. Por ejemplo, hay una carpeta con los capítulos de libros `01_introduction`, `02_naming_files`y `03_naming_folders`. El autor escribe un prefacio del libro y decide apretarlo antes del capítulo de introducción. Esto significaría que tendrán que renombrar todos los archivos para mantener el orden previsto. Esto ocurre mucho y está claro que tiene más desventajas que beneficios.
 
 ## Checklist
 
-Here are some tips for naming files within a research project, which are both human- and machine-readable {cite:ps}`Cowles2019Filenaming,Hodge2015Filenaming`:
+Estos son algunos consejos para nombrar archivos dentro de un proyecto de investigación, que son legibles tanto por el ser humano como por la maquinaria {cite:ps}`Cowles2019Filenaming,Hodge2015Filenaming`:
 
-- Name your files consistently
-- Keep it short but descriptive
-- Avoid special characters or spaces to keep it machine-compatible
-- Use capitals or underscores to keep it human-readable
-- Use consistent date formatting, for example ISO 8601: `YYYY-MM-DD` to maintain default order
-- Include a version number when applicable
-- Share/establish a naming convention when working with collaborators
-- Record a naming convention in your data management plan
+- Nombra sus archivos de forma consistente
+- Manténgalo corto pero descriptivo
+- Evita caracteres o espacios especiales para mantenerlo compatible con la maquinaria
+- Usar las mayúsculas o guiones bajos para mantenerlo legible por el ser humano
+- Utilice un formato de fecha consistente, por ejemplo ISO 8601: `AAA-MM-DD` para mantener el orden predeterminado
+- Incluye un número de versión cuando sea aplicable
+- Compartir/establecer una convención de nombres al trabajar con colaboradores
+- Grabar una convención de nomenclatura en su plan de gestión de datos
 
 
-## What to learn next
+## Qué aprender a continuación
 
-Want to build a folder with all the files from your research project? Check out our chapter on {ref}`research compendia<rr-compendia>`.
+¿Quieres crear una carpeta con todos los archivos de tu proyecto de investigación? Mira nuestro capítulo sobre {ref}`compendia de investigación<rr-compendia>`.

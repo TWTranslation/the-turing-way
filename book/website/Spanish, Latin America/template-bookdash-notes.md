@@ -1,85 +1,85 @@
-(ch-template-bookdash-notes)=
-# HackMD Template for Shared Notes
+(ch-template-bookdash-notas)=
+# Plantilla HackMD para notas compartidas
 
-*This template can be used for shared note-taking and information exchange in HackMD during the book dash events. The access permission can be set so that the notes can be read by everyone and edited by any signed-in users.*
+*Esta plantilla se puede utilizar para tomar notas e intercambiar información en HackMD durante los eventos de guión del libro. El permiso de acceso se puede establecer para que las notas puedan ser leídas por todos y editadas por cualquier usuario de inicio de sesión.*
 
 ```
-# Book Dash, DD Month YYYY - Day 1 <-- create one for each day
+# Libro basura, DD Mes AAAA - Día 1 <-- crea uno para cada día
 
-###### tags: `bookdash YYYY` `month` `event`
+###### etiquetas: `bookdash AAAÑO` `evento`
 
-==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
+==Si eres nuevo en HackMD, por favor vea esta breve guía: [https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
 
 :::info
-- **Location:** Online/in-person
-- **Date:** DD Month YYYY
-- **Document with all links:** (provide link to the index page) <--- update this
+- **Ubicación:** Online/in-person
+- **Fecha:** DD Mes DYYYY
+- **Documento con todos los enlaces:** (proporcionar enlace a la página de índice) <--- actualizar este
 :::
 
-**Development sessions**
+**Sesiones de desarrollo**
 
-Cuckoo clock: https://cuckoo.team/tw-bookdash
+Cuckoo: https://cuckoo. eam/tw-bookdash
 
-Each day we will hold 3 development sessions and an one themed discussion/networking session where you can interact with others, continue your disucssion outside development session or take a break as it's most sustainable and helpful for your participation.
+Cada día celebraremos 3 sesiones de desarrollo y una sesión temática de discusión/red donde puedes interactuar con otros, continuar su disucsión fuera de la sesión de desarrollo o tomar un descanso ya que es más sostenible y útil para su participación.
 
-Each development session will follow the Pomodoro technique that we also use for our coworking calls. We will use [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to manage our time ([Coworking chapter in The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html))
+Cada sesión de desarrollo seguirá la técnica de Pomodoro que también utilizamos para nuestras llamadas de colaboración. Utilizaremos [reloj compartido (cuckoo) basado en navegadores](https://cuckoo.team/tw-bookdash) para administrar nuestro tiempo ([Capítulo de Coworking en The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html))
 
-All time provided in London Time (UTC+1). Please use this link to convert in your time zone: convert time: https://arewemeetingyet.com/london/YYYY-MM-DD/hh:mm (update DD: date, hh:mm: hours:minutes)
+Todo el tiempo proporcionado en Londres Time (UTC+1). Utilice este enlace para convertir en su zona horaria: tiempo de conversión: https://arewemeetingyet. om/london/AAA-MM-DD/hh:mm (actualizar DD: fecha, hh:mm: horas:minutos)
 
-**Use the Pomodoro sessions for comfort breaks as needed**
+**Usa las sesiones de Pomodoro para pausas cómodas según sea necesario**
 
 [TOC]
 
-## Introduction to the event
+## Introducción al evento
 
-- Intro to Turing Way book dash day :books:
-- GitHub resources and managing your contributions
-- An onboarding breakout room for new members and people who need refresher in GitHub
-- Feel free to propose breakout rooms if you have already identified your groups (topic, language, discussions)
-- Please use this HackMD as extensively as needed
+- Introducción al día :books:del libro de Turing Way
+- Recursos de GitHub y gestión de tus contribuciones
+- Una sala de introducción para nuevos miembros y personas que necesitan refrescar en GitHub
+- Siéntete libre de proponer salas de ruptura si ya has identificado tus grupos (tópico, idioma, discussions)
+- Por favor, utilice este HackMD tan extensamente como sea necesario
 
-## Groupings for breakout rooms based on the topics of interest:
+## Grupos para salas de descanso basados en los temas de interés:
 
-> Feel free to move between the breakout rooms! 
+> ¡Siéntase libre de moverse entre las salas de salida! 
 
-**Room 1 (Reproducibility):** (add name)
-**Room 2 (Ethics):** (add name)
-**Room 3 (Communication):** (add name)
-**Room 4 (Project Design):** (add name)
-**Room 5 (Infrastructure):** (add name)
-**Room 6 (Individual Room)**
+**Sala 1 (Reproducibilidad):** (añadir nombre)
+**Sala 2 (Etóticos):** (añadir nombre)
+**Sala 3 (Comunicación):** (añadir nombre)
+**Sala 4 (Diseño de proyecto):** (añadir nombre)
+**Sala 5 (Infraestructura):** (añadir nombre)
+**Sala 6 (Sala Individual)**
 
-:one: Day 1: DD Month YYYY
+:one: Día 1: Mes DD YAA
 ---
 
-### :wave: Sign up
+### :wave: Regístrate
 
-*Please add your name to this list, but remember that this is a public document, so use a pseudonym if you'd prefer, or just feel free to leave your name off.*
+*Por favor, añade tu nombre a esta lista, pero recuerde que este es un documento público, así que use un seudónimo si lo prefiere, o simplemente siéntase libre de dejar su nombre.
 
-*Name (pronouns - optional) / Institute / Twitter, GitHub / icebreaker: What song/music/artist/album puts you in a good mood!* :musical_score: 
+*Nombre (pronouns - opcional) / Instituto / Twitter, GitHub / icebreaker: ¿Qué canción/música/artista/álbum te pone de buen humor! :musical_score: 
 
 * 
 * 
 * 
 * 
 
-### :books: Turing Way and Book Dash
+### :books: Vía Turística y Guía del Libro
 
-* Intro to The Turing Way & the Book Dash: (Link to intro slides) <---
-* Predash drop-in calls: (Link to the shared notes) <---
-* Project repository on GitHub: https://github.com/alan-turing-institute/the-turing-way
-* Book is hosted online at: https://the-turing-way.netlify.com
-* Join Slack channel: An email will be sent to you
-* Join the [mailing list to receive newsletter](https://tinyletter.com/TuringWay)
-* Follow on Twitter: [@turingway](https://twitter.com/turingway)
+* Introducción a la Vía Turística & el Libro Dash: (Enlace a diapositivas de introducción) <---
+* Predash drop-in llamadas: (Enlace a las notas compartidas) <---
+* Repositorio del proyecto en GitHub: https://github. om/alan-turing-institute/the-turing-way
+* El libro está en línea en: https://the-turing-way.netlify. om
+* Únete al canal Slacre: Se te enviará un correo electrónico
+* Únete a la [lista de correo para recibir el boletín](https://tinyletter. om/TuringWay)
+* Sigue en Twitter: [@turingway](https://twitter. om/turingway)
 
-### :busts_in_silhouette::speech_balloon: Planning your contributions: breakout (10 minutes)
+### :busts_in_silhouette::speech_balloon: Planeando tus contribuciones: breakout (10 minutos)
 
-*In groups of 3 explore and discuss about what you'd like to see in this book, or how you can contribute.* :sparkles: :space_invader: :rocket: :star2:
+*En grupos de 3 explorar y discutir sobre lo que te gustaría ver en este libro, o cómo puedes contribuir. :sparkles: :space_invader: :rocket: :star2:
 
-You can use your SMART goals to guide your discussions <-- provide link to the onboarding call's notes
+Puedes usar tus objetivos SMART para guiar tus discusiones <-- proporciona un enlace a las notas de la llamada de incorporación
 
-*List what you are working on below! Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
+*¡Lista en lo que estás trabajando a continuación! Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
 
 ### :dart: Your goals for the book dash <--- used for only day-1
 

@@ -1,39 +1,39 @@
-(er-activism)=
-# Activism for Researchers
+(er-activismo)=
+# Activismo para los investigadores
 
-(er-activism-prerequisites)=
-## Prerequisites
+(er-prerrequisitos de activismo)=
+## Prerrequisitos
 
-There are no prerequisite for this chapter.
+No hay ningún requisito previo para este capítulo.
 
-(er-activism-summary)=
+(er-resumen de activismo)=
 ## Summary
 
-This chapter covers why activism can be an important part of ethical data science practice. It also covers different kinds of activism and how you can be an activist within your workplace, your field, your country, or the world at large!
+Este capítulo cubre por qué el activismo puede ser una parte importante de la práctica ética de las ciencias de la información. También cubre diferentes tipos de activismo y cómo puedes ser un activista dentro de tu lugar de trabajo, tu campo, tu país o el mundo en general!
 
-(er-activism-motivation)=
-## Motivation and Background
+(er-activismo-motivación)=
+## Motivación y fondo
 
-There are many different scenarios where scientists and researchers would engage in activism to achieve change, such as a different institutional policy on open data, increasing ethical standards of research (see the {ref}`er`), or improving working conditions. Scientists may engage in activism across topics related to their work, institutions, fields, or cross-disciplinary issues such as open research, or on topics unrelated to their career.
+Hay muchos escenarios diferentes en los que científicos e investigadores se dedicarían al activismo para lograr el cambio, como una política institucional diferente sobre datos abiertos, aumentar los estándares éticos de investigación (ver el {ref}`er`), o mejorar las condiciones de trabajo. Los científicos pueden participar en el activismo a través de temas relacionados con su trabajo, instituciones, campos, o temas interdisciplinarios como la investigación abierta, o temas no relacionados con su cuidador.
 
-The [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/activism) defines activism as "the use of direct and noticeable action to achieve a result, usually a political or social one". Activism can take many forms and achieve many different things, but it's most effective when people work together as a community with a shared goal.
+El [Diccionario de Cambridge](https://dictionary.cambridge.org/dictionary/english/activism) define el activismo como "el uso de acciones directas y visibles para lograr un resultado, normalmente uno político o social". El activismo puede adoptar muchas formas y lograr muchas cosas diferentes, pero es más efectivo cuando las personas trabajan juntas como una comunidad con un objetivo compartido.
 
-You don't have to have a lot of experience in activism - or even call yourself an activist - to put some of these methods into practice. However, it can be difficult to know where to start when you want to make a change.
+No hace falta tener mucha experiencia en activismo -o incluso llamarse activista- para poner en práctica algunos de estos métodos. Sin embargo, puede ser difícil saber por dónde empezar cuando se quiere hacer un cambio.
 
-(er-activism-ways)=
-## Ways to make change
+(er-activismo-vías)=
+## Formas de hacer cambios
 
-Activism in your workplace can include:
-* *{ref}`er-activism-unionisation`* collective organisation of workers to improve working conditions
-* *{ref}`er-internal-policy`* campaigning to change the way your institution makes decisions or handles certain situations: this can include, for example, advocating for open data practices!
-* *{ref}`er-activismwhistleblowing`* the act of alerting authorities or the press to problems in your institution
+El activismo en su lugar de trabajo puede incluir:
+* *{ref}`er-activismo-sindicalización`* organización colectiva de trabajadores para mejorar las condiciones de trabajo
+* *{ref}`er-internal-policy`* haciendo campaña para cambiar la forma en que su institución toma decisiones o maneja ciertas situaciones: esto puede incluir, por ejemplo, abogar por prácticas de datos abiertos!
+* *{ref}`er-activismo silbido`* el acto de alertar a las autoridades o a la prensa de los problemas en su institución
 
-In the future, we would like to expand this chapter to include guides to activism in wider society for scientists, for example, how to engage with government policy-making processes.
+En el futuro, nos gustaría ampliar este capítulo para incluir guías de activismo en la sociedad más amplia para los científicos, por ejemplo, cómo involucrarse con los procesos de políticas gubernamentales.
 
-Activism in your field can include
-* Working to change policies and practices for professional organisations.
-* Outreach to encourage people to work in your field, especially people from backgrounds that are underrepresented
+Activismo en tu campo puede incluir
+* Trabajar para cambiar políticas y prácticas para organizaciones profesionales.
+* apuntar a animar a la gente a trabajar en su campo, especialmente a personas de entornos que están subrepresentados
 
-Activism can also work towards changing laws or policies: for example, lobbying for better data protection legislation in your country, or for resources to implement existing laws. In Australia, activists collaborated with legal aid groups to {ref}`resist 'Robodebt'<er-activism-robodebt>` (an automated system that told welfare benefits recipients that they owed money).
+El activismo también puede trabajar para cambiar las leyes o las políticas: por ejemplo, cabildeando para obtener una mejor legislación sobre protección de datos en su país, o para obtener recursos para aplicar las leyes existentes. En Australia, los activistas colaboraron con grupos de asistencia legal de {ref}`se resisten a 'Robodebt'<er-activism-robodebt>` (un sistema automatizado que le dijo a los beneficiarios de beneficios sociales que debían dinero).
 
-Activism can also be part of changing the world for the better! This can include for example awareness-raising about data literacy.
+¡El activismo también puede ser parte de cambiar el mundo para mejor! Esto puede incluir, por ejemplo, la concienciación sobre la alfabetización de los datos.

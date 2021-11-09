@@ -1,82 +1,82 @@
 (cm-os-comms-issue-tracking)=
-# Issue Tracking
+# Seguimiento de problemas
 
-Most software development projects have some kind of issue board to easily track current issues in the project, such as bug fixing, rolling out new features, or community engagement plans. [GitHub](https://github.com) (a very popular collaboration platform) has a built-in [issue tracker](https://guides.github.com/features/issues/) and [project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) where issues can be collated together to track progress towards a more specific, higher-level goal.
+La mayoría de los proyectos de desarrollo de software tienen algún tipo de tablero de incidencias para rastrear fácilmente los problemas actuales del proyecto, como arreglar errores, desplegar nuevas características, o planes de participación de la comunidad. [GitHub](https://github.com) (una plataforma de colaboración muy popular) tiene un [gestor de incidencias integrado](https://guides.github.com/features/issues/) y [tableros del proyecto](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) donde los problemas pueden ser recolectados para rastrear el progreso hacia un más específico, objetivo de alto nivel.
 
-This section is a discussion around why issue tracking is useful and where you can store them.
+Esta sección es una discusión acerca de por qué el seguimiento de incidencias es útil y donde puede almacenarlos.
 
 (os-comms-issue-tracking-purpose)=
-## What is the purpose of your issues?
+## ¿Cuál es el propósito de sus problemas?
 
-There are many different reasons for keeping/tracking issues related to a project. The platform for issue tracking and the features tracked by those issues can influence how your community interact with your project.
+Hay muchas razones para mantener o rastrear temas relacionados con un proyecto. La plataforma para el seguimiento de incidencias y las características seguidas por esos problemas pueden influir en cómo su comunidad interactúa con su proyecto.
 
-Mostly, issues are used to track bug reports, feature requests, opportunities for community members to engage, and so on, then a public issue board will allow your community to get a clear overview of what's coming down the pipeline and how they can get involved.
+Principalmente, los problemas se utilizan para rastrear informes de errores, solicitudes de características, oportunidades para que los miembros de la comunidad se comprometan, y así sucesivamente, entonces una junta pública le permitirá a su comunidad obtener una visión clara de lo que se está abajo del tubería y cómo pueden participar.
 
-Let's look into centralised and decentralised/distributed issue boards and how they might engage your community.
+Vamos a examinar las juntas de asuntos centralizadas y descentralizadas/distribuidas y cómo pueden involucrar a su comunidad.
 
 (os-comms-issue-tracking-purpose-issues)=
-### Issues per Repository (Decentralised/Distributed)
+### Problemas por repositorio (descentralizado/distribuido)
 
-If your project is split across multiple repositories, then it's a good idea to keep the issues specifically related to that module within that repository: a decentralised system. This allows your community to focus their attention on what is important to them.
+Si su proyecto está dividido en múltiples repositorios, entonces es una buena idea mantener los problemas relacionados específicamente con ese módulo dentro de ese repositorio: un sistema descentralizado. Esto permite a tu comunidad centrar su atención en lo que es importante para ellos.
 
-This approach has several smaller issue boards for each repository (or module) within your codebase. This method has a lot of positive outcomes, such as:
+Este enfoque tiene varios tableros de problemas más pequeños para cada repositorio (o módulo) dentro de su código base. Este método tiene muchos resultados positivos, como:
 
-- The volume of issues is more manageable;
-- Most contributors only need to be aware of issues relating to one or two repositories;
-- Contributors can subscribe to notifications or updates from only the repositories that interest them;
-- It feels like "divide and conquer", more people are working on more aspects to move the project as a whole forward.
+- El volumen de los problemas es más manejable;
+- La mayoría de los contribuyentes sólo necesitan ser conscientes de los problemas relacionados con uno o dos repositorios;
+- Los colaboradores pueden suscribirse a notificaciones o actualizaciones sólo desde los repositorios que les interesan;
+- Se siente como "divide y vencerás", más gente está trabajando en más aspectos para hacer avanzar el proyecto en su conjunto.
 
 (os-comms-issue-tracking-purpose-issues-case-study)=
-#### Case study: mybinder.org
+#### Estudio de caso: mybinder.org
 
-[mybinder.org](https://mybinder.org) is a platform facilitating users to easily share reproducible analyses and computational environments with one another in [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/) via the cloud. This project is spread across a number of different repositories, each one an individual tool that can be used in isolation from the others. These are:
+[mybinder. rg](https://mybinder.org) es una plataforma que facilita a los usuarios compartir fácilmente análisis reproducibles y entornos computacionales entre sí en [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/) a través de la nube. Este proyecto se distribuye entre varios repositorios diferentes, cada uno de ellos una herramienta individual que puede ser usada aisladamente de los demás. Éstas son:
 
 - [repo2docker](https://github.com/jupyter/repo2docker),
-- [JupyterHub for Kubernetes](https://github.com/jupyterhub/zero-to-jupyterhub-k8s),
+- [JupyterHub para Kubernetes](https://github.com/jupyterhub/zero-to-jupyterhub-k8s),
 - [BinderHub](https://github.com/jupyterhub/binderhub).
 
-There are also some tools in the Jupyter ecosystem that are only weakly associated with Binder. Tools which Project Binder uses and people associated with Binder contribute to, but so do other unrelated communities. Such tools are [JupyterHub](https://github.com/jupyterhub/jupyterhub) and [KubeSpawner](https://github.com/jupyterhub/kubespawner).
+También hay algunas herramientas en el ecosistema de Jupyter que sólo están ligadas a Binder. Herramientas a las que utiliza Binder de proyecto y a las personas asociadas con Binder contribuyen, pero también otras comunidades no relacionadas. Tales herramientas son [JupyterHub](https://github.com/jupyterhub/jupyterhub) y [KubeSpawner](https://github.com/jupyterhub/kubespawner).
 
-Each of these repositories contains hundreds of issues tracking on-going work being performed by the community and scoping future directions for each project to take.
+Cada uno de estos repositorios contiene cientos de problemas de seguimiento del trabajo en curso que está llevando a cabo la comunidad y el alcance de las futuras direcciones de cada proyecto a seguir.
 
-Can you imagine trying to combine all of these issues into one place? It would become very difficult, if not impossible, for someone to find what they are looking for and would require a very clever tagging schema plus instructions for filtering by tag.
+¿Pueden imaginar ustedes intentar combinar todas estas cuestiones en un solo lugar? Sería muy difícil, si no imposible. para que alguien encuentre lo que está buscando y requeriría un esquema muy inteligente de etiquetas, además de instrucciones para filtrar por etiqueta.
 
-In the Project Binder team's experience, most community members contribute to just one or maybe two of these projects. So having consolidated access to all the issues for all the working parts is not a high priority for their community.
+En la experiencia del equipo de Project Binder la mayoría de los miembros de la comunidad contribuyen a uno o dos de estos proyectos. Por lo tanto, un acceso consolidado a todas las cuestiones de todas las partes de trabajo no es una prioridad alta para su comunidad.
 
-They find that having distributed issue tracking allows those members of the community who may only work with JupyterHub to comfortably contribute without needing to be familiar with everything that goes into running [mybinder.org](https://mybinder.org).
+Encuentran que tener un seguimiento de problemas distribuidos permite a los miembros de la comunidad que sólo pueden trabajar con JupyterHub contribuir cómodamente sin necesidad de estar familiarizado con todo lo que va a ejecutar [mybinder. rg](https://mybinder.org).
 
-(os-comms-issue-tracking-purpose-issues-case-centralised-issue)=
-### Centralised Issue Repository
+(os-comms-issue-tracking-purpose-issues-case-centralized-issue)=
+### Repositorio de Problemas Centralizado
 
-With a big project, it can be tempting to collate all your issues into one place for the sake of easier management: a centralised system. If you are using issues to track a central service, personal to-do lists, and answering questions like if a task is high priority or if it is assigned to someone already, then issue tracking in a centralised system is a good option and it does not necessarily need to be circulated to your wider community.
+Con un gran proyecto, puede ser temerario reunir todas sus cuestiones en un solo lugar en aras de una gestión más fácil: un sistema centralizado. Si está utilizando problemas para rastrear un servicio central, listas de tareas personalizadas, y respondiendo preguntas como si una tarea es de alta prioridad o si ya está asignada a alguien, entonces realizar un seguimiento en un sistema centralizado es una buena opción y no tiene por qué distribuirse necesariamente a su comunidad más amplia.
 
-However in terms of engaging your community, such a centralised system can be problematic. If your issues are elsewhere this can create a lot of barriers to entry for community members, such as:
+Sin embargo, en términos de involucrar a su comunidad, un sistema centralizado de este tipo puede ser problemático. Si sus problemas están en otros lugares, esto puede crear muchas barreras de entrada para los miembros de la comunidad, tales como:
 
-- Issues are more difficult to discover;
-- If they are hosted on another platform (for example, code is on GitHub but issues are on [Asana](https://asana.com/)), that's another tool community members need to learn how to use;
-- Issues are separated from the code they are referencing.
+- Los problemas son más difíciles de descubrir;
+- Si están alojados en otra plataforma (por ejemplo, el código está en GitHub pero los problemas están en [Asana](https://asana.com/)), es otra herramienta que los miembros de la comunidad necesitan aprender a usar;
+- Los asuntos están separados del código que están referenciando.
 
-A very large impact on the community of having a separate issue board is that when people visit your code repository, it looks like an inactive project because there are no issues or conversations going on where the code is hosted. This may cause community members to believe that the code is no longer being actively developed/maintained/supported and may choose to use another codebase or software package.
+Un impacto muy grande en la comunidad de tener un tablero de asuntos separado es que cuando la gente visita tu repositorio de código, parece un proyecto inactivo porque no hay problemas ni conversaciones en el lugar donde se aloja el código. Esto puede hacer que los miembros de la comunidad crean que el código ya no está siendo activamente desarrollado/mantenido/soportado y que puede optar por usar otro código base o paquete de software.
 
 (os-comms-issue-tracking-comparative-table)=
-## Comparative Table
+## Tabla comparativa
 
-The table below compares features of distributed and centralised issue repositories for a multi-repository project.
+La siguiente tabla compara las características de los repositorios distribuidos y centralizados para un proyecto multi-repositorio.
 
-| Feature                                 | Centralised Issue Repo | Distributed Issue Repos |
-|:--------------------------------------- |:----------------------:|:-----------------------:|
-| Global issue search                     |           ✅            |                         |
-| Hosted by the same platform as the code |   ❓(not guaranteed)    |            ✅            |
-| Filter by repository                    |    ❓(power users*)     |            ✅            |
-| Subscribe to relevant updates           |     ❓(power users)     |            ✅            |
-| Easy to Discover                        |                        |            ✅            |
-| Connected to the Codebase               |                        |            ✅            |
-| Appears active to community             |                        |            ✅            |
-| Manageable volume                       |                        |            ✅            |
+| Característica                                  | Repositorio centralizado | Repositorios distribuidos |
+|:----------------------------------------------- |:------------------------:|:-------------------------:|
+| Búsqueda global de incidencias                  |            ✅             |                           |
+| Hospedado por la misma plataforma que el código |    ❓(no garantizado)     |             ✅             |
+| Filtrar por repositorio                         | ❓(usuarios potenciales*) |             ✅             |
+| Suscribirse a actualizaciones relevantes        | ❓(usuarios potenciales)  |             ✅             |
+| Fácil de descubrir                              |                          |             ✅             |
+| Conectado a la base de código                   |                          |             ✅             |
+| Aparece activo a la comunidad                   |                          |             ✅             |
+| Volumen manejable                               |                          |             ✅             |
 
-*Power users = These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient
+*Usuarios avanzados = Son personas que ya están familiarizadas con una plataforma para conocer los gotchas y trucos que hacen su experiencia más eficiente
 
-## Further Reading
+## Leyendo más
 
-- Blog post comparing the convenience and community closeness of Mailing Lists and Forums: <https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/>
-- Blog post by [Tim Head](https://github.com/betatim):  <https://betatim.github.io/posts/thoughts-on-collective-thinking/>
+- Publicación del blog comparando la conveniencia y proximidad de la comunidad de Listas de Correo y Foros: [https://psychcentral.com/blog/mailing-lists-vers)[video] forums-community-convenience-closeness/](https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/)
+- Blog publicado por [Tim Head](https://github.com/betatim):  [https://betatim.github.io/posts/though, hts-on-collective-thinking/](https://betatim.github.io/posts/thoughts-on-collective-thinking/)

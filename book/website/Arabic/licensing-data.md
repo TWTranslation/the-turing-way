@@ -1,72 +1,72 @@
-(rr-licensing-data)=
-# Data Licenses
+(r-licensing-data)=
+# رخص البيانات
 
-Like a software license, a data license governs what someone else can do with data that you create or own and that you make accessible to others through, for example, a data repository. Data licenses vary based on different criteria, such as:
-* Attribution to original owner
-* Permission to redistribute or modify original
-* Inclusion of the same license with derivatives or redistributions
+مثل رخصة البرمجيات، ترخيص البيانات يحكم ما يمكن لشخص آخر أن يفعله بالبيانات التي تنشئها أو تملكها والتي تجعل من الممكن للآخرين الوصول إليها من خلال: على سبيل المثال، مستودع للبيانات. وتختلف تراخيص البيانات باختلاف المعايير، مثل:
+* نسب إلى المالك الأصلي
+* إذن لإعادة توزيع أو تعديل الأصل
+* إدراج نفس الترخيص مع المشتقات أو عمليات إعادة التوزيع
 
-As a result, accessibility to your data is affected by the data license you choose.
+ونتيجة لذلك، تتأثر إمكانية الوصول إلى بياناتك برخصة البيانات التي تختارها.
 
-(rr-licensing-data-cc)=
-## Creative Commons Licenses
+(r-licensing-data-cc)=
+## رخص المشاع الإبداعي
 
-Creative Commons or CC provides a number of licenses that can be used with a wide variety of creations that might otherwise fall under copyright restrictions, including music, art, books and photographs. Although not tailored for data, CC licenses can be used as data licenses because they are easy to understand. Its website includes a [summary page](https://creativecommons.org/about/cclicenses/){cite:ps}`creativecommons2020licenses` outlining all the available licenses, explained with simple visual symbols.
+المشاع الإبداعي أو CC يوفر عدداً من التراخيص التي يمكن استخدامها مع مجموعة واسعة من الإبداعات التي قد تخضع لقيود حقوق التأليف والنشر، بما في ذلك الموسيقى والفن والكتب والصور. وعلى الرغم من أن تراخيص CCC ليست مصممة خصيصا للبيانات، فإنها يمكن أن تستخدم كتراخيص للبيانات لأنها سهلة الفهم. يحتوي موقعه على [صفحة ملخص](https://creativecommons.org/about/cclicenses/){cite:ps}`Creativecommons20licenses` التي تحدد جميع التراخيص المتاحة، موضحة برموز بصرية بسيطة.
 
-(rr-licensing-data-cc-permissions)=
-### Permission Levels
+(r-licensing-data-cc-permissions)=
+### مستويات الأذونات
 
-The permission level provided by a Creative Commons data license can be understood from its name, which is a combination of two-letter "permission marks". The only exception to this naming scheme is CC0, which will be introduced in the next section.
+مستوى الإذن الذي توفره رخصة بيانات المشاع الإبداعي يمكن فهمه من اسمه، والذي هو مزيج من "علامات الإذن" ذات حرفين. والاستثناء الوحيد من مخطط التسمية هذا هو CC0، الذي سيدرج في الفرع التالي.
 
-| **Permission Mark** | **What can I do with the data?** |
-| ------------------- | -------------------------------- |
-|                     |                                  |
- BY | Creator must be credited SA | Derivatives or redistributions must have identical license NC | Only non-commerical uses are allowed ND | No derivatives are allowed
+| **علامة الإذن** | **ماذا يمكنني أن أفعل بالبيانات؟** |
+| --------------- | ---------------------------------- |
+|                 |                                    |
+ BY <unk> يجب أن يقيد للمنشئ SA <unk> المشتقات أو عمليات إعادة التوزيع يجب أن يكون لديها ترخيص متطابق NC <unk> يسمح فقط بالاستخدامات غير التجارية ND <unk> لا يسمح بأي مشتقات مالية
 
 
-For example, the CC BY-ND license specifies that users must credit the creator of the data and cannot create any derivatives.
+على سبيل المثال، يحدد ترخيص CC BY-ND أنه يجب على المستخدمين أن يميزوا منشئ البيانات ولا يمكنهم إنشاء أي مشتقات.
 
-(rr-licensing-data-cc-cc0)=
-### Dedicating Your Work to the Public with CC0
+(r-licensing-data-cc-cc0)=
+### تخصيص عملك للجمهور باستخدام CC0
 
-CC0 serves as a public dedication mechanism, where you relinquish all copyrights to your data. This means that anyone can modify, redistribute or build on your work. Further, by using CC0, you forfeit the right to attribution. Instead, you have to rely on norms such as good citation practices in academic communities to be recognized as the creator. Several organizations, such as museums, governmental bodies and scientific publishers, have chosen CC0 for access to at least part of their data. In many instances, data repositories maintained by universities recommend CC0 as the default option, such as the [4TU.Centre for Research Data](https://researchdata.4tu.nl/en/use-4turesearchdata/archive-research-data/upload-your-data-in-our-data-archive/licencing/).
+يعمل CC0 كآلية عامة للإخلاص، حيث تتخلى عن جميع حقوق التأليف والنشر لبياناتك. وهذا يعني أن أي شخص يستطيع تعديل عملك أو إعادة توزيعه أو البناء عليه. وعلاوة على ذلك، فإنك باستخدام CC0، تفقد الحق في الإسناد. وبدلاً من ذلك، يجب أن تعتمد على قواعد مثل ممارسات الاقتباس الجيدة في الأوساط الأكاديمية لكي يتم الاعتراف بها كمبدع. وقد اختار العديد من المنظمات، مثل المتاحف والهيئات الحكومية والناشرين العلميين، CC0 للحصول على جزء من بياناتها على الأقل. في العديد من الحالات، توصي مستودعات البيانات التي تحتفظ بها الجامعات CC0 كخيار افتراضي، مثل [4TU.Centre لبيانات البحث](https://researchdata.4tu.nl/en/use-4turesearchdata/archive-research-data/upload-your-data-in-our-data-archive/licencing/).
 
-(rr-licensing-data-odc)=
-## Open Data Commons
+(r-licensing-data-odc)=
+## فتح وحدة البيانات
 
-Open Data Commons provides three licenses that can be applied specifically to data. The [webpages](https://opendatacommons.org/licenses/index.html) {cite:ps}`odk2020odc` of each of these licenses include human-readable summaries, with the ramifications of the legalese explained in a concise format.
+توفر قاعدة البيانات المفتوحة ثلاثة تراخيص يمكن تطبيقها على البيانات تحديدا. [صفحات الويب](https://opendatacommons.org/licenses/index.html) {cite:ps}`odk20odc` من كل من هذه التراخيص تتضمن ملخصات يمكن قراءتها للإنسان. مع تشعبات المؤيدين للقانون، تم شرحها في شكل موجز.
 
-(rr-licensing-data-odc-pddl)=
-### The Public Domain Dedication and License or PDDL
+(r-licensing-data-odc-pddl)=
+### إهداء وترخيص المجال العام أو مشروع إصلاح القانون
 
-The PDDL is analogous to CC0, where you waive all your rights to the data you are putting into the public domain. It comes with a [set of recommended community norms](https://opendatacommons.org/licenses/pddl/norms.html), which are not mandatory to include and do not form a legal contract but can be useful to have as a guide to encourage fair, open sharing of data. It is also possible to put together a customized set of norms that serve your data-sharing community better.
+ويماثل البرنامج CC0، حيث تتنازل عن جميع الحقوق الخاصة بك في البيانات التي تضعها في المجال العام. يأتي مع [مجموعة من قواعد المجتمع الموصى بها](https://opendatacommons.org/licenses/pddl/norms.html)، التي لا تكون إلزامية لإدراج عقد قانوني ولا تشكل عقدا قانونيا ولكن يمكن أن تكون مفيدة كدليل للتشجيع على الإنصاف، فتح المشاركة في البيانات. ومن الممكن أيضا أن نضع معا مجموعة قواعد مصممة خصيصا تخدم مجتمعكم في مجال تبادل البيانات بشكل أفضل.
 
-(rr-licensing-data-odc-odc-by)=
-### The Attribution or ODC-BY License
+(r-licensing-data-odc-odc-by)=
+### إسناد أو ترخيص ODC-BY
 
-This license protects your attribution rights as a data owner or creator, just like the **BY** permission mark of CC licenses. Any use or distribution of your database must also include information on the license used with the original.
+يحمي هذا الترخيص حقوق الإسناد الخاصة بك كمالك أو منشئ للبيانات، تماما مثل علامة الإذن **BY** لتراخيص CC . أي استخدام أو توزيع لقاعدة البيانات الخاصة بك يجب أن يتضمن أيضا معلومات عن الترخيص المستخدم مع الأصل.
 
-(rr-licensing-data-odc-odbl)=
-### The Open Database License or ODbL
+(r-licensing-data-odc-odbl)=
+### رخصة قاعدة البيانات المفتوحة أو ODbL
 
-The ODbL adds two more restrictions to the ODC-BY license. The first is that any public uses of your data must be shared with the same license, similar to the CC **SA** permission mark. The second is that if any version of your data is redistributed in a 'closed' format (for example, with Technological Protection Measures), it is mandatory for this redistribution to also be available in a version that is free of such closure measures.
+ويضيف نظام الوثائق الرسمية قيدين إضافيين على ترخيص ODC-BY. الأول هو أنه يجب مشاركة أي استخدامات عامة لبياناتك بنفس الرخصة، مماثلة لعلامة إذن CC **SA**. والثاني هو أنه إذا أعيد توزيع أي نسخة من بياناتك بصيغة "مغلقة" (على سبيل المثال، مع تدابير الحماية التكنولوجية)، ومن الإلزامي أن تكون عملية إعادة التوزيع هذه متاحة أيضا في صيغة خالية من تدابير الإغلاق هذه.
 
-(rr-licensing-data-differences)=
-## A note on the differences between CC and ODC Licenses
+(r-licensing-data-differenation)=
+## ملاحظة عن الاختلافات بين رخص CC و ODC
 
-Although it can seem like the licensing options offered by Creative Commons and Open Data Commons are exactly the same, there are some important differences.
+وعلى الرغم من أنه يمكن أن يبدو مثل خيارات الترخيص التي يقدمها المشاع الإبداعي وعموم البيانات المفتوحة هي نفسها تماماً، فإن هناك بعض الاختلافات الهامة.
 
-One difference is the scope of rights that are covered by the license, which is nicely explained [here](https://wiki.creativecommons.org/wiki/Data#What_is_the_difference_between_the_Open_Data_Commons_licenses_and_the_CC_4.0_licenses.3F). The ODC licenses were made specifically to be applied to data, and typically cover only database rights. On the other hand, the CC licenses are more general-purpose and can be applied to other materials. CC licenses also cover copyrights and other neighbouring rights.
+أحد الاختلافات هو نطاق الحقوق التي يغطيها الترخيص، والذي يتم شرحه بشكل جيد [هنا](https://wiki.creativecommons.org/wiki/Data#What_is_the_difference_between_the_Open_Data_Commons_licenses_and_the_CC_4.0_licenses.3F). ومنحت تراخيص مكتب مراقبة الممتلكات الأجنبية على وجه التحديد لكي تطبق على البيانات، وهي لا تغطي عادة سوى حقوق قاعدة البيانات. ومن ناحية أخرى، فإن تراخيص CCC هي أكثر الأغراض العامة ويمكن تطبيقها على مواد أخرى. وتغطي تراخيص الاتحاد أيضاً حقوق التأليف والنشر وغيرها من الحقوق المجاورة.
 
-Another difference is the availability of a standardised Community Norms document with the PDDL. The lack of such a document with CC0 means that you have to rely on community norms, which may often be unspoken or unwritten and can vary from community to community, to ensure fair attribution. A comparison between the PDDL and CC0 is provided [here](https://opendatacommons.org/faq.1.html).
+وثمة اختلاف آخر يتمثل في توافر وثيقة موحدة لقواعد الجماعة الأوروبية مع برنامج إصلاح قوانين الهجرة والهجرة. وعدم وجود مثل هذه الوثيقة مع CC0 يعني أنه يتعين عليك الاعتماد على المعايير المجتمعية، وغالباً ما تكون غير مكتوبة أو غير مكتوبة ويمكن أن تختلف من مجتمع إلى آخر، لضمان إسناد منصف. يتم توفير مقارنة بين PDDL و CC0 [هنا](https://opendatacommons.org/faq.1.html).
 
-(rr-licensing-data-options)=
-## Other Licensing Options
+(r-licensing-data-Options) =
+## خيارات ترخيص أخرى
 
-It is also possible to choose other data licenses that may have been developed with a specific use case or community in mind or that are not in widespread global use. These include licenses that were developed by national governments, such as the [Norwegian License for Open Government Data](https://data.norge.no/nlod/en/) {cite:ps}`nlod2020governmentdata`. Often, such licenses are the recommended data licensing option within the corresponding country, especially for data created or owned by their public bodies. Another example is the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) or OGL, which was developed by The National Archives, UK.
+ومن الممكن أيضا اختيار تراخيص بيانات أخرى ربما تكون قد استحدثت مع مراعاة حالة استخدام محددة أو مجتمع محلي محدد أو غير مستخدمة على نطاق واسع على الصعيد العالمي. وتشمل هذه التراخيص التي طورتها الحكومات الوطنية، مثل [الترخيص النرويجي للبيانات الحكومية المفتوحة](https://data.norge.no/nlod/en/) {cite:ps}`nlod2020حكومية البيانات`. وغالبا ما تكون هذه التراخيص هي خيار ترخيص البيانات الموصى به داخل البلد المقابل، ولا سيما بالنسبة للبيانات التي تنتجها أو تملكها هيئاتها العامة. مثال آخر هو [رخصة الحكومة المفتوحة](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) أو OGL، التي تم تطويرها بواسطة "المحفوظات الوطنية"، المملكة المتحدة.
 
-The [Data Curation Center (DCC) guide](https://www.dcc.ac.uk/guidance/how-guides/license-research-data) {cite:ps}`ball2011license` on how to license research data expatiates on the licenses discussed in this chapter, and gives more information about [Prepared Licenses](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-6000), [Bespoke Licenses](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-7000), [Multiple Licensing](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-13000) and [Mechanisms for Licensing Data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-14000).
+[دليل مركز تعديل البيانات (DCC)](https://www.dcc.ac.uk/guidance/how-guides/license-research-data) {cite:ps}`ball2011license` حول كيفية ترخيص بيانات البحث يتوسع في التراخيص التي نوقشت في هذا الفصل، ويقدم المزيد من المعلومات حول [رخص تم إعدادها](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-6000)، [رخص الناطقين](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-7000)، [التراخيص المتعددة](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-13000) و [آليات لبيانات الترخيص](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-14000).
 
-If you would like to read more about the challenges and finer points of licensing, [this article](https://research.okfn.org/avoiding-data-use-silos/) is a great resource to get you started.
+إذا كنت ترغب في قراءة المزيد عن التحديات والنقاط الدقيقة للترخيص، [هذا المقال](https://research.okfn.org/avoiding-data-use-silos/) هو مورد رائع للبدء.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

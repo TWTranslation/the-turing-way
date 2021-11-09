@@ -1,26 +1,26 @@
-(cm-comms-overview)=
-# Overview of the Guide for Communication
+(m-comms-Overview)=
+# ثانيا - لمحة عامة عن دليل الاتصالات
 
-Research projects, publications and communities are evaluated based on the impact that they make. This is often based on academic journal articles, generally published on completion of a project. However, there is much more scope to plan communication in a research project to enable effective collaboration, sharing progress as well as reporting results and conclusions at different stages of research through different streams of dissemination.
+ويجري تقييم مشاريع البحوث والمنشورات والمجتمعات المحلية استنادا إلى الأثر الذي تحدثه. وغالبا ما يستند ذلك إلى مقالات صحفية أكاديمية، تنشر عادة عند إنجاز مشروع ما. غير أن هناك مجالا أكبر بكثير لتخطيط الاتصال في مشروع بحثي للتمكين من التعاون الفعال. • تبادل التقدم المحرز وكذلك الإبلاغ عن النتائج والاستنتاجات في مختلف مراحل البحث من خلال مختلف مسارات النشر.
 
-In this guide, we present tools, methods and recommendations for communicating our research with wider audiences. Communication methods described here can be used for establishing efficient ways to work with your collaborators, share different research objects as well as increase the breadth of the audience for your research or community.
+وفي هذا الدليل، نعرض أدوات وأساليب وتوصيات لتوصيل بحوثنا إلى جمهور أوسع. طرق الاتصال الموصوفة هنا يمكن استخدامها لتحديد طرق فعالة للعمل مع المتعاونين معك، شارك مختلف الكائنات البحثية بالإضافة إلى زيادة اتساع الجمهور للبحث أو المجتمع الخاص بك.
 
 ```{figure} ../figures/communication-styles.jpg
 ---
-name: communication-styles
-alt: Two people sitting working. One using a feather and scroll with the words inaccessible and too technical written on the scroll. The other person sitting at a computer with different communication methods coming out of the computer including blogs, podcasts, lay summaries and social media. There are also dictionaries for foreign languages showing that it is important to translate our research into different languages. Accessibility is written on the computer screen.
+الاسم: أساليب الاتصال
+البديل: شخصين يجلسان يعمل. واحد يستخدم ريشة و تمرير مع الكلمات التي لا يمكن الوصول إليها و مكتوبة على شريط التمرين. أما الشخص الآخر الذي يجلس على جهاز كمبيوتر ذي أساليب اتصال مختلفة فيخرج من الحاسوب، بما في ذلك المدونات والبث الصوتي (podcast)، ويعرض الملخصات والوسائط الاجتماعية. وهناك أيضا قواميس للغات أجنبية تبين أن من المهم ترجمة بحثنا إلى لغات مختلفة. إمكانية الوصول مكتوبة على شاشة الكمبيوتر.
 ---
-Illustration about communicating with a wider audience.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+مثال توضيحي حول التواصل مع جمهور أوسع.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
 ```
 
 (cm-comms-overview-jargon)=
-## Avoid Jargon
+## تجنب جارجون
 
-> Plain language makes it easier for the public to read, understand, and use [all] communications. When we say not to use jargon, we’re not advocating leaving out necessary technical terms, but we are saying to make sure your language is as clear as possible. - [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/words/avoid-jargon)
+> اللغة العادية تجعل من الأسهل على الجمهور قراءة وفهم واستخدام [all] الاتصالات. عندما نقول إننا لا نستخدم الجارغون، نحن لا ندعو إلى تجاهل المصطلحات التقنية الضرورية. ولكننا نقول للتأكد من أن لغتك واضحة قدر الإمكان. - [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/words/avoid-jargon)
 
-Choosing to communicate in a jargon-free and less technical manner, with more consideration for accessibility ultimately results in our research being read and heard by more people. This includes writing your papers, guidelines and documentation simply and jargon-free. Other forms of communication include blogging, writing lay summaries, podcasting, presenting posters and talks at conferences outside of your discipline, and using social media. This can involve translating technical scientific writing into different styles that make your research more accessible to specialists outside of your specific discipline and also to the wider public. We also describe different communication channels you can select for your project to enable collaboration with your team or community members.
+اختيار الاتصال بطريقة خالية من الرغمات وأقل تقنية، ومع إيلاء مزيد من الاعتبار لإمكانية الوصول في نهاية المطاف يؤدي بحثنا إلى قراءته وسماع المزيد من الناس. ويشمل ذلك كتابة أوراقك ومبادئك التوجيهية ووثائقك ببساطة وخالية من الرغمات. وتشمل أشكال الاتصال الأخرى المدونة، وكتابة ملخصات عادية، وبث صوتي، وتقديم ملصقات ومحادثات في مؤتمرات خارج نطاق تخصصكم، واستخدام وسائل الإعلام الاجتماعية. ويمكن أن يشمل ذلك ترجمة الكتابة العلمية التقنية إلى أساليب مختلفة تجعل بحثك أكثر قدرة على الوصول إلى الأخصائيين خارج تخصصك المحدد وأيضاً إلى عامة الجمهور. ونصف أيضًا قنوات اتصال مختلفة يمكنك اختيارها لمشروعك لتمكين التعاون مع فريقك أو أعضاء المجتمع.
 
-We present several case studies from groups and individuals that have successfully used these methods of communication. They describe how they have practically gone about doing the communication method and offer some tips for others to get started. You are welcome to share your personal stories and impact studies in this guide.
+ونقدم عدة دراسات إفرادية من جماعات وأفراد استخدموا أساليب الاتصال هذه بنجاح. وهم يصفون كيف أنهم فعلوا عملياً طريقة الاتصال ويقدمون بعض النصائح للآخرين للبدء. أنت مرحب بك لتشارك قصصك الشخصية ودراسات التأثير في هذا الدليل.
 
-Lessons learnt in this guide will enable researchers to communicate their research more clearly with wider audiences and therefore increase its overall impact. Methods discussed in the guide can have a considerable impact on the overall project or community in terms of gaining interest within your scientific discipline, engaging with the wider scientific community and gaining interest from the general public.
+وستمكن الدروس المستفادة من هذا الدليل الباحثين من إبلاغ بحوثهم بصورة أوضح مع جمهور أوسع، ومن ثم زيادة أثرها العام. الأساليب التي نوقشت في الدليل يمكن أن يكون لها تأثير كبير على المشروع أو المجتمع ككل من حيث اكتساب الاهتمام في إطار تخصصك العلمي، • العمل مع الأوساط العلمية الأوسع نطاقا واكتساب اهتمام الجمهور العام.

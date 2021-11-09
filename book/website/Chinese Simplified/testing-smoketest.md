@@ -1,6 +1,6 @@
 (rr-testing-smoketest)=
-# Smoke Testing
+# 烟雾测试
 
-Smoke tests (also known as build verification tests) are a special kind of initial checks designed to ensure very basic functionality as well as some basic implementation and environmental assumptions. Smoke tests are generally run at the very start of each testing cycle as a sanity check before running a more complete test suite.
+烟雾试验（也称为建筑核查试验）是一种特殊的初步检查，旨在确保非常基本的功能以及一些基本的实施和环境假设。 烟雾试验通常在每个试验周期开始时作为一种智能检查来进行，然后运行一个更完整的试验套装。
 
-The idea behind this type of test is to help to catch big red flags in an implementation and to bring attention to problems that might indicate that further testing is either not possible or not worthwhile. Normally, the tester is asking whether any components are so obviously or badly broken that the build is not worth testing or some components are broken in obvious ways that suggest a corrupt build or some critical fixes that are the primary intent of the new build didn't work. Smoke tests are not very extensive, but should be extremely quick. If a change to a project causes it to fail a smoke test, its an early signal that core assertions were broken and that you should not devote any more time to testing until the problem is resolved. For example if a function that reads in the data a project requires to run is broken there's no point testing any further before that's fixed. The typical result of a failed smoke test is rejection of the build (testing of the build stops) not just a new set of bug reports.
+这种测试背后的想法是帮助在实施过程中捕获大红旗，并提请注意可能表明不可能进一步测试或不值得进一步测试的问题。 通常， 测试者正在询问是否有任何组件明显或严重损坏，以致建筑物不值得测试，或者某些组件以明显的方式被损坏，从而表明新建筑的主要意图是不起作用。 烟雾测试范围不广，但应该极为迅速。 如果项目改变导致未能进行烟雾试验。 它很早就表明核心断言被打破，你不应再花任何时间进行测试，直到问题得到解决。 例如，如果项目需要运行的函数在数据中读取的函数被打破，在修复之前没有进一步的点测试。 烟雾测试失败的典型结果是拒绝构建(测试构建站)，而不仅仅是新的错误报告。

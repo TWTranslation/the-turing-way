@@ -1,18 +1,18 @@
-(cm-podcasts)=
-# Podcasts for Research Communication
+(m-podcasts)=
+# Podcasts للاتصالات البحثية
 
-A podcast is an audio programme that you can subscribe to and listen to on an app. They are like blogs as they focus on a particular topic. A podcast can be a solo effort but would work better as collaborative work. The length of podcasts varies from short 1-minute snippets to much longer in-depth pieces lasting hours. They also vary in frequency from daily to monthly.
+podcast هو برنامج صوتي يمكنك الاشتراك فيه والاستماع إليه في التطبيق. إنها مثل المدونات كما تركز على موضوع معين. ويمكن أن يكون البث الإذاعي المباشر جهدا منفردا ولكنه يعمل بشكل أفضل كعمل تعاوني. ويتراوح طول البث الصوتي الصوتي (podcasts) بين فترة قصيرة مدتها دقيقة واحدة وساعات أطول من ذلك بكثير متواصلة. كما أنها تتفاوت من تواتر يومي إلى شهري.
 
-(cm-podcasts-how)=
-## Start a Podcast
+(م-podcasts-how)=
+## بدء Podcast
 
-* [How to start a podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) If you have experience making podcasts and would like to write in more detail about this to help others, then please get in touch with us.
+* [كيفية تشغيل podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) إذا كان لديك تجربة في صنع podcasts وترغب في الكتابة بمزيد من التفصيل حول هذا لمساعدة الآخرين، ثم يرجى الاتصال بنا.
 
-(cm-podcasts-recommendations)=
-## Some of Our Recommended Podcasts
+(م م-podcasts-recommendations)=
+## بعض من Podcasts الموصى بها
 
 * [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
-* [Open Science talk](https://soundcloud.com/opensciencetalk).
-* [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast).
+* [حديث العلوم المفتوح](https://soundcloud.com/opensciencetalk).
+* [تورينج Podcast](https://www.turing.ac.uk/news/turing-podcast).
 * [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
-* [Open science stories](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
+* [قصص علمية مفتوحة](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).

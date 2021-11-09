@@ -1,26 +1,26 @@
 (rr-testing-overview)=
-# Overview of Testing Types
+# Resumen de los tipos de pruebas
 
-There are a number of different kinds of tests, which will be discussed here.
+Hay una serie de diferentes tipos de pruebas, que se debatirán aquí.
 
-Firstly there are positive tests and negative tests. Positive tests check that something works, for example testing that a function that multiplies some numbers together outputs the correct answer. Negative tests check that something generates an error when it should. For example nothing can go quicker than the speed of light, so a plasma physics simulation code may contain a test that an error is outputted if there are any particles faster than this, as it indicates there is a deeper problem in the code.
+En primer lugar, hay pruebas positivas y pruebas negativas. Las pruebas positivas comprueban que algo funciona, por ejemplo pruebas de que una función que multiplica algunos números juntos produce la respuesta correcta. Las pruebas negativas comprueban que algo genera un error cuando debería. Por ejemplo, nada puede ir más rápido que la velocidad de la luz, por lo que un código de simulación física de plasma puede contener una prueba de que un error es producido si hay partículas más rápido que este, ya que indica que hay un problema más profundo en el código.
 
-In addition to these two kinds of tests, there are also different levels of tests which test different aspects of a project. These levels are outlined below and both positive and negative tests can be present at any of these levels. A thorough test suite will contain tests at all of these levels (though some levels will need very few).
+Además de estos dos tipos de pruebas, existen diferentes niveles de pruebas que prueban diferentes aspectos de un proyecto. Estos niveles se describen a continuación y se pueden presentar pruebas positivas y negativas en cualquiera de estos niveles. Una suite de pruebas completa contendrá pruebas en todos estos niveles (aunque algunos niveles necesitarán muy pocos).
 
-## Types of Testing
+## Tipos de pruebas
 
-[Smoke testing](#Smoke_testing): Very brief initial checks that ensures the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+[Pruebas de humo](#Smoke_testing): Comprobaciones iniciales muy breves que garantizan los requisitos básicos necesarios para ejecutar el proyecto. Si estos fallan no tiene sentido pasar a niveles adicionales de pruebas hasta que se corrigan.
 
-[Unit testing](#Unit_tests):    A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+[Prueba unitaria](#Unit_tests): Un nivel del proceso de prueba de software donde se prueban las unidades individuales de un software. El propósito es validar que cada unidad del software realiza como está diseñado.
 
-[Integration testing](#Integration_testing): A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+[Prueba de integración](#Integration_testing): Un nivel de prueba de software donde las unidades individuales se combinan y prueban como un grupo. El propósito de este nivel de pruebas es exponer fallos en la interacción entre unidades integradas.
 
-[System testing](#System_tests):    A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+[Prueba del sistema](#System_tests): Un nivel del proceso de prueba de software donde se prueba un sistema completo e integrado. El propósito de esta prueba es evaluar si el sistema en su conjunto da las salidas correctas para las entradas dadas.
 
-[Acceptance testing](#Acceptance_testing):  A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+[Pruebas de aceptación](#Acceptance_testing): Un nivel del proceso de prueba de software donde un sistema es probado para ser aceptado. El propósito de esta prueba es evaluar el cumplimiento del sistema con los requisitos del proyecto y evaluar si es aceptable para ese propósito.
 
-Here's an analogy: during the process of manufacturing a ballpoint pen, the cap, the body, the tail, the ink cartridge and the ballpoint are produced separately and unit tested separately. When two or more units are ready, they are assembled and integration testing is performed, for example a test to check the cap fits on the body. When the complete pen is integrated, system testing is performed to check it can be used to write like any pen should. Acceptance testing could be a check to ensure the pen is the colour the customer ordered.
+Aquí hay una analogía: durante el proceso de fabricación de un bolígrafo, la tapa, el cuerpo, la cola, el cartucho de tinta y el punto de pelota se producen por separado y la unidad de prueba por separado. Cuando dos o más unidades están listas, se ensamblan y se realizan pruebas de integración, por ejemplo una prueba para comprobar que la tapa encaja en el cuerpo. Cuando la pluma completa está integrada, las pruebas del sistema se realizan para comprobar que se pueden utilizar para escribir como cualquier bolígrafo. Las pruebas de aceptación podrían ser una comprobación para asegurar que el bolígrafo es el color que el cliente ha pedido.
 
-There is also another kind of testing called regression testing. Regression testing is a type of testing that can be performed at any of the four main levels and compares the results of tests before and after a change is made to the code, and gives an error if these are different.
+También hay otro tipo de pruebas llamadas pruebas de regresión. Las pruebas de Regresión son un tipo de prueba que se puede realizar en cualquiera de los cuatro niveles principales y compara los resultados de las pruebas antes y después de que se haga un cambio en el código, y da un error si son diferentes.
 
-These different types of tests are discussed in more detail in the next subchapters.
+Estos diferentes tipos de pruebas se discuten con más detalle en los subcapítulos siguientes.

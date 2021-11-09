@@ -1,21 +1,21 @@
 (rr-binderhub-build)=
-# Build your own BinderHub
+# 构建你自己的绑定Hub
 
-[mybinder.org](https://mybinder.org/) is the free, public BinderHub that hosts almost 100k Binder launches per week. Why might you want to build your own?
+[mybinder.org](https://mybinder.org/) 是免费的 BinderHub ，它每周主办将近100k Binder 发射。 你为什么想要建立自己的东西？
 
-Binder [{term}`def<Binder>`] is an open source project maintained by volunteers and as such they ask that users stay within certain computational limitations in order to keep running costs as low as possible whilst still providing a usable service. By hosting your own BinderHub, you can offer your users much more flexible and tailored resources.
+Binder [{term}`def<Binder>`] 是一个由志愿者维护的开放源码项目，因此他们要求用户保持在一定的计算限制范围内，以便在仍然提供可用服务的同时尽可能低地运行成本。 通过托管您自己的 BinderHub，您可以为您的用户提供更加灵活和更有针对性的资源。
 
-These customisations could include:
+这些定制可包括：
 
-- authentication,
-- greater computational resources per user,
-- bespoke library stacks and packages,
-- allowing access to private repos,
-- persistent storage for users,
-- restrict sharing within a certain institution or team.
+- 身份验证，
+- 每个用户更多的计算资源
+- 装饰库堆栈和包裹，
+- 允许访问私人repos,
+- 针对用户的持久存储。
+- 限制某个机构或团队内共享。
 
-## Issues you may face when deploying a BinderHub
+## 部署BinderHub 时可能面临的问题
 
-BinderHubs are becoming increasingly popular amongst universities and research institutes. This is because they can facilitate multiple instances of the same set of notebooks for use in a tutorial or workshop setting.
+BinderHubs在各大学和研究机构中越来越受欢迎。 这是因为他们可以为同一套笔记本的多个实例提供便利，供教程或车间使用。
 
-If you are deploying a cloud-hosted BinderHub on behalf of your organisation, you may need specific permissions on your organisation's cloud platform subscription. Which permissions you require will vary based on the cloud platform you have access to and your IT Services policies. At minimum, you'll need to be able to assign [Role Based Access Control (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) to your resources so they can act autonomously in order to manage user traffic.
+如果您代表您的组织部署了一个云托管的 BinderHub ，您可能需要您组织的云平台订阅的特定权限。 您所需的哪些权限将根据您有权访问的云平台和您的IT服务政策而变化。 起码的 您需要能够将 [基于角色的访问控制 (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) 分配给您的资源，以便他们能够自主地管理用户流量。

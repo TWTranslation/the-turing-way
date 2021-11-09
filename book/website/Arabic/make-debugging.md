@@ -1,22 +1,22 @@
-(rr-make-debugging)=
-# Debugging Makefiles
+(r-make-debugging)=
+# تصحيح الأخطاء
 
-When writing a Makefile, it can sometimes be useful to be able to see the values of variables to catch mistakes or bugs in the Makefile. To facilitate this, Make contains two commands: `info` and `error`, and there is a debug mode to Make.
+عند كتابة ماكيفيل، قد يكون من المفيد في بعض الأحيان أن تكون قادرة على رؤية قيم المتغيرات لالتقاط الأخطاء أو الأخطاء في ماكيفيلي. لتسهيل هذا، احتوى على أمرين : `معلومات` و `خطأ`، وهناك وضع التصحيح لصنعه.
 
-With the `info` command you can print the current value of a variable to stdout, while Make is processing the file. For instance, in the Makefile above you could add:
-
-```makefile
-$(info $$DATA = $(DATA))
-```
-
-This will print `DATA = data/action.csv ... data/western.csv`.
-
-With the `error` command you can stop the execution of Make at a certain point in the Makefile. This is useful when you want to print the value of a variable and not run Make any further:
+مع الأمر `معلومات` يمكنك طباعة القيمة الحالية للمتغير إلى تم تمديده، أثناء تجهيز الملف. على سبيل المثال، في Makefile أعلاه يمكنك إضافة:
 
 ```makefile
-$(error $$DATA = $(DATA))
+$(معلومات $$DATA = $(DATA))
 ```
 
-Finally, you can also debug the Makefile by running Make with the debug flag: `make -d`. This will print all the rules (including built-in ones) that Make tries for each of the targets, and whether or not a rule needs to be run.
+هذا سيطبع `DATA = data/action.csv ... data/western.csv`.
 
-If you only want to print the rules that Make will run and not actually run them, you can use `make -n`. These last two options can also be combined, so that you see the debug output and Make doesn't run anything: `make -dn`.
+مع الأمر `` يمكنك إيقاف تنفيذ إجراء في نقطة معينة في Makefile. هذا مفيد عندما تريد طباعة قيمة متغير وعدم تشغيل أي شيء آخر:
+
+```makefile
+$(خطأ $$DATA = $(DATA))
+```
+
+وأخيرا، يمكنك أيضا تصحيح ماكيفيلي عن طريق تشغيل صنع مع علم التصحيح: `اجعل -d`. هذا سيطبع جميع القواعد (بما في ذلك القواعد المدمجة) التي تجعل يحاول لكل هدف من الأهداف، وما إذا كانت هناك حاجة إلى تطبيق قاعدة أم لا.
+
+إذا كنت ترغب فقط في طباعة القواعد التي ستعمل على تشغيلها ولن تشغلها بالفعل ، يمكنك استخدام `جعل -n`. ويمكن أيضا الجمع بين هذين الخيارين الأخيرين، إذاً بحيث ترى إخراج التصحيح والجعل لا يشغل أي شيء: `اجعل -dn`.

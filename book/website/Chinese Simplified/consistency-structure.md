@@ -1,100 +1,100 @@
-(ch-consistency-structure)=
-# Structure
+(ch-一致性结构)=
+# 结构
 
-Structure refers to how _The Turing Way_ is organised. A good structural framework ensures that _The Turing Way's_ content is presented in an orderly manner.
+结构是指如何组织 _诱惑路径_。 一个良好的结构框架可以确保 _Ting Way的_ 内容能够有序地呈现。
 
 (ch-consistency-structure-hr)=
-## Hard Requirements
+## 硬要求
 
-The hard checks that deal with _The Turing Way's_ structure include:
+涉及 _的硬性检查。正面怀的_ 结构包括：
 
 (ch-consistency-structure-hr-emptyfiles)=
-### Check 1: Do not add empty files in the `_toc.yml`
+### 检查 1: 不要在 `_toc.yml 中添加空文件`
 
-The `_toc.yml` file is where _The Turing Way's_ table of contents (ToC) lives. Some files referenced in the ToC are empty, and their inclusion means that readers can navigate to an empty (sub)chapter while reading _The Turing Way_. This negatively impacts the reader's experience as they go through the book.
+`_toc.yml` 文件是 _Ting Way的_ 内容表 (ToC) 存在的地方。 ToC 中引用的一些文件为空， 他们的包含意味着读者可以在阅读 _诱惑路径_ 时导航到一个空章(子)章。 这对读者在读书时的体验产生了不利影响。
 
 ```{figure} ../../figures/empty-toc-file.png
 ---
-name: empty-toc-file
-alt: An empty file that was included in the Turing Way's Table of Contents. Readers can still navigate to empty files when they are included in the table of contents.
+名称：空文件
+备选案文：包含在Ting Way的目录表中的空文件。 读者仍然可以导航到空文件，当他们被包含在目录表中。
 ---
-Empty files included Turing Way's Table of Contents can still be accessed by readers.
+空文件包括Ting Way的目录仍然可以被读者访问。
 ```
 
-A general suggestion is to remove references to such files from the ToC and raise an issue in _The Turing Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) for content to be written for those files. When the content is written, the files can then be added to the ToC.
+一项一般性建议是从ToC中删除对此类文件的提及，并且在 _Ting Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) 中提出一个为这些文件撰写的内容。 当内容写入时，文件可以添加到ToC。
 
-For example, [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) curates a list of empty and incomplete files currently in _The Turing Way_, and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) writes content for the `Data Licences` subchapter shown in the {ref}`image <empty-toc-file>`.
+例如， [这个问题](https://github.com/alan-turing-institute/the-turing-way/issues/1391) 管理了一个目前在 _的空文件和不完整文件列表_, 和 [此 PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) 为 `数据许可证` 子章节显示于 {ref}`图像 <empty-toc-file>` 编写内容。
 
 (ch-consistency-structure-hr-structure)=
-### Check 2: Ensure chapters follow a consistent structure
+### 检查 2: 确保章节遵循一致的结构
 
-_The Turing Way_ is made up of five guides that contain several chapters and subchapters. However, these chapters do not follow a uniform structure, taking away from the reader's experience.
+_导星路径_ 由五个指南组成，包含几个章节和小章。 但是，这些章节的结构并不统一，脱离了读者的经验。
 
 ```{figure} ../../figures/recommended-chapter-structure.png
+----
+名称：推荐章节结构
+备选案文：推荐章节的结构 各章应有一个登陆页，其中有关于先决条件和摘要的部分，以及为什么该章是有用的。 除了本章其他部分的内容外，各章还应有一份清单和一个资源分章。
 ---
-name: recommended-chapter-structure
-alt: The recommended structure for chapters in The Turing Way. Chapters should have a landing page with a sections for prerequisites, summary, and why the chapter is useful. Chapters should also have a checklist and a resources subchapter in addition to the rest of the chapter content.
----
-Recommended structure for chapters in The Turing Way.
+推荐适合小路章节的结构。
 ```
 
-- **Landing page:**
-    - The chapter's landing page should include information about any prerequisites required to understand the chapter, a summary of the chapter's content, and an explanation of why the chapter is useful.
-- **Subchapters:**
-    - A chapter can contain any number of subchapters or none at all. However, please note the next requirement about the checklist and resources subchapters.
+- **登陆页面：**
+    - 该章的登陆网页应包括关于理解该章所需的任何先决条件的信息， 概述该章的内容，并解释为什么该章有用。
+- **分章：**
+    - 一个章节可以包含任何几个小章，或者根本不包含任何小章。 不过，请注意关于清单和资源小章的下一个要求。
 - **Checklist subchapter:**
-    - The checklist subchapter itemizes action points for the reader to take based on the concepts introduced in the chapter.
-- **Resources subchapter:**
-    - The resources subchapter points the reader to other sources where they can learn more about the concepts discussed in the chapter, as well as related topics to explore.
+    - 核对表分章逐项说明了读者根据该章提出的概念采取的行动要点。
+- **资源子章节：**
+    - 资源分章将读者指向其他来源，使他们能够更多地了解本章讨论的概念， 以及需要探讨的相关议题。
 
 
 ```{attention} Please note that making chapters follow this structure may require splitting some of the existing content into new files.
-References to these files should be updated in the table of contents in the `_toc.yml` file.
+这些文件的引用应该在`_toc.yml`文件中的目录表中更新。
 ```
 
-Refer to the [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) to structure new chapter contributions, and use it to assess current chapters in _The Turing Way_. For chapters that do not fit this structure, please raise a Pull Request.
+参考 [章模板](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) 来构建新的章节报告。 并使用它来评估目前的章节在 _The Tinging Way_ 中。 对于不适合此结构的章节，请提出Pull 请求。
 
 
-(ch-consistency-structure-hr-toc)=
-### Check 3: Do not add a 'table of content' in chapters or subchapters.
+(ch-一致性-结构-hr-toc)=
+### 勾选3： 不要在章节或小章节中添加一个“内容表”。
 
-Some chapters in _The Turing Way_ were written with a hand-crafted table of contents. However, Jupyter Book auto-generates a permanent table of contents that can be found on the left side of _The Turing Way_ book, and a dynamic, page-specific table of content located at the top-right of each page. This makes a manually written table of contents unnecessary, and it may negatively impact a reader's experience with _The Turing Way_.
+_中的一些章节_ 是用手工制作的内容表格编写的。 然而，仍然存在着这种情况。 Jupyter 书自动生成一个永久性的目录，可以在 _左侧找到。Ting Way_ book， 以及位于每个页面右上角的具体页面表格。 这使得手工写的目录没有必要，可能会对读者在 _诱惑路径_ 方面的体验产生不利影响。
 
 ```{figure} ../../figures/many-table-of-contents.png
 ---
-name: many-table-of-contents
-alt: A subchapter in The Turing Way with three table of contents. Two that are generated by Jupyter Book and one made by the chapter author.
+名称：多表内容
+备选案文：带有三个内容表格的Ting Way 的一个子章节。 两份是由《木偶书》产生的，另一份是由本章作者制作的。
 ---
-The manually written table of contents is unnecessary as Jupyter Book auto-generates two separate table of contents.
+手动写的目录没有必要，因为木星书自动生成两个单独的目录表。
 ```
-#### Demo
+#### 演示模式
 
 <div class="video-content">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zKWrvgCxSB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-structure-hr-citing)=
-### Ensure external sources are properly cited and referenced
+(ch-unience-structure-hr-citing)=
+### 确保外部来源被正确引用和引用
 
-As described in the {ref}`style guide<ch-style-citing>`, _The Turing Way_'s book-wide references are stored in a BibTeX file called `references.bib`. When writing new content, ensure that information culled from external sources are cited using the BibTeX format and added to the `references.bib` file as appropriate.
+{ref}`风格指南<ch-style-citing>`所述， _诱惑路径_书本引用被存储在名为 `的 BibTeX 文件中。 ib`. 在编写新内容时，确保引用来自外部来源的信息使用 BibTeX 格式并添加到 `引用。 ib` 文件适当。
 
-The {ref}`style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
-
-
-(ch-consistency-structure-soft-req)=
-## Soft Requirements
-
-Soft requirements that deal with _The Turing Way's_ structure include:
-
-(ch-consistency-structure-sr-summary)=
-### Check 1: Ensure each chapter has a good summary in their landing page
-
-A chapter with a good summary gives the reader an overview of the content that follows. Ideally, summaries should communicate the main idea of the chapter and identify any supporting detail, but be brief and precise. Summaries should also adequately cross-reference the chapter's subchapters, for the benefit of readers who may want to quickly explore the topics the summary introduces. Chapters in _The Turing Way_ that contain summaries that do not fit these criteria may need to be reworded or rewritten.
+{ref}`样式指南<ch-style-citing>` 演示如何添加一个新的引用到集中的 BibTeX 文件， 并显示如何将此引用包含在您的写入中。
 
 
-(ch-consistency-structure-sr-modular)=
-### Check 2: Split long chapters into smaller subchapters so they are modular
+(ch-consistic-structure-soft-req)=
+## 软要求
 
-Long chapters may be difficult for some readers to go through. Furthermore, very long content can be intimidating for other readers who may only be interested in the main ideas the chapter talks about. Therefore, to make  _The Turing Way_ easier to read, long chapters should be appropriately modularised.
+处理 _的软要求。正在酝酿的怀的_ 结构包括：
 
-When keeping chapters modular, ensure that its subchapters only talk about one aspect of the overall topic. For example, if a chapter on Machine Learning was to be written for _The Turing Way_, such a chapter should contain at least three subchapters that each focus Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+(ch-compendency-structure-sr-summary)=
+### 勾选1: 确保每个章节在其登陆页面都有一个很好的摘要
+
+有一章作了很好的总结，使读者概述了以下内容。 理想的情况是，摘要应传达该章的主旨，并确定任何辅助性细节，但应简短和准确。 摘要还应充分参照该章的小节，以便读者能够迅速探讨摘要介绍的专题。 _中的章节_ 含有不符合这些标准的摘要，可能需要重新措辞或改写。
+
+
+(ch-compendency-structure-sr-modular)=
+### 勾选2: 将长篇章节分成较小的子章节, 因此它们是模块化的
+
+一些读者可能很难通过长篇章。 此外，内容很长可能会使其他读者感到惊恐，他们只会对该章谈到的主要想法感兴趣。 因此，为了使  _诱惑方式_ 更容易阅读，长篇章节应该适当调节。
+
+在保留章节单元时，确保其分章只谈论整个专题的一个方面。 例如，如果要为 _编写一个关于机器学习的章节_, 这样一章至少应包含三个小节，每个小节的重点是监督学习、无监督的学习和强化学习。

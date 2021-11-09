@@ -1,95 +1,95 @@
-(cl-new-community-guide)=
-# Guide to Planning a Community
+(دليل مجتمعي جديد)=
+# دليل التخطيط لمجتمع محلي
 
-What if you started a project with a thought like, “I have this great idea that I want to try on this public data!”? There is nothing to worry about if you’re the only one working on it. However, if you want to develop this project - you become responsible for making people feel included in your project.
+ماذا لو كنت قد بدأت مشروعاً بفكرة مثل: "لدي هذه الفكرة العظيمة التي أريد أن أجربها على هذه البيانات العامة!"؟ ليس هناك ما يدعو إلى القلق إذا كنت الشخص الوحيد الذي يعمل على ذلك. ومع ذلك، إذا كنت ترغب في تطوير هذا المشروع - فإنك تصبح مسؤولاً عن جعل الناس يشعرون بأنهم مشمولون في مشروعك.
 
-As a 'project lead', you want to set up a welcoming and inclusive environment and create the first set of visions and goals for your collaborators. You cannot assume that everyone you collaborate with knows what is expected of them when they start to work with others on your project. Therefore, it’s important to set the right expectations from the beginning for your community, even though you might not have planned on having one (see more details: {cite:ps}`Sharan2020Apr`).
+ك'رائد للمشروع'، تريد تهيئة بيئة ترحيب وشاملة وإنشاء أول مجموعة من الرؤى والأهداف للمتعاونين معك. لا يمكنك أن تفترض أن كل من تتعاون معه يعرف ما هو متوقع منهم عندما يبدأون العمل مع الآخرين في مشروعك. لذلك من المهم تحديد التوقعات الصحيحة من البداية لمجتمعك، على الرغم من أنك لم تخطط للحصول على واحدة (انظر المزيد من التفاصيل: {cite:ps}`شاران20Apr`).
 
-(cl-new-community-guide-checklist)=
-## A Checklist for Planning Collaboration in Your Project
+(القائمة المرجعية للدليل المجتمعي الجديد)=
+## قائمة مراجعة لتخطيط التعاون في مشروعك
 
-The checklist below will help you in making the process of establishing collaboration in your research project thoughtfully in a structured manner.
+سوف تساعدك القائمة المرجعية أدناه على إقامة التعاون في مشروعك البحثي بطريقة منظمة.
 
-The practices listed here are derived from and limited by the experiences of the authors who participate in several successful Open Research communities and lead community-driven projects such as [The Carpentries](https://carpentries.org), [Mozilla Open Leaders](https://mozilla.github.io/open-leadership-training-series/), [Open Life Science](https://openlifesci.org/) and _The Turing Way_. While reading this chapter, please be aware that you may need to make adjustments for projects that may be very different in nature (for example, not entirely open source).
+الممارسات المذكورة هنا مستمدة من تجارب المؤلفين الذين يشاركون في العديد من مجتمعات البحوث المفتوحة الناجحة ويقودون مشاريع مجتمعية مثل [كاربنكس](https://carpentries.org)، ومحدودة من هذه التجارب، [قادة موزيلا المفتوح](https://mozilla.github.io/open-leadership-training-series/)، [علوم الحياة المفتوحة](https://openlifesci.org/) و _الطريق الوشيك_. عند قراءة هذا الفصل، يرجى أن تكون على علم بأنكم قد تحتاجون إلى إدخال تعديلات على المشاريع التي قد تكون مختلفة جدا في طبيعتها (على سبيل المثال، ليس المصدر مفتوح تمامًا).
 
-(cl-new-community-guide-checklist-comms-platform)=
-### 1. Choose a Communication Platform
+(دليل مجتمعي جديد - قائمة مرجعية - منصة مشتركة) =
+### 1. اختر منصة اتصال
 
-- When leading an open project, use collaborative and open platforms such as [GitHub](http://github.com/) or [GitLab](https://about.gitlab.com/).
-- Evaluate the need for any real-time communications, such as if a text chat system like [Slack](https://slack.com) or [Element/Matrix](https://element.io/get-started) will be useful or if a mailing list will be sufficient (read details {ref}`Communication Channels <cm-os-comms-channels>`).
-  - Consider a separate internal communication platform for your community members and an external one for showing what you’ve done to the rest of the world.
-- A [Twitter account](https://twitter.com) or a simple website (such as on [GitHub pages](https://pages.github.com/)) can be useful external platforms.
-- Make sure that the choices of these platforms are made to ensure that there is a low barrier to join them.
+- عند قيادة مشروع مفتوح، استخدم المنصات التعاونية والمفتوحة مثل [GitHub](http://github.com/) أو [GitLab](https://about.gitlab.com/).
+- تقييم الحاجة إلى أي اتصالات آنية، مثل إذا كان نظام دردشة نصية مثل [Slack](https://slack.com) أو [عنصر / مصفوفة](https://element.io/get-started) سيكون مفيداً أو إذا كانت القائمة البريدية كافية (قراءة التفاصيل {ref}`قنوات اتصال <cm-os-comms-channels>`).
+  - فكر في منصة اتصال داخلية منفصلة لأعضاء مجتمعك وواحدة خارجية لإظهار ما فعلته لبقية العالم.
+- حساب [تويتر](https://twitter.com) أو موقع بسيط (مثل [صفحات GitHub](https://pages.github.com/)) يمكن أن يكون منصات خارجية مفيدة.
+- تأكد من أن خيارات هذه المنصات تتخذ لضمان وجود حاجز منخفض أمام الانضمام إليها.
 
-(cl-new-community-guide-checklist-proj-summary)=
-### 2. Provide a Project Summary File:
+(الدليل المجتمعي الجديد - موجز القائمة المرجعية)=
+### 2. تقديم ملف موجز للمشروع:
 
-- The first document in your project should be a project summary file, which in a GitHub repository will be a [README.md file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
-- This will provide basic information about your project so that people can evaluate why your project will be interesting for them.
-  - Here is [a template](https://github.com/PurpleBooth/a-good-readme-template) by the GitHub user [PurpleBooth](https://github.com/PurpleBooth).
-- In this file, include what your project vision and goals are, why the project is useful, what the possible milestones are in the project, how a contributor or user can get started, who can they reach out to for help, and what is currently missing in the project in terms of stakeholders, skills, or scope.
-- You can use emojis, GIFs, videos, or your personal narrative to make your project relatable.
-  - See [The Atom project](https://github.com/atom/atom) for example.
+- يجب أن يكون أول مستند في مشروعك ملف موجز للمشروع، والذي في مستودع GitHub سيكون ملف [README.md](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
+- سيوفر هذا معلومات أساسية عن مشروعك حتى يتمكن الناس من تقييم لماذا سيكون مشروعك مثيرا للاهتمام بالنسبة لهم.
+  - إليك [قالب](https://github.com/PurpleBooth/a-good-readme-template) من قبل مستخدم GitHub [أرجواني](https://github.com/PurpleBooth).
+- في هذا الملف، قم بتضمين رؤية مشروعك وأهدافه، لماذا المشروع مفيد، ما هي المعالم الممكنة في المشروع، كيف يمكن أن يبدأ المساهم أو المستخدم، من الذي يمكنه التواصل معه للمساعدة، وما هو مفقود حالياً في المشروع من حيث أصحاب المصلحة أو المهارات أو النطاق.
+- يمكنك استخدام الرموز التعبيرية، GIF، مقاطع الفيديو، أو سردك الشخصي لجعل مشروعك قابل للعلاق.
+  - انظر على سبيل المثال [مشروع Atom](https://github.com/atom/atom).
 
-(cl-new-community-guide-checklist-code-conduct)=
-### 3. Select a Code of Conduct:
+(دليل مجتمعي جديد - مدونات قواعد السلوك القائمة المرجعية)
+### 3. اختر مدونة سلوك:
 
-- Add an Open Source Project [Codes of Conduct](https://opensourceconduct.com/) to your project.
-- This document should not be used as a token, it is very important to put intentional effort into it.
-- When using GitHub, you can add a “CODE_OF_CONDUCT.md” file on your GitHub repository.
-- List the expected and unacceptable behaviors, describe the reporting and enforcement process, explicitly define the scope, and use an inclusive tone  (see [GitHub instructions here](https://help.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)).
-- Whenever you update your code of conduct, invite comments from your members to ensure that their concerns are addressed.
-  - This can be done on [GitHub issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues), or [Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
+- إضافة مشروع مفتوح المصدر [رموز السلوك](https://opensourceconduct.com/) إلى مشروعك.
+- وينبغي ألا تستخدم هذه الوثيقة كرمز، ومن المهم جدا أن نبذل جهدا متعمدا فيها.
+- عند استخدام GitHub، يمكنك إضافة ملف "CODE_OF_CONDUCT.md" في مستودع GitHub الخاص بك.
+- قائمة بالسلوكيات المتوقعة وغير المقبولة، وصف عملية الإبلاغ والإنفاذ. تعريف النطاق صراحة، واستخدام نغمة شاملة (انظر [تعليمات GitHub هنا](https://help.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)).
+- كلما قمت بتحديث مدونة قواعد السلوك الخاصة بك، اطلب تعليقات من أعضائك لضمان معالجة شواغلهم.
+  - يمكن القيام بذلك في [مشكلات GitHub](https://help.github.com/en/github/managing-your-work-on-github/about-issues)، أو [طلبات السحب](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
-(cl-new-community-contrib-guidelines)=
-### 4. Provide Contribution Guidelines and Interaction Pathways:
+(مبادئ توجيهية مجتمعية جديدة)
+### 4. توفير المبادئ التوجيهية للمساهمات ومسارات التفاعل:
 
-- A thoughtful guideline helps people decide which pathway they can choose to contribute to your project, or if they want to be in your community at all.
-- Make sure that your community interactions and different pathways to contribute are open, inclusive, and clearly stated.
-  - If people can’t figure out how to contribute they will drop off without helping.
-- Value different types of contributions - coding projects are not only about code, therefore list documentation and other management skills as well.
-- You can use the {ref}`Persona Creation Tool<pd-persona-creation>` or the [Personas and Pathways exercise](https://mozillascience.github.io/working-open-workshop/personas_pathways/) to brainstorm who could be your possible community members.
-- Here is a [template of community guideline](https://gist.github.com/PurpleBooth/b24679402957c63ec426) provided by the GitHub user [PurpleBooth](https://gist.github.com/PurpleBooth).
-  - See [_The Turing Way_'s contributing file](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) for reference.
+- مبدأ توجيهي مدروس يساعد الناس على تحديد المسار الذي يمكنهم اختياره للمساهمة في مشروعك، أو إذا كانوا يريدون أن يكونوا في مجتمعك على الإطلاق.
+- تأكد من أن تفاعلات مجتمعك والمسارات المختلفة للمساهمة مفتوحة وشاملة ومحددة بوضوح.
+  - إذا لم يتمكن الناس من معرفة كيفية المساهمة سوف يسقطون دون مساعدة.
+- قيمة أنواع مختلفة من المساهمات - مشاريع الترميز ليست فقط عن الرموز، ومن ثم تدرج الوثائق ومهارات الإدارة الأخرى كذلك.
+- يمكنك استخدام {ref}`أداة إنشاء شخصية<pd-persona-creation>` أو [الأشخاص والمسارات](https://mozillascience.github.io/working-open-workshop/personas_pathways/) للعصف الذهني الذي يمكن أن يكون أعضاء مجتمعك المحتملين.
+- إليك [قالب إرشادات المجتمع](https://gist.github.com/PurpleBooth/b24679402957c63ec426) الذي يقدمه مستخدم GitHub [PurpleBooth](https://gist.github.com/PurpleBooth).
+  - انظر [_The Turing Way_هو ملف المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) للرجوع إليه.
 
-(cl-new-community-leadership)=
-### 5. Create a Basic Management/Leadership Structure:
+(قيادة مجتمعية جديدة)=
+### 5. إنشاء هيكل إداري/قيادي أساسي:
 
-- A leadership structure in an open project should aim to empower others and develop agency and accountability in your community.
-- You can start by listing different tasks within your project and inviting your members to lead those tasks.
-- Provide appropriate incentives and acknowledgment for the contributions made by your community members.
-- Create opportunities for members to share some leadership responsibilities with you in the project.
-- When inviting suggestions and ideas from the community, provide the first set of plans where your community can develop from.
-- See this document from [Open Source Guides](https://opensource.guide/leadership-and-governance/) for reference.
+- وينبغي أن يهدف الهيكل القيادي في مشروع مفتوح إلى تمكين الآخرين وتطوير الوكالة والمساءلة في مجتمعكم.
+- يمكنك البدء بإدراج مهام مختلفة في مشروعك ودعوة أعضاءك لقيادة هذه المهام.
+- تقديم الحوافز المناسبة والاعتراف بالمساهمات التي يقدمها أعضاء مجتمعكم.
+- خلق الفرص للأعضاء لتقاسم بعض المسؤوليات القيادية معكم في المشروع.
+- عند دعوة الاقتراحات والأفكار من المجتمع، قم بتوفير المجموعة الأولى من الخطط التي يمكن للمجتمع الخاص بك أن يطور منها.
+- راجع هذا المستند من [أدلة المصدر المفتوح](https://opensource.guide/leadership-and-governance/) للرجع.
 
-(cl-new-community-contact)=
-### 6. Provide Contact Details Wherever Useful:
+(الاتصال المجتمعي الجديد)=
+### 6. توفير تفاصيل الاتصال حيثما كان مفيداً:
 
-- Clarifying responsibilities for different members will allow people to reach out to the right person with any query.
-- Add details of the designated contact persons for technical problems, leadership questions, or any report on the Code of Conduct.
-- This will be particularly useful if something needs immediate resolution.
+- ومن شأن توضيح مسؤوليات مختلف الأعضاء أن يتيح للناس الوصول إلى الشخص المناسب بأي استفسار من جانبهم.
+- إضافة تفاصيل عن الأشخاص الذين تم تعيينهم كجهات اتصال للمشاكل التقنية أو أسئلة القيادة أو أي تقرير عن مدونة قواعد السلوك.
+- وسيكون ذلك مفيدا بشكل خاص إذا كان هناك حاجة إلى حل فوري.
 
-(cl-new-community-approaches)=
-### 7. Identify Failed Approaches, and Stop Them:
+(نُهج مجتمعية جديدة)=
+### 7. تحديد النهج الفاشلة، وإيقاف السمة:
 
-- Development happens in an iterative manner, therefore, revisit your plans and ideas in regular intervals and involve your members in the process.
-- Check if there are parallel developments or multiple approaches that should be merged or changed.
-- Fail fast, fail informatively - recognize what isn’t working for your project and stop it from continuing.
-- Document them and share why you failed and how you change your project or approaches going forward.
-- For Open Research communities you can maintain transparency when discussing failures and successes but refrain from singling out or blaming others.
-- This iterative approach comes from Agile Practices, see these short posts for reference:
-  - [The agile concept fail fast gets bad press but is misunderstood](https://www.information-age.com/agile-concept-fail-fast-gets-bad-press-misunderstood-123460434/)
-  - [The Beginner’s Guide To Scrum And Agile Project Management](https://blog.trello.com/beginners-guide-scrum-and-agile-project-management)
+- يحدث التطوير بطريقة متكررة، لذلك يعيد النظر في خططكم وأفكاركم على فترات منتظمة ويشرك أعضاءكم في العملية.
+- تحقق مما إذا كانت هناك تطورات موازية أو نُهج متعددة ينبغي دمجها أو تغييرها.
+- فشل سريع ، فشل بشكل غير رسمي - تعرف على ما لا يعمل لمشروعك ووقفه عن المتابعة.
+- قم بتوثيقها ومشاركة سبب فشلها وكيفية تغيير مشروعك أو النهج الخاصة بك للمضي قدما.
+- بالنسبة لمجتمعات البحث المفتوح، يمكنك الحفاظ على الشفافية عند مناقشة الفشل والنجاح، ولكن مع الامتناع عن إفراد الآخرين أو إلقاء اللوم عليهم.
+- ويأتي هذا النهج المتكرر من ممارسات آجيل، انظر هذه الوظائف القصيرة للرجوع إليها:
+  - [الفشل السريع للمفهوم النبيذ يحصل على ضغطة سيئة ولكن يساء فهمها](https://www.information-age.com/agile-concept-fail-fast-gets-bad-press-misunderstood-123460434/)
+  - [دليل المبتدئ لإدارة مشروع Scrum and Agile](https://blog.trello.com/beginners-guide-scrum-and-agile-project-management)
 
-(cl-new-community-documentation)=
-### 8. Have Documentation and Dissemination Plans for Your Project:
+(التوثيق المجتمعي الجديد)=
+### 8. لديك خطط التوثيق والنشر لمشروعك:
 
-- With new members joining your project, they must be able to find the information they need without asking you.
-- Investing in documentation plans will free you from many communication-related challenges by sharing general information regarding past decisions or the decision making process your project uses.
-- A good place to store the documentation is [wiki](https://en.wikipedia.org/wiki/Wiki) or similar platforms (like GitHub) where information can be shared transparently and updated by your community members democratically.
-- To disseminate outputs of your project, you should use persistent identifiers that can be shared and cited, for example, [digital object identifier (DOI)](https://www.doi.org/).
-  - [Figshare](https://figshare.com/) and [Zenodo](http://zenodo.org) are good examples of platforms that can provide you with DOI for all your shareable data.
+- مع انضمام الأعضاء الجدد إلى مشروعك، يجب أن يكونوا قادرين على العثور على المعلومات التي يحتاجونها دون أن يطلبوا منك.
+- الاستثمار في خطط التوثيق سوف يخفيك من العديد من التحديات المتعلقة بالتواصل من خلال مشاركة المعلومات العامة المتعلقة بالقرارات السابقة أو عملية صنع القرار التي تستخدمها مشروعك.
+- مكان جيد لتخزين الوثائق هو [ويكي](https://en.wikipedia.org/wiki/Wiki) أو منصات مشابهة (مثل GitHub) حيث يمكن مشاركة المعلومات بشفافية وتحديثها من قبل أعضاء مجتمعك بطريقة ديمقراطية.
+- لنشر مخرجات مشروعك، يجب عليك استخدام معرفات ثابتة يمكن تقاسمها والاستشهاد بها، على سبيل المثال، [معرف الكائن الرقمي (DOI)](https://www.doi.org/).
+  - [الرقم](https://figshare.com/) و [زينودو](http://zenodo.org) هما مثالان جيدان على المنصات التي يمكن أن توفر لك DOI لجميع بياناتك القابلة للمشاركة.
 
-Two more points are crucial for ensuring the effectiveness of a collaborative project: addressing technical issues and valuing the importance of diversity in team building.
+وهناك نقطتان أخريان تكتسيان أهمية حاسمة لضمان فعالية مشروع تعاوني هما: معالجة المسائل التقنية وتقدير أهمية التنوع في بناء الأفرقة.
 
-We have explained them in the next subchapters on {ref}`Addressing Technical Issues<cm-new-community-techissue>` and {ref}`Valuing Diversity and Differences<cl-new-community-differences>`.
+لقد شرحنا ذلك في الفصلين الفرعيين التاليين حول {ref}`معالجة المسائل التقنية<cm-new-community-techissue>` و {ref}`تقييم التنوع والاختلاف<cl-new-community-differences>`.

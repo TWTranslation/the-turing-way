@@ -1,34 +1,34 @@
-(rr-code-quality)=
-# Code Quality
+(rr-código-calidad)=
+# Calidad del código
 
-| Prerequisite                                                                                  | Importance |
-| --------------------------------------------------------------------------------------------- | ---------- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Helpful    |
+| Prerrequisito                                                                                     | Importancia |
+| ------------------------------------------------------------------------------------------------- | ----------- |
+| [Experiencia con la línea de comandos](https://programminghistorian.org/en/lessons/intro-to-bash) | Útil        |
 
 ## Summary
 
-There are several ways to improve software quality that require relatively little effort. By following a coding style, code will be easier for yourself and others to understand and therefore it will contain fewer bugs. Tools for static code analysis can report bugs as well as style issues without even running the code.
+Hay varias maneras de mejorar la calidad del software que requieren relativamente poco esfuerzo. Siguiendo un estilo de codificación, el código será más fácil de entender para ti y para otros y, por lo tanto, contendrá menos errores. Las herramientas para el análisis de código estático pueden reportar errores así como problemas de estilo sin siquiera ejecutar el código.
 
-## Static code analysis
+## Análisis de código estático
 
-Static code analysis is a method that examines code and detects software vulnerabilities before your code is executed or the project is built and deployed. This analysis is capable of identifying quality issues, including security weaknesses and errors. In addition to finding bugs, many of these tools can also help maintain a consistent coding style.
+El análisis de código estático es un método que examina código y detecta vulnerabilidades de software antes de que se ejecute el código o se construya y ejecute el proyecto. Este análisis es capaz de identificar problemas de calidad, incluyendo debilidades de seguridad y errores. Además de encontrar errores, muchas de estas herramientas también pueden ayudar a mantener un estilo de codificación consistente.
 
-### Advantages of Static code analysis
+### Ventajas del análisis de código estático
 
-- Write high-quality code: Early detection of possible programming errors help developers to know where they went wrong.
+- Escribe un código de alta calidad: La detección temprana de posibles errores de programación ayuda a los desarrolladores a saber dónde han ido mal.
 
-- Achieve regulatory compliance: Achieving software compliance is crucial for the stability and security of products. With this, developers can comprehensively test their code in a non-runtime environment, ensuring all code standards are met and enterprise security is achieved.
+- Alcanzar la conformidad reglamentaria: Conseguir el cumplimiento de software es crucial para la estabilidad y seguridad de los productos. Con esto, los desarrolladores pueden probar de forma exhaustiva su código en un entorno no ejecutable, asegurándose de que todos los estándares de código se cumplen y de que se alcanza la seguridad empresarial.
 
-- Accelerate software development life-cycles: Static code analysis ensures high-quality code reaches testers in less time. This means that even testers take much less time to test the product, thus accelerating software development life-cycles.
+- Acelerar ciclos de vida de desarrollo de software: El análisis de código estático asegura que el código de alta calidad llegue a los testers en menos tiempo. Esto significa que incluso los probadores tardan mucho menos tiempo en probar el producto, acelerando así los ciclos de vida del desarrollo de software.
 
-Some of the most widely used `linters` are mentioned in the below table:
+Algunos de los `linters` más utilizados se mencionan en la tabla de abajo:
 
-| Language   | Static code analysis tool                                                                                                    |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| C/C++      | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                                   |
-| Python     | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                                  |
-| Javascript | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                                  |
-| Java       | [Checkstyle](https://checkstyle.sourceforge.io/), [FindBugs](http://findbugs.sourceforge.net), [PMD](https://pmd.github.io/) |
-| Perl       | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                                |
-| R          | [lintr](https://github.com/jimhester/lintr)                                                                                  |
-| Shell/Bash | [shellcheck](https://www.shellcheck.net)                                                                                     |
+| Idioma        | Herramienta de análisis de código estático                                                                                          |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| C/C++         | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                                          |
+| Python        | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                                         |
+| Javascript    | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                                         |
+| Java          | [Estilo de control](https://checkstyle.sourceforge.io/), [FindBugs](http://findbugs.sourceforge.net), [PMD](https://pmd.github.io/) |
+| Perl          | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                                       |
+| R             | [lintr](https://github.com/jimhester/lintr)                                                                                         |
+| Congelar/Bash | [shellcheck](https://www.shellcheck.net)                                                                                            |

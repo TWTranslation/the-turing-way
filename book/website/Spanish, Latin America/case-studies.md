@@ -1,14 +1,14 @@
-(rr-case-studies)=
-# Case Studies: Reproducible Research
+(rr-estudios-casos)=
+# Estudios de Caso: Investigación Reproducible
 
-## Prerequisites / recommended skill level
+## Prerrequisitos / nivel de habilidad recomendado
 
-This chapter assumes familiarity with several topics covered in this {ref}`rr`. Since not all examples will demonstrate the use of the same combinations of methods covered in this guide, the prerequisite and skill level will vary across the case studies. Therefore, we recommend the authors to indicate those skills for each case study separately.
+Este capítulo asume familiaridad con varios temas tratados en este {ref}`rr`. Dado que no todos los ejemplos demostrarán el uso de las mismas combinaciones de métodos cubiertos en esta guía, el prerrequisito y el nivel de aptitudes variarán según los estudios de caso. Por lo tanto, recomendamos a los autores que indiquen esas habilidades para cada estudio de caso por separado.
 
 ## Summary
 
-In this chapter, a selection of case studies is presented that can be used to see how reproducible research methods are used in practice and applied across fields. If you think that you might have an example to contribute yourself, feel free to open an issue at [here](https://github.com/alan-turing-institute/the-turing-way/issues).
+En este capítulo, se presenta una selección de estudios de caso que pueden utilizarse para ver cómo se utilizan métodos de investigación reproducibles en la práctica y se aplican en todos los campos. Si crees que puedes tener un ejemplo para contribuir a ti mismo, siéntete libre de abrir un problema en [aquí](https://github.com/alan-turing-institute/the-turing-way/issues).
 
-## How this will help you/ why this is useful
+## Cómo esto te ayudará / por qué esto es útil
 
-Learning by example can be an effective way to learn new concepts. Maybe you can start your personal project by adapting one of the examples to your needs?
+Aprender por ejemplo puede ser una manera eficaz de aprender nuevos conceptos. ¿Tal vez pueda iniciar su proyecto personal adaptando uno de los ejemplos a sus necesidades?

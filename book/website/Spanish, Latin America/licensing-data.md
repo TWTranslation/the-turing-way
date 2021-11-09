@@ -1,72 +1,72 @@
-(rr-licensing-data)=
-# Data Licenses
+(rr-licencia-datos)=
+# Licencias de datos
 
-Like a software license, a data license governs what someone else can do with data that you create or own and that you make accessible to others through, for example, a data repository. Data licenses vary based on different criteria, such as:
-* Attribution to original owner
-* Permission to redistribute or modify original
-* Inclusion of the same license with derivatives or redistributions
+Como una licencia de software, una licencia de datos regula lo que otra persona puede hacer con los datos que usted crea o posee y que hace accesible a otros a través de la misma, por ejemplo, un repositorio de datos. Las licencias de datos varían en función de diferentes criterios, tales como:
+* Atribución al propietario original
+* Permiso para redistribuir o modificar el original
+* Incluir la misma licencia con derivados o redistribuciones
 
-As a result, accessibility to your data is affected by the data license you choose.
+Como resultado, la accesibilidad a tus datos se ve afectada por la licencia de datos que elijas.
 
 (rr-licensing-data-cc)=
-## Creative Commons Licenses
+## Licencias Creative Commons
 
-Creative Commons or CC provides a number of licenses that can be used with a wide variety of creations that might otherwise fall under copyright restrictions, including music, art, books and photographs. Although not tailored for data, CC licenses can be used as data licenses because they are easy to understand. Its website includes a [summary page](https://creativecommons.org/about/cclicenses/){cite:ps}`creativecommons2020licenses` outlining all the available licenses, explained with simple visual symbols.
+Creative Commons o CC proporciona una serie de licencias que pueden ser usadas con una amplia variedad de creaciones que de otro modo podrían estar sujetas a restricciones de copyright, incluyendo música, arte, libros y fotografías. Aunque no está diseñado para datos, las licencias CC se pueden utilizar como licencias de datos porque son fáciles de entender. Su sitio web incluye una [página de resumen](https://creativecommons.org/about/cclicenses/){cite:ps}`creativecommons2020licens` describiendo todas las licencias disponibles, explicadas con símbolos visuales simples.
 
 (rr-licensing-data-cc-permissions)=
-### Permission Levels
+### Niveles de permisos
 
-The permission level provided by a Creative Commons data license can be understood from its name, which is a combination of two-letter "permission marks". The only exception to this naming scheme is CC0, which will be introduced in the next section.
+El nivel de permisos proporcionado por una licencia de datos de Creative Commons puede entenderse por su nombre, que es una combinación de dos letras "marcas de permisos". La única excepción a este esquema de nombres es CC0, que se introducirá en la siguiente sección.
 
-| **Permission Mark** | **What can I do with the data?** |
-| ------------------- | -------------------------------- |
-|                     |                                  |
- BY | Creator must be credited SA | Derivatives or redistributions must have identical license NC | Only non-commerical uses are allowed ND | No derivatives are allowed
+| **Marca de permiso** | **¿Qué puedo hacer con los datos?** |
+| -------------------- | ----------------------------------- |
+|                      |                                     |
+ BY | El creador debe ser acreditado SA | Los derivados o redistribuciones deben tener una licencia idéntica NC | Sólo los usos no comerciales están permitidos ND | No se permiten derivados
 
 
-For example, the CC BY-ND license specifies that users must credit the creator of the data and cannot create any derivatives.
+Por ejemplo, la licencia CC BY-ND especifica que los usuarios deben acreditar al creador de los datos y no pueden crear ningún derivado.
 
 (rr-licensing-data-cc-cc0)=
-### Dedicating Your Work to the Public with CC0
+### Dedicar tu trabajo al público con CC0
 
-CC0 serves as a public dedication mechanism, where you relinquish all copyrights to your data. This means that anyone can modify, redistribute or build on your work. Further, by using CC0, you forfeit the right to attribution. Instead, you have to rely on norms such as good citation practices in academic communities to be recognized as the creator. Several organizations, such as museums, governmental bodies and scientific publishers, have chosen CC0 for access to at least part of their data. In many instances, data repositories maintained by universities recommend CC0 as the default option, such as the [4TU.Centre for Research Data](https://researchdata.4tu.nl/en/use-4turesearchdata/archive-research-data/upload-your-data-in-our-data-archive/licencing/).
+CC0 sirve como mecanismo de dedicación pública, en el que renuncia a todos los derechos de autor de sus datos. Esto significa que cualquiera puede modificar, redistribuir o construir a partir de su trabajo. Además, al usar CC0, se pierde el derecho a la atribución. En cambio, hay que confiar en normas tales como buenas prácticas de citación en comunidades académicas para ser reconocido como el creador. Varias organizaciones, como museos, organismos gubernamentales y editores científicos, han elegido C0 para acceder al menos a una parte de sus datos. En muchos casos, los repositorios de datos mantenidos por las universidades recomiendan CC0 como opción predeterminada, como el [4TU.Centre for Research Data](https://researchdata.4tu.nl/en/use-4turesearchdata/archive-research-data/upload-your-data-in-our-data-archive/licencing/).
 
-(rr-licensing-data-odc)=
-## Open Data Commons
+(rr-licencia-odc)=
+## Abrir Commons de Datos
 
-Open Data Commons provides three licenses that can be applied specifically to data. The [webpages](https://opendatacommons.org/licenses/index.html) {cite:ps}`odk2020odc` of each of these licenses include human-readable summaries, with the ramifications of the legalese explained in a concise format.
+Open Data Commons proporciona tres licencias que se pueden aplicar específicamente a los datos. Las [páginas web](https://opendatacommons.org/licenses/index.html) {cite:ps}`odk20odc` de cada una de estas licencias incluyen resúmenes legibles, con las ramificaciones de los legaleses explicadas en un formato conciso.
 
-(rr-licensing-data-odc-pddl)=
-### The Public Domain Dedication and License or PDDL
+(rr-licencia-data-odc-pddl)=
+### Dedicación de dominio público y licencia o PDDL
 
-The PDDL is analogous to CC0, where you waive all your rights to the data you are putting into the public domain. It comes with a [set of recommended community norms](https://opendatacommons.org/licenses/pddl/norms.html), which are not mandatory to include and do not form a legal contract but can be useful to have as a guide to encourage fair, open sharing of data. It is also possible to put together a customized set of norms that serve your data-sharing community better.
+La PDDL es análoga a CC0, donde renuncia a todos sus derechos a los datos que pone en el dominio público. Viene con un [conjunto de normas comunitarias recomendadas](https://opendatacommons.org/licenses/pddl/norms.html), los cuales no son obligatorios para incluir y no forman un contrato legal pero pueden ser útiles para tener como guía para fomentar la equidad, compartir datos abiertos. También es posible crear un conjunto de normas personalizadas que sirvan mejor a su comunidad de intercambio de datos.
 
-(rr-licensing-data-odc-odc-by)=
-### The Attribution or ODC-BY License
+(rr-licencia-data-odc-odc-por)=
+### La Atribución o Licencia ODC-BY
 
-This license protects your attribution rights as a data owner or creator, just like the **BY** permission mark of CC licenses. Any use or distribution of your database must also include information on the license used with the original.
+Esta licencia protege sus derechos de atribución como propietario o creador de datos, al igual que la marca de permisos **POR** de las licencias CC. Cualquier uso o distribución de su base de datos también debe incluir información sobre la licencia utilizada con el original.
 
-(rr-licensing-data-odc-odbl)=
-### The Open Database License or ODbL
+(rr-licencia-data-odc-odbl)=
+### La licencia Open Database u ODbL
 
-The ODbL adds two more restrictions to the ODC-BY license. The first is that any public uses of your data must be shared with the same license, similar to the CC **SA** permission mark. The second is that if any version of your data is redistributed in a 'closed' format (for example, with Technological Protection Measures), it is mandatory for this redistribution to also be available in a version that is free of such closure measures.
+El ODbL añade dos restricciones más a la licencia ODC-BY. La primera es que cualquier uso público de sus datos debe ser compartido con la misma licencia, similar a la marca de permisos CC **SA**. La segunda es que si alguna versión de sus datos se redistribuye en un formato "cerrado" (por ejemplo, con medidas de protección tecnológica), es obligatorio que esta redistribución también esté disponible en una versión libre de tales medidas de cierre.
 
-(rr-licensing-data-differences)=
-## A note on the differences between CC and ODC Licenses
+(rr-licencia-diferencias)=
+## Una nota sobre las diferencias entre las licencias CC y ODC
 
-Although it can seem like the licensing options offered by Creative Commons and Open Data Commons are exactly the same, there are some important differences.
+Aunque puede parecer que las opciones de licencias ofrecidas por Creative Commons y Open Data Commons son exactamente las mismas, hay algunas diferencias importantes.
 
-One difference is the scope of rights that are covered by the license, which is nicely explained [here](https://wiki.creativecommons.org/wiki/Data#What_is_the_difference_between_the_Open_Data_Commons_licenses_and_the_CC_4.0_licenses.3F). The ODC licenses were made specifically to be applied to data, and typically cover only database rights. On the other hand, the CC licenses are more general-purpose and can be applied to other materials. CC licenses also cover copyrights and other neighbouring rights.
+Una diferencia es el alcance de los derechos que están cubiertos por la licencia, que está bien explicada [aquí](https://wiki.creativecommons.org/wiki/Data#What_is_the_difference_between_the_Open_Data_Commons_licenses_and_the_CC_4.0_licenses.3F). Las licencias del ODC se hicieron específicamente para ser aplicadas a los datos, y normalmente sólo cubren los derechos de base de datos. Por otra parte, las licencias CC tienen un propósito más general y pueden aplicarse a otros materiales. Las licencias CC también cubren los derechos de autor y otros derechos vecinos.
 
-Another difference is the availability of a standardised Community Norms document with the PDDL. The lack of such a document with CC0 means that you have to rely on community norms, which may often be unspoken or unwritten and can vary from community to community, to ensure fair attribution. A comparison between the PDDL and CC0 is provided [here](https://opendatacommons.org/faq.1.html).
+Otra diferencia es la disponibilidad de un documento normalizado de las Normas Comunitarias con el PDDL. La falta de tal documento con CC0 significa que tienes que confiar en las normas comunitarias, que a menudo pueden ser tácitas o no escritas y pueden variar de comunidad a comunidad, para asegurar una atribución justa. Se proporciona una comparación entre el PDDL y el CC0 [aquí](https://opendatacommons.org/faq.1.html).
 
-(rr-licensing-data-options)=
-## Other Licensing Options
+(rr-licencia-opciones-datos)=
+## Otras opciones de licencia
 
-It is also possible to choose other data licenses that may have been developed with a specific use case or community in mind or that are not in widespread global use. These include licenses that were developed by national governments, such as the [Norwegian License for Open Government Data](https://data.norge.no/nlod/en/) {cite:ps}`nlod2020governmentdata`. Often, such licenses are the recommended data licensing option within the corresponding country, especially for data created or owned by their public bodies. Another example is the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) or OGL, which was developed by The National Archives, UK.
+También es posible elegir otras licencias de datos que hayan sido desarrolladas teniendo en cuenta un caso de uso específico o una comunidad o que no estén en uso global generalizado. Estas incluyen licencias que fueron desarrolladas por gobiernos nacionales, tales como la [Licencia Norwegian para Datos de Gobierno Abierto](https://data.norge.no/nlod/en/) {cite:ps}`(d2020governmentdata`). A menudo, dichas licencias son la opción recomendada de licencia de datos dentro del país correspondiente, especialmente para los datos creados o propiedad de sus organismos públicos. Otro ejemplo es la [Licencia de Gobierno Abierto](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) u OGL, que fue desarrollada por The National Archives, Reino Unido.
 
-The [Data Curation Center (DCC) guide](https://www.dcc.ac.uk/guidance/how-guides/license-research-data) {cite:ps}`ball2011license` on how to license research data expatiates on the licenses discussed in this chapter, and gives more information about [Prepared Licenses](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-6000), [Bespoke Licenses](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-7000), [Multiple Licensing](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-13000) and [Mechanisms for Licensing Data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-14000).
+La guía de [Data Curation Center (DCC)](https://www.dcc.ac.uk/guidance/how-guides/license-research-data) {cite:ps}`ball2011license` sobre cómo licenciar datos de investigación expatiados en las licencias que se discuten en este capítulo, y proporciona más información sobre [Licencias Preparadas](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-6000), [Licencias Bespoke](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-7000), [Licencia Múltiple](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-13000) y [Mecanismo para la obtención de licencias de datos](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-14000).
 
-If you would like to read more about the challenges and finer points of licensing, [this article](https://research.okfn.org/avoiding-data-use-silos/) is a great resource to get you started.
+Si desea leer más sobre los desafíos y los mejores puntos de licencia, [este articulo](https://research.okfn.org/avoiding-data-use-silos/) es un gran recurso para empezar.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Etiquetas de capítulo**: Este capítulo está supervisado para el `Grupo de estudio de datos de Turing` (`turing-dsg`).*

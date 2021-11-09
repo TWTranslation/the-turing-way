@@ -1,64 +1,64 @@
 (cm-blogs)=
-# Blogs for Research Communication
+# 研究通讯博客
 
-A blog is a website that contains informal articles, usually with a central theme. This could be an academic topic such as open science or be used to report the progress of a research project. Blog posts are the articles on the website and they are typically displayed in reverse chronological order so that the most recent post appears first at the top of the web page.
+博客是一个包含非正式文章的网站，通常是一个中心主题。 这可以是公开科学等学术课题，也可以用来报告研究项目的进展情况。 博客文章是网站上的文章，它们通常按倒序显示，因此最近的文章首先出现在网页顶端。
 
-Blog posts are short, informal pieces of writing. They are meant to be written regularly and can be used to build momentum on a particular issue, event or project. In this way, blog posts suit research projects, particularly open projects and communities, because there can be frequent updates of activities and findings to bring greater attention and therefore transparency to your work.
+博客文章简短，非正式撰写。 它们意在定期撰写，并可用来在某一特定问题、事件或项目上形成势头。 这样，博客文章适合研究项目，特别是开放项目和社区。 因为可以经常更新活动和调查结果，以引起更多的注意，从而使你的工作更加透明。
 
-Starting a blog does take some investment as a web platform needs to be built and the blog needs to be frequently updated with new posts. It is therefore best to share the load of this work with your team in some way or plan to get people from outside of your immediate team to write guest posts.
+启动博客确实需要一些投资，因为网页平台需要构建，博客需要经常更新新帖子。 因此，最好以某种方式与您的团队分享这项工作的负荷，或计划让您的团队之外的人撰写来访帖子。
 
 (cm-wa-comms-blogs-start)=
-## How to Start a Blog
+## 如何开始博客
 
-### Themes and Audience
+### 主题和听众活动
 
-The first decision to make is to choose the theme and the audience that you want to target. This will determine the readability level and overall style of your blog.
+第一个决定是选择你想要针对的主题和听众。 这将决定您博客的可读性水平和整体风格。
 
-* Examples of themes include interesting research topics, a personal diary blog of your research career, a project blog to keep track of all the different aspects of the project or a community blog to help with building and maintaining the community.
-* Most importantly the theme needs to have plenty of content for you to write about, be interesting to you and also engaging for others.
+* 主题包括令人感兴趣的研究主题、你研究生涯的个人日记博客， 一个项目博客来跟踪项目的所有不同方面，或一个社区博客来帮助建设和维护社区。
+* 最重要的是，主题需要有大量内容才能写入，对您感兴趣，并且也能让其他人参与。
 
-## Planning for Maintenance
+## 维修计划
 
-It's always good to make a plan and try to stick to it.
+总是很好地制定计划并试图坚持它。
 
-* You need to plan what posts you could write for your theme for the next six months or a year.
-* This will tell you if your theme is substantial enough for a prolonged period.
-* One post a month is a good starting point as this gives you a manageable amount of time to get material together, progress projects or attend events to write about.
+* 您需要计划在今后六个月或一年里你可以为你的主题撰写什么帖子。
+* 这将告诉您您主题是否足够长时间。
+* 每月一个帖子是一个很好的起点，因为这可以让你有足够的时间一起收集材料。 进度项目或参加活动以写作。
 
-## Building a Website
+## 建立网站
 
-Next, you need to consider where your blog is going to be.
+接下来，你需要考虑你的博客在哪里。
 
-* If you have never made a website before, it is not as hard as it sounds.
-* There are lots of free and easy options for this but it does depend on your computer skills.
-* You could practice writing blog posts and put them on existing blogging sites (your institution may already have one) before building your own.
+* 如果你以前从未创建过一个网站，那么它不如听起来那么困难。
+* 有很多免费和简单的选项，但它确实取决于您的计算机技能。
+* 您可以练习撰写博客文章并将其放在现有的博客网站 (您的机构可能已经有一个)，然后才能建立您自己的博客。
 
-We discuss this in detail in the subchapter {ref}`cm-blogs-webpage`.
+我们在子章节 {ref}`cm-blogs-webpages` 中详细讨论了这个问题。
 
-## Writing Your First Post
+## 撰写您的第一篇文章
 
-Often starting a piece of writing is the hardest part, and writing your first blog may seem even harder. Just try to start writing in any way as a messy first draft can always be edited later.
+开始写一篇书写常常是最难的部分，你的第一个博客可能更难写。 只需尝试以任何方式开始写入，因为消息的第一稿可以随后编辑。
 
-* The first post could be an introduction to yourself, those involved in the blog or a statement of your intentions for the blog.
-* It might also be good to prepare a few posts for the first release to have a greater impact.
+* 第一个帖子可以是你自己的介绍，那些参与博客的人或你对博客的意向的说明。
+* 为第一次发行做好几个职位准备以产生更大的影响也可能是有益的。
 
-## Advertising Your Blog
+## 发布您的博客
 
-Get your blog noticed.
+注意到你的博客。
 
-* It's a good idea to tell your target audience about your blog and again each time you release a post.
-* Use mailing lists from key associations linked to your research.
-* Use social media such as Twitter or Facebook.
-* Ask colleagues to retweet or send out emails to advertise your blog.
+* 告诉目标受众你的博客，每次发布帖子，都是一个好主意。
+* 使用来自与您的研究相关的关键社团的邮件列表。
+* 使用社交媒体，如Twitter或Facebook。
+* 请同事们刷新或发送电子邮件来发布您的博客。
 
-## Analysing the Impact
+## 分析影响
 
-Success is very much in the eye of the beholder but there are many methods or metrics that you can use to track the success of your blog.
+成功在很大程度上取决于持有者的眼界，但是你可以用许多方法或衡量尺度来追踪你博客的成功。
 
-* Google analytics can be used with Google sites or put into Github pages. This gives you information about how many people are accessing your blog and where they are based.
-* There are lots of different metrics that can be tracked. Here is a good post that explains [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* 谷歌分析可以与 Google 网站一起使用，或者放置到 Github 页面。 这给您提供了有多少人正在访问您的博客以及他们在哪里的信息。
+* 有许多不同的衡量标准可以跟踪。 这是一个很好的帖子，解释了 [每个博客需要追踪来测量成功与否](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/)。
 
-## Keep Writing and Planning
+## 保持写作和规划
 
-* Stick to your plan, although be responsive to new opportunities such as guest bloggers.
-* Plan time in your schedule for writing the blog and maintaining the website (see the top tips from our case study).
+* 打勾你的计划，但能够响应新的机会，如客人博客。
+* 在您的计划表中计划写博客和维护网站的时间(参见我们案例研究的顶尖提示)。

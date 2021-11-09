@@ -1,34 +1,34 @@
 (rr-ci-options)=
-# What is continuous integration?
+# ¿Qué es la integración continua?
 
-Continuous integration (CI) is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). CI software is also typically used to identify any conflicts and bugs that are introduced by changes, so they are found and fixed early, minimising the effort required to do so. Running tests regularly also saves humans from needing to do it manually. By making users aware of bugs as early as possible researchers (if the project is a research project) do not waste a lot of time doing work that may need to be thrown away, which may be the case if tests are run infrequently and results are produced using faulty code.
+La integración continua (IC) es la práctica de integrar cambios en un proyecto realizado por individuos en una gran mayoría, versión compartida con frecuencia (normalmente múltiples veces por día). El software de CI también se utiliza normalmente para identificar cualquier conflicto y error que sean introducidos por cambios, para que se encuentren y fijen pronto, minimizando el esfuerzo necesario para hacerlo. Las pruebas en ejecución regularmente también evitan que los humanos tengan que hacerlo manualmente. Al informar a los usuarios de errores tan pronto como sea posible a los investigadores (si el proyecto es un proyecto de investigación) no pierden mucho tiempo haciendo trabajos que tal vez deban ser desechados, que puede ser el caso si las pruebas se ejecutan infrequently y los resultados se producen usando código defectuoso.
 
-This chapter demands a strong understanding of version control. The central concepts you will need to recall are:
+Este capítulo requiere una fuerte comprensión del control de versiones. Los conceptos centrales que tendrá que recordar son:
 
-- How it can be used to enable people collaborating on a single project to combine their work via merging
-- What merge conflicts are and the difficulties they can present
-- What GitHub is and how to use it
+- Cómo se puede utilizar para permitir que las personas que colaboran en un solo proyecto combinen su trabajo a través de la fusión
+- ¿Cuáles son los conflictos de fusión y las dificultades que pueden presentar
+- Qué es GitHub y cómo usarlo
 
-In brief if a group of researchers are collaborating on a project it is good practice for them to use version control to keep track of their changes over time, and combine their work regularly. If they do not combine (integrate) their work regularly then when they come to do so it is likely to be very difficult as different people may have made contradictory changes.
+En resumen, si un grupo de investigadores están colaborando en un proyecto, es una buena práctica utilizar el control de versiones para seguir sus cambios a lo largo del tiempo, y combinar su trabajo con regularidad. Si no combinan (integrar) su trabajo con regularidad, entonces cuando lo hagan es probable que sea muy difícil, ya que diferentes personas pueden haber hecho cambios contradictorios.
 
-Continuous Integration is a software development practice where members of a team integrate their work frequently, rather than doing work in isolation and merging in large changes at infrequent intervals. In CI usually each person integrates at least daily. Each integration is verified by an automated build (usually including tests) to detect integration errors as quickly as possible.
+Integración continua es una práctica de desarrollo de software donde los miembros de un equipo integran su trabajo con frecuencia, en lugar de trabajar de forma aislada y fusionándose en grandes cambios en intervalos inciertos. En IC, por lo general, cada persona se integra al menos diariamente. Cada integración es verificada por una compilación automatizada (generalmente incluyendo pruebas) para detectar errores de integración lo antes posible.
 
-The idea is to minimize the cost of integration by making it an early consideration. Researchers can discover conflicts at the boundaries between new and existing code early, while they are still relatively easy to reconcile. Once the conflict is resolved, work can continue with confidence that the new code honours the requirements of the existing codebase. The goal is to build healthier software by developing and testing in smaller increments. Many teams find that this approach leads to significantly reduced integration problems and allows a team to develop more rapidly.
+La idea es minimizar el costo de la integración haciéndola una consideración temprana. Los investigadores pueden descubrir conflictos en los límites entre código nuevo y existente antes, mientras que todavía son relativamente fáciles de conciliar. Una vez resuelto el conflicto, el trabajo puede continuar con confianza en que el nuevo código cumple los requisitos de la base existente. El objetivo es construir un software más saludable desarrollando y probando en pequeños incrementos. Muchos equipos descubren que este enfoque conduce a problemas de integración significativamente reducidos y permite que un equipo se desarrolle más rápidamente.
 
-Integrating code frequently does not, by itself, offer any guarantees about the quality of the new code or functionality. This leads us to the second aspect of CI. When a developer merges code into the main repository, automated processes build a working version of the project. Afterwards, test suites are run against the new build to check whether any bugs were introduced. If either the build or the test phase fails, the team is alerted so that they can work to fix the problem. It is easier to fix a bug in something you wrote a few minutes ago than something you wrote yesterday (or last week, or last month).
+El código de integración frecuentemente no ofrece, por sí solo, ninguna garantía sobre la calidad del nuevo código o funcionalidad. Esto nos lleva al segundo aspecto del IC. Cuando un desarrollador fusiona código en el repositorio principal, los procesos automatizados construyen una versión funcional del proyecto. Después, las suites de prueba se ejecutan contra la nueva versión para comprobar si se introdujo algún error. Si la construcción o la fase de prueba fallan, el equipo será avisado para que puedan trabajar para solucionar el problema. Es más fácil corregir un error en algo que escribió hace unos minutos que algo que escribió ayer (o la semana pasada, o el último mes).
 
-By ensuring that your code is built and tested regularly CI helps researchers to demonstrate that their code does what it claims to do, and that it does so correctly. Typically, continuous integration servers will also allow build-and-test jobs to run at specific times, so a [cron job](https://en.wikipedia.org/wiki/Cron), nightly-build-and-test, can be done, as well as a build-and-test job run on-demand.
+Al asegurarse de que su código se construye y se prueba regularmente CI ayuda a los investigadores a demostrar que su código hace lo que dice que hace, y que lo hace correctamente. Por lo general, los servidores de integración continua también permitirán ejecutar trabajos de compilación y prueba en momentos específicos. para que se pueda hacer un trabajo cron [](https://en.wikipedia.org/wiki/Cron), nightly-build-and-test, así como un trabajo de construcción y prueba bajo demanda.
 
 
-## What are the options for CI service providers?
+## ¿Cuáles son las opciones para los proveedores de servicios de IC?
 
-There are many CI service providers, such as GitHub Actions and Travis CI. Each of these services has its own advantages and disadvantages. In this section we provide a brief overview with links to examples to help you select the most suitable one for you.
+Hay muchos proveedores de servicios de CI, como GitHub Actions y Travis CI. Cada uno de estos servicios tiene sus propias ventajas y desventajas. En esta sección le ofrecemos un breve resumen con enlaces a ejemplos para ayudarle a seleccionar el más adecuado para usted.
 
- - [GitHub Actions](https://help.github.com/en/actions), for some examples see the [language and framework guides](https://help.github.com/en/actions/language-and-framework-guides) and [this tutorial](https://github.com/NLESC-JCER/ci_for_science#-github-actions).
- - [Circle CI](https://circleci.com/), for some examples see [here](https://circleci.com/docs/2.0/project-walkthrough/) and [here](https://circleci.com/docs/2.0/hello-world/).
- - [GitLab CI](https://docs.gitlab.com/ee/ci/), for some examples the [GitLab CI examples](https://docs.gitlab.com/ee/ci/examples/README.html) and [this tutorial](https://github.com/NLESC-JCER/ci_for_science#-gitlab-ci).
- - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/), for some examples see the [ecosystem support page](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/?view=azure-devops) and [this tutorial](https://github.com/trallard/ci-research).
- - [Jenkins](https://www.jenkins.io/), for some examples the see [this tutorial](https://www.jenkins.io/doc/tutorials/)
- - [Travis CI](https://travis-ci.com/), for some examples the [Travis tutorial](https://docs.travis-ci.com/user/tutorial/).
+ - [Acciones de GitHub](https://help.github.com/en/actions), para algunos ejemplos ver las [guías de idioma y framework](https://help.github.com/en/actions/language-and-framework-guides) y [este tutorial](https://github.com/NLESC-JCER/ci_for_science#-github-actions).
+ - [Círculo CI](https://circleci.com/), para algunos ejemplos ver [aquí](https://circleci.com/docs/2.0/project-walkthrough/) y [aquí](https://circleci.com/docs/2.0/hello-world/).
+ - [GitLab CI](https://docs.gitlab.com/ee/ci/), para algunos ejemplos los [ejemplos de GitLab CI](https://docs.gitlab.com/ee/ci/examples/README.html) y [este tutorial](https://github.com/NLESC-JCER/ci_for_science#-gitlab-ci).
+ - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/), para algunos ejemplos vea la [página de soporte al ecosistema](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/?view=azure-devops) y [este tutorial](https://github.com/trallard/ci-research).
+ - [Jenkins](https://www.jenkins.io/), para algunos ejemplos ver [este tutorial](https://www.jenkins.io/doc/tutorials/)
+ - [Travis CI](https://travis-ci.com/), para algunos ejemplos el [tutorial de Travis](https://docs.travis-ci.com/user/tutorial/).
 
-A more extensive list of CI service providers can be found [here](https://www.software.ac.uk/resources/guides/hosted-continuous-integration).
+Puede encontrar una lista más extensa de proveedores de servicios de CI [aquí](https://www.software.ac.uk/resources/guides/hosted-continuous-integration).

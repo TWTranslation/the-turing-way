@@ -1,42 +1,42 @@
-(er-internal-policy)=
-# Internal Policy Advocacy
+(- السياسة الداخلية)=
+# الدعوة للسياسات الداخلية
 
-Internal policy advocacy is when individuals or groups associated with an organisation campaign for a change in the way that the organisation makes decisions, runs projects, chooses collaborators, develops products, or in other areas. It can be a really powerful tool for change, regardless of whether or not the group of people campaigning are in a union.
+وتكون الدعوة إلى وضع السياسات الداخلية عندما يكون الأفراد أو المجموعات المرتبطة بحملة منظمة ما من أجل تغيير الطريقة التي تتخذ بها المنظمة قراراتها، إدارة المشاريع، واختيار المتعاونين، وتطوير المنتجات، أو في مناطق أخرى. ويمكن أن تكون أداة قوية حقا للتغيير، بغض النظر عما إذا كانت مجموعة الناس الذين يشنون الحملات الانتخابية في اتحاد أم لا.
 
 ```{figure} ../figures/advocacy.jpg
 ---
-name: advocacy
-alt: One person signs a petition held by another person, in front of a group of people marching under a banner reading "Advocacy!"
+الاسم: الدفاع
+البديل: شخص واحد يوقع على التماس يحمله شخص آخر أمام مجموعة من الناس يسيرون تحت لافتة قراءة "الدعوة!"
 ---
-There are different ways to take part in advocacy. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
+هناك طرق مختلفة للمشاركة في الدعوة. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
 
-## How to advocate internally
-A basic set of steps you can take for internal policy advocacy (adapted from [guidelines](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) produced by the NCVO in the UK, used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license):
-1. Define the issue
-    - What is the problem that you are concerned about?
-    - Is it linked to other issues or policies? Tools like [problem trees](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) can be useful to map out what else is contributing to the problem. It might be the case that the policy you are worried about builds on other internal policies or problems. You might want to campaign against those instead.
-    - Can you encapsulate the problem in a short, easy-to-understand message?
-2. Gather evidence
-    - Research the issue you are campaigning about thoroughly
-    - You might want to collect documentary evidence, testimonials, media coverage, academic work, about the issue
-    - Put together a clear, concise argument about the problems and what you think needs to change
-    - Prepare yourself to answer difficult questions about your issue, why it is real and why it is important
-3. Find useful allies
-    - Target people who understand your cause or have a connection to it.
-    - Get in touch with organisations set up to help causes such as yours (ask for advice, access to experts).
-    - Get endorsement from people who hold power in your field, or in other areas
-    - Find ways to involve your colleagues, inside and outside the organisation: for example, signing a petition can be a first step
-4. Know who to lobby
-    - Identify your routes of influence. Who is in a position to make change? How will you reach them?
-    - Think about your own contacts: can you reach people in charge directly, or do you need to go via other people
-    - Don't get disheartened at the first hurdle, lobbying is hard work!
-5. Use a range of tactics
-    - Emails, media coverage and a good website are all useful.
-    - BUT... try a little more creativity - what would make your campaign stand out and get people talking?
-    - Don't forget to assess how you're doing (number of signatures on a petition, number of times the issue is raised at an all-hands meeting
+## كيفية الدعوة داخليا
+مجموعة أساسية من الخطوات التي يمكنك اتخاذها للدعوة الداخلية للسياسة العامة (مكيفة من [المبادئ التوجيهية](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) التي أصدرها المكتب الوطني للضمان الاجتماعي في المملكة المتحدة)، يستخدم تحت [CC BY-NC-SA 4.](https://creativecommons.org/licenses/by-nc-sa/4.0/) ترخيص:
+1. تعريف المشكلة
+    - ما هي المشكلة التي تشعر بالقلق بشأنها؟
+    - هل هو مرتبط بقضايا أو سياسات أخرى؟ أدوات مثل [مشكلات الأشجار](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) يمكن أن تكون مفيدة لتحديد ما يسهم في المشكلة الأخرى. وقد يكون الأمر كذلك هو أن السياسة التي تقلقونها تعتمد على سياسات أو مشاكل داخلية أخرى. قد ترغب في الحملة ضد هؤلاء بدلاً من ذلك.
+    - هل يمكنك تغطية المشكلة في رسالة قصيرة وسهلة الفهم؟
+2. جمع الأدلة
+    - ابحث في المشكلة التي تقوم بحملتها بشكل شامل
+    - قد ترغب في جمع الأدلة الوثائقية، والشهادات، والتغطية الإعلامية، والعمل الأكاديمي، حول هذه المسألة
+    - ضع معا حجة واضحة وموجزة حول المشاكل وما تعتقد أنه يلزم تغييره
+    - أعد نفسك للإجابة على الأسئلة الصعبة حول قضيتك ، لماذا هي حقيقية ولماذا هي مهمة
+3. البحث عن حلفاء مفيدين
+    - استهدف الناس الذين يفهمون قضيتك أو لديهم صلة بها.
+    - قم بالاتصال بالمنظمات التي تم إنشاؤها للمساعدة في القضايا كالقضايا الخاصة بك (اسأل عن المشورة، الوصول إلى الخبراء).
+    - الحصول على التأييد من الأشخاص الذين يملكون السلطة في حقلك، أو في مناطق أخرى
+    - البحث عن طرق لإشراك زملائك، داخل المنظمة وخارجها: على سبيل المثال يمكن أن يكون توقيع الالتماس خطوة أولى
+4. معرفة من تريد الضغط
+    - حدد طرق تأثيرك. من هو في وضع يمكنه من إجراء التغيير؟ كيف ستصل إليهم؟
+    - فكر في جهات الاتصال الخاصة بك: هل يمكنك الوصول إلى الأشخاص المسؤولين مباشرة، أو هل تحتاج إلى الذهاب عبر أشخاص آخرين
+    - لا تشعر بالإحباط إزاء العقبة الأولى، الضغط هو عمل شاق!
+5. استخدام مجموعة من التكتيكات
+    - كما أن رسائل البريد الإلكتروني والتغطية الإعلامية وموقع شبكي جيد كلها مفيدة.
+    - رائع... جرب المزيد من الإبداع - ما الذي يجعل حملتك تتحدث عنه؟
+    - لا تنسى تقييم الطريقة التي تفعل بها (عدد التوقيعات على الالتماس، عدد المرات التي تثار فيها المشكلة في اجتماع لجميع الأيدي
 
-You should also think about the potential risks to you and your colleagues for speaking up. Many people are reluctant to engage in advocacy or lobbying in their workplace, because they risk losing their livelihoods if there is retaliation against them. Union membership can offer some protection against this: campaigning can be done by the union as a collective, rather than by individual workers. Think about other things that might go wrong, or that might dissuade your colleagues from speaking up, and see if you can find a way to mitigate them. 
+كما ينبغي أن تفكروا في المخاطر التي يمكن أن تتعرض لها أنتم وزملاؤكم من أجل التحدث إليكم. ويتردد كثير من الناس في الدعوة أو ممارسة الضغط في مكان عملهم، لأنهم يواجهون خطر فقدان سبل عيشهم إذا كان هناك انتقام منهم. ويمكن أن توفر العضوية في النقابات بعض الحماية من ذلك: فالحملة الانتخابية يمكن أن تقوم بها النقابات بوصفها جماعية، لا أن يقوم بها فرادى العمال. فكروا في أشياء أخرى قد تكون خاطئة، أو قد تثني زملائك عن التحدث معهم، وانظر إذا كنت تستطيع العثور على طريقة للتخفيف من حدتها. 
 
 
 

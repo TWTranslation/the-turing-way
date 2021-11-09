@@ -1,101 +1,101 @@
-# Process of Creating a newsletter
+# عملية إنشاء رسالة إخبارية
 
-This document provides an overview of a process we use in _The Turing Way_ for drafting, reviewing and publishing newsletters. Though written for _The Turing way_, these steps can be adapted for documenting newsletter for any project.
+تقدم هذه الوثيقة لمحة عامة عن العملية التي نستخدمها في _طريق التورين_ لصياغة الرسائل الإخبارية ومراجعتها ونشرها. على الرغم من أن هذه الخطوات مكتوبة ل _طريق الترين_، يمكن تكييفها لتوثيق النشرة الإخبارية لأي مشروع.
 
-We only suggest using these recommendations as guides. These should not be considered as a set of fixed rules or the "only" way one should create newsletters. As individual authors, you should allow your personality to show in your newsletter drafts. After all, these newsletters land in someone's personal mailbox and most likely they know you (or your community).
+ونحن نقترح فقط استخدام هذه التوصيات كدليل. ولا ينبغي اعتبار هذه القواعد بمثابة مجموعة من القواعد الثابتة أو الطريقة "الوحيدة" التي ينبغي للمرء أن ينشئ بها نشرات إخبارية. كمؤلفين فرديين، يجب أن تسمح لشخصيتك بأن تظهر في مسودات النشرة الإخبارية الخاصة بك. في نهاية المطاف، هذه الرسائل الإخبارية تنزل في صندوق بريد شخصي لشخص ما، ومن الأرجح أنهم يعرفون لك (أو مجتمعك).
 
-## Steps for drafting _The Turing Way_ newsletters
+## خطوات لصياغة _طريق الترجح_ النشرات الإخبارية
 
-### Create a GitHub issue to collect items
+### إنشاء مشكلة GitHub لجمع العناصر
 
-Create a new GitHub issue where throughout the month you and other community members can suggest news items as a comment. For example, in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1037), several members could suggest news items to include in the next newsletter, in this case for June 2020. Such GitHub issues can be published in the current newsletter inviting contributions from the readers and community members for the next month.
+إنشاء مشكلة جديدة في GitHub حيث يمكنك أنت وأعضاء المجتمع الآخرين اقتراح عناصر الأخبار كتعليق. على سبيل المثال، في [هذه المشكلة](https://github.com/alan-turing-institute/the-turing-way/issues/1037)، ويمكن أن يقترح عدة أعضاء إدراج مواد إخبارية في الرسالة الإخبارية التالية، في هذه الحالة في حزيران/يونيه 2020. ويمكن نشر إصدارات GitHub هذه في النشرة الإخبارية الحالية التي تدعو إلى تقديم مساهمات من القراء وأعضاء المجتمع في الشهر المقبل.
 
-### Start a draft
+### بدء مسودة
 
-There are several ways to start a draft:
+وهناك عدة طرق لبدء المسودة:
 
-1. Create a new branch of _The Turing Way_ [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/) within the appropriate directory (explained in the next subchapter on {ref}`newsletter's style guide <ch-newsletters-style>`).
+1. إنشاء فرع جديد من _طريق الترقيق_ [مستودع GitHub](https://github.com/alan-turing-institute/the-turing-way/) ضمن الدليل المناسب (الموضح في الفصل الفرعي التالي على {ref}`دليل نمط النشرة الإخبارية <ch-newsletters-style>`).
 
-You can work on this GitHub branch locally or online through a pull request (PR). If working online, please keep the draft mode on for your PR or add "[WIP]" (work in progress) in the title.
+يمكنك العمل على هذا الفرع من GitHub محلياً أو عبر الإنترنت من خلال طلب سحب (PR). إذا كان العمل على الإنترنت، فيرجى إبقاء وضع المسودة مشغلاً للربط الخاص بك أو إضافة "[WIP]" (العمل جاري) في العنوان.
 
-2. Create the first draft on a shared HackMD when working with others to collaboratively write your draft before you transfer them on a GitHub branch.
+2. قم بإنشاء المسودة الأولى على HackMD المشترك عند العمل مع الآخرين لكتابة مسودتك بشكل تعاوني قبل نقلها على فرع GitHub .
 
-Here is an example of HackMD where Malvika currently creates the first draft: https://hackmd.io/@malvikasharan/tw-newsletter.
+وفيما يلي مثال على HackMD حيث يقوم مالفيكا حاليا بإنشاء المشروع الأول: https://hackmd.io/@malvikasharan/tw-newsletter.
 
-### Collect items for the newsletter as bullet points
+### جمع العناصر للنشرة الإخبارية كنقاط رصاصة
 
-Based on what we currently publish, collect information from the listed resources for the topics described below:
+واستنادا إلى ما ننشره حاليا، نجمع معلومات من الموارد المدرجة في القائمة عن المواضيع المبينة أدناه:
 
-1. **Community meetings**: review the [community calendar](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon) for upcoming events such as Collaboration Café, book dash and workshops.
+1. **اجتماعات المجتمع**: مراجعة [تقويم المجتمع](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon) للأحداث القادمة مثل Coation Cafe<unk> , Dash of book and workshops.
 
-2. **News from the community**: check Twitter for updates on the [official account](https://twitter.com/turingway) and the [#TuringWay Hashtag](https://twitter.com/hashtag/TuringWay?src=hashtag_click), see the Github repository for [issues](https://github.com/alan-turing-institute/the-turing-way/issues) for ongoing discussions, recently [merged PRs](https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+is%3Aclosed+sort%3Aupdated-desc) and new chapters. You can also ask in the [Slack channel](https://theturingway.slack.com) if someone would like to add something to the newsletter. In this part, also highlight any important milestones in the project that were either established or achieved over the last month.
+2. **الأخبار من المجتمع**: التحقق من تويتر للحصول على تحديثات على [حساب رسمي](https://twitter.com/turingway) و [#TuringWay Hashtag](https://twitter.com/hashtag/TuringWay?src=hashtag_click), راجع مستودع Github لـ [مشكلات](https://github.com/alan-turing-institute/the-turing-way/issues) للمناقشات الجارية، ومؤخراً [دمج PRs](https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+is%3Aclosed+sort%3Aupdated-desc) وفصول جديدة. يمكنك أيضا أن تسأل في [قناة Slack](https://theturingway.slack.com) إذا كان شخص ما يرغب في إضافة شيء إلى النشرة الإخبارية. وفي هذا الجزء، يسلط الضوء أيضا على أي معالم هامة في المشروع تم إنشاؤها أو إنجازها خلال الشهر الماضي.
 
-4. **Relevant resources for the community**: check Twitter and online posts for any recent publication from the community members, resources for training or skill-building or any other materials like blog posts or articles published in the network that could be useful for others.
+4. **الموارد ذات الصلة للمجتمع**: التحقق من تويتر والمشاركات على الإنترنت لأي منشور حديث من أعضاء المجتمع، موارد للتدريب أو بناء المهارات أو أي مواد أخرى مثل مشاركات المدونة أو المقالات المنشورة في الشبكة والتي يمكن أن تكون مفيدة للآخرين.
 
-5. **Tips & Tricks for new contributors**: this includes any resource in the project that can make new members learn ways to engage, identify paths to get started as contributors and find relatable contents like impact stories of existing members, contributor's profiles or other community-related aspects.
+5. **نصائح & خدع للمساهمين الجدد**: هذا يشمل أي مورد في المشروع الذي يمكن أن يجعل الأعضاء الجدد يتعلمون طرق المشاركة، تحديد المسارات التي يمكن البدء بها كمساهمين والعثور على محتويات قابلة للانتكاس مثل قصص التأثير للأعضاء الحاليين، أو ملامح المساهم أو جوانب أخرى ذات صلة بالمجتمع.
 
-6. **Acknowledgments and celebrations section**: this is the place to give shout outs to our members who have helped the project or others in some ways, celebrate personal milestones and highlight any relevant announcements from the community members. This is also a place to share tweets from the community or mention other online interactions such as posts from recent meetings where someone talked about _The Turing Way_.
+6. **الاقرارات والاحتفالات قسم**: هذا هو المكان لإعطاء الصراحة لأعضائنا الذين ساعدوا المشروع أو آخرين بطرق ما، الاحتفال بالمعالم الشخصية وتسليط الضوء على أي إعلانات ذات صلة من أعضاء المجتمع. هذا أيضا مكان لمشاركة التغريدات من المجتمع أو ذكر تفاعلات أخرى على الإنترنت مثل المشاركات من الاجتماعات الأخيرة حيث تحدث شخص ما عن _طريق التورين_.
 
-The newsletter should focus more on the contributing and new members, and highlight only noteworthy content from _The Turing Way_ core members.
+يجب أن تركز النشرة الإخبارية بشكل أكبر على الأعضاء المساهمين والجدد، وأن تسلط الضوء على المحتوى الجدير بالذكر فقط من الأعضاء الأساسيين _طريق التورين_.
 
-### Collect images associated with the news item
+### جمع الصور المرتبطة ببند الأخبار
 
-Following the recommendations on {ref}`style guide for community<ch-style>` and {ref}`style guide for newsletters<ch-newsletters-style>` for using images, collect a few images (maximum 2 per section). Make sure that these images are available under a free license (like CC-BY), collected with the link of their sources, and named clearly as suggested in the style guide.
+اتبع التوصيات على {ref}`دليل النمط للمجتمع<ch-style>` ودليل نمط {ref}`للنشرات الإخبارية<ch-newsletters-style>` لاستخدام الصور، جمع بعض الصور (بحد أقصى 2 في القسم). تأكد من أن هذه الصور متاحة بموجب ترخيص حر (مثل CC-BY)، تم جمعها مع رابط مصادرها ، وسميها بوضوح كما هو مقترح في دليل الأسلوب.
 
-For the twitter mentions, there is no fixed number of screenshots, but 4-6 tweets look less crowded in the newsletter. They can be edited together in one image (explained in the newsletter's style guide).
+على حد قول تويتر، لا يوجد عدد ثابت من لقطات الشاشة، ولكن 4-6 تغريدات تبدو أقل ازدحاما في النشرة الإخبارية. ويمكن تحريرها معا في صورة واحدة (يرد شرحها في دليل أسلوب الرسالة الإخبارية).
 
-### Write about each news item
+### كتابة حول كل عنصر أخبار
 
-Based on the bullet points collected for each news item, create 1-2 small paragraphs using the recommendations for the language and format described in the next subchapter.
+بناء على نقاط الرصاصة التي تم جمعها لكل بند إخباري، إنشاء فقرات صغيرة 1-2 باستخدام التوصيات المتعلقة باللغة والشكل الموصوفين في الفصل الفرعي التالي.
 
-Provide links when useful, give credits fairly to the community members who might be associated with the news item and end the paragraph with a sentence and link to more information.
+توفير الروابط عندما تكون مفيدة، إعطاء اعتمادات عادلة لأفراد المجتمع الذين قد يكونون مرتبطين ببند الأخبار وإنهاء الفقرة بجملة وربط بالمزيد من المعلومات.
 
-### Proofreading your draft
+### تدقيق المسودة الخاصة بك
 
-Before sharing your draft you should do a proofread for grammar and typo. An online app like [Ginger Grammar Checker](https://www.gingersoftware.com/grammarcheck), [Grammarly](https://app.grammarly.com) free version, [GrammarCheck](https://www.grammarcheck.net/editor/) or [Reverso Speller](https://www.reverso.net/spell-checker/english-spelling-grammar/) can help correct any grammatical and spelling errors.
+قبل مشاركة مسودتك يجب عليك القيام بتدقيق مطبعي النحوي والطباعي. تطبيق على الإنترنت مثل [Ginger Grammarer](https://www.gingersoftware.com/grammarcheck)، [Grammly](https://app.grammarly.com) الإصدار المجاني، [GrammarChec](https://www.grammarcheck.net/editor/) أو [Reverso Speller](https://www.reverso.net/spell-checker/english-spelling-grammar/) يمكن أن يساعد في تصحيح أي أخطاء في النحوى والتهجئة.
 
-You should also double-check to make sure that the links mentioned in the draft are not broken. You can use online tools such as the [W3C link checker](https://validator.w3.org/checklink) or free version of [Dr. Link Check](https://www.drlinkcheck.com/).
+يجب عليك أيضا التحقق مرتين للتأكد من عدم كسر الروابط المذكورة في المشروع. يمكنك استخدام أدوات عبر الإنترنت مثل [مدقق الروابط W3C](https://validator.w3.org/checklink) أو إصدار مجاني من [دكتور لينك تشيك](https://www.drlinkcheck.com/).
 
-If possible, get your draft reviewed by 1-2 members.
+إذا كان ذلك ممكناً، احصل على مسودتك من قبل 1-2 من الأعضاء.
 
-### Updating your draft in the online repository
+### تحديث المسودة الخاصة بك في مستودع الإنترنت
 
-If you have drafted your newsletter in a local branch, before creating a PR, please add all the images mentioned in the newsletter to the right file location: `the-turing-way/communications/newsletters/images`. More details about using images have been discussed in the next subchapter, {ref}`style guide<ch-newsletters-style>`.
+إذا كنت قد صاغت نشرتك الإخبارية في فرع محلي، قبل إنشاء PR، الرجاء إضافة جميع الصور المذكورة في النشرة الإخبارية إلى موقع الملف الصحيح: `على الطريقة/الاتصالات/النشرات الإخبارية/الصور`. تمت مناقشة المزيد من التفاصيل حول استخدام الصور في الفصل الفرعي التالي، {ref}`دليل النمط<ch-newsletters-style>`.
 
-If you are working on a PR on GitHub, upload all the images and check if they are linked properly.
+إذا كنت تعمل على GitHub، قم بتحميل جميع الصور والتحقق مما إذا كانت مرتبطة بشكل صحيح.
 
-If you have created your newsletter draft in a HackMD, then copy-paste the content to create/update your GitHub PR and upload all the linked images.
+إذا قمت بإنشاء مسودة النشرة الإخبارية الخاصة بك في HackMD، ثم نسخ ولصق المحتوى لإنشاء/تحديث GitHub PR الخاص بك وتحميل جميع الصور المرتبطة.
 
-When ready, mark your PR as "Ready for Review" and tag a few contributing members, preferably those who have been mentioned in the draft so that they can review and approve your text.
+عند التأهب، ضع علامة على حسابك كـ "جاهز للمراجعة" ووسم بعض الأعضاء المساهمين، ويفضل أن يكون الأشخاص الذين ذكروا في المشروع حتى يتمكنوا من مراجعة نصكم والموافقة عليه.
 
-### Review process
+### عملية الاستعراض
 
-The reviewers for the newsletter can review the text for language, relevance, typos, accuracy (fact-check), appropriateness of the use of images and the overall tone.
+ويستطيع المستعرضون للرسالة الإخبارية استعراض النص من حيث اللغة والأهمية والطبع والدقة (التحقق من الوقائع) ومدى ملاءمة استخدام الصور والنبرة العامة.
 
-Reviewers can provide constructive feedback on the newsletter draft, add any missing item that they would like to highlight, suggest appropriate changes and approve the PR when ready for the draft to be published.
+يمكن للمراجعين تقديم تعليقات بناءة على مسودة النشرة الإخبارية، إضافة أي بند مفقود يرغبون في إبرازه، اقتراح التغييرات المناسبة والموافقة على الاستعراض الدوري الشامل عندما يكون جاهزاً لنشر المشروع.
 
-After the review process, each reviewer's name can be added under the special mentions section by the author to acknowledge their work.
+وبعد عملية الاستعراض، يمكن للمؤلف أن يضيف اسم كل مستعرض في إطار فرع الإشارات الخاصة للاعتراف بعمله.
 
-### Publication process
+### عملية النشر
 
-We are currently using [TinyLetter](https://tinyletter.com/) to publish our newsletters. TinyLetter is a subsidiary of [MailChimp](https://mailchimp.com/), that offers a simplified interface based free service for setting up an email newsletter and sharing it with subscribers.
+نحن حاليا نستخدم [TinyLetter](https://tinyletter.com/) لنشر نشراتنا الإخبارية. Tinyletter هي فرع لـ [MailChimp](https://mailchimp.com/)، يوفر خدمة مجانية مبسطة على واجهة لإعداد رسالة إخبارية بالبريد الإلكتروني ومشاركتها مع المشتركين.
 
-Here are the steps for publishing the newsletter draft online and send by email to the subscribed members:
+وفيما يلي الخطوات لنشر مسودة النشرة الإخبارية على الإنترنت وإرسالها عبر البريد الإلكتروني إلى الأعضاء المشتركين:
 
-- Convert the Markdown content of the newsletter draft to HTML using [browserling.com](https://www.browserling.com/tools/markdown-to-html) by copy-pasting the Markdown content to the text box in the web application and pressing "Convert to HTML button".
-- If authorised, log in to the TinyLetter account and click the “Write A Newsletter” button.
-- Paste the HTML content of your draft generated by browserling.
-- Make sure that the subject is written in the correct text box.
-- Click “Preview” to see how the rendered version of your message will look like.
-- Send a preview version to your email or _The Turing Way_ email (theturingway@gmail.com) to check if everything looks OK.
-- Once confirmed for its format and content, the newsletter is sent to the registered members by clicking “Send to all”.
-- The [online newsletters](https://tinyletter.com/TuringWay/) are shareable by links and can be read by non-subscribed members as well.
+- تحويل محتوى Markdown من مسودة الرسالة الإخبارية إلى HTML باستخدام المتصفح [. om](https://www.browserling.com/tools/markdown-to-html) عن طريق نسخ ولصق محتوى Markdown إلى مربع النص في تطبيق الويب والضغط على "تحويل إلى زر HTML".
+- إذا كان مسموحاً، قم بتسجيل الدخول إلى حساب Tinyletter وانقر على زر "كتابة النشرة الإخبارية".
+- لصق محتوى HTML للمسودة الخاصة بك التي تم إنشاؤها عن طريق المتصفح.
+- تأكد من أن الموضوع مكتوب في مربع النص الصحيح.
+- انقر فوق "معاينة" لترى كيف سيبدو الإصدار الذي تم تقديمه من رسالتك.
+- إرسال نسخة معاينة إلى بريدك الإلكتروني أو _طريق التوريق_ البريد الإلكتروني (theturingway@gmail.com) للتحقق مما إذا كان كل شيء يبدو على ما يرام.
+- وبمجرد تأكيد شكل الرسالة ومحتواها، ترسل إلى الأعضاء المسجلين بالنقر على ”إرسال إلى الجميع“.
+- [الرسائل الإخبارية عبر الإنترنت](https://tinyletter.com/TuringWay/) قابلة للمشاركة بواسطة الروابط ويمكن قراءتها بواسطة الأعضاء غير المشتركين أيضًا.
 
-*(Learn to make your newsletter [here](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/).)*
+*(تعلم كيف تصنع النشرة الإخبارية [هنا](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/))*
 
- **It's published, now what?**
+ **لقد تم نشره، ماذا؟**
 
-- Update the index table in the [README.md file](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) with the details of the newly published newsletter.
-- Tweet about it from [@turingway](https://twitter.com/turingway).
-- Send a notification on [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) and [Slack](https://theturingway.slack.com) channels.
-- Do a celebratory dance! (This is mandatory! 💃)
+- تحديث جدول الفهرسة في ملف [README.md](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) مع تفاصيل النشرة الإخبارية المنشورة حديثا.
+- تغريدة عنها من [@turingway](https://twitter.com/turingway).
+- إرسال إشعار على قنوات [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) و [Slack](https://theturingway.slack.com).
+- قم برقص احتفالي! (هذا إلزامي! 💃)

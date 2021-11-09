@@ -1,59 +1,59 @@
 (ch)=
-# Community Handbook
+# Manual de la comunidad
 
-***This is a community handbook that discusses aspects of The Turing Way project that one can use for participating in this community.***
+***Este es un manual comunitario que discute los aspectos del proyecto The Turing Way que uno puede usar para participar en esta comunidad.***
 
-_The Turing Way_ is a community-led book project that involves diverse perspectives of researchers, funders, educators, learners and various stakeholders from around the world.
+_The Turing Way_ es un proyecto de libro dirigido por la comunidad que involucra diversas perspectivas de los investigadores, fundadores, educadores, estudiantes y diversas partes interesadas de todo el mundo.
 
-The Community Handbook part of this book aims to provide information about the project, ways of working, and other aspects that can make community participation equitable for our members.
+La parte del Manual de la Comunidad de este libro tiene por objeto proporcionar información sobre el proyecto, maneras de trabajar, y otros aspectos que pueden hacer que la participación comunitaria sea equitativa para nuestros miembros.
 
-We are incredibly grateful to our community members who are the readers, co-authors, contributors, collaborators, maintainers, helper and supporters.
+Estamos muy agradecidos a los miembros de nuestra comunidad que son los lectores, coautores, colaboradores, colaboradores, mantenedores, ayudantes y seguidores.
 
-Thank you for joining the incredible journey of _The Turing Way_!
+¡Gracias por unirte al increíble viaje de _The Turing Way_!
 
 ```{figure} ../figures/community.jpg
 ---
 height: 400px
 name: community
-alt: A garden full of folks working on different parts of the garden. Someone is welcoming others, someone is teaching the basics, someone is writing best practices and someone is helping this community grow.
+alt: Un jardín lleno de gente trabajando en diferentes partes del jardín. Alguien está dando la bienvenida a otros, alguien está enseñando lo básico, alguien está escribiendo las mejores prácticas y alguien está ayudando a esta comunidad a crecer.
 ---
-*The Turing Way* community illustrated as a garden. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+*La comunidad de la Vía Turía* ilustrada como jardín. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## License for The Turing Way book series
+## Licencia para la serie de libros Turing Way
 
-All content in this book series is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) (CC BY 4.0) license.
+Todo el contenido de esta serie de libros está bajo la licencia [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) (CC BY 4.0).
 
-The original files can be accessed online on our [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website).
+Se puede acceder a los archivos originales en línea en nuestro [repositorio GitHub](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website).
 
-## Useful links
+## Enlaces útiles
 
-Visit the Turing Way GitHub repository at [https://github.com/alan-turing-institute/the-turing-way](https://github.com/alan-turing-institute/the-turing-way) to find out what we are working on. Start contributing to the book by reading our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md).
+Visite el repositorio GitHub de Turing Way en [https://github.com/alan-turing-institute/the-turing-way](https://github.com/alan-turing-institute/the-turing-way) para averiguar en qué estamos trabajando. Empieza a contribuir al libro leyendo nuestras [directrices de contribución](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md).
 
-If you are new and would like to connect with us, join our [Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way). We also host bimonthly [online Collaboration Cafés](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) to cowork online with our community members online. This would be the right place to get opinions from other community members and request their feedback and review on your work.
+Si eres nuevo y deseas conectarte con nosotros, únete a nuestro [canal Gitter](https://gitter.im/alan-turing-institute/the-turing-way). También organizamos bimensualmente [Cafés de Colaboración en Línea](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) para colaborar en línea con nuestros miembros de la comunidad en línea. Este sería el lugar adecuado para obtener opiniones de otros miembros de la comunidad y solicitar sus comentarios y comentarios sobre su trabajo.
 
-For specific questions or concerns, you can contact our community manager **Malvika Sharan** by email at [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). Alternatively, you can contact the lead investigator **Kirstie Whitaker** by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+Para preguntas o preocupaciones específicas, puedes contactar a nuestro administrador de la comunidad **Malvika Sharan** por correo electrónico [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). También puede ponerse en contacto con el investigador principal **Kirstie Whitaker** por correo electrónico [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
 
-To stay updated with our community events, subscribe to [_The Turing Way_ calendar](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ). To receive monthly newsletters, [join our mailing list](https://tinyletter.com/TuringWay)
+Para mantenerte actualizado con nuestros eventos de la comunidad, suscríbete al calendario [_The Turing Way_](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ). Para recibir boletines de noticias mensuales, [únete a nuestra lista de correo](https://tinyletter.com/TuringWay)
 
-We are also on [Twitter](https://twitter.com/turingway), follow us for daily updates.
+También estamos en [Twitter](https://twitter.com/turingway), síguenos para actualizaciones diarias.
 
-### Wondering where to start?
+### ¿Se pregunta por dónde empezar?
 
-Here are a few suggestions for a good first contributions:
+Aquí tienes algunas sugerencias para una buena primera contribución:
 
-- Fix a typo in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- Corregir un error tipográfico en [el libro](https://the-turing-way.netlify.com) y/o [repositorio](https://github.com/alan-turing-institute/the-turing-way).
+- Bandera la información poco clara o duplicada en el libro abriendo un [problema en el GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
+- Corregir un [antiguo problema](https://github.com/alan-turing-institute/the-turing-way/issues) o comentar en las [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
+- Escribe tu experiencia personal de investigación reproducible en esta [forma de Google](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
+- Ver más información en GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
 
-## The Turing Way Contact Points
+## Los puntos de contacto de la Vía Turística
 
-The lead investigator for this project is [Dr Kirstie Whitaker](https://whitakerlab.github.io/about). She leads the Tools, Practices and Systems Research Programme at [The Alan Turing Institute](http://turing.ac.uk).
+El investigador principal de este proyecto es [Dr. Kirstie Whitaker](https://whitakerlab.github.io/about). Lidera el Programa de Investigación de Herramientas, Prácticas y Sistemas en [El Instituto Alan Turing](http://turing.ac.uk).
 
-The Community Manager is [Malvika Sharan](https://about.me/malvikasharan). She is a research associate at the [Alan Turing Institute](http://turing.ac.uk).
+El administrador de la comunidad es [Malvika Sharan](https://about.me/malvikasharan). Ella es una colaboradora de investigación en el [Instituto Alan Turing](http://turing.ac.uk).
 
-You can contact them on the community Gitter Channel [https://gitter.im/alan-turing-institute/the-turing-way](https://gitter.im/alan-turing-institute/the-turing-way). You can write an email to Malvika Sharan for any question of query by using the community email [theturingway@gmail.com](mailto:theturingway@gmail.com) or contact her directly by emailing [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). In case you want to directly reach Kirstie, email her at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+Puedes ponerte en contacto con ellos en el Canal Gitter [https://gitter.im/alan-turing-institute/the-turing-way](https://gitter.im/alan-turing-institute/the-turing-way). Puede escribir un correo electrónico a Malvika Sharan para cualquier pregunta de consulta utilizando el correo electrónico de la comunidad [theturingway@gmail.](mailto:theturingway@gmail.com) o póngase en contacto con ella directamente enviando un correo electrónico a [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). En caso de que quieras contactar directamente con Kirstie, envíale un correo electrónico a [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
 
-For contact details for Code of Conduct related query and reporting, please see the {ref}`Code of Conduct file <ch-coc>` in this Community Handbook.
+Para datos de contacto para la consulta y reporte relacionados con el Código de Conducta, por favor vea el {ref}`archivo de código de conducta <ch-coc>` en este manual de la comunidad.

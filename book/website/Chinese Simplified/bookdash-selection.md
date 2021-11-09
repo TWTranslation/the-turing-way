@@ -1,36 +1,36 @@
 (ch-bookdash-preparation)=
-# Participant Selection Process
+# 参与者选择进程
 
-This subchapter explains the process of selection and logistics for organising the Book Dash.
+本小节解释了组织书籍舞台的选择和物流过程。
 
-## Selection of Book Dash Planning Committee
+## 选定书籍破折号规划委员会
 
-To ensure that the Book Dash continues to evolve as per the community needs and preferences, invite returning members of the Book Dash events to join a planning committee. Members of the Book Dash planning committee participate in the planning meetings, provides feedback on the ongoing process and when possible takes the lead on organisation tasks related to the Book Dash.
+确保书籍破折号继续根据社区的需要和偏好演变， 邀请Dash事件的返回成员加入一个规划委员会。 书籍灰计划委员会成员参加了规划会议。 提供关于当前进程的反馈意见，并在可能的情况下牵头处理与图书大厅有关的组织任务。
 
-These tasks usually include the following roles and responsibilities:
-- **Planning Meeting**: attend a planning meeting to help select a date, agree on the format and share any feedback on the previous event that can help plan the Book Dash(time commitment: up to 30 minutes)
-- **Application Review**: review 2-3 applications based on your availability (time commitment: up to 30 minutes)
-- **Selection meeting**: participate in the selection meeting to help ensure that the selection is equitable (time commitment: 1.5-2 hours)
-- **Organisation meeting**: attend 1 call to finalise the logistics for the organisation (program agenda and participant support will be carried out by The Turing Way core members) (time commitment: 1 hour)
-- **Session host and mentorship**: lead one of the 2 onboarding calls or one GitHub introduction session before and 1-2 of the development sessions or social sessions during the Book Dash based on their schedule (three 1.5 to 2.5 hour-long sessions)
-- **Debrief meeting**: attend a meeting after the event to discuss what went well and what we can improve going forward (time commitment: 1 hour)
-- **Shared Documents**: set up or review shared notes, application form, review rubrics or other required documents for the Book Dash (time commitment: relative to the type of document)
-- **Post-event Documents**: ensure the update of [contributors file](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md), help document the event report and update the Book Dash chapter online
+这些任务通常包括下列作用和责任：
+- **规划会议**: 参加规划会议以帮助选择一个日期 商定格式并分享上次事件的任何反馈意见，这有助于规划书签的时间承诺：最多30分钟)
+- **应用程序审查**: 根据您的可用性审查2-3 应用程序 (时间承诺：最多30分钟)
+- **选择会议**: 参加选择会议以帮助确保选择是公平的 (时间承诺：1.5 2 小时)
+- **组织会议**: 参加最后敲定本组织物流的1次通话(方案议程和参与者支持将由导向的核心成员执行) (时间承诺：1小时)
+- **会话主机和导师**: 在开发会议或社交会议之前领先2次在线电话之一或一次GitHub 引入会话，并根据他们的日程安排在书签会场或社交会场中(1-2次)。 非正式会议
+- **简短会议**: 在活动结束后参加一次会议，讨论我们能够改进前进的进展情况(时间承诺：1小时)
+- **共享文档**: 设置或审查共享的便笺，应用程序表单 查看书籍破折号的橡皮或其他所需文档(时间承诺：相对于文件类型)
+- **事件后文档**: 确保更新 [贡献者文件](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md), 帮助记录事件报告并在线更新书籍破折章
 
-The invitation to join the planning committee is sent by the core team members based on the applications sent by returning members of the Book Dash expressing their interest in mentoring. This is a volunteer position and there are no expectations of commitment to do multiple tasks described above.
+参加规划委员会的邀请是由核心小组成员根据书籍Dash返回成员发出的、表示有兴趣提供指导的申请发出的。 这是一个志愿者的职位，没有人期望作出承诺来完成上述多项任务。
 
-## Selection of Book Dash Participants
+## 书卷与会者选择
 
-The Book Dash Planning Committee meets after they have individually scored the applications using the rubrics defined in the previous subchapter. They agree upon a final set of applicants selected to participate in the Book Dash. The panel members also create constructive feedback on the application that can be shared with the applicants who were not selected so that they can assess other pathways to engage with the project and core team.
+账簿破折号规划委员会在各自使用上一章界定的碎片对申请进行评分之后举行会议。 他们商定了最后一批被选定参加图书展的申请人。 小组成员还就申请建立了建设性的反馈，可以与未被选定的申请人分享，以便他们能够评估与项目和核心小组接触的其他途径。
 
-All applicants are contacted at least 4 weeks in advance to ensure that they can assess their situation and availability for the Book Dash.
+至少提前4个星期与所有申请人联系，以确保他们能够评估他们的情况以及他们是否能够获得图书日子。
 
-Upon confirmation, they are provided with registration details through which they can share any information that can help them and the organisers prepare for the Book Dash. Participants are asked to get familiarised with [_The Turing Way_ GitHub repository](https://github.com/alan-turing-institute/the-turing-way) where they will make their contributions during the Book Dash. The project's [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and {ref}`Code of Conduct<ch-coc>` are also shared with the participants that are applicable to the Book Dash as well.
+确认后， 向他们提供了登记详细资料，使他们能够通过这些资料分享任何有助于他们和组织者准备图书大厦的信息。 参与者被要求熟悉 [_Ting Way_ GitHub 存储库](https://github.com/alan-turing-institute/the-turing-way) 他们将在书签期间在哪里做出贡献。 项目的 [贡献准则](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 和 {ref}`行为准则<ch-coc>` 也与参与者分享，这些参与者也适用于书籍破折号中。
 
-To further support the participants, pre-event calls are hosted and further details are shared directly by email (discussed in the next subchapter). The names of the selected participants are announced in _The Turing Way_ newsletter and social media platforms upon agreement with the participants.
+为了进一步支持与会者，会前拨打电话，直接通过电子邮件分享更多细节（在下一小节中讨论）。 所选参与者的姓名经与会者同意后在 _Ting Way_ 简讯和社交媒体平台上公布。
 
 (ch-bookdash-application-additional-materials)=
-## Additional materials
+## 补充材料
 
-- [Template for the application form](https://docs.google.com/forms/d/14JbI_Xqr8vRWAidzcVFhB-5iITA6n9BOZ0RX_aSDauU/edit?usp=sharing)
-- {ref}`templates for planning<ch-templates>`, also see [the issue #806](https://github.com/alan-turing-institute/the-turing-way/issues/806) for example from the book dash
+- [应用程序表单模板](https://docs.google.com/forms/d/14JbI_Xqr8vRWAidzcVFhB-5iITA6n9BOZ0RX_aSDauU/edit?usp=sharing)
+- {ref}`模板用于规划<ch-templates>`, 也可以看到 [问题#806](https://github.com/alan-turing-institute/the-turing-way/issues/806) 比如从书籍破折页中看到的

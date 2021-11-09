@@ -1,57 +1,57 @@
 (rr-overview-definitions)=
-# Definitions
+# 定 义
 
-The most common definition of reproducibility (and replication) was first noted by Claerbout and Karrenbach in 1992 {cite:ps}`ClaerboutKarrenbach1992Reproducibility` and has been used in computational science literature since then. Another popular definition has been introduced in 2013 by the Association for Computing Machinery (ACM) {cite:ps}`Ivie2018SciComp`, which swapped the meaning of the terms 'reproducible' and 'replicable' compared to Claerbout and Karrenbach.
+可再生产(和复制)最常见的定义是Claerbout和Karrenbach在1992年 {cite:ps}`ClaerboutKarrenbach1992Reproduciability` 自那时以来一直用于计算科学文献。 计算机计算协会（ACM） {cite:ps}`Ivie2018SciComp`于2013年引入了另一个受欢迎的定义， 与Claerbout和Karrenbach相比，它互换了“重复”和“可复制”这两个术语的含义。
 
-The following table contrasts both definitions {cite:ps}`Heroux2018Reproducibility`.
+下表对比了两个定义 {cite:ps}`Heroux2018 Repreduciability`。
 
-| Term         | Claerbout & Karrenbach                                                                                                                                    | ACM                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reproducible | Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.                                         | (Different team, different experimental setup.) The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently.                                                |
-| Replicable   | A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses. | (Different team, same experimental setup.) The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author's artifacts. |
+| 学期  | Claerbout & Karrenbach                           | ACM                                                                                                                         |
+| --- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| 可复用 | 作者提供了所有必要的数据和计算机代码来再次进行分析，重新创建结果。                | (不同的团队，不同的实验设置) 一个不同的小组，即不同的测量系统，可以在多个审判的不同地点以明确的精确度获得测量。 就计算实验而言，这意味着一个独立的团体可以利用它们完全独立发展的人工制品获得同样的结果。                      |
+| 可复制 | 一份研究报告得出与另一项研究相同的科学结论，收集新的数据（可能采用不同的方法），并完成新的分析。 | (不同的团队，相同的实验性设置) 使用同一测量程序的不同小组可以以明确的精确度获得测量。 (b) 在相同的工作条件下，在多项审判的同一地点或不同地点采用相同的测量系统。 就计算实验而言，这意味着一个独立团体可以利用提交人的手工艺品获得同样的结果。 |
 
-Barba (2018) {cite:ps}`Barba2018Reproducibility` conducted a detailed literature review on the usage of reproducible/replicable covering several disciplines. Most papers and disciplines use the terminology as defined by Claerbout and Karrenbach, whereas microbiology, immunology and computer science tend to follow the ACM use of reproducibility and replication. In political science and economics literature, both terms are used interchangeably.
+Barba (2018) {cite:ps}`Barba2018Reproduciability` 详细审查了几个学科可再生产/复制的使用情况。 大多数论文和学科使用Claerbout和Karrenbach所界定的术语，而微生物学则使用这种术语。 免疫学和计算机科学往往采用含石棉材料的再循环性和复制性。 在政治科学和经济学文献中，这两个词是互换使用的。
 
-In addition to these high level definitions of reproducibility, some authors provide more detailed distinctions. Victoria Stodden {cite:ps}`Victoria2014Reproducibility`, a prominent scholar on this topic, has for example identified the following further distinctions:
+除了这些高层次的可再生产定义之外，一些作者还提供了更详细的区分。 Victoria Stodden {cite:ps}`Victoria2014 Reproduciability`这个主题的著名学者，例如已经确定了以下进一步的区分：
 
-- _Computational reproducibility_: When detailed information is provided about code, software, hardware and implementation details.
+- _可计算性重置_: 当提供关于代码、软件、硬件和实现细节的详细信息时。
 
-- _Empirical reproducibility_: When detailed information is provided about non-computational empirical scientific experiments and observations. In practice, this is enabled by making the data and details of how it was collected freely available.
+- _经验性可重复性_: 当提供关于非计算性经验性科学实验和观察的详细信息时。 实际上，可以通过提供免费收集的数据和详细资料来实现这一点。
 
-- _Statistical reproducibility_: When detailed information is provided, for example, about the choice of statistical tests, model parameters, and threshold values. This mostly relates to pre-registration of study design to prevent p-value hacking and other manipulations.
+- _统计可重复性_: 当提供详细信息时，例如关于统计测试、模型参数和临界值的选择的信息。 这主要涉及研究设计的预先登记，以防止包装和其他操纵。
 
-(rr-overview-definitions-reproducibility)=
-## Table of Definitions for Reproducibility
+(rr-overview-definitions-reduability)=
+## 可再生性定义表
 
-At _The Turing Way_, we define **reproducible research** as work that can be independently recreated from the same data and the same code that the original team used. Reproducible is distinct from replicable, robust and generalisable as described in the figure below.
+在 _小路_, 我们定义 **可重复研究** 是可以从相同数据和原团队使用的相同代码独立创建的工作。 可再生性不同于下图所述的可复制性、强度和可普遍化性。
 
 
 ```{figure} ../../figures/reproducible-matrix.jpg
 ---
-name: reproducible-matrix
-alt: Kirstie's definition of reproducible research.
+名称：可复现矩阵
+alt: Kirstie的可复现研究定义。
 ---
-How the Turing Way defines reproducible research
+诱惑方式如何定义可重复研究
 ```
 
-The different dimensions of reproducible research described in the matrix above have the following definitions:
+上述矩阵中所述可再生产研究的不同方面有以下定义：
 
-- **Reproducible:** A result is reproducible when the _same_ analysis steps performed on the _same_ dataset consistently produces the _same_ answer.
+- **复现：** 结果可以复制，当 _相同的_ 分析步骤在 _相同的_ 数据集始终如一地生成 _相同_ 答案时。
 - **Replicable:** A result is replicable when the _same_ analysis performed on _different_ datasets produces qualitatively similar answers.
-- **Robust:** A result is robust when the _same_ dataset is subjected to _different_ analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
-- **Generalisable:** Combining replicable and robust findings allow us to form generalisable results. Note that running an analysis on a different software implementation and with a different dataset does not provide _generalised_ results. There will be many more steps to know how well the work applies to all the different aspects of the research question. Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
+- **Robust:** 当相同的 __ 数据集被置于 _不同的_ 分析工作流以回答相同的研究问题(例如用R编写的一条管道和用Python写的另一条管道)并生成质量上相似或完全相同的答案时，结果是可靠的。 强有力的成果表明，这项工作不取决于为进行分析而选定的方案编制语言的具体特点。
+- **普遍化：** 混合可复制和强有力的结果使我们能够形成可普遍化的结果。 请注意，对不同的软件实现和不同的数据集运行分析并不能提供 _普遍化的_ 结果。 还将采取更多步骤了解这项工作如何适用于研究问题的所有不同方面。 普遍化是一个重要步骤，有助于认识到结果不取决于特定的数据集或分析管道的特定版本。
 
-More information on these definitions can be found in "Reproducibility vs. Replicability: A Brief History of a Confused Terminology" by Hans E. Plesser {cite:ps}`Plesser2018Reproducibility`.
+关于这些定义的更多信息见Hans E的“Repreducity vs. Replicability: A Brief History of a Confused Terminology”。 Plesser {cite:ps}`Plesser2018Reproduciability`
 
 ```{figure} ../../figures/reproducible-definition-grid.jpg
 ---
-name: reproducible-definition-grid.jpg
-alt: Grid with the characteristics of reproducible, replicable, robust and generalisable research
----
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+名称：复现定义网格。 pg
+备选案文：具有可复制、可复制、可靠和普遍的研究特性的格志
+-
+_Sting Way_ 项目示意图由 Stereria 绘制。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-(rr-overview-reproducible)=
-## Reproducible But Not Open
+(rr-overview-reduciable)=
+## 可复现但不打开
 
-_The Turing Way_ recognises that some research will use sensitive data that cannot be shared and this handbook will provide guides on how your research can be reproducible without all parts necessarily being open.
+_诱惑方式_ 认识到一些研究将使用无法共享的敏感数据，这份手册将提供指南，说明你的研究如何能够在不必打开所有部件的情况下重现。

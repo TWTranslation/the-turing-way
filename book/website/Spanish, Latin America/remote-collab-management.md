@@ -1,20 +1,20 @@
 (cl-remote-collab-manage-teams)=
-# Managing Distributed Teams
+# Gestión de Equipos Distribuidos
 
-In the {ref}`cl-new-community` and {ref}`Leadership in Data Science<cl-leadership>` chapters, we have already discussed in-depth how we can manage a new online community and build healthy leadership for a team. Therefore, in this subchapter, we have listed a few reminders of tasks that are specifically important for managing distributed teams.
+En los capítulos de {ref}`cl-new-community` y {ref}`<code>Liderazgo en Ciencias de Datos<cl-leadership>` </code>, ya hemos discutido en profundidad cómo podemos administrar una nueva comunidad en línea y crear un liderazgo saludable para un equipo. Por lo tanto, en este subcapítulo, hemos enumerado algunos recordatorios de tareas que son especialmente importantes para la gestión de equipos distribuidos.
 
-- Set clear expectations for the team members about the project and their roles and responsibilities.
-- Help establish all modes of communication, tools, and resources according to the team's requirements for both their project and social interactions.
-- Coordinate the development and maintenance of all the required documentation such as the organisation's policies, participation guidelines, project charter, and information of other team members.
-- Ensure that details of these resources are available for all members through a central repository, with information on how they can access them.
-- Respect time differences when dealing with members across different time zones and assigning tasks. Allow a degree of flexibility as per their working situation or caring responsibilities they may have.
-- Schedule team meetings where everyone can share what they are working on and invite contributions and support from others in the team.
-- Before the meeting, provide the meeting agenda in a shared document, preferably that can be updated by the team members in case they want to suggest a new agenda point. This document can also be used for taking notes during the event.
-- Share minutes (and video recording when possible) to make sure that everyone is up-to-date, even those who couldn't attend the meeting.
-- Schedule regular one-on-one meetings to ensure that your team members can check-in with you, align ideas as per the project's requirement, hold accountability for their work, and receive constructive feedback.
-- Create opportunities for informal interactions that can help create a friendly work environment and build a strong sense of team spirit.
-- Encourage and embrace diversity and a culture of collaboration.
+- Establecer expectativas claras para los miembros del equipo sobre el proyecto y sus roles y responsabilidades.
+- Ayuda a establecer todos los modos de comunicación, herramientas y recursos de acuerdo con los requerimientos del equipo tanto para su proyecto como para las interacciones sociales.
+- Coordine el desarrollo y el mantenimiento de toda la documentación requerida, como las políticas de la organización, las directrices de participación, la carta de proyectos e información de otros miembros del equipo.
+- Asegurarse de que los detalles de estos recursos estén disponibles para todos los miembros a través de un repositorio central, con información sobre cómo pueden acceder a ellos.
+- Respete las diferencias de tiempo al tratar con miembros en diferentes zonas horarias y asignar tareas. Permita cierto grado de flexibilidad según su situación laboral o responsabilidades de cuidado que puedan tener.
+- Programar reuniones de equipo en las que todos puedan compartir lo que están trabajando e invitar contribuciones y apoyo de otros en el equipo.
+- Antes de la reunión, proporcione la agenda de la reunión en un documento compartido, preferiblemente eso puede ser actualizado por los miembros del equipo en caso de que quieran sugerir un nuevo punto de la agenda. Este documento también se puede utilizar para tomar notas durante el evento.
+- Comparta minutos (y grabe en vídeo cuando sea posible) para asegurarse de que todo el mundo está actualizado, incluso aquellos que no pudieron asistir a la reunión.
+- Programe reuniones regulares de uno a uno para asegurarse de que los miembros de su equipo pueden registrarse contigo, alinear ideas según el requerimiento del proyecto, responsabilizar por su trabajo y recibir retroalimentación constructiva.
+- Crear oportunidades para interacciones informales que puedan ayudar a crear un ambiente de trabajo amistoso y crear un fuerte sentido de espíritu de equipo.
+- Fomentar la diversidad y una cultura de colaboración.
 
-## Further reading
+## Lectura posterior
 
-- Read this post by Zapier on [How to Manage a Remote Team](https://zapier.com/learn/remote-work/how-manage-remote-team/)
+- Lea esta publicación de Zapier en [Cómo administrar un equipo remoto](https://zapier.com/learn/remote-work/how-manage-remote-team/)

@@ -1,23 +1,23 @@
-(ch-consistency-language)=
-# Language
+(ch-consistencia-idioma)=
+# Idioma
 
-Language is concerned with the way concepts and ideas in _The Turing Way_ are expressed. A consistent language ensures that _The Turing Way_ is clear and understandable.
+El lenguaje se refiere a la forma en que se expresan los conceptos e ideas en _La Vía Turística_. Un lenguaje consistente asegura que _La Vía Turística_ sea clara y comprensible.
 
-(ch-consistency-language-hr)=
-## Hard Requirements
+(ch-consistencia-idioma-hr)=
+## Requisitos duros
 
-The hard checks that deal with _The Turing Way's_ language include:
+Las comprobaciones duras que tratan con _el lenguaje_ de la Vía Turística incluyen:
 
-(ch-consistency-language-hr-grammar)=
-### Check 1: Ensure correct grammar and a consistent tone across the book
+(ch-consistencia-idioma-hr-grammar)=
+### Verificar 1: Asegúrate de que la gramática sea correcta y un tono consistente en todo el libro
 
-Correct grammar and consistent tone would help readers of all backgrounds, knowledge, and skill levels to better understand _The Turing Way_'s content.
+La gramática correcta y el tono consistente ayudarían a los lectores de todos los antecedentes, conocimientos y niveles de habilidades a entender mejor el contenido de _La Vía Turística_.
 
-Aside from being distracting, incorrect grammar might take away what a piece of text is trying to communicate.
+Aparte de distraerse, la gramática incorrecta podría quitar lo que un texto intenta comunicar.
 
-Tools such as [Grammarly](https://grammarly.com), [Ginger Grammar](https://gingersoftware.com/grammarcheck), and [Reverso Speller](https://reverso.net/spell-checker/english-spelling-grammar/) can help catch grammatical errors present in a piece of text. These tools can be used to assess grammar in new contributions and existing content of _The Turing Way_. Furthermore, when raising PRs for new content, invite reviewers to check for grammar as well. This could help minimize the number of grammatical errors that make it to the final version of _The Turing Way_.
+Herramientas como [Grammarly](https://grammarly.com), [Gramática jengibre](https://gingersoftware.com/grammarcheck), y [Reverso Speller](https://reverso.net/spell-checker/english-spelling-grammar/) puede ayudar a capturar errores gramaticales presentes en un fragmento de texto. Estas herramientas se pueden utilizar para evaluar gramática en nuevas contribuciones y contenido existente de _La Vía Turística_. Además, al elevar las PRs para nuevos contenidos, invita a los revisores a comprobar también gramática. Esto podría ayudar a minimizar el número de errores gramaticales que llegan a la versión final de _The Turing Way_.
 
-With respect to tone, ensure that chapters adhere to a formal style of writing and that sentences are easy to digest. One rule of thumb to consider is that if a sentence needs to be read more than once to be understood, then it likely needs to be rephrased.
+Con respecto al tono, asegúrese de que los capítulos se adhieran a un estilo formal de escritura y que las frases sean fáciles de digerir. Una regla general a tener en cuenta es que si una oración necesita ser leída más de una vez para ser entendida, entonces es probable que necesite ser reformulado.
 
 #### Demo
 
@@ -25,17 +25,17 @@ With respect to tone, ensure that chapters adhere to a formal style of writing a
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Prv23kGekVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-language-hr-language)=
-### Check 2: Ensure chapters use a consistent language
-`{note} Language, in this context, refers to the American and British variants of the English language.`
+(ch-consistencia-idioma-hr-idioma)=
+### Marcar 2: Asegúrate de que los capítulos usen un lenguaje consistente
+`{note} Idioma, en este contexto, se refiere a las variantes americanas y británicas del idioma inglés.`
 
-With contributors from around the world, _The Turing Way_ does not restrict the language used to write chapters. This makes it easier for contributors to bring in their perspectives as they write content for _The Turing Way_. Rather, the recommendation is that if a chapter is written in one style (for example, British English), then it should remain consistent throughout. This makes _The Turing Way_ less distracting and easier to read.
+Con colaboradores de todo el mundo, _The Turing Way_ no restringe el lenguaje usado para escribir capítulos. Esto hace que sea más fácil para los contribuyentes traer sus perspectivas mientras escriben contenido para _The Turing Way_. Más bien, la recomendación es que si un capítulo está escrito en un estilo (por ejemplo, inglés británico), entonces debería seguir siendo consistente en todo momento. Esto hace que _La Vía Turística_ sea menos distraída y más fácil de leer.
 
-(ch-consistency-language-hr-abbreviations)=
-### Check 3: Ensure Latin abbreviations are not used in writing chapters
+(ch-consistencia-idioma-hr-abreviaciones)=
+### Verificar 3: Asegurarse de que las abreviaturas latinas no se usen en los capítulos de escritura
 
-When writing content for _The Turing Way_, the use of Latin abbreviations is discouraged. This is because screen readers may read them aloud in a manner that is confusing to those who rely on such devices.
+Al escribir contenido para _The Turing Way_, el uso de abreviaciones latinas se desanima. Esto se debe a que los lectores de pantalla pueden leerlos en voz alta de una manera que es confusa para aquellos que dependen de dichos dispositivos.
 
-Furthermore, as described in the {ref}`style guide<ch-style>`, contributions that contain Latin abbreviations will fail the _The Turing Way_ repository's continuous integration workflow.
+Además, como se describe en la guía de estilo {ref}`<ch-style>`, las contribuciones que contengan abreviaciones latinas fallarán el flujo de trabajo de integración continua del repositorio _The Turing Way_.
 
-Please refer to the {ref}`style guide<ch-style>` for recommendations on how to avoid common Latin abbreviations in your writing.
+Por favor, consulte la {ref}`guía de estilo<ch-style>` para recomendaciones sobre cómo evitar abreviaciones latinas comunes por escrito.

@@ -1,23 +1,23 @@
 (pd)=
-# Guide for Project Design
+# 项目设计指南
 
-***This guide covers topics related to effective project planning and management.***
+***本指南涵盖与有效项目规划和管理有关的专题。***
 
-In this guide, we compile best practices and guidance for designing research projects by including different aspects of project management and (iterative) development practices derived from academia and industry.
+在本指南中， 我们汇编了设计研究项目的最佳做法和指导，纳入了项目管理的不同方面以及来自学术界和工业界的（迭代）发展做法。
 
-Before starting a project, researchers much define the prpject's scope. Researchers should start by identifying the main questions they aim to address through their work. Scope definition also includes defining the project goals, possible outcomes, resources requirements, people involved (collaborators, users and target audience) and possible constraints.
+在开始一个项目之前，研究人员在很大程度上界定了这个项目的范围。 研究人员应首先确定他们打算通过工作解决的主要问题。 范围定义还包括界定项目目标、可能的结果、资源要求、参与者(合作者、用户和目标对象)以及可能的限制。
 
-Researchers can then proceed to identify the expected minimum viable product of their project, synergies with other projects (similarities as well as differences), measure(s) of success, and the overall impact they hope to achieve. After these crucial questions are addressed, planning can focus on the operational aspects of the project, including ensuring that the project is usable and compliant with appropriate external guidelines (for instance, ethics requirements and regulatory limitations).
+然后，研究人员可着手确定其项目的预期最起码可行产品。 与其他项目(相似之处和不同之处)的协同增效，衡量成功与否，以及它们希望实现的总体影响。 在这些关键问题得到解决之后，规划可侧重于项目的业务方面。 包括确保该项目能够使用并符合适当的外部准则（例如，道德要求和管理限制）。
 
 ```{figure} ../figures/project-design.jpg
 ---
-name: project-design
-alt: A group of people collaboratively developing a project plan by writing on a giant canvas with a giant pencil to signify the importance of design work in the project management process. 
+名称：项目设计
+备选案文：一群人在一个巨型画布上写下大笔铅笔，共同制定项目计划，以表明设计工作在项目管理过程中的重要性。 
 ---
- _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+ _Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
-When designing a team-based project, it is important to think about all the skills required for the project and the resources needed to access those skills. The project design also includes aspects such as timeline, budget, risks, expectations, resources for project management and preregistration of research protocols. With these viewpoints, we welcome chapters defining the requirements in a project in terms of up-skilling, supporting and improving accessibility of different stakeholders.
+设计基于团队的项目时， 重要的是要考虑项目所需的所有技能和获得这些技能所需的资源。 项目设计还包括时间安排、预算、风险、预期、项目管理资源和研究协议预先登记等方面。 基于这些观点，我们欢迎在一个项目中确定提高技能、支持和改善不同利益攸关方获得服务机会的要求的章节。
 
-We hope you will learn from different case studies for small, mid-size, and large projects spanning both short-term and long-term plans. If you are brave enough, your examples of failed projects will be incredibly valuable for understanding how to avoid making the same (totally understandable!) mistakes again.
+我们希望你们能够从针对中小型和大型项目的不同案例研究中吸取经验教训，涉及短期和长期计划。 如果你有足够的勇敢，那么你的失败项目的例子对于理解如何避免做到相同(完全可以理解! 再次错误。
 
-Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+看看我们的 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 以便参与。

@@ -1,42 +1,42 @@
-(er-internal-policy)=
-# Internal Policy Advocacy
+(-内部政策)=
+# 内部政策宣传
 
-Internal policy advocacy is when individuals or groups associated with an organisation campaign for a change in the way that the organisation makes decisions, runs projects, chooses collaborators, develops products, or in other areas. It can be a really powerful tool for change, regardless of whether or not the group of people campaigning are in a union.
+内部政策宣传是指个人或团体与组织运动有联系，以改变组织作出决定的方式。 经营项目，选择合作者，开发产品，或在其他领域。 它可以成为真正强有力的变革工具，不管宣传运动的群体是否结成联盟。
 
 ```{figure} ../figures/advocacy.jpg
 ---
-name: advocacy
-alt: One person signs a petition held by another person, in front of a group of people marching under a banner reading "Advocacy!"
+名称：辩护
+备选案文：一个人签名另一个人持有的请愿书， 在一群人面前游行，横幅读作“宣传！”
 ---
-There are different ways to take part in advocacy. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
+参与宣传有不同的方式。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004)。
 ```
 
-## How to advocate internally
-A basic set of steps you can take for internal policy advocacy (adapted from [guidelines](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) produced by the NCVO in the UK, used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license):
-1. Define the issue
-    - What is the problem that you are concerned about?
-    - Is it linked to other issues or policies? Tools like [problem trees](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) can be useful to map out what else is contributing to the problem. It might be the case that the policy you are worried about builds on other internal policies or problems. You might want to campaign against those instead.
-    - Can you encapsulate the problem in a short, easy-to-understand message?
-2. Gather evidence
-    - Research the issue you are campaigning about thoroughly
-    - You might want to collect documentary evidence, testimonials, media coverage, academic work, about the issue
-    - Put together a clear, concise argument about the problems and what you think needs to change
-    - Prepare yourself to answer difficult questions about your issue, why it is real and why it is important
-3. Find useful allies
-    - Target people who understand your cause or have a connection to it.
-    - Get in touch with organisations set up to help causes such as yours (ask for advice, access to experts).
-    - Get endorsement from people who hold power in your field, or in other areas
-    - Find ways to involve your colleagues, inside and outside the organisation: for example, signing a petition can be a first step
-4. Know who to lobby
-    - Identify your routes of influence. Who is in a position to make change? How will you reach them?
-    - Think about your own contacts: can you reach people in charge directly, or do you need to go via other people
-    - Don't get disheartened at the first hurdle, lobbying is hard work!
-5. Use a range of tactics
-    - Emails, media coverage and a good website are all useful.
-    - BUT... try a little more creativity - what would make your campaign stand out and get people talking?
-    - Don't forget to assess how you're doing (number of signatures on a petition, number of times the issue is raised at an all-hands meeting
+## 如何在内部宣传
+您可以采取的一整套基本步骤来进行内部政策宣传(根据联合王国全国志愿组织编写的 [指南](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) 进行修改) 在 [CCBY-NC-SA 4下使用](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证：
+1. 定义问题
+    - 你关心的问题是什么？
+    - 它是否与其他问题或政策相联系？ 像 [个问题树](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) 这样的工具可以帮助绘制出其他什么是问题的原因。 你担心的政策可能是建立在其他内部政策或问题之上的。 你可能想要反对那些人。
+    - 你能在一个简单易懂的短讯中封装这个问题吗？
+2. 收集证据
+    - 全面研究您正在宣传的问题
+    - 你可能想要收集有关这个问题的书面证据、证词、媒体报道、学术工作
+    - 对问题和你认为需要更改的内容进行清晰、简洁的争论。
+    - 准备好自己回答有关您问题的棘手问题，为什么它是真的，为什么它是重要的
+3. 寻找有用的队友。
+    - 目标是了解您的事业或与之有联系的人。
+    - 与为帮助您的事业而设立的组织取得联系(请咨询，与专家联系)。
+    - 获得在你的领域或其他领域掌权的人的支持
+    - 找到让您的同事参与组织内外的方式：例如，签署请愿书可以是第一步。
+4. 知道谁要游说？
+    - 确定您的影响路线。 谁能够作出改变？ 您将如何与他们联系？
+    - 想想你自己的联系人：你可以直接联系负责人，或者你需要通过其他人去联系？
+    - 不要在第一个障碍上感到沮丧，游说是艰苦的工作！
+5. 使用一系列战术。
+    - 电子邮件、媒体报道和良好的网站都很有用。
+    - 请尝试一下更多的创造性——是什么会使你的运动突出，让人们说话？
+    - 别忘了评估你如何做(请愿书上的签名数量、在一次全手会议上提出问题的次数)
 
-You should also think about the potential risks to you and your colleagues for speaking up. Many people are reluctant to engage in advocacy or lobbying in their workplace, because they risk losing their livelihoods if there is retaliation against them. Union membership can offer some protection against this: campaigning can be done by the union as a collective, rather than by individual workers. Think about other things that might go wrong, or that might dissuade your colleagues from speaking up, and see if you can find a way to mitigate them. 
+你还应该考虑到你和你的同事们发言可能面临的风险。 许多人不愿意在工作场所进行宣传或游说，因为如果遭到报复，他们就有可能失去生计。 工会会员可以提供一些保护，免受这种现象之害：工会可以作为一个集体而不是由个别工人进行竞选活动。 想一想可能出现错误的其他事情，或者可能使你的同事不敢说话。 并查看您是否可以找到缓解它们的方法。 
 
 
 

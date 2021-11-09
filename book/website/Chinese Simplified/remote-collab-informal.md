@@ -1,35 +1,38 @@
-(cl-remote-collab-informal)=
-# Informal Coffee Chats
+(cl-遥控collab-informal)=
+# 非正式咖啡厅
 
-When a team is working remotely, they can get together at specific times for online "coffee chats". These are scheduled in advance so that everyone can plan their work and other meetings around them as needed and specifically have no agenda. The purpose is to share a social break together.
+当一个团队远程工作时，他们可以在特定时间聚集在一起，在线“咖啡聊天”。 预定时间提前，以便大家能够根据需要规划其工作和其他会议，并特别没有任何议程。 目的是共同分担社会裂痕。
 
 ```{figure} ../../figures/remote-book-dash.jpg
 ---
-name: remote-book-dash
-width: 500px
-alt: A person sitting on a chair in front of their computer with their dog beside. There are four different people who have joined online with their coffee/drinks for an informal chat.
+名称：远程书签破
+宽度：500px
+Alt：坐在坐在坐椅前面的人将他们的狗围起来。 有四个不同的人与他们的咖啡/饮料联机进行非正式交谈。
 ---
-Informal Online Coffee Chats. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+非正式在线咖啡聊天。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-## Motivation
+## B. 动机。
 
-All work and no play makes teams anxious and sad. If all of your group's conversations revolve around work and are scheduled as meetings, the team will lose both the serendipity of informal knowledge sharing and the enjoyment of taking a break away from their work. It isn't just fun, their productivity will be higher if they take regular breaks and socialise with others! See [this post](https://buffer.com/resources/science-taking-breaks-at-work/) to discover some reasons why it is good to take breaks.
+所有的工作和游戏都使团队焦虑和悲伤。 如果您的群组所有对话都围绕着工作并排定会议时间， 小组将失去非正式知识共享的稳定性和脱离工作的机会。 它并不是很有趣的，如果他们定期休息并与他人社交，他们的生产率会更高！ 查看 [这个帖子](https://buffer.com/resources/science-taking-breaks-at-work/) 来找出一些理由来找出休息的原因。
 
-## Design the coffee chat
+## 设计咖啡聊天
 
-The first step in running a remote coffee chat is considering the purpose of the social break, who will be invited and to set the time for the conversation.
+运行远程咖啡聊天的第一步是考虑社会休息的目的， 谁将被邀请，并为对话安排时间。
 
-Conversations, where *anyone* can join, may be what you want. In March 2020, during the COVID-19 pandemic, Kirstie Whitaker hosted [online morning coffee chats on Zoom](https://twitter.com/kirstie_j/status/1239455513080926208?s=20), which she promoted on Twitter. Different people joined at 7:40 am every morning to match her early morning chats at the Turing Institute between when her train arrived and when she usually started working. The purpose of these calls was to have social contact with anyone else who was up early and looking for motivation to get started. It didn't matter who came along, everyone was invited to join for 20 minutes.
+在 *任何* 人可以加入的对话中，可能是你想要的。 2020年3月，在COVID-19大流行病期间，Kirstie Whitaker在 Zoom</a>上主持了
+次网上咖啡聊天，她在Twitter 上进行宣传。 不同的人每天早上7点40分到达时，在她的火车到达和她通常开始工作的这段时间里参加了她早晨在Ting研究所的聊天。 这些电话的目的是与早上的任何其他人进行社会接触，并寻求开始的动机。 谁来了，每个人都被邀请参加了20分钟。</p> 
 
-If the purpose of the coffee chat is to build connections with a team, you may want to consider restricting the invitation to the specific group members. Although this appears less *open* it may be more *inclusive*. Joining a conversation where anyone can join is quite a daunting proposition for some people. Knowing who is going to be at the coffee chat on a regular basis makes attending the call more appealing. Therefore, introverted and less confident members are more likely to participate in the conversation. You are more likely to build trust within a group if they can make accurate predictions about who they will be interacting with during the break. A good example of this purpose is coffee chats for members of a research group.
+如果咖啡聊天的目的是与一个团队建立连接， 您可能想要考虑将邀请限制在特定的集团成员。 虽然这看起来更少了 *开放了* ，但它可能更多了 *包容性了*。 参加任何人都能参加的对话对一些人来说是一个相当令人生畏的主张。 如果知道谁将经常参加咖啡谈话，就会吸引更多的人参加电话。 因此，各位成员更有可能参加交谈。 如果他们能够准确预测他们在休息期间将与谁进行互动，你就更有可能在一个组内建立信任。 这方面的一个很好的例子是一个研究小组成员的咖啡聊天。
 
-Finally, the safest spaces are 1:1 conversations. If the purpose of your coffee chat is to check in with a friend or colleague, particularly if you are worried about how they are doing, consider organising an individual and private coffee chat. Remember that the purpose is not to talk about work or to progress an ongoing collaborations. The purpose of individual coffee chats is to make each other feel supported and heard in ways that can be difficult to replicate in an online space.
+最后，最安全的空间为1:1。 如果您咖啡聊天的目的是与朋友或同事检查， 尤其是如果你担心他们是如何做的，就考虑组织个人和私人的咖啡聊天。 请记住，目的不是要谈论工作或推进正在进行的合作。 个别咖啡交谈的目的是使彼此感到支持和听到他们的声音，其方式很难在网上复制。
 
-## Schedule the coffee chat
 
-Once you know what you want the purpose of the coffee chat to be, you can schedule it.
 
-- **Identify the online medium**: There are many online tools that allow you to have online face to face conversations with others, such as Zoom, Google meet and Facetime.
-- **Maintain consistency**: Try to ensure that the times are predictable if not always identical across different days.
-- **Invite people**: Send a calendar invitation to the invited participants so they are reminded to take the break at that time.
+## 安排咖啡聊天
+
+一旦你知道咖啡聊天的目的是什么，你可以安排好它的时间。
+
+- **识别在线介质**: 有许多在线工具可以让您有在线面与他人面对面的对话。 例如缩放、谷歌会议和Facebook。
+- **保持一致性**: 试图确保时间是可预测的，如果在不同的日子里并非总是一样的。
+- **邀请人员**: 向受邀请的参与者发送日历邀请，以便提醒他们那时休息。

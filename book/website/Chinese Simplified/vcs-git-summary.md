@@ -1,22 +1,22 @@
-(rr-vcs-git-summary)
-# Summary Table of Git Commands
+(rr-vcs-git-摘要)
+# Git命令表
 
-| Command                         | Use                                                                          |
-| ------------------------------- | ---------------------------------------------------------------------------- |
-| `git init`                      | Initialises a Git repository in that directory                               |
-| `git add .`                     | Adds all changes to the staging area to be committed                         |
-| `git add file_name`             | Adds changes to the specified file to the staging area to be committed       |
-| `git commit`                    | Commits staged changes and allows you to write a commit message              |
-| `git checkout SHA`              | Checks out a past commit with the given SHA                                  |
-| `git checkout SHA -- file_name` | Checks out the past version of a file from the commit with the given SHA     |
-| `git checkout -b branch_name`   | Creates and switches to a new branch                                         |
-| `git checkout branch_name`      | Switches to the specified branch                                             |
-| `git merge branch_name`         | Merges the branch you are on into the specified branch                       |
-| `git log`                       | Outputs a log of past commits with their commit messages                     |
-| `git status`                    | Outputs status, including what branch you are on and what changes are staged |
-| `git diff`                      | Outputs the differences between the working directory and most recent commit |
-| `git diff thing_a thing_b`      | Outputs the differences between two things, such as commits and branches     |
-| `git clone URL`                 | Makes a clone of the repository at the specified URL                         |
-| `git remote add origin URL`     | Links a local repository and an online repository at the specified URL       |
-| `git push origin branch_name`   | Pushes local changes to the specified branch of the online repository        |
-| `git pull origin branch_name`   | Pull changes from the online repository into local repository                |      
+| 命令                         | 使用                      |
+| -------------------------- | ----------------------- |
+| `git init`                 | 在该目录启动一个 Git 仓库         |
+| `git 添加`                   | 将所有更改添加到待执行的暂存区域        |
+| `git 添加文件名称`               | 将指定文件的更改添加到待执行的暂存区域     |
+| `git 提交`                   | 提交分阶段更改并允许您写入提交消息       |
+| `git 签出 SHA`               | 检查给定的 SHA 过去的提交         |
+| `git 签出 SHA -- file_name`  | 检查使用给定的 SHA 提交的文件的过去版本  |
+| `git 签出-b branch_name`     | 创建并切换到新分支               |
+| `git 结帐branch_name`        | 切换到指定分支                 |
+| `git 合并分支名称`               | 将你所处的分支合并到指定的分支         |
+| `git 日志`                   | 输出过去提交信息的日志             |
+| `git status`               | 输出状态，包括您正在运行的分支和正在进行的更改 |
+| `git 差异`                   | 输出工作目录和最新提交之间的差异        |
+| `git diff thing_a thing_b` | 输出两种东西之间的区别，例如承诺和分支     |
+| `git clone URL`            | 在指定的 URL 中复制资源库         |
+| `git 远程添加来源 URL`           | 链接本地版本库和在线版本库到指定的 URL   |
+| `git 推送来源branch_name`      | 将本地更改推送到在线版本库指定的分支      |
+| `git 拉取来源 branch_name`     | 从在线资源库中拉取更改到本地资源库       |      

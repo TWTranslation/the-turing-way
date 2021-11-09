@@ -1,43 +1,43 @@
-(er-activism-case-study-google)=
-# Case study: Google Workers & Project Maven
+(er-activismo-caso-estudio-google)=
+# Estudio de caso: Google Workers & Project Maven
 
-Tech workers have historically had low levels of unionisation for a variety of different reasons, including comparatively high pay and status, roles that are often short-term, and a concentration in countries where union levels are low overall (for example, the US).
+Históricamente, los trabajadores técnicos han tenido bajos niveles de sindicalización por diversas razones, incluyendo salarios y estatus comparativamente altos. roles que a menudo son de corto plazo y una concentración en países donde los niveles de unión son bajos en general (por ejemplo, Estados Unidos).
 
-Workers in tech are also sometimes ambivalent about their employer's products and services. This is because the products and services are developed with limited consideration of their impacts on systemic inequalities and injustices. However, more and more people who work in the industry are speaking up and demanding that companies and organisations consider the ethics and impact of the work they do and who they do that work with.
+Los trabajadores en tecnología también a veces son ambivalentes con respecto a los productos y servicios de sus empleadores. Esto se debe a que los productos y servicios se desarrollan con una consideración limitada de sus impactos sobre las desigualdades sistémicas y los inconvenientes. Sin embargo, Cada vez más personas que trabajan en el sector hablan y exigen que las empresas y organizaciones tengan en cuenta la ética y el impacto del trabajo que realizan y con quién lo hacen.
 
-Google is one example of a large tech company where workers have spoken up on several different issues including internal company policy and external contracts.
+Google es un ejemplo de una gran empresa de tecnología en la que los trabajadores han hablado sobre diversos temas, incluida la política interna de la empresa y los contratos externos.
 
-(er-activism-case-study-google-advocacy)=
-## Advocacy & Workplace Activism by Google Workers
-### Project Maven - 2018
-One project which faced resistance via workplace activism was Google's Project Maven, a contract with the US Pentagon to use AI to develop more effective drone guidance. Google employees across the globe who opposed this project spoke up in internal meetings, signed petitions, made memes, and shared personal statements about why they disagreed with the contract. Some employees even resigned. Eventually, the leadership at Google agreed not to seek further contracts with the US Pentagon and also agreed to adopt ["Ethical AI Principles"](https://blog.google/technology/ai/ai-principles/) including not using its technology for weapons or surveillance. [Source, accessed 8 December 2020](https://jacobinmag.com/2018/06/google-project-maven-military-tech-workers)
+(er-activismo-caso-estudio-google-advocacy)=
+## Provocación & Activismo en el lugar de trabajo por Google Workers
+### Proyecto Maven - 2018
+Un proyecto que enfrentaba resistencia a través del activismo en el lugar de trabajo fue el proyecto Maven de Google, un contrato con el Pentágono de Estados Unidos para utilizar IA para desarrollar una guía drone más efectiva. Los empleados de Google de todo el mundo que se opusieron a este proyecto hablaron en reuniones internas, firmó peticiones, hizo memes, y compartió declaraciones personales sobre por qué no estaban de acuerdo con el contrato. Algunos empleados incluso renombraron. Finalmente el liderazgo de Google acordó no buscar más contratos con el Pentágono de los Estados Unidos y también acordó adoptar ["Principios de IA éticos"](https://blog.google/technology/ai/ai-principles/) incluyendo no utilizar su tecnología para armas o defensa. [Fuente, accedida el 8 de diciembre de 2020](https://jacobinmag.com/2018/06/google-project-maven-military-tech-workers)
 
-### Walkout for Real Change - 2018
-In response to allegations of million dollar exit packages for executives accused of sexual harassment against workers, workers at Google offices across the globe walked out demanding:
-* Ending of private arbitration in sexual harassment cases
-* Publication of a transparency report on instances of sexual harassment
-* Further disclosures of salaries and compensation
-* An employee representative on the company board
-* A chief diversity officer who could speak directly to the board
+### Caminata por el cambio real - 2018
+En respuesta a las acusaciones de millones de paquetes de salida de dólares para ejecutivos acusados de acoso sexual contra trabajadores, trabajadores de las oficinas de Google de todo el mundo salieron exigiendo:
+* Poner fin al arbitraje privado en casos de acoso sexual
+* Publicación de un informe de transparencia sobre casos de acoso sexual
+* Nuevas revelaciones de salarios y compensaciones
+* Un representante de empleados en el consejo de administración de la empresa
+* Un oficial jefe de la diversidad que podría hablar directamente con el consejo
 
-Google agreed to end the use of private arbitration in sexual harassment cases, but did not agree to the rest of the demands.
+Google aceptó poner fin al uso del arbitraje privado en casos de acoso sexual, pero no aceptó el resto de las demandas.
 
-[Source, NYT, accessed 18 May 2021](https://www.nytimes.com/2018/11/01/technology/google-walkout-sexual-harassment.html)
+[Fuente, NYT, accedido 18 de mayo de 2021](https://www.nytimes.com/2018/11/01/technology/google-walkout-sexual-harassment.html)
 
-### No Police Contracts - 2020
-In the wake of protests at the killing of George Floyd in May 2020, over 1,100 Alphabet workers signed a petition demanding that the company stop selling technology to police departments and end existing contracts with police departments with a history of racial discrimination. The company insisted that the contracts were in line with its AI Principles.
+### No hay contratos policiales - 2020
+A raíz de las protestas por el asesinato de George Floyd en mayo de 2020, más del 1 de mayo 00 Trabajadores del Alfabeto firmaron una petición exigiendo que la empresa deje de vender tecnología a departamentos policiales y ponga fin a los contratos existentes con departamentos policiales con un historial de discriminación racial. La empresa insistió en que los contratos estaban en consonancia con sus principios de IA.
 
-[Source, CNBC, accessed 18 May 2021](https://www.cnbc.com/2020/06/22/google-employees-petition-company-to-cancel-police-contracts.html)
+[Fuente, CNBC, accedido 18 de mayo de 2021](https://www.cnbc.com/2020/06/22/google-employees-petition-company-to-cancel-police-contracts.html)
 
-(er-activism-case-study-google-union)=
-## Alphabet Worker's Union
+(er-activismo-caso-estudio-google-union)=
+## Sindicato de Trabajadores del Alfabeto
 
-The work that went into speaking out against different issues at Google has now transformed into a new union, specifically for people employed at Google or one of the other companies owned by Alphabet. The union was launched in January 2021 and has over 800 members as of May 2021. Importantly, all workers at Alphabet companies, whether they are cleaners or tech workers, on fixed-term contracts or in permanent employment, are eligible to join the union. This broad membership makes it much easier for the workers to organise together and fight for better conditions for everyone in the workplace, rather than segregating people based on the type of work they do. It also reinforces that everyone in the workplace is important and has a part to play in the union, regardless of what their day-to-day role looks like.
+El trabajo que se dedicó a hablar en contra de diferentes cuestiones en Google se ha transformado en una nueva unión, específicamente para las personas empleadas en Google o una de las otras empresas propiedad de Alfabet. El sindicato fue lanzado en enero de 2021 y tiene más de 800 miembros a partir de mayo de 2021. Es importante que todos los trabajadores de las empresas Alfabet, ya sean trabajadores limpios o de tecnología. en contratos fijos o en empleo permanente, son elegibles para unirse al sindicato. Esta amplia adhesión facilita mucho que los trabajadores se organicen juntos y luchen por mejores condiciones para todos en el lugar de trabajo. en lugar de segregar a las personas basándose en el tipo de trabajo que realizan. También refuerza que todo el mundo en el lugar de trabajo es importante y tiene un papel que desempeñar en el sindicato, independientemente de cómo se vea su papel cotidiano.
 
-The Alphabet Union is supported by a larger union, [Communications Workers of America](https://cwa-union.org/), who are also [campaigning to help workers in other tech and digital companies to organise in unions](https://cwa-union.org/news/releases/cwa-launches-new-initiative-in-support-of-organizing-tech-and-game-workers).
+La Unión del Alfabeto cuenta con el apoyo de un sindicato más grande, [los trabajadores de las comunicaciones de América](https://cwa-union.org/), quienes también están [haciendo campaña para ayudar a los trabajadores de otras empresas tecnológicas y digitales a organizarse en sindicatos](https://cwa-union.org/news/releases/cwa-launches-new-initiative-in-support-of-organizing-tech-and-game-workers).
 
-## Further Resources
+## Recursos adicionales
 
-* [Alphabet Worker's Union](https://alphabetworkersunion.org/)
-* [Communication Worker's Union - a UK-based union with a dedicated tech branch](https://cwu.org)
-* [Miller C and Coldicutt R, ‘People, Power and Technology: The Tech Workers’ View’ (doteveryone 2019)](https://doteveryone.org.uk/report/workersview/)
+* [Sindicato de Trabajadores del Alfabeto](https://alphabetworkersunion.org/)
+* [Unión de Trabajadores de Comunicación - un sindicato basado en UK con una rama de tecnología dedicada](https://cwu.org)
+* [Miller C y Coldicutt R, ‘Pueblo, Poder y Tecnología: Vista de los Trabajadores Tecnológicos’ (doteveryone 2019)](https://doteveryone.org.uk/report/workersview/)

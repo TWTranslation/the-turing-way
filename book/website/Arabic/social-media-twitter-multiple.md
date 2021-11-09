@@ -1,32 +1,32 @@
 (cm-social-media-twitter)=
-# Managing Multiple Twitter Accounts
+# إدارة حسابات تويتر متعددة
 
-Managing multiple accounts on Twitter can be challenging and you might be following a certain social media policy or approach that is different from how you would tweet from your personal account.
+يمكن أن تكون إدارة حسابات متعددة على تويتر تحديا وقد تتبع سياسة أو نهج معين من وسائل الإعلام الاجتماعية يختلف عن كيفية تغريدك من حسابك الشخصي.
 
-Many projects and organisations have their own Twitter account that is used for advertising their research outputs and events.
+العديد من المشاريع والمنظمات لديها حسابها الخاص على تويتر والذي يستخدم للإعلان عن نواتجها وأحداث بحثها.
 
-(cm-social-media-twitter-organisation)=
-## Managing an Organisational Twitter Account
+(م م-اجتماعي-إعلامي-ت-منظمة)=
+## إدارة حساب تويتر التنظيمي
 
-**1. Be sure that you are clear about what the purpose of the account is and the type of tweets that the organisation wants.**
+**1. تأكد من أنك واضح حول الغرض من الحساب ونوع التغريدات التي تريدها المنظمة.**
 
-* Is it going to be a professional tone or more relaxed and fun.
-* Are there certain restrictions about what content you can tweet about such as not sharing data or results?
+* هل ستكون نغمة محترفة أو أكثر مريحة وممتعة.
+* هل هناك قيود معينة على المحتوى الذي يمكنك تغريده عن مثل عدم مشاركة البيانات أو النتائج؟
 
-**2. Use scheduling to time your tweets**
+**2. استخدم الجدولة الزمنية لوقت تغريداتك**
 
-* This can be done through the Twitter web browser or by using a Twitter app such as Tweetdeck.
-* Tweetdeck is the only app owned by Twitter and it is free to use. But there are [other apps for all different platforms](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), although you often have to pay for their services.
-* There are other apps, such as [Buffer](https://buffer.com/), that you can use to control multiple social media channels.
-* Scheduling tweets is particularly helpful if you are running an event as you can schedule tweets well in advance to give important information.
+* يمكن القيام بذلك من خلال متصفح ويب تويتر أو باستخدام تطبيق تويتر مثل تويتريك.
+* Tweetackk هو التطبيق الوحيد الذي يملكه تويتر وهو مجاني للاستخدام. ولكن هناك [تطبيقات أخرى لجميع المنصات المختلفة](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/)، على الرغم من أنه غالبا ما يتوجب عليك دفع ثمن خدماتها.
+* هناك تطبيقات أخرى، مثل [مخزن التخزين المؤقت](https://buffer.com/)، يمكنك استخدامها للتحكم في قنوات التواصل الاجتماعي المتعددة.
+* جدولة التغريدات مفيدة بشكل خاص إذا كنت تقوم بتشغيل حدث كما يمكنك جدولة التغريدات قبل وقت طويل لتقديم معلومات هامة.
 
-**3. Preventing miss tweeting**
+**3. منع التغريدة المفقودة**
 
-* When you are responsible for multiple tweeter accounts, there is the possibility of miss tweeting. This is when you tweet out, for example, a personal tweet using an organisational account.
-* Tweetdeck has a feature that allows you to add a confirmation step to perform an extra check before tweeting. This helps to prevent this issue.
+* عندما تكون مسؤولاً عن حسابات تغليف متعددة، هناك احتمال فقدان تغليف التغريد. هذا هو عندما تقوم بتغريد التغريدة الشخصية، على سبيل المثال، باستخدام حساب المؤسسة.
+* يحتوي Tweetpage على ميزة تسمح لك بإضافة خطوة تأكيد لإجراء فحص إضافي قبل التغريدة. وهذا يساعد على منع هذه المسألة.
 
-**4. Enabling multiple users of the same account**
+**4. تمكين المستخدمين المتعددين لنفس الحساب**
 
-* Also on Tweetdeck, you can [set up an account as a team to allow multiple users to have different access](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
-* There will be one person that is the admin for the account and then the other users are contributors.
-* As a contributor you can post Tweets, Direct Message, like, and Retweet for the team account. You cannot change the password or manage account settings.
+* أيضًا على Tweetdeck ، يمكنك [إعداد حساب كفريق للسماح لمستخدمين متعددين بالوصول مختلف](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
+* سيكون هناك شخص واحد هو المشرف على الحساب ثم المستخدمين الآخرين هم المساهمون.
+* كمساهم يمكنك نشر تغريدات، رسالة مباشرة، مثل، و Retweet لحساب الفريق. لا يمكنك تغيير كلمة المرور أو إدارة إعدادات الحساب.

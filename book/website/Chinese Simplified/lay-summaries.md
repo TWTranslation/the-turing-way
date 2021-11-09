@@ -1,60 +1,60 @@
 (cm-lay-summaries)=
-# Lay Summaries
+# 非色摘要
 
-Lay summaries are useful for many purposes. They are usually used to communicate findings in a simple way to the wider public but they have a far greater scope than this. They help to disseminate findings between scientific disciplines as academic research articles are often hard for other disciplines to access. This can aid collaboration within research groups that have a mix of specialists and other stakeholders in the same team.
+简洁的摘要在许多方面都是有用的。 它们通常被用来以简单的方式向广大公众传达调查结果，但其范围远远大于此。 它们有助于在科学学科之间传播研究结果，因为学术研究文章往往难以让其他学科进入。 这将有助于拥有专家和同一团队其他利益攸关方混合的研究小组内的协作。
 
-More recently, lay summaries are becoming a requirement from academic journals as part of the submission of a research article. However, writing lay summaries is a specific form of writing and requires training, or at least careful thought, to be able to adapt your scientific writing.
+最近，作为提交研究文章的一部分，学术刊物正在要求刊登非刊物。 然而，写作摘要是一种特定的书面形式，需要培训。 或者至少仔细思考，以便能够适应你的科学写作。
 
 (cm-lay-summaries-what)=
-## What is a Lay Summary?
+## 什么是非专业总结？
 
-A lay summary is a summary of a research project or a research proposal that is usually written for members of the public, rather than researchers or professionals. It should be written in plain English, avoid the use of jargon and explain any technical terms that have to be included {cite:ps}`Duke2012summary`.
+非专业摘要是通常为公众撰写的研究项目或研究提案的摘要。 而不是研究人员或专业人员。 应以普通英文撰写。 避免使用术语并解释必须包含的任何技术条款 {cite:ps}`Duke2012summary`
 
 (cm-lay-summaries-why)=
-## Why Write Lay Summaries?
+## 为什么编写非色摘要？
 
-Apart from fulfilling the transparency and collaborative goals of an open science approach, there are specific reasons why writing lay summaries can benefit scientific progress.
+除了实现公开科学方法的透明度和合作目标外，还有一些具体的理由说明为什么撰写非平面摘要可以使科学进步受益。
 
-[INVOLVE](https://www.invo.org.uk/about-involve/), a national advisory group funded by the UK National Institute for Health Research reported that involving patients and healthcare professionals helps at all stages of a research project, from developing the research question to disseminating the results. The benefits of this direct involvement in research have been identified as follows {cite:ps}`Duke2012summary`:
-* Increasing the relevance of the research.
-* Increasing recruitment to clinical research.
-* Improving the design of the research to address ethical concerns, improve the research tools and make it easier for the people taking part.
-* Improving the quality of the data and its interpretation.
-* Making it more likely that the findings of the research will be used to make a difference to patients and healthcare workers lives.
+[INVOLVE](https://www.invo.org.uk/about-involve/), 一个由联合王国国家卫生研究所资助的国家咨询小组报告说，让病人和保健专业人员参与研究项目的所有阶段都有助于实现这一目标， 从发展研究问题到传播研究结果。 直接参与研究的好处已经确定，如下文所示： {cite:ps}`Duke2012摘要`：
+* 提高研究的相关性。
+* 增加临床研究的招生。
+* 改进研究的设计，以解决道德问题，改进研究工具，并使参与者更加容易。
+* 提高数据及其解释的质量。
+* 使研究结果更有可能被用来改变病人和保健工作者的生活。
 
-(cm-lay-summaries-how)=
-## Writing a Good Lay Summary
+(cm-lay-summaries-how )=
+## 正在写入一个良好的布局摘要
 
-**The difference between a lay summary and academic writing**
+**非平面摘要和学术著作之间的差异**
 
-Academic writing is usually not accessible to researchers outside of your discipline as well as those in non-academic roles. It is therefore a good idea to make all your academic writing more readable as being too ‘academised’ narrows the likelihood of dissemination to wider academic disciplines and the general public.
+除了学科之外，研究人员通常都无法查阅学术著作，也无法从事非学术性工作。 因此，使你们所有的学术著作都更容易读懂，太“学术”缩小了向更广泛的学术学科和一般公众传播的可能性。
 
-Less accessible academic writing has four main characteristics {cite:ps}`DunleavyTinkler2021impact`
-* Use of specialised vocabularies.
-* Passive verb use (or passive voice) that is supposed to make the writing more neutral or impersonal.
-* Nouns substituting for verbs to make sentences sound more complicated.
-* The generation of new nouns or acronyms that are discipline-specific.
+较难访问的学术写作具有四个主要特性 {cite:ps}`DunevyTinkler2021的影响`
+* 使用专门词汇。
+* 被动动动词使用（或被动语音），这种动词本应使写作更加中立或非人性。
+* 代替动词使判刑变得更加复杂。
+* 生成专门针对学科的新名词或缩写。
 
-Therefore, the key to making your writing more accessible is changing this language into a less formal and less technical style.
+因此，使您的写作更容易访问的关键是将这种语言更改为不那么正式和技术性更低的风格。
 
-### Adapting Content for Lay Summaries:
+### 调整非版摘要的内容：
 
-* Know your audience - Most lay summaries are written for a high school-age child’s level of understanding. That's about 14 years old!
-* Minimise jargon - Cut out all scientific words or, if you can’t cut them out completely, add a definition or weblink to explain the word.
-* Logical structure - Introduction sentence, aims and objectives, results and conclusions.
-* Shorten sentences and paragraphs - Lengthy paragraphs just put people off, most people cannot pay attention to paragraphs longer than two or three sentences in length.
-* Use active verbs and active voice - Make it personal, use 'I' and 'we'.
-* Content - The text should provide answers to the essential questions: Who, What, Where, When, Why, How.
-* Relevance and benefits - Aims and objectives clearly written, impact clearly stated.
-* If you are including diagrams, make sure that they are also simplified and include alternative text for greater accessibility.
+* 了解您的听众——大多数非专业摘要是为了高学龄儿童的理解水平而撰写的。 大约14岁！
+* 最小化用词 - 切断所有科学用词，如果你不能完全切除，请添加定义或擦除来解释这个词。
+* 逻辑结构——导言句、目的和目标、结果和结论。
+* 缩短句子和段落――冗长的段落仅仅将人拒之门外。 大多数人对长度不能超过两三句的段落给予关注。
+* 使用活动动词和活动语音——使它成为个人的，使用“I”和“我们”。
+* 内容——案文应回答基本问题：Who、What、Whe、When、Why、How。
+* 相关性和好处――明确阐述了目标和目标，并明确阐述了影响。
+* 如果你包括图表，请确保它们也是简化的，并包括其他文字，以便更容易获取。
 
 (cm-lay-summaries-test)=
-## Test Your Readability
+## 测试您的阅读能力
 
-Have a go at using one of the resources below to test the readability of the lay summary you have written.
+使用下面的资源来测试您所写的非原始摘要的可读性。
 
-Readability tests:
+可读性测试：
 * [Hemingway app](http://www.hemingwayapp.com/)
-* [The first word readability test](http://thefirstword.co.uk/readabilitytest/)
+* [第一个词可读性测试](http://thefirstword.co.uk/readabilitytest/)
 
-Here is a good example of how abstract can be changed into a lay summary: [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/).
+这是一个很好的例子，说明如何将抽象变成一个非原始摘要： [穿透那个原始摘要](https://bitesizebio.com/10871/perfecting-that-lay-summary/)。

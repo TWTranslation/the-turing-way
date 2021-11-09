@@ -39,4 +39,4 @@ Below we will briefly describe what the Makefile for such a project looks like. 
 
 It is important to emphasize that this file was not created in one go, but was constructed iteratively. The Makefile started as a way to run several dialect detection methods on a collection of input files and gradually grew to include the creation of figures and tables from the result files. Thus the advice for using Make for reproducibility is to *start small and start early*.
 
-The published Makefile in the repository does not contain the paper, but this *is* included in the internal Makefile and follows the same structure as the `report.pdf` file in the tutorial above. This proved especially useful for collaboration as only a single repository needed to be shared that contains the code, the results, and the manuscript.
+The published Makefile in the repository does not contain the paper, but this *is* included in the internal Makefile and follows the same structure as the `report.pdf` file in the tutorial above. Esto resultó especialmente útil para colaboración como solo un repositorio necesario para ser compartido que contiene el código, los resultados, y el manuscrito.

@@ -1,24 +1,24 @@
-(er-activism-preclinical-research)=
-# Ethical Decisions in Preclinical Research
+(er-activismo-investigación preclínica)=
+# Decisiones éticas en la investigación preclínica
 
-## Prerequisites / recommended skill level
-For preclinical scientists – no previous knowledge needed
+## Prerrequisitos / nivel de habilidad recomendado
+Para los científicos preclínicos, no se necesitan conocimientos previos
 
 ## Summary
-Society continually debate the use of animals in scientific research. The fundamental questions are whether experiments using animals are morally justifiable and whether the potential benefits outweigh the suffering of those animals? These questions have been coupled with increasing concern about the poor reproducibility of findings from animal research, due to the impact this has on translation, scientific progress and the use of resources. A question that is not often addressed is how those justified experiments are designed, conducted and analysed. Flawed experimental design, inappropriate statistical analysis and inadequate reporting have been flagged as areas for major concern {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproducibility`. It is morally incumbent upon us to ensure that animal experiments are appropriately designed, conducted and analysed otherwise the results are at risk of being unreliable. If the results are unreliable then the animals used have in effect have been wasted {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
+La sociedad debate continuamente sobre el uso de animales en la investigación científica. Las preguntas fundamentales son si los experimentos con animales son moralmente justificables y si los beneficios potenciales superan el sufrimiento de esos animales. Estas cuestiones se han unido a la creciente preocupación por la escasa reproducibilidad de los resultados de la investigación animal. Debido al impacto que esto tiene en la traducción, el progreso científico y el uso de los recursos. Una cuestión que no se aborda a menudo es cómo se diseñan, realizan y analizan esos experimentos justificados. Diseño experimental fallido, análisis estadístico inadecuado e informes inadecuados han sido marcados como áreas de mayor preocupación {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproducibility`. Incumbe moralmente a nosotros garantizar que los experimentos con animales se diseñen adecuadamente. de lo contrario los resultados corren el riesgo de no ser fiables. Si los resultados no son confiables entonces los animales utilizados han sido desperdiciados {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
 
-## How this will help you/ why this is useful
-Many preclinical researchers do not think of themselves as data scientists. This may be primarily because they work with small datasets. However, there are many common open research themes and this chapter aims to assist preclinical scientists in understanding the why, where, when, and how they can employ open research initiatives, some designed specifically for the use by preclinical scientists.
-> The above sentence may not fit with the structure of the book or flow within these chapters - Nadia
+## Cómo esto te ayudará / por qué esto es útil
+Muchos investigadores preclínicos no se consideran científicos de datos. Esto puede ser principalmente porque trabajan con conjuntos de datos pequeños. Sin embargo, hay muchos temas de investigación abiertos comunes y este capítulo tiene como objetivo ayudar a los científicos preclínicos a entender por qué, dónde, cuándo y cómo pueden emplear iniciativas de investigación abiertas, algunas diseñadas específicamente para el uso por científicos preclínicos.
+> La frase anterior no puede encajar con la estructura del libro o flujo dentro de estos capítulos - Nadia
 
-## The Experimental Design Assistant
-The National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) have a freely accessible web-based tool – The Experimental Design Assistant (EDA; https://eda.nc3rs.org.uk) which aims to help researchers improve the design, conduct, analysis and reporting of animal experiments. Designing experiments with the EDA encourages researchers to consider the sources of bias at the design stages of the experiment before the data are collected, ensuring a rigorous design that is more likely to yield robust findings that can be reproduced. The tool ensures that you have a transparent, clear protocol and plan for statistical analysis which can be scrutinised before collecting data.
+## Asistente de Diseño Experimental
+El Centro Nacional para el Reemplazo, Refinement and Reduction of Animals in Research (NC3Rs) have a free web based tool – The Experimental Design Assistant (EDA; https://eda. c3rs.org.uk) cuyo objetivo es ayudar a los investigadores a mejorar el diseño, conducta, análisis y reporte de experimentos con animales. El diseño de experimentos con la EDA anima a los investigadores a considerar las fuentes de sesgo en las etapas de diseño del experimento antes de que se recopilen los datos, asegurar un diseño riguroso que tenga más probabilidades de producir resultados sólidos que puedan ser reproducidos. La herramienta garantiza que disponga de un protocolo y un plan transparentes y claros para el análisis estadístico que se pueda examinar antes de recopilar datos.
 
-**Features of the EDA:**
-* A computer-aided design tool to develop a diagram representing the experimental plan
-* feedback from an expert system on the experimental plan
-* analysis suggestion
-* sample size calculation (power analysis)
-* randomisation sequence generation
-* support for allocation concealment and blinding
-* web-based resources to improve knowledge of experimental design and analysis
+**Características de la EDA:**
+* Una herramienta de diseño asistida por ordenador para desarrollar un diagrama que representa el plan experimental
+* retroalimentación de un sistema experto en el plan experimental
+* sugerencia de análisis
+* cálculo del tamaño de la muestra (análisis de potencia)
+* Generación de secuencias de aleatorización
+* apoyo para la ocultación de la asignación y ciegas
+* recursos basados en la web para mejorar el conocimiento del diseño experimental y el análisis

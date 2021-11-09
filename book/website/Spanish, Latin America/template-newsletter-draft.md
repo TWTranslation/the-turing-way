@@ -1,18 +1,18 @@
-(ch-template-newsletter-draft)=
-# Template for drafting _The Turing Way_ Newsletters
+(ch-plantilla-borrador-newsletter)=
+# Plantilla para la redacción _The Turing Way_ Boletines de noticias
 
 ```
-Date: DD Month YYYY
+Fecha: DD Mes AAAA
 
 # title
 
-Hello Turing Way friends!
+Hola amigos Turing Way!
 
-This month ...
+Este mes...
 
-Shout out ...
+A lo largo de ...
 
-Events ...
+Eventos ...
 
 Find more details on these topics below 👇
 
@@ -43,17 +43,17 @@ Find more details on these topics below 👇
 
 ## Connect with us!
 
-- [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
+- [Acerca del proyecto](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
-- [GitHub repository](https://github.com/alan-turing-institute/the-turing-way)
-- [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
-- [Public Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way)
+- [Repositorio de GitHub](https://github.com/alan-turing-institute/the-turing-way)
+- [Canal de Slack](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cdUwR~TIqpBw)
+- [Canal público Gitter](https://gitter. m/alan-turing-institute/the-turing-way)
 - [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
 - [Twitter Channel](https://twitter.com/turingway)
 
-You are welcome to contribute content for the next newsletter by
-emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
+Te invitamos a contribuir con contenido para el siguiente boletín
+enviando un correo electrónico a [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*Did you miss the last newsletters?*
-*Check them out [here](https://tinyletter.com/TuringWay/archive).*
+*¿Te has perdido los últimos boletines de noticias?*
+*Échales un vistazo [here](https://tinyletter.com/TuringWay/archive).*
 ```

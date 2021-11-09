@@ -1,101 +1,101 @@
-(ch-coworking-organisation)=
-# Organising coworking call for your community
+(منظمة العمل المشترك)=
+# تنظيم مكالمة مشتركة مع مجتمعك
 
-If you would like to set up coworking calls for your community, you can repurpose and adapt the format, templates, and materials discussed in this chapter to support your teams and communities.
+إذا كنت ترغب في إعداد مكالمات جماعية لمجتمعك، يمكنك إعادة الغرض وتكييف التنسيق، القوالب والمواد التي نوقشت في هذا الفصل لدعم الفرق والمجتمعات المحلية الخاصة بك.
 
-Practices described here are what we use in _The Turing Way_, but there are more ways to run such coworking calls. Below, I describe different aspects that you should take into consideration when planning or designing your coworking calls.
+الممارسات الموصوفة هنا هي ما نستخدمه في _الطريق الوشيك_، ولكن هناك المزيد من الطرق لتشغيل هذه المكالمات المشتركة. وفيما يلي وصف لمختلف الجوانب التي ينبغي أن تأخذها في الاعتبار عند تخطيط أو تصميم مكالماتكم الجماعية.
 
-## Designing a format the works for you
+## تصميم تنسيق العمل من أجلك
 
-To identify what could be the best format for your coworking calls, you need to think about the following aspects:
+لتحديد ما يمكن أن يكون أفضل تنسيق لمكالماتك المشتركة، تحتاج إلى التفكير في الجوانب التالية:
 
-**Purpose of your coworking calls**
+**الغرض من مكالماتك المعدنية**
 
-In _The Turing Way_, as described in the {ref}`motivation <ch-coworking-motivation>` subchapter, we host these calls for building connections, supporting our contributors, onboarding new members and celebrating their work.
+في _طريق الترقيق_، كما هو مبين في فصل الدوافع {ref}` <ch-coworking-motivation>` فرعي، نحن نستضيف هذه الدعوات لبناء الاتصالات، ودعم المساهمين فينا، ونبدأ بالصعود إلى أعضاء جدد ونحتفل بعملهم.
 
-Your purpose for hosting coworking calls could be completely different and identifying that is important for you to plan the remaining logistics. A few other scenarios could be:
-  - If you work from home, you would like to see your colleagues and stay connected with them through designated coworking schedules.
-  - If you are working with a distributed group of people on a common project, and if communication and exchange related to the project while working asynchronously is an issue, you can get a lot of your work done over a coworking call.
-  - If you are working on multiple projects and struggle to focus on one task at a time, coworking can help you put aside a few hours of your time to work with your colleagues who you share the project with.
-  - If there is a task you are struggling to complete, you can invite support from your trusted colleagues through coworking calls.
+هدفك من استضافة المكالمات المشتركة يمكن أن يكون مختلفا تماما، وتحديد ذلك مهم بالنسبة لك لتخطيط اللوجستيات المتبقية. ويمكن أن تكون بعض السيناريوهات الأخرى كما يلي:
+  - إذا كنت تعمل من المنزل، فإنك تود أن ترى زملاءك وتبقى على اتصال بهم من خلال جداول محددة للعمل التعاوني.
+  - إذا كنت تعمل مع مجموعة موزعة من الناس على مشروع مشترك، وإذا كان الاتصال والتبادل المتعلقين بالمشروع أثناء العمل دون تزامن يمثل مشكلة، يمكنك إنجاز الكثير من عملك عبر مكالمة مشتركة.
+  - إذا كنت تعمل على مشاريع متعددة وتكافح للتركيز على مهمة واحدة في وقت واحد، التعايش يمكن أن يساعدك على تخصيص بضع ساعات من وقتك للعمل مع زملائك الذين تشاركهم المشروع معهم.
+  - إذا كانت هناك مهمة تناضل من أجل إكمالها، يمكنك دعوة الدعم من زملائك الموثوق بهم من خلال مكالمات مشتركة.
 
-**Target audience**
+**الجمهور المستهدف**
 
-If you already know the purpose of your coworking calls, you will be able to identify who your target audience is.
+إذا كنت تعرف بالفعل الغرض من المكالمات الجماعية الخاصة بك، فستتمكن من تحديد الجمهور المستهدف.
 
-For example, if you host your coworking calls for an open source project such as _The Turing Way_, you can expect your current members, past contributors or even new members to the project to participate. If you are part of a small project, you would expect the same familiar faces in all your coworking calls.
+على سبيل المثال، إذا كنت تستضيف مكالماتك المعدنية من أجل مشروع مفتوح المصدر مثل _طريق التوريق_، يمكنك أن تتوقع مشاركة الأعضاء الحاليين أو المساهمين السابقين أو حتى الأعضاء الجدد في المشروع. إذا كنت جزءا من مشروع صغير، فإنك تتوقع نفس الوجوه المألوفة في جميع مكالماتك الجماعية.
 
-**Organisers and hosts**
+**المنظمون والمضيفون**
 
-Many tasks go into organising a coworking call (discussed later). These tasks can be taken care of by one person like a community manager, project manager, or a volunteer organiser. However, it is always a good idea to involve more people as co-organisers so that the coworking call still happens even when the main organiser can't join for any reason. To avoid one person to burden themselves with "not so exciting" organisation issues, you can also decide to rotate the role within the members of your project.
+العديد من المهام تقوم بتنظيم مكالمة جماعية (يتم التحدث إليها لاحقاً). يمكن القيام بهذه المهام من قبل شخص واحد مثل مدير المجتمع المحلي أو مدير المشروع أو منظم متطوع. غير من الجيد دائماً إشراك المزيد من الناس كمشاركين في تنظيم المكالمة الجماعية حتى لو لم يتمكن المنظمون الرئيسيون من الانضمام لأي سبب من الأسباب. تجنب أن يثقل شخص ما نفسه بقضايا المنظمة "غير المثيرة للغاية"، يمكنك أيضا أن تقرر تدوير الدور داخل أعضاء مشروعك.
 
-**Size of the call**
+**حجم المكالمة**
 
-No matter what the purpose and who the target audience of your calls are, you can decide the size of your call by managing participation by prior registration. If you organise these calls for your project members on a mutually agreed time and with an agenda to work on specific tasks, you can expect most of them to show up. If you keep your call open for any of your community members join, you may end up having a different number of participants on different calls. This would also mean that for some calls, there won't be anyone available to co-work with you.
+بغض النظر عن الغرض من المكالمات الخاصة بك وعن الجمهور المستهدف، بإمكانك أن تقرر حجم المكالمة عن طريق إدارة المشاركة عن طريق التسجيل المسبق. إذا قمت بتنظيم هذه النداءات لأعضاء مشروعك في وقت متفق عليه بصورة متبادلة وبجدول أعمال للعمل على مهام محددة، يمكنك أن تتوقع أن يظهر معظمهم. إذا أبقيت مكالمة مفتوحة لأي عضو من أعضاء مجتمعك، قد يكون لديك في النهاية عدد مختلف من المشاركين في مكالمات مختلفة. وهذا يعني أيضا أنه بالنسبة لبعض المكالمات، لن يكون هناك أي شخص متاح للمشاركة في العمل معك.
 
-It's useful to handle some sort of sign-up sheet or registration system so the organisers know who to expect on the call. In _The Turing Way_, we use dedicated HackMD notes that can be updated before each call by the participants.
+من المفيد التعامل مع نوع من ورقة التسجيل أو نظام التسجيل حتى يعرف المنظمون من الذي يتوقعونه في المكالمة. في _طريق التدوين_، نستخدم ملاحظات هاك إد المخصصة التي يمكن تحديثها قبل كل مكالمة من قبل المشاركين.
 
-**Frequency of these calls**
+**تواتر هذه المكالمات**
 
-Once you have identifies the purpose, target audience and size of your calls, you can decide how often you would like to host them. If you work with the same group of people, you can host it as per your common availability and a mutually agreed time on a weekly or monthly basis.
+بمجرد أن تحدد الغرض والجمهور المستهدف وحجم المكالمات الخاصة بك، يمكنك أن تقرر عدد المرات التي ترغب في استضافتها. إذا كنت تعمل مع نفس المجموعة من الناس، بإمكانك أن تستضيفه حسب توافرك المشترك والوقت المتفق عليه بين الطرفين على أساس أسبوعي أو شهري.
 
-If the expected participants of your call also work on multiple projects, you might consider regularly hosting it on the same day and time each week or each month. This consistency will allow them to check their availability in advance and block these hours in their calendar. This will also reduce the extra work of coordinating the common availability every time (though you will have to do this in the beginning).
+إذا كان المشاركون المتوقعون في المكالمة يعملون أيضاً على مشاريع متعددة، وقد تفكرون في استضافتها بانتظام في نفس اليوم والوقت من كل أسبوع أو كل شهر. وهذا الاتساق سيمكنهم من التحقق من توافرهم مسبقاً وحظر هذه الساعات في تقويمهم. ومن شأن ذلك أيضا أن يقلل من العمل الإضافي المتمثل في تنسيق التوافر المشترك في كل مرة (مع أنه سيتعين عليك القيام بذلك في البداية).
 
-**Resource availability**
+**توافر الموارد**
 
-Based on the resources available to you, you might have to fine-tune other aspects of your call. For example:
-- Shared calendar: If there is a calendar that are updated with the coworking calls schedule, people can subscribe to them and indicate their availability.
-- Communication platforms: software like Zoom can allow you to connect with many people at the same time. However, you will need a paid subscription (pro account) to control who joins your call (by activating waiting room to avoid Zoom bombing), manage breakout rooms (to allow multiple small groups and discussions) or host longer calls (>40 minutes).
-- Chat system: If you have a group Slack or Gitter channel, information can be exchanged with everyone, including those who can not join the calls but want to offer suggestions or carry out related tasks asynchronously but in coordination with the group. This also allows people to keep each other informed of any last-minute changes such as updated links for joining calls, correct notes, or cancellation of calls.
+استنادًا إلى الموارد المتاحة لك، قد تحتاج إلى ضبط جوانب أخرى من مكالمتك. وعلى سبيل المثال:
+- التقويم المشترك: إذا كان هناك تقويم يتم تحديثه مع الجدول الزمني للمكالمات التكوينية، يمكن للأشخاص الاشتراك فيها والإشارة إلى توافرها.
+- منصات الاتصال: برمجيات مثل التكبير يمكن أن تسمح لك بالتواصل مع العديد من الناس في نفس الوقت. ومع ذلك، ستحتاج إلى اشتراك مدفوع (حساب المحترفين) للتحكم في الذين ينضمون إلى مكالمتك (بتنشيط غرفة الانتظار لتجنب التفجير المتكرر)، إدارة غرف الانفصال (للسماح بعدة مجموعات صغيرة ومناقشات) أو استضافة مكالمات أطول (>40 دقيقة).
+- نظام الدردشة: إذا كان لديك مجموعة Slack أو قناة Gitter ، يمكن تبادل المعلومات مع الجميع، بمن فيهم أولئك الذين لا يستطيعون الانضمام إلى المكالمات ولكنهم يريدون تقديم اقتراحات أو الاضطلاع بالمهام ذات الصلة بشكل متزامن ولكن بالتنسيق مع الفريق. ويسمح ذلك أيضا للناس بإبقاء بعضهم البعض على علم بأي تغييرات تحدث في اللحظة الأخيرة مثل تحديث الروابط الخاصة بضم المكالمات، الملاحظات الصحيحة، أو إلغاء المكالمات.
 
-## Logistics and tasks
+## السوقيات والمهام
 
-Like any event, coworking calls requires planning, organising, hosting and making sure that they happen. As the organisers of the event, you will be required to:
+كما هو الحال في أي حالة، يتطلب التعادل مع المكالمات التخطيط والتنظيم والاستضافة والتأكد من حدوثها. بصفتك منظمي الحدث، سوف يطلب من:
 
-**1. Choose the tools**
+**1. اختر الأدوات**
 
-The following aspects will require you to make choices in regards of what tools you will use.
+الجوانب التالية سوف تتطلب منك اتخاذ خيارات فيما يتعلق بالأدوات التي ستستخدمها.
 
-- maintaining shared notes: few options are [Etherpad](https://etherpad.org/), [HackMD](https://hackmd.io/), [GitHub](https://github.com/), [Google doc](https://en.wikipedia.org/wiki/Google_Docs)
-- managing registration: few options are via shared notes, [Zoom](https://zoom.us), [Eventbrite](https://www.eventbrite.com/), [Google Form](https://en.wikipedia.org/wiki/Google_Forms)
-- hosting the calls: few options are [Zoom](https://zoom.us), [Google Hangout](https://en.wikipedia.org/wiki/Google_Hangouts), [Skype](https://www.skype.com/en/), [Jisti](https://meet.jit.si/)
-- facilitating chats: few options are [Slack](https://slack.com/), [Gitter](https://gitter.im/), other [web-based or phone applications](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)
-- sharing timers: few options are [cuckoo.team](https://cuckoo.team/), [vclock](https://vclock.com/timer/) or other web-based timers
-- finding a common availability: few options are [Doodle](https://doodle.com/poll/), [when2meet.com](https://www.when2meet.com/), or other [meeting schedule apps](https://zapier.com/blog/best-meeting-scheduler-apps/)
+- الحفاظ على الملاحظات المشتركة: خيارات قليلة هي [Etherpad](https://etherpad.org/)، [HackMD](https://hackmd.io/)، [GitHub](https://github.com/)، [Google doc](https://en.wikipedia.org/wiki/Google_Docs)
+- إدارة التسجيل: خيارات قليلة هي عبر الملاحظات المشتركة، [تكبير](https://zoom.us)، [الحدث ،](https://www.eventbrite.com/)، [نموذج جوجل](https://en.wikipedia.org/wiki/Google_Forms)
+- استضافة المكالمات: خيارات قليلة هي [التكبير](https://zoom.us)، [Google Hangout](https://en.wikipedia.org/wiki/Google_Hangouts)، [Skype](https://www.skype.com/en/)، [Jisti](https://meet.jit.si/)
+- تيسير المحادثات: خيارات قليلة هي [Slack](https://slack.com/)، [Gitter](https://gitter.im/)، تطبيقات أخرى [على الإنترنت أو الهاتف](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)
+- مشاركة المؤقتات: خيارات قليلة هي [cucko.team](https://cuckoo.team/)أو [vclock](https://vclock.com/timer/) أو غيرها من المؤقت على الويب
+- العثور على تواجد شائع : خيارات قليلة هي [الكودل](https://doodle.com/poll/)، [عندم2meet.com](https://www.when2meet.com/)، أو [تطبيقات جدول الاجتماعات](https://zapier.com/blog/best-meeting-scheduler-apps/)
 
-**2. Plan and host the calls**
+**2. تخطيط واستضافة المكالمات**
 
-As discussed earlier, you will need to agree upon dates and time with people who would like to participate in coworking calls. Your calls could be organised on a weekly or monthly basis that consistently take place on a certain day and time periodically, or it could be organised once in a while by finding a common availability.
+كما نوقش سابقاً، ستحتاج إلى الاتفاق على التواريخ والوقت مع الأشخاص الذين يرغبون في المشاركة في المكالمات المشتركة. يمكن تنظيم مكالماتك على أساس أسبوعي أو شهري يتم باستمرار في يوم معين ووقت معين بشكل دوري، أو يمكن تنظيمها مرة واحدة في غضون فترة من الزمن عن طريق إيجاد تواجد مشترك.
 
-Once you have found a schedule (date, time and frequency), the following tasks will go into planning them:
-- update the schedule, agenda and calendar to share them with the attendees (or potential target audience). It is also quite effective when they receive a calendar invite.
-- maintain communication (by email, newsletter, or social media) so that everyone is aware of the next calls and the resources available for them to participate. It is particularly crucial to use meeting links like [arewemeetingyet](https://arewemeetingyet.com/) for communicating these schedules for members from different countries so that they can see the time in their time zones.
+بمجرد العثور على جدول زمني (التاريخ والوقت والتواتر)، ستنتقل المهام التالية إلى تخطيطها:
+- تحديث الجدول الزمني وجدول الأعمال والجدول الزمني لتقاسمهما مع الحاضرين (أو مع الجمهور المستهدف المحتمل). كما أنه يكون فعالا تماما عندما يستقبل مدعو إلى التقويم.
+- الحفاظ على الاتصال (عن طريق البريد الإلكتروني أو النشرة الإخبارية أو وسائل الإعلام الاجتماعية) حتى يكون الجميع على علم بالمكالمات التالية والموارد المتاحة لهم للمشاركة. من المهم بشكل خاص استخدام روابط الإجتماع مثل [arewemetingyet](https://arewemeetingyet.com/) لتوصيل هذه الجداول الزمنية للأعضاء من مختلف البلدان حتى يمكنهم رؤية الوقت في مناطقهم الزمنية.
 
-For hosting these calls, you can reuse and adapt the agenda, techniques and templates described in the earlier chapters. You main tasks as a host will be to:
-- provide adequate support to the participants so that they can make the best of their time. In _The Turing Way_ coworking calls, we find it useful to use breakout rooms when there are many people working in small groups or if some people need more discussions, while others want to quietly work on their tasks.
-- facilitate shared notes with participants before, during and after the call, so that they can keep track of useful resources or ideas they discuss during the coworking call.
+ولاستضافة هذه المكالمات، يمكنك إعادة استخدام وتكييف جدول الأعمال والتقنيات والنماذج الموصوفة في الفصول السابقة. سوف تكون المهام الرئيسية كمضيف كما يلي:
+- • تقديم الدعم الكافي للمشاركين حتى يتمكنوا من الاستفادة من وقتهم على أفضل وجه. في _طريق اللارجح_ مكالمات مشتركة، ونجد أنه من المفيد استخدام غرف التفريغ عندما يكون هناك العديد من الأشخاص الذين يعملون في مجموعات صغيرة أو إذا كان بعض الناس بحاجة إلى المزيد من المناقشات. بينما يريد الآخرون العمل بهدوء في مهامهم.
+- تيسير تبادل الملاحظات مع المشاركين قبل المكالمة وأثناءها وبعدها، حتى يتمكنوا من تتبع الموارد أو الأفكار المفيدة التي يناقشونها أثناء نداء التعاون.
 
-**3. Create a safe and accountable space**
+**3. إنشاء مساحة آمنة ومسؤولة**
 
-Though discussed last, this should be your highest priority.
+وعلى الرغم من المناقشة الأخيرة، فإن هذه المسألة ينبغي أن تكون أولويتكم القصوى.
 
-You should design these calls with an intention to make everyone feel welcome, involved and safe. It's highly recommended to choose a Code of Conduct and put reporting guideline in place to share with everyone in advance. See this minimal [CoC from Contributor Covenant](https://www.contributor-covenant.org/) and an expanded version of {ref}`The Turing Way CoC<ch-coc>`. Additionally, you should also communicate the basic etiquettes, such as muting microphones when not speaking or not interrupting others when working in a Pomodoro session unless necessary.
+يجب عليك تصميم هذه المكالمات بنية جعل الجميع يشعرون بالترحيب والمشاركة والأمان. ويوصى بشدة باختيار مدونة لقواعد السلوك ووضع مبادئ توجيهية للإبلاغ لتقاسمها مع الجميع مسبقا. شاهد هذا الحد الأدنى [CoC من المساهم في العهد](https://www.contributor-covenant.org/) و نسخة موسعة من {ref}`طريق Turing CoC<ch-coc>`. بالإضافة إلى ذلك، يجب عليك أيضاً أن تتواصل مع etiquetts الأساسية، مثل كتم الميكروفون عندما لا تتحدث أو لا تقطع الآخرين عند العمل في جلسة بومودورو ما لم يكن ذلك ضرورياً.
 
-It is useful to let everyone know who they can contact if they need help in troubleshooting during the call or need more time to discuss their ideas. Create an agenda that states clearly what is expected of them, such as if they should bring their tasks and questions in the call or communicate them beforehand. In _The Turing Way_, we have dedicated slots for both group discussions and quiet working.
+ومن المفيد إبلاغ الجميع بمن يمكنهم الاتصال به إذا كانوا بحاجة إلى مساعدة في استكشاف المشاكل أثناء المكالمة أو إذا كانوا بحاجة إلى مزيد من الوقت لمناقشة أفكارهم. وضع جدول أعمال يبين بوضوح ما هو متوقع منها، كما لو كان عليهم أن يضعوا مهامهم وأسئلتهم في المكالمة أو أن يبلغوها مسبقا. في _طريق التوفير_، لدينا فتحات مخصصة لكل من المناقشات الجماعية والعمل الهادئ.
 
 
-## Some Examples
+## بعض الأمثلة
 
-### Open calls for building connections
+### فتح المكالمات لبناء الاتصالات
 
-One of _The Turing Way_ contributors, Natalie Thurlby has adapted the Collaboration Café to create a [Data science online co-working group](http://bristol.ac.uk/golding/ask-jgi/data-science-online-co-working-group/). They have designed their call format for the Jean Golding Institute's community members in Bristol to work together and build connections while working on their data science projects. This is a great example of using coworking calls for community building and supporting others with similar research interests.
+واحد من _المساهمين في طريق اللعبة_ ناتالي ثورلبي قام بتكييف التعاون لإنشاء [فريق عمل مشترك على الإنترنت لعلوم البيانات](http://bristol.ac.uk/golding/ask-jgi/data-science-online-co-working-group/). وقد صمموا شكل دعوتهم لأعضاء مجتمع معهد جان غولدنغ في بريستول للعمل معا وبناء الاتصالات أثناء العمل على مشاريعهم المتعلقة بعلم البيانات. وهذا مثال كبير على استخدام الدعوات الجماعية لبناء المجتمع ودعم الآخرين ذوي المصالح البحثية المماثلة.
 
-### Small groups for supporting each other
+### مجموعات صغيرة لدعم بعضها البعض
 
-You can also plan your coworking calls with a small group of (2-3) colleagues with whom you can mutually hold accountability for your time and work. A small group reduces the burden of coordinating multiple time zones and finding a schedule that is suitable for everyone. Naomi Penfold and Stefanie Butland have written about their 1:1 coworking format in this post: [Online Co-working Partnerships are Community of Practice in Action](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/#more-3009). While reviewing this chapter, Naomi described their 1:1 call format in contrast with _The Turing Way_ group format as follows:
+يمكنك أيضا التخطيط لمكالماتك الجماعية مع مجموعة صغيرة من الزملاء (2-3) الذين يمكنك أن تتحمل معهم مسؤولية متبادلة عن وقتك وعملك. فمجموعة صغيرة تخفف من عبء تنسيق مناطق زمنية متعددة وإيجاد جدول زمني مناسب للجميع. ناومي بنفورد وستيفاني بوتلاند كتبا عن صيغة العمل المشترك 1:1 في هذه الوظيفة: [شراكات العمل المشترك عبر الإنترنت هي جماعة الممارسة في العمل](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/#more-3009). أثناء استعراض هذا الفصل، وصفت ناومي تنسيق المكالمات 1:1 في مقابل _طريق التوريد_ على النحو التالي:
 
-> In the co-working calls I have, it's 1:1 and we often spend 20 minutes in the beginning catching up and talking about our progress since last time. If there is something we want to discuss more intensely, we allocate 30 minutes of our call time to that, for example, one of us asking the other how to troubleshoot something. For the time in between, we do a few quiet working sessions (sometimes 25 minutes, sometimes longer). This is likely a combination of a co-mentoring call and a co-working Pomodoro call, and it works well for me.
+> في مكالمات العمل المشتركة لدي، إنها 1:1 وغالبا ما نقضي 20 دقيقة في بداية اللحاق بالركب والتحدث عن التقدم الذي أحرزناه منذ المرة الأخيرة. وإذا كان هناك شيء نريد أن نناقشه بمزيد من التكثيف، فإننا نخصص 30 دقيقة من وقت دعوتنا لذلك؛ على سبيل المثال ، يسأل أحدنا الآخر عن كيفية حل مشكلة ما. وخلال الفترة الفاصلة، نعقد بضع جلسات عمل هادئة (25 دقيقة أحياناً، أطول أحياناً). ومن المرجح أن هذا مزيج من مكالمة إرشادية مشتركة و مكالمة بومودورو، وهي تعمل بشكل جيد بالنسبة لي.
 
-You can read an adapted version of their blog post along with other ideas for virtual events in the document by Center for Scientific Collaboration and Community Engagement {cite:ps}`CSCCE2020virtual`.
+يمكنك قراءة نسخة مكيفة من منشورهم في المدونة إلى جانب أفكار أخرى للأحداث الافتراضية في الوثيقة من قبل مركز التعاون العلمي وإشراك المجتمع {cite:ps}`CSCCE2020الافتراضي`.
 
-If you organise or host a coworking call in your community, you are welcome to highlight them in this chapter by creating a [pull request](https://github.com/alan-turing-institute/the-turing-way/pulls) on the GitHub repository (see [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) for details).
+إذا قمت بتنظيم أو استضافة مكالمة جماعية في مجتمعك، أنت مرحب بك لتسليط الضوء عليها في هذا الفصل من خلال إنشاء [طلب سحب](https://github.com/alan-turing-institute/the-turing-way/pulls) على مستودع GitHub (انظر [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) للحصول على التفاصيل).

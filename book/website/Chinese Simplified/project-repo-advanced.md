@@ -1,71 +1,71 @@
-# Advanced Structure for Data Analysis
+# 数据分析的高级结构
 
-## Prerequisites/Recommended Skill Level
+## 前提/推荐技能级别
 
-| Prerequisite                                    | Importance | Notes                                           |
-| ----------------------------------------------- | ---------- | ----------------------------------------------- |
-| {ref}`Version Control<rr-vcs>`            | Helpful    | Knowledge of using git for version control      |
-| {ref}`Open Research<rr-open>`             | Helpful    | Components are part of the compendium           |
-| {ref}`Reproducible Environments<rr-renv>` | Helpful    | Can be used to make the compendium reproducible |
+| 前提条件：                        | 重要性 | 注                |
+| ---------------------------- | --- | ---------------- |
+| {ref}`版本控制<rr-vcs>`    | 有帮助 | 使用 git 进行版本控制的知识 |
+| {ref}`打开研究<rr-open>`   | 有帮助 | 组件是简编的一部分        |
+| {ref}`可复现的环境<rr-renv>` | 有帮助 | 可以用来使简编可复制。      |
 
 ## Summary
 
-When planning out a research study, one crucial and often forgotten component is setting up a repository. In this section, the benefits and considerations of designing a repository will be outlined, along with an example structure and further resources to guide your workflow.
+在规划一项研究时，一个关键的而且常常被遗忘的组成部分是建立一个储存库。 本节将概述设计仓库的好处和考虑因素， 还有一个示例结构和更多的资源来指导您的工作流程。
 
-The prerequisites for this chapter can vary depending on the organisational needs of a project. Creating a repository with a simple research project layout can require minimal technical knowledge (such as managing only input data and output results). Meanwhile, advanced repository layouts can be required for more complicated projects (such as projects with dependencies on other projects).
+本章的前提条件可能因项目的组织需要而异。 创建一个具有简单研究项目布局的仓库可能需要最小的技术知识(例如只管理输入数据和输出结果)。 同时，可能需要对更复杂的项目（例如依赖其他项目的项目）进行高级存放布局。
 
-## Background
+## 二. 背景
 
-A repository (or a "repo") is a storage location for your research project. A repository can contain a range of digital objects and can be used to store your project by using online platforms such as GitHub. The aim of a repository is to organise your project in such a way this is both accessible to others and efficient to use.
+仓库(或“仓库”)是您的研究项目的存储位置。 存储库可以包含一系列数码对象，并且可以通过使用 GitHub 等在线平台来存储您的项目。 存储库的目的是以这样的方式组织您的项目，这既可供他人访问又有效使用。
 
-So far, we saw the key documents that one should add when starting or setting up a project repository. If you are following along, your project should contain the following files:
+到目前为止，我们看到了在启动或建立一个项目储存库时应该添加的关键文件。 如果您一直在跟随，您的项目应该包含以下文件：
 
 ```
-Project Folder/
-├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
-├── CONTRIBUTING             <- Contribution guideline for collaborators
-├── LICENSE                  <- software license
-├── ...                      <- any other files that you may have added for your project
-└── README.md                <- information about the repo
+项目文件夹/
+/ ---- ---社区项目的 CODE_OF_CONDUCT          <- 社区项目的行为守则
+| -- --CONTRIBUTING             <- 合作者的贡献指南
+------- LICENSE                  <- 软件许可证
+---. 。                      <- 您可能已经为您的项目添加的任何其他文件
+--README d                <- 关于仓库的信息
 ```
 
-In this subchapter, we outline the benefits and considerations of designing a repository, along with an example structure and further resources to guide your workflow.
+在本小章中，我们概述了设计一个仓库的好处和考虑因素，以及一个示例结构和指导您工作流程的进一步资源。
 
 ```{note}
-The main benefit of designing your repository by intentionally adding documentation, resources and relevant information allows creating an infrastructure for ethical, open and high-quality research from the get-go.
+通过故意添加文档来设计您的存储库的主要优点， 资源和相关信息使得能够建立起一种基础设施，从而能够进行符合道德、公开和高质量的研究。
 ```
 
-## Main Considerations
+## 主要考虑
 
-When sharing your resources via your repository, consider the following aspects of reproducibility in your research:
+当通过你的资源库分享你的资源时，请在你的研究中考虑下面的可复制性方面：
 
-- Transparency and openness
-- Version control system (no more files like final_v1_FINAL.R, final_v2_FINAL.R, ...)
-- Make it easy to navigate so that you save time for everyone involved
-- Consider {ref}`pd-overview-repro` aspects
-- Make sure that you provide sufficient details so that others can build on your work
+- 透明度和公开性
+- 版本控制系统 (没有更多文件像final_v1_FINAL.R, final_v2_FINAL.R, ...)
+- 方便导航，为所有参与者节省时间
+- 考虑 {ref}`pd-overview.repro-` 方面
+- 请确保您提供足够的详细信息，以便其他人可以在您的工作基础上继续工作
 
-## Main Recommendations
+## 主要建议
 
-Always consider designing your project for collaboration by adding key documents describing project goals, vision, roadmap, contribution and communication process (as described in earlier subchapters).
-- Include details in {ref}`README file<pd-project-repo-readme>`describing _what_ the repository is for and _how_ to navigate it
-- Provide vision, goals and roadmap wherever possible (see [Kamran Ahmed's developer roadmap](https://github.com/kamranahmedse/developer-roadmap) for example)
-- General structure should separate input (data), methods (scripts) and output (results, figures, manuscript)
-- Specify what shouldn't be tracked in the `.gitignore` file, such as sensitive/private files, large dataset or personal notes
-- Include information on your computational environment {ref}`Reproducible Environments<rr-renv>` to ensure reproducibility (this can also be specified in the README)
+始终如一地考虑设计你们的合作项目，增加说明项目目标、远景、路线图、贡献和交流过程的关键文件(如上文小节所述)。
+- 在 {ref}`README 文件<pd-project-repo-readme>中包含详细信息`描述 _仓库是什么_ 和 _如何导航它_
+- 尽可能提供视野、目标和行进图(例如，参见 [Kamran Ahmed开发者的行进图](https://github.com/kamranahmedse/developer-roadmap))
+- 一般结构应区分输入(数据)、方法(脚本)和输出(结果、 数字、 脚本)
+- 指定 `.gitignore` 文件中不应该跟踪的内容，例如敏感/私有文件、大型数据集或个人笔记
+- 包含您的计算环境 {ref}`可复现环境<rr-renv>` 以确保复现(这也可以在README中指定)
 
-## Example Repository Structure
+## 示例仓库结构
 
-### Example for a Research Project
+### 研究项目示例
 
-Here are suggestion of files and folders a research project must have.
+这里是一个研究项目必须有的文件和文件夹的建议。
 
 ```
-Project Folder/
-├── docs                     <- documentation
-│   └── codelist.txt 
-│   └── project_plan.txt
-│   └── ...
+项目文件夹/
+/ *--docs                     <- 文档
+codex. --codelist.txt 
+cernet---project_plan.txt
+codes--- ...
 │   └── deliverables.txt
 ├── data
 │   └── raw/
@@ -85,9 +85,9 @@ Project Folder/
 └── report.md                <- report of project
 ```
 
-### Example with Every Possible Folder
+### 每个可能文件夹的示例
 
-This example shows different files and directory a project can contain when building a software application or research engineering tools.
+此示例显示一个项目在构建软件应用程序或研究工程工具时可以包含的不同文件和目录。
 
 ```
 Project Folder/                        
@@ -127,22 +127,22 @@ Project Folder/
 └── test                     <- unit tests  
 ```
 
-## Resources
+## 资源
 
-### R and Python Packages
+### R 和 Python 包
 
 | R                                                                 | Python                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------ |
 | [rrtools](https://annakrystalli.me/rrresearch/10_compendium.html) | [compendium-dodo](https://pypi.org/project/compendium-dodo/) |
-| [template](https://github.com/Pakillo/template)                   | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
+| [模版](https://github.com/Pakillo/template)                         | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
 | [rcompendia](https://github.com/FRBCesab/rcompendium)             |                                                              |
-| [remake](https://github.com/richfitz/remake)                      |                                                              |
+| [重新创建](https://github.com/richfitz/remake)                        |                                                              |
 
-### Curated Examples of GitHub Repositories
+### GitHub 仓库管理示例
 
-- [_The Turing Way_ project repo](https://github.com/alan-turing-institute/the-turing-way)
-- [Jupyter Book project repo](https://github.com/executablebooks/jupyter-book)
-- [Pandas Package repo](https://github.com/pandas-dev/pandas)
-- [Atom Text Editor repo](https://github.com/atom/atom)
+- [_诱惑路径_ 工程repo](https://github.com/alan-turing-institute/the-turing-way)
+- [Jupyter 书项目repo](https://github.com/executablebooks/jupyter-book)
+- [Pandas 软件包repo](https://github.com/pandas-dev/pandas)
+- [Atom 文本编辑器](https://github.com/atom/atom)
 
-For more details, please follow {ref}`project-repo-recommendations-advanced`.
+欲了解更多详情，请按照 {ref}`project-repo-repo-recommendations-advances-advance` 进行操作。

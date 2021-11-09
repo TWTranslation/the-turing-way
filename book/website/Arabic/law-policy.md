@@ -1,31 +1,31 @@
-(er-law-policy)=
-# Law, Policy and Human Rights in Ethics
+(-law-policy)=
+# القانون والسياسة العامة وحقوق الإنسان في الأخلاقيات
 
 ## Summary
-Law, human rights and policy all relate to ethics, but they are not the same thing.
+فالقانون وحقوق الإنسان والسياسة العامة كلها تتعلق بالأخلاقيات، ولكنها ليست نفس الشيء.
 
-You should be aware of the laws and policies that apply to you and your work. However, this is not sufficient to ensure that your work is ethical.
+يجب أن تكون على علم بالقوانين والسياسات التي تنطبق عليكم وعلى عملكم. غير أن هذا لا يكفي للتأكد من أن عملك أخلاقي.
 
-Human rights provide a legal framework for protecting individuals. However, this framework operates at national and international level. Ethical work should be grounded in human rights, but sometimes require more guidance to operationalise for particular contexts.
+وتوفر حقوق الإنسان إطاراً قانونياً لحماية الأفراد. غير أن هذا الإطار يعمل على الصعيدين الوطني والدولي. وينبغي أن يكون العمل الأخلاقي قائما على أساس حقوق الإنسان، ولكنه يتطلب أحيانا مزيدا من التوجيه لتفعيل سياقات معينة.
 
-Laws and policies are made by people, and they are subject to negotiations and exercises of power: they can also be changed.
+فالقوانين والسياسات يصدرها الناس، وتخضع للمفاوضات وممارسة السلطة: ويمكن أيضا تغييرها.
 
 ```{figure} ../figures/human-rights.jpg
 ---
-name: human-rights
-alt: Image shows two people sitting on the ground. They are smiling and looking at the concrete wall called 'human rights' that is secured by heavy chain and lock. Behind the wall there are several monsters depicting human right violators and harmful elements of society that can breach laws and policy in the absence of this protective wall.
+الاسم: حقوق الانسان
+البديل : الصورة تعرض شخصين جالسين على الأرض. إنهم يبتسمون وينظرون إلى الجدار الخرساني المسمى "حقوق الإنسان" الذي يتم تأمينه بسلسلة ثقيلة وقفل. ووراء الجدار هناك عدة وحوش تصور منتهكي حقوق الإنسان وعناصر ضارة في المجتمع يمكن أن تنتهك القوانين والسياسات في غياب هذا الجدار الحمائي.
 ---
-Illustration about human rights, law and policies.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+مثال توضيحي عن حقوق الإنسان والقانون والسياسات.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
 ```
 
-## Background and Motivation
+## الخلفية والدافع
 
-It's useful to know how the ethics that guide your work are underpinned by other frameworks, including law, policy, and human rights. Knowing the law, policy, and human rights that underpin research ethics will give you a deeper understanding of how to conduct ethical research. It can also help you to advocate for ethical work with colleagues and collaborators.
+من المفيد أن نعرف كيف أن الأخلاقيات التي توجه عملك تقوم على أطر أخرى، بما في ذلك القانون والسياسة وحقوق الإنسان. إن معرفة القانون والسياسة وحقوق الإنسان التي تقوم عليها أخلاقيات البحث ستوفر لكم فهما أعمق لكيفية إجراء البحوث الأخلاقية. كما يمكن أن تساعدك على الدعوة إلى العمل الأخلاقي مع الزملاء والمتعاونين.
 
-This chapter provides subchapters on {ref}`Law and Policy<er-law-policy-ethics>` in the context of ethical research, {ref}`er-law-policy-rights` and {ref}`er-law-policy-resources`.
+يقدم هذا الفصل فصولاً فرعية عن {ref}`قانون وسياسة<er-law-policy-ethics>` في سياق البحث الأخلاقي. {ref}`حقوق السياسة العامة` و {ref}`موارد السياسة العامة`
 
 ```{attention}
-This is not legal advice. Please read for information only!
+هذه ليست مشورة قانونية. الرجاء القراءة للحصول على معلومات فقط!
 ```
-*Read the {ref}`legal-disclaimer` for why you should not use The Turing Way for legal advice.*
+*اقرأ {ref}`إخلاء المسؤولية القانونية` لسبب عدم استخدام طريقة تورينج للاستشارات القانونية.*

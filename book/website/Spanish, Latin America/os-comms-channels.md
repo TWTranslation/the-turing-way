@@ -1,51 +1,51 @@
 (cm-os-comms-channels)=
-# Communication Channels
+# Canales de comunicación
 
-Communication within a community impacts the contributor experience, influences an individual's sense of belonging, and provides a historical record of project decisions.
+La comunicación dentro de una comunidad repercute en la experiencia de los colaboradores, influye en el sentido de pertenencia de un individuo y proporciona un registro histórico de las decisiones del proyecto.
 
-The choice of channels will depend on the specific requirements of your project, such as keeping the community informed of any known bugs or upcoming features, assessing current needs from the community members, inviting comments on the project's management plans, facilitating the overall progress of the project, as well as having somewhere to field questions and receive/act on feedback.
+La elección de canales dependerá de los requisitos específicos de su proyecto, como mantener informada a la comunidad de cualquier error conocido o características futuras, evaluando las necesidades actuales de los miembros de la comunidad, invitando comentarios sobre los planes de gestión del proyecto, facilitando el progreso general del proyecto, así como tener un lugar donde acumular preguntas y recibir o actuar en retroalimentación.
 
-When setting up your communication channels, there are some important things to consider, such as the following:
+Cuando configuras tus canales de comunicación, hay algunas cosas importantes que te interesan, tales como las siguientes:
 
-* How easy is it for the community to find these channels and subscribe/unsubscribe to them?
-* Are they moderated? Under-represented groups may not participate if a channel is a free-for-all.
-* How easy is it for members of the community to find and join specific conversations they are interested in?
-* Will it be a "noisy" channel (for example, does the channel generate lots of notifications)?
-* Can users control or filter what kind of information they receive?
+* ¿Qué tan fácil es para la comunidad encontrar estos canales y suscribirse/darse de baja a ellos?
+* ¿Se moderan? Los grupos subrepresentados no pueden participar si un canal es libre para todos.
+* ¿Qué tan fácil es para los miembros de la comunidad encontrar y unirse a conversaciones específicas en las que están interesados?
+* ¿Será un canal "ruido" (por ejemplo, el canal genera muchas notificaciones)?
+* ¿Pueden los usuarios controlar o filtrar qué tipo de información reciben?
 
-There are three commonly used channels: mailing lists (such as [Topicbox](https://www.topicbox.com/) or [Google groups](https://support.google.com/mail/thread/14635045?hl=en)), community forums (such as [Vanilla Forum](https://vanillaforums.com/en/software/) or [Discourse](https://www.discourse.org/)) and chats (such as [Gitter](https://gitter.im/) or [Slack](https://app.slack.com/signin)). Besides these, many communities also use platforms for weekly or monthly newsletters, blogs, and social media on [Twitter](https://twitter.com/) or [Facebook](https://www.facebook.com/).
+Hay tres canales comúnmente utilizados: listas de correo (como [Topicbox](https://www.topicbox.com/) o [grupos de Google](https://support.google.com/mail/thread/14635045?hl=en)), foros comunitarios (como [Vanilla Forum](https://vanillaforums.com/en/software/) o [Discourse](https://www.discourse.org/)) y chats (como [Gitter](https://gitter.im/) o [Slack](https://app.slack.com/signin)). Además, muchas comunidades también utilizan plataformas para boletines semanales o mensuales, blogs y redes sociales en [Twitter](https://twitter.com/) o [Facebook](https://www.facebook.com/).
 
-In the table below, some properties of the first three communication platforms have been highlighted, which will allow open source project leaders to choose the most appropriate channels for their communities.
+En la tabla siguiente, se han destacado algunas propiedades de las tres primeras plataformas de comunicación, que permitirá a los líderes de proyectos de código abierto elegir los canales más apropiados para sus comunidades.
 
-(cm-os-comms-channels-features)=
-## Features of Different Communication Channels
+(características cm-os-comms-channels-)=
+## Características de diferentes canales de comunicación
 
-The table below compares features of mailing lists, forums and chats. Here are some of the questions one might wish to ask when thinking about each feature:
+La siguiente tabla compara características de listas de correo, foros y chats. Aquí están algunas de las preguntas que uno podría querer hacer al pensar en cada característica:
 
-- **Media sharing:** Can media, such as screenshots, be easily shared on this platform?
-- **Archivable:** Is the history of the conversations easily accessible?
-- **Persistent:** Do the conversations remain available and accessible on the platform? If not "forever", for how long? If not all conversations, what proportion?
-- **Noisy:** How many notifications will people receive, and can the number of notifications be managed by users/administrators?
-- **Open:** Can anyone join the platform or is there an invitation/approval process?
-- **Consistent user experience (UX):** Does the platform appear consistent regardless of the user's browser or email client?
-- **Threading/filtering of conversations:** Is it apparent who is replying to whom and what topic each string of messages is addressing?
-- **Social sharing:** Can conversations easily be shared on social media platforms for the purposes of promotion or community engagement?
-- **User profiles:** Is it easy to tell who is participating in the conversation and what their roles are on the project?
-- **"Following"/"blocking" capabilities:** Can users choose whose messages they are alerted to?
-- **Searchable by topic:** Can the conversations by categorised and searched by category?
-- **Easily exportable:** Are the conversations stored in a consistent format? Are tools available to export the conversations (to an archive, for example)?
+- **Media sharing:** ¿Pueden los medios de comunicación, como capturas de pantalla, ser fácilmente compartidos en esta plataforma?
+- **Archivable:** ¿La historia de las conversaciones es fácilmente accesible?
+- **Persistente:** ¿Las conversaciones permanecen disponibles y accesibles en la plataforma? Si no es "para siempre", por cuánto tiempo? Si no todas las conversaciones, ¿qué proporción?
+- **Noisy:** ¿Cuántas notificaciones recibirán las personas y puede el número de notificaciones ser administrado por usuarios/administradores?
+- **Abrir:** ¿Puede alguien unirse a la plataforma o hay un proceso de invitación/aprobación?
+- **Consistente experiencia de usuario (UX):** ¿La plataforma parece consistente independientemente del navegador o cliente de correo electrónico del usuario?
+- **Hilo/filtrado de conversaciones:** ¿Es aparente quién responde a quién y a qué tema se dirige cada cadena de mensajes?
+- **Compartir socialmente:** ¿Las conversaciones pueden ser compartidas fácilmente en plataformas de redes sociales con fines de promoción o compromiso con la comunidad?
+- **Perfiles de usuario:** ¿Es fácil saber quién está participando en la conversación y cuáles son sus roles en el proyecto?
+- **Capacidades de "Seguir"/"bloqueo":** ¿Los usuarios pueden elegir qué mensajes están alertados?
+- **Buscable por tema:** ¿Las conversaciones pueden ser categorizadas y buscadas por categoría?
+- **Fácilmente exportable:** ¿Las conversaciones se almacenan en un formato consistente? ¿Están disponibles las herramientas para exportar las conversaciones (a un archivo, por ejemplo)?
 
-| Feature                              | Mailing Lists | Forums |      Chat      |
-|:------------------------------------ |:-------------:|:------:|:--------------:|
-| Media sharing                        |       ✅       |   ✅    | ✅ (cumbersome) |
-| Archivable                           |       ✅       |   ✅    |                |
-| Persistent                           |       ✅       |   ✅    |                |
-| Noisy                                |       ✅       |        |       ✅        |
-| Open                                 |               |   ✅    |       ✅        |
-| Consistent UX                        |               |   ✅    |       ✅        |
-| Threading/Filtering of conversations |               |   ✅    |       ✅        |
-| Social sharing                       |               |   ✅    |       ✅        |
-| User profiles                        |               |   ✅    |       ✅        |
-| "Friending"/"Ignoring" capabilities  |               |   ✅    |                |
-| Searchable by topic                  |               |   ✅    |                |
-| Easily Exportable                    |       ✅       |   ❓    |                |
+| Característica                      | Listas de correo | Foros |    Chatear    |
+|:----------------------------------- |:----------------:|:-----:|:-------------:|
+| Compartir medios                    |        ✅         |   ✅   | ✅ (engorroso) |
+| Archivable                          |        ✅         |   ✅   |               |
+| Persistent                          |        ✅         |   ✅   |               |
+| Noisy                               |        ✅         |       |       ✅       |
+| Abrir                               |                  |   ✅   |       ✅       |
+| UX Consistente                      |                  |   ✅   |       ✅       |
+| Hilo/filtrado de conversaciones     |                  |   ✅   |       ✅       |
+| Compartir social                    |                  |   ✅   |       ✅       |
+| Perfiles de usuario                 |                  |   ✅   |       ✅       |
+| Capacidades de "Amigo"/"Ignoración" |                  |   ✅   |               |
+| Buscable por tema                   |                  |   ✅   |               |
+| Exportable fácilmente               |        ✅         |   ❓   |               |

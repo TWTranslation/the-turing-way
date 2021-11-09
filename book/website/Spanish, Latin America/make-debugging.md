@@ -1,22 +1,22 @@
 (rr-make-debugging)=
-# Debugging Makefiles
+# Depuración de Makefiles
 
-When writing a Makefile, it can sometimes be useful to be able to see the values of variables to catch mistakes or bugs in the Makefile. To facilitate this, Make contains two commands: `info` and `error`, and there is a debug mode to Make.
+Al escribir un Makefile, a veces puede ser útil para poder ver los valores de variables para capturar errores o errores en el Makefile. Para facilitar esto, Make contiene dos comandos: `info` y `error`, y hay un modo depuración para Make.
 
-With the `info` command you can print the current value of a variable to stdout, while Make is processing the file. For instance, in the Makefile above you could add:
+Con el comando `info` puedes imprimir el valor actual de una variable a stdout, mientras Make está procesando el archivo. Por ejemplo, en el Makefile de arriba puedes añadir:
 
 ```makefile
 $(info $$DATA = $(DATA))
 ```
 
-This will print `DATA = data/action.csv ... data/western.csv`.
+Esto imprimirá `DATA = data/action.csv ... data/western.csv`.
 
-With the `error` command you can stop the execution of Make at a certain point in the Makefile. This is useful when you want to print the value of a variable and not run Make any further:
+Con el comando `error` puedes detener la ejecución de Make en cierto punto en el Makefile. Esto es útil cuando desea imprimir el valor de una variable y no ejecutar Hacer más:
 
 ```makefile
 $(error $$DATA = $(DATA))
 ```
 
-Finally, you can also debug the Makefile by running Make with the debug flag: `make -d`. This will print all the rules (including built-in ones) that Make tries for each of the targets, and whether or not a rule needs to be run.
+Finalmente, también puede depurar el Makefile ejecutando Make con la bandera de depuración: `make -d`. Esto imprimirá todas las reglas (incluidas las incorporadas) que hacen intentos para cada uno de los objetivos, y si es necesario o no ejecutar una regla.
 
-If you only want to print the rules that Make will run and not actually run them, you can use `make -n`. These last two options can also be combined, so that you see the debug output and Make doesn't run anything: `make -dn`.
+Si solo quieres imprimir las reglas que Make se ejecutarán y no se ejecutarán , puedes usar `make -n`. Estas últimas dos opciones también se pueden combinar, así que que vea la salida de depuración y haga que no se ejecute nada: `make -dn`.

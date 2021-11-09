@@ -1,18 +1,18 @@
-(cm-presentations)=
-# Presenting Posters and Conference Talks
+(م - عروض)=
+# عرض الملصقات ومحادثات المؤتمرات
 
-Much like writing lay summaries and blogs, presentation of your work at conferences that are not within your immediate research environment need to be carefully thought through.
+مثل كتابة الملخصات والمدونات، يجب التفكير بعناية في عرض أعمالكم في المؤتمرات التي لا تدخل في نطاق بيئتكم البحثية المباشرة.
 
-The same principles apply here: know your audience, adapt your style and generally make your writing/talk less technical in terms of the language.
+وتنطبق نفس المبادئ هنا: اعرف جمهورك، وقم بتكييف أسلوبك وجعل الكتابة/الكلام أقل تقنية من حيث اللغة.
 
-In addition to these points, to increase the accessibility and findability of your presentations it is a good idea to:
-* During the talk, use captions to aid accessibility.
-* Record the talk and add this link to the presentation when shared.
-* Add talk notes to the presentation (this can be done in a PowerPoint file) or have them in a separate file to be shared. You could also write a blog post based on your talk.
-* Use academic social media, such as ORCID, ResearchGate or Academia, to help disseminate your work further.
-* Share the conference slides on social media with a persistent identifier (discussed below).
+وبالإضافة إلى هذه النقاط، لزيادة إمكانية الوصول إلى العروض التي تقدمونها وإمكانية الوصول إليها، من الأمور الجيدة القيام بما يلي:
+* خلال المحادثات، استخدم التسميات التوضيحية للمساعدة على الوصول.
+* قم بتسجيل الحديث وإضافة هذا الرابط إلى العرض التقديمي عند مشاركته.
+* أضف ملاحظات الحديث إلى العرض التقديمي (يمكن القيام بذلك في ملف PowerPoint ) أو جعلها في ملف منفصل لمشاركتها. يمكنك أيضًا كتابة منشور مدونة بناءً على حديثك.
+* استخدم وسائل الإعلام الإجتماعية الأكاديمية، مثل ORCID، ResearchGate أو الأكاديمية، للمساعدة في نشر عملك.
+* مشاركة شرائح المؤتمر على وسائل التواصل الاجتماعي مع معرف دائم (تناقش أدناه).
 
-(cm-presentations-sharing)=
-## Sharing your Presentations
+(عروض - تقاسم)=
+## مشاركة عرضك
 
-There are many ways you can make your poster and slides for your talks publicly available, such as by sharing the respective files in accessible formats (such as pdf, image file, PowerPoint slides, Markdown format). These files can be shared via an online repository (like [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/)), a shared drive with a shareable link (like Dropbox and Google Drive) or the platform put in place by the event where you present your work. It is advisable to share your file under a license of your choice so that others know how to reuse your work (see {ref}`rr-licensing`). Furthermore, you can get a digital object identifier or DOI by uploading your presentation files to a server of your choice (like [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/)). See the chapter on {ref}`DOI<cm-citable-steps-doi>` for details.
+هناك العديد من الطرق التي يمكنك بها جعل الملصق والشرائح الخاصة بك متاحة للجمهور لمحادثاتك، مثل مشاركة الملفات ذات الصلة بأشكال يمكن الوصول إليها (مثل pdf، ملف الصورة، PowerPoint slides، تنسيق Markdown). يمكن مشاركة هذه الملفات عبر مستودع على الإنترنت (مثل [GitHub](https://github.com/) أو [Bitbucket](https://bitbucket.org/))، محرك أقراص مشترك مع رابط قابل للمشاركة (مثل Dropbox و Google Drive) أو المنصة التي تم إنشاؤها من خلال الحدث الذي تقوم فيه بعرض عملك. من المستحسن مشاركة الملف الخاص بك تحت ترخيص من اختيارك حتى يعرف الآخرون كيفية إعادة استخدام عملك (أنظر {ref}`ترخيص rr-licen`). وعلاوة على ذلك، يمكنك الحصول على معرف الكائن الرقمي أو DOI عن طريق تحميل ملفات العرض التقديمي الخاصة بك إلى خادم من اختيارك (مثل [Zenodo](https://zenodo.org/) و [مشاركة الشكل](https://figshare.com/)). للاطلاع على التفاصيل، انظر الفصل الخاص بـ {ref}`DOI<cm-citable-steps-doi>`.

@@ -1,32 +1,32 @@
 (rr-ci-practices)=
-# Best Practices and Recommendations
+# 最佳做法和建议
 
-## Small, iterative changes
+## 小的、迭代性的更改
 
-One of the most important practices when adopting continuous integration is to encourage project members to make and commit small changes. Small changes minimise the possibility and impact of problems cropping up when they're integrated, which minimises the time and effort cost of integration.
+在实行持续一体化时，最重要的做法之一是鼓励项目成员作出小的改动并作出小的改动。 小的变化最大限度地减少了整合后的问题裁剪的可能性和影响，从而最大限度地减少了整合的时间和努力成本。
 
-## Trunk-based development
+## 基于Trunk的开发
 
-With trunk-based development, work is done in the main branch of the repository or merged back into the shared repository at frequent intervals. Short-lived feature branches are permissible as long as they represent small changes and are merged back as soon as possible.
+在以trunk为基础的开发过程中，将在仓库的主要分支机构进行工作，或经常每隔一段时间将其合并到共享仓库中。 允许使用寿命短的功能分支，只要它们代表小的变化并尽快进行合并。
 
-The idea behind trunk-based development is to avoid large commits that violate of concept of small, iterative changes discussed above. Code is available to peers early so that conflicts can be resolved when their scope is small.
+以三元论为基础的发展的目的是避免违反上文讨论的小规模反复变革概念的大规模承诺。 对等点早期就可以使用代码，以便当冲突的范围很小时能够解决冲突。
 
-## Keep the building and testing phases fast
+## 保持建筑和测试阶段
 
-Because the build and test steps must be performed frequently, it is essential that these processes be streamlined to minimise the time spent on them. Increases in build time should be treated as a major problem because the impact is compounded by the fact that each commit kicks off a build.
+由于必须经常进行构建和测试步骤，因此必须精简这些程序，以尽量减少花在这些步骤上的时间。 建筑时间的增加应被视为一个主要问题，因为每个建筑物都会被踢出，这使影响更加复杂。
 
-When possible, running different sections of the test suite in parallel can help move the build through the pipeline faster. Care should also be taken to make sure the proportion of each type of test makes sense. Unit tests are typically very fast and have minimal maintenance overhead. In contrast, automated system or acceptance testing is often complex and prone to breakage. To account for this, it is often a good idea to rely heavily on unit tests, conduct a fair number of integration tests, and then back off on the number of later, more complex testing.
+在可能的情况下，并行运行试验套件的不同部分可以帮助更快地通过管道移动构建。 还应注意确保每一类测试的比例是合理的。 单元测试通常非常快，维修间接费用也很少。 与此相反，自动化系统或验收测试往往很复杂，容易发生故障。 为此，在很大程度上依靠单位测试往往是一个好主意。 进行相当数量的集成测试，然后回到以后更复杂测试的数量。
 
-## Computational expense
+## 计算费用
 
-Some software will require significant compute resource to build and/or run. Examples include weather and climate models. This can make the use of continuous integration impractical as the tests either take too long or use too much resource. Therefore, a compromise needs to be found to balance the risk of incomplete testing against a usable development process.
+某些软件需要大量的计算资源才能构建和/或运行。 例子包括天气和气候模型。 这可能使持续整合的使用不切实际，因为测试要么需要太长时间，要么使用太多的资源。 因此，需要找到一种折衷办法，在测试不完整的风险与可用的开发过程之间取得平衡。
 
-One approach is to use different levels of testing, with different subgroups being required depending on what is being changed. A common broad subgroup can be used in every case, with additional ones being invoked to test certain areas in more detail. This introduces an element of judgement to the testing process, but can be applied successfully.
+一种办法是采用不同程度的测试，根据变化情况需要不同的子组。 在每一种情况下都可以使用一个共同的广泛分组，并且可以援引其他分组来更详细地测试某些领域。 这为测试过程引入了判断因素，但可以成功应用。
 
-## Dependencies tracking
+## 依赖关系跟踪
 
-Checking for dependency updates should be done regularly. It can save a lot of time, avoiding bugs due to code dependent on deprecated functionality. Services such as [David](https://david-dm.org/) are available for dependency management.
+应定期检查依赖关系更新。 它可以节省很多时间，避免因为代码依赖于过时的功能。 像 [David](https://david-dm.org/) 这样的服务可以用于依赖管理。
 
-## Consistency throughout the pipeline
+## 整个输油管线的一致性情况
 
-A project should be built once at the beginning of the pipeline, the resulting software should be stored and accessible to later processes without rebuilding. By using the exact same artefact in each phase, you can be certain that you are not introducing inconsistencies as a result of different build tools.
+项目应在管道开始时建立一次，由此产生的软件应储存起来，供以后的程序使用，不再重建。 在每个阶段使用完全相同的手工艺品， 您可以肯定您不会因为不同的构建工具而引入不一致之处。

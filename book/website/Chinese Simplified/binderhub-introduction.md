@@ -1,16 +1,16 @@
-(rr-binderhub-inntroduction)=
-# Introduction to BinderHub
+(rr-binderhub-innintroduction)=
+# BinderHub 简介
 
-[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) is a cloud-based technology that can launch a repository of code (from GitHub, GitLab, and others) in a browser window such that the code can be executed and interacted with. A unique URL is generated allowing the interactive code to be easily shared.
+[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) 是一种基于云端的技术，可以启动代码库(来自 GitHub ) GitLab等浏览器窗口中的代码可以被执行和交互。 生成了一个唯一的 URL，可以轻松共享交互式代码。
 
-The purpose of these Binder instances is to promote reproducibility in research projects by encouraging researchers to document their software dependencies and produce fun, interactive environments!
+这些Binder实例的目的是通过鼓励研究人员记录其软件依赖性和创造乐趣，促进研究项目中的再生产， 交互环境！
 
-Binder, as a user interface, is useful for reproducibility because the code needs to be version controlled and the computational environment needs to be documented in order to benefit from the functionality of Binder. Each change to the code repository also forces a new build of the Binder instance. This acts as a proxy for continuous integration of the computational environment as the Binder instance will break if the configuration file is not updated.
+作为用户界面绑定， 对于可复制性很有用，因为代码需要控制版本，计算环境需要记录才能受益于绑定的功能。 代码仓库的每个更改都迫使新建Binder实例。 作为计算环境连续整合的代理，因为如果配置文件未更新，Binder实例将会中断。
 
-Learn more about Continuous Integration {ref}`here<rr-ci>`.
+了解更多关于持续集成 {ref}`的信息<rr-ci>`
 
-## How does a BinderHub work?
+## BinderHub 如何工作？
 
-BinderHub relies on different tools and resources in order to create and launch the Binder instances.
+BinderHub 依赖不同的工具和资源来创建和启动Binder实例。
 
-For more information, see this [high-level explanation of the BinderHub architecture](https://binderhub.readthedocs.io/en/latest/overview.html).
+欲了解更多信息，请参阅此 [BinderHub 架构](https://binderhub.readthedocs.io/en/latest/overview.html) 高级别解释。

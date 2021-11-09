@@ -959,12 +959,12 @@
 <td align="center"><a href="https://github.com/mcnanton"><img src="https://avatars.githubusercontent.com/u/42379883?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mcnanton</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Amcnanton" title="Bug reports">🐛</a> <a href="#content-mcnanton" title="Content">🖋</a></td>
 <td align="center"><a href="https://twitter.com/mishkanemes"><img src="https://avatars.githubusercontent.com/u/39628884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mishkanemes</b></sub></a><br /><a href="#eventOrganizing-mishkanemes" title="Event Organizing">📋</a></td>
 <td align="center"><a href="https://github.com/mjcasy"><img src="https://avatars1.githubusercontent.com/u/44202821?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mjcasy</b></sub></a><br /><a href="#ideas-mjcasy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-mjcasy" title="Content">:inventain_pen:</a></td>
-<td align="center"><a href="https://github.com/msanter01"><img src="https://avatars0.githubusercontent.com/u/39199660?v=4?s=100" width="100px;" alt=""/><br /><sub><b>msanter01</b></sub></a><br /><a href="#translation-msanter01" title="Translation">🌍</a> <a href="#talk-msanter01" title="Talks">📢</a></td>
+<td align="center"><a href="https://github.com/msanter01"><img src="https://avatars0.githubusercontent.com/u/39199660?v=4?s=100" width="100px;" alt=""/><br /><sub><b>msanter01</b></sub></a><br /><a href="#translation-msanter01" title="Translation">:globe_showing_Europe-Africa</a> <a href="#talk-msanter01" title="Talks">:loudspeaker：</a></td>
 <td align="center"><a href="https://github.com/oxpeter"><img src="https://avatars3.githubusercontent.com/u/6393360?v=4?s=100" width="100px;" alt=""/><br /><sub><b>oxpeter</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aoxpeter" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/peterrhysstrong"><img src="https://avatars.githubusercontent.com/u/43751009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>peterrhysstrong</b></sub></a><br /><a href="#ideas-peterrhysstrong" title="Ideas, Planning, & Feedback">🤔</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/rabbits99"><img src="https://avatars1.githubusercontent.com/u/72690233?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rabbits99</b></sub></a><br /><a href="#translation-rabbits99" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/rabbits99"><img src="https://avatars1.githubusercontent.com/u/72690233?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rabbits99</b></sub></a><br /><a href="#translation-rabbits99" title="Translation">:globe_showing_Europe-Africa</a></td>
 <td align="center"><a href="https://github.com/raptorchief"><img src="https://avatars.githubusercontent.com/u/55805992?v=4?s=100" width="100px;" alt=""/><br /><sub><b>强奸者</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Araptorchief" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/sallyob123"><img src="https://avatars2.githubusercontent.com/u/55785959?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sallyob123</b></sub></a><br /><a href="#ideas-sallyob123" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/sethsh7"><img src="https://avatars0.githubusercontent.com/u/53264282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sethsh7</b></sub></a><br /><a href="#ideas-sethsh7" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -976,7 +976,7 @@
 <td align="center"><a href="https://github.com/takuover"><img src="https://avatars2.githubusercontent.com/u/52206060?v=4?s=100" width="100px;" alt=""/><br /><sub><b>takuover</b></sub></a><br /><a href="#ideas-takuover" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/tugceoruc"><img src="https://avatars0.githubusercontent.com/u/20405276?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tugceoruc</b></sub></a><br /><a href="#ideas-tugceoruc" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/vasilisstav"><img src="https://avatars0.githubusercontent.com/u/55793023?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vasilisstav</b></sub></a><br /><a href="#ideas-vasilisstav" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/vcpope"><img src="https://avatars.githubusercontent.com/u/62377353?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vcpope</b></sub></a><br /><a href="#talk-vcpope" title="Talks">📢</a></td>
+<td align="center"><a href="https://github.com/vcpope"><img src="https://avatars.githubusercontent.com/u/62377353?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vcpope</b></sub></a><br /><a href="#talk-vcpope" title="Talks">:loudspeaker：</a></td>
 <td align="center"><a href="https://github.com/yaseminturkyilmaz"><img src="https://avatars3.githubusercontent.com/u/45484225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yaseminturkyilmaz</b></sub></a><br /><a href="#blog-yaseminturkyilmaz" title="Blogposts">📝</a> <a href="#ideas-yaseminturkyilmaz" title="Ideas, Planning, & Feedback">🤔</a></td>
 </tr>
 </table>
@@ -986,68 +986,68 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! \n(contributors-record-collaborators)=
-# Collaborating Organisations and Projects
+此项目遵循 [全部贡献者](https://github.com/all-contributors/all-contributors) 的规格。 欢迎您的贡献！ \n(贡献者-记录合作者) =
+# 协作组织和项目
 
-*“美味之路”社群得到了其雇主、项目或组织支持的成员的实物捐助，供其参与。 当一个项目或组织的一名或多名成员合作为Ting Way建造和维持资源时，这种贡献是适用的。 These contributions also include projects that build upon The Turing Way resources or collaborate with The Turing Way team members in various capacities. 我们分别确认这些贡献成员中的每一个，并在“协作组织和项目”下列出他们的概况。*
+*“美味之路”社群得到了其雇主、项目或组织支持的成员的实物捐助，供其参与。 当一个项目或组织的一名或多名成员合作为Ting Way建造和维持资源时，这种贡献是适用的。 这些贡献还包括一些项目，这些项目建立在诱惑方式资源的基础上，或与以各种身份参与“诱惑方式”小组成员合作。 我们分别确认这些贡献成员中的每一个，并在“协作组织和项目”下列出他们的概况。*
 
 ## [Delft University of Technology - Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences)
 
-应用科学系是德尔夫特技术大学最大的系，其重点是寻找创新办法解决社会面临的一些问题。 发展基本知识是技术发展的基础，这些技术发展可以在全社会得到广泛利用。 In ensuring that this knowledge can be shared efectively with the wider society, the Faculty values the sharing of data and code and has a [Research Data Management policy](https://www.tudelft.nl/en/library/research-data-management/r/policies/tu-delft-faculty-policies/) in place since 2020. In this effort, the contributions from the Faculty of Applied Sciences have mainly focused on the Reproducible Research Chapter of _The Turing Way_.
+应用科学系是德尔夫特技术大学最大的系，其重点是寻找创新办法解决社会面临的一些问题。 发展基本知识是技术发展的基础，这些技术发展可以在全社会得到广泛利用。 确保与广大社会充分分享这种知识， 学院重视数据和代码共享，并自2020年起实行 [项研究数据管理政策](https://www.tudelft.nl/en/library/research-data-management/r/policies/tu-delft-faculty-policies/)。 在这一努力中， 应用科学系的贡献主要集中在 _“正在进行的方法_ “可再生研究”一章上。
 
 ### Esther Plomp
 
-* Roles:
-  * Book Dash February 2020 Attendee
-  * Book Dash Planning Committee 2021
+* 角色：
+  * Dash2020年2月参与者
+  * 书籍破折号规划委员会 2021
   * 半正常的合作呼叫crasher
 * GitHub id: [EstherPlomp](https://github.com/estherplomp)
 * ORCID: [0000-0003-3625-1357](https://orcid.org/0000-0003-3625-1357)
 * Twitter: [@PhDToothFAIRy](https://twitter.com/PhDToothFAIRy/)
 * 短生物：
-> 我是Delft University of Technology, Faculty of Applies Sciences 在荷兰，我支持研究人员进行数据管理和开放科学实践。 For my PhD research, I analysed human teeth for their isotopic/chemical composition in order to say something about human mobility patterns (fields of forensics, archaeology, osteology). Next to the Turing Way I'm also involved with other teams, such as the [Open Research Calendar](https://openresearchcalendar.org/) ([follow the calendar on Twitter!](https://twitter.com/OpenResearchCal)), [IsoArcH](https://isoarch.eu/) and I was an [OLS3](https://openlifesci.org/ols-3/) mentor! I'm also interested in anything related to physical samples in research, and I'm a co-chair of the [Research Data Alliance Physical Samples Interest Group](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig).
+> 我是Delft University of Technology, Faculty of Applies Sciences 在荷兰，我支持研究人员进行数据管理和开放科学实践。 为了进行我的博士研究，我分析了人类牙齿的同位素/化学成分，以便对人的流动模式（法医领域）作出一些表述。 考古学、骨质学）。 紧接着美味之路，我也参与了其他团队的工作。 例如 [开放的研究日历](https://openresearchcalendar.org/) ([按照Twitter上的日历!](https://twitter.com/OpenResearchCal)), [IsoArcH](https://isoarch.eu/) and I was an [OLS3](https://openlifesci.org/ols-3/) 导师! 我还对研究中与物理样品有关的任何问题感兴趣。 并且我是 [研究数据联盟物理样本兴趣小组](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig) 的共同主席。
 
 * 个人要闻：
-> Thanks to the Turing Way I really learned how to work collaboratively using GitHub. 2020年2月的书破损是实际实践和直接应用这些技能的一个巨大开端。 这使我能够对其他项目作出更大的贡献！ I primarily contributed to the Reproducible Research Chapter, to the Research Data Management section. I reviewed existing content and I'm working on adding a section on Data Management Plans and how to handle personal data. 我还在一次会议上作了 [张美味的海报](https://doi.org/10.5281/zenodo.4263403)。 我希望向前支付这笔钱，帮助其他人学会如何通过Ting Way 或 The Carpentes 讲习班与GitHub 合作。 我非常感谢成为这个伟大和包容的社区的一部分！
+> 多亏了美味之路，我真正学会了如何使用 GitHub 协作工作。 2020年2月的书破损是实际实践和直接应用这些技能的一个巨大开端。 这使我能够对其他项目作出更大的贡献！ 我主要为研究数据管理科的可复发研究分会作出贡献。 我审查了现有的内容，正在努力增加一个关于数据管理计划和如何处理个人数据的章节。 我还在一次会议上作了 [张美味的海报](https://doi.org/10.5281/zenodo.4263403)。 我希望向前支付这笔钱，帮助其他人学会如何通过Ting Way 或 The Carpentes 讲习班与GitHub 合作。 我非常感谢成为这个伟大和包容的社区的一部分！
 
 * 更多信息：
-> 我认为，任何想学习和作出贡献的人都应该能够利用科学研究。 我希望把我的研究领域的专家聚集在一起，制定人体遗骸同位素数据准则和物理样本处理和记录准则。 我是研究数据联盟小组 [研究数据生态系统IG](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig) 物理样本和采集组的共同主席。 如果您使用物理样本并想要参与，请联系我们！ I'm part of the Open Research Calendar Team. 这是一个您可以用来随时更新开放的研究活动的日历。 或添加您自己的事件以提高可见性。 在 [开放的研究日历网站](https://openresearchcalendar.github.io/) 访问我们，或在 [Twitter](https://twitter.com/OpenResearchCal) 上关注日历！
+> 我认为，任何想学习和作出贡献的人都应该能够利用科学研究。 我希望把我的研究领域的专家聚集在一起，制定人体遗骸同位素数据准则和物理样本处理和记录准则。 我是研究数据联盟小组 [研究数据生态系统IG](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig) 物理样本和采集组的共同主席。 如果您使用物理样本并想要参与，请联系我们！ 我是开放研究日历小组的成员。 这是一个您可以用来随时更新开放的研究活动的日历。 或添加您自己的事件以提高可见性。 在 [开放的研究日历网站](https://openresearchcalendar.github.io/) 访问我们，或在 [Twitter](https://twitter.com/OpenResearchCal) 上关注日历！
 
 * 报价：
 > 2021年的《书报》使我有机会在组织舞台后看到并成为一个令人惊奇的团队的一部分。 这个星期本身非常令人惊奇，尤其是讨论和“展示和讲述”会话！
 
-## [Netherlands eScience Center](https://www.esciencecenter.nl/)
+## [荷兰电子科学中心](https://www.esciencecenter.nl/)
 
-荷兰电子科学中心是荷兰开发和应用科学界总体软件和方法的国家枢纽。 Their main goal is to enable scientists with varying computing experience to fully utilize the potential of the available e-infrastructure and allow them to achieve otherwise unreachable scientific breakthroughs. 荷兰电子科学中心主要由荷兰国家研究理事会和国家电子基础设施组织提供资金。
+荷兰电子科学中心是荷兰开发和应用科学界总体软件和方法的国家枢纽。 其主要目标是使具有不同计算经验的科学家能够充分利用现有电子基础设施的潜力，并使他们能够实现本来无法实现的科学突破。 荷兰电子科学中心主要由荷兰国家研究理事会和国家电子基础设施组织提供资金。
 
-荷兰电子科学中心有 [自己的指南](https://guide.esciencecenter.nl/) 用于可复制的软件开发。 The focus of the eScience center guide has a big overlap with _The Turing Way_ and therefore it makes sense to avoid duplicating efforts. The eScience center contributes to _The Turing Way_ in the areas which are relevant for the eScience guide. The eScience guide points to _The Turing Way_ in when information would otherwise be duplicated.
+荷兰电子科学中心有 [自己的指南](https://guide.esciencecenter.nl/) 用于可复制的软件开发。 电子科学中心指南的焦点与 _绘图方式_ 有很大的重叠，因此避免重复工作是有道理的。 The eScience center contributes to _The Turing Way_ in the areas which are relevant for the eScience guide. 电子科学指南指出 _在原本会重复信息的情况下诱惑方式_。
 
 每个成员的贡献详情按字母顺序排列。
 
 ### Carlos Martinez Oritz
 
-* Role: **Community manager**, Book Dash November 2020 attendee/helper
+* 角色： **社区管理器**, 2020年11月卷破折号参与者/助手
 * GitHub id: [c-martinez](http://github.com/c-martinez)
 * ORCID: [0000-0001-5565-7577](https://orcid.org/0000-0001-5565-7577)
 * 短生物：
-> 卡洛斯在埃克斯特大学获得计算机科学博士学位。 随后，他在埃克塞特大学和普利茅斯大学从事各种研究项目。 At the eScience Center, he has worked as an engineer in diverse projects in digital humanities and life sciences, developing expertise in natural language processing, linked open data and software sustainability. He is also a certified Software Carpentry instructor and is frequently involved in organising trainings.
+> 卡洛斯在埃克斯特大学获得计算机科学博士学位。 随后，他在埃克塞特大学和普利茅斯大学从事各种研究项目。 在电子科学中心，他曾担任数字人文科学和生命科学领域各种项目的工程师。 发展自然语言处理方面的专门知识，将开放数据和软件可持续性联系起来。 他还是经认证的软件木工教员，经常参与组织培训。
 
 * 个人要闻：
-> We always advocate for software reuse and collaborative development of software. I love that we can do the same for software development guidelines: reuse content from the eScience guide and collaboratively develop with _The Turing Way_ community!
+> 我们一贯主张重新使用软件并合作开发软件。 我很喜欢我们可以做同样的软件开发指南：重新使用电子科学指南中的内容，并且与 _Ting Way_ 社区合作开发！
 
-* More information:
-> 我大力提倡提高软件质量。 I am really glad that the eScience center is collaborating with _The Turing Way_ in providing guidelines and helping build better research software.
+* 更多信息：
+> 我大力提倡提高软件质量。 我非常高兴的是，电子科学中心正在与 _Ting Way_ 合作，提供指南并帮助建立更好的研究软件。
 
 ### Mateusz Kuzak
 
 * 角色： **社区管理器**, 2020年11月卷破折号参与者/助手
 * GitHub id: [mkuzak](http://github.com/mkuzak)
 * ORCID: [0000-0003-0087-6021](https://orcid.org/0000-0003-0087-6021)
-* Short bio:
-> Mateusz在波兰克拉科夫Jagiellonian大学获得生物技术专业硕士学位。 In September 2019 Mateusz joined the Netherlands eScience Center in the role of Community Officer with the focus on communities and training around Research Software Engineering, software best practices and sustainability, and the role of software in open science and reproducible research. Since 2015, Mateusz has been involved in the Carpentries community, first as an instructor, later contributor, mentor, Executive Council member and instructor trainer. 他还正在领导Carpentri的荷兰分会，并且是Nl-RSE社区的核心小组成员。
+* 短生物：
+> Mateusz在波兰克拉科夫Jagiellonian大学获得生物技术专业硕士学位。 2019年9月，Mateusz与荷兰电子科学中心一起担任社区干事，重点是社区和围绕研究软件工程进行培训。 • 软件在开放科学和可再生产研究中的作用。 自2015年以来，Mateusz一直参与Carpentry社区的工作，首先是教员、后来的贡献者、导师、执行委员会成员和教员培训员。 他还正在领导Carpentri的荷兰分会，并且是Nl-RSE社区的核心小组成员。
 
 * 个人要闻：
-> I have personally contributed to _The Turing Way_ by drafting chapters in the guide for Reproducible Research, reviewed other contributor's Pull Requests and mentored contributions from Netherlands eScience Center.
+> 我已经亲自为 _Tacking Way_ 做出了贡献，起草了可复制研究指南中的章节。 审核了其他贡献者的合并请求和来自荷兰电子科学中心的导师捐款。
 
 ## [FAIR Cookbook](https://fairplus.github.io/the-fair-cookbook/content/home.html)
 
@@ -1060,44 +1060,44 @@ _The Turing Way_ team members and [project's editorial board members](https://fa
 * 角色： 2019年5月图书破折号
 * GitHub id: [susannasansone](http://github.com/susannasansone)
 * ORCID: [0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
-* Short bio:
-> Susanna-Assunta Sansone is an Associate Director and Principal Investigator at the Oxford e-Research Centre, and an Associate Professor in the Department of Engineering Science of the University of Oxford. 她还是Springer Nature顾问和科学数据杂志创始名誉学术编辑。
+* 短生物：
+> Susanna-Assunta Sansone是牛津电子研究中心协理主任兼首席调查员。 牛津大学工程科学系副教授。 她还是Springer Nature顾问和科学数据杂志创始名誉学术编辑。
 
-* Personal highlights:
-> TBA
+* 个人要闻：
+> 待机
 
 * 更多信息：
-> Susanna-Assunta Sansone的座右铭是“更好的数据以求更好的科学”。 她利用她一群杰出的研究软件 & 知识工程师，研究并开发各种方法和工具，以改进数据的再利用； 它们致力于数据的透明度、研究的完整性和学术出版的演变。 她还进行调研，以改进研究实践和分享研究的方式。 Specifically, she strives to make digital research objects, including data, Findable, Accessible, Interoperable and Reusable, FAIR, for humans and for machines.
+> Susanna-Assunta Sansone的座右铭是“更好的数据以求更好的科学”。 她利用她一群杰出的研究软件 & 知识工程师，研究并开发各种方法和工具，以改进数据的再利用； 它们致力于数据的透明度、研究的完整性和学术出版的演变。 她还进行调研，以改进研究实践和分享研究的方式。 具体而言，她努力为人类和机器制作数字研究物体，包括数据、可查取、可相互操作和可重复使用的数据。
 
 ### Philippe Rocca-Serra
 
-* Role: Book Dash May 2020 attendee
+* 角色： 2020年图书破折号
 * GitHub id: [proccaserra](http://github.com/proccaserra)
 * ORCID: [0000-0001-9853-5668](https://orcid.org/0000-0001-9853-5668)
-* Short bio:
-> Philippe Rocce-Serra 从波尔多大学获得分子生物学博士学位。 加入剑桥EMBL-EBI微阵列信息学小组后，移动到生物信息学领域。 在那里，他为建立ArrayExpress公司而工作，成为若干标准化努力的积极成员，旨在促进开放数据和开放科学的远见。 As part of several EU projects in toxicogenomics and nutrigenomics, he coordinated the development of the ISA project [1], which now continues at the University of Oxford e-Research Centre.
+* 短生物：
+> Philippe Rocce-Serra 从波尔多大学获得分子生物学博士学位。 加入剑桥EMBL-EBI微阵列信息学小组后，移动到生物信息学领域。 在那里，他为建立ArrayExpress公司而工作，成为若干标准化努力的积极成员，旨在促进开放数据和开放科学的远见。 作为欧盟几个毒理学和毒理学项目的一部分，他协调了国际海底管理局项目 [1]的开发， 目前继续在牛津大学电子研究中心进行。
 
 * 个人要闻：
-> TBA
+> 待机
 
-## [Open Life Science](https://openlifesci.org/)
+## [打开生命科学](https://openlifesci.org/)
 
-在 OLS-4 协作名称下， _Ting Way_ 与 [Open Life Science (OLS)](https://openlifesci.org)帮助个人和利益攸关方研究成为开放科学大使的方案。 该方案由1981年Beree Batut、Malvika Sharan和Yo Yehudi共同创立。 This collaboration offers training and mentoring to interested members from Turing and The Turing Way communities to join the OLS programme individually or in teams. 它们在它们已经在执行或希望在不久的将来发展的项目中发展开放科学方面。
+在 OLS-4 协作名称下， _Ting Way_ 与 [Open Life Science (OLS)](https://openlifesci.org)帮助个人和利益攸关方研究成为开放科学大使的方案。 该方案由1981年Beree Batut、Malvika Sharan和Yo Yehudi共同创立。 这种合作为来自“诱导”和“诱导之路”社区的感兴趣成员单独或集体参加生命线行动方案提供培训和指导。 它们在它们已经在执行或希望在不久的将来发展的项目中发展开放科学方面。
 
-You can see the projects that participated in the second round - [OLS-2](https://openlifesci.org/ols-2/projects-participants/) and the third round - [OLS-3](https://openlifesci.org/ols-3/projects-participants/). 这种协作获得了导师在线培训赠款，以支持第四轮的教学项目([OLS-4](https://openlifesci.org/funders))，并公开分享在导师培训网络中的材料。
+您可以看到参与第二轮的项目 - [OLS-2](https://openlifesci.org/ols-2/projects-participants/) 和第三轮—— [OLS-3](https://openlifesci.org/ols-3/projects-participants/)。 这种协作获得了导师在线培训赠款，以支持第四轮的教学项目([OLS-4](https://openlifesci.org/funders))，并公开分享在导师培训网络中的材料。
 
-## [Remote Computational Project Resource](https://isabelbirds.github.io/Remote-Computational-Project-Resource/welcome.html)
+## [远程计算项目资源](https://isabelbirds.github.io/Remote-Computational-Project-Resource/welcome.html)
 
-这一资源是在COVID-19大流行病期间由Isabel Birds开办的，目的是在短时间内支持从湿到远距离干燥实验室项目转来的学生。 This project includes links to (1) general tutorials for the complete beginner, (2) tutorials for specific analyses or pipelines, (3) free online textbooks, and (4) places to ask for help.
+这一资源是在COVID-19大流行病期间由Isabel Birds开办的，目的是在短时间内支持从湿到远距离干燥实验室项目转来的学生。 此项目包括到 (1) 完整初学者的一般教程链接 (2) 具体分析或管道教程，(3) 免费在线教科书，(4) 寻求帮助的场所。
 
 ### 伊莎贝勒鸟类
 
 * 角色：诱惑路径贡献者
 * GitHub id: [IsabelBirds](http://github.com/IsabelBirds)
 * ORCID: [0000-0001-8173-3879](https://orcid.org/0000-0001-8173-3879)
-* Short bio:
+* 短生物：
 > Isabel是利兹大学博士生，致力于分离由Julie Aspden博士监督的长期非编码RNA的功能和分子演变。 Mary J O'Connell博士和David Westhead博士。 她对分子演变和生物信息技术在她整个学位的应用很感兴趣。 并在阿斯普登和O'Connell实验室开展研究项目时发展了这些兴趣。  
 > 她也有从供资者角度进行科学研究的经验。 她在年内获得了工业方面的经验，并在约克郡癌症研究院举办了许多夏季实习。
 
 * 个人要闻：
-> After learning about the Turing Way I was inspired to create a site aimed at a wider audience. The Turing Way tutorials helped me to set up my first Jupyter Book, helped me to create the site in a way that is open to contributions, and made sharing my work openly less scary! The Turing Way also pops up a few times in the resources listed. The aim of the resource is to make starting a computational project less overwhelming by curating links to tutorials and online textbooks. Skills such as file management or asking for help effectively are also highlighted, along with entertaining things like podcasts as a reminder that research can be fun!
+> 在了解了诱导之道后，我被激发创立了一个面向更广泛受众的网站。 美丽的道路教程帮助我建立了我的第一本木偶书， 帮助我以开放的方式创建网站，公开分享我的工作！ 在上面列出的资源中也有好几次弯曲的道路。 资源的目的是通过管理教程和在线教科书的链接，减少启动一个计算项目的难度。 还强调了诸如文件管理或要求有效帮助等技能。 同时还要考虑像播客这样的事情，提醒我们研究是有趣的！

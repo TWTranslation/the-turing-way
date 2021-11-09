@@ -1,28 +1,28 @@
-(cl-remote-collab-prosandcons)=
-# Perceived Pros and Cons
+(cl-collab-remoto-prosandos)=
+# Pros y Cons percibidos
 
-It is needless to say that the same setting can not always work for everyone, which applies to remote collaboration, working, and event participation. For many, it may not always feel as effective as working in physical offices, for example, when they live in a small apartment, share their place with a large family, have an inadequate remote-work setting or feel less connected with their colleagues. However, for others, remote working may be more enjoyable and productive.
-> "As someone who used to commute 4 hours per day for 12 years, I can sum my experiences in four words - *remote working reduces inequality*", says one of our contributors, Pablo Rodríguez-Sánchez (GitHub: PabRod).
+No hace falta decir que el mismo ajuste no siempre puede funcionar para todos, que se aplica a la colaboración remota, el trabajo y la participación de eventos. Para muchos, puede que no siempre se sienta tan eficaz como trabajar en oficinas físicas, por ejemplo, cuando viven en un pequeño apartamento, comparten su lugar con una familia grande, tienen un entorno de trabajo a distancia inadecuado o se sienten menos conectados con sus compañeros. Sin embargo, para otros, el trabajo a distancia puede ser más agradable y productivo.
+> "Como alguien que solía trabajar 4 horas al día durante 12 años, Puedo sumar mis experiencias en cuatro palabras - *el trabajo remoto reduce la desigualdad*", dice uno de nuestros colaboradores, Pablo Rodríguez-Sánchez (GitHub: PabRod).
 
-In this subchapter, we have captured *light opinions* a few contributors on their experience of collaborating remotely with others under "pro" and "cons" sections.
+En este subcapítulo, hemos capturado *opiniones ligeras* algunos colaboradores en su experiencia de colaboración remota con otros en secciones "pro" y "con".
 
 ## Pros
 
-- Remote collaboration dramatically improves the life quality of those who cannot comfortably travel or afford to live close to their office.
-- It has a positive impact on the environment by reducing travel-related CO2 emissions.
-- A well-established format works equally well for low resource environments as the overall organisational cost can be reduced by not having to deal with the on-site expense.
-- Distributed team format attracts people from different time zones, different workplace requirements or those who work best with flexible working hour arrangements.
-- This can lead to innovative ways to establish social interactions and social dynamics in general.
-- It will help us learn about more colleagues from different parts of the world and educate us more about our cultural differences and accommodations to make in our work environment.
-- Decision making will become more efficient by involving all stakeholders irrespective of their locations, given the meeting is done at a mutually convenient time.
+- La colaboración remota mejora drásticamente la calidad de vida de aquellos que no pueden viajar cómodamente o permitirse vivir cerca de su oficina.
+- Tiene un impacto positivo en el medio ambiente al reducir las emisiones de CO2 relacionadas con los viajes.
+- Un formato bien establecido funciona igual de bien para entornos de bajos recursos, ya que el costo total de la organización puede reducirse al no tener que lidiar con el gasto in situ.
+- El formato de equipo distribuido atrae a personas de diferentes zonas horarias, diferentes requerimientos en el lugar de trabajo o aquellos que mejor trabajan con horarios flexibles.
+- Esto puede conducir a formas innovadoras de establecer interacciones sociales y dinámicas sociales en general.
+- Nos ayudará a aprender sobre más colegas de diferentes partes del mundo y a educarnos más sobre nuestras diferencias y adaptaciones culturales que debemos hacer en nuestro entorno de trabajo.
+- La toma de decisiones será más eficiente al implicar a todas las partes interesadas independientemente de sus ubicaciones, dado que la reunión se realiza en un momento mutuamente conveniente.
 
-## Cons
+## Contra
 
-- Developing camaraderie may be challenging as we are used to developing this in-person.
-- The boundaries between working life and personal life become more blurred.
-- If running an online meeting, the allocated time might not be enough to conclude and may sometime lead to misinterpretation of decisions made by the team.
-- Conflict resolution may be difficult if most interactions happen in an allocated time slot.
-- Sometimes, such interactions may lack body language or tone (online chat) and may lead to misunderstanding or unnecessary conflict.
-- May lose the possibility of chanced interaction or water-cooler-effects and innovative ideas that they produce.
-- People will have different working conditions, for example, limited access to hardware that can lead to wrong assumptions regarding replication of certain tasks.
-- May be distracting if working from a busy co-working space or home without a sufficient arrangement for work that can make it difficult for some people to focus and have disciplined work practices.
+- El desarrollo de la camaradería puede ser desafiante ya que estamos acostumbrados a desarrollar esto en persona.
+- Los límites entre la vida laboral y la vida personal se vuelven más borrosos.
+- Si se ejecuta una reunión en línea, el tiempo asignado podría no ser suficiente para concluir y puede llevar a algún momento a una interpretación errónea de las decisiones tomadas por el equipo.
+- La resolución de conflictos puede ser difícil si la mayoría de las interacciones ocurren en un intervalo de tiempo asignado.
+- A veces, tales interacciones pueden carecer de lenguaje corporal o tono (chat en línea) y pueden conducir a malentendidos o a conflictos innecesarios.
+- Puede perder la posibilidad de una interacción con el azufre o efectos más fríos del agua y las ideas innovadoras que producen.
+- Las personas tendrán condiciones de trabajo diferentes, por ejemplo, un acceso limitado al hardware que puede conducir a supuestos equivocados con respecto a la replicación de ciertas tareas.
+- Puede ser una distracción si se trabaja desde un espacio de trabajo co-trabajando o desde el hogar sin un arreglo suficiente para el trabajo que puede dificultar que algunas personas se centren y tengan prácticas de trabajo disciplinadas.

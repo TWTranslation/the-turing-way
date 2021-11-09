@@ -1,31 +1,31 @@
 (rr-ci)=
-# Continuous integration
+# التكامل المستمر
 
-| Prerequisite                                                                                  | Importance   | Notes                                                                                                                          |
-| --------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary    | Continuous integration will follow command line instructions                                                                   |
-| {ref}`Version control<rr-vcs>`                                                          | Necessary    | Continuous integration runs every time a new _commit_ is made to your project                                                  |
-| {ref}`Reproducible computational environments<rr-renv>`                                 | Necessary    | Continuous integration runs your tests on a separate computer (usually in the cloud) so you need to set it up in the same way. |
-| {ref}`Testing<rr-testing>`                                                              | Very helpful | Continuous integration _tests_ if anything important has changed when you make a change in your project                        |
+| الشروط المسبقة                                                                     | الأهمية   | الحواشي                                                                                                         |
+| ---------------------------------------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------- |
+| [الخبرة في سطر الأوامر](https://programminghistorian.org/en/lessons/intro-to-bash) | ضروري     | التكامل المستمر سيتبع تعليمات سطر الأوامر                                                                       |
+| {ref}`التحكم في الإصدار<rr-vcs>`                                             | ضروري     | الدمج المستمر يعمل في كل مرة يتم فيها _التزام جديد_ لمشروعك                                                     |
+| {ref}`البيئات الحسابية القابلة للتكرار<rr-renv>`                             | ضروري     | يقوم الدمج المستمر بتشغيل اختبارات على جهاز كمبيوتر منفصل (عادة في السحابة) لذلك تحتاج إلى إعداده بنفس الطريقة. |
+| {ref}`اختبار<rr-testing>`                                                    | مفيد جداً | اختبار التكامل المستمر __ إذا كان أي شيء مهم قد تغير عند إجراء تغيير في مشروعك                                  |
 ## Summary
 
-Continuous integration (CI) is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). CI software is also typically used to identify any conflicts and bugs that are introduced by changes, so they are found and fixed early, minimising the effort required to do so. Running tests regularly also saves humans from needing to do it manually. By making users aware of bugs as early as possible researchers (if the project is a research project) do not waste a lot of time doing work that may need to be thrown away, which may be the case if tests are run infrequently and results are produced using faulty code.
+الدمج المستمر هو ممارسة إدماج التغييرات التي يجريها الأفراد في مشروع في صلب المشروع، الإصدار المشترك بشكل متكرر (عادة عدة مرات في اليوم). تستخدم برمجيات CI أيضا عادة لتحديد أي تضارب أو خلل يتم إدخاله من خلال التغييرات، وبذلك يتم العثور عليها وإصلاحها في وقت مبكر، مما يقلل إلى أدنى حد من الجهد اللازم للقيام بذلك. كما أن إجراء الاختبارات بانتظام ينقذ البشر من الحاجة إلى القيام بذلك يدويا. من خلال جعل المستخدمين على علم بالأخطاء في أقرب وقت ممكن الباحثين (إذا كان المشروع مشروع بحث) لا يهدر الكثير من الوقت للقيام بعمل قد يحتاج إلى إبعاده، وهو ما قد يكون عليه الحال إذا كانت الاختبارات تجري بشكل نادر ويتم إنتاج النتائج باستخدام رمز خاطئ.
 
 ```{figure} ../figures/continuous-integration-may19.jpg
 ---
-height: 500px
-name: continuous-integration-may19
-alt: A sketch showing how continuous integration helps developers plan, design, integrate code into a shared repository, and then observe the influence of any changes.
+الطول: 500px
+الاسم: استمرارية التكامل - ماي-19
+بديل : رسم يوضح كيف يساعد التكامل المستمر المطورين على الخطة، تصميم ، دمج التعليمات البرمجية في مستودع مشترك، ثم ملاحظة تأثير أي تغييرات.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## How this will help you/ why this is useful
+## كيف سيساعدك هذا/لماذا هذا مفيد
 
-CI has a number of key benefits:
+وللمؤسسة المذكورة عدد من الفوائد الرئيسية:
 
-- Helps bugs to be found early, minimising their damage and making them easier to fix
-- Keeps project contributors up to date with each other's work so they can benefit from it as soon as possible
-- Encourages users to write tests
-- Automates running of tests
-- Ensures tests are run frequently
+- يساعد على العثور على الأخطاء في وقت مبكر، وتقليل الضرر وجعلها أسهل لإصلاحها
+- إبقاء المساهمين في المشاريع على اطلاع على أعمال بعضهم البعض حتى يتسنى لهم الاستفادة منها في أقرب وقت ممكن
+- يشجع المستخدمين على كتابة الاختبارات
+- التشغيل الآلي للاختبارات
+- ضمان إجراء الاختبارات بشكل متكرر

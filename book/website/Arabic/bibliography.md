@@ -1,5 +1,5 @@
-(bibliography)=
-# Bibliography
+(ببليوغرافيا)=
+# الببليوغرافيا
 
-*This file consist of a complete bibliography for this book sorted alphabetically*
+*ويتألف هذا الملف من ثبت مرجعي كامل لهذا الكتاب مرتبة أبجديا*
 `{bibliography}`

@@ -1,25 +1,25 @@
 (ch-coc)=
-# Code of Conduct
+# مدونة قواعد السلوك
 
-We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in the Turing Way project is expected to show respect and courtesy to other community members at all times.
+ونحن نقدر مشاركة كل فرد من أفراد مجتمعنا ونريد أن نضمن أن كل مساهم يتمتع بتجربة ممتعة ومحققة. وبناء على ذلك، يتوقع من كل من يشارك في مشروع طريق التورينغ أن يبدي احترامه وكياسته لأفراد المجتمع المحلي الآخرين في جميع الأوقات.
 
-Kirstie Whitaker, as PI of this project, and all project members, are dedicated to a ***harassment-free experience for everyone***, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. **We do not tolerate harassment by and/or of members of our community in any form**.
+كيرستي ويتاكر، كـ PI لهذا المشروع، وجميع أعضاء المشروع، هي مكرسة لـ ***تجربة خالية من المضايقات للجميع***، بغض النظر عن نوع الجنس أو الهوية أو التعبير عن نوع الجنس أو التوجه الجنسي أو الإعاقة أو المظهر البدني أو حجم الجسم أو العرق أو السن أو الدين. **نحن لا نتسامح مع مضايقة أفراد مجتمعنا أو أفراده بأي شكل من الأشكال**.
 
-We are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.
+ونحن متحمسون بشكل خاص لدعم المتعاونين الجدد و/أو القلقين، الناس الذين يتطلعون إلى التعلم وتطوير مهاراتهم، وكل من عانى من التمييز في الماضي.
 
-To make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.
+ولتوضيح ما هو متوقع، نطلب إلى جميع أفراد المجتمع أن يلتزموا بمدونة قواعد السلوك التالية.
 
-The Code of Conduct document has been written in 4 parts: {ref}`Overview <ch-coc-overview>`, {ref}`Details <ch-coc-details>`, {ref}`Reporting <ch-coc-reporting>` and {ref}`Enforcement <ch-coc-enforcement>`.
+تم كتابة وثيقة مدونة قواعد السلوك في 4 أجزاء: {ref}`نظرة عامة <ch-coc-overview>`، {ref}`تفاصيل <ch-coc-details>`، {ref}`الإبلاغ <ch-coc-reporting>` و {ref}`الإنفاذ <ch-coc-enforcement>`
 
-The last part acknowledges all sources that this Code of Conduct has been built upon.
+ويعترف الجزء الأخير بجميع المصادر التي تستند إليها مدونة قواعد السلوك هذه.
 
-(ch-coc-overview)=
-## 1 Code of Conduct: Overview
+(ch-coc-Overview)=
+## 1 مدونة قواعد السلوك: نظرة عامة
 
-The Turing Way is a community-oriented and -led project. We value the involvement of everyone in the community. We are committed to creating a friendly and respectful place for learning, teaching and contributing. All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
+والطريق إلى تورينغ هو مشروع موجه نحو المجتمعات المحلية ويقوده. ونحن نقدر مشاركة الجميع في المجتمع. ونحن ملتزمون بإيجاد مكان ودي ومحترم للتعلم والتعليم والمساهمة. ومن المتوقع أن يبدي جميع المشاركين في أحداثنا الشخصية وفي اتصالاتنا عبر الإنترنت الاحترام والكياسة للآخرين في جميع الأوقات.
 
-To make clear what is expected, everyone participating in activities associated with the Turing Way project is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in-person focus groups and workshops, and communications online via GitHub.
+ولتوضيح ما هو متوقع، يتعين على كل شخص يشارك في الأنشطة المرتبطة بمشروع "طريق التحقق" أن يمتثل لمدونة قواعد السلوك هذه. وتنطبق مدونة قواعد السلوك هذه على جميع المجالات التي يديرها مشروع طريق التوريغ، بما في ذلك: على سبيل المثال لا الحصر، أفرقة التركيز وحلقات العمل الشخصية، والاتصالات عبر شبكة GitHub.
 
-The lead investigator of the Turing Way - Dr Kirstie Whitaker - is responsible for enforcing the Code of Conduct. She can be contacted by emailing [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk). You may contact [Anna Krystalli](mailto:a.krystalli@sheffield.ac.uk) or [Ben Murton](mailto:bmurton@turing.ac.uk) if you would prefer not to contact Dr Whitaker.
+والمحقِّق الرئيسي في طريق تورينغ - الدكتور كيرستي ويتاكر - مسؤول عن إنفاذ مدونة قواعد السلوك. يمكن الاتصال بها عن طريق البريد الإلكتروني [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk). يمكنك الاتصال [آنا كريستالي](mailto:a.krystalli@sheffield.ac.uk) أو [بن مورتون](mailto:bmurton@turing.ac.uk) إذا كنت تفضل عدم الاتصال بالدكتورة ويتاكر.
 
-Reports may be reviewed by other members of the core development team, unless there is a conflict of interest, and will be kept confidential.
+ويجوز أن يستعرض التقارير أعضاء آخرون في فريق التنمية الأساسي، ما لم يكن هناك تضارب في المصالح، وتظل هذه التقارير سرية.

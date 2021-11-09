@@ -1,27 +1,27 @@
 (rr-licensing)=
-# Licensing
+# 许可协议
 
-(rr-licensing-prerequisites)=
-## Prerequisites
+(rr-licens-requirements)=
+## 必备条件
 
-No previous knowledge is needed, but it is important to understand how licensing can affect your project.
+不需要先前的知识，但必须了解许可证如何能够影响您的项目。
 
 (rr-licensing-summary)=
 ## Summary
 
-> This chapter was written using American English, in which the word **license** is a noun **_and_** a verb. With British English, however, **licence** is a noun (as in, _to issue a licence_), while **license** is a verb (as in, _they licensed the event_).
+> 本章使用美国英文撰写，其中 **licenes** 是一个名词 **_和_** 一个动词。 然而，使用英文。 **许可证** 是一位名词(如， _)签发许可证_)， 虽然 **许可证** 是动词(例如在 _他们许可了该事件_)。
 
-As with anything else in society, some of what you can and cannot do in software development is determined by the law. Most of the constraints in this particular domain stem from intellectual property laws: laws that make abstract things like designs, stories, or computer programs resemble physical objects by allowing them to be owned.
+如同社会上的任何其他事情一样，你在软件开发中能够做和不能做的一些事情是由法律决定的。 这一特定领域的制约因素大多来自知识产权法：将抽象的东西例如设计法， 故事或计算机程序类似于物理对象，允许他们拥有。
 
-This chapter aims to give a brief summary of relevant intellectual property laws (enough to be able to read most software licenses), explain free and open source software licensing, and explain how combining software from different sources works from a legal perspective. It also gives some rules we have worked out to deal with common situations.
+本章旨在简要介绍有关的知识产权法(足以阅读大多数软件许可权)， 解释自由和开放源码软件许可证，并解释从法律角度综合不同来源的软件是如何运作的。 它还提出了我们为处理共同局势而制定的一些规则。
 
-## Motivation
+## B. 动机。
 
-Without a license, all rights are with the author of the code, and that means nobody else can use, copy, distribute, or modify the work without consent. A license gives this consent. If you do not have a license for your software, it is effectively unusable by the whole research community.
+没有许可证，所有权利都属于该守则的作者。 这意味着任何人都不能未经同意使用、复制、分发或修改作品。 许可证给予这种同意。 如果您没有软件许可证，整个研究界都无法使用。
 
 ```{Attention}
-Good legal advice is timely, specific, and given by an expert; this chapter is none of these.
-It was written by an engineer, not by a lawyer, and it is a heavily simplified overview of a very complex field.
-The intent is to give you an overview of the basics so that you will know when to check whether something you want to do has potential legal ramifications.
-Do not make any important decisions based solely on the contents of this chapter.
+良好的法律咨询是及时的，具体的，由一名专家提供；本章没有任何内容。
+报告是由一名工程师而不是律师撰写的，它对一个非常复杂的领域作了大量简化的概述。
+其用意是向您概述基本知识，以便您知道何时检查您想要做的事情是否具有潜在的法律后果。
+不要仅仅根据本章内容作出任何重要决定。
 ```

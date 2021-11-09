@@ -1,32 +1,32 @@
 (cm-social-media-twitter)=
-# Managing Multiple Twitter Accounts
+# 管理多个Twitter账户
 
-Managing multiple accounts on Twitter can be challenging and you might be following a certain social media policy or approach that is different from how you would tweet from your personal account.
+在 Twitter 上管理多个帐户可能很有挑战性，您可能会遵循某种不同于您个人帐户的社交媒体政策或方法。
 
-Many projects and organisations have their own Twitter account that is used for advertising their research outputs and events.
+许多项目和组织都有自己的Twitter帐户，用于宣传它们的研究产出和活动。
 
-(cm-social-media-twitter-organisation)=
-## Managing an Organisational Twitter Account
+(cm-socio-media-twitter-organisation)=
+## 管理组织Twitter帐户
 
-**1. Be sure that you are clear about what the purpose of the account is and the type of tweets that the organisation wants.**
+**1. 请确保您清楚该帐户的目的是什么以及该组织想要什么样的提示类型。**
 
-* Is it going to be a professional tone or more relaxed and fun.
-* Are there certain restrictions about what content you can tweet about such as not sharing data or results?
+* 它是专业性的调子还是比较轻松和有趣的。
+* 对于您可以对诸如不分享数据或结果的内容进行修改是否有某些限制？
 
-**2. Use scheduling to time your tweets**
+**2. 使用时间安排来延长您的推文**
 
-* This can be done through the Twitter web browser or by using a Twitter app such as Tweetdeck.
-* Tweetdeck is the only app owned by Twitter and it is free to use. But there are [other apps for all different platforms](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), although you often have to pay for their services.
-* There are other apps, such as [Buffer](https://buffer.com/), that you can use to control multiple social media channels.
-* Scheduling tweets is particularly helpful if you are running an event as you can schedule tweets well in advance to give important information.
+* 这可以通过 Twitter 网页浏览器或使用 Tweetdeck 等Twitter 应用来完成。
+* Tweetdeck是Twitter拥有的唯一应用，可以免费使用。 But there are [other apps for all different platforms](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), although you often have to pay for their services.
+* 还有其他应用，例如 [缓存](https://buffer.com/)，您可以用来控制多个社交媒体频道。
+* 如果您正在运行一个事件，计划推文将特别有用，因为您可以提前排定推文以提供重要信息。
 
-**3. Preventing miss tweeting**
+**3. 防止错过推送**
 
-* When you are responsible for multiple tweeter accounts, there is the possibility of miss tweeting. This is when you tweet out, for example, a personal tweet using an organisational account.
-* Tweetdeck has a feature that allows you to add a confirmation step to perform an extra check before tweeting. This helps to prevent this issue.
+* 当您对多个推送帐户负责时，可能会错过推送。 这是当您退出时，例如一个使用组织帐户的个人潮湿。
+* Tweetdeck 有一个功能，允许您添加一个确认步骤，在推送前进行额外检查。 这有助于防止这个问题。
 
-**4. Enabling multiple users of the same account**
+**4. 启用同一个帐户的多个用户**
 
-* Also on Tweetdeck, you can [set up an account as a team to allow multiple users to have different access](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
-* There will be one person that is the admin for the account and then the other users are contributors.
-* As a contributor you can post Tweets, Direct Message, like, and Retweet for the team account. You cannot change the password or manage account settings.
+* 也在 Tweetdeck, 你可以 [设置一个帐户作为团队，允许多个用户有不同的访问](https://help.twitter.com/en/using-twitter/tweetdeck-teams)。
+* 将有一个人是帐户的管理员，然后其他用户是贡献者。
+* 作为贡献者，您可以发布Tweet、直接消息、类似以及团队账户的 Retweet 。 您不能更改密码或管理账户设置。

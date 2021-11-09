@@ -1,55 +1,55 @@
-(rr-reviewing-workflow)=
-# Typical Workflows
+(rr-revisión-workflow)=
+# Flujos de trabajo típicos
 
-*This chapter has particular reference to Github*
+*Este capítulo tiene referencia particular a Github*
 
 ```{figure} ../../figures/readable-code.jpg
 ---
 height: 500px
 name: readable-code
-alt: This image highlights the importance of code readability.
+alt: Esta imagen resalta la importancia de la legibilidad de código.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Formal vs Informal Reviews
+## Comentarios formales vs Informales
 
-For a formal review process to work effectively, it's imperative that the project is using good {ref}`version control<rr-vcs>`. However, it bears stating that **all review of code is very valuable**, including informal or ad-hoc approaches. Indeed, this kind of informal "over the shoulder" peer review can form a key preliminary component even in highly formalised review pipelines, saving a lot of stress and arguing once the formal stage begins.
+Para que un proceso de revisión formal funcione eficazmente, es imperativo que el proyecto esté utilizando un buen {ref}`control de versiones<rr-vcs>`. Sin embargo, lleva afirmando que **toda revisión del código es muy valiosa**, incluyendo enfoques informales o ad-hoc. De hecho, este tipo de revisión informal "por encima del hombro" puede formar un componente preliminar clave incluso en tuberías de revisión muy formalizadas. ahorrando mucho estrés y arguing una vez que comienza la etapa formal.
 
-This section focuses on the typical workflows behind a formal review process, as commonly implemented within [Github](https://github.com/). Other coding environments like [BitBucket](https://bitbucket.org/) or [GitLab](https://about.gitlab.com/) could have conceptually similar mechanisms but they are not explained here.
+Esta sección se centra en los flujos de trabajo típicos detrás de un proceso de revisión formal, como se implementa comúnmente dentro de [Github](https://github.com/). Otros entornos de codificación como [BitBucket](https://bitbucket.org/) o [GitLab](https://about.gitlab.com/) podrían tener mecanismos conceptualmente similares pero no se explican aquí.
 
-## Prepare The Code
+## Prepara el código
 
-Before requesting a review, make sure you've met all the obvious quality benchmarks for the project you are contributing to. This means making sure you have checked the review list (see {ref}`checklist for the coder<rr-checklist-for-code-review>`).
+Antes de solicitar una revisión, asegúrese de que ha cumplido con todas las pruebas de calidad del proyecto al que está contribuyendo. Esto significa asegurarse de que ha comprobado la lista de reseñas (ver la lista de verificación de {ref}`para el codificador<rr-checklist-for-code-review>`).
 
-A reviewer should check these things (see {ref}`checklist for the coder<rr-checklist-for-code-review>`), but defects on these fronts should be by occasional oversight, rather than systematic.
+Un revisor debería comprobar estas cosas (ver la lista de verificación de {ref}`para el codificador<rr-checklist-for-code-review>`), pero los defectos en estos frentes deberían ser ocasionalmente excesivos, en lugar de sistemáticos.
 
-## Propose Changes
+## Proponer cambios
 
-In the GitHub system, the review is begun directly from and often accessed through the [pull request page](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). The review step occurs between the points where the coder believes their contribution is complete and where that contribution is merged into the trunk code for the project, and so it is intimately associated with a single pull request.
+En el sistema de GitHub, la revisión se inicia directamente y se accede a menudo a través de la página de [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). La fase de revisión se da entre los puntos donde el codificador cree que su contribución está completa y donde esa contribución se fusiona en el código del tronco del proyecto, y por lo tanto se asocia íntimamente con un solo pull request.
 
-Within the Github environment, projects can be configured to *require* a review before a given pull request can be merged. Even if this option hasn't been selected, it's still possible (and indeed best practice) to manually request a review on a pending pull request.
+Dentro del entorno de Github, los proyectos pueden ser configurados para *requerir* una revisión antes de que un pull request pueda ser combinado. Incluso si esta opción no ha sido seleccionada, todavía es posible (y de hecho la mejor práctica) solicitar manualmente una revisión sobre una solicitud de extracción pendiente.
 
-## Create and Discuss The Review
+## Crear y discutir la reseña
 
-At this point, the review process can begin. In Github, the reviewer can provide both general comments as well as line-by-line comments, see [GitHub code review](https://github.com/features/code-review). Each comment becomes its own comment thread, permitting back-and-forth discussion about each issue as required. This interaction should allow consensus to be reached on every comment.
+En este punto, el proceso de revisión puede comenzar. En Github, el revisor puede proporcionar tanto comentarios generales como comentarios de línea por línea, ver [revisión del código de GitHub](https://github.com/features/code-review). Cada comentario se convierte en su propio hilo de comentarios, permitiendo discusiones sobre cada tema según sea necesario. Esta interacción debería permitir alcanzar un consenso sobre cada comentario.
 
-Once the review is complete, you can discuss any comments necessary. Then you make the changes, and record the changes made against appropriate comments. Also, you check that the reviewer knows you believe you have fully addressed the review.
+Una vez que la revisión esté completa, puede discutir cualquier comentario necesario. Luego realiza los cambios y registra los cambios realizados contra comentarios apropiados. Además, comprueba que el revisor sepa que cree que ha abordado completamente la revisión.
 
-Once you believe changes are complete, the reviewer checks that they do indeed address all of the initial comments. As needed, the reviewer engages constructively with you if they disagree on certain points in order to come to a consensus. In most cases, the reviewer has a final say if a consensus cannot be found.
+Una vez que crees que los cambios están completos, el revisor comprueba que efectivamente se ocupan de todos los comentarios iniciales. Como es necesario, el revisor se compromete constructivamente con usted si no están de acuerdo en ciertos puntos para llegar a un consenso. En la mayoría de los casos, el revisor tiene una última palabra si no se puede encontrar un consenso.
 
-Once post-review changes have been made to the code, make final updates the comments as needed to complete a history of what has been done and the reasoning behind it.
+Una vez que los cambios posteriores a la revisión se han hecho al código, hacer actualizaciones finales de los comentarios necesarios para completar una historia de lo que se ha hecho y el razonamiento detrás de ella.
 
-## Communicating Results Through GitHub
+## Comunicando resultados a través de GitHub
 
-In Github, comments should be added in the `Files changed` section, so they can be attached to a particular line of code, see [GitHub reviewing changes in pullrequests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests). Make many small comments this way, rather than a big ball of text with everything in it, so that different issues can be kept separate. Where relevant, refer to existing Issues and documentation.
+En Github, los comentarios deben ser añadidos en la sección `Archivos cambiados` , para que se puedan adjuntar a una línea de código en particular, vea [los cambios en GitHub en los pullrequests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests). Haga muchos comentarios pequeños de esta manera, en lugar de una gran bola de texto con todo en ella, de modo que se puedan mantener diferentes cuestiones por separado. Cuando sea pertinente, refiérase a las cuestiones y documentación existentes.
 
-If you're reviewing existing code rather than changes, it is still handy to use pull requests. If you find an issue that has an obvious fix, you can submit a pull request with a patch in the usual way.
+Si está revisando el código existente en lugar de cambios, todavía es útil usar pull requests. Si encuentras un problema que tiene una corrección obvia, puedes enviar un pull request con un parche de la manera habitual.
 
-If you don't have a fix, you can add an empty comment to the relevant line, and create a pull request from that as a patch. The relevant line(s) will then light up in the pull request's `Files changed` overview, and you can add your comments there. In this case, either the pull request is never merged (but the comments processed some other way, or not at all), or the extra comments are reverted and replaced by an agreed-upon fix.
+Si no tienes una solución, puedes añadir un comentario vacío a la línea correspondiente, y crear un pull request de eso como un parche. Las línea(s) relevantes se encenderán en el resumen de la solicitud de extracción `de archivos` cambiados y puede añadir sus comentarios allí. En este caso, o el pull request nunca es fusionado (pero los comentarios procesados de alguna otra manera, o no en absoluto), o los comentarios adicionales son revertidos y reemplazados por una solución acordada.
 
-In all cases, file many small pull requests, not one big one, as GitHub's support for code reviews is rather limited. Putting too many issues into a single pull request quickly becomes unwieldy.
+En todos los casos, archive muchas pequeñas solicitudes de extracción y no una grande, ya que el soporte de GitHub para revisiones de código es bastante limitado. Poner demasiados problemas en un solo pull request rápidamente se vuelve inmanejable.
 
-## Merge The Changes
+## Combinar los cambios
 
-Once the review process is complete, the reviewer approves the changes, and the merge can occur. Individual projects typically have rules and/or guidelines for whether the coder or the reviewer actually presses the merge button, so check. In many cases, project workflows make completion of a review and its sign-off by the reviewer a formal precondition of performing the merge. For the avoidance of doubt, adopting this principle even for small or informal projects is probably sensible.
+Una vez completado el proceso de revisión, el revisor aprueba los cambios y puede ocurrir la fusión. Los proyectos individuales típicamente tienen reglas y/o pautas para si el programador o el revisor realmente presionan el botón de fusión, así que compruebe. En muchos casos, los flujos de trabajo del proyecto hacen que la finalización de una revisión y su cierre por parte del revisor sea una condición previa formal para realizar la fusión. Para evitar dudas, adoptar este principio incluso para proyectos pequeños o informales es probablemente sensato.

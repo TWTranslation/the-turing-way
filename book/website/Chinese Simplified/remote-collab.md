@@ -1,19 +1,19 @@
 (cl-remote-collab)=
-# Remote Collaboration
+# 远程协作
 
-Remote collaboration refers to the ability to interact and work with others from anywhere in the world. Remote collaboration is extremely valuable for removing physical barrier in communication among members in a distributed teams who work remotely rather than being located in a physical office.
+远程合作是指与世界任何地方的其他人进行互动和工作的能力。 远程合作对于消除分布式小组成员之间沟通方面的实际障碍极为宝贵，这些小组的工作地点远距离工作，而不是设在实物办公室。
 
 ```{figure} ../figures/distributed-collaboration.jpg
 ---
-height: 500px
-name: distributed-collaboration
-alt: A person standing on a globe and interacting virtually with people in different time zones on different computer screens
+高度：500px
+名称：分布式协作
+Alt：一个站在地球上，几乎与不同时区的人在不同的计算机屏幕上进行交互
 ---
-Distributed Collaboration. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+分布式协作. Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-Remote collaboration is quite a standard practice in open source projects or online communities. It has gained popularity over the last few years as more and more companies expand their businesses in areas far from the location of the main office (for example, [Mozilla](https://www.mozilla.org/en-GB/)), or exist entirely as a remote company (for example, [RStudio](https://rstudio.com/about/)).
+远程合作是开放源码项目或在线社区的一种标准做法。 在过去几年中，随着越来越多的公司在远离主要办事处的地区扩大其业务，它受到人们的欢迎（例如： [Mozilla](https://www.mozilla.org/en-GB/)), 或完全作为远程公司存在(例如， [RStudio](https://rstudio.com/about/))。
 
-In early 2020, as we began to work entirely from home due to the [Coronavirus (COVID-19) pandemic](https://www.who.int/emergencies/diseases/novel-coronavirus-2019), we experienced a drastic change in our work culture. This chapter will present resources and tips for researchers to make their transition of working from the office (physical location) to working from home (online/virtual) easier, or make their collaboration more effective if they are already working remotely.
+2020年初，由于 [Coronavirus (COVID-19) 流行病](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)，我们开始完全在家里工作。 我们的工作文化发生了巨大变化。 本章将介绍研究人员的资源和建议，以便使他们从办公室(实际地点)转为从家里(在线/虚拟)工作更加容易， 或使他们的合作更加有效，如果他们已经在遥远的地方工作。
 
 <!--- Add a summary of all the subchapters --->

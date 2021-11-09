@@ -1,67 +1,67 @@
 (rr-renv-vm)=
-# Virtual Machines
+# Máquinas virtuales
 
-(rr-renv-vm-what)=
-## What are Virtual Machines?
+(rr-renv-vm-qué)=
+## ¿Qué son las máquinas virtuales?
 
-Virtual Machines (VMs) essentially package a whole computer as an app that can be run. As an example, the figure below shows a windows laptop (note the windows search button in the lower-left corner) running a virtual ubuntu machine (note the terminal outputting the operating system). The machine running the VM is called the `host machine`.
+Virtual Machines (máquinas virtuales) esencialmente empaquetan una computadora entera como una aplicación que se puede ejecutar. Como ejemplo, la figura de abajo muestra un portátil de ventanas (tenga en cuenta el botón de búsqueda de ventanas en la esquina inferior izquierda) ejecutando una máquina virtual ubuntu (nota de la salida terminal del sistema operativo). La máquina que ejecuta la máquina virtual se llama la máquina anfitrión ``.
 
-Using software like [VirtualBox](https://www.virtualbox.org/) or [Vagrant](https://www.vagrantup.com/), a user can create and run any number of VMs. As you could probably guess, having several VMs running at once can be a drain on memory. So just because you can run several VMs does not mean you should.
+Utilizando software como [VirtualBox](https://www.virtualbox.org/) o [Vagrant](https://www.vagrantup.com/), un usuario puede crear y ejecutar cualquier número de máquinas virtuales. Como probablemente podría adivinar, tener varias máquinas virtuales corriendo a la vez puede ser un drain en la memoria. Por lo tanto, el hecho de que pueda ejecutar varias máquinas virtuales no significa que deba hacerlo.
 
 ```{figure} ../../figures/virtual-machine.png
 ---
-name: virtual-machine
-alt: A screenshot of a Virtual Machine.
+nombre: virtual-machine
+alt: Una captura de pantalla de una máquina virtual.
 ---
 
 ```
 
-Users can download, install, backup and destroy VMs at will, which is why they are an attractive tool for sharing reproducible research. Research often requires specific pieces of software or system settings. If a researcher wishes to reproduce another's work on their computer, making the necessary changes to their environment to run the project may impact their work. For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. Say a researcher installs an updated version of Python to replicate an analysis because the analysis requires features only present in the updated version. By doing so, they put their own work at risk. VMs remove that risk; any tools downloaded or settings changed will only impact the VM, keeping the reproducer's research safe. If they do inadvertently break something in the VM, they can delete it and make another one. VMs are effectively a quarantined area.
+Los usuarios pueden descargar, instalar, respaldar y destruir máquinas virtuales a voluntad, por lo que son una herramienta atractiva para compartir investigaciones reproducibles. La investigación a menudo requiere piezas específicas de software o ajustes del sistema. Si un investigador desea reproducir el trabajo de otro en su computadora, hacer los cambios necesarios en su entorno para ejecutar el proyecto puede afectar su trabajo. Por ejemplo, en la sección {ref}`rr-renv-useful` de este capítulo, describimos cómo usar una versión diferente de Python puede llevar a cambios inesperados en los resultados de un análisis. Diga que un investigador instala una versión actualizada de Python para replicar un análisis porque el análisis requiere características sólo presentes en la versión actualizada. Al hacerlo, ponen en peligro su propio trabajo. Las máquinas virtuales eliminan ese riesgo; cualquier herramienta descargada o cambio de configuración sólo afectará a la máquina virtual, manteniendo a la investigación del reproductor a salvo. Si inadvertidamente rompen algo en la MV, pueden eliminarlo y hacer otra. Las máquinas virtuales son efectivamente una zona cuadrada.
 
-(rr-renv-vm-research)=
-## Using Virtual Machines for Reproducible Research
+(rr-renv-vm-investigación)=
+## Uso de máquinas virtuales para la investigación reproducible
 
-Virtual machines can be shared by exporting them as single files. Another researcher can then import that file using their own virtualisation software like [VirtualBox](https://www.virtualbox.org/) and open up a copy of the VM which will contain all the software files and settings put in place by the person that made the VM. Therefore in practice, they will have a working version of the project without the pain of setting it up themselves.
+Las máquinas virtuales pueden ser compartidas exportándolas como archivos individuales. Otro investigador puede importar ese archivo utilizando su propio software de virtualización como [VirtualBox](https://www.virtualbox.org/) y abrir una copia de la máquina virtual que contendrá todos los archivos de software y ajustes implementados por la persona que hizo la máquina virtual. Por lo tanto, en la práctica, tendrán una versión funcional del proyecto sin el dolor de establecerlo ellos mismos.
 
-(rr-renv-vm-research-settingup)=
-### Setting up a Virtual Machine
+(rr-renv-vm-investigación-configuración)=
+### Configurando una máquina virtual
 
-First, choose a tool for generating VMs. Here the widely-used [VirtualBox](https://www.virtualbox.org/) is chosen. Download and install it on your system. To create a new machine, click "New" in the top left. A window will pop up where you can enter a name for the machine and select what operating system (and version) to use. In the figure below, a machine called `demo_VM` running Ubuntu is being created:
+Primero, elija una herramienta para generar máquinas virtuales. Aquí se elige el ampliamente utilizado [VirtualBox](https://www.virtualbox.org/). Descargue e instale en su sistema. Para crear una máquina nueva, haga clic en "Nuevo" en la parte superior izquierda. Aparecerá una ventana donde podrá introducir un nombre para la máquina y seleccionar qué sistema operativo (y versión) utilizar. En la figura de abajo, se está creando una máquina llamada `demo_VM` ejecutando Ubuntu:
 
 ```{figure} ../../figures/vm-create-machine.png
 ---
-name: vm-create-machine
-alt: A screenshot showing a Virtual Machine is created.
+nombre: vm-create-machine
+alt: Se crea una captura de pantalla que muestra una máquina virtual.
 ---
 
 ```
 
-As you click through, you can adjust other features of the machine to be created, such as how much memory it should have access to. The default options are suitable for most purposes, but this process permits customisation.
+A medida que haga clic en el botón, puede ajustar otras características de la máquina a crear, como la cantidad de memoria a la que debería tener acceso. Las opciones por defecto son adecuadas para la mayoría de los propósitos, pero este proceso permite la personalización.
 
-(rr-renv-vm-research-starting)=
-### Starting a Virtual Machine
+(rr-renv-vm-investigación-inicio)=
+### Iniciando una máquina virtual
 
-To start a virtual machine, select the machine from the list of VMs on the left, and click the green `Start` arrow at the top:
+Para iniciar una máquina virtual, seleccione la máquina de la lista de máquinas virtuales a la izquierda, y haz clic en el verde `Iniciar` flecha en la parte superior:
 
 ```{figure} ../../figures/vm-start-machine.png
 ---
-name: vm-start-machine
-alt: A screenshot showing how to start a Virtual Machine.
+nombre: vm-start-machine
+alt: Una captura de pantalla que muestra cómo iniciar una máquina virtual.
 ---
 
 ```
 
-(rr-renv-vm-research-sharing)=
-### Sharing Virtual Machines
+(rr-renv-vm-investigación-compartir)=
+### Compartir máquinas virtuales
 
-A researcher can do work on their VM, and then export it. To export a VM, click `File` in the top left and then `Export`. This will export the VM as a single file which can be shared.
+Un investigador puede trabajar en su máquina virtual y luego exportarla. Para exportar una máquina virtual, haga clic en `Archivo` en la parte superior izquierda y luego `Exportar`. Esto exportará la máquina virtual como un único archivo que puede ser compartido.
 
 ```{figure} ../../figures/vm-export-machine.png
 ---
-name: vm-export-machine
-alt: A screenshot showing how to export a Virtual Machine.
+nombre: vm-export-machine
+alt: Una captura de pantalla que muestra cómo exportar una máquina virtual.
 ---
 
 ```
 
-Someone that has access to this file and VirtualBox installed just needs to click `File` in the top left, then `Import` to select that file. Once it is imported, they can start the VM as described before, by selecting it from the menu clicking the green start arrow at the top.
+Alguien que tenga acceso a este archivo y VirtualBox instalado solo necesita hacer clic en `Archivo` en la parte superior izquierda, luego `Importar` para seleccionar ese archivo. Una vez importado, pueden iniciar la máquina virtual como se describió anteriormente seleccionándolo del menú haciendo clic en la flecha verde de inicio en la parte superior.

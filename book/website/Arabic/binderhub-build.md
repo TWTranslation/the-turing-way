@@ -1,21 +1,21 @@
-(rr-binderhub-build)=
-# Build your own BinderHub
+(بناء r-binderhuberhub)=
+# بناء BinderHub الخاص بك
 
-[mybinder.org](https://mybinder.org/) is the free, public BinderHub that hosts almost 100k Binder launches per week. Why might you want to build your own?
+[mybinder.org](https://mybinder.org/) هو BinderHub المجاني العام الذي يستضيف ما يقرب من 100 ألف بايندر في الأسبوع. لماذا تريد بناء الخاص بك؟
 
-Binder [{term}`def<Binder>`] is an open source project maintained by volunteers and as such they ask that users stay within certain computational limitations in order to keep running costs as low as possible whilst still providing a usable service. By hosting your own BinderHub, you can offer your users much more flexible and tailored resources.
+Binder [{term}`def<Binder>`] هو مشروع مفتوح المصدر يديره المتطوعون وعليه فإنهم يطلبون أن يبقى المستخدمون في حدود حسابية معينة من أجل الحفاظ على تكاليف التشغيل منخفضة قدر الإمكان بينما لا يزالون يقدمون خدمة قابلة للاستعمال. باستضافة BinderHub، يمكنك تقديم المزيد من الموارد المرنة والمخصصة للمستخدمين.
 
-These customisations could include:
+ويمكن أن تشمل هذه التخصيصات ما يلي:
 
-- authentication,
-- greater computational resources per user,
-- bespoke library stacks and packages,
-- allowing access to private repos,
-- persistent storage for users,
-- restrict sharing within a certain institution or team.
+- المصادقة،
+- موارد حسابية أكبر لكل مستخدم،
+- مكتبات مكتبات مكتبية وحزم
+- السماح بالوصول إلى المستودع الخاص،
+- تخزين مستمر للمستخدمين،
+- تقييد المشاركة داخل مؤسسة معينة أو فريق معين.
 
-## Issues you may face when deploying a BinderHub
+## المشاكل التي قد تواجهها عند نشر BinderHub
 
-BinderHubs are becoming increasingly popular amongst universities and research institutes. This is because they can facilitate multiple instances of the same set of notebooks for use in a tutorial or workshop setting.
+وأصبحت مراكز بيندرهوب تحظى بشعبية متزايدة بين الجامعات ومعاهد البحوث. ويرجع ذلك إلى أنها يمكن أن تيسر حالات متعددة من نفس المجموعة من الدفاتر لاستخدامها في إعداد دروس أو حلقات عمل.
 
-If you are deploying a cloud-hosted BinderHub on behalf of your organisation, you may need specific permissions on your organisation's cloud platform subscription. Which permissions you require will vary based on the cloud platform you have access to and your IT Services policies. At minimum, you'll need to be able to assign [Role Based Access Control (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) to your resources so they can act autonomously in order to manage user traffic.
+إذا كنت تنشر BinderHub الذي تستضيفه سحابة نيابة عن مؤسستك، فقد تحتاج إلى أذونات محددة في اشتراك المنصة السحابية لمؤسستك. أي الأذونات التي تحتاج إليها سوف تختلف استناداً إلى منصة السحابة التي لديك حق الوصول إليها وسياسات خدمات تكنولوجيا المعلومات الخاصة بك. على أقل تقدير، ستحتاج إلى أن تكون قادراً على تعيين [التحكم في الوصول على أساس الأدوار (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) إلى مواردك حتى تتمكن من التصرف بشكل مستقل من أجل إدارة حركة مرور المستخدم.

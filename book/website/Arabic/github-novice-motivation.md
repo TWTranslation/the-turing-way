@@ -1,32 +1,32 @@
-(cl-github-novice-motivation)=
-# Motivation for Using GitHub
+(المحفزات - المحفزة)=
+# الدافع لاستخدام GitHub
 
-GitHub is an online web interface for collaborating, developing, sharing and using {ref}`git<rr-vcs-git)>` ({ref}`version control<rr-vcs>`). It’s designed to be easily accessible (you do not need to be a coder!) to share your work and (if you want) allow other people to test, modify, remix and reuse it. It also provides space and tools for collaboration and maintenance.
+GitHub هو واجهة ويب على الإنترنت للتعاون والتطوير والمشاركة واستخدام {ref}`git<rr-vcs-git)>` ({ref}`التحكم في الإصدار<rr-vcs>`). تم تصميمها لتكون سهلة الوصول (لا تحتاج أن تكون مبرمجًا! لمشاركة عملك و (إذا أردت) السماح لأشخاص آخرين باختباره وتعديله وإعادة تعديله وإعادة استخدامه. كما أنه يوفر حيزا وأدوات للتعاون والصيانة.
 
-GitHub is not the only available development platform, but it hosts this book and is widely used across disciplinary and private-public boundaries. Thus, this chapter is tailored towards GitHub and its resources, though other platforms probably have analogous functions.
+GitHub ليس منصة التطوير الوحيدة المتاحة، ولكنه يستضيف هذا الكتاب ويستخدم على نطاق واسع عبر الحدود التخصصية والخاصة والعامة. وهكذا فإن هذا الفصل مصمم خصيصا ليتناسب مع GitHub وموارده، على الرغم من أن المنصات الأخرى قد تكون لها وظائف مماثلة.
 
-Some key things to know about GitHub: – it has terrific project management features, a social platform and communication tools that are useful for any project where a group of people is working together on the same set of documents.
-- it can be used to store documentation, data and make web pages for projects.
-- it provides an easy-to-use interface for {ref}`version control<rr-vcs>` that allows all activities to be recorded so you can revisit past versions and you know who made each contribution to the project.
-- it has many options for automating repeated project management tasks.
+بعض الأشياء الرئيسية التي يجب أن تعرف عن GitHub: - لديها ميزات رائعة لإدارة المشروع، منصة اجتماعية وأدوات اتصال مفيدة لأي مشروع تعمل فيه مجموعة من الناس معاً على نفس مجموعة الوثائق.
+- ويمكن استخدامها لتخزين الوثائق والبيانات وإنشاء صفحات على شبكة الإنترنت للمشاريع.
+- يوفر واجهة سهلة الاستخدام لـ {ref}`تحكم الإصدار<rr-vcs>` الذي يسمح بتسجيل جميع الأنشطة حتى تتمكن من مراجعة الإصدارات السابقة وتعرف من قدم كل مساهمة للمشروع.
+- ولديها خيارات عديدة للتشغيل الآلي لمهام إدارة المشاريع المتكررة.
 
 
-## Project Management
+## إدارة المشاريع
 
-You can manage your project by creating project boards that include to-do lists and issues (problems or tasks that need to be done). Discussion forums and flexibility in user permissions mean you can give team members (and/or the general public) the appropriate levels of access.
+يمكنك إدارة مشروعك عن طريق إنشاء لوحات المشاريع التي تتضمن قوائم للقيام بالمشكلات (المشاكل أو المهام التي يجب القيام بها). منتديات المناقشة والمرونة في أذونات المستخدم تعني أنه يمكنك إعطاء أعضاء الفريق (و/أو عامة الجمهور) المستويات المناسبة من الوصول.
 
-## Easy to use
+## سهل الاستخدام
 
-You can use GitHub directly in your web browser or download it to your computer. Most instructions about how to use GitHub will start with you downloading it to your computer. However, there is no need to download GitHub onto your computer; it is much simpler to use it in a web browser.
+يمكنك استخدام GitHub مباشرة في متصفح الويب الخاص بك أو تنزيله إلى جهاز الكمبيوتر الخاص بك. ستبدأ معظم التعليمات حول كيفية استخدام GitHub بتحميلها إلى جهاز الكمبيوتر الخاص بك. ومع ذلك، لا حاجة لتنزيل GitHub على جهاز الكمبيوتر الخاص بك؛ ومن الأبسط بكثير استخدامه في متصفح الويب.
 
-In order to use GitHub, you do not need to be a computer coder! To format text, you only need to learn a very simple type of file formatting syntax called markdown. Again, you do not need to download a markdown editor as it can all be written directly in GitHub in your web browser. Markdown syntax [{term}`def<Syntax>`] is designed to be human readable even if it isn’t rendered [{term}`def<Rendered Output>`]. This allows you to format your text into a nice-looking document, including adding in links, pictures, tables and web links. In most cases, GitHub even provides a "preview" option that allows you to see what your rendered document will look like.
+من أجل استخدام GitHub، لا تحتاج إلى أن تكون مبرمج كمبيوتر! لتنسيق النص، تحتاج فقط إلى تعلم نوع بسيط جدا من صيغة تنسيق الملفات المسماة markdown. مرة أخرى، أنت لست بحاجة إلى تنزيل محرر العلامات لأنه يمكن أن يكتب مباشرة في GitHub في متصفح الويب الخاص بك. تم تصميم بناء بنية Markdown [{term}`def<Syntax>`] ليكون مقروء بشري حتى لو لم يتم تحويله [{term}`def<Rendered Output>`]. هذا يسمح لك بتهيئة النص الخاص بك في مستند رائع، بما في ذلك إضافة الروابط والصور والجداول وروابط الويب. في معظم الحالات، يوفر GitHub حتى خيار "المعاينة" الذي يسمح لك برؤية شكل المستند الذي تم تقديمه الخاص بك.
 
-For example, if you want to put a heading in markdown you use a ‘#’ (hash symbol) followed by a space and the title. Like this `# heading 1`, this will produce the first level header style for that text.
+على سبيل المثال، إذا كنت ترغب في وضع عنوان في markdown يمكنك استخدام "#" (رمز التجزئة) تليها مساحة وعنوان. مثل هذا `# عنوان 1`، هذا سوف ينتج نمط ترويسة المستوى الأول لذلك النص.
 
-### Resources to help you learn markdown:
+### الموارد التي تساعدك على تعلم الدرجة:
 
-* How to write faster, better & longer: [the ultimate guide to Markdown](https://ghost.org/changelog/markdown/)
+* كيفية كتابة أسرع & أفضل & أطول: [الدليل النهائي إلى Markdown](https://ghost.org/changelog/markdown/)
 * [Markdowncheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* Markdown guide: [Basic syntax](https://www.markdownguide.org/basic-syntax/)
+* دليل Markdown: [بناء الجملة الأساسية](https://www.markdownguide.org/basic-syntax/)
 
-How and when you use Markdown formatting in your file will become clearer as you go through this chapter.
+كيفية ومتى تستخدم تنسيق Markdown في الملف الخاص بك ستصبح أكثر وضوحا عندما تمر عبر هذا الفصل.

@@ -1,42 +1,42 @@
 (rr-vcs)=
-# Version Control
+# Control de versiones
 
 (rr-vcs-prerequisites)=
-## Prerequisites
+## Prerrequisitos
 
-| Prerequisite                                                                                  | Importance | Notes |
-| --------------------------------------------------------------------------------------------- | ---------- | ----- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Helpful    |       |
+| Prerrequisito                                                                                     | Importancia | Notas |
+| ------------------------------------------------------------------------------------------------- | ----------- | ----- |
+| [Experiencia con la línea de comandos](https://programminghistorian.org/en/lessons/intro-to-bash) | Útil        |       |
 
-**Recommended Skill Level**: _Beginner-Intermediate_
+**Nivel de Habilidad Recomendado**: _Inicio-Intermedio_
 
-(rr-vcs-summary)=
+(rr-vcs-Resumen)=
 ## Summary
 
-No matter how your group is organized, the work of many contributors needs to be managed into a single set of shared working documents. Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions. Management of changes or revisions to any types of information made in a file or project is called versioning.
+No importa cómo esté organizado su grupo, el trabajo de muchos colaboradores necesita ser gestionado en un único conjunto de documentos de trabajo compartidos. Control de versiones es un enfoque para registrar los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo para que usted y sus colaboradores puedan rastrear su historial, revisar cualquier cambio, y revertir o volver a las versiones anteriores. La gestión de cambios o revisiones a cualquier tipo de información realizada en un archivo o proyecto se llama versionamiento.
 
-In this chapter, we discuss the best practices that are relevant regardless of tools. Versioning practices mainly come from managing changes in the code repositories. However, in reality, you can use version control for nearly any type of file on a computer. For example, when writing a paper with multiple collaborators, version control can help track what changed, who changed them, and what updates were made.
+En este capítulo, discutimos las mejores prácticas que son relevantes independientemente de las herramientas. Las prácticas de versiones provienen principalmente de la gestión de cambios en los repositorios de código. Sin embargo, en realidad, puede utilizar el control de versiones para casi cualquier tipo de archivo en un ordenador. Por ejemplo, al escribir un documento con varios colaboradores, el control de versiones puede ayudar a rastrear qué cambió, quién los cambió y qué actualizaciones se realizaron.
 
-Different version control systems can be used through a program with a graphical user interface, web browser-based applications, or command-line tools. We have all seen a simple file versioning approach where different versions of a file are stored with a different name. Tools such as Google Drive and Dropbox offer platforms to update files and share them with others in real-time, collaboratively. More sophisticated version control system exists within tools like [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/). These allow collaborators to update files while storing each version in its version history (we will discuss this in detail). Advanced version control systems (VCS) such as [Git](https://en.wikipedia.org/wiki/Git), [Mercurial](https://www.mercurial-scm.org/), and [SVN](https://subversion.apache.org/) provide much more powerful tools.
+Diferentes sistemas de control de versiones se pueden utilizar a través de un programa con una interfaz gráfica de usuario, aplicaciones basadas en navegadores web o herramientas de línea de comandos. Todos hemos visto un sencillo enfoque de versiones de archivos donde se almacenan diferentes versiones de un archivo con un nombre diferente. Herramientas como Google Drive y Dropbox ofrecen plataformas para actualizar archivos y compartirlos con otros en tiempo real, colaborativamente. Existe un sistema de control de versiones más sofisticado dentro de herramientas como [Google docs](https://docs.google.com/) o [HackMD](http://hackmd.io/). Estos permiten a los colaboradores actualizar archivos mientras almacenan cada versión en su historial de versiones (lo discutiremos en detalle). Sistemas avanzados de control de versiones (VCS) como [Git](https://en.wikipedia.org/wiki/Git), [Mercurial](https://www.mercurial-scm.org/)y [SVN](https://subversion.apache.org/) proporcionan herramientas mucho más potentes.
 
-This chapter aims to cover the general principles underpinning all the advanced version control systems and best practice which applies for all such systems. We discuss many tools and features; however, we encourage readers to use features that are useful for their work and tools they are comfortable with. Most instructions given in this chapter will also be geared towards Git, which is most commonly used by researchers, and a web-based Git repository hosting service, [GitHub](https://github.com/), which facilitates online collaborations.
+Este capítulo pretende cubrir los principios generales que sustentan todos los sistemas avanzados de control de versiones y las mejores prácticas que se aplican a todos estos sistemas. Discutimos muchas herramientas y características; sin embargo, animamos a los lectores a utilizar características que son útiles para su trabajo y herramientas con las que se sientan cómodos. La mayoría de las instrucciones dadas en este capítulo también se orientarán hacia Git, que es utilizado más comúnmente por los investigadores, y un servicio de alojamiento de repositorio Git basado en web, [GitHub](https://github.com/), que facilita las colaboraciones en línea.
 
-Later in this chapter, we also discuss version control for data, which is applied to keep track of revisions of large amounts of data, especially when working collaboratively. It is useful to know that data can be volatile and versioning them can improve the reproducibility of your scientific analyses.
+Más adelante en este capítulo, también discutimos el control de versiones de los datos, que se aplica para hacer un seguimiento de las revisiones de grandes cantidades de datos, especialmente cuando se trabaja en colaboración. Es útil saber que los datos pueden ser volátiles y versionarlos puede mejorar la reproducibilidad de sus análisis científicos.
 
 ```{figure}  ../figures/project-history.jpg
 ---
-name: project-history
-alt: Contrast in project history management. On the left - choosing between ambiguosly named files. On the right - picking between successive versions (from V1 to V6).
+nombre: project-history
+alt: Contrast en la gestión de historia del proyecto. A la izquierda - elegir entre ficheros con nombre ambiguo. A la derecha - escogiendo entre versiones sucesivas (de V1 a V6).
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-vcs-useful)=
-## Motivation and Background
+## Motivación y fondo
 
-Version control helps us understand what changes we made in the past or why we did a specific analysis in the way we did it, even weeks or months later. With the help of comments and commit messages, each version can explain what changes it contains compared to the previous versions. This is helpful when we share our analysis (not only data), and make it auditable or **reproducible** - which is good scientific practice.
+El control de versiones nos ayuda a entender qué cambios hicimos en el pasado o por qué hicimos un análisis específico en la forma en que lo hicimos, incluso semanas o meses después. Con la ayuda de comentarios y mensajes de confirmación, cada versión puede explicar qué cambios contiene en comparación con las versiones anteriores. Esto es útil cuando compartimos nuestro análisis (no solo datos), y lo hacemos audaz o **reproducible** - lo cual es una buena práctica científica.
 
-A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
+Un sistema de control de versiones guarda cuidadosamente un historial de cambios y quién los ha hecho, así que mientras que todavía es fácil acceder a ellos, su directorio de trabajo no está abarrotado por los restos de versiones anteriores que son necesarias para mantenerse en el caso. De la misma manera, con control de versiones, no hay necesidad de dejar trozos de código comentados en caso de que necesite volver a una versión antigua otra vez.
 
 
-Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other's work. It allows the changes made by different people to be tracked and can automatically combine people's work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as {ref}`GitHub<cl-github-novice-motivation>` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
+Finalmente, el control de versiones es invaluable para proyectos colaborativos donde diferentes personas trabajan en el mismo código simultáneamente y se basan en el trabajo del otro. Permite rastrear los cambios realizados por diferentes personas y puede combinar automáticamente el trabajo de las personas ahorrando mucho esfuerzo para hacerlo manualmente. Utilizar el control de versiones para su proyecto de investigación significa que su trabajo es totalmente transparente, y debido a que todas sus acciones están grabadas, permite a otros reproducir sus estudios. Además, servicios de alojamiento de control de versiones como {ref}`GitHub<cl-github-novice-motivation>` proporcionan una manera de comunicarse y colaborar de una manera más estructurada, tales como en solicitudes de extracción, reseñas de código y problemas.

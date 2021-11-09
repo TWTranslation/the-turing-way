@@ -1,23 +1,23 @@
-(rr-make-results)=
-# Including numerical results and tables
+(rr-make-resultados)=
+# Incluye resultados numéricos y tablas
 
-At this point you may be thinking "That's so cool that I can now include figures into my manuscripts! But how exactly does this work for numerical results?"
+En este punto puedes estar pensando "¡Es tan genial que ahora puedo incluir figuras en mis manuscritos! Pero, ¿cómo funciona exactamente esto para resultados numéricos?"
 
-The reproducible paper linked above shows one way of doing it: After the results are computed, they are written out in the form of a LaTeX table. Here is how one of these tables looks like right after it was computed:
+El papel reproducible enlazado arriba muestra una forma de hacerlo: Después de calcular los resultados, están escritos en forma de tabla LaTeX . Así es como una de estas tablas se ve justo después de haber sido calculada:
 
 ```latex
 \begin{tabular}{lrrr|rrrr}
-Property & HypoParsr & Sniffer & Suitability & Pattern & Type & No Tie & Full\\
+Propiedad & HypoParsr & Sniffer & Suitabilidad & Patrón & Tipo & No Tie & Full\\
 \hline
-Delimiter & 87.48 & 86.82 & 65.41 & 92.61 & 88.33 & 91.38 & \textbf{94.92}\\
-Quotechar & 82.90 & 92.36 & 44.60 & 95.23 & 90.10 & 93.80 & \textbf{97.36}\\
-Escapechar & 87.96 & 94.37 & 74.85 & 97.95 & 96.26 & 95.44 & \textbf{99.25}\\
-Overall & 80.60 & 85.45 & 38.19 & 90.99 & 83.61 & 90.61 & \textbf{93.75}\\
+Delimiter & 87. 8 & 86.82 & 65.41 & 92.61 & 88.33 & 91. 8 & \textbf{94.92}\\
+Quotechar & 82. 0 & 92.36 & 44.60 & 95. 3 & 90.10 & 93.80 & \textbf{97.36}\\
+Escapar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95. 4 & \textbf{99.25}\\
+total & 80. 0 & 85.45 & 38.19 & 90. 9 & 83.61 & 90.61 & \textbf{93.75}\\
 \hline
 \end{tabular}
 ```
 
-To include this table into your manuscript, you can use LaTeX's `\input{}` function. If the file with the table is called `mytable.tex`, this command can insert it into your manuscript:
+Para incluir esta tabla en tu manuscrito, puedes usar la función `\input{}` de LaTeX. Si el archivo con la tabla se llama `mytable.tex`, este comando puede insertarlo en tu manuscrito:
 
 ```latex
 \begin{table}
@@ -25,46 +25,46 @@ To include this table into your manuscript, you can use LaTeX's `\input{}` funct
 \end{table}
 ```
 
-An alternative is to make use of variables. Instead of creating a table in a separate file, you can write a table skeleton and populate it with variables. The results you compute are associated with the variables, and once your manuscript is compiled, variables are exchanged for real numerical results. Here is how such a table looks like in your manuscript:
+Una alternativa es hacer uso de variables. En lugar de crear una tabla en un archivo separado, puede escribir un esqueleto de tabla y poblarlo con variables. Los resultados que calculas están asociados con las variables y, una vez que tu manuscrito está compilado, las variables se intercambian por resultados numéricos reales. Así es como se ve una tabla de este tipo en tu manuscrito:
 
 ```latex
 \begin{table}
     \begin{tabular*}{ccc}
-        \textbf{Variable} & \textbf{Mean}   & \textbf{Std. deviation} \
+        \textbf{Variable} & \textbf{Mean}   & \textbf{Std. desviación} \
         \hline
-        Variable 1        & \var1mean       & \var1std                \
-        Variable 2        & \var2mean       & \var2std                \
+        Variable 1        & \var1mean       & \var1std \
+        Variable 2        & \var2mean       & \var2std \
     \end{tabular*}
 \end{table}
 ```
 
-Ỳou may notice that `\var1mean` is no standard LaTeX command: It is a variable that you can define yourself! How is this done? Have your script print the results you compute within a `\newcommand{}{}` definition into a file, for example like this (simplified Python example):
+Puede notar que `\var1mean` no es un comando LaTeX estándar: ¡Es una variable que puedes definir tú mismo! ¿Cómo se hace esto? Haz que tu script imprima los resultados que calculas dentro de una definición de `\newcommand{}{}` en un archivo, por ejemplo como este (ejemplo simplificado de Python):
 
 ```python
-# this loops to data vectors of two variables (data1, data2), compute the
-# mean and standard deviation, and print the results together with the
-# variable name ('var1', 'var2')
+# este bucle para vectores de datos de dos variables (data1, data2), calcula la
+# media y desviación estándar, e imprimir los resultados junto con el nombre de variable
+# ('var1', 'var2')
 for name, data in (['var1', data1], ['var2', data2]):
-    mean = np.mean(data)
-    std = np.mean(data)
-    print('\\newcommand{\\%s }{ %f }' % (name + 'mean', mean))
-    print('\\newcommand{\\%s }{ %f }' % (name + 'std', std))
+    mean = np. ean(data)
+    std = np. ean(data)
+    print('\\newcommand{\\%s }{ %f }' % (nombre + 'mean', mean))
+    print('\\newcommand{\\%s }{ %f }' % (nombre + 'std', std))
 ```
 
-Let's say the mean of the first dataset is 9.2, the definition would look like this: `\newcommand{\var1mean}{9.2}`. Note that this example uses Python, but you can use any language or method you are familiar with to print definitions like this. With this definition, LaTeX exchanges the table cell with `\var1mean` with the numeric result from the computation. You can capture the definitions and write them to a file using redirection with `>`. In this example, we write it to a file called `results_def.tex`
+Digamos que la media del primer conjunto de datos es 9.2, la definición se vería este: `\newcommand{\var1mean}{9.2}`. Ten en cuenta que este ejemplo utiliza Python, pero puedes usar cualquier idioma o método con el que estés familiarizado para imprimir definiciones como esta. Con esta definición, LaTeX intercambia la celda de la tabla con `\var1mean` con el resultado numérico del cálculo. Puede capturar las definiciones y escribirlas en un archivo usando la redirección con `>`. En este ejemplo, lo escribimos en un archivo llamado `results_def.tex`
 
 ```makefile
-results_def.tex: code/make_summary_stats.py
-    python code/make_summary_stats.py > results_def.tex
+results_def.tex: code/make_Budgety_stats.py
+    python code/make_Budgety_stats.py > results_def.tex
 ```
 
-As an alternative to `>`, you could also redirect the results using the Unix [pipe](https://en.wikipedia.org/wiki/Pipeline_(Unix)) and the [tee](https://en.wikipedia.org/wiki/Tee_(command)) command (`python code/make_summary_stats.py | tee results_def.tex`). This will not only redirect the output of the script to a file, but also print them into your terminal. This helpful trick can help you observe whether everything works as expected during the execution of your script.
+Como alternativa a `>`, también podría redireccionar los resultados usando el Unix [pipe](https://en.wikipedia.org/wiki/Pipeline_(Unix)) y el comando [tee](https://en.wikipedia.org/wiki/Tee_(command)) (`python code/make_Texty_stats. y | tee results_def.tex`). Esto no solo redirigirá la salida del script a un archivo, sino que también imprimirá en tu terminal. Este útil truco puede ayudarte a observar si todo funciona como se esperaba durante la ejecución de tu script.
 
-Finally, use the `input{}` command to include the new variables in your manuscript and the variables in the tables:
+Finalmente, usa el comando `input{}` para incluir las nuevas variables en tu manuscrito y las variables en las tablas:
 
 ```latex
 \begin{document}
 \input{results_def.tex}
 ```
 
-The examples shown here are simplistic, but with a bit of thinking, you can make sure to include results into your manuscript just as they are computed. This helps you (no mistakes copying results to tables, yay!) and makes your research more accessible and reproducible.
+Los ejemplos mostrados aquí son simplistas, pero con un poco de pensamiento, puedes asegurarte de incluir resultados en tu manuscrito del mismo modo que se calculan. Esto te ayuda (no hay errores copiando resultados a las tablas, ¡aún!) y hace que tu investigación sea más accesible y reproducible.

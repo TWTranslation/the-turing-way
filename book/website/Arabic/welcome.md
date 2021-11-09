@@ -1,74 +1,74 @@
-(welcome)=
-# Welcome
+(ترحيب)=
+# مرحبا بك
 
-*Welcome to The Turing Way handbook to reproducible, ethical and collaborative data science.*
+*مرحبا بكم في دليل طريق التوفير لإنعاش علم البيانات الأخلاقي والتعاوني.*
 
-_The Turing Way_ project is open source, open collaboration, and community-driven. We involve and support a diverse community of contributors to make data science accessible, comprehensible and effective for everyone. Our goal is to provide all the information that researchers and data scientists in academia, industry and the public sector need to ensure that the projects they work on are easy to reproduce and reuse.
+_مشروع طريق التورين_ مفتوح المصدر، وتعاون مفتوح، وتحركه المجتمعات المحلية. ونحن نشارك وندعم مجموعة متنوعة من المساهمين لجعل علم البيانات متاحا للجميع ومفهوما وفعالا. هدفنا هو توفير كل المعلومات التي يقدمها الباحثون وعلماء البيانات في الأوساط الأكاديمية، وينبغي للصناعة والقطاع العام أن يكفلا أن تكون المشاريع التي يعملان عليها سهلة التكاثر وإعادة الاستخدام.
 
 ```{admonition} Top Tip
-:class: tip
-_The Turing Way_ is not meant to be read from start to finish.
-Start with a concept, tool or method that you need now, in your current work.
-Browse the different guides that make up the book, or use the search box to search for whatever you would like to learn about first.
+:class: نصيحة
+_طريق التوحيد_ ليس المقصود أن يقرأ من البداية إلى النهاية.
+ابدأ بمفهوم أو أداة أو طريقة تحتاجها الآن، في عملك الحالي.
+تصفح الأدلة المختلفة التي تشكل الكتاب، أو استخدم مربع البحث للبحث عن أي شيء ترغب في التعرف عليه أولاً.
 ```
 
-All stakeholders, including researchers, software engineers, project leaders and funding teams, are encouraged to use _The Turing Way_ to understand their roles and responsibility of reproducibility in data science. You can inspect our resources on [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribute to the project as described in our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and re-use all materials ([see the License](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
+جميع أصحاب المصلحة، بمن فيهم الباحثون ومهندسو البرامجيات وقادة المشاريع وأفرقة التمويل. يتم تشجيعهم على استخدام _طريق اللحم_ لفهم أدوارهم ومسؤوليتهم عن قابلية التكرار في علوم البيانات. يمكنك فحص مواردنا على [GitHub](https://github.com/alan-turing-institute/the-turing-way)، المساهمة في المشروع على النحو الموصوف في [مبادئ المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) الخاصة بنا، وإعادة استخدام جميع المواد ([أنظر الترخيص](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
 
 ```{figure} figures/welcome.jpg
 ---
-name: welcome-image
-alt: The Turing Way project is illustrated as a road or path with shops for different data science skills. People can go in and out with their shopping cart and pick and choose what they need.
+الاسم: الترحيب بالصورة
+البديلة: مشروع طريق التوفير مصور كطريق أو مسار مع المحلات التجارية لمهارات مختلفة في علوم البيانات. يمكن للناس الذهاب والخروج مع عربة التسوق الخاصة بهم واختيار ما يحتاجون إليه.
 ---
-_The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. Zenodo. [http://doi.org/10.5281/zenodo.3332807] (http://doi.org/10.5281/zenodo.3332807)
 ```
 
-(welcome-community)=
-## Our Community
+(الترحيب - الجماعة)=
+## مجتمعنا
 
-_The Turing Way_ community is dedicated to making collaborative, reusable and transparent research "too easy not to do". That means investing in the socio-technical skills required to work in a team, to build something more significant than any individual could deliver alone.
+_الطريق الوشيك_ المجتمع مكرس لعمل بحث تعاوني قابل لإعادة الاستخدام وشفاف "أسهل من أن لا تفعل". وهذا يعني الاستثمار في المهارات الاجتماعية - التقنية اللازمة للعمل في فريق ما، ولبناء شيء أكثر أهمية من أي فرد يستطيع أن ينجزه بمفرده.
 
-_The Turing Way_ is:
+_طريق التورج_ هو:
 
-* a book
-* a community
-* a global collaboration
+* كتاب
+* مجتمع
+* التعاون العالمي
 
-We hope you find the content in the book helpful. Everything here is available for free under a [CC-BY licence](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md). Please use and re-use whatever you need, for any purpose.
+نأمل أن تجد المحتوى في الكتاب مفيد. كل شيء هنا متاح مجاناً تحت رخصة [CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md). يرجى استخدام أي شيء تحتاجه وإعادة استخدامه، لأي غرض.
 
-The book is collaboratively written and open from the start. To make this project truly accessible and useful for everyone, we invite you to contribute your skills and bring your perspectives into this project. To join this community, please read our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and ways to [get in touch](https://github.com/alan-turing-institute/the-turing-way#get-in-touch). More information about the community and the project is available in the {ref}`ch`. We look forward to expanding and building _The Turing Way_ together.
+يتم كتابة الكتاب بشكل تعاوني ومفتوح منذ البداية. لجعل هذا المشروع متاحا ومفيدا للجميع حقا، نحن ندعوك إلى المساهمة بمهاراتك وجلب منظورك إلى هذا المشروع. للانضمام إلى هذا المجتمع، يرجى قراءة [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) وسبل [الاتصال](https://github.com/alan-turing-institute/the-turing-way#get-in-touch). يمكن الحصول على مزيد من المعلومات حول المجتمع والمشروع في {ref}`ش`. نحن نتطلع إلى توسيع وبناء _طريق التوريج_ معا.
 
 ```{figure} figures/theturingway-chapters.jpg
 ---
-name: theturingway-chapters
-alt: The Turing Way Guide to reproducible research and it's stucture illustrated to show a set of doors to represent how it's built on chapters and sub chapters of the different areas of the guide
+الاسم: theturingway-chapters
+البديل : دليل طريق التوفير للأبحاث القابلة للتكرار، وقد تم تصويره لإظهار مجموعة من الأبواب لتمثيل كيف أنها مبنية على الفصول والفصول الفرعية لمختلف مجالات الدليل
 ---
-_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300.
+_The Turing Way_ كتوضيح لمشروع سكريبيريا. الإصدار الأصلي على Zenodo. () http://doi.org/10.5281/zenodo.3695300.
 ```
 
-Although _The Turing Way_ receives support and funding from [The Alan Turing Institute](https://www.turing.ac.uk/), the project is designed to be a global collaboration. We have contributions from across the UK, and from India, Mexico, Australia, USA, and many European countries. Chapters have been written, reviewed and curated by members of research institutes and universities, government departments, and industry. We are committed to creating a space where people with diverse expertise and lived experiences can share their knowledge with others to allow us all to use data science to improve the world.
+على الرغم من أن _طريق التورين_ يتلقى الدعم والتمويل من [معهد ألان تورينغ](https://www.turing.ac.uk/)، وقد صمم المشروع ليكون بمثابة تعاون عالمي. لدينا مساهمات من جميع أنحاء المملكة المتحدة، ومن الهند والمكسيك وأستراليا والولايات المتحدة الأمريكية والعديد من البلدان الأوروبية. وقام أعضاء معاهد البحوث والجامعات والإدارات الحكومية والصناعة بكتابة الفصول واستعراضها وتحديدها. ونحن ملتزمون بتهيئة مجال يمكن فيه للأشخاص ذوي الخبرات والتجارب المتنوعة أن يتقاسموا معرفتهم مع الآخرين للسماح لنا جميعا باستخدام علوم البيانات لتحسين العالم.
 
-We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in _The Turing Way_ project is expected to show respect and courtesy to other community members at all times. All contributions must abide by our [code of conduct](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+ونحن نقدر مشاركة كل فرد من أفراد مجتمعنا ونريد أن نضمن أن كل مساهم يتمتع بتجربة ممتعة ومحققة. تبعاً لذلك، يتوقع من كل من يشارك في مشروع _الطريق الوشيك_ أن يظهر الاحترام والكياسة لأعضاء المجتمع الآخرين في جميع الأوقات. يجب أن تتقيد جميع المساهمات بـ [مدونة قواعد السلوك](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md) الخاصة بنا.
 
-![Gif showing screen capture of contributors table, smiling faces and emojis representing the types of contributions in a table](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
+![Gif يعرض التقاط الشاشة لجدول المساهمين، وجوه الابتسامة والرموز التعبيرية التي تمثل أنواع المساهمات في جدول](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
 
-(welcome-history)=
-## History
+(الترحيب بالتاريخ)=
+## التاريخ
 
-The book started in January 2019 as a guide for reproducibility, covering {ref}`rr-vcs`, {ref}`rr-testing`, and {ref}`rr-ci`. However, technical skills are just one aspect of making data science research "open for all" and so in February 2020, _The Turing Way_ expanded into a series of guides: {ref}`rr`, {ref}`pd`, {ref}`cm`, {ref}`cl`, and {ref}`er`.
+بدأ الكتاب في يناير 2019 كدليل لقابلية الاستنساخ، يغطي {ref}`rr-vcs`، {ref}`اختبار rr-test`و {ref}`rr-ci`. غير أن المهارات التقنية ليست سوى جانب واحد من جوانب جعل بحوث علم البيانات "مفتوحة للجميع" وهكذا في فبراير 2020، _طريق الترقيق_ توسع إلى سلسلة من الأدلة: {ref}`rr`, {ref}`pd`، {ref}`سم`، {ref}`cl`و {ref}`er`.
 
-(welcome-citing)=
-## Citing _The Turing Way_
+(الترحيب - الاستشهاد)=
+## استشهد بـ _طريق التوريق_
 
-All material in _The Turing Way_ is available under a [CC-BY 4.0 licence](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
+جميع المواد في _طريق التوريق_ متاحة تحت رخصة [CC-BY 4.0](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
 
-You can cite _The Turing Way_ through the project's Zenodo archive using DOI: [10.5281/zenodo.3233853](https://doi.org/10.5281/zenodo.3233853).
+يمكنك الاستشهاد بـ _طريق التوريق_ من خلال أرشيف Zenodo للمشروع باستخدام DOI: [10.5281/zenodo.3233853](https://doi.org/10.5281/zenodo.3233853).
 
-The citation will look something like:
+وسيبدو الاقتباس على هذا النحو:
 
-> The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
+> مجتمع طريق، بيكي أرنولد، لويز باولر، سارة غيبسون، باتريشيا هيرتريتش، روسي هيغمان، … كريستي ويتاكر. (2019، 25 آذار/مارس). The Ting Way: A Handbook for Reducible Data Science (الإصدار v0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
 
-Please visit the [DOI link](https://doi.org/10.5281/zenodo.3233853) though to get the most recent version - the one above is not automatically generated and may be out of date. DOIs allow us to archive the repository and are useful for tracking the work in academic publications.
+يرجى زيارة رابط [DOI](https://doi.org/10.5281/zenodo.3233853) مع ذلك للحصول على أحدث إصدار - لم يتم إنشاء الرابط أعلاه تلقائياً وقد يكون قديماً. وتتيح لنا وزارة الإعلام أرشيف المستودع وهي مفيدة في تتبع العمل في المنشورات الأكاديمية.
 
-You can also share the human-readable URL to a page in the book, for example, {ref}`https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html <rr-overview-definitions>`, but be aware that the project is under development and these links may change over time. You might want to include a [web archive link](http://web.archive.org), such as: [https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html](https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html), to make sure that you do not end up with broken links everywhere!
+يمكنك أيضا مشاركة عنوان URL القابل للقراءة على صفحة في الكتاب، على سبيل المثال، {ref}`https://the-turing-way.netlify. pp/reproducible-research/overview/overview-definitions.html <rr-overview-definitions>`، ولكن كن على علم بأن المشروع قيد التطوير وقد تتغير هذه الروابط بمرور الوقت. قد ترغب في تضمين رابط [أرشيف الويب](http://web.archive.org)مثل: [https://web.archive.org/web/20191030093753/https://the-turing-way etlify.com/reproducibility/03/definitions.html](https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html)للتأكد من أنك لا ينتهي بك المطاف مع روابط مكسورة في كل مكان!
 
-We really appreciate any references that you make to _The Turing Way_ project in your work, and we hope it is useful. If you have any questions, please [get in touch](https://github.com/alan-turing-institute/the-turing-way#get-in-touch).
+نحن حقا نقدر أي إشارات تقوم بها إلى مشروع _الطريق الوشيك_ في عملك، ونأمل أن يكون مفيدا. إذا كان لديك أي أسئلة، يرجى [الاتصال](https://github.com/alan-turing-institute/the-turing-way#get-in-touch).

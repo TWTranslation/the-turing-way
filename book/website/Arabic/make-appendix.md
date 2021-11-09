@@ -1,38 +1,38 @@
-(rr-make-appendix)=
-# Appendix
+(ص-ماكي-تذييل)=
+# تذييل
 
-(rr-make-appendix-dag)=
-## Directed Acyclic Graph
+(r-make-pendix-dag)=
+## الرسم البياني المعجّل الموجه
 
-A Directed Acyclic Graph (DAG) is a *graph* of nodes and edges that is:
+الرسم البياني للموسيقى (DAG) هو *رسم بياني* من العقد والحواف التي هي:
 
-1. *directed*: edges have a direction and you can only walk the graph in that direction
-2. *acyclic*: does not contain cycles: A can't depend on B when B depends on A.
+1. *الموجه*: الحواف لها اتجاه ويمكنك فقط المشي على الرسم البياني في ذلك الاتجاه
+2. *المعقل*: لا يحتوي على دورات: A لا يمكن أن يعتمد على B عندما يعتمد B على A.
 
-The latter property is of course quite handy for a build system. More information on DAGs can be found on [Wikipedia](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+وبالطبع فإن هذه الممتلكات الأخيرة مفيدة جدا لنظام البناء. يمكن العثور على المزيد من المعلومات حول DAGs على [ويكيبيديا](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
-(rr-make-appendix-installing)=
-## Installing Make
+(r-make-appendix-installing)=
+## تثبيت الصنع
 
-First, check if you have GNU Make installed already. In a terminal type:
-
-```bash
-$ make
-```
-
-If you get `make: command not found` (or similar), you don't have Make. If you get `make: *** No targets specified and no makefile found.  Stop.` you do have Make.
-
-We'll be using **GNU Make** in this tutorial. Verify that this is what you have by typing:
+أولا، تحقق مما إذا كان لديك غنو اصنع مثبت بالفعل. في النوع النهائي:
 
 ```bash
-$ make --version
+صنع $
 ```
 
-If you don't have GNU Make but have the BSD version, some things might not work as expected and we recommend installing GNU Make.
+إذا حصلت على `صنع: الأمر غير موجود` (أو مماثل)، ليس لديك أي صنع. إذا حصلت على `صنع: *** لا توجد أهداف محددة ولم يتم العثور على مكان مؤقت.  توقف.` أنت لديها صنع.
 
-To install GNU Make, please follow these instructions:
+سنستخدم **غنو اصنع** في هذا البرنامج التعليمي. تحقق من أن هذا ما لديك عن طريق الكتابة:
 
-- **Linux**: Use your package manager to install Make. For instance on Arch Linux:
+```bash
+إصدار $ --الإصدار
+```
+
+إذا لم يكن لديك غنو صنع ولكن لديك إصدار BSD ، قد لا تعمل بعض الأشياء كما هو متوقع ونوصي بتثبيت GNU Make.
+
+لتثبيت GU Mak، يرجى اتباع هذه التعليمات:
+
+- **Linux**: استخدم مدير الحزمة لتثبيت Make. على سبيل المثال على Arch Linux:
 
   ```bash
   $ sudo pacman -S make
@@ -40,127 +40,127 @@ To install GNU Make, please follow these instructions:
 
   Ubuntu:
   ```bash
-  $ sudo apt-get install build-essential
+  $ تثبيت sudo apt-get الضروري للبناء
   ```
 
-- **MacOS**: If you have [Homebrew](https://brew.sh/) installed, it's simply:
+- **MacOS**: إذا كان لديك [Homebrew](https://brew.sh/) مثبت، فهي بسيطة:
 
   ```bash
-  $ brew install make
+  التثبيت $ لتثبيت البقر
   ```
 
-  If you have a builtin Make implementation, please ensure that it's GNU Make by checking `make --version`.
+  إذا كان لديك تنفيذ مدمج، فيرجى التأكد من أنها تصنع جنو عن طريق التحقق من `اجعل --الإصدار`.
 
-(rr-make-appendix-advancedgr)=
-## Advanced: Generating Rules using Call
+(r-make-appendix-Advcedgr)=
+## المتقدم: توليد القواعد باستخدام المكالمة
 
-*This section continues the tutorial above and demonstrates a feature of Make for automatic generation of rules.*
+*يواصل هذا القسم البرنامج التعليمي أعلاه ويعرض ميزة صنع للإنشاء التلقائي للقواعد.*
 
-In a data science pipeline, it may be quite common to apply multiple scripts to the same data (for instance when you're comparing methods or testing different parameters). In that case, it can become tedious to write a separate rule for each script when only the script name changes. To simplify this process, we can let Make expand a so-called [*canned* recipe](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
+في خط أنابيب علوم البيانات، قد يكون من الشائع تطبيق برامج نصية متعددة على نفس البيانات (على سبيل المثال عندما تقارن الأساليب أو تختبر معلمات مختلفة). في هذه الحالة، قد يصبح من الممل كتابة قاعدة منفصلة لكل نص نصي عندما يتغير اسم البرنامج النصي فقط. لتبسيط هذه العملية ، يمكننا أن نجعل توسيع ما يسمى [*المعلبة* وصفة](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
 
-To follow along, switch to the `canned` branch:
+للمتابعة، قم بالتبديل إلى فرع `المعلب`:
 
 ```bash
-$ make clean
-$ git stash --all        # note the '--all' flag so we also stash the Makefile
-$ git checkout canned
+$ جعل
+$ git Stsh --كل # لاحظ العلم '--all' لذلك نحن أيضًا نضع Makefile
+$ git معلّقة
 ```
 
-On this branch you'll notice that there is a new script in the **scripts** directory called `generate_qqplot.py`. This script works similarly to the `generate_histogram.py` script (it has the same command line syntax), but it generates a [QQ-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). The **report.tex** file has also been updated to incorporate these plots.
+على هذا الفرع ستلاحظ أن هناك برنامج نصي جديد في **البرامج النصية** الدليل المسمى `generate_qplot.py`. يعمل هذا البرنامج النصي بشكل مماثل لـ `Generate_histogram. y` سكريبت (يحتوي على نفس بناء سطر الأوامر)، ولكن يولد [Q-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). ملف **report.tex** تم تحديثه أيضا لدمج هذه المخططات.
 
-After switching to the `canned` branch there will be a Makefile in the repository that contains a separate rule for generating the QQ-plots. This Makefile looks like this:
+بعد التبديل إلى فرع `المعلب` سيكون هناك Makefile في مستودع الذي يحتوي على قاعدة منفصلة لإنشاء قطع QQ. هذا Makefile يبدو هكذا:
 
 ```makefile
-# Makefile for analysis report
+# Makefile للحصول على تقرير تحليلي
 #
 
 ALL_CSV = $(wildcard data/*.csv)
 DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
-HISTOGRAMS = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
-QQPLOTS = $(patsubst data/%.csv,output/qqplot_%.png,$(DATA))
+HISTOGRAMS = $(patst data/%.csv,output/figure_%. ng,$(DATA))
+QQPLOTS = $(patsubst data/%.csv,output/qplot_%.png,$(DATA))
 
-.PHONY: all clean
+.PHONY: جميع
 
-all: output/report.pdf
+كل: خرج/report.pdf
 
-$(HISTOGRAMS): output/histogram_%.png: data/%.csv scripts/generate_histogram.py
-    python scripts/generate_histogram.py -i $< -o $@
+$(HISTOGRAMS): output/histogram_%.png: data/%.csv scripts/generate_histogram. y
+    نصوص python scripts/generate_histogram.py -i $< -o $@
 
-$(QQPLOTS): output/qqplot_%.png: data/%.csv scripts/generate_qqplot.py
-    python scripts/generate_qqplot.py -i $< -o $@
+$(QQPLOTS): خرج/qplot_%.png: البيانات/%. sv scripts/generate_qplot.py
+    python scripts/generate_qplot.py -i $< -o $@
 
-output/report.pdf: report/report.tex $(FIGURES)
-    cd report/ && pdflatex report.tex && mv report.pdf ../$@
+خرج/تقرير. df: report/report.tex $(FIGURES)
+    cd report && pdflatex report &تقرير& ملف. df ../$@
 
-clean:
-    rm -f output/report.pdf
+نظيف:
+    rm -f خرج/report.pdf
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-You'll notice that the rules for histograms and QQ-plots are very similar.
+ستلاحظون أن القواعد الخاصة بالرسوم البيانية وقطع Q-قطع الأرض متشابهة جداً.
 
-As the number of scripts that you want to run on your data grows, this may lead to a large number of rules in the Makefile that are almost exactly the same. We can simplify this by creating a [*canned recipe*](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) that takes both the name of the script and the name of the genre as input:
+مع تزايد عدد البرامج النصية التي تريد تشغيلها على بياناتك، قد يؤدي هذا إلى عدد كبير من القواعد في ماكيفيلي التي تكاد تكون واحدة بالضبط. يمكننا تبسيط هذا عن طريق إنشاء [*وصفة معلبة *](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) تأخذ كلا من اسم البرنامج النصي واسم النوع كمدخلات:
 
 ```makefile
-define run-script-on-data
-output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
-    python scripts/generate_$(1).py -i $$< -o $$@
-endef
+تعريف run-script-on-البيانات
+الإخراج /$(1)_$(2).png: البيانات/$(2).csv scripts/generate_$(1). y
+    سكريبتات بايثون / إنشاء_$(1).py - i $< -o $@
+إنتهاء
 ```
 
-Note that in this recipe we use `$(1)` for either `histogram` or `qqplot` and `$(2)` for the genre. These correspond to the expected function arguments to the `run-script-on-data` canned recipe. Also, notice that we use `$$<` and `$$@` in the actual recipe, with two `$` symbols for escaping. To actually create all the targets, we need a line that calls this canned recipe.  In our case, we use a double for loop over the genres and the scripts:
+لاحظ أننا في هذه الوصفة نستخدم `$(1)` لأي من `الرسم البياني` أو `القطع` و `$(2)` للنوع الصحيح. تتطابق هذه مع حجج الدالة المتوقعة مع `وصفة البرنامج النصي على البيانات` المعلّبة. لاحظ أيضا أننا نستخدم $ `$<` و `$@` في الوصفة الفعلية، مع اثنين `$` رموز للهروب. لإنشاء جميع الأهداف، نحن بحاجة إلى سطر يستدعي هذه الوصفة المعلبة.  في حالتنا، نحن نستخدم حلقة التكرار المزدوجة حول الأنواع و البرامج النصية:
 
 ```makefile
-$(foreach genre,$(GENRES),\
-    $(foreach script,$(SCRIPTS),\
-        $(eval $(call run-script-on-data,$(script),$(genre))) \
-    ) \
+$(نوع الترجيح،$(GENRES),\
+    $(النص البرمجي،$(SCRIPTS),\
+        $(نص الكلام على البيانات,$(script),$(genre)) \
+    \
 )
 ```
 
-In these lines the `\` character is used for continuing long lines.
+في هذه الأسطر يستخدم حرف `\` للاستمرار في الخطوط الطويلة.
 
-The full Makefile then becomes:
+ثم يصبح الميكفيلي الكامل:
 
 ```makefile
-# Makefile for analysis report
+# Makefile لتقرير التحليل
 #
 
-ALL_CSV = $(wildcard data/*.csv)
-DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
-HISTOGRAMS = $(patsubst %,output/histogram_%.png,$(GENRES))
-QQPLOTS = $(patsubst %,output/qqplot_%.png,$(GENRES))
+ALL_CSV = $(بيانات البطاقة البرية/*.csv)
+DATA = $(تصفية بيانات البطاقة البرية / input_file_*. sv),$(ALL_CSV))
+HISTOGRAMS = $(براءة الاختراع %,output/histogram_%.png,$(GENRES))
+QQPLOTS = $(براءة الاختراع %,output/qplot_%. ng,$(GENRES))
 
-GENRES = $(patsubst data/%.csv,%,$(DATA))
+GENRES = $(بيانات براءة الاختراع/%.csv,%,$(DATA))
 SCRIPTS = histogram qqplot
 
-.PHONY: all clean
+.PHONY: كلها نظيفة
 
-all: output/report.pdf
+كل: الناتج/التقرير. df
 
-define run-script-on-data
-output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
-    python scripts/generate_$(1).py -i $$< -o $$@
-endef
+تعريف run-script-on-data
+خرج/$(1)_$(2).png: البيانات/$(2).csv scripts/generate_$(1). y
+    سكريبت بايثون / إنشاء_$(1). y -i $$< -o $$@
+enf
 
-$(foreach genre,$(GENRES),\
-    $(foreach script,$(SCRIPTS),\
-        $(eval $(call run-script-on-data,$(script),$(genre)))\
+$(نوع الأخر،$(GENRES),\
+    $(سكريبتة،$(SCRIPTS),
+        $(فاتورة $(كل نسخة تجريبية على البيانات)،$(script)،$(genre))\
     )\
 )
 
-output/report.pdf: report/report.tex $(HISTOGRAMS) $(QQPLOTS)
-    cd report/ && pdflatex report.tex && mv report.pdf ../$@
+المخرجات/التقرير. df: report/report.tex $(HISTOGRAMS) $(QQPLOTS)
+    cd report/ && pdflatex report تقرير && ملف. df ../$@
 
-clean:
-    rm -f output/report.pdf
+نظيف:
+    rm -f خرج/report.pdf
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-Note that we've added a `SCRIPTS` variable with the `histogram` and `qqplot` names. If we were to add another script that follows the same pattern as these two, we would only need to add it to the `SCRIPTS` variable.
+لاحظ أننا أضيفنا متغير `SCRIPTS` مع `هستوغرام` و `Qqplot` الأسماء. إذا كان علينا إضافة برنامج نصي آخر يتبع نفس النمط كهذين الأمرين، سوف نحتاج فقط إلى إضافته إلى متغير `SRIPTS` .
 
-To build all of this, run
+لبناء كل هذا، قم بتشغيل
 
 ```bash
-$ make -j 4
+$ اصنع -ي-ي4
 ```

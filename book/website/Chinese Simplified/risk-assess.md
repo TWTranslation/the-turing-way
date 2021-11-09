@@ -1,26 +1,26 @@
-(rr-risk-assess)=
-# Risk Assessment - deciding how to manage your software
+(rr-risk assess)=
+# 风险评估 - 决定如何管理您的软件
 
 ## TL;DR
-Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
+使用风险评估帮助为您的项目选择合适的可持续软件概念。 太小了，你的软件是不可持续的；太多了，你将无法跟着它开启。 它只需几秒钟就可以让你走上正确的脚步。
 
-## Longer read…
-We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment: "Is this coffee too hot?", "Is there a bus coming?". Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
+## 更长的读取时间…
+我们一直在使用风险评估。 有时，它们是确保某项活动安全的正式程序。 但大多数时候他们都想到了一个时刻：“这个咖啡太热了吗？ ，"是否有公共汽车来了？” 软件并不不同，使用下文所述的风险评估办法能够真正有助于使您的工作取得成功并具有可持续性。
 
-### The risk matrix
-A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
+### 风险矩阵表
+风险矩阵是一种非常流行的方法，用以量化您感兴趣的事情发生了什么。 一轴以某种方式测量暴露情况，另一轴则测量误差的影响。 就起源而言，为了使风险能够被接受，需要采取更多的保障措施。
 
-In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
+在我们的情况下，我们将使用“复杂”和“撞击”作为两个轴。 一些案例研究说明了它如何工作…
 
-Case 1
+案例1
 
-> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. He pauses for a few seconds and asks: "How complicated is this? It’ll only be about 1 screen of text." "What if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails."
+> Richard 需要向部门分组提交100个小型工作，这些工作的名称因简单的方式而异。 这种情况很糟，他想走出去玩耍。 因此，Richard 决定写一个简短的 shell 脚本来提交所有工作。 他暂停几秒钟并问问： "这是多么复杂？ 它只会有一个屏幕文本。” “如果出错，怎么办？ 作业将不会提交或运行，我会收到一些失败的电子邮件。"
 
-## Prerequisites/recommended skill level
-> This needs writing
+## 前提条件/推荐的技能水平
+> 这需要写入
 
 ## Summary
-Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
+使用风险评估帮助为您的项目选择合适的可持续软件概念。 太小了，你的软件是不可持续的；太多了，你将无法跟着它开启。 它只需几秒钟就可以让你走上正确的脚步。
 
-## How this will help you/why this is useful
-> This needs writing
+## 这将如何帮助您/为什么这将是有用的
+> 这需要写入

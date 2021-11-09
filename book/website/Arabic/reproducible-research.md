@@ -1,22 +1,22 @@
 (rr)=
-# Guide for Reproducible Research
+# دليل البحوث القابلة للتكرير
 
-***This guide covers topics related to skills, tools and best practices for research reproducibility.***
+***ويغطي هذا الدليل مواضيع تتعلق بالمهارات والأدوات وأفضل الممارسات في مجال قابلية البحوث للاستنساخ.***
 
-_The Turing Way_ defines reproducibility in data research as data and code being available to fully rerun the analysis.
+_طريق الترقيق_ يعرف إمكانية التكرار في بحوث البيانات كأن تكون البيانات و التعليمات البرمجية متاحة لإعادة تشغيل التحليل بالكامل.
 
-There are several definitions of reproducibility in use, and we discuss these in more detail in the {ref}`rr-overview-definitions` section of this chapter. While it is absolutely fine for us each to use different words, it will be useful for you to know how _The Turing Way_ defines *reproducibility* to avoid misunderstandings when reading the rest of the handbook.
+هناك عدة تعاريف لقابلية التكرار في الاستخدام، ونحن نناقش هذه التعاريف بمزيد من التفصيل في قسم {ref}`r-Overview-definition` من هذا الفصل. في حين أنه من الجيد تماما لكل منا أن نستخدم كلمات مختلفة، سيكون من المفيد لك معرفة كيف _طريق التوريق_ يعرف *إمكانية التوريد* لتجنب سوء الفهم عند قراءة بقية الدليل.
 
 
 ```{figure} ../figures/reproducibility.jpg
 ---
-height: 500px
-name: reproducible
-alt: A person showing another person what steps to take to make your data research reproducible.
+الطول: 500px
+الاسم: قابل للتكاثر
+بديل: شخص يعرض شخصا آخر الخطوات التي يجب اتخاذها لجعل بحوثك في البيانات قابلة للتكرار.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-_The Turing Way_ started by defining reproducibility in the context of this handbook, laying out its importance for science and scientists, and providing an overview of the common concepts, tools and resources. The first few chapters were on {ref}`version control<rr-vcs>`, {ref}`testing<rr-testing>`, and {ref}`reproducible computational environments<rr-renv>`. Since the start of this project in 2019, many additional chapters have been written, edited, reviewed, read and promoted by over 100 contributors.
+_طريق الترقيق_ بدأ بتعريف قابلية التكرار في سياق هذا الدليل، • تحديد أهميتها بالنسبة للعلم والعلماء، وتقديم لمحة عامة عن المفاهيم والأدوات والموارد المشتركة. كانت الفصول القليلة الأولى على {ref}`التحكم في الإصدار<rr-vcs>`، {ref}`اختبار<rr-testing>`، و {ref}`البيئات الحسابية القابلة للاستنساخ<rr-renv>`. ومنذ بدء هذا المشروع في عام 2019، قام أكثر من 100 مساهم بكتابة العديد من الفصول الإضافية وتحريرها واستعراضها وقراءتها وترويجها.
 
-We welcome your contributions to improve these chapters, add other important concepts in reproducibility, and empower researchers to work reproducibly from the start. Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+ونحن نرحب بمساهماتكم في تحسين هذه الفصول، وإضافة مفاهيم هامة أخرى في قابلية الاستنساخ، وتمكين الباحثين من العمل بصورة استباقية منذ البداية. تحقق من [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) لدينا للمشاركة .

@@ -1,276 +1,276 @@
-(ch-template-bookdash-index)=
-# Book Dash Main Shared Document
+(chtemplate-bookdash-index)=
+# كتاب داش المستند الرئيسي المشترك
 
-*This template can be shared via a HackMD page to provide all information centrally for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
+*يمكن مشاركة هذا القالب عبر صفحة HackMD لتوفير جميع المعلومات مركزيا للمشاركين في كتاب Dash. يمكن تعيين إذن الوصول بحيث يمكن قراءة الملاحظات من قبل الجميع وتحريرها من قبل المستخدمين المسجلين بالدخول.*
 
 ```
-# Book Dash, DD - DD Month YYYY - Index
+# زحف الكتاب, DD - DD الشهر YYY - الفهرس
 
-###### tags: `bookdash 2021` `may` `event`
+###### العلامات: `bookdash 2021` `قد` `حدث`
 
-==If you are new to HackMD, please see this short guide: https://hackmd.io/@turingway/hackmd-guide==
+===إذا كنت جديد على HackMD، يرجى الاطلاع على هذا الدليل القصير: https://hackmd.io/@turingway/hackmd-guide==
 
 [TOC]
 
-:information_source: Pre-event drop-in call, DD Month YYYY
+:information_source: مكالمة إسقاطية سابقة للحدث، السنة السنوية DD
 ---
 
-* Session notes: https://hackmd.io/@turingway/bookdash-may2021-drop-in <--- update this
-* Sessions:
-    * Session 1: 09:00 - 10:00 London time - [see in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
-    * Session 2: 17:00 - 18:00 London time - [see in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
-- **This call has concluded**
+* ملاحظات الجلسة: https://hackmd.io/@turingway/bookdash-may2021-drop-in <--- تحديث هذا
+* الجلسات:
+    * الجلسة 1: 09:00 - 10:00 وقت لندن - [شاهد في منطقتك الزمنية](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
+    * الجلسة 2: 17:00 - 18:00 بتوقيت لندن - [شاهد في منطقتك الزمنية](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
+- **انتهت هذه المكالمة**
 
-:hammer_and_wrench: GitHub Introduction Session, DD Month YYYY
+:hammer_and_wrench: جلسة تمهيدية GitHub ، شهر السنة
 ---
 
-### For contributors who are new to GitHub - *Open to Public*
+### للمساهمين الجدد في GitHub - *افتح للجمهور*
 
-On DD Month YYYY, we will host a one-hour GitHub Introduction Session, from 16:00 - 17:00 London time to walk you through the different steps to make contributions on GitHub.
+في شهر صباح، سنستضيف دورة مقدمة لـ GitHub لمدة ساعة. من الساعة 00/16 إلى الساعة 00/17 في لندن للسير عبر مختلف الخطوات لتقديم مساهمات في GitHub.
 
-* Agenda: https://hackmd.io/@turingway/bookdash-may2021-github <--- update this
-* Time: 16:00 - 17:00 London time - [see in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
-* Zoom Link: (add link) <--- update this
+* جدول الأعمال: https://hackmd.io/@turingway/bookdash-may2021-github <--- تحديث هذا
+* الوقت: 16:00 - 17:00 وقت لندن - [انظر في المنطقة الزمنية الخاصة بك](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
+* تكبير الرابط: (إضافة الرابط) <--- تحديث هذا
 
-#### Introductory Materials
+#### مواد تمهيدية
 
-If you can't attend the GitHub Introduction Sessions, please check the following materials:
+إذا لم تتمكن من حضور دورات مقدمة GitHub ، يرجى التحقق من المواد التالية:
 
-- [GitHub for collaboration](https://malvikasharan.github.io/developing_collaborative_document/)
-- [Associated presentation](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
-- [Video with demo](https://www.youtube.com/watch?v=QRUvQgKbVZQ)
+- [GitHub للتعاون](https://malvikasharan.github.io/developing_collaborative_document/)
+- [العرض المصاحب](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
+- [فيديو مع العرض التجريبي](https://www.youtube.com/watch?v=QRUvQgKbVZQ)
 
-:lower_left_paintbrush: Illustrations by Scriberia Artist
+:lower_left_paintbrush: أمثلة توضيحية من فنان سكريبيريا
 ---
 
-- We will have an artist - Sophie Ong - at the event who you would be able to interact with to help develop illustration relevant to your contribution to The Turing Way
-  - (add dates)  <--- update this
-  - Please use this hackmd to check to see if other projects have booked to work with the artist:
-- Info to work with the artist at this hackmd: https://hackmd.io/@turingway/bookdash-may2021-scriberia  <--- update this
-- See reusable images from previous book dash events: [Zenodo link](https://zenodo.org/record/3332807)
+- سيكون لدينا فنان - Sophie Ong - في الحدث الذي ستتمكن من التفاعل معه للمساعدة في تطوير التوضيح ذي الصلة بمساهمتك في طريق تورينغ
+  - (إضافة تاريخي)  <--- تحديث هذا
+  - يرجى استخدام هذا الاختراق للتحقق مما إذا كانت المشاريع الأخرى قد حجزت للعمل مع الفنان:
+- معلومات للعمل مع الفنان في هذا hackmd: https://hackmd.io/@turingway/bookdash-may2021-scriberia  <--- قم بتحديث هذا
+- شاهد الصور القابلة لإعادة الاستخدام من أحداث دش الكتاب السابقة: [رابط زينودو](https://zenodo.org/record/3332807)
 
-:spiral_note_pad: Book Dash Main Events, DD Month YYYY <--- update this
+:spiral_note_pad: أحداث داش الكتاب الرئيسية، DD الشهر YYYY <--- تحديث هذا
 ---
 
-* Intro to The Turing Way & the Book Dash: [Intro slides](ttps://tinyurl.com/bookdash-may21)  <--- update this
-* Shared notes and agenda (basic schedule for each day are given below):
-    * **Day 1, 17 May**: https://hackmd.io/@turingway/bookdash-may2021-day1  <--- update this
-    * **Day 2, 18 May**: https://hackmd.io/@turingway/bookdash-may2021-day2  <--- update this
-    * **Day 3, 19 May**: https://hackmd.io/@turingway/bookdash-may2021-day3  <--- update this
-    * **Day 4, 20 May**: https://hackmd.io/@turingway/bookdash-may2021-day4  <--- update this
-    * **Day 5, 21 May**: https://hackmd.io/@turingway/bookdash-may2021-day5  <--- update this
-* All notes will be linked here for reference after the event: https://hackmd.io/@turingway/bookdash-may2021  <--- update this
+* مقدمة إلى طريق التوفير & لوحة الكتاب: [شرائح المقدمة](ttps://tinyurl.com/bookdash-may21)  <--- تحديث هذا
+* الملاحظات وجدول الأعمال المشتركان (يرد أدناه الجدول الزمني الأساسي لكل يوم):
+    * **اليوم 1، 17 مايو**: https://hackmd.io/@turingway/bookdash-may2021-day1  <--- تحديث هذا
+    * **اليوم 2 ، 18 مايو**: https://hackmd.io/@turingway/bookdash-may2021-day2  <-- تحديث هذا
+    * **اليوم 3، 19 مايو**: https://hackmd.io/@turingway/bookdash-may2021-day3  <- تحديث هذا
+    * **اليوم 4، 20 مايو**: https://hackmd.io/@turingway/bookdash-may2021-day4  <- تحديث هذا
+    * **اليوم 5، 21 مايو**: https://hackmd.io/@turingway/bookdash-may2021-day5  <- تحديث هذا
+* سيتم ربط جميع الملاحظات هنا للرجوع إليها بعد الحدث: https://hackmd.io/@turingway/bookdash-may2021  <--- تحديث هذا
 
-## Schedule and Instructions for Each Day
+## الجدول الزمني والتعليمات لكل يوم
 
-**All the time slots are provided in London time.**
+**ويتم توفير جميع الفترات الزمنية في وقت لندن.**
 
-### Day 1:  DD Month YYYY <--- update this
+### اليوم 1: شهر السنة <--- قم بتحديث هذا
 
-Notes: https://hackmd.io/@turingway/bookdash-may2021-day1 <--- update this
+ملاحظات: https://hackmd.io/@turingway/bookdash-may2021-day1 <--- تحديث هذا
 
-#### Development & Networking Sessions <--- update this table
+#### تطوير & جلسات الربط الشبكي <--- تحديث هذا الجدول
 
-| Time          | Agenda                                                                    | Hosts        | Attendees |
-| ------------- | ------------------------------------------------------------------------- | ------------ | --------- |
-| 08:00 - 10:30 | see notes                                                                 | Talk by name | names     |
-| 11:00 - 12:30 | ==Themed discussion & Networking: Visual Communication & Illustrations==± | name         | names     |
-| 14:00 - 16:30 | see notes                                                                 | No Talk      | names     |
-| 17:00 - 19:30 | see notes                                                                 | Talk by name | names     |
+| الوقت         | جدول                                                                         | المضيفون      | الحضور  |
+| ------------- | ---------------------------------------------------------------------------- | ------------- | ------- |
+| 08:00 - 10:30 | انظر الملاحظات                                                               | التحدث بالاسم | الأسماء |
+| 11:00 - 12:30 | == المناقشة المواضيعية & الربط الشبكي: الاتصال المرئي & الرسوم التوضيحية ==± | اسم           | الأسماء |
+| 14:00 - 16:30 | انظر الملاحظات                                                               | لا يوجد حديث  | الأسماء |
+| 17:00 - 19:30 | انظر الملاحظات                                                               | التحدث بالاسم | الأسماء |
 
-±Theme: **TBA**
+<unk> السمة: **TBA**
 
-### Day 2: DD Month YYYY <--- update this
+### اليوم 2: شهر السنة <--- قم بتحديث هذا
 
-Notes: https://hackmd.io/@turingway/bookdash-may2021-day2 <--- update this
+ملاحظات: https://hackmd.io/@turingway/bookdash-may2021-day2 <--- تحديث هذا
 
-#### Development & Networking Sessions <--- update this table
+#### تطوير & جلسات الربط الشبكي <--- تحديث هذا الجدول
 
-| Time          | Agenda                                                             | Hosts | Attendees |
-| ------------- | ------------------------------------------------------------------ | ----- | --------- |
-| 08:00 - 10:30 | see notes                                                          | name  | names     |
-| 11:00 - 13:30 | see notes                                                          | name  | names     |
-| 14:00 - 15:30 | ==Themed discussion & Networking: Accessibility & communication==± | name  | names     |
-| 17:00 - 19:30 | see notes                                                          | name  | names     |
+| الوقت         | جدول                                                           | المضيفون | الحضور  |
+| ------------- | -------------------------------------------------------------- | -------- | ------- |
+| 08:00 - 10:30 | انظر الملاحظات                                                 | اسم      | الأسماء |
+| 11:00 - 13:30 | انظر الملاحظات                                                 | اسم      | الأسماء |
+| 14:00 - 15:30 | == المناقشة المواضيعية & الشبكات: إمكانية الوصول & الاتصال ==± | اسم      | الأسماء |
+| 17:00 - 19:30 | انظر الملاحظات                                                 | اسم      | الأسماء |
 
-±Theme: **TBA**
+<unk> السمة: **TBA**
 
-### Day 3: DD Month YYYY <--- update this
+### اليوم 3: شهر السنة <--- قم بتحديث هذا
 
-Notes: https://hackmd.io/@turingway/bookdash-may2021-day3 <--- update this
+ملاحظات: https://hackmd.io/@turingway/bookdash-may2021-day3 <--- تحديث هذا
 
-#### Development & Networking Sessions <--- update this table
+#### تطوير & جلسات الربط الشبكي <--- تحديث هذا الجدول
 
-| Time          | Agenda                                                | Hosts | Attendees |
-| ------------- | ----------------------------------------------------- | ----- | --------- |
-| 08:00 - 10:30 | see notes                                             | name  | names     |
-| 11:00 - 12:30 | =="Show & Tell" Social Meal: Theme==± (details below) | name  | names     |
-| 14:00 - 16:30 | see notes                                             | name  | names     |
-| 17:00 - 19:30 | see notes                                             | name  | names     |
+| الوقت         | جدول                                                   | المضيفون | الحضور  |
+| ------------- | ------------------------------------------------------ | -------- | ------- |
+| 08:00 - 10:30 | انظر الملاحظات                                         | اسم      | الأسماء |
+| 11:00 - 12:30 | =="إظهار & وجبة اجتماعية: الموضوع ==± (التفاصيل أدناه) | اسم      | الأسماء |
+| 14:00 - 16:30 | انظر الملاحظات                                         | اسم      | الأسماء |
+| 17:00 - 19:30 | انظر الملاحظات                                         | اسم      | الأسماء |
 
-± **Show & Tell Social Meal: 11:00 - 13:30**
+± **إظهار & أخبر الوجبة الاجتماعية: 11:00 - 13:30**
 
-We will use take a mid-sprint break and get to know each other through a "show and tell" hosted breakfast/lunch/dinner session (whichever meal is most appropriate for where you are).
+سوف نستخدم استراحة منتصف الوسط ونتعرف على بعضنا البعض من خلال "عرض وإعلان" إستضافة الإفطار/الغداء/جلسة العشاء (أيهما تكون أنسب لمكانك).
 
-**Order yourself a drink/meal/groceries (budget £25)**
+**احصل على مشروب/وجبة / بقالة (25 جنيه استرليني من الميزانية)**
 
-- We hope that you will enjoy a little treat on us.
-- We will reimburse up to £25 for you to have a meal to eat with us.
-- You are welcome to take this opportunity to order your favorite meal from a local takeaway, or purchase ingredients/groceries to cook at home for this social call.
-- We can reimburse only for food or drink (no hard liquor/alcohol). Please check with Malvika if you have any question.
+- ونأمل أن تستمتعوا بمعاملة صغيرة علينا.
+- سنقوم بتعويض ما يصل إلى 25 جنيها إسترلينيا لك للحصول على وجبة غذائية لأكل معنا.
+- أنت مرحب بك لاغتنام هذه الفرصة لترتيب وجبتك المفضلة من مستودعات محلية، أو شراء المكونات/البقالة للطهي في المنزل لهذا المكالمة الاجتماعية.
+- ولا يمكننا أن ندفع إلا ثمن الغذاء أو المشروبات الكحولية (لا توجد مشروبات كحولية صلبة). الرجاء التحقق مع مالفيكا إذا كان لديك أي سؤال.
 
-*Show and tell activity:*
+*إظهار وإخبار النشاط:*
 
-- Bring along something that you can show and tell others about a favourite hobby, side project, or work project (other than The Turing Way).
-- We will informally go around the room and have a chance to hear from you, exchange thoughts and ideas beyond our Book Dash plans.
-- You are not required to speak. We will leave the topic entirely up to you to decide. We look forward to learning with you.
+- احصل على شيء يمكنك عرضه وإخبار الآخرين عن هواية مفضلة، أو مشروع جانبي، أو مشروع عمل (خلاف طريق الشحن).
+- وسنذهب إلى هذه القاعة بشكل غير رسمي وسنحصل على فرصة للاستماع إليكم، وتبادل الأفكار والأفكار بما يتجاوز خططنا في كتاب داش.
+- ليس عليك أن تتكلم. وسوف نترك هذا الموضوع لكِ أمر البت فيه. ونتطلع إلى التعلم معك.
 
-### Day 4: DD Month YYYY <--- update this
+### اليوم 4: DD شهر السنة <--- قم بتحديث هذا
 
-Notes: https://hackmd.io/@turingway/bookdash-may2021-day4 <--- update this
+ملاحظات: https://hackmd.io/@turingway/bookdash-may2021-day4 <--- تحديث هذا
 
-#### Development & Networking Sessions <--- update this table
+#### تطوير & جلسات الربط الشبكي <--- تحديث هذا الجدول
 
-| Time          | Agenda                                                    | Hosts | Attendees |
-| ------------- | --------------------------------------------------------- | ----- | --------- |
-| 08:00 - 10:30 | see notes                                                 | name  | names     |
-| 11:00 - 13:30 | see notes                                                 | name  | names     |
-| 14:00 - 15:30 | ==Themed discussion & Networking: Activism in Research==± | name  | names     |
-| 17:00 - 19:30 | see notes                                                 | name  | names     |
+| الوقت         | جدول                                                 | المضيفون | الحضور  |
+| ------------- | ---------------------------------------------------- | -------- | ------- |
+| 08:00 - 10:30 | انظر الملاحظات                                       | اسم      | الأسماء |
+| 11:00 - 13:30 | انظر الملاحظات                                       | اسم      | الأسماء |
+| 14:00 - 15:30 | == المناقشة المواضيعية & الشبكات: النشاط في البحث==± | اسم      | الأسماء |
+| 17:00 - 19:30 | انظر الملاحظات                                       | اسم      | الأسماء |
 
-±Theme: **TBA**
+<unk> السمة: **TBA**
 
-### Day 5: DD Month YYYY <--- update this
+### اليوم 5: شهر السنة <--- قم بتحديث هذا
 
-*This is a community-share out day with 2 optional development sessions. Please note that the Zoom link for today is different from the rest of the days as a few sessions are open to public.*
+*وهذا يوم مشترك بين المجتمعات المحلية مع دورتين اختياريتين للتنمية. يرجى ملاحظة أن وصلة التكبير/التكبير/التكبير/اليوم تختلف عن بقية الأيام لأن بعض الجلسات مفتوحة للجمهور.*
 
-#### Development Sessions (optional)
-Notes: https://hackmd.io/@turingway/bookdash-may2021-day5 <--- update this
+#### جلسات التطوير (اختياري)
+ملاحظات: https://hackmd.io/@turingway/bookdash-may2021-day5 <--- تحديث هذا
 
-| Time          | Agenda              | Hosts | Attendees |
-| ------------- | ------------------- | ----- | --------- |
-| 11:00 - 13:00 | ==Open to public==± | names | names     |
-| 14:00 - 16:00 | see notes           | names | names     |
-| 17:00 - 19:00 | ==Open to public==± | names | names     |
+| الوقت         | جدول               | المضيفون | الحضور  |
+| ------------- | ------------------ | -------- | ------- |
+| 11:00 - 13:00 | ==فتح إلى العام==± | الأسماء  | الأسماء |
+| 14:00 - 16:00 | انظر الملاحظات     | الأسماء  | الأسماء |
+| 17:00 - 19:00 | ==فتح إلى العام==± | الأسماء  | الأسماء |
 
-± ***Community Share-out & Contributor Celebration - ***Open to Public******
+± ***مشاركة المجتمع & احتفال المساهمين - ***فتح للجمهور******
 
-These sessions are open to public. Feel free to invite your colleagues and friends who would like to connect with The Turing Way community. In this session, all the contributors including the Book Dash attendees will have a chance to share their work with everyone through short demo/presentation.
+وهذه الجلسات مفتوحة للجمهور. لا تتردد في دعوة زملائك وأصدقائك الذين يرغبون في التواصل مع مجتمع "طريق الشحن". في هذه الجلسة، ستتاح لجميع المساهمين، بمن فيهم الحاضرون في الكتاب فرصة لتقاسم عملهم مع الجميع من خلال عرض عرضي/عرض قصير.
 
-*Please note that public calls will have different Zoom links than development sessions for the Book Dash attendees.*
+*يرجى ملاحظة أن المكالمات العامة ستكون لها روابط تكبير مختلفة من جلسات التطوير لحضوري كتاب دمشق.*
 
-**Order yourself a drink/snack (budget £25)**
+**اطلب بنفسك شراب/وجبة خفيفة (الميزانية 25 جنيه استرليني)**
 
-- We hope that you will enjoy a little treat on us to celebrate such a productive and exciting week.
-- We will reimburse up to £25 for you to have a drink (no hard alcohol) and/or snack of your choice to eat with us. We encourage you to purchase something that you would not usually have and that will bring you joy.
-- We can reimburse only for food or drink (no hard liquor/alcohol). Please check with Malvika if you have any question.
+- ونأمل أن تستمتعوا بمعاملة صغيرة لنا للاحتفال بهذا الأسبوع المثمر والمثير.
+- سنقوم بتعويض ما يصل إلى 25 جنيهاً استرلينياً لك للحصول على مشروب أو وجبة خفيفة من اختيارك لتناول الطعام معنا. نحن نشجعك على شراء شيء لن يكون لديك عادة والذي سيجلب لك الفرح.
+- ولا يمكننا أن ندفع إلا ثمن الغذاء أو المشروبات الكحولية (لا توجد مشروبات كحولية صلبة). الرجاء التحقق مع مالفيكا إذا كان لديك أي سؤال.
 
-:heavy_plus_sign::arrow_up_small: Pluses and deltas - Final Feedback Document <--- update links
+:heavy_plus_sign::arrow_up_small: بلاط ودلتاس - وثيقة التعليقات النهائية <--- تحديث الروابط
 ---
-**IMPORTANT:** Please take a few minutes to **share your highlights** as a comment under issue [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) and **provide feedback** (pluses and delta: https://hackmd.io/@turingway/bookdash-may2021-feedback) from the event.
+**هام:** يرجى أخذ بضع دقائق إلى **مشاركة النقاط البارزة الخاصة بك** كتعليق تحت الإصدار [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) و **تقديم الملاحظات** (الإضافات و دلتا: https://hackmd. o/@turingway/bookdash-may2021-feedback ) من الحدث.
 
-_These will be extremely valuable for us to explain to our funders why this event was valuable, and to learn about your experience, what you enjoyed and how we can improve future events._
+_وهذه ستكون قيمة للغاية بالنسبة لنا لكي نشرح لممولينا لماذا كان هذا الحدث قيما، ولتعرف على تجربتك وما استمتعت به وكيف يمكننا تحسين الأحداث المستقبلية._
 
-Any day-to-day feedback during the event can be directly shared in the main event document.
+يمكن مشاركة أي ردود فعل يومية أثناء الحدث مباشرة في وثيقة الحدث الرئيسية.
 
-:books: _The Turing Way_ links and resources
+:books: _طريق اللارجح_ الروابط والموارد
 ---
 
-### Participation guidelines
+### المبادئ التوجيهية للمشاركة
 
-- Code of Conduct: https://the-turing-way.netlify.app/community-handbook/coc.html
-- Contribution guideline: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
+- مدونة قواعد السلوك: https://the-turing-way.netlify.app/Community handbook/coc.html
+- المبادئ التوجيهية للمساهمة: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
 
-### Communication channels
+### قنوات الاتصال
 
-- Slack Channel: [Invitation link](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
-    - New to Slack? [See this quick start guide](https://hackmd.io/@turingway/slack-guide)
-- Mailing list: https://tinyletter.com/TuringWay/
+- قناة Slack : [رابط الدعوة](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
+    - جديد على الفوضى؟ [شاهد دليل البداية السريعة](https://hackmd.io/@turingway/slack-guide)
+- القائمة البريدية: https://tinyletter.com/TuringWay/
 - Twitter account: https://twitter.com/turingway
 
-### Acknowledging your contributions to _The Turing Way_
+### الاعتراف بمساهماتك في _طريق التوريق_
 
-- Contributors Record: https://the-turing-way.netlify.app/afterword/contributors-record.html
-    - [See how we acknowledge our contributors](https://the-turing-way.netlify.app/community-handbook/acknowledgement.html)
+- سجل المساهمين: https://the-turing-way.netlify.app/afterword/contributors-record.html
+    - [انظر كيف نعترف بالمساهمين](https://the-turing-way.netlify.app/community-handbook/acknowledgement.html)
 
 ### GitHub Resources
 
-- GitHub repository: https://github.com/alan-turing-institute/the-turing-way
-- Online Book: https://the-turing-way.netlify.app/welcome
-- Impact story: https://www.turing.ac.uk/research/impact-stories/changing-culture-data-science
-    - [Short summary](https://www.turing.ac.uk/sites/default/files/inline-images/Turing%20Way%20oner_0.jpg)
-- Open issues: https://github.com/alan-turing-institute/the-turing-way/issues
-- Open Pull Requests: https://github.com/alan-turing-institute/the-turing-way/pulls
-- [Reports from the previous Book Dashes](https://github.com/alan-turing-institute/the-turing-way/tree/main/workshops/book-dash)
+- مستودع GitHub : https://github.com/alan-turing-institute/the-turing-way
+- كتاب على الإنترنت: https://the-turing-way.netlify.app/welcome
+- قصة التأثير: https://www.turing.ac.uk/research/impact-stories/changing-culture-data-science
+    - [ملخص قصير](https://www.turing.ac.uk/sites/default/files/inline-images/Turing%20Way%20oner_0.jpg)
+- القضايا المفتوحة: https://github.com/alan-turing-institute/the-turing-way/issues
+- طلبات السحب المفتوحة: https://github.com/alan-turing-institute/the-turing-way/pulls
+- [تقارير مأخوذة من شرطات الكتاب السابقة](https://github.com/alan-turing-institute/the-turing-way/tree/main/workshops/book-dash)
 
-## :gift: Your contribution to the project
+## :gift: مساهمتك في المشروع
 
-**Please read and follow our project [Contributing Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)!** :sparkles:
+**الرجاء قراءة واتباع مشروعنا [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)!** :sparkles:
 
-If you find them confusing, difficult to follow or think that information needs to be added, please let us know! This will help us improve the contributing experience for everyone going forward.
+إذا وجدتها مربكة، يصعب متابعتها أو التفكير في أن المعلومات تحتاج إلى إضافة، يرجى إعلامنا! وهذا سيساعدنا على تحسين الخبرة المساهمة لكل شخص يمضي قدما.
 
-### Managing your contributions to the GitHub repository
+### إدارة مساهماتك في مستودع GitHub
 
-The tl;dr version for easy reference during dashing:
-1. Comment on an [existing issue](https://github.com/alan-turing-institute/the-turing-way/issues) or open a new issue referencing your addition.
-    * The [issue template](https://github.com/alan-turing-institute/the-turing-way/blob/main/ISSUE_TEMPLATE.md) will automatically be rendered in the comment section of the new issue page, so all you need to do is edit the placeholder sentences.
-    * Add the `book-dash-<location>` label in the column on the right.
-2. [Fork](https://help.github.com/articles/fork-a-repo) the Turing Way repository to your GitHub profile.
-3. Make your changes!
-4. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request).
-    * Open a pull request as early in your contributing process as possible and add the label [WIP] to the title to designate "work in progress".
-    * The [pull request template](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/PULL_REQUEST_TEMPLATE.md) will automatically be rendered in the comment section of the new pull request page, so all you need to do is edit the placeholder sentences.
-    * Add the `book-dash-<location>` label in the column on the right.
-    * As you continue to make changes they will automatically be included in your existing pull request.
-    * Change [WIP] to [Ready for review] in the pull request title when you are happy for your contribution to be reviewed and merged. :tada:
+إصدار tl;dr لسهولة مرجع خلال تشويش:
+1. التعليق على [مشكلة موجودة](https://github.com/alan-turing-institute/the-turing-way/issues) أو فتح مشكلة جديدة تشير إلى الإضافة الخاصة بك.
+    * [قالب المشكلة](https://github.com/alan-turing-institute/the-turing-way/blob/main/ISSUE_TEMPLATE.md) سيتم تقديمه تلقائياً في قسم التعليق في صفحة المشكلة الجديدة، لذا كل ما عليك فعله هو تعديل الجمل النائبة.
+    * أضف العلامة `book-dash-<location>` في العمود على اليمين.
+2. [قم بتشغيل](https://help.github.com/articles/fork-a-repo) مستودع طرق اللحوم إلى ملف GitHub الخاص بك.
+3. قم بتغييراتك!
+4. تقديم [طلب سحب](https://help.github.com/articles/creating-a-pull-request).
+    * قم بفتح طلب سحب في وقت مبكر من عملية المساهمة الخاصة بك قدر الإمكان وإضافة التسمية [WIP] إلى العنوان لتحديد "العمل جاري".
+    * [قالب طلب السحب](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/PULL_REQUEST_TEMPLATE.md) سيتم تقديمه تلقائيا في قسم التعليق من صفحة طلب السحب الجديد، لذا كل ما عليك فعله هو تعديل الجمل النائبة.
+    * أضف العلامة `book-dash-<location>` في العمود على اليمين.
+    * مع الاستمرار في إجراء التغييرات سيتم تضمينها تلقائياً في طلب السحب الحالي.
+    * قم بتغيير [WIP] إلى [جاهز للمراجعة] في عنوان طلب السحب عندما تكون سعيدا لمراجعة مساهمتك ودمجها. :tada:
 
-**What types of contributions can you make?**
+**ما هي أنواع المساهمات التي يمكنك تقديمها؟**
 
-* Reviewers for your Book Dash application have suggested a few specific topics for each of you
-* You can also collaborate with others or start slowly by checking out the list of [open issues](https://github.com/alan-turing-institute/the-turing-way/issues)
-* Proofread [existing chapters](https://the-turing-way.netlify.com) (check for typos, grammar, and links)
-* Add further information to an existing chapter
-* Suggest topics for new chapters (particularly if you can write them!)
-    * A chapter can be minimum 3 paragraphs in length - what can you write 3 paragraphs on?
-    * What skills or tools do you wish you had been taught at the start of your research career?
-* Review `[Ready to review]` [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls)
-* Contribute to discussion in `[WIP]` pull requests and issues
-* Incorporate case studies into the book
-* Checklists for specific skill or recommendation
-* Restructuring the chapter sections (like the Reproducibility chapter)
-* Creative, out of the box ideas!
-* Let us know if you are struggling with contributing in any way so that we can improve our Contributing Guidelines!
+* المراجعون لتطبيق كتاب داش الخاص بك اقترحوا بعض المواضيع المحددة لكل منكم
+* يمكنك أيضا التعاون مع الآخرين أو البدء ببطء بالتحقق من قائمة [المشكلات المفتوحة](https://github.com/alan-turing-institute/the-turing-way/issues)
+* التدقيق [الفصول الموجودة](https://the-turing-way.netlify.com) (التحقق من الطباعة، النحو، الروابط)
+* إضافة مزيد من المعلومات إلى فصل قائم
+* اقترح مواضيع لفصول جديدة (خاصة إذا كنت تستطيع كتابتها!)
+    * يمكن أن يكون طول الفصل 3 فقرات كحد أدنى - ما الذي يمكنك أن تكتب 3 فقرات عنه؟
+    * ما هي المهارات أو الأدوات التي ترغب في أن تكون قد درست في بداية حياتك المهنية البحثية؟
+* مراجعة `[جاهز للمراجعة]` [طلبات السحب](https://github.com/alan-turing-institute/the-turing-way/pulls)
+* المساهمة في المناقشة في `[WIP]` طلبات السحب والمشكلات
+* إدراج دراسات حالات إفرادية في الكتاب
+* قوائم التحقق لمهارة معينة أو توصية معينة
+* إعادة هيكلة أقسام الفصل (مثل الفصل المتعلق بالقابلية للتكرار)
+* ابداع خارج الافكار المربعة!
+* دعونا نعرف ما إذا كنت تكافح من أجل المساهمة بأي طريقة حتى نتمكن من تحسين إرشادات المساهمة!
 
-#### :bell: GitHub Notifications
+#### :bell: إشعارات GitHub
 
-Click [here](https://github.com/alan-turing-institute/the-turing-way/invitations) to accept your invitation to have write access to *The Turing Way* - this gives you agency to merge your own pull requests (once approved!), review other pull requests, and add labels to issues and pull requests.
+انقر هنا [](https://github.com/alan-turing-institute/the-turing-way/invitations) لقبول دعوتك للحصول على الوصول إلى *طريق تورينج* - وهذا يعطيك الوكالة لدمج طلبات السحب الخاصة بك (بمجرد الموافقة عليها! ، مراجعة طلبات السحب الأخرى، وإضافة تسميات إلى المشكلات وطلبات السحب.
 
-#### :no_bell: Turn off these notifications
+#### :no_bell: إيقاف تشغيل هذه الإشعارات
 
-You're going to start getting lots of notifications from The Turing Way GitHub repository :scream_cat:
+ستبدأ في الحصول على الكثير من الإشعارات من مستودع GitHub لطريق التورينج :scream_cat:
 
-You can control these at the https://github.com/settings/notifications page.
+يمكنك التحكم في هذه الصفحة على https://github.com/settings/notiage.
 
-We recommend leaving the "Participating" options checked :white_check_mark: and un-checking the "Watching" boxes so you don't get a million different notifications.
+نوصي بترك خيارات "المشاركة" تم التحقق من :white_check_mark: وإلغاء التحقق من مربعات "المشاهدة" حتى لا تحصل على مليون إشعار مختلف.
 
-Here's a useful help page: https://help.github.com/en/articles/about-notifications
+إليك صفحة مساعدة مفيدة: https://help.github.com/en/articles/about-notifications
 
-Octobox is a cool tool for managing your GitHub notifications: https://octobox.io
+تشرين الأول/أكتوبر هو أداة رائعة لإدارة إشعارات GitHub الخاصة بك: https://octobox.io
 
-:moneybag: Support grant and subsistence cost: Reimbursement guidelines
+:moneybag: منحة الدعم وتكاليف الإقامة: المبادئ التوجيهية لرد التكاليف
 ---
 
-**Book Dash Expenses Guidance**
+**توجيه مصاريف الكتاب**
 
-**What is covered?**
+**ما المشمول؟**
 
--   Food & non-alcoholic drinks up to £50 (you can use this towards groceries to sustain your participation during the book dash)
--   Accessibility items or costs up to £75
+-   الطعام & المشروبات غير الكحولية تصل إلى 50 جنيه إسترليني (يمكنك استخدام هذا نحو البقالة للحفاظ على مشاركتك أثناء طقم الكتاب)
+-   البنود أو التكاليف التي يمكن الوصول إليها حتى 75 جنيها استرلينيا
 
-**Requirements**
+**المتطلبات**
 
--   Expenses will be reimbursed after the Book Dash
--   Participants will need to provide receipts for all expenses when they submit for reimbursement
--   All participants will need to sign and return the policy form and the expense claim form shared via an email
--   Participants should complete the form in the original currency of the expenses (no need to covert to GBP)
--   Forms and receipts **must be submitted by Friday 4 June to [tps@turing.ac.uk](mailto:tps@turing.ac.uk), copying in [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk)**
+-   سيتم رد المصروفات بعد دفتر الدفع
+-   وسيتعين على المشاركين أن يقدموا إيصالات لجميع المصروفات عند تقديمهم للرد
+-   وسيتعين على جميع المشاركين توقيع نموذج السياسة العامة واستمارة المطالبة بالنفقات وإعادتهما عن طريق البريد الإلكتروني
+-   وينبغي للمشاركين ملء الاستمارة بالعملة الأصلية للنفقات (لا حاجة إلى تغطية النفقات بالعملة المحلية)
+-   يجب إرسال النماذج والإيصالات **قبل يوم الجمعة 4 حزيران/يونيه إلى [tps@turing.ac.uk](mailto:tps@turing.ac.uk)، نسخ في [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk)**

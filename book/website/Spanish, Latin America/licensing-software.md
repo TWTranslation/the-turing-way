@@ -1,29 +1,29 @@
-(rr-licensing-software)=
-# Software Licenses
+(rr-licencia-software)=
+# Licencias de software
 
-A software license governs the extent of use or redistribution of software, with or without software documentation.
+Una licencia de software regula el alcance del uso o redistribución del software, con o sin documentación de software.
 
-There are many software licenses in existence. Many of those allow the licensee to do very little, but some give you more freedom to use and re-use the licensed software.
+Existen muchas licencias de software. Muchos de ellos permiten al Licenciatario hacer muy poco, pero algunos le dan más libertad para usar y reutilizar el software con licencia.
 
-The [https://choosealicense.com/](https://choosealicense.com/) website offers a straightforward mechanism to help you pick the best license for your project.
+El sitio web [https://choosealicense.com/](https://choosealicense.com/) ofrece un mecanismo directo para ayudarle a elegir la mejor licencia para su proyecto.
 
-To make some sense of this variety, we can categorize them as follows.
+Para dar sentido a esta variedad, podemos categorizarlas de la siguiente manera.
 
-## License Categories
+## Categorías de licencia
 
 <table>
     <thead>
         <tr>
-            <th colspan="3">Free</th>
-            <th rowspan="3">Proprietary</th>
+            <th colspan="3">Gratis</th>
+            <th rowspan="3">Propietario</th>
         </tr>
         <tr>
-            <th colspan="2">Copyleft</th>
-            <th rowspan="2">Permissive</th>
+            <th colspan="2">Copia izquierda</th>
+            <th rowspan="2">Permisivo</th>
         </tr>
         <tr>
-            <th>Strong</th>
-            <th>Weak</th>
+            <th>Fuerte</th>
+            <th>Débil</th>
         </tr>
     </thead>
     <tbody>
@@ -31,122 +31,122 @@ To make some sense of this variety, we can categorize them as follows.
         <td>GPL<sup>1</sup> CDDL<sup>2</sup></td>
         <td>LGPL<sup>3</sup> MPL<sup>4</sup></td>
         <td>BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
-            <td>Research Only: No&nbsp;copying, No&nbsp;modification</td>
+            <td>Solo investigación: No&nbsp;copiando, No&nbsp;modificación</td>
         </tr>
     </tbody>
     <caption>
       <div class="footnote">
         <sup>1</sup>GPL: GNU General Public License <sup>2</sup>CDDL: Common Development and Distribution License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup> MPL: Mozilla Public License <sup>5</sup> BSD: Berkeley Software Distribution <sup>6</sup> MIT: Massachusetts Institute of Technology
       </div>
-      Licenses can either be Free or Proprietary, with Free Licenses further classified as Copyleft or Permissive.
+      Las licencias pueden ser Gratis o Propietarias, con Licencias Gratis aún más clasificadas como Copiadas o Permisivas.
     </caption>
 </table>
 
-(rr-licensing-software-free)=
-## Free Software
+(rr-licencia-libre-software)=
+## Software Libre
 
-Software licenses are either free or proprietary. Free software comes with license terms that give you ([as defined by GNU](https://www.gnu.org/philosophy/free-sw.html)):
+Las licencias de software son gratuitas o privadas. El software libre viene con términos de licencia que te dan ([según lo definido por GNU](https://www.gnu.org/philosophy/free-sw.html)):
 
-* _Freedom 0_: The freedom to run the program as you wish, for any purpose.
-* _Freedom 1_: The freedom to study how the program works, and change it, so it does your computing as you wish. Access to the source code is a precondition for this.
-* _Freedom 2_: The freedom to redistribute copies so you can help others in your community.
-* _Freedom 3_: The freedom to distribute copies of your modified versions to others. By doing this, you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+* _Libertad 0_: La libertad para ejecutar el programa como desees, para cualquier propósito.
+* _Libertad 1_: La libertad de estudiar cómo funciona el programa, y cambiarlo, para que haga su computación como desee. El acceso al código fuente es una condición previa para ello.
+* _Libertad 2_: La libertad de redistribuir copias para que puedas ayudar a otros en tu comunidad.
+* _Libertad 3_: La libertad de distribuir copias de sus versiones modificadas a otros. Haciendo esto, usted puede dar a toda la comunidad la oportunidad de beneficiarse de sus cambios. El acceso al código fuente es una condición previa para ello.
 
-These four freedoms together effectively neutralize copyright; *Freedoms 0* and *2* let you use the original software and share it with others. *Freedoms 1* and *3* let you create derivative works based on the software and share these with others.
+Estas cuatro libertades neutralizan efectivamente el derecho de autor; *Utiliza 0* y *2* para usar el software original y compartirlo con otros. *Utiliza 1* y *3* para crear trabajos derivados basados en el software y compartirlos con otros.
 
-Note that it is perfectly acceptable to sell copies of free software, warranty, or development services; this is about the freedom to do things with the software, not about its price.
+Tenga en cuenta que es perfectamente aceptable vender copias de software libre, garantía o servicios de desarrollo; se trata de la libertad de hacer cosas con el software, no de su precio.
 
-There are two other, similar definitions in use; the Open Source Institute's [Open Source Definition](https://opensource.org/osd-annotated) and the [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). The free software definition above, by Richard Stallman, is the most straightforward and concise, and in practice, the categories they define are almost identical.
+Hay otras dos definiciones similares en uso; la [definición de código abierto](https://opensource.org/osd-annotated) del Instituto de código abierto y las [directrices de software libre de Debian](https://www.debian.org/social_contract#guidelines). La definición de software libre anterior, de Richard Stallman, es la más directa y concisa, y en la práctica, las categorías que definen son casi idénticas.
 
-Software that is not free is proprietary. Software that you are not allowed to copy or modify falls into this category, as does software with usage restrictions, for example, "For research use only" or "For non-commercial use only".
+El software que no es libre es propietario. El software que no se le permite copiar o modificar entra en esta categoría, al igual que el software con restricciones de uso, por ejemplo, "Solo para uso de investigación" o "Solo para uso no comercial".
 
-There are some confusingly-named subcategories of proprietary software. _Freeware_ is software that can be copied without paying anyone, but comes without source and cannot be modified. _Shared-source_ comes with source, but without permission to modify. Neither of these is free in the above sense.
+Hay algunas subcategorías con nombre confuso de software propietario. _Freeware_ es un software que puede copiarse sin pagar a nadie, pero que viene sin código fuente y no puede ser modificado. _Compartido-fuente_ viene con fuente, pero sin permiso para modificar. Ninguna de estas dos cosas es libre en el sentido anterior.
 
-(rr-licensing-software-derivative)=
-## Derivative Software
+(rr-licencia-derivado-software)=
+## Software derivado
 
-Within the category of free software, there are several subcategories, which are distinguished by what is allowed when making derivative software. There are two basic ways of making a derivative work of a program or library: modifying it (forking), or combining it with other software (for example using a library in your program). Of course, you can modify and then combine as well.
+Dentro de la categoría de software libre, hay varias subcategorías, que se distinguen por lo que se permite al hacer software derivado. Hay dos formas básicas de hacer un trabajo derivado de un programa o biblioteca: modificándolo (bifurcando), o combinándolo con otro software (por ejemplo, usando una biblioteca en su programa). Por supuesto, puede modificar y luego combinar también.
 
-Modifying a program leads to a new program that is derived from the original. This is similar to deriving the new edition of a textbook from the original. Both the original and modified versions are works under copyright law, and both of them may be licensed.
+Modificar un programa conduce a un nuevo programa derivado del original. Esto es similar a derivar la nueva edición de un libro de texto del original. Tanto las versiones originales como las modificadas son obras bajo la ley de derechos de autor, y ambas pueden tener licencia.
 
-As an example of combining software, imagine a program A that uses two preexisting libraries B and C. The complete program A will consist of library B, library C, and some code D that connects the libraries together and perhaps adds additional functionality. Each of these four items is a work of authorship with a license. Program A can sometimes be referred to as the "Combined work", "Work as a whole" or "Larger work".
+Como ejemplo de combinar software, imagínese un programa A que utilice dos bibliotecas preexistentes B y C. El programa A completo consistirá en la biblioteca B, biblioteca C, y algún código D que conecta las bibliotecas y quizás agrega funcionalidad adicional. Cada uno de estos cuatro artículos es una obra de autoría con una licencia. El programa A a veces puede ser referido como el "trabajo combinado", "Trabajo como un todo" o "trabajo mayor".
 
-Different free software licenses place different constraints on how modified versions and combined works can be licensed.
+Diferentes licencias de software libre ponen diferentes restricciones sobre cómo se pueden licenciar las versiones modificadas y los trabajos combinados.
 
-(rr-licensing-software-permissive)=
-## Permissive Licenses
+(rr-licencia-software-permisivo)=
+## Licencias permisivas
 
-As the name implies, permissive free software licenses are the least restrictive. They let you distribute the software unchanged under that license, with or without source code. They will also let you distribute a modified version under any license you like, and let you distribute a combined work under any license.
+Como su nombre lo indica, las licencias permisivas de software libre son las menos restrictivas. Le permiten distribuir el software sin cambios bajo esa licencia, con o sin código fuente. También le permitirán distribuir una versión modificada bajo cualquier licencia que desee, y le permitirán distribuir una obra combinada bajo cualquier licencia.
 
-Examples of well-known permissive licenses are the various BSD licenses, the MIT license, and the Apache License 2.0.
+Ejemplos de licencias permisivas conocidas son las diversas licencias BSD, la licencia MIT y la Apache License 2.0.
 
-(rr-licensing-software-copyleft)=
-## Copyleft
+(rr-licencia-software-copyleft)=
+## Copia izquierda
 
-Copyleft licenses add some restrictions to the licensing of derivative works. Like permissive licenses, they let you distribute the software unchanged under that license. However, if you distribute a binary, then you have to include the source code as well. Modified versions have to be distributed under the same license as the original; you are not allowed to change the license.
+Las licencias Copyleft añaden algunas restricciones a la concesión de licencias de obras derivadas. Al igual que las licencias permisivas, le permiten distribuir el software sin cambios bajo esa licencia. Sin embargo, si distribuye un binario, entonces también tendrá que incluir el código fuente. Las versiones modificadas deben ser distribuidas bajo la misma licencia que el original; no se le permite cambiar la licencia.
 
-When creating a combined work, a further distinction can be made. _Strong_ copyleft licenses on a component require a combined work to be licensed under the same license as the component. In the example above, if library B is distributed under a strong copyleft license such as the GNU GPL, then program A must be distributed under that same license.
+Al crear un trabajo combinado, se puede hacer una nueva distinción. _Fuertes_ licencias de copyleft en un componente requieren que un trabajo combinado sea licenciado bajo la misma licencia que el componente. En el ejemplo anterior, si la biblioteca B se distribuye bajo una licencia fuerte de copyleft como la GNU GPL, entonces el programa A debe ser distribuido bajo esa misma licencia.
 
-_Weak_ copyleft licenses allow the combined work (A) to be distributed under any license, as long as the source for the licensed component (B) is also made available under its original license. They may also require that the recipient of the combined work can re-link the modules after modifying the component.
+_Débil_ licencias de copyleft permiten que el trabajo combinado (A) se distribuya bajo cualquier licencia, siempre y cuando la fuente del componente licenciado (B) también esté disponible bajo su licencia original. También pueden requerir que el receptor del trabajo combinado pueda volver a enlazar los módulos después de modificar el componente.
 
-(rr-licensing-software-overview)=
-## Permission Overview
+(rr-licencia-general-software)=
+## Resumen de permisos
 
 <table>
     <thead>
         <tr>
             <th rowspan="2"></th>
-            <th colspan="2">Copyleft</th>
-            <th rowspan="2">Permissive</th>
-            <th rowspan="2">Proprietary</th>
+            <th colspan="2">Copia izquierda</th>
+            <th rowspan="2">Permisivo</th>
+            <th rowspan="2">Propietario</th>
         </tr>
         <tr>
-            <th>Strong</th>
-            <th>Weak</th>
+            <th>Fuerte</th>
+            <th>Débil</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th>Use for anything</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Sometimes</td>
+            <th>Usar para cualquier cosa</th>
+            <td>Sí</td>
+            <td>Sí</td>
+            <td>Sí</td>
+            <td>A veces</td>
         </tr>
         <tr>
-            <th>Private changes</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Rarely</td>
+            <th>Cambios privados</th>
+            <td>Sí</td>
+            <td>Sí</td>
+            <td>Sí</td>
+            <td>Rara vez</td>
         </tr>
         <tr>
-            <th>Distribute original</th>
-            <td>Same license, with source</td>
-            <td>Same license, with source</td>
-            <td>Same license, also binary-only<sup>1</sup></td>
-            <td>Rarely</td>
+            <th>Distribuir original</th>
+            <td>Misma licencia, con origen</td>
+            <td>Misma licencia, con origen</td>
+            <td>Misma licencia, también binary-only<sup>1</sup></td>
+            <td>Rara vez</td>
         </tr>
         <tr>
-            <th>Distribute modified</th>
-            <td>Same license, with source</td>
-            <td>Same license, with source<sup>2</sup></td>
-            <td>Any license, also binary-only</td>
-            <td>Rarely</td>
+            <th>Distribuir modificado</th>
+            <td>Misma licencia, con origen</td>
+            <td>Misma licencia, con fuente<sup>2</sup></td>
+            <td>Cualquier licencia, también binaria-sólo</td>
+            <td>Rara vez</td>
         </tr>
         <tr>
-            <th>Distribute combined</th>
-            <td>Same license, with source</td>
-            <td>Any license, binary additions</td>
-            <td>Any license, also binary-only</td>
-            <td>Rarely</td>
+            <th>Distribución combinada</th>
+            <td>Misma licencia, con origen</td>
+            <td>Cualquier licencia, adiciones binarias</td>
+            <td>Cualquier licencia, también binaria-sólo</td>
+            <td>Rara vez</td>
         </tr>
     </tbody>
     <caption>
       <div class="footnote">
-        <sup>1</sup>Under any license for the MIT license <sup>2</sup>Relicensing LGPL to GPL is allowed
+        <sup>1</sup>Bajo cualquier licencia para la licencia MIT <sup>2</sup>Relicensing LGPL a GPL está permitido
       </div>
-      Permissive licenses grant the largest set of permissions to users. Copyleft licenses require redistribution of the original or modified source to use the same license, with weak copyleft licences allowing a different choice of license for the combined work. Proprietary licenses rarely provide any permissions beyond the right to use the software.
+      Las licencias permisivas conceden el mayor conjunto de permisos a los usuarios. Las licencias Copleft requieren la redistribución de la fuente original o modificada para utilizar la misma licencia, con licencias débiles de copyleft que permiten una elección diferente de la licencia para el trabajo combinado. Las licencias patentadas rara vez proporcionan ningún permiso más allá del derecho a usar el software.
     </caption>
 </table>
 

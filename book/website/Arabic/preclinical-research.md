@@ -1,24 +1,24 @@
-(er-activism-preclinical-research)=
-# Ethical Decisions in Preclinical Research
+(- النشاط - البحث في مرحلة ما قبل العيادة)=
+# القرارات الأخلاقية في البحوث السريرية
 
-## Prerequisites / recommended skill level
-For preclinical scientists – no previous knowledge needed
+## المتطلبات الأساسية/مستوى المهارة الموصى به
+بالنسبة للعلماء في مرحلة ما قبل الإكلينيكي ـ لا حاجة إلى معرفة سابقة
 
 ## Summary
-Society continually debate the use of animals in scientific research. The fundamental questions are whether experiments using animals are morally justifiable and whether the potential benefits outweigh the suffering of those animals? These questions have been coupled with increasing concern about the poor reproducibility of findings from animal research, due to the impact this has on translation, scientific progress and the use of resources. A question that is not often addressed is how those justified experiments are designed, conducted and analysed. Flawed experimental design, inappropriate statistical analysis and inadequate reporting have been flagged as areas for major concern {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproducibility`. It is morally incumbent upon us to ensure that animal experiments are appropriately designed, conducted and analysed otherwise the results are at risk of being unreliable. If the results are unreliable then the animals used have in effect have been wasted {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
+ويناقش المجتمع باستمرار استخدام الحيوانات في البحوث العلمية. وتتمثل الأسئلة الأساسية في ما إذا كانت التجارب التي تستخدم حيوانات لها ما يبررها أخلاقيا، وما إذا كانت الفوائد المحتملة تفوق معاناة تلك الحيوانات؟ وقد اقترنت هذه المسائل بقلق متزايد إزاء ضعف إمكانية استخلاص نتائج البحوث المتعلقة بالحيوانات. بسبب تأثير ذلك على الترجمة والتقدم العلمي واستخدام الموارد. ومن المسائل التي لا تعالج في كثير من الأحيان كيفية تصميم هذه التجارب المبررة وإجرائها وتحليلها. التصميمات التجريبية المعيبة والتحليل الإحصائي غير الملائم وعدم كفاية التقارير قد تم اعتبارها مجالات تثير قلقا بالغا {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproduciment`. ومن واجبنا أخلاقيا أن نضمن تصميم التجارب الحيوانية على النحو الملائم، غير أن النتائج يمكن أن تكون غير موثوقة إذا ما أجريت وحللت بطريقة أخرى. إذا كانت النتائج غير موثوقة فإن الحيوانات المستخدمة في الواقع قد أهدرت {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
 
-## How this will help you/ why this is useful
-Many preclinical researchers do not think of themselves as data scientists. This may be primarily because they work with small datasets. However, there are many common open research themes and this chapter aims to assist preclinical scientists in understanding the why, where, when, and how they can employ open research initiatives, some designed specifically for the use by preclinical scientists.
-> The above sentence may not fit with the structure of the book or flow within these chapters - Nadia
+## كيف سيساعدك هذا/لماذا هذا مفيد
+والعديد من الباحثين في مرحلة ما قبل الإكلينيكي لا يفكرون في أنفسهم كعلماء بيانات. وقد يكون ذلك أساسا لأنهم يعملون مع مجموعات بيانات صغيرة. غير أن هناك العديد من المواضيع البحثية المفتوحة المشتركة ويهدف هذا الفصل إلى مساعدة العلماء في مرحلة ما قبل الإكلينيكي على فهم أسباب ذلك، أينما ومتى وكيف يمكنهم استخدام مبادرات بحث مفتوحة، بعضها مصمم خصيصا لاستخدامه من جانب علماء ما قبل الإكلينيكيين.
+> وقد لا تتوافق الجملة المذكورة أعلاه مع هيكل الكتاب أو التدفق داخل هذه الفصول - نادية
 
-## The Experimental Design Assistant
-The National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) have a freely accessible web-based tool – The Experimental Design Assistant (EDA; https://eda.nc3rs.org.uk) which aims to help researchers improve the design, conduct, analysis and reporting of animal experiments. Designing experiments with the EDA encourages researchers to consider the sources of bias at the design stages of the experiment before the data are collected, ensuring a rigorous design that is more likely to yield robust findings that can be reproduced. The tool ensures that you have a transparent, clear protocol and plan for statistical analysis which can be scrutinised before collecting data.
+## مساعد التصميم التجريبي
+• المركز الوطني للاستبدال، إن تحسين الحيوانات والحد منها في مجال البحوث يملك أداة متاحة مجاناً على شبكة الإنترنت - مساعد التصميم التجريبي (EDA)؛ https://eda. c3rs.org.uk) الذي يهدف إلى مساعدة الباحثين على تحسين تصميم التجارب الحيوانية وإجرائها وتحليلها والإبلاغ عنها. ويشجع تصميم التجارب مع إجراء التقييم الباحثين على النظر في مصادر التحيز في مراحل التصميم من التجربة قبل جمع البيانات، • ضمان تصميم صارم يرجح أن يسفر عن نتائج قوية يمكن استنساخها. وتكفل هذه الأداة أن يكون لديك بروتوكول وخطة شفافان وواضحان للتحليل الإحصائي يمكن فحصهما قبل جمع البيانات.
 
-**Features of the EDA:**
-* A computer-aided design tool to develop a diagram representing the experimental plan
-* feedback from an expert system on the experimental plan
-* analysis suggestion
-* sample size calculation (power analysis)
-* randomisation sequence generation
-* support for allocation concealment and blinding
-* web-based resources to improve knowledge of experimental design and analysis
+**ميزات اتفاقية مكافحة التصحر:**
+* أداة تصميم بمساعدة الحاسوب لوضع رسم بياني يمثل الخطة التجريبية
+* تعليقات من نظام الخبراء على الخطة التجريبية
+* اقتراح التحليل
+* حساب حجم العينة (تحليل الطاقة)
+* توليد تسلسل عشوائي
+* دعم إخفاء التخصيص والعمى
+* الموارد المعتمدة على شبكة الإنترنت لتحسين المعرفة بالتصميم والتحليل التجريبيين

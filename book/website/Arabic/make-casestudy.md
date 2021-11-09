@@ -1,7 +1,7 @@
-(rr-make-casestudy-rp)=
-# Case Study: Reproducible Paper using Make
+(r-make-casestudy-rp)=
+# دراسة حالة إفرادية: ورقة قابلة للتكرير باستخدام صنع
 
-In the tutorial above we used IMDB movie ratings for different genres as example data. This data was obtained from a dataset [shared on Kaggle](https://www.kaggle.com/orgesleka/imdbmovies#imdb.csv) as a CSV file. The file looks like this:
+In the tutorial above we used IMDB movie ratings for different genres as example data. تم الحصول على هذه البيانات من مجموعة بيانات [مشاركة على كاجل](https://www.kaggle.com/orgesleka/imdbmovies#imdb.csv) كملف CSV. يبدو الملف مثل هذا:
 
 ```text
 fn,tid,title,wordsInTitle,url,imdbRating,ratingCount,duration,year,type,nrOfWins,nrOfNominations,nrOfPhotos,nrOfNewsArticles,nrOfUserReviews,nrOfGenre,Action,Adult,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,FilmNoir,GameShow,History,Horror,Music,Musical,Mystery,News,RealityTV,Romance,SciFi,Short,Sport,TalkShow,Thriller,War,Western
@@ -11,32 +11,32 @@ titles01/tt0017136,tt0017136,Metropolis (1927),metropolis,http://www.imdb.com/ti
 titles01/tt0017925,tt0017925,Der General (1926),der general,http://www.imdb.com/title/tt0017925/,8.3,37521,6420,1926,video.movie,1,1,53,123,219,3,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 ```
 
-While on the surface this looks like a regular CSV file, when you try to open it with the Python CSV library, or Pandas, or R's `read_csv`, or even `readr:read_csv`, the data is not loaded correctly. This happens because the CSV file uses an escape character `\` for movie names that have commas in them and the CSV readers don't automatically detect this variation in the CSV format.  It turns out that this is quite a common issue for data scientists: CSV files are often messy and use an uncommon *dialect*: such as strange delimiters and uncommon quote characters.  Collectively, data scientists waste quite some time on these data wrangling issues where manual intervention is needed. But this problem is also not that easy to solve: to a computer a CSV file is simply a long string of characters and every dialect will give you *some* table, so how do we determine the dialect accurately in general?
+أثناء وجود هذا على السطح يبدو مثل ملف CSV عادي، عندما تحاول فتحه مع مكتبة Python CSV أو Pandas، أو R's `read_csv`، أو حتى `readr:read_csv`، لم يتم تحميل البيانات بشكل صحيح. يحدث هذا لأن ملف CSV يستخدم حرف هروب `\` لأسماء الأفلام التي تحتوي على فواصل في ولا يكتشف قارئ CSV هذا الاختلاف تلقائياً في تنسيق CSV .  اتضح أن هذه مشكلة شائعة لعلماء البيانات: ملفات CSV غالبا ما تكون فوضوية وتستخدم *لهجة غير شائعة*: مثل محددات الغريب و أحرف اقتباس غير شائعة.  بشكل جماعي، يهدر علماء البيانات تماما بعض الوقت على هذه المشاكل التي تخوض البيانات حيث يتطلب الأمر تدخلا يدويا. But this problem is also not that easy to solve: to a computer a CSV file is simply a long string of characters and every dialect will give you *some* table, so how do we determine the dialect accurately in general?
 
-Recently, researchers from the Alan Turing Institute have presented a method that achieves 97% accuracy on a large corpus of CSV files, with an improvement of 21% over existing approaches on non-standard CSV files. This research was made reproducible through the use of Make and is available through an online repository: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling).
+مؤخرا، قام باحثون من معهد آلان تورينغ بعرض طريقة تحقق 97 في المائة من الدقة على مجموعة كبيرة من ملفات CSV، مع تحسين بنسبة 21 في المائة مقارنة بالنهج القائمة بشأن ملفات CSV غير القياسية. كان هذا البحث يمكن استنساخه من خلال استخدام تصنيع وهو متاح من خلال مستودع على الإنترنت: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling).
 
-Below we will briefly describe what the Makefile for such a project looks like.  For the complete file, please see the repository. The Makefile consists of several sections:
+فيما يلي سنقوم بوصف مقتضب لما يبدو عليه ماكيفيل لمثل هذا المشروع .  للملف الكامل، يرجى الاطلاع على المستودع. يتألف Makefile من من عدة أقسام:
 
-1. Data collection: because the data is collected from public sources, the repository contains a Python script that allows anyone to download the data through a simple `make data` command.
+1. جمع البيانات: لأن البيانات تجمع من مصادر عامة، يحتوي مستودع على نص Python الذي يسمح لأي شخص بتنزيل البيانات من خلال أمر بسيط `إنشاء البيانات`.
 
-2. All the figures, tables, and constants used in the paper are generated based on the results from the experiments. To make it easy to recreate all results of a certain type, `.PHONY` targets are included that depend on all results of that type (so you could run `make figures`). The rules for these outputs follow the same pattern as those for the figures in the tutorial above.  Tables are created as LaTeX files so they can be directly included in the LaTeX source for the manuscript.
+2. جميع الأرقام والجداول والثوابت المستخدمة في الورقة يتم إنشاؤها بناء على نتائج التجارب. لجعل من السهل إعادة إنشاء جميع النتائج من نوع معين، `. أهداف HOY` التي تعتمد على جميع النتائج من هذا النوع (حتى تتمكن من تشغيل `إعداد الأرقام`). القواعد الخاصة بـ هذه المخرجات تتبع نفس النمط المتبع في الأرقام الواردة في البرنامج التعليمي أعلاه.  يتم إنشاء الجداول كملفات لاتيكس بحيث يمكن أن تكون مباشرة مدرجة في مصدر لاتيكس للمخطوط.
 
-3. The rules for the detection results follow a specific signature:
+3. وتتبع قواعد نتائج الكشف توقيعا محددا:
 
    ```makefile
    $(OUT_DETECT)/out_sniffer_%.json: $(OUT_PREPROCESS)/all_files_%.txt
-    python $(SCRIPT_DIR)/run_detector.py sniffer $(DETECTOR_OPTS) $< $@
+    python $(SCRIPT_DIR)/run_detector.py sniffer $(DETECTOR_OPTS) $<$@
    ```
 
-   The `%` symbol is used to create outputs for both sources of CSV files with a single rule in {ref}`rr-make-examples-patternrules` and the rule uses in {ref}`rr-make-examples-automaticvar` to extract the input and output filenames.
+   يستخدم رمز `%` لإنشاء مخرجات لكل من مصادر ملفات CSV مع قاعدة واحدة في {ref}`rr-make-examples-patternples-rules` والقاعدة يستخدم في {ref}`rr-make-examples-automaticvar` لاستخراج الإدخال و أسماء الملفات.
 
-4. Some of the cleaning rules will remove output files that take a while to create.  Therefore, these depend on a special `check_clean` target that asks the user to confirm before proceeding:
+4. بعض قواعد التنظيف ستزيل ملفات الإخراج التي تستغرق بعض الوقت إلى إنشاءها.  لذلك، تعتمد هذه على هدف `check_Cle` الخاص الذي يطلب من المستخدم تأكيده قبل المتابعة:
 
    ```makefile
-   check_clean:
-    @echo -n "Are you sure? [y/N]" && read ans && [ $$ans == y ]
+   check_Cle:
+    @echo -n "هل أنت متأكد؟ [y/N]" && يقرأ ans && [ $$ans == y ]
    ```
 
-It is important to emphasize that this file was not created in one go, but was constructed iteratively. The Makefile started as a way to run several dialect detection methods on a collection of input files and gradually grew to include the creation of figures and tables from the result files. Thus the advice for using Make for reproducibility is to *start small and start early*.
+من المهم التأكيد على أن هذا الملف لم يتم إنشاؤه في مرحلة واحدة، ولكن تم إنشاؤه بشكل متكرر. بدأ Makefile كطريقة لتشغيل العديد من طرق الكشف اللهجة على مجموعة من ملفات الإدخال ونمت تدريجيا لتشمل إنشاء الأرقام والجداول من ملفات النتائج. وبالتالي فإن النصيحة لـ باستخدام "جعل من أجل قابلية التكرار" هي *أن تبدأ صغيرة وتبدأ في وقت مبكر*.
 
-The published Makefile in the repository does not contain the paper, but this *is* included in the internal Makefile and follows the same structure as the `report.pdf` file in the tutorial above. This proved especially useful for collaboration as only a single repository needed to be shared that contains the code, the results, and the manuscript.
+Makefile المنشورة في المستودع لا تحتوي على الورقة، ولكن هذا *هو* مضمن في Makefile الداخلية ويتبع نفس البنية مثل تقرير `. df` ملف في البرنامج التعليمي أعلاه. وقد ثبت أن هذا مفيد بشكل خاص للتعاون كمستودع واحد فقط يحتاج إلى المشاركة يحتوي على الكود البرمجي، النتائج والمخطوط.

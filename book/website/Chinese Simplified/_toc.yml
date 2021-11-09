@@ -7,835 +7,835 @@
 #- header: My Header  # Will insert a header with no link in the sidebar
 #===== Main Landing Page ========================================
 format: jb-book
-root: welcome
+root: 欢迎
 parts:
   - 
     chapters:
       - 
         #===== Guide for Reproducible Research ========================================
-        file: reproducible-research/reproducible-research
+        file: 可再生研究/可再生研究
         sections:
           - 
-            title: Overview
-            file: reproducible-research/overview
+            title: 概览
+            file: 可再生研究/概述
             sections:
               - 
-                title: Definitions
-                file: reproducible-research/overview/overview-definitions
+                title: 定 义
+                file: 可再现的研究/概览/概述的定义
               - 
-                title: Added Advantages
-                file: reproducible-research/overview/overview-benefit
+                title: 添加的优势
+                file: 可再生研究/概览/概览
               - 
-                title: Barriers
-                file: reproducible-research/overview/overview-barriers
+                title: B. 障碍
+                file: 可再生产的研究/概览/概述的障碍
               - 
-                title: Resources
-                file: reproducible-research/overview/overview-resources
+                title: 资源
+                file: 可再生研究/概览/概览资源
           - 
-            title: Open Research
-            file: reproducible-research/open
+            title: 打开研究
+            file: 可再生研究/打开
             sections:
               - 
-                title: Open Data
-                file: reproducible-research/open/open-data
+                title: 打开数据
+                file: 可再现的研究/开放/开放的数据
               - 
-                title: Open Source Software
-                file: reproducible-research/open/open-source
+                title: 开源软件
+                file: 可复现的研究/开启/开源
               - 
-                title: Open Hardware
-                file: reproducible-research/open/open-hardware
+                title: 打开硬件
+                file: 可复现的研究/开启/开启的硬件
               - 
-                title: Open Access
-                file: reproducible-research/open/open-access
+                title: 打开访问
+                file: 可再生的研究/开放/公开访问
               - 
-                title: Open Notebooks
-                file: reproducible-research/open/open-notebooks
+                title: 打开笔记本
+                file: 可再现的研究/开放/开放式笔记本
               - 
-                title: Open Scholarship
-                file: reproducible-research/open/open-scholarship
+                title: 开放奖学金
+                file: 可再生研究/开放/开放奖学金方案
               - 
                 title: Checklist
-                file: reproducible-research/open/open-checklist
+                file: 可复现的研究/开放/开放核对表
               - 
-                title: Resources
-                file: reproducible-research/open/open-resources
+                title: 资源
+                file: 可再生研究/开放/开放资源
           - 
-            title: Version Control
-            file: reproducible-research/vcs
+            title: 版本控制
+            file: 可复现的研究/vcs
             sections:
               - 
-                title: General Workflow
-                file: reproducible-research/vcs/vcs-workflow
+                title: 一般工作流
+                file: 可复现的研究/vcs/vcs-workflow
               - 
-                title: Getting Started with Git
-                file: reproducible-research/vcs/vcs-git
+                title: 开始使用 Git
+                file: 复发性研究/vcs/vcs-git
               - 
-                title: Git Commit Command
-                file: reproducible-research/vcs/vcs-git-commit
+                title: Git 提交命令
+                file: 可反转研究/vcs/vcs-git-commit
               - 
-                title: Retrieving and Comparing Versions
-                file: reproducible-research/vcs/vcs-git-compare
+                title: 检索和比较版本
+                file: 复现-研究/vcs/vcs-git-compare
               - 
-                title: Git Branches
-                file: reproducible-research/vcs/vcs-git-branches
+                title: 吉特分支
+                file: 复发式研究/vcs/vcs-git-branch
               - 
-                title: Merging Branches in Git
-                file: reproducible-research/vcs/vcs-git-merge
+                title: 合并Git中的分支
+                file: 可复现的研究/vcs/vcs-git-合并
               - 
-                title: Interactive, Visual Git
-                file: reproducible-research/vcs/vcs-git-interactive
+                title: 交互式视觉Git
+                file: 可复现的研究/vcs/vcs-git-交互性
               - 
-                title: Git Commands to Work on GitHub
-                file: reproducible-research/vcs/vcs-github
+                title: Git 命令在 GitHub 上工作
+                file: reducible-research/vcs/vcs-github
               - 
-                title: Summary Table of Git Commands
-                file: reproducible-research/vcs/vcs-git-summary
+                title: Git命令表
+                file: 可复现的研究/vcs/vcs-git-summary
               - 
-                title: Version Control for Data
-                file: reproducible-research/vcs/vcs-data
+                title: 数据版本控制
+                file: 可再生研究/vcs/vcs-data
               - 
-                title: Personal Stories
-                file: reproducible-research/vcs/vcs-personal-stories
+                title: 个人故事
+                file: 可复现的研究/vcs/vcs-personal-故事
               - 
                 title: Checklist
-                file: reproducible-research/vcs/vcs-checklist
+                file: 可复现的研究/vcs/vcs-checks清单
               - 
-                title: Resources
-                file: reproducible-research/vcs/vcs-resources
+                title: 资源
+                file: 可再生研究/vcs/vcs-resources
           - 
-            title: Licensing
-            file: reproducible-research/licensing
+            title: 许可协议
+            file: 可再生研究/许可协议
             sections:
               - 
-                title: Software Licenses
-                file: reproducible-research/licensing/licensing-software
+                title: 软件许可证
+                file: 可再现的研究/许可证/许可证-软件
               - 
-                title: License Compatibililty
-                file: reproducible-research/licensing/licensing-compatibility
+                title: 许可证兼容性
+                file: 可再生研究/许可证/许可证兼容性
               - 
-                title: Data Licenses
-                file: reproducible-research/licensing/licensing-data
+                title: 数据授权
+                file: 可再现的研究/许可证/许可数据
               - 
                 title: Checklist
-                file: reproducible-research/licensing/licensing-checklist
+                file: 可再循环调研/许可证/许可证核对表
           - 
-            title: Research Data Management
-            file: reproducible-research/rdm
+            title: 研究数据管理
+            file: 可再生研究/rdm
             sections:
               - 
-                title: Research Data
-                file: reproducible-research/rdm/rdm-data
+                title: 研究数据
+                file: Reducible-research/rdm/rdm-data
               - 
-                title: Data Management Plan
-                file: reproducible-research/rdm/rdm-dmp
+                title: 数据管理计划
+                file: 复发式研究/rdm/rdm-dmp
               - 
-                title: The FAIR Principles and Practices
-                file: reproducible-research/rdm/rdm-fair
+                title: A. 难民事务高级专员办事处的原则和做法
+                file: reducible-research/rdm/rdm-fair
               - 
-                title: Personal data management
-                file: reproducible-research/rdm/rdm-personal
+                title: 个人数据管理
+                file: 可再生研究/rdm/rdm-personal
               - 
-                title: Data Storage and Organisation
-                file: reproducible-research/rdm/rdm-storage
+                title: 数据存储和组织
+                file: 复发式研究/rdm/rdm-storage
               - 
-                title: Data Organisation in Spreadsheets
-                file: reproducible-research/rdm/rdm-spreadsheets
+                title: 电子表格中的数据组织
+                file: 可再现的研究/rdm/rdm-电子表格
               - 
-                title: Documentation and Metadata
-                file: reproducible-research/rdm/rdm-metadata
+                title: 文档和元数据
+                file: reducible-research/rdm/rdm-metadata
               - 
-                title: Sharing and Archiving Data
-                file: reproducible-research/rdm/rdm-sharing
+                title: 共享和归档数据
+                file: 可再生研究/rdm/rdm共享
               - 
-                title: Research Data Management Toolkits
-                file: reproducible-research/rdm/rdm-toolkits
+                title: 研究数据管理工具箱
+                file: 可再现的研究/rdm/rdm-toolkit
               - 
-                title: Personal Impact Stories
-                file: reproducible-research/rdm/rdm-stories
+                title: 个人影响故事
+                file: 可复现的研究/rdm/rdm-故事
               - 
                 title: Checklist
-                file: reproducible-research/rdm/rdm-checklist
+                file: 复式研究/rdm/rdm-checks
               - 
-                title: Resources
-                file: reproducible-research/rdm/rdm-resources
+                title: 资源
+                file: 可再生研究/rdm/rdm-resources
           - 
-            title: Reproducible Environments
-            file: reproducible-research/renv
+            title: 可复现的环境
+            file: 可重复研究/renv
             sections:
               - 
-                title: Capturing Computational Environments
-                file: reproducible-research/renv/renv-options
+                title: 捕获计算环境
+                file: reducible-research/renv/renv-options
               - 
-                title: Package Management Systems
-                file: reproducible-research/renv/renv-package
+                title: 软件包管理系统
+                file: reducible-research/renv/renv-package
               - 
                 title: YAML
-                file: reproducible-research/renv/renv-yaml
+                file: reducible-research/renv/renv-yaml
               - 
-                title: Binder
-                file: reproducible-research/renv/renv-binder
+                title: 宾代尔
+                file: reducible-research/renv/renv-binder
               - 
-                title: Virtual Machines
-                file: reproducible-research/renv/renv-virtualmachine
+                title: 虚拟机
+                file: reducible-research/renv/renv-virtual机
               - 
-                title: Containers
-                file: reproducible-research/renv/renv-containers
+                title: 容器
+                file: 复发式研究/renv/renv-container
               - 
-                title: Resources and Checklist
-                file: reproducible-research/renv/renv-resources
+                title: 资源和清单
+                file: 可再生研究/renv/renv-resources
           - 
-            title: BinderHub
-            file: reproducible-research/binderhub
+            title: 绑定Hub
+            file: 可再生的研究/绑定中心
             sections:
               - 
-                title: Introduction to BinderHub
-                file: reproducible-research/binderhub/binderhub-introduction
+                title: BinderHub 简介
+                file: 可再研究/binderhub/binderhub-introduction
               - 
-                title: Compute Resources
-                file: reproducible-research/binderhub/binderhub-compute
+                title: 计算资源
+                file: Reducible-research/binderhub/binderhub-compute
               - 
-                title: Build Your Own BinderHub
-                file: reproducible-research/binderhub/binderhub-build
+                title: 构建自己的绑定Hub
+                file: 可再循环研究/binderhub/binderhub-building
               - 
-                title: Resources for BinderHub
-                file: reproducible-research/binderhub/binderhub-resources
+                title: BinderHub 资源
+                file: 可再生研究/binderhub/binderhub-resources
           - 
-            title: Code quality
-            file: reproducible-research/code-quality
+            title: 代码质量
+            file: 可再生研究/代码质量
             sections:
               - 
-                title: Code Style and Formatting
-                file: reproducible-research/code-quality/code-quality-style
+                title: 代码样式和格式
+                file: Reducible-research/code-quality/code-quality风格
               - 
-                title: Checklist and Resources
-                file: reproducible-research/code-quality/code-quality-resources
+                title: 清单和资源
+                file: 可再生研究/编码质量/编码质量资源
           - 
-            title: Code Testing
-            file: reproducible-research/testing
+            title: 代码测试
+            file: 可再生研究/测试
             sections:
               - 
-                title: General Guidance for Testing
-                file: reproducible-research/testing/testing-guidance
+                title: 一般性测试指南
+                file: 可再现的研究/测试/测试指南
               - 
-                title: Overview of Testing Types
-                file: reproducible-research/testing/testing-overview
+                title: 测试类型概述
+                file: 可再现的研究/测试/测试-概述
               - 
-                title: Smoke Testing
-                file: reproducible-research/testing/testing-smoketest
+                title: 烟雾测试
+                file: 可再生研究/试验/试验-烟雾测试
               - 
-                title: Unit Testing
-                file: reproducible-research/testing/testing-unittest
+                title: 单元测试
+                file: Reducible-research/ testing/testing-unittelist
               - 
-                title: Integration Testing
-                file: reproducible-research/testing/testing-integrationtest
+                title: 集成测试
+                file: 再生产-研究/测试/测试-整合测试
               - 
-                title: System Testing
-                file: reproducible-research/testing/testing-systemtest
+                title: 系统测试
+                file: 可再现的研究/测试/测试系统测试
               - 
-                title: Acceptance and Regression Testing
-                file: reproducible-research/testing/testing-acceptance-regression
+                title: 接受和回归测试
+                file: 可再生研究/试验/试验-可接受性回归性
               - 
-                title: Runtime Testing
-                file: reproducible-research/testing/testing-runtime
+                title: 运行时测试
+                file: 可再现的调研/测试/测试运行时间
               - 
-                title: Test Driven Development
-                file: reproducible-research/testing/testing-driven-development
+                title: 测试驱动器开发
+                file: 再生产-研究/测试/测试-推动发展
               - 
-                title: Challenges and Exceptional Cases
-                file: reproducible-research/testing/testing-exceptions
+                title: 挑战和特殊案件
+                file: 可再现的调研/测试/测试例外情况
               - 
-                title: Checklist for Code Testing
-                file: reproducible-research/testing/testing-checklist
+                title: 代码测试清单
+                file: 可再现的研究/测试/测试核对表
               - 
-                title: Further Recommendations
-                file: reproducible-research/testing/testing-resources
+                title: 进一步的建议
+                file: 可再生产的研究/测试/测试资源
           - 
-            title: Code Reviewing Process
-            file: reproducible-research/reviewing
+            title: 代码审查进程
+            file: 可再生的研究/审查
             sections:
               - 
-                title: Motivation for code reviewing
-                file: reproducible-research/reviewing/reviewing-motivation
+                title: 代码审查的动机。
+                file: 可再生研究/审查/审查/审查动机。
               - 
-                title: Recommendations for code reviewing
-                file: reproducible-research/reviewing/reviewing-recommend
+                title: 关于对代码进行审查的建议
+                file: 可重复的研究/审查/审查建议
               - 
-                title: Code review workflow
-                file: reproducible-research/reviewing/reviewing-workflow
+                title: 代码审核工作流程
+                file: 可再生研究/审查/审查工作流程
               - 
-                title: Checklist for code reviewing
-                file: reproducible-research/reviewing/reviewing-checklist
+                title: 验证码审查清单
+                file: 可重复研究/审查/审查-核对清单
               - 
-                title: Resources for code reviewing
-                file: reproducible-research/reviewing/reviewing-resources
+                title: 代码审查资源
+                file: 可再生研究/审查/审查资源
           - 
-            title: Continuous Integration (CI)
-            file: reproducible-research/ci
+            title: 连续集成 (CI)
+            file: 可再生研究/ci
             sections:
               - 
-                title: Intro to Continuous integration (CI)
-                file: reproducible-research/ci/ci-options
+                title: 连续集成简介 (CI)
+                file: 可再生研究/ci/ci-options
               - 
-                title: Getting started with GitHub actions
-                file: reproducible-research/ci/ci-github-actions
+                title: 开始使用 GitHub 操作
+                file: 可再生研究/ci/ci-github-actions
               - 
-                title: Building a Block of a Github actions
-                file: reproducible-research/ci/ci-building-gh-actions.md
+                title: 构建一个 Github 动作的块
+                file: reducible-research/ci/ci-building-gh-actions.md
               - 
-                title: Best practices and recommendations
-                file: reproducible-research/ci/ci-practices
+                title: 最佳做法和建议
+                file: 可再生研究/ci/ci-practices
               - 
-                title: Checklist and Resources
-                file: reproducible-research/ci/ci-resources
+                title: 清单和资源
+                file: 可再生研究/ci/ci-resources
           - 
-            title: Reproducible Research with Make
-            file: reproducible-research/make
+            title: 可重现的研究
+            file: 可复现的研究/制作。
             sections:
               - 
-                title: Learn "Make" by examples
-                file: reproducible-research/make/make-examples
+                title: 通过示例学习“Make”
+                file: 可复现的研究/make/make-examples
               - 
-                title: Debugging Makefiles
-                file: reproducible-research/make/make-debugging
+                title: 调试 Makefile
+                file: 重置可调研/make/make-debugging
               - 
-                title: Case Study of a Reproducible Paper
-                file: reproducible-research/make/make-casestudy
+                title: 可复现纸案例研究
+                file: 复古研究/make/make-casestudy
               - 
-                title: Including numerical results and tables
-                file: reproducible-research/make/make-results
+                title: 包括数字结果和表
+                file: 可再生研究/make/make-结果
               - 
-                title: Resources for "Make"
-                file: reproducible-research/make/make-resources
+                title: '"Make"的资源'
+                file: 可再生研究/make/make-resources
               - 
-                title: Appendix
-                file: reproducible-research/make/make-appendix
+                title: 附 录
+                file: 可调研/make/make-appendix
           - 
-            title: Research Compendia
-            file: reproducible-research/compendia
+            title: 研究简编a
+            file: 可再生研究/简编a
           - 
-            title: Risk Assessment
-            file: reproducible-research/risk-assess
+            title: 风险评估
+            file: 可再生研究/风险评估
             sections:
               - 
-                title: Complexity and Impact of Risk Assessment
-                file: reproducible-research/risk-assess/risk-assess-impact
+                title: 风险评估的复杂性和影响
+                file: 可再生研究/风险评估/风险评估-影响
               - 
-                title: Summary of Risk Assessment
-                file: reproducible-research/risk-assess/risk-assess-resources
+                title: 风险评估摘要
+                file: 可再生研究/风险评估/风险评估-资源
           - 
-            title: Case Studies
-            file: reproducible-research/case-studies
+            title: 案例研究
+            file: 可再生产的研究/案例研究
             sections:
               - 
-                title: A Statistical Methods Manuscript
-                file: reproducible-research/case-studies/case-study-statistical
+                title: 统计方法手法
+                file: 可再生研究/个案研究/案例研究-统计
       - 
         #===== Guide for Project Design ========================================
-        file: project-design/project-design
+        file: 项目设计/项目设计
         sections:
           - 
-            title: Overview of Project Design
-            file: project-design/pd-overview
+            title: 项目设计概览
+            file: 项目设计/pd-概览
             sections:
               - 
-                title: Planning for Project Design
-                file: project-design/pd-overview/pd-overview-planning
+                title: 项目设计规划
+                file: 项目设计/pd-overview/pd-overview-planning
               - 
-                title: Communication and Collaboration
-                file: project-design/pd-overview/pd-overview-repro
+                title: 交流与合作
+                file: 项目设计/pd-overview.pd-overview.repro
               - 
-                title: Reproducibility Methods
-                file: project-design/pd-overview/pd-overview-methods
+                title: 复活方法
+                file: 2. 项目设计/pd-overview/pd-overview-methods
               - 
-                title: Version Control and Documentation
-                file: project-design/pd-overview/pd-overview-version
+                title: 版本控制和文档
+                file: 项目设计/pd-overview/pd-overview-version版本
               - 
-                title: Sharing Your Research Work
-                file: project-design/pd-overview/pd-overview-sharing
+                title: 分享您的研究工作
+                file: 项目设计/pd-overview/pd-overview.共享
           - 
-            title: Creating Project Repositories
-            file: project-design/project-repo
+            title: 创建项目仓库
+            file: 项目设计/项目repo
             sections:
               - 
-                title: Landing Page - README File
-                file: project-design/project-repo/project-repo-readme
+                title: 登陆页面-README 文件
+                file: 项目设计/项目仓库/项目仓库读取项目
               - 
-                title: Roadmapping
-                file: project-design/project-repo/project-repo-roadmapping
+                title: 路径管理
+                file: 项目设计/项目回波/项目回波-路线图映射
               - 
-                title: Contributors and Communication Pathways
-                file: project-design/project-repo/project-repo-contributors
+                title: 贡献者和通信路径
+                file: 项目设计/项目仓库/项目仓库捐助方
               - 
-                title: Participation Guidelines
-                file: project-design/project-repo/project-repo-participation
+                title: 参与准则
+                file: 项目设计/项目仓库/项目仓库参与情况
               - 
-                title: Advanced Structure for Data Analysis
-                file: project-design/project-repo/project-repo-advanced
+                title: 数据分析的高级结构
+                file: 项目设计/项目仓库/项目仓库高级版
               - 
-                title: Further Recommendations
-                file: project-design/project-repo/project-repo-resources
+                title: 进一步的建议
+                file: 项目设计/项目仓库/项目仓库资源
           - 
-            title: Personas and Pathways
-            file: project-design/persona
+            title: 人文和路径
+            file: 项目设计/人员
             sections:
               - 
-                title: Persona Creation Tool
-                file: project-design/persona/persona-creation
+                title: Persona 创建工具
+                file: 项目设计/个人/个人创建项目
               - 
-                title: Contributor Pathways
-                file: project-design/persona/persona-contributors
+                title: 贡献者路径
+                file: 项目设计/个人/个人贡献者
           - 
-            title: File Naming Convention
-            file: project-design/filenaming
+            title: 文件命名协议
+            file: 项目设计/文件名
           - 
-            title: Code Styling and Linting
-            file: project-design/code-styling
+            title: 代码样式和链接
+            file: 项目设计/代码样式
             sections:
               - 
-                title: Guidelines for Code Styling
-                file: project-design/code-styling/code-styling-guidelines
+                title: 代码样式的准则
+                file: 项目设计/代码搭配/代码搭配/代码搭配准则
               - 
-                title: Writing Human Readable Code
-                file: project-design/code-styling/code-styling-readability
+                title: 正在写入人类可读代码
+                file: 项目设计/代码搭配/代码搭配/代码搭配可读性
               - 
-                title: Code Styling Tools
-                file: project-design/code-styling/code-styling-tools
+                title: 代码样式工具
+                file: 项目设计/编码搭配/编码搭配工具
       - 
         #===== Guide for Communication ========================================
-        file: communication/communication
+        file: 通信/通信
         sections:
           - 
-            title: Overview of Guide for Communication
-            file: communication/comms-overview
+            title: 通信指南概览
+            file: 通信/逗号概述
             sections:
               - 
-                title: Principles of Communicating with Wider Audiences
-                file: communication/comms-overview/comms-overview-principles
+                title: 与更广泛的听众交流原则
+                file: 交流/通用概览/通用概述原则
               - 
-                title: Communicating Accessibly
-                file: communication/comms-overview/comms-overview-accessibly
+                title: 可访问的通信
+                file: 通信/逗号概览/逗号可访问
               - 
-                title: Resources and Recommendations
-                file: communication/comms-overview/comms-overview-resources
+                title: 资源和建议
+                file: 通信/通用概览/通用概览资源
           - 
-            title: Blogs for Research Communication
-            file: communication/blogs
+            title: 研究通讯博客
+            file: 通信/博客
             sections:
               - 
-                title: Building a Webpage for Blogs
-                file: communication/blogs/blogs-webpage
+                title: 为博客创建一个网页
+                file: 通信/博客/博客 网页
               - 
-                title: Personal stories - Blogs
-                file: communication/blogs/blogs-personal-stories
+                title: 个人故事 - 博客
+                file: 通信/博客/博客个人故事
           - 
-            title: Lay Summaries
-            file: communication/lay-summaries
+            title: 非色摘要
+            file: 信息通报/摘要
             sections:
               - 
-                title: Personal Stories - Lay summaries
-                file: communication/lay-summaries/lay-summaries-personal-stories
+                title: 个人故事 - 非表情摘要
+                file: 交流/传达/传达/传达/个人-故事
           - 
-            title: Podcasts for Research Communication
-            file: communication/podcasts
+            title: 用于研究通信的播客数
+            file: 信息通报/播客
             sections:
               - 
-                title: Personal Stories - Podcasts
-                file: communication/podcasts/podcasts-personal-stories
+                title: 个人故事 - 播客
+                file: 宣传/播出/播出/播出/个人故事
           - 
-            title: Presenting Posters and Conference Talks
-            file: communication/presentations
+            title: 展示海报和会议对话
+            file: 交流/发言
             sections:
               - 
-                title: Presenting at Remote Events
-                file: communication/presentations/presentations-remote
+                title: 在远程事件中提交
+                file: 通信/演示/演示-遥远区域
               - 
-                title: Personal Stories - Presentations
-                file: communication/presentations/presentations-personal-stories
+                title: 个人故事 - 发言
+                file: 传播/介绍/介绍/个人故事
           - 
-            title: Social Media for Research Communications
-            file: communication/social-media
+            title: Social Media for Research Communication
+            file: 传播/社交媒体
             sections:
               - 
-                title: Tips for starting with twitter
-                file: communication/social-media/social-media-twitter-tips
+                title: Twitter开头的提示
+                file: 传播/社交媒体/社交媒体双重提示
               - 
-                title: Managing multiple twitter accounts
-                file: communication/social-media/social-media-twitter-multiple
+                title: 管理多个Twitter账户
+                file: 信息通信/社会媒体/社交媒体双倍器
           - 
-            title: Making Research Objects Citable
-            file: communication/citable
+            title: 使研究对象变得易用
+            file: 通信/线性
             sections:
               - 
-                title: Steps for Making Research Objects Citable
-                file: communication/citable/citable-steps
+                title: 使研究对象可采性的步骤
+                file: 信息交流/可适用/可适用的步骤
               - 
-                title: Citing Research Objects
-                file: communication/citable/citable-cite
+                title: 引用研究对象
+                file: 来文/可引用/可引用的引文
               - 
-                title: Linking Research Objects
-                file: communication/citable/citable-linking
+                title: 关联研究对象
+                file: 信息交流/可引用/可引用的链接
               - 
-                title: ORCID to Collect your Research Objects
-                file: communication/citable/citable-orcid
+                title: 要收集您的研究对象的 ORCID
+                file: 信息交流/可援引/可援引的 orcid
               - 
-                title: Checklists and Resources
-                file: communication/citable/citable-resources
+                title: 清单和资源
+                file: 信息和通信技术/可抑制资源
           - 
-            title: Communications in Open Source Projects
-            file: communication/os-comms
+            title: 开放源码项目中的通信
+            file: 通信/秒
             sections:
               - 
-                title: Issue Tracking
-                file: communication/os-comms/os-comms-issue-tracking
+                title: 问题跟踪
+                file: 通信/os-comms/os-comms-issue-tracking
               - 
-                title: Communication Channels
-                file: communication/os-comms/os-comms-channels
+                title: 通信频道
+                file: 通信/os-comms/os-comms-channels
           - 
-            title: Authorship and Contributions on Academic Articles
-            file: communication/aa
+            title: 学术文章作者和贡献
+            file: 通信/aa
             sections:
               - 
-                title: Overview of Academic Authorship
-                file: communication/aa/overview
+                title: 学术作者概览
+                file: 宣传/aa/概述
               - 
-                title: Types of Authorship Misconduct
-                file: communication/aa/misconduct
+                title: 作者类型不当行为
+                file: 通信/aa/不当行为
               - 
-                title: Discipline Specific Authorship Traditions
-                file: communication/aa/traditions
+                title: 纪律特定作品的传统做法
+                file: 传播/传统间交流/传统间交流/传统间交流/传播/传播/传统间交流/传播/传播/传统间交流/传播/传播/传播/传播/传统间交流/传播/传播/传播/传播/传播/传统间交流/传播/传播/传播/传播/传播/传统间交流/传播/传播/传播/传播/传播/传播/传统间交流/传播/传播/传播/传播/传播/传播/传统间交流/传播/传播/传播/传播/传播/传播/传统间交流/传播/传播/传播/传播/传播/传播/传播/传播/传播/传播/传统间交流/传播/传播/传播/传播/传播/传播/传播/传播/传播/传播/传统/传播/传播/传播/传播/传播/传播/传播/传播/传播/传统/传播/传播/传播/传播/传播/传播/传播/传播/
               - 
-                title: Large and Equitable Authorships
-                file: communication/aa/equitable
+                title: 大型和公平的作者
+                file: 信息交流/aa/equality
               - 
-                title: Tips on How to Get Authorship Right
-                file: communication/aa/tips
+                title: 如何从右获取作者的提示
+                file: 通信/aa/提示
               - 
-                title: Personal Stories - Authorship on Interdisciplinary Projects
-                file: communication/aa/interdisciplinary-personal-stories
+                title: 个人故事 - 多学科项目作者
+                file: 宣传/aa/跨学科个人故事
               - 
-                title: Personal Stories - Large Collaborative Research Community
-                file: communication/aa/large-personal-stories
+                title: 个人故事——大型合作研究社区
+                file: 交流/aa/大型个人故事
               - 
-                title: Resources
-                file: communication/aa/resources
+                title: 资源
+                file: 通信/aa/resources
       - 
         #===== Guide for Collaboration ========================================
-        file: collaboration/collaboration
+        file: 协作/协作
         sections:
           - 
-            title: Getting Started With GitHub
-            file: collaboration/github-novice
+            title: 开始使用 GitHub
+            file: 协作/github-nover
             sections:
               - 
-                title: Motivation for Using GitHub
-                file: collaboration/github-novice/github-novice-motivation
+                title: 使用 GitHub 的动机。
+                file: 协作/github-novice/github-novic/github-novic动机。
               - 
-                title: First steps on Github
-                file: collaboration/github-novice/github-novice-firststeps
+                title: Github 最初步骤
+                file: 协作/github-novice/github-noviro 初步步骤
               - 
-                title: Using more Github features
-                file: collaboration/github-novice/github-novice-features
+                title: 使用更多Github 功能
+                file: 协作/github-novice/github-novior 功能
               - 
-                title: Advanced Github features
-                file: collaboration/github-novice/github-novice-advanced
+                title: 高级Github 功能
+                file: 协作/github-novice/github-novirer 高级版
           - 
-            title: Maintainers and Reviewers on GitHub
-            file: collaboration/maintain-review
+            title: GitHub 上的维护者和评论者
+            file: 协作/维护审查
             sections:
               - 
-                title: Project Maintenance
-                file: collaboration/maintain-review/maintain-review-maintenance
+                title: 项目维修
+                file: 协作/维护/审查/维护审查-维护
               - 
-                title: Ownership and Permissions
-                file: collaboration/maintain-review/maintain-review-permissions
+                title: 所有权和权限
+                file: 协作/维护审核/维护审核-权限
               - 
-                title: Reviewing Contributions
-                file: collaboration/maintain-review/maintain-review-review
+                title: 审查捐款
+                file: 协作/维护/审查/维护审查-审查
               - 
-                title: Merging Contributions
-                file: collaboration/maintain-review/maintain-review-merge
+                title: 合并捐款
+                file: 合作/维护/审核/维护-审核-合并
               - 
-                title: Resources
-                file: collaboration/maintain-review/maintain-review-resources
+                title: 资源
+                file: 协作/维护/审查/维护审查-资源
           - 
-            title: Managing a New Community and Team
-            file: collaboration/new-community
+            title: 管理新社区和团队
+            file: 协作/新社区
             sections:
               - 
-                title: Guide to Planning a Community
-                file: collaboration/new-community/new-community-guide
+                title: 社区规划指南
+                file: 合作/新社区/新社区指南
               - 
-                title: Addressing Technical Issues
-                file: collaboration/new-community/new-community-techissues
+                title: 解决技术问题
+                file: 合作/新社区/新社区技术问题
               - 
-                title: Valuing Diversity and Differences
-                file: collaboration/new-community/new-community-differences
+                title: 珍视多样性和差异
+                file: 协作/新社区/新社区差异
           - 
-            title: Leadership in Data Science
-            file: collaboration/leadership
+            title: 数据科学领导者
+            file: 协作/领导作用
             sections:
               - 
-                title: Personal Stories of Leadership
-                file: collaboration/leadership/leadership-stories
+                title: 领导才能的个人故事
+                file: 协作/领导能力/领导才能-故事
           - 
-            title: Remote Collaboration
-            file: collaboration/remote-collab
+            title: 远程协作
+            file: 协作/远程collabor
             sections:
               - 
-                title: Organising Remote Meetings
-                file: collaboration/remote-collab/remote-collab-meetings
+                title: 组织远程会议
+                file: 协作/远程collab/远程collab-meeting
               - 
-                title: Guidelines for Remote Collaboration
-                file: collaboration/remote-collab/remote-collab-guidelines
+                title: 远程协作准则
+                file: 协作/远程collab/远程collab-guidelines
               - 
-                title: Tools for Remote Collaboration
-                file: collaboration/remote-collab/remote-collab-tools
+                title: 远程协作工具
+                file: 协作/远程collab/遥控collab-tools
               - 
-                title: Organising Online Coworking Calls
-                file: collaboration/remote-collab/remote-collab-coworking
+                title: 组织在线合作电话
+                file: 协作/远程collab/遥控collab-coworking
               - 
-                title: Organising Remote Conferences
-                file: collaboration/remote-collab/remote-collab-conferences
+                title: 组织远程会议
+                file: 协作/远程collab/远程collab-conference
               - 
-                title: Chairing Remote Events
-                file: collaboration/remote-collab/remote-collab-chairs
+                title: 主持远程事件
+                file: 协作/远程collab/遥控collab-chair
               - 
-                title: Participating in Remote Events
-                file: collaboration/remote-collab/remote-collab-participation
+                title: 参与远程事件
+                file: 合作/远程collab/远程collab-participation
               - 
-                title: Managing Distributed Teams
-                file: collaboration/remote-collab/remote-collab-management
+                title: 管理分布式团队
+                file: 协作/远程collab/远程collab-management
               - 
-                title: Informal Coffee Chats
-                file: collaboration/remote-collab/remote-collab-informal
+                title: 非正式咖啡厅
+                file: 协作/远程collab/远程collab-informal
               - 
-                title: Perceived Pros and Cons
-                file: collaboration/remote-collab/remote-collab-prosandcons
+                title: 可感知的 Pros 和 Cons
+                file: 协作/遥控collab/遥控collab-1s
           - 
-            title: Shared Ownership in Open Source Projects
-            file: collaboration/shared-ownership
+            title: 在开源项目中共享所有权
+            file: 协作/共享所有权
             sections:
               - 
-                title: Project Ownership
-                file: collaboration/shared-ownership/shared-ownership-projects
+                title: 项目所有权
+                file: 合作/共享所有权/共享所有权项目
               - 
-                title: Shared Ownership Models
-                file: collaboration/shared-ownership/shared-ownership-models
+                title: 共享所有权模型
+                file: 合作/共享所有权/共享所有权模式
               - 
-                title: Challenges with Applying Ownership Models Retroactively
-                file: collaboration/shared-ownership/shared-ownership-challenges
+                title: 应用所有权模式的挑战
+                file: 协作/共享所有权/共享所有权-挑战
               - 
-                title: Nudging for a Better Default
-                file: collaboration/shared-ownership/shared-ownership-defaults
+                title: 正在寻求更好的默认
+                file: 协作/共享所有权/共享所有权-默认值
       - 
         #===== Guide for Ethical Research ========================================
-        file: ethical-research/ethical-research
+        file: 伦理研究/伦理研究
         sections:
           - 
-            title: Introduction to Research Ethics
-            file: ethical-research/ethics-intro
+            title: 研究伦理学简介
+            file: 伦理学研究/伦理学简介
           - 
-            title: Research Ethics Committees Workflows
-            file: ethical-research/ethics-committees
+            title: 研究道德操守委员会 工作流程
+            file: 道德研究/道德操守委员会
           - 
-            title: Ethical Decisions in Preclinical Research
-            file: ethical-research/preclinical-research
+            title: 临床研究中的伦理决定
+            file: 伦理研究/预诊研究
           - 
-            title: Law, Policy and Human Rights in Ethics
-            file: ethical-research/law-policy
+            title: 道德操守方面的法律、政策和人权
+            file: 道德研究/法律政策
             sections:
               - 
-                title: Ethics and law
-                file: ethical-research/law-policy/law-policy-ethics
+                title: 道德和法律
+                file: 伦理学研究/法律政策/法律政策
               - 
-                title: Human rights
-                file: ethical-research/law-policy/law-policy-rights
+                title: 人权
+                file: 伦理学研究/法律政策/法律政策权利
               - 
-                title: Further Recommendations
-                file: ethical-research/law-policy/law-policy-resources
+                title: 进一步的建议
+                file: 道德研究/法律政策/法律政策资源
           - 
-            title: Activism for Researchers
-            file: ethical-research/activism
+            title: 研究人员活动协会
+            file: 伦理学研究/活动
             sections:
               - 
                 title: Unionisation
-                file: ethical-research/activism/activism-unionisation
+                file: 伦理学研究/活动/联合行动
               - 
-                title: Whistleblowing
-                file: ethical-research/activism/activism-whistleblowing
+                title: 口哨通知
+                file: 职业道德研究/活动/举报活动
               - 
-                title: Case study - Robodebt
-                file: ethical-research/activism/activism-robodebt
+                title: 案例研究――机器人债务问题
+                file: 伦理研究/活动/活动-机器人债务
               - 
-                title: Case study - Google Workers
-                file: ethical-research/activism/activism-case-study-google.md
+                title: 案例研究 - Google Workers
+                file: 伦理研究/活动/活动-案例研究-google.md
           - 
-            title: Internal Policy Advocacy
-            file: ethical-research/internal-policy
+            title: 内部政策宣传
+            file: 伦理学研究/内部政策
       - 
         #===== Community Handbook ========================================
-        file: community-handbook/community-handbook
+        file: 社区手册/社区手册
         sections:
           - 
-            title: Code of Conduct
-            file: community-handbook/coc
+            title: 行为守则
+            file: 社区手册/coc
             sections:
               - 
-                title: Code of Conduct in Detail
-                file: community-handbook/coc/coc-details
+                title: 详细行为守则
+                file: 社区手册/coc/coc-details
               - 
-                title: Incident Reporting Guideline
-                file: community-handbook/coc/coc-reporting
+                title: 事故单报告准则
+                file: 社区手册/coc/coc-reporting
               - 
-                title: Enforcement Manual
-                file: community-handbook/coc/coc-enforcement
+                title: 执行手册
+                file: 社区手册/coc/coc-Coc-enforcement
               - 
-                title: Acnowledgements
-                file: community-handbook/coc/coc-acknowledgement
+                title: 已加密的物品
+                file: 社区手册/coc/coc-Coc-recognition
           - 
             title: Style Guide
-            file: community-handbook/style
+            file: 社区手册/样式
             sections:
               - 
-                title: Citing and Referencing External Resources
-                file: community-handbook/style/style-citing
+                title: 引用和参考外部资源
+                file: 社区手册/风格/风格引用
               - 
-                title: Cross-Referencing Sections and Chapters
-                file: community-handbook/style/style-crossref
+                title: 交叉参考章节和章节
+                file: 社区手册/风格/风格交叉面
               - 
-                title: Using Figures
-                file: community-handbook/style/style-figures
+                title: 使用数字
+                file: 社区手册/风格/风格图形
               - 
-                title: Glossary, Special Blocks and More Styling
-                file: community-handbook/style/style-more-styling
+                title: 词汇，特殊模块和更多样式
+                file: 社区手册/风格/风格风格样式
               - 
-                title: Custom Styling
-                file: community-handbook/style/style-custom-styling
+                title: 自定义样式
+                file: 社区手册/风格/风格自定义样式
           - 
-            title: Maintaining Consistency
-            file: community-handbook/consistency
+            title: 保持一致性
+            file: 社区手册/一致性
             sections:
               - 
-                title: Formatting
-                file: community-handbook/consistency/consistency-formatting
+                title: 格式化
+                file: 社区手册/一致性/一致性格式化
               - 
-                title: Structure
-                file: community-handbook/consistency/consistency-structure
+                title: 结构
+                file: 社区手册/统一/统一结构
               - 
-                title: Language
-                file: community-handbook/consistency/consistency-language
+                title: 语言
+                file: 社区手册/一致性/一致性语言
           - 
-            title: Contributing and Developing Chapters - Templates and Workflow
-            file: community-handbook/contributing
+            title: 贡献和发展章节――模板和工作流程
+            file: 社区手册/贡献
             sections:
               - 
-                title: Templates
-                file: community-handbook/contributing/contributing-templates
+                title: 模板
+                file: 社区手册/贡献/贡献模板
               - 
-                title: Workflow
-                file: community-handbook/contributing/contributing-workflow
+                title: 工作流
+                file: 社区手册/贡献/贡献-工作流程
           - 
-            title: Acknowledging Contributors
-            file: community-handbook/acknowledgement
+            title: 确认贡献者
+            file: 社区手册/确认
             sections:
               - 
-                title: Community Members and Shared Ownership
-                file: community-handbook/acknowledgement/acknowledgement-members
+                title: 社区成员和共享所有权
+                file: 社区手册/确认/确认成员
               - 
-                title: Record of Contributions
-                file: community-handbook/acknowledgement/acknowledgement-record
+                title: 缴款记录
+                file: 社区手册/确认/确认记录
               - 
-                title: Different Contributions and Acknowledgements
-                file: community-handbook/acknowledgement/acknowledgement-examples
+                title: 不同的贡献和致谢
+                file: 社区手册/确认/确认示例
           - 
-            title: Monthly Newsletters
-            file: community-handbook/newsletters
+            title: 每月通讯
+            file: 社区手册/简报
             sections:
               - 
-                title: A Process of Creating a newsletter
-                file: community-handbook/newsletters/newsletters-process
+                title: 创办通讯的进程
+                file: 社区手册/通讯/通讯进程
               - 
-                title: Newsletter's Style Guide
-                file: community-handbook/newsletters/newsletters-style
+                title: Newsletter的样式指南
+                file: 社区手册/新闻通讯/通讯样式
               - 
-                title: The Turing Way Newsletter Template
-                file: community-handbook/newsletters/newsletters-template
+                title: 引导路径通讯模板
+                file: 社区手册/新闻通讯/新闻通讯模板
           - 
-            title: Book Dash Events
-            file: community-handbook/bookdash
+            title: 预定破折号事件
+            file: 社区手册/书签
             sections:
               - 
-                title: Application and Review Process
-                file: community-handbook/bookdash/bookdash-application
+                title: 应用程序和审查进程
+                file: 社区手册/书签/书签-应用程序
               - 
-                title: Book Dash Logistics
-                file: community-handbook/bookdash/bookdash-logistics
+                title: 预订Dash Logistics
+                file: 社区手册/书签/书签-物流服务
               - 
-                title: Participant Selection Process
-                file: community-handbook/bookdash/bookdash-selection
+                title: 参与者选择进程
+                file: 社区手册/书签/书签-选择
               - 
-                title: Book Dash Main Event Plans
-                file: community-handbook/bookdash/bookdash-events
+                title: 预定Dash主事件计划
+                file: 社区手册/书签/书签-事件
               - 
-                title: After the Book Dash
-                file: community-handbook/bookdash/bookdash-after
+                title: 书籍破折后
+                file: 社区手册/bookdash/bookdash-后
           - 
-            title: Community Coworking Calls
+            title: 社区合作电话
             file: community-handbook/coworking
             sections:
               - 
-                title: Background, Motivations, and Techniques
-                file: community-handbook/coworking/coworking-motivation
+                title: 背景、动力和技术
+                file: 社区手册/合作/合作动机。
               - 
-                title: Online Collaboration Cafe
-                file: community-handbook/coworking/coworking-collabcafe
+                title: 在线协作咖啡厅
+                file: 社区手册/coworking-collabcafe
               - 
-                title: Weekly Coworking Calls
-                file: community-handbook/coworking/coworking-weekly
+                title: 每周合作电话
+                file: 社区手册/Coworking/coworking-weeks
               - 
-                title: Organising coworking calls
+                title: 组织同业电话
                 file: community-handbook/coworking/coworking-organisation
           - 
-            title: Template Collection
-            file: community-handbook/templates
+            title: 模板收藏
+            file: 社区手册/模板
             sections:
               - 
-                title: Book Dash Main Shared Document
-                file: community-handbook/templates/template-bookdash-index
+                title: Dash 主共享文档
+                file: 社区手册/模板/模板/模板书签-索引
               - 
-                title: Book Dash Pre-event Onboarding
-                file: community-handbook/templates/template-bookdash-precall
+                title: 预约破折号会前活动
+                file: 社区手册/模板/模板/模板-书签预览
               - 
-                title: Book Dash GitHub Session
-                file: community-handbook/templates/template-bookdash-github
+                title: Dash GitHub 会话
+                file: 社区手册/模板/模板/模板-bookdash-github
               - 
-                title: Book Dash Template for Shared Notes
-                file: community-handbook/templates/template-bookdash-notes
+                title: 共享笔记的书签模板
+                file: 社区手册/模板/模板/模板-书签注释
               - 
-                title: Book Dash Template for Feedback
-                file: community-handbook/templates/template-bookdash-feedback
+                title: 预订反馈Dash模板
+                file: 社区手册/模板/模板/模板-书签-反馈
               - 
-                title: Online Collaboration Cafe Templates
-                file: community-handbook/templates/template-coworking-collabcafe
+                title: 在线协作咖啡厅模板
+                file: 社区手册/模板/模板/模板coworking-collabcafe
               - 
-                title: Weekly Coworking Call Template
-                file: community-handbook/templates/template-coworking-weekly
+                title: 每周合作通话模板
+                file: 社区手册/模板/模板/每周模板 coworking-weeking
               - 
-                title: Template for Drafting Newsletters
-                file: community-handbook/templates/template-newsletter-draft
+                title: 撰写时事通讯模板
+                file: 社区手册/模板/模板通讯-草稿
       - 
         #===== Afterword ========================================
         file: afterword/afterword
         sections:
           - 
-            title: Legal Disclaimer
-            file: afterword/legal-disclaimer
+            title: 法律免责声明
+            file: 后 / 法律上的免责声明
           - 
             title: Glossary
             file: afterword/glossary
           - 
-            title: Bibliography
-            file: afterword/bibliography
+            title: 参考书目
+            file: 后缀/参考文献
           - 
-            title: Contributors Record
-            file: afterword/contributors-record
+            title: 贡献者记录
+            file: 事后/贡献者记录

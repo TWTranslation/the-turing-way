@@ -1,21 +1,21 @@
-(rr-testing-types-integrationtest)=
-# Integration Testing
+(rr-types-integrationtest)=
+# 集成测试
 
-Integration testing is a level of software testing where individual units are combined and tested as a group. While unit tests validate the functionality of code in isolation, integration tests ensure that components cooperate when interfacing with one another. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+集成测试是软件测试的一个层次，将各个单元合并并作为一个组进行测试。 虽然单元测试能够独立验证代码的功能，但集成测试能够确保组件在接口时相互合作。 这一测试水平的目的是揭示一体化单位之间相互作用中的缺陷。
 
-For example, maybe a unit that reads in some data is working and passes its unit tests, and the following unit that cleans up the data once it's been read in is also working and passes its tests. However say the first unit outputs the data as (time_data, temperature_data) but the function that cleans the data expects input of the form (temperature_data, time_data). This can obviously lead to bugs. While the units are correct there in an error in their integration.
+例如，也许一个在某些数据中读取的单位正在工作并通过其单位测试。 以下设备在读取后清理数据也在工作并通过测试。 然而，说第一个单位输出数据为 (time_data, temature_data)，但清除数据的函数需要输入表单(temature_data, time_data)。 这显然会导致漏洞。 虽然这些单位在合并时出现错误，但它们是正确的。
 
-An example of an integration test for this case could be to supply a test data file, use these functions to read it in and clean it, and check the resulting cleaned data against what would be expected. If a bug like this is present then the cleaned data outputted would be very unlikely to match the expected result, and an error would be raised.
+这种情况下的集成测试的一个例子可以是提供测试数据文件， 使用这些函数读取并清理它，对照预期的数据检查由此产生的净化数据。 如果出现这样的错误，那么经过清理的数据输出将很难与预期结果匹配。 而且会出现一个错误。
 
-Integration testing is particularly important in collaborative projects where different people work on different parts of the code. If two different people complete separate units and then need to integrate then integration issues are more likely as neither may understand the other's code. A famous example of this is a multi-million dollar satellite which [crashed](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter) because one piece of code outputted distance data in feet, while another assumed data in meters. This is another example of an integration issue.
+在不同的人从事守则不同部分工作的合作项目中，融合测试尤其重要。 如果两个不同的人完成了单独的单元，然后需要整合，那么整合问题就更可能，因为两者都无法理解对方的法典。 一个著名的例子是一颗价值数百万美元的卫星，它 [崩溃了](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter) ，因为一块代码输出在英尺中的远程数据。 另一个假设的数据以米计。 这是一体化问题的另一个例子。
 
-A sub-type of integration testing is system integration testing. This tests the integration of systems, packages and any interfaces to external organizations (such as Electronic Data Interchange, Internet). Depending on the nature of a project system integration testing may or may not be applicable.
+集成测试的一个子类型是系统集成测试。 这测试了各种系统、软件包和与外部组织的任何接口（如电子数据交换、因特网）的一体化。 视项目系统整合测试的性质而定，可能适用也可能不适用。
 
-## Integration Testing Approaches
+## 集成测试方法
 
-There are several different approaches to integration testing. Big Bang is an approach to integration testing where all or most of the units are combined together and tested at one go. This approach is taken when the testing team receives the entire software in a bundle. So what is the difference between Big Bang integration testing and system testing? Well, the former tests only the interactions between the units while the latter tests the entire system.
+有几种不同的融合测试方法。 “大银行”是一种一体化测试办法，即所有或大部分单位合并在一起，然后进行测试。 测试队收到整个软件包时采取这种做法。 那么，大银行一体化测试与系统测试之间有什么区别？ 前者只检验各单位之间的相互作用，而后者检验整个系统。
 
-Top Down is an approach to integration testing where top-level sections of the code (that themselves contain many smaller units) are tested first and lower level units are tested step by step after that. So is a code can be split into the main steps A, B, and C, and each of those contain steps to complete them, and these steps may have substeps like:
+上下是一种集成测试方法，即首先测试代码的顶级部分（本身含有许多较小的单位），然后一步一步测试较低级单位。 因此，代码可以分成A、B和C三个主要步骤。 每个步骤都包含完成步骤的步骤，这些步骤可能有子步骤如：
 
 - A
 - A.1
@@ -38,16 +38,16 @@ Top Down is an approach to integration testing where top-level sections of the c
   - C.2.1
   - C.2.2
 
-So in the top down approach the integration between sections at the top level (A, B and C) are tested, then integration between sections at the next level (for example, A.1 -> A.2) and so on. Testing upper level units by running all the code they contain including running lower level ones can lead to upper level tests breaking due to bugs in low level units. This is undesirable, so to prevent this the lower level sections should not be run, but [test stubs](#Use_test_doubles_stubs_mocking_where_appropriate) should be used to simulate the outputs from them.
+因此，在从上到下的办法中，最高一级各部分之间的整合(A) 对B和C节进行了测试，然后将下一级的各科合并起来（例如，A节）。 -> A.2，等等。 通过运行它们所包含的所有代码，包括运行较低级别的代码来测试较高级别的单位可以导致较高级别的测试因为低级别单位中的 bug 而中断。 这种做法是不可取的，因此为了防止这种情况下下级部门不应运作。 但 [测试根](#Use_test_doubles_stubs_mocking_where_appropriate) 应该用于模拟输出结果。
 
-Bottom Up is an approach to integration testing where integration between bottom level sections are tested first and upper-level sections step by step after that. Again test stubs should be used, in this case to simulate inputs from higher level sections.
+底层是一种一体化测试方法，即首先测试底层部分之间的融合，然后一步一步一步地测试上层部分。 在这种情况下，应再次使用试验根块来模拟较高级别部分的投入。
 
-Sandwich/Hybrid is an approach to integration testing which is a combination of Top Down and Bottom Up approaches.
+Sandwich/Mixed 是一种结合测试的方法，即从上到下的方法。
 
-Which approach you should use will depend on which best suits the nature/structure of your project.
+您应该使用哪种方法将取决于哪种方法最适合您的项目的性质/结构。
 
-## Integration Testing Tips
+## 集成测试提示
 
-- Ensure that you have a proper Detail Design document where interactions between each unit are clearly defined. It is difficult or impossible to perform integration testing without this information.
-- Make sure that each unit is unit tested and fix any bugs before you start integration testing. If there is a bug in the individual units then the integration tests will almost certainly fail even if there is no error in how they are integrated.
-- Use mocking/stubs where appropriate.
+- 确保你有一个适当的详细设计文档，明确定义每个单元之间的交互。 没有这种信息，很难或不可能进行整合测试。
+- 请确保每个单元都经过测试，并在开始整合测试之前修复任何bug。 如果个别单位存在错误，那么整合测试几乎肯定会失败，即使它们如何整合没有错误。
+- 在适当的地方使用模型/块。

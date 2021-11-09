@@ -1,16 +1,16 @@
-(ch-template-bookdash-feedback)=
-# HackMD template for feedback
+(ch-template-bookdash-feedback )=
+# قالب HackMD للحصول على تعليقات
 
-*This template can be used for anonymous feedback by the participants on HackMD at the end of the book dash events. The access permission can be set so that the notes can be read by everyone and edited by anyone.*
+*يمكن استخدام هذا القالب للحصول على تعليقات مجهولة من المشاركين على HackMD في نهاية أحداث دش الكتاب. يمكن تعيين إذن الوصول بحيث يمكن قراءة الملاحظات من قبل الجميع وتحريرها من قبل أي شخص.*
 
 ```
 
-# Turing Way Book <Month Year>: Pluses and Deltas - <Location>
+# توصيل كتاب طرق <Month Year>: البلاط والدلاس - <Location>
 
-:heavy_plus_sign:Pluses
+➕Pluses
 ---
 
-Please add something you liked about the Book Dash. We might use these to advertise the Turing Way project and in impact reports for our funders. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
+الرجاء إضافة شيء تحب حول لوحة الكتاب. قد نستخدم هذه للإعلان عن مشروع طريق تورينج وفي تقارير التأثير لممولينا إذا كنت لا تريد إضافة تعليقك إلى مستودع GitHub (وبالتالي أن تكون علناً) الرجاء إضافة 🤫 في بداية الخط.
 
 -
 -
@@ -18,7 +18,7 @@ Please add something you liked about the Book Dash. We might use these to advert
 :arrow_up_small:Deltas
 ---
 
-Please add something that you would change about the Book Dash. We've never run one before and so all of your comments will be really valuable. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
+الرجاء إضافة شيء يمكنك تغييره حول كتاب Dash. لم نقم أبدا بتشغيل واحدة من قبل، وبالتالي فإن جميع تعليقاتك ستكون قيمة حقا. إذا كنت لا تريد إضافة تعليقك إلى مستودع GitHub (وبالتالي أن تكون علناً) الرجاء إضافة 🤫 في بداية الخط.
 
 -
 -

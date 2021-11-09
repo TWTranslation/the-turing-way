@@ -1,21 +1,21 @@
-(ch-consistency)=
-# Maintaining Consistency
+(ch-consistencia)=
+# Mantener Consistencia
 
-_The Turing Way_ is an open-source project that empowers contributors around the world to leverage their skills, knowledge, and expertise to build and expand its content. _The Turing Way_ guides are continually evolving, with multiple chapters co-developed by individuals from varied backgrounds - who are all passionate about sharing knowledge around data science and research. To sustain and support this vibrant community, _The Turing Way_ book should remain consistent and accessible as it evolves. The {ref}`ch-style` chapter already provides guidelines for maintaining a consistent style across the book. However, not all chapters follow these suggestions since they're often written asynchronously by different authors. Reviewing consistency across _The Turing Way_ alone is reasonably challenging. This points towards a need to encourage and support our contributors to maintain consistency throughout the chapters in _The Turing Way_ guides. Therefore, this chapter will outline a step-by-step consistency checklist that will guide our contributors. Each step will emphasize a consistency check to look out for as they design and develop chapters in _The Turing Way_ or bring consistency to existing chapters.
+_The Turing Way_ es un proyecto de código abierto que permite a los colaboradores de todo el mundo aprovechar sus habilidades, conocimiento y experiencia para construir y expandir su contenido. _La Vía Turística_ está evolucionando continuamente, con múltiples capítulos co-desarrollados por individuos de diferentes orígenes - que son todos pasionados por compartir el conocimiento en torno a la ciencia de datos y la investigación. Para sustentar y apoyar a esta vibrante comunidad, _The Turing Way_ libro debe seguir siendo consistente y accesible a medida que evoluciona. The {ref}`ch-style` chapter already provides guidelines for maintaining a consistent style across the book. Sin embargo, no todos los capítulos siguen estas sugerencias, ya que a menudo están escritos de manera asíncrona por diferentes autores. Revisar la consistencia a través de _The Turing Way_ por sí solo es razonablemente desafiante. Esto apunta hacia la necesidad de alentar y apoyar a nuestros colaboradores para mantener la consistencia a lo largo de los capítulos en las guías de _The Turing Way_. Por lo tanto, este capítulo describirá una lista de verificación paso a paso de consistencia que guiará a nuestros colaboradores. Cada paso enfatizará una verificación de consistencia para buscar mientras diseñan y desarrollan capítulos en _La Vía de Turno_ o proporcionan consistencia a los capítulos existentes.
 
-(ch-consistency-requirements)=
-## Hard vs Soft Requirements
+(ch-requisitos-consistencia)=
+## Requisitos difíciles vs blandos
 
-Items in the consistency checklist are categorised into hard and soft requirements. Hard requirements are essential consistency checks that a chapter must pass so that _The Turing Way_ builds without errors. Moreover, they make the chapter readable and accessible to everyone.
+Los elementos de la lista de verificación de consistencia se clasifican en requisitos estrictos y suaves. Los requisitos duros son consistencia esencial verifica que un capítulo debe pasar para que _la Vía Turística_ se construya sin errores. Además, hacen que el capítulo sea legible y accesible para todos.
 
-Soft requirements, on the other hand, are nice-to-have consistency checks that a chapter should pass. These checks greatly enhance the overall look and feel of the book, but can be safely ignored if they cannot be integrated into your contribution. You can always return to review your past contributions and enhance their content.
+Por otra parte, los requisitos blandos son controles de consistencia agradables que debe pasar un capítulo. Estas comprobaciones mejoran en gran medida la apariencia general del libro, pero pueden ignorarse de forma segura si no pueden integrarse en su contribución. Siempre puedes volver a revisar tus contribuciones pasadas y mejorar su contenido.
 
-An overview of these requirements is itemised {ref}`below <ch-consistency-requirements-checklist>`. For easy description, these consistency checks are classified by format, structure, and language. The subchapters explain these in more detail and describe how they can be achieved.
+Una visión general de estos requisitos está detallada {ref}`debajo <ch-consistency-requirements-checklist>`. Para una descripción sencilla, estas comprobaciones de consistencia se clasifican por formato, estructura y idioma. Los subcapítulos los explican con más detalle y describen cómo se pueden lograr.
 
 ```{important} Please note that these requirements are not exhaustive or definitive, and neither are their classifications rigid.
-Moreover, no items are inherently more important than the other.
+Además, ningún elemento es inherentemente más importante que el otro.
 
-If you identify more consistency issues that need to be addressed, join the conversation [here](https://github.com/alan-turing-institute/the-turing-way/issues/1174).
+Si identificas más consistencia problemas que necesitan ser abordados, únete a la conversación [here](https://github.com/alan-turing-institute/the-turing-way/issues/1174).
 
 ```
 
@@ -23,44 +23,44 @@ If you identify more consistency issues that need to be addressed, join the conv
 ---
 height: 400px
 name: theturingway-consistency
-alt: This illustration shows a staircase indicating pathway to maintain consistency that has three pillars - formatting, structure and language. One person is guiding two new contributors up the staires.
+alt: Esta ilustración muestra una escalera indicando camino para mantener consistencia que tiene tres pilares - formateo, estructura e idioma. Una persona está guiando a dos nuevos colaboradores para arriba de los estadios.
 ---
-Pathway to maintaining consistency. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Ruta al mantenimiento de la consistencia. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(ch-consistency-requirements-checklist)=
-### Consistency Checklist
+(ch-consistencia-requisitos-lista)=
+### Lista de Consistencia
 
-#### Formatting
+#### Formateando
 
-| REQUIREMENT | CHECK                                                                                                                                                                            |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hard        | Use Markdown for creating your content (see this [WordPress cheatsheet](https://wordpress.com/support/markdown-quick-reference/)).                                               |
-| Hard        | Use the headers in sequential order. For example, starting the top level with h1 tag `#`, second-level header with h2 tag `##` and so on.                                        |
-| Hard        | Add labels to chapters, subchapters and images to enable cross-referencing as described in the {ref}`style guide<ch-style-crossref>`                                       |
-| Hard        | Use `MyST` for image formatting as described in the {ref}`style guide<ch-style-figures>` | Use public domain images that are less than 1MB in size and cite appropriately. |
-| Soft        | Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`                                                                 |
-| Soft        | Ensure proper title-casing for headers | Capitalise the first, last and 'important' words of every title; for example, 'Snow White and the Seven Dwarves'.                       |
-
-
-#### Structure
-
-| REQUIREMENT | CHECK                                                                                                                                                                            |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hard        | Ensure chapters follow a structure as described in the new [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) |
-| Hard        | Do not add a 'table of contents' in chapters or subchapters as it is auto-generated by the Jupyter Book                                                                          |
-| Hard        | Ensure external sources are properly referenced and included in the centralised BibTeX file as recommended in the {ref}`style guide<ch-style-citing>`                      |
-| Hard        | Do not add any empty files in the `_toc.yml`, instead create an issue for new chapters                                                                                           |
-| Soft        | Ensure each chapter has a good summary on its landing page along with links to its subchapters.                                                                                  |
-| Soft        | Split long chapters into smaller subchapters so they are modular.                                                                                                                |
+| REQUISITO | CHECK                                                                                                                                                                                                            |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duro      | Usa Markdown para crear tu contenido (consulta esta [hoja de trucos de WordPress](https://wordpress.com/support/markdown-quick-reference/)).                                                                     |
+| Duro      | Utilice las cabeceras en orden secuencial. Por ejemplo, comenzar el nivel superior con etiqueta h1 `#`, encabezado de segundo nivel con etiqueta h2 `##` y así sucesivamente.                                    |
+| Duro      | Añadir etiquetas a capítulos, subcapítulos e imágenes para habilitar referencias cruzadas como se describe en la guía de estilo {ref}`<ch-style-crossref>`                                                 |
+| Duro      | Utilice `MyST` para el formato de imagen como se describe en la guía de estilo {ref}`<ch-style-figures>` | Utilice imágenes de dominio público que sean inferiores a 1 MB de tamaño y cite apropiadamente. |
+| Suave     | Asegúrese de que los nombres de los capítulos/subcapítulos son cortos y mapean exactamente cómo están titulados en el `_toc.yml`                                                                                 |
+| Suave     | Asegurar que los títulos sean adecuados para las cabeceras | Capitalizar las primeras, últimas y 'importantes' palabras de cada título; por ejemplo, 'Snow White y los Siete Enanos.                             |
 
 
-#### Language
+#### Estructura
 
-| REQUIREMENT | CHECK                                                                                                                       |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Hard        | Ensure chapters do not use any Latin abbreviation as discussed in the {ref}`style guide<ch-style>`                    |
-| Hard        | Ensure correct grammar and a consistent tone across the book with the help of 1-2 reviewers                                 |
-| Hard        | Ensure chapters use a consistent language, for example, if you choose to write in British English, maintain that throughout |
+| REQUISITO | CHECK                                                                                                                                                                                                       |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duro      | Asegúrate de que los capítulos sigan una estructura como se describe en la nueva [plantilla de capítulo](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) |
+| Duro      | No añadas una 'tabla de contenidos' en los capítulos o subcapítulos ya que es autogenerado por el Libro de Jupyter                                                                                          |
+| Duro      | Ensure external sources are properly referenced and included in the centralised BibTeX file as recommended in the {ref}`style guide<ch-style-citing>`                                                 |
+| Duro      | No añada ningún archivo vacío en el `_toc.yml`, en su lugar cree un problema para los nuevos capítulos                                                                                                      |
+| Suave     | Asegúrate de que cada capítulo tenga un buen resumen en su página de destino junto con enlaces a sus subcapítulos.                                                                                          |
+| Suave     | Divida los capítulos largos en subcapítulos más pequeños, por lo que son modulares.                                                                                                                         |
 
-These checks are further explained in the {ref}`Formatting<ch-consistency-formatting>`, {ref}`Structure<ch-consistency-structure>`, and {ref}`Language<ch-consistency-language>` subchapters.
+
+#### Idioma
+
+| REQUISITO | CHECK                                                                                                                                             |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duro      | Asegúrese de que los capítulos no utilicen ninguna abreviación latina como se describe en la guía de estilo {ref}`<ch-style>`               |
+| Duro      | Asegurar la gramática correcta y un tono consistente en todo el libro con la ayuda de 1-2 revisores                                               |
+| Duro      | Asegúrate de que los capítulos utilicen un idioma consistente, por ejemplo, si eliges escribir en inglés británico, mantenerlo a lo largo de todo |
+
+Estas verificaciones se explican más en el formato {ref}`<ch-consistency-formatting>`, {ref}`Estructura<ch-consistency-structure>`y {ref}`Idioma<ch-consistency-language>` subcapítulos.

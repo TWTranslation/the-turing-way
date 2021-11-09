@@ -1,39 +1,39 @@
 (rr-testing-challenges)=
-# Challenges and exceptional cases in testing
+# Desafíos y casos excepcionales en pruebas
 
 (rr-testing-challenges-stochastic-code)=
-## Testing stochastic code
+## Probando código estocástico
 
-Sometimes code contains an element of randomness, a common example being code that makes use of [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method). Testing this kind of code can be very difficult because if it is run multiple times it will generate different answers, all of which may be "right", even is it contains no bugs. There are two main ways to tackle testing stochastic code:
+A veces el código contiene un elemento de aleatoria, un ejemplo común es el código que hace uso de [métodos de Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method). Probar este tipo de código puede ser muy difícil porque si se ejecuta varias veces generará diferentes respuestas, Todo lo cual puede ser "correcto", incluso es que no contiene errores. Hay dos formas principales de abordar el código estocástico de prueba:
 
-### Use random number seeds
+### Usar semillas de números aleatorios
 
-Random number seeds are a little difficult to explain so here's an example. Here's a little Python script that prints three random numbers.
+El número aleatorio de semillas son un poco difíciles de explicar, así que aquí hay un ejemplo. Aquí hay un pequeño script Python que imprime tres números aleatorios.
 
     ```
-    import random
+    importar al azar
 
-    # Print three random numbers
+    # Imprime tres números aleatorios
     print(random.random())
     print(random.random())
     print(random.random())
     ```
 
-This script has no bugs but if you run it repeatedly you will get different answers each time. Now let's set a random number seed.
+Este script no tiene fallos, pero si lo ejecuta repetidamente recibirá respuestas diferentes cada vez. Ahora vamos a establecer una semilla de número aleatorio.
 
     ```
-    import random
+    importar al azar
 
-    # Set a random number seed
+    # Establecer una semilla de números aleatoria
     random.seed(1)
 
-    # Print three random numbers
+    # Imprimir tres números aleatorios
     print(random.random())
     print(random.random())
     print(random.random())
     ```
 
-Now if you run this script it outputs
+Ahora si ejecuta este script saldrá
 
     ```
     0.134364244112
@@ -41,86 +41,86 @@ Now if you run this script it outputs
     0.763774618977
     ```
 
-and every time you run this script you will get the *same* output, it will print the *same* three random numbers. If the random number seed is changed you will get a different three random numbers:
+y cada vez que ejecutes este script obtendrás la *misma* salida, imprimirá *los mismos* tres números aleatorios. Si se cambia la semilla de números aleatorios obtendrás tres números aleatorios diferentes:
 
     ```
     0.956034271889
     0.947827487059
     0.0565513677268
     ```
-but again you will get those same numbers every time the script is run in the future.
+pero de nuevo obtendrá esos mismos números cada vez que el script se ejecute en el futuro.
 
-Random number seeds are a way of making things reliably random. However a risk with tests that depend on random number seeds is they can be brittle. Say you have a function structured something like this:
+Las semillas de números aleatorios son una forma de hacer las cosas de manera fiable al azar. Sin embargo, un riesgo con pruebas que dependen de las semillas de números aleatorios puede ser alto. Digamos que tienes una función estructurada algo como esto:
 
     ```
     def my_function()
 
-      a = calculation_that_uses_two_random_numbers()
+      a = cálculo_that_uses_two_random_numbers()
 
-      b = calculation_that_uses_five_random_numbers()
+      b = cálculo_that_uses_cinve_random_numbers()
 
       c = a + b
     ```
 
-If you set the random number seed you will always get the same value of `c`, so it can be tested. But, say the model is changed and the function that calculates `a` uses a different number of random numbers that it did previously. Now not only will `a` be different but `b` will be too, because as shown above the random numbers outputted given a random number seed are in a fixed order. As a result the random numbers produced to calculate `b` will have changed. This can lead to tests failing when there is in fact no bug.
+Si estableces la semilla de números aleatoria siempre obtendrás el mismo valor de `c`, para que se pueda probar. Pero, digamos que el modelo se cambia y la función que calcula `un` utiliza un número diferente de números aleatorios que hizo anteriormente. Ahora no sólo será `un` diferente sino `b` también porque como se muestra por encima de los números aleatorios mostrados dado una semilla de número aleatorio están en un orden fijo. Como resultado, los números aleatorios producidos para calcular `b` habrán cambiado. Esto puede llevar a que las pruebas fallen cuando de hecho no hay error.
 
-#### Measure the distribution of results
+#### Medir la distribución de resultados
 
-Another way to test code with a random output is to run it many times and test the distribution of the results. Perhaps the result may fluctuate a little, but is always expected around 10 within some tolerance. That can be tested. The more times the code is run the more reliable the average and so the result. However the more times you run a piece of code the longer it will take your tests to run, which may make tests prohibitively time-consuming to conduct if a reliable result is to be obtained. Furthermore, there will always be an element of uncertainty and if the random numbers happen to fall in a certain way you may get result outside of the expected tolerance even if the code is correct.
+Otra forma de probar código con una salida aleatoria es ejecutarlo muchas veces y probar la distribución de los resultados. Tal vez el resultado pueda fluctuar un poco, pero siempre se espera alrededor de 10 dentro de cierta tolerancia. Esto se puede poner a prueba. Cuantas más veces se ejecute el código, más confiable será el promedio y así el resultado. Sin embargo, cuantas más veces corres un pedazo de código más tardará tus pruebas en ejecutarse, que pueden llevar a cabo pruebas que consuman mucho tiempo si se quiere obtener un resultado fiable. Además, siempre habrá un elemento de incertidumbre y si los números aleatorios caen de una manera determinada se puede obtener resultados fuera de la tolerancia esperada incluso si el código es correcto.
 
-Both of these approaches to testing stochastic code can still be very useful, but it is important to also be aware of their potential pitfalls.
+Ambos enfoques para probar código estocástico todavía pueden ser muy útiles, pero también es importante ser conscientes de sus posibles caídas.
 
-(rr-testing-challenges-difficult-quatify)=
-## Tests that are difficult to quantify
+(rr-testing-challenges-difícil-quatify)=
+## Pruebas difíciles de cuantificar
 
-Sometimes (particularly in research) the outputs of code are tested according to whether they "look" right. For example say we have a code modelling the water levels in a reservoir over time.
+A veces (particularmente en investigación) las salidas de código se prueban de acuerdo a si "miran" bien. Por ejemplo, digamos que tenemos un código que modele los niveles de agua en un depósito con el paso del tiempo.
 
-The result may look like this:
+El resultado puede verse así:
 
 ```{figure} ../../figures/eyeball-test1.jpg
 ---
-name: eyeball-test1
+nombre: eyeball-test1
 alt:
 ---
 ```
 
-On a day with rain it might look like this:
+En un día con lluvia, podría verse así:
 
 ```{figure} ../../figures/eyeball-test2.jpg
 ---
-name: eyeball-test2
+nombre: eyeball-test2
 alt:
 ---
 ```
 
-and on a dry day it might look like this:
+y en un día seco podría verse así:
 
 ```{figure} ../../figures/eyeball-test3.jpg
 ---
-name: eyeball-test3
+nombre: eyeball-test3
 alt:
 ---
 ```
 
-All of these outputs look very different but are valid. However, if a researcher sees a result like this:
+Todas estas salidas son muy diferentes, pero son válidas. Sin embargo, si un investigador ve un resultado así:
 
 ```{figure} ../../figures/eyeball-test-error.jpg
 ---
-name: eyeball-test-error
+nombre: eyeball-test-error
 alt:
 ---
 ```
 
-they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. "Eyeballing" tests like these are time consuming as they must be done by a human. However the process can be partially or fully automated by creating basic "sanity checks". For example the water level at one time should be within, say, 10% of the water level at the previous time step. Another check could be that there are no negative values, as a lake can't be -30% full. These sort of tests can't cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.
+que fácilmente podrían concluir que hay un fallo ya que un lago es poco probable triplicar su volumen y luego perderlo de nuevo en el espacio de unas pocas horas. Las pruebas "Eyeballing" como estas consumen mucho tiempo, ya que deben ser realizadas por un ser humano. Sin embargo, el proceso puede ser parcial o completamente automatizado, creando "comprobaciones de sanidad" básicas. Por ejemplo, el nivel de agua en un momento debería estar dentro de, digamos, el 10% del nivel de agua en el paso anterior del tiempo. Otra comprobación podría ser que no hay valores negativos, ya que un lago no puede estar -30% lleno. Este tipo de pruebas no pueden cubrir de todas formas algo puede estar visiblemente mal, pero son mucho más fáciles de automatizar y sufrirán en la mayoría de los casos.
 
 (rr-testing-challenges-non-integer)=
-## Testing if non-integer numbers are equal
+## Probando si los números no enteros son iguales
 
-### When 0.1 + 0.2 does not equal 0.3
+### Cuando 0.1 + 0.2 no es igual a 0.3
 
-There is a complication with testing if the answer a piece of code outputs is equal to the expected answer when the numbers are not integers. Let's look at this Python example, but note that this problem is not unique to Python.
+Hay una complicación con probar si la respuesta es igual a la respuesta esperada cuando los números no son enteros. Veamos este ejemplo de Python, pero ten en cuenta que este problema no es exclusivo de Python.
 
-If we assign 0.1 to `a` and 0.2 to `b` and print their sum, we get 0.3, as expected.
+Si asignamos 0.1 a `a` y 0.2 a `b` e imprimimos su suma, obtenemos 0.3, como se esperaba.
 
     ```
     >>> a = 0.1
@@ -129,27 +129,27 @@ If we assign 0.1 to `a` and 0.2 to `b` and print their sum, we get 0.3, as expec
     0.3
     ```
 
-If, however, we compare the result of `a` plus `b` to 0.3 we get False.
+Sin embargo, si comparamos el resultado de `a` más `b` a 0.3 obtenemos False.
 
     ```
     >>> print(a + b == 0.3)
     False
     ```
 
-If we show the value of `a` plus `b` directly, we can see there is a subtle margin of error.
+Si mostramos el valor de `a` más `b` directamente, podemos ver que hay un margen sutil de error.
 
     ```
     >>> a + b
-    0.30000000000000004
+    0.3000000000000000004
     ```
 
-This is because floating point numbers are approximations of real numbers. The result of floating point calculations can depend upon the compiler or interpreter, processor or system architecture and number of CPUs or processes being used. Obviously this can present a major obstacle for writing tests.
+Esto se debe a que los números de punto flotante son aproximaciones de números reales. El resultado de cálculos de punto flotante puede depender del compilador o intérprete, de la arquitectura del procesador o del sistema y del número de CPUs o procesos. Obviamente, esto puede representar un obstáculo importante para la escritura de pruebas.
 
-### Equality in a floating point world
+### Igualdad en un mundo de punto flotante
 
-When comparing floating point numbers for equality, we have to compare to within a given tolerance, alternatively termed a threshold or delta. For example, we might consider the calculated and expected values of some number to be equal if the absolute value of their difference is within the absolute value of our tolerance.
+Al comparar los números de punto flotante para la igualdad, tenemos que compararlos dentro de una tolerancia determinada, llamando alternativamente umbral o delta. Por ejemplo, podríamos considerar que los valores calculados y esperados de algún número son iguales si el valor absoluto de su diferencia está dentro del valor absoluto de nuestra tolerancia.
 
-Many testing frameworks provide functions for comparing equality of floating point numbers to within a given tolerance. For example for the framework pytest:
+Muchos marcos de pruebas proporcionan funciones para comparar la igualdad de números de punto flotante con una tolerancia determinada. Por ejemplo, para el pytest del marco:
 
     ```
     import pytest
@@ -160,15 +160,15 @@ Many testing frameworks provide functions for comparing equality of floating poi
     assert c == pytest.approx(0.3)
     ```
 
-this passes, but if the 0.3 was changed to 0.4 it would fail.
+, pero si el 0.3 se cambiara a 0.4 fallaría.
 
-Unit test frameworks for other languages also often provide similar functions:
+Los frameworks de prueba unitaria para otros idiomas también suelen proporcionar funciones similares:
 
-- Cunit for C: CU_ASSERT_DOUBLE_EQUAL(actual, expected, granularity)
-- CPPUnit for C++: CPPUNIT_ASSERT_DOUBLES_EQUAL(expected, actual, delta)
-- googletest for C++: ASSERT_NEAR(val1, val2, abs_error)
-- FRUIT for Fortran: subroutine assert_eq_double_in_range_(var1, var2, delta, message)
-- JUnit for Java: org.junit.Assert.assertEquals(double expected, double actual, double delta)
-- testthat for R:
-  - expect_equal(actual, expected, tolerance=DELTA) - absolute error within DELTA
-  - expect_equal(actual, expected, scale=expected, tolerance=DELTA) - relative error within DE L T A
+- Unidad para C: CU_ASSERT_DOUBLE_EQUAL(actual, esperado, granularidad)
+- CPPUnit para C++: CPPUNIT_ASSERT_DOUBLES_EQUAL(esperado, real, delta)
+- googletest para C++: ASSERT_NEAR(val1, val2, deletre)
+- FRUIT para Fortran: subroutina assert_eq_double_in_range_(var1, var2, delta, mensaje)
+- JUnit para Java: org.junit.Assert.assertEquals(doble esperado, doble actual, doble delta)
+- prueba para R:
+  - expect_equal(real, esperado, tolerancia=DELTA) - error absoluto dentro de DELTA
+  - expect_equal(real, esperado, escala=esperado, tolerancia=DELTA) - error relativo dentro de DE L T A

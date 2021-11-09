@@ -1,73 +1,73 @@
 (rr-open)=
-# Open Research
+# 打开研究
 
-(rr-open-prerequisites)=
-## Prerequisites
+(rr-open-requirements)=
+## 必备条件
 
-| Prerequisite  | Importance | Notes                                         |
-| ------------- | ---------- | --------------------------------------------- |
-| {ref}`rr-vcs` | Helpful    | Experience with GitHub is particularly useful |
+| 前提条件：         | 重要性 | 注               |
+| ------------- | --- | --------------- |
+| {ref}`rr-vcs` | 有帮助 | GitHub 的经验特别有用。 |
 
 
 ```{figure} ../figures/evolution-open-research.jpg
+----
+名称：进化-开放研究
+备选案文：这个图像显示了一个研究人员在他们的研究实践中向开放研究时代发展。
 ---
-name: evolution-open-research
-alt: This image shows a researcher evolving their research practices to move towards the era of open research.
----
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
 (rr-open-summary)=
 ## Summary
 
-Open research aims to transform research by making it more reproducible, transparent, reusable, collaborative, accountable, and accessible to society. It pushes for change in the way that research is carried out and disseminated by digital tools. One definition of open research, [as given by the Organisation for Economic Co-operation and Development (OECD)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25"), is the practice of making "the primary outputs of publicly funded research results – publications and the research data – publicly accessible in a digital format with no or minimal restriction." To achieve this openness in research, each element of the research process should:
+开放式研究旨在通过使研究更易复制、透明、可重复使用、协作、负责任和向社会开放来改变研究工作。 它推动改变以数字工具开展和传播研究的方式。 一个开放式研究的定义， [是经济合作与发展组织(经合组织)提供的](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25")， 这是一种做法，即“由政府资助的研究成果的主要产出——出版物和研究数据——以数字格式向公众开放，无限制或限制最少。” 为了在研究中实现这种公开性，研究过程的每一个要素应：
 
-- _Be publicly available_: It is difficult to use and benefit from knowledge hidden behind barriers such as passwords and paywalls.
-- _Be reusable_: Research outputs need to be licensed appropriately, so that prospective users know any limitations on re-use.
-- _Be transparent_: With appropriate metadata to provide clear statements of how research output was produced and what it contains.
+- _公开的_: 很难使用密码和付费墙等障碍后隐藏的知识并从中受益。
+- _可以重新使用_: 研究输出需要被适当授权，以便潜在的用户知道对重新使用的任何限制。
+- _保持透明度_: 使用适当的元数据来清楚地说明研究产出是如何产生的及其包含的内容。
 
-The research process typically has the following form: data is collected and then analysed (usually using software). This process may involve the use of specialist hardware. The results of the research are then published. Throughout the process, it is good practice for researchers to document their working in notebooks. Open research aims to make each of these elements open:
+研究过程通常有以下形式：收集和分析数据（通常使用软件）。 这一过程可能涉及使用专家硬件。 然后公布研究结果。 在整个过程中，研究人员用笔记本记录其工作是一个良好做法。 开放式研究旨在使每个这些元素公开：
 
-- _Open Data_: Documenting and sharing research data openly for re-use.
-- _Open Source Software_: Documenting research code and routines, and making them freely accessible and available.
-- _Open Hardware_: Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
-- _Open Access_: Making all published outputs freely accessible for maximum use and impact.
-- _Open Notebooks_: An emerging practice, documenting and sharing the experimental process of trial and error.
+- _打开数据_: 公开记录和分享研究数据以供重新使用。
+- _开源软件_: 记录研究代码和例行，并使其能够免费访问和获取。
+- _打开硬件_: 文档设计、材料和其他与硬件相关的信息，并使其能够免费访问和获取。
+- _Open Access_: 允许所有已发布的输出自由访问以便最大限度地使用和影响。
+- _打开笔记本_: 正在出现的实践，记录和共享试用和错误的实验过程。
 
-These elements are expanded upon in this chapter.
+本章对这些要素作了进一步阐述。
 
-Open scholarship [{term}`def<Open Scholarship>`] is a concept that extends open research further. It relates to making other aspects of scientific research open to the public, for example:
+开放奖学金[{term}`def<Open Scholarship>`] 是一个进一步扩展开放研究的概念。 它涉及向公众开放科学研究的其他方面，例如：
 
-- _Open educational resources_: Making educational resources publicly available to be re-used and modified.
-- _Equity, diversity, inclusion_: Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
-- _Citizen science_: The inclusion of members of the public in scientific research.
+- _打开教育资源_: 公开提供教育资源以重新使用和修改。
+- _公平、多样性、包容_：确保奖学金向任何人开放，而不存在基于种族、背景、性别和性取向等因素的障碍。
+- _公民科学_: 将公众成员纳入科学研究。
 
-These elements are also discussed in detail in this chapter.
+本章也详细讨论了这些要素。
 
-(rr-open-useful)=
-## Motivation and Background
+(rr-open-usef)=
+## 动机和背景
 
-There are five main schools of thought motivating open practices to benefit research:
+有五个主要的思想流派，推动开放的做法以便使研究受益：
 
-| School         | Belief                                                                     | Aim                                                                       |
-| -------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Infrastructure | Efficient research depends on the available tools and applications.        | Creating openly available platforms, tools, and services for researchers. |
-| Pragmatic      | Knowledge-creation could be more efficient if researchers worked together. | Opening up the process of knowledge creation.                             |
-| Measurement    | Academic contributions today need alternative impact measurements.         | Developing an alternative metric system for research impact.              |
-| Democratic     | The access to knowledge is unequally distributed.                          | Making knowledge freely available for everyone.                           |
-| Public         | Research needs to be made accessible to the public.                        | Making research accessible for citizens.                                  |
+| 学校        | 信仰组织                    | 目标                    |
+| --------- | ----------------------- | --------------------- |
+| B. 基础设施   | 有效的研究取决于现有的工具和应用。       | 为研究人员创造公开可得的平台、工具和服务。 |
+| Pragmatic | 如果研究人员共同合作，知识的创造就会更加有效。 | 开启创造知识的进程。            |
+| 度量        | 今天学术界的贡献需要其他的影响计量。      | 开发研究影响的替代测量系统。        |
+| 民主        | 获得知识的机会分布不均。            | 让每个人都能自由地获得知识。        |
+| 公开的       | 需要让公众了解研究情况。            | 使公民能够获得研究。            |
 
-Open practices also benefit the researchers that propagate them. For example, there is evidence {cite:ps}`McKiernan et al. 2016<McKiernan2016Open>` that open access articles are cited more often, as shown by the metastudy presented in the figure below.
+开放做法也使传播这些做法的研究人员受益。 例如，有证据 {cite:ps}`McKiernan et al. 2016<McKiernan2016Open>` 公开访问文章被引用得更多，如下图中的元研究所示。
 
 ```{figure} ../figures/open-access-citations.jpg
 ---
-height: 500px
-name: open-access-citations
-alt: A scatter plot of the relationship between citation rates and discipline
----
-The relative citation rate (OA: non-OA) in 19 fields of research. This rate is defined as the mean citation rate of OA articles divided by the mean citation rate of non-OA articles. Multiple points for the same discipline indicate different estimates from the same study or estimates from several studies. (See footnote 1 for references.)
+高度: 500px
+name: open-access-cites
+Alt: A scater plan of the relationship between citing rate and stolescences
+-
+the relative citation (OA) in 19个研究领域。 这一比率被定义为有机农业物品的平均引文率除以非有机农业物品的平均引文率。 同一学科的多个点显示出同一研究的不同估计数或若干研究的估计数。 （参考脚注1。）
 ```
 
-Another benefit of openness is that while research collaborations are essential to advancing knowledge, identifying and connecting with appropriate collaborators is not trivial. Open practices can make it easier for researchers to connect by increasing the discoverability and visibility of one's work, facilitating rapid access to novel data and software resources, and creating new opportunities to interact with and contribute to ongoing communal projects.
+开放的另一个好处是，虽然研究合作对增进知识至关重要，但确定与适当合作者的联系并不是微不足道的。 开放的做法可以通过提高个人工作的发现能力和可见度，使研究人员更容易进行联系。 促进迅速获得新的数据和软件资源，并创造新的机会，与正在进行的社区项目进行互动并作出贡献。
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

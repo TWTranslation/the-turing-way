@@ -1,85 +1,87 @@
 (ch-style-citing)=
-# Citing and Referencing
+# الاستشهاد والإشارة
 
-We maintain a centralised [BibTeX](http://www.bibtex.org/) file containing all references. The file is located within this repository in the file [`./book/website/_bibliography/references.bib`][turingbib].
+نحن نحافظ على ملف [BibTeX](http://www.bibtex.org/) مركزي يحتوي على جميع المراجع. الملف موجود داخل هذا المستودع في الملف [`./book/website/_bibliography/references.bib`][turingbib].
 
-## BibTeX file basics
+## أساسيات ملف BibTeX
 
-BibTeX files are a way to format lists of references in a structured way. Basic elements of an entry include a reference type, a unique citation key, and a series of key-value pairs that describe the reference (for example, author or title).
+ملفات BibTeX هي طريقة لتنسيق قوائم المراجع بطريقة منظمة. وتشمل العناصر الأساسية للمدخل نوعا مرجعيا، ومفتاح استشهاد فريد من نوعه، وسلسلة من أزواج القيمة الرئيسية التي تصف المرجع (على سبيل المثال المؤلف أو العنوان).
 
-There are a number of keywords for different references types in BibTeX. Luckily, there are tools to help format references into BibTeX syntax. If you know the DOI for your reference, you can use [doi2bib](https://doi2bib.org/) to help populate a good enough BibTeX entry. For example, [here](https://doi2bib.org/bib/https://doi.org/10.5281/zenodo.3233853) is a good enough BibTeX entry for The Turing Way handbook itself. Another good tool is [Google Scholar](https://scholar.google.com/), where you search for a reference, click on the large double quotes `"`, and then click on "BibTeX" near the bottom.
+هناك عدد من الكلمات الرئيسية لأنواع المراجع المختلفة في BibTeX. لحسن الحظ، هناك أدوات للمساعدة في تنسيق المراجع في بناء بنية BibTeX. إذا كنت تعرف DOI كمرجع خاص بك، يمكنك استخدام [doi2bib](https://doi2bib.org/) للمساعدة في تعبئة مدخل BibTeX جيد بما فيه الكفاية. على سبيل المثال، [هنا](https://doi2bib.org/bib/https://doi.org/10.5281/zenodo.3233853) هو مدخل BibTeX جيد بما فيه الكفاية لدليل طريق تورينج نفسه. أداة جيدة أخرى هي [عالم جوجل](https://scholar.google.com/)، حيث تبحث عن مرجع، انقر فوق الاقتباس المزدوج الكبير `"`، ثم انقر على "BibTeX" بالقرب من الأسفل.
 
-Examples of listing a BibTeX-formatted reference are shown below.
+وترد أدناه أمثلة على إدراج مرجع على شكل BibTeX.
 
-## Adding a new reference in `references.bib`
+## إضافة مرجع جديد في `references.bib`
 
-You can edit reference file locally using a method from the following:
+يمكنك تعديل الملف المرجعي محلياً باستخدام طريقة من:
 
-- Edit [`references.bib`][turingbib] directly using a text editor
-- Edit [`references.bib`][turingbib] directly using a managing program such as [JabRef](http://www.jabref.org/) (Linux, Windows, macOS) or [BibDesk](https://bibdesk.sourceforge.io/) (macOS)
+- تحرير [`references.bib`][turingbib] مباشرة باستخدام محرر نص
+- تحرير [`references.bib`][turingbib] مباشرة باستخدام برنامج إدارة مثل [JabRef](http://www.jabref.org/) (Linux, Windows, macOS) أو [BibDesk](https://bibdesk.sourceforge.io/) (macOS)
 
-We use a standard bibtex format to add a new entry. For example, there is an entry in the [`references.bib`][turingbib] file as:
+نحن نستخدم صيغة BBtex القياسية لإضافة إدخال جديد. على سبيل المثال، هناك إدخال في ملف [`references.bib`][turingbib] كالتالي:
 
 ```
-@article{baker2016reproducibility,
-    author={Baker, Monya},
-    title={Reproducibility crisis?},
-    journal={Nature},
-    volume={533},
-    number={26},
-    pages={353--66},
-    year={2016}
+@article{baker2016reproduciability ،
+    author={Baker, Monya}،
+    title={Reproducibility crisis? ،
+    مجلة ={Nature}،
+    مجلد ={533}،
+    رقم ={26}،
+    الصفحات ={353--66}،
+    سنة ={2016}
 }
 ```
 
-**Finish editing by adding a new entry at the end of the file.**
+**إنهاء التحرير بإضافة إدخال جديد في نهاية الملف.**
 
-## Citation key style-guide
+## دليل نمط مفتاح الاستشهاد
 
-We recommend using the following structure for citation keys:
+نوصي باستخدام الهيكل التالي لمفاتيح الاقتباس:
 
 ```
-AuthorYYYYword
+كلمة المؤلف
 ```
 
-Where:
+حيث:
 
-1. `Author` is the surname of the first author (`Baker` above)
-2. `YYYY` is the year (`2016` above)
-3. `word` is the first meaningful word in the title (`reproducibility` above). Note, this is subjective―choose a name that makes it easy to remember the reference when you see the citation key.
+1. `المؤلف` هو اسم عائلة المؤلف الأول (`بيكر` أعلاه)
+2. `سنة` هي السنة (`2016` أعلاه)
+3. `كلمة` هي أول كلمة ذات مغزى في العنوان (`إمكانية التكرار` أعلاه). ملاحظة، هذا ذاتي" اختيار اسم يجعل من السهل تذكر الإشارة عندما ترى مفتاح الاقتباس.
 
-## Adding a new reference in the text
+## إضافة مرجع جديد في النص
 
-To include a citation in your content, we follow the recommendation by [Jupyter Book](https://jupyterbook.org/content/citations.html) that uses [`sphinxcontrib-bibtex`](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/) extension.
+لإدراج اقتباس في المحتوى الخاص بك، نتبع التوصية من خلال [كتاب المشتري](https://jupyterbook.org/content/citations.html) الذي يستخدم [`ملحقات`](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/).
 
-The key concepts are:
+والمفاهيم الرئيسية هي:
 
-- Include a reference using using:
+- تضمين مرجع باستخدام :
 ```
 {cite:ps}`CITEKEY`
 
 ```
-Here `CITEKEY` is the corresponding citation key in [`references.bib`][turingbib].
-- You can also include multiple citations in one go by separating the CITEKEYs by a comma:
+هنا `CITEKEY` هو مفتاح الاستشهاد المقابل في [`المراجع .bib`][turingbib].
+- يمكنك أيضًا تضمين العديد من الإشارات في ذهاب واحد عن طريق الفصل بين CITEKEYs بفاصلة:
 ```
 {cite:ps}`CITEKEY1,CITEKEY2,CITEKEY3`
 ```
 
-We will cite the article that we edit earlier in the [`reference.bib`][turingbib] file using:
+سنستشهد بالمقال الذي قمنا بتعديله في وقت سابق في ملف [`reference.bib`][turingbib] بإستخدام:
 
 ```
-{cite:ps}`Kuula2010archiving`
+{cite:ps}`Kula2010archiving`
 ```
 
-This will appear in your chapter as {cite:ps}`baker2016reproducibility`.
+سيظهر هذا في فصلك كـ {cite:ps}`خبازر2016إمكانية التكرار`.
 
-The complete bibliography entry is available at the end of this book (see {ref}`resources <bibliography>`) using the directives:
+يتوفر المدخل الكامل للببليوغرافيا في نهاية هذا الكتاب (انظر {ref}`موارد <bibliography>`) باستخدام التوجيهات:
 
     ```{bibliography} ../_bibliography/references.bib
 
     ```
 
-For the advanced usage, see the [documentation by sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html), which is a Sphinx extension for BibTeX style citations.
+للحصول على الاستخدام المتقدم، راجع [التوثيق بواسطة sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html)، والذي هو امتداد Sphinx لاستشهاد نمط BibTeX.
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
 
 [turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
 

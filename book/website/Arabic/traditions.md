@@ -1,51 +1,51 @@
-(communication-aa-traditions)=
-# Discipline specific authorship traditions
+(الاتصالات - تقاليد)=
+# تقاليد التأديب الخاصة
 
-When you speak to researchers from different disciplines about academic authorship, you get many different answers about who they think should be an author, what order the authors should take and what the order means. It is therefore apparent that there are different discipline-specific traditions about how authorship is conducted for journal articles.
+عندما تتحدث إلى باحثين من مختلف التخصصات عن المؤلف الأكاديمي، تحصل على العديد من الإجابات المختلفة عن من يعتقدون أنه ينبغي لهم أن يكونوا مؤلفاً، وما هو الأمر الذي ينبغي أن يتخذه أصحاب البلاغ وما يعنيه الأمر. ومن ثم يبدو أن هناك تقاليد مختلفة تتعلق بتخصصات محددة بشأن كيفية تأليف المقالات الصحفية.
 
-(communication-aa-traditions-humss)=
-## Humanities and social science disciplines
+(الاتصالات - التقاليد-الإنسان)=
+## العلوم الإنسانية والعلوم الاجتماعية
 
-Single author publications are more common in Humanities disciplines than in Science, Technology and Medicine. Research, and the writing aspect of this, is more often seen as a solo endeavour due to the nature of the subjects involved and therefore single author papers and books are highly valued. However, a recent [white paper by Taylor & Francis](https://authorservices.taylorandfrancis.com/co-authorship-in-the-humanities-and-social-sciences/) concerning co-authorship in the humanities and social sciences found that co-authorship seems to be increasing with 74% of respondents to a recent survey reporting their typical number of authors per paper being two or more.
+والمنشورات المنفردة المؤلفة أكثر شيوعا في تخصصات العلوم الإنسانية منها في العلوم والتكنولوجيا والطب. البحوث، وجانب الكتابة في هذا، وغالبا ما ينظر إليه على أنه مسعى فردي نظرا لطبيعة المواضيع المعنية، ومن ثم فإن الأوراق والكتب التي تعد بمفردها تحظى بتقدير كبير. غير ووجد كتاب أبيض حديث [أعده تايلور & فرانسيس](https://authorservices.taylorandfrancis.com/co-authorship-in-the-humanities-and-social-sciences/) بشأن الاشتراك في تأليف العلوم الإنسانية والاجتماعية أن المشاركة في تأليف الدراسة يبدو أنها آخذة في الازدياد حيث أن 74% من المجيبين على دراسة استقصائية حديثة أفادوا بأن عددهم الاعتيادي للمؤلفين في كل ورقة يبلغان أو أكثر.
 
-This tradition though does mean that co-authorship is less well discussed and there seems to be no consensus on how it should be approached. The Taylor & Francis white paper also states that issues have arisen concerning the over-crediting of senior or supervisory researchers and only 18% of respondents reporting having received training in determining academic authorship.
+غير أن هذا التقليد يعني أن المشاركة في التأليف أقل نقاشاً ويبدو أنه لا يوجد توافق في الآراء بشأن كيفية تناوله. كما أن ورقة تيلور & فرانسيس البيضاء تشير إلى أن قضايا قد أثيرت فيما يتعلق بالإفراط في الاعتماد على الباحثين الأقدم أو الإشراف، و18 في المائة فقط من المجيبين الذين أفادوا بأنهم تلقوا تدريباً على تحديد المؤلف الأكاديمي.
 
-(communication-aa-traditions-med)=
-## Medical Sciences
-The [International Committee of Medical Journal Editors (ICMJE) has a clear set of guidelines for medical science](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) that is also used more widely in other scientific disciplines journals. The criteria are clear for authorship and require substantial contributions to several areas of the research project, including writing or editing. It sets out four criteria that must all be met to be deemed an author on the paper:
-* Significant involvement in the study design, data collection or analysis.
-* Involvement in drafting or revising the manuscript.
-* Approval of the final version of the manuscript.
-* Responsibility for accuracy and integrity of all aspects of research.
+(الاتصالات-آنا - تقاليد-ميد)=
+## العلوم الطبية
+لجنة [الدولية لمحرري المجلات الطبية (ICMJE) لديها مجموعة واضحة من المبادئ التوجيهية للعلوم الطبية](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) والتي تستخدم أيضا على نطاق أوسع في المجلات العلمية الأخرى. والمعايير واضحة بالنسبة للمؤلف وتتطلب مساهمات كبيرة في عدة مجالات من مشروع البحث، بما في ذلك الكتابة أو التحرير. وهو يحدد أربعة معايير يجب استيفاؤها جميعاً لكي تعتبر مؤلفاً في الورقة، وهي:
+* 2 - المشاركة بشكل كبير في تصميم الدراسة أو جمع البيانات أو تحليلها.
+* المشاركة في صياغة المخطوطة أو تنقيحها.
+* 2 - الموافقة على الصيغة النهائية للمخطوط.
+* 1 - المسؤولية عن دقة وسلامة جميع جوانب البحوث.
 
-If all these criteria are not met then these contributors can only be added to the acknowledgements. Therefore, these criteria are not inclusive in terms of authorship for all contributions to a research project, even if they are substantial contributions such as software development.
+وإذا لم يتم الوفاء بجميع هذه المعايير، لا يمكن إضافة هؤلاء المساهمين إلا إلى الإقرارات. ولذلك فإن هذه المعايير ليست شاملة من حيث إعداد جميع المساهمات في مشروع بحثي. وحتى لو كانت مساهمات كبيرة مثل تطوير البرمجيات.
 
-Many journals in this discipline still use their own guidelines or modified versions of the ICMJE guidelines due in part to a disagreement that an individual whose sole contribution is as the main writer would not qualify as an author {cite}`Panter2021bestpractices`. It is thought that this should allow authorship because to write a paper you would also need to understand and interpret the data therefore fulfilling the first criteria.
+ولا تزال العديد من المجلات في هذا المجال تستخدم مبادئها التوجيهية الخاصة أو نسخها المعدلة من المبادئ التوجيهية للمجلس لأسباب منها عدم الاتفاق على أن الفرد الذي يكون إسهامه الوحيد هو الكاتب الرئيسي لن يكون مؤهلاً لأن يكون مؤلفاً {cite}`بانتر2021 أفضل الممارسات`. ويعتقد أن هذا ينبغي أن يسمح للمؤلف لأن كتابة ورقة تحتاج أيضا إلى فهم وتفسير البيانات من أجل استيفاء المعايير الأولى.
 
-(communication-aa-traditions-nat)=
-## Natural Sciences
-The natural sciences have no standard way to define academic authorship.
+(الاتصالات: - التقاليد-الطبيعة)=
+## العلوم الطبيعية
+وليست للعلوم الطبيعية طريقة موحدة لتعريف المؤلف الأكاديمي.
 
-Leading journals such as the Proceedings of the National Academy of Sciences of the United States of America ([PNAS](https://blog.pnas.org/iforc.pdf)) have set out that 'authorship must be limited to those who have contributed substantially to the work'.
+وقد بينت المجلات الرائدة مثل وقائع الأكاديمية الوطنية للعلوم في الولايات المتحدة الأمريكية ([PNAS](https://blog.pnas.org/iforc.pdf)أن المؤلف يجب أن يقتصر على أولئك الذين ساهموا بقدر كبير في العمل).
 
-They also specify that the specific contributions of authors to the published work must be written in the footnote to the paper. Examples of designations include: designed research, performed research, contributed new reagents or analytic tools, analyzed data, wrote the paper.
+كما تنص على أن الإسهامات المحددة للمؤلفين في الأعمال المنشورة يجب أن تكون مكتوبة في حاشية الورقة. ومن أمثلة التسميات ما يلي: البحوث المصممة، والبحوث المنجزة، والكواشف الجديدة المساهمة، أو الأدوات التحليلية، والبيانات المحللة، وكتابة الورقة.
 
-This does mean that an author could be someone that does not write the paper, however, they must have agreed to the version of the paper that is submitted so this implies they have at least read and made comments on the final version.
+وهذا يعني أن المؤلف يمكن أن يكون شخصا لا يكتب الورقة، مع ذلك. وعليهم أن يكونوا قد وافقوا على صيغة الورقة المقدمة، مما يعني ضمناً أنهم قرأوا على الأقل الصيغة النهائية وأدلوا بتعليقات عليها.
 
-Other journals such as [PLOS One](https://journals.plos.org/plosone/s/authorship), [e-life](https://reviewer.elifesciences.org/author-guide/journal-policies) and [F1000 Research](https://f1000research.com/gateways/nc3rs/for-authors/article-guidelines/research-articles) are using the ICMJE criteria for authorship but in combination with a wider attribution for different contributions using the [CRediT Taxonomy](https://casrai.org/credit/).  
-This is a high-level taxonomy that includes 14 roles to represent typical roles within scientific research making the contributions section of a paper at least more inclusive.
+المجلات الأخرى مثل [PLOS One](https://journals.plos.org/plosone/s/authorship)، [الحياة الإلكترونية](https://reviewer.elifesciences.org/author-guide/journal-policies) و [F1000 Research](https://f1000research.com/gateways/nc3rs/for-authors/article-guidelines/research-articles) تستخدم معايير ICMJE للمؤلف ولكن بالاقتران مع إسناد أوسع للمساهمات المختلفة باستخدام [CRediT Taxonomy](https://casrai.org/credit/).  
+هذا تصنيف رفيع المستوى يشمل 14 دورا لتمثيل الأدوار النموذجية في البحث العلمي مما يجعل الجزء الخاص بالإسهامات من الورقة أكثر شمولا على الأقل.
 
-(communication-aa-traditions-order)=
-## Order of authors and what this means
+(الاتصالات-aa-traditions-order)=
+## ترتيب المؤلفين وما يعنيه ذلك
 
-The order of authors is also different in each discipline and the placement of each author is often not understood outside of each discipline. The nuances of the author order are not explained anywhere in an academic paper for others to understand, such as how the authors have decided this order and the relevance of it to them.
+ويختلف ترتيب المؤلفين أيضاً في كل تخصص، وكثيراً ما لا يُفهم وضع كل مؤلف خارج كل تخصص. ولم يفسر اختلاف أمر صاحب البلاغ في أي مكان في ورقة أكاديمية يمكن للآخرين فهمها، ومن ذلك مثلاً كيف قرر أصحاب البلاغ هذا الأمر وأهميته بالنسبة لهم.
 
-However, in general the first author is seen as the person that has given the main contribution to the project in terms of forming the ideas and structure for the research paper, writing and editing of the article and being in charge of organising the article submission. They are also often the corresponding author that deals with any queries regarding the article. Although, in some academic circles being the corresponding author is a measure of academic status and does not have to be the same person as the first author.
+غير ويُنظر إلى المؤلف الأول بصفة عامة على أنه الشخص الذي قدم المساهمة الرئيسية في المشروع من حيث تكوين الأفكار المتعلقة بورقة البحث وهيكلها، كتابة وتحرير المقالة وكونها مسؤولة عن تنظيم تقديم المقالة. وكثيراً ما يكونون هم المؤلف المقابل الذي يتناول أي استفسارات تتعلق بهذه المادة. على الرغم وفي بعض الدوائر الأكاديمية، يعتبر المؤلف المقابل مقياسا من المقياس الأكاديمي ولا ينبغي أن يكون نفس الشخص الذي ينتمي إليه المؤلف الأول.
 
-In social sciences, the first author indicates who should get the most credit for the research and the authors are then listed in order of descending contributions, all the way to the last author who has made the least contribution. See the LSE Impact of social sciences blog - [First among equals](https://blogs.lse.ac.uk/impactofsocialsciences/2015/06/18/first-among-equals-guidelines-authorship-credit/) for a wider discussion on first authors.
+في العلوم الاجتماعية، ويشير المؤلف الأول إلى الجهة التي ينبغي أن تحصل على أكبر قدر من الفضل في البحث، ثم يُدرج المؤلفون بعد ذلك حسب ترتيب المساهمات التنازلية. والطريق إلى آخر مؤلف قدم أقل قدر من المساهمة. راجع تأثير LSE على مدونة العلوم الاجتماعية - [أولا بين متساويين](https://blogs.lse.ac.uk/impactofsocialsciences/2015/06/18/first-among-equals-guidelines-authorship-credit/) لمناقشة أوسع بشأن المؤلفين الأولين.
 
-However, in many disciplines the last author or the last two authors have significance and are senior members of the research team. These team members are likely to be in supervisory roles in the project. This could be as PhD supervisors, Principal Investigators or Co-investigators.
+غير أن المؤلف الأخير أو المؤلفين الأخيرين لهما أهمية في العديد من المجالات وهما عضوان رفيعا في فريق البحوث. ومن المرجح أن يضطلع أعضاء الفريق هؤلاء بأدوار إشرافية في المشروع. ويمكن أن يكون ذلك كمشرفين على الدكتوراه أو محققين رئيسيين أو محققين مشاركين.
 
-The authors in the middle of the list, between the first author and last author/s, can be in the order of most contributions to least, or as an alphabetical list.
+إن أصحاب البلاغ في منتصف القائمة، بين صاحب البلاغ الأول وصاحب البلاغ الأخير، ويمكن أن يكون ترتيب معظم المساهمات على أقل تقدير، أو كقائمة أبجدية.
 
-Some disciplines, such as mathematics (see this [Wikipedia page on academic authorship](https://en.wikipedia.org/wiki/Academic_authorship) for more information), have always used alphabetical lists with no indication in the order given to the amount of contributions made. 
+بعض التخصصات، مثل الرياضيات (أنظر صفحة [ويكيبيديا على المؤلف الأكاديمي](https://en.wikipedia.org/wiki/Academic_authorship) لمزيد من المعلومات)، وقد استخدمت دائما قوائم أبجدية دون أي إشارة في الترتيب الذي أعطى لمبلغ المساهمات المقدمة. 

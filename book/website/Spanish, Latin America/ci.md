@@ -1,31 +1,31 @@
 (rr-ci)=
-# Continuous integration
+# Integración continua
 
-| Prerequisite                                                                                  | Importance   | Notes                                                                                                                          |
-| --------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary    | Continuous integration will follow command line instructions                                                                   |
-| {ref}`Version control<rr-vcs>`                                                          | Necessary    | Continuous integration runs every time a new _commit_ is made to your project                                                  |
-| {ref}`Reproducible computational environments<rr-renv>`                                 | Necessary    | Continuous integration runs your tests on a separate computer (usually in the cloud) so you need to set it up in the same way. |
-| {ref}`Testing<rr-testing>`                                                              | Very helpful | Continuous integration _tests_ if anything important has changed when you make a change in your project                        |
+| Prerrequisito                                                                                     | Importancia | Notas                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Experiencia con la línea de comandos](https://programminghistorian.org/en/lessons/intro-to-bash) | Necesario   | La integración continua seguirá las instrucciones de línea de comandos                                                                        |
+| {ref}`Control de versiones<rr-vcs>`                                                         | Necesario   | La integración continua se ejecuta cada vez que se realiza un nuevo _commit_ en tu proyecto                                                   |
+| {ref}`Entornos computacionales reproducibles<rr-renv>`                                      | Necesario   | La integración continua ejecuta tus pruebas en un equipo separado (normalmente en la nube) así que necesitas configurarlo de la misma manera. |
+| {ref}`Probando<rr-testing>`                                                                 | Muy útil    | Integración continua _prueba_ si algo importante ha cambiado cuando haces un cambio en tu proyecto                                            |
 ## Summary
 
-Continuous integration (CI) is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). CI software is also typically used to identify any conflicts and bugs that are introduced by changes, so they are found and fixed early, minimising the effort required to do so. Running tests regularly also saves humans from needing to do it manually. By making users aware of bugs as early as possible researchers (if the project is a research project) do not waste a lot of time doing work that may need to be thrown away, which may be the case if tests are run infrequently and results are produced using faulty code.
+La integración continua (IC) es la práctica de integrar cambios en un proyecto realizado por individuos en una gran mayoría, versión compartida con frecuencia (normalmente múltiples veces por día). El software de CI también se utiliza normalmente para identificar cualquier conflicto y error que sean introducidos por cambios, para que se encuentren y fijen pronto, minimizando el esfuerzo necesario para hacerlo. Las pruebas en ejecución regularmente también evitan que los humanos tengan que hacerlo manualmente. Al informar a los usuarios de errores tan pronto como sea posible a los investigadores (si el proyecto es un proyecto de investigación) no pierden mucho tiempo haciendo trabajos que tal vez deban ser desechados, que puede ser el caso si las pruebas se ejecutan infrequently y los resultados se producen usando código defectuoso.
 
 ```{figure} ../figures/continuous-integration-may19.jpg
 ---
 height: 500px
-name: continuous-integration-may19
-alt: A sketch showing how continuous integration helps developers plan, design, integrate code into a shared repository, and then observe the influence of any changes.
+name: continuous-integration-mayo19
+alt: Un boceto que muestra cómo la integración continua ayuda a los desarrolladores a planear. , integra código en un repositorio compartido y observa la influencia de cualquier cambio.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## How this will help you/ why this is useful
+## Cómo esto te ayudará / por qué esto es útil
 
-CI has a number of key benefits:
+El ICC tiene una serie de beneficios clave:
 
-- Helps bugs to be found early, minimising their damage and making them easier to fix
-- Keeps project contributors up to date with each other's work so they can benefit from it as soon as possible
-- Encourages users to write tests
-- Automates running of tests
-- Ensures tests are run frequently
+- Ayuda a encontrar errores temprano, minimizando su daño y haciéndolos más fáciles de arreglar
+- Mantiene a los colaboradores del proyecto al día del trabajo del otro para que puedan beneficiarse de él tan pronto como sea posible
+- Anima a los usuarios a escribir pruebas
+- Automatiza la ejecución de pruebas
+- Asegurar que las pruebas se ejecuten con frecuencia

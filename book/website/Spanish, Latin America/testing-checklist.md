@@ -1,23 +1,23 @@
-# Checklist for Code Testing
+# Lista de verificación para pruebas de código
 
-This checklist contains a lot of items. As [mentioned](#Write_tests_any_tests) it is far better to do some of the items than none of them. Do not be discouraged if this list of tasks seems insurmountable.
+Esta lista de verificación contiene muchos elementos. Como [mencionó](#Write_tests_any_tests) es mucho mejor hacer algunos de los elementos que ninguno de ellos. No se desanime si esta lista de tareas parece insuperable.
 
-## Writing tests
+## Pruebas de escritura
 
-- Write a few smoke tests.
-- Write unit tests for all your code units.
-- Write integration tests to check the integration between units.
-- Write a few system tests. Prioritise common and important paths through the program.
-- Write regression tests. Regression tests can exist at any level of testing.
-- If appropriate for your project write acceptance tests.
-- Add runtime tests into your project.
+- Escribe algunas pruebas de humo.
+- Escribe las pruebas unitarias para todas tus unidades de código.
+- Escriba pruebas de integración para comprobar la integración entre unidades.
+- Escribe algunas pruebas del sistema. Priorizar caminos comunes e importantes a través del programa.
+- Escribir pruebas de regresión. Las pruebas de regresión pueden existir en cualquier nivel de pruebas.
+- Si es apropiado para su proyecto escribir pruebas de aceptación.
+- Añade pruebas de tiempo de ejecución a tu proyecto.
 
-## Good practice checks
+## Comprobaciones de buenas prácticas
 
-- Document the tests and how to run them.
-- Write scripts to set up and configure any resources that are needed to run the tests.
-- Pick and make use of a testing framework.
-- Run the tests regularly.
-- Automate the process of running tests. Consider making use of continuous integration (see continuous integration chapter) to do this.
-- Check the code coverage of your tests and try to improve it.
-- Engage in code review with a partner.
+- Documentar las pruebas y cómo ejecutarlas.
+- Escriba scripts para configurar y configurar cualquier recurso necesario para ejecutar las pruebas.
+- Elija y haga uso de un framework de pruebas.
+- Ejecutar las pruebas regularmente.
+- Automatizar el proceso de ejecución de pruebas. Considere hacer uso de la integración continua (ver el capítulo de integración continua) para hacer esto.
+- Compruebe la cobertura del código de sus pruebas e intente mejorarla.
+- Introducir en la revisión de código con un socio.

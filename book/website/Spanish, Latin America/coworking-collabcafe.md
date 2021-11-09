@@ -1,145 +1,145 @@
-(ch-coworking-collabcafe)=
-# Online Collaboration Cafe
+(ch-coworking-colabcafe)=
+# Café de Colaboración en Línea
 
-_The Turing Way_ Collaboration Cafes (or 'Cafés' with an accent) are virtual co-working spaces that are held fortnightly on the first and third Wednesdays of each month for 2 hours. The schedule will be updated periodically on the [GitHub page](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) as per the community requirement.
+_La Vía Turística_ Los Cafés de Colaboración (o 'Cafés' con acento) son espacios virtuales de co-trabajo que se celebran cada semana en los primeros y tres días de cada mes durante 2 horas. El programa se actualizará periódicamente en la página [de GitHub](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) según el requerimiento de la comunidad.
 
-We host these calls online using [Zoom](https://www.zoom.us/) where we make use of the [breakout rooms](#breakout-rooms) feature to allow small groups to use the 2 hours as best fits them. One or two members from the core team are always available on the call to support anyone wanting to learn more about collaborating on GitHub, getting a virtual tour of our GitHub repository or the book, and help you to make your first pull request (PR).
+Alojamos estas llamadas en línea usando [Zaining](https://www.zoom.us/) donde hacemos uso de la función [breakout](#breakout-rooms) para permitir a los grupos pequeños utilizar las 2 horas que mejor se adapten. Uno o dos miembros del equipo central están siempre disponibles en la llamada para apoyar a cualquiera que desee aprender más sobre colaborar en GitHub, obtener una visita virtual de nuestro repositorio de GitHub o del libro, y ayudarle a hacer su primera solicitud de pull (PR).
 
-## Attending an online Collaboration Cafe
+## Atención a un Café de Colaboración en Línea
 
-The schedule for the collaboration cafe can be viewed from the [community calendar](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon). We also announce calls in our [monthly newsletters](https://tinyletter.com/TuringWay/archive), send a reminder on the [Slack channel](https://tinyurl.com/jointuringwayslack) and [Twitter](https://twitter.com/turingway).
+El horario de la cafetería de colaboración se puede ver desde el [calendario comunitario](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon). También anunciamos llamadas en nuestros [boletines informativos mensuales](https://tinyletter.com/TuringWay/archive), envía un recordatorio en el [canal Slack](https://tinyurl.com/jointuringwayslack) y [Twitter](https://twitter.com/turingway).
 
-Though scheduled for 2 hours, we understand that for many interested participants it might be impossible to commit to the entire 2 hours on one or multiple occasions, therefore, you are welcome to join for as long as your schedule allows.
+Aunque programado para 2 horas, entendemos que para muchos participantes interesados puede ser imposible comprometerse con las 2 horas completas en una o varias ocasiones, por lo tanto, le invitamos a unirse mientras su programa lo permita.
 
-If the current schedule of the online Collaboration Cafe is not suitable for your time zone, you are welcome to host a separate collaboration cafe for your community/time zone. Please open a new issue (see [this example](https://github.com/alan-turing-institute/the-turing-way/issues/684)) or reach out to _The Turing Way_ team members for details. We are also currently developing a guide for hosting these calls ([issue #925](https://github.com/alan-turing-institute/the-turing-way/issues/925)).
+Si el horario actual del Café de Colaboración en Línea no es adecuado para su zona horaria, le damos la bienvenida a alojar un café de colaboración separado para su zona de tiempo y comunidad. Por favor, abra un nuevo problema (ver [este ejemplo](https://github.com/alan-turing-institute/the-turing-way/issues/684)) o póngase en contacto con _los miembros del equipo de Turing Way_ para más detalles. Actualmente también estamos desarrollando una guía para alojar estas llamadas ([número #925](https://github.com/alan-turing-institute/the-turing-way/issues/925)).
 
-### Resources used for the call
+### Recursos usados para la llamada
 
-Here are the resources we use for these calls:
+Estos son los recursos que utilizamos para estas llamadas:
 
-1. Shared notes by [HackMD](https://hackmd.io/): You can access these notes online at [https://hackmd.io/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) and can take notes together with others on the call.
-2. Online call by [Zoom](https://www.zoom.us/): The Zoom link is provided in the HackMD before the call, and members can click to join the call by opening zoom window on the web or by using the Zoom app that should be installed locally ([available for free](https://zoom.us/download)).
-3. An online Pomodoro clock on [Cuckoo.team](https://cuckoo.team/collabcafe): During the call, the clock is set for Pomodoro work intervals that can be live-tracked by everyone through their browsers.
-4. Video recordings from some of the earlier calls are available on [our YouTube channel](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
+1. Notas compartidas por [HackMD](https://hackmd.io/): Puede acceder a estas notas en línea en [https://hackmd. o/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) y puede tomar notas junto con otros en la llamada.
+2. Llamada en línea por [zoom](https://www.zoom.us/): El enlace zoom se proporciona en el HackMD antes de la llamada, y los miembros pueden hacer clic para unirse a la llamada abriendo una ventana de zoom en la web o utilizando la aplicación Zoom, que debería instalarse localmente ([disponible gratis](https://zoom.us/download)).
+3. Un reloj Pomodoro en línea en [Cuckoo. eam](https://cuckoo.team/collabcafe): Durante la llamada, el reloj está configurado para los intervalos de trabajo Pomodoro que pueden ser rastreados en vivo por todos a través de sus navegadores.
+4. Las grabaciones de vídeo de algunas de las llamadas anteriores están disponibles en [nuestro canal de YouTube](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
 
-We coordinate our tasks on the shared HackMD and/or _The Turing Way_ GitHub repository, where we can work collaboratively or independently while working on an older GitHub issues/PRs, creating new issues/PRs, taking notes as comments on the GitHub repository or working on a branch locally.
+Coordenamos nuestras tareas en el HackMD compartido y/o _The Turing Way_ repositorio GitHub, donde podemos trabajar de forma colaborativa o independiente mientras trabajamos en un problema / PRs de GitHub, creando nuevos problemas/PRs, tomando notas como comentarios en el repositorio de GitHub o trabajando en una rama localmente.
 
-## Format of the call
+## Formato de la llamada
 
-We have a template for the {ref}`Collaboration Cafes<ch-template-coworking-collabcafe>`, which is updated on the shared notes for each call.
+Tenemos una plantilla para los {ref}`Cafés de Colaboración<ch-template-coworking-collabcafe>`que se actualiza en las notas compartidas para cada llamada.
 
-### Schedule
+### Programar
 
-We'll run the following schedule during each Collaboration Cafe:
+Ejecutaremos el siguiente programa durante cada Cafe de Colaboración:
 
-| Duration | Activity                                                         |
-| -------- | ---------------------------------------------------------------- |
-| Start    | 👋 Welcome, code of conduct review                                |
-| 10 mins  | Introductions and personal goal setting                          |
-| 20 mins  | 🍅 1st Pomodoro session                                           |
-| 5 mins   | ☕️ Break                                                         |
-| 20 mins  | 🍅 2nd Pomodoro session                                           |
-| 5 mins   | ☕️ Break                                                         |
-| 20 mins  | 🍅 3rd Pomodoro session                                           |
-| 5 mins   | ☕️ Break                                                         |
-| 30 mins  | Open discussion: celebrations, reflections and future directions |
-| 5 mins   | 👋 Close                                                          |
+| Duración | Actividad                                                           |
+| -------- | ------------------------------------------------------------------- |
+| Comenzar | 👋 Bienvenido, código de conducta revisión                           |
+| 10 min   | Introducciones y fijación de objetivos personales                   |
+| 20 min   | 🍅 1º sesión de Pomodoro                                             |
+| 5 min    | ☕ Break                                                             |
+| 20 min   | 🍅 2ª sesión de Pomodoro                                             |
+| 5 min    | ☕ Break                                                             |
+| 20 min   | 🍅 3ª sesión de Pomodoro                                             |
+| 5 min    | ☕ Break                                                             |
+| 30 min   | Discusión abierta: celebraciones, reflexiones y direcciones futuras |
+| 5 min    | 👋 Cerrar                                                            |
 
-#### Beginning
+#### Comenzando
 
-The call begins with the team members welcoming the participants, sharing the Code of Conduct, reminding how to participate in the call, and setting the stage for quick introductions by everyone.
+La llamada comienza con los miembros del equipo dando la bienvenida a los participantes, compartiendo el Código de Conducta, recordando cómo participar en la convocatoria, y estableciendo el escenario para la introducción rápida de todo el mundo.
 
-#### Breaks
+#### Rompientes
 
-We will take short breaks after each Pomodoro to discuss what we are working on, ask questions that might help you in your next Pomodoro session, share any error or progress, and celebrate each others successes.
+Tomaremos breves pausas después de cada Pomodoro para discutir en qué estamos trabajando. haz preguntas que podrían ayudarte en tu próxima sesión de Pomodoro, comparte cualquier error o progreso, y celebra los éxitos de los demás.
 
-We will use the last 30 minutes for themed discussion, collaborative troubleshooting, or idea exchange for the project and community.
+Utilizaremos los últimos 30 minutos para la discusión temática, la solución de problemas colaborativos o el intercambio de ideas para el proyecto y la comunidad.
 
-The welcome, introductions, breaks, and the open discussion will all happen in the main room.
+El bienestar, las presentaciones, las pausas y el debate abierto pasarán todos en la sala principal.
 
 #### Pomodoro sessions
 
-Pomodoro sessions can happen either in the main zoom room in silence or in [breakout rooms](#breakout-rooms). We won't record the Pomodoro parts of the Collaboration Cafe, nor conversations in the breakout rooms. You don't need to know in advance what you're going to do in those Pomodoro sessions! There will always be someone who can help you develop a goal, or allocate a task that you can do in a couple of rounds of 20 minutes.
+Las sesiones de pomodoro pueden ocurrir en la sala de zoom principal en silencio o en [salas de ruptura](#breakout-rooms). No grabaremos las partes de Pomodoro del Collaboration Cafe, ni las conversaciones en las salas de despedida. ¡No necesitas saber de antemano lo que vas a hacer en esas sesiones de Pomodoro! Siempre habrá alguien que pueda ayudarte a desarrollar una meta, o asigna una tarea que puedes hacer en un par de rondas de 20 minutos.
 
-#### If joining this call later
+#### Si te unes a esta llamada más tarde
 
-During a typical Pomodoro session, attendees are sent to breakout rooms based on the topic they are working on. If you join later, you will be able to check the remaining time in the ongoing Pomodoro by opening the shared clock in your browser (link should be provided in the shared notes). You can use that Pomodoro session to sign up, read notes from other attendees in the shared document, and explore what you would like to work on during the next Pomodoro session.
+Durante una sesión típica de Pomodoro, los asistentes se envían a salas de descanso en base al tema en el que están trabajando. Si te unes más tarde, usted podrá comprobar el tiempo restante en el Pomodoro en curso abriendo el reloj compartido en su navegador (enlace debe ser proporcionado en las notas compartidas). Puede utilizar esa sesión de Pomodoro para registrarse, leer notas de otros asistentes en el documento compartido, y explora en qué te gustaría trabajar durante la próxima sesión de Pomodoro.
 
-If you know in advance what time you will join the coworking call, you can let the host know before the call or leave a note in the shared document.
+Si sabes de antemano qué hora te unirás a la llamada de colaboración, puede informar al host antes de la llamada o dejar una nota en el documento compartido.
 
-#### Recording this call
+#### Grabando esta llamada
 
-We may record the call for the part that involves open discussion so that others who can't attend the call can learn from the conversations we have during the Collaboration Cafes. For this part, you do not have to speak or have your video on if you prefer not to be in the video. The videos will be uploaded to _The Turing Way_ YouTube channel: [https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
+Podemos registrar la convocatoria de la parte que implica una discusión abierta para que otros que no puedan asistir a la llamada puedan aprender de las conversaciones que mantenemos durante los Cafés de Colaboración. Por esta parte, no tienes que hablar o tener tu video encendido si prefieres no estar en el vídeo. Los vídeos se subirán a _The Turing Way_ YouTube channel: [https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
 
-### Sign-up and icebreaker
+### Regístrate y rompe hielo
 
-If you're interested in joining the next Collaboration Cafe, please let the organisers know by adding your name to the **Sign Up** section of the HackMD notes page. Adding your name is helpful for the organisers so they can prepare for the call. But don't worry if you don't sign up in advance. It's ok to join at any time for as long as you'd like.
+Si estás interesado en unirte a la próxima cafetería de colaboración, por favor comuníquelo a los organizadores agregando su nombre a la sección **Registrarse** de la página de notas de HackMD. Añadir su nombre es útil para los organizadores para que puedan prepararse para la llamada. Pero no te preocupes si no te registras con antelación. Está bien unirse en cualquier momento por el tiempo que quieras.
 
-In addition to your names, we will encourage everyone to add a short response to an icebreaker question, that will help us all learn something personal about all the different people on the call.
+Además de tus nombres, animaremos a todos a que añadan una breve respuesta a una pregunta sobre el rompecabezas. que nos ayudarán a todos a aprender algo personal sobre todas las diferentes personas en la llamada.
 
-Here are a few example questions (so you know what to expect):
+Aquí tienes algunas preguntas de ejemplo (así que sabes qué esperar):
 
-* what was your biggest achievement this week?
-* when was the last time you saw a rainbow?
-* what are you most excited about this year?
-* What is your favorite flavor in cake/ice-cream?
+* ¿Cuál fue su mayor logro esta semana?
+* ¿Cuándo fue la última vez que vi un arco de lluvia?
+* ¿Qué es lo que más te entusiasma este año?
+* ¿Cuál es tu sabor favorito en pastel/helado?
 
-*Do you have another interesting question to ask others?* *[Get in touch](/README.md#get-in-touch) and let us know!* *We love creative suggestions!*
+*¿Tienes otra pregunta interesante que hacer a otro?* *[¡Póngase en contacto](/README.md#get-in-touch) y háganoslo saber!* *¡Nos encantan las sugerencias creativas!*
 
-Here's an example from the second Collaboration Cafe in September 2019:
+He aquí un ejemplo del segundo Café de Colaboración en septiembre de 2019:
 
-> *Name + biggest achievement from this week + emoji that best explain your day* *(Remember that this is a public document. You can use a pseudonym if you'd prefer.)*
+> *Nombre + mayor logro de esta semana + emoji que mejor explica tu día* *(Recuerda que este es un documento público. Puedes usar un seudónimo si lo prefieres.)*
 > 
-> * Kirstie Whitaker + got a structure written out for an article that had been super hard to get started on! + 🤦‍♀️ (because I got these times mixed up - whoops!)
-> * Malvika Sharan + Coming back from holiday, ready for exciting work :D + :grimacing:
+> * Kirstie Whitaker + obtuvo una estructura escrita para un artículo que había sido muy difícil de empezar! + 🤦‍♀️ (¡porque me mezclé estos tiempos - ¡pues!)
+> * Malvika Sharan + Volviendo de vacaciones, listo para un trabajo emocionante :D + :grimacing:
 
-As you can see, there's a reminder in the notes that they are in a public document. It's totally fine for you to add as much or as little information as you feel comfortable sharing.
+Como puede ver, hay un recordatorio en las notas de que están en un documento público. Está totalmente bien que añadas tanta o tan poca información como que te sientas cómodo compartir.
 
-### Conversation starters
+### Iniciadores de conversación
 
-In the **Conversation Starters** section of the HackMD notes, we encourage everyone to advertise their events or give an update from their community.
+En la sección de **Conversación de notas** de las notas de HackMD, animamos a todos a publicitar sus eventos o a dar una actualización de su comunidad.
 
-These don't have to be Turing Way "branded"! **We want to know about all the cool things you're working on.** ✨
+¡Estos no tienen que ser Turing Way "marcados"! **Queremos saber sobre todas las cosas geniales en las que estás trabajando.**✨
 
-### Good first contributions
+### Buenas primeras contribuciones
 
-We want the Collaboration Cafes to be a place that welcomes new and old members to _The Turing Way_ community.
+Queremos que los Cafés de Colaboración sean un lugar que dé la bienvenida a los nuevos y viejos miembros a la comunidad _The Turing Way_.
 
-In brainstorming these events, we imagined that some people may want to add new material that they've created before to the book, others may want to finish a contribution that they've started, and still others might want to learn new skills including _how_ to contribute to _The Turing Way_. These are **all** great reasons to join us!
+Al instornar estos eventos, imaginamos que algunas personas pueden querer agregar material nuevo que han creado antes al libro, otros pueden querer terminar una contribución que han comenzado, y todavía otros podrían querer aprender nuevas habilidades, incluyendo _cómo_ contribuir a _La Vía Turística_. ¡Estas son **todas las** grandes razones para unirte a nosotros!
 
-We'll always have someone on the team available to help you brainstorm your first contribution, and answer any questions about how to incorporate your work.
+Siempre tendremos a alguien en el equipo disponible para ayudarte a mejorar tu primera contribución, y contestar cualquier pregunta sobre cómo incorporar tu trabajo.
 
-Good first contributions might include:
+Buenas primeras contribuciones podrían incluir:
 
-* Finding a typo in the book and/or repository and fixing it.
-* Looking for duplicated information in the book and opening an issue to discuss how it can be combined.
-* Finding an old issue or PR and try to summarize the discussion so it is easy to decide on the next step.
-* Adding your personal experience of reproducible research in the always open google form: [https://goo.gl/forms/akFqZEIy2kxAjfZW2](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
+* Encontrar un error tipográfico en el libro y/o repositorio y arreglarlo.
+* Buscando información duplicada en el libro y abriendo un número para discutir cómo se puede combinar.
+* Encontrar un antiguo problema o relaciones públicas e intentar resumir la discusión para que sea fácil decidir el siguiente paso.
+* Añadir su experiencia personal de investigación reproducible en el formulario de google siempre abierto: [https://goo.gl/forms/akFqZEIy2kxAjfZW2](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
 
-(ch-coworking-collabcafe-breakout)=
-### Breakout rooms
+(ch-coworking-colabcafe-breakout)=
+### Salas de ruptura
 
-Zoom allows groups of collaborators to chat in one "main room" altogether, or to split up - within the same call - and talk with each other in smaller ["breakout rooms"](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms).
+El zoom permite a grupos de colaboradores chatear en una "sala principal" en total, o dividir - dentro de la misma llamada - y hablar entre sí en ["salas de ruptura" más pequeñas,](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms).
 
-During the online Collaboration Cafe sessions, we'll use the breakout rooms to allow people to talk about multiple different topics in parallel during the Pomodoro sessions.
+Durante las sesiones de Colaboración en línea, usaremos las salas de descanso para permitir que la gente hable de varios temas diferentes en paralelo durante las sesiones de Pomodoro.
 
-You'll see a breakout section in the shared notes:
+Verás una sección de ruptura en las notas compartidas:
 
-> **Breakout-rooms-Topic-proposals**
+> **Propuestas de ruptura de salas de trabajo**
 > 
-> *If you have an idea for a topic you'd like to discuss in a breakout room, please add it below and put your name next to it.* *If you like one of the topics that are already suggested, please add your name next to that one.* *Teamwork makes the dream work.* *For more information about breakout rooms see [the description on GitHub](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms).*
+> *Si tienes una idea para un tema que te gustaría discutir en una sala de rupturas. por favor añádelo abajo y ponga su nombre junto a él.* *Si te gusta uno de los temas que ya se sugieren, por favor agregue su nombre junto a éste.* *El trabajo en equipo hace que el sueño funcione.* *Para obtener más información sobre las salas de ruptura vea [la descripción en GitHub](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms).*
 
-For each session, you can propose a conversation to have in a breakout room or add your name to join a suggestion that is already on the list.
+Para cada sesión, puedes proponer una conversación para tener en una sala de descanso o añadir tu nombre para unirte a una sugerencia que ya está en la lista.
 
-You don't have to add your name in advance (although you're welcome to) and you don't have to stay in the breakout room you've put your name next to.
+No tienes que añadir tu nombre con antelación (aunque eres bienvenido) y no tienes que quedarte en la sala de descanso que has puesto al lado del nombre.
 
-Breakout room conversation topics might include:
+Los temas de conversación de la sala de interrupción podrían incluir:
 
-* GitHub new user or refresher questions (and answers)
-* Finding a good first issue
-* Reading and giving feedback on a chapter with the original author
-* Reading and giving feedback on a chapter with a new reader
-* Brainstorming _where_ your topics could best fit into _The Turing Way_
-* Bug squashing - removing barriers (technical and otherwise)
+* Nuevo usuario de GitHub o actualizar preguntas (y respuestas)
+* Encontrando un buen primer problema
+* Leyendo y dando comentarios sobre un capítulo con el autor original
+* Leer y dar comentarios sobre un capítulo con un nuevo lector
+* Trampa _donde_ tus temas podrían encajar mejor en _La Vía Turística_
+* Quitando errores - eliminando barreras (técnicas o de otro tipo)
 
-The person chairing the call will put you into the specific breakout rooms for the Pomodoro sessions and then bring you back into the main room for the 5-minute breaks and the broader conversation at the end of the Collaboration Cafe.
+La persona que preside la llamada le pondrá en las salas de descanso específicas para las sesiones de Pomodoro y luego le traerá de vuelta a la sala principal para las pausas de 5 minutos y la conversación más amplia al final del Café Collaboration.

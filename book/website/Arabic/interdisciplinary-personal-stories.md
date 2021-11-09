@@ -1,90 +1,90 @@
-(communication-aa-intps)=
-# Personal stories - Authorship on Interdisciplinary projects
+(الاتصال-aa-intps)=
+# قصص شخصية - تأليف مشاريع متعددة التخصصات
 
-## Federico Nanni and Mariona Coll Ardanuy - Living with Machines
+## فيديريكو ناني وماريونا كول أردانوي - العيش بالآلات
 
-[Living with Machines](https://livingwithmachines.ac.uk/) is a research project that rethinks the impact of technology on the lives of ordinary people during the Industrial Revolution.
+[العيش مع الآلات](https://livingwithmachines.ac.uk/) هو مشروع بحث يعيد التفكير في تأثير التكنولوجيا على حياة الناس العاديين أثناء الثورة الصناعية.
 
-It brings together an interdisciplinary group of researchers from a range of disciplines to create research methods, tools and data. They are working to change perceptions of how collaborations can be done and in doing this are discovering and working through some interesting challenges, including the issue of academic authorship.
+وهو يجمع بين مجموعة متعددة التخصصات من الباحثين من طائفة من التخصصات لاستحداث أساليب وأدوات وبيانات بحثية. وهي تعمل على تغيير التصورات عن الكيفية التي يمكن بها تحقيق التعاون، وهي بذلك تكتشف بعض التحديات المثيرة للاهتمام وتعمل من خلالها، بما في ذلك مسألة التأليف الأكاديمي.
 
-#### Find out more about their work below:
+#### اعرف المزيد عن عملهم أدناه:
 
 **Federico Nanni:**
 * [ORCID](https://orcid.org/0000-0003-2484-4331)
-* [Twitter](https://twitter.com/f_nanni)
-* [Website](https://github.com/fedenanni)
+* [تويتر](https://twitter.com/f_nanni)
+* [الموقع](https://github.com/fedenanni)
 
 **Mariona Coll Ardanuy**
 * [ORCID](http://orcid.org/0000-0001-8455-7196)
-* [Website](https://github.com/mcollardanuy)
+* [الموقع](https://github.com/mcollardanuy)
 
-**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
+**1. ما هي ممارسة المؤلف ** العادية للأبحاث الأكاديمية في تخصصك؟ أم كانت هي الممارسة العادية؟**
 
-We are an interdisciplinary project and therefore bring with us the usual practices of authorship from two distinct disciplines: Computational linguistics and the Humanities (History). This makes it trickier when trying to decide how to tackle authorship on our publications.
+ونحن مشروع متعدد التخصصات، ولذلك فإننا نجلب إلينا الممارسات المعتادة للمؤلفين من تخصصين مختلفين: اللغة الحسابية والعلوم الإنسانية (الهوزية). وهذا يجعل الأمر أكثر صعوبة عند محاولة البت في كيفية معالجة المؤلفين في منشوراتنا.
 
-Some of our team are Computational linguists, which is a scientific field concerned with modelling language computationally. In the project, we use natural language processing that is the engineering side of Computational linguistics. We are used to working on papers that have a team of authors and papers are produced and published at pace.
+بعض من فريقنا هم لغويون حسابيون، وهو مجال علمي مهتم بنمذجة اللغة على أساس الحاسوب. في المشروع، نستخدم معالجة اللغة الطبيعية التي هي الجانب الهندسي للغات الحسابية. ونحن معتادون على العمل على الورقات التي تضم فريقا من المؤلفين والأوراق التي يتم إعدادها ونشرها بالوتيرة.
 
-Other team members are from Humanities disciplines where sole author papers are common and are even required for career progression. The pace of publication in humanities is much slower.
+وينتمي أعضاء الأفرقة الآخرون إلى تخصصات العلوم الإنسانية حيث يكون المؤلف الوحيد للأوراق شائعا بل ومطلوبا للانتقال الوظيفي. إن وتيرة النشر في العلوم الإنسانية أبطأ بكثير.
 
-These two different approaches to authorship make it very hard to establish who should be an author or who should just be acknowledged. It is also difficult to work out who contributed the most, therefore establishing a ranking order of authors for papers, as we all have different roles in the project that are equally important to the overall goals.
+وهذان النهجان المختلفان للمؤلف يجعلان من الصعب جدا تحديد من ينبغي أن يكون مؤلفا أو من ينبغي الاعتراف به للتو. ومن الصعب أيضا تحديد الجهات التي ساهمت بأكبر قدر من المساهمات، ومن ثم وضع ترتيب لترتيب مؤلفي الورقات، وبما أننا جميعا نضطلع بأدوار مختلفة في المشروع تتسم بنفس القدر من الأهمية بالنسبة للأهداف العامة.
 
-The publications we have published so far are more focused on the computational linguistics side of the project and therefore we have been generous with authorship for the whole team. This is due to the acceptance in computational linguistics that a team would have worked together to achieve this work.
+والمطبوعات التي نشرناها حتى الآن أكثر تركيزا على الجانب الحسابي للغات في المشروع، ولذلك كنا سخيين في إعدادها للفريق بأكمله. ويرجع ذلك إلى القبول في اللغات الحسابية بأن الفريق كان سيعمل معا لإنجاز هذا العمل.
 
-However, when writing more historically based papers we may need to consider that some of our team members need sole author publications and that adding authors onto these papers devalues the perceived prestige of the paper for them. In this case, we will be careful to fully cite our previous technical papers and acknowledge all of the team in an acknowledgement section.
+غير وعندما نكتب أوراقا ذات أساس تاريخي أكثر، قد يتعين علينا أن نعتبر أن بعض أعضاء فريقنا يحتاجون إلى منشورات مؤلفة وحيدة وأن إضافة مؤلفين إلى هذه الورقات تقلل من شأن المكانة التي تتمتع بها الورقة بالنسبة لهم. وفي هذه الحالة، سنحرص على أن نستشهد على نحو كامل بورقاتنا الفنية السابقة وأن ننوه بجميع أعضاء الفريق في قسم اعتراف.
 
 
-**2. When did you discuss authorship in your project?**
+**2. متى ناقشت المؤلف في مشروعك؟**
 
-We started this process early but did not make much progress really until the first major paper of the project was about to be submitted. We then had to decide how to properly credit everyone in our team and it was driven by the need to get it done.
+وقد بدأنا هذه العملية في وقت مبكر، ولكننا لم نحرز تقدما كبيرا حتى كانت الورقة الرئيسية الأولى للمشروع على وشك تقديمها. ثم تعين علينا أن نقرر كيف نعطي الفضل المناسب لكل شخص في فريقنا وكان الدافع وراء ذلك هو الحاجة إلى القيام بذلك.
 
-**3. Who had the discussion of authorship in your project?**
+**3. من كان يناقش المؤلف في مشروعك؟**
 
-Everyone was involved in the discussions about authorship in meetings led by the Principal Investigator - Professor Ruth Ahnert. All our voices were listened to in these discussions and the approach to authorship in the project had good intentions from the start.
+وشارك الجميع في المناقشات المتعلقة بالمؤلفين في اجتماعات قادها المحقق الرئيسي - البروفيسور روث أهنر. وقد تم الاستماع إلى جميع أصواتنا في هذه المناقشات، وكان للنهج المتبع في إعداد المشروع نوايا حسنة منذ البداية.
 
-The discussions were very interdisciplinary as the project has a lot of postdoctoral researchers that all bring with them expert knowledge.
+وكانت المناقشات متعددة التخصصات جداً لأن المشروع لديه الكثير من الباحثين في مرحلة ما بعد الدكتوراه الذين يجلبون معهم معارف الخبراء.
 
-**4. What approach have you decided to take in your project?**
+**4. ما هو النهج الذي قررت اتباعه في مشروعك؟**
 
-We adopted the [CRediT taxonomy](https://casrai.org/credit/) to better present each author's contributions to the work. However, we felt it does not cover all the roles in our project so we adapted it. We felt that some of the categories were a bit vague and we wanted to be specific about the roles played by our team members.
+اعتمدنا تصنيف [CRediT](https://casrai.org/credit/) لعرض مساهمات كل مؤلف في العمل بشكل أفضل. غير أننا شعرنا بأنه لا يغطي جميع الأدوار في مشروعنا ولذلك قمنا بتكييفه. شعرنا أن بعض الفئات كانت غامضة بعض الشيء وأردنا أن نكون محددين حول الأدوار التي يقوم بها أعضاء فريقنا.
 
-The categories that we added were implementation, reproducibility, interpretation, historical analysis and annotation.
+وكانت الفئات التي أضافناها هي التنفيذ، والقابلية للتكرار، والتفسير، والتحليل التاريخي، والشروح التاريخية.
 
-We encountered an issue with the roles that were not being perceived equally, such as conceptualisation and supervision being seen as having more prestige than other roles. Therefore, even when trying to acknowledge team members contributions more inclusively there are still problems that arise.
+وقد واجهنا مشكلة تتعلق بالأدوار التي لم يكن ينظر إليها على قدم المساواة، مثل النظر إلى وضع المفاهيم والإشراف باعتبارهما أكثر هيبة من الأدوار الأخرى. ولذلك، وحتى عند محاولة الاعتراف بمساهمات أعضاء الأفرقة على نحو أكثر شمولا، لا تزال هناك مشاكل تنشأ.
 
-We decided to produce a cover page for the pre-print of our first methods paper. We wanted to reflect our thinking about moving away from an author list and raise the curtain on roles that are often hidden in research projects.
+قررنا إنتاج صفحة غلاف للطباعة المسبقة لورقة الأساليب الأولى لدينا. لقد أردنا أن نعكس تفكيرنا في الابتعاد عن قائمة المؤلفين ورفع الستار عن الأدوار التي غالبا ما تكون مخفية في مشاريع البحوث.
 
-The cover page makes the jobs on the project more explicit, you therefore do not presume what the authors do as you would with a list.
+وتجعل صفحة الغلاف الوظائف في المشروع أكثر وضوحا، ولذلك فإنكم لا تفترضون ما يفعله صاحبا البلاغ كما لو كنتم في قائمة.
 
-You can find out more about this in our blog - [Highlighting authors' contributions and interdisciplinary collaborations in Living with Machines](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
+يمكنك معرفة المزيد عن هذا في مدونتنا - [تسليط الضوء على مساهمات المؤلفين والتعاون المتعدد التخصصات في التعايش مع الآلات](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
 
-As we are trying to challenge how things are usually done, we were expecting this approach to bring conflicts and difficult discussions. Everyone came to this project with a similar mindset and this helped us to resolve any issues.
+وبما أننا نحاول تحدي الكيفية التي تتم بها الأمور عادة، فإننا كنا نتوقع أن يؤدي هذا النهج إلى نشوب الصراعات والمناقشات الصعبة. لقد أتى الجميع إلى هذا المشروع من منطلق مماثل وقد ساعدنا ذلك على حل أية مسائل.
 
-**5. How have you gone about this practically?**
+**5. كيف فعلت ذلك عملياً؟**
 
-We used a Google doc to send around the CRediT taxonomy and everyone could fill in their own name under the different categories.
+استخدمنا جوجل دوك لإرسال حول تصنيف CRediT ويمكن للجميع ملء اسمهم الخاص تحت مختلف الفئات.
 
-We did find that everyone had different opinions - some people did put themselves in many categories and others would only put their name in one when they should have got credit for more.
+وقد وجدنا أن كل شخص لديه آراء مختلفة - فبعض الناس وضعوا أنفسهم في فئات عديدة وآخرون لم يضعوا أسماءهم إلا في فئة واحدة عندما كان ينبغي لهم أن يحصلوا على الفضل في ذلك.
 
-This meant that there had to be a degree of moderation when finalising the list of contributions.
+وهذا يعني أنه لا بد من وجود درجة من الاعتدال عند وضع الصيغة النهائية لقائمة الاشتراكات.
 
-**6. What have been the problems with doing this?**
+**6. ما هي المشاكل في القيام بهذا؟**
 
-The cover page was a statement that was put in our pre-print to try to solve the issue of assigning contributions fairly and the need for a list of authors but it was a footnote in the final published article. Therefore, there still had to be a list of authors, and a first author for publication.
+وكانت صفحة الغلاف عبارة عن بيان وضع في طباعتنا المسبقة لمحاولة حل مسألة إسناد الاشتراكات بشكل عادل والحاجة إلى قائمة بالمؤلفين، ولكنها كانت حاشية في المقالة المنشورة النهائية. ولذلك، لا يزال يتعين وضع قائمة بالمؤلفين، وأول مؤلِّف للنشر.
 
-The main author, Mariona, was easy to decide as she had been the main writer and lead in everything to do with that paper but after that the order of authors was difficult.
+صاحبة البلاغ الرئيسية، ماريونا، وكان من السهل اتخاذ قرار لأنها كانت الكاتبة الرئيسية والقيادة في كل ما يتعلق بتلك الورقة، ولكن بعد ذلك كان ترتيب المؤلفين صعباً.
 
-Some team members don't have the same need for publications as postdoctoral researchers because they hold permanent positions or work in areas where other types of outputs, such as code, are more important. This adds another layer of consideration that needs to be addressed when discussing the author list.
+وليس لدى بعض أعضاء الأفرقة نفس الحاجة إلى المنشورات كباحثين في مرحلة ما بعد الدكتوراه لأنهم يشغلون مناصب دائمة أو يعملون في مجالات توجد فيها أنواع أخرى من النواتج. مثل البرمجة، أكثر أهمية. وهذا يضيف طبقة أخرى من الاعتبار يلزم تناولها عند مناقشة قائمة المؤلفين.
 
-There are also issues with assigning corresponding authors as in some fields this carries a perception of supervision or seniority in the team. In our case, it was just who was best to contact to find out more about the project.
+وهناك أيضا مسائل تتعلق بتعيين المؤلفين المناظرين، كما أن ذلك ينطوي في بعض الميادين على تصور للإشراف أو للأقدمية في الفريق. وفي حالتنا كان من الأفضل الاتصال لمعرفة المزيد عن المشروع.
 
-**7. How are you approaching the writing of the papers?**
+**7. كيف تقترب من كتابة الورقات؟**
 
-We had one person leading on a publication. They defined the structure, had an understanding of what was expected by the journal in terms of structure and formatting, they split up the paper into sections for different people to write and then everyone could write their parts. Then one person edited this work. It does need one person to edit the whole paper so they can have an idea of the overall flow and structure.
+كان لدينا شخص واحد يقود إصدار المنشور. وحددوا هيكل المجلة وفهمهم لما كان متوقعا منها من حيث هيكلها وشكلها، إنهم يقسمون الورقة إلى أقسام لأشخاص مختلفين للكتابة ومن ثم يستطيع الجميع كتابة أجزائهم. ثم قام شخص واحد بتحرير هذا العمل. وهي تحتاج إلى شخص واحد لتعديل الورقة بأكملها حتى يكون لديهم فكرة عن التدفق والبنية الإجماليين.
 
-This approach worked well for the technical papers we have written.
+وقد نجح هذا النهج في إعداد الورقات التقنية.
 
-**8. What collaborative tools are you using for the writing and projects?**
+**8. ما هي الأدوات التعاونية التي تستخدمها في الكتابة والمشاريع؟**
 
-We are using Overleaf, which is a LaTex based writing software, but I think some people are using Google docs for collaborative writing.
+نحن نستخدم أوفرليف، وهو برنامج كتابة يستند إلى لاتيكس، لكنني أعتقد أن بعض الناس يستخدمون مستندات جوجل للكتابة التعاونية.
 
-*This interview was conducted by Emma Karoune. We would like to thank Federico and Mariona for the useful discussions about academic authorship, and for commenting on this personal story and the wider academic authorship chapter.*
+*وأجرت هذه المقابلة السيدة إيما كاروني. ونود أن نشكر فيديريكو وماريونا على المناقشات المفيدة بشأن المؤلف الأكاديمي، وللتعليق على هذه القصة الشخصية والفصل الأوسع للمؤلفين الأكاديميين.*

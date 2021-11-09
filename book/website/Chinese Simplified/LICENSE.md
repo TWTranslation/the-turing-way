@@ -1,3 +1,3 @@
-# License for this book
+# 这本书的许可证
 
-All content in this book (located in the `book/website/` folder) is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. For more details please see our [README.md](../../README.md) file.
+这本书中的所有内容(位于 `book/website/` 文件夹) 都是在 [知识共享属性4下授权的。 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. 欲了解更多详情，请查看我们的 [README.md](../../README.md) 文件。

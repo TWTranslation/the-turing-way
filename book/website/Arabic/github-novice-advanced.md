@@ -1,19 +1,19 @@
-(cl-github-novice-advanced)=
-# Advanced GitHub features
-## More collaboration
-GitHub makes it easy to collaborate and create and manage teams. You can add collaborators to your organization or project and manage permissions using the Teams settings. Branches, pull requests and merges further facilitate streamlined, version-controlled, collaborative work. Take a look at the next chapter on {ref}`Maintainers and Reviewers on GitHub<cl-maintain-review>` for more information on how to use these features.
+(cl-github-novice-Advced)=
+# ميزات GitHub المتقدمة
+## مزيد من التعاون
+GitHub يجعل من السهل التعاون وإنشاء وإدارة الفرق. يمكنك إضافة متعاونين إلى مؤسستك أو مشروعك وإدارة الأذونات باستخدام إعدادات الأفرقة. وتعمل الفروع وطلبات السحب والدمج على زيادة تيسير العمل التعاوني المبسط والمتحكم في الإصدار. ألقي نظرة على الفصل التالي على {ref}`المشرفين والمراجعين على GitHub<cl-maintain-review>` لمزيد من المعلومات حول كيفية استخدام هذه الميزات.
 
-## Turn your project into a web page
-Your GitHub repo can be turned into a web page for your project by enabling GitHub pages in the settings. You can customise the web pages using one of the templates in GitHub or you can choose your own [Jekyll](https://jekyllrb.com/) theme.
+## تحويل مشروعك إلى صفحة ويب
+يمكن تحويل مستودع GitHub الخاص بك إلى صفحة ويب لمشروعك عن طريق تمكين صفحات GitHub في الإعدادات. يمكنك تخصيص صفحات الويب باستخدام أحد النماذج في GitHub أو يمكنك اختيار موضوع [Jekyll](https://jekyllrb.com/) الخاص بك.
 
-This resource - [GitHub for collaborative documentation](https://cassgvp.github.io/github-for-collaborative-documentation/) - has a [step-by-step guide](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/4-2-Make-your-Pages-site.html) of how to make GitHub pages.
+هذا المورد - [GitHub للتوثيق التعاوني](https://cassgvp.github.io/github-for-collaborative-documentation/) - لديه [دليل خطوة بخطوة](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/4-2-Make-your-Pages-site.html) لكيفية إنشاء صفحات GitHub .
 
-## Link this repository with an online platform
+## ربط هذا المستودع بمنصة عبر الإنترنت
 
-### Open Science Framework
-[Open Science Framework](https://osf.io/) is an online platform that enables researchers to link many different tools - such as Dropbox, GitHub and Google workspace - to create a completely open workflow. It is like a one-stop shop for all your project work. Here is a link to why you might want to use [Open Science Framework](https://www.cos.io/blog/5-ways-to-optimize-your-research-workflow-with-osf).
+### إطار العلوم المفتوحة
+[Open Science Framework](https://osf.io/) هو منصة على الإنترنت تمكن الباحثين من ربط العديد من الأدوات المختلفة - مثل Dropbox، GitHub وفضاء عمل Google - لإنشاء سير عمل مفتوح تماماً. إنه مثل متجر واحد لجميع أعمال مشروعك. إليك رابط لسبب رغبتك في استخدام [إطار العلوم المفتوحة](https://www.cos.io/blog/5-ways-to-optimize-your-research-workflow-with-osf).
 
-### Code/repository publications
-Making your code citeable is an important part of open science. Several platforms are well integrated with GitHub, reducing friction for creating versioned releases and publishing peer-reviewed research software.
-- [Zenodo](https://zenodo.org/) allows you to easily (and automatically, once you've set it up and linked it to your repository) create version-specific and tool-concept level digital object identifiers (DOIs). This makes it easier for you and your users to cite your software, including the version used in a workflow, with unique DOIs.
-- [Journal of Open Source Software (JOSS)](https://joss.theoj.org/) is an open access, peer-reviewed journal for publishing research software packages. Document the effort involved in developing robust software (including testing and documentation) with a peer-reviewed publication.
+### الكود/منشورات المستودع
+جعل تعليماتك البرمجية قابلة للاستشهاد بها جزء هام من العلوم المفتوحة. وهناك عدة منصات مدمجة جيدا مع GitHub، مما يقلل من الاحتكاك لإنشاء إصدارات مطبوعة ونشر برامجيات البحوث التي يستعرضها الأقران.
+- [Zenodo](https://zenodo.org/) يسمح لك بسهولة (تلقائياً)، بمجرد أن تقوم بإعداده وربطه بالمستودع الخاص بك) قم بإنشاء معرِّفات الكائن الرقمي على مستوى الإصدار ومفهوم الأدوات (DOIs). هذا يجعل من الأسهل لك ولمستخدميك أن يستشهدوا ببرنامجك، بما في ذلك الإصدار المستخدم في سير العمل، مع أجهزة DOIs الفريدة.
+- [يومية برمجيات المصدر المفتوح (JOSS)](https://joss.theoj.org/) هي مجلة مفتوحة ، مراجعة الأقران لنشر حزم برامج البحوث. وتوثيق الجهد المبذول في تطوير برمجيات قوية (بما في ذلك الاختبارات والوثائق) من خلال إصدار منشور يخضع لاستعراض الأقران.

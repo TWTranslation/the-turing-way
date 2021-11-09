@@ -1,181 +1,181 @@
-(rr-vcs-github)=
-# Git Commands to Work on GitHub
+(r-vcs-github)=
+# أوامر Git للعمل على GitHub
 
-As research becomes increasingly collaborative and multiple people work on the same project, it becomes difficult to keep track of changes made by others if not done systematically. Moreover, it is time-consuming to manually incorporate the work of different participants in a project, even when all of their changes are compatible. Hosting the project on an online repository hosting service like GitHub is beneficial to make collaborations open and effective. If you are new to collaboration through [GitHub](https://github.com), please follow the comprehensive guide in the previous sections.
+ومع تزايد التعاون في البحوث وعمل أناس متعددين على نفس المشروع، ويصبح من الصعب تتبع التغييرات التي يجريها الآخرون إن لم يتم إجراؤها بانتظام. وعلاوة على ذلك، فإن إدماج عمل مختلف المشاركين في المشروع يدوياً يستغرق وقتاً طويلاً، حتى عندما تكون جميع تغييراتهم متوافقة. استضافة المشروع على خدمة استضافة مستودع على الإنترنت مثل GitHub مفيد لجعل التعاون مفتوحا وفعالا. إذا كنت جديداً على التعاون من خلال [GitHub](https://github.com)، يرجى اتباع الدليل الشامل في الأقسام السابقة.
 
-In this section, we will discuss how to use Git commands to work with an online Git repository.
+في هذا القسم، سنناقش كيفية استخدام أوامر Git للعمل مع مستودع Git على الإنترنت.
 
-Please note that the commands listed in this chapter (both in this and previous subchapters) are NOT specific to GitHub. They are used for collaborative work on any Git repositories and to interact with any repository hosting site/servers, which can be [GitHub](https://github.com/), but also [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/) or a [self-set-up bare Git repository on a web server](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6).
+يرجى ملاحظة أن الأوامر المدرجة في هذا الفصل (سواء في هذا الفصل أو في الفصول الفرعية السابقة) ليست خاصة بGitHub. وهي تستخدم للعمل التعاوني في أي مستودعات لنظام Git وللتفاعل مع أي موقع/خوادم مستودعة. التي يمكن أن تكون [GitHub](https://github.com/)، ولكن أيضا [GitLab](https://about.gitlab.com/)، [Bitbucket](https://bitbucket.org/) أو [ذاتي الإعداد Git المستودع على خادم ويب](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6).
 
-For simplicity, we will use GitHub as an example to explain commands that are used for interacting with Git repositories.
+من أجل البساطة، سوف نستخدم GitHub كمثال لشرح الأوامر المستخدمة للتفاعل مع مستودعات Git.
 
 (rr-vcs-github-local)=
-## Create a Local Copy of an Online Repository
+## إنشاء نسخة محلية من مستودع على الإنترنت
 
-So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a *clone* (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a *remote*, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a `remote` of the local repository. Usually, this remote is called "origin". Having a web-based remote allows you to *push* changes to your project online. It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a *pull request* that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:
+وحتى الآن، فإن جميع أوامر Git المقدمة في هذا الفصل تتعلق بمستودعات Git المحلية غير المتصلة. ومن أجل التعاون مع الآخرين، يستضيف خدمات مثل GitHub، يمكن تخزين *نسخة* (نسخة) من مستودعك المحلي وتعريضها للآخرين. عادةً ، سيكون لديك مستودع محلي و *مستودع بعيد*، مستودع مستضاف على الإنترنت. مستودعك المحلي متصل بالنسخة القائمة على الويب. من الناحية التقنية، الاستنساخ القائم على الويب هو `بعيد` من المستودع المحلي. عادةً ما يسمى هذا البعيد "الأصلي". إن وجود جهاز بعيد قائم على الويب يسمح لك *بدفع* التغييرات على مشروعك على الإنترنت. يتيح للآخرين الحصول على نسخة خاصة بهم من مستودعك (نسخة من مستودعك إلى حاسوبهم المحلي)، إجراء تغييرات، وتقديم *طلب سحب* الذي يسمح لك بدمج التغييرات. على سبيل المثال، يمكن إنشاء نسخة محلية مستقلة من مشروع باستخدام أمر Git التالي:
 
 ```
 git clone <insert GitHub link of the repository here>
 ```
 
-Collaborators can update their local version of an online repository or *pull* other's work into their copy using the command:
+يمكن للمتعاونين تحديث الإصدار المحلي الخاص بهم من مستودع على الإنترنت أو *سحب* عمل الآخرين إلى نسختهم باستخدام الأمر:
 ```
 git pull
 ```
-Similarly, they can edit files locally and stage their updates (`git add .`), commit changes to a new version (`git commit`) and *push* changes to the remote online repository using the Git command:
+بالمثل، يمكنهم تحرير الملفات المحلية وإعداد تحديثاتهم (`git إضافة.`)، قم بإدخال تغييرات على إصدار جديد (`git obligation`) و *دفع* تغييرات إلى مستودع الإنترنت البعيد باستخدام أمر Git:
 ```
-git push
+دفعة git
 ```
 (rr-vcs-github-online)=
-## Link a Local Project on Your Computer to an Online Repository
+## ربط مشروع محلي على جهاز الكمبيوتر الخاص بك إلى مستودع على الإنترنت
 
-To link a project on your computer to a new GitHub repository (preferably with the same name), you need to follow the standard workflow for creating a Git repository (described in the {ref}`rr-vcs-workflow` subchapter) by issuing the following set of commands in the terminal, one by one:
+لربط مشروع على جهاز الكمبيوتر الخاص بك بمستودع GitHub جديد (يفضل أن يكون بنفس الاسم)، تحتاج إلى اتباع سير العمل القياسي لإنشاء مستودع Git (الموصوف في الفصل الفرعي {ref}`rr-vcs-workflow` عن طريق إصدار مجموعة الأوامر التالية في المحطة الطرفية، الواحد تلو الآخر:
 
 ```
 cd <your project folder>
 git init
-git add .
-git commit
+git إضافة.
+التزام git
 ```
-Assuming that you have a GitHub repository that you want to connect with this project, run the following command:
+على افتراض أن لديك مستودع GitHub الذي تريد الاتصال بهذا المشروع، قم بتشغيل الأمر التالي:
 
 ```
-git remote add origin <GitHub repository link for your project>
+git قم بإضافة الأصل عن بعد <GitHub repository link for your project>
 ```
 
-Then, *push* all the files on your computer to the online version so they match:
+ثم *دفع* جميع الملفات على جهاز الكمبيوتر الخاص بك إلى الإصدار عبر الإنترنت بحيث تتطابق:
 
 ```
-git push -u origin main
+Git push -u الأصل الرئيسي
 ```
 
-You can then go on and make more commits on your computer. When you want to push them to your online version, similarly you do:
+يمكنك بعد ذلك المضي قدما و القيام بالمزيد من الالتزامات على جهاز الكمبيوتر الخاص بك. عندما ترغب في دفعهم إلى الإصدار الخاص بك على الإنترنت، فأنت كذلك تفعل:
 
 ```
-git push origin branch_you_want_to_push_to
+git دفع فرع_الأصل_you_want_to_push_إلى
 ```
 
-You can also make changes directly on GitHub by editing the online repository, and *pull* those changes locally by using the `git pull` command.
+يمكنك أيضًا إجراء تغييرات مباشرة على GitHub عن طريق تحرير مستودع الإنترنت، و *اسحب* هذه التغييرات محليا باستخدام الأمر `git سحب`.
 
-Others can also clone the repository to their computer by using:
+ويمكن للآخرين أيضا استنساخ المستودع إلى حاسوبهم باستخدام ما يلي:
 
 ```
 git clone git@github.com:your-github-username/repository_name
 ```
 
-They can make and commit changes to the code without impacting the original, and push their changes to *their* online GitHub account using:
+يمكنهم إجراء تغييرات على التعليمات البرمجية والالتزام بها دون التأثير على النسخة الأصلية، ودفع التغييرات إلى *حسابهم* على الإنترنت GitHub باستخدام:
 
 ```
-git push -u origin main
+Git push -u الأصل الرئيسي
 ```
 
-The same procedure applies to you if you want to clone someone else's repository.
+نفس الإجراء ينطبق عليكم إذا أردت استنساخ مستودع شخص آخر.
 
 (rr-vcs-github-online-pull)=
-### Pull Requests
+### طلبات السحب
 
-If you are working on a personal branch and some other changes were made in the main branch, you can *pull* those changes down to your branch using the Git command:
+إذا كنت تعمل في فرع شخصي وأجريت بعض التغييرات الأخرى في الفرع الرئيسي، يمكنك *سحب* هذه التغييرات إلى أسفل فرعك باستخدام أمر Git:
 ```
-git pull origin main
-```
-
-When everyone has a copy of the project on their own branch (checkout your branch with `git checkout branch-name`), they can *push* their changes to their branch using the following command:
-
-```
-git push origin branch-name
+Git مصدر الجذب الرئيسي
 ```
 
-However, if you can not directly edit the repository (when you are not an owner or admin of the project), you will be able to share your work with the help of *pull requests*. A pull request allows a contributor to get the proposed changes from their branch or repository integrated into the main branch of the project. It is also possible to make pull requests via the command line (see the GitLab documentation [here](https://git-scm.com/docs/git-request-pull)).
+عندما يكون لدى الجميع نسخة من المشروع على فرعهم الخاص (قم بفحص فرعك باستخدام `git Checout branch name`)، يمكنهم *دفع* التغييرات إلى فرعهم باستخدام الأمر التالي:
+
+```
+Git دفع اسم فرع الأصل
+```
+
+على كل حال، إذا لم يكن بإمكانك تعديل المستودع مباشرة (عندما لا تكون مالك المشروع أو مشرفًا)، ستتمكن من مشاركة عملك بمساعدة *طلبات السحب*. ويسمح طلب السحب للمساهم بإدماج التغييرات المقترحة من فرعه أو مستودعه في الفرع الرئيسي للمشروع. من الممكن أيضا تقديم طلبات السحب عبر سطر الأوامر (انظر وثائق GitLab [هنا](https://git-scm.com/docs/git-request-pull)).
 
 (rr-vcs-github-contributing)=
-## Contributing to Other Projects
+## المساهمة في مشاريع أخرى
 
-When you create a local copy of a repository, you only keep the versions of the files that are in the repository at the time of creating that copy. If any changes are made in the original repository afterwards, your copy will get out of sync out-of-sync. This can lead to problems like conflicting file contents when making a pull request or merging changes from your branch to the main repository. Therefore, when working on different branches or forks of a repository, it is a good practice to keep them updated with the main repository and in sync with the original repository.
+عند إنشاء نسخة محلية من المستودع، أنت تحتفظ فقط بنسخ الملفات الموجودة في المستودع في وقت إنشاء تلك النسخة. إذا تم إجراء أي تغييرات في المستودع الأصلي بعد ذلك، فإن نسختك ستخرج من المزامنة خارج المزامنة. قد يؤدي هذا إلى مشاكل مثل تضارب محتويات الملفات عند تقديم طلب سحب أو دمج التغييرات من فرعك إلى المستودع الرئيسي. ولذلك، عندما تعمل في فروع أو شعاع مختلفة من المستودع، ومن الممارسات الجيدة إبقائهم على علم بالمستجدات مع المستودع الرئيسي وبالتزامن مع المستودع الأصلي.
 
 (rr-vcs-github-contributing-workflow)=
-### A Workflow to Contribute to Others Github Projects via `git`:
+### سير العمل للإسهام في مشاريع أخرى Github عن طريق `git`:
 
-Using the fork button on the GitHub repository you wish to contribute to, create a copy of the repository in your account. The main repository that you forked will be referred to as the "upstream" repository.
+باستخدام زر التشابه في مستودع GitHub الذي ترغب في المساهمة فيه، قم بإنشاء نسخة من المستودع في حسابك. المستودع الرئيسي الذي شكلته سوف يشار إليه على أنه مستودع "التمهيد".
 
-You can now work on your copy using the command line, via the following steps (make sure you replace the placeholder user and repository names):
+يمكنك الآن العمل على نسختك باستخدام سطر الأوامر، عبر الخطوات التالية (تأكد من استبدال اسم المستخدم النائب وأسماء المستودع):
 
-1. Clone it to your local machine:
+1. استنساخه إلى جهازك المحلي:
 
     ```
     git clone git@github.com:your-github-username/repository_name
     ```
 
-2. Add the 'upstream' repository to the list of remote repositories using the `git remote` command:
+2. إضافة مستودع 'upstream' إلى قائمة المستودعات البعيدة باستخدام الأمر `git البعيد`:
 
     ```
     git remote add upstream git@github.com:upstream-github-username/repository_name
     ```
 
-3. Verify the new remote 'upstream' repository:
+3. التحقق من مستودع 'التمهيد' الجديد عن بعد:
 
     ```
-    git remote -v
+    git البعيد -v
     ```
 
-4. Update your fork with the latest upstream changes, by first fetching the upstream repository's branches and latest commits to bring them into your repository:
+4. قم بتحديث الشوكة الخاصة بك مع أحدث التغييرات التمهيدية، عن طريق جلب فروع المستودع التمهيدي وأحدث الإلتزامات لجلبها إلى المستودع الخاص بك:
 
     ```
-    git fetch upstream
+    Git يجلب أعلى مجرى
     ```
 
-5. View all branches, including those from upstream:
+5. عرض جميع الفروع، بما في ذلك تلك من التمهيد:
 
     ```
     git branch -va
     ```
 
-Make sure that you are on your main branch locally, if not, then checkout your main branch using the command `git checkout main`
+تأكد من أنك في فرعك الرئيسي محلياً، إذا لم يكن الأمر كذلك، قم بفحص فرعك الرئيسي باستخدام الأمر `git الخروج الرئيسي`
 
-6. Keep your fork updated by merging those commits (fetched from the upstream) to your own local main branch.
+6. حافظ على تحديث الشورى الخاص بك بدمج تلك الإلتزامات (التي تم جلبها من الجزء العلوي) إلى الفرع الرئيسي المحلي الخاص بك.
 
     ```
-    git merge upstream/main
+    git دمج أعلى تدفق / رئيسي
     ```
 
-Now, your local main branch is up-to-date with everything modified upstream. If there are no unique commits on the local main branch, git will simply perform a fast-forward.
+الآن، فرعكم الرئيسي محدث مع كل ما تم تعديله في أعلى مجال. وإذا لم تكن هناك التزامات فريدة من نوعها على الفرع الرئيسي المحلي، فإن Git سوف يؤدي ببساطة إلى الأمام بسرعة.
 
-*Note: The upstream/main is the original repository's main which you wish to contribute to, whereas origin/main refers to the repository you cloned in your local machine after it was forked on GitHub.*
+*ملاحظة: التمهيد/الرئيسي هو المحل الرئيسي للمستودع الأصلي الذي ترغب في المساهمة فيه، بينما يشير المنشأ/الرئيسي إلى المستودع الذي استنسخته في آلتك المحلية بعد أن تم شفره في GitHub.*
 
-Once your fork is in sync with the upstream main repository, you can always keep your local cloned repository in sync with origin (fork in this case) by using:
-
-```
-git checkout main
-git pull
-```
-
-The `git pull` command combines two other commands, `git fetch` and `git merge`. When using `git fetch`, the resulting commits are stored as the remote branch allows you to review the changes before merging.
-
-Similarly, if you have created more branches other than main, you can also keep them in sync with your main, once it is in sync with the upstream repository.
+بمجرد أن يكون الشوك الخاص بك متزامنا مع المستودع الرئيسي في الجزء العلوي، يمكنك دائماً الحفاظ على مستودعك المستنسخ المحلي في تزامن مع الأصل (شوك في هذه الحالة) باستخدام:
 
 ```
-git checkout my-other-branch
-git pull origin main
+Git الدفع الرئيسي
+git سحب
 ```
 
-When everything is up-to-date, you can work on your branch and commit changes.
+الأمر `git سحب` يجمع بين أمرين آخرين، `git يجلب` و `git يدمج`. عند استخدام `git إحضار`، يتم تخزين الأوامر الناتجة لأن الفرع البعيد يسمح لك بمراجعة التغييرات قبل الدمج.
 
-When you are ready to push your local commits to your forked repository (origin), use the following command.
+وبالمثل، إذا كنتم قد أنشئتم عددا أكبر من الفروع بخلاف الفروع الرئيسية، يمكنك أيضًا الحفاظ عليهم في تزامن مع رئيسك الرئيسي، بمجرد أن يكون متزامنا مع المستودع العلوي.
 
 ```
-git push origin forked_repository
+git الدفع my-other-branch
+git سحب الأصل الرئيسي
 ```
 
-Now you can make a pull request!
+عندما يكون كل شيء مستكمل، يمكنك العمل على فرعك والالتزام بإجراء تغييرات.
+
+عندما تكون على استعداد لدفع التزاماتك المحلية إلى مستودع الشوكات الخاص بك (المصدر)، استخدم الأمر التالي.
+
+```
+git دفع الأصل شوكيد_المستودع
+```
+
+الآن يمكنك تقديم طلب سحب!
 
 (rr-vcs-github-contributing-practice)=
-### Good Practice
+### الممارسات الجيدة
 
-Before you create a branch, make sure you have all the upstream changes from the origin/main branch.
-
-
-**A word of caution on the `rebase` command**: While trying to keep your branches in sync, you may come across the `rebase` command. It tends to rewrite history and could be troublesome if not communicated with others working on the same branch. Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section. You can find more details about [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+قبل إنشاء الفرع، تأكد من أن لديك جميع التغييرات الأولية من المنشأ/الفرع الرئيسي.
 
 
-## Further reading
-- An [article on syncing a fork of a repository](https://help.github.com/en/articles/syncing-a-fork) to keep it up-to-date with the upstream repository.
-- Instructions if you wish to do it all [in the browser itself](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).
+**كلمة تحذير في الأمر `إعادة القاعدة`**: أثناء محاولة الحفاظ على مزامنة فروعك، قد تأتي عبر أمر `إعادة القاعدة`. وهو يميل إلى إعادة كتابة التاريخ ويمكن أن يكون مزعجا إن لم يتم الاتصال بالآخرين العاملين في نفس الفرع. حاول تجنب استخدام أمر `قاعدة` ، وبدلا من ذلك، استخدم `سحب` أو `جلب`+`دمج`، كما نوقش في هذا الفرع. يمكنك العثور على المزيد من التفاصيل حول [دمج ضد إعادة أساس](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+
+
+## مزيد من القراءة
+- مقالة [حول مزامنة شوك من مستودع](https://help.github.com/en/articles/syncing-a-fork) لإبقائه على علم بآخر المستجدات مع المستودع العلوي.
+- تعليمات إذا كنت ترغب في فعل كل [في المتصفح نفسه](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).

@@ -1,62 +1,62 @@
-(rr-open-data)=
-# Open Data
+(rr-opendata)=
+# 打开数据
 
-The world is witnessing a significant global transformation, facilitated by technology and digital media, and fuelled by data and information. This transformation has enormous potential to foster more transparent, accountable, efficient, responsive, and effective research. Only a very small proportion of the original data is published in conventional journals. Despite existing policies on archiving data, in today’s practice data are primarily stored in private files, not in secure institutional repositories, and effectively are lost to the public (and often even to the researcher who generated the data).
+世界正在目睹由技术和数字媒介推动的重大全球转变，数据和信息也助长了这种转变。 这种转变在促进更加透明、负责、高效、及时和有效的研究方面具有巨大潜力。 在传统刊物上发表的原始数据只占很小一部分。 尽管存在着归档数据的政策，但在当今实践中，数据主要储存在私人档案中。 而不是安全的机构存放处，而实际上公众(甚至往往是生成数据的研究人员)都失去了这种存放处。
 
-This lack of data sharing is an obstacle to international research (be it academic, governmental, or commercial) for two main reasons:
+这种缺乏数据共享的情况妨碍了国际研究（无论是学术研究、政府研究还是商业研究），因为有两个主要原因：
 
-1. It is generally difficult or impossible to reproduce a study without the original data.
-2. The data cannot be reused or incorporated into new work by other researchers if they cannot obtain access to it.
+1. 如果没有原始数据，通常很难或不可能复制一项研究。
+2. 如果其他研究人员无法获得这些数据，他们就不能重新利用这些数据或将其纳入新的工作。
 
-Accordingly, there is an ongoing global data revolution that seeks to advance collaboration and the creation and expansion of effective, efficient research programs. Open data [{term}`def<Open data>`] is crucial to meeting these objectives. Open data is freely available on the internet. Any user is permitted to download, copy, analyse, re-process, and re-use it for any other purpose with minimal financial, legal, and technical barriers.
+因此，目前正在进行一场全球数据革命，力求促进合作，建立和扩大有效率的研究方案。 打开数据 [{term}`def<Open data>`] 对于实现这些目标至关重要。 可在互联网上免费获取打开的数据。 允许任何用户为任何其他目的下载、复制、分析、重新处理和再使用，只要财政、法律和技术障碍最小。
 
-This represents a real shift in how research works. Funders are starting to require researchers to make their data available and submit data management plans {ref}`Data Management Plans<rr-rdm-dmp>` as part of project proposals. At the moment, anyone who wishes to use data from a researcher often has to contact that researcher and make a request. "Open by default" remedies this with a presumption of publication for all. If access to data is restricted, for instance, due to security reasons, the justification for this should be made clear. Free access to and subsequent use of data is of significant value to society and the economy. That data should, therefore, be open by default and only as closed as necessary.
+这表明研究工作的方式发生了真正的变化。 资助者开始要求研究人员提供其数据，并提交数据管理计划 {ref}`数据管理计划<rr-rdm-dmp>` 作为项目提案的一部分。 目前，任何希望使用研究人员提供的数据的人往往必须与该研究人员联系并提出要求。 “默认打开”补救办法，推定所有人公布。 例如，如果由于安全原因而限制获取数据，就应当说明这样做的理由。 免费获取和随后使用数据对社会和经济具有重要价值。 因此，该数据应默认开放，并且只在必要时保密。
 
-You can find more about the practical steps to make your data available in the section describing {ref}`Steps to Share your Data <rr-rdm-sharing-steps>` in the subchapter: {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
+您可以在描述 {ref}的章节中找到更多关于您数据的实际步骤。`分享您数据的步骤 <rr-rdm-sharing-steps>` 在子章节中： {ref}`分享和归档数据<rr-rdm-sharing>`
 
 (rr-open-data-barriers)=
-## Barriers to Data Sharing
-Many academics find sharing data difficult. Recent surveys {cite:t}`Stuart2018sharing` conducted amongst researchers list the following reasons:
+## 数据共享障碍
+许多学者发现难以分享数据。 最近在研究人员中进行的调查 {cite:t}`Stuart2018sharing` 列出了以下原因：
 
-- Organising data in a presentable and useful way is challenging (mentioned by 46%)
-- Researchers are unsure about copyright and licensing (mentioned by 37%)
-- Researchers do not know which repository to use for different data types (raised by 33%)
+- 以可展示和有益的方式组织数据是一项挑战（46％提到）
+- 研究人员对版权和许可证的不确定性(37%提到)
+- 研究人员不知道用于不同数据类型的存储库(增加33%)
 
-These are cultural challenges that might be addressed in changing practice going forward. However, there are also legal, ethical or contractual reasons that sometimes prevent making data publicly available in its entirety or even in parts. Below, we discuss some reasons explaining why this may be the case.
+这些是在改变今后做法时可以应对的文化挑战。 然而，还有一些法律、道德或合同方面的原因有时妨碍将数据全部或部分公诸于众。 下面我们讨论一些理由，说明为什么会出现这种情况。
 
 ```{figure} ../../figures/data-privacy.jpg
 ---
-height: 500px
-name: data-privacy
-alt: An image detailing why private data should be used. A person stands next to a well with 'private data' written on it and a padlock around it. It is black and white and blue. The text lists that 'people deserve - dignity, agency, privacy, rights, confirmed consent.'
+高度：500px
+name: 数据隐私
+alt: 详细说明为何应该使用私人数据的图像。 一个人站在井旁，上面写着“私人数据”和锁定井旁边。 它是黑白和蓝色。 案文列出了“人们应该得到的――尊严、代理、隐私、权利、确认同意”。
 ---
-_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
+_Ting Way_ 项目示意图由 Storeria 标明。 Zenodo的原始版本。 [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
 (rr-open-data-barriers-privacy)=
-### Privacy And Data Protection
+### 隐私和数据保护
 
-Many fields of research involve working with sensitive personal data, with medical research being the most obvious example. Individuals must be protected from (re)identification via their data used for research. Anonymisation of the data may be sufficient in some cases, but ensuring that (re)identification is not possible is becoming increasingly difficult due to technical progress, growing computational power, and – ironically – more open data. For example, (re)identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify individuals.
+许多研究领域涉及敏感的个人资料，医学研究是最明显的例子。 必须通过用于研究的数据保护个人不被（重新）识别。 在某些情况下，数据的地名化可能已经足够，但由于技术进展，确保不可能进行(重新)身份鉴定。 不断增长的计算功率，以及——具有讽刺意味的——更多开放的数据。 例如，可以通过数据挖掘可获得的数据和所谓的准识别器来进行(重新)鉴定。 一组（普通）属性，它们的组合——非常具体，可以用来识别个人。
 
-Preserving privacy may still be possible if partial or generalised datasets are provided. For example, you may provide age bands instead of birth date or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query it whilst keeping the data itself closed. For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points.
+如果提供部分或普遍化的数据集，则仍有可能保持隐私。 例如，您可以提供年龄段而不是出生日期，或者只提供头两位邮政编码。 还可以以研究人员在关闭数据本身的同时能够查询的格式提供数据。 例如，用户可以发送查询以检索数据集的平均值。 但不能访问任何单独的数据点。
 
-Many fields of scientific disciplines involve working with sensitive personal data. Their management is well regulated in data protection legislation (in Europe through national implementations of the General Data Protection Regulation) and ethics procedures as they are established in most research institutions. {cite:t}`EU2016protection`.
+许多学科领域涉及敏感的个人数据。 它们的管理在数据保护立法（欧洲通过国家执行《一般数据保护条例》）和大多数研究机构所确立的道德程序中都得到很好的管理。 {cite:t}`EU2016保护`。
 
 (rr-open-data-barriers-consent)=
-### Consent
+### 同意
 
-For anonymised research data to be made available for future reuse, consent forms must cover sharing this data with other researchers. Research so far suggests that study participants are usually less concerned about the data being archived and shared than researchers think {cite:t}`Kuula2010archiving`. Participant information sheets and consent forms should include how research data will be stored, preserved and used in the long term, and how confidentiality will be protected when needed.
+若要提供匿名研究数据供今后再使用，同意书必须包括与其他研究人员分享这种数据。 迄今为止的研究表明，与研究人员的思维 {cite:t}`Kuula2010存档` 相比，研究参与者对存档和共享数据的关注程度通常较低。 与会者资料单和同意书应包括如何储存研究数据， 在长期内保持和使用，并在必要时如何保护机密。
 
 (rr-open-data-barriers-anonymisation)=
 ### Anonymisation
 
-Individuals must be protected from (re)identification through their data Anonymisation of the data may be sufficient in some cases, but ensuring that re-identification is not possible is becoming increasingly difficult. It might even be impossible due to technical progress, growing computational power and – ironically – more open data.
+必须通过其数据保护个人不被（重新）识别。 在某些情况下，数据的匿名化可能就足够了。 但确保不可能重新查验身份正变得越来越困难。 由于技术进步、计算功率增长以及具有讽刺意味的是——更多开放的数据，甚至可能无法实现这一目标。
 
-For example, re-identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify an individual. Preserving privacy may still be possible if partial or generalised datasets are provided, like age groups instead of birth date, or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query whilst keeping the data itself closed. For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points. Another way to provide anonymised data is to provide [synthetic data](https://en.wikipedia.org/wiki/Synthetic_data), data generated to reflect the conditions and properties of the raw data, without including any personal information.
+例如，可以通过数据挖掘可获得的数据和所谓准识别器来重新确定身份。 一组（普通）属性——组合——非常具体，可以用来识别个人。 如果提供了部分或普遍化的数据集，则仍有可能保持隐私。 例如年龄组而不是出生日期，或者只有头两位邮政编码。 还可以用研究人员在关闭数据本身的同时能够查询的格式提供数据。 例如，用户可以发送查询以检索数据集的平均值。 但不能访问任何单独的数据点。 提供匿名数据的另一种方法是提供 [个合成数据](https://en.wikipedia.org/wiki/Synthetic_data)， (b) 为反映原始数据的条件和特性而产生的数据，而不包括任何个人信息。
 
 (rr-open-data-barriers-national)=
-### National and Commercially Sensitive Data
+### 国家和商业敏感数据
 
-In many cases, companies are understandably unwilling to publish much of their data. The reasoning goes that if commercially sensitive information of a company is disclosed, it will damage the company’s commercial interests and undermine competitiveness. This is based on the thinking that in competitive markets, innovation will only occur with some protection of information. If a company spends time and money developing something new, the details of which are then made public, then its competitors can easily copy it without having to invest the same resources. The result is that no one would innovate in the first place. Similarly, for public safety concerns, governments are often unwilling to publish data that relates to issues such as national security. In such cases, it may not be possible to make data open, or it may only be possible to share partial/obscured datasets.
+在许多情况下，公司不愿意公布大部分数据，这是可以理解的。 理由是，如果披露公司的商业敏感信息，就会损害公司的商业利益并损害竞争力。 这是基于这样一种想法，即在竞争性市场上，只有在一定程度上保护信息的情况下才能实现创新。 如果一家公司花费时间和资金开发新的东西，其细节就会公开。 然后它的竞争者可以很容易地复制它，而不必投资同样的资源。 其结果是，任何人首先都不会创新。 同样，对于公共安全问题，政府往往不愿意公布与国家安全等问题有关的数据。 在这种情况下，可能无法打开数据，或者只能分享部分/模糊的数据集。
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

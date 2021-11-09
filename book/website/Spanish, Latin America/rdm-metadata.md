@@ -1,14 +1,14 @@
-(rr-rdm-metadata)=
-# Documentation and Metadata
+(rr-rdm-metadatos)=
+# Documentación y metadatos
 
-Having data available is of no use if it cannot be understood. For example, a table of numbers is useless if there are no headings that describe what the columns/rows contain. Therefore you should ensure that open datasets include consistent metadata, that is information about the data, so that the data is fully described. This requires that all documentation accompanying data is written in clear, plain language, and that data users have sufficient information to understand the source, strengths, weaknesses, and analytical limitations of the data so that they can make informed decisions when using it.
+Tener datos disponibles no sirve de nada si no se puede entender. Por ejemplo, una tabla de números es inútil si no hay cabeceras que describan lo que contienen las columnas/filas. Por lo tanto, debe asegurarse de que los conjuntos de datos abiertos incluyan metadatos consistentes, es decir, información sobre los datos, para que los datos estén completamente descritos. Esto requiere que toda la documentación que acompaña los datos esté escrita en lenguaje claro, claro, y que los usuarios de datos tengan suficiente información para entender la fuente, fortalezas, debilidades y limitaciones analíticas de los datos para que puedan tomar decisiones informadas al usarlo.
 
-- The level of documentation and metadata [{term}`def<Metadata>`] will vary according to the project, and the range of people the data needs to be understood by.
-- Variables should be defined and explained using [data dictionaries](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary).
-- Data should be stored in logical and hierarchical folder structures, with a README file used to describe the structure. The README file is helpful for others and will also help you find your data in the future {cite:ps}`Fuchs2018documentation`. See the [README template from Cornell](https://cornell.app.box.com/v/ReadmeTemplate) for an example.
-- It is best practice to use recognised community metadata standards to make it easier for datasets to be combined.
+- El nivel de documentación y metadatos [{term}`def<Metadata>`] variará de acuerdo al proyecto, y el rango de personas por las que los datos deben ser entendidos.
+- Las variables deben definirse y explicarse usando [diccionarios de datos](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary).
+- Los datos deben almacenarse en estructuras lógicas y jerárquicas de carpetas, con un archivo README usado para describir la estructura. El archivo README es útil para otros y también le ayudará a encontrar sus datos en la futura {cite:ps}`documentación de Fuchs2018`. Vea la plantilla [README de Cornell](https://cornell.app.box.com/v/ReadmeTemplate) para un ejemplo.
+- Es una buena práctica utilizar estándares reconocidos de metadatos comunitarios para facilitar la combinación de conjuntos de datos.
 
-(rr-rdm-metadata-standards)=
-## Community Standards - Metadata
+(rr-rdm-metadata-estándares)=
+## Estándares Comunitarios - Metadatos
 
-The use of community-defined standards for metadata is vital for reproducible research and allows for comparison of heterogeneous data from multiple sources, domains and disciplines. Metadata standards are discipline specific. For example, for brain data, the [Brain Imaging Data Structure](https://doi.org/10.25504/FAIRsharing.rd1j6t) is the standard to use. Not every discipline may use metadata standards, however. You can see if your discipline uses metadata standards through [FAIRsharing](https://fairsharing.org/), a resource to identify and cite the metadata or identifier schemas, databases or repositories that exist for your data and discipline.
+El uso de estándares definidos por la comunidad para los metadatos es vital para la investigación reproducible y permite la comparación de datos heterogéneos de múltiples fuentes, dominios y disciplinas. Los estándares de metadatos son específicos de la disciplina. Por ejemplo, para los datos cerebros, la estructura de datos de imagen cerebral [](https://doi.org/10.25504/FAIRsharing.rd1j6t) es el estándar a utilizar. Sin embargo, no todas las disciplinas pueden usar estándares de metadatas. Puedes ver si tu disciplina utiliza estándares de metadatos a través de [FAIRsharing](https://fairsharing.org/), un recurso para identificar y citar los metadatos o esquemas de identificación, bases de datos o depósitos que existen para sus datos y disciplina.

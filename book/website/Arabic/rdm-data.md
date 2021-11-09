@@ -1,14 +1,14 @@
-(rr-rdm-data)=
-# Research Data
+(r-rdm-data)=
+# بيانات البحث
 
-(rr-rdm-data-definition)=
-## What is Data?
+(r-rdm-data-definition)=
+## ما هي البيانات؟
 
-Data are objects that you use and produce during your research life cycle, encompassing datasets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset. In some fields, it is obvious what data means - you have observations or results of simulations. However, in other fields, particularly in Social Sciences, Humanities or Arts, you may be thinking "I do not think I have any data". A good way of thinking about what might be classed as data that needs to be managed is to ask yourself the questions: "What is the information that I need to use and write about in my paper or book?", "What information would I need to back up my conclusions?" and "What information is needed by others to understand and possibly replicate the research that I have done?". This information is your data.
+البيانات هي كائنات تستخدمها وتنتجها خلال دورة حياتك البحثية، وتشمل مجموعات البيانات، البرمجيات والكود وسير العمل والنماذج والأرقام والجداول والصور والفيديوهات والمقابلات والمقالات البيانات هي مصدر بحثك. في بعض الميادين، من الواضح ما تعنيه البيانات - لديك ملاحظات أو نتائج المحاكاة. ومع ذلك، في مجالات أخرى، وخاصة في العلوم الاجتماعية والعلوم الإنسانية أو الفنون قد تفكرون "لا أعتقد أن لدي أي بيانات". طريقة جيدة للتفكير حول ما يمكن تصنيفه كبيانات يجب إدارتها هي أن تسأل نفسك عن الأسئلة: "ما هي المعلومات التي أحتاج إلى استخدامها وكتابتها في ورقتي أو كتابي؟ ، "ما هي المعلومات التي أحتاجها لدعم استنتاجاتي؟ و "ما هي المعلومات التي يحتاجها الآخرون لفهم وربما تكرار البحوث التي قمت بها؟". هذه المعلومات هي بياناتك.
 
-(rr-rdm-data-lifecycle)=
-## The Research Data Lifecycle - A Model for Data Management
+(r-rdm-data-lifecyle)=
+## دورة حياة بيانات البحث - نموذج لإدارة البيانات
 
-Research data often follows a 'lifecycle' which follows the research project as it evolves; here is a [video](https://www.youtube.com/watch?v=-wjFMMQD3UA) that describes it. This model provides a sound basis on which to plan for research data management, from data creation at the start of a research project, through to publishing and sharing research at the end of the project, and archiving any research data for the long-term and future re-use once the project has ended.
+غالبا ما تتبع بيانات البحث 'نظرية الحياة' التي تتبع مشروع البحث مع تطوره؛ إليك فيديو [](https://www.youtube.com/watch?v=-wjFMMQD3UA) الذي يصفه. ويوفر هذا النموذج أساسا سليما يمكن على أساسه التخطيط لإدارة بيانات البحوث، ابتداء من وضع البيانات في بداية مشروع بحثي. من خلال نشر وتقاسم البحوث في نهاية المشروع، (ب) حفظ أي بيانات بحثية من أجل إعادة استخدامها في الأجل الطويل وفي المستقبل بمجرد انتهاء المشروع.
 
-The research data lifecycle involves data creation, data use, data publication and sharing, data archiving, and data re-use or destruction. However, data have a longer lifespan than the research project that creates them. In a  {ref}`Data Management Plan <rr-rdm-dmp>` you can structure how you will manage and share your research data.
+وتشمل دورة حياة البيانات البحثية إنشاء البيانات، واستخدام البيانات، ونشر البيانات وتقاسمها، وحفظ البيانات، وإعادة استخدام البيانات أو تدميرها. ومع ذلك، فإن عمر البيانات أطول من عمر المشروع البحثي الذي ينشئها. في  {ref}`خطة إدارة البيانات <rr-rdm-dmp>` يمكنك هيكلة كيفية إدارة ومشاركة بيانات البحث الخاصة بك.

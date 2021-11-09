@@ -1,17 +1,17 @@
 (rr-binderhub-resources)=
-# Resources
+# 资源
 
-## Further reading
+## 进一步阅读
 
-- [Binder documentation](https://mybinder.readthedocs.io/en/latest/)
-- [BinderHub documentation](https://binderhub.readthedocs.io/en/latest/index.html)
-- [Zero-to-JupyterHub with Kubernetes documentation](https://zero-to-jupyterhub.readthedocs.io/en/latest/index.html)
-- [JupyterHub documentation](https://jupyterhub.readthedocs.io/en/stable/)
-- [_The Turing Way_ Build a BinderHub Workshop](http://bit.ly/zero-to-binderhub-workshop)
+- [Binder 文档](https://mybinder.readthedocs.io/en/latest/)
+- [BinderHub 文档](https://binderhub.readthedocs.io/en/latest/index.html)
+- [带有Kubernetes文档的零至JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/index.html)
+- [JupyterHub 文档](https://jupyterhub.readthedocs.io/en/stable/)
+- [_诱惑之路_ 构建一个绑定Hub 工坊。](http://bit.ly/zero-to-binderhub-workshop)
 
-## References specific for this chapter
+## 本章的具体参考
 
-- **Kubernetes documentation**: [https://kubernetes.io/](https://kubernetes.io/)
-- **Helm documentation**: [https://helm.sh/](https://helm.sh/)
-- **repo2docker**: [https://repo2docker.readthedocs.io/en/latest/?badge=latest](https://repo2docker.readthedocs.io/en/latest/?badge=latest)
-- **Microsoft Azure documentation on Role Based Access Control**: [https://docs.microsoft.com/en-us/azure/role-based-access-control/overview](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
+- **Kubernetes 文档**: [https://kubernetes.io/](https://kubernetes.io/)
+- **Helm 文档**: [https://helm.sh/](https://helm.sh/)
+- **repo2docker**: [https://repo2docker.readthedocs.io/enarage/?badge=最新](https://repo2docker.readthedocs.io/en/latest/?badge=latest)
+- **Microsoft Azure 文档关于基于角色的访问控制**: [https://docs.microsoft.com/en-us/azure/role-based-access-control/overview](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)

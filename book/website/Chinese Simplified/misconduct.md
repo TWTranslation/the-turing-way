@@ -1,36 +1,36 @@
-(communication-aa-misconduct)=
-# Types of authorship misconduct
+(通信-aa-misconduct)=
+# 作者类型不当行为
 
-There are various forms of authorship misconduct. These reflect unequal power structures in academia. Authorship misconduct results in a lack of transparency and accountability in research.
+有各种形式的作者不当行为。 这反映出学术界权力结构不平等。 作者行为不当导致研究缺乏透明度和问责制。
 
-A study of inappropriate authorship in biomedical journals found 21.0% of the article included honorary authorship, ghost authorship or both in 2008. This is a reduction from a study in 1996 (29.2%) but shows that these practices are still prevalent {cite}`wislar2011honorary`.
+一项关于生物医学杂志不当作者的研究发现，2008年，21.0%的文章包括荣誉作者、幽灵作者或两者。 这比1996年的一项研究减少了(29.2%，但表明这些习俗仍然盛行于 {cite}`明智2011荣誉`。
 
-(communication-aa-misconduct-honorary)=
-## Honorary authorship
-Honorary authorship is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
+（来文——aa-misconduct-酬金）=
+## 荣誉作者
+名誉作者是指一个人即使没有做出大量贡献和/或达到作者标准。
 
-A recent study of academic misconduct found 35.5% of survey respondents across all disciplines had added authors to their own manuscripts even though those authors made minimal contributions to the project {cite}`fong2017manipulation`. The study also found that being an Assistant or Associate Professors significantly increases your likelihood of being an honorary author.
+最近一项关于学术不当行为的研究发现了35起。 所有学科的调查答卷人中有%将作者添加到他们自己的手稿中，尽管这些作者对项目 {cite}`fong2017操纵` 贡献极小。 研究还发现，作为助理或协理教授，你担任名誉作者的可能性大大增加。
 
-This can also be called:
-* Gift or guest authorship - naming an individual author out of respect or gratitude.
-* Coercive authorship - a senior researcher forcing a junior researcher to include a gift or guest author.
+这也可以说：
+* 礼物或嘉宾作者——出于尊重或感激之情命名个人作者。
+* 强制著作权——高级研究员强迫初级研究员收取礼品或客人作品。
 
-This practice happens for a number of reasons:
-* Junior researchers may feel pressured into accepting honorary authorship for more senior researchers in their research group in an attempt not to offend or due to these researchers having power over their career progression.
-* In some disciplines, department head or senior researchers may be added regardless of their contribution.
-* It could also be seen as a good move to include more experienced colleagues to raise the apparent quality of the paper and therefore give more chance for publication.
+这种做法有以下几个原因：
+* 初级研究人员可能感到被迫接受其研究小组中更高级研究人员的荣誉作者，试图不冒犯，或因为这些研究人员对其职业发展拥有权力。
+* 在某些学科中，可增加部门首长或高级研究人员，而不论其贡献如何。
+* 这也可以被看作是一个很好的举动，让更有经验的同事参与进来，以提高文件的明显质量，从而为出版提供更多的机会。
 
 (communication-aa-misconduct-ghost)=
-## Ghost authorship
-Ghost authorship is an author that makes a significant contribution to the writing of the article without getting acknowledged.
+## 幽灵作者
+幽灵作者是在没有得到承认的情况下对撰写文章作出重要贡献的作者。
 
-This could be due to:
-* a professional writer employed to draft an article on behalf of a company.
-* a scientist could employ a professional writer to overcome a lack of writing skills, limited time or lack of knowledge of journal requirements.
+这可能是由于：
+* 一名专业作家受雇代表公司起草一篇文章。
+* 科学家可以雇用一名专业作家来克服缺乏写作技能、时间有限或缺乏对期刊要求的了解等问题。
 
-There are also ghost contributors that are contributors to a project but are not usually involved in the writing process. Therefore, these contributors are unlikely to be named on academic papers such as those that collected the data, performed data analysis, make software and contribute in other many ways to a research project.
+还有一些幽灵贡献者是某个项目的贡献者，但通常不参与撰写过程。 因此，在诸如收集数据的学术论文中不可能指明这些撰稿者。 进行数据分析，制作软件，并以其他多种方式为一个研究项目作出贡献。
 
-It is common that those on temporary or short-term contracts, such as postdoctoral researchers, may have moved on to another project before publications are finalised. This can also include voluntary work such as University students working on a project during their studies.
+具有临时或短期合同的人，如博士后研究人员，通常在出版物定稿之前可能已经进入另一个项目。 这也可以包括志愿工作，例如在学习期间从事某个项目的大学学生。
 
-These contributions may therefore be missed off the authorship of any publications even though they have contributed to the research in some way. Therefore, without significant effort on the part of the article writers or whoever is in overall charge of the article, and also without a more inclusive authorship policy, these researchers will not get a chance for their contributions to be recognised. 
+因此，即使在某种程度上对研究做出了贡献，但任何出版物的作者都可能失去这些贡献。 因此，没有文章作者或总体负责该条的任何人作出重大努力。 而且，如果没有一个更具包容性的作者政策，这些研究人员就没有机会得到他们的贡献的承认。 
 

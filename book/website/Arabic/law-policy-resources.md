@@ -1,20 +1,20 @@
-(er-law-policy-resources)=
-# Recommendations and Resources
+(موارد السياسة العامة)
+# التوصيات والموارد
 
 ## Checklist
 
-- Do I know what laws apply to my work?
-- Do I know what policies apply to my work?
-- Have I read relevant policies on ethical research?
-- Have I asked the Policy and Governance teams at my organisation or institution for advice or support?
-- Does my work respect and protect human rights?
-- Does my work fulfil human rights?
+- هل أعرف ما هي القوانين التي تنطبق على عملي؟
+- هل أعرف ما هي السياسات التي تطبقها على عملي؟
+- هل قرأت السياسات ذات الصلة بالبحث الأخلاقي؟
+- هل طلبت من فرق السياسات والحوكمة في مؤسستي أو مؤسستي المشورة أو الدعم؟
+- هل يحترم عملي حقوق الإنسان ويحميها؟
+- هل يؤدي عملي إلى إعمال حقوق الإنسان؟
 
-## Further reading
-- [Artificial Intelligence: What’s Human Rights Got To Do With It?](https://points.datasociety.net/artificial-intelligence-whats-human-rights-got-to-do-with-it-4622ec1566d5)  (_Blog post by Christiaan van Veen and Corinne Cath_)
-- [The Universal Declaration of Human Rights at 70: Putting Human Rights at the Heart of the Design, Development and Deployment of Artificial Intelligence](https://hrbdt.ac.uk/the-universal-declaration-of-human-rights-at-70-putting-human-rights-at-the-heart-of-the-design-development-and-deployment-of-artificial-intelligence/) (_The Human Rights, Big Data and Technology Project, University of Essex, UK_)
-- [Algorithms and Human Rights - Study on the human rights dimension of automated data processing techniques and possible regulatory implications](https://rm.coe.int/algorithms-and-human-rights-en-rev/16807956b5) (_Council of Europe_)
-- [Data Feminism](https://data-feminism.mitpress.mit.edu/) (_book by Catherine D'Ignazio and Lauren Klein_)
-- [Article 8: Respect for your private and family life](https://www.equalityhumanrights.com/en/human-rights-act/article-8-respect-your-private-and-family-life) (_UK Equality and Human Rights Commission_)
-- General Comment No. 16 Article 17 (The right to respect of privacy, family, home and correspondence, and protection of honour and reputation) 1988 (HRI/GEN/1/Rev9) (_UN Human Rights Committee_)
-- [Toonen v Australia](https://remedy.org.au/cases/24/) (_Summary of successful case brought by Nicholas Toonen against the criminalisation of homosexual sex in Tasmania in 1994_)
+## مزيد من القراءة
+- [الذكاء الاصطناعي: ما حقوق الإنسان التي حصلت على القيام بها؟](https://points.datasociety.net/artificial-intelligence-whats-human-rights-got-to-do-with-it-4622ec1566d5)  (_منشور المدونة من كريستيان فان فين وكورين كاس_)
+- [الإعلان العالمي لحقوق الإنسان في سن 70: وضع حقوق الإنسان في قلب التصميم، تطوير ونشر الاستخبارات الاصطناعية](https://hrbdt.ac.uk/the-universal-declaration-of-human-rights-at-70-putting-human-rights-at-the-heart-of-the-design-development-and-deployment-of-artificial-intelligence/) (_مشروع حقوق الإنسان، البيانات والتكنولوجيا الكبرى، جامعة إيسيكس، المملكة المتحدة_)
+- [الخوارزميات وحقوق الإنسان - دراسة عن البعد المتعلق بحقوق الإنسان في تقنيات المعالجة الآلية للبيانات والآثار التنظيمية المحتملة](https://rm.coe.int/algorithms-and-human-rights-en-rev/16807956b5) (_مجلس أوروبا_)
+- [بيانات الحركة النسائية](https://data-feminism.mitpress.mit.edu/) (_كتاب كاثرين داينزيو ولورين كلاين_)
+- [المادة 8: احترام حياتك الخاصة والعائلية](https://www.equalityhumanrights.com/en/human-rights-act/article-8-respect-your-private-and-family-life) (_لجنة المساواة وحقوق الإنسان في المملكة المتحدة_)
+- التعليق العام رقم 10 16 - المادة 17 (الحق في احترام الخصوصية والأسرة والمنزل والمراسلات) حماية الشرف والسمعة) 1988 (HRI/GEN/1/Rev9) (_لجنة الأمم المتحدة المعنية بحقوق الإنسان_
+- [تونن ضد أستراليا](https://remedy.org.au/cases/24/) (_موجز للقضية الناجحة التي رفعها نيكولاس تونن ضد تجريم الجنس المثلي في تسمانيا في عام 1994_)

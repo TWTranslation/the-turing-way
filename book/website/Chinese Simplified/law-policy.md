@@ -1,31 +1,31 @@
 (er-law-policy)=
-# Law, Policy and Human Rights in Ethics
+# 道德操守方面的法律、政策和人权
 
 ## Summary
-Law, human rights and policy all relate to ethics, but they are not the same thing.
+法律、人权和政策都涉及道德操守，但它们不是同一回事。
 
-You should be aware of the laws and policies that apply to you and your work. However, this is not sufficient to ensure that your work is ethical.
+你应该知道适用于你的法律和政策以及你的工作。 然而，这还不足以确保你的工作符合道德。
 
-Human rights provide a legal framework for protecting individuals. However, this framework operates at national and international level. Ethical work should be grounded in human rights, but sometimes require more guidance to operationalise for particular contexts.
+人权为保护个人提供了法律框架。 然而，这一框架在国家和国际两级运作。 伦理工作应当以人权为基础，但有时需要更多的指导，以便在特定情况下开展业务。
 
-Laws and policies are made by people, and they are subject to negotiations and exercises of power: they can also be changed.
+法律和政策是由人民制定的，这些法律和政策必须经过谈判和行使权力：它们也可以改变。
 
 ```{figure} ../figures/human-rights.jpg
 ---
-name: human-rights
-alt: Image shows two people sitting on the ground. They are smiling and looking at the concrete wall called 'human rights' that is secured by heavy chain and lock. Behind the wall there are several monsters depicting human right violators and harmful elements of society that can breach laws and policy in the absence of this protective wall.
+名称：人权
+alt：图像显示两个人坐在地上。 他们正在笑容和看重被重链和锁链所保护的被称为“人权”的混凝土墙。 在隔离墙的背后，有几位怪物描绘了侵犯人权者和社会中的有害分子，如果没有这种保护性隔离墙，他们就可能违反法律和政策。
 ---
-Illustration about human rights, law and policies.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+介绍人权、法律和政策。
+Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：10.5281/zenodo.3332807。
 ```
 
-## Background and Motivation
+## A. 背景和动机。
 
-It's useful to know how the ethics that guide your work are underpinned by other frameworks, including law, policy, and human rights. Knowing the law, policy, and human rights that underpin research ethics will give you a deeper understanding of how to conduct ethical research. It can also help you to advocate for ethical work with colleagues and collaborators.
+了解指导你工作的伦理道德如何得到包括法律、政策和人权在内的其他框架的支持是有益的。 了解作为研究伦理基础的法律、政策和人权将使你们更深入地了解如何进行伦理研究。 这也有助于你与同事和合作者一起倡导道德工作。
 
-This chapter provides subchapters on {ref}`Law and Policy<er-law-policy-ethics>` in the context of ethical research, {ref}`er-law-policy-rights` and {ref}`er-law-policy-resources`.
+本章提供了道德研究方面的 {ref}`法律和政策<er-law-policy-ethics>` 的分章。 {ref}`er-law-policy rights` and {ref}`er-law-policy resources`.
 
 ```{attention}
-This is not legal advice. Please read for information only!
+这不是法律咨询意见。 请只读信息！
 ```
-*Read the {ref}`legal-disclaimer` for why you should not use The Turing Way for legal advice.*
+*阅读 {ref}`法律免责声明` 以了解为什么你不应该使用诱惑方式提供法律咨询。*

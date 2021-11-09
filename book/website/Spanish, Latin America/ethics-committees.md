@@ -1,99 +1,99 @@
-(er-committees)=
-# Research Ethics Committees Processes
+(er-comisiones)=
+# Procesos de ética de investigación
 
-Research ethics committees (RECs), also known as institutional review boards (IRBs), exist within institutions to scrutinise the ethical implications of their research projects. RECs have historically focused on projects that involve human participants, meaning that they often prioritise the well-being of those directly involved in research projects. RECs are also a useful mechanism for the mitigation of reputational damage for their institutions, as they can ensure that research is conducted within the law. Further, RECs are well-positioned to improve the state of scientific inquiry. This is because they can provide ethical oversight to expert researchers who do not have sufficient experience or capacity to deeply reflect on the ethical questions their work raises. This is not to liberate the researcher of their ethical responsibilities -- ultimately, they make the decisions as to how to conduct their work -- but to provide support in respect to these questions. Whilst there is a great deal of complexity involved in holding individuals accountable in scientific projects, this chapter assumes that RECs seek to improve how science is conducted at large.
+Los comités de ética de investigación (CCR), también conocidos como consejos de revisión institucional (BIR), existen dentro de las instituciones para examinar las implicaciones éticas de sus proyectos de investigación. Los RECs históricamente se han centrado en proyectos que implican a participantes humanos, lo que significa que a menudo priorizan el bienestar de quienes participan directamente en proyectos de investigación. Los ECA también son un mecanismo útil para la mitigación de daños en la reputación para sus instituciones. ya que pueden garantizar que la investigación se lleva a cabo de conformidad con la ley. Además, los ECA están bien posicionados para mejorar el estado de la investigación científica. Esto se debe a que pueden proporcionar un exceso ético a investigadores expertos que no tienen suficiente experiencia o capacidad para reflexionar profundamente sobre las cuestiones éticas que plantea su trabajo. Esto no es para liberar al investigador de sus responsabilidades éticas, en última instancia, Ellos toman las decisiones sobre cómo llevar a cabo su trabajo -- pero proporcionar apoyo en relación con estas cuestiones. Aunque hay mucha complejidad involucrada en hacer que las personas rindan cuentas en proyectos científicos, este capítulo asume que los RECs buscan mejorar la manera en que la ciencia se dirige en general.
 
-There are many ways a research ethics committee might organise itself. One common approach is to provide a form for all projects conducted at their institution to undergo ethical appraisal. Below, we propose five headline questions that an ethics committee might want to know about. For each headline question, we provide:
-1. Justification as to why it is important (why we suggest these headline questions to RECs), and
-2. Certain considerations a researcher might make when preparing a response (what applicants should consider when reflecting on these points).
+Hay muchas maneras en que un comité de ética de investigación podría organizarse. Un enfoque común es proporcionar una forma para que todos los proyectos realizados en su institución se sometan a una evaluación ética. A continuación proponemos cinco cuestiones en el encabezado que un comité de ética podría querer conocer. Para cada pregunta sobre el headline, le proporcionamos:
+1. La justificación de por qué es importante (¿por qué sugerimos estas preguntas de línea a los REC) y
+2. Ciertas consideraciones que un investigador podría hacer al preparar una respuesta (lo que los solicitantes deben tener en cuenta al reflexionar sobre estos puntos).
 
-The suggestions we provide are by no means exhaustive and each research project is a world of its own, but the below can help embed ethical reasoning in scientific work.
+Las sugerencias que ofrecemos no son en absoluto exhaustivas y cada proyecto de investigación es un mundo propio. pero lo siguiente puede ayudar a integrar el razonamiento ético en el trabajo científico.
 
-The five headline questions relate with the following topics:
-1. Project Description
-2. Data and Methodology
-3. Consent
-4. Privacy and Security
-5. Further Societal Consequences
+Las cinco preguntas relativas a los titulares se refieren a los siguientes temas:
+1. Descripción del proyecto
+2. Datos y Metodología
+3. Consentimiento
+4. Privacidad y seguridad
+5. Mujeres sociales adicionales
 
-## Project Description
-> Please describe your project's goal and purpose.
+## Descripción del proyecto
+> Por favor, describa el objetivo y propósito de su proyecto.
 
-**Justification.** RECs will need to know what your project is about, what it is looking to achieve and why it matters. RECs need to understand what a project entails to consider its ethical implications.
+**Justificación.** Los RECs necesitarán saber de qué trata tu proyecto, qué está buscando conseguir y por qué importa. Los ECA necesitan entender lo que implica un proyecto para considerar sus implicaciones éticas.
 
-**Responding to this question** is an opportunity to share the benefits that your work strives for. This question can generally be responded to with what was written about the project in its successful grant proposal. It is just worth making sure that past descriptions of the project are updated with new information, as projects can change quickly.
+**Responder a esta pregunta** es una oportunidad para compartir los beneficios por los que tu trabajo lucha. Esta pregunta se puede responder generalmente con lo que se escribió sobre el proyecto en su exitosa propuesta de subvención. Merece la pena asegurarse de que las descripciones pasadas del proyecto se actualicen con nueva información, ya que los proyectos pueden cambiar rápidamente.
 
-A more robust response to this question will also explain how the project fits within the wider goals, challenges, and objectives of your institution. In the case of charities, reference to your institution's "charitable objects" will be important. See [GOV.UK](https://www.gov.uk/government/publications/example-charitable-objects) for example charitable objects.
+Una respuesta más sólida a esta pregunta también explicará cómo el proyecto encaja dentro de las metas, desafíos y objetivos más amplios de su institución. En el caso de las organizaciones benéficas, será importante hacer referencia a los "objetos caritativos" de su institución. Vea [GOVATIK](https://www.gov.uk/government/publications/example-charitable-objects) para objetos de beneficencia de ejemplo.
 
-To respond to this question, provide:
-1. Detailed objectives of your project;
-2. A clear description of the scientific question being responded to;
-3. A clear motivation for answering your project's question;
-4. An explanation as to how your project aligns with your institution's strategic values and aims.
+Para responder a esta pregunta, proporcione:
+1. Objetivos detallados de su proyecto;
+2. Una descripción clara de la pregunta científica a la que se responde
+3. Una clara motivación para responder a la pregunta de tu proyecto;
+4. Una explicación de cómo su proyecto se ajusta a los valores y objetivos estratégicos de su institución.
 
-## Data and Methodology
-> Please explain what data you will use and why. Please explain how you will use these data.
+## Datos y Metodología
+> Por favor, explique qué datos usará y por qué. Por favor, explique cómo usará estos datos.
 
-**Justification.** Some ethical questions that arise throughout a project will relate with the data and the research methods used. For example, the data employed may be filled with ["missing data sets"](https://github.com/MimiOnuoha/missing-datasets), and the methodology can be problematic if built on unchecked assumptions.
+**Justificación.** Algunas preguntas éticas que surgen a través de un proyecto se relacionarán con los datos y los métodos de investigación utilizados. Por ejemplo, los datos utilizados pueden rellenarse con ["conjuntos de datos faltantes"](https://github.com/MimiOnuoha/missing-datasets), y la metodología puede ser problemática si se basa en supuestos sin control.
 
-**Responding to this question** requires describing the project's data and methodology in a detailed manner. Justification must also be provided as to *why* the outlined data are necessary and the described methodology is the best for the job.
+**Responder a esta pregunta** requiere describir los datos y metodología del proyecto de una manera detallada. También debe proporcionarse justificación en cuanto a *por qué* los datos esbozados son necesarios y la metodología descrita es la mejor para el trabajo.
 
-A more robust response to this question will describe how the data will be managed for the purpose of the methodology described. To this effect, it is advisable to share a data management plan. It is also helpful to describe how the data and methodology will be made available to other researchers.
+Una respuesta más robusta a esta pregunta describirá cómo se gestionarán los datos con el propósito de la metodología descrita. En este sentido, es aconsejable compartir un plan de gestión de datos. También es útil describir cómo los datos y la metodología serán puestos a disposición de otros investigadores.
 
-Therefore, responding to this question requires providing:
+Por lo tanto, para responder a esta pregunta es necesario proporcionar:
 
-1. Detail about the data and methodologies you will employ;
-2. Justification for the choice of data and methodologies;
-3. Reference to a data management plan -- consider the [Research Data Management chapter](https://the-turing-way.netlify.app/reproducible-research/rdm.html);
-4. Explanation as to how your chosen tools and methods allow for reproducible research -- consider the benefits listed in the [Added Advantages](https://the-turing-way.netlify.app/reproducible-research/overview/overview-benefit.html?highlight=method) subchapter.
+1. Detalle de los datos y metodologías que empleará;
+2. Justificación para la elección de datos y metodologías;
+3. Referencia a un plan de gestión de datos -- considere el capítulo [Gestión de datos de investigación](https://the-turing-way.netlify.app/reproducible-research/rdm.html);
+4. Explicación de cómo las herramientas y métodos elegidos permiten la investigación reproducible -- considere los beneficios listados en el subcapítulo [Agregadas Ventajas](https://the-turing-way.netlify.app/reproducible-research/overview/overview-benefit.html?highlight=method).
 
-## Consent
-> How will you ensure any personal data collected for your research is done so with freely-given informed consent?
+## Consentimiento
+> ¿Cómo garantizará que cualquier dato personal recopilado para su investigación se haga con el consentimiento informado libre?
 
-**Justification.** The purpose of ensuring consent for the collection, use or reuse of personal data is to respect the autonomy of individuals and operate in line with pertinent legislation. It is also an important concept enshrined in law. In the General Data Protection Regulation (GDPR), for example, *consent* is defined as:
-> “any freely given, specific, informed and unambiguous indication of the data subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her" ([ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/what-is-valid-consent/))
+**Justificación.** El propósito de asegurar el consentimiento para la colección, el uso o la reutilización de los datos personales es respetar la autonomía de las personas y actuar de acuerdo con la legislación pertinente. También es un concepto importante consagrado en la ley. En el Reglamento General de Protección de Datos (GDPR), por ejemplo, *consentimiento* se define como:
+> “cualquier indicación libre, específica, informada y sin ambigüedades de los deseos del interesado de los datos por los cuales él o ella por una declaración o por una acción afirmativa clara, significa que acepta el procesamiento de datos personales relacionados con él o ella" ([ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/what-is-valid-consent/))
 
-**Responding to this question** entails reflection on how data are sourced -- where they come from and who they pertain to. Setting the legal discussions aside, this question requires following one of two approaches:
-1. If employing data that is readily available (perhaps online or provided by a third party), it is important we understand the terms and conditions whereby those data are made available. The point here is to confirm that the data will be used following the purpose for which they were collected. In this respect, a useful subchapter in *The Turing Way* is that of [Data Licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html?highlight=licen), which outlines different ways online data might be held.
-2. If gathering new data through experiments with human research subjects, both participant information sheets (PISs) and consent forms must be issued. On the one hand, participant information sheets provide research participants with all the information they need to know about taking part in the study. On the other hand, consent forms summarise the participant information sheet and provide a section for the potential participant to record their acceptance of the conditions. The consent form, in particular, should provide contact details for participants to reach out to the research team or institution (depending on internal processes) should they have any queries or concerns about the study in the future. The UK Data Service offer templates of both documents [online](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing/consent-forms): individual institutions often also make templates available for their researchers.
+**Responder a esta pregunta** implica reflexionar sobre cómo se obtienen los datos -- de dónde proceden y a quién pertenecen. Dejar a un lado los debates legales, esta cuestión requiere seguir uno de los dos enfoques:
+1. Si se utilizan datos que están disponibles fácilmente (tal vez en línea o proporcionados por un tercero), es importante que comprendamos los términos y condiciones por los que se facilitan esos datos. La cuestión es confirmar que los datos se utilizarán siguiendo la finalidad para la que fueron recogidos. En este sentido, un útil subcapítulo en *The Turing Way* es el de [Data Licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html?highlight=licen), que describe diferentes formas en las que se pueden guardar los datos en línea.
+2. Si se recolectan nuevos datos a través de experimentos con sujetos de investigación humana, se deberán emitir tanto fichas informativas de los participantes (PISs) como formularios de consentimiento. Por un lado, las fichas informativas de los participantes proporcionan a los participantes toda la información que necesitan para saber sobre la participación en el estudio. Por otro lado, los formularios de consentimiento resumen la hoja de información del participante y proporcionan una sección para que el participante potencial registre su aceptación de las condiciones. Forma de consentimiento, en particular, deberá proporcionar datos de contacto para que los participantes se pongan en contacto con el equipo de investigación o la institución (dependiendo de los procesos internos) en caso de que tengan alguna duda o preocupación sobre el estudio en el futuro. El Servicio de Datos del Reino Unido ofrece plantillas de ambos documentos [en línea](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing/consent-forms): las instituciones individuales a menudo también ponen plantillas disponibles para sus investigadores.
 
-## Privacy and Security
-> How will you ensure that any sensitive information your project uses is kept secure and made accessible only to pertinent members of the research team?
+## Privacidad y seguridad
+> ¿Cómo se asegurará de que cualquier información sensible que utilice el proyecto se mantenga segura y se haga accesible sólo a los miembros pertinentes del equipo de investigación?
 
-**Justification.** Privacy is a fundamental human right (see this [draft chapte](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) for *The Turing Way* for more on human rights). Therefore, it is critical that projects be conducted in a way that respects privacy.
+**Justificación.** La privacidad es un derecho humano fundamental (ver este [capítulo borrador](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) para *La Vía Turística* para más información sobre los derechos humanos). Por lo tanto, es fundamental que los proyectos se lleven a cabo de una manera que respete la privacidad.
 
-**Responding to this question** might require a review of your institution's internal policies. When handling personal data in particular, your institution might already have a data policy in place, as well as a process to conduct a data protection impact assessment (see [the ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/) for more details). Some funders also have policies for handling data collected or used in the course of research that they fund. Your institution may also have a secure IT infrastructure for the storage of data, as well as to ensure correct levels of access. It is worth asking if there are such policies and processes in your institution.
+**Responder a esta pregunta** puede requerir una revisión de las políticas internas de su institución. Al tratar datos personales en particular, su institución podría tener ya una política de datos en vigor, así como un proceso para llevar a cabo una evaluación de impacto sobre protección de datos (véase [el ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/) para más detalles). Algunos financiadores también tienen políticas para manejar los datos recopilados o utilizados en el curso de la investigación que financian. Su institución también puede tener una infraestructura de TI segura para el almacenamiento de datos, así como para garantizar niveles correctos de acceso. Merece la pena preguntar si hay tales políticas y procesos en su institución.
 
-In the case of using personal data, it is also worth noting if any method for making data anonymous will be employed. For more details on anonymisation, see [this subchapter](https://github.com/alan-turing-institute/the-turing-way/pull/1579) of *The Turing Way*.
+En el caso de utilizar datos personales, también vale la pena señalar si se empleará algún método para hacer que los datos sean anónimos. Para más detalles sobre el anonimato, vea [este subcapítulo](https://github.com/alan-turing-institute/the-turing-way/pull/1579) de *The Turing Way*.
 
-In either case, data security doesn't apply only to personal data. Consider, for example, a project conducted with a government body that holds certain information that musn't be released, or a firm providing you with proprietary code. Ultimately, this is a broad question that requires that we:
+En cualquier caso, la seguridad de los datos no se aplica sólo a los datos personales. Consideremos, por ejemplo, un proyecto llevado a cabo con un organismo gubernamental que contiene cierta información que no debe ser liberada, o una empresa que le proporciona código propio. En última instancia, esta es una pregunta amplia que requiere que lo hagamos:
 
-1. Describe any privacy concerns and share institutional processes followed in this regard (for example, a data protection impact assessment);
-2. Explain what standards will be used if any anonymisation is conducted;
-3. Explain how data will be stored and kept secure (this can be drawn from your [data management plan](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html))
-4. Consider asking if your institution provides a secure IT environment (an example of this is the Alan Turing Institute's [Data Safe Haven](https://www.turing.ac.uk/research/research-projects/data-safe-havens-cloud))
+1. Describa cualquier preocupación por la privacidad y comparta los procesos institucionales seguidos a este respecto (por ejemplo, una evaluación de impacto en la protección de datos);
+2. Explicar qué normas se utilizarán si se lleva a cabo algún anonimato;
+3. Explique cómo se almacenarán y mantendrán los datos seguros (esto se puede extraer de su plan de administración de datos [](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html))
+4. Considere preguntarle si su institución proporciona un entorno de IT seguro (un ejemplo de esto es el [Data Safe Haven](https://www.turing.ac.uk/research/research-projects/data-safe-havens-cloud) del Instituto Alan Turing)
 
-## Further Societal Consequences
-> Please describe both positive and negative potential societal consequences of your work.
+## Mujeres sociales adicionales
+> Por favor, describa las posibles consecuencias sociales positivas y negativas de su trabajo.
 
-**Justification.** This question relates with the six dimensions of research ethics provided in [*Guide for Ethical Research*](https://the-turing-way.netlify.app/ethical-research/ethics-intro.html). The question acknowledges that research is not conducted in a vacuum but in a social world it can deeply impact. To this effect, the question should be treated in the broadest sense by considering the impact on the researchers involved, the natural environment, society at large and scientific communities in particular.
+**Justificación.** Esta pregunta se relaciona con las seis dimensiones de la ética de la investigación proporcionadas en [*Guía de Investigación Ética*](https://the-turing-way.netlify.app/ethical-research/ethics-intro.html). La pregunta reconoce que la investigación no se lleva a cabo en un vacuum sino en un mundo social puede tener un impacto profundo. En este sentido, la cuestión debería tratarse en el sentido más amplio teniendo en cuenta el impacto sobre los investigadores implicados. el medio ambiente, la sociedad en general y las comunidades científicas en particular.
 
-**Responding to this question** means providing two blocks of information:
-1. The (societal, environmental and personal) risks involved in the project, and
-2. The measures put in place to mitigate these risks.
+**Responder a esta pregunta** significa proporcionar dos bloques de información:
+1. Los riesgos (sociales, ambientales y personales) involucrados en el proyecto, y
+2. Las medidas adoptadas para mitigar estos riesgos.
 
-The first point requires further reflection on the myriad of topics already outlined in the previous four questions (recall how methodology and data collection practices might raise ethical questions), as well as careful consideration about the potential risks of your project's output.
+El primer punto requiere una mayor reflexión sobre la infinidad de temas ya esbozados en las cuatro preguntas anteriores (recordar cómo la metodología y las prácticas de recopilación de datos pueden plantear preguntas éticas), así como una cuidadosa consideración sobre los riesgos potenciales de la producción de su proyecto.
 
-The second point relates with the actions taken to *mitigate* identified risks. It is not sufficient, in other words, to describe what might go wrong -- it is necessary to explain how risks will be reasonably avoided.
+El segundo punto se relaciona con las acciones tomadas para *mitigar* los riesgos identificados. No es suficiente, en otras palabras, describir lo que podría ir mal -- es necesario explicar cómo se evitarán razonablemente los riesgos.
 
-There are two further considerations worth making when responding to this question. On the one hand, how will the project benefit fellow scientists? This question, in turn, can be met by two courses of action. Firstly, consider how your work will be made openly accessible by following the [FAIR principles](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html?highlight=research%20cycle). Secondly, describe how your work might be used for *further* responsible research and innovation.
+Hay dos consideraciones más que vale la pena hacer al responder a esta pregunta. Por una parte, ¿cómo beneficiará el proyecto a otros científicos? Esta cuestión, a su vez, puede ser resuelta por dos vías de acción. En primer lugar, considere cómo su trabajo será abiertamente accesible siguiendo los [principios FAIR](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html?highlight=research%20cycle). En segundo lugar, describe cómo se puede utilizar tu trabajo para *más* investigación e innovación responsable.
 
-On the other hand, it is worth recapitulating the points made in section one. In other words, remind the REC of the benefits that are expected of your work. This is not to "counter" risks -- the safeguards described should do that. The point here is to show that ethical reflection is embedded in your project.
+Por otra parte, merece la pena recapitular los puntos que figuran en la primera parte. En otras palabras, recuerde al REC los beneficios que se esperan de su trabajo. Esto no es para "contrarrestar" los riesgos, las salvaguardias descritas deberían hacerlo. El punto aquí es demostrar que la reflexión ética está integrada en su proyecto.
 
-## General suggestions for ethics applications
-Focusing on how to respond to each broad question, we can summarise the advice provided as follows:
-1. Be detailed in your responses -- the more the REC knows, the easier it is for them to consider a project's ethical implications.
-2. Use other documents about your project to provide information to RECs. Although documentation may need updating, using other relevant documents can make this process more straightforward. Such documents might be grant proposals, data management plans, data protection impact assessments...
-3. Find ethical resources that are relevant to your project. Scientific projects can be diverse in object of study. Numerous ethics frameworks have been made available over the years. A well-established framework in data science is that of the [five safes](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes), for example. A comprehensive resource for the governance of articifial intelligence is [*Understanding artificial intelligence ethics and safety*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf). A much more specific framework has been developed for the wellbeing of researchers exposed to abusive online content: [*Guidelines for researchers working with abusive content*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
+## Sugerencias generales para aplicaciones de ética
+Centrándonos en cómo responder a cada pregunta amplia, podemos resumir los consejos que se ofrecen de la siguiente manera:
+1. Sea detallado en sus respuestas -- cuanto más sepa el REC, más fácil es para ellos considerar las implicaciones éticas de un proyecto.
+2. Utilice otros documentos sobre su proyecto para proporcionar información a RECs. Aunque la documentación puede necesitar ser actualizada, usar otros documentos relevantes puede hacer este proceso más sencillo. Tales documentos podrían ser propuestas de subvenciones, planes de gestión de datos, evaluaciones de impacto en la protección de datos...
+3. Encuentre recursos éticos relevantes para su proyecto. Los proyectos científicos pueden ser diversos en objeto de estudio. A lo largo de los años se han puesto a disposición numerosos marcos éticos. Un marco bien establecido en ciencias de datos es el de los [cinco seguros](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes), por ejemplo. Un recurso integral para la gobernanza de la inteligencia articifica es [*Entender la ética y seguridad de inteligencia artificial*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf). Se ha desarrollado un marco mucho más específico para el bienestar de los investigadores expuestos a contenidos abusivos en línea: [*Directrices para los investigadores que trabajan con contenido abusivo*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Etiquetas de capítulo**: Este capítulo está supervisado para el `Grupo de estudio de datos de Turing` (`turing-dsg`).*

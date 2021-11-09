@@ -1,56 +1,56 @@
-(cm-blogs-personal-stories)=
-# Personal Stories - Blogs
+(مدونات - قصص شخصية)=
+# قصص شخصية - مدونات
 
-## Veronika Cheplygina: Writing a Successful Blog Series
+## فيرونيكا شبليجين: كتابة سلسلة مدونة ناجحة
 
-**Dr Veronika Cheplygina** is an Associate Professor at the IT University Copenhagen. Veronika strives to make science more open and inclusive.
+**الدكتورة فيرونيكا شيبليجينا** أستاذ مشارك في جامعة تكنولوجيا المعلومات في كوبنهاغن. تسعى فيرونيكا جاهدة لجعل العلم أكثر انفتاحا وشمولا.
 
-You can find out more about her work from the links below:
-* Personal website: [veronikach.com](https://veronikach.com/)
+يمكنك معرفة المزيد عن عملها من الروابط أدناه:
+* الموقع الشخصي: [veronikach.com](https://veronikach.com/)
 * Twitter: [@DrVeronikaCH](https://twitter.com/DrVeronikaCH)
 * ORCID: [0000-0003-0176-9324](https://orcid.org/0000-0003-0176-9324)
 
-We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
+نود أن نشكر **الدكتورة فيرونيكا شيبليجينا** على إجابتها على أسئلة المقابلة حول سلسلة مدونتها الناجحة جدا المسماة ["كيف فشل"](https://veronikach.com/failure/).
 
-## 1. Why did you start your blog?
+## 1. لماذا بدأت مدونتك؟
 
-Very originally (during university) I wanted to have a blog because I was interested in setting it up, and not actually in writing anything. I did try to write some awkward posts, but felt mostly embarrassed about them and ended up deleting them. Only during my PhD/postdoc, I think, I started writing more frequently, mostly updates about my work, exploring productivity tools, and failures.
+في الأصل (أثناء الجامعة) أردت أن يكون لدي مدونة لأنني كنت مهتما بإعدادها، وليس في الواقع كتابة أي شيء. لقد حاولت أن أكتب بعض الوظائف المحفوفة بالمخاوف، لكني شعرت في الغالب بالحرج عليها وانتهى بي المطاف بحذفها. فقط خلال الدكتوراة ، أعتقد ، بدأت الكتابة بشكل أكثر تواتراً ، معظمها تحديثات حول عملي ، استكشاف أدوات الإنتاجية ، والفشل.
 
-## 2. How did you get started?
+## 2. كيف بدأت؟
 
-As described above it was quite gradual, the first blog I set up, I programmed in PHP myself (and it had lots of bugs). Then I switched to a free WordPress blog and then installed WordPress on my website. As for writing on the blog, when I did start to write more, I made it a habit to write (for example) once a week, and it became more natural after a while. Also, it became more clear what is really "my" topics to write about, or not. The CV of Failures I shared during my postdoc resonated, and that later turned into the How I Fail series.
+كما تم شرحه أعلاه كان تدريجياً جداً، أول مدونة قمت بإنشائها، قمت ببرمجتها بنفسي PHP (وكان لديها الكثير من الأخطاء). ثم تحولت إلى مدونة وردبريس مجانية ثم قمت بتثبيت ووردبريس على موقعي الإلكتروني. بالنسبة للكتابة في المدونة، عندما بدأت أكتب المزيد، وجعلت من العادة الكتابة (على سبيل المثال) مرة في الأسبوع، وأصبح من الطبيعي أكثر بعد فترة من الزمن. وأيضا، أصبح أكثر وضوحا ما هو حقا المواضيع "أنا" للكتابة عنها أم لا. السيرة الذاتية من الفشل التي شاركتها خلال دفتر البريد الخاص بي، وتحول ذلك لاحقاً إلى سلسلة "كيف أفشل".
 
-## 3. What impact do you think your blog is making on your research/project/community?
+## 3. ما هو التأثير الذي تعتقد أن مدونتك تخلفه على بحثك/مشروع/مجتمعك؟
 
-It helps people to see stories by other real people, and relate to the issues that are discussed.
+إنها تساعد الناس على رؤية القصص لأشخاص حقيقيين آخرين، وتتصل بالقضايا التي تجري مناقشتها.
 
-## Can I just get you to expand on the impact question? Did your blog lead to more impact in a project, or perhaps got you more noticed to secure a job, or help build a community?
+## هل يمكنني فقط أن أجعلكم تتوسعون في سؤال التأثير؟ هل أدت مدونتك إلى مزيد من التأثير في مشروع، أو ربما حصلت على مزيد من الملاحظة لتأمين وظيفة، أو المساعدة في بناء مجتمع؟
 
-Yes, I get noticed because people know me from my Twitter and blog, usually this translates into talk invitations. Last year when I announced I was leaving my tenure track, I also had a few suggestions for jobs, which in the end translated into my current (tenured) position.
+نعم، تلقيت ملاحظة لأن الناس يعرفون لي من تويتر ومدونتي، عادة ما يترجم هذا إلى دعوات للحديث وفي العام الماضي عندما أعلنت أنني سأترك مسار شغل المنصب، كان لدي أيضا بعض الاقتراحات بشأن الوظائف، والذي ترجم في النهاية إلى منصبي الحالي (الوظيفي).
 
-I am not sure there is an explicit community, but I do feel like I have a supportive community on Twitter. It has also resulted in some great projects, like the Avengers for Better Science workshop, which was funded by the Mozilla Foundation, or the Ten Simple Rules paper about Twitter.
+ولست متأكدا من أن هناك مجتمعا صريحا، ولكنني أشعر بأن لدي مجتمعا داعما على تويتر. كما أسفرت عن بعض المشاريع الرائعة، مثل حلقة العمل المعنية بعلم الأفضل، التي مولتها مؤسسة موزيلا، أو ورقة القواعد العشر البسيطة عن تويتر.
 
-For the blog, I have a sense of what kind of person reads my blog, even if I have never met them. It's great to see the statistics for previous blog posts, and receive a thank you email or message once in a while.
+بالنسبة للمدونة، لدي إحساس بماهية الشخص الذي يقرأ مدونتي، حتى لو لم أقابلهم أبدا. إنه لأمر رائع أن نرى إحصائيات مشاركات المدونة السابقة، وأن تتلقى شكرا لك على البريد الإلكتروني أو الرسالة مرة واحدة في فترة من الزمن.
 
 
-## 4. What tools/software do you use most to produce your blog?
+## 4. ما هي الأدوات/البرامج التي تستخدمها أكثر لإنتاج مدونتك؟
 
-Primarily WordPress. I use Mailchimp to send out a newsletter (only if there are any new posts) and Canva if I make graphics (but usually I'm too lazy). WordPress shares my new posts to Twitter and LinkedIn.
+وورد بريس أساسا. أنا أستخدم Mailchimp لإرسال رسالة إخبارية (فقط إذا كانت هناك أي مشاركات جديدة) وكانفا إذا قمت بإعداد رسومات (ولكنني عادة كسول للغاية). وورد يشاركني مشاركاتي الجديدة على تويتر و لينكدين.
 
-## 5. Do you have any top tips for other people that might be interested in starting a blog?
+## 5. هل لديك أي نصائح أعلى لأشخاص آخرين قد تكون مهتمة ببدء المدونة؟
 
-Make it a habit to post something. Review your posts after a while to see what kind of tags/categories you seem to use more often, and which kind get more responses.
+اجعل من العادة نشر شيء ما. راجع مشاركاتك بعد فترة لرؤية نوع العلامات/الفئات التي يبدو أنك تستعملها أكثر تواترا، وأي نوع يحصل على المزيد من الإجابات.
 
-## 6. Do you have any tips on things to avoid?
+## 6. هل لديك أي نصائح حول الأشياء التي يجب تجنبها؟
 
-Don't fall into the "X step simple formula for bloggers" which is optimized to create short content with lots of clicks. There are lots of types of "real" blogs that do not do this, and which have dedicated readers.
+لا تقع في "صيغة X خطوة بسيطة للمدونين" التي يتم تحسينها لإنشاء محتوى قصير مع الكثير من النقرات. هناك الكثير من أنواع المدونات "الحقيقية" التي لا تفعل ذلك، والتي لديها قراءات متفرغين.
 
-## 7. Where do you see your blog going in the future?
+## 7. أين ترى مدونتك تذهب في المستقبل؟
 
-It's been on the back burner a bit last year, so first of all I would like to get back to writing regularly. I'm also thinking about compressing some of the information into a book, for example, but I haven't quite decided on the format yet.
+لقد كانت على ظهر السفينة في العام الماضي، لذا أولا وقبل كل شيء أود أن أعود إلى الكتابة بانتظام. أنا أيضا أفكر في ضغط بعض المعلومات في كتاب، على سبيل المثال، لكنني لم أقرر تماما الشكل بعد.
 
-## 8. Is there anything else that you want to share?
+## 8. هل هناك أي شيء آخر تريد مشاركته؟
 
-It's like running, it's better to just start and go regularly, instead of waiting until you have professional shoes.
+إنه مثل الركض، من الأفضل أن تبدأ وتذهب بانتظام، بدلاً من الانتظار حتى يكون لديك أحذية محترفة.
 
-*This interview was conducted by Emma Karoune*
+*وأجرت هذه المقابلة السيدة إيما كاروني*

@@ -1,26 +1,26 @@
 (cm-comms-overview)=
-# Overview of the Guide for Communication
+# Vista general de la Guía para la Comunicación
 
-Research projects, publications and communities are evaluated based on the impact that they make. This is often based on academic journal articles, generally published on completion of a project. However, there is much more scope to plan communication in a research project to enable effective collaboration, sharing progress as well as reporting results and conclusions at different stages of research through different streams of dissemination.
+Proyectos de investigación, publicaciones y comunidades son evaluados en función del impacto que generen. Esto se basa a menudo en artículos de revistas académicas, publicados generalmente al finalizar un proyecto. Sin embargo, hay mucho más margen para planificar la comunicación en un proyecto de investigación para permitir una colaboración efectiva, compartir el progreso, así como informar de resultados y conclusiones en diferentes etapas de la investigación a través de diferentes flujos de difusión.
 
-In this guide, we present tools, methods and recommendations for communicating our research with wider audiences. Communication methods described here can be used for establishing efficient ways to work with your collaborators, share different research objects as well as increase the breadth of the audience for your research or community.
+En esta guía presentamos herramientas, métodos y recomendaciones para comunicar nuestra investigación con un público más amplio. Los métodos de comunicación aquí descritos pueden utilizarse para establecer formas eficientes de trabajar con sus colaboradores, compartir diferentes objetos de investigación así como aumentar la amplitud de la audiencia para su investigación o comunidad.
 
 ```{figure} ../figures/communication-styles.jpg
 ---
-name: communication-styles
-alt: Two people sitting working. One using a feather and scroll with the words inaccessible and too technical written on the scroll. The other person sitting at a computer with different communication methods coming out of the computer including blogs, podcasts, lay summaries and social media. There are also dictionaries for foreign languages showing that it is important to translate our research into different languages. Accessibility is written on the computer screen.
+nombre: communication-styles
+alt: Dos personas sentadas trabajando. Se usa una pluma y se desplaza con las palabras inaccesibles y demasiado técnicas escritas en el desplazamiento. La otra persona sentada en un ordenador con diferentes métodos de comunicación que salen del ordenador incluyendo blogs, podcasts, laicos resúmenes y medios sociales. También hay diccionarios para idiomas extranjeros que demuestran que es importante traducir nuestra investigación a diferentes idiomas. La accesibilidad está escrita en la pantalla del ordenador.
 ---
-Illustration about communicating with a wider audience.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+Ilustración sobre comunicación con un público más amplio.
+_The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
 (cm-comms-overview-jargon)=
-## Avoid Jargon
+## Evitar jerga
 
-> Plain language makes it easier for the public to read, understand, and use [all] communications. When we say not to use jargon, we’re not advocating leaving out necessary technical terms, but we are saying to make sure your language is as clear as possible. - [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/words/avoid-jargon)
+> Un lenguaje simple hace que sea más fácil para el público leer, entender y usar [all] comunicaciones. Cuando decimos no usar jerga, no defendemos dejar de lado los términos técnicos necesarios. pero le decimos que se asegure de que su idioma es lo más claro posible. - [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/words/avoid-jargon)
 
-Choosing to communicate in a jargon-free and less technical manner, with more consideration for accessibility ultimately results in our research being read and heard by more people. This includes writing your papers, guidelines and documentation simply and jargon-free. Other forms of communication include blogging, writing lay summaries, podcasting, presenting posters and talks at conferences outside of your discipline, and using social media. This can involve translating technical scientific writing into different styles that make your research more accessible to specialists outside of your specific discipline and also to the wider public. We also describe different communication channels you can select for your project to enable collaboration with your team or community members.
+Elegir comunicarse de forma sin jerga y menos técnica, con más consideración por la accesibilidad en última instancia da como resultado que nuestra investigación sea leída y escuchada por más personas. Esto incluye escribir sus papeles, directrices y documentación de forma sencilla y sin jerga. Otras formas de comunicación incluyen blogging, escritura de resúmenes laicos, podcast, presentación de carteles y charlas en conferencias fuera de su disciplina, y uso de las redes sociales. Esto puede implicar traducir la escritura científica técnica en diferentes estilos que hagan que su investigación sea más accesible a especialistas fuera de su disciplina específica y también al público en general. También describimos diferentes canales de comunicación que puedes seleccionar para tu proyecto a fin de permitir la colaboración con tu equipo o miembros de la comunidad.
 
-We present several case studies from groups and individuals that have successfully used these methods of communication. They describe how they have practically gone about doing the communication method and offer some tips for others to get started. You are welcome to share your personal stories and impact studies in this guide.
+Presentamos varios estudios de casos de grupos e individuos que han utilizado con éxito estos métodos de comunicación. Ellos describen cómo han hecho prácticamente el método de comunicación y ofrecen algunos consejos para que otros comiencen. Te invitamos a compartir tus historias personales y estudios de impacto en esta guía.
 
-Lessons learnt in this guide will enable researchers to communicate their research more clearly with wider audiences and therefore increase its overall impact. Methods discussed in the guide can have a considerable impact on the overall project or community in terms of gaining interest within your scientific discipline, engaging with the wider scientific community and gaining interest from the general public.
+Las lecciones aprendidas en esta guía permitirán a los investigadores comunicar más claramente sus investigaciones con un público más amplio y, por tanto, aumentar su impacto general. Los métodos discutidos en la guía pueden tener un impacto considerable en el proyecto general o la comunidad en términos de ganar interés dentro de su disciplina científica, comprometerse con la comunidad científica más amplia y ganar interés del público en general.

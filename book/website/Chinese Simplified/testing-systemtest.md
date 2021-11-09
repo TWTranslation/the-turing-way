@@ -1,26 +1,26 @@
-(rr-testing-systemtest)=
-# System Testing
+(rr-testing-systemest)=
+# 系统测试
 
-Once integration tests are performed, another level of testing called system testing can begin. System testing is a level of software testing where a complete and integrated software is tested. The tester supplies the program with input and verifies if the program's output is correct. If it is not then there is a problem somewhere in the system. Note that this does not have to be done manually, it can be automated. The purpose of these tests is to evaluate the system's compliance with the specified requirements. In many ways, system testing acts as an extension to integration testing. The focus of system tests are to make sure that groups of components function correctly as a cohesive whole.
+一旦进行集成测试，就可以开始另一个级别的测试，称为系统测试。 系统测试是测试完整和综合软件的一种软件测试。 测试者为程序提供输入并验证程序的输出是否正确。 如果不是这样，系统中的某个地方就会出现问题。 请注意，此操作不必手动进行，它可以自动化。 这些测试的目的是评估该系统是否符合规定的要求。 在许多方面，系统测试是综合测试的延伸。 系统测试的重点是确保各组组件作为一个整体正常运作。
 
-However, instead of focusing on the interfaces between components, system tests typically evaluate the outward functionality of a full piece of software. This set of tests ignores the constituent parts in order to gauge the composed software as a unified entity. Because of this distinction, system tests usually focus on user- or externally-accessible outputs.
+然而，系统测试通常不是注重组件之间的接口，而是评价完整一部软件的外向功能。 这套测试忽视了各组成部分，以便将组成的软件作为一个统一的实体来衡量。 由于这种区别，系统测试通常侧重于用户或外部可获得的产出。
 
-System testing can also test features of the system other than correctness. Examples include:
+系统测试除正确性外，还可以测试系统的其他功能。 这方面的例子包括：
 
-- Performance testing: does the program performance meet the minimum requirements? A performance test may measure how long the system takes to run in a given case.
-- Migration testing: does the program work when transferred to another computational environment?
-- Stress/scale/load testing: testing how the program behaves when under stress, for example, when required to process very large volumes of data.
-- Usability testing: how user-friendly the program is (more common in commercial software, tests typically conducted by humans rather than automated).
-- Recovery testing: whether the program can continue if errors occur (again, more common in commercial software).
+- 性能测试：方案性能是否符合最低要求？ 性能测试可以衡量系统在特定情况下运行需要多长时间。
+- 迁移测试：当转移到另一个计算环境时，程序是否起作用？
+- 压力/尺寸/负载测试：在压力下测试程序如何操作，例如在需要处理大量数据时。
+- 可用性测试：程序如何方便用户(在商业软件中，通常由人而不是自动化进行的测试比较常见)。
+- 恢复测试：如果发生错误，程序是否可以继续(在商业软件中更常见)。
 
-## System Testing Tips
+## 系统测试提示
 
-System tests, also called end-to-end tests, run the program, well, from end to end. As such these are the most time consuming tests to run. Therefore you should only run these if all the lower-level tests (smoke, unit, integration) have already passed. If they haven't, fix the issues they have detected first before wasting time running system tests.
+系统测试，也称为端到端测试，从结束到结束都很好地运行程序。 因此，这些是最耗时的检验标准。 因此，只有在所有较低级别的测试(烟雾、单位、整合)已经通过的情况下，您才应该运行这些。 如果他们藏身，请先修复他们发现的问题，然后再浪费运行系统的时间。
 
-Because of their time-consuming nature it will also often be impractical to have enough system tests to trace every possible route through a program, especially if there are a significant number of conditional statements. Therefore you should consider the system test cases you run carefully and prioritise:
+由于其耗费时间，因此要有足够的系统测试来通过某个方案跟踪每一条可能的路线也往往是不切实际的。 特别是如果有大量有条件的发言。 因此，您应该考虑您仔细运行的系统测试案例和优先顺序：
 
-- The most common routes through a program.
-- The most important routes for a program. For example, the LIGO detector aims to find gravitational wave events, which are extremely rare. If there's a bug in that path through the program which monitors the detector then it's a *huge* problem.
-- Cases that are prone to breakage due to structural problems within the program. Though ideally it's better to just fix those problems, but cases exist where this may not be feasible.
+- 通过程序最常见的路由。
+- 程序最重要的路由。 例如，地球静止轨道探测器旨在发现极少发生的引力波事件。 如果通过监视探测器的程序在这条路径中出现了一个错误，那么它就会有一个 *严重的* 个问题。
+- 由于该方案内的结构性问题而容易破裂的病例。 虽然理想的做法是仅仅解决这些问题，但在可能无法解决这些问题的地方仍然存在着这样做的情况。
 
-Because system tests can be time consuming it may be impractical to run them very regularly (such as multiple times a day after small changes in the code). Therefore it can be a good idea to run them each night (and to automate this process) so that if errors are introduced that only system testing can detect the programmer will be made aware of them relatively quickly.
+由于系统测试可能耗费时间，定期运行这些测试可能不切实际(例如在代码小改动后每天多次运行)。 因此，每晚运行它们（并使这个过程自动化）可能是一个好主意，以便如果引入错误，只有系统测试才能检测到程序员将会较快地知悉它们。

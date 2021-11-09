@@ -1,47 +1,47 @@
 (pd-project-repo)=
-# Creating Project Repositories
+# Creando Repositorios de Proyecto
 
-## Prerequisites
+## Prerrequisitos
 
-| Prerequisite            | Importance |
-| ----------------------- | ---------- |
-| {ref}`cl-github-novice` | Helpful    |
+| Prerrequisito           | Importancia |
+| ----------------------- | ----------- |
+| {ref}`cl-github-novice` | Útil        |
 
 
 ## Summary
 
-This chapter introduces a step-by-step guide on how to set up a project repository. Specifically, we describe key documents that you should add to your repository in order to maintain documentation and ensure effective collaboration. We provide examples from GitHub repository hosted and maintained by researchers in open science, however, the principles are applicable to any team-led online repository.
+Este capítulo introduce una guía paso a paso sobre cómo configurar un repositorio de proyectos. Específicamente, describimos documentos clave que debería agregar a su repositorio para mantener la documentación y asegurar una colaboración efectiva. Proporcionamos ejemplos del repositorio de GitHub alojado y mantenido por investigadores en ciencia abierta, sin embargo, los principios son aplicables a cualquier repositorio en línea dirigido por equipo.
 
-## Motivation
+## Motivación
 
-Online project repositories require documentation so that all collaborators are informed of the updates and contributors are provided with details they need to contribute efficiently. Shared documents can help you get your ideas across to new or potential contributors. Contributions can be anything from new ideas to bug reports and actual code contributions. Open science practices described here will also make it easier for you to lead closed-source projects collaboratively and transparently for your teams.
+Los repositorios de proyectos en línea requieren documentación para que todos los colaboradores estén informados de las actualizaciones y los colaboradores estén provistos de los detalles que necesitan para contribuir eficientemente. Los documentos compartidos pueden ayudarle a transmitir sus ideas a nuevos o potenciales colaboradores. Las contribuciones pueden ser desde nuevas ideas hasta informes de errores y contribuciones reales de código. Las prácticas científicas abiertas descritas aquí también le harán más fácil dirigir proyectos de código cerrado de forma colaborativa y transparente para sus equipos.
 
 ```{figure} ../figures/file-management-manual.jpg
 ---
 name: file-management-manual
-alt: image shows two people organising files. One person is holdinng up a README file and other person is reading the details to set up the data and analysis files in the drawer
+alt: imagen muestra dos personas organizando archivos. Una persona mantiene un archivo README y otra persona está leyendo los detalles para configurar los datos y los archivos de análisis en el cajón
 ---
-Illustration about managing files in a repository.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+Illustración sobre la gestión de archivos en un repositorio.
+_The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
-In this chapter, we have described following documents that should be added to a project repository:
-- {ref}`Landing Page - README File<pd-project-repo-readme>`
-- {ref}`Roadmapping<pd-project-repo-roadmapping>`
-- {ref}`Contributor Pathways<pd-project-repo-contributors>`
-- {ref}`Participation Guidelines<pd-project-repo-participation>`
+En este capítulo, hemos descrito los siguientes documentos que deberían ser añadidos al repositorio del proyecto:
+- {ref}`Página de acceso - Archivo README<pd-project-repo-readme>`
+- {ref}`Mapeo de ruta<pd-project-repo-roadmapping>`
+- {ref}`Rutas de colaborador<pd-project-repo-contributors>`
+- {ref}`Directrices de Participación<pd-project-repo-participation>`
 
 (pd-project-repo-license)=
-## Start by Adding a License
+## Empezar añadiendo una licencia
 
-One of the most important documents for your project is a license.
+Uno de los documentos más importantes para tu proyecto es una licencia.
 
 ```{note}
-Without a license, all rights are with the author of the code, and that means nobody else can use, copy, distribute, or modify the work without consent.
-A license gives this consent.
-If you do not have a license for your software, it is effectively unusable by the whole research community.
+Sin una licencia, todos los derechos son con el autor del código, y eso significa que nadie más puede usar, copiar, distribuir o modificar el trabajo sin consentimiento.
+Una licencia da este consentimiento.
+Si usted no tiene una licencia para su software, es efectivamente inutilizable por toda la comunidad investigadora.
 
-**See {ref}`rr-licensing` chapter for details**
+**Mira el capítulo {ref}`rr-licensing` para más detalles**
 ```
 
-The first file you can add to your project repository is a 'LICENSE' file. You can select a license type based on the level of freedom you would like to give to your users to use and build upon your project, visit [choosealicense.com](https://choosealicense.com/). Please follow the {ref}`Licensing Checklist<rr-licensing-checklist>` when adding a license to your project repository.
+El primer archivo que puede agregar al repositorio de su proyecto es un archivo 'LICENSE'. Puede seleccionar un tipo de licencia basado en el nivel de libertad que le gustaría dar a sus usuarios para usar y construir a partir de su proyecto, visita [elealicense. om](https://choosealicense.com/). Por favor, siga la {ref}`Lista de verificación de licencias<rr-licensing-checklist>` al agregar una licencia al repositorio de su proyecto.

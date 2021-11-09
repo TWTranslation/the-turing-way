@@ -1,60 +1,60 @@
-(cm-lay-summaries)=
-# Lay Summaries
+(م م-موجزات)=
+# الملخصات الصريحة
 
-Lay summaries are useful for many purposes. They are usually used to communicate findings in a simple way to the wider public but they have a far greater scope than this. They help to disseminate findings between scientific disciplines as academic research articles are often hard for other disciplines to access. This can aid collaboration within research groups that have a mix of specialists and other stakeholders in the same team.
+والملخصات العلنية مفيدة للعديد من الأغراض. وهي تستخدم عادة لإبلاغ النتائج بطريقة بسيطة إلى الجمهور الأوسع ولكن نطاقها أوسع بكثير من ذلك. وهي تساعد على نشر النتائج بين التخصصات العلمية لأن المواد البحثية الأكاديمية كثيرا ما يصعب الوصول إليها من تخصصات أخرى. ومن شأن ذلك أن يساعد على التعاون داخل أفرقة البحوث التي تضم مزيجا من الأخصائيين وغيرهم من أصحاب المصلحة في نفس الفريق.
 
-More recently, lay summaries are becoming a requirement from academic journals as part of the submission of a research article. However, writing lay summaries is a specific form of writing and requires training, or at least careful thought, to be able to adapt your scientific writing.
+وفي الآونة الأخيرة، أصبحت الملخصات غير المحترفة مطلوبة من المجلات الأكاديمية كجزء من تقديم مقالة بحثية. غير أن كتابة الملخصات العريضة هي شكل محدد من أشكال الكتابة وتتطلب التدريب. أو على الأقل التفكير المتأني، أن تكون قادراً على تكييف كتابتك العلمية.
 
-(cm-lay-summaries-what)=
-## What is a Lay Summary?
+(م ع-موجز-ما)=
+## ما هو ملخص؟
 
-A lay summary is a summary of a research project or a research proposal that is usually written for members of the public, rather than researchers or professionals. It should be written in plain English, avoid the use of jargon and explain any technical terms that have to be included {cite:ps}`Duke2012summary`.
+والموجز الرئيسي هو موجز لمشروع بحثي أو مقترح بحثي يكتب عادة لأفراد الجمهور. بدلاً من الباحثين أو المهنيين. وينبغي أن يكتب بالإنكليزية الواضحة. تجنب استخدام الـ jargon وشرح أي مصطلحات تقنية يجب تضمينها {cite:ps}`Duke2012Summary`.
 
-(cm-lay-summaries-why)=
-## Why Write Lay Summaries?
+(م م-موجز-لماذا)=
+## لماذا اكتب الملخصات القصيرة؟
 
-Apart from fulfilling the transparency and collaborative goals of an open science approach, there are specific reasons why writing lay summaries can benefit scientific progress.
+وبصرف النظر عن تحقيق الأهداف المتعلقة بالشفافية والتعاون في اتباع نهج علمي مفتوح، هناك أسباب محددة تجعل كتابة ملخصات غير رسمية يمكن أن تفيد التقدم العلمي.
 
-[INVOLVE](https://www.invo.org.uk/about-involve/), a national advisory group funded by the UK National Institute for Health Research reported that involving patients and healthcare professionals helps at all stages of a research project, from developing the research question to disseminating the results. The benefits of this direct involvement in research have been identified as follows {cite:ps}`Duke2012summary`:
-* Increasing the relevance of the research.
-* Increasing recruitment to clinical research.
-* Improving the design of the research to address ethical concerns, improve the research tools and make it easier for the people taking part.
-* Improving the quality of the data and its interpretation.
-* Making it more likely that the findings of the research will be used to make a difference to patients and healthcare workers lives.
+[معلومات](https://www.invo.org.uk/about-involve/)، ، (أ) أفاد فريق استشاري وطني ممول من معهد المملكة المتحدة الوطني للبحوث الصحية بأن إشراك المرضى والمهنيين العاملين في مجال الرعاية الصحية يساعد في جميع مراحل مشروع بحثي؛ من تطوير مسألة البحث إلى نشر النتائج. تم تحديد فوائد هذه المشاركة المباشرة في البحث على النحو التالي {cite:ps}`Duke2012Summary`:
+* • زيادة أهمية البحوث.
+* زيادة التوظيف في البحوث السريرية.
+* • تحسين تصميم البحوث لمعالجة الشواغل الأخلاقية، وتحسين أدوات البحوث، وتيسير ذلك على المشاركين فيها.
+* 3 - تحسين نوعية البيانات وتفسيرها.
+* • زيادة احتمال استخدام نتائج البحث لإحداث تغيير في حياة المرضى والعاملين في مجال الرعاية الصحية.
 
-(cm-lay-summaries-how)=
-## Writing a Good Lay Summary
+(م - ملخصات - كيف)=
+## كتابة موجز جيد
 
-**The difference between a lay summary and academic writing**
+**الفرق بين الكتابة الموجزة غير العادية والكتابة الأكاديمية**
 
-Academic writing is usually not accessible to researchers outside of your discipline as well as those in non-academic roles. It is therefore a good idea to make all your academic writing more readable as being too ‘academised’ narrows the likelihood of dissemination to wider academic disciplines and the general public.
+وعادة ما يكون الكتابة الأكاديمية غير متاح للباحثين خارج نطاق تخصصكم وكذلك للباحثين الذين يضطلعون بأدوار غير أكاديمية. ولذلك فإن من المفيد جعل كتابتك الأكاديمية أكثر قابلية للقراءة باعتبارها "أكاديمية" أكثر مما ينبغي يقلل من احتمال النشر على تخصصات أكاديمية أوسع وعلى عامة الجمهور.
 
-Less accessible academic writing has four main characteristics {cite:ps}`DunleavyTinkler2021impact`
-* Use of specialised vocabularies.
-* Passive verb use (or passive voice) that is supposed to make the writing more neutral or impersonal.
-* Nouns substituting for verbs to make sentences sound more complicated.
-* The generation of new nouns or acronyms that are discipline-specific.
+الكتابة الأكاديمية الأقل إمكانية لها أربع خصائص رئيسية {cite:ps}`DunleavyTinkler2021impact`
+* استخدام المفردات المتخصصة.
+* الفعل السلبي يستخدم (أو الصوت السلبي) الذي يفترض أن يجعل الكتابة أكثر حيادا أو غير شخصي.
+* الأسماء التي تحل محل الأفعال لجعل الجمل تبدو أكثر تعقيدا.
+* توليد أسماء جديدة أو مختصرات خاصة بكل تخصص.
 
-Therefore, the key to making your writing more accessible is changing this language into a less formal and less technical style.
+لذلك، فإن مفتاح جعل كتابتك أيسر منالاً هو تغيير هذه اللغة إلى أسلوب أقل رسمية وأقل تقنية.
 
-### Adapting Content for Lay Summaries:
+### تكييف المحتوى حسب الملخصات العلنية:
 
-* Know your audience - Most lay summaries are written for a high school-age child’s level of understanding. That's about 14 years old!
-* Minimise jargon - Cut out all scientific words or, if you can’t cut them out completely, add a definition or weblink to explain the word.
-* Logical structure - Introduction sentence, aims and objectives, results and conclusions.
-* Shorten sentences and paragraphs - Lengthy paragraphs just put people off, most people cannot pay attention to paragraphs longer than two or three sentences in length.
-* Use active verbs and active voice - Make it personal, use 'I' and 'we'.
-* Content - The text should provide answers to the essential questions: Who, What, Where, When, Why, How.
-* Relevance and benefits - Aims and objectives clearly written, impact clearly stated.
-* If you are including diagrams, make sure that they are also simplified and include alternative text for greater accessibility.
+* اعرف جمهورك - يتم كتابة معظم الملخصات غير العادية لمستوى فهم الطفل في سن المدرسة الثانوية. هذا حوالي 14 عاماً!
+* تصغير الجارجون - إغلاق جميع الكلمات العلمية أو، إذا لم تستطع إلتقاطها تماماً، إضافة تعريف أو ربط لشرح الكلمة.
+* الهيكل المنطقي - جملة مقدمة وغايات وغايات ونتائج واستنتاجات.
+* الجمل والفقرات المختصرة - الفقرات المطولة تخفف عن الناس، ولا يمكن لمعظم الناس أن يولوا اهتماما لفقرات أطول من جملتين أو ثلاث جمل.
+* استخدم الأفعال النشطة والصوت النشط - اجعلها شخصية، استخدم 'I' و 'نا'.
+* المحتوى - يجب أن يوفر النص إجابات على الأسئلة الأساسية: من ، ماذا ، أين ، متى ، لماذا ، كيف.
+* الأهمية والفوائد - الأهداف والغايات المكتوبة بوضوح، والأثر محدد بوضوح.
+* إذا كنت تدرج رسومات بيانية، تأكد من أنها أيضا مبسطة وإدراج نص بديل لزيادة إمكانية الوصول.
 
-(cm-lay-summaries-test)=
-## Test Your Readability
+(م م-ملخصات - اختبار)=
+## اختبار جاهزيتك للقراءة
 
-Have a go at using one of the resources below to test the readability of the lay summary you have written.
+يمكنك الذهاب إلى استخدام أحد المصادر أدناه لاختبار قابلية قراءة الموجز العادي الذي كتبته.
 
-Readability tests:
+اختبارات قابلية القراءة:
 * [Hemingway app](http://www.hemingwayapp.com/)
-* [The first word readability test](http://thefirstword.co.uk/readabilitytest/)
+* [اختبار القابلية للقراءة في أول كلمة](http://thefirstword.co.uk/readabilitytest/)
 
-Here is a good example of how abstract can be changed into a lay summary: [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/).
+وفيما يلي مثال جيد على كيفية تغيير المجرد إلى موجز عادي: [التطابق مع الملخص](https://bitesizebio.com/10871/perfecting-that-lay-summary/).

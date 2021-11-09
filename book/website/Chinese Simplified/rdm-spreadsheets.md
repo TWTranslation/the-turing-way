@@ -1,148 +1,148 @@
-(rr-rdm-spreadsheets)=
-# Data Organisation in Spreadsheets
+(rr-rdm-电子表格)=
+# 电子表格中的数据组织
 
-Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used to collect, store, manipulate, analyse, and share research data. Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans. However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow. There is a collection of [horror-stories](http://www.eusprig.org/horror-stories.htm) that tells how the use of spreadsheets can ruin analysis-based studies due to unexpected behaviour of the spreadsheet or error-prone editing processes. Some of these mishaps are not unique to spreadsheets, but many, such as [this](https://doi.org/10.1186/s13059-016-1044-7) and [this](https://doi.org/10.1186/1471-2105-5-80), are.
+Spreadsheetsets, such as Microsoft Excel文件, google sheets, and their Open Source alternative [(例如，) LibreOffice](https://www.libreoffice.org), , 通常用于收集、储存、操作、分析和分享研究数据。 预览表是方便和易用的工具，用于将信息组织成便于撰写和易读的人类表格。 然而，人们应当谨慎地使用这些表格，因为使用不适当的电子表格是数据分析工作流程中出现错误的主要原因。 有一个 [恐怖故事](http://www.eusprig.org/horror-stories.htm) 集，它说明由于电子表格的意外行为或错误的 编辑过程，使用电子表格如何能够破坏基于分析的研究。 有些错误并不是电子表格所独有的，但是很多错误，例如 [此](https://doi.org/10.1186/s13059-016-1044-7) 和 [是](https://doi.org/10.1186/1471-2105-5-80)。
 
-Fortunately, most problems can be avoided with the following recommendations:
-- Use spreadsheet in a text-only format (.csv or .tsv),
-- Create tidy spreadsheets,
-- Make spreadsheets consistent (with each other) and implement rules for data entries, and
-- Avoid manipulating and analysing data in spreadsheet software (this includes copy-paste).
+幸运的是，下列建议可以避免大多数问题：
+- 以纯文本格式使用电子表格 (.csv 或 .tsv)，
+- 创建tidy 电子表格，
+- 使电子表格(彼此一致)并实施数据输入规则，
+- 避免操纵和分析电子表格软件中的数据(这包括复制粘贴)。
 
-Spreadsheets are a powerful tool only if the dataset is collected and organised in specific formats that are usable for both the computers and researchers.
+只有在数据集是以可用于计算机和研究人员的特定格式收集和编排时，预报表才是一种强有力的工具。
 
-(rr-rdm-spreadsheets-nondata)=
-## 1. Avoid Non-Data Content
+(rr-rdm-电子表格-nondata)=
+## 1. 避免非数据内容
 
-Spreadsheets are used for organising data in a tabular form. The subject, the object and the relationship between them are transformed into rows, cells and columns, respectively. For example, the subject: `experiment`, relationship: `was performed on the date`, and the object: `2020-06-06` gives one row for each experiment, one column for `date of experiment`, and the value `2020-06-06` in the cell. Unfortunately, spreadsheet programs allow you to add other kinds of contents to this, like color to specific cells. While it may help the researchers at some point, one needs to remember that this kind of **cell modification should not be considered as data**, primarily because they cannot be exported to other software.
+电子表格用于以表格形式组织数据。 主题、对象和它们之间的关系分别变成一行、单元格和列。 例如，主题： `expert`, relationship: `是在日期`, 和对象： `2020-06-06` 给每次实验提供一行 用于 `实验日期`的一列，单元格中的值 `2020-06-06`。 不幸的是，电子表格程序允许您添加其他类型的内容，例如颜色到特定的单元格。 虽然它可能在某个时候对研究人员有所帮助， 人们需要记住，这种类型的 **单元格修改不应被视为数据**， 主要是因为它们不能导出到其他软件。
 
-As a simple rule, what can be exported in a text-only format, comma-separated values (CSV), or tab-separated values (TSV), can be considered as the data. Other functions should be avoided when using these programs for research data. This includes:
-- changing font, color or borders,
-- using functions,
-- merging cells (this one is particularly problematic),
-- using specific cell formats (especially dates, see below).
+作为一条简单的规则，可以用纯文本格式、逗号分隔值(CSV)或制表符分隔值(TSV)导出的东西可以被视为数据。 在利用这些方案获取研究数据时，应避免其他功能。 其中包括：
+- 更改字体、颜色或边框
+- 使用函数，
+- 合并单元格(这个单元格问题特别严重)
+- 使用特定单元格格式(特别是日期，见下文)。
 
-As a test for your spreadsheet compatibility with reproducible research, export your data from the spreadsheet to the CSV format and reopen it. If you can still get all the information that you stored in your sheet, then your data is fine.
-
-```
-Tip: If you want to use color to help with a rapid highlight in your document, create a new column to indicate which cells are highlighted (it becomes a part of your data).
-In addition to the visual feedback, you can now also use this information to filter or sort your data and get the highlighted cells quickly.
+作为您的电子表格与可复制研究兼容性的测试，将您的数据从电子表格导出到CSV格式并重新打开它。 如果你仍然可以获得你存储在你的工作表中的所有信息，那么你的数据是很好的。
 
 ```
-(rr-rdm-spreadsheets-format)=
-## 2. Tidy Format For Spreadsheets
+提示：如果您想使用颜色来帮助您的文档快速高亮显示。 创建一个新列来显示哪个单元格被高亮(它成为您数据的一部分)。
+除了视觉反馈外，您现在也可以使用此信息过滤或排序您的数据并快速获取高亮的单元格。
+
+```
+(rr-rdm-电子表格格式)=
+## 2. Streadsheets Tidy 格式
 
 If the spreadsheet is poorly organised, then it may be [difficult for collaborators](https://luisdva.github.io/pls-don't-do-this/) to easily {ref}`read-in and re-use <rr-rdm-fair>` your data for further analysis.
 
-Indeed, a large part of the work of data scientists is to transform the data into a form that the computer can read. However, this is incredibly time-consuming when the information is split between several spreadsheets and when there are no concrete data transformation plans before the data is acquired.
+事实上，数据科学家的大部分工作是将数据变成计算机可以阅读的形式。 然而，仍然存在着这种情况。 当信息分成几个电子表格和在获得数据之前没有具体的数据转换计划时，这种情况耗费了大量时间。
 
-There are very simple rules to facilitate data use, which go into the concept of [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
+简化数据使用的规则非常简单，这些规则涉及 [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815) tidy数据格式允许在电子表格软件中易于过滤和排序数据。
 
-In short:
+简体：
 
-- One column = one variable (no more, no less, this implies that two header names can not be identical)
-- One row = one sample
-- One cell = one information
-- **The first row is the header**
-- Header names must not include a special character (including space) or start with a number
+- 一列 = 一个变量(至少，这意味着两个标题不能完全相同)
+- 一行 = 一个示例
+- 一个单元格 = 一个信息
+- **第一行是标题**
+- 标题名称不能包含特殊字符(包括空格)或以数字开头。
 
 ```{figure} ../../figures/tidy-1.png
 ---
 name: tidy-1
-alt: The image depicts tidy data. One column represents a variable, one row represents a sample, and one cell represents a piece of information.
+alt: 图像描述了tidy 数据。 一个列代表一个变量，一个列代表一个样本，一个单元代表一个信息。
 ---
-An illustration of tidy data.
+是整洁数据的图示.
 ```
 
-Three rules make a dataset tidy:
-1. Each variable must have its own column.
-2. Each observation must have its own row.
-3. Each value must have its own cell.
+三条规则生成数据集提示：
+1. 每个变量必须有自己的列。
+2. 每项观察必须有自己的一行。
+3. 每个值必须有自己的单元格。
 
-There are data validation tools available, like https://goodtables.io, that allow you to automatically check whether your spreadsheets are tidy.
+有可用的数据验证工具，例如https://goodtables.io，您可以自动检查您的电子表格是否是潮湿的。
 
-(rr-rdm-spreadsheets-consistent)=
-## 3. Consistent Values
+(rr-rdm-电子表格的一致性)=
+## 3. 一致值
 
-When you work with several spreadsheets or with a team during data collection, it is crucial to make sure the same information will be entered with the same term, and that the same term always conveys the same information. In the example of iris data, if some people use different terms to record information for a specific column - such as naming the column `species` instead of `Species` or using `iris setosa`, `set.` or `i.setosa` instead of `setosa` - the creation of a reproducible workflow will be more difficult, and errors may even be overlooked.  
+当您使用多个电子表格或在数据收集过程中与团队合作时， 必须确保以同样的术语输入同样的信息， 而且同一术语总是传达同样的信息。 In the example of iris data, if some people use different terms to record information for a specific column - such as naming the column `species` instead of `Species` or using `iris setosa`, `set.` or `i.setosa` instead of `setosa` - the creation of a reproducible workflow will be more difficult, and errors may even be overlooked.  
 Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
 
-It is good practice to implement a `data dictionary` or a `taxonomy` of accepted terms and document the convention used in a README file. Depending on the software you use, you may be able to restrict the accepted values in specific columns. If such a taxonomy or ontology is available, using it may allow you (and others) to use the data in conjunction with other datasets. For example, you may use the generic `male` and `female` term for the sex of an animal (without capitals, and without using abbreviation), as many ontologies use these terms. Besides, you may want to use some extra tools to validate the spreadsheets before its integration in the analysis.
+一个由 `数据字典` 或 `分类法` 用于README 文件的公认术语和文档是很好的做法。 根据您使用的软件，您可以在特定列中限制接受的值。 如果有这种分类法或生物学，使用它可以使您(和其他人)与其他数据集一起使用这些数据。 例如， 您可以使用通用的 `男性，` 和 `女方` 术语来描述动物的性别(无首都) 在不使用缩略语的情况下，有许多术语使用这些术语。 此外，您可能想要使用一些额外的工具来验证电子表格，然后将其纳入分析中。
 
-You should also have clear rules about missing data points. Using `NA`, `NULL`, or empty cells is not trivial and may have different meanings (impossible data point, not recorded, or lost data point). Imagine a researcher wants to record the time spent before seeing a pollinator land on an iris flower, and no pollinator was seen during the 10-minute experiment. Suppose the researcher reports `600` (the duration of the experiment in seconds). In that case, there will be no way to distinguish a scenario where no pollinator was seen, and one when a pollinator was seen at the end of the experiment (and you may forget that rule and treat `600` as a normal value).
+您还应该有关于缺失数据点的明确规则。 使用 `NA`, `NULL`, 或空单元格不是微不足道的，可能有不同的含义(不可能的数据点、没有记录或丢失的数据点)。 想象一下，研究人员想记录一下花费的时间，然后才能看到一块铁花上的粉碎土地， 在10分钟的试验中，没有看到喷雾器。 假设研究人员报告 `600` (实验持续时间以秒为单位)。 在这种情况下，就无法区分没有看到投票人的假想， 和一次在实验结束时看到一个抛光器(你可能会忘记这条规则并将 `600` 视为一个正常值)。
 
-If `NA` is reported, one may interpret this value as a non-existing data point (the experiment had not been performed). An elegant solution is to have a second column stating whether a pollinator was seen during the experiment, where `TRUE`, `FALSE` and `NA` values are accepted.
+如果 `NA` 被报告，人们可能会将此值解释为一个不存在的数据点(实验尚未进行)。 优雅的解决方案是第二列，说明在试验期间是否看到过闪光器。 其中 `TRUE`, `FALSE` 和 `NA` 值已被接受。
 
-Finally, you should also be aware of the default behaviour of your spreadsheet program, as it may be different for different programs, and different versions of the same program. For instance, the decimal is usually indicated with a comma in the French or German versions of Excel. In the English versions, a dot is used since the comma has no meaning (`9,000` will be translated into `9000` or `9` depending on the version you are using).
+最后，您还应该知道您的电子表格程序的默认行为。 不同程序和不同版本的同一程序可能不同。 例如，在Excel的法文或德文版本中，通常用逗号标明小数。 在英文版本中使用一个点，因为逗号没有意义(`9, ) 00` 将被翻译成 `9000` 或 `9` 取决于您使用的版本)。
 
-(rr-rdm-spreadsheets-manipulation)=
-## 4. Data Manipulation and Analysis
+(rr-rdm-电子表格-操纵)=
+## 4. 数据操纵和分析
 
-***Do not manipulate or analyse data in a spreadsheet program.***
+***不要操纵或分析电子表格程序中的数据。***
 
-In particular, only copy-paste from one spreadsheet to another if the process is used very rarely. It is now effortless to read and combine different spreadsheets in the analysis software, with the additional advantage that the software will return an error message if the headers do not fit.
+特别是，如果过程很少使用，只有从一个电子表格粘贴到另一个电子表格。 现在，在分析软件中阅读和合并各种不同的电子表格是毫无意义的。 还有额外的优势，即如果信头不适合，软件将返回错误消息。
 
-(rr-rdm-spreadsheets-tips)=
-## Other Tips
+(rr-rdm-电子表格-提示)=
+## 其他提示
 
-(rr-rdm-spreadsheets-tips-time)=
-### Dealing With Time Information
+(rr-rdm-电子表格-提示-时间)=
+### 处理时间信息
 
-While dates should be written as `yyyy-mm-dd`, Excel and other software tend to transform this data into their own date formats (even during data import from a CSV file). The only 100% secure way to deal with this is to make different columns for years, months, and days and recreate the data in the software used for analysis. Time entered with `hh:mm:ss` normally works.
+日期应该以 `yyy-mm-dd`写， Excel和其他软件倾向于将此数据转换成自己的日期格式(即使是在从CSV文件导入数据期间)。 处理这个问题的唯一100%安全的方法是多年来制造不同的列. 请将本函及其附件作为大会第五十九届会议的文件分发为荷。 Time entered with `hh:mm:ss` normally works.
 
-(rr-rdm-spreadsheets-tips-several)=
-### Working With Several Sheets
+(rr-rdm-电子表格-tips-several)=
+### 使用几张木板
 
-We often use several sheets for different but related data. It is a handy tool indeed, especially when one wants to share the complete dataset with colleagues.  
-On the other hand, CSV files only save one sheet at a time. Though most data analysis software have several ways to import `xlsx` files, the practical solution is to work with the `xlsx` format while making sure that the information is available in CSV format for each sheet. A better solution, especially for long term storage, is to save all sheets separately in a CSV file and zip them together. This solution also allows including extra documentation that could be in a different format (for example, a text file explaining the meaning of the headers and the chosen unit).
+我们常常使用不同但相关的数据表。 它确实是一种方便的工具，特别是当人们想要与同事们分享完整的数据集时。  
+另一方面，CSV 文件一次只保存一个工作表。 虽然大多数数据分析软件有几种方法导入 `xlsx` 文件， 实用的解决方案是使用 `xlsx` 格式，同时确保每个工作表都有CSV 格式的信息。 一个更好的解决办法，尤其是长期储存的解决办法，是将所有工作单单独保存到一个CSV文件并将它们放在一起。 这个解决方案还允许包含可能采用不同格式的额外文档(例如)。 解释标题和所选单位含义的文本文件)。
 
-(rr-rdm-spreadsheets-tips-design)=
-### Spreadsheet Design
+(rr-rdm-电子表格-提示设计)=
+### 电子表格设计
 
-Data is often collected manually, on paper. To be most efficient and avoid mistakes, it is best to collect the data in the same format as it will be digitalised. That is, one should design the computer-readable spreadsheet to be printed for data collection. This poses some design questions, especially for information that is unique to one experiment (one paper) but may change between experiments (for example, experimentalist or temperature of the room). You indeed want that information in one column, but you would like to enter it only once during data acquisition (especially on the paper version). One solution is to move these columns onto a second (non-printed) page on the spreadsheet and adjust the headers and footers to enter the information on the paper version. One needs to make sure the information is entered in the column during digitalisation.
+数据往往以书面形式以手工方式收集。 为了效率最高并避免错误，最好以数字化的格式收集数据。 也就是说，应当设计可用于收集数据的计算机读取电子表格。 这提出了一些设计问题，特别是对于某项实验所独有的信息而言（一份纸），但可能会在不同的实验之间发生改变（例如）。 房间的实验或温度)。 您确实想要该信息列在一个列中，但您只想在数据采集过程中输入一次(尤其是在纸面版本上)。 一种解决办法是将这些列移动到电子表格上的第二个(非打印的)页面，并调整标题和页脚以便在纸面版本中输入信息。 我们需要确保在数字化过程中将信息输入列中。
 
-The way you enter the information (that is, the way you design your headers and cell content) may be different depending on the analysis you want to perform. One should still always try to be as generic and objective as possible and think about any additional analyses one may want to perform.
+您输入信息的方式(即： 您设计头部和单元格内容的方式可能因您想要执行的分析而不同。 人们仍然应当总是尽量做到通用和客观，并考虑人们可能想要进行的任何其他分析。
 
 
-As an example, let us suppose you are interested in depicting if the percentage of flowers whose sepal length is longer than 6 mm is different in three iris species. You may be inclined to record a true or false column `is-sepal-longer-than-6cm`, but this will restrict the analysis you can perform. A better solution is to record the length of the sepal (in mm) and automatically create the categorization later.
+例如， 让我们猜想你有兴趣描述三个铁种中其海豹长度超过6毫米的花的百分比是否不同。 您可能会倾向于记录真实或假列 `is-sepal-longer-than 6cm`, 但这将限制您可以进行的分析。 更好的解决方案是记录sepal的长度(毫米)，并在以后自动创建分类。
 
-If you are using R, you would then plot what you wanted with:
+如果您正在使用 R，您将会绘制您想要做的事：
 ```
-iris %>% ## the iris dataset is included in R base
-  dplyr::mutate ("is-sepal-longer-than-6cm" = ifelse(Sepal.Length >6, TRUE, FALSE)) %>% ## this create the new column
-  ggplot2::ggplot (aes (x=`is-sepal-longer-than-6cm` , fill= Species)) + ggplot2::geom_bar() ## this plots the data
+iris %>% ## 铁数据集包含在 R base
+  dplyr::mutate, ("is-sepal-longer-than 6cm" = ifels(Sepal)。 ength >6, TRUE, FALSE) %>## 创建新列
+  gggpl2:::ggplot (aes (x=`is-sepal-longer-than-6cm` , fill= species)) + gggplot2::geom_bar() ## 此绘图数据
 ```
 
-Headers names should be chosen with care, and when it is not clear what is meant and what unit is used, you may want to add some explanation in an external document. You may also share a sample spreadsheet to a colleague to receive feedback on how understandable your sheet is.
+头部名称应谨慎选择，如果不清楚是什么意思，使用什么单位。 您可能想要在外部文档中添加一些解释。 您还可以将一个样本电子表格分享给同事，以获得关于您的工作表如何可以理解的反馈。
 
-Another alternative is to add some explanations on top of the sheet in the first rows before the headers. By keeping human-readable information at the top of the file, one can better understand the data that starts in the header rows. This information can also help in analysing that data, making sure that the scripts ignore the explanation lines and only consider it during analysis. However, a good file with tidy columns and rows should not need extra explanation.
+另一种备选办法是在页首前面加上一些解释。 通过将可读的信息保留在文件的顶部可以更好地理解始于标题行的数据。 这种信息也有助于分析这种数据，确保脚本无视解释线，只能在分析时加以考虑。 然而，不应需要额外解释一个完整的细列和细列的文件。
 
-As for header names, the size of the headers is not an issue for computers. However, for human readability, it is better to keep it short (up to 32 characters).
+至于头部的名字，头部的大小对计算机来说不是问题。 然而，就人类可读性而言，最好保持短篇幅（最多32个字符）。
 
-You do not have to think about the order of the columns for the analysis, as it has no importance for data analysis software. You can, therefore, completely optimise that parameter for the data collection step.
+您不必考虑分析的列顺序，因为它对数据分析软件没有重要意义。 因此，您可以完全优化数据收集步骤的参数。
 
-(rr-rdm-spreadsheets-tips-versioning)=
-### Standard and Versioning
+(rr-rdm-电子表格-tips-version)=
+### 标准和版本
 
-A good spreadsheet design has instructive and intuitive header names, and it facilitates both data collection and analysis. Building such a spreadsheet design is difficult as it takes time, multiple iterations, and consensus. It is therefore beneficial to look for a standard spreadsheet before designing your own and to share your design openly once it is created. One should also use a version history of the spreadsheets (as they will evolve), and the analysis script should mention the version number of the spreadsheet. Documentation of the spreadsheet, its version history, and the ontologies it is linked to, can be useful for future users.
+一个良好的电子表格设计具有启发性和直观性的标题，它便利了数据收集和分析。 建立这种电子表格设计是困难的，因为这需要时间、多次迭代和共识。 因此，在设计您自己之前寻找标准电子表格并在创建后公开分享您的设计是有益的。 人们还应使用电子表格的版本历史（随着其演变而来）， 和分析脚本应提及电子表格的版本号。 电子表格文件、其版本历史以及它与之相关联的内联网，对未来的用户可能是有用的。
 
-(rr-rdm-spreadsheets-tips-team)=
-### Working In A Team: Wrap-up
+(rr-rdm-电子表格-提示-team)=
+### 在团队中工作：总结
 
-If you are working with a team on data collection, make sure:
-- Everyone uses the same software (and software version) to enter the data.
-- Everyone uses the same version of the spreadsheet template.
-- Everyone understands what each column represents, and the unit that should be used.
-- Every column has a defined standard on how to enter data in it or taxonomy of terms that one can use.
-- One person is responsible for answering putative questions during data collection.
-- Every spreadsheet is validated before entering the analysis workflow, and as soon as possible.
+如果您正在与一个团队合作收集数据，请确定：
+- 每个人都使用相同的软件(和软件版本)输入数据。
+- 每个人都使用相同版本的电子表格模板。
+- 每个人都了解每一栏所代表的是什么，以及应该使用的单位。
+- 每一列都有一个定义的标准，说明如何输入其中的数据或可以使用的术语分类。
+- 一个人负责在数据收集期间回答假定的问题。
+- 每张电子表格在输入分析工作流程之前都要验证，并尽快验证。
 
 
-(rr-rdm-spreadsheets-summary)=
+(rr-rdm-电子表格摘要)=
 ## Summary
 
-While spreadsheets can be a very user-friendly way to collect and share data, they can also be the source of mistakes if misused. When aiming at developing a reproducible workflow for analyses, one should design the spreadsheet for both computer and human readability, and, even before starting data collection, they should consider what would make their data analysis easy. Data manipulation and analysis in spreadsheets, in particular, is best avoided as it leads to non-reproducible workflows. Using version control and making the data read-only are two additional data management practices that can prevent accidents.
+虽然电子表格可以是一种方便用户的收集和分享数据的方法，但如果使用不当，也可能成为错误的来源。 当旨在开发可用于分析的可复制工作流程时，人们应设计计算机和人的可读性的电子表格。 而且，即使在开始收集数据之前，他们也应考虑如何使他们的数据分析更加容易。 尤其是电子表格中的数据操纵和分析最好避免，因为它导致不可再生产的工作流。 使用版本控制和使数据只读是可以预防事故的另外两种数据管理做法。
 
-Use a README [{term}`def<README>`] file and and other structure choices to explain naming conventions. It will make it clear to others what the file and header names mean, and what criteria to consider when designing an analysis workflow. If you work in a team, you should take particular care of the conventions and make sure everyone follows them.
+使用README [{term}`def<README>`] 文件和其他结构选项来解释命名协议。 它将向其他人说明文件和文件头名称的含义，以及在设计分析工作流程时应考虑的标准。 如果你在一个团队中工作，你应该特别注意公约并确保每个人都遵守这些公约。
 
-To learn more about data organisation in spreadsheets, you may have a look at the Data Carpentry lessons for [Social Scientists](https://datacarpentry.org/spreadsheets-socialsci/) and [Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/).
+了解更多关于电子表格中数据组织的信息， 您可能会查看 [社会科学家](https://datacarpentry.org/spreadsheets-socialsci/) 和 [生态学家](https://datacarpentry.org/spreadsheet-ecology-lesson/) 的数据木工课程。

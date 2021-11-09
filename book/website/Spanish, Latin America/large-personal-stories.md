@@ -1,139 +1,139 @@
-# Personal stories - Large Collaborative Research Community
+# Historias personales - Gran Comunidad de Investigación Colaborativa
 
-## Discussion with Remi Gau and Isil Poraz Bilgin from the Brainhack community
+## Discutir con Remi Gau e Isil Poraz Iraqgin de la comunidad de Brainhack
 
-Brainhack is an open science community that has an innovative meeting format to promote scientific collaboration and education in an open, inclusive environment. Remi, Isil and their colleagues have been dealing with the issue of how to determine contributions and authorship in such a large community.
+Brainhack es una comunidad científica abierta que tiene un formato de reunión innovador para promover la colaboración científica y la educación en un entorno abierto e inclusivo. Remi, Isil y sus colegas han estado tratando la cuestión de cómo determinar las contribuciones y la autoría en una comunidad tan grande.
 
-**More information about Remi Gau:**
-* [Website](https://remi-gau.github.io/)
+**Más información sobre Remi Gau:**
+* [Sitio web](https://remi-gau.github.io/)
 * [Twitter](https://twitter.com/RemiGau?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
-**More information about Isil Poyraz Bilgin:**
+**Más información sobre Isil Poyraz ★ gin:**
 * [Github](https://github.com/complexbrains)
 * [Twitter](https://twitter.com/complexbrains)
 
-**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
+**1. ¿Cuál es la *práctica normal* de la autoría de los documentos académicos en tu disciplina? o solía ser la práctica normal?**
 
-**Remi:** My background is in Biology and Psychology. Most papers are multi-author and so have more than one author. Single authorship can happen but not for experimental work. This work usually involves at least a Principal Investigator with a Postdoctoral Researcher or PhD student.
+**Remión:** Mis antecedentes están en Biología y Psicología. La mayoría de las publicaciones son de autor múltiple y por lo tanto tienen más de un autor. La única autoría puede ocurrir pero no para el trabajo experimental. Este trabajo generalmente involucra al menos a un Investigador Principal con un Investigador Postdoctoral o estudiante de doctorado.
 
-Single author papers don't have a bad reputation. They tend to be theoretical, summarizing articles or opinion pieces. However, they are more unusual now. This is because of a need to collaborate as projects are more complex and therefore require more skills and hence more people.
+Los documentos de un solo autor no tienen mala reputación. Suelen ser teóricas, resumiendo artículos o piezas de opinión. Sin embargo, ahora son más inusuales. Esto se debe a la necesidad de colaborar, ya que los proyectos son más complejos y, por lo tanto, requieren más habilidades y, por tanto, más personas.
 
-There are still some problematic practices happening such as providing materials for the project because of wanting to get on the paper. So yes, these people are providing something that makes the project possible, such as a raw material needed for the project, but are not making a substantial contribution to the project in any other way.
+Todavía se están produciendo algunas prácticas problemáticas como la de proporcionar materiales para el proyecto debido a la voluntad de subirse al papel. Así que sí, estas personas están proporcionando algo que hace posible el proyecto, como una materia prima necesaria para el proyecto. pero no contribuyen sustancialmente al proyecto de ninguna otra manera.
 
-In terms of the order of authors on papers, usually the two first names are very important and the two last names. First names are the people who have completed the most work on the project and the last two names have supervisory roles. The middle ranking authors can be random or alphabetical.
+En términos del orden de los autores sobre las papeles, normalmente los dos nombres son muy importantes y los dos apellidos. Los nombres son las personas que han completado más trabajo en el proyecto y los dos últimos tienen funciones de supervisión. Los autores de la clasificación media pueden ser aleatorios o alfabéticos.
 
-There is a slow move towards using the [CRediT system](https://casrai.org/credit/) now; giving a description of what the contributions have been. The issue with this is that it is a very detailed description of the different roles and there is a lot of push back about this and trying to do things differently.
+Hay un movimiento lento hacia el uso del [sistema CRediT](https://casrai.org/credit/) ahora; dando una descripción de lo que han sido las contribuciones. La cuestión con esto es que se trata de una descripción muy detallada de los diferentes papeles y hay un montón de retroceso en este asunto e intentando hacer las cosas de forma diferente.
 
-The increase in large collaborative papers and also the generation of software in projects means authorship needs to be dealt with in a different way.
+El aumento de los grandes documentos de colaboración y también la generación de software en proyectos implica que la autoría debe ser tratada de una manera diferente.
 
 
-**Isil:** I am a mathematician and have a Computer Science MSc, so I have more insights from the engineering practices due to my background, in which the authorship models follow a more compact authorship line-up. This means authorship that mainly constitutes of PhD or Postdoctoral students who actively work in the project as the first authors and the most senior person, such as the supervisors, principal investigators as the last author. However, with the development of more interdisciplinary research in the field, we have seen an increase in the number of authors that are included in papers.
+**Isil:** Soy un matemático y tengo un MSc de Informática, por lo que tengo más información de las prácticas de ingeniería debido a mis antecedentes, en los que los modelos de autoría siguen una línea de autoría más compacta. Esto significa una autoría que constituye principalmente de estudiantes doctorales o postdoctorales que trabajan activamente en el proyecto como los primeros autores y la persona más anciana. como los supervisores, los investigadores principales como el último autor. Sin embargo, con el desarrollo de una investigación más interdisciplinaria en el campo, hemos visto un aumento en el número de autores que se incluyen en los documentos.
 
-As the general rule of thumb, the author lists are created by those who made a 'significant intellectual contribution' to scientific research. However the complication comes from having no clear definition or metrics to quantify the significance of the contribution that has been made.
+Como norma general, las listas de autores son creadas por aquellos que hicieron una "contribución intelectual significativa" a la investigación científica. Sin embargo, la complicación viene de no tener una definición clara ni métricas para cuantificar la importancia de la contribución que se ha hecho.
 
-The only definition that has been made to this day is by the American Institute of Physics (AIP) as _"Authorship should be limited to those who have made a significant contribution to the concept, design, execution, or interpretation of the research study”_, which still does not give a clear guideline regarding how to evaluate the contributors in the fairest and consistent way across journals, institutions and laboratories.
+La única definición que se ha hecho hasta el día de hoy es por el Instituto Americano de Física (AIP) como _"Autoridad debería limitarse a aquellos que han hecho una contribución significativa al concepto, diseño, ejecución, o interpretación del estudio de investigación”_, que todavía no da una guía clara sobre cómo evaluar a los colaboradores de forma más justa y coherente entre revistas, instituciones y laboratorios.
 
 
-**2. When did you discuss authorship in your project?**
+**2. ¿Cuándo discutió sobre la autoría en su proyecto?**
 
-**Remi:** This was done very early in the project. We spent some of the first three meetings, in which the two main questions were finding out how to deal with authorship and the journal we wanted to aim for. We also discussed how we were dividing up the tasks.
+**Remión:** Esto se hizo muy pronto en el proyecto. Pasamos algunas de las tres primeras reuniones, En la que las dos cuestiones principales estaban averiguando cómo tratar con la autoría y la revista a la que queríamos aspirar. También hemos debatido cómo dividimos las tareas.
 
-Even with this early approach, there were some headaches. The main issues were whether authorship should be all alphabetical, random or ranking.
+Incluso con este enfoque temprano, hubo algunos dolores de cabeza. Las cuestiones principales eran si la autoría debía ser alfabética, aleatoria o clasificatoria.
 
-The order does let people know to what level they want to contribute and has implications on different peoples input into the project.
+El orden permite que la gente sepa a qué nivel quiere contribuir y tiene implicaciones en la aportación de diferentes pueblos al proyecto.
 
-Alphabetical authorship order would not seem very radical in some groups, such as an open science crowd. But in other settings it is very radical and may mean that some researchers are less keen to contribute if they don't get the recognition for their work that they think they should get.
+El orden de autoría alfabético no parecería muy radical en algunos grupos, como una corona de ciencia abierta. Pero en otros entornos es muy radical y puede significar que algunos investigadores están menos dispuestos a contribuir si no obtienen el reconocimiento por su trabajo que creen que deberían obtener.
 
-**Isil:** In addition to these, there have been some discussions regarding using consortium authorships with some examples given from previous papers by the community members as in [SciPy paper](https://www.nature.com/articles/s41592-019-0686-2) or as in [Open Brain Consent](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25351).
+**Isil:** Además de esto, ha habido algunas discusiones acerca del uso de autorizaciones de consorcio con algunos ejemplos dados de documentos anteriores por los miembros de la comunidad como en [SciPy paper](https://www.nature.com/articles/s41592-019-0686-2) o como en [Open Brain Consenso](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25351).
 
-But going back to what Remi mentioned, through the discussions, the feeling was that there had been some missing links in the general understanding regarding what the audience of a community paper should be in comparison to a scientific paper. How the authorship model and the expectations regarding the contributions should be justified and what they should be formed like.
+Pero volviendo a lo que mencionó Remi a través de las discusiones, la sensación era que había algunos vínculos faltantes en el entendimiento general sobre lo que la audiencia de un periódico comunitario debía ser en comparación con un documento científico. ¿Cómo debe justificarse el modelo de autoría y las expectativas con respecto a las contribuciones y cómo deben formarse?
 
-Therefore, these consortium authorship models remained a topic that needed more extensive discussions, which was not possible due to the pressure of time.
+Por lo tanto, estos modelos de autoría del consorcio seguían siendo un tema que necesitaba debates más amplios, algo que no era posible debido a la presión del tiempo.
 
 
-**3. Who had the discussion about authorship in your project?**
+**3. ¿Quién tuvo la discusión sobre la autoría en su proyecto?**
 
-**Remi:** Everybody was included in the discussions at the beginning of the project and we had a vote on it.
+**Remión:** Todo el mundo fue incluido en las discusiones al principio del proyecto y hemos votado al respecto.
 
-These general guidelines were documented but were to be revisited at a later stage of the project.
+Estas directrices generales se documentaron, pero se revisarían en una fase posterior del proyecto.
 
-Problems arose when more people joined the project. Most people agreed with the framework and guidelines but I'm not sure that they were made aware of this fully when onboarding. It was a rush and the process was rushed.
+Los problemas surgieron cuando más personas se unieron al proyecto. La mayoría de las personas estuvieron de acuerdo con el marco y las directrices, pero no estoy seguro de que se les haya dado cuenta de esto completamente cuando se incorporan. Fue una prisa y el proceso se rompió.
 
-Later on there were more discussions about authorship.
+Más tarde hubo más debates sobre la autoría.
 
-The time scale of the project, and the writing of articles, is going to affect the authorship process.
+La escala temporal del proyecto, y la redacción de artículos, afectará al proceso de autor.
 
-It will affect who gets a say and if the decisions are made correctly. If you have to move fast, then having a democratic decision takes a long time in a large community and might not be possible. To speed up the process, we found some core members needed to make decisions, but this undermines the process.
+Afectará a quién tiene voz y si las decisiones se toman correctamente. Si uno tiene que moverse rápido, entonces tener una decisión democrática toma mucho tiempo en una gran comunidad y puede que no sea posible. Para acelerar el proceso, descubrimos que algunos miembros centrales necesitaban tomar decisiones, pero esto es lo que subyace al proceso.
 
-**Isil:** Also the discussions, the voting to be done, the decisions taken or to be taken were all shared through the public communication channels and a google email list that includes all the contributors to make sure everyone had a chance to see this information or follow the process one way or another.
+**Isil:** También las discusiones, la votación por hacer, las decisiones que se tomaron o se tomaron se compartieron a través de los canales de comunicación pública y una lista de correo electrónico de Google que incluye a todos los colaboradores para asegurarse de que todos tuvieran la oportunidad de ver esta información o seguir el proceso de una manera u otra.
 
 
-**4. What approach have you decided to take in your project?**
+**4. ¿Qué enfoque has decidido tomar en tu proyecto?**
 
-**Remi:** Our guidelines set out that we list authors into three groups:
+**Remión:** Nuestras directrices establecen que listamos a los autores en tres grupos:
 
-* Group 1 are a core team of people that are actively working in the project and writing the paper. For example, the actual writing of the paper, brainstorming and recording agendas for meetings. We are using an all contributors model like *The Turing Way's* but with our own emojis in a checklist. This core team were ranked in terms of their contributions but this did create an issue of how to decide the value of different contributions and I would suggest that this should be decided firmly at the beginning.
+* El grupo 1 es un equipo central de personas que están trabajando activamente en el proyecto y escribiendo el documento. Por ejemplo, la redacción real del papel, la representación y el registro de agendas para reuniones. Estamos usando un modelo de todos los colaboradores como *The Turing Way* pero con nuestros propios emojis en una lista de verificación. Este equipo central se clasificó en términos de sus contribuciones, pero esto creó una cuestión de cómo decidir el valor de las diferentes contribuciones y sugiero que esto se decida con firmeza al principio.
 
-* Group 2 are those people that did not actively write the paper but are active in the Brainhack community so they ran events, gave talks or led a project. These members were listed alphabetically.
+* Grupo 2 son aquellas personas que no escribieron activamente el papel, pero que están activas en la comunidad de Brainhack por lo que realizaron eventos, dio charlas o lideró un proyecto. Estos miembros fueron listados alfabéticamente.
 
-* Group 3 is the last author. It was decided to be the Brainhack community (not by name but part of the community). There were some discussions about a web list of names.
+* El Grupo 3 es el último autor. Se decidió ser la comunidad Brainhack (no por su nombre, sino por parte de la comunidad). Hubo algunas discusiones sobre una lista web de nombres.
 
-We did have to revisit these guidelines.
+Tuvimos que revisar estas directrices.
 
-**Isil:**  Just to add to this, the groups were formed organically as a bottom-up process and kept open to participation at any point in time through data collection and writing processes.
+**Isil:**  Solo para añadir a esto, los grupos se formaron orgánicamente como un proceso de abajo arriba y se mantuvieron abiertos a la participación en cualquier momento a través de la recopilación de datos y procesos de escritura.
 
-Due to the personal time schedules and commitments, some people were only able to be present at the beginning of the discussions and some were present throughout the whole time or some were able to contribute at the end. However, at the end of the day, we tried to do our best to quantify any contributions given at any time point throughout the process independent of the amount of presence that had been shown.
+Debido a los plazos personales y los compromisos, Algunas personas sólo pudieron estar presentes al principio de los debates y algunas estuvieron presentes a lo largo de todo el tiempo o algunas pudieron contribuir al final. Sin embargo, al final del día, intentamos hacer todo lo posible para cuantificar cualquier contribución realizada en cualquier momento a lo largo del proceso independiente de la cantidad de presencia que se había mostrado.
 
 
-**5. How have you gone about paper writing practically?**
+**5. ¿Cómo ha hecho usted la escritura de papel prácticamente?**
 
-**Remi:** We started by brainstorming to break the paper into different sections and then created sub teams, where each team worked on one section. There were at least 4 teams.
+**Recuerda:** Empezamos por la tormenta para dividir el papel en diferentes secciones y luego creamos subequipos, donde cada equipo trabajó en una sección. Había al menos 4 equipos.
 
-There was also a master editing team to unify all these sections and another team to work on the figures, tables and glossary.
+También había un equipo de edición maestro para unificar todas estas secciones y otro equipo para trabajar en las cifras, tablas y glosario.
 
-Very early on we realised that the paper would be this fixed thing. However, we wanted there to be an evolving version. We were restricted with the word limit to the paper and we wanted to spill over with all the ideas and keep evolving so we started a Jupyter book. So there is also a team working on the [Jupyter book](brainhack.org/brainhack_jupyter_book/).
+Muy pronto nos dimos cuenta de que el documento sería algo fijo. Sin embargo, queríamos que hubiera una versión en evolución. Estábamos limitados con la palabra límite al papel y queríamos derramarnos con todas las ideas y seguir evolucionando, así que empezamos un libro de Júpiter. Así que también hay un equipo trabajando en el [libro de Jupyter](brainhack.org/brainhack_jupyter_book/).
 
-Once all of the sections were written and then passed to the editing team, they were sent to the co-authors.
+Una vez que todas las secciones fueron escritas y pasadas al equipo de edición, fueron enviadas a los coautores.
 
-We took lots of notes in meetings and fed this back to all co-authors. All meetings were recorded and videos made available.
+Tomamos muchas notas en las reuniones y lo devolvimos a todos los coautores. Todas las reuniones fueron grabadas y los vídeos están disponibles.
 
-Once the paper was finished we sent it out for Community review. This was done by putting the pre-print online for any contributors to check.
+Una vez terminado el papel, lo enviamos para su revisión comunitaria. Esto se hizo poniendo la preimpresa en línea para que cualquier contribuyente lo compruebe.
 
-Then another meeting took place with the core team to finalise these comments. The community review followed the example of the [INCF - A standards organisation for open and FAIR neuroscience](https://www.incf.org/).
+Luego se celebró otra reunión con el equipo central para finalizar estos comentarios. La revisión comunitaria siguió el ejemplo de la [INCF - Una organización de estándares para neuroscience abierta y FAIR](https://www.incf.org/).
 
-**Isil:** The teams for the sections were self-organized by those members who wanted to share their ideas and experiences in that particular domain such as educational aspect, community building or projects. There was no clear cut division between these section teams, the members were fluid across the teams as needed.
+**Isil:** Los equipos de las secciones fueron autoorganizados por aquellos miembros que querían compartir sus ideas y experiencias en ese dominio particular, como el aspecto educativo, construcción de la comunidad o proyectos. No hubo una división clara entre estos equipos de sección, los miembros eran fluidos a través de los equipos según sea necesario.
 
-Although this was helpful given the race we were in against the time in completing the tasks at hand, making this organisation more explicit between the members of the teams might have given greater opportunities for contributions from more contributors who represent a larger variety of backgrounds and opinions.
+Aunque esto fue útil dada la carrera, estábamos en contra del tiempo para completar las tareas que tenemos a mano. hacer esta organización más explícita entre los miembros de los equipos podría haber brindado mayores oportunidades para las contribuciones de más contribuyentes que representan una mayor variedad de antecedentes y opiniones.
 
 
-**6. What have been the problems with doing this?**
+**6. ¿Cuáles han sido los problemas para hacerlo?**
 
-**Remi:** We under specified the ranking system for the core team. We did not want the core team to do the ranking, we wanted more of a bottom up approach. Like a tiering system of what their contributions were.
+**Recuerda:** Bajo el sistema de clasificación especificado para el equipo central. No queríamos que el equipo central hiciera la clasificación, queríamos más de un enfoque ascendente. Como un sistema de nivelación de lo que eran sus contribuciones.
 
-We wanted to use the contributions checklist to rank people such as the number of boxes that they had ticked. We tried to go about this by ranking people in subteams, but this made people very uncomfortable. The community ethos was against a ranking system and also it was unclear that they would not rank themselves. This lack of clarity made it hard to decide how to make a change to this system once it was in place. The process needed to be slowed down and discussed more thoroughly about how to rank people fairly. Decisions were finally made about how to rank authors by a core team. But it was time constraints and the ever increasing people onboarding to the community that caused an issue.
+Queríamos utilizar la lista de verificación de contribuciones para clasificar a la gente como el número de casillas que habían marcado. Intentamos hacer esto por la gente clasificada en subequipos, pero esto hizo que la gente se sintiera muy incómoda. El espíritu comunitario estaba en contra de un sistema de clasificación y tampoco estaba claro que no se clasificaran a sí mismos. Esta falta de claridad ha hecho difícil decidir cómo hacer un cambio en este sistema una vez que existía. Era necesario ralentizar el proceso y debatir más a fondo sobre cómo clasificar equitativamente a la gente. Finalmente se tomaron decisiones sobre cómo clasificar a los autores por un equipo central. Pero lo que causó un problema fueron las limitaciones del tiempo y la creciente cantidad de personas que se embarcaron en la comunidad.
 
-For other publications we will probably just use the 'Brainhack community' as consortium authorship. Each person's name will appear underneath the community name as a list and therefore all named authors will get the citation. This will make our authorship more equitable.
+Para otras publicaciones probablemente sólo utilizaremos la "comunidad de Brainhack" como autora del consorcio. El nombre de cada persona aparecerá debajo del nombre de la comunidad como una lista y por lo tanto todos los autores nombrados recibirán la cita. Esto hará que nuestra autoría sea más equitativa.
 
-**Isil:** Remi has touched upon the many important points above.
+**Isil:** Remi ha tocado los muchos puntos importantes de arriba.
 
-Just to add, one of the difficulties we also had was to have a full representation of the Brainhack community in this beautiful work. The nature of the Brainhack community has made it a real challenge to trace back all the contributors and have them involved in the publication process. It is a voluntary based organization that has had events all around the world since 2012. Sometimes these events are run as stand-alone events, or under the roof of the yearly organized Brainhack Global or even by one of the biggest international neuroscience society - Organization for Human Brain Mapping (OHBM) - through their yearly conference.
+Para añadir, una de las dificultades que también tuvimos fue tener una representación plena de la comunidad Brainhack en este hermoso trabajo. La naturaleza de la comunidad Brainhack ha hecho que sea un verdadero reto rastrear a todos los colaboradores y hacerles participar en el proceso de publicación. Es una organización voluntaria que ha tenido eventos en todo el mundo desde 2012. A veces estos eventos se ejecutan como eventos independientes, o bajo el techo del Brainhack Global organizado anualmente o incluso por una de las mayores empresas internacionales de neurociencia - Organización para el Mapeo del Cerebro Humano (OHBM) - a través de su conferencia anual.
 
 
-Because of his past leadership and many other involvements in OHBM Brainhack events, Remi at the OHBM side and I personally at the Brainhack Global side, we spent weeks tracing back to these Brainhack organizers and attendees, chasing the changed affiliations, and persuading them they should be in this project and why it matters for the future of the Open science and the community itself. There were, however, still missing members or data to be represented in this whole process.
+Debido a su liderazgo en el pasado y muchas otras actividades en eventos de Brainhack de OHBM, Remi en el lado de OHBM y yo personalmente en el lado global de Brainhack, pasamos semanas rastreando a estos organizadores y asistentes de Brainhack, perseguir a las afiliaciones cambiadas, y persuadirlos deberían estar en este proyecto y por qué importa para el futuro de la ciencia abierta y la propia comunidad. Sin embargo, todavía faltaban miembros o datos para estar representados en todo este proceso.
 
-I believe this is a difficulty in writing a paper that strives to engage and embrace an inclusive and representative approach. We want differing ideas, backgrounds and experiences at its heart but we have to deal with the aforementioned struggles.
+Creo que se trata de una dificultad para redactar un documento que se esfuerza por adoptar y adoptar un enfoque inclusivo y representativo. Queremos ideas, antecedentes y experiencias diferentes en su corazón, pero tenemos que enfrentarnos a los problemas principales.
 
-Therefore, I also strongly believe that adopting an accumulative 'Brainhack community' consortium authorship model would create better, fair and equal opportunities for the representation of every single member of the community. This will create a better chance of incentivizing and acknowledging the years of commitments and efforts given by each member of the community.
+Por lo tanto, también creo firmemente que la adopción de un modelo acumulativo de autoría del consorcio "Comunidad Brainhack" crearía mejor, equidad e igualdad de oportunidades para la representación de cada miembro de la comunidad. Esto creará una mejor oportunidad de hacer valer y reconocer los años de compromisos y esfuerzos que cada miembro de la comunidad ha dado.
 
 
 
-**7. What collaborative tools did you use for the writing and projects?**
+**7. ¿Qué herramientas colaborativas utilizaste para la redacción y los proyectos?**
 
-**Remi:** We used Google docs and sheets. Also forms for information from authors. But some Google tools are not accessible in some countries such as China. So it is good to have a discussion about what tools to use so that everyone has access to the same software and tools from the start.
+**Remión:** Utilizamos documentos y hojas de Google. También formularios de información de autores. Pero algunas herramientas de Google no son accesibles en algunos países, como China. Así que es bueno tener una discusión sobre qué herramientas usar para que todos tengan acceso al mismo software y herramientas desde el principio.
 
-**Isil:** Also since we had a lot of supplementary details regarding the years-long events and projects that were run under Brainhack events, that was not able to go into the paper due to the limitation of the word count. We created a supplementary Jupyterbook for which we had a public repository on Github, that is constituted of markdown files for the content of the book, .json files for the data to process and many graphics to summarise the data.
+**Isil:** También desde que tuvimos muchos detalles suplementarios sobre los eventos y proyectos que duraron años en Brainhack que no pudo entrar en el documento debido a la limitación de la palabra conteo. Creamos un Jupyterbook complementario para el que teníamos un repositorio público en Github, que está constituido por ficheros de markdown para el contenido del libro, . para que los datos sean procesados y muchos gráficos para resumir los datos.
 
-[Recent article from the Brainhack community](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang YF, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA, Vogelbacher C, Borghesani V, Levitis E, Wang HT, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, Sandström MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Uruñuela E; Brainhack Community. **Brainhack: Developing a culture of open, inclusive, community-driven neuroscience.** Neuron. 2021 Jun 2;109(11):1769-1775. doi: 10.1016/j.neuron.2021.04.001. Epub 2021 Apr 30. PMID: 33932337.
+[Artículo reciente de la comunidad Brainhack](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, IP, Yang YF, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA, Vogelbacher C, Borghesani V, Levitis E, Wang HT, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, Sandstro)[video] m MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Urun)[video] uela E; Comunidad Brainhack. **Brainhack: Desarrollo de una cultura de neurociencia abierta, inclusiva y basada en la comunidad.** Neuron. 2021 de enero 2;109(11):1769-1775. doi: 10.1016/j.neuron.2021.04.001. Epub 2021 Abril 30. PMID: 33932337.
 
-*This interview was conducted by Emma Karoune.*
+*Esta entrevista la realizó Emma Karoune.*
 

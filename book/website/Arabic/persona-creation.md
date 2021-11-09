@@ -1,132 +1,132 @@
 (pd-persona-creation)=
-# Persona Creation Tool
+# أداة إنشاء شخصية
 
-Persona development for a project or community is a great way for recognising who the stakeholders of that project are, why they would associate with the project, what their needs are and how those needs could be met. Persona creation tools can allow team members to collaborate efficiently with each other, develop a common understanding of their target audience and bring design principles into their work while ultimately creating an empathetic pathway for engagement.
+إن تطوير الشخصية لمشروع أو مجتمع ما هو طريقة رائعة للتعرف على أصحاب المصلحة في ذلك المشروع، ولماذا يرتبطون بالمشروع، وما هي احتياجاتهم وكيف يمكن تلبية تلك الاحتياجات. أدوات إنشاء الشخصية يمكن أن تتيح لأعضاء الفريق التعاون بكفاءة مع بعضهم البعض. • تطوير فهم مشترك لجمهورها المستهدف وإدراج مبادئ التصميم في عملهم، مع القيام في نهاية المطاف بخلق طريق تعاطف للمشاركة.
 
-In this chapter, we provide a simple step by step guide that one can use for creating different personas for their communities and projects. Your project-specific personas will then be useful in enhancing the pathways your members take to engage with your project, examples for which has been provided in the next subchapter.
+في هذا الفصل، نقدم دليلا بسيطا خطوة بخطوة يمكن استخدامه لإنشاء أشخاص مختلفين لمجتمعاتهم المحلية ومشاريعهم. شخصياتك الخاصة بالمشروع ستكون مفيدة في تعزيز المسارات التي يسلكها أعضاؤك للمشاركة في مشروعك، وقد وردت أمثلة لها في الفصل الفرعي التالي.
 
-## Step-by-step guide for building a persona
+## دليل خطوة بخطوة لبناء شخص
 
-### Section 1: Name and Role
+### الفرع 1: الاسم والدور
 
-Start by giving your persona a real name and real role with the help of some assumed professional skills. This will help you anchor them in reality. You can use the random name generator website [behindthename.com](https://www.behindthename.com/random/) to create diverse names.
+ابدأ بإعطاء شخصك إسمًا حقيقًا ودورًا حقيقيًا بمساعدة بعض المهارات المهنية المفترضة. وهذا سيساعدك على ترسيخهم في الواقع. يمكنك استخدام موقع مولد الاسم العشوائي [backindthename.com](https://www.behindthename.com/random/) لإنشاء أسماء متنوعة.
 
 ```{figure} ../../figures/persona-creation.png
 ---
-name: persona-creation
-alt: Persona Canvas by DESIGNBETTERBUSINESS.COM
+الاسم: شخصية إنشاء
+بديل: شخصية كانفاس بواسطة DESIGNBETTERBUSINESS.COM
 ---
-Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) available under the CC-BY-SA 4.0 license
+شخصية كانفاس بواسطة [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) متاحة بموجب ترخيص CC-BY-SA 4.0
 ```
 
-### Section 2: Background and demography
+### الفرع 2: المعلومات الأساسية والديمغرافية
 
-This section is to create an image of your persona. Be aware of your own biases in terms of how you imagine your persona looks like based on their name or assumed gender.
+هذا القسم هو إنشاء صورة لشخصك. كن على علم بتحيزاتك الخاصة من حيث كيف تتخيل شخصيتك يبدو على أساس اسمها أو نوع جنسها المفترض.
 
-#### Section 2.1: Background
+#### الفرع 2-1: الخلفية
 
-Reflect on the job, career, education, and family aspect of your persona by answering the following questions:
+أفكر في العمل والحياة المهنية والتعليم والجوانب العائلية لشخصك بالإجابة على الأسئلة التالية:
 
-- Which job does your persona hold?
-- What is your persona's family status?
-  - Some options: single, parent, married, pet-owner, parent, or carer.
-- Does your persona have any health issues?
-    - You don't need to go in detail (though that would add more value to your planning), but start by answering in 'yes' or 'no'.
-- What is your persona's social environment like?
-  - Some options: neutral, favorable, supportive, non-supportive, financially challenging, distracting, politically challenging.
+- ما هو العمل الذي يشغله شخصك؟
+- ما هي الحالة العائلية لشخصك؟
+  - بعض الخيارات: العزباء أو الوالد أو الوالد أو المالك الأليف أو الوالد أو مقدم الرعاية.
+- هل لشخصك أي مشاكل صحية؟
+    - لا تحتاج إلى الذهاب بالتفصيل (رغم أن ذلك من شأنه أن يضيف قيمة أكبر إلى تخطيطك)، ولكن ابدأ بالإجابة بـ 'نعم' أو 'لا'.
+- ما هي البيئة الاجتماعية لشخصك؟
+  - بعض الخيارات: الحياد والتفضيل وعدم الدعم والتحدي المالي والتشتت والتحدي السياسي.
 
-#### Section 2.2: Demography
+#### الفرع 2-2: الديمغرافيا
 
-Reflect on the age range, gender, location, and living situation of your persona by answering the following questions:
+أفكر في النطاق العمري، نوع الجنس، الموقع، الوضع المعيشي لشخصك بالإجابة على الأسئلة التالية:
 
-- What age group that your persona belongs to?
-  - Some options: below 16, 17 - 21, 21 - 30, 31 - 45, 45 - 65, above 65
-- What is your persona's gender?
-  - Some options: man, woman, non-binary, cisgender, transgender, gender-queer, gender-fluid or other (learn more [here](http://thepbhscloset.weebly.com/a-list-of-genders--sexualities-and-their-definitions.html))
-- Which time zone does your persona live in?
-  - Some options: UTC - GMT, EET - GMT+2:00, IST - GMT+5:30, JST - GMT+9:00, NST - GMT+12:00, CST - GMT-6:00, BET - GMT-3:00, CAT - GMT-1:00
-- What is your persona's living situation?
-- If there is any disability or physical barrier that your persona has to deal with when participating?
+- ما هي الفئة العمرية التي ينتمي إليها الشخص؟
+  - بعض الخيارات: أقل من 16، 17-21، 21-30، 31-45، 45-65، فوق 65 65
+- ما هو نوع جنس شخصك؟
+  - بعض الخيارات: رجل، امرأة، غير ثنائية، تخزين، جنس آخر، جنس جنسي، سوائل جنسانية أو غير ذلك (تعلم المزيد [هنا](http://thepbhscloset.weebly.com/a-list-of-genders--sexualities-and-their-definitions.html)
+- ما هي المنطقة الزمنية التي يعيش فيها شخصك؟
+  - بعض الخيارات: UTC - GMT, EET - GMT+2:00, IST - GMT+5:30, JST - GMT+9:00, NST - GMT+12:00, CST - GMT-6:00, BET - GMT-3:00, CAT - GMT-1:00
+- ما هو الوضع المعيشي لشخصك؟
+- إذا كان هناك أي إعاقة أو حاجز بدني يجب على شخصك أن يعالجه عند مشاركته؟
 
-*For this section, you can continue using the random name generator website [behindthename.com](https://www.behindthename.com/random/) with the option "generate life story".*
+*لهذا القسم، يمكنك الاستمرار في استخدام موقع مولد الاسم العشوائي [backindthename.com](https://www.behindthename.com/random/) مع خيار "إنشاء قصة حياة".*
 
-### Section 3: Needs and Resources
+### الفرع 3: الاحتياجات والموارد
 
-This section will reflect on the resources available to your persona to participate in your project or community online. This section defines your persona's needs and decisions they make, which you can sketch out by asking the following questions:
+هذا القسم سوف يفكر في الموارد المتاحة لشخصك للمشاركة في مشروعك أو مجتمعك على الإنترنت. يحدد هذا القسم احتياجات شخصك والقرارات التي يتخذونها، والتي يمكن أن ترسمها من خلال طرح الأسئلة التالية:
 
-- What is the level of interest your persona has in your project?
-- Does your persona have a suitable schedule to participate in your project activity?
-- Does your persona have the appropriate resources to collaborate or contribute to your project?
-  - Some options: hardware, software, appropriate work arrangement, proper documentation
-- How much time (minimum) your persona needs to dedicate to make contributions to your project by completing different tasks?
-  - This can result in a list of tasks that your members are invited to do with approximate time and skill requirements for each of them.
-- What else can influence your persona's decisions on a day-to-day basis?
+- ما هو مستوى الاهتمام الذي يحظى به شخصك في مشروعك؟
+- هل شخصيك لديه جدول زمني مناسب للمشاركة في نشاط مشروعك؟
+- هل شخصك لديه الموارد المناسبة للتعاون أو المساهمة في مشروعك؟
+  - بعض الخيارات: المعدات والبرامجيات وترتيبات العمل المناسبة والوثائق الصحيحة
+- كم من الوقت (كحد أدنى) يحتاج شخصك إلى تكريس تبرع لمشروعك بإكمال مهام مختلفة؟
+  - هذا يمكن أن يؤدي إلى قائمة من المهام التي يدعى أعضاؤك للقيام بها مع متطلبات الوقت والمهارات التقريبية لكل منها.
+- ما الذي يمكن أن يؤثر على قرارات شخصك على أساس يومي؟
 
-### Section 4: Persona Profile (positive trends)
+### الفرع 4: ملامح الشخصية (الاتجاهات الإيجابية)
 
-This section will reflect on the hobbies, interests, and things your persona enjoys doing regularly. This can be approached to understand what makes your persona's experience positive. You can sketch out this information by answering the following questions:
+هذا القسم سوف يفكر في الهوايات والاهتمامات والأشياء التي يستمتع بها شخصيا بشكل منتظم. ويمكن الاتصال بهذا الأمر لفهم ما يجعل تجربة شخصكم إيجابية. يمكنك رسم هذه المعلومات بالإجابة على الأسئلة التالية:
 
-- What hobbies and interests your persona has?
-- What personality/demeanor (such as introvert, extrovert) matches your persona's?
-- Through which communication channel will your persona potentially find out about the event?
-  - Some options: by email, mailing list or forums, Twitter, Facebook, Slack, Gitter, newsletters, website or community repository
-- What keeps your persona motivated on a typical day?
+- ما هي هواياتك واهتماماتك؟
+- ما هي الشخصية/الجنحة (مثل الانطوائي, خارجي) التي تتطابق مع شخصك؟
+- من خلال أي قناة اتصال يمكن أن تعرف شخصيتك عن الحدث؟
+  - بعض الخيارات: عن طريق البريد الإلكتروني، القائمة البريدية أو المنتديات، تويتر، فيسبوك، سلاك، جيتر، الرسائل الإخبارية، الموقع الشبكي أو مستودع المجتمع
+- ما الذي يحافظ على تحفيز شخصك في يوم عادي؟
 
-### Section 5: Provisions and opportunities
+### الفرع 5: الأحكام والفرص
 
-This section will reflect on the provisions available to your persona to participate in this project by asking the following questions:
+وسيتناول هذا القسم الأحكام المتاحة لشخصكم للمشاركة في هذا المشروع بتوجيه الأسئلة التالية:
 
-- What equipment or support can you offer your persona to participate in the project?
-- Are there funding or skill-building opportunity that your persona can share more widely.
-- What other resources does your persona need to fully participate with?
+- ما هي المعدات أو الدعم الذي يمكنك تقديمه لشخصك للمشاركة في المشروع؟
+- هل هناك فرصة للتمويل أو لبناء المهارات يمكن لشخصك أن يتقاسمها على نطاق أوسع.
+- ما هي الموارد الأخرى التي يحتاجها شخصك للمشاركة بشكل كامل؟
 
-### Section 6: Hopes and dreams
+### الفرع 6: الآمال والأحلام
 
-This section will reflect on the expectations, goals, and emotions of your persona in regards to this project by asking the following questions:
+سوف يتأمل هذا القسم في توقعات وأهداف وعواطف شخصك فيما يتعلق بهذا المشروع من خلال طرح الأسئلة التالية:
 
-- What does your persona want to achieve from this project?
-- What information does your persona want to gain from their participation?
-- What fear or anxiety may your persona have regarding the project?
-- What could inspire your persona at the project?
-- How will your persona know that their goal has been achieved?
+- ما الذي يريد شخصك تحقيقه من هذا المشروع؟
+- ما هي المعلومات التي يريد شخصك الحصول عليها من مشاركته؟
+- ما هو الخوف أو القلق الذي يشعر به شخصك إزاء المشروع؟
+- ما الذي يمكن أن يلهم شخصيتك في المشروع؟
+- كيف سيعرف شخصكم أن هدفهم قد تحقق؟
 
-### Section 7: Perceived Barriers (negative trends)
+### الفرع 7: الحواجز المتصورة (الاتجاهات السلبية)
 
-This section will reflect on the perceived barriers that your persona may face in regards to this project by asking the following questions:
+سوف يفكر هذا القسم في العقبات التي قد يواجهها شخصك فيما يتعلق بهذا المشروع من خلال طرح الأسئلة التالية:
 
-- What can frustrate your persona on a typical day?
-- Why would your persona not join this project?
-- What is speaking against this project that can discourage your persona from joining?
-- What could alienate your persona from this project?
-- What improvements can be introduced to help your persona overcome these barriers?
+- ما الذي يمكن أن يحبط شخصيتك في يوم عادي؟
+- لماذا شخصك لا ينضم إلى هذا المشروع؟
+- ما الذي يتحدث ضد هذا المشروع الذي يمكن أن يثبط عزيمتك الشخصية عن الانضمام؟
+- ماذا يمكن أن يستبعد شخصك من هذا المشروع؟
+- ما هي التحسينات التي يمكن إدخالها لمساعدة شخصيا على التغلب على هذه الحواجز؟
 
-### Section 8: Hurdles in the project (headaches)
+### القسم 8: دور في المشروع (صداع للصداعات)
 
-This section will reflect on the hurdles and issues that your persona may encounter in regards to this project by asking the following questions:
+سيتناول هذا القسم العقبات والمسائل التي قد يواجهها شخصك فيما يتعلق بهذا المشروع من خلال طرح الأسئلة التالية:
 
-- What challenges does your persona face when participating in this project?
-- What are your persona's hurdles specific to this project?
-- How can your persona be supported in overcoming the challenges?
-- How can we surpass your persona's expectations?
+- ما هي التحديات التي يواجهها شخصك عند المشاركة في هذا المشروع؟
+- ما هي العقبات التي يواجهها شخصكم في هذا المشروع؟
+- كيف يمكن دعم شخصيتك في التغلب على التحديات؟
+- كيف يمكننا أن نتجاوز توقعات شخصك؟
 
-### Section 9: Fears and personal issues
+### المادة 9: المخاوف والمسائل الشخصية
 
-This section will reflect on fears and personal issues that your persona may face while participating in this project or community online by asking the following questions:
+هذا القسم سوف يفكر في المخاوف والمشاكل الشخصية التي قد يواجهها شخصك أثناء المشاركة في هذا المشروع أو المجتمع عبر الإنترنت عن طريق طرح الأسئلة التالية:
 
-- Would your persona be able to participate for a long period?
-- In what situations your persona might encounter difficulties during their participation?
-- What interruptions they might face while participating in this project?
-- What are the resources available to support your persona better (like funding or equipment)?
-- How can we assist your persona in reaching their goals?
+- هل سيتمكن شخصك من المشاركة لفترة طويلة؟
+- ما هي الحالات التي قد يواجه فيها شخصكم صعوبات أثناء مشاركتهم؟
+- ما هي الانقطاع الذي قد يواجهونه أثناء مشاركتهم في هذا المشروع؟
+- ما هي الموارد المتاحة لدعم شخصك بشكل أفضل (مثل التمويل أو المعدات)؟
+- كيف يمكننا أن نساعد شخصك في بلوغ أهدافهم؟
 
-## Putting this together in a persona canvas
+## وضع هذا معا في قماصة شخصية
 
-The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
+يمكن استخدام لوحة الشخص لتجميع كل إجاباتك في مكان واحد، شارك هذه المعلومات الملموسة عن نموذجك الذهني (المفاهيم المجردة من أفكارنا) مع زملائك و أنشئ لغة مشتركة للتواصل حول أعضاء مجتمعك. المستخدمون والمساهمون.
 
-The [https://www.designabetterbusiness.tools](https://www.designabetterbusiness.tools) have created multiple persona canvases (one is shown in the figure above) which are available for reuse under CC-BY ShareAlike 4.0 License, which can be downloaded [here](https://www.designabetterbusiness.tools/tools/persona-canvas).
+[https://www.designabetterbusiness. وقد أنشأت ool](https://www.designabetterbusiness.tools) عدة ألواح شخصية (واحد في الشكل أعلاه) وهي متاحة لإعادة استخدامها بموجب CC-BY ShareAlike 4. الرخصة، التي يمكن تنزيلها [هنا](https://www.designabetterbusiness.tools/tools/persona-canvas).
 
-## Examples of personas in _The Turing Way_ community
+## أمثلة لشخصيات في مجتمع _الطريق الوشيك_
 
-In the next subchapter, you will find examples of personas and pathways in _The Turing Way_ community. With the help of different personas, we have also collected a list of contribution pathways in _The Turing Way_ and how they are acknowledged (see {ref}`Contribution types and pathways <ch-acknowledgement-examples>`).
+في الفصل الفرعي التالي، ستجد أمثلة لشخصيات ومسارات في مجتمع _طريق التوبيخ_. بمساعدة أشخاص مختلفين، لقد جمعنا أيضا قائمة مسارات المساهمة في _طريق التوبيخ_ وكيف تم الاعتراف بها (أنظر {ref}`أنواع ومسارات المساهمات <ch-acknowledgement-examples>`).
 
-*You are welcome to contribute to this chapter by testing the process described here to create a persona for your project. Your feedback will help us improve this process, and your output can be added here under the example section.*
+*أنت مرحب بك للإسهام في هذا الفصل باختبار العملية الموصوفة هنا لإنشاء شخصية لمشروعك. ستساعدنا ملاحظاتك على تحسين هذه العملية، ويمكن إضافة إخراجك هنا تحت قسم المثال.*

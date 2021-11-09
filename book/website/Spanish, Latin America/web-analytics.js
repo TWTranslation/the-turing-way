@@ -4,7 +4,7 @@
 var _paq = window._paq = window._paq || [];
 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
 _paq.push(['trackPageView']);
-_paq.push(['enableLinkTracking']);
+_paq.push(['activar seguimiento de enlaces']);
 (function () {
   var u = 'https://theturingwaynetlifyapp.matomo.cloud/';
   _paq.push([

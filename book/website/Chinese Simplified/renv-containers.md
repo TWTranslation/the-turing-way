@@ -1,144 +1,144 @@
 (rr-renv-containers)=
-# Containers
+# 容器
 
 (rr-renv-containers-why)=
-## Why Containers?
+## 为什么容器？
 
-Even for moderately complex projects, the size of the software dependency stack can be huge. Take a simple pipeline to build a pdf report for an analysis scripted in R using `Rmarkdown`, for example. To make this reproducible, not only do (i) the respective R packages need to be installed and (ii) the R version needs to be the same, but also (iii) the versions of `pandoc` and `LaTeX` need to be the same as during runtime.
+即使对中度复杂的项目来说，软件依赖性堆积的规模也可能很大。 取一个简单的管道来构建一个 pdf 报告，用于使用 `Rmarkdown`进行分析脚本。 可复制， 不仅需要安装相应的 R 包，还需要安装同样的 R 版本， 但同时也是 `pandoc` 和 `LaTeX` 的版本需要与运行期间相同。
 
-Instead of trying to resolve these dependencies via a package manager (such as conda) -  which also depends on all required software being available in a single package manager - it might be easier to create a snapshot of the entire computing environment including all dependencies. These computing environments are then self-contained, hence the name 'containers'.
+与其试图通过软件包管理器(如conda)解决这些依赖关系――这也取决于所有必需的软件在单个软件包管理器中可用――不如创建一个包括所有依赖的整个计算机环境的快照。 然后这些计算环境是自成一体的，因此名称是“容器”。
 
 (rr-renv-containers-what)=
-## What are Containers?
+## 什么是容器？
 
-Containers allow a researcher to package up a project with all of the parts it needs - such as libraries, dependencies, and system settings - and ship it all out as one package. Anyone can then open up a container and work within it, viewing and interacting with the project as if the machine they are accessing it from is identical to the machine specified in the container - regardless of what their computational environment _actually_ is. They are designed to make it easier to transfer projects between very different environments.
+容器允许研究人员将一个项目与它所需要的所有部件（如图书馆）包装起来。 依赖关系和系统设置 - 并将其作为一个软件包发送。 然后任何人都可以打开容器并在容器内工作。 查看并与项目交互，好像他们从容器中访问的机器与容器中指定的机器是相同的。不管他们的计算环境 _实际是_ 是什么。 它们的设计是为了使 更容易在非常不同的环境之间传输项目。
 
-In a way, containers behave like a virtual machine. To the outside world, they look like their own complete system. However, unlike a virtual machine, rather than creating a whole virtual operating system plus all the software and tools typically packaged with one, containers only contain the individual components they need in order to operate the project they contain. This gives a significant performance boost and reduces the size of the application.
+从某种意义上说，容器的行为就像一个虚拟机一样。 对外部世界而言，他们看起来像自己的完整系统。 然而，与虚拟机不同的是，而不是创建一个完整的虚拟操作系统，加上通常用一个软件和工具。 容器只含有它们所需要的个别组件才能操作它们所包含的项目。 这大大提高了性能，减少了应用程序的大小。
 
-Containers are a particularly useful way for reproducing research which relies on software to be configured in a certain way, or which makes use of libraries that vary between (or do not exist on) different systems. In summary, containers are a more robust way of sharing reproducible research than package management systems or Binder because they reproduce the entire system used for the research, not just the packages explicitly used by it. Their major downside is that due to their greater depth, they are conceptually more difficult to grasp and produce than many other methods of replicating computational environments.
+容器是一种特别有用的复制研究方法，它依赖于某种方式配置软件。 或利用不同系统（或不存在）不同系统之间的图书馆。 概括而言， 容器是一种比包件管理系统或Binder更强有力的分享可再生产研究的方法，因为它们复制了用于研究的整个系统。 不仅仅是它明确使用的软件包。 它们的主要不利方面是由于它们的深度更高。 它们在概念上比许多其他重复计算环境的方法更难掌握和生产。
 
-Ben Corrie give a reasonably accessible overview of core concepts in ['What is a container?'](https://www.youtube.com/watch?v=EnJ7qX9fkcU).
+Ben Corrie对 [“什么是容器？”](https://www.youtube.com/watch?v=EnJ7qX9fkcU) 中的核心概念提供了一个可以合理理解的概述。
 
 (rr-renv-containers-images)=
-## What are Images?
+## 什么是图像？
 
-Images are the files used to generate containers. Humans do not make images; they write recipes to generate images. Containers are then identical copies instantiated from images.
+图像是用于生成容器的文件。 人类不制作图像；他们写成生成图像的配方。 容器则是从图像实例化的相同拷贝。
 
-Think of it like this:
+想像这样：
 
-- A recipe file a human writes contains all the steps to generate a working version of the project and its computational environment, but no actual materials. Think of this as a blueprint.
-- Building an image takes that recipe and using it, assembles all the packages, software libraries, and configurations needed to make the full-fledged project and environment, and bundles them up in a condensed lump. Think of images like a piece of flat-pack furniture made using the blueprint.
-- Containers take that image and assemble a fully working version of the project and the environment needed to run it. Think of this as assembling the flat-pack furniture.
+- 一个配方文件是人类写作，包含生成项目工作版本及其计算环境的所有步骤。 但没有实际材料。 将此视为蓝图。
+- 构建一个图像需要那个配方并使用它，集合所有的软件包、软件库， 为使全面的项目和环境成为完整的项目和环境所需的配置，并将其捆绑在一个压缩的块上。 想想像一块用蓝图制作的平板包家具。
+- 容器拿着这幅图像，汇集了项目的一个完全可行的版本以及运行该项目所需的环境。 认为这是装配平板包家具。
 
-So if a researcher wants to allow others to reproduce their work, they would need to write a recipe file, and use it to build an image of their project. They can then share this image file with anyone who wants to replicate their work. That person can then use the image to generate a container containing a working version of the project.
+所以，如果研究人员想让他人复制他们的作品， 他们需要写一个配方文件并用它来构建他们项目的图像。 然后他们可以与任何想要复制其工作的人分享这个图像文件。 该人然后可以使用图像生成包含工程工作版本的容器。
 
 (rr-renv-containers-docker)=
-## What is Docker?
+## 什么是停靠？
 
-There are many tools available for creating and working with containers. We will focus on Docker, which is widely used, but be aware that others such as Singularity also exist. Singularity is sometimes preferred for use on high-performance computing systems as it does not need `sudo` permissions to be run, while Docker does.
+有许多工具可用来创建容器并与之合作。 我们将把重点放在广泛使用的Docker上，但我们也意识到诸如独特性之类的其他方面也存在。 高性能计算系统有时更喜欢使用独特性，因为它不需要 `sudo` 权限来运行，而停靠机器。
 
-In Docker, the recipe files used to generate images are known as Dockerfiles, and should be named `Dockerfile`.
+在Docker中，用于生成图像的配方文件被称为Dockerfiles，应命名为 `Dockerfile`。
 
-[Docker Hub](https://hub.docker.com/) hosts a great many pre-made images, such as [images](https://hub.docker.com/_/ubuntu) of Ubuntu machines, which can be downloaded and build upon. This makes the process of writing Dockerfiles relatively easy since users very rarely need to start from scratch, they can just customise existing images. However, this leaves a user vulnerable to similar security issues as described in the {ref}`rr-renv-yaml-security` of the {ref}`rr-renv-yaml` sub-chapter:
+[Docker Hub](https://hub.docker.com/) 有许多事先制作的图片， 例如： [图像](https://hub.docker.com/_/ubuntu) Ubuntu 机器，可以下载和扩展。 这使得编写Dockerfiles的过程比较容易，因为用户很少需要从零开始，他们只能自定义现有的图像。 然而，这使得用户易受类似的安全问题的伤害，这些问题在 {ref}`rrr-renv-yaml-security` 的 {ref}`rr-renv-yaml` 子章节中描述：
 
-- It is possible to include malicious code in Docker images
-- It is possible for people producing images to unknowingly include software in them with security vulnerabilities
+- 在Docker图片中包含恶意代码
+- 制作图像的人有可能在不知情的情况下将具有安全脆弱性的软件包括在这些软件中。
 
-[This](https://opensource.com/business/14/7/docker-security-selinux) article goes deeper into the potential security vulnerabilities of containers and here is a [detailed breakdown](https://opensource.com/business/14/9/security-for-docker) of security features currently within Docker, and how they function. The best advice for using images built by others is, as usual, only download and run something on your machine if it comes from a trusted source. Docker Hub has "official image" badges for commonly used, verified images as shown here:
+[这篇](https://opensource.com/business/14/7/docker-security-selinux) 篇文章更深入地探讨了容器的潜在安全弱点，这里是一个 [详细的细目](https://opensource.com/business/14/9/security-for-docker) 目前停靠处的安全功能</a> 以及它们的运作方式。 与往常一样，使用他人制作的图像的最佳建议是， 只有当机器来自信任的源时才下载并运行某些东西。 Docker Hub 有用于常用、已验证图像的“官方图像”徽章，如下所示：
 
 ```{figure} ../../figures/docker-official-image.png
 ---
-name: docker-official-image
-alt: A screenshot of official image badges
----
+名称：docker-official-image
+alt: 官方图片徽章的截图
+-
 ```
 
 (rr-renv-containers-installdocker)=
-## Installing Docker
+## 正在安装 Docker
 
-Installers for Docker on a variety of different systems are available [here](https://docs.docker.com/install/). Detailed installation instructions are also available for a variety of operating systems such as [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Debian](https://docs.docker.com/install/linux/docker-ce/debian/), [Macs](https://docs.docker.com/docker-for-mac/install/), and [Windows](https://docs.docker.com/docker-for-windows/install/).
+在各种不同的系统上安装Docker的程序可以在这里 [](https://docs.docker.com/install/)。 详细的安装说明也适用于各种操作系统，例如 [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)， [Debian](https://docs.docker.com/install/linux/docker-ce/debian/), [Macs](https://docs.docker.com/docker-for-mac/install/), 和 [Windows](https://docs.docker.com/docker-for-windows/install/).
 
 (rr-renv-containers-commands)=
-## Key Commands
+## 密钥命令
 
-Here are a few key commands for creating and working with containers:
+以下是创建和使用容器的几个关键命令：
 
-- To build an image from a Dockerfile, go to the directory where the Dockerfile is and run:
+- 要从 Dockerfile 生成图像，请前往Dockerfile 所在的目录并运行：
   ```
-  sudo docker build --tag image_name .
+  sudo docker build--tag image_name
   ```
-- To list the images on your system, use:
+- 要列出您系统上的图像，请使用：
   ```
-  sudo docker image ls
+  sudo 停靠图像 ls
   ```
-- To remove an image, run:
+- 要删除图像，请运行：
   ```
   sudo docker rmi image_name
   ```
-- To open a container from an image, run:
+- 要从图像中打开容器，请运行：
   ```
-  sudo docker run -i -t image_name
+  sudo 停靠运行-i -t image_name
   ```
-  The `-i -t` flags automatically open up an interactive terminal within the container so you can view and interact with the project files.
-- To exit an interactive terminal, use:
+  `-i -t` 标志会自动在容器中打开一个交互式终端，以便您可以查看和与项目文件交互。
+- 要退出交互式终端，请使用：
   ```
-  exit
+  退出
   ```
-- To get a list of active containers with IDs, run:
+- 若要获取一个带有ID的活动容器的列表，请运行：
   ```
-  sudo docker container ls
+  Sudo 停靠容器
   ```
-- There are also three main commands used for changing the status of containers:
-  - Pausing suspends the process running the container.
+- 还有三个用于改变容器状态的主要命令：
+  - 暂停运行容器的过程。
     ```
-    sudo docker pause container_ID
+    sudo 停靠容器 ID
     ```
-    Containers can be unpaused by replacing `pause` with `unpause`.
-  - Stopping a container terminates the process running it. A container must be stopped before it can be deleted.
+    将 `暂停` 替换为 `取消暂停` 可以使容器停用。
+  - 停止一个容器将终止运行它的过程。 容器必须停止才能删除。
     ```
-    sudo docker stop container_ID
+    sudo 停靠容器ID
     ```
     A stopped container can be restarted by replacing `stop` with `restart`.
-  - If `stop` does not work containers can be killed using
+  - 如果 `停止` 不起作用的容器可以使用
     ```
-    sudo docker kill container_ID
+    sudo 停靠器杀死容器ID
     ```
-- To remove a container, run:
+- 要移除容器，请运行：
   ```
   sudo docker rm container_ID
   ```
 (rr-renv-containers-dockerfiles)=
-## Writing Dockerfiles
+## 写入 Docker文件
 
-Let us go through the anatomy of a very simple Dockerfile:
+让我们穿过一个非常简单的 Dockerfile：
 
 ```
-# Step 1: Set up the computational environment
+# 步骤 1：设置计算环境
 
-# Set the base image
-FROM ubuntu:18.04
+# 设置基础图像
+FROM ubuntu:18. 4
 
-# Install packages needed to run the project
+# 运行项目需要安装的软件包
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends python3.7 python3-pip && \
+    apt-get install-y --no-install-recommended python3。 python3-pip &&
     rm -rf /var/lib/apt/lists/*
 RUN python3 -m pip install numpy
 
-#-----------------------
+#------------------------
 
-# Step 2: Include the project files in the image
+# 步骤 2: 将项目文件包含在镜像中
 
-# Copy files from the `project_files` directory on the machine building the image
-# into the `project` folder in the container. This folder and any missing
-# directories in its path are created automatically.
-COPY project_files/ project/
+# 复制机器构建图像的`project_files`目录中的文件
+# 到容器的`project`文件夹中。 此文件夹和路径中缺失的
+# 目录是自动创建的。
+COPY 工程文件/项目
 ```
 
-This looks complicated, but most of the lines in this example are comments (which are preceded by `#`'s). There are only six lines of actual code. The first of these is a `FROM` statement specifying a base image. All Dockerfiles require a FROM, even if it is just `FROM SCRATCH`. All the following commands in a Dockerfile build upon the base image to make a functioning version of the researcher's project. Specifying a version for the image (`18.04` in this case) is optional. However, it is best practice as it ensures that our Dockerfile remains valid after new releases of Ubuntu, which may not include packages (or specific versions thereof) that we require later (for example `python3.7`).
+这看起来很复杂，但这个示例中的大多数行都是注释(前面有 `#`'s)。 实际代码只有六行。 其中第一个是一个 `FROM` 语句，指定了一个基础图像。 所有Dockerfiles 都需要一个 FROM，即使它只是 `FROCH`。 Dockerfile 下面的所有命令都建立在基础图像的基础上，使研究人员的项目能够正常运行。 指定图像版本 (`18.04` 在此情况下) 是可选的。 然而，这是最佳做法，因为它确保我们的 Dockerfile 在新版本的 Ubuntu 之后仍然有效， 它可能不包括我们稍后需要的软件包 (或其中的特定版本) (例如， `python3)。`。
 
-It is worth spending time to choose an appropriate base image, as doing so can reduce the amount of work involved in writing a Dockerfile dramatically. For example, a collection of images with the R programming language included in them can be found [here](https://github.com/rocker-org/rocker-versioned). If a project makes use of R, it is convenient to use one of these as a base image rather than spend time writing commands in your Dockerfile to install R.
+值得花时间选择适当的基本图像， 这样做可以大大减少编写Dockerfile所需的工作量。 例如，包含在其中的 R 编程语言的图像集可以在这里找到 [](https://github.com/rocker-org/rocker-versioned)。 如果一个项目使用R, 使用其中之一作为基本图像而不是在你的 Dockerfile 中写入命令以安装R是方便的。
 
-The biggest block of lines comes next. It's a series of `RUN` statements, which run shell commands when building the image. In this block, they are used to install the software necessary to run the project. The first `RUN` block is a chain of commands of this form:
+接下来是最大的行块。 它是一系列 `RUN` 语句，在构建图像时运行 shell 命令。 在这个块中，他们被用来安装运行项目所需的软件。 第一个 `RUN` 块是这种形式的 命令链：
 
 ```
 RUN command_to_do_thing_1 \
@@ -147,42 +147,42 @@ RUN command_to_do_thing_1 \
    && command_to_do_thing_4
 ```
 
-It is good practice to group related commands into a single `RUN` block to reduce the final size of your image by [avoiding the creation of unnecessary layers](https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers). We also follow best-practice by using `--no-install-recommends` to [avoid installing unnecessary packages](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages) and [cleaning up the `apt-cache`](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run), both of which further reduce the size of Debian or Ubuntu images.
+将相关命令分组为单个 `RUN` 块是一个好的做法，以减少您图像的最终大小为 [避免创建不必要的图层](https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers) 我们还遵循最佳做法，使用 `--no-install-recommended` to [避免安装不必要的软件包](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages) 和 [清理 `apt-cache`](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run)两者都进一步缩小了Debian 或 Ubuntu 图像的大小。
 
-After we have installed Python, we use another RUN statement to install a library required by our code.
+安装Python后，我们使用另一个RUN语句来安装代码所需的库。
 
-Finally the `COPY` command is used to copy the project files from the machine building the image into the image itself. The syntax of this command is `COPY file_to_copy location_in_container_to_copy_to`. In this example, all the files in the `project_files` directory are included in the `project` file in the container. Note that you can only copy files from the directory where the Dockerfile is located, or subdirectories within it (in the example, that is the `project_files` subdirectory).
+最后， `COPY` 命令用于将图像从机器构建中的项目文件复制到图像本身。 此命令的语法是 `COPY file_to_cope location_in_container_to_copy_to`。 在此示例中， `project_files` 目录中的所有文件都包含在容器中的 `项目` 文件中。 注意您只能从 Dockerfile 所在目录复制文件， 或它内的子目录(例如为 `project_files` 子目录)。
 
-The `ADD` command has the same capabilities as `COPY`, but it can also be used to add files not on the machine building the image. For example it can be used to include files hosted online by following `ADD` with a URL to the file. It is good practice to use `COPY`, except where `ADD` is specifically required, as the term `COPY` is more explicit about what is being done.
+`添加` 命令具有与 `COPY`相同的功能， 但它也可以用来添加不在机器构建图像上的文件。 例如，它可以用来包含在线托管的文件，方法是通过 `ADD` 文件的 URL。 使用 `COPY`是很好的做法，但有 `ADD` 是特别需要的。 作为 `COPY` 更明确地说明正在做什么。
 
-Here is what happens if a container is opened from an image called `book_example`, built from the example above:
+如果一个容器是从一个名为 `book_example`的图像中打开的，则会发生以下情况：
 
 ```{figure} ../../figures/container-example.png
 ---
 name: container-example
-alt: A screenshot of what happens when a container is opened from an image
----
+alt: A screen sharing of when a container is open from an image
+-
 ```
 
-As you can see, the directory `project` has been created, and inside the project files, `analysis.py` and `data.csv` have been copied into it. Because the Dockerfile already includes the software required for the project, in the image, the `analysis.py` script runs without installing more software.
+正如你可以看到的那样，目录 `project` 已经创建，在项目文件中 `分析。 y` 和 `data.csv` 已复制到它。 因为Dockerfile已经包含项目所需的软件，图像中的 `analys.py` 脚本运行时没有安装更多软件。
 
 (rr-renv-containers-dockerfiles-workdir)=
-### `WORKDIR`
+### `WorkDIR`
 
-This command can be used in Dockerfiles to change the current working directory. Commands that follow this in the Dockerfile will be applied within the new working directory unless/until another `WORKDIR` changes the working directory. When a container is opened with an interactive terminal, the terminal will open in the final working directory. Here is a simple example of a Dockerfile that uses `WORKDIR`, and the container it generates.
+此命令可以在 Dockerfiles 中用于更改当前工作目录。 在 Dockerfile 中跟随此操作的命令将在新的工作目录中应用，除非/直到另一个 `WorKDIR` 更改工作目录。 当一个容器与一个交互式终端打开时，终端将在最后工作目录中打开. 这是一个使用 `WORKDIR`和它生成的容器的 Dockerfile的简单例子。
 
 ```
-# Basic setup
+# 基本设置
 FROM ubuntu
 RUN apt-get update
 
-# Make a directory called A
+# 制作一个名为A
 RUN mkdir A
 
-# Make the working directory A
+# 制作一个工作目录A
 WORKDIR A
 
-# Make two directories, one called B_1 and one called B_2
+# 制作两个目录， 一个叫做B_1 和一个叫做B_2
 RUN mkdir B_1
 RUN mkdir B_2
 ```
@@ -190,198 +190,198 @@ RUN mkdir B_2
 ```{figure} ../../figures/workdir-example.png
 ---
 name: workdir-example
-alt: Screenshot of container generated using WORKDIR command
----
+alt: 使用WORKDIR 命令生成的容器截图
+-
 ```
 
-Directories `B_1` and `B_2` have been created within directory `A`.
+目录 `B_1` 和 `B_2` 已经在目录 `A` 中创建。
 
-`WORKDIR` should be used when changing directories is necessary while building an image. It may be tempting to use `RUN cd directory_name` instead, as this syntax will be more familiar to those that commonly work via the command line, but this can lead to errors. After each `RUN` statement in a Dockerfile, the image is saved, and any following commands are applied to the image anew. As an example, here is what happens in the above example if the `WORKDIR A` line is swapped for `RUN cd A`.
+`在构建图像时需要更改目录时应该使用WORKDIR`。 它可能诱惑使用 `RUN cd directory_name` 因为这个语法对于那些通常通过命令行工作的人来说更加熟悉。 但这可能导致错误。 在Dockerfile中的每一个 `RUN` 语句后，图像将被保存，下面的命令将被重新应用于图像。 As an example, here is what happens in the above example if the `WORKDIR A` line is swapped for `RUN cd A`.
 
 ```{figure} ../../figures/cd-example.png
 ---
 name: cd-example
-alt: A screenshot of what happens when the WORKDIR command is swapped with RUN cd
----
+alt: 在 WORKDIR 命令与 RUN cd 交换时发生什么情况的屏幕截图
+-
 ```
 
-All the directories have are in the top level in this case, rather than `B_1` and `B_2` being inside `A`. This is because the image was restarted after the `RUN cd A` command and opened at the top (root) level by default, so that is where the `mkdir B_1` and `mkdir B_2` commands took effect.
+在这种情况下，所有目录都处于顶层。 而不是 `B_1` 和 `B_2` 在 `A` 内。 这是因为图像在 `RUN cd A` 命令后重新启动，并默认在顶级(root) 级别打开， 所以 `mkdir B_1` 和 `mkdir B_2` 命令生效的地方。
 
 (rr-renv-containers-dockerfiles-commands)=
-### Other Commands
+### 其他命令
 
-Other commands that are sometimes used in Dockerfiles include:
+Dockerfiles有时使用的其他命令包括：
 
-- `CMD`: This is used to run commands as soon as the container is opened. This is different to RUN commands which are commands run as part of _setting up_ a container. For example, to have a welcome message when a container is opened from the image, `CMD` could be used as follows:
+- `CMD`: 这用于在容器打开后立即运行命令。 这不同于作为 _设置_ 个容器的一部分运行的RUN命令。 例如，为了在容器从图像中打开时有一个欢迎消息， `CMD` 可以用作以下用途：
   ```
-  CMD ["echo","Welcome! You just opened this container!"]
+  CMD ["回声","欢迎! 你刚刚打开了这个容器！"]
   ```
-  It is good practice to use CMD for any commands that need to be run before someone starts working in the container instead of forcing users to run them themselves (and trusting that they will even know that they need to).
-- `VOLUMES`: These will be discussed {ref}`later <rr-renv-containers-volumes>`.
-- `MAINTAINER`: This contains information regarding the person that wrote the Dockerfile. It is typically included at the top of a Dockerfile.
-- `EXPOSE`: This includes ports that should be exposed. It is more relevant to people using Docker to share web apps.
-- `USER`: Change the user that a command is run as (useful for dropping privileges).
+  在某人开始在容器 工作之前需要运行的任何命令都使用CMD，而不是强迫用户自己运行它们（而且相信他们甚至知道自己需要）是很好的做法。
+- `VOLUMES`: 这些将会在稍后讨论 {ref}` <rr-renv-containers-volumes>`
+- `MAINTAINER`: 这包含着编写Docker文件的人的信息。 它通常包含在Docker文件的顶部。
+- `EXPOSE`: 这包括应该曝光的端口。 它对使用 Docker 的人更适合分享网页应用。
+- `USER`: 更改命令运行的用户 (用于丢弃权限)。
 
 (rr-renv-containers-dockerignore)=
-## Building Images and `.dockerignore` Files
+## 正在构建图像和 `.dockerinvate` 个文件
 
-As mentioned in the {ref}`key commands <rr-renv-containers-commands>` section, to build an image open a terminal in the same directory as the Dockerfile to be used and run:
+如 {ref}`密钥命令 <rr-renv-containers-commands>` 部分所述。 要在与 要使用并运行的 Dockerfile 相同的目录中创建一个终端：
 
 ```
-sudo docker build --tag name_to_give_image .
+sudo docker build--tag name_to_give_image
 ```
 
-When an image is built everything in the Dockerfile's directory and below (this is called the "context") is sent to the Docker daemon to build the image. The daemon uses the Dockerfile and its context to build the image. If the context contains many large files, which are not needed for building the image, (old datafiles, for example) then it is a waste of time sending them to the daemon. Doing so can make the process of building an image slow. Files can be excluded from the context by listing them in a text file called `.dockerignore`. It is good practice to do so.
+当一张图像在Dockerfile的目录和下面的所有内容都被生成时(这被称为“上下文”)，都会被发送到Docker 守护程序来构建图像。 守护进程使用Dockerfile及其上下文来构建图像。 如果上下文包含许多大文件，而这些文件并不是构建图像所需要的， (例如旧的数据文件)，是浪费时间，将它们送到守护程序中。 这样做可以使构建图像的过程变得缓慢。 文件可以通过在一个名为 `.dockernovel` 的文本文件中列出它们从上下文中删除。 这样做是一个良好做法。
 
-The files do not need to be listed individually in the `.dockerignore` file. Here is an example of the contents of a `.dockerignore` file:
+文件不需要被单独列在 `.dockerwitch` 文件中。 这是一个 `.dockerinvate` 文件内容的示例：
 
 ```
 *.jpg
 **/*.png
 data_files/*
-file_to_exclude.txt
+file_to_exclusde.txt
 ```
 
-This excludes from the context:
+此处从上下文中排除：
 
-- All `.jpg` files in the same directory as the Dockerfile file
-- All `.png` files in the same directory as the Dockerfile file _or any subdirectories within it_
-- All files within the `data_files` directory
-- The file named `file_to_exclude.txt`
+- 与 Dockerfile 文件相同的目录中所有 `.jpg` 文件
+- 所有 `.png` 文件与Dockerfile _同一目录中的任何子目录_
+- `data_files` 目录内的所有文件
+- 命名为 `file_to_exclude.txt`
 
 (rr-renv-containers-sharing)=
-## Sharing Images
+## 分享图像
 
-Docker images can be shared most easily via [Docker Hub](https://hub.docker.com/), which requires an account. Say two researchers, Alice and Bob, are collaborating on a project and Alice wishes to share an image of some of her work with Bob.
+Docker 图像可以非常容易地通过 [Docker Hub](https://hub.docker.com/)分享，这需要一个帐户。 说两名研究员Alice和Bob正在合作一个项目，Alice希望与Bob分享她一些工作的形象。
 
-To do this, Alice must:
+要做到这一点，Alice必须：
 
-- Write a Dockerfile to produce an image of her work.
-- Build the image. She (being inventive) calls it image_name
-- Go to DockerHub and sign up for an account. Say Alice (again, being inventive) chooses the username `username_Alice`
-- Log into DockerHub via the terminal on her machine using:
+- 写一个 Dockerfile 来制作她的作品的图像。
+- 构建图像。 她(正在发明)称它为图像名称
+- 前往DockerHub 注册一个帐户。 说Alice(再次是发明的) 选择用户名 `username_Alice`
+- 通过机床上的终端登录DockerHub
   ```
-  sudo docker login
+  sudo 停靠登录
   ```
-- Tag the image of her project on her machine via the command line by supplying the name of the image and using the pattern `username/image_name:version`. So Alice runs the command:
+- 通过命令行通过提供图像名称并使用图案 `username/image_name: version` 来标记她的机器上的项目图像。 因此Alice运行命令：
   ```
-  sudo docker tag image_name username_Alice/image_name:version_1
+  sudo docker 标签 image_name username_Alice/image_name:version_1
   ```
-- Push the image to her Docker Hub account using:
+- 将图像推送到她的 Docker Hub 帐户，使用：
   ```
-  sudo docker tag push username_Alice/image_name:version_1
+  sudo 停靠标签推送用户名_Alice/image_name:version_1
   ```
-- Alice's image is now online and can be downloaded. Over to Bob...
+- Alice的图像现在已在线并可以下载。 转到博客...
 
-Bob (assuming he already has Docker installed) can open a container from Alice's image simply by running
+Bob (假定他已经安装Docker) 可以仅仅通过运行 Alice的图像打开一个容器
 
 ```
-sudo docker run -i -t username_Alice/image_name:version_1
+sudo docker 运行-i -t username_Alice/image_name:version_1
 ```
 
-Initially, Docker will search for this image on Bob's machine. When it does not find it, it will _automatically_ search DockerHub, download Alice's image, and open the container with Alice's work and environment on Bob's machine.
+起初，Docker将在Bob机器上搜索此图像。 When it does not find it, it will _automatically_ search DockerHub, download Alice's image, and open the container with Alice's work and environment on Bob's machine.
 
 (rr-renv-containers-copying)=
-## Copying Files To And From Containers
+## 正在将文件复制到容器中
 
-Containers act much like virtual machines; as a result, copying files into and out of them is not as trivial as copying files to different locations within the same computer is.
+容器的作用很像虚拟机； 因此，将文件复制进出这些文件并不象复制文件到同一计算机内的不同地点那样微不足道。
 
-A file can be copied from the machine running a container into the container using:
-
-```
-sudo docker cp file_name container_ID:path_to_where_to_put_file/file_name
-```
-
-Recall that container IDs can be obtained using `sudo docker container ls`.
-
-A file can be copied from within a container to the machine running the container by running the following command on the machine running the container:
+文件可以从运行容器的机器复制到容器中使用：
 
 ```
-sudo docker cp container_ID:path_to_file/file_name path_to_where_to_put_file/file_name
+sudo docker cp file_name container_ID:path_to_where_put_file/file_name
 ```
 
-If the second part (the `path_to_where_to_put_file/file_name`) is substituted for a `.`, then the file will be copied to whatever directory the terminal running the command is in.
+使用 `sudo码容器` 获取容器 ID。
+
+一个文件可以从容器内复制到运行容器的机器上，在容器上运行以下命令：
+
+```
+sudo docker cp container_ID:path_to_file/file_name path_to_where_put_file/file_name
+```
+
+如果第二部分 ( `path_to_where_to_put_file/file_name`) 被替换为 ``然后文件将被复制到运行命令的终端目录中。
 
 (rr-renv-containers-volumes)=
-## Volumes
+## 卷
 
-Every time a container is opened from an image, that container is completely new. Say a container is opened, and work is done within it. Say a container is opened, and work is done within it. If that container is closed, and the image it came from is again used to start another container, none of that work will be in the new one. It will simply have the starting state described in the image.
+每次从图像打开一个容器，这个容器是全新的。 说一个容器已打开，并在容器内完成工作。 说一个容器已打开，并在容器内完成工作。 如果该容器被关闭，其图像又被用来打开另一容器， 这项工作都不会在新的工作中进行。 它只会在图像中描述起始状态。
 
-This can be a problem if a researcher wants to work in a container over time. Fortunately, there is a way around this using volumes. Volumes store the work done within a container even after it is closed, and can be used to load that work into future containers.
+如果研究人员想要随着时间的推移在容器中工作，这可能是一个问题。 幸运的是，在这方面还有一定的方法。 甚至在容器关闭后卷宗里存放已完成的工作，并可将其加载到未来容器中。
 
-To create/use a volume, run:
-
-```
-sudo docker run -i -t --mount source=volume_name,target=/target_directory image_name
-```
-
-You should give your volume a more descriptive name than `volume_name`. A `target` directory is required; only work within this directory will be saved in the volume. Once the researcher is done, they can close the container as normal. When they come back to the project and want to continue their work, they only need to use the same command as above, and it will load the work contained in `volume_name` into the new container. It will save any new work there too.
-
-Below is a list of volume related commands:
-
-- To list volumes: `sudo docker volume ls`
-- To delete a volume: `sudo docker volume rm volume_name`
-- To delete all unattached volumes: `sudo docker volume prune`
-
-If, when deleting a container, a `-v` is included after `rm` in `sudo docker rm container_ID`, any volumes associated with the container will also be deleted.
-
-(rr-renv-containers-singularity)=
-## Singularity
-
-
-> **Prerequisites**: At present, Singularity only runs on Linux systems (for example Ubuntu). If you use macOS, [Singularity Desktop for macOS](https://www.sylabs.io/singularity-desktop-macos/) is in "Beta" release stage.
-
-A significant drawback of using Docker for reproducible research is that it is not intended as a user-space application but as a tool for server administrators. As such, it requires root access to operate. There is, however, no reason why the execution of an analysis should require root access for the user. This is especially important when computations are conducted on a shared resource like HPC systems where users will never have root access.
-
-The [singularity](https://www.sylabs.io/) container software was introduced to address this issue. Singularity was created with HPC systems and reproducible research in mind (see \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM video). It does not require root access to run (only to build container _images_!), and thus enables HPC users to locally build container images before running analyses on a high-performance cluster, for example. As an added benefit, this makes it possible to use almost any software on an HPC system without having to bother admin staff with installing it.
-
-Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. This means that singularity can be used to run normal docker containers (without requiring root access!).
-
-Singularity can be used to run Docker images or extend them by building new images based on docker containers as a base layer. For instance, we could use singularity to create a vanilla ubuntu container with a shell using the ubuntu docker image:
+要创建/使用一个卷, 请运行:
 
 ```
-singularity shell docker://ubuntu
+sudo docker 运行 -i -t --mount source=volume_name,target=/target_directory image_name
 ```
 
-> (type `exit` to leave the interactive shell again).
+您应该给您的卷提供一个比 `volume_name` 更具描述性的名称。 需要 `目标` 目录；只有此目录内的工作才会保存到卷内。 一旦研究人员完成后，他们可以正常地关闭容器。 当他们回到项目并想要继续其工作时，他们只需要使用与上面相同的命令。 并且它将把 `volume_name` 中包含的工作加载到新容器中。 这也将节省那里的任何新工作。
 
-Just as docker images are built using `Dockerfile` files, singularity containers are built from singularity definition files. The process and syntax are similar to docker files, but there are subtle differences. As a minimal working example, we can build a `lolcow` container based on the official ubuntu docker container image. Put the following in a `lolcow.def` file (based on the [Singularity documentation](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html)):
+下面是一个与卷相关的命令列表：
+
+- 要列出卷: `sudo docker volume ls`
+- 要删除一个卷: `sudo docker volume rm volume_name`
+- 要删除所有未附加的卷: `sudo docker volume rune`
+
+如果删除容器， a `-v` 包含在 `rm` 在 `sudo docker rm container_ID`与容器相关联的任何卷也将被删除。
+
+(rr-renv-containers-sinularity)=
+## 独一无二性
+
+
+> **前提条件**: 目前单纯性只在 Linux 系统上运行 (例如，Ubuntu). 如果您使用 macOS， [macOS 的 Singularity 桌面](https://www.sylabs.io/singularity-desktop-macos/) 处于“Beta”发布阶段。
+
+使用 Docker进行可复制研究的一个重要缺陷是，它不是作为一个用户空间应用，而是作为服务器管理员的工具。 因此，它需要有根基才能运作。 然而，没有理由为什么进行分析需要用户获得Root权限。 当使用用户永远不会有Root权限的高清系统等共享资源进行计算时，这一点尤其重要。
+
+为了解决这个问题，引入了 [独一无二的](https://www.sylabs.io/) 集装箱软件。 高频谱系统创建了独特性并考虑到可复制的研究(见 \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM video)。 它不需要运行 root 权限(仅构建容器 _镜像_！ 这样，HPC用户就能在当地制作容器图像，然后才能对高性能集群进行分析。 作为附加福利。 这使得几乎任何软件都可以在高清数据中心系统上使用，而不必为安装该系统配备管理员。
+
+Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. 这意味着单一性可以用来运行正常的停泊器容器(不需要root存取!)。
+
+独特性可以用来运行 Docker 图像或通过基于基层的 docker 容器构建新图像来扩展它们。 例如，我们可以使用单独的方式创建一个带有炮弹的原生的ubuntu容器，使用 ubuntu 码头图像：
+
+```
+单纯的 shell docker://ubuntu
+```
+
+> (输入 `退出` 以便再次离开交互式外壳)
+
+Just as docker images are built using `Dockerfile` files, singularity containers are built from singularity definition files. 进程和语法类似于码头文件，但有微妙的差异。 作为最起码的工作示例，我们可以基于官方的 ubuntu 码头容器图像构建一个 `lolcow` 容器。 将以下内容放入 `lolcow.def` 文件(基于 [独特性文档](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html))：
 ```
 Bootstrap: docker
 From: ubuntu
 
 %post
     apt-get -y update
-    apt-get -y install fortune cowsay lolcat
+    apt-get -y install friche cowsay lolcat
 
-%environment
+%enintranment
     export LC_ALL=C
     export PATH=/usr/games:$PATH
 
 %runscript
-    fortune | cowsay | lolcat
+    frife | cowsay | lolcat
 ```
 
-This 'recipe' uses a docker image as a basis (`ubuntu`), installs a few `apt` packages, modifies a few environment variables, and specifies the `runscript` (which is executed using the `singularity run` command). Details on the singularity definition file format can be found in the official [documentation](https://www.sylabs.io/docs/).
+这个“recipe”使用停靠图像作为基础 (`ubuntu`), 安装一些 `apt` 软件包，修改一些环境变量， 并指定 `运行脚本` (使用 `独一无二性运行` 命令执行)。 单一性定义文件格式的详细信息可在官方的 [文档](https://www.sylabs.io/docs/) 中找到。
 
-A container image can then be built (requiring root!) via:
-
-```
-sudo singularity build lolcow.simg lolcow.def
-```
-
-This will pull the ubuntu image from DockerHub, run the steps of the recipe in the definition file and produce a single output image file (`lolcow.simg`). Finally the `runscript` is executed as
+然后可以构建容器图像 (需要 root!) 通过：
 
 ```
-singularity run lolcow.simg
+sudo sidularity building lolcow.simg lolcow.def
 ```
 
-Ideally, you should see a nice ASCII cow and a few words of wisdom:
+这将从 DockerHub 拉取ubuntu 图像， 在定义文件中运行配方的步骤并生成单一输出图像文件(`lolcow)。 img`)。 最后执行 `运行脚本`
+
+```
+单纯性运行lolcow.simg
+```
+
+理想的情况是，你应该看到一个漂亮的 ASCII 母牛和几个智慧词：
 
 ```
 ___________________________________
-/ You will be called upon to help a \
-\ friend in trouble.                /
+/ 您将被请求来帮助疑难中的一个 \
+的朋友。                /
 -----------------------------------
        \   ^__^
         \  (oo)\_______
@@ -390,27 +390,27 @@ ___________________________________
                ||     ||
 ```
 
-Being HPC compatible, singularity containers are also supported by a wide range of workflow management tools. For example, both [snakemake](https://snakemake.readthedocs.io/en/stable/) and [nextflow](https://www.nextflow.io/docs/latest/singularity.html) support job-specific singularity containers. This makes singularity containers uniquely suited for parallelizing workflows on HPC systems using the widely used [slurm](https://slurm.schedmd.com/documentation.html) workload manager. Using singularity, containers and snakemake/nextflow is a way of scaling reproducibility to a massive scale. Furthermore, as an added benefit, bringing workflows from a desktop machine to an HPC system no longer requires writing custom job submission scripts.
+HPC兼容，单一性容器也得到各种工作流程管理工具的支持。 例如， [吸附](https://snakemake.readthedocs.io/en/stable/) 和 [下一步流动](https://www.nextflow.io/docs/latest/singularity.html) 都支持针对工作的唯一性容器。 这使得独特的容器特别适合于使用广泛使用的 [slurm](https://slurm.schedmd.com/documentation.html) 工作量管理器来平行处理高清系统上的工作流程。 使用单一性、容器和快照/下流是一种将可再生产量降到大规模的方法。 此外，作为一种额外的益处，将桌面机器的工作流程带到高清系统不再需要自定义作业提交脚本。
 
-(rr-renv-containers-singularity-storage)=
-### Long-term Storage of Container Images
+(rr-renv-containers-sinularity-storage)=
+### 容器图像的长期存储
 
-It is important to note that a mere container recipe file is not reproducible in itself since the build process depends on various (online) sources. Thus, the same recipe file might lead to different images if the underlying sources were updated.
+必须指出，仅仅是一个集装箱配方文件本身并不是可以复制的，因为构建过程取决于各种(在线)来源。 因此，如果基础源更新，相同的配方文件可能会导致不同的图像。
 
-To achieve true reproducibility, it isimportant to store the actual container _images_. For singularity images, this is particularly easy since an image is simply a large file. These can vary in size, from a few tens of megabytes (micro-containers) to several gigabytes, and are therefore not suited for being stored in a git repository themselves A free, citable, and long-term solution to storing container images is [zenodo.org](https://zenodo.org/) which allows up to 50 Gb per repository. Since zenodo mints DOIs for all content uploaded, the images are immediately citable. In contrast to [Docker Hub](https://hub.docker.com/) (which also only accepts docker images), zenodo is also clearly geared towards long-term storage and discoverability via a sophisticated metadata system. Thus, it is ideally suited for storing scientific containers associated with particular analyses since these tend to not change over time.
+要实现真正的可复制性，必须存储实际容器 _图像_。 对于独一无二的图像，这样做特别容易，因为图像只是一个大的文件。 它们的大小可能各不相同，从几十个兆字节（微型容器）到几个千兆字节不等。 因此不适合存储在 git 存储库本身 免费， 存储容器图像的可接受和长期解决办法是 [zenodo。 rg](https://zenodo.org/) 每个仓库最多允许50Gb 既然zenodo 对所有上传的内容都会显示DOI，图像就可以立即被读取。 与 [Docker Hub](https://hub.docker.com/) 相反(它也只接受停泊器图像)， zenodo还通过一个复杂的元数据系统明确地面向长期储存和发现。 因此，它最适合于储存与具体分析有关的科学集装箱，因为这些集装箱往往不会随着时间的推移而变化。
 
 (rr-renv-containers-warning)=
-## Words of Warning
+## 警告单词
 
-Even though singularity and docker might look similar, they are conceptually very different. Besides the obvious fact that singularity does not require root access to run containers, it also handles the distinction between the host and container file system differently. For instance, by default, singularity includes a few bind points in the container, namely:
+尽管单一性和码头看起来类似，但它们在概念上是非常不同的。 除了单一性不需要Root访问运行的容器这一显而易见的事实， 它还以不同方式处理主机和集装箱文件系统之间的区别。 例如，在默认情况下，单一性包括容器中的几个绑定点，即：
 
 - `$HOME`
 - `/sys:/sys`
-- `/proc:/proc`
+- `/proc/proc/proc`
 - `/tmp:/tmp`
 - `/var/tmp:/var/tmp`
-- `/etc/resolv.conf:/etc/resolv.conf`
+- `/etc/resolv.conf/etc/resolv.conf`
 - `/etc/passwd:/etc/passwd`
 - `$PWD`
 
-Note, `$PWD` comes in handy since it implies that all files in the working directory are visible within the container. Binding `$HOME` by default, however, also implies that software using configuration files from `$HOME` might behave unexpectedly since the image specific configuration files are overwritten with the current users settings in `$HOME`. While this behaviour is handy in HPC scenarios, it is potentially dangerous for reproducible research. To avoid potential issues, any software installed in a singularity container should be pointed to a global, user-independent configuration file.
+注意, `$PWD` 很方便，因为它意味着工作目录中的所有文件都是在容器中可见的。 然而，默认情况下绑定 `$HOME` 还意味着使用来自 `$HOME` 的配置文件的软件可能出乎意料，因为图像特定的配置文件被当前用户设置覆盖在 `$HOME` 中。 虽然这种行为在高温热吸附器的情况下很简单，但是这种行为对于可再生产的研究来说是潜在危险的。 为了避免潜在的问题，任何安装在单一性容器中的软件都应指向一个全球性的、独立于用户的配置文件。

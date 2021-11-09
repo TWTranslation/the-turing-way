@@ -1,55 +1,55 @@
-(rr-vcs-git-branches)=
-# Git Branches
+(rr-vcs-git-ramas)=
+# Ramas de Git
 
-When working on a project, individually or collaboratively, you may encounter the following scenarios:
+Cuando trabajas en un proyecto, individual o colaborativamente, puedes encontrarte con los siguientes escenarios:
 
-- If you add a new feature to your project, you run the risk of accidentally breaking your working code as you test the feature. This would cause unexpected issues for active users of your project, even if the only active user is you.
-- When you collaborate with others, and everyone works on the main branch simultaneously, there could be a lot of confusion and conflicting changes.
-- Some code/feature might not be interesting for everyone. There may need to be a way to allow new work to be done on a project whilst protecting work that has already been done.
+- Si añade una nueva característica a su proyecto, corre el riesgo de romper accidentalmente su código de trabajo mientras pone a prueba la característica. Esto causaría problemas inesperados a los usuarios activos de su proyecto, incluso si el único usuario activo es usted.
+- Cuando usted colabora con otros, y cada uno trabaja simultáneamente en la rama principal, puede haber mucha confusión y cambios conflictivos.
+- Algún código/característica puede no ser interesante para todos. Es posible que tenga que haber una forma de permitir que se haga un nuevo trabajo en un proyecto protegiendo al mismo tiempo el trabajo que ya se ha hecho.
 
-Git branches are extremely valuable when addressing any of these issues. For every Git project, by default, you have one branch called 'main' where all commits are recorded. The branching feature of Git allows us to create a copy of a project that we can work on and continue to make commits to without integrating them into the main branch right away. Meanwhile, one can continue to make commits on the main branch, which is untouched by the changes made on other branches. Once you are happy with whatever you were working on on a branch, you can merge it into your main branch (or indeed any other branch). Merging will be covered in the {ref}`rr-vcs-git-merge` subchapter.
+Las ramas de git son extremadamente valiosas al abordar cualquiera de estos problemas. Para cada proyecto Git, por defecto, tiene una rama llamada 'main' donde se registran todos los commits. La característica de sucursal de Git nos permite crear una copia de un proyecto en el que podemos trabajar y continuar haciendo compromisos sin integrarlos en la rama principal de inmediato. Mientras tanto, uno puede continuar haciendo commits en la rama principal, que no se ve afectado por los cambios realizados en otras ramas. Una vez que estés contento con lo que estabas trabajando en una sucursal, puede fusionarlo en su rama principal (o de hecho en cualquier otra rama). La combinación estará cubierta en el subcapítulo {ref}`rr-vcs-git-merge`.
 
-If you test a feature on a branch that does not work out, you can delete or abandon it (for example, Feature B in the diagram below) rather than spending time unpicking your changes if you were doing all your work on the main branch. You can have as many branches off of branches as you desire (for example, Feature A-1).
+Si prueba una característica en una rama que no funciona, puede eliminarla o abandonarla (por ejemplo, Característica B en el diagrama de abajo) en lugar de pasar tiempo desescogiendo los cambios si usted estaba haciendo todo su trabajo en la rama principal. Puedes tener tantas ramas fuera de las ramas como desees (por ejemplo, Función A-1).
 
-Using branches keeps working code safe, particularly in collaborations. Each contributor can have their own branch or branches which are only merged into the main project when they are ready.
+El uso de ramas mantiene el código de trabajo a salvo, especialmente en colaboraciones. Cada colaborador puede tener su propia rama o ramas que sólo se fusionan en el proyecto principal cuando están listos.
 
 ```{figure} ../../figures/sub-branch.png
 ---
 name: sub-branch
-alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. Feature A and B are branches of the main branch, while Feature A-1 is a branch made from Feature A.
+alt: Una ilustración de ramificación en Git. Se muestran cuatro ramas nombradas principal: Característica A, Característica B, y Característica A-1. La característica A y B son ramas de la rama principal, mientras que la Feature A-1 es una rama hecha de Feature A.
 ---
-An illustration of branching in Git
+Una ilustración de ramificación en Git
 ```
 
-You can create a branch and switch to it using:
+Puedes crear una rama y cambiar a ella utilizando:
 ```
-git checkout -b name_of_your_new_branch
-```
-
-To change between branches, use the following command:
-```
-git checkout name_of_the_branch
+git checkout -b name_of_su_nuevo_rama
 ```
 
-You must commit any work you have in progress before you can to switch to another branch.
+Para cambiar entre ramas, utilice el siguiente comando:
+```
+git checkout name_of_the_rama
+```
 
-You can see all branches of your project using:
+Debes comprometer cualquier trabajo que tengas en curso antes de poder cambiar a otra rama.
+
+Puedes ver todas las ramas de tu proyecto utilizando:
 
 ```
-git branch
+rama git
 ```
-This gives the output as a list with an asterisk next to the branch you are on. You can also use `git status` if you have forgotten which branch you are on.
+Esto da la salida como una lista con un asterisco junto a la rama en la que está. También puedes usar `git status` si has olvidado qué rama estás activada.
 
-If you decide to get rid of a branch you can delete it with:
+Si decides deshacerte de una rama puedes eliminarla con:
 
 ```
-git branch -D name_of_the_branch
+rama git -D nombre_de_la_rama
 ```
-(rr-vcs-branches-practice)=
-## Good practice
+(rr-vcs-ramas-práctica)=
+## Buenas prácticas
 
-Branches should be used to **keep the main branch clean**. That is, the main should only contain work which is complete, tested, and rightfully belongs in the main version of the project. Similarly, you should try to keep individual branches as clean as possible by **only adding one new feature per branch**. This is because if you are working on several features, some may be finished and ready to merge into main while others are still under development. Keeping your branches clean means only making changes related to the feature on the feature's branch. Give your branches **sensible names**, "new_feature" is all well and good until you start developing a newer feature on another branch.
+Las ramas deben utilizarse para **mantener limpia la rama principal**. Es decir, el principal sólo debe contener trabajos completos, probados, y que pertenecen correctamente a la versión principal del proyecto. De manera similar, deberías intentar mantener las ramas individuales lo más limpias posible **solo añadiendo una nueva característica por rama**. Esto es porque si estás trabajando en varias características, Algunos pueden estar terminados y listos para fusionarse en principal, mientras que otros todavía están en desarrollo. Mantener limpias sus ramas significa hacer cambios relacionados con la característica en la rama de la característica. Dale a tus ramas **nombres sensatos**, "new_feature" está muy bien hasta que empieces a desarrollar una nueva característica en otra rama.
 
-## Interactive tutorial
+## Tutorial interactivo
 
-[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.
+[Learn Git Branching](https://learngitbranching.js.org/) es un proyecto para proporcionar una forma interactiva de aprender Git. Pasar a través de sus tutoriales proporcionará una experiencia sustancial con los comandos git y las técnicas de manipulación de ramas más usadas.

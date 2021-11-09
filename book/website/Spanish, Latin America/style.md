@@ -1,43 +1,43 @@
 (ch-style)=
 # Style Guide
 
-To ensure that the book can be read easily by everyone, including screen readers and non-native English speakers, we have compiled a set of guidelines to keep a consistent style across all chapters of the book.
+Para asegurar que el libro pueda ser leído fácilmente por todos, incluyendo lectores de pantalla y hablantes de inglés no nativos, hemos compilado un conjunto de directrices para mantener un estilo consistente en todos los capítulos del libro.
 
-We follow the [GOV.UK guidance](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) to improve accessibility of the resources in _The Turing Way_.
+Seguimos la [guía de GOV K](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) para mejorar la accesibilidad de los recursos en _The Turing Way_.
 
-## Write each sentence in a new line (line breaks)
+## Escribe cada frase en una nueva línea (saltos de línea)
 
-Please write all sentences in the markdown file on separate lines. Having each sentence on a new line will make no difference to how the text is displayed, there will still be paragraphs, but it will mean that any pull requests will be easier to check; the changes will be on a single line instead of somewhere in a paragraph. Consider the example below.
+Por favor, escriba todas las frases en el archivo markdown en líneas separadas. Tener cada frase en una nueva línea no marcará ninguna diferencia en la forma en que se muestra el texto, seguirá habiendo párrafos, pero esto significará que cualquier solicitud pull será más fácil de controlar; los cambios estarán en una sola línea en lugar de en algún lugar de un párrafo. Consideremos el ejemplo de abajo.
 
  ```
-Today you are you, that is truer than true. There is no one alive who is youer than you. - Dr Seuss
+Hoy usted es usted, eso es más cierto que verdad. No hay nadie vivo que sea usted más que usted. - Dr Seuss
 ```
 
-A pull request on this correcting it to have a ‘.’ after Dr would show as a change to the whole paragraph. Contrast this with the next example which will be displayed online in the exact same way, but would see a change to a single line.
+Una solicitud de extracción sobre esto corrigiéndolo para tener un «.» después del Dr. mostraría como un cambio en todo el párrafo. Contrájalo con el siguiente ejemplo que se mostrará en línea exactamente de la misma manera, pero vería un cambio en una sola línea.
 
  ```
-Today you are you, that is truer than true.
-There is no one alive who is youer than you.
+Hoy usted es usted, eso es más cierto que verdad.
+No hay nadie vivo que sea usted más que usted.
 - Dr Seuss
 ```
 
-## Opinions are welcome, but ...
+## Las opiniones son bienvenidas, pero ...
 
-_The Turing Way_ book is intended to be only *lightly* opinionated. Whilst more opinionated content is allowed, such content should be clearly marked. The best way to do this is by displaying it in a quote box. This can be done by either prefixing every line with the greater than symbol `>`. Note, that the formatting will be retained, so we can split each sentence to a new line as recommended before.
+_El libro_ de la Vía Turística pretende ser solo *ligeramente* opinado. Si bien se permite un mayor contenido de opinión, dicho contenido debería estar claramente marcado. La mejor manera de hacerlo es mostrándolo en una caja de cotizaciones. Esto puede hacerse prefijando cada línea con el símbolo más grande `>`. Tenga en cuenta que el formato se mantendrá, así que podemos dividir cada frase en una nueva línea como se recomendó anteriormente.
 
 ```
-> I will not eat them in a house,
-> i will not eat them with a mouse,
-> i will not eat them in a box i will not eat them with a fox,
-> i will not eat them here of there i will not eat them anywhere,
-> I do not like green eggs and ham i do not like them sam i am
+> No los comeré en una casa,
+> no los comeré con el ratón,
+> no los comeré en una caja que no los comeré con zorro,
+> no los comeré aquí no los comeré en ninguna parte,
+> No me gustan los huevos verdes y el jamón no me gustan sam am
 ```
 
-## Avoid Latin Abbreviation
+## Evitar la abreviatura latina
 
-Please do not use Latin abbreviations. See the [Gov.uk recommendations](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style) for details.
+Por favor, no utilice abreviaturas latinas. Consulte las recomendaciones de [Gov.uk](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style) para más detalles.
 
-Some of these abbreviations are:
+Algunas de estas abreviaturas son:
 
 ```{figure} ../figures/latin-abbreviation.png
 ---
@@ -45,42 +45,42 @@ height: 400px
 name: latin-abbreviation
 alt: an image with a list of 3 latin abbreviations
 ---
-A list of latin abbreviations for *exempli gratia* (for example), *et-cetera* (so on), and *id est* (that is).
-Screenshot of part of the [list of Common Latin Abbreviations for APA Style](https://blog.apastyle.org/files/apa-latin-abbreviations-table-2.pdf).
+A list of latin abbreviations for *exempli gratia* (for example), *et-cetera* (así sucesivamente), y *id est* (eso lo es).
+Captura de pantalla de parte de la [lista de abreviaturas latinas comunes para el estilo APA](https://blog.campatyle.org/files/apa-latin-abbreviations-table-2.pdf).
 ```
 
-Instead of the first abbreviation in the table for *exempli gratia*, which can sometimes read aloud as ‘egg’ by screen reading software, please use ‘for example’ or ‘such as’ or ‘like’ or ‘including’ - whichever works best in the specific context.
+En lugar de la primera abreviatura en la tabla de *exempli gratia*, que a veces pueden leer en voz alta como 'huevo' por software de lectura de pantalla, por favor use "por ejemplo" o "tales como" o "me gusta" o "incluido" - quienquiera que funcione mejor en el contexto específico.
 
-Instead of the second abbreviation in the table for *et-cetera* to indicate open ended list, please start the list with words like ‘for example’ or ‘such as’ or ‘like’ or ‘including’.
+En lugar de la segunda abreviación en la tabla de *et-cetera* para indicar lista de finalización abierta, por favor inicie la lista con palabras como "por ejemplo" o "tales como" o "me gusta" o "incluyendo".
 
-Instead of third abbreviation in the table for *id est* that is often used to clarify a sentence, try (re)writing sentences to avoid the need to use it. If that is not possible, use an alternative such as ‘meaning’ or ‘that is’.
+En lugar de una tercera abreviación en la tabla para *id est* que se utiliza a menudo para aclarar una oración, intente (re)escribir oraciones para evitar la necesidad de usarlo. Si esto no es posible, utilice una alternativa como «significado» o «eso es».
 
-Any chapter containing a Latin abbreviation will fail the continuous integration (CI) workflow of the _The Turing Way_ GitHub repository from passing successfully, which is tested by this [Python script](https://github.com/alan-turing-institute/the-turing-way/blob/main/tests/no-bad-latin.py).
+Cualquier capítulo que contenga una abreviación latina fallará el flujo de trabajo de integración continua (CI) del repositorio _The Turing Way_ de GitHub de pasar con éxito, que es probado por este script [de Python](https://github.com/alan-turing-institute/the-turing-way/blob/main/tests/no-bad-latin.py).
 
-*To avoid CI from failing, even in this chapter we have avoided to write those abbreviations and instead used an image to illustrate the above examples.*
+*Para evitar que el CI falle, incluso en este capítulo hemos evitado escribir esas abreviaturas y en su lugar hemos usado una imagen para ilustrar los ejemplos anteriores.*
 
-## Tips
+## Consejos
 
-### Indentation
+### Sangría
 
-Indent the content following each item of a numbered list. If the content is unindented, the list numbering will be reset.
+Sangrar el contenido siguiendo cada elemento de una lista numerada. Si el contenido no está sangrado, la numeración de la lista se restablecerá.
 
-For instance, please avoid:
-1. First list item
+Por ejemplo, por favor evite:
+1. Primer elemento de lista
 ```
-This content belongs to the first list item.
+Este contenido pertenece al primer elemento de la lista.
 ```
-2. Second list item
+2. Segundo elemento de lista
 
-Instead, the following is recommended:
-1. First list item
+En su lugar, se recomienda lo siguiente:
+1. Primer elemento de lista
    ```
-   This content belongs to the first list item.
+   Este contenido pertenece al primer elemento de la lista.
    ```
 
-2. Second list item
+2. Segundo elemento de lista
 
 
-### External links
+### Enlaces externos
 
-Write external links using "http://" instead of "www". This ensures they are correctly recognised as hyperlinks.
+Escribir enlaces externos usando "http://" en lugar de "www". Esto asegura que se les reconozca correctamente como hipervínculos.

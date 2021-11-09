@@ -1,60 +1,60 @@
 (rr-renv)=
-# Reproducible Environments
+# 可复现的环境
 
-(rr-renv-prerequisites)=
-## Prerequisites
+(rr-renv-前提)=
+## 必备条件
 
-| Prerequisite                                                                                  | Importance | Notes                                                                            |
-| --------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  | Experience with downloading software via the command line is particularly useful |
-| {ref}`rr-vcs`                                                                                 | Helpful    | Experience using git and GitHub are helpful                                      |
+| 前提条件：                                                               | 重要性 | 注                       |
+| ------------------------------------------------------------------- | --- | ----------------------- |
+| [命令行的经验](https://programminghistorian.org/en/lessons/intro-to-bash) | 必需的 | 通过命令行下载软件的经验特别有用。       |
+| {ref}`rr-vcs`                                                       | 有帮助 | 使用 git 和 GitHub 的经验很有帮助 |
 
-**Recommended Skill Level**: _Intermediate-Advanced_
+**推荐的技能等级**: _中间高级_
 
 (rr-renv-summary)=
 ## Summary
 
-Every computer has its unique computational environment [{term}`def<Computational Environment>`] consisting of its operating system, installed software, versions of installed software packages, and other features that we will describe later. Suppose a research project is carried out on one computer but transferred to a different computer. There is no guarantee that the analysis will be able to run or generate the same results if the analysis is dependent on any of the considerations listed above.
+每台计算机都有其独特的计算环境 [{term}`def<Computational Environment>`] 包含其操作系统。 已安装的软件、已安装的软件包版本以及我们稍后将介绍的其他功能。 假定一个研究项目是在一台计算机上进行的，但转移到另一台计算机上。 如果分析取决于上述任何考虑因素，这种分析就不能保证能够运行或产生同样的结果。
 
-In order for research to be reproducible, the computational environment that it was conducted in must be captured in such a way that others can replicate it. This chapter describes a variety of methods for capturing computational environments and gives guidance on their strengths and weaknesses.
+为了使研究得到复制， 它所进行的计算环境必须以其他人能够复制的方式加以捕捉。 本章介绍掌握计算环境的各种方法，并就其优点和弱点提供指导。
 
-### What is a Computational Environment?
+### 什么是计算环境？
 
-In broad terms, a computational environment is the system where a program is run. This includes features of hardware (such as the numbers of cores in any CPUs) and features of software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
+从广义上讲，计算环境是一个程序运行的系统。 这包括硬件的特征(例如任何CPU中的核心数量)和软件的特征(例如操作系统)。 编程语言，支持包，其他已安装的软件及其版本和配置)。
 
-Software versions are often defined via [semantic versioning](https://semver.org). In this system, three numbers - for example, 2.12.4 - are used to define each version of a piece of software. When a change is made to the software, its version is incremented. These three numbers follow the pattern _MAJOR.MINOR.PATCH_, and are incremented as follows:
+软件版本通常是通过 [语义版本](https://semver.org) 定义的。 在这个系统中，用三个数字来界定每个版本的软件，例如2.12.4。 当对软件进行更改时，其版本将会递增。 这三个数字沿用模式 _MAJOR.MINOR.PACTCH_，并按以下方式递增：
 
-- *MAJOR*: significant changes
-- *MINOR*: to add functionality
-- *PATCH*: for bug fixes
+- *maJOR*: 重大更改
+- *MINOR*: 添加功能
+- *PATCH*: for bug 修复
 
-(rr-renv-useful)=
-## Why This is Useful
+(rr-renv-usef)=
+## 为什么这是有用的
 
-Let us go through an example of why computational environments are important. Say I have a very simple Python script:
+让我们举一个为什么计算环境很重要的例子。 说我有一个非常简单的 Python 脚本：
 
 ```
 a = 1
 b = 5
-print(a/b)
+打印(a/b)
 ```
 
-One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. This is because integer division is applied to integers in Python 2, but (normal) division is applied to all types, including integers, in Python 3.
+一个除以五分是 `0.2`, 如果脚本使用 Python 3 运行，这将是打印的。 然而，如果使用 Python 2 等稍晚版本的Python，则打印结果为 `0`。 这是因为整数除法适用于Python 2中的 整数 但是(正常)除法适用于包括整数在内的所有类型的 Python 3。
 
-Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
+因此，这个简单脚本根据运行的计算环境返回 _不同的_ 答案。 Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. 如果这些问题会影响到像这样的简单脚本， 想象有多少人可能出现在一个复杂的分析程序中，这个程序可能涉及数千行代码和几十个依赖包。
 
-Researchers need to understand and capture the computational environments in which they are conducting their work, as it has the potential to impact three parties:
+研究人员需要了解和掌握他们开展工作的计算环境，因为它有可能影响到三个方面：
 
-### Researchers
+### 研究人员
 
-Researchers' working environments evolve as they update software, install new software, and move to different computers. If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. They will have no way of knowing what changes to a specific research environment have occurred and what impact those changes might have on their ability to run the code, and on the results.
+研究人员的工作环境随着更新软件、安装新软件和移动到不同的计算机而变化。 如果项目环境未被捕获，研究人员需要在几个月或几年之后返回他们的项目（如研究中常见的那样）； 他们将不能满怀信心地这样做。 他们将无法知道特定研究环境发生了什么变化，以及这些变化可能对其运行守则的能力产生什么影响。 以及结果。
 
-### Collaborators
+### 协作者
 
-Much research is now collaborative, and researching multiple different computational environments opens up a minefield of potential bugs. Trying to fix these kinds of issues is often time-consuming and frustrating as researchers have to figure out what the differences between computational environments are, and their effects. Worse, some bugs may remain undetected, potentially impacting the results.
+现在许多研究是协作性的，研究多种不同的计算环境打开了潜在bug的雷场。 试图解决这类问题往往是耗费时间和令人沮丧的，因为研究人员必须弄清计算环境之间的差异。 三、结论和建议的执行情况 更糟糕的是，有些缺陷可能仍然未被察觉，可能影响结果。
 
-### Science
+### 科学
 
-Scholarly research has evolved significantly over the past decade, but the same cannot be said for the methods by which research processes are captured and disseminated. The primary method for dissemination - the scholarly publication - is largely unchanged since the advent of the scientific journal in the 1660s. This is no longer sufficient to verify, reproduce, and extend scientific results. Despite the increasing recognition of the need to share all aspects of the research process, scholarly publications today are often disconnected from the underlying analysis and, crucially, the computational environment that produced the findings. For research to be reproducible, researchers must publish and distribute the entire contained analysis, not just its results. The analysis should be _mobile_. Mobility of Compute is defined as the ability to define, create, and maintain a workflow locally while remaining confident that the workflow can be executed elsewhere. In essence, mobility of compute means being able to contain the entire software stack, from data files up through the library stack, and reliably move it from system to system. Any research that is limited to where it can be deployed is instantly limited in the extent that it can be reproduced.
+在过去十年里，学术研究有了很大的发展。 但在掌握和传播研究过程的方法上却不能这样说。 自1660年代发表科学刊物以来，主要的传播方法——学术出版物——基本未变。 这已不足以核查、复制和推广科学成果。 尽管人们日益认识到有必要分享研究过程的所有方面， 今天的学术出版物往往与基本分析脱节，而且更重要的是，与得出研究结果的计算环境脱节。 为了使研究得到复制，研究人员必须公布和分发整个包含的分析，而不仅仅是分析结果。 分析应该是 _移动_。 计算的流动被定义为界定、创建和创造的能力。 并保持当地的工作流程，同时仍然相信工作流程可以在其他地方执行。 从本质上讲，计算的流动性意味着能够包含整个软件堆栈， 从数据文件通过库堆栈向上移动，并可靠地将其从系统移动到系统。 任何仅限于可以部署的研究在可复制的范围内即刻受到限制。
 
-This chapter will describe how to capture, preserve and share computational environments and code to ensure research is reproducible.
+本章将介绍如何捕捉、保存和分享计算环境和代码，以确保研究可复制。

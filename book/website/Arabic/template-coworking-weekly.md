@@ -1,81 +1,81 @@
-(ch-template-coworking-weekly)=
-# Weekly Coworking Call Template
+(قالب العمل المشترك الأسبوعي)=
+# قالب المكالمة التعاونية الأسبوعية
 
-*A permanent document exists in the HackMD: [https://hackmd.io/@malvikasharan/TW-coworking](https://hackmd.io/@malvikasharan/TW-coworking) that is updated every Monday with the dates and times for the respective week.*
+*يوجد مستند دائم في HackMD: [https://hackmd.io/@malvikasharan/TW-cowork](https://hackmd.io/@malvikasharan/TW-coworking) والذي يتم تحديثه كل يوم اثنين مع تواريخ وأوقات الأسبوع المعني.*
 
-## _The Turing Way_ online coworking hours
+## _طريق التورين_ ساعات العمل التعاوني عبر الإنترنت
 
-**What?** _The Turing Way_ is a **lightly opinionated guide to reproducible data science and research**. _The Turing Way_ team hosts 1-hr long coworking calls each week for the community members to work together in real time.
+**ماذا؟** _طريقة التورينج_ هي **دليل مشاهدة بشكل خفيف لعلوم البيانات والبحث القابلة للتكرار**. _يستضيف فريق "طريق الورق"_ مكالمات طويلة لمدة ساعة واحدة كل أسبوع لأعضاء المجتمع للعمل معا في الوقت الحقيقي.
 
-*Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
+*اقرأ المزيد عنها هنا: https://the-turing-way.netlify.app/Community handbook/coworking.html*
 
-**Who?** **Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
-* If you are working from home and want to connect for _The Turing Way_ co-working hour - sign up for a slot provided below for this week between 11:00 - 12:00 BST.
-* Join us with a task that you are already working on in _The Turing Way_, an idea that you want to discuss, a pull request that you want to review, or something you started in the past and struggling to finish.
-* If you want to get an orientation to the project as a new member or connect with the team members - this would be a good place too!
+**من؟** **الجميع** مهتمون بالتكرار والأخلاق، ويرحب بعلوم وبحوث البيانات الشاملة من أجل الانضمام إلى كامل أو أي جزء من مشروع طريق الشحن، المجتمع، و/أو هذا المكالمة*.
+* إذا كنت تعمل من المنزل وترغب في الاتصال من أجل _طريق الترين_ ساعة العمل المشترك - قم بالتسجيل للحصول على مساحة مقدمة أدناه لهذا الأسبوع بين 11:00 - 12:00 BST.
+* انضم إلينا مع مهمة كنت تعمل عليها بالفعل في _طريق التوفير_، فكرة تريد أن تناقشها، طلب سحب تريد مراجعته، أو شيء بدأته في الماضي ويكافح من أجل الانتهاء.
+* إذا كنت ترغب في الحصول على توجيه للمشروع كعضو جديد أو الاتصال بأعضاء الفريق - سيكون هذا مكانًا جيدًا أيضاً!
 
-If you would like to join _The Turing Way_ co-working hour - sign up for a slot provided for this week between 11:00 - 12:00 BST.
+إذا كنت ترغب في الانضمام إلى _طريق الترينج_ ساعة العمل المشترك - قم بالتسجيل للحصول على مساحة متوفرة لهذا الأسبوع بين 11:00 - 12:00 BST.
 
-**Host:** Malvika Sharan (msharan@turing.ac.uk)
+**المضيف:** مالفيكا شارن (msharan@turing.ac.uk)
 
-*If you can't join from the beginning of the hour, please let the host know by contacting on [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) or via email.*
+*إذا لم تتمكن من الانضمام منذ بداية الساعة، يرجى إبلاغ المضيف عن طريق الاتصال على [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) أو عبر البريد الإلكتروني.*
 
-### Code of conduct
+### مدونة قواعد السلوك
 
-* [Take a moment to read this](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
+* [خذ لحظة لقراءة هذا](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
 
-:hourglass_flowing_sand: **Schedule:**
+:hourglass_flowing_sand: **الجدول:**
 
-**Schedule:**
+**الجدول:**
 
-| Duration | Activity                                |
-| -------- | --------------------------------------- |
-| Start    | 👋 Welcome                               |
-| 5 mins   | Introductions and personal goal setting |
-| 20 mins  | 🍅 1st Pomodoro session                  |
-| 5 mins   | ☕️ Break and report out                 |
-| 20 mins  | 🍅 2nd Pomodoro session                  |
-| 5 mins   | Open discussion and Close 👋             |
+| المدة    | النشاط                         |
+| -------- | ------------------------------ |
+| ابدأ     | 👋 مرحبا بك                     |
+| 5 دقائق  | ألف - مقدمة وتحديد أهداف شخصية |
+| 20 دقيقة | 🍅 دورة بومودورو الأولى         |
+| 5 دقائق  | ☕ الاستراحة والإبلاغ           |
+| 20 دقيقة | 🍅 دورة بومودورو الثانية        |
+| 5 دقائق  | فتح المناقشة وإغلاق 👋          |
 
-### This week/month, we will host coworking calls on the following days:
+### هذا الأسبوع/الشهر، سنستضيف مكالمات تعاطف في الأيام التالية:
 
-- DD Month YYYY: HH:MM BST (link for a local time from https://arewemeetingyet.com)
+- DD شهر YYYYY: HH:MM BST (رابط للوقت المحلي من https://arewemetingyet.com)
 - ...
 
-**Joining link**: <Provide a Zoom link>
+**رابط الانضمام**: <Provide a Zoom link>
 
-**Pomodoro clock for these calls**: https://cuckoo.team/tw-coworking
+**ساعة بومودورو لهذه المكالمات**: https://cuckoo.team/tw-coworking
 
-### Sign up below to indicate you will join on particular dates. *Time is given in BST*
+### قم بالتسجيل أدناه للإشارة إلى أنك ستنضم في تواريخ معينة. *يتم إعطاء الوقت في BST*
 
-*Please ping the host of this call on Gitter if you signed up but no longer can join*
+*يرجى ربط مضيف هذه المكالمة على Gitter إذا قمت بالتسجيل ولكن لم يعد بإمكانك الانضمام*
 
-#### DD Month YYYY:
+#### شهر السنة :
 
-- [11:00 UK Summer Time](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
+- [11:00 توقيت المملكة المتحدة الصيفي](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
 
-- Name / Your idea to work on today:
+- الاسم / فكرتك للعمل اليوم:
 -
 
-**Short notes from the call**
-
--
-
-**Some PRs from the discussions**
+**ملاحظات قصيرة من المكالمة**
 
 -
 
-#### DD Month YYYY:
-
-- [11:00 UK Summer Time](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
-
-- Name / Your idea to work on today:
--
-
-**Short notes from the call**
+**بعض عمليات استعراض الأداء من المناقشات**
 
 -
 
-**Some PRs from the discussions**
+#### شهر السنة :
+
+- [11:00 توقيت المملكة المتحدة الصيفي](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
+
+- الاسم / فكرتك للعمل اليوم:
+-
+
+**ملاحظات قصيرة من المكالمة**
+
+-
+
+**بعض عمليات استعراض الأداء من المناقشات**
 
 -

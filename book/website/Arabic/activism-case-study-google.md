@@ -1,43 +1,43 @@
-(er-activism-case-study-google)=
-# Case study: Google Workers & Project Maven
+(- الناشطة-حالة دراسة-غوغلي)=
+# دراسة حالة: Google Work & Project Maven
 
-Tech workers have historically had low levels of unionisation for a variety of different reasons, including comparatively high pay and status, roles that are often short-term, and a concentration in countries where union levels are low overall (for example, the US).
+وقد ظل العاملون في مجال التكنولوجيا يتمتعون تاريخياً بمستويات منخفضة من النقابات لأسباب مختلفة، منها ارتفاع الأجور والمركز نسبياً. وكثيراً ما تكون الأدوار قصيرة الأجل والتركيز في البلدان التي تكون فيها المستويات النقابية منخفضة بوجه عام (مثل الولايات المتحدة).
 
-Workers in tech are also sometimes ambivalent about their employer's products and services. This is because the products and services are developed with limited consideration of their impacts on systemic inequalities and injustices. However, more and more people who work in the industry are speaking up and demanding that companies and organisations consider the ethics and impact of the work they do and who they do that work with.
+كما أن العاملين في مجال التكنولوجيا يكونون أحياناً متعارضين مع منتجات وخدمات أرباب عملهم. ويرجع ذلك إلى أن المنتجات والخدمات يتم تطويرها مع إيلاء اهتمام محدود لآثارها على أوجه عدم المساواة والمظالم النظامية. غير ويتزايد باطراد عدد العاملين في الصناعة الذين يتحدثون ويطالبون الشركات والمنظمات بأن تنظر في أخلاقيات وأثر العمل الذي تقوم به ومن يفعلون ذلك العمل.
 
-Google is one example of a large tech company where workers have spoken up on several different issues including internal company policy and external contracts.
+وتعد شركة غوغل أحد الأمثلة على شركة كبيرة للتكنولوجيا حيث تحدث العمال عن عدة مسائل مختلفة، بما في ذلك السياسة الداخلية للشركات والعقود الخارجية.
 
-(er-activism-case-study-google-advocacy)=
-## Advocacy & Workplace Activism by Google Workers
-### Project Maven - 2018
-One project which faced resistance via workplace activism was Google's Project Maven, a contract with the US Pentagon to use AI to develop more effective drone guidance. Google employees across the globe who opposed this project spoke up in internal meetings, signed petitions, made memes, and shared personal statements about why they disagreed with the contract. Some employees even resigned. Eventually, the leadership at Google agreed not to seek further contracts with the US Pentagon and also agreed to adopt ["Ethical AI Principles"](https://blog.google/technology/ai/ai-principles/) including not using its technology for weapons or surveillance. [Source, accessed 8 December 2020](https://jacobinmag.com/2018/06/google-project-maven-military-tech-workers)
+(- الناشطة-حالة دراسة-جوجلي-الدعوة)=
+## الدعوة & نشاط مكان العمل من قبل عمال جوجل
+### مشروع Maven - 2018
+وأحد المشاريع التي واجهت مقاومة عن طريق النشاط في مكان العمل هو مشروع غوغل Maven، عقد مع وزارة الدفاع الأمريكية لاستخدام AI لوضع توجيه أكثر فعالية للطائرات بدون طيار. موظفي جوجل حول العالم الذين عارضوا هذا المشروع تحدثوا في اجتماعات داخلية. تم التوقيع على الالتماسات و تقديم إشعارات و تبادل البيانات الشخصية حول سبب عدم موافقتهم على العقد. بل إن بعض الموظفين استقالوا. في النهاية، وافقت القيادة في غوغل على عدم السعي للحصول على المزيد من العقود مع وزارة الدفاع في الولايات المتحدة ووافقت أيضاً على اعتماد ["المبادئ الأخلاقية المتعلقة بالرأي"](https://blog.google/technology/ai/ai-principles/) بما في ذلك عدم استخدام التكنولوجيا الخاصة بها في الأسلحة أو المراقبة. [المصدر, الوصول إلى 8 ديسمبر 2020](https://jacobinmag.com/2018/06/google-project-maven-military-tech-workers)
 
-### Walkout for Real Change - 2018
-In response to allegations of million dollar exit packages for executives accused of sexual harassment against workers, workers at Google offices across the globe walked out demanding:
-* Ending of private arbitration in sexual harassment cases
-* Publication of a transparency report on instances of sexual harassment
-* Further disclosures of salaries and compensation
-* An employee representative on the company board
-* A chief diversity officer who could speak directly to the board
+### المشي من أجل التغيير الحقيقي - 2018
+وردا على ادعاءات بخروج مدراء تنفيذيين متهمين بالتحرش الجنسي ضد العمال من ملايين الدولارات، العاملين في مكاتب جوجل في جميع أنحاء العالم يطالبون بما يلي:
+* إنهاء التحكيم الخاص في قضايا التحرش الجنسي
+* نشر تقرير عن الشفافية بشأن حالات التحرش الجنسي
+* كشف إضافي عن المرتبات والتعويضات
+* ممثل العامل في مجلس الشركة
+* كبير موظفي التنوع الذي يمكنه التحدث مباشرة إلى المجلس
 
-Google agreed to end the use of private arbitration in sexual harassment cases, but did not agree to the rest of the demands.
+ووافقت شركة غوغل على إنهاء استخدام التحكيم الخاص في قضايا التحرش الجنسي، ولكنها لم توافق على بقية المطالب.
 
-[Source, NYT, accessed 18 May 2021](https://www.nytimes.com/2018/11/01/technology/google-walkout-sexual-harassment.html)
+[المصدر: نيويورك ، تم الدخول إلى 18 مايو 2021](https://www.nytimes.com/2018/11/01/technology/google-walkout-sexual-harassment.html)
 
-### No Police Contracts - 2020
-In the wake of protests at the killing of George Floyd in May 2020, over 1,100 Alphabet workers signed a petition demanding that the company stop selling technology to police departments and end existing contracts with police departments with a history of racial discrimination. The company insisted that the contracts were in line with its AI Principles.
+### لا توجد عقود للشرطة - 2020
+وفي أعقاب الاحتجاجات على مقتل جورج فلويد في مايو 2020، أكثر من 1، (00) وقّع العمال الأبجدية على التماس يطالب بأن تكف الشركة عن بيع التكنولوجيا إلى إدارات الشرطة وأن تنهي العقود القائمة مع إدارات الشرطة التي لها تاريخ من التمييز العنصري. وأصرت الشركة على أن العقود تتماشى مع مبادئها المتعلقة بمجال الذاكرة.
 
-[Source, CNBC, accessed 18 May 2021](https://www.cnbc.com/2020/06/22/google-employees-petition-company-to-cancel-police-contracts.html)
+[المصدر: CNBC، تم الدخول إلى 18 مايو 2021](https://www.cnbc.com/2020/06/22/google-employees-petition-company-to-cancel-police-contracts.html)
 
-(er-activism-case-study-google-union)=
-## Alphabet Worker's Union
+(- الناشطة-حالة دراسة-جوجلي-نقابة)=
+## نقابة العمال الأبجدية
 
-The work that went into speaking out against different issues at Google has now transformed into a new union, specifically for people employed at Google or one of the other companies owned by Alphabet. The union was launched in January 2021 and has over 800 members as of May 2021. Importantly, all workers at Alphabet companies, whether they are cleaners or tech workers, on fixed-term contracts or in permanent employment, are eligible to join the union. This broad membership makes it much easier for the workers to organise together and fight for better conditions for everyone in the workplace, rather than segregating people based on the type of work they do. It also reinforces that everyone in the workplace is important and has a part to play in the union, regardless of what their day-to-day role looks like.
+وقد تحول العمل الذي جرى للتعبير بصراحة عن قضايا مختلفة في غوغل إلى اتحاد جديد، وعلى وجه التحديد للأشخاص العاملين في جوجل أو في إحدى الشركات الأخرى التي يملكها الأبجدية. وأُنشئت هذه النقابة في كانون الثاني/يناير 2021 وتضم أكثر من 800 عضو في أيار/مايو 2021. ومن المهم أن جميع العمال في الشركات الأبجدية، سواء كانوا عمال تنظيف أو عمال تكنولوجيا، الحق في الانضمام إلى النقابة بموجب عقود محددة المدة أو في العمل الدائم. وهذه العضوية الواسعة تجعل من الأسهل بكثير على العمال أن ينظموا معاً وأن يكافحوا من أجل تهيئة ظروف أفضل للجميع في مكان العمل. بدلاً من الفصل بين الناس على أساس نوع العمل الذي يقومون به. كما أنه يعزز أهمية دور كل فرد في مكان العمل في الاتحاد، ولديه دور في الاتحاد، بغض النظر عن الشكل الذي يبدو عليه دورهم اليومي.
 
-The Alphabet Union is supported by a larger union, [Communications Workers of America](https://cwa-union.org/), who are also [campaigning to help workers in other tech and digital companies to organise in unions](https://cwa-union.org/news/releases/cwa-launches-new-initiative-in-support-of-organizing-tech-and-game-workers).
+الاتحاد الأبجدي يدعمه نقابة أكبر، [عمال الاتصالات في أمريكا](https://cwa-union.org/)، وتقوم أيضاً بحملات [لمساعدة العمال في الشركات التكنولوجية والرقمية الأخرى على تنظيم نقابات](https://cwa-union.org/news/releases/cwa-launches-new-initiative-in-support-of-organizing-tech-and-game-workers)
 
-## Further Resources
+## الموارد الإضافية
 
-* [Alphabet Worker's Union](https://alphabetworkersunion.org/)
-* [Communication Worker's Union - a UK-based union with a dedicated tech branch](https://cwu.org)
-* [Miller C and Coldicutt R, ‘People, Power and Technology: The Tech Workers’ View’ (doteveryone 2019)](https://doteveryone.org.uk/report/workersview/)
+* [نقابة العمال الأبجدية](https://alphabetworkersunion.org/)
+* [نقابة عمال الاتصالات - وهي نقابة مقرها المملكة المتحدة ولها فرع متخصص للتكنولوجيا](https://cwu.org)
+* [ميلر C و Coldicutt R, "People, Power and Technology: The Tech Workers' View" (doteveryone 2019)](https://doteveryone.org.uk/report/workersview/)

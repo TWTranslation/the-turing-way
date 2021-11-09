@@ -1,73 +1,73 @@
 (cm-social-media)=
-# Social Media for Research Communications
+# وسائل الإعلام الاجتماعية للاتصالات البحثية
 
-There are billions of users of social media around the world. It is now common practice for the researcher to advertise their work on social media or other internet-based communication platforms. You can use social media to communicate with many different groups both academic or lay audiences.
+وهناك بلايين من مستخدمي وسائط الإعلام الاجتماعية في جميع أنحاء العالم. ومن الممارسات الشائعة الآن أن يعلن الباحث عن عمله في وسائط الإعلام الاجتماعية أو غيرها من وسائل الاتصال القائمة على الإنترنت. يمكنك استخدام وسائل الإعلام الإجتماعية للتواصل مع العديد من المجموعات المختلفة سواء كانت أكاديمية أو جمهور عادي.
 
-(cm-social-media-benefits)=
-## Benefits of Using Social Media
+(م م-اجتماعي-إعلامي-استحقاقات)
+## فوائد استخدام وسائل الإعلام الاجتماعية
 
-* Quickly and easily showcases what you, your team or your institution do.
-* Builds awareness of a topic or project that you are working on.
-* Doesn’t cost anything as most accounts can be set up and run for free. Although, maintaining a social media account successfully can be time-consuming.
-* Provides an insight into the impact that you are having in terms of followers, visits and downloads.
-* Increases visits to your website and affects search rankings.
-* You can find out about what others are doing in related projects, disciplines or organisations.
-* You can build relationships, and hopefully collaborations, through these networks.
+* بسرعة وسهولة عرض ما تفعله أنت أو فريقك أو مؤسستك.
+* يبني الوعي بموضوع أو مشروع تعمل عليه.
+* لا يكلف أي شيء حيث يمكن إعداد معظم الحسابات وتشغيلها مجانا. على الرغم من أن الاحتفاظ بحساب وسائل التواصل الاجتماعي بنجاح يمكن أن يستغرق وقتا طويلا.
+* يوفر نظرة ثاقبة على التأثير الذي تخلفه من حيث المتابعة والزيارات والتنزيلات.
+* زيادة الزيارات إلى موقع الويب الخاص بك والتأثير على ترتيب البحث.
+* يمكنك معرفة ما يفعله الآخرون في المشاريع ذات الصلة أو التخصصات أو المنظمات.
+* يمكنك بناء العلاقات، ونأمل أن تتعاون من خلال هذه الشبكات.
 
-(cm-social-media-platforms)=
-## Social Media Platforms
+(م-اجتماعي-إعلامي-منصات الإعلام)=
+## منصات وسائل التواصل الاجتماعي
 
-You could use academic-based social media sites such as ResearchGate or Academia.edu or more general ones such as Twitter, Facebook, Instagram, Youtube and Linkedin.
+يمكنك استخدام مواقع وسائل الإعلام الاجتماعية القائمة على المستوى الأكاديمي مثل ResearchGate أو Academia.edu أو مواقع أكثر عمومية مثل تويتر، وفيسبوك، وإنستاغرام، ويوتيوب، ولينكيدين.
 
-More than 20 million researchers (figure from spring 2021) have signed up to ResearchGate and it can therefore offer a great opportunity for sharing papers, connecting with colleagues through the messaging feature and can be used to advertise projects. There are similar benefits to using Academia.edu or Mendeley, although they are not used as much as Researchgate.
+وقد انضم أكثر من 20 مليون باحث (الشكل من ربيع عام 2021) إلى موقع ResearchGate ومن ثم يمكن أن يتيح فرصة كبيرة لتقاسم الورقات، الاتصال مع الزملاء من خلال ميزة المراسلة ويمكن استخدامها للإعلان عن المشاريع. وهناك فوائد مماثلة لاستخدام أكاديمية أو منديلي، على الرغم من أنها لا تستخدم بقدر ما تستخدم البحوث.
 
-A regular criticism of these sites is the spamming of your email with constant updates that are hard to turn off.
+هناك انتقاد منتظم لهذه المواقع هو البريد المزعج لبريدك الإلكتروني مع تحديثات مستمرة يصعب إيقافها.
 
-More general social media sites are very popular with academic audiences and a recent Nature survey {cite:ps}`Noorden2014social` highlighted that researchers mostly use Twitter and Linkedin for professional use rather than Facebook.
+مواقع وسائل التواصل الاجتماعي الأكثر عمومية تحظى بشعبية كبيرة لدى الجمهور الأكاديمي وأبرزت دراسة استقصائية حديثة عن الطبيعة {cite:ps}`Noorden2014social` أن الباحثين يستخدمون تويتر ولينكدين في الغالب للاستخدام المهني بدلاً من الفيسبوك.
 
-This survey also showed that Twitter had a wider range of uses compared to the other social media platforms, such as following discussions, posting work content, discovering peers, discovering recommended papers and commenting on others research. It has become the communication channel of choice for many researchers and is opening up research discussions at a much earlier stage than previously seen.
+وأظهر هذا الاستقصاء أيضاً أن تويتر لها نطاق أوسع من الاستخدامات مقارنة بمنصات وسائط الإعلام الاجتماعية الأخرى، مثل المناقشات التالية. نشر محتوى العمل، اكتشاف الأقران، اكتشاف الأوراق الموصى بها والتعليق على بحوث أخرى. وقد أصبحت قناة الاتصال المفضلة للعديد من الباحثين، وهي تفتح باب المناقشات البحثية في مرحلة أبكر بكثير مما شوهد سابقا.
 
-Twitter can be used to build up a personal academic profile, for use throughout a research project and can also be used by organisations to promote their work and message. It can make research more visible and understandable to wider communities by allowing non-scientists to find new research instantaneously. Scientists can also be contacted directly by the public, which enables a more approachable level of communication {cite:ps}`Kelesidou2021scicomm`.
+يمكن استخدام تويتر لبناء شخصية أكاديمية، لاستخدامها في كل مشروع بحثي، ويمكن للمنظمات أن تستخدمها أيضا للترويج لأعمالها ورسائلها. ويمكنها أن تجعل البحث أكثر وضوحا وأكثر فهما للمجتمعات المحلية الأوسع من خلال السماح لغير العلماء بإيجاد بحوث جديدة على الفور. كما يمكن للجمهور الاتصال مباشرة بالعلميين، مما يتيح مستوى أكثر قابلية للاقتراب من الاتصال {cite:ps}`Kelesidou2021scicomm`.
 
-Due to its popularity and wide range of uses for academic purposes, the next two sub-chapters focus on using Twitter. However, below is an overview of the most popular general social media sites used by researchers - Twitter, Linkedin, Facebook and Instagram.
+وبسبب شعبيتها وطائفة واسعة من الاستخدامات للأغراض الأكاديمية، يركز الفصلان الفرعيان التاليان على استخدام تويتر. ومع ذلك، ترد أدناه لمحة عامة عن أكثر مواقع وسائل الإعلام الاجتماعية العامة شعبية التي يستخدمها الباحثون - تويتر، ولينكيدين، وفيسبوك، وإنستغرام.
 
-### Twitter
+### تويتر
 
-* They have 353 million monthly active users.
-* It is less formal than other platforms and very popular with academic audiences.
-* Character limit is small, only 280. But you can join tweets in threads.
-* You can tag others in your tweets or photos.
-* You can add links, photos (size 1200 x 628 pixels) and videos (max 2 minutes 20 seconds) in tweets. You can also add links to videos.
-* If you don't have an image, adding a link will generate a preview image.
-* It is a conversational and chatty platform. So be chatty in tweets and use images and gifs to make your tweets more fun.
+* ولديهم 353 مليون مستخدم شهري نشط.
+* وهي أقل رسمية من المنصات الأخرى وأكثر شعبية لدى الجمهور الأكاديمي.
+* الحد الأقصى للحرف صغير، 280 فقط. لكن يمكنك الانضمام إلى التغريدات في الخيوط
+* يمكنك وضع علامة على الآخرين في تغريداتك أو صورك.
+* يمكنك إضافة روابط وصور (حجم 1200 × 628 نقطة) ومقاطع فيديو (حد أقصى 2 دقيقة 20 ثانية) في التغريدات. يمكنك أيضًا إضافة روابط إلى مقاطع الفيديو.
+* إذا لم يكن لديك صورة، سيؤدي إضافة رابط إلى إنشاء صورة معاينة.
+* إنه منصة للتحدث والدردشة. لذا كن محادثًا في التغريدات واستخدام الصور والهدايا لجعل التغريدات الخاصة بك أكثر متعة.
 
 ### Linkedin
 
-* They have 250 million monthly active users.
-* It is a more formal and professional communication channel than Twitter and Facebook.
-* Character limit is larger than Twitter at 63,206.
-* You can tag others in your posts.
-* You can add links, photos (size 1200 x 628 pixels) and videos (max 10 minutes) in posts.
-* It is used as an interactive CV, for recruitment and professional networking.
-* Keeping posts brief is a good idea.
-* You can target a particular sector or industry.
-* If you have no image for your post but do have a link, it will make a preview of the link so make sure the page you are linking to is up to date and has a relevant image.
+* لديهم 250 مليون مستخدم شهري نشط.
+* إنها قناة اتصال أكثر اتساما بالطابع الرسمي والمهني من تويتر وفيسبوك.
+* حد الحرف أكبر من تويتر عند 63,206.
+* يمكنك وسم الآخرين في منشوراتك.
+* يمكنك إضافة روابط وصور (حجم 1200 x 628 نقطة) ومقاطع فيديو (10 دقائق كحد أقصى) في المشاركات.
+* ويستخدم كسيف تفاعلي للتعيين والربط الشبكي المهني.
+* الحفاظ على موجز الوظائف فكرة جيدة.
+* يمكنك استهداف قطاع معين أو صناعة.
+* إذا لم يكن لديك صورة لمشاركتك ولكن لديك رابط، سيقوم بإجراء معاينة للرابط حتى يتأكد من أن الصفحة التي تربطها بها هي أحدث تحديث ولديها صورة ذات صلة.
 
-### Facebook
+### فيسبوك
 
-* They have 2.8 billion monthly active users.
-* Character limit the same as Linkedin at 63,206.
-* You can add tags to other users.
-* You can add links, photos (size 1200 x 628 pixels) and videos (up to 240 minutes and max 4GB size file) to your posts.
-* It is a community-based platform so you have to create that community and be relevant to it.
-* Businesses have to pay for their posts to be seen as Facebook prioritises friends and family in the news feed algorithm. So it's not the best platform for professional organisations.
+* لديهم 2.8 مليار مستخدم شهري نشط.
+* الحرف بحد مماثل للـ Linkedin في 63,206.
+* يمكنك إضافة علامات للمستخدمين الآخرين.
+* يمكنك إضافة روابط وصور (حجم 1200 x 628 نقطة) ومقاطع فيديو (حتى 240 دقيقة وملف حجم 4 غيغابايت كحد أقصى) إلى مشاركاتك.
+* إنه منبر مجتمعي لذلك يجب أن تنشئ ذلك المجتمع وأن تكون له صلة به.
+* يجب على الشركات أن تدفع ثمن منشوراتها ليتم النظر إليها على أنها أولويات فيسبوك الأصدقاء والعائلة في خوارزمية تغذية الأخبار. لذا فهي ليست أفضل منصة للمنظمات المهنية.
 
-### Instagram
+### إنستجرام
 
-* They have 1.2 billion monthly active users.
-* Character limit is 2,200. So larger than Twitter but less than Facebook and Linkedin.
-* You can add tags to other users.
-* You can only add links in your bio so not in posts. But you can feature links using Linktree.
-* Photos are square (1080 x 1080 pixels).
-* Video length between 3 and 60 seconds, max file size is 4GB. Stories are 15 seconds long.
-* It is a visual media platform so you need a bank of videos to use it effectively for professional use.
+* ولديهم 1.2 بليون مستخدم شهري نشط.
+* الحد الأقصى للحرف هو 2,200. أكبر من تويتر ولكن أقل من الفيس بوك ولينكيدين.
+* يمكنك إضافة علامات للمستخدمين الآخرين.
+* يمكنك فقط إضافة روابط في بياناتك حتى لا تكون في المشاركات. لكن يمكنك أن تميز الروابط باستخدام لينكتري.
+* والصور مربعة (1080 × 1080 نقطة).
+* طول الفيديو بين 3 و 60 ثانية، حجم الملف الأقصى هو 4 جيجابايت. القصص طويلة 15 ثانية.
+* إنها منصة إعلامية مرئية لذلك تحتاج إلى بنك من مقاطع الفيديو لاستخدامها بفعالية في الاستخدام المهني.

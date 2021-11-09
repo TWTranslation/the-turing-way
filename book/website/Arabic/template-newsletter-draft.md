@@ -1,47 +1,47 @@
-(ch-template-newsletter-draft)=
-# Template for drafting _The Turing Way_ Newsletters
+(مسودة الرسالة الإخبارية)=
+# قالب لصياغة _طريق الترقيق_ النشرات الإخبارية
 
 ```
-Date: DD Month YYYY
+التاريخ: DD شهر السنة
 
-# title
+# عنوان
 
-Hello Turing Way friends!
+مرحبا بالأصدقاء!
 
-This month ...
+هذا الشهر ...
 
-Shout out ...
+ارسل ...
 
-Events ...
+الأحداث ...
 
-Find more details on these topics below 👇
+ابحث عن المزيد من التفاصيل حول هذه المواضيع أسفل 👇
 
 
-## Community meetings
+## اجتماعات المجتمع
 
     <About events like Collaboration Café, book dash, other meetings>
 
-## News from the community
+## أخبار المجتمع
 
     <Any news from the team, community members, and new chapters>
 
-## Relevant resources
+## # الموارد ذات الصلة
 
     <Any useful resources like relevant publication, training items, and materials from collaborators>
 
-## Tips & Tricks for new contributors
+## # نصائح & خدمة المساهمين الجدد
 
     <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
 
-## Acknowledgments and celebrations
+## # اعترافات واحتفالات
 
     <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
 
-## Special mentions
+## ذكر خاص
 
     <Shout out to the reviewers for this newsletter other than the team members>
 
-## Connect with us!
+## اتصل بنا!
 
 - [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
@@ -54,6 +54,6 @@ Find more details on these topics below 👇
 You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*Did you miss the last newsletters?*
-*Check them out [here](https://tinyletter.com/TuringWay/archive).*
+*هل فوتت آخر الرسائل الإخبارية؟*
+*تحقق منها [here](https://tinyletter.com/TuringWay/archive).*
 ```

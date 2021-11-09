@@ -1,71 +1,71 @@
-(ch-consistency-structure)=
-# Structure
+(ch-consistencia-estructura)=
+# Estructura
 
-Structure refers to how _The Turing Way_ is organised. A good structural framework ensures that _The Turing Way's_ content is presented in an orderly manner.
+La estructura se refiere a cómo está organizada _La Vía Turística_. Un buen marco estructural asegura que el contenido de _el Vía Turística_ se presente de una manera ordenada.
 
-(ch-consistency-structure-hr)=
-## Hard Requirements
+(ch-consistencia-estructura-hr)=
+## Requisitos duros
 
-The hard checks that deal with _The Turing Way's_ structure include:
+Las duras verificaciones que se ocupan de la estructura de _The Turing Way_ incluyen:
 
-(ch-consistency-structure-hr-emptyfiles)=
-### Check 1: Do not add empty files in the `_toc.yml`
+(ch-consistencia-estructura-hr-vacíos)=
+### Compruebe 1: No añada archivos vacíos en el `_toc.yml`
 
-The `_toc.yml` file is where _The Turing Way's_ table of contents (ToC) lives. Some files referenced in the ToC are empty, and their inclusion means that readers can navigate to an empty (sub)chapter while reading _The Turing Way_. This negatively impacts the reader's experience as they go through the book.
+The `_toc.yml` file is where _The Turing Way's_ table of contents (ToC) lives. Algunos archivos referenciados en la ToC están vacíos, y su inclusión significa que los lectores pueden navegar a un capítulo (sub)vacío mientras leen _La Vía Turística_. Esto repercute negativamente en la experiencia del lector a medida que pasan por el libro.
 
 ```{figure} ../../figures/empty-toc-file.png
 ---
 name: empty-toc-file
-alt: An empty file that was included in the Turing Way's Table of Contents. Readers can still navigate to empty files when they are included in the table of contents.
+alt: Un archivo vacío que fue incluido en la tabla de contenidos de la Vía Turística. Los lectores todavía pueden navegar a archivos vacíos cuando están incluidos en la tabla de contenidos.
 ---
-Empty files included Turing Way's Table of Contents can still be accessed by readers.
+Archivos vacíos incluidos en la tabla de contenidos de Turing Way todavía pueden ser accedidos por los lectores.
 ```
 
-A general suggestion is to remove references to such files from the ToC and raise an issue in _The Turing Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) for content to be written for those files. When the content is written, the files can then be added to the ToC.
+Una sugerencia general es eliminar las referencias a dichos archivos de la ToC y plantear un problema en _El repositorio de la Vía de Turno_ de Github [](https://github.com/alan-turing-institute/the-turing-way) para que se escriba contenido para esos archivos. Cuando se escribe el contenido, los archivos pueden ser añadidos al ToC.
 
-For example, [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) curates a list of empty and incomplete files currently in _The Turing Way_, and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) writes content for the `Data Licences` subchapter shown in the {ref}`image <empty-toc-file>`.
+Por ejemplo, [esta incidencia](https://github.com/alan-turing-institute/the-turing-way/issues/1391) cura una lista de archivos vacíos e incompletos actualmente en _The Turing Way_, y [este PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) escribe contenido para el subcapítulo de `Licencias de datos` que se muestra en el {ref}`imagen <empty-toc-file>`.
 
-(ch-consistency-structure-hr-structure)=
-### Check 2: Ensure chapters follow a consistent structure
+(ch-consistencia-estructura-hr-estructura)=
+### Marcar 2: Asegúrate de que los capítulos sigan una estructura consistente
 
-_The Turing Way_ is made up of five guides that contain several chapters and subchapters. However, these chapters do not follow a uniform structure, taking away from the reader's experience.
+_La Vía Turística_ está compuesta por cinco guías que contienen varios capítulos y subcapítulos. Sin embargo, estos capítulos no siguen una estructura uniforme, quitando la experiencia del lector.
 
 ```{figure} ../../figures/recommended-chapter-structure.png
 ---
 name: recommended-chapter-structure
-alt: The recommended structure for chapters in The Turing Way. Chapters should have a landing page with a sections for prerequisites, summary, and why the chapter is useful. Chapters should also have a checklist and a resources subchapter in addition to the rest of the chapter content.
+alt: La estructura recomendada para los capítulos en The Turing Way. Los capítulos deben tener una página de destino con secciones para requisitos previos, resumen y por qué el capítulo es útil. Los capítulos también deben tener una lista de verificación y un subcapítulo de recursos además del resto del contenido del capítulo.
 ---
-Recommended structure for chapters in The Turing Way.
+Estructura recomendada para los capítulos de The Turing Way.
 ```
 
-- **Landing page:**
-    - The chapter's landing page should include information about any prerequisites required to understand the chapter, a summary of the chapter's content, and an explanation of why the chapter is useful.
-- **Subchapters:**
-    - A chapter can contain any number of subchapters or none at all. However, please note the next requirement about the checklist and resources subchapters.
+- **Página de aterrizaje:**
+    - La página de inicio del capítulo debe incluir información sobre los requisitos previos necesarios para entender el capítulo, un resumen del contenido del capítulo, y una explicación de por qué el capítulo es útil.
+- **Subcapítulos:**
+    - Un capítulo puede contener cualquier número de subcapítulos o ninguno en absoluto. Sin embargo, tenga en cuenta el siguiente requisito sobre la lista de verificación y subcapítulos de recursos.
 - **Checklist subchapter:**
-    - The checklist subchapter itemizes action points for the reader to take based on the concepts introduced in the chapter.
-- **Resources subchapter:**
-    - The resources subchapter points the reader to other sources where they can learn more about the concepts discussed in the chapter, as well as related topics to explore.
+    - El subcapítulo de la lista de verificación muestra los puntos de acción para que el lector tome basándose en los conceptos introducidos en el capítulo.
+- **Subcapítulo de recursos:**
+    - El subcapítulo de recursos apunta al lector a otras fuentes donde pueden aprender más sobre los conceptos discutidos en el capítulo, así como temas relacionados para explorar.
 
 
 ```{attention} Please note that making chapters follow this structure may require splitting some of the existing content into new files.
-References to these files should be updated in the table of contents in the `_toc.yml` file.
+Las referencias a estos archivos deben actualizarse en la tabla de contenidos en el archivo `_toc.yml`.
 ```
 
-Refer to the [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) to structure new chapter contributions, and use it to assess current chapters in _The Turing Way_. For chapters that do not fit this structure, please raise a Pull Request.
+Consulte la plantilla de capítulo [](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) para estructurar nuevas contribuciones de capítulos y úsalo para evaluar los capítulos actuales en _The Turing Way_. Para los capítulos que no encajen en esta estructura, por favor levanta una solicitud de extracción.
 
 
-(ch-consistency-structure-hr-toc)=
-### Check 3: Do not add a 'table of content' in chapters or subchapters.
+(ch-consistencia-estructura-hr-toc)=
+### Comprobar 3: No añadas una "tabla de contenido" en los capítulos o subcapítulos.
 
-Some chapters in _The Turing Way_ were written with a hand-crafted table of contents. However, Jupyter Book auto-generates a permanent table of contents that can be found on the left side of _The Turing Way_ book, and a dynamic, page-specific table of content located at the top-right of each page. This makes a manually written table of contents unnecessary, and it may negatively impact a reader's experience with _The Turing Way_.
+Algunos capítulos en _The Turing Way_ fueron escritos con una tabla de contenido elaborada a mano. Sin embargo, Jupyter Book genera automáticamente una tabla permanente de contenidos que se pueden encontrar en el lado izquierdo del libro _The Turing Way_ y una tabla dinámica específica de páginas de contenido situada en la parte superior derecha de cada página. Esto hace que una tabla de contenido escrita manualmente sea innecesaria, y puede afectar negativamente a la experiencia de un lector con _The Turing Way_.
 
 ```{figure} ../../figures/many-table-of-contents.png
 ---
 name: many-table-of-contents
-alt: A subchapter in The Turing Way with three table of contents. Two that are generated by Jupyter Book and one made by the chapter author.
+alt: Un subcapítulo en The Turing Way con tres tablas de contenido. Dos que son generados por Jupyter Book y uno hecho por el autor del capítulo.
 ---
-The manually written table of contents is unnecessary as Jupyter Book auto-generates two separate table of contents.
+La tabla de contenidos escrita manualmente es innecesaria ya que Jupyter Book auto-genera dos tablas separadas de contenido.
 ```
 #### Demo
 
@@ -73,28 +73,28 @@ The manually written table of contents is unnecessary as Jupyter Book auto-gener
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zKWrvgCxSB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-structure-hr-citing)=
-### Ensure external sources are properly cited and referenced
+(ch-consistencia-estructura-hr-cita)=
+### Asegurar que las fuentes externas sean citadas y referenciadas correctamente
 
-As described in the {ref}`style guide<ch-style-citing>`, _The Turing Way_'s book-wide references are stored in a BibTeX file called `references.bib`. When writing new content, ensure that information culled from external sources are cited using the BibTeX format and added to the `references.bib` file as appropriate.
+Como se describe en la guía de estilo {ref}`<ch-style-citing>`, _Las referencias de la Vía Turística_se almacenan en un archivo BibTeX llamado `referencias. ib`. Al escribir un nuevo contenido, asegúrese de que la información eliminada de fuentes externas se cite usando el formato BibTeX y se agregue a las referencias `. ib archivo` según corresponda.
 
-The {ref}`style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
-
-
-(ch-consistency-structure-soft-req)=
-## Soft Requirements
-
-Soft requirements that deal with _The Turing Way's_ structure include:
-
-(ch-consistency-structure-sr-summary)=
-### Check 1: Ensure each chapter has a good summary in their landing page
-
-A chapter with a good summary gives the reader an overview of the content that follows. Ideally, summaries should communicate the main idea of the chapter and identify any supporting detail, but be brief and precise. Summaries should also adequately cross-reference the chapter's subchapters, for the benefit of readers who may want to quickly explore the topics the summary introduces. Chapters in _The Turing Way_ that contain summaries that do not fit these criteria may need to be reworded or rewritten.
+La guía de estilo {ref}`<ch-style-citing>` demuestra cómo agregar una nueva referencia al archivo BibTeX centralizado, y muestra cómo puede incluirse esta referencia en su escritura.
 
 
-(ch-consistency-structure-sr-modular)=
-### Check 2: Split long chapters into smaller subchapters so they are modular
+(ch-consistencia-estructura-soft-req)=
+## Requisitos suaves
 
-Long chapters may be difficult for some readers to go through. Furthermore, very long content can be intimidating for other readers who may only be interested in the main ideas the chapter talks about. Therefore, to make  _The Turing Way_ easier to read, long chapters should be appropriately modularised.
+Requisitos blandos que tratan con la estructura de _The Turing Way_ incluyen:
 
-When keeping chapters modular, ensure that its subchapters only talk about one aspect of the overall topic. For example, if a chapter on Machine Learning was to be written for _The Turing Way_, such a chapter should contain at least three subchapters that each focus Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+(ch-consistencia-estructura-sr-resumy)=
+### Comprobar 1: Asegúrate de que cada capítulo tenga un buen resumen en su página de inicio
+
+Un capítulo con un buen resumen da al lector una visión general del contenido que sigue. Idealmente, los resúmenes deben comunicar la idea principal del capítulo e identificar cualquier detalle de apoyo, pero ser breves y precisos. Los resúmenes también deberían cruzar adecuadamente los subcapítulos del capítulo, en beneficio de los lectores que tal vez quieran explorar rápidamente los temas que introduce el resumen. Los capítulos en _The Turing Way_ que contienen resúmenes que no cumplen estos criterios pueden necesitar ser reescritos o reescritos.
+
+
+(ch-consistencia-estructura-sr-modular)=
+### Revisar 2: dividir capítulos largos en subcapítulos más pequeños para que sean modulares
+
+Los capítulos largos pueden ser difíciles para algunos lectores. Además, un contenido muy largo puede ser intimidante para otros lectores que sólo pueden estar interesados en las ideas principales de las que habla el capítulo. Por lo tanto, para hacer que  _La Vía Turística_ sea más fácil de leer, los capítulos largos deben ser modularizados apropiadamente.
+
+Al mantener los capítulos modulares, asegúrese de que sus subcapítulos sólo hablan de un aspecto del tema general. Por ejemplo, si se iba a escribir un capítulo sobre aprendizaje automático para _The Turing Way_, Este capítulo debería contener al menos tres subcapítulos que cada enfoque de Aprendizaje Supervisado, Aprendizaje No Supervisado, y Aprendizaje de Refuerzos.

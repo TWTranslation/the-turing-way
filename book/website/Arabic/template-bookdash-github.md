@@ -1,87 +1,87 @@
-(ch-template-bookdash-github)=
-# Book Dash GitHub Session
+(chtemplate-bookdash-github)=
+# كتاب جلسة GitHub
 
-*This template can be shared via a HackMD page to facilitate a pre-event GitHub session for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
+*يمكن مشاركة هذا القالب عبر صفحة HackMD لتسهيل جلسة GitHub السابقة للحدث للمشاركين في كتاب Dash. يمكن تعيين إذن الوصول بحيث يمكن قراءة الملاحظات من قبل الجميع وتحريرها من قبل المستخدمين المسجلين بالدخول.*
 
 ```
-# Book Dash, DD Month YYYY - GitHub Session
+# زحف الكتاب, DD Month YYYY - GitHub جلسة
 
-###### tags: `bookdash YYYY` `month` `event`
+###### # علامات: `bookdash YYYY` `شهر` `event`
 
-==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
+==إذا كنت جديداً على HackMD, يرجى الاطلاع على هذا الدليل القصير: [https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
 
 :::info
-- **Date:** DD Month <--- Update this
-- **Time:** 16:00 - 17:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/16:00)) <--- Update this
-- **Hosts:** (Add name) <--- Update this
-- Join Zoom Meeting: (Add link) <--- Update this
-:::
+- **التاريخ:** شهر DD <--- تحديث هذا
+- **الوقت:** 16:00 - 17:00 وقت لندن ([في منطقتك الزمنية](https://arewemetingyet. om/London/YYY-MM-DD/16:00)) <--- حدّث هذا
+- **المضيفين:** (إضافة الاسم) <--- حدّث هذا
+- انضم إلى اجتماع تكبير: (إضافة رابط) <--- حدّث هذا
+::
 
-**Before this meeting:**
+**قبل هذا الاجتماع:**
 
-- Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
+- تحقق من [ودي جيت هوب](https://kirstiejane. إيثوب. o/friendly-github-intro/)
 
-**At this call**
-we will give you an optional 1 hour GitHub tutorial:
+**في هذه المكالمة**
+سنعطيك درسا اختياريا لمدة ساعة واحدة في GitHub :
 
-- Creating a new repository
-- Creating a README file
-- Writing in Markdown
-- Submit changes (to _The Turing Way_) via Pull Request (PR)
-- demo: Review PR, Create issue
+- إنشاء مستودع جديد
+- إنشاء ملف README
+- الكتابة في Markdown
+- تقديم التغييرات (إلى _The Turing Way_) عن طريق سحب الطلب (PR)
+- عرضي، مراجعة PR, إنشاء مشكلة
 
-## Sign up below by adding your name
+## قم بالتسجيل أدناه عن طريق إضافة اسمك
 
-Name / Institute or affiliation / What specific aspect of GitHub do you find challenging?
+اسم / المعهد أو الانتساب / ما هو الجانب المحدد من GitHub الذي تجد تحديه؟
 * 
 * 
 * 
 
-🗣️ Welcome!
+🗣️ مرحبًا!
 
-- Reminder: [Code of conduct & community participation guidelines](https://the-turing-way.netlify.app/community-handbook/coc.html)
-- If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Malvika and Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
+- تذكير: [مدونة قواعد السلوك & المبادئ التوجيهية للمشاركة المجتمعية](https://the-turing-way.netlify.app/Community Handbook/coc. tml)
+- إذا واجهت أو شاهدت سلوكا غير مقبول، أو كان لديك أي شواغل أخرى. يرجى الإبلاغ عنها عن طريق الاتصال بالمنظمين - مالفيكا وكيرستي. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
-### Roll call
+### استدعاء RL
 
-- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... 
+- سؤال الاسم / Icebreaker : شارك شيئا من الطبيعة منحك أو جلب لك السلام مؤخرا - ربما زهرة ، عرض, صورة, رجلة, نبات مفترق, طائر طير قام بتمريس... 
 * 
 * 
 *  
 
-🗣️ Introduction to GitHub
+🗣️ مقدمة إلى GitHub
 
-- Training materials: https://malvikasharan.github.io/developing_collaborative_document/
-- Slides: [Friendly GitHub Intro](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
-- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+- مواد التدريب: https://malvikasharan. ithub.io/developing_cooperative_document/
+- Slides: [Friendly GitHub Intro](https://docs.google. om/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=Sharing)
+- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-onlinline. df
 
-**Breakout room task:** 
+**مهمة غرفة التجزئة:** 
 - 
 - 
 - 
 
-**Resources** :
+**الموارد** :
 
-- Useful GitHub resources
-  - [GitHub for Collaboration (from Mozilla)](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
-  - [Understanding the GitHub workflow](https://guides.github.com/introduction/flow/)
-  - [A Friendly Github Intro Workshop (from Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
-  - [GitHub help](https://help.github.com/)
+- موارد GitHub المفيدة
+  - [GitHub للتعاون (من موزيلا)](https://mozilla). ithub.io/open-Leadship-training-series/articles/github-for-cooperation/)
+  - [فهم تدفق عمل GitHub ](https://guides. ithub.com/introduction/flow/)
+  - [ورشة مقدمة ودية من دانييل روبنسون)](https://daniellecrobinson.github.io/friendly-github-intro/)
+  - [GitHub help](https://help.github. om/)
   - [Oh Shit, Git!?!](http://ohshitgit.com/)
-  - [Try Git](https://try.github.io/)
+  - [حاول Git](https://try.github. o/)
   - [Git book](https://git-scm.com/book/en/v2)
-  - [GitHub glossary](https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md)
-  - [Writing on Github](https://help.github.com/categories/writing-on-github/)
-  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [GitHub glossary](https://github. om/joeyklee/friendly-github-intro/blob/master/glossary.md)
+  - [كتابة على Github](https://help.github.com/categories/writing-on-github/)
+  - [Markdown Cheatsheet](https://github. om/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
-**Questions / Comments?**
+**أسئلة / تعليقات؟**
   - 
   -
 
-**Feedback**
+**تعليقات**
 
-What worked? What did not work? What additional support would you need before or during the Book Dash?
+ما الذي عمل؟ ما الذي لم ينجح؟ ما هو الدعم الإضافي الذي ستحتاجه قبل أو أثناء لوحة الكتاب؟
 
 -
 -

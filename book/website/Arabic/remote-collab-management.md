@@ -1,20 +1,20 @@
-(cl-remote-collab-manage-teams)=
-# Managing Distributed Teams
+(أفرقة إدارية) =
+# إدارة الفرق الموزعة
 
-In the {ref}`cl-new-community` and {ref}`Leadership in Data Science<cl-leadership>` chapters, we have already discussed in-depth how we can manage a new online community and build healthy leadership for a team. Therefore, in this subchapter, we have listed a few reminders of tasks that are specifically important for managing distributed teams.
+في {ref}`مجتمع cl-new-Community` و {ref}`القيادة في علوم البيانات<cl-leadership>` فصل, وقد ناقشنا بالفعل بشكل متعمق كيف يمكننا إدارة مجتمع جديد على الإنترنت وبناء قيادة سليمة للفريق. ولذلك، أدرجنا في هذا الفصل الفرعي بضع رسائل تذكيرية للمهام الهامة تحديدا لإدارة الأفرقة الموزعة.
 
-- Set clear expectations for the team members about the project and their roles and responsibilities.
-- Help establish all modes of communication, tools, and resources according to the team's requirements for both their project and social interactions.
-- Coordinate the development and maintenance of all the required documentation such as the organisation's policies, participation guidelines, project charter, and information of other team members.
-- Ensure that details of these resources are available for all members through a central repository, with information on how they can access them.
-- Respect time differences when dealing with members across different time zones and assigning tasks. Allow a degree of flexibility as per their working situation or caring responsibilities they may have.
-- Schedule team meetings where everyone can share what they are working on and invite contributions and support from others in the team.
-- Before the meeting, provide the meeting agenda in a shared document, preferably that can be updated by the team members in case they want to suggest a new agenda point. This document can also be used for taking notes during the event.
-- Share minutes (and video recording when possible) to make sure that everyone is up-to-date, even those who couldn't attend the meeting.
-- Schedule regular one-on-one meetings to ensure that your team members can check-in with you, align ideas as per the project's requirement, hold accountability for their work, and receive constructive feedback.
-- Create opportunities for informal interactions that can help create a friendly work environment and build a strong sense of team spirit.
-- Encourage and embrace diversity and a culture of collaboration.
+- تحديد توقعات واضحة لأعضاء الفريق بشأن المشروع وأدوارهم ومسؤولياتهم.
+- • المساعدة في تحديد جميع أساليب الاتصال والأدوات والموارد وفقا لاحتياجات الفريق فيما يتعلق بمشاريعها وتفاعلاتها الاجتماعية على حد سواء.
+- تنسيق وضع وصيانة جميع الوثائق المطلوبة مثل سياسات المنظمة ومبادئها التوجيهية المتعلقة بالمشاركة وميثاق المشروع ومعلومات أعضاء الأفرقة الآخرين.
+- 2 - كفالة إتاحة تفاصيل هذه الموارد لجميع الأعضاء من خلال مستودع مركزي يتضمن معلومات عن كيفية وصولهم إليها.
+- احترام الاختلافات الزمنية عند التعامل مع الأعضاء عبر مناطق زمنية مختلفة وتحديد المهام. • السماح بقدر من المرونة حسب حالة عملهم أو مسؤولياتهم المتعلقة بالرعاية.
+- جدولة اجتماعات الفريق حيث يستطيع الجميع أن يتقاسموا ما يعملون عليه وأن يدعوا الآخرين في الفريق إلى تقديم المساهمات والدعم لهم.
+- وقبل الاجتماع، يرجى تقديم جدول أعمال الاجتماع في وثيقة مشتركة، ويفضل أن يقوم أعضاء الفريق بتحديث ذلك في حالة رغبتهم في اقتراح نقطة جدول أعمال جديدة. ويمكن استخدام هذه الوثيقة أيضاً لإحاطة الملاحظات أثناء الحدث.
+- شارك الدقائق (وتسجيل الفيديو كلما أمكن) للتأكد من أن الجميع مستكمل، حتى أولئك الذين لم يتمكنوا من حضور الاجتماع.
+- جدولة الاجتماعات الفردية العادية للتأكد من أن أعضاء فريقك يمكنهم الدخول معك، مواءمة الأفكار حسب متطلبات المشروع، و تحمل المسؤولية عن عملهم، و الحصول على ردود فعل بناءة.
+- خلق فرص للتفاعلات غير الرسمية التي يمكن أن تساعد على تهيئة بيئة عمل ودية وبناء إحساس قوي بروح الفريق.
+- تشجيع التنوع وثقافة التعاون واحتضانهما.
 
-## Further reading
+## مزيد من القراءة
 
-- Read this post by Zapier on [How to Manage a Remote Team](https://zapier.com/learn/remote-work/how-manage-remote-team/)
+- اقرأ هذا المنشور من قبل زابير على [كيفية إدارة الفريق البعيد](https://zapier.com/learn/remote-work/how-manage-remote-team/)

@@ -1,8 +1,8 @@
 (cl-leadership)=
-# Leadership in Data Science
+# 数据科学领导者
 
-TBA
+待机
 
-## Overview
+## 概览
 
-TBA
+待机

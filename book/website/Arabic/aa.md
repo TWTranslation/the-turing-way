@@ -1,25 +1,25 @@
-# Authorship and contributions on Academic Papers
+# التأليف والإسهامات بشأن الورقات الأكاديمية
 
-(communication-aa-prerequisites)=
-## Prerequisites
+(بآلاف دولارات الولايات المتحدة)
+## الشروط المسبقة
 
-| Prerequisite                                  | Importance | Skill Level | Notes |
-| --------------------------------------------- | ---------- | ----------- | ----- |
-| {ref}`Open Research <rr-open-research>` | Helpful    | Beginner    | None  |
+| الشروط المسبقة                            | الأهمية | مستوى المهارة | الحواشي |
+| ----------------------------------------- | ------- | ------------- | ------- |
+| {ref}`بحث مفتوح <rr-open-research>` | مساعدة  | مبتدئ         | لا      |
 
 ```{figure} ../figures/theturingway-acknowledgement.jpg
 ---
-name: the turing way acknowledgement
-alt: The image shows the current system of acknowledgement with many people holding up one person. Then the Turing Way recognises all contributors as we think all need to be acknowledged equally so we have everyone standing at the same level. It also shows a robot to represent the all-contributors bot and people writing on their contributors file.
+الاسم: طريقة الإدراك
+البديل: الصورة تظهر نظام الاعتراف الحالي مع العديد من الناس الذين يحملون شخصا واحدا. ومن ثم فإن طريقة الترينج تعترف بجميع المساهمين لأننا نعتقد أن الجميع بحاجة إلى الاعتراف بهم على قدم المساواة حتى يكون لدينا الجميع يقفون على نفس المستوى. كما أنه يعرض روبوت لتمثيل جميع المساهمين والناس يكتبون على ملف المساهمين.
 ---
-Illustration about acknowledgements on The Turing Way.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+مثال توضيحي حول الاعترافات على طريق التورينج.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
 ```
 
-(communication-aa-summary)=
+(الاتصال-أ - موجز)=
 ## Summary
-This chapter sets out information about who are considered authors, academic authorship traditions in different disciplines, how practices concerning authorship are changing and how you might go about trying to achieve the authorship model you want to use.
+ويعرض هذا الفصل معلومات عن من يعتبر مؤلفاً وتقاليد المؤلفين الأكاديميين في تخصصات مختلفة. كيف تتغير الممارسات المتعلقة بالمؤلِّفين وكيف يمكن أن تمضي في محاولة تحقيق نموذج المؤلِّف الذي تريد استخدامه.
 
-(communication-aa-motivation)=
-## Motivation and Background
-The academic landscape is rapidly changing in favour of research projects involving large collaborations and interdisciplinary teams. This makes decisions concerning academic authorship hard to navigate and especially the need to consider different types of contributions fairly. Consequently, there is a shift in how researchers are thinking about assigning authorship for research outputs and what types of contributions are recognised and therefore valued.
+(الاتصالات-aa-الحافز)=
+## الدافع والخلفية
+ويتغير المشهد الأكاديمي بسرعة لصالح المشاريع البحثية التي تنطوي على تعاون كبير وأفرقة متعددة التخصصات. وهذا يجعل من الصعب النظر في القرارات المتعلقة بالمؤلفين الأكاديميين، ولا سيما الحاجة إلى النظر في مختلف أنواع المساهمات على نحو منصف. ونتيجة لذلك، وهناك تحول في الطريقة التي يفكر بها الباحثون في تعيين المؤلفين لنواتج البحوث، وفي أنواع المساهمات المعترف بها ومن ثم قيمتها.

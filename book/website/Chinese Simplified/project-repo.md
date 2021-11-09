@@ -1,47 +1,47 @@
 (pd-project-repo)=
-# Creating Project Repositories
+# 创建项目仓库
 
-## Prerequisites
+## 必备条件
 
-| Prerequisite            | Importance |
-| ----------------------- | ---------- |
-| {ref}`cl-github-novice` | Helpful    |
+| 前提条件：                   | 重要性 |
+| ----------------------- | --- |
+| {ref}`cl-github-novice` | 有帮助 |
 
 
 ## Summary
 
-This chapter introduces a step-by-step guide on how to set up a project repository. Specifically, we describe key documents that you should add to your repository in order to maintain documentation and ensure effective collaboration. We provide examples from GitHub repository hosted and maintained by researchers in open science, however, the principles are applicable to any team-led online repository.
+本章介绍了一个关于如何建立一个项目仓库的逐步指南。 具体而言，我们描述了你应该添加到你的仓库中的关键文件，以便保存文件和确保有效的合作。 我们提供了由公开科学研究人员主持和维护的GitHub 仓库的例子，但这些原则适用于任何由团队牵头的在线仓库。
 
-## Motivation
+## B. 动机。
 
-Online project repositories require documentation so that all collaborators are informed of the updates and contributors are provided with details they need to contribute efficiently. Shared documents can help you get your ideas across to new or potential contributors. Contributions can be anything from new ideas to bug reports and actual code contributions. Open science practices described here will also make it easier for you to lead closed-source projects collaboratively and transparently for your teams.
+在线项目储存库需要文件，以便所有合作者了解更新情况，并向参与者提供他们有效贡献所需的细节。 共享文档可以帮助您将您的想法传递给新的或潜在的贡献者。 从新的想法到错误报告和实际代码贡献都可以做出任何贡献。 这里描述的开放科学实践也将使您更容易为您的团队合作和透明地领导关闭源项目。
 
 ```{figure} ../figures/file-management-manual.jpg
 ---
-name: file-management-manual
-alt: image shows two people organising files. One person is holdinng up a README file and other person is reading the details to set up the data and analysis files in the drawer
----
-Illustration about managing files in a repository.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+名称：文件管理手册
+备选案文：图像显示了两个人组织文件。 一个人正在持有一个README 文件，其他人正在阅读详细信息以在抽屉里设置
+的数据和分析文件--
+关于管理一个仓库中的文件的说明。
+Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：10.5281/zenodo.3332807。
 ```
 
-In this chapter, we have described following documents that should be added to a project repository:
-- {ref}`Landing Page - README File<pd-project-repo-readme>`
-- {ref}`Roadmapping<pd-project-repo-roadmapping>`
-- {ref}`Contributor Pathways<pd-project-repo-contributors>`
-- {ref}`Participation Guidelines<pd-project-repo-participation>`
+在本章中，我们描述了应添加到项目储存库的下列文件：
+- {ref}`登陆页面 - README 文件<pd-project-repo-readme>`
+- {ref}`路线图<pd-project-repo-roadmapping>`
+- {ref}`贡献者路径<pd-project-repo-contributors>`
+- {ref}`参与准则<pd-project-repo-participation>`
 
 (pd-project-repo-license)=
-## Start by Adding a License
+## 首先添加许可协议
 
-One of the most important documents for your project is a license.
+您的项目最重要的文件之一是许可证。
 
 ```{note}
-Without a license, all rights are with the author of the code, and that means nobody else can use, copy, distribute, or modify the work without consent.
-A license gives this consent.
-If you do not have a license for your software, it is effectively unusable by the whole research community.
+没有许可证，所有权利都属于该守则的作者。 这意味着任何人都不能未经同意使用、复制、分发或修改作品。
+许可证给予这种同意。
+如果您没有软件许可证，整个研究界都无法使用。
 
-**See {ref}`rr-licensing` chapter for details**
+**详细信息请查看 {ref}`rr-licensing` 章节**
 ```
 
-The first file you can add to your project repository is a 'LICENSE' file. You can select a license type based on the level of freedom you would like to give to your users to use and build upon your project, visit [choosealicense.com](https://choosealicense.com/). Please follow the {ref}`Licensing Checklist<rr-licensing-checklist>` when adding a license to your project repository.
+您可以添加到项目仓库的第一个文件是“LICENSE”文件。 您可以根据您想要给予用户的自由度选择一个许可证类型，让他们在您的项目上使用和发展。 访问 [选择ealicense。 om](https://choosealicense.com/)。 在向您的项目仓库添加许可证时，请按照 {ref}`许可证核对表<rr-licensing-checklist>`

@@ -1,33 +1,33 @@
-(rr-vcs-personal-stories)=
-# Personal Stories
+(rr-vcs-personal-historias)=
+# Historias personales
 
-(rr-vcs-personal-stories-interiew)=
-## An Interview with Adina on Datalad
+(rr-vcs-personal-cuentos-interiores)=
+## Una entrevista con Adina on Datalad
 
-Version controlling data can be challenging. Adina knows this because she is part of a team that develops DataLad and uses it to solve data management challenges. Kirstie interviews her about her work and why she thinks versioning data is essential.
-
-
-**Kirstie**: Hi Adina, thank you for contributing the chapter on version control for data! I know you are a developer for DataLad, and I'm excited to learn more about the project. Can you start by telling me who you are and what you are working on?
-
-**Adina**: Hey Kirstie, thanks a lot for providing a space for the topic of version-controlling data! I'm a PhD student in neuroscience, and I am part of the lab that develops DataLad. Apart from working on neuroscientific questions, I also work on data management challenges that are typical for my field, such as "I have 300GB of data, how can I possibly version control or share this?", or "How can I link my analyses to the version of data I have used?". As a neuroscientist, I'm privileged to work in a field with many fantastic, open data sets, but it is also challenging to handle, share, and keep track of data that can easily be several hundred GB in size.
-
-**Kirstie**: Fab, so how does DataLad help with your work?
-
-**Adina**: DataLad lets me version control and share data of any size, and I use this to attach data in precise versions to code and manuscripts I create. When doing data analyses and the underlying data is modified, I can update my repositories and recompute my scripts. This helps me to assess if my results are replicable. And just as Git, it is a great memory aid for remembering what I did to my data. It has some cool functions for provenance capture, and I can just check my Git history to find out from which data a particular figure was created, for example.
+El control de la versión de los datos puede ser desafiante. Adina lo sabe porque forma parte de un equipo que desarrolla DataLad y lo utiliza para resolver los desafíos de gestión de datos. Kirstie le entrevista sobre su trabajo y por qué piensa que los datos de la versión son esenciales.
 
 
-**Kirstie**: Cool, so what makes DataLad better suited for what you do than other tools that version control data?
+**Kirstie**: ¡Hola Adina, gracias por contribuir con el capítulo sobre el control de versiones para los datos! Sé que eres un desarrollador de DataLad, y estoy encantado de aprender más sobre el proyecto. ¿Puedes empezar diciéndome en quiénes eres y en qué estás trabajando?
 
-**Adina**: I personally like DataLad, because on top of the functionality that Git and `git-annex` provides, it makes linking and reusing modular parts of my research easy. When I work on an analysis, I publish the data, the code + results, and the manuscript as separate, version-controlled Git repositories to GitHub. But these repositories are linked together so that someone who reads my manuscript could backtrace every step that was undertaken to create this result, back to the original data. I can share my analysis on GitHub and can have data, code, and even software environments altogether, to allow others to reproduce my results, and I find that to be a very powerful feature.
+**Adina**: ¡Hola Kirstie, muchas gracias por proporcionar un espacio para el tema de los datos de control de versión! Soy estudiante de doctorado en Neuroscience, y soy parte del laboratorio que desarrolla DataLad. Aparte de trabajar en cuestiones neurocientíficas, también trabajo en los desafíos de gestión de datos que son típicos para mi campo. como "Tengo 300GB de datos, ¿cómo puedo controlar o compartir esto? , o "¿Cómo puedo vincular mis análisis a la versión de datos que he usado?". Como neurcientífico, tengo el privilegio de trabajar en un campo con muchos conjuntos de datos fantásticos y abiertos, pero también es difícil manejar, compartir, y llevar un seguimiento de los datos que pueden ser fácilmente varios cientos de GB de tamaño.
 
-**Kirstie**: And as a part of the DataLad team, how do you contribute to the software?
+**Kirstie**: Fab, ¿cómo ayuda DataLad con su trabajo?
 
-**Adina**: My main motivation is to make the software accessible for users of all backgrounds. If scientists receive no formal training in version control or research data management, it can be hard to work reproducibly. I believe if software is easy to use and well-documented, it can help scientists to do better science. Software-wise, I, therefore, work on help- and UX-features, and documentation-wise, I work on tutorials that are suitable to users independent of skill level or background.
+**Adina**: DataLad me permite control de versiones y compartir datos de cualquier tamaño, y utilizo esto para adjuntar datos en versiones precisas al código y manuscritos que creo. Al realizar análisis de datos y modificar los datos subyacentes, puedo actualizar mis repositorios y recalcular mis scripts. Esto me ayuda a evaluar si mis resultados son replicables. Y al igual que Git, es una gran ayuda de memoria para recordar lo que hice con mis datos. Tiene algunas funciones frescas para la captura de procedencia, y sólo puedo comprobar mi historial de Git para averiguar a partir de qué datos se creó una determinada figura, por ejemplo.
 
-**Kirstie**: What is the journey of DataLad, and how did you get to be a part of it?
 
-**Adina**: DataLad was originally created by Michael Hanke and Yarik Halchenko in 2014. They wanted to have a tool that allowed them to install data just as easily as software packages and keep track of how data changes. `git-annex` already existed at this point, but they wanted to build upon it to make it easier to use. Over the years, the tool became a joint version control and data management tool to facilitate data sharing, revision tracking, and reproducible computations. I joined the lab almost two years ago as a Master's student in Clinical Psychology, excited for open and reproducible science, but a complete newbie technology-wise: I had never heard of version control, no programming experience, and the idea that data is dynamic was insightful but completely new to me. Naturally, when I started using DataLad, I was completely overwhelmed. Luckily, there were many people to help me get started and give me the necessary background information. I know, however, that such a learning environment is not the default, so when I started my PhD, I actually created the resource that I would have needed to get started as a student: [The DataLad Handbook](http://handbook.datalad.org).
+**Kirstie**: ¡Genial, así que ¿qué hace que DataLad sea más adecuado para lo que haces que otras herramientas que controlan los datos de la versión?
 
-**Kirstie**: Thanks a lot for telling us about this tool. So the handbook is where people can find out more, if they want?
+**Adina**: Personalmente me gusta DataLad, porque además de la funcionalidad que proporciona Git y `git-annex` , esto facilita la vinculación y reutilización de partes modulares de mi investigación. Cuando trabajo en un análisis, publico los datos, el código + resultados, y el manuscrito como repositorios Git separados, controlados por versiones en GitHub. Pero estos depósitos están unidos para que alguien que lea mi manuscrito pueda dar marcha atrás en cada paso que se ha dado para crear este resultado. volver a los datos originales. Puedo compartir mi análisis en GitHub y puedo tener datos, código e incluso entornos de software completamente, para permitir que otros reproduzcan mis resultados, y me parece una característica muy potente.
 
-**Adina**: Yes, I would point them to [The DataLad Handbook](http://handbook.datalad.org). It is meant to be an accessible, code-along tutorial, that is suitable to researchers independent of background - I think you shouldn't have to be a Linux-crank or computer scientist to version control data.
+**Kirstie**: Y como parte del equipo de DataLad, ¿cómo puedes contribuir al software?
+
+**Adina**: Mi principal motivación es hacer el software accesible para usuarios de todos los orígenes. Si los científicos no reciben formación formal en el control de versiones o en la gestión de datos de investigación, puede ser difícil trabajar de forma reproducible. Creo que si el software es fácil de usar y bien documentado, puede ayudar a los científicos a hacer mejor la ciencia. Por lo tanto, trabajo en funciones de ayuda y de documentación y trabajo sobre tutoriales que son adecuados para usuarios independientemente del nivel de habilidades o de fondo.
+
+**Kirstie**: ¿Cuál es el viaje de DataLad, y cómo llegaste a ser parte de él?
+
+**Adina**: DataLad fue creado originalmente por Michael Hanke y Yarik Halchenko en 2014. Querían tener una herramienta que les permitiera instalar datos tan fácilmente como los paquetes de software y hacer un seguimiento de cómo cambian los datos. `git-anexo` ya existía en este punto, pero querían construirlo para facilitar su uso. Con el paso de los años, la herramienta se convirtió en una herramienta conjunta de control de versiones y gestión de datos para facilitar el intercambio de datos, seguimiento de revisiones y cálculos reproducibles. Me uní al laboratorio hace casi dos años como estudiante de máster en Psicología Clínica, entusiasmada por la ciencia abierta y reproducible, pero una tecnología novedosa completa: Nunca había oído hablar del control de versiones ninguna experiencia en programación, y la idea de que los datos son dinámicos me ha parecido insoportable, pero completamente nueva. Naturalmente, cuando empecé a usar DataLad, estaba completamente cubierto. Por suerte, había mucha gente que me ayudaba a empezar y me daba la información necesaria de antecedentes. Sé, sin embargo, que tal entorno de aprendizaje no es el predeterminado, así que cuando empecé mi doctorado, En realidad creé el recurso que necesitaba para empezar como estudiante: [The DataLad Handbook](http://handbook.datalad.org).
+
+**Kirstie**: Muchas gracias por contarnos sobre esta herramienta. Así que el manual es donde la gente puede saber más, si quiere?
+
+**Adina**: Sí, los apuntaría a [El manual de DataLad](http://handbook.datalad.org). Está pensado para ser un tutorial accesible, a lo largo del código, que es adecuado para investigadores independientes de antecedentes - creo que no debería tener que ser un informático o crank de Linux para controlar datos de versiones de control.

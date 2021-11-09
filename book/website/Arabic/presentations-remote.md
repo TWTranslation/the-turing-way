@@ -1,64 +1,64 @@
-(cm-wa-comms-presenting-remote)=
-# Presenting at Remote Events
+(m-wa-comms-presenting-remote)=
+# عرض في الأحداث البعيدة
 
-Giving a talk or presenting a poster at a remote conference poses particular challenges. Whether this occurs in a live or pre-recorded event, some factors should be paid special attention to related to the technical quality of the presentation and its accessibility.
+ويطرح إلقاء حديث أو تقديم ملصق في مؤتمر من بعد تحديات خاصة. سواء حدث ذلك في حدث حي أو مسبق، وينبغي إيلاء اهتمام خاص لبعض العوامل المتصلة بالنوعية التقنية للعرض وإمكانية الوصول إليه.
 
-## Visual Elements of the Presentation
+## العناصر المرئية للعروض
 
-A presentation for a wide audience can include photos, illustrations, graphics and icons. There are many sites from which you can obtain these types of resources for free (with attribution) or paid to use in your presentations.
+ويمكن أن يتضمن العرض الذي يقدم إلى جمهور واسع صورا ورسوما ورسوما ورقائق. هناك العديد من المواقع التي يمكنك الحصول منها على هذه الأنواع من الموارد مجاناً (مع الإسناد) أو المدفوعة للاستخدام في العروض التوضيحية الخاصة بك.
 
-Some of the websites that offer these resources for free are:
+وفيما يلي بعض المواقع التي تقدم هذه الموارد مجاناً:
 
-* [The Noun Project](https://thenounproject.com) for icons and photographs
-* [Unsplash](https://unsplash.com) for photographs
-* [Pexels](https://www.pexels.com) for photographs
-* [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations
-* [Flaticon](https://www.flaticon.com/free-icons/english) for icons
-* [Canva](https://www.canva.com) for icons
+* [مشروع نون](https://thenounproject.com) للرموز والصور
+* [إلغاء الفصل](https://unsplash.com) للصور
+* [سلاسل](https://www.pexels.com) للصور
+* [فريك](https://www.freepik.com/free-photos-vectors/english) للرموز والرسوم التوضيحية
+* [Flaticon](https://www.flaticon.com/free-icons/english) للأيقونات
+* [كانفا](https://www.canva.com) للرموز
 
-## Technical Set-up for Recording a Talk
+## الإعداد الفني لتسجيل محادثة
 
-Presenting a talk through a digital medium involves tackling some technical challenges, including managing video and sound accessibility and quality.
+وينطوي تقديم حديث من خلال واسطة رقمية على التصدي لبعض التحديات التقنية، بما في ذلك إدارة إمكانية الوصول الصوتي إلى الفيديو والجودة.
 
-### Video Recording
+### تسجيل الفيديو
 
-* Use captions during the talk to aid accessibility.
-* A useful step to ensure that people with different devices (and screens) can appreciate the video's content is to develop the presentation using your smallest screen.
-* Even if you are only sharing a slide deck, seeing you on video can help your audience to keep their concentration on the presentation. You don't need the best camera or video post-processing software, but [managing your lighting](https://www.youtube.com/watch?v=rGcAM1CNEU0&ab_channel=Wirecutter) will do wonders for your video quality.
+* استخدام التسميات التوضيحية أثناء الحديث للمساعدة في الوصول.
+* هناك خطوة مفيدة لضمان قدرة الأشخاص الذين لديهم أجهزة مختلفة (وشاشات) على تقدير محتوى الفيديو هي تطوير العرض التقديمي باستخدام أصغر شاشتك.
+* حتى إذا كنت تشارك فقط مجموعة الشرائح، فإن رؤيتك على الفيديو يمكن أن تساعد جمهورك على الحفاظ على تركيزهم على العرض التقديمي. لا تحتاج إلى أفضل كاميرا أو برامج ما بعد معالجة الفيديو، ولكن [إدارة الإضاءة الخاصة بك](https://www.youtube.com/watch?v=rGcAM1CNEU0&ab_channel=Wirecutter) سوف تتساءل عن جودة الفيديو.
 
-### Sound Setting
+### إعدادات الصوت
 
-* For the members of your audience who aren't hard of hearing, sound quality will always be more important than video quality.
-* Before the presentation, record your voice using the same device you will be using in the presentation to check the sound quality and make any adjustments you can to ensure a crisp sound.
+* لأعضاء جمهورك الذين ليس من الصعب سمعهم، ستكون جودة الصوت دائما أكثر أهمية من جودة الفيديو.
+* قبل العرض، قم بتسجيل صوتك باستخدام نفس الجهاز الذي ستستخدمه في العرض التقديمي للتحقق من جودة الصوت وإجراء أي تعديلات يمكنك التأكد من صوت الرماد.
 
-### Video Recording
+### تسجيل الفيديو
 
-* The simplest way to record the contents of your talk, including your video, voice and presentation, is to record it using a videoconference service (like Zoom) or recording software like [OBS](https://obsproject.com). See [this guide](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute on how to configure OBS for screen recording.
-* If you are recording your talk to present it asynchronously you can use platforms like [Amara](https://amara.org) to generate your subtitles from the video.
+* أبسط طريقة لتسجيل محتويات حديثك، بما في ذلك الفيديو والصوت والعرض الخاص بك، هو تسجيله باستخدام خدمة تداول الفيديو (مثل Zoom) أو تسجيل البرامج مثل [OBS](https://obsproject.com). راجع [هذا الدليل](https://software.ac.uk/fellowship-programme/2019/application-video-guide) من معهد استدامة البرمجيات حول كيفية تكوين OBS لتسجيل الشاشة.
+* إذا كنت تقوم بتسجيل حديثك لتقديمه بشكل غير متزامن يمكنك استخدام منصات مثل [أمارا](https://amara.org) لتوليد ترجماتك من الفيديو.
 
-## What to Expect from Speaking Invitations
+## ماذا نتوقع من التكلم عن الدعوات
 
-If you have published a research piece (like a scientific paper, software or blog), or if you are known for having expertise in your field, you are likely to get invited to give talks at events such as public forums, panels and conference sessions. It could also be something you do upon request, for example, for graduate schools where young researchers can learn from your research work or career path. It is beneficial for your career progression as more people get to know you, learn about your work and establish collaborations. By giving talks at different institutions and events you can receive timely feedback on your progress and improve the quality and impact of your research. For event organisers, inviting experts as speakers can increase the popularity of their events because the participants have opportunities to learn from experts and exchange ideas on topics of common interest.
+إذا كنت قد نشرت مقالة بحثية (مثل ورقة علمية، أو برمجية أو مدونة)، أو إذا كنت معروفا بخبرتك في ميدانك، ومن المرجح أن تدعى لإجراء محادثات في مناسبات مثل المنتديات العامة وحلقات النقاش وجلسات المؤتمرات. يمكن أن يكون أيضا شيئا تفعله عند الطلب، على سبيل المثال. بالنسبة للمدارس العليا حيث يمكن للباحثين الشباب أن يتعلموا من العمل البحثي أو المسار المهني. إنه أمر مفيد لتقدمك الوظيفي، حيث يمكن لعدد أكبر من الناس أن يعرفوا، ويتعلموا عن عملك، ويؤسسسوا علاقات تعاون. من خلال إجراء محادثات في مختلف المؤسسات والأحداث يمكنك الحصول على تعليقات في الوقت المناسب بشأن التقدم الذي أحرزتموه وتحسين نوعية وتأثير بحثكم. لمنظمي الأحداث، ويمكن أن تؤدي دعوة الخبراء كمتكلمين إلى زيادة شعبية الأحداث التي يجريونها لأن المشاركين تتاح لهم فرص التعلم من الخبراء وتبادل الأفكار بشأن المواضيع ذات الاهتمام المشترك.
 
-### Honoraria for Delivering a Talk
+### أتعاب تقديم الحديث
 
-> Honoraria recognises the speaker's work by recompensing them for the time and expertise they invested in developing and delivering a talk.
+> وتنوه الأتعاب بعمل المتحدث بتعويضه عن الوقت والخبرة اللذين استثمرهما في إعداد الكلام وتقديمه.
 
-An invited talk is often expected to be delivered for free as it benefits both the organisers and the speakers. However, it is not a fair situation for all, especially when people have personal financial needs, or if they are self-funded. In some cases, honoraria are offered to speakers by event organisers to recompense for the talk preparation time and cover related costs such as accessibility requirements for remote events, or travel and accommodation for in-person events. How much they are offered will vary depending on the organisation (non-profit or private sector), nature of participation (such as short talk, panel discussion or seminar) and also the status of the talk, for example, you might be offered more for being a keynote speaker at a large conference. Many academics are never offered or do not accept honoraria payments for many personal (tax, admin overhead in handling small fund, sufficient salary or personal interest in the event) or professional (their organisation policy prohibits the receiving of honoraria or they donate back to the host organisation) reasons.
+ومن المتوقع في كثير من الأحيان أن يتم تقديم محاضرات مدعوة مجانا لأنها تفيد المنظمين والمتكلمين على حد سواء. غير أن هذه الحالة ليست حالة عادلة للجميع، خاصة عندما تكون للأشخاص احتياجات مالية شخصية، أو إذا كانوا ممولين ذاتيا. وفي بعض الحالات، وتُمنح أتعاب للمتكلمين حسب منظمي المناسبات لتعويض الوقت المخصص للتحضير للحديث وتغطية التكاليف ذات الصلة مثل متطلبات الوصول إلى الأحداث عن بُعد. أو السفر والسكن للأحداث الشخصية. ويختلف مقدار ما يُقدم حسب المنظمة (القطاع غير الربحي أو القطاع الخاص)، وطبيعة المشاركة (مثل الكلام القصير)، حلقة نقاش أو حلقة دراسية) وكذلك حالة المحادثات، على سبيل المثال، وقد يُعرض عليكم المزيد لكونكم متحدثين رئيسيين في مؤتمر كبير. والعديد من الأكاديميين لا يُمنحون أبداً أو لا يقبلون دفع الأتعاب عن كثير من الأشخاص (الضرائب، النفقات العامة للمشرف في التعامل مع الصناديق الصغيرة). والراتب الكافي أو المصلحة الشخصية في الحدث) أو المهنيين (السياسة التي يتبعونها في المنظمة تحظر الحصول على أتعاب أو تتبرع بها المنظمة المضيفة).
 
-To have a diverse and inclusive academic community, we need to be aware that not all researchers can afford to dedicate their time to volunteer/unpaid labour or have the money to cover the cost of giving an invited talk. Therefore, organisers should consider offering honoraria, if they have sufficient budget, as developing talks takes a substantial amount of time and effort.
+• تكوين مجتمع أكاديمي متنوع وشامل، ولا بد لنا من أن ندرك أن الباحثين ليسوا جميعهم قادرين على تكريس وقتهم للعمل التطوعي/العمل غير المدفوع الأجر أو الحصول على المال اللازم لتغطية تكاليف الإدلاء بكلمة دعوة. ولذلك، ينبغي للجهات المنظمة أن تنظر في تقديم الأتعاب إذا كانت لديها ميزانية كافية، حيث أن إعداد المحادثات يتطلب قدرا كبيرا من الوقت والجهد.
 
-For more information about giving invited talks see the blog "[Speaking as an Academic: What to expect when you are invited to share your work](http://getalifephd.blogspot.com/2017/04/speaking-as-academic-what-to-expect.html)". Also, see [Fix the Gap](https://500womenscientists.org/fix-the-gap) project by '500womenscientists.org' that aims to crowdsource speaking engagement fees & honoraria details to empower researchers to ask for compensation.
+للحصول على مزيد من المعلومات حول إعطاء المحادثات المدعوة، راجع المدونة"[التحدث كأكاديمي: ماذا تتوقع عندما تدعى لمشاركة عملك](http://getalifephd.blogspot.com/2017/04/speaking-as-academic-what-to-expect.html)". انظر أيضا [اصلاح الثغرة](https://500womenscientists.org/fix-the-gap) من قبل 500 من علماء النساء. rg' الذي يهدف إلى رسوم التحاور مع الجمهور & تفاصيل الأتعاب لتمكين الباحثين من طلب التعويض.
 
-### Speaker Rider for Invited Talks
+### راكب مكبر الصوت للمحادثات المدعوّة
 
-A Speaker rider is a framework for speakers to list their expectations from events where they would consider giving an invited talk. Speaker riders allow speakers to evaluate if speaking at an event aligns with their objectives and values. Most importantly, it has a specific role in encouraging organisers to make necessary arrangements to ensure inclusion and accessibility for a diverse audience.
+ويشكل المتحدث إطارا للمتكلمين لكي يسرد توقعاتهم من الأحداث التي ينظر فيها في الإدلاء بكلمة مدعوة. يسمح راكبي الصوت للمتكلمين بتقييم ما إذا كان التحدث في حدث يتفق مع أهدافهم وقيمهم. والأهم من ذلك أن لها دورا محددا في تشجيع المنظمين على اتخاذ الترتيبات اللازمة لضمان شمول جمهور متنوع وإتاحة إمكانية الوصول إليه.
 
-In open source space, [Tatiana Mac's Speaker Rider](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552) is highly cited and reused to make open source events more accessible and beneficial for the historically excluded and marginalised communities.
+في مساحة مفتوحة المصدر. [راكب ناطق تاتيانا ماك](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552) يستشهد به كثيرا ويعاد استخدامه لجعل أحداث المصدر المفتوح أيسر منالا وأكثر فائدة للمجتمعات المستبعدة والمهمشة تاريخيا.
 
 ``` {Note} Speakers: What You Can Do
 
-As Tatiana Mac put it in their speaker rider, speaking comes with immense privilege. Not everyone gets to be a speaker, but if you’re in a position to do so, we encourage you to use this privilege to check whether the event you’re speaking at shares your values, and/or ask that they make sure their event is a better and more inclusive space for historically marginalized communities.
+وكما قال تاتيانا ماك في ركاب المتكلمين، فإن الكلام يأتي بامتياز هائل. ليس الجميع يصبحون متكلمين، ولكن إذا كنت في وضع يسمح لك بالقيام بذلك، نحن نشجعك على استخدام هذا الامتياز للتحقق مما إذا كان الحدث الذي تتحدث فيه يشارك قيمك، و/أو أن يطلبوا منهم التأكد من أن حدثهم هو حيز أفضل وأكثر شمولاً للمجتمعات المحلية المهمشة تاريخياً.
 
-Source: [Pudding and OpenNews](https://pudding.cool/process/speaker-rider/)
+المصدر: [Pudding and OpenNews](https://pudding.cool/process/speaker-rider/)
 ```

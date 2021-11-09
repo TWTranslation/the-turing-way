@@ -1,83 +1,83 @@
-(cl-remote-collab-guidelines)=
-# Guidelines for Remote Collaboration
+(مبادئ توجيهية عن بعد
+# المبادئ التوجيهية للتعاون عن بعد
 
-In this context, guidelines are a set of rules or protocols that can create a common ground for everyone to communicate and exchange information within a distributed team for effective and successful collaboration.
+وفي هذا السياق، والمبادئ التوجيهية هي مجموعة من القواعد أو البروتوكولات التي يمكن أن تخلق أرضية مشتركة لكل شخص للتواصل وتبادل المعلومات داخل فريق موزع من أجل التعاون الفعال والناجح.
 
-The main motivation is to set clear guidelines around expectations on communication tools, etiquette for online meetings, tasks, timelines and schedules in advance for the remote and distributed collaborative working arrangement in a team or community.
+والدافع الرئيسي لذلك هو وضع مبادئ توجيهية واضحة بشأن التوقعات المتعلقة بأدوات الاتصال، على شبكة الإنترنت للاجتماعات والمهام والمهام التي يضطلع بها على شبكة الإنترنت. الجدول الزمني والجداول الزمنية مسبقا لترتيب العمل التعاوني عن بعد والموزع في فريق أو مجتمع محلي.
 
-## Mode of communication and collaboration
+## طريقة الاتصال والتعاون
 <!---Add details and more points point to other chapters for details--->
 
-This should provide details regarding:
-- The tools/software to be used for joining/attending the online calls.
-- Recommendations for the types of equipment that can provide participants with the experience as expected by the organisers.
-- Measures that will be kept in place to keep interactions and data exchange secure.
-- How participants can gain access to these resources and tool.
-- Ways to improve visibility and accessibility to these tools.
+وينبغي أن يتضمن ذلك تفاصيل بشأن ما يلي:
+- • الأدوات/البرامج الحاسوبية التي ستستخدم في الانضمام/حضور المكالمات الإلكترونية.
+- 4 - توصيات بشأن أنواع المعدات التي يمكن أن تزود المشاركين بالخبرة التي يتوقعها المنظمون.
+- التدابير التي سيتم الإبقاء عليها للحفاظ على أمان التفاعلات وتبادل البيانات.
+- كيف يمكن للمشاركين الحصول على هذه الموارد والأدوات.
+- سبل تحسين وضوح هذه الأدوات وسهولة الوصول إليها.
 
-For a list of collaborative tools see {ref}`this subchapter<cl-remote-collab-tools>`.
+للحصول على قائمة الأدوات التعاونية انظر {ref}`هذا الفصل الفرعي<cl-remote-collab-tools>`.
 
-## Different ways for informal interactions
+## طرق مختلفة للتفاعلات غير الرسمية
 <!---Add details and more points point to other chapters for details--->
-Informal interactions are instrumental for ensuring full engagement of your participants, therefore provide ways for:
-- Encouraging casual team conversations between meetings by setting some pre-planned social discussions/interaction plans.
-- Helping people from different time zones to catch up and build a sense of belonging (for example, by shared notes or summary emails).
+والتفاعلات غير الرسمية ضرورية لضمان المشاركة الكاملة من جانب المشاركين فيها، وبالتالي فهي توفر السبل لما يلي:
+- تشجيع محادثات الأفرقة العرضية بين الاجتماعات عن طريق وضع بعض المناقشات الاجتماعية/خطط التفاعل المخططة مسبقا.
+- مساعدة الناس من مختلف المناطق الزمنية على اللحاق بالركب وبناء إحساس بالانتماء (على سبيل المثال من خلال الملاحظات المشتركة أو رسائل البريد الإلكتروني الموجزة).
 
-## Sharing data, resources and documentation
+## تقاسم البيانات والموارد والوثائق
 <!---Add details and more points point to other chapters for details--->
-Put together some recommendations and guidelines for sharing data (research data, personal information), resources (tools and equipment) and documentation (policies, manuals).
+• تجميع بعض التوصيات والمبادئ التوجيهية لتقاسم البيانات (بيانات البحوث، المعلومات الشخصية)، والموارد (الأدوات والمعدات) والوثائق (السياسات، الأدلة).
 
-These recommendations should include:
-- The preferred platform for sharing research data (published and unpublished).
-  - Decide on the most appropriate way to share data, documents, analysis scripts, such as by providing shared drives and repositories on Google, GitHub or other similar platforms.
-- How to protect sensitive information such as data and password.
-- Manuals and training for setting up an account and maintaining access.
-- Locations of different documents from the organisation that are easy to find.
-- Helpdesk or support for setup and troubleshooting.
+وينبغي أن تشمل هذه التوصيات ما يلي:
+- المنبر المفضل لتقاسم بيانات البحوث (منشور وغير منشور).
+  - تحديد أنسب طريقة لمشاركة البيانات، المستندات، نصوص التحليل، مثل توفير الأقراص والمستودعات المشتركة على جوجل أو GitHub أو غيرها من المنصات المماثلة.
+- كيفية حماية المعلومات الحساسة مثل البيانات وكلمة المرور.
+- الأدلة والتدريب على إنشاء حساب والحفاظ على إمكانية الوصول.
+- مواقع وثائق مختلفة من المنظمة يسهل العثور عليها.
+- مكتب المساعدة أو الدعم للإعداد واستكشاف الأخطاء وإصلاحها.
 
-## Planning meetings, scheduling, and agenda
+## اجتماعات التخطيط والجدول الزمني وجدول الأعمال
 <!---Add details and more points point to other chapters for details--->
-Establish key tasks and milestones at the beginning of the project to determine how meetings will be planned, scheduled and organised.
-- Decide on the frequency of your meetings and set a protocol.
-- Once a protocol has been established, circulate and review it within the team to ensure a common understanding of tasks and goals.
-- Schedule meetings that are effective across time zones, have a regular time slot and send out calendar invites to avoid confusions.
-- Invite everyone's input in collecting agenda points.
-- If a team is big, split into sub-project groups to create a stronger network.
-- Rotating schedule for chairs and note-takers from the team.
+1 - تحديد المهام الرئيسية والمعالم الرئيسية في بداية المشروع لتحديد كيفية تخطيط الاجتماعات وتحديد مواعيدها وتنظيمها.
+- تقرر على تواتر اجتماعاتك وتعيين بروتوكول.
+- وبمجرد وضع بروتوكول ما، يتم تعميمه واستعراضه داخل الفريق لضمان فهم مشترك للمهام والأهداف.
+- جدولة الاجتماعات الفعالة عبر المناطق الزمنية، لديها فترة زمنية منتظمة وإرسال دعوات للتقويم لتجنب الالتباس.
+- دعوة الجميع إلى المشاركة في جمع نقاط جدول الأعمال.
+- إذا كان الفريق كبيرا، انقسم إلى مجموعات مشاريع فرعية لإنشاء شبكة أقوى.
+- الجدول الزمني لتناوب الكراسي وأخذ الملاحظات من الفريق.
 
-## Etiquette for online meetings and communications
+## إيتيكيت للاجتماعات والاتصالات على الإنترنت
 <!---Add details and more points point to other chapters for details--->
-Your participants must know how they are expected to participate in a meeting. This includes details on how they can contribute to an ongoing discussion (raise hand physically, or use a feature in your call hosting software), how they can share thoughts if they don't feel comfortable talking or how they can help create an overall welcoming environment.
-- Establish a format of communication within the whole group and subgroups.
-  - Communicate clearly which tool will be used, for example, Zoom for the call, Google Docs for documentation, Trello for action points.
-- Create a pre-defined agenda with an allocated chair and note-taker to prevent informality and loss of focus.
-- Pre-communicate guidelines for creating a safe space for inclusive interactions online, including:
-  - Muting microphone when not talking.
-  - Keeping video camera on when in a closed meeting.
-  - Give the option to switch off the video if the call is being recorded.
-  - Share tips on how to 'raise hand' to participate in a discussion, on chat, physically, or using an emoji.
-  - Send out a guideline for speakers, chairs, note takers and people with different responsibilities.
-- Communicate clearly how to join and leave a meeting.
-  - Is there a particular rule for joining late or leaving early?
-- Aim to maintain flexibility and reduce formality
-  - This is particularly useful for people who are working from home and will have their family members and pets around.
+ويجب على المشاركين أن يعرفوا كيف يتوقع منهم المشاركة في أي اجتماع. وهذا يتضمن تفاصيل عن كيفية المساهمة في مناقشة مستمرة (رفع اليدين فعليا، أو استخدام ميزة في برنامج استضافة المكالمات الخاص بك)، كيف يمكنهم مشاركة الأفكار إذا لم يشعروا بالراحة في الحديث أو كيف يمكنهم المساعدة في خلق بيئة ترحيب شاملة.
+- إنشاء شكل للاتصال داخل المجموعة بأكملها والأفرقة الفرعية.
+  - التواصل بوضوح مع الأداة التي سيتم استخدامها، على سبيل المثال، التكبير للمكالمة، مستندات جوجل للتوثيق، تريلو لنقاط العمل.
+- وضع جدول أعمال محدد سلفا مع تخصيص كرسي ومدير ملاحظات لمنع الطابع غير الرسمي وفقدان التركيز.
+- 4 - وضع مبادئ توجيهية مسبقة لإنشاء حيز آمن للتفاعلات الشاملة على الإنترنت، بما في ذلك:
+  - كتم الميكروفون عندما لا يتحدث.
+  - إبقاء كاميرا الفيديو قيد التشغيل عند عقد جلسة مغلقة.
+  - امنح الخيار لإيقاف تشغيل الفيديو إذا تم تسجيل المكالمة.
+  - شارك نصائح حول كيفية 'رفع اليد' للمشاركة في النقاش، على الدردشة، جسديا، أو استخدام الرموز التعبيرية.
+  - إرسال مبدأ توجيهي للمتكلمين والكراسي وواضعي الملاحظات والأشخاص الذين يتحملون مسؤوليات مختلفة.
+- اتصل بوضوح بكيفية الانضمام إلى اجتماع أو تركه.
+  - هل هناك قاعدة معينة للانضمام المتأخر أو المغادرة مبكراً؟
+- 2 - السعي إلى الحفاظ على المرونة والحد من الشكليات
+  - وهذا أمر مفيد بوجه خاص للأشخاص الذين يعملون من منازلهم والذين سيكون لهم أفراد أسرهم وأحيائهم الأليفة.
 
-## Follow up emails and communications for creating accountability
+## متابعة رسائل البريد الإلكتروني والاتصالات لإنشاء المساءلة
 <!---Add details and more points point to other chapters for details--->
-Following up with the participants after the meeting is a good way to both share the key messages from the meeting, action points that have been created for different people and to ask for feedback when needed.
-- Make sure that everyone knows what their role and responsibilities are.
-- Follow up with teams and individuals regularly.
-  - This should be done to celebrate success rather than micromanaging.
+وتمثل المتابعة مع المشاركين بعد الاجتماع طريقة جيدة لتبادل الرسائل الرئيسية المنبثقة عن الاجتماع، نقاط العمل التي تم إنشاؤها لأشخاص مختلفين وطلب ردود الفعل عند الحاجة.
+- تأكد من أن الجميع يعرفون ما هو دورهم ومسؤولياتهم.
+- المتابعة بانتظام مع الفرق والأفراد.
+  - وينبغي القيام بذلك للاحتفال بالنجاح بدلا من الإدارة الجزئية.
 
-## A few more tips for keeping the team engaged
+## عدد قليل من النصائح لإبقاء الفريق مشاركاً
 <!---Add details and more points point to other chapters for details--->
-- Set the leadership teams responsibilities clearly (host, note-taker, gatekeeper and technical support).
-- Choose modes of engagement that are suitable for both introverts or extroverts.
-- Create opportunities for skill-building and training beyond work.
-- Schedule informal meetings like virtual coffees and online games.
+- حدد مسؤوليات أفرقة القيادة بوضوح (المضيف، ومحتجز الملاحظات، ومدير البوابة، والدعم التقني).
+- اختيار أنماط المشاركة المناسبة لكل من الانطوائيات أو المنفتحين.
+- • إيجاد فرص لبناء المهارات والتدريب فيما يتجاوز العمل.
+- جدولة الاجتماعات غير الرسمية مثل القهوة الافتراضية والألعاب الإلكترونية.
 
-## Further reading
+## مزيد من القراءة
 
-- [Deanna deBara, The ultimate guide to remote meetings in 2020](https://slackhq.com/ultimate-guide-remote-meetings), January 2, 2020
+- [ديانا ديبارا ، الدليل النهائي للاجتماعات البعيدة في 2020](https://slackhq.com/ultimate-guide-remote-meetings)، 2 يناير 2020
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

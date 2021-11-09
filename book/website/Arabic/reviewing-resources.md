@@ -1,8 +1,8 @@
-(rr-reviewing-resources)=
-# Resources
+(الموارد المخصصة للاستعراض)=
+# الموارد
 
-## Further reading
+## مزيد من القراءة
 
-- Atwood, Jeff (2006) [Code Reviews: Just Do It](http://blog.codinghorror.com/code-reviews-just-do-it/)
-- Burke, Kevin (2011) [Why code review beats testing: evidence from decades of programming research.](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)
-- McConnell, Steve (2004) Code Complete: A Practical Handbook of Software Construction, Second Edition. Microsoft Press. ISBN-13: 978-0735619678
+- أتوود، جيف (2006) [مراجعات التعليمات البرمجية: فقط فعل ذلك](http://blog.codinghorror.com/code-reviews-just-do-it/)
+- بوركينا فاسو، كيفن (2011) [لماذا مراجعة التعليمات البرمجية تفترض الاختبار: أدلة من عقود من بحوث البرمجة.](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)
+- () McConnell, Steve (2004) Code Complete: A Practical Handbook of Software Construction, Second Edition. مطبعة مايكروسوفت. ISBN-13: 978-073561967

@@ -1,18 +1,18 @@
-(communication-aa-equitable)=
-# Large and equitable authorships
+(来文――公平)=
+# 大和公平的作者
 
-Large collaborative projects are becoming more frequent and dealing with the authorship of hundreds or even thousands of authors can be difficult.
+大型合作项目正在变得更加频繁，数百甚至数千名作者的作品可能难以处理。
 
-Some scientific studies, such as clinical trials and Big science projects, require collaboration from many different teams of researchers and different types of specialists. This research is being published with very large authorships. An example is the publications by CERN that often have thousands of authors in alphabetical order. Here is a [link to a 2021 paper from CERN that has 3078 authors](http://cds.cern.ch/record/2753518#) as an example of this type of authorship.
+一些科学研究，例如临床试验和大型科学项目，需要许多不同的研究人员小组和不同类型的专家进行合作。 这份研究报告正在出版，作者人数很多。 这方面的一个例子是CERN的出版物，该出版物经常有数千作者按字母顺序排列。 这里是一个 [链接到一个 2021 年来自CERN 的纸张，其中有 3078 作者](http://cds.cern.ch/record/2753518#) 作为这种类型的作者的例子。
 
-This type of shared authorship model is increasingly found in open science projects and communities where the ethos requires a more equitable authorship that truly reflects all the contributions made. *The Turing Way* community wants to recognise all contributions and therefore these are recorded carefully in a number of ways. Here is a link to our {ref}`Chapter on acknowledgements<ch-acknowledgement>`. We use an [all contributors bot](https://allcontributors.org/) to record the type of contributions different members make that is shown on our Github Readme.file and we also have {ref}`contributor profiles<ch-acknowledgement-record>` at the end of the book, in which each contributor can record their contributions in more detail.
+这种共同作者模式越来越多地出现在开放的科学项目和社区中，这些社区的精神需要更加公平的作者，真正反映出所做的所有贡献。 *Ting Way* 社区想要承认所有贡献，因此这些贡献是以多种方式仔细记录的。 这里是一个链接到我们的 {ref}`关于确认的章节<ch-acknowledgement>` 我们使用 [所有贡献者机器人](https://allcontributors.org/) 来记录不同成员在我们Github Readme上显示的贡献类型。 我们还有我们的 {ref}`贡献者资料<ch-acknowledgement-record>` 在书末尾。 每个捐助国都可以更详细地记录它们的捐款。
 
-Although The Turing Way is not an academic article, it is a published online book, and therefore we have {ref}`authorship guidelines<ch-acknowledgement-members>`. The first author is always *The Turing Way* Community and then authors are listed in alphabetical order by last name. Authorship is cumulative so authors will always remain authors. Consequently, this model of authorship gives equal recognition as an author to any contribution and therefore in this sense is an authorship of contributors rather than authors.
+虽然“诱惑之路”不是一篇学术文章，但它是一本在线出版的书籍。 因此我们有 {ref}`作者指南<ch-acknowledgement-members>`。 第一个作者总是 *Ting Way* Community，然后作者按字母顺序按姓氏排列。 作者是累积的，因此作者将始终是作者。 因此， 这种作者模式给予任何贡献作者同等的承认，因此从这个意义上讲，作者不是作者，而是作者的作者。
 
-This is similar to a consortia authorship. This is a collective of authors and all members of the consortium are considered authors and must be listed in the published articles as such. Sometimes this is seen in the journal as a large list of authors or can be shown as the community name, however underneath all of the author names of the community will be visible.
+这类似于一个财团的著作权。 这是一个由作者组成的集体，联合会的所有成员都被视为作者，必须将其列入发表的文章中。 有时，这会在期刊上被看作是大量的作者或可以显示为社区名称。 然而，所有提交人的姓名都将是可以看到的。
 
-Another recent development in the use of the CRediT taxonomy is the idea of providing a cover page to an article much like seen on film-credits. This recent [pre-print by the Living with Machines Project](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/) has taken this approach. The authors remark that this model of authorship relies on all authors openly acknowledging the importance of everyone's contributions. The Living with Machines project is discussed in the {ref}`personal story about authorship in interdisciplinary projects<aa-intps>` at the end of this chapter.
+在使用CrediT分类法方面最近的另一个发展是为一篇类似于电影点数的文章提供一个封面页。 此 [最近由机器生活项目](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/) 打印的预印已经采取了这种方法。 作者们说，这种作品模式依赖于所有作者公开承认每个人贡献的重要性。 “与机器共存”项目在 {ref}`个人故事中讨论，涉及跨学科项目的作者身份<aa-intps>` 在本章结尾处讨论。
 
-The use of ORCID is another way to ensure equitable authorship. ORCID is a persistent digital identifier for researchers. It means that even if a researchers name changes in some way, such as not using exactly the same name on each paper or a change of surname, their publications will still be linked back to them. It guarantees recognition for your contributions.
+使用ORCID是确保公平权威的另一种方式。 ORCID是一个供研究人员使用的持久数字识别器。 这意味着，即使研究人员的名字在某种程度上发生变化， 例如在每份文件上不使用完全相同的名称或改用姓名，他们的出版物仍将与这些出版物联系起来。 它保证您的贡献得到承认。
 
-Find out more information about {ref}`ORCID<cm-citable-orcid>` in our sub-chapter in the Guide for Communication. 
+了解更多关于 {ref}`ORCID<cm-citable-orcid>` 的信息在我们的通信指南的子章节中。 

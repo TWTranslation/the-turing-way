@@ -1,64 +1,64 @@
-(cm-blogs)=
-# Blogs for Research Communication
+(م - مدونة)=
+# مدونات للبحث والاتصال
 
-A blog is a website that contains informal articles, usually with a central theme. This could be an academic topic such as open science or be used to report the progress of a research project. Blog posts are the articles on the website and they are typically displayed in reverse chronological order so that the most recent post appears first at the top of the web page.
+المدونة عبارة عن موقع شبكي يحتوي على مقالات غير رسمية، عادة ما يكون لها موضوع مركزي. ويمكن أن يكون هذا موضوعا أكاديميا مثل العلوم المفتوحة أو أن يستخدم للإبلاغ عن التقدم المحرز في مشروع بحثي. المشاركات في المدونة هي المقالات على الموقع و عادة ما يتم عرضها بالترتيب الزمني العكسي بحيث تظهر أحدث مشاركة في الجزء العلوي من صفحة الويب.
 
-Blog posts are short, informal pieces of writing. They are meant to be written regularly and can be used to build momentum on a particular issue, event or project. In this way, blog posts suit research projects, particularly open projects and communities, because there can be frequent updates of activities and findings to bring greater attention and therefore transparency to your work.
+مشاركات المدونة قصيرة وغير رسمية في الكتابة. ويقصد بها أن تكون مكتوبة بصورة منتظمة ويمكن استخدامها لتكوين زخم بشأن قضية أو حدث أو مشروع معين. وبهذه الطريقة، تناسب وظائف المدونة مشاريع البحوث، ولا سيما المشاريع المفتوحة والمجتمعات المحلية. لأنه يمكن أن تكون هناك تحديثات متكررة للأنشطة والنتائج لجذب المزيد من الاهتمام ومن ثم الشفافية لعملكم.
 
-Starting a blog does take some investment as a web platform needs to be built and the blog needs to be frequently updated with new posts. It is therefore best to share the load of this work with your team in some way or plan to get people from outside of your immediate team to write guest posts.
+بدء تشغيل المدونة يأخذ بعض الاستثمار كمنصة ويب تحتاج إلى بناء و تحتاج المدونة إلى تحديثها بشكل متكرر من خلال مشاركات جديدة. لذلك من الأفضل مشاركة عبء هذا العمل مع فريقك بطريقة أو التخطيط للحصول على أشخاص من خارج فريقك المباشر لكتابة مشاركات الضيف.
 
-(cm-wa-comms-blogs-start)=
-## How to Start a Blog
+(m-wa-comms-blogs-start)=
+## كيفية بدء تشغيل المدونة
 
-### Themes and Audience
+### المواضيع والجمهور
 
-The first decision to make is to choose the theme and the audience that you want to target. This will determine the readability level and overall style of your blog.
+أول قرار يتخذ هو اختيار الموضوع والجمهور الذي تريد استهدافه. هذا سيحدد مستوى القراءة والأسلوب العام في مدونتك.
 
-* Examples of themes include interesting research topics, a personal diary blog of your research career, a project blog to keep track of all the different aspects of the project or a community blog to help with building and maintaining the community.
-* Most importantly the theme needs to have plenty of content for you to write about, be interesting to you and also engaging for others.
+* أمثلة على المواضيع تشمل مواضيع بحث مثيرة للاهتمام، مدونة يومية شخصية لمهنتك البحثية، مدونة مشروع لتتبع جميع الجوانب المختلفة للمشروع أو مدونة المجتمع للمساعدة في بناء المجتمع والحفاظ عليه.
+* والأهم من ذلك أن السمة تحتاج إلى الكثير من المحتوى لكتابتك عنه، وأن تكون مثيرة للاهتمام لك وأن تشارك أيضًا مع الآخرين.
 
-## Planning for Maintenance
+## التخطيط للصيانة
 
-It's always good to make a plan and try to stick to it.
+من الجيد دائما وضع خطة ومحاولة التمسك بها.
 
-* You need to plan what posts you could write for your theme for the next six months or a year.
-* This will tell you if your theme is substantial enough for a prolonged period.
-* One post a month is a good starting point as this gives you a manageable amount of time to get material together, progress projects or attend events to write about.
+* تحتاج إلى تخطيط المشاركات التي يمكنك كتابتها للموضوع الخاص بك خلال الأشهر الستة القادمة أو السنة.
+* هذا سيخبرك إذا كان موضوعك كبير بما فيه الكفاية لفترة طويلة.
+* مشاركة واحدة في الشهر هي نقطة بداية جيدة لأن هذا يمنحك كمية من الوقت يمكن التحكم بها للحصول على المواد معا، تقدم المشاريع أو حضور الأحداث للكتابة عنها.
 
-## Building a Website
+## بناء موقع
 
-Next, you need to consider where your blog is going to be.
+بعد ذلك، تحتاج إلى النظر في أين ستكون مدونتك.
 
-* If you have never made a website before, it is not as hard as it sounds.
-* There are lots of free and easy options for this but it does depend on your computer skills.
-* You could practice writing blog posts and put them on existing blogging sites (your institution may already have one) before building your own.
+* إذا لم تقم أبدا بإنشاء موقع من قبل، فإنه ليس صعبا بقدر ما يبدو.
+* هناك الكثير من الخيارات المجانية والسهلة لهذا لكن ذلك يعتمد على مهاراتك في الكمبيوتر.
+* يمكنك ممارسة كتابة مشاركات المدونة ووضعها على مواقع المدونات الموجودة (قد يكون لمؤسستك بالفعل واحد) قبل بناء مشاركاتك.
 
-We discuss this in detail in the subchapter {ref}`cm-blogs-webpage`.
+نحن نناقش هذا بالتفصيل في الفصل الفرعي {ref}`cm-blogs-page`.
 
-## Writing Your First Post
+## كتابة منشورك الأول
 
-Often starting a piece of writing is the hardest part, and writing your first blog may seem even harder. Just try to start writing in any way as a messy first draft can always be edited later.
+غالباً ما يكون بدء كتابة جزء أصعب جزء ، وكتابة مدونتك الأولى قد تبدو أصعب. فقط محاولة البدء في الكتابة بأي طريقة كمسودة أولى فوضوية يمكن دائما تحريرها لاحقا.
 
-* The first post could be an introduction to yourself, those involved in the blog or a statement of your intentions for the blog.
-* It might also be good to prepare a few posts for the first release to have a greater impact.
+* يمكن أن تكون المشاركة الأولى مقدمة لنفسك، أو لأولئك المشاركين في المدونة أو لبيان نواياك في المدونة.
+* وقد يكون من المفيد أيضا إعداد عدد قليل من الوظائف للإصدار الأول ليكون له أثر أكبر.
 
-## Advertising Your Blog
+## الإعلان عن مدونتك
 
-Get your blog noticed.
+احصل على ملاحظة مدونتك.
 
-* It's a good idea to tell your target audience about your blog and again each time you release a post.
-* Use mailing lists from key associations linked to your research.
-* Use social media such as Twitter or Facebook.
-* Ask colleagues to retweet or send out emails to advertise your blog.
+* إنها فكرة جيدة أن تخبر الجمهور المستهدف الخاص بك عن مدونتك ومرة أخرى في كل مرة تصدر فيها مشاركة.
+* استخدم القوائم البريدية من الجمعيات الرئيسية المرتبطة ببحثك.
+* استخدام وسائل التواصل الاجتماعي مثل تويتر أو فيسبوك.
+* اطلب من الزملاء إعادة تغليف أو إرسال رسائل البريد الإلكتروني للإعلان عن مدونتك.
 
-## Analysing the Impact
+## تحليل التأثير
 
-Success is very much in the eye of the beholder but there are many methods or metrics that you can use to track the success of your blog.
+إن النجاح في أعين حامل النبات إلى حد كبير ولكن هناك العديد من الطرق أو المقاييس التي يمكنك استخدامها لتتبع نجاح مدونتك.
 
-* Google analytics can be used with Google sites or put into Github pages. This gives you information about how many people are accessing your blog and where they are based.
-* There are lots of different metrics that can be tracked. Here is a good post that explains [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* يمكن استخدام تحليلات جوجل مع مواقع جوجل أو وضعها في صفحات جيثوب. هذا يعطيك معلومات عن عدد الأشخاص الذين يصلون إلى مدونتك وأين يوجد مقرهم.
+* هناك الكثير من المقاييس المختلفة التي يمكن تعقبها. هنا منشور جيد يشرح [20 مقياس كل مدوّن يحتاج لتعقبه لقياس النجاح](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
 
-## Keep Writing and Planning
+## مواصلة الكتابة والتخطيط
 
-* Stick to your plan, although be responsive to new opportunities such as guest bloggers.
-* Plan time in your schedule for writing the blog and maintaining the website (see the top tips from our case study).
+* التمسك بخطتك، على الرغم من أن تكون مستجيبة لفرص جديدة مثل الضيوف المدونين.
+* التخطيط للوقت في جدولك الزمني لكتابة المدونة والحفاظ على الموقع (انظر النصائح العليا من دراسة الحالة الخاصة بنا).

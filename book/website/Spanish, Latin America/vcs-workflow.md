@@ -1,61 +1,61 @@
 (rr-vcs-workflow)=
-# General Workflow
+# Flujo de trabajo general
 
-Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. A typical procedure for using version control is as follows:
+El control de versiones es un enfoque sistemático para registrar cambios realizados en un archivo, o conjunto de archivos, con el tiempo. Esto le permite a usted y a sus colaboradores rastrear el historial, ver qué cambió y recordar versiones específicas más tarde cuando sea necesario. Un procedimiento típico para usar el control de versiones es el siguiente:
 
-1. Create files - these may contain text, code or both.
-2. Work on these files, by changing, deleting or adding new content.
-3. Create a snapshot of the file status (also known as version) at this time.
+1. Crear archivos - estos pueden contener texto, código o ambos.
+2. Trabaja en estos archivos, cambiando, eliminando o añadiendo contenido nuevo.
+3. Crear una instantánea del estado del archivo (también conocido como versión) en este momento.
 
-This process of creating a snapshot is described differently in different version control software. For example, Git describes it as "a commit". Some systems call it "a time-point" or "a checkpoint"; and this is referred to as "saving your work" in other cases such as in [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/).
+Este proceso de creación de una instantánea se describe de forma diferente en diferentes programas de control de versiones. Por ejemplo, Git lo describe como "un commit". Algunos sistemas lo llaman "un punto de tiempo" o "un punto de control"; y esto se denomina "guardar tu trabajo" en otros casos como en [Google docs](https://docs.google.com/) o [HackMD](http://hackmd.io/).
 
-As you keep saving your work by adding changes, you make more and more snapshots. You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
+A medida que vas guardando tu trabajo añadiendo cambios, cada vez haces más instantáneas. Puede pensar que estas versiones guardan las versiones de estos archivos mientras documentan su historia. Si necesita volver a una versión anterior de un archivo debido a un error, o si ha cambiado de opinión sobre una actualización anterior, puede acceder al archivo en su versión preferida, o devolver todo su proyecto a un estado anterior.
 
-An illustration of this is shown below.
+A continuación se muestra una ilustración de esto.
 
 ```{figure} ../../figures/main-branch.png
 ---
 name: main-branch
-alt: An illustration of a main branch
+alt: Una ilustración de una rama principal
 ---
-An illustration of a main branch
+Una ilustración de una rama principal
 ```
 
-In many version control systems, you will be able to add a comment every time you save a new version. These comments should be clear and concise to make it easy to understand what changes were proposed and what updates were made in a version. This ensures that it is easy to find what you are looking for when you need to go back to a past version. Your collaborators will thank you, but so will future versions of yourself.
+En muchos sistemas de control de versiones, podrá añadir un comentario cada vez que guarde una nueva versión. Estos comentarios deben ser claros y concisos para que sea fácil entender qué cambios se propusieron y qué actualizaciones se hicieron en una versión. Esto asegura que es fácil encontrar lo que buscas cuando necesites volver a una versión anterior. Sus colaboradores le darán las gracias, pero también las futuras versiones de usted mismo.
 
-(rr-vcs-workflow-branches)=
-## Non-Linear Development of Your Project with "Branches"
+(rrr-vcs-workflow-branches)=
+## Desarrollo no lineal de tu proyecto con "Ramas"
 
-So you have your project and you want to add something new or try something out before reflecting the changes in the main project folder. To add something new, you can continue editing your files and save them with the proposed changes. Suppose you want to try something without reflecting the changes in the central repository. In that case, you can use the "branching" feature of more advanced version control systems such as Git. A branch creates a local copy of the main repository where you can work and try new changes. Any work you do on your branch will not be reflected on your main project (referred to as your main branch) so it remains secure and error-free. At the same time, you can test your ideas and troubleshoot in a local branch.
+Así que tienes tu proyecto y quieres añadir algo nuevo o probar algo antes de reflejar los cambios en la carpeta principal del proyecto. Para añadir algo nuevo, puedes continuar editando tus archivos y guardarlos con los cambios propuestos. Supongamos que desea intentar algo sin reflejar los cambios en el repositorio central. En ese caso, puede utilizar la función de "sucursal" de sistemas de control de versiones más avanzados como Git. Una rama crea una copia local del repositorio principal donde puede trabajar y probar nuevos cambios. Cualquier trabajo que realices en tu sucursal no se reflejará en tu proyecto principal (referido como tu sucursal principal) para que permanezca seguro y libre de errores. Al mismo tiempo, usted puede probar sus ideas y solucionar problemas en una sucursal local.
 
-When you are happy with the new changes, you can introduce them to the main project. The merge feature in Git allows the independent lines of development in a local branch to get integrated into the main branch.
+Cuando estés contento con los nuevos cambios, puedes presentarlos al proyecto principal. La característica de fusión en Git permite que las líneas de desarrollo independientes en una sucursal local se integren en la sucursal principal.
 
 ```{figure} ../../figures/one-branch.png
 ---
 name: one-branch
-alt: An illustration of a development and main branch in git
+alt: Una ilustración de un desarrollo y rama principal en git
 ---
-An illustration of a development and main branch in git.
+Una ilustración de un desarrollo y una rama principal en git.
 ```
 
-You can have more than one branch off of your main copy. If one of your branches ends up not working, you can either abandon it or delete it without impacting the main branch of your project.
+Puede tener más de una rama de su copia principal. Si una de sus sucursales termina sin funcionar, puede abandonarla o eliminarla sin afectar a la rama principal de su proyecto.
 
 ```{figure} ../../figures/two-branches.png
 ---
-name: two-branches
-alt: An illustration of two development branches and one main branch in git
+nombre: dos ramas
+alt: Una ilustración de dos ramas de desarrollo y una rama principal en git
 ---
-Two development branches and one main branch in git.
+Dos ramas de desarrollo y una rama principal en git.
 ```
 
-If you want, you can create branches from branches (and branches off of those branches and so on).
+Si quieres, puedes crear ramas a partir de ramas (y ramas fuera de esas ramas, etc.).
 
 ```{figure} ../../figures/sub-branch.png
 ---
-name: sub-branch1
-alt: An illustration of a development branch in git.
+nombre: sub-branch1
+alt: Una ilustración de una rama de desarrollo en git.
 ---
-A development branch in git.
+Una rama de desarrollo en git.
 ```
 
-No matter how many branches you have, you can access the past versions you made on any of them. If you are curious to know how to use this feature in practice, you will find more details a few sections ahead.
+No importa cuántas ramas tengas, puedes acceder a las versiones anteriores que hayas hecho en cualquiera de ellas. Si tienes curiosidad por saber cómo usar esta característica en la práctica, encontrarás más detalles a continuación algunas secciones.

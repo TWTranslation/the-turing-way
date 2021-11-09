@@ -1,92 +1,92 @@
 (cm-podcasts-personal-stories)=
-# Personal stories - Podcasts
+# 个人故事 - 播客
 
-## Zoe Ingram and Emma Harris: Orion Open Science Podcast
+## Zoe Ingram 和 Emma Harris: Orion Open Science Podcasts
 
-The ORION Open Science podcast is structured around a series of interviews with interesting guests about a variety of topics related to Open Science.
+ORION Open Science podcast 是围绕着与Open Science有关的各种专题对有兴趣的客人进行一系列访谈而组织的。
 
 It is also co-hosted and co-produced by **Dr. Luiza Bengtsson**.
 
-If you want to find out more information about the podcast then look at their [website](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) and the [podcast on PodBean](https://orionopenscience.podbean.com/).
+如果你想要了解更多关于播客的信息，请查看他们的 [网站](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) 和 [播客在 PodBean](https://orionopenscience.podbean.com/) 上。
 
-We would like to thank **Zoe Ingram** and **Emma Harris** for answering our interview questions about their very successful and enjoyable blog series.
+我们要感谢 **Zoe Ingram** and **Emma Harris** 回答我们的访谈问题，涉及他们非常成功和愉快的博客系列内容。
 
-## 1. Why did you start your podcast?
+## 1. 您为什么要开始播客？
 
-**Emma** - While there are a good number of podcasts on Open Science now (which is great), back in 2018 there was only Open Science Radio, which was excellent but often only in German.
+**Emma** - 虽然现在在开放科学上播客数量很多(太大)， 后来在2018年只有开放科学电台，它很好，但往往只用德语。
 
-**Zoe** - We are part of the Orion Open Science Project and our task is doing training so Luiza decided that doing the podcast as part of the training material would be a good idea.
+**缩放** - 我们是奥里昂开放科学项目的一部分，我们的任务是进行培训，因此Luiza决定把播客作为培训材料的一部分将是一个好主意。
 
-**Emma** - We felt that a podcast, with the format of interviews with experts on different topics, would be an easy and entertaining way of communicating open science concepts to researchers and others. Even with the rise of e-learning and online workshops, there is an upper limit on how many people you can reach with traditional training. The podcast allows everyone to have access, and for different aspects of open science to be explored in-depth.
+**Emma** - 我们觉得播客，与专家就不同专题进行访谈的形式， 这将是向研究人员和其他人传达开放科学概念的一种容易和有趣的方式。 即使在电子学习和在线讲习班增多的情况下，您能够接触到多少人的传统培训也有上限。 播客使每个人都能够进入，并深入探索开放科学的各个方面。
 
-## 2. How did you get started?
+## 2. 您是如何开始的？
 
-**Zoe** - It was something that none of us had done before. We had a colleague whose wife had skills in this area so she taught us how to get started. She gave Emma and Luiza feedback about speaking and how to adjust their voices for speaking on the podcast.
+**缩放** - 这是我们任何人以前都没有做过的事情。 我们有一位同事，他的妻子在这个领域拥有技能，因此她教我们如何开始工作。 她给了Emma和Luiza关于发言和如何调整他们在播客上发言的反馈意见。
 
-**Emma** - We just started interviewing people and learned by doing, so the early podcasts are lower in quality and we are pretty awkward! But slowly we learned to be more relaxed and how to handle the technical side of things more competently.
+**Emma** - 我们刚刚开始约谈人并从中学习。 所以早期播客质量较低，我们很难！ 但我们慢慢地学会了更加放松和如何更有效地处理问题的技术方面。
 
-**Zoe** - We did get a sound editor to help with it. This was for the technical and time constraint in doing this.
+**缩放** - 我们确实获得了一个声音编辑器来帮助它。 这是因为在这样做时遇到技术和时间限制。
 
-We made a jingle and there is a new jingle for the new season.
+我们做了一件大事，新季节有一只新的喷气机。
 
-## 3. What impact do you think your podcast is making on your research/project/community?
+## 3. 你认为你的播客对你的研究/项目/社区有什么影响？
 
-**Zoe** - It is hard to know who is listening as you are sending things out to a black box. We do get mail and feedback about the podcast from people that want to suggest themes and volunteer take part.
+**缩放** - 很难知道谁在倾听，因为您正在将物品发送到黑箱。 我们确实从想要推荐主题和志愿者参与的人那里获得关于播客的邮件和反馈。
 
-**Emma** - The global impact always makes me happy - we have people from all over the world on the show and have heard from listeners from even more countries. I think the podcast does not have a huge audience in numbers but it is very geographically diverse.
+**Emma** - 全球影响总是令我很高兴，我们让来自世界各地的人观看节目，并且听到了来自更多国家的听众的声音。 我认为，播客数量不大，但地域差异很大。
 
-The episodes are very useful and engaging on particular topics. For example, I recently gave a talk on Creative Commons Licenses and someone wrote to me who had missed it and wanted some information, so I referred them to the podcast episode we did with Cable Green, the CEO of Creative Commons. So they are an excellent open educational resource, as well as being generally interesting.
+这些事件对特定专题非常有用，很有意义。 例如，我最近谈到创意共用许可证问题，有人给我写了信，错过了这封信并想要一些信息。 所以我将他们转到了我们与创造性共处首席执行官Cable Green所做的播客剧集。 因此，它们是一种极好的开放教育资源，也是普遍令人感兴趣的。
 
-**Zoe** - I like talking to people and have missed our Institute's Beer Hour in which I got to meet and speak to scientists about their work. I enjoy having these types of conversations about open science.
+**缩放** - 我想与人交谈，错过了我们的研究所的啤酒一小时活动，我在这次活动中会见了科学家并与他们谈论他们的工作。 我喜欢这些类型的公开科学对话。
 
-I think the podcast is a format that is flexible and it is easier to follow a conversation than say listening to someone give a talk. This means that someone can listen to the podcast while they are doing another activity as it is a different way to take in information.
+我认为，播客是一种灵活的形式，跟着对话比听听某人说话更容易。 这意味着有人可以在进行另一项活动时收听播客，因为这是一种不同的信息方式。
 
-Luiza pointed out what a benefit it is for us to be able to learn so much from the guests. It is hard to stay on top of so many fast-paced developments. So, we are in that sense lucky to be able to get to the level of depth of information through the conversations and ask the questions that we want to be answered. I also think it connects people as they hear about other researchers work.
+Luiza指出，我们能够从客人那里学到这么多好处何在。 在如此众多的快速发展之外，很难保持前面。 因此，从这个意义上说，我们有幸能够通过谈话达到信息的深度，并提出我们想要回答的问题。 我还认为，当人们听到关于其他研究人员工作的情况时，它与他们联系在一起。
 
-## 4. What tools/software do you use most in your podcast?
+## 4. 您在播客中使用最多的工具/软件？
 
-**Emma** - The mic we used pre-pandemic was an H6 Zoom. For online interviews: Zencastr and a decent headset with a built-in mic. Editing was done on Adobe Premiere Pro.
+**Emma** - 我们使用的流行前的麦克风是 H6 缩放。 在线访谈：Zencastr和一个内置麦克风的体面耳机。 Adobe Premiere Pro进行了编辑。
 
-**Zoe** - The podcast is hosted on PodBean. We are thinking of going over to Audacity for editing as it is free, open source software.
+**缩放** - 播客托管在 PodBean。 我们正在考虑前往Audacity编辑，因为它是免费的，开放源码软件。
 
-## 5. Do you have any top tips for other people that might be interested in starting a podcast?
+## 5. 您对其他可能有兴趣开始播客的人有什么顶尖提示吗？
 
-**Emma** - Decide on your audience and cater to them, what are their concerns and interests? Create material that reflects those things.
+**Emma** - 决定你的受众并满足他们的需要和关切？ 创建反映这些东西的材料。
 
-It is incredibly hard to relax ‘on tape’, even if you are a good public speaker. It is normal to feel anxious so don’t be surprised if you get very tense. The best thing to do to overcome this is to press record and then just chat with people, even do some warm-up/ice breaker type exercises to get everyone comfortable.
+放松'on tape'是令人难以置信的，即使你是一个好的公开演讲者。 感到焦虑是正常的，因此如果你非常紧张，就不会感到惊奇。 克服这种情况的最好办法是按记录，然后只是与人聊天。 甚至做一些温暖/冰开关的练习，让每个人都感到舒适。
 
-You will hate your voice, everybody does, but you will learn to accept it in time. Aim to speak normally, as you would to someone sitting next to you. Smile when you speak, it makes a difference.
+你会憎恨你的声音，每个人都会这样做，但你会学会及时接受它。 目标是正常地说话，就像坐在你旁边的人一样。 说话时微笑，它是不同的。
 
-Always ensure you get people to say their name at least once on the recording so you have the correct pronunciation (and check people’s preferred pronouns too).
+总是确保您可以让人们在录音上至少说一次他们的名字，这样您就可以有正确的发音(并检查人们喜欢的话)。
 
-Take some brief notes as they speak so you can come back to earlier points or ask follow-up questions.
+在他们发言时留下一些简短的笔记，以便你能够回到早些时候的问题或提问后续问题。
 
-Aim for quality, not quantity, better to have one great episode a month than four okay ones. However, if you are looking to have a large audience it is probably best to be weekly or biweekly.
+争取质量而不是数量的目标，比四个月更容易出现一个伟大的故事。 然而，如果你想要有大量的听众，最好是每周或每两个星期。
 
-**Zoe** - Do it as a conversation and have an idea of the audience in mind. Make sure that you ask questions to get the information for listeners to put ideas into practice - empower people to take action.
+**缩放** - 把它作为一个对话来做，并想到受众。 请确保您提出问题以获取信息给听众以便将想法付诸实践。 - 授权人们采取行动。
 
-If you are trying to start a listener base, then try to interview people that have a lot of followers on Twitter so they can retweet.
+如果您正在尝试启动一个监听器库， 然后尝试采访在Twitter上有很多追随者的人，以便他们能够转播。
 
-Also, make sure you block the whole day for the interview as it is time-consuming and takes up a lot of energy.
+此外，请确保您封锁面谈的全天时间，因为它耗费大量精力。
 
-## 6. Do you have any tips on things to avoid?
+## 6. 您在事情上有什么要避免的提示吗？
 
-**Emma** - See other podcasts as opportunities for collaboration and cross-promotion, not competition.
+**Emma** - 查看其他播客作为协作和交叉促销的机会，而不是竞争。
 
-Don’t be vain: if you are interviewing you should try and ensure your guests sound good and edit your content down unless you are making a truly important point.
+不要徒劳无益：如果您正在约谈，您应尝试确保您的客人声音良好并编辑您的内容，除非您正在做出一个真正重要的点。
 
-Don’t be afraid to ask ‘stupid questions’: if you don’t understand something your listeners might not either.
+不要害怕问'愚蠢的问题'：如果你不理解你的听众可能也不会知道什么。
 
-**Zoe** - Nobody likes bad sound so don’t record in noisy environments - particularly outside in windy conditions.
+**缩放** - 没有人喜欢坏的声音，所以在噪音环境中不会录制-尤其是在风能条件之外。
 
-## 7. Where do you see your podcast going in the future?
+## 7. 你将来在哪里看到你的播客？
 
-**Zoe** - We presented a poster at the [Open Science Conference 2021](https://www.open-science-conference.eu/). It looked at the talks that had been covered and mapped these on to the [FOSTER taxonomy of Open Science](https://www.fosteropenscience.eu/resources). This has highlighted what topics we have covered most and what topics we still need to do.
+**缩放** - 我们在 [开放科学会议 2021 年](https://www.open-science-conference.eu/) 上展示了一个海报。 它审视了所涵盖的会谈，并将这些会谈绘制成 [FOSTER开放科学分类法](https://www.fosteropenscience.eu/resources)。 这突出了我们涵盖的大部分议题以及我们仍然需要做的议题。
 
-The podcast is part of the Orion open science project and this will end in September. So we are not happy that it might end and we are looking into how we can fund the podcast going forward.
+播客是奥里昂开放科学项目的一部分，将于9月结束。 因此，我们不高兴地看到它可能结束，我们正在研究如何为今后的播客提供资金。
 
-## 8. Is there anything else that you want to add to the interview that has not been covered in the questions above?
+## 8. 在面谈中是否还有其他问题没有涉及的内容？
 
-**Emma** - I guess to try and innovate, the podcast format can be quite similar to look at how radio programming has presented the material in different ways for inspiration. Find a unique content or format!
+**Emma** - 我猜想要尝试创新， 播客形式可以非常相似地看一看无线电节目如何以不同的方式展示材料以供启发。 找到唯一的内容或格式！
 
-*This interview was conducted by Emma Karoune.*
+*这次访谈是由Emma Karoune进行的。*

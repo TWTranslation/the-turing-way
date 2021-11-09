@@ -1,18 +1,18 @@
 (er)=
-# Guide for Ethical Research
+# 伦理研究指南
 
-***This guide covers topics related to ethical aspects in data science.***
+***本指南涵盖与数据科学伦理学方面有关的专题。***
 
-Data scientists make data-driven decisions that require the collection of data and model building approaches that can have serious implications for health, security, politics, society and everything associated with them. Researchers or any kind of stakeholders in data science have an obligation to consider the ethical standards and their impact of people's lives {cite:ps}`Loyola2020Ethics`.
+数据科学家作出以数据为驱动的决定，要求收集可能对健康产生严重影响的数据和建模办法。 安全、政治、社会和与之相关的一切。 数据科学领域的研究人员或任何利益攸关方都有义务考虑道德标准及其对人们生活的影响 {cite:ps}`Loyola2020道德操守`
 
 ```{figure} ../figures/ethics.jpg
 ---
-name: ethics
-alt: An illustration of a wooden judge hammer labeled with law is hitting a plank labeled with ethics with a quotation "consider necessary restriction around sharing different types of data
----
-Research Ethics. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+名称：伦理
+备选案文：一个标有法律标签的木质法官锤子的示例正在撞击一个标有道德操守的木质植物，引号为“认为共享不同类型数据的必要限制
+-
+研究道德操守。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-In this guide, we invite discussions and guidance on ethical considerations that a data scientist should keep in mind to ensure not only that their work maintains a high level of moral integrity, but also that their work is carried out at the highest scientific standards.
+在本指南中， 我们请就数据科学家应铭记的伦理考虑进行讨论和提供指导，以确保他们的工作不仅保持高度的道德操守。 而且他们的工作是按照最高的科学标准进行的。
 
-Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+看看我们的 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 以便参与。

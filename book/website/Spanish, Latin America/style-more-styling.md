@@ -1,73 +1,73 @@
-(ch-style-more-features)=
-# Glossary, Special Blocks and More Styling
+(ch-style-más-características)=
+# Glosario, Bloques Especiales y Más Estilos
 
-Jupyter Book offers more options for styling its chapters and creating a more comprehensive book. In this subchapter, we discuss a few more features that we recommend using in _The Turing Way_.
+Jupyter Book ofrece más opciones para diseñar sus capítulos y crear un libro más completo. En este subcapítulo, discutimos algunas características más que recomendamos usar en _The Turing Way_.
 
-(ch-style-more-features-glossary)=
+(ch-estilo-más-características-glosario)=
 ## Glossary
 
-_The Turing Way_ has a {ref}`glossary` file located in the Afterword of the book, which comprises of definitions of different terms in alphabetical order. This file can be updated with the definitions of new terms, which can then be linked to any chapter in the book where this term occurs.
+_La Vía Turística_ tiene un archivo {ref}`glosario` ubicado en la Después del libro, que comprende definiciones de diferentes términos en orden alfabético. Este archivo puede ser actualizado con las definiciones de nuevos términos, la cual puede ser vinculada a cualquier capítulo del libro donde se produce este término.
 
-To add an entry for a new term, please jump to the right alphabetical section of the {ref}`glossary` file and use the following syntax:
+Para agregar una entrada para un nuevo término, por favor salta a la sección alfabética derecha del archivo {ref}`glosario` y usa la siguiente sintaxis:
 
 ```
-New Term-1
-  A short sentence defining the term. This sentence is indented below the term.
+Nuevo término-1
+  Una frase corta que define el término. Esta frase está sangrada por debajo del término.
 ```
 
-For example, [terms starting with 'A'](https://the-turing-way.netlify.app/afterword/afterword.html#a) are written in the same text-block as shown below:
+Por ejemplo, [términos que empiezan con 'A'](https://the-turing-way.netlify.app/afterword/afterword.html#a) están escritos en el mismo bloque de texto como se muestra a continuación:
 ```
 
 ## A
 
 ```{glossary}
 
-Acceptance Testing
- A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+Pruebas de Aceptancia
+ Un nivel del proceso de prueba de software donde un sistema es probado para ser aceptado. El propósito de esta prueba es evaluar el cumplimiento del sistema con los requisitos del proyecto y evaluar si es aceptable para ese propósito.
 
-Add
- Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
+Añadir
+ Comando usado para agregar archivos al área de escenaje. Permite al usuario especificar qué archivos o directorios incluir en la próxima confirmación.
 
-Authors
-  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
+Autores
+  Autores en este contexto son los colaboradores del proyecto _The Turing Way_ que han realizado una contribución sustancial al proyecto como escribir un subcapítulo, facilitando las interacciones comunitarias, manteniendo la infraestructura del proyecto y apoyando la participación de otros a través de contribuciones tuteladas. Todos los autores son coautores del libro en su conjunto.
 
 ```
 
-To reference terms in your glossary, use the syntax ``[{term}`def<Term>`]``.
+Para referenciar términos en su glosario, utilice la sintaxis ``[{term}`def<Term>`]``.
 
-For example, to link the term 'Authors' to its definition in the glossary file, please use the syntax ``[{term}`def<Authors>`]`` next to where this term appears, which should render online like this: "*Authors [{term}`def<Authors>`] has been referenced here.*"
+Por ejemplo, para vincular el término "Autores" a su definición en el archivo glosario, por favor utilice la sintaxis ``[{term}`def<Authors>`]`` al lado de donde aparece este término, que debería mostrar en línea así: "*Autores [{term}`def<Authors>`] ha sido referenciado aquí.*"
 
-(ch-style-more-features-blocks)=
-## Special Content Blocks
+(ch-style-más-características-bloques)=
+## Bloques de contenido especiales
 
-When writing a new chapter or revising an existing one, you may wish to add notes that do not fit in with the rest of the chapter's narrative but may be useful to the readers and help them understand the chapter better.
+Al escribir un nuevo capítulo o revisar uno existente, puede querer añadir notas que no encajen en el resto del capítulo narrativo pero que pueden ser útiles para los lectores y ayudarles a entender mejor el capítulo.
 
-Jupyter Book allows the use of special content blocks to highlight a piece of text that needs to stand out from the rest the content on a page. This visually separates the block of text from the rest of the page, and ensures that it easily captures the reader's attention.
+El Libro de Jupyter permite el uso de bloques de contenido especiales para resaltar un fragmento de texto que necesita destacar del resto del contenido de una página. Esto separa visualmente el bloque de texto del resto de la página, y asegura que capte fácilmente la atención del lector.
 
-To add a special content block (note, warning or admonition) to your page, use the following directive:
+Para añadir un bloque de contenido especial (nota, advertencia o advertencia) a su página, utilice la siguiente directiva:
 
 ````
 ```{note}
-This is a sample note!
+¡Esta es una nota de ejemplo!
 ```
 ````
-which renders as follows:
+que se muestra de la siguiente manera:
 
 ```{note}
-This is a sample note!
+¡Esta es una nota de ejemplo!
 ```
 
-You can give content blocks custom titles and styling to reinforce your intended message. For example, if you wanted to warn the reader about something, you may make a warning block using the following directive:
+Puedes dar a los bloques de contenido títulos personalizados y estilo para reforzar el mensaje previsto. Por ejemplo, si quieres avisar al lector sobre algo, puedes hacer un bloque de advertencia usando la siguiente directiva:
 
 ````
 ```{warning}
-This is a stern warning!
+¡Esta es una advertencia severa!
 ```
 ````
-Note the new title, icon, and colour scheme.
+Tenga en cuenta el nuevo título, icono y esquema de colores.
 
 ```{warning}
-This is a stern warning!
+¡Esta es una severa advertencia!
 ```
 
-There are many more ways to customise content blocks to suit your writing needs. Refer to the [Jupyter Book documentation](https://jupyterbook.org/content/content-blocks.html#notes-warnings-and-other-admonitions) and the [Admonition Demo page](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions) for more recommendations.
+Hay muchas más maneras de personalizar los bloques de contenido para adaptarse a sus necesidades de escritura. Consulte la [documentación del libro de Jupyter](https://jupyterbook.org/content/content-blocks.html#notes-warnings-and-other-admonitions) y la [página de demostración de admonición](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions) para obtener más recomendaciones.

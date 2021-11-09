@@ -1,29 +1,29 @@
-(rr-reviewing)=
-# Code Reviewing Process
+(rr-revisión)=
+# Proceso de revisión de código
 
-(rr-reviewing-prerequisites)=
-## Prerequisites
+(rr-revisión-prerrequisitos)=
+## Prerrequisitos
 
-| Prerequisite                         | Importance | Notes                                                                                                                                  |
-| ------------------------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| {ref}`Version Control<rr-vcs>` | Necessary  | Understanding the way that [Github](https://github.com) arranges its branches, forks, and pull requests within repositories is needed. |
+| Prerrequisito                             | Importancia | Notas                                                                                                                                            |
+| ----------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| {ref}`Control de versiones<rr-vcs>` | Necesario   | Entender la manera en que [Github](https://github.com) arregla sus ramas, bifurcaciones y pull requests dentro de los repositorios es necesario. |
 
 ```{figure} ../figures/bug-catching.jpg
 ---
 height: 500px
 name: bug-catching
-alt: People catching different insects in different ways - representing bugs in our code or project.
+alt: Gente captando diferentes insectos de diferentes maneras - representando errores en nuestro código o proyecto.
 ---
-Catching bugs. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Capturando errores. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-reviewing-summary)=
+(reseña-reseña)=
 ## Summary
 
-Code review provides an additional way of testing code quality. Instead of relying simply on {ref}`tests<rr-testing>` which the original author puts together themselves, code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
+La revisión de código proporciona una forma adicional de probar la calidad del código. En lugar de depender simplemente de {ref}`pruebas<rr-testing>` que el autor original se reúne ellos mismos. la revisión de código obtiene otro programador para revisar el nuevo código y evaluarlo. El objetivo es señalar las fortalezas y también las posibles áreas de mejora.
 
-Code review is often done in pairs, with each reviewer also having some of their code reviewed by their partner. Doing this can help programmers to see and discuss issues and alternative approaches to tasks, and to learn new tips and tricks. This also means code review practices are particularly well-suited to projects with more than one contributor making changes, where each is working on different parts of the code. Nonetheless, even the smallest scale projects can harness these approaches with some creative project management.
+La revisión de código a menudo se hace en parejas, y cada revisor también tiene parte de su código revisado por su pareja. Hacer esto puede ayudar a los programadores a ver y discutir temas y enfoques alternativos a las tareas, y a aprender nuevos consejos y trucos. Esto también significa que las prácticas de revisión de código están especialmente bien adaptadas a proyectos con más de un colaborador haciendo cambios, donde cada uno está trabajando en diferentes partes del código. Sin embargo, incluso los proyectos a pequeña escala pueden aprovechar estos enfoques con una gestión de proyectos creativa.
 
-Because of their nature, code reviews act as qualitative - rather than quantitative - tests but are no less valuable for that.
+Debido a su naturaleza, las revisiones de código actúan como pruebas cualitativas - en lugar de cuantitativas - pero no son menos valiosas para ello.
 
-This section will provide an overview of rationales, best practices, and some possible workflows for code review. Some details refer specifically to GitHub's code review functionality as a powerful and widely-used example of a formal code review system; however, equivalent and very similar systems are available elsewhere (for example, [GitLab](https://about.gitlab.com)), and even informal code review practices can also be very beneficial to a project.
+Esta sección proporcionará una visión general de las racionales, las mejores prácticas y algunos posibles flujos de trabajo para la revisión de código. Algunos detalles se refieren específicamente a la funcionalidad de revisión de código de GitHub como un ejemplo poderoso y ampliamente utilizado de un sistema formal de revisión de código; sin embargo, sistemas equivalentes y muy similares están disponibles en otros lugares (por ejemplo, [GitLab](https://about.gitlab.com)), e incluso las prácticas informales de revisión de código también pueden ser muy beneficiosas para un proyecto.

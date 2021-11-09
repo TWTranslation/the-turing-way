@@ -1,92 +1,92 @@
-(cm-podcasts-personal-stories)=
-# Personal stories - Podcasts
+(م-podcasts-شخصي-قصص) =
+# القصص الشخصية - Podcasts
 
-## Zoe Ingram and Emma Harris: Orion Open Science Podcast
+## Zoe Ingram و Emma Harris: Orion Open Science Podcast
 
-The ORION Open Science podcast is structured around a series of interviews with interesting guests about a variety of topics related to Open Science.
+ويتمحور برنامج البحث العلمي المفتوح حول سلسلة من المقابلات مع ضيوف مثيرين للاهتمام حول مجموعة متنوعة من المواضيع المتصلة بالعلم المفتوح.
 
-It is also co-hosted and co-produced by **Dr. Luiza Bengtsson**.
+يشترك في استضافتها وإنتاجها **الدكتور لويزا بنغتسون**.
 
-If you want to find out more information about the podcast then look at their [website](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) and the [podcast on PodBean](https://orionopenscience.podbean.com/).
+إذا كنت ترغب في معرفة المزيد من المعلومات حول البث الصوتي (podcast ) فانظروا إلى موقعهم على [](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) و [podcast على PodBean](https://orionopenscience.podbean.com/).
 
-We would like to thank **Zoe Ingram** and **Emma Harris** for answering our interview questions about their very successful and enjoyable blog series.
+نود أن نشكر **Zoe Ingram** و **Emma Harris** على الإجابة على أسئلتنا المقابلة حول سلسلة مدونتهم الناجحة والممتعة.
 
-## 1. Why did you start your podcast?
+## 1. لماذا بدأت تشغيل podcast؟
 
-**Emma** - While there are a good number of podcasts on Open Science now (which is great), back in 2018 there was only Open Science Radio, which was excellent but often only in German.
+**إيما** - بينما يوجد عدد كبير من ملفات podcasts على العلم المفتوح الآن (وهو أمر كبير)، في عام 2018 كان هناك فقط إذاعة العلوم المفتوحة، وهي إذاعة ممتازة ولكن غالباً ما تكون باللغة الألمانية فقط.
 
-**Zoe** - We are part of the Orion Open Science Project and our task is doing training so Luiza decided that doing the podcast as part of the training material would be a good idea.
+**Zoe** - نحن جزء من مشروع أوريون للعلوم المفتوحة ومهمتنا تقوم بالتدريب لذلك قرر لويزا أن القيام بالبث الصوتي كجزء من مواد التدريب سيكون فكرة جيدة.
 
-**Emma** - We felt that a podcast, with the format of interviews with experts on different topics, would be an easy and entertaining way of communicating open science concepts to researchers and others. Even with the rise of e-learning and online workshops, there is an upper limit on how many people you can reach with traditional training. The podcast allows everyone to have access, and for different aspects of open science to be explored in-depth.
+**إيما** - شعرنا أن podcast، مع تنسيق المقابلات مع الخبراء حول مواضيع مختلفة، ستكون طريقة سهلة وممتعة لتوصيل المفاهيم العلمية المفتوحة إلى الباحثين وغيرهم. وحتى مع ارتفاع مستوى التعلم الإلكتروني وحلقات العمل عبر الإنترنت، هناك حد أعلى لعدد الأشخاص الذين يمكن الوصول إليهم مع التدريب التقليدي. ويسمح البودلاست للجميع بالوصول إليهم، كما يسمح باستكشاف مختلف جوانب العلم المفتوح بصورة متعمقة.
 
-## 2. How did you get started?
+## 2. كيف بدأت؟
 
-**Zoe** - It was something that none of us had done before. We had a colleague whose wife had skills in this area so she taught us how to get started. She gave Emma and Luiza feedback about speaking and how to adjust their voices for speaking on the podcast.
+**Zoe** - كان شيئا لم يفعله أي منا من قبل. وكان لدينا زميلة كانت زوجتها لديها مهارات في هذا المجال بحيث علمتنا كيف نبدأ من العمل. وأعطت إيما ولويزا تعليقات حول الكلام وكيفية تعديل أصواتهما للتحدث على البث الصوتي (podcast).
 
-**Emma** - We just started interviewing people and learned by doing, so the early podcasts are lower in quality and we are pretty awkward! But slowly we learned to be more relaxed and how to handle the technical side of things more competently.
+**إيما** - بدأنا للتو في مقابلة الناس وتعلمنا عن طريق العمل، لذا فإن البودكاست في وقت مبكر أقل جودة ونحن محرجون جداً! لكننا تعلمنا ببطء أن نكون أكثر رخاء وكيفية التعامل مع الجانب التقني من الأشياء بشكل أكثر كفاءة.
 
-**Zoe** - We did get a sound editor to help with it. This was for the technical and time constraint in doing this.
+**Zoe** - حصلنا على محرر صوت للمساعدة في ذلك. وكان ذلك بسبب القيود التقنية والزمنية في القيام بذلك.
 
-We made a jingle and there is a new jingle for the new season.
+لقد صنعنا جينج وهناك جينج جديد للموسم الجديد.
 
-## 3. What impact do you think your podcast is making on your research/project/community?
+## 3. ما هو التأثير الذي تعتقد أن podcast الخاص بك يحدثه على بحثك/مشروع/مجتمعك؟
 
-**Zoe** - It is hard to know who is listening as you are sending things out to a black box. We do get mail and feedback about the podcast from people that want to suggest themes and volunteer take part.
+**Zoe** - من الصعب معرفة من يستمع لأنك ترسل الأشياء إلى صندوق سوداء. نحن نحصل على بريد وردود فعل حول البث الصوتي من الناس الذين يريدون اقتراح مواضيع ويشاركون متطوعين.
 
-**Emma** - The global impact always makes me happy - we have people from all over the world on the show and have heard from listeners from even more countries. I think the podcast does not have a huge audience in numbers but it is very geographically diverse.
+**إيما** - التأثير العالمي يجعلني دائما سعداء - لدينا أشخاص من جميع أنحاء العالم في العرض وسمعوا من المستمعين من المزيد من البلدان. وأعتقد أن البودلاست ليس لديها جمهور هائل من حيث الأعداد ولكنها شديدة التنوع جغرافيا.
 
-The episodes are very useful and engaging on particular topics. For example, I recently gave a talk on Creative Commons Licenses and someone wrote to me who had missed it and wanted some information, so I referred them to the podcast episode we did with Cable Green, the CEO of Creative Commons. So they are an excellent open educational resource, as well as being generally interesting.
+وهذه الحلقات مفيدة جدا وتنخرط في مواضيع معينة. على سبيل المثال ، لقد ألقيت حديثاً عن رخص المشاع الإبداعي ، وكتب لي شخص اختفى منه وأريد بعض المعلومات ، لذلك أحالتها إلى حلقة البث الصوتي التي قمنا بها مع كابل أخضر، الرئيس التنفيذي للمشاركين الإبداعيين. لذا فهي مورد تعليمي ممتاز مفتوح، فضلا عن كونها مثيرة للاهتمام عموما.
 
-**Zoe** - I like talking to people and have missed our Institute's Beer Hour in which I got to meet and speak to scientists about their work. I enjoy having these types of conversations about open science.
+**Zoe** - أنا أحب التحدث مع الناس وقد فاتت ساعة بيرة المعهد التي يجب أن ألتقي بها وأن أتحدث إلى العلماء عن عملهم. أنا أستمتع بوجود هذه الأنواع من المحادثات حول العلوم المفتوحة.
 
-I think the podcast is a format that is flexible and it is easier to follow a conversation than say listening to someone give a talk. This means that someone can listen to the podcast while they are doing another activity as it is a different way to take in information.
+أعتقد أن البودلاست هي صيغة مرنة ومن الأسهل متابعة محادثة من القول إن الاستماع إلى شخص ما يعطي محادثة. وهذا يعني أنه يمكن لشخص ما أن يستمع إلى البث الصوتي في الوقت الذي يقوم فيه بنشاط آخر لأنه طريقة مختلفة لأخذ المعلومات.
 
-Luiza pointed out what a benefit it is for us to be able to learn so much from the guests. It is hard to stay on top of so many fast-paced developments. So, we are in that sense lucky to be able to get to the level of depth of information through the conversations and ask the questions that we want to be answered. I also think it connects people as they hear about other researchers work.
+وأشار لويزا إلى الفائدة التي يمكن أن نجنيها من أن نتعلم الكثير من الضيوف. ومن الصعب أن نبقى على رأس هذا العدد الكبير من التطورات السريعة الوتيرة. لذا، نحن محظوظون بهذا المعنى لنتمكن من الوصول إلى مستوى عمق المعلومات من خلال المحادثات ونطرح الأسئلة التي نريد الإجابة عليها. وأعتقد أيضا أنه يربط الناس بينما يسمعون عن الباحثين الآخرين.
 
-## 4. What tools/software do you use most in your podcast?
+## 4. ما هي الأدوات/البرامج التي تستخدمها أكثر في podcast؟
 
-**Emma** - The mic we used pre-pandemic was an H6 Zoom. For online interviews: Zencastr and a decent headset with a built-in mic. Editing was done on Adobe Premiere Pro.
+**إيما** - الميكروبات التي استخدمناها ما قبل الوباء كانت زيوت H6. للمقابلات عبر الإنترنت: زنكاستر وسماعة رأس لائقة مع ميكروفون مدمج. تم التحرير على Adobe Premiere Pro.
 
-**Zoe** - The podcast is hosted on PodBean. We are thinking of going over to Audacity for editing as it is free, open source software.
+**Zoe** - يتم استضافة podcast على PodBean. ونحن نفكر في الذهاب إلى "إيدكاسيت" للتحرير لأنها برمجيات مفتوحة المصدر.
 
-## 5. Do you have any top tips for other people that might be interested in starting a podcast?
+## 5. هل لديك أي نصائح أعلى لأشخاص آخرين قد تكون مهتمة ببدء تشغيل podcase؟
 
-**Emma** - Decide on your audience and cater to them, what are their concerns and interests? Create material that reflects those things.
+**إيما** - تقرر على جمهورك وتساعدهم، ما هي شواغلهم واهتماماتهم؟ إنشاء مواد تعكس تلك الأشياء.
 
-It is incredibly hard to relax ‘on tape’, even if you are a good public speaker. It is normal to feel anxious so don’t be surprised if you get very tense. The best thing to do to overcome this is to press record and then just chat with people, even do some warm-up/ice breaker type exercises to get everyone comfortable.
+من الصعب بشكل لا يصدق الاسترخاء "على الشريط"، حتى لو كنت ناطقا عاما جيدا. من الطبيعي أن نشعر بالقلق لذلك لا يفاجأون إذا شعرت بالتوتر الشديد. أفضل ما يمكن فعله للتغلب على هذا هو الضغط على التسجيل ومن ثم التحدث مع الناس. حتى القيام ببعض تمارين تحطيم الحرارة/الجليد للحصول على الراحة للجميع.
 
-You will hate your voice, everybody does, but you will learn to accept it in time. Aim to speak normally, as you would to someone sitting next to you. Smile when you speak, it makes a difference.
+سوف تكره صوتك، الجميع يفعلون، لكنك سوف تتعلم قبوله في الوقت المناسب. تهدف إلى التحدث بشكل طبيعي، كما ستفعل لشخص يجلس بجوارك. ابتسامة عندما تتكلم، فإنها تحدث فرقا.
 
-Always ensure you get people to say their name at least once on the recording so you have the correct pronunciation (and check people’s preferred pronouns too).
+تأكد دائمًا من حمل الناس على قول اسمهم مرة واحدة على الأقل في التسجيل حتى يكون لديك النطق الصحيح (وفحص الضمائر المفضلة للناس أيضًا).
 
-Take some brief notes as they speak so you can come back to earlier points or ask follow-up questions.
+خذ بعض الملاحظات الموجزة أثناء التكلم بحيث يمكنك العودة إلى النقاط السابقة أو طرح أسئلة المتابعة.
 
-Aim for quality, not quantity, better to have one great episode a month than four okay ones. However, if you are looking to have a large audience it is probably best to be weekly or biweekly.
+الهدف من النوعية، وليس الكمية، من الأفضل أن يكون هناك حلقة عظيمة في الشهر أكثر من أربع حلقات حسنة. ومع ذلك، إذا كنت تبحث عن عدد كبير من الجمهور، فمن الأفضل أن تكون أسبوعيا أو كل أسبوعين.
 
-**Zoe** - Do it as a conversation and have an idea of the audience in mind. Make sure that you ask questions to get the information for listeners to put ideas into practice - empower people to take action.
+**Zoe** - قم بذلك كمحادثة ولديك فكرة عن الجمهور في أذهاننا. تأكد من أنك تطرح أسئلة للحصول على معلومات للمستمعين لوضع الأفكار في الواقع العملي - تمكين الناس من اتخاذ إجراءات.
 
-If you are trying to start a listener base, then try to interview people that have a lot of followers on Twitter so they can retweet.
+إذا كنت تحاول بدء قاعدة المستمع، ثم حاول مقابلة أناس لديهم الكثير من الأتباع على تويتر حتى يتمكنوا من إعادة التغريد.
 
-Also, make sure you block the whole day for the interview as it is time-consuming and takes up a lot of energy.
+وأيضا، تأكد من حجب اليوم بأكمله لإجراء المقابلة لأنه يستغرق وقتاً طويلاً ويستهلك الكثير من الطاقة.
 
-## 6. Do you have any tips on things to avoid?
+## 6. هل لديك أي نصائح حول الأشياء التي يجب تجنبها؟
 
-**Emma** - See other podcasts as opportunities for collaboration and cross-promotion, not competition.
+**إيما** - انظر إلى podcasts الأخرى كفرص للتعاون والترويج المتبادل، وليس للمنافسة.
 
-Don’t be vain: if you are interviewing you should try and ensure your guests sound good and edit your content down unless you are making a truly important point.
+لا تذهب سدياً: إذا كنت تجري مقابلة فيجب عليك أن تحاول التأكد من أن ضيوفك يبدوا صوتهم جيداً ويحرروا محتواك ما لم تقم بإثارة نقطة هامة حقاً.
 
-Don’t be afraid to ask ‘stupid questions’: if you don’t understand something your listeners might not either.
+لا تخشى أن تسأل "أسئلة غبية": إذا لم تفهم شيئًا ما قد لا يفهمه المستمعون لديك.
 
-**Zoe** - Nobody likes bad sound so don’t record in noisy environments - particularly outside in windy conditions.
+**Zoe** - لا أحد يحب الصوت السيئ لذلك لا يسجل في البيئات الضوئية - خاصة في ظروف الرياح.
 
-## 7. Where do you see your podcast going in the future?
+## 7. أين ترون أن البث الصوتي الخاص بك يذهب في المستقبل؟
 
-**Zoe** - We presented a poster at the [Open Science Conference 2021](https://www.open-science-conference.eu/). It looked at the talks that had been covered and mapped these on to the [FOSTER taxonomy of Open Science](https://www.fosteropenscience.eu/resources). This has highlighted what topics we have covered most and what topics we still need to do.
+**Zoe** - قدمنا ملصقا في [مؤتمر العلوم المفتوح 2021](https://www.open-science-conference.eu/). نظرت في المحادثات التي تم تغطيتها ورسم خرائط لها إلى تصنيف [FOSTER للعلم المفتوح](https://www.fosteropenscience.eu/resources). وقد سلط هذا الضوء على المواضيع التي غطناها أكثر، وعلى المواضيع التي ما زال يتعين علينا أن نفعلها.
 
-The podcast is part of the Orion open science project and this will end in September. So we are not happy that it might end and we are looking into how we can fund the podcast going forward.
+البودلاست هي جزء من مشروع أوريون للعلوم المفتوحة، وسوف ينتهي هذا في أيلول/سبتمبر. ولذلك فإننا لسنا سعداء بأن ينتهي الأمر وننظر في الكيفية التي يمكننا بها تمويل البث الصوتي الذي يمضي قدما.
 
-## 8. Is there anything else that you want to add to the interview that has not been covered in the questions above?
+## 8. هل هناك أي شيء آخر تريد إضافته إلى المقابلة التي لم تتم تغطيتها في الأسئلة الواردة أعلاه؟
 
-**Emma** - I guess to try and innovate, the podcast format can be quite similar to look at how radio programming has presented the material in different ways for inspiration. Find a unique content or format!
+**إيما** - أعتقد أنني أحاول الابتكار، ويمكن أن يكون شكل البث الصوتي (podcast case) مماثلا تماما للنظر في الكيفية التي قدمت بها البرامج الإذاعية المواد بطرق مختلفة للإلهام. ابحث عن محتوى أو تنسيق فريد!
 
-*This interview was conducted by Emma Karoune.*
+*وأجرت هذه المقابلة السيدة إيما كاروني.*

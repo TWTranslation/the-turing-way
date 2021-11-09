@@ -2,38 +2,38 @@
 # Checklist
 
 (rr-open-checklist-data)=
-## Open Data
+## 打开数据
 
 
-- Ensure your data is in a simple, standard format or formats which is machine and human-readable.
-- Check, reformat or create metadata to clearly describe what the data is, how it was collected, and any associated strengths/weaknesses to someone that finds it.
-- Identify a relevant, easily discoverable repository or repositories to host your data, and upload it there.
-- Assign your data a persistent identifier such as a DOI.
+- 确保您的数据以简单、标准格式或格式为机器和可读格式。
+- 检查、 改革或创建元数据以明确描述数据是什么，它是如何收集的，以及与找到数据的人相关的优点/弱点。
+- 识别一个相关的、易于发现的存储库或存储库来托管您的数据，并将其上传到那里。
+- 给您的数据分配一个持久标识符，例如一个 DOI。
 
 (rr-open-checklist-software)=
-## Open Source Software
+## 开源软件
 
-- Put your code in a freely accessible repository.
-- Include a licence granting others the right to use, copy and modify your work. You can use the {ref}`rr-licensing` chapter to help you pick the most appropriate licence for your project.
-- Include a README file containing useful information about a project such as what it is, how to use/install it and how to run any tests.
-- If you want others to collaborate on the project include contribution guidelines.
+- 将您的代码放入一个可自由访问的仓库中。
+- 包括授予他人使用、复制和修改您的作品的权利。 您可以使用 {ref}`rrr-authorization` 章节来帮助您选择最适合您项目的许可证。
+- 包含一个包含有用信息的README文件，例如它是什么，如何使用/安装它，以及如何运行任何测试。
+- 如果你想要他人在该项目上进行合作，包括贡献准则。
 
 (rr-open-checklist-hardware)=
-## Open Hardware
+## 打开硬件
 
-- Use open hardware where practical.
-- Make detailed documentation and designs for any hardware you develop openly available.
-- Include a licence granting others the right to use, copy and modify your work. You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
-- Include a README file containing useful information about a project (for example, what it is and the materials used).
+- 在实际情况下使用打开的硬件。
+- 公开提供您开发的任何硬件的详细文档和设计。
+- 包括授予他人使用、复制和修改您的作品的权利。 You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
+- 包含一个README 文件，其中包含关于一个项目的有用信息(例如，它是什么和使用的材料)。
 
 (rr-open-checklist-access)=
-## Open Access
+## 打开访问
 
-- Publish your research in an open-access journal.
-- Store a copy or preprint of your work in a freely accessible public repository.
+- 在公开访问日志中发布您的研究。
+- 将您的作品的副本或预印存储在一个可自由访问的公共仓库中。
 
-(rr-open-checklist-notebooks)=
-## Open Notebooks
+(rr-opened checklist-notebooks)=
+## 打开笔记本
 
-- Keep notes in an Electronic Lab Notebook.
-- Make your notebooks publicly accessible online.
+- 在电子实验室笔记本中保留笔记。
+- 使您的笔记本可在线查阅。

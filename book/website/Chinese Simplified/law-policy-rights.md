@@ -1,51 +1,51 @@
-(er-law-policy-rights)=
-# Human rights
+(er-law-policy rights)=
+# 人权
 
-Human rights and ethics have a close relationship, but they are defined and implemented differently.
+人权和伦理有着密切的关系，但对人权和伦理有不同的定义和执行。
 
-## What are human rights?
+## 什么是人权？
 
-_All human beings are born free and equal in dignity and rights_ (Universal Declaration of Human Rights, Article 1.)
+_人人生而自由，在尊严和权利上一律平等_ (《世界人权宣言》第1条)
 
-Human rights are the rights and freedoms that are inherent to every human being. They include rights like the rights to life, to equality before the law, to freedom from discrimination, to privacy, to education, and to health.
+人权是每个人固有的权利和自由。 这些权利包括生命权、法律面前人人平等、免受歧视、隐私权、教育权和健康权等权利。
 
-Human rights are _universal_: they apply to every human being, without exception. Human rights are _inalienable_: they cannot be taken away or limited, except under very specific and defined circumstances. Human rights are _indivisible and interdependent_: we cannot have some rights without others.
+人权是 _普遍的_：它们毫无例外地适用于每一个人。 人权是 _不可剥夺的_：除非在非常具体和明确的情况下，不能剥夺或限制人权。 人权是 _不可分割和相互依存的_：没有其他权利，我们就不可能有一些权利。
 
-## What is human rights law?
+## 什么是人权法？
 
-Human rights law is made up of conventions and covenants - legal instruments - that are signed by countries. These instruments are legally binding: this means that all countries who sign up to them take on legal duties and obligations. These include the obligations to:
-- **respect**: to not do anything that violates human rights;
-- **protect**: to ensure that individuals and groups do not have their human rights abused or violated;
-- **fulfil**: to take action to make sure that individuals and groups are able to enjoy their human rights.
+人权法由各国签署的公约和盟约——法律文书组成。 这些文书具有法律约束力：这意味着所有签署这些文书的国家都承担法律义务和义务。 这些义务包括：
+- **尊重**: 不做任何侵犯人权的事情;
+- **保护**: 确保个人和群体的人权不会受到侵犯或侵犯;
+- **完成**: 采取行动以确保个人和群体能够享有其人权。
 
 <!--- add Scriberia human rights illustration here -->
 
-Some human rights law is made at global level, by the United Nations. There are nine [core human rights instruments](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). They include general instruments on civil and political rights, and on economic, social and cultural rights, as well as instruments that cover specific people, such as children or people with disabilities, or specific topics, such as torture or racial discrimination. Each of these instruments is overseen by a committee of experts: a 'treaty body.' Every few years, each country who has signed a human rights instrument has to report to the treaty body on how well they are implementing the treaty. The treaty body makes recommendations on how the country can continue to improve its implementation. The treaty bodies also periodically issue more detailed guidance on how to interpret different articles of their treaty, to help countries understand better what their obligations are.
+有些人权法是由联合国在全球一级制定的。 There are nine [core human rights instruments](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). 这些文书包括关于公民权利和政治权利的一般性文书、关于经济、社会和文化权利的一般性文书以及关于特定人民的文书。 例如儿童或残疾人，或酷刑或种族歧视等特定专题。 每一项文书都由一个专家委员会负责监督：“条约机构”。 每隔几年 每个已签署人权文书的国家都必须向条约机构报告它们执行条约的情况。 条约机构就该国如何继续改进其执行情况提出建议。 条约机构还定期就如何解释条约的不同条款发布更详细的指导意见。 帮助各国更好地理解其义务是什么。
 
-There are also regional human rights instruments:
+还有一些区域人权文书：
 - [African Charter on Human and People's Rights](https://au.int/en/treaties/african-charter-human-and-peoples-rights), which covers 54 of the 55 members of the [African Union](https://au.int/en/member_states/countryprofiles2).
-- [American Convention on Human Rights](http://cidh.oas.org/Basicos/English/Basic3.American%20Convention.htm), which covers 23 of the 35 members of the [Organization of American States](http://www.oas.org/en/about/member_states.asp).
-- [European Convention on Human Rights](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005), which covers the 47 members of the [Council of Europe](https://www.coe.int/en/web/about-us/our-member-states).
+- [American Convention on Human Rights](http://cidh.oas.org/Basicos/English/Basic3.American%20Convention.htm), which includes 23 of the 35 members of the [Organization of American States](http://www.oas.org/en/about/member_states.asp).
+- [European Convention on Human Rights](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005), which include the 47 members of the [Council of Europe](https://www.coe.int/en/web/about-us/our-member-states)
 - [Charter of Fundamental Rights of the European Union](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT), which covers the 27 members of the [European Union](https://europa.eu/european-union/about-eu/countries_en)
 
-Some countries have ratified some of the treaties that apply to them: this means that they have incorporated the content of the the treaties into their national law. Many countries also have a national human rights institution, which independently monitors and investigates human rights violations in that country, and advises the government on implementing their obligations.
+一些国家已经批准了一些适用于它们的条约：这意味着它们已经将这些条约的内容纳入了本国法律。 许多国家还设立了国家人权机构，独立监测和调查该国侵犯人权的情况。 并就履行其义务向政府提供咨询意见。
 
-Countries that have signed treaties have committed to implementing them. However, the process of implementing treaties in full, so that every person in a country can enjoy all the rights in a treaty, is very long and requires lots of actions from states. Campaigning groups, including non-governmental organisations, work to narrow the gap between what countries have promised to do, and what they have actually done so far. Some campaigning groups are international and work on lots of different human rights issues. Some work only on a small number of issues, or in a small area of the world.
+已签署条约的国家承诺执行这些条约。 但是，充分执行条约的进程，以便一国的每个人都能享受条约中的所有权利。 这需要各国采取大量行动。 包括非政府组织在内的运动团体努力缩小各国已经承诺做什么与迄今实际做什么之间的差距。 一些宣传小组是国际性的，就许多不同的人权问题开展工作。 有些问题只涉及少数几个问题，或在世界上一小部分地区。
 
-## How do human rights apply to data science and research ethics?
+## 人权如何适用于数据科学和研究伦理？
 
-Human rights are defined in law. This means in many ways they are less malleable than ethics. The letter of human rights, and the ways that they are implemented, are agreed internationally, A violation of human rights is a violation wherever it happens. This is not necessarily true of codes of ethics. An action that one group of people sees as ethical, may be seen as unethical by others. There is a wider shared understanding of what human rights means across different countries, cultures and groups of people. There are accountability and enforcement mechanisms. But because they are a legal framework, they are not as easily accessible, and hard to apply to the daily work of data science and research.
+人权在法律中作了界定。 这在许多方面意味着它们不如伦理那样易腐。 人权文书及其落实方式已在国际上得到一致同意， 侵犯人权不论发生在何处，都是一种侵权行为。 道德守则不一定如此。 一群人视之为道德行为的行为可能被其他人视为不道德行为。 对人权在不同国家、文化和群体中的含义有更广泛的共同理解。 有问责和强制执行机制。 但由于它们是一个法律框架，不那么容易获得。 并努力应用于数据科学和研究的日常工作。
 
-Human rights treaties are signed by countries: that means that ultimately, it is countries that are held responsible for violations of human rights. However, that does not mean that researchers and data scientists are exempt from thinking about the human rights impact of their work!
+各国签署了人权条约：这意味着最终要追究侵犯人权行为责任的是国家。 然而，这并不意味着研究人员和数据科学家可以不考虑其工作对人权的影响！
 
-The UN has produced specific guidance for companies on how to ensure that they respect human rights: the [UN Guiding Principles on Business and Human Rights](https://www.business-humanrights.org/en/big-issues/un-guiding-principles-on-business-human-rights/). Companies should comply with these Guiding Principles.
+联合国就如何确保公司尊重人权制定了具体指南： [联合国商业与人权指导原则](https://www.business-humanrights.org/en/big-issues/un-guiding-principles-on-business-human-rights/)。 公司应遵守这些指导原则。
 
-NGOs and other campaigning organisations also produce guidance on specific areas:
-- [The Toronto Declaration: Protecting the rights to equality and non-discrimination in machine learning systems](https://www.accessnow.org/the-toronto-declaration-protecting-the-rights-to-equality-and-non-discrimination-in-machine-learning-systems/)(_prepared by Amnesty International and Access Now and it has been endorsed by Human Rights Watch and Wikimedia Foundation_)
+非政府组织和其他宣传组织也在具体领域提供指导：
+- [《多伦多宣言》：在机器学习系统中保护平等和不受歧视的权利](https://www.accessnow.org/the-toronto-declaration-protecting-the-rights-to-equality-and-non-discrimination-in-machine-learning-systems/)(_由大赦国际编写，现在就可以进入，并得到人权观察和维基百科基金会的支持_)
 
-Making sure that research complies with human rights is not just about ensuring that it doesn't harm. It can also be about doing work that is actively pro-rights.
+确保研究符合人权不仅仅是为了确保研究不会受到伤害。 这也可能涉及积极促进权利的工作。
 
-Researchers and data scientists should, in general ensure that they:
-- **respect** human rights: this means not doing work that itself abuses human rights
-- **protect** human rights: this means trying to ensure that their work cannot be used by others to abuse human rights
-- **fulfil** human rights: this means doing work that actively helps other people be able to enjoy all their human rights
+4. 研究人员和数据科学家一般应确保：
+- **尊重** 人权：这意味着不做本身就侵犯人权的工作
+- **保护** 人权：这意味着试图确保他们的工作不被他人用来侵犯人权
+- **实现** 人权：这意味着做一些工作，积极帮助其他人享受他们的所有人权

@@ -1,40 +1,40 @@
-(ch-acknowledgement-members)=
-# Community and Shared Ownership
+(اعتراف شامل-أعضاء)=
+# المجتمع والملكية المشتركة
 
-As a community-led project, we believe in and promote a collaborative approach to develop the content of this book. For example, writing _The Turing Way_ chapter is an iterative process that involves designing, outlining, writing, reviewing, and editing its contents. Similarly, community-oriented processes evolve over time with the help and feedback from the community members.
+ونحن، بوصفنا مشروعا يقوده المجتمع المحلي، نؤمن بنهج تعاوني لتطوير محتوى هذا الكتاب ونشجع عليه. على سبيل المثال ، كتابة الفصل _طريق الترقيق_ هو عملية متكررة تتضمن تصميم وتحديد وكتابة ومراجعة وتحرير محتوياته. وبالمثل، فإن العمليات الموجهة نحو المجتمعات المحلية تتطور بمرور الوقت بمساعدة أفراد المجتمع المحلي وتعليقاتهم.
 
-## Community members, contributors and co-authors
+## أعضاء المجتمع المحلي والمساهمون والمشتركون في تأليفه
 
-Everyone who contributes to this book, no matter how small or big their contributions are, is recognised in this project as a contributor and a community member.
+كل من يساهم في هذا الكتاب، مهما كانت مساهماته صغيرة أو كبيرة، ويعترف به في هذا المشروع كمساهم وعضو في المجتمع.
 
-Their contributions may include carrying out small tasks such as reporting bugs, correcting factual errors, adding references, opening issues to discuss an idea, commenting on an ongoing discussion, exchanging ideas with other members or citing and promoting _The Turing Way_. As discussed in the next subchapter, these contributors are highlighted in the {ref}`Contributors Table<contributors-record-contributors>`.
+وقد تشمل مساهماتها القيام بمهام صغيرة مثل الإبلاغ عن الأخطاء وتصحيح الأخطاء الوقائعية، وإضافة مراجع، وفتح المسائل لمناقشة فكرة ما، التعليق على مناقشة مستمرة، تبادل الأفكار مع الأعضاء الآخرين أو الاستشهاد بـ _طريق التوفير_ والترويج له. وكما نوقش في الفصل الفرعي التالي، تم إبراز هذه المساهمين في جدول المساهمين {ref}`<contributors-record-contributors>`.
 
-Many contributors will also make substantial contributions such as writing a subchapter, maintaining community interactions, setting up or maintaining project's infrastructure, helping others in their work and supporting their participation. All the substantial contributors are also highlighted in the Contributors Table and named as co-authors [{term}`def<Authors>`] on the book as a whole. As stated in our [Governance document](https://github.com/alan-turing-institute/the-turing-way/blob/main/GOVERNANCE.md), "substantial contribution" is a subjective term. Therefore, we have tried to add much detail as possible in the next subchapters through personas, contribution types and acknowledgements of those contributions including when a contributor is named as an author.
+وسيقدم العديد من المساهمين أيضا مساهمات كبيرة مثل كتابة فصل فرعي، مع الحفاظ على التفاعلات المجتمعية. • إنشاء أو صيانة الهياكل الأساسية للمشروع، ومساعدة الآخرين في عملهم ودعم مشاركتهم. ويسلط الضوء أيضا على جميع المساهمين الكبار في جدول المساهمين ويشار إليهم بوصفهم مؤلفين مشاركين [{term}`ديف<Authors>`] في الكتاب ككل. وكما جاء في وثيقة الحوكمة [](https://github.com/alan-turing-institute/the-turing-way/blob/main/GOVERNANCE.md)فإن "المساهمة الكبيرة" عبارة ذاتية. ولذلك، حاولنا أن نضيف قدر الإمكان من التفاصيل في الفصول الفرعية التالية عن طريق الأشخاص، وأنواع المساهمات وإقرارات تلك المساهمات، بما في ذلك عندما يسمي المساهم بأنه مؤلف.
 
-Authors are listed in alphabetical order by last name. The first author is always **The Turing Way Community**.
+وترد أسماء المؤلفين حسب الترتيب الأبجدي حسب اسم العائلة. المؤلف الأول هو دائماً **مجتمع طريق التورينج**.
 
-Authorship is cumulative. If you have been added as an author on one release, you will stay as an author on all future releases.
+السلطة تراكمية. إذا تمت إضافتك كمؤلف في حالة الإفراج عن شخص واحد، فستبقى كمؤلف في جميع الإصدارات المستقبلية.
 
-If these subchapters do not contain the contribution type that you are interested in or if you would like to know whether you are eligible to be named as an author, please contact the core team by emailing [theturingway@gmail.com](mailto:theturingway@gmail.com).
+إذا كانت هذه الفصول الفرعية لا تحتوي على نوع المساهمة الذي تهتم به أو إذا كنت ترغب في معرفة ما إذا كنت مؤهلا لأن تسمى كمؤلف، يرجى الاتصال بالفريق الأساسي عن طريق البريد الإلكتروني [theturingway@gmail. م](mailto:theturingway@gmail.com).
 
-## Creating opportunities for shared ownership
+## خلق فرص للملكية المشتركة
 
-As an open-source community, the project invites contributions from the experts and enthusiasts alike to collectively develop guidance, recommendations, and practical resources that can foster a gold-standard for reproducible research.
+ويدعو المشروع، بوصفه مجتمع المصادر المفتوحة، إلى تقديم مساهمات من الخبراء والحماس على حد سواء لوضع توجيهات جماعية. توصيات وموارد عملية يمكن أن تعزز معيار الذهب لإجراء بحوث قابلة للتكرار.
 
-_The Turing Way_ core team values and promotes a culture of collaboration. In contrast to the traditional incentive structure in academia, which often discourages open collaboration, public engagements in project advancement and sharing data early on, we promote a collaborative working culture in _The Turing Way_.
+_طريق التورين_ الفريق الأساسي يقدر ثقافة التعاون ويعززها. وخلافا لهيكل الحوافز التقليدية في الأوساط الأكاديمية، الذي كثيرا ما يثني عن التعاون المفتوح، المشاركة العامة في تطوير المشروع وتبادل البيانات في وقت مبكر، نحن نروج لثقافة عمل تعاونية في _طريق التوريد_.
 
-We intentionally avoid individual authorship in favor of establishing shared ownership and agency in this project. This means that no single person or organisation owns the book or any of its chapters. The book belongs to the community and the chapters are always considered 'work in progress' so that they can evolve over time with newer contributions. We encourage authors to actively involve others in reviewing their work, providing missing information and adding diverse examples, which are impossible to be written by a single person.
+ونحن نتفادى عن قصد فرادى المؤلفين لصالح إثبات الملكية المشتركة للوكالة في هذا المشروع. وهذا يعني أنه لا يوجد أي شخص أو منظمة يملك الكتاب أو أي من فصوله. وينتمي الكتاب إلى المجتمع المحلي وتعتبر الفصول دائما 'عملا جاري` بحيث يمكن أن تتطور بمرور الوقت بمساهمات أحدث. ونشجع المؤلفين على إشراك الآخرين بنشاط في استعراض عملهم، توفير المعلومات الناقصة وإضافة أمثلة متنوعة، يستحيل على شخص واحد كتابتها.
 
-We hope that such collaborative efforts lower the psychological barriers for the new contributors who can propose improvements in the book by editing, moving, and adapting its content as the book grows.
+ونأمل أن تخفف هذه الجهود التعاونية من الحواجز النفسية أمام المساهمين الجدد الذين يستطيعون اقتراح إدخال تحسينات على الكتاب عن طريق تحريره، تحريك وتكييف محتواه مع نمو الكتاب.
 
-Furthermore, with our commitment to fair acknowledgement in this project, we create opportunities to highlight the work of every contributor without trying to fit _The Turing Way_ into a traditional credit system.
+وعلاوة على ذلك، ومع التزامنا بالاعتراف المنصف في هذا المشروع، نحن ننشئ الفرص لتسليط الضوء على عمل كل مساهم دون محاولة مواءمة _الطريق الوشيك_ مع نظام ائتمان تقليدي.
 
-This is also an opportunity for us to promote a cultural change in the research assessment system to better recognise an individual's contributions to open science. These contributions include exchanging skills, sharing research components for reuse, and offering other academic services such as leading collaborative efforts, organising events, offering consulting, maintaining community resources, teaching and mentoring for the benefit of the broader scientific community.
+وهذه أيضا فرصة لنا للترويج لتغيير ثقافي في نظام تقييم البحوث من أجل الاعتراف على نحو أفضل بمساهمات الفرد في العلوم المفتوحة. وتشمل هذه المساهمات تبادل المهارات، وتقاسم عناصر البحوث من أجل إعادة الاستخدام، وتقديم خدمات أكاديمية أخرى مثل قيادة الجهود التعاونية. • تنظيم مناسبات وتقديم المشورة والمحافظة على موارد المجتمع المحلي والتدريس والتوجيه لصالح الأوساط العلمية الأوسع نطاقا.
 
-## Highlight your contributions!
+## ألقي الضوء على مساهماتك!
 
-In the {ref}`next subchapter <ch-acknowledgement-record>`, we have listed all the documents in this project that is considered "Record of Contributions".
+في الفصل الفرعي التالي من {ref}` <ch-acknowledgement-record>`عددنا جميع الوثائق في هذا المشروع التي تعتبر "سجل الاشتراكات".
 
-We want our community members to take pride in the valuable work they have done this project. We invite them to edit these documents to add details of their contributions that they want to highlight in _The Turing Way_.
+ونريد أن يفخر أعضاء مجتمعنا بالعمل القيم الذي قاموا به في هذا المشروع. نحن ندعوهم إلى تحرير هذه الوثائق لإضافة تفاصيل عن مساهماتهم التي يريدون تسليط الضوء عليها في _طريق التوفير_.
 
-We welcome your suggestions and ideas for creating more ways to acknowledge you.
+ونحن نرحب باقتراحاتكم وأفكاركم لإيجاد المزيد من الطرق للاعتراف بكم.

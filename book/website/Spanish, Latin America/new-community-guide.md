@@ -1,95 +1,95 @@
 (cl-new-community-guide)=
-# Guide to Planning a Community
+# Guía para planear una comunidad
 
-What if you started a project with a thought like, “I have this great idea that I want to try on this public data!”? There is nothing to worry about if you’re the only one working on it. However, if you want to develop this project - you become responsible for making people feel included in your project.
+¿Qué pasa si iniciaste un proyecto con un pensamiento como: “¡Tengo esta gran idea que quiero probar en estos datos públicos!”? No hay nada de lo que preocuparse si usted es el único que trabaja en ello. Sin embargo, si quieres desarrollar este proyecto - eres responsable de hacer que la gente se sienta incluida en tu proyecto.
 
-As a 'project lead', you want to set up a welcoming and inclusive environment and create the first set of visions and goals for your collaborators. You cannot assume that everyone you collaborate with knows what is expected of them when they start to work with others on your project. Therefore, it’s important to set the right expectations from the beginning for your community, even though you might not have planned on having one (see more details: {cite:ps}`Sharan2020Apr`).
+Como 'líder del proyecto', Usted quiere crear un ambiente acogedor e inclusivo y crear el primer conjunto de visiones y metas para sus colaboradores. No puedes suponer que todos con los que colaboras conozcan lo que se espera de ellos cuando empiecen a trabajar con otros en tu proyecto. Por lo tanto, es importante establecer las expectativas correctas desde el principio para tu comunidad. aunque puede que no hayas planeado tener uno (ver más detalles: {cite:ps}`Sharan2020Apr`).
 
 (cl-new-community-guide-checklist)=
-## A Checklist for Planning Collaboration in Your Project
+## Una lista de verificación para la colaboración en tu proyecto
 
-The checklist below will help you in making the process of establishing collaboration in your research project thoughtfully in a structured manner.
+La siguiente lista le ayudará a realizar el proceso de colaboración en su proyecto de investigación de una manera estructurada.
 
-The practices listed here are derived from and limited by the experiences of the authors who participate in several successful Open Research communities and lead community-driven projects such as [The Carpentries](https://carpentries.org), [Mozilla Open Leaders](https://mozilla.github.io/open-leadership-training-series/), [Open Life Science](https://openlifesci.org/) and _The Turing Way_. While reading this chapter, please be aware that you may need to make adjustments for projects that may be very different in nature (for example, not entirely open source).
+Las prácticas listadas aquí se derivan de y limitan por las experiencias de los autores que participan en varias comunidades de Investigación Abierta exitosas y dirigen proyectos basados en la comunidad como [The Carpentries](https://carpentries.org), [Líderes abiertos de Mozilla](https://mozilla.github.io/open-leadership-training-series/), [Open Life Science](https://openlifesci.org/) y _The Turing Way_. Mientras lee este capítulo, por favor tenga en cuenta que puede que necesite hacer ajustes para proyectos que pueden ser muy diferentes en la naturaleza (por ejemplo, no completamente de código abierto).
 
 (cl-new-community-guide-checklist-comms-platform)=
-### 1. Choose a Communication Platform
+### 1. Elegir una plataforma de comunicación
 
-- When leading an open project, use collaborative and open platforms such as [GitHub](http://github.com/) or [GitLab](https://about.gitlab.com/).
-- Evaluate the need for any real-time communications, such as if a text chat system like [Slack](https://slack.com) or [Element/Matrix](https://element.io/get-started) will be useful or if a mailing list will be sufficient (read details {ref}`Communication Channels <cm-os-comms-channels>`).
-  - Consider a separate internal communication platform for your community members and an external one for showing what you’ve done to the rest of the world.
-- A [Twitter account](https://twitter.com) or a simple website (such as on [GitHub pages](https://pages.github.com/)) can be useful external platforms.
-- Make sure that the choices of these platforms are made to ensure that there is a low barrier to join them.
+- Al liderar un proyecto abierto, usa plataformas colaborativas y abiertas como [GitHub](http://github.com/) o [GitLab](https://about.gitlab.com/).
+- Evaluar la necesidad de cualquier comunicación en tiempo real, tal como si un sistema de chat de texto como [Slack](https://slack.com) o [Elemento/Matriz](https://element.io/get-started) será útil o si una lista de correo será suficiente (lea los detalles {ref}`Canales de Comunicación <cm-os-comms-channels>`).
+  - Considera una plataforma de comunicación interna separada para los miembros de tu comunidad y una plataforma externa para mostrar lo que has hecho al resto del mundo.
+- Una cuenta de [Twitter](https://twitter.com) o un sitio web simple (como en [páginas de GitHub](https://pages.github.com/)) puede ser plataformas externas útiles.
+- Asegúrese de que las opciones de estas plataformas se hacen para asegurar que existe una barrera baja para unirse a ellas.
 
-(cl-new-community-guide-checklist-proj-summary)=
-### 2. Provide a Project Summary File:
+(cl-new-community-guide-checklist-proj-summary
+### 2. Proporcionar un archivo Resumen del proyecto:
 
-- The first document in your project should be a project summary file, which in a GitHub repository will be a [README.md file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
-- This will provide basic information about your project so that people can evaluate why your project will be interesting for them.
-  - Here is [a template](https://github.com/PurpleBooth/a-good-readme-template) by the GitHub user [PurpleBooth](https://github.com/PurpleBooth).
-- In this file, include what your project vision and goals are, why the project is useful, what the possible milestones are in the project, how a contributor or user can get started, who can they reach out to for help, and what is currently missing in the project in terms of stakeholders, skills, or scope.
-- You can use emojis, GIFs, videos, or your personal narrative to make your project relatable.
-  - See [The Atom project](https://github.com/atom/atom) for example.
+- El primer documento en su proyecto debe ser un archivo de resumen del proyecto, que en un repositorio de GitHub será un archivo [README.md](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
+- Esto proporcionará información básica sobre tu proyecto para que la gente pueda evaluar por qué tu proyecto será interesante para ellos.
+  - Aquí está [una plantilla](https://github.com/PurpleBooth/a-good-readme-template) del usuario de GitHub [PurpleBooth](https://github.com/PurpleBooth).
+- En este archivo, incluya cuál es la visión y los objetivos de su proyecto, por qué el proyecto es útil, cuáles son los posibles hitos del proyecto, cómo un colaborador o usuario puede empezar, a quién puede llegar para obtener ayuda, y lo que falta actualmente en el proyecto en términos de interesados, habilidades, o ámbito de aplicación.
+- Puede utilizar emojis, GIF, vídeos o su narrativo personal para hacer su proyecto relacionable.
+  - Vea [El proyecto Atom](https://github.com/atom/atom) por ejemplo.
 
 (cl-new-community-guide-checklist-code-conduct)=
-### 3. Select a Code of Conduct:
+### 3. Seleccione un código de conducta:
 
-- Add an Open Source Project [Codes of Conduct](https://opensourceconduct.com/) to your project.
-- This document should not be used as a token, it is very important to put intentional effort into it.
-- When using GitHub, you can add a “CODE_OF_CONDUCT.md” file on your GitHub repository.
-- List the expected and unacceptable behaviors, describe the reporting and enforcement process, explicitly define the scope, and use an inclusive tone  (see [GitHub instructions here](https://help.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)).
-- Whenever you update your code of conduct, invite comments from your members to ensure that their concerns are addressed.
-  - This can be done on [GitHub issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues), or [Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
+- Añade un proyecto de código abierto [códigos de conducta](https://opensourceconduct.com/) a tu proyecto.
+- Este documento no debe utilizarse como una ficha sino que es muy importante realizar esfuerzos intencionados en él.
+- Al usar GitHub, puede añadir un archivo “CODE_OF_CONDUCT.md” en su repositorio de GitHub.
+- Listar los comportamientos esperados e inaceptables, describir el proceso de reporte y cumplimiento, define explícitamente el ámbito y usa un tono inclusivo (ver [instrucciones de GitHub aquí](https://help.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)).
+- Siempre que actualice su código de conducta, invite a los comentarios de sus miembros para asegurarse de que sus preocupaciones sean atendidas.
+  - Esto puede hacerse en [GitHub issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues)o [Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 (cl-new-community-contrib-guidelines)=
-### 4. Provide Contribution Guidelines and Interaction Pathways:
+### 4. Proporcionar directrices de contribución y rutas de interacción:
 
-- A thoughtful guideline helps people decide which pathway they can choose to contribute to your project, or if they want to be in your community at all.
-- Make sure that your community interactions and different pathways to contribute are open, inclusive, and clearly stated.
-  - If people can’t figure out how to contribute they will drop off without helping.
-- Value different types of contributions - coding projects are not only about code, therefore list documentation and other management skills as well.
-- You can use the {ref}`Persona Creation Tool<pd-persona-creation>` or the [Personas and Pathways exercise](https://mozillascience.github.io/working-open-workshop/personas_pathways/) to brainstorm who could be your possible community members.
-- Here is a [template of community guideline](https://gist.github.com/PurpleBooth/b24679402957c63ec426) provided by the GitHub user [PurpleBooth](https://gist.github.com/PurpleBooth).
-  - See [_The Turing Way_'s contributing file](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) for reference.
+- Una pauta sin embargo ayuda a las personas a decidir qué camino pueden elegir para contribuir a su proyecto, o si quieren estar en tu comunidad.
+- Asegúrate de que las interacciones de tu comunidad y las diferentes vías para contribuir son abiertas, inclusivas y claramente indicadas.
+  - Si la gente no puede averiguar cómo contribuir desaparecerá sin ayudar.
+- Valor de los diferentes tipos de contribuciones - los proyectos de codificación no son sólo sobre el código, por lo tanto listan la documentación y otras habilidades de gestión también.
+- Puedes usar la {ref}`Herramienta de Creación Persona<pd-persona-creation>` o el [ejercicio de Personas y Rutas](https://mozillascience.github.io/working-open-workshop/personas_pathways/) para brainstorm que podría ser tus posibles miembros de la comunidad.
+- Aquí está una [plantilla de guía comunitaria](https://gist.github.com/PurpleBooth/b24679402957c63ec426) proporcionada por el usuario de GitHub [PurpleBooth](https://gist.github.com/PurpleBooth).
+  - Ver [_La Vía Turística_del archivo de contribución](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para referencia.
 
-(cl-new-community-leadership)=
-### 5. Create a Basic Management/Leadership Structure:
+(cl-new-community-leadershipp)=
+### 5. Crear una estructura de gestión/liderazgo básico:
 
-- A leadership structure in an open project should aim to empower others and develop agency and accountability in your community.
-- You can start by listing different tasks within your project and inviting your members to lead those tasks.
-- Provide appropriate incentives and acknowledgment for the contributions made by your community members.
-- Create opportunities for members to share some leadership responsibilities with you in the project.
-- When inviting suggestions and ideas from the community, provide the first set of plans where your community can develop from.
-- See this document from [Open Source Guides](https://opensource.guide/leadership-and-governance/) for reference.
+- Una estructura de liderazgo en un proyecto abierto debería apuntar a empoderar a otros y desarrollar la agencia y la responsabilidad en su comunidad.
+- Puede comenzar por listar diferentes tareas dentro de su proyecto e invitar a sus miembros a liderar dichas tareas.
+- Proporcione incentivos y reconocimiento apropiados para las contribuciones hechas por los miembros de su comunidad.
+- Crear oportunidades para que los miembros compartan algunas responsabilidades de liderazgo contigo en el proyecto.
+- Al invitar sugerencias e ideas de la comunidad, proporciona el primer conjunto de planes de donde tu comunidad puede desarrollarse.
+- Ver este documento de [Guías de Código Abierto](https://opensource.guide/leadership-and-governance/) para referencia.
 
 (cl-new-community-contact)=
-### 6. Provide Contact Details Wherever Useful:
+### 6. Proporcionar detalles de contacto donde se utilice:
 
-- Clarifying responsibilities for different members will allow people to reach out to the right person with any query.
-- Add details of the designated contact persons for technical problems, leadership questions, or any report on the Code of Conduct.
-- This will be particularly useful if something needs immediate resolution.
+- La aclaración de responsabilidades para los diferentes miembros permitirá a las personas llegar a la persona adecuada con cualquier consulta.
+- Añade detalles de las personas de contacto designadas para problemas técnicos, preguntas de liderazgo o cualquier informe sobre el Código de Conducta.
+- Esto será especialmente útil si algo necesita una resolución inmediata.
 
 (cl-new-community-approaches)=
-### 7. Identify Failed Approaches, and Stop Them:
+### 7. Identificar enfoques fallidos, y detener temas:
 
-- Development happens in an iterative manner, therefore, revisit your plans and ideas in regular intervals and involve your members in the process.
-- Check if there are parallel developments or multiple approaches that should be merged or changed.
-- Fail fast, fail informatively - recognize what isn’t working for your project and stop it from continuing.
-- Document them and share why you failed and how you change your project or approaches going forward.
-- For Open Research communities you can maintain transparency when discussing failures and successes but refrain from singling out or blaming others.
-- This iterative approach comes from Agile Practices, see these short posts for reference:
-  - [The agile concept fail fast gets bad press but is misunderstood](https://www.information-age.com/agile-concept-fail-fast-gets-bad-press-misunderstood-123460434/)
-  - [The Beginner’s Guide To Scrum And Agile Project Management](https://blog.trello.com/beginners-guide-scrum-and-agile-project-management)
+- El desarrollo se produce de forma iterativa, por lo tanto, revisite sus planes e ideas en intervalos regulares e involucre a sus miembros en el proceso.
+- Compruebe si hay desarrollos paralelos o múltiples enfoques que deben fusionarse o cambiarse.
+- Fallo rápido, falle informativamente: reconozca lo que no funciona para su proyecto y impida que continúe.
+- Documentarlos y compartir por qué falló y cómo cambiar su proyecto o enfoques avanzando.
+- Para las comunidades de Investigación Abierta se puede mantener la transparencia cuando se discuten los fracasos y los éxitos, pero no se responsabilizan de señalar o culpar a otros.
+- Este enfoque iterativo proviene de prácticas ágiles, ver estos mensajes cortos para referencia:
+  - [El concepto ágil fracasa rápidamente se vuelve mala prensa, pero se entiende mal](https://www.information-age.com/agile-concept-fail-fast-gets-bad-press-misunderstood-123460434/)
+  - [La guía inicial para la gestión de proyectos ágiles y de Scrum](https://blog.trello.com/beginners-guide-scrum-and-agile-project-management)
 
 (cl-new-community-documentation)=
-### 8. Have Documentation and Dissemination Plans for Your Project:
+### 8. Tener planes de documentación y difusión para su proyecto:
 
-- With new members joining your project, they must be able to find the information they need without asking you.
-- Investing in documentation plans will free you from many communication-related challenges by sharing general information regarding past decisions or the decision making process your project uses.
-- A good place to store the documentation is [wiki](https://en.wikipedia.org/wiki/Wiki) or similar platforms (like GitHub) where information can be shared transparently and updated by your community members democratically.
-- To disseminate outputs of your project, you should use persistent identifiers that can be shared and cited, for example, [digital object identifier (DOI)](https://www.doi.org/).
-  - [Figshare](https://figshare.com/) and [Zenodo](http://zenodo.org) are good examples of platforms that can provide you with DOI for all your shareable data.
+- Con la incorporación de nuevos miembros a tu proyecto, ellos deben ser capaces de encontrar la información que necesitan sin preguntarle.
+- Invertir en planes de documentación le liberará de muchos desafíos relacionados con la comunicación al compartir información general sobre decisiones pasadas o el proceso de toma de decisiones que utiliza su proyecto.
+- Un buen lugar para almacenar la documentación es [wiki](https://en.wikipedia.org/wiki/Wiki) o plataformas similares (como GitHub) donde la información puede ser compartida de forma transparente y actualizada por los miembros de la comunidad democráticamente.
+- Para diseminar los resultados de tu proyecto, debes usar identificadores persistentes que pueden ser compartidos y citados, por ejemplo, [identificador digital de objetos (DOI)](https://www.doi.org/).
+  - [Figshare](https://figshare.com/) y [Zenodo](http://zenodo.org) son buenos ejemplos de plataformas que pueden proporcionarte DOI para todos tus datos compartibles.
 
-Two more points are crucial for ensuring the effectiveness of a collaborative project: addressing technical issues and valuing the importance of diversity in team building.
+Dos puntos más son cruciales para garantizar la eficacia de un proyecto de colaboración: abordar cuestiones técnicas y valorar la importancia de la diversidad en la construcción de equipos.
 
-We have explained them in the next subchapters on {ref}`Addressing Technical Issues<cm-new-community-techissue>` and {ref}`Valuing Diversity and Differences<cl-new-community-differences>`.
+Les hemos explicado en los siguientes subcapítulos de {ref}`Abordando cuestiones técnicas<cm-new-community-techissue>` y {ref}`Valorando Diversidad y Diferencias<cl-new-community-differences>`.

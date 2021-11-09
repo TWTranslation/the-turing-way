@@ -1,83 +1,83 @@
-(cl-remote-collab-guidelines)=
-# Guidelines for Remote Collaboration
+(cl-遥控collab-guidelines)=
+# 远程协作准则
 
-In this context, guidelines are a set of rules or protocols that can create a common ground for everyone to communicate and exchange information within a distributed team for effective and successful collaboration.
+在这方面， 准则是一套规则或协议，可为每个人在分布式团队内交流和交流信息以进行有效和成功的合作创造共同基础。
 
-The main motivation is to set clear guidelines around expectations on communication tools, etiquette for online meetings, tasks, timelines and schedules in advance for the remote and distributed collaborative working arrangement in a team or community.
+主要动机是围绕着对通信工具的期望，为在线会议、任务规定确定明确的指导方针。 在一个团队或社区中进行远距离工作并分发合作工作安排的时间安排和时间表。
 
-## Mode of communication and collaboration
+## 通信和协作方式
 <!---Add details and more points point to other chapters for details--->
 
-This should provide details regarding:
-- The tools/software to be used for joining/attending the online calls.
-- Recommendations for the types of equipment that can provide participants with the experience as expected by the organisers.
-- Measures that will be kept in place to keep interactions and data exchange secure.
-- How participants can gain access to these resources and tool.
-- Ways to improve visibility and accessibility to these tools.
+这应提供以下方面的详细情况：
+- 用于加入/参加在线电话的工具/软件。
+- 就能够向参与者提供组织者所期望的经验的设备类型提出建议。
+- 为保证相互作用和数据交换的安全而将采取的措施。
+- 参与者如何获得这些资源和工具。
+- 提高这些工具的可见度和可获得性的方法。
 
-For a list of collaborative tools see {ref}`this subchapter<cl-remote-collab-tools>`.
+合作工具列表见 {ref}`此子章节<cl-remote-collab-tools>`。
 
-## Different ways for informal interactions
+## 非正式互动的不同方式
 <!---Add details and more points point to other chapters for details--->
-Informal interactions are instrumental for ensuring full engagement of your participants, therefore provide ways for:
-- Encouraging casual team conversations between meetings by setting some pre-planned social discussions/interaction plans.
-- Helping people from different time zones to catch up and build a sense of belonging (for example, by shared notes or summary emails).
+非正式互动有助于确保你们的与会者的充分参与，因此提供了方法：
+- 通过制定一些事先计划的社会讨论/互动计划，鼓励会议之间的临时小组对话。
+- 帮助不同时区的人赶上并建立归属感（例如通过分享笔记或摘要电子邮件）。
 
-## Sharing data, resources and documentation
+## 共享数据、资源和文档
 <!---Add details and more points point to other chapters for details--->
-Put together some recommendations and guidelines for sharing data (research data, personal information), resources (tools and equipment) and documentation (policies, manuals).
+就共享数据(研究数据、个人信息)、资源(工具和设备)和文件(政策、手册)提出一些建议和准则。
 
-These recommendations should include:
-- The preferred platform for sharing research data (published and unpublished).
-  - Decide on the most appropriate way to share data, documents, analysis scripts, such as by providing shared drives and repositories on Google, GitHub or other similar platforms.
-- How to protect sensitive information such as data and password.
-- Manuals and training for setting up an account and maintaining access.
-- Locations of different documents from the organisation that are easy to find.
-- Helpdesk or support for setup and troubleshooting.
+这些建议应包括：
+- 共享研究数据的首选平台（已出版和未出版）。
+  - 决定以最适当的方式分享数据、文件、分析脚本， 例如提供Google、 GitHub 或其他类似平台上的共享驱动器和仓库。
+- 如何保护诸如数据和密码等敏感信息。
+- 手册和培训，用于开设账户和保持存取能力。
+- 易于查找的来自组织的不同文件所在地。
+- 服务台或支持设置和排除故障。
 
-## Planning meetings, scheduling, and agenda
+## 规划会议、时间安排和议程
 <!---Add details and more points point to other chapters for details--->
-Establish key tasks and milestones at the beginning of the project to determine how meetings will be planned, scheduled and organised.
-- Decide on the frequency of your meetings and set a protocol.
-- Once a protocol has been established, circulate and review it within the team to ensure a common understanding of tasks and goals.
-- Schedule meetings that are effective across time zones, have a regular time slot and send out calendar invites to avoid confusions.
-- Invite everyone's input in collecting agenda points.
-- If a team is big, split into sub-project groups to create a stronger network.
-- Rotating schedule for chairs and note-takers from the team.
+在项目开始时确定关键任务和里程碑，以确定如何规划、安排和组织会议。
+- 就您的会议频率作出决定并制定一项协议。
+- 一旦订立了协议，在小组内分发和审查协议，以确保对任务和目标有共同的理解。
+- 安排在各时区有效的会议，定期安排时间，并发出日历邀请，以避免混乱。
+- 邀请每个人参与收集议程点。
+- 如果团队规模大，则分成子项目组以创建一个更强大的网络。
+- 小组主席和记录员轮换时间表。
 
-## Etiquette for online meetings and communications
+## 为在线会议和通信所作的决定
 <!---Add details and more points point to other chapters for details--->
-Your participants must know how they are expected to participate in a meeting. This includes details on how they can contribute to an ongoing discussion (raise hand physically, or use a feature in your call hosting software), how they can share thoughts if they don't feel comfortable talking or how they can help create an overall welcoming environment.
-- Establish a format of communication within the whole group and subgroups.
-  - Communicate clearly which tool will be used, for example, Zoom for the call, Google Docs for documentation, Trello for action points.
-- Create a pre-defined agenda with an allocated chair and note-taker to prevent informality and loss of focus.
-- Pre-communicate guidelines for creating a safe space for inclusive interactions online, including:
-  - Muting microphone when not talking.
-  - Keeping video camera on when in a closed meeting.
-  - Give the option to switch off the video if the call is being recorded.
-  - Share tips on how to 'raise hand' to participate in a discussion, on chat, physically, or using an emoji.
-  - Send out a guideline for speakers, chairs, note takers and people with different responsibilities.
-- Communicate clearly how to join and leave a meeting.
-  - Is there a particular rule for joining late or leaving early?
-- Aim to maintain flexibility and reduce formality
-  - This is particularly useful for people who are working from home and will have their family members and pets around.
+您的与会者必须知道他们将如何参加会议。 这包括他们如何为持续讨论做出贡献的细节(实物提升或在您的呼叫托管软件中使用一个功能)， 如果他们感到不舒服的话题，或者他们如何能够帮助创造一个总体的欢迎环境，他们如何能够分享想法。
+- 在整个小组和分组内建立沟通的格式。
+  - 清楚地交流将使用哪个工具。例如，缩放用于通话，谷歌文档用于文档，Trello 用于行动点。
+- 建立一个预先确定的议程，配备一名主席和记录员，以防止非正式性和失去重点。
+- • 事先通报关于在网上为包容性互动创造安全空间的指导方针，其中包括：
+  - 不说话时静音麦克风。
+  - 在非公开会议中保持视频摄像头。
+  - 如果正在录制通话，请选择关闭视频。
+  - 分享关于如何“举动手”参与讨论、聊天、物理或使用表情符号的提示。
+  - 向发言者、主席、记事者和责任不同的人发送指导方针。
+- 清楚地通报如何加入和离开会议。
+  - 是否有关于迟迟加入或提前离开的特定规则？
+- 2. 保持灵活性和减少手续的目标
+  - 这对那些在家工作并将其家庭成员和宠物包围起来的人尤其有用。
 
-## Follow up emails and communications for creating accountability
+## 为创建问责制采取后续邮件和通信
 <!---Add details and more points point to other chapters for details--->
-Following up with the participants after the meeting is a good way to both share the key messages from the meeting, action points that have been created for different people and to ask for feedback when needed.
-- Make sure that everyone knows what their role and responsibilities are.
-- Follow up with teams and individuals regularly.
-  - This should be done to celebrate success rather than micromanaging.
+与会者在会后采取后续行动是分享会议关键信息的一个好办法。 已经为不同的人制定了行动要点并在需要时征求反馈意见。
+- 确保每个人都知道自己的作用和责任。
+- 定期与小组和个人采取后续行动。
+  - 应该这样做来庆祝成功，而不是微观管理。
 
-## A few more tips for keeping the team engaged
+## 让团队保持接触的更多提示
 <!---Add details and more points point to other chapters for details--->
-- Set the leadership teams responsibilities clearly (host, note-taker, gatekeeper and technical support).
-- Choose modes of engagement that are suitable for both introverts or extroverts.
-- Create opportunities for skill-building and training beyond work.
-- Schedule informal meetings like virtual coffees and online games.
+- 明确规定领导小组的责任（主办人、记录员、守门员和技术支助）。
+- 选择既适合内向也适合外向的接触模式。
+- 创造工作以外的技能建设和培训机会。
+- 安排非正式会议，如虚拟咖啡和在线游戏。
 
-## Further reading
+## 进一步阅读
 
-- [Deanna deBara, The ultimate guide to remote meetings in 2020](https://slackhq.com/ultimate-guide-remote-meetings), January 2, 2020
+- [Deanna deBara, 202020年远程会议最终指南](https://slackhq.com/ultimate-guide-remote-meetings), 202020年1月2日
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

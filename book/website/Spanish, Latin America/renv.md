@@ -1,37 +1,37 @@
 (rr-renv)=
-# Reproducible Environments
+# Entornos reproducibles
 
-(rr-renv-prerequisites)=
-## Prerequisites
+(rr-renv-requisitos)=
+## Prerrequisitos
 
-| Prerequisite                                                                                  | Importance | Notes                                                                            |
-| --------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  | Experience with downloading software via the command line is particularly useful |
-| {ref}`rr-vcs`                                                                                 | Helpful    | Experience using git and GitHub are helpful                                      |
+| Prerrequisito                                                                                     | Importancia | Notas                                                                                               |
+| ------------------------------------------------------------------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------- |
+| [Experiencia con la línea de comandos](https://programminghistorian.org/en/lessons/intro-to-bash) | Necesario   | La experiencia con el software de descarga a través de la línea de comandos es particularmente útil |
+| {ref}`rr-vcs`                                                                                     | Útil        | La experiencia usando git y GitHub es útil                                                          |
 
-**Recommended Skill Level**: _Intermediate-Advanced_
+**Nivel recomendado**: _Intermedio-avanzado_
 
 (rr-renv-summary)=
 ## Summary
 
-Every computer has its unique computational environment [{term}`def<Computational Environment>`] consisting of its operating system, installed software, versions of installed software packages, and other features that we will describe later. Suppose a research project is carried out on one computer but transferred to a different computer. There is no guarantee that the analysis will be able to run or generate the same results if the analysis is dependent on any of the considerations listed above.
+Cada computadora tiene su entorno computacional único [{term}`def<Computational Environment>`] consistente en su sistema operativo, software instalado, versiones de paquetes de software instalados, y otras características que describiremos más adelante. Supongamos que un proyecto de investigación se lleva a cabo en una computadora pero se transfiere a otra computadora. No hay garantía de que el análisis sea capaz de ejecutar o generar los mismos resultados si el análisis depende de cualquiera de las consideraciones mencionadas anteriormente.
 
-In order for research to be reproducible, the computational environment that it was conducted in must be captured in such a way that others can replicate it. This chapter describes a variety of methods for capturing computational environments and gives guidance on their strengths and weaknesses.
+Para que la investigación sea reproducible, el entorno computacional en el que se llevó a cabo debe ser capturado de tal manera que otros puedan replicarlo. Este capítulo describe una variedad de métodos para capturar entornos computacionales y da orientación sobre sus fortalezas y debilidades.
 
-### What is a Computational Environment?
+### ¿Qué es un Entorno Computacional?
 
-In broad terms, a computational environment is the system where a program is run. This includes features of hardware (such as the numbers of cores in any CPUs) and features of software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
+En términos generales, un entorno computacional es el sistema donde se ejecuta un programa. Esto incluye características del hardware (como el número de núcleos en cualquier CPUs) y características del software (como el sistema operativo, lenguajes de programación, soporte de paquetes, otras piezas de software instalado, junto con sus versiones y configuraciones).
 
-Software versions are often defined via [semantic versioning](https://semver.org). In this system, three numbers - for example, 2.12.4 - are used to define each version of a piece of software. When a change is made to the software, its version is incremented. These three numbers follow the pattern _MAJOR.MINOR.PATCH_, and are incremented as follows:
+Las versiones de software a menudo se definen a través de [versión semántica](https://semver.org). En este sistema, se utilizan tres números -por ejemplo, 2.12.4- para definir cada versión de una pieza de software. Cuando se hace un cambio en el software, su versión se incrementa. Estos tres números siguen el patrón _MAJOR.MINOR.PATCH_y se incrementan de la siguiente manera:
 
-- *MAJOR*: significant changes
-- *MINOR*: to add functionality
-- *PATCH*: for bug fixes
+- *MAJOR*: cambios significativos
+- *MINOR*: para añadir funcionalidad
+- *PATCH*: para correcciones de errores
 
 (rr-renv-useful)=
-## Why This is Useful
+## Por qué esto es útil
 
-Let us go through an example of why computational environments are important. Say I have a very simple Python script:
+Veamos un ejemplo de por qué los entornos computacionales son importantes. Digamos que tengo un script Python muy simple:
 
 ```
 a = 1
@@ -39,22 +39,22 @@ b = 5
 print(a/b)
 ```
 
-One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. This is because integer division is applied to integers in Python 2, but (normal) division is applied to all types, including integers, in Python 3.
+Uno dividido entre cinco es `0.2`, y esto es lo que se imprime si el script se ejecuta usando Python 3. Sin embargo, si se utiliza una versión ligeramente anterior de Python, como Python 2, el resultado impreso es `0`. Esto se debe a que la división de enteros se aplica a enteros en Python 2, pero la división (normal) se aplica a todos los tipos, incluyendo enteros, en Python 3.
 
-Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
+Por lo tanto, este script simple devuelve _respuestas_ diferentes dependiendo del entorno computacional en el que se ejecute. Usar la versión incorrecta de Python es fácil de hacer, y demuestra cómo una pieza de código perfectamente válida puede dar diferentes resultados dependiendo de su entorno. Si tales problemas pueden afectar a un script simple como este, imaginen cuántas podrían aparecer en un procedimiento de análisis complejo que puede implicar miles de líneas de código y docenas de paquetes dependientes.
 
-Researchers need to understand and capture the computational environments in which they are conducting their work, as it has the potential to impact three parties:
+Los investigadores necesitan entender y capturar los entornos computacionales en los que están llevando a cabo su trabajo, ya que tiene el potencial de afectar a tres partes:
 
-### Researchers
+### Investigadores
 
-Researchers' working environments evolve as they update software, install new software, and move to different computers. If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. They will have no way of knowing what changes to a specific research environment have occurred and what impact those changes might have on their ability to run the code, and on the results.
+Los entornos de trabajo de los investigadores evolucionan a medida que actualizan el software, instalan software nuevo y se mueven a diferentes ordenadores. Si el entorno del proyecto no es capturado y los investigadores necesitan volver a su proyecto después de meses o años (como es común en investigación), no podrán hacerlo con confianza. No tendrán forma de saber qué cambios se han producido en un entorno de investigación específico y qué impacto podrían tener esos cambios en su capacidad de ejecutar el código, y sobre los resultados.
 
-### Collaborators
+### Colaboradores
 
-Much research is now collaborative, and researching multiple different computational environments opens up a minefield of potential bugs. Trying to fix these kinds of issues is often time-consuming and frustrating as researchers have to figure out what the differences between computational environments are, and their effects. Worse, some bugs may remain undetected, potentially impacting the results.
+Mucha investigación es ahora colaborativa, y investigar múltiples entornos computacionales diferentes abre un campo minado de posibles errores. Intentar arreglar este tipo de problemas a menudo requiere mucho tiempo y es frustrante, ya que los investigadores tienen que averiguar cuáles son las diferencias entre los entornos computacionales. y sus efectos. Peor aún, algunos errores pueden permanecer sin ser detectados, afectando potencialmente a los resultados.
 
-### Science
+### Ciencia
 
-Scholarly research has evolved significantly over the past decade, but the same cannot be said for the methods by which research processes are captured and disseminated. The primary method for dissemination - the scholarly publication - is largely unchanged since the advent of the scientific journal in the 1660s. This is no longer sufficient to verify, reproduce, and extend scientific results. Despite the increasing recognition of the need to share all aspects of the research process, scholarly publications today are often disconnected from the underlying analysis and, crucially, the computational environment that produced the findings. For research to be reproducible, researchers must publish and distribute the entire contained analysis, not just its results. The analysis should be _mobile_. Mobility of Compute is defined as the ability to define, create, and maintain a workflow locally while remaining confident that the workflow can be executed elsewhere. In essence, mobility of compute means being able to contain the entire software stack, from data files up through the library stack, and reliably move it from system to system. Any research that is limited to where it can be deployed is instantly limited in the extent that it can be reproduced.
+La investigación académica ha evolucionado significativamente en la última década, pero no se puede decir lo mismo de los métodos por los que se capturan y divulgan los procesos de investigación. El método primario para la difusión -la publicación científica- no ha cambiado en gran medida desde la aparición de la revista científica en los años 1660. Esto ya no es suficiente para verificar, reproducir y ampliar los resultados científicos. A pesar del creciente reconocimiento de la necesidad de compartir todos los aspectos del proceso de investigación, las publicaciones científicas hoy en día a menudo están desconectadas del análisis subyacente y, fundamentalmente, del entorno computacional que produjo los hallazgos. Para que la investigación sea reproducible, los investigadores deben publicar y distribuir todo el análisis contenido, no sólo sus resultados. El análisis debe ser _móvil_. La movilidad de la computadora se define como la capacidad de definir, crear, y mantener un flujo de trabajo localmente mientras permanece seguro de que el flujo de trabajo puede ser ejecutado en otro lugar. En esencia, la movilidad de la computación significa ser capaz de contener toda la pila de software, desde los archivos de datos a través de la pila de bibliotecas, y lo mueva de forma fiable del sistema al sistema. Cualquier investigación limitada al lugar en el que se puede desplegar se limita instantáneamente en la medida en que se puede reproducir.
 
-This chapter will describe how to capture, preserve and share computational environments and code to ensure research is reproducible.
+Este capítulo describirá cómo capturar, preservar y compartir entornos computacionales y código para asegurar que la investigación sea reproducible.

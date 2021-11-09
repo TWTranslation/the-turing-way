@@ -1,15 +1,15 @@
-(rr-ci-github-actions)=
-# Continuous Integration with GitHub Actions
+(r-ci-github-actions)=
+# التكامل المستمر مع إجراءات GitHub
 
-This section will walk you through the basic setup of continuous integration (CI) using **GitHub Actions (GHA)**. GHA is a task automation system fully integrated with GitHub. In other words, it is an API that orchestrates any workflow based on any event. Although there are many CI service providers, GHA makes it easier than ever to incorporate CI into your repositories. It provides a flexible way to automate nearly every aspect of your project workflow. Here are just a few examples of use cases of GitHub Actions:
+سيمشي هذا القسم من خلال الإعداد الأساسي للتكامل المستمر (CI) باستخدام **إجراءات GitHub (GHA)**. ونظام التشغيل الآلي للمهام هو نظام متكامل تماما مع نظام GitHub. وبعبارة أخرى، فإن API هو الذي ينسق أي سير عمل مبني على أي حدث. على الرغم من وجود العديد من مقدمي خدمات CI، فإن GHA تجعل من الأسهل من أي وقت مضى إدماج CI في مستودعاتك. يوفر طريقة مرنة للتشغيل الآلي تقريبا لكل جانب من جوانب سير العمل في مشروعك. وفيما يلي بعض الأمثلة فقط على حالات استخدام إجراءات GitHub :
 
-- Automated testing of the software
-- Generate reports of the status of any changes in the repository
-- Responding to workflow triggers using labels, issues, special mentions, and more
-- Triggering code reviews and pull requests
-- Managing branches
+- الاختبار الآلي للبرمجيات
+- توليد تقارير عن حالة أي تغييرات في المستودع
+- الاستجابة لمشغلات سير العمل باستخدام التسميات والمشكلات والإشارات الخاصة والمزيد
+- تشغيل مراجعات الرموز وطلبات السحب
+- إدارة الفروع
 
-GitHub Actions are event-driven, which means it responds to any event (Examples: pull request (PR) created, issue created) and triggers an action (Examples: adds a label, runs tests, sort). Any collection of these actions is called a workflow. A more detailed description of this GitHub-related Vocabulary is described in the next section.
+إجراءات GitHub مدفوعة بالأحداث، مما يعني أنها تستجيب لأي حدث (أمثلة: طلب السحب (PR) تم إنشاؤه، مشكلة تم إنشاؤها) وتشغل إجراء (أمثلة: إضافة ملصق، تشغيل الاختبارات، فرع). أي مجموعة من هذه الإجراءات تسمى سير العمل. ويرد في الفرع التالي وصف أكثر تفصيلا لهذه المفردات ذات الصلة بنظام GitHub.
 
 ```{figure} ../../figures/github-actions.jpg
 ---
@@ -18,71 +18,71 @@ align: center
 name: Github actions
 alt: A diagram describing how GitHub action listen to an event (for example, `PR` created, issue created, PR merged) and then trigger a job which can be testing, sorting, labelling or deployment.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
-## GitHub-related Vocabulary
+## المفردات ذات الصلة بالجيتهوب
 
-### 1. WorkFlow
+### 1. تدفق العمل
 
-**The workflow** is a unit of automation from start to finish. It consists of all the aspects which should be taken into account during the automation including what event can trigger the automation. The workflow can be used to build, test, package, release, or deploy a project on GitHub. It is made of multiple jobs which is formed from steps as shown in the overview diagram below.
+**سير العمل** هو وحدة للتشغيل الآلي من البداية إلى النهاية. وهي تتألف من جميع الجوانب التي ينبغي أخذها في الاعتبار أثناء التشغيل الآلي، بما في ذلك ماهية الحدث الذي يمكن أن يؤدي إلى التشغيل الآلي. يمكن استخدام سير العمل لبناء أو اختبار أو إختبار أو إصدار أو نشر مشروع على GitHub. وهو يتألف من وظائف متعددة تتشكل من خطوات كما هو مبين في الرسم البياني العام أدناه.
 
 ```{figure} ../../figures/ci-01.png
 ---
-name: ContinuousIntegration-Nov20
-alt: An illustration of how continuous integration works with multiple jobs and actions working alongside each other to feed into an illustration of steps to show merging into the main version.
+الاسم: استمرارية التكامل-Nov20
+البديل : مثال توضيحي لكيفية عمل التكامل المستمر مع العديد من الوظائف والإجراءات التي تعمل جنبا إلى جنب مع بعضها البعض للتغذية في مثال توضيحي للخطوات لإظهار الاندماج في الإصدار الرئيسي.
 ---
-On the left: _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807). On the right: Overview diagram of the most important concepts of GitHub Actions, adapated from [morioh.com](https://morioh.com/p/aadcfe6cac57).
+على اليسار: _طريق التودين_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807). على اليمين: عرض بياني لأهم المفاهيم في أعمال GitHub ، مكيف من [morioh.com](https://morioh.com/p/aadcfe6cac57).
 ```
 
-### 2. Job
+### 2. وظيفة
 
-A **job** is defined as a set of sequential steps run on the same runner. A workflow can build up of one or several jobs, and can be run either parallel (default) or sequentially.
+يتم تعريف **وظيفة** كمجموعة من الخطوات المتتابعة التي يتم تشغيلها على نفس المشغل. ويمكن لتدفق العمل أن يخلق وظيفة واحدة أو عدة وظائف، ويمكن أن يدار إما بالتوازي (الافتراضي) أو بالتتابع.
 
-### 3. Step
+### 3. خطوة
 
-A **step** represents one individual task. A step could be either an action or another command unit, like running a Python script or printing something to the console.
+تمثل الخطوة **** مهمة فردية واحدة. يمكن أن تكون الخطوة إما إجراء أو وحدة أمر أخرى، مثل تشغيل سكريبت بايثون أو طباعة شيء ما إلى وحدة التحكم.
 
-### 4. Actions
+### 4. الإجراءات
 
-A GitHub **Action** is a piece of automation written in a way that is compatible with workflows. Actions can be written by [GitHub](https://github.com/actions), by the open source [community](https://github.com/sdras/awesome-actions), or you can write them yourself!
+**إجراء GitHub** هو جزء من التشغيل الآلي المكتوب بطريقة متوافقة مع سير العمل. يمكن كتابة الإجراءات بواسطة [GitHub](https://github.com/actions)، من قبل مجتمع المصدر المفتوح [](https://github.com/sdras/awesome-actions)، أو يمكنك كتابتها بنفسك!
 
-## Getting started with GitHub Action
+## البدء مع عمل GitHub
 
-GitHub Actions uses YAML syntax and stored in a directory called `.github/workflows` in the repository. You can either use a templated workflow or create your own.
+تستخدم إجراءات GitHub بنية YAML وتخزينها في دليل يسمى `.github/workflow` في المستودع. يمكنك إما استخدام نموذج سير العمل أو إنشاء قالب خاص بك.
 
 
-### 1- Using GitHub Actions template
+### 1- استخدام قالب إجراءات GitHub
 
-If you want to get started with GitHub Actions, you can start by clicking the "Actions" tab in the repository where you want to create a workflow, as shown below. Under the "Actions" tab, you will find popular CI workflows, which can help deploy or automate some tasks in the repository.
+إذا كنت ترغب في البدء مع أعمال GitHub ، يمكنك البدء بالنقر على علامة التبويب "الإجراءات" في المستودع حيث تريد إنشاء سير عمل، كما هو مبين أدناه. تحت علامة التبويب "الإجراءات"، ستجد تدفقات عمل CI، التي يمكن أن تساعد في نشر أو أتمتة بعض المهام في المستودع.
 
 ```{figure} ../../figures/gifs/start_ghactions.gif
 ---
-width: 600px
-align: center
-name: GitHub action template
-alt: A gif showing where you can find GitHub Actions template in your Github repo.
+العرض: 600px
+محاذاة الوسط
+إسم: قالب إجراء GitHub
+بديل: غيف يعرض حيث يمكنك العثور على قالب إجراءات GitHub في مستودع Github الخاص بك.
 ---
 ```
-You can choose any of these starter workflows and customise them further.  An explanation for building blocks within the workflow is described in a later section.
+يمكنك اختيار أي من سير العمل المبتدئ هذه وتخصيصها أكثر.  ويرد في فرع لاحق شرح لعناصر البناء في إطار سير العمل.
 
 
-### 2- Using libraries-specific templates.
+### 2 - استخدام القوالب الخاصة بالمكتبات.
 
 
-Github Action template is not the only starter kit available; there are libraries-specific templates for the language of interest. For example, you can  use  {usethis} package in R to create a template for R packages by running `usethis::use_github_action_check_standard()`. This will generate GitHub Actions to run CRAN checks after every commit or pull request. That’s all you have to do!
+قالب عمل Github ليس مجموعة البدء الوحيدة المتاحة؛ هناك قوالب خاصة بالمكتبات للغة المثيرة للاهتمام. على سبيل المثال، يمكنك استخدام الحزمة  {usethis} في R لإنشاء قالب لحزم R عن طريق تشغيل `usethis:use_github_action_check_standard()`. سيؤدي هذا إلى إنشاء إجراءات GitHub لتشغيل التحقق من CRAN بعد كل التزام أو طلب سحب. هذا كل ما عليك فعله!
 
 
-### 3- Using the configuration of other projects as inspriration
+### 3- استخدام تكوين المشاريع الأخرى كتمهيد
 
-Many well maintained open source libraries and estableshed projects use GitHub Actions for their CI. Have a look at the checks lists on pull requests of these projects for inspiration and ideas; following by checking out their CI configuration files. In most cases their licence will allow to copy the bits that would work for your case. The advantage of this approach is to use some approaches that are already working.
+ويستخدم العديد من المكتبات المفتوحة المصدر والمشروعات التي تدار بشكل جيد إجراءات GitHub لمعلومات CI الخاصة بها. إلقاء نظرة على قوائم التحقق من طلبات سحب هذه المشاريع للحصول على الإلهام والأفكار؛ المتابعة عن طريق التحقق من ملفات تكوين CI. في معظم الحالات يسمح لهم الترخيص بنسخ الأجزاء التي تعمل لحالتك. وميزة هذا النهج هي استخدام بعض النهج التي تعمل بالفعل.
 
-For example:
+وعلى سبيل المثال:
 
-- The Turing Way workflow to [build the Turing Way book and to provide a preview for the pull requests](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/workflows/ci.yml)
-- A matrix of tests on [3 operating systems and multiple Python versions for the Python package NetworkX](https://github.com/networkx/networkx/blob/main/.github/workflows/test.yml)
-- A more complex setup of testing the [build in multiple circumstances for the Python package Numpy](https://github.com/numpy/numpy/blob/main/.github/workflows/build_test.yml)
+- تدفق العمل عبر تورينج [لبناء كتاب طريق التوت ولتوفير معاينة لطلبات السحب](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/workflows/ci.yml)
+- مصفوفة من الاختبارات على [3 أنظمة تشغيل وأصدارات بايثون متعددة لشبكة بايثون للحزمة X](https://github.com/networkx/networkx/blob/main/.github/workflows/test.yml)
+- إعداد أكثر تعقيداً لاختبار [بناء في ظروف متعددة لرقم حزمة بايثون](https://github.com/numpy/numpy/blob/main/.github/workflows/build_test.yml)
 
 
-In the next section, we will explain building blocks for the workflow.
+في القسم التالي، سنشرح لبنات البناء لسير العمل.
 
 <!-- (I'll explain each vocab separately using diagrams made with adobe illustrator) -->

@@ -1,55 +1,55 @@
-(rr-reviewing-workflow)=
-# Typical Workflows
+(r-reviewing-workflow)=
+# سير العمل النموذجي
 
-*This chapter has particular reference to Github*
+*يتضمن هذا الفصل إشارة خاصة إلى Github*
 
 ```{figure} ../../figures/readable-code.jpg
 ---
-height: 500px
-name: readable-code
-alt: This image highlights the importance of code readability.
+الطول: 500px
+الاسم: رمز القراءة
+بديل: هذه الصورة تسلط الضوء على أهمية قابلية البرمجة للقراءة.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Formal vs Informal Reviews
+## الاستعراضات الرسمية مقابل غير الرسمية
 
-For a formal review process to work effectively, it's imperative that the project is using good {ref}`version control<rr-vcs>`. However, it bears stating that **all review of code is very valuable**, including informal or ad-hoc approaches. Indeed, this kind of informal "over the shoulder" peer review can form a key preliminary component even in highly formalised review pipelines, saving a lot of stress and arguing once the formal stage begins.
+لكي تعمل عملية المراجعة الرسمية بشكل فعال، من الضروري أن يستخدم المشروع {ref}`التحكم الجيد في الإصدار<rr-vcs>`. ومع ذلك، من الجدير بالذكر أن **جميع مراجعة التعليمات البرمجية قيمة جدا**، بما في ذلك النهج غير الرسمية أو المخصصة. والواقع أن هذا النوع من استعراض النظراء غير الرسمي "على مستوى النظراء" يمكن أن يشكل عنصراً أولياً رئيسياً حتى في خطوط الاستعراض ذات الطابع الرسمي الشديد، توفير الكثير من الإجهاد والجدل بمجرد بدء المرحلة الرسمية.
 
-This section focuses on the typical workflows behind a formal review process, as commonly implemented within [Github](https://github.com/). Other coding environments like [BitBucket](https://bitbucket.org/) or [GitLab](https://about.gitlab.com/) could have conceptually similar mechanisms but they are not explained here.
+يركز هذا القسم على سير العمل النموذجي وراء عملية مراجعة رسمية، كما يتم تنفيذها عادة في [Github](https://github.com/). بيئات البرمجة الأخرى مثل [BitBucket](https://bitbucket.org/) أو [GitLab](https://about.gitlab.com/) يمكن أن تحتوي على آليات مماثلة من الناحية المفاهيمية ولكنها غير موضحة هنا.
 
-## Prepare The Code
+## إعداد التعليمات البرمجية
 
-Before requesting a review, make sure you've met all the obvious quality benchmarks for the project you are contributing to. This means making sure you have checked the review list (see {ref}`checklist for the coder<rr-checklist-for-code-review>`).
+قبل طلب المراجعة، تأكد من استيفاء جميع معايير الجودة الواضحة للمشروع الذي تسهم فيه. وهذا يعني التأكد من أنك قمت بالتحقق من قائمة المراجعة (أنظر {ref}`قائمة التحقق للمبرمج<rr-checklist-for-code-review>`).
 
-A reviewer should check these things (see {ref}`checklist for the coder<rr-checklist-for-code-review>`), but defects on these fronts should be by occasional oversight, rather than systematic.
+يجب على المستعرض التحقق من هذه الأشياء (أنظر {ref}`قائمة التحقق للمبرمج<rr-checklist-for-code-review>`)، ولكن العيوب على هذه الجبهات ينبغي أن تكون من خلال الرقابة العرضية وليس من خلال الرقابة المنهجية.
 
-## Propose Changes
+## اقتراح تغييرات
 
-In the GitHub system, the review is begun directly from and often accessed through the [pull request page](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). The review step occurs between the points where the coder believes their contribution is complete and where that contribution is merged into the trunk code for the project, and so it is intimately associated with a single pull request.
+In the GitHub system, the review is begun directly from and often accessed through the [pull request page](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). وتحدث خطوة الاستعراض بين النقاط التي يعتقد فيها المبرمج أن مساهمتهم مكتملة، والتي تدمج فيها تلك المساهمة في رمز الجذع للمشروع، وبالتالي فهو يرتبط ارتباطاً وثيقاً بطلب سحب واحد.
 
-Within the Github environment, projects can be configured to *require* a review before a given pull request can be merged. Even if this option hasn't been selected, it's still possible (and indeed best practice) to manually request a review on a pending pull request.
+في بيئة Github ، يمكن تكوين المشاريع لتتطلب ** مراجعة قبل أن يتم دمج طلب سحب معين. وحتى إذا لم يتم اختيار هذا الخيار، فلا يزال من الممكن (بل ومن الأفضل الممارسة) طلب مراجعة على طلب السحب المعلق يدوياً.
 
-## Create and Discuss The Review
+## إنشاء ومناقشة المراجعة
 
-At this point, the review process can begin. In Github, the reviewer can provide both general comments as well as line-by-line comments, see [GitHub code review](https://github.com/features/code-review). Each comment becomes its own comment thread, permitting back-and-forth discussion about each issue as required. This interaction should allow consensus to be reached on every comment.
+وفي هذه المرحلة، يمكن أن تبدأ عملية الاستعراض. في Github، يمكن للمراجع أن يقدم كلا من التعليقات العامة والتعليقات على سطر سطر، انظر [مراجعة كود GitHub](https://github.com/features/code-review). ويصبح كل تعليق موضوعا للتعليق الخاص به، مما يسمح بمناقشة كل مسألة على حدة حسب الاقتضاء. وينبغي أن يتيح هذا التفاعل التوصل إلى توافق في الآراء بشأن كل تعليق.
 
-Once the review is complete, you can discuss any comments necessary. Then you make the changes, and record the changes made against appropriate comments. Also, you check that the reviewer knows you believe you have fully addressed the review.
+بمجرد الانتهاء من المراجعة، يمكنك مناقشة أي تعليقات ضرورية. ثم تقوم بإجراء التغييرات، وتسجل التغييرات التي أجريت مقابل التعليقات المناسبة. وأيضا، أنت تتأكد من أن المستعرض يعرف أنك قد عالجت المراجعة بشكل كامل.
 
-Once you believe changes are complete, the reviewer checks that they do indeed address all of the initial comments. As needed, the reviewer engages constructively with you if they disagree on certain points in order to come to a consensus. In most cases, the reviewer has a final say if a consensus cannot be found.
+وبمجرد أن تعتقد أن التغييرات قد اكتملت، تتحقق الجهة المستعرِضة من أنها تعالج بالفعل جميع التعليقات الأولية. ويتعامل معكم المستعرِض، حسب الحاجة، بصورة بناءة إذا اختلفوا بشأن بعض النقاط للتوصل إلى توافق في الآراء. وفي معظم الحالات، يكون لخبير الاستعراض رأي نهائي إذا تعذر التوصل إلى توافق في الآراء.
 
-Once post-review changes have been made to the code, make final updates the comments as needed to complete a history of what has been done and the reasoning behind it.
+بمجرد إجراء تغييرات في المدونة بعد إعادة النظر، إجراء تحديثات نهائية للتعليقات حسب الحاجة لاستكمال سجل لما تم القيام به والمنطق الذي يقوم عليه.
 
-## Communicating Results Through GitHub
+## التواصل مع النتائج من خلال GitHub
 
-In Github, comments should be added in the `Files changed` section, so they can be attached to a particular line of code, see [GitHub reviewing changes in pullrequests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests). Make many small comments this way, rather than a big ball of text with everything in it, so that different issues can be kept separate. Where relevant, refer to existing Issues and documentation.
+في Github، يجب إضافة التعليقات في قسم `الملفات المتغير` ، حتى يمكن ربطها بسطر معين من التعليمات البرمجية، انظر [GitHub يستعرض التغييرات في طلبات السحب](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests). قم بالعديد من التعليقات الصغيرة بهذه الطريقة، بدلاً من الكرة الكبيرة من النص مع كل شيء فيه، بحيث يمكن الإبقاء على مسائل مختلفة منفصلة. ويشار إلى المسائل والوثائق القائمة، حيثما كان ذلك مناسبا.
 
-If you're reviewing existing code rather than changes, it is still handy to use pull requests. If you find an issue that has an obvious fix, you can submit a pull request with a patch in the usual way.
+إذا كنت تستعرض التعليمات البرمجية الموجودة بدلاً من التغييرات، فلا يزال من المفيد استخدام طلبات السحب. إذا وجدت مشكلة لها حل واضح، فيمكنك تقديم طلب سحب مع تصحيح بالطريقة المعتادة.
 
-If you don't have a fix, you can add an empty comment to the relevant line, and create a pull request from that as a patch. The relevant line(s) will then light up in the pull request's `Files changed` overview, and you can add your comments there. In this case, either the pull request is never merged (but the comments processed some other way, or not at all), or the extra comments are reverted and replaced by an agreed-upon fix.
+إذا لم يكن لديك إصلاح، يمكنك إضافة تعليق فارغ إلى السطر ذي الصلة. و أنشئ طلب سحب من ذلك كتصحيح. سيتم إضاءة السطر (الخطارات) ذات الصلة بعد ذلك في نظرة عامة لطلب السحب `الملفات تغير` ويمكنك إضافة تعليقاتك هناك. في هذه الحالة، إما أن طلب السحب لا يتم دمجه أبداً (لكن التعليقات تم معالجتها بطريقة أخرى). أو ليس على الإطلاق)، أو التعليقات الإضافية يعاد النظر فيها ويستعاض عنها بإصلاح متفق عليه.
 
-In all cases, file many small pull requests, not one big one, as GitHub's support for code reviews is rather limited. Putting too many issues into a single pull request quickly becomes unwieldy.
+في جميع الحالات، قم بتقديم العديد من طلبات السحب الصغيرة، وليس واحدة كبيرة، حيث أن دعم GitHub، لمراجعات الرموز محدود إلى حد ما. إن وضع الكثير من المشكلات في طلب سحب واحد يصبح بسرعة غير عملي.
 
-## Merge The Changes
+## دمج التغييرات
 
-Once the review process is complete, the reviewer approves the changes, and the merge can occur. Individual projects typically have rules and/or guidelines for whether the coder or the reviewer actually presses the merge button, so check. In many cases, project workflows make completion of a review and its sign-off by the reviewer a formal precondition of performing the merge. For the avoidance of doubt, adopting this principle even for small or informal projects is probably sensible.
+وبمجرد اكتمال عملية الاستعراض، يوافق المستعرِض على التغييرات، ويمكن أن يحدث الدمج. وعادة ما يكون لدى المشاريع الفردية قواعد و/أو مبادئ توجيهية لتحديد ما إذا كان المبرمج أو المستعرض يضغط بالفعل على زر الدمج، لذا فحص. وفي كثير من الحالات، تجعل تدفقات عمل المشاريع من إكمال الاستعراض وإقراره من جانب المستعرِض شرطا مسبقا رسميا لإجراء الدمج. وتفاديا للشك، قد يكون اعتماد هذا المبدأ حتى بالنسبة للمشاريع الصغيرة أو غير الرسمية أمرا معقولا.

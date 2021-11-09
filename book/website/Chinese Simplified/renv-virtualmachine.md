@@ -1,67 +1,67 @@
 (rr-renv-vm)=
-# Virtual Machines
+# 虚拟机
 
 (rr-renv-vm-what)=
-## What are Virtual Machines?
+## 什么是虚拟机？
 
-Virtual Machines (VMs) essentially package a whole computer as an app that can be run. As an example, the figure below shows a windows laptop (note the windows search button in the lower-left corner) running a virtual ubuntu machine (note the terminal outputting the operating system). The machine running the VM is called the `host machine`.
+虚拟机 (VMs) 基本上将整个计算机打包为可以运行的应用程序。 例如， 下图显示一个窗口笔记本电脑(注意左下角的窗口搜索按钮)运行一个虚拟ubuntu机(注意终端输出操作系统)。 运行虚拟机的机器叫做 `主机机`。
 
-Using software like [VirtualBox](https://www.virtualbox.org/) or [Vagrant](https://www.vagrantup.com/), a user can create and run any number of VMs. As you could probably guess, having several VMs running at once can be a drain on memory. So just because you can run several VMs does not mean you should.
+使用 [VirtualBox](https://www.virtualbox.org/) 或 [Vagrant](https://www.vagrantup.com/)等软件，用户可以创建和运行任意数量的VMM。 你可能会猜测，几个虚拟机一次运行可能会消耗内存。 所以只是因为你可以运行几个虚拟机并不意味着你应该这样做。
 
 ```{figure} ../../figures/virtual-machine.png
 ---
-name: virtual-machine
-alt: A screenshot of a Virtual Machine.
+名称：虚拟机
+Alt：虚拟机的屏幕截图。
 ---
 
 ```
 
-Users can download, install, backup and destroy VMs at will, which is why they are an attractive tool for sharing reproducible research. Research often requires specific pieces of software or system settings. If a researcher wishes to reproduce another's work on their computer, making the necessary changes to their environment to run the project may impact their work. For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. Say a researcher installs an updated version of Python to replicate an analysis because the analysis requires features only present in the updated version. By doing so, they put their own work at risk. VMs remove that risk; any tools downloaded or settings changed will only impact the VM, keeping the reproducer's research safe. If they do inadvertently break something in the VM, they can delete it and make another one. VMs are effectively a quarantined area.
+用户可以随意下载、安装、备份和销毁虚拟机，这就是为什么他们是分享可再生产研究的有吸引力的工具。 研究往往需要特定的软件或系统设置。 如果研究人员希望在其计算机上复制另一方的著作， 对其环境进行必要的改变以便管理该项目可能会影响其工作。 For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. 说一个研究人员安装更新版本的 Python 以复制分析，因为分析只需要更新版本中的功能。 这样，他们就使自己的工作面临危险。 虚拟机消除了这种风险；下载的任何工具或改变的设置只会影响到虚拟机，保持生殖器研究安全。 如果他们在虚拟机中无意中破坏某些东西，他们可以删除它并做另一个。 VM实际上是一个隔离区。
 
 (rr-renv-vm-research)=
-## Using Virtual Machines for Reproducible Research
+## 使用虚拟机进行可复制研究
 
-Virtual machines can be shared by exporting them as single files. Another researcher can then import that file using their own virtualisation software like [VirtualBox](https://www.virtualbox.org/) and open up a copy of the VM which will contain all the software files and settings put in place by the person that made the VM. Therefore in practice, they will have a working version of the project without the pain of setting it up themselves.
+虚拟机可以通过导出为单个文件来共享。 另一位研究人员然后可以使用自己的虚拟化软件导入该文件，例如 [VirtualBox](https://www.virtualbox.org/) 并打开一个虚拟机副本，其中将包含制作虚拟机的人设置的所有软件文件和设置。 因此，实际上，他们将有一个项目的工作版本，而不会自己设置它。
 
-(rr-renv-vm-research-settingup)=
-### Setting up a Virtual Machine
+(rr-renv-vm-research-setting)=
+### 设置虚拟机
 
-First, choose a tool for generating VMs. Here the widely-used [VirtualBox](https://www.virtualbox.org/) is chosen. Download and install it on your system. To create a new machine, click "New" in the top left. A window will pop up where you can enter a name for the machine and select what operating system (and version) to use. In the figure below, a machine called `demo_VM` running Ubuntu is being created:
+首先，选择生成VM的工具 这里选择了广泛使用的 [虚拟框](https://www.virtualbox.org/)。 下载并在您的系统上安装它。 要创建一个新机器，请点击左上角的“新机器”。 一个窗口将弹出您可以在哪里输入机器名称并选择要使用的操作系统 (和版本)。 在下图中，正在创建一个叫做 `demo_VM` 运行Ubuntu的机器：
 
 ```{figure} ../../figures/vm-create-machine.png
 ---
-name: vm-create-machine
-alt: A screenshot showing a Virtual Machine is created.
+名称：vm-create-m
+Alt：显示虚拟机的截图已创建。
 ---
 
 ```
 
-As you click through, you can adjust other features of the machine to be created, such as how much memory it should have access to. The default options are suitable for most purposes, but this process permits customisation.
+当您点击时，您可以调整要创建的机器的其他功能，例如它应该有多少内存。 默认选项适合大多数用途，但此过程允许定制使用。
 
 (rr-renv-vm-research-starting)=
-### Starting a Virtual Machine
+### 启动虚拟机
 
-To start a virtual machine, select the machine from the list of VMs on the left, and click the green `Start` arrow at the top:
+若要启动虚拟机，请从左边的虚拟机列表中选择该机， 然后点击绿色 `在顶部开始` 箭头：
 
 ```{figure} ../../figures/vm-start-machine.png
 ---
-name: vm-start-machine
-alt: A screenshot showing how to start a Virtual Machine.
+名称：vm-start-box
+Alt: 显示如何启动虚拟机的屏幕截图。
 ---
 
 ```
 
 (rr-renv-vm-research-sharing)=
-### Sharing Virtual Machines
+### 共享虚拟机
 
-A researcher can do work on their VM, and then export it. To export a VM, click `File` in the top left and then `Export`. This will export the VM as a single file which can be shared.
+研究人员可以对其虚拟机进行研究，然后将其导出。 To export a VM, click `File` in the top left and then `Export`. 这将导出虚拟机作为可以共享的单个文件。
 
 ```{figure} ../../figures/vm-export-machine.png
 ---
-name: vm-export-machine
-alt: A screenshot showing how to export a Virtual Machine.
+名称：vm-export-box
+alt: 显示如何导出虚拟机的屏幕截图。
 ---
 
 ```
 
-Someone that has access to this file and VirtualBox installed just needs to click `File` in the top left, then `Import` to select that file. Once it is imported, they can start the VM as described before, by selecting it from the menu clicking the green start arrow at the top.
+有人可以访问此文件和 VirtualBox 安装，只需要点击左上方的 `文件` 。 然后 `导入` 以选择该文件。 一旦导入，他们可以像前面描述的那样启动虚拟机。 从菜单中选择它，点击顶部的绿色起始箭头。

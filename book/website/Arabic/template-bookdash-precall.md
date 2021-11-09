@@ -1,5 +1,5 @@
 (ch-template-bookdash-precall)=
-# Pre-Book Dash Onboarding Sessions
+# دورات ما قبل الكتاب Dash Onboarding
 
 ```
 # Book Dash, DD Month YYYY - Pre-Book Dash Onboarding Sessions
@@ -23,18 +23,18 @@
 :sunflower: Welcome!  
 ---
 
-This call is scheduled for the invited participants of the next Book Dash event hosted by The Turing Way taking place from 17 to 21 May 2021 online.
+هذه المكالمة مقررة للمشاركين المدعوين في حدث الكتاب القادم الذي يستضيفه طريق تورينج في الفترة من 17 إلى 21 مايو 2021 على الإنترنت.
 
-Please note that everyone who participates in _The Turing Way_ project is expected to abide by our [Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+يرجى ملاحظة أن كل من يشارك في مشروع Turing Way_ من المتوقع أن يلتزم بـ [مدونة السلوك] (https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
-Please see more details on [the project](https://github.com/alan-turing-institute/the-turing-way), [Book Dash](https://the-turing-way.netlify.app/community-handbook/bookdash.html) and logistics details (shared by email before the event) for the upcoming book dash below the notes.
+يرجى الاطلاع على المزيد من التفاصيل حول [project](https://github.com/alan-turing-institute/the-turing-way), [Book Dash](https://the-turing-way.netlify. pp/Community Handbook/bookdash.html) والتفاصيل اللوجستية (تقاسمها عبر البريد الإلكتروني قبل الحدث) فيما يتعلق بشريطة الكتاب القادمة أسفل الملاحظات.
 
-### Agenda
+### جدول الأعمال
 
-- Introductions (get to know each other): 10 minutes
-- About the Book Dash ([logistics, accessibility support, socials](https://hackmd.io/@turingway/bookdash-may2021-index)): 10 minutes
-- [SMART goal setting exercise](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) in breakout (or quiet writing): 15 minutes
-- A Scriberia artist will be there!! - would you like to get some illustration? (you should [check this out(https://zenodo.org/record/3332808))
+- مقدمات (اطلع على بعضنا البعض): 10 دقائق
+- حول كتاب داش ([اللوجستيات، دعم إمكانية الوصول، الاجتماعية](https://hackmd. o/@turingway/bookdash-may2021-index)): 10 دقائق
+- [تمرين تحديد أهداف SMART ](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) في عرض (أو الكتابة الهادئة): 15 دقيقة
+- فنان Scriberia سيكون هناك!! - هل ترغب في الحصول على بعض التوضيح؟ (you should [check this out(https://zenodo.org/record/3332808))
 - Report out and general discussion: 30 minutes
 - Wrap up and final words: 5 minutes
 
@@ -63,72 +63,72 @@ Please see more details on [the project](https://github.com/alan-turing-institut
 ---
 <!-- Other important details discussed during the meeting can be entered here. -->
 
-* Detailed [Presentation](https://zenodo.org/record/3615259) about the project ([video](https://www.youtube.com/watch?v=dlycvMU45ek)) <--- update this
-* See the index HackMd: https://hackmd.io/@turingway/bookdash-may2021-index <--- update this
-* GitHub: https://github.com/alan-turing-institute/the-turing-way
-    * [Introductory materials](https://hackmd.io/@turingway/bookdash-may2021-index#GitHub-Resources) <--- update this
+* التفاصيل [Presentation](https://zenodo.org/record/3615259) حول المشروع ([video](https://www.youtube. om/watch?v=dlycvMU45ek)) <- تحديث هذا
+* انظر الفهرس HackMd: https://hackmd.io/@turingway/bookdash-may2021-index <- تحديث هذا
+* GitHub: https://github. om/alan-turing-Institute/the-turing-way
+    * [المواد الاستهلالية](https://hackmd. o/@turingway/bookdash-may2021-index#GitHub-Resources) <--- حدّث هذا
 
-:dart: Goal setting exercise: Breakout
+تمرين وضع الأهداف:dart: : تفصيل
 ---
 
-We would like to help create some plans and topics they you would like to explore for your contributions in _The Turing Way_. 
-- Please note that this goal setting can relate to the suggestions made the reviewers based on your application (see your acceptance email). 
-- We will be delighted to work with you to make sure that you are excited about your contribution to the Book Dash event. 
-- These topics can be something that is either missing in the existing chapters or need to be updated in the project.
-- You personal motivation could also be to collaborate with others at the event to work on and support what they are working on
-- We also recognise - and celebrate the fact - that plans may change once you meet the other participants!
+نود أن نساعد في إنشاء بعض الخطط والمواضيع التي ترغب في استكشافها لمساهماتك في _The Turing Way_. 
+- يرجى ملاحظة أن تحديد الهدف هذا يمكن أن يتعلق بالاقتراحات المقدمة من المراجعين بناء على طلبك (انظر البريد الإلكتروني لقبولك). 
+- سيكون من دواعي سرورنا أن نعمل معكم للتأكد من أنك متحمس لمساهمتك في حدث "كتاب داش". 
+- يمكن أن تكون هذه المواضيع إما مفقودة في الفصول الحالية أو بحاجة إلى تحديث في المشروع.
+- قد يكون الدافع الشخصي هو التعاون مع الآخرين في الحدث للعمل على دعم ما يعملون عليه
+- نحن أيضا ندرك - والاحتفال بحقيقة - أن الخطط قد تتغير بمجرد مقابلتك مع المشاركين الآخرين!
 
 
-Setting our personal goals will help us prepare better for your participation:
-- **S**pecific: They precisely spell out what you want to accomplish and usually answer the 5 Ws (Who? What? Where? When? Why?)
-- **M**easurable: They provide a specific indicator of success.
-- **A**ttainable: They are realistic.
-- **R**elevant: They are important and practical.
-- **T**ime-bound: They specify a deadline for when the goal will be met.
+إعداد أهدافنا الشخصية سيساعدنا على الإعداد بشكل أفضل لمشاركتك:
+- **S**<unk> fic: إنهم يحددون بدقة ما تريد إنجازه وعادة ما يجيبون على 5 WW (من الذي هو؟ ماذا؟ أين ؟ متى؟ لماذا؟
+- **M**easuraable: وهي توفر مؤشرا محددا للنجاح.
+- **A**. يمكن التحقق: إنها واقعية.
+- **المصعد: وهي مهمة وعملية.
+- **T**ime-obligy: هم يحددون موعدا نهائيا للموعد الذي سيتم فيه تحقيق الهدف.
 
-*We are using [this template](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) by Danielle R. Schultz (2015).*
+*نحن نستخدم [هذا القالب](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) من قبل Danielle R. Schultz (2015).
 
-<!--COPY IT BELOW-->
+<! -COPY IT BELOW-->
 
 > [name=Name]
-> **S**pecific: What do I want to accomplish?:
-> **M**easurable: How will I measure my success?:
-> **A**ttainable: Can I realistically achieve this goal? What steps will I take?
-    > step 1:
-    > step 2:
-    > step 3:
-> **R**elevant: Does this goal meet a specific need?: 
-> **T**ime-bound: What is my target deadline? (potentially between 9 and 13 Nov): 
+> **S**<unk> fic: ماذا أريد أن أنجز؟
+> **M**easuraable: كيف يمكنني قياس نجاحي؟:
+> **A**table: هل يمكنني تحقيق هذا الهدف بشكل واقعي؟ ما الخطوات التي سأتخذها؟
+    > الخطوة 1:
+    > الخطوة 2:
+    > الخطوة 3:
+> **ر**مصعد: هل يلبي هذا الهدف حاجة محددة؟ 
+> **متوافق مع: ما هو الموعد النهائي المستهدف؟ (potentially between 9 and 13 Nov): 
 > Goal statement:
 
 > [name=Name]
 > **S**pecific: What do I want to accomplish?:
 > **M**easurable: How will I measure my success?:
-> **A**ttainable: Can I realistically achieve this goal? What steps will I take?
-    > step 1:
-    > step 2:
-    > step 3:
-> **R**elevant: Does this goal meet a specific need?: 
-> **T**ime-bound: What is my target deadline? (potentially between 9 and 13 Nov): 
-> Goal statement:
+> **A**ttainable: Can I realistically achieve this goal? ما الخطوات التي سأتخذها؟
+    > الخطوة 1:
+    > الخطوة 2:
+    > الخطوة 3:
+> **ر**مصعد: هل يلبي هذا الهدف حاجة محددة؟ 
+> **متوافق مع: ما هو الموعد النهائي المستهدف؟ (يحتمل أن يكون بين 9 و 13 تشرين الثاني/نوفمبر): 
+> بيان الهدف:
 >
 
-## Open questions: (feel free to write them below):
+## أسئلة مفتوحة: (لا تتردد في كتابتها أدناه):
 *
 *
 *
 
-##  Closing:
+## # إغلاق:
 
 - 
 
-### Wondering where to start?
+## # هل تريد البدء؟
 
-Here are a few suggestions for a good first contributions:
+فيما يلي بعض الاقتراحات للمساهمات الأولى الجيدة:
 
-- Review an existing chapter by suggesting a few changes in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- مراجعة فصل موجود باقتراح بعض التغييرات في [الكتاب] (https://the-turing-way). etlify.com) و/أو [repository](https://github.com/alan-turing-institute/the-turing-way).
+- تعليم المعلومات غير الواضحة أو المكررة في الكتاب عن طريق فتح [عدد على GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
+- إصلاح [مشكلة قديمة](https://github.com/alan-turing-institute/the-turing-way/issues) أو تعليق على [طلبات السحب] (https://github.com/alan-turing-institute/the-turing-way/pulls).
+- اكتب تجربتك الشخصية في البحث القابل للتكرار في هذا [شكل google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
+- انظر المزيد من المعلومات على GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-cooperation-cafe.md
 ```

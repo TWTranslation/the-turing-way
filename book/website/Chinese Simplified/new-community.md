@@ -1,22 +1,22 @@
 (cl-new-community)=
-# Managing a New Community and Team
+# 管理新社区和团队
 
-As researchers, scientists and 'techies' we look for ways to use our skills to solve pressing, current issues.
+作为研究人员、科学家和“技术人员”，我们寻求利用我们的技能解决紧迫的当前问题的方法。
 
-The most recent example is the COVID-19 pandemic and related events {cite:ps}`WHO2020Jul` worldwide including the global lockdown that started in February 2020. The research communities responded with a sudden surge of hackathons, data modelling projects, task forces, and working groups to find effective and immediate technical solutions to combat this health crisis.
+最近的例子是COVID-19大流行病和相关事件 {cite:ps}`WHO20Jul` 包括2020年2月开始的全球锁定。 研究界的反应是突然猛增的黑客、数据建模项目、工作队等。 为了解决这场健康危机，工作组和工作组应立即找到有效的技术解决办法，以解决这场健康危机。
 
 ```{figure} ../figures/new-community.png
 ---
-name: new-community
-alt: An illustration of 2 people who are working together and discussing a data chart.
+名称：新社区
+备选案文：两个正在一起工作并讨论数据图的人的示例。
 ---
-An illustration of analytic process. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
+是分析过程的一个示例。 [许多Pixels免税图像](https://www.manypixels.co/gallery/)
 ```
 
-Such action oriented efforts result from a motivation to pull together and combine our scientific knowledge to address unprecedented situations, which is surely an ideal way to move forward. Nevertheless, forming effective collaborations is a challenging process, even in the best of times. Keeping a team engaged is a continuous activity that requires regular checking in and evaluation. Based on each evaluation we can change and improve our workflow and community practices. However, when we hastily create a project to tackle an immediate problem at hand, we don’t have the benefit of time to carry out such evaluation. Therefore it is even more important to be intentional when creating teams and communities and apply the tried and tested best practices from the beginning.
+这种面向行动的努力产生于汇集和汇集我们的科学知识以处理前所未有的情况的动机。 这肯定是向前迈进的理想途径。 然而，即使在最好的时候，建立有效的协作也是一个富有挑战性的进程。 保持一个小组的参与是一项持续的活动，需要定期检查和评价。 在每次评估的基础上，我们可以改变和改进我们的工作流程和社区做法。 然而，当我们匆忙制定一个项目来解决眼前的问题时， 我们没有时间进行这种评估。 因此，在建立团队和社区并从一开始就应用经过试验和测试的最佳做法时，更重要的是要有意这样做。
 
-So, how can we ensure that the teams and research communities we form during the time of urgency are built on the foundation of excellent science and community practices? To help researchers address this issue, especially when starting a community or team-oriented projects in a short amount of time (such as a pandemic), we have compiled recommendations drawn from the experiences of community and technical experts. In this chapter we discuss the important aspects that helps make a project truly productive, while being successfully community-oriented. We also discuss useful ways to tackle technical issue that can arise in a project. In the third subchapter, we urge our readers to identify their stakeholders, actively invite them to participate and value the differences that exist in their teams and communities.
+因此，我们如何能够确保我们在紧急时期组成的团队和研究界建立在出色的科学和社区做法的基础上？ 帮助研究人员解决这一问题，特别是在短期内(例如大流行病)启动一个社区项目或以团队为导向的项目时， 我们根据社区和技术专家的经验汇编了建议。 在本章中，我们讨论了有助于使一个项目真正富有成效的重要方面，同时成功地面向社区。 我们还讨论了处理项目中可能出现的技术问题的有益办法。 在第3小章中，我们敦促读者确定其利益攸关者。 积极邀请他们参与并珍视其团队和社区中存在的差异。
 
-We hope that practices recommended in this chapter will give a good starting point for building successful collaboration with your team and community. We want to prompt everyone to think critically not just about the technicalities of the work, but also the social environment in which it is being conducted.
+我们希望，本章所建议的做法将为与你们的团队和社区建立成功的协作提供一个良好的起点。 我们希望促使大家认真思考，不仅仅是工作的技术细节问题。 但也包括开展这项工作的社会环境。
 
-*This chapter was originally discussed and written in [an online post](https://www.software.ac.uk/blog/2020-05-26-cw20-speed-blog-bootstrapping-development-team-during-time-crisis) by Malvika Sharan, Yo Yehudi, Colin Sauze, Raniere Silva, Caroline Jay, Robert Haines and Claire Wyatt as a part of the [Collaboration Workshop 2020](https://www.software.ac.uk/cw20) speed blog series hosted by [Software Sustainability Institute](https://www.software.ac.uk).*
+*本章最初是由Malvika Sharan在 [中讨论并写入一个在线帖子](https://www.software.ac.uk/blog/2020-05-26-cw20-speed-blog-bootstrapping-development-team-during-time-crisis) Yo Yehudi, Colin Sauze, Raniere Silva, Caroline Jay, Robert Haines and Claire Wyatt, as a part of the [Collaboration Workshop 2020](https://www.software.ac.uk/cw20) speedblog series hosted by [Software Sustainability Institute](https://www.software.ac.uk)*

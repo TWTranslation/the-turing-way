@@ -1,32 +1,32 @@
 (cl-shared-ownership-models)=
-# Shared Ownership Models
+# 共享所有权模型
 
-At the time of writing this chapter, We have identified the following models of shared code ownership:
+在编写本章时，我们确定了下列共用代码所有权模式：
 
-## Roles Based on Level of Access
+## 基于访问级别的角色
 
-For the GitHub users contributing to an open source project, folloing roles are defined by the access levels: “Read -> Triage -> Write -> Maintain -> Admin” (see [GitHub page for reference](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository)). The different access levels define the increasing order of rights and responsibilities a contributor has in a project (see [GitHub documentation](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization) for details).
+对于GitHub 用户来说，为开源项目做出贡献。 folloing 角色由访问级别定义：“读取-> 试用-> 写入-> Maintain -> Admin”(见 [GitHub 页面参考](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository))。 不同的访问级别决定了贡献者在项目中的权利和责任的增加顺序(详情请参阅 [GitHub 文档](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization))。
 
-For GitHub organisations, there are options to [organise members into teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) with different roles and access levels. Owner permissions for a GitHub organisation can be given to a group of people who manage the organization account such as granting permission levels to contributors as needed ([see details](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization)).
+对于GitHub 组织，有一些选项可以将 [成员组织到具有不同角色和访问级别的团队](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams)。 GitHub 组织的所有者权限可以授予管理组织帐户的一群人，例如根据需要授予贡献者权限级别([见详细信息](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization))。
 
-The default minimum permissions for members allows reading, forking, creating issues, fixing bugs and suggesting minor changes. It is an easy pathway for new contributors to enter a project, however, not sufficient to feel like a part of the community. To foster a sense of shared ownership, the basic level of access should be ‘writers’, who can review new contributions, and make and approve changes allowing them to share responsibility for the development and maintenance of a project.
+成员的默认最小权限允许读取、转场、创建问题、修复bug和建议小的修改。 新的捐助方进入一个项目是一条容易的道路，但这还不足以感觉到社区的一部分。 为了培养一种共同的主人翁意识，基本的接入水平应该是“作家”，他可以查看新的贡献。 并作出和批准修改，使它们能够分担开发和维持项目的责任。
 
-If these roles are not explicitly defined, the burden will be put on contributors to find out what level of access they have and how they can be promoted to the next levels.
+如果这些角色没有明确定义， 将由捐助国承担责任，查明它们有何种程度的准入以及如何将它们提升到下一个水平。
 
-## Open Source Leadership and Governance
+## 开放源码领导和治理
 
-Unlike the previous example, where the roles are ‘assumed’ based on access level, a more intentional approach can be taken to formalise roles for all contributors under the leadership and governance aspect of an open source project. This allows contributors with specific interests or availability to identify and step into the project. The [Open Source Guides](https://opensource.guide/leadership-and-governance/) project provides a basic framework for setting roles for the maintainers, contributors and committers. Furthermore, they describe how to meet contributors where they are to [facilitate shared ownership](https://opensource.guide/building-community/#share-ownership-of-your-project). In bigger communities, roles can be expanded to include members of different committees, working groups, special interest groups, mentors, trainers and community managers who focus on different areas of development, maintenance and sustainability. In addition to the roles, governance also includes the decision-making processes - how different stakeholders are involved and how these are transparently communicated.
+与前一个例子不同，前一个例子是基于访问级别的“假定角色”。 在开放源码项目的领导和治理方面，可以采取更加有意识的办法，使所有捐助方的作用正规化。 这使有特定兴趣或可用性的贡献者能够确定和进入项目。 [开放源码指南](https://opensource.guide/leadership-and-governance/) 项目为设置维护者、贡献者和提交者的角色提供了一个基本框架。 此外，他们描述了如何会见贡献者以便 [促进共享所有权](https://opensource.guide/building-community/#share-ownership-of-your-project)。 在较大的社区，作用可以扩大到包括不同委员会、工作组、特殊利益集团的成员。 注重发展、维持和可持续性不同领域的辅导员、培训员和社区管理人员。 除了这些作用外，治理还包括决策过程――不同的利害关系方如何参与，以及如何以透明的方式进行宣传。
 
-## Defining Roles and Pathways for Contributors
+## 定义贡献者的角色和路径
 
-As discussed, a clearly defined set of roles and responsibilities allow individuals or groups to build a sense of common purpose and set a clear expectation around shared ownership in the project. These roles can be developed based on the tasks, responsibilities and skill requirements in the project.
+讨论， 明确界定的一套作用和责任使个人或团体能够建立共同目的感，并围绕项目的共同所有权提出明确的期望。 可以根据项目的任务、责任和技能要求来发展这些作用。
 
 ```{figure} ../../figures/mountain-of-engagement.png
 ---
-name: mountain-of-engagement
-alt: Five steps for developing a “Mountain of Engagement” for Open Source project contributors described in the figure title.
+名称：参与的山区
+备选案文：为开源项目贡献者开发一个“参与山脉”的五个步骤，如图标题所述。
 ---
-A “Mountain of Engagement” for Open Source project starts with (1) A list of people's interaction with your work, and (2) 3-5 deepening bands/levels of engagement. (3) Then you can brainstorm and group your interactions into bands of engagement, and give each band a name. (4) With your work you can then identify what works and what doesn't work. (5) This gives the insight to prioritise your work to create more opportunities for your contributors.
+开启开源项目的“参与山区”，以(1) 人民与您工作的互动列表开头。 (2) 加强段幅/参与程度。 (3) 然后你可以集思广益，将你的互动组合成一群接口，给每个波段命名。 (4) 你可以通过你的工作来确定什么是有效的，什么是无效的。 (5) 这使我们能够更好地确定您的工作的优先次序，为您的贡献者创造更多的机会。
 ```
 
-These roles can be contractual or informal, taken by paid or non-paid volunteers, and supported by legal or social policies. These roles and pathways for engagement for the contributors can be understood using [Mountain of Engagement](https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p) as described by [Mozilla Open Leadership](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/) and [Open Life Science](https://openlifesci.org/). The purpose is to identify levels of engagement of contributors as they move from their roles as “observers”, “endorsers”, “contributors”, “leaders” and finally, “owners”.
+这些作用可以是契约性的，也可以是非正式的，由有酬或无酬的志愿者承担，并得到法律或社会政策的支持。 这些贡献者的角色和参与途径可以通过 [Mozilla Open Leaderseas](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/) 和 [Open Life Science](https://openlifesci.org/) 所描述的 [Mount 承诺](https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p) 来理解。 其目的是确定捐助方在摆脱“观察员”、“认可者”、“贡献者”、“领导者”和最后的“所有者”角色时的参与程度。

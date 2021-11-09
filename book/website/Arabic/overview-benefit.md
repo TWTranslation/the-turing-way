@@ -1,39 +1,39 @@
-(rr-overview-benefits)=
-# Added Advantages
+(بآلاف دولارات الولايات المتحدة)
+# الميزات المضافة
 
-In the {ref}`rr-overview-definitions` section, we discussed the different aspects of reproducible research that are beneficial for the scientific community. In this chapter, we will share some less obvious aspects of working reproducibly for individual researchers and teams.
+في قسم {ref}`rr-Overview-definitions` ، ناقشنا مختلف جوانب البحوث القابلة للاستنساخ والمفيدة للأوساط العلمية. وفي هذا الفصل، سنتشاطر بعض الجوانب الأقل وضوحا للعمل على نحو متقطع من أجل فرادى الباحثين والأفرقة.
 
 
 ```{figure} ../../figures/reasons-reproducibility.png
 ---
-name: reasons-reproducibility
-alt: Why we should care about working reproducibly.
+الاسم: أسباب الاسترجاع
+البديل: لماذا يجب أن نهتم بالعمل بشكل متكرر.
 ---
-An illustration of reasons why we should care about working reproducibly.
+مثال توضيحي للأسباب التي تجعلنا نهتم بالعمل بشكل مبدئي.
 ```
 
-**1. Track a complete history of your research**
+**1. تتبع تاريخ كامل من بحثك**
 
-Reproducible research must contain a complete history and narrative (also known as [Provenance](https://en.wikipedia.org/wiki/Provenance)) of the project planning and development process. This includes information on the data, tools, methods, codes, and documentation used in the research project. By storing a complete track-record of our work, we can ensure research sustainability, fair citation/acknowledgement, and usefulness of our and others' work in our research fields.
+يجب أن تحتوي البحوث القابلة للاستنساخ على تاريخ كامل وسرد (يعرف أيضا باسم [برونس](https://en.wikipedia.org/wiki/Provenance)) لعملية تخطيط المشروع وتطويره. ويشمل ذلك معلومات عن البيانات والأدوات والأساليب والرموز والوثائق المستخدمة في مشروع البحث. من خلال تخزين سجل كامل لعملنا، يمكننا أن نكفل استدامة البحوث، والاقتباس/الاعتراف المنصف بالعمل الذي نضطلع به نحن وغيرهم في مجالات بحثنا وفائدة هذا العمل.
 
-**2. Facilitate collaboration and review process**
+**2. تيسير عملية التعاون والاستعراض**
 
-By designing reproducible workflows and sharing them with the different components of our research project, we can allow others to develop an in-depth understanding of our work. This encourages them to review our methods, test our code, propose useful changes and make thoughtful contributions to develop our project further. Reproducible workflows facilitate the peer review process tremendously by allowing reviewers access to the different parts of the projects that are necessary to validate the research outcomes.
+من خلال تصميم تدفقات العمل القابلة للتكرار، وتقاسمها مع مختلف مكونات مشروعنا البحثي، ويمكننا أن نسمح للآخرين ببلورة فهم متعمق لعملنا. وهذا يشجعهم على مراجعة أساليبنا، واختبار التعليمات البرمجية، واقتراح تغييرات مفيدة وتقديم مساهمات مدروسة لتطوير مشروعنا بشكل أكبر. وتيسر تدفقات العمل القابلة للاستنساخ عملية استعراض الأقران إلى حد كبير عن طريق السماح للمستعرضين بالوصول إلى مختلف أجزاء المشاريع اللازمة للتحقق من نتائج البحوث.
 
-**3. Publish validated research and avoid misinformation**
+**3. نشر البحوث التي تم التحقق منها وتجنب المعلومات المضللة**
 
-Lack of reproducibility is one of the major factors that lead to paper retractions (source [Retraction Watch](https://retractionwatch.com/)). The best-known analyses of scientific literature in psychology {cite:ps}`Begley2012` and cancer biology {cite:ps}`OpenScienceCollaboration2015Reproducibility` found the reproducibility rates of their research output of around 40% and 10%, respectively. By working reproducibly, we can develop validated research work, avoid misinformation that can limit replicability of our work and publish accurate research outputs. This aspect does not only support the validity of the current work, but any future studies that are based on reproducible research {cite:ps}`MozillaScienceLab`.
+وعدم إمكانية التكرار هو أحد العوامل الرئيسية التي تؤدي إلى التراجع الورقي (المصدر [ساعة التراجع](https://retractionwatch.com/)). أفضل التحليلات للأدبيات العلمية في علم النفس {cite:ps}`Begley2012` وعلم بيولوجيا السرطان {cite:ps}`OpenSciencecooperation2015Reproduciity` وجدت معدلات قابلية التكاثر في ناتج بحوثها تناهز 40٪ و 10٪، على التوالي. وبالعمل على نحو متقطع، يمكننا أن نطور العمل البحثي الموثق، وأن نتفادى المعلومات المضللة التي يمكن أن تحد من إمكانية تكرار عملنا وأن ننشر نواتج بحثية دقيقة. وهذا الجانب لا يدعم صلاحية العمل الحالي فحسب. لكن أي دراسات مستقبلية تستند إلى بحث قابل للتكرار {cite:ps}`MozilScienceLab`.
 
-**4. Write your papers, thesis and reports efficiently**
+**4. اكتب ورقاتك و أطروحاتك و تقاريرك بكفاءة**
 
-Well documented analyses help us maintain easy access to all the results generated within a project that can be written up efficiently. If working in a team, collaborators can easily get recognition in terms of authorship for their contributions. Furthermore, by availing the underlying dataset and methods we can easily comply with the highest-level journal guidelines.
+التحليلات الموثقة جيدا تساعدنا على الحفاظ على إمكانية الوصول بسهولة إلى جميع النتائج المولدة في إطار مشروع يمكن كتابته بكفاءة. وإذا كان المتعاونون يعملون في فريق ما، فإنهم يستطيعون بسهولة الحصول على التقدير من حيث المؤلف لمساهماتهم. وعلاوة على ذلك، يمكننا بسهولة من خلال الاستفادة من مجموعة البيانات والأساليب الأساسية أن نمتثل للمبادئ التوجيهية المتعلقة بالمجلات على أعلى مستوى.
 
-**5. Get credits for your work fairly**
+**5. احصل على رصيد لعملك بشكل عادل**
 
-Applying reproducibility practices separately on different parts of the project such as data, independently executable codes and scripts, protocols, and reports allow other researchers to test and reuse our work in their research and brings fair recognition for our work. Researchers who publish their work with the underlying information, get cited more often as their research outcome can be broadly replicated and trusted. This fair credit system encourages researchers to further maintain reproducibility practices in their work.
+تطبيق ممارسات قابلية التكرار بشكل منفصل على مختلف أجزاء المشروع مثل البيانات، والرموز والنصوص القابلة للتنفيذ بشكل مستقل، إن البروتوكولات، والتقارير تسمح للباحثين الآخرين باختبار وإعادة استخدام عملنا في بحوثهم وجلب اعتراف منصف بعملنا. ويستشهد بالباحثين الذين ينشرون عملهم بالمعلومات الأساسية على نحو أكثر تواترا باعتبار أن نتائج بحوثهم يمكن تكرارها والثقة بها على نطاق واسع. وهذا النظام الائتماني العادل يشجع الباحثين على مواصلة اتباع ممارسات قابلية التحمل في عملهم.
 
-**6. Ensure continuity of your work**
+**6. تأكد من استمرار عملك**
 
-By following guidelines for reproducibility, we can easily communicate our work with different stakeholders such as our supervisors, funders, reviewers, students, and potential collaborators. This aspect of reproducibility increases the usefulness of our research by enabling others to easily build on our results, and re-use our research materials {cite:ps}`MozillaScienceLab`. This ensures the continuity of a research idea and can even find fresh applications in other contexts. Progress of such projects can easily be tracked and continued - either by other researchers, or yourself if you want to build on your own work after a longer period {cite:ps}`Markowetz2015`.
+ومن خلال اتباع المبادئ التوجيهية المتعلقة بإمكانية الاستنساخ، يمكننا بسهولة أن نتصل بعملنا مع مختلف أصحاب المصلحة مثل المشرفين والممولين والمراجعين والطلاب والمتعاونين المحتملين. وهذا الجانب من جوانب القابلية للتكرار، يزيد من فائدة بحثنا بتمكين الآخرين من البناء بسهولة على نتائجنا، وإعادة استخدام موادنا البحثية {cite:ps}`MozillaScienceLab`. وهذا يكفل استمرارية فكرة بحثية بل ويمكن أن يجد تطبيقات جديدة في سياقات أخرى. ويمكن تتبع التقدم المحرز في هذه المشاريع ومواصلته بسهولة - إما من جانب باحثين آخرين، أو نفسك إذا كنت تريد البناء على عملك الخاص بعد فترة أطول {cite:ps}`Markowetz2015`.
 
-To learn about other benefits of working reproducibly on Open Research projects are covered in our {ref}`rr-open` chapter.
+للتعرف على الفوائد الأخرى للعمل بشكل مبدئي في مشاريع البحوث المفتوحة مغطاة في فصلنا {ref}`المفتوح`

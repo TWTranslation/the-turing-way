@@ -1,100 +1,100 @@
-(ch-consistency-structure)=
-# Structure
+(هيكل الاتساق)=
+# الهيكل
 
-Structure refers to how _The Turing Way_ is organised. A good structural framework ensures that _The Turing Way's_ content is presented in an orderly manner.
+يشير الهيكل إلى كيفية تنظيم _طريق الترقيب_. يضمن إطار هيكلي جيد أن _محتوى الطريق_ يتم عرضه بطريقة منظمة.
 
-(ch-consistency-structure-hr)=
-## Hard Requirements
+(بالإنسجام - ساعة)=
+## المتطلبات الصعبة
 
-The hard checks that deal with _The Turing Way's_ structure include:
+وتشمل عمليات التحقق الصلبة التي تتعامل مع هيكل _الطريق الوشيك_ ما يلي:
 
-(ch-consistency-structure-hr-emptyfiles)=
-### Check 1: Do not add empty files in the `_toc.yml`
+(بآلاف دولارات الولايات المتحدة)
+### تحقق 1: لا تضيف ملفات فارغة في `_toc.yml`
 
-The `_toc.yml` file is where _The Turing Way's_ table of contents (ToC) lives. Some files referenced in the ToC are empty, and their inclusion means that readers can navigate to an empty (sub)chapter while reading _The Turing Way_. This negatively impacts the reader's experience as they go through the book.
+ملف `_toc.yml` هو أين _جدول المحتويات الخاص بالطريق_ (ToC). بعض الملفات المشار إليها في التوكس فارغة، وإدراجها يعني أن القراء يستطيعون الانتقال إلى فصل (فرعي) فارغ أثناء قراءة _طريق التوفير_. وهذا يؤثر سلبا على تجربة القارئ أثناء مروره بالكتب.
 
 ```{figure} ../../figures/empty-toc-file.png
 ---
-name: empty-toc-file
-alt: An empty file that was included in the Turing Way's Table of Contents. Readers can still navigate to empty files when they are included in the table of contents.
+الاسم: ملف فارغ
+بديل: ملف فارغ تم تضمينه في جدول محتويات طريق تورينج. لا يزال يمكن للقراء التنقل إلى ملفات فارغة عندما يتم تضمينها في جدول المحتويات.
 ---
-Empty files included Turing Way's Table of Contents can still be accessed by readers.
+الملفات الفارغة تتضمن جدول محتويات تورينج لايزال من الممكن للقراء الوصول إليها.
 ```
 
-A general suggestion is to remove references to such files from the ToC and raise an issue in _The Turing Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) for content to be written for those files. When the content is written, the files can then be added to the ToC.
+هناك اقتراح عام بحذف الإشارات إلى مثل هذه الملفات من التوكس وإثارة مشكلة في _طريق التدوين_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) للمحتوى الذي سيتم كتابته لتلك الملفات. عند كتابة المحتوى، يمكن إضافة الملفات بعد ذلك إلى التوكس.
 
-For example, [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) curates a list of empty and incomplete files currently in _The Turing Way_, and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) writes content for the `Data Licences` subchapter shown in the {ref}`image <empty-toc-file>`.
+على سبيل المثال، [هذه المشكلة](https://github.com/alan-turing-institute/the-turing-way/issues/1391) تقوم بضبط قائمة من الملفات الفارغة وغير المكتملة حاليا في _طريق التوريد_، و [هذا اللقب الشخصي](https://github.com/alan-turing-institute/the-turing-way/pull/1448) يكتب محتوى للفصل الفرعي `رخص البيانات` المعروض في {ref}`الصورة <empty-toc-file>`.
 
-(ch-consistency-structure-hr-structure)=
-### Check 2: Ensure chapters follow a consistent structure
+(بنية-هيكلية الاتساق)=
+### الاختيار 2: التأكد من أن الفصول تتبع هيكلا متسقا
 
-_The Turing Way_ is made up of five guides that contain several chapters and subchapters. However, these chapters do not follow a uniform structure, taking away from the reader's experience.
+_طريق الترقيق_ يتكون من خمسة أدلة تحتوي على عدة فصول وفصول فرعية. غير أن هذه الفصول لا تتبع هيكلا موحدا ينتقص من تجربة القارئ.
 
 ```{figure} ../../figures/recommended-chapter-structure.png
 ---
-name: recommended-chapter-structure
-alt: The recommended structure for chapters in The Turing Way. Chapters should have a landing page with a sections for prerequisites, summary, and why the chapter is useful. Chapters should also have a checklist and a resources subchapter in addition to the rest of the chapter content.
+الاسم: إعادة التوصية - بنية الفصل
+البديل: البنية الموصى بها للفصول في طريق التوريق. وينبغي أن تحتوي الفصول على صفحة هبوط تحتوي على أقسام تتضمن شروطا مسبقة وملخصة، ولماذا يكون الفصل مفيدا. وينبغي أن تتضمن الفصول أيضا قائمة مرجعية وفصلا فرعيا للموارد إضافة إلى بقية محتوى الفصل.
 ---
-Recommended structure for chapters in The Turing Way.
+بنية موصى بها للفصول في طريق التورينج.
 ```
 
-- **Landing page:**
-    - The chapter's landing page should include information about any prerequisites required to understand the chapter, a summary of the chapter's content, and an explanation of why the chapter is useful.
-- **Subchapters:**
-    - A chapter can contain any number of subchapters or none at all. However, please note the next requirement about the checklist and resources subchapters.
+- **صفحة الهبوط:**
+    - وينبغي أن تتضمن صفحة الاستقبال الخاصة بالفصل معلومات عن أي شروط مسبقة لازمة لفهم الفصل، موجز لمحتوى الفصل، وشرح لسبب فائدة الفصل.
+- **الفصول الفرعية:**
+    - ويمكن أن يتضمن الفصل أي عدد من الفصول الفرعية أو لا يوجد منها على الإطلاق. ومع ذلك، يرجى ملاحظة الشرط التالي المتعلق بالفصلين الفرعيين للقائمة المرجعية والموارد.
 - **Checklist subchapter:**
-    - The checklist subchapter itemizes action points for the reader to take based on the concepts introduced in the chapter.
-- **Resources subchapter:**
-    - The resources subchapter points the reader to other sources where they can learn more about the concepts discussed in the chapter, as well as related topics to explore.
+    - الفصل الفرعي من القائمة المرجعية يحدد نقاط العمل للقارئ التي يجب أن يتخذها استنادا إلى المفاهيم الواردة في الفصل.
+- **الفصل الفرعي للموارد:**
+    - ويشير الفصل الفرعي المتعلق بالموارد القارئ إلى مصادر أخرى حيث يمكنه معرفة المزيد عن المفاهيم التي نوقشت في الفصل، بالإضافة إلى المواضيع ذات الصلة التي يتعين استكشافها.
 
 
 ```{attention} Please note that making chapters follow this structure may require splitting some of the existing content into new files.
-References to these files should be updated in the table of contents in the `_toc.yml` file.
+وينبغي تحديث الإشارات إلى هذه الملفات في قائمة المحتويات في ملف `_toc.yml`.
 ```
 
-Refer to the [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) to structure new chapter contributions, and use it to assess current chapters in _The Turing Way_. For chapters that do not fit this structure, please raise a Pull Request.
+الرجوع إلى قالب [الفصل](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) لهيكلة مساهمات الفصول الجديدة. واستخدمه لتقييم الفصول الحالية في _طريق التوريد_. بالنسبة للفصول التي لا تتناسب مع هذا الهيكل، يرجى طرح طلب سحب.
 
 
-(ch-consistency-structure-hr-toc)=
-### Check 3: Do not add a 'table of content' in chapters or subchapters.
+(بنية الاتساق)=
+### الاختيار 3: لا تضيف "جدول المحتوى" في الفصول أو الفصول الفرعية.
 
-Some chapters in _The Turing Way_ were written with a hand-crafted table of contents. However, Jupyter Book auto-generates a permanent table of contents that can be found on the left side of _The Turing Way_ book, and a dynamic, page-specific table of content located at the top-right of each page. This makes a manually written table of contents unnecessary, and it may negatively impact a reader's experience with _The Turing Way_.
+تم كتابة بعض الفصول في _طريق الترقيق_ مع جدول من المحتويات مصنوعة يدويا. غير كتاب المشتري يولد تلقائياً قائمة دائمة من المحتويات التي يمكن العثور عليها على الجانب الأيسر من _كتاب طريق اللارجح_ ، وجدول ديناميكي خاص بصفحة محددة للمحتوى موجود في أعلى يمين كل صفحة. هذا يجعل جدول المحتويات المكتوب يدوياً غير ضروري، وقد يؤثر سلباً على تجربة القارئ مع _طريق التوفير_.
 
 ```{figure} ../../figures/many-table-of-contents.png
 ---
-name: many-table-of-contents
-alt: A subchapter in The Turing Way with three table of contents. Two that are generated by Jupyter Book and one made by the chapter author.
+الاسم: العديد من لوحات المحتويات
+البديلة: فصل فرعي في طريقة التوفير مع ثلاثة جداول للمحتويات. اثنان تم إنشاؤهما عن طريق كتاب المشتري وواحد عن طريق مؤلف الفصل.
 ---
-The manually written table of contents is unnecessary as Jupyter Book auto-generates two separate table of contents.
+جدول المحتويات المكتوب يدوياً غير ضروري لأن كتاب المشتري تلقائياً يولد جدولين منفصلين من المحتويات.
 ```
-#### Demo
+#### تجريبي
 
 <div class="video-content">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zKWrvgCxSB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(ch-consistency-structure-hr-citing)=
-### Ensure external sources are properly cited and referenced
+(بالإنسجام-الهيكل-ساعة)=
+### التأكد من الإشارة إلى المصادر الخارجية والإحالة إليها على النحو الصحيح
 
-As described in the {ref}`style guide<ch-style-citing>`, _The Turing Way_'s book-wide references are stored in a BibTeX file called `references.bib`. When writing new content, ensure that information culled from external sources are cited using the BibTeX format and added to the `references.bib` file as appropriate.
+As described in the {ref}`style guide<ch-style-citing>`, _The Turing Way_'s book-wide references are stored in a BibTeX file called `references.bib`. عند كتابة محتوى جديد، تأكد من أن المعلومات المجمعة من مصادر خارجية يتم الاستشهاد بها باستخدام صيغة BibTeX وإضافتها إلى مراجع `` `4' `` ملف حسب الاقتضاء.
 
-The {ref}`style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
-
-
-(ch-consistency-structure-soft-req)=
-## Soft Requirements
-
-Soft requirements that deal with _The Turing Way's_ structure include:
-
-(ch-consistency-structure-sr-summary)=
-### Check 1: Ensure each chapter has a good summary in their landing page
-
-A chapter with a good summary gives the reader an overview of the content that follows. Ideally, summaries should communicate the main idea of the chapter and identify any supporting detail, but be brief and precise. Summaries should also adequately cross-reference the chapter's subchapters, for the benefit of readers who may want to quickly explore the topics the summary introduces. Chapters in _The Turing Way_ that contain summaries that do not fit these criteria may need to be reworded or rewritten.
+دليل الطراز {ref}`<ch-style-citing>` يوضح كيفية إضافة إشارة جديدة إلى ملف BibTeX المركزي، ويظهر كيف يمكن تضمين هذا المرجع في كتابتك.
 
 
-(ch-consistency-structure-sr-modular)=
-### Check 2: Split long chapters into smaller subchapters so they are modular
+(الاتساق الهيكلي-الناعم)=
+## المتطلبات الناعمة
 
-Long chapters may be difficult for some readers to go through. Furthermore, very long content can be intimidating for other readers who may only be interested in the main ideas the chapter talks about. Therefore, to make  _The Turing Way_ easier to read, long chapters should be appropriately modularised.
+المتطلبات الناعمة التي تتعامل مع هيكل _الطريق الوشيك_ تشمل ما يلي:
 
-When keeping chapters modular, ensure that its subchapters only talk about one aspect of the overall topic. For example, if a chapter on Machine Learning was to be written for _The Turing Way_, such a chapter should contain at least three subchapters that each focus Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+(بآلاف دولارات الولايات المتحدة)=
+### اختر 1: تأكد من أن كل فصل يحتوي على ملخص جيد في صفحاته
+
+ويعطي الفصل الذي يحتوي على موجز جيد القارئ لمحة عامة عن المحتوى الذي يليه. ومن الناحية المثالية، ينبغي أن تنقل الملخصات الفكرة الرئيسية للفصل وأن تحدد أي تفاصيل داعمة، على أن تكون موجزة ودقيقة. كما ينبغي للملخصات أن تحيل بصورة كافية إلى الفصول الفرعية للفصل لصالح القراء الذين قد يرغبون في استكشاف المواضيع التي يقدمها الموجز على وجه السرعة. الفصول في _طريق التوفير_ التي تحتوي على ملخصات لا تتوافق مع هذه المعايير قد تحتاج إلى إعادة صياغتها أو إعادة كتابتها.
+
+
+(بآلاف دولارات الولايات المتحدة)
+### الاختيار 2: تقسيم الفصول الطويلة إلى فصول فرعية أصغر بحيث تكون وحدات
+
+وقد يكون من الصعب على بعض القراء تجاوز الفصول الطويلة. وعلاوة على ذلك، فإن المحتوى الطويل جدا يمكن أن يكون مصدر تخويف للقراء الآخرين الذين قد لا يهتمون إلا بالأفكار الرئيسية التي يتحدث عنها الفصل. لذلك، لجعل  _طريق اللارجح_ أسهل للقراءة، يجب أن يتم تعديل فصول طويلة بشكل مناسب.
+
+وعند الاحتفاظ بنموذج الفصول، تأكد من أن فصوله الفرعية لا تتحدث إلا عن جانب واحد من الموضوع العام. على سبيل المثال، إذا كان من المقرر كتابة فصل عن تعلم الآلات من أجل _طريق التوبيخ_، وينبغي أن يتضمن هذا الفصل ثلاثة فصول فرعية على الأقل يركز كل منها على التعلم الخاضع للإشراف، والتعلم غير الخاضع للإشراف، والتعلم التعزيزيزي.

@@ -1,76 +1,76 @@
 (ch-bookdash-events)=
-# Book Dash Event Plans
+# 预定破折号事件计划
 
-This subchapter provides information on the events that are organised for the book dash attendees. These events include a pre-event webinar for information, onboarding calls, GitHub introduction, development (coworking) sessions during the Book Dash and Community Share-Outs, which are explained below.
+本小节介绍为书籍参与者组织的活动。 这些活动包括举办活动前网络研讨会以获取信息，在线电话，GitHub 介绍， Book Dash and Community Share-Outs开发(cowork)会议，下文将予以解释。
 
-_The Turing Way_ participation guidelines, [Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html) and [Contribution guideline](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) apply to all these events:
+_Ting Way_ participation Guidelines, [行为守则](https://the-turing-way.netlify.app/community-handbook/coc.html) and [Contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 适用于所有这些活动：
 
-## Pre-Event Calls
+## 事件前呼叫
 
-### Webinar for Information
+### 网络信息研讨会
 
-The planning committee members will host one webinar to share information about the Book Dash that can help interested members to plan their proposals for the event. These webinars will include a 10-15 minutes introduction talk followed by a session to address any questions participants may have. Recording and notes from this session will be published on the YouTube channel of _The Turing Way_.
+规划委员会成员将主办一次网络研讨会，分享有关书籍破折号的信息，帮助感兴趣的成员规划他们对活动的建议。 这些网络研讨会将包括10-15分钟的介绍性发言，然后是讲授任何可能有的问题。 录制本次会话的记录和笔记将在 _Ting Way_ 的YouTube频道上发布。
 
-### Pre-event Onboarding Calls
+### 会前待机电话
 
-The planning committee will host two onboarding calls, minimum of one week before the main event to ensure that all the participants are made familiar with the project, the format of the book dash, and how they can be contributing through their involvement at the book dash. It is an opportunity for the organising team and the selected attendees to get to know each other and discuss any concerns that they may have before the book dash.
+规划委员会将接纳两次在线电话。 在主要活动之前至少一周，以确保所有参与者熟悉该项目。 这本书的格式，以及他们如何通过参与该书的执行而作出贡献。 这是一个组织小组和被选定的参与者相互了解和讨论他们在书记账前可能有的任何关切的机会。
 
-Several participants often come to these calls with some plans and topics they would like to explore for their contributions in _The Turing Way_. Therefore, the host of this call facilitates a breakout session to allow attendees to draft their [SMART goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) for the Book Dash. These topics can be something that is either missing in the existing chapters or need to be updated in the project. We also discuss _The Turing Way_ as a project in general and what the core team is working on to support the development of its guide on reproducibility, ethics, project design, collaboration, communication and a meta-book on the project itself. Most importantly, the core team goes through the contribution guideline and explain how attendees can effectively use their time at the book dash.
+一些参与者常常通过一些计划和主题来进行这些通话，他们想要探索他们在 _Ting Way_ 中的贡献。 因此，这次呼叫的主办者能够帮助参与者为书桌草拟他们的 [SMART 目标](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)。 这些主题可能是现有章节中缺少的或需要在项目中更新的内容。 我们还讨论了 _总体上作为一个项目的诱惑方式_ 以及核心小组正在开展哪些工作来支持其可再生性指南的拟定。 道德操守、项目设计、合作、沟通和关于项目本身的一本元书。 最重要的是，核心小组遵循了捐款准则，并解释了与会者如何能够有效地利用他们在书记载簿上的时间。
 
-The template for shared notes can be accessed in the community handbook {ref}`here<ch-template-bookdash-precall>`. You can read notes from the calls from the most recent book dash [here](https://hackmd.io/@turingway).
+共享笔记的模板可以在社区手册 {ref}`这里<ch-template-bookdash-precall>` 中访问。 You can read notes from the calls from the most recent book dash [here](https://hackmd.io/@turingway).
 
-### GitHub Introduction Session
+### GitHub 介绍会议
 
-One week before the Book Dash, 2-3 members from the planning committee will host a skill-up session for members who don't have any prior experience with GitHub.
+Book Dash前一周 规划委员会的2至3名成员将为以前没有过GitHub 经验的成员举办一次技能培训班。
 
-At this call, participants will learn how to:
-- create a new repository
-- create a (README) file: introduction to Markdown
-- submit changes (to The Turing Way) via Pull Request (PR)
-- see how to review PR or create issues
+在这个电话中，参与者将学习如何：
+- 创建新仓库
+- 创建 (README) 文件：Markdown 介绍
+- 通过 Pull Request (PR) 提交修改
+- 查看如何审核 PR 或创建问题
 
-This session will help participants identify resources that they can use for self-paced learning. In the previous events, we have used the following materials:
-- [Training materials](https://malvikasharan.github.io/developing_collaborative_document)
-- [Friendly GitHub Introduction](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
-- [Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+这次会议将有助于参与者确定可用于自定进度学习的资源。 在前几次活动中，我们使用了下列材料：
+- [培训材料](https://malvikasharan.github.io/developing_collaborative_document)
+- [友好的 GitHub 介绍](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
+- [支票表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## During the Book Dash
+## 书籍破折时
 
-### Development Sessions
+### 发展会议
 
-On each day of Book Dash, we will hold three 2.5 hour-long development sessions, when hosting virtually each followed by a break or social event. When hosting an in-person Book Dash, four 75 minutes long development sessions will be facilitated, each separated by 15 minutes for report out followed by a break. Each development session will follow the Pomodoro technique that we also use for the {ref}`coworking calls<ch-coworking-motivation>` using the [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to coordinate the time.
+我们将在图书大全日制的每一天举行三次2.5小时的发展会议，几乎每次都举办一次休息或社会活动。 当亲自主持书籍Dash时，将为四次75分钟长的发展会议提供便利。 每隔15分钟报告后休息。 每次开发会话都将沿用我们也使用 {ref}`coworking 通话<ch-coworking-motivation>` 使用 [基于浏览器的共享 (cuckoo) 时钟](https://cuckoo.team/tw-bookdash) 来协调时间。
 
-In the opening session of the first day, one of the planning committee members will provide an overview of _The Turing way_ project and the resources that are available for the participants for their book dash contributions. Attendees will be then allocated in small groups with their collaborators based on their SMART goals. The collaborating groups will work together to build a roadmap and plans for their contributions as chapters, subchapters or other types of content. Participants are also encouraged to come up with the main sections of their contributions and collect their thoughts in bullet points on a GitHub issue.
+第一天的开幕式， 规划委员会的一名成员将提供一份 _Ting ways_ 项目的概览，以及参与者可用于他们的簿记捐款的资源。 然后将根据他们的SMART目标分配给他们的合作者。 各协作小组将共同努力制定路线图和计划，作为章节、分章或其他类型的内容。 还鼓励与会者提出他们贡献的主要部分，就GitHub 问题以小口径收集他们的想法。
 
-The rest of the development sessions throughout the Book Dash will be facilitated in breakouts allowing members with similar ideas to collaborate. Participants can also work in self-organised groups or individually on their contribution ideas with the support of mentors. This is also a chance for everyone to meet the participants and helpers informally, learn about each other and connect with specific members who plan to work on the related topic during the book dash. Participants will be supported to collaborate in small groups, organising their thoughts and ideas for contributions during or after the Book Dash. Each development session will end with participants sharing their work with others and identifying new collaborators based on the similarity of their interests.
+在整个书刊破折号中，其余的发展会议将得到便利，让持有类似想法的成员能够进行合作。 参与者还可以在辅导员的支持下以自我组织的团体或个人的方式就他们的贡献意见开展工作。 这也是每个人与参与者和帮手进行非正式会晤的机会。 学习互相，并且与计划在书签破解过程中处理相关主题的特定成员连接。 将支持与会者以小组形式开展合作，在书桌上或之后组织他们的想法和想法，以供发言。 每次发展会议结束时，与会者将与其他人分享他们的工作，并根据他们的利益的相似之处确定新的合作者。
 
-For participants who are unfamiliar with GitHub or would like a refresher (and did not manage to attend the GitHub introduction session), the planning committee members will guide them through the process of making their first pull request.
+对于不熟悉GitHub 或想要刷新（未能参加GitHub 介绍会）的与会者， 规划委员会成员将指导他们进行第一次拉动请求。
 
-### Social Sessions
+### 社交会议
 
-There will also be themed social discussion or networking session where participants can interact with others, continue their discussions outside the development session or take a break as it's most sustainable and helpful for their participation. For a virtual Book Dash, a support fund will be provided to cover the subsistence cost including paying for meals for the social sessions. If hosting an in-person event, the core team members will plan a dinner or social event to allow participants to relax after an intense discussion session and enjoy meals together in an informal setting.
+还将举行专题社会讨论或网络会议，与会者可在会上与他人互动。 继续在发展会议之外进行讨论或打断，因为这是最可持续和最有助于他们参与的活动。 对于虚拟书达什，将提供一个支助基金，以支付生活费，包括支付社会会议的膳食费。 如果主办一个在人面前的活动 核心小组成员将计划一次晚餐或社交活动，使参加者在紧张的讨论会议之后能够放松，并在非正式场合一起享受膳食。
 
-### Reporting and Documentation
+### 报告和文件
 
-At the end of each day, participants can gather all their contributions on _The Turing Way_ GitHub repository (issues, pull requests and notes) and add that in the shared notes. Specifically, during the last development session, they will be asked to add their details to the [contributors](https://github.com/alan-turing-institute/the-turing-way/tree/book-dash-chapter/contributors.md) file and provide anonymous feedback on a {ref}`Pluses and Delta<ch-template-bookdash-feedback>` notes. This will help the planning committee to collect notes for their final report and improve future events.
+每一天结束后，参与者都可以收集他们对 _Ting Way_ GitHub 版本库的贡献(问题) 拉取请求和笔记，并在共享笔记中添加。 具体而言，在上届发展会议期间。 他们将被要求将他们的详细信息添加到 [贡献者](https://github.com/alan-turing-institute/the-turing-way/tree/book-dash-chapter/contributors.md) 文件，并在 {ref}`插件和 Delta<ch-template-bookdash-feedback>` 的笔记上提供匿名反馈。 这将有助于规划委员会为其最后报告收集说明并改进今后的活动。
 
-### Community Share-Outs & Contributor Celebration
+### 社区共享关闭 & 贡献者庆祝活动
 
-On the last day of the Book Dash, _The Turing Way_ team along with the planning committee members host Community Share-out and Contributor Celebration sessions that are open to the public. The Community Share-out events provide a public platform to openly recognise the work of our attendees and community contributors.
+在书报的最后一天， _引导路径_ 团队与规划委员会成员一起主持向公众开放的社区分享和贡献者庆祝会议。 社区分享活动为公开承认我们的参与者和社区贡献者的工作提供了一个公共平台。
 
-In this session, all the interested contributors including the Book Dash attendees will have a chance to share their work with everyone through a short demo/presentation. All Book Dash attendees are encouraged to invite their colleagues and friends who would like to learn about and celebrate their work and connect with The Turing Way community.
+在本届会议上， 所有感兴趣的贡献者，包括书签参与者，都将有机会通过简短的演示/演示与每个人分享他们的工作。 所有书签参与者都被鼓励邀请他们的同事和朋友，他们希望了解和庆祝他们的工作，并与美丽的道路社区联系。
 
-These sessions are generally recorded to share via the project's YouTube channel.
+这些会话一般通过项目的 YouTube 频道进行共享。
 
-## Creating an environment for self-paced contributions
+## 为自定进度贡献创造环境
 
-We acknowledge that everyone prefers different settings to work effectively and attentively. Therefore we create an environment for self-paced contributions to _The Turing Way_ project.
+我们承认，每个人都喜欢不同的环境，以便有效和认真地工作。 因此，我们为 _诱惑路_ 项目的自定进度贡献创造了环境。
 
-Some recommendations to achieve this by managing the space at the book dash by:
-- set up shared notes for everyone to take notes together and draw inspiration from each other's work (see {ref}`template for notes<ch-template-bookdash-notes>`).
-- offering a separate space (physical space or online breakout room) for open discussion for people who work better by discussing their ideas out loud.
-- when meeting in person, providing semi-quiet spaces or headphones for noise cancellation for people who don't need active discussions.
+有些建议旨在通过管理书破折号中的空间来做到这一点：
+- 设置共享笔记，让每个人一起领取笔记，并从他人的工作中得到灵感(参见 {ref}`备注<ch-template-bookdash-notes>` 模板)。
+- 提供一个单独的空间（物理空间或在线课堂），供那些通过大声讨论其想法而工作得更好的人进行公开讨论。
+- 当亲自开会时，为不需要积极讨论的人提供半静音空间或耳机取消噪音。
 
-Throughout the day, everyone is encouraged to ask for help, move around or change their position or group as needed. Participants are invited to offer feedback on other people's work during the report out session.
+整天都鼓励每个人寻求帮助、改变立场或视需要改变群体。 请与会者在会议结束时就其他人的工作提出反馈意见。
 
-Though there are designated breaks, participants are encouraged to take breaks whenever they need to decompress. A quiet room is arranged so that people can step back from the crowd as per their need for quiet time.
+虽然有指定的休息时间，但鼓励参加者在需要分印时休息。 安排了一个安静的房间，以便人们能够根据他们对安静时间的需要从人群中返回。

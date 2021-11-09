@@ -1,162 +1,162 @@
-(contributors-record-highlights)=
-# Record of Contributions
+(colaboradores-registro-resaltados)=
+# Registro de contribuciones
 
-*The `contributors.md` file and the contributors table in the `README file` together form the record of contributions in _The Turing Way_.*
+*El `colaborador. d` archivo y la tabla de colaboradores en el `archivo README` juntos forman el registro de contribuciones en _The Turing Way_.*
 
-Contributions to _The Turing Way_ may include but are not limited to, bug fixing, chapter planning, writing, editing, reviewing, idea generation, presentation, project management, and maintenance. We recognise all these contributions and acknowledge our community members fairly. For example, using [all contributors bot](https://allcontributors.org) we update the contributors table with each person's name, where the emoji keys indicate the different tasks they have done (see the [README file](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md#contributors)). We understand that different contributions mean different things to people and may translate differently towards their personal interest, skill development, value exchange and advancement of their careers. Therefore, we also offer the [contributors.md](https://github.com/alan-turing-institute/the-turing-way/contributors.md) file as a dedicated location to capture personal highlights from _The Turing Way_ community members.
+Las contribuciones a _La Vía Turística_ pueden incluir, pero no están limitadas a, la corrección de errores, planificación de capítulos, escritura, edición, revisión, generación de ideas, presentación, gestión de proyectos y mantenimiento. Reconocemos todas estas contribuciones y reconocemos equitativamente a nuestros miembros de la comunidad. Por ejemplo, usando [todos los colaboradores](https://allcontributors.org) actualizamos la tabla de colaboradores con el nombre de cada persona donde las teclas emoji indican las diferentes tareas que han realizado (ver el archivo [README](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md#contributors)). Entendemos que diferentes contribuciones significan cosas diferentes para la gente y pueden traducirse de manera diferente a su interés personal. desarrollo de habilidades, intercambio de valor y avance de sus cuidadores. Por lo tanto, también ofrecemos el archivo [contributors.md](https://github.com/alan-turing-institute/the-turing-way/contributors.md) como un lugar dedicado para capturar destacados personales de _The Turing Way_ miembros de la comunidad.
 
-Individual contributors are welcome to provide their details under the section "Personal Highlights from _The Turing Way_ Contributors". Organisational support and collaborations are listed in the section, "Collaborating Organisations". Each organisation name and details will be listed separately followed by contribution details of each individual contributor from that organisation.
+Los colaboradores individuales son bienvenidos a proporcionar sus detalles en la sección "Resaltados personales de _La Vía Turística_ Contributores". El apoyo organizacional y las colaboraciones se enumeran en la sección "Organizaciones colaboradoras". El nombre y los detalles de cada organización se mostrarán por separado seguidos de los detalles de la contribución de cada colaborador individual de dicha organización.
 
-Please see the [community handbook](https://the-turing-way.netlify.app/community-handbook/acknowledgement) for details on how you can be fairly acknowledged for your work.
+Por favor, consulte el [manual de la comunidad](https://the-turing-way.netlify.app/community-handbook/acknowledgement) para más detalles sobre cómo puede ser reconocido por su trabajo.
 
-## Personal Highlights from _The Turing Way_ Contributors
+## Resaltado personal de _La Vía Turística_ Colaboradores
 
-Please use this section to highlight your personal experiences in _The Turing Way_ project and community. You can also describe the impact _The Turing Way_ may have on you or your team members such as in promoting reproducible, ethical, collaborative and inclusive research practices.
+Utiliza esta sección para destacar tus experiencias personales en el proyecto y la comunidad _The Turing Way_. También puedes describir el impacto que puede tener _The Turing Way_ en ti o en los miembros de tu equipo, como en la promoción reproducible, prácticas de investigación éticas, colaborativas e inclusivas.
 
-This record can be used in your personal or professional portfolio (profile, CV, resume) by describing features you have enhanced, goals you have accomplished, skills you gain, opportunities you receive, personal connections you make, individuals you support and values you create through your involvement in _The Turing Way_.
+Este registro se puede utilizar en su portafolio personal o profesional (perfil, CV, resume) describiendo las características que has mejorado, las metas que has alcanzado y las habilidades que ganas, oportunidades que recibes, conexiones personales que haces, individuos que apoyan y valores que creas a través de tu participación en _The Turing Way_.
 
-See this entry as an example by Kirstie Whitaker, the project lead:
+Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 
-### Kirstie Whitaker
+### Whitaker de Kirstie
 
-* Role: **Project lead**
+* Rol: **Proyecto líder**
 * GitHub id: [kirstiejane](http://github.com/kirstiejane)
 * ORCID: [0000-0001-8498-4059](https://orcid.org/0000-0001-8498-4059)
-* Short bio:
-> I'm the lead of Tools, Practices and Systems research Programme at the Alan Turing Institute. I have a PhD in Neuroscience from the University of California at Berkeley and conducted my postdoctoral research at the University of Cambridge in the Brain Mapping Unit. I am a Mozilla fellowship (2016) and Fulbright scholarship (2007) alumna.
+* Breve biografía:
+> Soy el líder del Programa de Investigación de Herramientas, Prácticas y Sistemas en el Instituto Alan Turing. Tengo un doctorado en Neurociencia por la Universidad de California en Berkeley y realizé mi investigación postdoctoral en la Universidad de Cambridge en la Unidad de Mapeo Cerebro. Soy becaria de Mozilla (2016) y beca Fulbright (2007).
 
-* Personal highlights:
-> I am the lead of _The Turing Way_. I've done a lot of advocacy for changing research culture to make our work more efficient and effective, and I've noticed that we need to address the power structures in academia if we are to truly make research reproducible by default. I'm excited to build the Turing Way to both inspire the people who DO the research to make all their outputs as accessible as possible, and to nudge everyone else in the ecosystem to care about the work required to do so.
+* Resaltados personales:
+> Soy el líder de _The Turing Way_. He hecho mucha defensa por cambiar la cultura de la investigación para hacer nuestro trabajo más eficiente y efectivo. y me he dado cuenta de que necesitamos abordar las estructuras de poder en el mundo académico si realmente queremos hacer que la investigación sea reproducible por defecto. Estoy emocionado de construir la Vía Turing para inspirar a las personas que investigan para hacer que todas sus salidas sean lo más accesibles posible. y desnudar a todos los demás en el ecosistema para preocuparse por el trabajo necesario para hacerlo.
 
-* More information:
-> I'm really passionate about the concept of making science "open for all". I take that to mean we should share all of our outputs - the data, code and protocols that we develop - whether they're "significant" or not. But it also includes making those outputs FAIR - findable, accessible, interoperable and reusable. I am an advocate for greater diversity in STEM and in data science and particularly passionate about improving the ways we reward collaborative and supportive working. Finally, I'd like to pivot to having data science project be developed in the open from the beginning and with a decision making governance process that is inclusive and community-lead.
+* Más información:
+> Estoy realmente apasionado por el concepto de hacer la ciencia "abierta para todos". Entiendo que eso significa que deberíamos compartir todos nuestros resultados: los datos, código y protocolos que desarrollamos - sean "significativos" o no. Pero también incluye hacer que esas salidas FAIR - findable, accesible, interoperable y reutilizable. Soy partidario de una mayor diversidad en el STEM y en las ciencias de la información, y particularmente apasionado por la mejora de las maneras en que recompensamos el trabajo colaborativo y solidario. Por último, Me gustaría que el proyecto de ciencias de la información se desarrollara desde el principio y con un proceso de toma de decisiones que sea inclusivo y liderado por la comunidad.
 
-**Contributors names are added alphabetically**
+**Los nombres de los colaboradores se añaden alfabéticamente**
 
 <!---A--->
 ## A
 
 ### Alexander Morley
 
-* Role: Infrastructure Maintainer (2018 - 2019)
+* Role: Mantenedor de Infraestructuras (2018 - 2019)
 * GitHub id: [alexmorley](http://github.com/alexmorley)
-* ORCID: [TBA](https://orcid.org/TBA)
+* ORCIDO: [TBA](https://orcid.org/TBA)
 
-* Short bio:
-> I am a Mozilla Fellow (2018-) and a PhD Candidate at the MRC Brain Network Dynamics Unit at the University of Oxford (2015-). I also receive support from the Software Sustainability Institute Fellowship programme (2018) and Microsoft/Research Software England Cloud Computing Fellowship programme (2018). My undergraduate degree was in Medicine at the University of Oxford (2012-2015).
+* Breve biografía:
+> Soy una Beca de Mozilla (2018-) y un doctorado en la Unidad de Dinámica de Red de Cerebro MRC en la Universidad de Oxford (2015-). También recibo apoyo del programa de Becas del Instituto de Sostenibilidad de Software (2018) y del programa Microsoft/Research Software England Cloud Computer Fellowship (2018). Mi título universitario fue en Medicina en la Universidad de Oxford (2012-2015).
 
-* Personal Highlight:
-> As a core contributros I want to share "Why I care about the Turing Way?: When people don't use best practices in data science its almost always because they either don't know about them, or feel they don't have time. Advocates will tell people that the time is saved in the long-term, but it's a hard sell. By providing concrete, incremental, but authoritative, guidance I believe the Turing Way could provide the nudge that allows people to realise the benefits for themselves, and lowers the barrier for more researchers to acquire these highly valued skills.
+* Resaltado personal:
+> Como contribución fundamental quiero compartir "¿Por qué me preocupa la Vía Turing? Cuando la gente no utiliza buenas prácticas en la ciencia de datos es casi siempre porque no las conocen, o sienten que no tienen tiempo. Los partidarios le dirán a la gente que el tiempo se ahorra a largo plazo, pero es una venta difícil. Al proporcionar una orientación concreta, incremental, pero autorizada, creo que la Vía Turing podría proporcionar el desnudo que permite a las personas darse cuenta de los beneficios para sí mismas. y reduce la barrera para que más investigadores adquieran estas habilidades de gran valor.
 
-* More information:
-> I really want research to be accessible, but in a much broader sense than the word is often used. I would love to see a world where re-mixing research is a common thing, whether that be re-mixing figures to make them easier to understand, re-using data to generate new insights, or testing new methods to see how our theories might need to change. Slightly less on topic, but just as important, I am also passionate about the development and adoption of best-practices in governance. Safe and inclusive spaces are all too rare in academia, and I think some part of that can be solved by doing away with our laissez-faire attitude towards governance and management.
+* Más información:
+> Realmente quiero que la investigación sea accesible, pero en un sentido mucho más amplio que el que se utiliza a menudo la palabra. Me encantaría ver un mundo en el que remezclar la investigación es algo común, si se trata de volver a mezclar cifras para hacerlas más fáciles de entender. reutilizar datos para generar nuevos descubrimientos, o probar nuevos métodos para ver cómo nuestras teorías pueden necesitar cambiar. Poco menos sobre temas de actualidad, pero igual de importante, también me siento apasionado por el desarrollo y la adopción de las mejores prácticas en materia de gobernanza. Espacios seguros e inclusivos son demasiado raros en el mundo académico, y creo que parte de esto puede resolverse eliminando nuestra actitud de laissez-faire hacia la gobernanza y la gestión.
 
 ### Andreea Avramescu
 
-* Role: Book Dash 2021 participant
+* Rol: Libro Guión 2021 participante
 * GitHub id: [andreea-avramescu](https://github.com/andreea-avramescu)
 * ORCID: [0000-0001-6837-6272](https://orcid.org/0000-0001-6837-6272)
 
-* Short bio:
-> I am a PhD student at the Alliance Manchester Business School, the University of Manchester (supervised by Dr. Richard Allmendinger and Dr. Manuel López-Ibáñez) and an Engage@Turing/Enrichment Student at The Alan Turing Institute. My research interests lie in the fields of personalised medicine, optimisation and data science, and how all these can be used together to improve the availability and accessibility of targeted treatments worldwide. I have an MSc in Data Science and have previously worked on various research problems from within the fields of social sciences, law, computer science, and operations research.
+* Breve biografía:
+> Soy estudiante de doctorado en la Escuela de Negocios de la Alianza Manchester, la Universidad de Manchester (supervisada por Dr. Richard Allmendinger y el Dr. Manuel López-Ibánňez) y un Engage@Turing/Enrichment Student en The Alan Turing Institute. Mis intereses de investigación se centran en los ámbitos de la medicina personalizada, la optimización y la ciencia de los datos, y cómo todos estos pueden ser utilizados conjuntamente para mejorar la disponibilidad y accesibilidad de tratamientos específicos en todo el mundo. Tengo un MSc en Ciencias de la Información y he trabajado anteriormente en varios problemas de investigación dentro de los campos de las ciencias sociales, la ley, las ciencias de la computación y la investigación de operaciones.
 
-* Personal highlights:
-> Throughout the week I had the chance to improve a chapter on project design and review existing PRs. i also engaged in discussions with the team around the general challenges encountered in reproducible research and project design.
+* Resaltados personales:
+> A lo largo de la semana tuve la oportunidad de mejorar un capítulo sobre el diseño del proyecto y revisar los PRs existentes. También he participado en discusiones con el equipo en torno a los retos generales encontrados en la investigación reproducible y el diseño del proyecto.
 
-* Quotes:
-> The 2021 May Book Dash was an exciting and inspiring opportunity. The events throughout the week were extremely well organised and the inclusive environment was very welcoming.
+* Cotizaciones:
+> El libro de mayo de 2021 fue una oportunidad emocionante e inspiradora. Los acontecimientos a lo largo de la semana estuvieron muy bien organizados y el entorno inclusivo fue muy acogedor.
 
 ### Anna Krystalli
 
-* Role: [Code of Conduct Committee](https://the-turing-way.netlify.app/community-handbook/coc/coc-enforcement.html) member (2018 - present)
+* Rol: [Comité del Código de Conducta](https://the-turing-way.netlify.app/community-handbook/coc/coc-enforcement.html) miembro (2018 - presente)
 * GitHub id: [annakrystalli](http://github.com/annakrystalli)
 * ORCID: [0000-0002-2378-4915](https://orcid.org/0000-0002-2378-4915)
-* Short bio:
-> I’m a Research Software Engineer at the University of Sheffield helping researchers do more with their code and data. I’m also an editor for rOpenSci, a community of users and developers, Creating technical infrastructure of peer-reviewed R software tools for working with scientific data sources on the web.
+* Breve biografía:
+> Soy Ingeniero de Software de Investigación de la Universidad de Sheffield ayudando a los investigadores a hacer más con su código y datos. También soy un editor para rOpenSci, una comunidad de usuarios y desarrolladores, Creación de infraestructura técnica de herramientas de software de R revisadas por pares para trabajar con fuentes de datos científicos en la web.
 
-* More information:
-> I care about reproducible research in R! I learnt to code during my PhD in Marine Macroecology and was instantly hooked. Building on past experience as a quality assurance auditor, my experiences made me interested in how we practice science and specifically how we can do more out of the real workhorses of modern research, our code and data. Working in _The Turing Way_ is a fantastic opportunity to take stock of the great work that has already been done in this space, aggregate and distill it to templates, checklists and  best practices guidelines that are immediately useful to researchers. It’s an opportunity to set standards and harness the power of convention, especially with ECRs that have an opportunity to set up good practices from the start! Indeed, I hope the Turing Way will very much become the “Sheffield Way” too!
+* Más información:
+> ¡Me importa la investigación reproducible en R! Aprendí a programar durante mi doctorado en Macroecología Marina y me enganché instantáneamente. Basándose en experiencias pasadas como auditor de garantía de calidad, mis experiencias me hicieron interesarme en cómo practicamos la ciencia y específicamente en cómo podemos hacer más con los caballos de trabajo reales de la investigación moderna. nuestro código y datos. Trabajar en _The Turing Way_ es una oportunidad fantástica para hacer balance del gran trabajo que ya se ha realizado en este espacio. agregarlo y destilarlo a plantillas, listas de verificación y directrices de buenas prácticas que son inmediatamente útiles para los investigadores. Es una oportunidad para establecer normas y aprovechar el poder de la convención, ¡especialmente con los ECRs que tienen la oportunidad de establecer buenas prácticas desde el principio! De hecho, espero que el Camino Turing también se convierta en el “Camino de Sheffiel”.
 
 ### Arielle Bennett
 
-* Role: Research Project Manager, Tools, Practices & Systems Programme, Book Dash May 2021 Organising Committee
+* Rol: Director de Proyecto de Investigación, Herramientas, Prácticas & Programa de Sistemas, Comité organizador del Libro de mayo de 2021
 * GitHub id: [Arielle-Bennett](http://github.com/Arielle-Bennett)
 * ORCID: https://orcid.org/0000-0002-0154-2982
 
-* Short bio:
-> I am the Research Project Manager for the Tools, Practices & Systems Programme at the Alan Turing Institute, a critical research infrastructure role ensuring smooth delivery of complex collaborations, initiatives and overall programme strategy. The programme is focused on developing and enhancing the culture change, research tools, and knowledge needed to support open source, multidisciplinary work across data science and beyond. I have worked in research infrastructure roles since graduating with a BA in Natural Sciences, resulting in a breadth of understanding across the complex ecosystem of research publishing, start ups, community and project management. Following my Community Engagement Fellowship in 2019 with the Center for Scientific Collaboration & Community Engagement, I am an active member of the CSCCE community, sitting on their Code of Conduct Committee and organising the Diversity, Equity & Inclusion Special Interest Group.
+* Breve biografía:
+> Soy el Director del Proyecto de Investigación para el Programa Herramientas, Prácticas & Sistemas en el Instituto Alan Turing, un papel crítico en la infraestructura de investigación que garantice la consecución sin problemas de colaboraciones, iniciativas y estrategia global de programas. El programa se centra en desarrollar y mejorar el cambio cultural, las herramientas de investigación, y conocimientos necesarios para apoyar el trabajo de código abierto, multidisciplinario a través de las ciencias de la información y más allá. He trabajado en roles de infraestructura de investigación desde que me gradué con un BA en Ciencias Naturales, dando como resultado una amplitud de comprensión a través del complejo ecosistema de la investigación publicada, puesta en marcha, gestión comunitaria y de proyectos. Siguiendo mi compromiso comunitario en 2019 con el Centro de Colaboración Científica & Compromiso Comunitario, Soy un miembro activo de la comunidad CSCCE, sentado en su Comité del Código de conducta y organizando la diversidad, Equidad & Grupo de Interés Especial de Inclusión.
 
-* Personal highlights:
-> Before participating in the Turing Way, I didn't know what a pull request was, nevermind how to make one! Now I have contributed to several different parts of the five guides, including co-writing the initial chapters on [activism for researchers](https://the-turing-way.netlify.app/ethical-research/activism.html) and given presentations on the topic at conferences. I also now mentor other community contributors on how to create pull requests, contribute to existing chapters, review others work, and draft new ideas. The May 2021 Book Dash was an amazing opportunity to engage with the community and get excited about the project all over again! I came away from it feeling enthused and proud of the contributions people made with my support - it will be brilliant to see how these evolve over the coming months into content and chapters.
+* Resaltados personales:
+> Antes de participar en el Turing Way, no sabía lo que era un pull request ¡sin importar cómo hacer uno! Ahora he contribuido a varias partes diferentes de las cinco guías, incluyendo co-escritura de los capítulos iniciales sobre [activismo para los investigadores](https://the-turing-way.netlify.app/ethical-research/activism.html) y presentaciones dadas sobre el tema en conferencias. También ahora mentor otros colaboradores de la comunidad sobre cómo crear solicitudes de extracción, contribuir a los capítulos existentes, revisar el trabajo de otros y redactar nuevas ideas. The May 2021 Book Dash was an amazing opportunity to engage with the community and get excited about the project all over again! Me alejé de ella sintiendo entusiasmo y orgullo de las contribuciones realizadas por la gente con mi apoyo: será genial ver cómo evolucionan estos acontecimientos en los próximos meses en contenido y capítulos.
 
-* Personal Quote:
-> The Book Dash is an incredible experience for both newer and established community members. It is joyful work to spend focused time on developing content for the Turing Way and supporting people from across the globe to contribute. I feel lucky to have been able to take part and take on a more prominent role as part of the organising committee.
+* Cotización personal:
+> The Book Dash es una experiencia increíble tanto para los miembros de la comunidad más nuevos como establecidos. Es un trabajo alegre dedicar tiempo enfocado al desarrollo de contenido para el Camino Turístico y apoyar a personas de todo el mundo para que contribuyan. Tengo la suerte de haber podido participar y desempeñar un papel más destacado en el seno del comité organizador.
 
 <!---B--->
 ## B
 
 ### Batool Almarzouq
 
-* Role: Book Dash November 2020 Attendee
+* Rol: Libro Dash Noviembre 2020 Asistente
 * ORCID: [0000-0002-3905-2751](https://orcid.org/my-orcid)
-* Short bio:
-> I'm the founder of R-Ladies in Saudi Arabia (Dammam). I initially majored in pharmacology but quickly developed an interest in biochemistry, structural biology, and bioinformatics. I enjoy applying deep learning to answer biological questions.
+* Breve biografía:
+> Soy el fundador de R-Ladies en Arabia Saudita (Dammam). Inicialmente trabajé en farmacología pero desarrollé rápidamente un interés por la bioquímica, la biología estructural y la bioinformática. Me gusta aplicar un aprendizaje profundo para responder preguntas biológicas.
 
-* Personal highlights:
-> I am currently co-developing a chapter on "CI services". I have helped upgrade the Jupyter Book Infrastructure and add [hypothes.is](https://web.hypothes.is/) to enable collaborative annotation of _The Turing Way_ chapters. I have also translated the README.me chapter in Arabic. Personal quote: "I find it hard to express my personal thoughts and feelings in words. This was such an amazing experience. It helped me to develop my technical skills. Thank you so much to everyone I met in this Book Dash event :heart:."
+* Resaltados personales:
+> Actualmente estoy co-desarrollando un capítulo sobre "Servicios IC". He ayudado a mejorar la infraestructura de libros de Jupyter y he añadido [hipotes.is](https://web.hypothes.is/) para permitir la anotación colaborativa de _Los capítulos_ de la Vía Turística. También he traducido el capítulo README.me en árabe. Cita personal: "Me resulta difícil expresar mis pensamientos y sentimientos personales en palabras. Fue una experiencia asombrosa. Me ayudó a desarrollar mis habilidades técnicas. Muchas gracias a todos los que conocí en este evento Dash :heart: del Libro."
 
-### Becki Green
-* Role: Book Dash 2021 participant
+### Verde Becki
+* Rol: Libro Guión 2021 participante
 * Github id: beckigreen
 * ORCID: https://orcid.org/0000-0002-0513-5188
 
-* Short bio:
-> I am a PhD student at King’s College London (supervised by Dr Petroula Proitsi & Professor Marcus Richards) and Engage student at The Alan Turing Institute. My PhD project aims to identify early mechanisms and biological markers of dementia, and I am currently also working on the DECOVID project at the Institute.
+* Breve biografía:
+> Soy estudiante de doctorado en King’s College London (supervisado por el Dr. Petroula Proitsi & Profesor Marcus Richards) y estudiante de Engage en The Alan Turing Institute. Mi proyecto de doctorado pretende identificar mecanismos tempranos y marcadores biológicos de demencia, y actualmente estoy trabajando en el proyecto DECOVID en el Instituto.
 
-* Personal highlights:
-> Working alongside such wonderful people and learning so much! A truly enriching and rewarding experience - I look forward to contributing in future events. A further highlight was gaining experience in working collaboratively on a large project, including reviewing my first pull request!
+* Resaltados personales:
+> ¡Trabajando junto a gente tan maravillosa y aprendiendo tanto! Una experiencia realmente enriquecedora y gratificante - Espero poder contribuir en eventos futuros. Otro punto destacado fue ganar experiencia trabajando colaborativamente en un gran proyecto, ¡incluyendo revisar mi primera solicitud de extraño!
 
-* Quotes:
-> A welcoming and enriching environment. Collaborating with others was really valuable and has provided me with tools to apply to my research and share with others.
+* Cotizaciones:
+> Un ambiente acogedor y acogedor. Colaborar con otros fue realmente valioso y me ha proporcionado herramientas para aplicar a mi investigación y compartir con otros.
 
 
 ### Becky Arnold
 
-* Role: Core Contributor (2018 - 2019)
+* Rol: Contribuidor del Núcleo (2018 - 2019)
 * GitHub id: [r-j-arnold](http://github.com/r-j-arnold)
 * ORCID: [0000-0003-0355-0617](https://orcid.org/0000-0003-0355-0617)
-* Short bio:
-> I'm an astrophysics PhD student at the University of Sheffield and I do computer simulations of star forming regions. I'm a 2018 Software Sustainability Institute fellow using the funds to organise talks and workshops about various issues surrounding good programming practise.
+* Breve biografía:
+> Soy un estudiante de doctorado en astrofísica en la Universidad de Sheffield y hago simulaciones informáticas de regiones formadoras de estrellas. Soy un colega del Instituto de Sostenibilidad de Software 2018 que utiliza los fondos para organizar charlas y talleres sobre varios temas relacionados con una buena práctica de programación.
 
-* More information:
-> I am passionate about Science. All over the world humans come together to try and figure out how the universe works and that's *amazing*, just as amazing as the answers themselves. I'm also passionate about how we actually do that science, making sure it's accurate and reproducible. If it isn't both of those things we haven't moved forwards much, or worse still end up going in circles. I care deeply about changing the culture of academia, in which abuse of power (both minor and major) is all too common. I've met so many people that want to code well and follow best practise, which will benefit science enormously, but struggle to know how to do so. While there are lots of fantastic resources out there they're often scattered and _The Turing Way_ can improve that. I also hope that it can convince people that don't consider themselves capable of being good programmers that there are steps they can take to drastically improve their coding.
+* Más información:
+> Soy apasionado por la ciencia. En todo el mundo los humanos se reúnen para intentar averiguar cómo funciona el universo y eso es *asombroso*, tan sorprendente como las propias respuestas. También soy apasionado por cómo realmente hacemos esa ciencia, asegurándonos de que es precisa y reproducible. Si no son ambas cosas que no hemos avanzado mucho, o peor aún acaban en círculos. Me preocupa profundamente el cambio de la cultura de la academia, en la que el abuso de poder (tanto menor como mayoría) es demasiado común. He conocido a tantas personas que quieren programar bien y seguir las mejores prácticas, que beneficiarán enormemente a la ciencia, pero luchan por saber cómo hacerlo. Aunque hay muchos recursos fantásticos ahí fuera, a menudo están esparcidos y _La Vía Turística_ puede mejorarlo. También espero que pueda convencer a la gente que no se considera capaz de ser buenos programadores de que hay pasos que pueden tomar para mejorar drásticamente su codificación.
 
 ### Benjamin Mummery
 
 * Twitter: [@BenjaminMummery](https://twitter.com/@BenjaminMummery)
-* Short bio:
-> While studying Astrophyics, Benjamin was the first speaker at, and later organizer of, Liverpool PubHD ([Facebook](https://www.facebook.com/pubhdliverpool/), [Twitter](https://twitter.com/pubhd_liverpool?lang=en-gb)) - a monthly cross-discipline event that challenged PhD students to "explain their research in 10 minutes, while enjoying a pint." During this time he also developed and delivered multiple more official outreach events including presenting to both the public and airforce commanders at [RAF Cosford Airshow](https://www.youtube.com/watch?v=KImlYiCO7Vs), and frequent activities for schools. Now a Research Software Engineer at the Hartree Centre, he has continued his engagement with outreach, most recently in collaboration with Tim Powell designing a LEGO version of the Centre's iconic supercomputer [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963). He can frequently be found banging on about [fictional](https://www.youtube.com/watch?v=zrqfT4aotfE) [time travel](https://inews.co.uk/culture/film/donnie-darko-reviewed-astrophysicist-531742).
+* Breve biografía:
+> Mientras estudiaba Astrofics, Benjamin fue el primer orador en Liverpool PubHD ([Facebook](https://www.facebook.com/pubhdliverpool/), y posteriormente organizador [Twitter](https://twitter.com/pubhd_liverpool?lang=en-gb)) - un evento multidisciplinar mensual que desafió a los estudiantes de doctorado a "explicar su investigación en 10 minutos, mientras disfrutan de una pinta". Durante este tiempo también desarrolló y entregó múltiples eventos de alcance más oficiales, incluyendo la presentación tanto al público como a los comandantes de la fuerza aérea en [RAF Cosford Airshow](https://www.youtube.com/watch?v=KImlYiCO7Vs), y actividades frecuentes para las escuelas. Ahora es un Ingeniero de Software de Investigación en el Centro de Hartrees, que ha continuado su compromiso con el alcance, más recientemente en colaboración con Tim Powell diseñando una versión LEGO de la icónica supercomputadora del Centro [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963). A menudo se lo puede encontrar haciendo alrededor de [viaje ficcional](https://www.youtube.com/watch?v=zrqfT4aotfE) [tiempo](https://inews.co.uk/culture/film/donnie-darko-reviewed-astrophysicist-531742).
 
-* Personal highlights:
-> I collaborated with a group of researchers from The Alan Turing Institute to draft a chapter of scientific outreach.
+* Resaltados personales:
+> Colaboré con un grupo de investigadores del Instituto Alan Turing para redactar un capítulo de divulgación científica.
 
 
 <!---C--->
 ## C
 
-### Camila Rangel Smith
+### Herrero del Rangel de Camila
 
-* Role: Book Dash May 2019 Attendee, Translation Lead - Spanish (2020)
+* Rol: Asistente al Libro Dash Mayo 2019, Líder de Traducción - Español (2020)
 * GitHub id: [crangelsmith](https://github.com/crangelsmith)
-* ORCID id: [0000-0002-0227-836X](https://orcid.org/0000-0002-0227-836X)
-* Short bio:
-> I am a Research Data Scientist at The Alan Turing Institute. I hold a PhD in Particle Physics from Université Paris Diderot where I worked on the ATLAS experiment at the Large Hadron Collider at CERN. During my PhD I participated on the discovery of the Higgs Boson particle announced by CERN in 2012. I continued working on ATLAS as a postdoc with Uppsala University where I focused on searches for physics beyond the Standard Model of Particle Physics. Right before joining the Turing, I worked as Data Scientist in the EdTech sector developing innovative products focused on the assessment process in education. Currently I’m working in collaboration with researchers from the Global Systems Institute at University of Exeter called Data science for Sustainable Development. In this project we are using remote sensing to monitor the resilience of patterned vegetation from semi-arid dryland ecosystems in the Sahel.
+* Id ORCIDO: [0000-0002-0227-836X](https://orcid.org/0000-0002-0227-836X)
+* Breve biografía:
+> Soy científico de investigación en el Instituto Alan Turing. Tengo un doctorado en física de partículas de la Universidad de Paris Diderot donde trabajé en el experimento ATLAS en el Gran Colisionador de Hadron en el CERN. Durante mi doctorado participé en el descubrimiento de la partícula Higgs Boson anunciada por el CERN en 2012. Continué trabajando en ATLAS como postdoc con la Universidad de Uppsala, donde me centré en las búsquedas de física más allá del Modelo Estándar de Física de Partículas. Justo antes de incorporarme a Turing, trabajé como científico de datos en el sector EdTech desarrollando productos innovadores centrados en el proceso de evaluación en la educación. Actualmente estoy trabajando en colaboración con investigadores del Global Systems Institute de la Universidad de Exeter llamado Data science for Sustainable Development. En este proyecto estamos utilizando la teledetección para monitorear la resistencia de la vegetación pateada de los ecosistemas semiáridos de tierras secas en el Sahel.
 
-* Personal highlights
-> I think The Turing Way is an excellent resource that can change the way science is done (I wish I had it when I started my PhD!). Although the international language of science is English, I know for a fact that not everyone in places like Latin-American have the time and resources to learn it, so I think we must do everything we can to break those barriers and improve the accessibility of knowledge for everyone. This is my motivation to translate the book to Spanish, and I hope that the Spanish version will be used as an important resource on the master course we are developing in  LA-CoNGA physics project.
+* Destacados personales
+> Creo que The Turing Way es un recurso excelente que puede cambiar la forma en que la ciencia se hace (¡Ojalá lo tuviera cuando empecé mi doctorado!). Aunque el idioma internacional de la ciencia es el inglés, Sé por un hecho que no todos en lugares como Latinoamérica tienen tiempo y recursos para aprenderlo, por lo que creo que debemos hacer todo lo posible por romper esas barreras y mejorar la accesibilidad del conocimiento para todos. Esta es mi motivación para traducir el libro al español, y espero que la versión española se utilice como un recurso importante en el curso de maestría que estamos desarrollando en el proyecto de física LA-CoNGA.
 
-* More information
-> I’m from Venezuela, and although I have done most of my career in Europe I’ve been always keen to stay connected to the academic and scientific wold back in Latin-America. I’m the co-founder of the CEVALE2VE project (http://www.cevale2ve.org/en/home/), which of a virtual learning community that aims to tackle the serious issue of brain-drain in some Latin-American countries by bringing back the knowledge in a digital/online platform. More recently that project has become consolidated into LA-CoNGA physics (http://laconga.redclara.net/), an EU Erasmus+ funded project with a mission to create a Latin American and European Community for Advanced Physics. In this project I’m helping to build a data science module that will be thought in an online master course.
+* Más información
+> Soy de Venezuela, y aunque he hecho la mayor parte de mi carrera en Europa, siempre he estado interesado en estar conectado con la voz académica y científica de América Latina. Soy el cofundador del proyecto CEVALE2VE (http://www.cevale2ve. rg/es/home/), cuál de una comunidad de aprendizaje virtual que tiene como objetivo abordar el grave problema del cerebro/drain en algunos países latinoamericanos mediante la recuperación del conocimiento en una plataforma digital/online. Más recientemente ese proyecto se ha consolidado en física LA-CoNGA (http://laconga.redclara. et/), un proyecto financiado por la UE Erasmus+ con la misión de crear una Comunidad Latinoamericana y Europea para Física Avanzada. En este proyecto estoy ayudando a construir un módulo de ciencias de la información que será pensado en un curso maestro en línea.
 
 <!---D
 ## D--->
@@ -167,31 +167,31 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Emma Karoune
 
-* Role:
-    * Core Contributor
-    * Book Dash November 2020 Attendee
-    * Book Dash Planning Committee 2021
+* Rol:
+    * Colaborador del Núcleo
+    * Reserva Dash Noviembre 2020 Asistente
+    * Libro del Comité de Planificación del Libro 2021
 * GitHub id: [EKaroune](https://github.com/EKaroune)
 * ORCID: [0000-0002-6576-6053](https://orcid.org/0000-0002-6576-6053)
-* Short bio: I'm a Research Associate and Community Manager of DECOVID at The Alan Turing Institute. I’m also a post-doctoral researcher working in the field of Environmental Archaeology and Palaeoecology. I have a PhD in Palaeoecology from the Institute of Archaeology, University College London. I am leading a project to improve the FAIRness of phytolith data. I am also working on a project with Historic England concerning the development of novel methodologies in phytolith research for application to British Archaeological remains.
+* Breve biografía: Soy un asociado de investigación y administrador comunitario de DECOVID en el Instituto Alan Turing. También soy un investigador postdoctoral que trabaja en el campo de la Arqueología Ambiental y Palaeoecología. Tengo un doctorado en Palaeoecología del Instituto de Arqueología de la Universidad de Londres. Estoy liderando un proyecto para mejorar la FAIRness de los datos del hablante. También estoy trabajando en un proyecto con Historic England en relación con el desarrollo de nuevas metodologías en la investigación teológica para la aplicación a restos arqueológicos británicos.
 
-* Personal highlights:
-> I have really enjoyed working in such a collaborative way during the Book Dash. I have had interesting discussions concerning the accessibility of The Turing way, collaboration, communication and research in general with other contributors. I have further developed my Github skills by working in collaboration with @paulowoicho, @malvikasharan and @KirstieJane to develop a chapter on 'Getting started on Github'. This improvement in my skills will really benefit my own personal research to develop my own collaborative working groups and teach others how to use these research tools. In 2021 Book Dash, I've enjoyed mentoring new contributors contributions, reviewing pull requests and helping to run sessions during the Book Dash. It was great to work collaboratively to improve and publish a new chapter on 'Communicating with wider audiences' in the Guide for Communication.
+* Resaltados personales:
+> He disfrutado mucho trabajando de una manera tan colaborativa durante el Dash del Libro. He mantenido interesantes discusiones sobre la accesibilidad de The Turing way, la colaboración, la comunicación y la investigación en general con otros colaboradores. He desarrollado aún más mis habilidades de Github trabajando en colaboración con @paulowoicho, @malvikasharan y @KirstieJane para desarrollar un capítulo sobre 'Getting started on Github'. Esta mejora de mis habilidades realmente beneficiará a mi propia investigación personal para desarrollar mis propios grupos de trabajo colaborativos y enseñar a otros cómo utilizar estas herramientas de investigación. En 2021 Book Dash, he disfrutado tutorizando contribuciones de nuevos colaboradores, revisando solicitudes de extracción y ayudando a organizar sesiones durante el Dash del Libro. Fue estupendo trabajar en colaboración para mejorar y publicar un nuevo capítulo sobre "Comunicar con un público más amplio" en la Guía para la Comunicación.
 
-* More information:
-> I try to work as openly as possible and a large part of my current research is developing easy and accessible to all collaborative and open ways of working. I am also working hard to bring together specialists in my field into a working group for Open Science so that we can work collaboratively towards subject-specific FAIR guidelines for phytolith data.
+* Más información:
+> Intento trabajar lo más abiertamente posible y una gran parte de mi investigación actual está desarrollando formas fáciles y accesibles para todas las formas de trabajo colaborativas y abiertas. También estoy trabajando duro para reunir a especialistas de mi campo en un grupo de trabajo para la ciencia abierta para que podamos trabajar en colaboración con las directrices de FAIR específicas para los datos del folleto.
 
-* Quotes:
-> Such a great week! Supportive collaborative environment to produce some really quality contributions to this wonderful project.
+* Cotizaciones:
+> ¡Una semana tan grande! Entorno colaborativo de apoyo para producir algunas contribuciones realmente de calidad a este maravilloso proyecto.
 
 ### Eric Daub
 
 * GitHub id: [edaub](https://github.com/edaub)
-* Short bio:
-> Eric is a data scientist and geophysics researcher, has appeared on several television programs and podcasts to discuss his research on earthquake occurrence in the Central United States. One challenge for presenting earthquake research is the tendency to overhype results on the topic of earthquake prediction. Eric used these media appearances to highlight the difficulties inherent in predicting earthquakes, and explain why no reliable method exists to predict earthquakes accurately enough for societal actions to take place. From that discussion about overhyped results, he transitioned to explaining how his research showed that the chances of an earthquake had not changed due to recent changes in activity, as the fluctuations were *exactly* in line with what would be expected for a simple baseline level of risk. This outreach activity helped improve the understanding of the target audience on a complex, technical subject and debunk some of the commonly held assumptions about earthquake prediction and risk management.
+* Breve biografía:
+> Eric es un investigador geofísico y científico de datos, ha aparecido en varios programas de televisión y podcasts para discutir su investigación sobre la ocurrencia de terremotos en los Estados Unidos Centrales. Un desafío para presentar investigaciones sobre terremotos es la tendencia a exagerar los resultados en el tema de la predicción de terremotos. Eric utilizó estas apariciones de medios para destacar las dificultades inherentes a la predicción de terremotos, y explicar por qué no existe un método fiable para predecir los terremotos con la suficiente precisión como para que se lleven a cabo acciones sociales. De esa discusión sobre los resultados superpuestos, transicionó para explicar cómo su investigación demostró que las posibilidades de un terremoto no habían cambiado debido a cambios recientes en la actividad. ya que las fluctuaciones eran *exactamente* en línea con lo que se esperaría para un simple nivel de riesgo de línea base. Esta actividad de difusión ayudó a mejorar la comprensión del público objetivo en un complejo, y desestimar algunos de los supuestos comúnmente aceptados sobre predicción de terremotos y gestión de riesgos.
 
-* Personal highlights:
-> I collaborated with a group of researchers from The Alan Turing Institute to draft a chapter of scientific outreach.
+* Resaltados personales:
+> Colaboré con un grupo de investigadores del Instituto Alan Turing para redactar un capítulo de divulgación científica.
 
 <!---F
 ## F--->
@@ -202,96 +202,96 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 
 <!---H--->
-## H
+## D
 
 ### Hannah Nicholls
 
-* Role: Book Dash 2021 participant
+* Rol: Libro Guión 2021 participante
 * GitHub id: hlnicholls
 * ORCID:https://orcid.org/0000-0002-3480-7852
 
-* Short bio:
-> I am a PhD student contributing to The Turing Way to develop writing about reproducible research practices. I have a BSc in biomedical science and a background in wet-lab cardiovascular research. My PhD is in applying machine learning to prioritise most likely causal disease genes from genome-wide association studies.
+* Breve biografía:
+> Soy estudiante de doctorado que contribuye a The Turing Way para desarrollar la escritura sobre prácticas de investigación reproducibles. Tengo un BSc en ciencias biomédicas y un antecedente en investigación cardiovascular de los laboratorios húmedos. Mi doctorado está en la aplicación del aprendizaje automático para dar prioridad a los genes de enfermedades causales más probables de los estudios de asociación genoma.
 
-* Personal highlights:
-> Collaborating with others to build something new as a contribution to The Turing Way, and collaborating with others to review and support their work. Understanding the inner workings of The Turing Way via navigating within its GitHub. Also getting to help and watch a really cool illustration being made!
+* Resaltados personales:
+> Colaborar con otros para construir algo nuevo como contribución a The Turing Way, y colaborar con otros para revisar y apoyar su trabajo. Entendiendo el funcionamiento interno de The Turing Way a través de la navegación dentro de su GitHub. También para ayudar y ver una ilustración realmente fresca que se está haciendo!
 
-* Quotes:
-> Taking part in the Turing Way Book Dash was one of the first times I've done collaborative working over an extended period of time and it was such a great experience! It allowed me to try out new skills and really build confidence in what I was doing, I feel really encouraged to continue contributing to The Turing Way!
+* Cotizaciones:
+> Participar en el Turing Way Book Dash fue una de las primeras veces que hice un trabajo colaborativo durante un largo período de tiempo y fue una gran experiencia! Me permitió probar nuevas habilidades y generar confianza en lo que estaba haciendo, ¡Me siento realmente animado a seguir contribuyendo a The Turing Way!
 
 
 ### Heidi Seibold
 
-* Role: Core contributor (2020), Book Dash February 2020 Attendee
+* Rol: Contribuyente Principal (2020), Libro de Asistente de Febrero 2020
 * GitHub id: [HeidiSeibold](https://github.com/HeidiSeibold)
 * ORCID id: [0000-0002-8960-9642](https://orcid.org/0000-0002-8960-9642)
-* Short bio:
-> I lead a group on Open AI in Health at the Helmholtz Zentrum Munich. I develop machine learning methods to figure out which patients react well to certain treatments and implements these methods in R. My passion for open and reproducible research has led me to join the Turing Way community. I am involved in meta-research projects (research about research), I support, teach and contribute to open projects such as The Turing Way. My work for the *Journal of Statistical Software* includes reproducibility checks. We only publish papers which are fully computationally reproducible. I also work on making our machine-learning software more user-friendly, reusable and extensible. Together with a PhD student I am thinking about how to use data from hospitals to help doctors and patients find the right treatment for each individual patient.
+* Breve biografía:
+> Yo dirijo un grupo de Open AI in Health en el Helmholtz Zentrum Munich. Desarrollo métodos de aprendizaje automático para averiguar qué pacientes reaccionan bien a ciertos tratamientos e implemento estos métodos en R. Mi pasión por la investigación abierta y reproducible me ha llevado a unirme a la comunidad de Turing Way. Estoy involucrado en proyectos de meta-investigación (investigación sobre investigación), apoyo, enseño y contribuyo a proyectos abiertos como The Turing Way. Mi trabajo para el *Diario de Software Estatistico* incluye comprobaciones de reproducibilidad. Sólo publicamos artículos que son totalmente reproducibles por computación. También trabajo en hacer que nuestro software de aprendizaje de maquinaria sea más fácil de usar, reutilizable y extenso. Junto con un estudiante de doctorado, estoy pensando en cómo usar los datos de los hospitales para ayudar a médicos y pacientes a encontrar el tratamiento adecuado para cada paciente individual.
 
-* Personal highlights:
-> I work in data science and open and reproducible research are the things I think and care about the most. So to me it only made sense to get involved. Plus: the community seemed amazing! To me The Turing Way is a role model when it comes to collaborative, distributed work. I learned so much just by participating in the book sprint and seeing how Malvika, Kirstie and everyone else contributed to providing an extremely welcoming and at the same time productive space. I took what I learned and tried to apply it in other contexts such as teaching. I will continue to do so. The Turing Way also inspired me to think about new ways we could teach people about open and reproducible (data) science. I am currently thinking a lot about how we could use the content from The Turing Way and turn it into a course. This idea was also part of an application, where I proposed to start a new group on *Open AI*. Specifically, I have co-authored these chapters: [Research Compendia](https://the-turing-way.netlify.app/reproducible-research/compendia.html), [File Naming Convention](https://the-turing-way.netlify.app/project-design/filenaming.html), and reviewed many contributions. I regularly recommend The Turing Way as a resource. Both for learning more about reproducible data science and also when discussing specific topics. I think that people are taking it on and reading it :)
+* Resaltados personales:
+> Trabajo en ciencias de datos y la investigación abierta y reproducible son las cosas que pienso y me preocupa más. Así que para mí sólo tenía sentido implicarse. Además, la comunidad parecía increíble! Para mí The Turing Way es un modelo de rol cuando se trata de un trabajo colaborativo, distribuido. Aprendí tanto solo participando en el sprint del libro y viendo cómo Malvika, Kirstie y todos los demás han contribuido a proporcionar un espacio extremadamente acogedor y al mismo tiempo productivo. Me tomé lo que aprendí e intenté aplicarlo en otros contextos, como la enseñanza. Yo seguiré haciéndolo. La Vía Turing también me inspiró a pensar en nuevas maneras en las que podríamos enseñar a la gente sobre ciencia abierta y reproducible (datos). Actualmente estoy pensando mucho sobre cómo podríamos usar el contenido de The Turing Way y convertirlo en un curso. Esta idea también formaba parte de una aplicación, donde propuse iniciar un nuevo grupo en *Abrir IA*. Específicamente, he coautorizado estos capítulos: [Compendia de Investigación](https://the-turing-way.netlify.app/reproducible-research/compendia.html), [Convención de nombres de archivo](https://the-turing-way.netlify.app/project-design/filenaming.html)y he revisado muchas contribuciones. Recomiendo regularmente The Turing Way como recurso. Tanto para aprender más sobre ciencias de datos reproducibles como cuando se discuten temas específicos. Creo que la gente la está tomando y leyendo :)
 
-* More information:
-> First, I would like to continue to help create content, review others content and be helpful in any way I can. Sometimes I like to look at really old issues and pull requests for example. Reviving such old, often almost finished bits, is very rewarding. Apart from that I also have a bigger, long term idea for The Turing Way. I personally am not a huge fan of reading. So books are not my favorite way to learn.  In the past years I learned a lot by listening to others in talks, podcasts, videos, and of course conversations.  So for me it is only a natural next step for The Turing Way to become more than a book. It could be an ecosystem, with the book at its basis. And -- if we decide to go that route -- I would like to be a part of it.
+* Más información:
+> Primero, me gustaría seguir ayudando a crear contenido, revisar el contenido de otros y ser útil de cualquier forma que pueda. A veces me gusta ver problemas realmente antiguos y pull requests por ejemplo. Recuperar tan viejo, a menudo casi acabado, es muy gratificante. Aparte de eso, también tengo una idea más grande y a largo plazo para The Turing Way. Personalmente, no soy un gran partidario de la lectura. Así que los libros no son mi forma favorita de aprender.  En los últimos años he aprendido mucho escuchando a otros en charlas, podcasts de , vídeos y por supuesto conversaciones.  Así que para mí es solo un paso natural para que The Turing Way se convierta en algo más que un libro. Podría ser un ecosistema , con el libro en su base. Y -- si decidimos seguir esa ruta -- me gustaría ser parte de ella.
 
 <!---I--->
 ## I
 
 ### Irene K
 
-* Role: Book Dash November 2020 Attendee
+* Rol: Libro Dash Noviembre 2020 Asistente
 * GitHub id: [irenekp](http://github.com/irenekp)
-* Short bio:
-> I'm an undergraduate student majoring in Information Science and Engineering. While short, my journey with Data Science and Data Management has been varied and I've loved watching how a single concept can mould into so many different disciplines! I have been able to work with data science as an RA for a couple of projects that focused on different aspects of Social Network Analysis. I've also been able to follow data management and related practices during my internships at a fintech and a telecom company.
+* Breve biografía:
+> Soy estudiante de postgrado en Ciencias de la Información e Ingeniería. Mientras corto, Mi viaje con la Ciencia de Datos y Gestión de Datos ha sido variado y me ha encantado ver cómo un solo concepto puede moldearse en tantas disciplinas diferentes! He sido capaz de trabajar con las ciencias de la información como RA para un par de proyectos que se centraron en diferentes aspectos del análisis de la red social. También he podido seguir la gestión de datos y prácticas relacionadas durante mis prácticas en una fintech y una empresa de telecomunicaciones.
 
-* Personal highlights:
-> Turing Way was my first foray into Open Source, and I have found it extremely helpful in learning both about general github and open source practices as well as being part of a moving and collaborative community. I especially loved being part of an extremely multidisciplinary group of people, really shows me the real span of Data Science! The ethics book has been a great source of interest for me as it encompasses many of the issues I both grappled with, debated and deliberated upon extensively during my own data science projects. During my time working on the Data Anonymization Chapter (Issue: #1578 , Pull Request: #1579 ) I managed to read more extensively about anonymization and I found answers to many of the questions that had previously bothered me. I really hope that the work we've done here to consolidate all these ethical guidelines will help make practicing data science with a strong ethical basis and clear moral conscience more easy and accessible.
+* Resaltados personales:
+> Turing Way fue mi primera incursión en Open Source, y me ha resultado extremadamente útil para aprender tanto sobre las prácticas generales de github y de código abierto como para formar parte de una comunidad conmovedora y colaborativa. Me encantó especialmente formar parte de un grupo de personas extremadamente multidisciplinar, realmente me muestra el verdadero ramo de las Ciencias de la Información. El libro de ética ha sido una gran fuente de interés para mí, ya que abarca muchas de las cuestiones que ambos abordé. debatido y deliberado ampliamente durante mis propios proyectos de ciencias de la información. Durante mi tiempo trabajando en el Capítulo de Anonimización de Datos (Problema: #1578 , Pull Request: #1579 ) Me las arreglé para leer más ampliamente acerca del anonimato y encontré respuestas a muchas de las preguntas que me habían molestado anteriormente. Espero realmente que el trabajo que hemos hecho aquí para consolidar todas estas directrices éticas ayude a que la práctica de la ciencia de datos con una sólida base ética y una conciencia moral clara sean más fáciles y accesibles.
 
-* More information:
-> In line with my contributions so far, I am extremely passionate about working on an ethical framework for Data Science, seeing as a lot of it focuses on exposing patterns that could easily be invasive, I really think an ethical approach to it is the only way to keep practicing it sustainably in the long term. Science Communication is an other one of my key areas of interest, I've been combining it with my love for sustainable practices (be it data science or water resource management) so far to research upon and write articles that I hope would inform and educate more people! I hope to add Data Visualization to this combination soon! I intend to keep working at the cross roads of Data Science and Sci-Comm for the foreseeable future!
+* Más información:
+> En línea con mis aportaciones hasta ahora, me siento muy apasionado por trabajar en un marco ético para las Ciencias de la Información, ver como una gran parte se centra en exponer patrones que podrían ser fácilmente invasivos, Realmente creo que un enfoque ético para ello es la única forma de seguir practicándolo de forma sostenible a largo plazo. La comunicación científica es una de mis áreas de interés clave. Lo he estado combinando con mi amor por las prácticas sostenibles (ya sea la informática o la gestión de los recursos hídricos) hasta ahora para investigar y escribir artículos que espero que informen y educen a más personas! Espero añadir Visualización de Datos a esta combinación pronto! ¡Tengo la intención de seguir trabajando en la cruz de las Ciencias de la Información y de la Ciencia de la Ciencia de la Ciencia de la Ciencia de la Información para el futuro predecible!
 
 ### Ismael Kherroubi Garcia
 
-* Role: Core contributor (2020), [OLS-2 for Turing project lead](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring), Book Dash November 2020 Attendee
+* Rol: Core contribuidor (2020), [OLS-2 for Turing project lead](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring), Book Dash November 2020 Attendee
 * GitHub id: [Ismael-KG](https://github.com/Ismael-KG)
-* Short bio:
-> I'm Ethics Research Assistant at the Alan Turing Institute. I have a BSc in Business Management and Administration and am currently working towards an MSc in Philosophy of the Social Sciences. I am an associate member of the Chartered Institute of Personnel and Development (CIPD).
+* Breve biografía:
+> Soy Asistente de Investigación en Ética en el Instituto Alan Turing. Tengo un BSc en Gestión y Administración de Negocios y actualmente estoy trabajando hacia un MSc en Filos de Ciencias Sociales. Soy miembro asociado del Instituto Carterado de Personal y Desarrollo (CIPD).
 
-* Personal highlights:
-> Since my undergraduate degree, I have worked in fintech and then in arts organisations within human resources teams, finally reaching the Alan Turing Institute and helping support the Ethics Advisory Group. I think my highlight is that I've got a great background as a generalist! I am currently really thrilled to be working alongside [Laura Carter](https://github.com/LauraCarter) and [Sophia Batchelor](https://github.com/BrainonSilicon) to build a community around the Guide for Ethical Research! Personal quote: "Research Ethics is complex, and two related concepts are Responsible Research and Innovation (RRI) and Research Integrity. Depending on whether we wear an RRI hat or research integrity goggles, we will encounter different research ethics questions. But it is important to wear the two at all times. I call this Steampunk Research Ethics."
+* Resaltados personales:
+> Desde mi título universitario, he trabajado en fintech y luego en organizaciones artísticas dentro de equipos de recursos humanos, llegar al Instituto Alan Turing y ayudar a apoyar al Grupo Asesor de Ética. Creo que mi destaque es que tengo un gran fondo como generalista! Estoy realmente encantado de trabajar junto a [Laura Carter](https://github.com/LauraCarter) y [Sophia Batchelor](https://github.com/BrainonSilicon) para construir una comunidad alrededor de la Guía para la Investigación Ética! Cita personal: "La ética de la investigación es compleja, y dos conceptos relacionados son la investigación responsable y la innovación (RRI) y la integración de la investigación. Dependiendo de si llevamos un sombrero RRI o gafas de integridad de investigación, encontraremos diferentes cuestiones éticas de investigación. Pero es importante llevar las dos en todo momento. Llamo a esto Etica de Investigación de Steampunk".
 
-* More information:
-> I am really fascinated by philosophical discussions about the social sciences, so I love the thought of questioning what an open science culture looks like and how to get there!
+* Más información:
+> Estoy realmente fascinado por los debates sobre las ciencias sociales, Así que me encanta la idea de cuestionar cómo es una cultura científica abierta y cómo llegar allí!
 
 <!---J--->
 ## J
 
-### José María Fernández
+### José María Fernández
 
-* Role: Book Dash November 2020 Attendee (BioHackathon-EU)
+* Rol: Libro Dash Noviembre 2020 Asistente (BioHackathon-EU)
 * GitHub id: @jmfernandez
 * ORCID: [0000-0002-4806-5140](https://orcid.org/0000-0002-4806-5140).
 
-* Short bio:
-> I'm a senior research engineer from [INB](https://inb-elixir.es) coordination unit, [BSC](https://bsc.es), ELIXIR Spain. With an MSc in Computer Science, I have been working in bioinformatics since 1999, involved in very disparate projects along these years. Currently, I'm very involved in technical and scientific benchmarking, reproducibility and workflow execution abstractions, among other topics.
+* Breve biografía:
+> Soy un ingeniero de investigación senior de [INB](https://inb-elixir.es) unidad de coordinación, [BSC](https://bsc.es), ELIXIR España. Con un MSc en Informática, he estado trabajando en bioinformática desde 1999, involucrado en proyectos muy diseminados a lo largo de estos años. Actualmente, estoy muy involucrado en pruebas de rendimiento técnicas y científicas, reproducibilidad y abstracciones de ejecución de flujo de trabajo, entre otros temas.
 
-* Personal highlights:
-> I have really enjoyed meeting so warming and the dynamic community around The Turing Way! I have mostly contributed to reviewing open Pull requests and networking with the community members.
+* Resaltados personales:
+> Me ha gustado mucho conocer tan caliente y la comunidad dinámica alrededor de The Turing Way! He contribuido en gran medida a revisar las solicitudes abiertas de Pull y trabajar en red con los miembros de la comunidad.
 
 <!---K--->
-## K
+## M
 
 ### Kim De Ruyck
 
-* Role: Book Dash November 2020 Attendee (BioHackathon-EU)
+* Rol: Libro Dash Noviembre 2020 Asistente (BioHackathon-EU)
 * GitHub id: [kderuyck](https://github.com/kderuyck)
 * ORCID: [0000-0001-9921-644X](https://orcid.org/0000-0001-9921-644X)
 
-* Short bio:
-> Since 2016, I am managing the Belgian ELIXIR Node (we pursue FAIRification of research data and facilitating reproducible analysis, through activities in data management and analysis as well as training; we also focus on domain specific services in plant sciences, human health and proteomics). I was trained as a Bioscience engineer, have a PhD in Medical Sciences and performed medical genetics research for many years.
+* Breve biografía:
+> Desde 2016, estoy dirigiendo el nodo belga ELIXIR (buscamos FAIRification de datos de investigación y facilitamos análisis reproducibles, a través de actividades de gestión y análisis de datos, así como de formación; también nos centramos en los servicios específicos de dominio en las ciencias de las plantas, la salud humana y la proteína). Yo fui entrenado como ingeniero de biosciencia, tengo un doctorado en Ciencias Médicas y realizé investigaciones médicas de ciencia médica durante muchos años.
 
-* Personal highlights:
-> I started familiarizing myself with the GitHub environment and learned how to collaborate through it. It was especially nice to meet the vibrant community working together on the Turing Way! Specifically, I have authored a subchapter on [Research Data Management Toolkit](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-toolkits.html).
+* Resaltados personales:
+> Empecé a familiarizarme con el entorno de GitHub y aprendí a colaborar a través de él. ¡Fue especialmente agradable conocer a la vibrante comunidad trabajando juntos en el Camino Turing! Específicamente, he creado un subcapítulo en [Research Management Toolkit](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-toolkits.html).
 
 
 <!---L--->
@@ -299,184 +299,184 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Laura Acion
 
-* Role: Book Dash November 2020 Attendee
+* Rol: Libro Dash Noviembre 2020 Asistente
 * GitHub id: [lauracion](http://github.com/lauracion)
 * ORCID: [0000-0001-5213-6012](https://orcid.org/0000-0001-5213-6012)
-* Short bio:
-> I am a Biostatistician who transitioned to Data Science. I work at the University of Buenos Aires (Argentina). I specialize in several areas of Health Sciences. I am passionate about changing the way applied stats is taught and practiced. I have so much to learn and do; it seems I will need extra lives to accomplish all. More about me [here](https://lacion.rbind.io).
+* Breve biografía:
+> Soy biostatisticista que pasó a Ciencias de la Información. Trabajo en la Universidad de Buenos Aires (Argentina). Me especializo en varias áreas de Ciencias de la Salud. Soy apasionado por cambiar la forma en que las estadísticas aplicadas se enseñan y practican. Tengo tanto que aprender y hacer; parece que necesitaré vidas adicionales para completar todo. Más sobre mí [aquí](https://lacion.rbind.io).
 
-* Personal highlights:
-> I am currently co-developing a chapter on "Leadership in Data Science" and supporting Spanish community in translating and getting involved in the project. I hope this is my first of several Book Dashes! It was an outstanding experience. Thank you so much, Malvika and Kirstie, for brilliantly organizing and coordinating this event! ✨ 💖
+* Resaltados personales:
+> Actualmente estoy codesarrollando un capítulo sobre "Leadership in Data Science" y apoyando a la comunidad española en la traducción e implicación del proyecto. Espero que este sea mi primero de varios Dases de Libro! Fue una experiencia extraordinaria. Muchas gracias, Malvika y Kirstie, por haber organizado y coordinado brillantemente este evento! ✨ 💖
 
-### Laura Carter
+### Carter de Laura
 
-* Role: [OLS-2 for Turing project lead](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring), Book Dash November 2020 Attendee
+* Rol: [OLS-2 for Turing project lead](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring), Book Dash Noviembre 2020 Attendee
 * GitHub id: [Laura Carter](https://github.com/LauraCarter)
 * ORCID: [0000-0002-4285-1140](https://orcid.org/0000-0002-4285-1140)
-* Short bio:
-> I'm a PhD candidate in the Human Rights Centre at the University of Essex, UK, researching the human rights implications of the use of data-driven technologies in the UK public sector, focusing on gender stereotyping and gender discrimination. Prior to my PhD, I worked as a human rights researcher for almost a decade, specialising mostly in human rights, sexual orientation and gender identity. I carried out field research in Europe and sub-Saharan Africa covering topics including homophobic and transphobic hate crimes, criminalisation of homosexuality and of sex work, legal gender recognition for trans people, and health rights for intersex people.
+* Breve biografía:
+> Soy candidato a doctorado en el Centro de Derechos Humanos de la Universidad de Essex, Reino Unido, investigando las implicaciones para los derechos humanos del uso de tecnologías basadas en datos en el sector público del Reino Unido, centrándose en la estereotipación de género y la discriminación de género. Antes de mi doctorado, trabajé como investigadora de derechos humanos durante casi una década, especializándome principalmente en derechos humanos, orientación sexual e identidad de género. He llevado a cabo investigaciones sobre el terreno en Europa y el África subsahariana que cubren temas como los crímenes de odio homofóbicos y transfóbicos, criminalización de la exualidad y del trabajo sexual, reconocimiento legal de género para trans, y derechos de salud para las personas intersexuales.
 
-* Personal highlights:
-> I'm really enjoying learning more about Open Science practices and communities! I'm excited to be part of an [OLS-2](https://openlifesci.org/) mentee cohort alongside [Ismael Kherroubi Garcia](https://github.com/Ismael-KG) and [Sophia Batchelor](https://github.com/BrainonSilicon), working on the _Guide to Ethical Research_: if you're interested in building a community of thoughtful, reflective, ethical data scientists, please come and join us!
+* Resaltados personales:
+> ¡Realmente estoy disfrutando aprendiendo más sobre las prácticas de Open Science y las comunidades! Estoy entusiasmado de formar parte de un [OLS-2](https://openlifesci.org/) mentee cohorte junto a [Ismael Kherroubi García](https://github.com/Ismael-KG) y [Sophia Batchelor](https://github.com/BrainonSilicon), trabajando en la _Guía de Investigación Ética_: si estás interesado en construir una comunidad de pensamiento, reflexiones y científicos de datos éticos, ¡venga a unirse!
 
-* More information:
-> I'm interested in feminist and queer research methodologies and in interrogating structures of power and systems of categorisation. Throughout my career, most of my work has been on understanding these systems, how they work, and how they harm: so that they can be dismantled! More information about me on my [website](https://lauracarter.github.io/).
+* Más información:
+> Estoy interesado en las metodologías feministas y de investigación y en las estructuras interrogantes de poder y sistemas de categorización. A lo largo de mi cuidador, la mayor parte de mi trabajo ha sido la comprensión de estos sistemas, cómo trabajan, cómo dañan, para que puedan ser desmanchadas! Más información sobre mí en mi [sitio web](https://lauracarter.github.io/).
 
-* Personal Quote:
-> "I'm not from a tech field but I've learned so much about github as a tool for collaborative working: thanks so much for everyone who was part of the November 2020 book dash for all your useful advice!"
+* Cotización personal:
+> "No soy de un campo de la tecnología, pero he aprendido mucho sobre github como una herramienta para el trabajo colaborativo: muchas gracias a todos los que formaron parte del guión del libro de noviembre de 2020 para todos sus útiles consejos!"
 
 
-### Louise Bowler
+### Arco de Louise
 
-* Role: Core Contributor (2019), Book Dash February 2020 helper
+* Rol: Contribuidor Principal (2019), Ayudante del Libro de Febrero 2020
 * GitHub id: [LouiseABowler](http://github.com/LouiseABowler)
 * ORCID: [0000-0002-4910-9205](https://orcid.org/0000-0002-4910-9205)
-* Short bio:
-> I’m a Research Data Scientist in the Alan Turing Institute’s Research Engineering Group. I have a degree in Physics from Imperial College London, after which I joined the Life Sciences Interface Doctoral Training Centre at the University of Oxford. I worked on an interdisciplinary PhD project that combined mathematical modelling, cardiac electrophysiology and safety pharmacology, and moved over to the Turing afterwards. Since then, I’ve worked on a range of projects spanning synthetic data, data visualisation, and of course, the Turing Way!
+* Breve biografía:
+> Soy investigadora del Grupo de Ingeniería de Investigación del Instituto Alan Turing. Tengo un título en Física por Imperial College London, después de lo cual me incorporé al Centro de Formación en Ciencias de la Vida en la Universidad de Oxford. Trabajé en un proyecto de doctorado interdisciplinario que combinaba modelación matemática, electrofisiología cardíaca y farmacología de seguridad, y se trasladó a Turing después. Desde entonces, he trabajado en una serie de proyectos que abarcan datos sintéticos, visualización de datos y, por supuesto, el Turing Way!
 
-* Personal highlights:
-> I got involved with _The Turing Way_ via case studies of reproducibility in academic projects - essentially, I was a reproducibility detective during the initial phase of the project! :female_detective: The Turing Way was my first experience of working with collaborators from so many different institutions, and the community around this project has been a real highlight for me. My official time on the Turing Way has come to an end, but I still enjoy keeping in touch through the Book Dashes and other events.
+* Resaltados personales:
+> Me involucré con _The Turing Way_ a través de estudios de caso de reproducibilidad en proyectos académicos, esencialmente, Fui un detector de reproducibilidad durante la fase inicial del proyecto! :female_detective: The Turing Way fue mi primera experiencia de trabajar con colaboradores de tantas instituciones diferentes. y la comunidad alrededor de este proyecto ha sido un verdadero punto destacado para mí. Mi tiempo oficial en el Camino Turístico ha llegado a su fin pero todavía me gusta mantenerse en contacto a través de los Guiones de Libros y otros eventos.
 
-* More information:
-> As scientists, we share our work via papers and talks, but the intricacies of precisely *how* we implement an analysis pipeline or novel algorithm can be very difficult to convey in those formats. We're currently seeing changes in the default way we want to publish our papers through the open access movement, and I'd love to see a similar change in mindset happen about the data that we collect and the code that we develop so that others can reproduce, learn from and build upon our work. I want to ensure that the route to sharing these types of research output is open to everyone, regardless of their level of programming experience - the route might not always be straightforward, but it's a great opportunity to share and learn from our experiences! So many research projects now contain computational elements, yet it is easy to forget that not everyone has access to training in software engineering, or has a group of colleagues with such interests. If we say that we want people to make their research open and reproducible, we need to give them the tools they need to be confident in doing so. I see the Turing Way as the means of bridging that gap, by providing a friendly, practical and helpful guide for researchers at all stages of their careers.
+* Más información:
+> Como científicos, compartimos nuestro trabajo a través de documentos y conversaciones, pero las complejidades de precisamente *cómo* implementamos un pipeline de análisis o un nuevo algoritmo puede ser muy difícil de transmitir en esos formatos. Actualmente estamos viendo cambios en la forma predeterminada que queremos publicar nuestros documentos a través del movimiento de acceso abierto, y me encantaría ver un cambio de mentalidad similar que ocurre sobre los datos que recopilamos y el código que desarrollamos para que otros puedan reproducirse, aprenda de y construya a partir de nuestro trabajo. Quiero garantizar que el camino para compartir estos tipos de resultados de investigación esté abierto a todos, independientemente de su nivel de experiencia en programación - la ruta puede no ser siempre sencilla, pero es una gran oportunidad para compartir y aprender de nuestras experiencias! Muchos proyectos de investigación ahora contienen elementos computacionales, Sin embargo, es fácil olvidar que no todo el mundo tiene acceso a la formación en ingeniería de software, o tiene un grupo de colegas con tales intereses. Si decimos que queremos que la gente haga que su investigación sea abierta y reproducible, tenemos que darles las herramientas que necesitan para confiar en ello. Veo la Vía Turing como el medio de poner freno a esa brecha, proporcionando un amistoso Guía práctica y útil para los investigadores en todas las etapas de sus cuidadores.
 
 <!---M--->
 ## M
 
 ### Malvika Sharan
 
-* Role: **Community Manager** (2019 - present), Book Dash May 2019 Attendee
+* Rol: **Gestor de comunidad** (2019 - presente), Libro de asistente en mayo de 2019
 * GitHub id: [malvikasharan](http://github.com/malvikasharan)
 * ORCID: [0000-0001-6619-7369](https://orcid.org/0000-0001-6619-7369)
-* Short bio:
-> I am the community manager of _The Turing Way_ at The Alan Turing Institute. I work with the community of diverse members to develop resources and ways that can make data science accessible for a wider audience. After receiving my Ph.D. in Bioinformatics and I worked at  European Molecular Biology Laboratory, Germany, that helped me solidify my values as an Open Researcher and community builder. I co-founded the Open Life Science mentoring program in 2019 to help enhance access to Open Leadership tools for individuals interested in building communities around their work. I am also a fellow of the Software Sustainability Institute and a board member of the Open Bioinformatics Foundation.
+* Breve biografía:
+> Soy el administrador comunitario de _The Turing Way_ en el Alan Turing Institute. Trabajo con la comunidad de diversos miembros para desarrollar recursos y maneras que puedan hacer que la ciencia de datos sea accesible para un público más amplio. Después de recibir mi doctorado. en Bioinformática y yo trabajamos en European Molecular Biology Laboratory, Alemania, que me ayudó a solidificar mis valores como investigador abierto y constructor de comunidad. En 2019 cofundé el programa de mentoría Open Life Science para ayudar a mejorar el acceso a las herramientas de Open Leadership para personas interesadas en construir comunidades en torno a su trabajo. También soy miembro del Instituto de Sostenibilidad de Software y miembro de la junta directiva de la Open Bioinformatics Foundation.
 
-* Personal highlights:
-> As a community manager, I appreciate the opportunities for facilitating the work our contributors carry out in this community space while learning new skills and ideas from them. Through my talks, panel sessions, and workshops, I like to interact with members across different research domains, who I otherwise will never get a chance to meet. Besides connecting with members from diverse perspectives, my highlights in _The Turing Way_ are co-developing community governance, acknowledgment pathways, and community resources in the [Community Handbook](https://the-turing-way.netlify.app/community-handbook) for our members. I enjoy designing training resources around leadership in research in collaboration with [Open Life Science](https://openlifesci.org/).
+* Resaltados personales:
+> Como administrador de la comunidad, Aprecio las oportunidades para facilitar el trabajo que nuestros colaboradores realizan en este espacio comunitario mientras aprenden nuevas habilidades e ideas de ellos. A través de mis conversaciones, sesiones de panel y talleres, me gusta interactuar con miembros de diferentes dominios de investigación, que yo de otra manera nunca tendrá la oportunidad de encontrar. Además de conectarse con miembros desde diversas perspectivas, mis puntos destacados en _The Turing Way_ son gobernanza comunitaria co-desarrollada, vías de reconocimiento y recursos de la comunidad en el [Manual de la comunidad](https://the-turing-way.netlify.app/community-handbook) para nuestros miembros. Me gusta diseñar recursos de capacitación alrededor del liderazgo en investigación en colaboración con [Open Life Science](https://openlifesci.org/).
 
-### María Nanton
+### María Nanton
 
-* Role: Bookdash May 2021 Attendee.
+* Rol: Bookdash Mayo 2021 Asistente.
 * GitHub id: [mcnanton](http://github.com/mcnanton)
 * ORCID: [0000-0003-0426-2879](https://orcid.org/0000-0003-0426-2879)
 
-* Short bio:
-> I'm a Data Analyst with a social communications background experienced in data analysis, reporting, and dashboarding in marketing, social and health data. I'm currently a Data Analyst at the Health Information and Statistics Office, part of the Ministry of Health of the Buenos Aires City Government. I'm also a TA at the University of Buenos Aires, a RLadies Buenos Aires organizer, and a social data analytics and data visualization instructor at EANT.
+* Breve biografía:
+> Soy analista de datos con experiencia en comunicaciones sociales en análisis de datos, reportaje y dashboarding en datos de mercado, sociales y de salud. Actualmente soy analista de datos en la Oficina de Estadísticas e Información de Salud, que forma parte del Ministerio de Salud del Gobierno de la Ciudad de Buenos Aires. También soy un TA en la Universidad de Buenos Aires, un organizador de RLadies Buenos Aires, y un instructor de análisis de datos sociales y visualización de datos en EANT.
 
-* Personal highlights:
-> It was great to work on chapter 3 of the Guide of Communications and also managing to solve some Issues and review simple PRs related to other chapters along the way.
+* Resaltados personales:
+> Fue estupendo trabajar en el capítulo 3 de la Guía de las Comunicaciones y también logró resolver algunos problemas y revisar las PRs simples relacionadas con otros capítulos a lo largo del camino.
 
-* Quotes:
-> This was my first Book Dash and I can't imagine a better environment to do some serious, challenging, and fun collaborative work. I'm immensely grateful to everyone I encountered this week, and I can't wait to share the tools I've learned with fellow coworkers and members of data and research communities in Argentina.
+* Cotizaciones:
+> Este fue mi primer libro Dash y no puedo imaginar un mejor ambiente para hacer un trabajo serio, desafiante y divertido en colaboración. Estoy inmensamente agradecido a todos los que he encontrado esta semana, y no puedo esperar a compartir las herramientas que he aprendido con compañeros de trabajo y miembros de comunidades de datos e investigación en Argentina.
 
 ### Mariana Vivas
 
-* Role: Book Dash 2021 participant
+* Rol: Libro Guión 2021 participante
 * GitHub id: [marianaiv](http://github.com/marianaiv)
 
-* Short bio:
-> I'm an undergrad physics student at the Central University of Venezuela. Working on my thesis and trying to do it reproducible.
+* Breve biografía:
+> Soy estudiante de física en la Universidad Central de Venezuela. Trabajando en mi tesis y tratando de hacerlo reproducible.
 
-* Personal highlights:
-> Working on the introductory chapter for the Project Design Guide was incredible. I really enjoyed collaborating with Malvika in writing it.  I'm also very happy to had an illustration made specifically for the chapter.
+* Resaltados personales:
+> Trabajar en el capítulo introductorio de la Guía de Diseño de Proyectos fue increíble. Me gustó mucho colaborar con Malvika escribiéndola.  También estoy muy contento de tener una ilustración hecha específicamente para el capítulo.
 
-* Quotes:
-> This Book Dash was my first time doing collaborative work. I really enjoyed meeting everyone - such a welcoming environment, I really appreciate it! I enjoyed collaborating with a chapter for The Turing Way, couldn't be happier!
+* Cotizaciones:
+> Este libro Dash fue mi primera vez haciendo un trabajo colaborativo. Me ha gustado mucho conocer a todo el mundo; un ambiente tan acogedor, ¡realmente lo aprecio! Me gustó colaborar con un capítulo para The Turing Way, ¡no podía ser más feliz!
 
 
 ### Marta Mangiarulo
 
-* Role: Book Dash 2020 & 2021 participant
+* Rol: Book Dash 2020 & 2021 participante
 * GitHub id: [Marta-MM](http://github.com/Marta-MM)
 * ORCID: [0000-0001-7995-3717](https://orcid.org/0000-0001-7995-3717)
 
-* Short bio:
-> I am a Research Assistant and Teaching Fellow in Psychology at the University of Leicester. My main research interests involve probabilistic inference, social hypothesis testing, and reasoning biases. I am also passionate about science communication and research dissemination and interested in replicability, open science issues, and the interface between cognitive and social aspects in social psychology.
+* Breve biografía:
+> Soy Asistente de Investigación y Profesor en Psicología de la Universidad de Leicester. Mis principales intereses de investigación implican una inferioridad probabilista, pruebas de hipótesis sociales y sesgos de razonamiento. También soy apasionada por la comunicación científica y la diseminación de la investigación e interesada en la replicabilidad. temas de ciencia abierta, y la interfaz entre aspectos cognitivos y sociales en la psicología social.
 
-* Personal highlights:
-> In the **November 2020 book dash**, I used GitHub for the first time! I helped fix some small bugs (grammar and syntax, typos, formatting) and, I proposed two chapters on data visualisation and on study pre-registration. I started familiarising myself with the GitHub environment and learned how to collaborate through it to provide valuable contributions to the project. My work during these 5 days has mostly been individual, but I would really love to collaborate with others to work on the two chapters I suggested! In the **May 2021 book dash**, I was very happy to start where I had left off in the previous bookdash. I believe I made small but relevant contributions and I have a clear idea of where I would like to go next which is much more than what I was hoping for!
+* Resaltados personales:
+> En el guión del libro **Noviembre 2020**, ¡utilicé GitHub por primera vez! Ayudé a corregir algunos pequeños errores (gramática y sintaxis, tipos, formato) y, propuse dos capítulos sobre visualización de datos y pre-registro de estudio. Empecé a familiarizarme con el entorno de GitHub y aprendí a colaborar a través de él para proporcionar valiosas contribuciones al proyecto. Mi trabajo durante estos 5 días ha sido principalmente individual, pero me encantaría colaborar con otros para trabajar en los dos capítulos que he sugerido! En el guión del libro **de mayo de 2021**, estaba muy contento de empezar donde lo dejé en el libro anterior. Creo que he hecho pequeñas aportaciones pero pertinentes y tengo una idea clara de a dónde me gustaría ir a continuación, que es mucho más de lo que esperaba.
 
-* More information:
-> I am passionate about science communication and research dissemination and interested in replicability, open science issues, and the interface between cognitive and social aspects in social psychology topics like intergroup relations and impression formation. At the moment I am particularly fascinated by data visualisation and infographics.
+* Más información:
+> Soy apasionado por la comunicación científica y la diseminación de la investigación y estoy interesado en la replicabilidad, las cuestiones científicas abiertas, y la interfaz entre aspectos cognitivos y sociales en temas de psicología social como las relaciones entre intergrupos y la formación de impresión. En este momento estoy particularmente fascinado por la visualización de datos y la infografía.
 
-* Quote:
-> I loved taking part in the bookdash, it is such a rewarding experience above and beyond its material outputs.
+* Cotización:
+> Me encantó tomar parte en la librería, es una experiencia tan gratificante por encima y más allá de sus resultados materiales.
 
 
 ### Martin O'Reilly
 
-* Role: Core Contributor (2019)
+* Rol: Contribuidor del Núcleo (2019)
 * GitHub id: [martintoreilly](http://github.com/martintoreilly)
-* ORCID: [TBA](https://orcid.org/TBA)
-* Short bio:
-> I'm Principal Research Software Engineer and Deputy Head of the Research Engineering Group at the Alan Turing Institute. My focus is on using good software engineering practices to increase the impact of research software by making it reusable, reliable and robust I also have a strong interest in reproducible research, and am working to improve the tools and working practices at the Turing to make it easier for our researchers to work reproducibly I've moved back and forth between industry and academia over the years, gaining an MSc in Artificial Intelligence and a PhD in Computational Neuroscience along the way.
+* ORCIDO: [TBA](https://orcid.org/TBA)
+* Breve biografía:
+> Soy Ingeniero de Software de Investigación Principal y Director Adjunto del Grupo de Ingeniería de Investigación del Instituto Alan Turing. Me centro en el uso de buenas prácticas de ingeniería de software para aumentar el impacto del software de investigación haciéndolo reutilizable confiable y robusto También tengo un gran interés en la investigación reproducible, y estoy trabajando para mejorar las herramientas y prácticas de trabajo en el Turing para facilitar que nuestros investigadores trabajen de forma reproducible He avanzado y atrás entre la industria y la academia a lo largo de los años, obtener un MSc en Inteligencia Artificial y un Doctorado en Neurociencia Computacional a lo largo del camino.
 
-* More information:
-> I feel strongly that researchers have a responsibility to ensure that the outcomes of their research are made available to all - researchers, practitioners and the public. These outcomes should be made available in a way that allows others not just to reproduce them, but also to re-use and build upon them. An awful lot of researcher and practitioner time is spent getting to the point they can usefully evaluate whether some research is of use to them, or in re-discovering unpublished negative results. This seems extremely wasteful and I'm convinced we can and should do better. In particular, I feel a lot can be done to improve the effective re-use of data produced by research projects. While there has been significant progress in recent years in the amount of data published alongside research articles, there is still a wide gulf between open data and re-usable data. In terms of research areas, I'm fascinated by the brain and especially the approach of understanding the brain by "faking it" (i.e. modelling and simulation). I'm particularly interested in robots as a way of embodying these models in the real world. I believe the Turing Way can impact positively in both these areas. By providing recommended working practices and guidance on associated tooling, we can make it easy for researchers to do the right thing. By publishing this with the weight of the Turing brand, we can apply social pressure for the adoption of these practices as new norms in the research communities we operate in.
+* Más información:
+> Creo firmemente que los investigadores tienen la responsabilidad de garantizar que los resultados de su investigación se pongan a disposición de todos -investigadores, practicantes y el público. Estos resultados deberían estar disponibles de una manera que permita a otros no sólo reproducirlos, sino también reutilizarlos y construirlos. Se pasa un montón de tiempo investigador y practicante llegando al punto en que pueden evaluar de forma útil si algunas investigaciones son útiles para ellos, o en la recuperación de resultados negativos no publicados. Esto parece muy derrochador y estoy convencido de que podemos y debemos hacerlo mejor. En particular, creo que se puede hacer mucho para mejorar la reutilización efectiva de los datos producidos por proyectos de investigación. Aunque en los últimos años se han producido avances significativos en la cantidad de datos publicados junto con artículos de investigación, todavía hay un amplio abismo entre los datos abiertos y los datos reutilizables. En términos de áreas de investigación, estoy fascinado por el cerebro y especialmente por el enfoque de entender el cerebro mediante la "falsificación" (es decir, modelado y simulación). Estoy particularmente interesado en los robots como una manera de encarnar estos modelos en el mundo real. Creo que la Vía Turing puede tener un impacto positivo en ambos ámbitos. Al proporcionar prácticas de trabajo recomendadas y orientación sobre herramientas asociadas, podemos hacer que sea fácil para los investigadores hacer lo correcto. Publicando esto con el peso de la marca Turing, podemos aplicar presión social para la adopción de estas prácticas como nuevas normas en las comunidades de investigación en las que operamos.
 
 
 ### Martina G. Vilas
 
-* Role: Core contributor, JupyterBook Infrastructure Maintainer (2020), OLS-2 for Turing mentor, Book Dash 2020 Attendee and helper
+* Role: colaborador principal, JupyterBook Infrastructure Maintainer (2020), OLS-2 for Turing mentor, Book Dash 2020 Attendee and helper
 * GitHub id: [martinagvilas](http://github.com//martinagvilas)
 * ORCID: [0000-0002-1097-8534](https://orcid.org/0000-0002-1097-8534)
-* Short bio:
-> I'm currently finishing my PhD in Neuroscience at the Max-Planck-Institute AE in Frankfurt, Germany. I study how the brain processes conceptual knowledge analyzing neural recordings with computational modelling techniques. As an advocate of open-research, I also work on improving the reproducibility of neuroscientific-analyses and enjoy contributing to open-source software projects.
+* Breve biografía:
+> Actualmente estoy terminando mi doctorado en Neuroscience en el Max-Planck-Institute AE en la Universidad de Alemania, Alemania. Estudio cómo el cerebro procesa el conocimiento conceptual analizando las grabaciones neuronales con técnicas de modelado computacional. Como defensora de la investigación abierta, también trabajo en la mejora de la reproducibilidad de los análisis neurocientíficos y en la contribución a proyectos de software de código abierto.
 
-* Personal highlights:
-> Since the Book Dash in February 2020, I help with the maintenance of The Turing Way infrastructure and its reliance on Jupyter Book. The Turing Way is not only a great guide for conducting reproducible research, but it also provides a wonderful entry point into open-source contribution in general and connects you to a variety of open data-science communities. I'm also a mentor at the [OLS-2](https://openlifesci.org/ols-2) program and I have also worked with the [pandas](https://pandas.pydata.org/) core-contributors in providing guidance to people from underrepresented groups in technology on making their first open-source contribution. I have co-led and developed the tutorial on [Creating a Jupyter Book with The Turing Way](https://cfp.jupytercon.com/2020/schedule/presentation/225/creating-a-jupyter-book-with-the-turing-way/) ([Github repo](https://github.com/martinagvilas/tutorial-jupyterbook-with-turing-way)). During the Book Dash (November 2020), I worked with @BatoolMM on the upgrade of the Jupyter Book that allows for annotation (PR #1516). I facilitated mentored contributions _(in spanish as well 🇦🇷 🇧🇴 )_ I also gave a talk about The Turing Way and computational reproducibility at the [Brainhack Donostia 2020](https://brainhack-donostia.github.io/) (slides [here](https://zenodo.org/record/4269795#.X7glTlNKitg))
+* Resaltados personales:
+> Desde la carrera del libro en febrero de 2020, apoyo el mantenimiento de la infraestructura de The Turing Way y su confianza en Jupyter Bookk. La Vía Turing no es sólo una buena guía para llevar a cabo investigaciones reproducibles pero también proporciona un punto de entrada maravilloso en la contribución de código abierto en general y lo conecta con una variedad de comunidades de ciencia de datos abiertas. También soy un mentor en el programa [OLS-2](https://openlifesci.org/ols-2) y también he trabajado con los colaboradores centrales [de pandas](https://pandas.pydata.org/) para proporcionar orientación a personas de grupos poco representados en tecnología para hacer su primera contribución de código abierto. He codirigido y desarrollado el tutorial sobre [Create a Jupyter Book with The Turing Way](https://cfp.jupytercon.com/2020/schedule/presentation/225/creating-a-jupyter-book-with-the-turing-way/) ([Github repo](https://github.com/martinagvilas/tutorial-jupyterbook-with-turing-way)). Durante el Cuadro de Libros (Noviembre 2020), trabajé con @BatoolMM en la actualización del Libro de Jupyter que permite anotar (PR #1516). Facilité contribuciones mentalizadas _(en español también 🇦🇷 🇧🇴 )_ También hice una charla sobre The Turing Way y reproducibilidad computacional en la [Donostia Brainhack 2020](https://brainhack-donostia.github.io/) (diapositivas [aquí](https://zenodo.org/record/4269795#.X7glTlNKitg))
 
-* More information:
-> More information about me can be read on my [website](https://martinagvilas.github.io/).
+* Más información:
+> Puede leer más información sobre mí en mi [sitio web](https://martinagvilas.github.io/).
 
 <!-- N -->
 ## N
 
 ### Nina Di Cara
 
-* Role: Book Dash 2021 participant
+* Rol: Libro Guión 2021 participante
 * GitHub id: ninadicara
 * ORCID: https://orcid.org/0000-0002-6179-1067
 
-* Short bio:
-> I am a PhD student at the University of Bristol, working on data science for mental health using social media data. I also have a masters degree in family social work, and was trained as a social worker before starting my PhD. I co-organise the [Data Ethics Club](https://github.com/very-good-science/data-ethics-club/), and am really interested in how we can understand the way we approach data analysis as a function of our lived experiences and positionality.
+* Breve biografía:
+> Soy estudiante de doctorado en la Universidad de Bristol, trabajando en ciencias de la información para la salud mental usando datos de las redes sociales. También tengo una maestría en trabajo social familiar, y fue entrenado como trabajador social antes de comenzar mi doctorado. Organizo el [Club de Ética de Datos](https://github.com/very-good-science/data-ethics-club/), y estoy realmente interesado en cómo podemos entender la forma en que enfocamos el análisis de datos como una función de nuestras experiencias vividas y posicionalidad.
 
-* Personal highlights:
-> I started to design and draft a new chapter about self-reflection for data scientists, and was really excited to meet lots of fascinating and kind people who are also working on the Guide for Ethical Research!
+* Resaltados personales:
+> Empecé a diseñar y redactar un nuevo capítulo sobre la autoreflexión para los científicos de datos, y estaba muy emocionado de conocer a muchas personas fascinantes y amables que también están trabajando en la Guía para la Investigación Ética!
 
-* Quotes:
-> Being part of the Book Dash has been a great reminder of how team-based science can be such a joyful and fun experience! An especially well-timed reminder after spending a year working from my flat!
+* Cotizaciones:
+> ¡Ser parte del Libro, ha sido un gran recordatorio de cómo la ciencia basada en el equipo puede ser una experiencia tan alegre y divertida! ¡Un recordatorio especialmente oportuno después de haber pasado un año trabajando desde mi piso!
 
 <!--P-->
 ## P
 
 ### Patricia Herterich
 
-* Role: Core contributor (2019 - present)
+* Rol: colaborador principal (2019 - presente)
 * GitHub id: [pherterich](http://github.com/pherterich)
 * ORCID: [0000-0002-4542-9906](https://orcid.org/0000-0002-4542-9906)
-* Short bio:
-> I am a Research Data Specialist at University of Edinburgh's Digital Curation Centre, UK. I am a 2019 Software Sustainability Institute Fellow and HiddenREF committee member. From 2016 to 2019, I worked as Research Repository Advisor at the University of Birmingham. From 2012 to 2016, I've worked at CERN as a doctoral student supporting Open Research stuff and then abandoned the PhD and started a real job using all the skills I aquired.
+* Breve biografía:
+> Soy especialista en datos de investigación en el Centro de Curación Digital de la Universidad de Edinburgh, Reino Unido. Soy socio del Instituto de Sostenibilidad de Software 2019 y miembro del comité HiddenREF. De 2016 a 2019, trabajé como Asesor de Repositorios de Investigación en la Universidad de Birmingham. De 2012 a 2016, He trabajado en el CERN como estudiante doctoral apoyando las cosas de Open Research y luego abandoné el doctorado y empecé un trabajo real usando todas las habilidades que he adquirido.
 
-* Personal highlights:
-> Working on the Turing Way reminded me about what I value in my work and that I do have more technical skill than I think. Based on the Turing Way work, I have started the product managmement role for DMPonline and I'm trying to take the inspiration from the project into my every day work whenever I can.
+* Resaltados personales:
+> Trabajar en la Vía Turing me recordó lo que valoro en mi trabajo y que tengo más destreza técnica de la que creo. Basado en el trabajo de Turing Way He comenzado el rol de gestión de productos para DMPonline y estoy tratando de tomar la inspiración del proyecto en mi trabajo diario siempre que pueda.
 
-* More information:
-> As a librarian, it feels like our influence is often limited, but I try to set up workshops/events to at least get the discussion started and give especially PhD students the feeling that they can challenge the status quo and there will be people in the institution that will support them that might not be their supervisor. I really love how the Turing Way aims to create good examples and I hope we can develop some ideas and resources that can have a positive impact in changing the current system. I care about collaborating and get really excited about trying new tools if my limited tech skills allow.
+* Más información:
+> Como bibliotecario, parece que nuestra influencia es a menudo limitada, pero trato de establecer talleres/eventos para al menos comenzar la discusión y dar a los estudiantes de doctorado la sensación de que pueden desafiar el status quo y habrá gente en la institución que los apoyará que tal vez no sea su supervisor. Me encanta cómo la Vía Turing pretende crear buenos ejemplos y espero que podamos desarrollar algunas ideas y recursos que puedan tener un impacto positivo en el cambio del sistema actual. Me preocupa colaborar y me entusiasma mucho probar nuevas herramientas si mis limitadas habilidades tecnológicas lo permiten.
 
 ### Paul Owoicho
 
-* Role: Google Season of Doc: Technical Writer, [OLS-2 for Turing project lead](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)(2020)
+* Rol: Temporada de Google Doc: Escritor técnico, [OLS-2 para Turing proyecto líder](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)(2020)
 * GitHub id: [paulowoicho](http://github.com/paulowoicho)
 * ORCID: TBA
-* Short bio:
-> I am a Technical Writer / Google Season of Docs (GSoD) Participant working to make The Turing Way consistent, sustainable, and accessible. I have a BSc in Software Engineering from the American University of Nigeria. Thereafter, I worked as a Research Analyst in the Fintech & Innovation Division of Guaranty Trust Bank, Nigeria and helped to drive the Bank's push to become a platform by creating innovative digital products. I completed a Master's in Data Science from the University of Glasgow and starting my PhD in January 2021 studying conversational information-seeking systems. I spent two years as a Research Analyst at Guaranty Trust Bank in Lagos, Nigeria helping to build innovative digital products to meet the Bank's customer objectives.
+* Breve biografía:
+> Soy un Escritor Técnico / Google Season of Docs (GSoD) Participante trabajando para hacer The Turing Way consistente, sostenible y accesible. Tengo un BSc en Ingeniería de Software de la Universidad Americana de Nigeria. Por lo tanto, trabajé como Analista de Investigación en la División de Innovación de Fintech & de Garantía Trust Bank, Nigeria y ayudó a impulsar el impulso del Banco para convertirse en una plataforma mediante la creación de productos digitales innovadores. Completé una Maestría en Ciencias de la Información por la Universidad de Glasgow e inicié mi doctorado en enero de 2021 estudiando sistemas de búsqueda de información conversacional. Pasé dos años como analista de investigación en el banco fiduciario de garantía en Lagos, Nigeria ayudando a construir productos digitales innovadores para cumplir con los objetivos de clientes del Banco.
 
-* Personal highlights:
-> The Turing Way is my first foray into open source and has been a fantastic learning experience. Not only have I gained a deeper understanding and appreciation for how GitHub works, but I am also learning to prioritise sustainability and empowerment in the work that I do. Although The Turing Way is my first open source project, I thoroughly enjoyed the experience and learned a lot along the way. Before the GSoD program, I only used Github to 'store' my projects. Now, I am much more proficient at using Github for collaborative endeavours and I am more adept at working with tools such as Markdown, Jupyter Book, and Sphinx. In addition, I gained familiarity with setting up and working with web analytics software. You can see the full report from GSoD participation [here](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/GSOD-applications/GSoD-2020-Project-Report.md). The BookDash November 2020 was great! It was awesome to meet, collaborate, and share ideas with people from around the world. Beyond the Book Dash, The Turing Way is the very first open-source project I have ever worked on. The experience has been fantastic, and I intend to stick around as a contributor after the Google Season of Docs program ends. I also see myself getting involved in other open-source projects.
+* Resaltados personales:
+> The Turing Way es mi primera incursión en código abierto y ha sido una experiencia de aprendizaje fantástica. No sólo he adquirido una comprensión más profunda y aprecio por cómo funciona GitHub. pero también estoy aprendiendo a priorizar la sostenibilidad y el empoderamiento en el trabajo que hago. Aunque The Turing Way es mi primer proyecto de código abierto, disfruté profundamente de la experiencia y aprendí mucho a lo largo del camino. Antes del programa GSoD, sólo usé Github para 'almacenar' mis proyectos. Ahora, soy mucho más competente en el uso de Github para los esfuerzos de colaboración y soy más experto en trabajar con herramientas como Markdown, Libros de Jupyter y Esfinge. Además, me familiarizé con la configuración y el trabajo con software de análisis web. Puedes ver el informe completo de la participación de GSoD [aquí](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/GSOD-applications/GSoD-2020-Project-Report.md). El BookDash Noviembre 2020 fue genial! Fue increíble conocer, colaborar y compartir ideas con gente de todo el mundo. Más allá del libro Dash, The Turing Way es el primer proyecto de código abierto en el que he trabajado. La experiencia ha sido fantástica, y tengo la intención de permanecer como colaborador después de que finalice la temporada de Google de documentos. También me veo involucrado en otros proyectos de código abierto.
 
-* Personal Quote:
-> Asides technical skills, I developed a deep appreciation for what working on an open source project entails. My mentors helped me realise that the value I left behind from the GSoD program was not in the amount of work I did, but how I enabled other contributors to also do the work I was doing. As a result, I learned to contribute as a Technical Writer in a manner that was reproducible, sustainable, accessible, and inclusive.
+* Cotización personal:
+> Asiste habilidades técnicas, desarrollé un profundo aprecio por lo que implica trabajar en un proyecto de código abierto. Mis mentores me ayudaron a darse cuenta de que el valor que dejé detrás del programa GSoD no estaba en la cantidad de trabajo que hice, pero cómo permití que otros colaboradores también hicieran el trabajo que estaba haciendo. Como resultado, aprendí a contribuir como Escritor Técnico de una manera reproducible, sostenible, accesible e inclusiva.
 
 <!---Q
 ## Q--->
@@ -488,86 +488,86 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Rosie Higman
 
-* Role: Core Contributor (2019), Book Dash 2019 Attendee and helper
+* Role: Core Contributor (2019), Book Dash 2019 Asistente y ayudante
 * GitHub id: [rosiehigman](http://github.com/rosiehigman)
 * ORCID: [0000-0001-5329-7168](https://orcid.org/0000-0001-5329-7168)
-* Short bio:
-> I am a Research Data Librarian at the University of Manchester, co-leading the research data management support service. My focus is on data sharing, training and encouraging researchers to engage in Open Research. My background is in the social sciences and I have recently started a PhD with the British Library and the University of Sheffield looking at Open Access and the role of the National Library.
+* Breve biografía:
+> Soy un Bibliotecario de Investigaciones de la Universidad de Manchester, codirigiendo el servicio de apoyo a la gestión de datos de investigación. Me centro en el intercambio de datos, la capacitación y el estímulo a los investigadores para que participen en la investigación abierta. Mis antecedentes se encuentran en las ciencias sociales y recientemente he comenzado un doctorado con la Biblioteca Británica y la Universidad de Sheffield sobre el acceso abierto y el papel de la Biblioteca Nacional.
 
-* More information:
-> I am passionate about Supporting researchers! Making it as easy as possible for researchers to make their research reproducible and open, and for this to be easier than undertaking research in a closed manner. I try to help researchers make small improvements in making their research open, on the basis that some progress is better than none! Working in research data management I'm naturally concerned that data is not taken seriously as an independent research output and the reward system in academia is so heavily geared towards 'high impact' journal articles. As someone from a non-STEM background I'm also interested in how we can make reproducible research as accessible as possible. This will be the first project where I've worked directly in GitHub and I'm excited to get more confident in using it! I spend much of my time talking to researchers about the overarching principles of *why* reproducible and open research is a good idea and am excited by the idea of giving people practical guidance on *how* to do this. Messy code is frequently cited in these discussions as a reason for not sharing code so if we could produce something which helps people get past this barrier would be great. I hope that the Turing Way will be something we can also use at the University of Manchester and other Turing universities around the country!
+* Más información:
+> ¡Soy apasionado por apoyar a los investigadores! Facilitar al máximo que los investigadores hagan que su investigación sea reproducible y abierta, y para que esto sea más fácil que llevar a cabo investigaciones de forma cerrada. Intento ayudar a los investigadores a realizar pequeñas mejoras en la realización de su investigación abierta, sobre la base de que algunos avances son mejores que ninguno. Trabajando en la gestión de datos de investigación estoy naturalmente preocupado por que los datos no se toman en serio como un producto de investigación independiente y el sistema de recompensas en el mundo académico está tan orientado hacia artículos de revista de "alto impacto". Como alguien de un entorno no STEM también estoy interesado en cómo podemos hacer la investigación reproducible tan accesible como sea posible. Este será el primer proyecto en el que he trabajado directamente en GitHub y estoy emocionado de tener más confianza en el uso! Dedico gran parte de mi tiempo hablando con los investigadores sobre los principios generales de *por qué* la investigación reproducible y abierta es una buena idea y estoy entusiasmada por la idea de dar a la gente orientación práctica sobre *cómo* hacer esto. El código de Messy se cita frecuentemente en estos debates como una razón para no compartir código, así que si pudiéramos producir algo que ayude a la gente a superar esta barrera sería grande. Espero que el Camino Turing sea algo que también podamos utilizar en la Universidad de Manchester y en otras universidades Turing de todo el país.
 
 
-### Rachael Ainsworth
+### Ainsworth Rachael
 
-* Role: Core Contributor (2019), Book Dash May 2019 Facilitator
+* Rol: Colaborador Principal (2019), Facilitador de Libro de mayo de 2019
 * GitHub id: [rainsworth](http://github.com/rainsworth)
 * ORCID: [0000-0003-2591-9462](https://orcid.org/0000-0003-2591-9462)
-* Short bio:
-> I am the Research Software Community Manager at the Software Sustainability Institute. Previously, I worked as a Research Associate and Open Science Champion at the Jodrell Bank Centre for Astrophysics at the University of Manchester. My research involved observing jets from young stars with next-generation radio telescopes to investigate the physical processes that assemble stars like our Sun, and am currently working to make data from the radio telescope facilities at Jodrell Bank more accessible to all. I am also a FOSTER certified Open Science Trainer, Mozilla Open Leader, and Organiser for the women in data meetup group HER+Data MCR.
+* Breve biografía:
+> Soy el Administrador de Comunidad de Investigación de Software en el Instituto de Sostenibilidad de Software. Anteriormente, trabajé como Asociado de Investigación y Campeón de Ciencias Abiertas en el Centro Banco Jodrell para la Astrofísica de la Universidad de Manchester. Mi investigación consistió en observar chorros de estrellas jóvenes con radiotelescopios de próxima generación para investigar los procesos físicos que ensamblan estrellas como nuestro Sol, y actualmente estoy trabajando para hacer que los datos de las instalaciones de radio telescopio en Jodrell Bank sean más accesibles para todos. También soy un entrenador certificado de Open Science Trainer, Mozilla Open Leader, y organizador para las mujeres en el grupo de reuniones de datos HER+Data MCR.
 
-* Personal highlights:
-> I have promoted *The Turing Way* through many presentations, notably at the Open Science Fair 2019 where I presented a poster and delivered 3 demonstrations of the project to attendees, one of which was recorded as part of the [ORION Open Science Podcast](https://orionopenscience.podbean.com/e/the-fair-is-in-town-figshare-the-turing-way-and-open-science-quest-at-the-osfair2019/). Through *The Turing Way* project I have gained valuable skills in open project management and met truly inspiring individuals working hard to promote openness and reproducibility in research.
+* Resaltados personales:
+> He promovido *The Turing Way* a través de muchas presentaciones, notablemente en la Feria de Ciencias Abiertas 2019 donde presenté un póster y entregé 3 demostraciones del proyecto a los asistentes, una de las cuales fue registrada como parte del [Podcast de Ciencia Abierta de ORION](https://orionopenscience.podbean.com/e/the-fair-is-in-town-figshare-the-turing-way-and-open-science-quest-at-the-osfair2019/). A través del proyecto *The Turing Way* he ganado valiosas habilidades en la gestión abierta del proyecto y he conocido a individuos realmente inspiradores trabajando duro para promover la apertura y la reproducibilidad en la investigación.
 
-* More information:
-> I am passionate about promoting openness, transparency, reproducibility, wellbeing and inclusion in STEM and facilitating cross-stakeholder conversations in order to change research culture for the better. I also love space exploration. *The Turing Way* goal of ensuring that reproducible data science is "too easy not to do" really resonates with me. I find that it can be difficult to get researchers to engage with reproducibility and sharing their research outputs because they perceive that it will take too much time and effort with very little reward - when the opposite is true! Ensuring results are reproducible not only benefits research as a whole and increases efficiency, but working this way also offers researchers more opportunities for impact and collaboration.
+* Más información:
+> Soy apasionado por la promoción de la apertura, la transparencia, la reproducibilidad, bienestar e inclusión en el STEM y facilitando conversaciones entre las partes interesadas con el fin de cambiar la cultura de la investigación para mejor. También me encanta la exploración del espacio. *La Vía Turística* tiene como objetivo garantizar que la ciencia de datos reproducible sea "demasiado fácil de no hacer" realmente resuena conmigo. Creo que puede ser difícil conseguir que los investigadores se comprometan con la reproducibilidad y compartan sus resultados de investigación porque creen que llevará demasiado tiempo y esfuerzo con muy poca recompensa, ¡cuando lo contrario es verdad! Garantizar resultados son reproducibles no solo beneficia a la investigación en su conjunto e incrementa la eficiencia. pero trabajar de esta manera también ofrece a los investigadores más oportunidades de impacto y colaboración.
 
 <!---S--->
 ## S
 
-### Samuel Guay
+### Guayana de Samuel
 
-* Role: OLS-2 for Turing mentor, Book Dash November 2020 Attendee
+* Rol: OLS-2 for Turing mentor, Libro de Asistente de Noviembre 2020
 * GitHub id: [SamGuay](https://github.com/SamGuay)
 * ORCID: [0000-0001-6990-839X](https://orcid.org/0000-0001-6990-839X)
 
-* Short bio:
-> I'm a PhD student in Cognitive Neuroscience at the University of Montreal, Canada, researching the effects of repetitive head impacts inactive and retired athletes with a neuroimaging perspective. In parallel, I've started the [Open Science UMontreal](https://umontreal.openscience.ca) initiative to equip early-career scientists with better knowledge and tools to implement more open science in their workflow. The OSUM community members are really awesome :rocket:. Specifically, I have been working to set a process to translate _The Turing Way_ in French. I contributed to adding [hypothes.is](https://web.hypothes.is/) to _The Turing Way_.
+* Breve biografía:
+> Soy estudiante de doctorado en Neurociencia Cognitiva en la Universidad de Montreal, Canadá, investigando los efectos de la cabeza repetitiva impactos inactivos y retirados con una perspectiva de neuroimagen. En paralelo, He iniciado la iniciativa [Open Science UMontreal](https://umontreal.openscience.ca) para equipar a científicos de carrera temprana con mejores conocimientos y herramientas para implementar más ciencia abierta en su flujo de trabajo. Los miembros de la comunidad OSUM son realmente increíbles :rocket:. Específicamente, he estado trabajando para establecer un proceso para traducir _The Turing Way_ en francés. He contribuido a añadir [hipotes.is](https://web.hypothes.is/) a _The Turing Way_.
 
-* Personal highlight:
-> The whole November 2020 Book Dash was my highlight. I got to know a welcoming community and amazing humans throughout the week. It was amazing to witness so much progress in that tiny amount of time.
+* Resaltado personal:
+> Todo el Dash del Libro de noviembre de 2020 fue mi punto de vista. Conozco a una comunidad acogedora y a seres humanos asombrosos a lo largo de la semana. Fue asombroso ver tantos avances en esa pequeña cantidad de tiempo.
 
 
 ### Sarah Gibson
 
-* Role: Core contributor, Infrastructure Maintainer (2019 - present), OLS-2 and OLS-3 for Turing mentor, Book Dash 2020 helper
+* Role: Contribuyente Principal, Mantenedor de Infraestructuras (2019 - presente), OLS-2 y OLS-3 para Turing mentor, Book Dash 2020 helper
 * GitHub id: [sgibson91](http://github.com/sgibson91)
 * ORCID: [0000-0003-0356-2765](https://orcid.org/0000-0003-0356-2765)
-* Short bio:
-> Sarah Gibson is an Open Source Infrastructure Engineer at 2i2c, an open source contributor and advocate. She holds more than two years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in the open source projects Binder, JupyterHub, and the Turing Way. She is a member of the mybinder.org operating team and maintains infrastructure supporting a global community in sharing reproducible computational environments.
+* Breve biografía:
+> Sarah Gibson es Ingeniero de Infraestructura de Código Abierto en 2i2c, colaborador y defensor de código abierto. Tiene más de dos años de experiencia como ingeniera de investigación en un instituto nacional de ciencias de datos e inteligencia artificial, además de tener un papel fundamental de colaborador en los proyectos de código abierto Binder, JupyterHub, y Turing Way. Ella es miembro del equipo operativo mybinder.org y mantiene la infraestructura de apoyo a una comunidad global en el intercambio de ambientes computacionales reproducibles.
 
-* Personal highlights:
-> Being invited to join the mybinder.org operating team after working with them through _The Turing Way_ and helping people get up-and-running on mybinder.org through _From Zero to Binder_ workshops.
+* Resaltados personales:
+> Ser invitado a unirse al mybinder. rg operando equipo después de trabajar con ellos a través de _The Turing Way_ y ayudando a la gente a ponerse en marcha en mybinder. rg a través de _Talleres de Cero a Binder_.
 
-* More information:
-> Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner. She also holds a Fellowship with the Software Sustainability Institute and advocates for best software practices in research.
+* Más información:
+> Sarah está apasionada por trabajar con expertos de dominio para aprovechar la computación en la nube con el fin de acelerar el corte, investigación intensiva en datos y difusión de los resultados de una manera abierta, reproducible y reutilizable. También tiene una beca con el Instituto de Sostenibilidad de Software y aboga por las mejores prácticas de investigación de software.
 
-### Sophia Batchelor
+### Batchelor de Sofía
 
-* Role: HacktoberFest contribution facilitator, [OLS project lead](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring) (2020), Book Dash November 2020 Attendee
+* Rol: facilitador de contribución de HacktoberFest, [líder del proyecto OLS](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring) (2020), Libro de asistencia de Noviembre 2020
 * GitHub id: [BrainonSilicon](https://github.com/BrainonSilicon)
 * ORCID: [0000-0002-8572-2058](https://orcid.org/0000-0002-8572-2058)
-* Short bio:
-> I am a PhD student at the University of Leeds studying sensorimotor learning with the Center for Immersive Technologies. My research focuses on understanding how how our brains interprets, and responds to both our physical reality, and a constructed reality (AR/VR). I do this through a deep love of the brain and emerging technologies. We will soon be existing in the future that we are creating now; so when we build with a "people first" (or a brain first) philosophy, we end up building a space that allows people to flourish.
+* Breve biografía:
+> Soy estudiante de doctorado en la Universidad de Leeds estudiando el aprendizaje del sensorimotor con el Center for Immersive Technologies. Mi investigación se centra en entender cómo interpretan nuestros cerebros, y responde tanto a nuestra realidad física como a una realidad construida (AR/VR). Lo hago a través de un profundo amor por el cerebro y las tecnologías emergentes. Pronto estaremos presentes en el futuro que estamos creando ahora; así que cuando construimos con una "gente primero" (o un cerebro primero), terminamos construyendo un espacio que permite a la gente florecer.
 
-* Personal highlights:
-> MY FIRST CONTRIBUTION TO THE TURING WAY! It's an absolute honor to join The Turing Way community as we look towards an open, ethical, and accessible future. After having such a mixed STEM and non-STEM background, I'm thrilled to have joined this community as it grows and guides my thinking about how and what it means to do research.
+* Resaltados personales:
+> ¡MI PRIMERA CONTRIBUCIÓN A LA PRECIO! Es un honor absoluto unirnos a la comunidad de The Turing Way mientras miramos hacia un futuro abierto, ético y accesible. Después de tener un fondo STEM mixto y no STEM, Estoy encantado de haberme unido a esta comunidad a medida que crece y guía mi pensamiento sobre cómo y qué significa hacer investigación.
 
-* More information:
-> I'm a fierce advocate for ethical and open research, and those beliefs tend to carry into everything I do. I previously worked on Brain Computer Interfaces after finishing my undergrad at UC Berkeley where I saw the incredible work that can be done through collaborative, crossdisciplinary science. I'm now part of Open Life Science's second cohort learning how to implement the teachings of The Turing Way because when good science and good practice meets, great things can happen.
+* Más información:
+> Soy un feroz defensor de la investigación ética y abierta, y esas creencias tienden a llevar a todo lo que hago. Antes trabajé en Interfaces Informáticas Cerebrales después de terminar mi subgrado en UC Berkeley donde vi el increíble trabajo que se puede hacer a través de la colaboración, ciencia cruzada. Ahora soy parte de Open Life Science's second cohort learning how to implement the teachings of The Turing Way because when good science and good practice meets, grandes cosas pueden suceder.
 
 
 <!---T--->
 ## T
 
-### Tim Powell
+### Tim
 
 * Twitter: [@mrtimpowell](https://twitter.com/mrtimpowell)
-* Short bio:
-> Tim is an Astrophysicist turned Research Software Engineer, who has always had a passion for sharing science. From attending public lectures and getting involved as an attendee at outreach events based around Cambridge as a teenager to building a miniature supercomputer, Tim has a long history of outreach activities. Whilst at university Tim became a STEM Ambassador with the Physics Society, where he used the tools provided to introduce groups of children to scientific concepts. Tim also participated in 4 [British Science Weeks](https://www.britishscienceweek.org/) showcasing many different aspects of Physics and Remote Sensing. When Tim joined STFC's Hartree Centre he built a miniature supercomputer, called [HPiC](https://blog.hartree.ac.uk/wordpress/?p=361). HPiC is the Hartree Centre’s Raspberry Pi Cluster. It was created to demonstrate supercomputing techniques and show some of the expertise of the Hartree Centre. HPiC has been showcased at numerous [technical conferences](https://twitter.com/MrTimPowell/status/1062098668403245058) and [public outreach events](https://twitter.com/HartreeCentre/status/1055029464592273408) not just across the UK but also internationally. As well as presenting technical posters and talks at various conferences Tim also enjoys taking his experience of outreach and presenting what he has learnt and how that is applicable to teaching. Tim presented at the ISC 2019 HPC Education and Training for Emerging Technologies Workshop and was on [SIGHPC](https://sighpceducation.acm.org/) Best Practices for HPC Training and Education Panel at Supercomputing 2019. One of Tim's proudest projects  was collaborating with Benjamin Mummery on a LEGO version of the Hartree Centre's iconic supercomputer [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963)!
+* Breve biografía:
+> Tim es un Ingeniero de Software de Investigación Astrosicista, que siempre ha tenido una pasión por compartir la ciencia. Desde asistir a conferencias públicas y participar como asistente en eventos de divulgación basados en Cambridge como adolescente para construir una supercomputadora en miniatura, Tim tiene una larga historia de actividades de divulgación. Mientras estaba en la universidad Tim se convirtió en Embajador de STEM ante la Sociedad de Física, donde utilizó las herramientas proporcionadas para introducir grupos de niños a conceptos científicos. Tim también participó en 4 [semanas de ciencias británicas](https://www.britishscienceweek.org/) mostrando muchos aspectos diferentes de la física y la percepción remota. Cuando Tim se unió al Hartree Centre de STFC, construyó una supercomputadora en miniatura, llamada [HPiC](https://blog.hartree.ac.uk/wordpress/?p=361). HPiC es el Raspberry Pi Cluster de Hartree Cento. Fue creada para demostrar técnicas de supercomputación y mostrar parte de la experiencia del Centro Hartre. HPiC ha sido exhibido en numerosas [conferencias técnicas](https://twitter.com/MrTimPowell/status/1062098668403245058) y [eventos de alcance público](https://twitter.com/HartreeCentre/status/1055029464592273408) no solo en todo el Reino Unido, sino también internacionalmente. Además de presentar carteles técnicos y charlas en varias conferencias Tim también disfruta tomando su experiencia de divulgación y presentando lo que ha aprendido y cómo esto es aplicable a la enseñanza. Tim presentó en el taller ISC 2019 de Educación y Capacitación de HPC para Tecnología Emergente y estuvo en [SIGHPC](https://sighpceducation.acm.org/) Mejores prácticas para el Panel de Entrenamiento y Educación de HPC en Supercomputing 2019. Uno de los proyectos más orgullosos de Tim, colaboró con Benjamin Mummery en una versión LEGO de la supercomputadora icónica de Hartree Centre [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963)!
 
-* Personal highlights:
-> I collaborated with a group of researchers from The Alan Turing Institute to draft a chapter of scientific outreach.
+* Resaltados personales:
+> Colaboré con un grupo de investigadores del Instituto Alan Turing para redactar un capítulo de divulgación científica.
 
 
 <!---U
@@ -592,12 +592,12 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 <!---Z
 ## Z--->
-\n(contributors-record-all)= \n# All Contributors\n \n✨Using 
+\n(contributors-record-all)= \n# Todos los colaboradores\n \n✨Usando la especificación 
 
-[all-contributors](https://allcontributors.org/) specification, _The Turing Way_ recognises all contributors, not just the ones who push code. ✨ \n(contributors-record-contributors)=
-## Contributors
+[all-contributors](https://allcontributors.org/) , _The Turing Way_ reconoce a todos los colaboradores, no sólo a los que empujan el código. ✨ \n(colaboradores-registro-colaboradores)=
+## Colaboradores
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Gracias a estas maravillosas personas ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -610,7 +610,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="http://warwick.ac.uk/aditishenvi"><img src="https://avatars2.githubusercontent.com/u/39489147?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aditi Shenvi</b></sub></a><br /><a href="#ideas-ashenvi10" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/afzal442"><img src="https://avatars.githubusercontent.com/u/11625672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Afzal Ansari</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aafzal442" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/Ago3"><img src="https://avatars.githubusercontent.com/u/30800478?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ago3</b></sub></a><br /><a href="#ideas-Ago3" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/Hanaffi"><img src="https://avatars.githubusercontent.com/u/35642947?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ahmed Essam</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AHanaffi" title="Bug reports">🐛</a></td>
+<td align="center"><a href="https://github.com/Hanaffi"><img src="https://avatars.githubusercontent.com/u/35642947?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Essam Ahmed</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AHanaffi" title="Bug reports">🐛</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/AidaMehonic"><img src="https://avatars.githubusercontent.com/u/45169136?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aida Mehonic</b></sub></a><br /><a href="#ideas-AidaMehonic" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -618,12 +618,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/acocac"><img src="https://avatars.githubusercontent.com/u/13321552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alejandro ©</b></sub></a><br /><a href="#content-acocac" title="Content">🖋</a></td>
 <td align="center"><a href="https://ornithos.github.io/"><img src="https://avatars3.githubusercontent.com/u/8834882?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Bird</b></sub></a><br /><a href="#tutorial-ornithos" title="Tutorials">✅</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aornithos" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://alexwlchan.net"><img src="https://avatars0.githubusercontent.com/u/301220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Chan</b></sub></a><br /><a href="#ideas-alexwlchan" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://informationcake.com"><img src="https://avatars3.githubusercontent.com/u/16001543?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Clarke</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=informationcake" title="Documentation">📖</a></td>
+<td align="center"><a href="http://informationcake.com"><img src="https://avatars3.githubusercontent.com/u/16001543?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Clarke Alex</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=informationcake" title="Documentation">📖</a></td>
 <td align="center"><a href="http://alexmorley.me"><img src="https://avatars2.githubusercontent.com/u/13655521?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexander Morley</b></sub></a><br /><a href="#question-alexmorley" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aalexmorley" title="Reviewed Pull Requests">👀</a> <a href="#ideas-alexmorley" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=alexmorley" title="Tests">⚠️</a> <a href="#infra-alexmorley" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-alexmorley" title="Maintenance">🚧</a></td>
 </tr>
 <tr>
 <td align="center"><a href="http://www.saral.it"><img src="https://avatars1.githubusercontent.com/u/11707417?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ali Seyhun Saral</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=seyhunsaral" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/kir0ul"><img src="https://avatars3.githubusercontent.com/u/6053592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea Pierré</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Akir0ul" title="Bug reports">🐛</a></td>
+<td align="center"><a href="https://github.com/kir0ul"><img src="https://avatars3.githubusercontent.com/u/6053592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea Pierré</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Akir0ul" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/andreea-avramescu"><img src="https://avatars.githubusercontent.com/u/33720256?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andreea Avramescu</b></sub></a><br /><a href="#content-andreea-avramescu" title="Content">🖋</a></td>
 <td align="center"><a href="http://inwaves.io"><img src="https://avatars.githubusercontent.com/u/8530685?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrei Alexandru</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ainwaves" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ainwaves" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://scholar.google.co.uk/citations?user=o0cD2JgAAAAJ&hl=en"><img src="https://avatars3.githubusercontent.com/u/26226804?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew Stewart</b></sub></a><br /><a href="#tutorial-ajstewartlang" title="Tutorials">✅</a></td>
@@ -642,23 +642,23 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <tr>
 <td align="center"><a href="http://barbaravreede.com"><img src="https://avatars2.githubusercontent.com/u/5747405?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Barbara Vreede</b></sub></a><br /><a href="#content-bvreede" title="Content">🖋</a></td>
 <td align="center"><a href="http://medium.com/@batool664"><img src="https://avatars1.githubusercontent.com/u/53487593?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Batool</b></sub></a><br /><a href="#ideas-BatoolMM" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-BatoolMM" title="Content">🖋</a> <a href="#translation-BatoolMM" title="Translation">🌍</a> <a href="#infra-BatoolMM" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ABatoolMM" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://beckigreen.netlify.app"><img src="https://avatars.githubusercontent.com/u/77735779?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Becki Green</b></sub></a><br /><a href="#ideas-beckigreen" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-beckigreen" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/r-j-arnold"><img src="https://avatars1.githubusercontent.com/u/20441134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Becky Arnold</b></sub></a><br /><a href="#question-r-j-arnold" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=r-j-arnold" title="Code">💻</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=r-j-arnold" title="Documentation">📖</a> <a href="#ideas-r-j-arnold" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ar-j-arnold" title="Reviewed Pull Requests">👀</a></td>
+<td align="center"><a href="http://beckigreen.netlify.app"><img src="https://avatars.githubusercontent.com/u/77735779?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Becki Verde</b></sub></a><br /><a href="#ideas-beckigreen" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-beckigreen" title="Content">🖋</a></td>
+<td align="center"><a href="https://github.com/r-j-arnold"><img src="https://avatars1.githubusercontent.com/u/20441134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Becky Arnold</b></sub></a><br /><a href="#question-r-j-arnold" title="Answering Questions">:speech _balloon:</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=r-j-arnold" title="Code">💻</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=r-j-arnold" title="Documentation">📖</a> <a href="#ideas-r-j-arnold" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ar-j-arnold" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/BenjaminMummery"><img src="https://avatars3.githubusercontent.com/u/46931690?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benjamin Mummery</b></sub></a><br /><a href="#ideas-BenjaminMummery" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-BenjaminMummery" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/AlfAWolf140"><img src="https://avatars2.githubusercontent.com/u/29063219?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Beth Montague-Hellen</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=AlfAWolf140" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/bouweandela"><img src="https://avatars3.githubusercontent.com/u/5430937?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bouwe Andela</b></sub></a><br /><a href="#content-bouweandela" title="Content">🖋</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://brndnlee.me/"><img src="https://avatars3.githubusercontent.com/u/39078797?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brandon Lee</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ablee1710" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://bsipocz.github.io/"><img src="https://avatars1.githubusercontent.com/u/6788290?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brigitta Sipőcz</b></sub></a><br /><a href="#content-bsipocz" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/bcamino"><img src="https://avatars.githubusercontent.com/u/39554331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bruno Camino</b></sub></a><br /><a href="#content-bcamino" title="Content">🖋</a></td>
+<td align="center"><a href="https://bsipocz.github.io/"><img src="https://avatars1.githubusercontent.com/u/6788290?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brigitta Sipőcz</b></sub></a><br /><a href="#content-bsipocz" title="Content">🖋</a></td>
+<td align="center"><a href="https://github.com/bcamino"><img src="https://avatars.githubusercontent.com/u/39554331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Camino Bruno</b></sub></a><br /><a href="#content-bcamino" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/callummole"><img src="https://avatars1.githubusercontent.com/u/22677759?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Callum Mole</b></sub></a><br /><a href="#ideas-callummole" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="http://trotts.io"><img src="https://avatars3.githubusercontent.com/u/9531671?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cameron Trotter</b></sub></a><br /><a href="#ideas-Trotts" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/crangelsmith"><img src="https://avatars2.githubusercontent.com/u/11162074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Camila Rangel Smith</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=crangelsmith" title="Documentation">📖</a> <a href="#translation-crangelsmith" title="Translation">🌍</a> <a href="#maintenance-crangelsmith" title="Maintenance">🚧</a></td>
+<td align="center"><a href="https://github.com/crangelsmith"><img src="https://avatars2.githubusercontent.com/u/11162074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Camila Rangel Smith</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=crangelsmith" title="Documentation">📖</a> <a href="#translation-crangelsmith" title="Translation">:globe_showing_Europe-Russiica:</a> <a href="#maintenance-crangelsmith" title="Maintenance">🚧</a></td>
 <td align="center"><a href="https://github.com/c-martinez"><img src="https://avatars3.githubusercontent.com/u/7782231?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Martinez</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ac-martinez" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ac-martinez" title="Reviewed Pull Requests">👀</a> <a href="#content-c-martinez" title="Content">🖋</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/vladoxNCL"><img src="https://avatars0.githubusercontent.com/u/33488410?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Vladimiro González Zelaya</b></sub></a><br /><a href="#ideas-vladoxNCL" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="https://github.com/vladoxNCL"><img src="https://avatars0.githubusercontent.com/u/33488410?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Vladimiro González Zelaya</b></sub></a><br /><a href="#ideas-vladoxNCL" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/cassgvp"><img src="https://avatars2.githubusercontent.com/u/43407869?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cassandra Gould van Praag</b></sub></a><br /><a href="#ideas-cassgvp" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=cassgvp" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/cemulus"><img src="https://avatars3.githubusercontent.com/u/55829938?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cem Ulus</b></sub></a><br /><a href="#translation-cemulus" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/chadsgilbert"><img src="https://avatars1.githubusercontent.com/u/524598?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chad Gilbert</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Achadsgilbert" title="Bug reports">🐛</a></td>
@@ -667,7 +667,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/watson-c"><img src="https://avatars3.githubusercontent.com/u/48691807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Charlotte Watson</b></sub></a><br /><a href="#ideas-watson-c" title="Ideas, Planning, & Feedback">🤔</a></td>
 </tr>
 <tr>
-<td align="center"><a href="http://chrisholdgraf.com"><img src="https://avatars1.githubusercontent.com/u/1839645?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Holdgraf</b></sub></a><br /><a href="#question-choldgraf" title="Answering Questions">💬</a> <a href="#ideas-choldgraf" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="http://chrisholdgraf.com"><img src="https://avatars1.githubusercontent.com/u/1839645?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Holdgraf</b></sub></a><br /><a href="#question-choldgraf" title="Answering Questions">:speech _balloon:</a> <a href="#ideas-choldgraf" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/effigies"><img src="https://avatars0.githubusercontent.com/u/83442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Markiewicz</b></sub></a><br /><a href="#ideas-effigies" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://ctomlinson.net"><img src="https://avatars.githubusercontent.com/u/46465574?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Tomlinson</b></sub></a><br /><a href="#ideas-tomlincr" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/Chrisisour"><img src="https://avatars2.githubusercontent.com/u/49248075?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christina Hitrova</b></sub></a><br /><a href="#ideas-Chrisisour" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -682,7 +682,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/taunsquared"><img src="https://avatars1.githubusercontent.com/u/27739141?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Danbee Kim</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=taunsquared" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/dlintott"><img src="https://avatars2.githubusercontent.com/u/4700562?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Lintott</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Adlintott" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://orcid.org/0000-0001-9488-1870"><img src="https://avatars3.githubusercontent.com/u/465923?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Mietchen</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ADaniel-Mietchen" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://nordholmen.net"><img src="https://avatars1.githubusercontent.com/u/1325054?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Nüst</b></sub></a><br /><a href="#content-nuest" title="Content">🖋</a></td>
+<td align="center"><a href="https://nordholmen.net"><img src="https://avatars1.githubusercontent.com/u/1325054?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Nut st</b></sub></a><br /><a href="#content-nuest" title="Content">🖋</a></td>
 </tr>
 <tr>
 <td align="center"><a href="http://dannygarside.co.uk"><img src="https://avatars3.githubusercontent.com/u/3739866?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Danny Garside</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ada5nsy" title="Bug reports">🐛</a> <a href="#content-da5nsy" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ada5nsy" title="Reviewed Pull Requests">👀</a></td>
@@ -691,14 +691,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/DerienFe"><img src="https://avatars3.githubusercontent.com/u/55786232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DerienFe</b></sub></a><br /><a href="#ideas-DerienFe" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="http://www.imperial.ac.uk/quantum-photovoltaics"><img src="https://avatars1.githubusercontent.com/u/6095790?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diego Alonso Alvarez</b></sub></a><br /><a href="#ideas-dalonsoa" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Adalonsoa" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://dblana.github.io/"><img src="https://avatars0.githubusercontent.com/u/13907429?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dimitra Blana</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Adblana" title="Reviewed Pull Requests">👀</a> <a href="#content-dblana" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/dineshkumar12004"><img src="https://avatars.githubusercontent.com/u/67814205?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dinesh kumar</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Adineshkumar12004" title="Bug reports">🐛</a></td>
+<td align="center"><a href="https://github.com/dineshkumar12004"><img src="https://avatars.githubusercontent.com/u/67814205?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kumar Dinesh</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Adineshkumar12004" title="Bug reports">🐛</a></td>
 </tr>
 <tr>
 <td align="center"><a href="http://emalliaraki.com"><img src="https://avatars3.githubusercontent.com/u/36627260?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eirini Malliaraki</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=rockita" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/eirini-zormpa"><img src="https://avatars3.githubusercontent.com/u/30151074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eirini Zormpa</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aeirini-zormpa" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aeirini-zormpa" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="http://emdupre.me"><img src="https://avatars3.githubusercontent.com/u/15017191?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elizabeth DuPre</b></sub></a><br /><a href="#infra-emdupre" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-emdupre" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aemdupre" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/EKaroune"><img src="https://avatars2.githubusercontent.com/u/58147174?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Em K</b></sub></a><br /><a href="#content-EKaroune" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AEKaroune" title="Bug reports">🐛</a> <a href="#blog-EKaroune" title="Blogposts">📝</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AEKaroune" title="Reviewed Pull Requests">👀</a> <a href="#talk-EKaroune" title="Talks">📢</a></td>
-<td align="center"><a href="http://www.glerean.com"><img src="https://avatars1.githubusercontent.com/u/8993301?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Enrico Glerean</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aeglerean" title="Bug reports">🐛</a></td>
+<td align="center"><a href="http://www.glerean.com"><img src="https://avatars1.githubusercontent.com/u/8993301?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Glerean Enrico</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aeglerean" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/edaub"><img src="https://avatars0.githubusercontent.com/u/45598892?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Daub</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=edaub" title="Documentation">📖</a></td>
 <td align="center"><a href="https://erictleung.com"><img src="https://avatars2.githubusercontent.com/u/2754821?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Leung</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aerictleung" title="Bug reports">🐛</a></td>
 </tr>
@@ -717,14 +717,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/GeorgiaHCA"><img src="https://avatars1.githubusercontent.com/u/46889966?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Georgia</b></sub></a><br /><a href="#ideas-GeorgiaHCA" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/GeorgiaA"><img src="https://avatars2.githubusercontent.com/u/33513781?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Georgia Atkinson</b></sub></a><br /><a href="#ideas-GeorgiaA" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/georgiatomova"><img src="https://avatars3.githubusercontent.com/u/17258191?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Georgia Tomova</b></sub></a><br /><a href="#ideas-georgiatomova" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/GeorgianaElena"><img src="https://avatars0.githubusercontent.com/u/7579677?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Georgiana Elena</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AGeorgianaElena" title="Reviewed Pull Requests">👀</a></td>
+<td align="center"><a href="https://github.com/GeorgianaElena"><img src="https://avatars0.githubusercontent.com/u/7579677?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elena giana</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AGeorgianaElena" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="http://gertjan.dev"><img src="https://avatars2.githubusercontent.com/u/3286696?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gertjan van den Burg</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=GjjvdBurg" title="Documentation">📖</a> <a href="#ideas-GjjvdBurg" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-GjjvdBurg" title="Answering Questions">💬</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/giannidsp"><img src="https://avatars1.githubusercontent.com/u/40976911?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gianni Scolaro</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Agiannidsp" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://labrary.online"><img src="https://avatars0.githubusercontent.com/u/237254?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Graham Lee</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aiamleeg" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aiamleeg" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="http://gkiar.github.io"><img src="https://avatars3.githubusercontent.com/u/4883288?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Greg Kiar</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=gkiar" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Agkiar" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/gustavobecelli"><img src="https://avatars3.githubusercontent.com/u/39573195?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gustavo Becelli do Nacimento</b></sub></a><br /><a href="#translation-gustavobecelli" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/gustavobecelli"><img src="https://avatars3.githubusercontent.com/u/39573195?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gustavo Becelli do Nacimento</b></sub></a><br /><a href="#translation-gustavobecelli" title="Translation">:globe_showing_Europe-Russia:</a></td>
 <td align="center"><a href="https://twitter.com/HeidiBaya"><img src="https://avatars1.githubusercontent.com/u/14146757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Heidi Seibold</b></sub></a><br /><a href="#ideas-HeidiSeibold" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-HeidiSeibold" title="Content">🖋</a></td>
 <td align="center"><a href="http://www.hoang.co.uk/hieu"><img src="https://avatars1.githubusercontent.com/u/691732?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hieu Hoang</b></sub></a><br /><a href="#ideas-hieuhoang" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/Iain-S"><img src="https://avatars.githubusercontent.com/u/25081046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Iain</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AIain-S" title="Reviewed Pull Requests">👀</a></td>
@@ -742,14 +742,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="http://www.jamesmyatt.co.uk/"><img src="https://avatars1.githubusercontent.com/u/1047337?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Myatt</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jamesmyatt" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/jemrobinson"><img src="https://avatars2.githubusercontent.com/u/3502751?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Robinson</b></sub></a><br /><a href="#ideas-jemrobinson" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jemrobinson" title="Code">💻</a></td>
 <td align="center"><a href="https://linkedin.com/in/jatonline"><img src="https://avatars.githubusercontent.com/u/48878399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Thomas</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ajatonline" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/jmgate"><img src="https://avatars3.githubusercontent.com/u/20327215?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jason Gates</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jmgate" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ajmgate" title="Reviewed Pull Requests">👀</a></td>
+<td align="center"><a href="https://github.com/jmgate"><img src="https://avatars3.githubusercontent.com/u/20327215?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Puertas de Jason</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jmgate" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ajmgate" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/jmoldon"><img src="https://avatars2.githubusercontent.com/u/1053066?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Javier Moldon</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jmoldon" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/IIITM-Jay"><img src="https://avatars2.githubusercontent.com/u/65283880?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jay Dev Jha</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AIIITM-Jay" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://twitter.com/jermdemo"><img src="https://avatars3.githubusercontent.com/u/147991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeremy Leipzig</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aleipzig" title="Bug reports">🐛</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/JessicaS11"><img src="https://avatars.githubusercontent.com/u/11756442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jessica</b></sub></a><br /><a href="#content-JessicaS11" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/jessyprovencher"><img src="https://avatars2.githubusercontent.com/u/70674444?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jessy Provencher</b></sub></a><br /><a href="#translation-jessyprovencher" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/jessyprovencher"><img src="https://avatars2.githubusercontent.com/u/70674444?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Proveedor de Jessy</b></sub></a><br /><a href="#translation-jessyprovencher" title="Translation">:globe_showing_Europe-Russia:</a></td>
 <td align="center"><a href="http://erambler.co.uk/"><img src="https://avatars3.githubusercontent.com/u/457628?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jez Cope</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jezcope" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/JiaruiWang-Jill"><img src="https://avatars.githubusercontent.com/u/41178872?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jill Wang</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AJiaruiWang-Jill" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/JimMadge"><img src="https://avatars2.githubusercontent.com/u/23616154?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jim Madge</b></sub></a><br /><a href="#content-JimMadge" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=JimMadge" title="Documentation">📖</a></td>
@@ -770,9 +770,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://kkmann.github.io/"><img src="https://avatars2.githubusercontent.com/u/2482236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Kunzmann</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=kkmann" title="Documentation">📖</a> <a href="#ideas-kkmann" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Akkmann" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/KimDeRuyck"><img src="https://avatars1.githubusercontent.com/u/26715049?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim De Ruyck</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AKimDeRuyck" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/kderuyck"><img src="https://avatars3.githubusercontent.com/u/74196557?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim De Ruyck</b></sub></a><br /><a href="#content-kderuyck" title="Content">🖋</a></td>
-<td align="center"><a href="https://whitakerlab.github.io"><img src="https://avatars1.githubusercontent.com/u/3626306?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kirstie Whitaker</b></sub></a><br /><a href="#question-KirstieJane" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=KirstieJane" title="Documentation">📖</a> <a href="#design-KirstieJane" title="Design">🎨</a> <a href="#eventOrganizing-KirstieJane" title="Event Organizing">📋</a> <a href="#fundingFinding-KirstieJane" title="Funding Finding">🔍</a> <a href="#ideas-KirstieJane" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AKirstieJane" title="Reviewed Pull Requests">👀</a> <a href="#talk-KirstieJane" title="Talks">📢</a></td>
+<td align="center"><a href="https://whitakerlab.github.io"><img src="https://avatars1.githubusercontent.com/u/3626306?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kirstie Whitaker</b></sub></a><br /><a href="#question-KirstieJane" title="Answering Questions">:speech _balloon:</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=KirstieJane" title="Documentation">📖</a> <a href="#design-KirstieJane" title="Design">🎨</a> <a href="#eventOrganizing-KirstieJane" title="Event Organizing">📋</a> <a href="#fundingFinding-KirstieJane" title="Funding Finding">🔍</a> <a href="#ideas-KirstieJane" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AKirstieJane" title="Reviewed Pull Requests">👀</a> </a> <a href="#talk-KirstieJane" title="Talks">📢</a></td>
 <td align="center"><a href="https://github.com/KristijanArmeni"><img src="https://avatars3.githubusercontent.com/u/14061041?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kristijan Armeni</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AKristijanArmeni" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://krrank.live"><img src="https://avatars0.githubusercontent.com/u/44499991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krunal Rank</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AKRHero03" title="Bug reports">🐛</a></td>
+<td align="center"><a href="https://krrank.live"><img src="https://avatars0.githubusercontent.com/u/44499991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rango Krunal</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AKRHero03" title="Bug reports">🐛</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/masonlr"><img src="https://avatars2.githubusercontent.com/u/5828176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lachlan Mason</b></sub></a><br /><a href="#ideas-masonlr" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=masonlr" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=masonlr" title="Code">💻</a></td>
@@ -785,7 +785,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/Lovkush-A"><img src="https://avatars.githubusercontent.com/u/25344832?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lovkush</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ALovkush-A" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://www.robots.ox.ac.uk/~luca"><img src="https://avatars3.githubusercontent.com/u/3330489?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luca Bertinetto</b></sub></a><br /><a href="#translation-bertinetto" title="Translation">🌍</a></td>
+<td align="center"><a href="http://www.robots.ox.ac.uk/~luca"><img src="https://avatars3.githubusercontent.com/u/3330489?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luca Bertinetto</b></sub></a><br /><a href="#translation-bertinetto" title="Translation">:globe_showing_Europe-Russia:</a></td>
 <td align="center"><a href="https://github.com/perluna"><img src="https://avatars.githubusercontent.com/u/47083632?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luna</b></sub></a><br /><a href="#translation-perluna" title="Translation">🌍</a></td>
 <td align="center"><a href="http://laboratoria.la"><img src="https://avatars0.githubusercontent.com/u/15850514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lupe CaMay</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aluucamay" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/malvikasharan"><img src="https://avatars0.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=malvikasharan" title="Documentation">📖</a> <a href="#eventOrganizing-malvikasharan" title="Event Organizing">📋</a> <a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-malvikasharan" title="Project Management">📆</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Amalvikasharan" title="Reviewed Pull Requests">👀</a> <a href="#talk-malvikasharan" title="Talks">📢</a> <a href="#maintenance-malvikasharan" title="Maintenance">🚧</a> <a href="#video-malvikasharan" title="Videos">📹</a></td>
@@ -796,9 +796,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/marianaiv"><img src="https://avatars.githubusercontent.com/u/53548707?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mariana V.</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Amarianaiv" title="Bug reports">🐛</a> <a href="#content-marianaiv" title="Content">🖋</a></td>
 <td align="center"><a href="https://www.turing.ac.uk/people/researchers/mariona-coll-ardanuy"><img src="https://avatars.githubusercontent.com/u/46483603?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mariona</b></sub></a><br /><a href="#content-mcollardanuy" title="Content">🖋</a></td>
 <td align="center"><a href="https://www.imperial.ac.uk/ict/rcs"><img src="https://avatars3.githubusercontent.com/u/1724545?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark Woodbridge</b></sub></a><br /><a href="#ideas-mwoodbri" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-mwoodbri" title="Content">🖋</a></td>
-<td align="center"><a href="https://www.linkedin.com/in/mloning/"><img src="https://avatars3.githubusercontent.com/u/21020482?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Markus Löning</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Amloning" title="Reviewed Pull Requests">👀</a> <a href="#content-mloning" title="Content">🖋</a></td>
+<td align="center"><a href="https://www.linkedin.com/in/mloning/"><img src="https://avatars3.githubusercontent.com/u/21020482?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Markus Löning</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Amloning" title="Reviewed Pull Requests">👀</a> <a href="#content-mloning" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/Marta-MM"><img src="https://avatars2.githubusercontent.com/u/67780317?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marta-MM</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AMarta-MM" title="Bug reports">🐛</a> <a href="#content-Marta-MM" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/martintoreilly"><img src="https://avatars3.githubusercontent.com/u/21147592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Martin O'Reilly</b></sub></a><br /><a href="#question-martintoreilly" title="Answering Questions">💬</a> <a href="#tool-martintoreilly" title="Tools">🔧</a> <a href="#ideas-martintoreilly" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="https://github.com/martintoreilly"><img src="https://avatars3.githubusercontent.com/u/21147592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Martin O'Reilly</b></sub></a><br /><a href="#question-martintoreilly" title="Answering Questions">:speech _balloon:</a> <a href="#tool-martintoreilly" title="Tools">🔧</a> <a href="#ideas-martintoreilly" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="http://martinagvilas.github.io"><img src="https://avatars2.githubusercontent.com/u/37339384?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Martina G. Vilas</b></sub></a><br /><a href="#infra-martinagvilas" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=martinagvilas" title="Tests">⚠️</a> <a href="#talk-martinagvilas" title="Talks">📢</a> <a href="#video-martinagvilas" title="Videos">📹</a> <a href="#tutorial-martinagvilas" title="Tutorials">✅</a></td>
 </tr>
 <tr>
@@ -817,11 +817,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/nathanbegbie"><img src="https://avatars0.githubusercontent.com/u/7100966?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nathan Begbie</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Anathanbegbie" title="Bug reports">🐛</a> <a href="#ideas-nathanbegbie" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/nehamoopen"><img src="https://avatars3.githubusercontent.com/u/37183829?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neha Moopen</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Anehamoopen" title="Reviewed Pull Requests">👀</a> <a href="#content-nehamoopen" title="Content">🖋</a></td>
 <td align="center"><a href="http://www.software.ac.uk"><img src="https://avatars1.githubusercontent.com/u/1507151?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neil Chue Hong</b></sub></a><br /><a href="#ideas-npch" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/nbarlowATI"><img src="https://avatars3.githubusercontent.com/u/33832774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nick Barlow</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AnbarlowATI" title="Bug reports">🐛</a> <a href="#content-nbarlowATI" title="Content">🖋</a></td>
+<td align="center"><a href="https://github.com/nbarlowATI"><img src="https://avatars3.githubusercontent.com/u/33832774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Barril de nick</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AnbarlowATI" title="Bug reports">🐛</a> <a href="#content-nbarlowATI" title="Content">🖋</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/NZR"><img src="https://avatars3.githubusercontent.com/u/2925086?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nico</b></sub></a><br /><a href="#ideas-NZR" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://orcid.org/0000-0002-6595-0969"><img src="https://avatars0.githubusercontent.com/u/43151303?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolás Alessandroni</b></sub></a><br /><a href="#ideas-nalessandroni" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="https://orcid.org/0000-0002-6595-0969"><img src="https://avatars0.githubusercontent.com/u/43151303?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolás Alessandroni</b></sub></a><br /><a href="#ideas-nalessandroni" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/ninadicara"><img src="https://avatars.githubusercontent.com/u/44364127?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nina</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aninadicara" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/nlharris"><img src="https://avatars3.githubusercontent.com/u/348704?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nomi Harris</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Anlharris" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/NotActuallyACat"><img src="https://avatars.githubusercontent.com/u/69468081?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NotActuallyACat</b></sub></a><br /><a href="#ideas-NotActuallyACat" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -829,11 +829,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/OliJimbo"><img src="https://avatars2.githubusercontent.com/u/16899600?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Clark</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=OliJimbo" title="Documentation">📖</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/oforrest"><img src="https://avatars2.githubusercontent.com/u/49275282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Forrest</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=oforrest" title="Documentation">📖</a> <a href="#ideas-oforrest" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-oforrest" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aoforrest" title="Reviewed Pull Requests">👀</a></td>
+<td align="center"><a href="https://github.com/oforrest"><img src="https://avatars2.githubusercontent.com/u/49275282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bosque olivo</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=oforrest" title="Documentation">📖</a> <a href="#ideas-oforrest" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-oforrest" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aoforrest" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/defaultobject"><img src="https://avatars2.githubusercontent.com/u/1484941?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Hamelijnck</b></sub></a><br /><a href="#ideas-defaultobject" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/ots22"><img src="https://avatars1.githubusercontent.com/u/5434836?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Strickson</b></sub></a><br /><a href="#question-ots22" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=ots22" title="Documentation">📖</a> <a href="#tutorial-ots22" title="Tutorials">✅</a></td>
 <td align="center"><a href="https://github.com/OscartGiles"><img src="https://avatars0.githubusercontent.com/u/12784013?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oscar Giles</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=OscartGiles" title="Documentation">📖</a></td>
-<td align="center"><a href="https://pabrod.github.io/"><img src="https://avatars0.githubusercontent.com/u/7677614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pablo Rodríguez-Sánchez</b></sub></a><br /><a href="#content-PabRod" title="Content">🖋</a></td>
+<td align="center"><a href="https://pabrod.github.io/"><img src="https://avatars0.githubusercontent.com/u/7677614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pablo Rodríguez-Sánchez</b></sub></a><br /><a href="#content-PabRod" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/pherterich"><img src="https://avatars0.githubusercontent.com/u/8457675?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patricia Herterich</b></sub></a><br /><a href="#question-pherterich" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=pherterich" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Apherterich" title="Reviewed Pull Requests">👀</a> <a href="#ideas-pherterich" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-pherterich" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/paulbaniqued"><img src="https://avatars2.githubusercontent.com/u/47854500?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paul Dominick Baniqued</b></sub></a><br /><a href="#ideas-paulbaniqued" title="Ideas, Planning, & Feedback">🤔</a></td>
 </tr>
@@ -859,13 +859,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://reshamas.github.io"><img src="https://avatars0.githubusercontent.com/u/2507232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reshama Shaikh</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Areshamas" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/rjjgilham"><img src="https://avatars0.githubusercontent.com/u/18323072?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Richard Gilham</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=rjjgilham" title="Documentation">📖</a> <a href="#ideas-rjjgilham" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/risaueno"><img src="https://avatars0.githubusercontent.com/u/22602921?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Risa Ueno</b></sub></a><br /><a href="#ideas-risaueno" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/RobPrecious"><img src="https://avatars.githubusercontent.com/u/9133187?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robert Precious</b></sub></a><br /><a href="#a11y-RobPrecious" title="Accessibility">️️️️♿️</a></td>
+<td align="center"><a href="https://github.com/RobPrecious"><img src="https://avatars.githubusercontent.com/u/9133187?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robert Precious</b></sub></a><br /><a href="#a11y-RobPrecious" title="Accessibility">♿</a></td>
 <td align="center"><a href="https://github.com/longr"><img src="https://avatars0.githubusercontent.com/u/3597743?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robin Long</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=longr" title="Documentation">📖</a></td>
 <td align="center"><a href="http://rohitmidha23.github.io"><img src="https://avatars1.githubusercontent.com/u/38888530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohit Midha</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=RohitMidha23" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/romeroclaudino"><img src="https://avatars1.githubusercontent.com/u/6520331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Romero Silva</b></sub></a><br /><a href="#translation-romeroclaudino" title="Translation">🌍</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/rosesisk"><img src="https://avatars2.githubusercontent.com/u/52324551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rose Sisk</b></sub></a><br /><a href="#ideas-rosesisk" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="https://github.com/rosesisk"><img src="https://avatars2.githubusercontent.com/u/52324551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Riesgo rosado</b></sub></a><br /><a href="#ideas-rosesisk" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/rosiehigman"><img src="https://avatars2.githubusercontent.com/u/15738325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rosie Higman</b></sub></a><br /><a href="#question-rosiehigman" title="Answering Questions">💬</a> <a href="#eventOrganizing-rosiehigman" title="Event Organizing">📋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Arosiehigman" title="Reviewed Pull Requests">👀</a> <a href="#ideas-rosiehigman" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/RostiReadioff"><img src="https://avatars1.githubusercontent.com/u/45424690?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rosti Readioff</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=RostiReadioff" title="Documentation">📖</a></td>
 <td align="center"><a href="https://github.com/SYU-NING"><img src="https://avatars.githubusercontent.com/u/71600183?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SYU-NING</b></sub></a><br /><a href="#ideas-SYU-NING" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -874,17 +874,17 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://sksahu.net"><img src="https://avatars1.githubusercontent.com/u/23085664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sangram K Sahu</b></sub></a><br /><a href="#ideas-sk-sahu" title="Ideas, Planning, & Feedback">🤔</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/sgibson91"><img src="https://avatars2.githubusercontent.com/u/44771837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarah Gibson</b></sub></a><br /><a href="#question-sgibson91" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=sgibson91" title="Code">💻</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=sgibson91" title="Documentation">📖</a> <a href="#tool-sgibson91" title="Tools">🔧</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Asgibson91" title="Reviewed Pull Requests">👀</a> <a href="#talk-sgibson91" title="Talks">📢</a> <a href="#ideas-sgibson91" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tutorial-sgibson91" title="Tutorials">✅</a> <a href="#video-sgibson91" title="Videos">📹</a></td>
+<td align="center"><a href="https://github.com/sgibson91"><img src="https://avatars2.githubusercontent.com/u/44771837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarah Gibson</b></sub></a><br /><a href="#question-sgibson91" title="Answering Questions">:speech _balloon:</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=sgibson91" title="Code">💻</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=sgibson91" title="Documentation">📖</a> <a href="#tool-sgibson91" title="Tools">🔧</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Asgibson91" title="Reviewed Pull Requests">👀</a> <a href="#talk-sgibson91" title="Talks">📢</a> <a href="#ideas-sgibson91" title="Ideas, Planning, & Feedback">🤔</a> </a> <a href="#tutorial-sgibson91" title="Tutorials">✅</a> </a> <a href="#video-sgibson91" title="Videos">📹</a></td>
 <td align="center"><a href="https://github.com/Biostew"><img src="https://avatars3.githubusercontent.com/u/17767752?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarah Stewart</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=BioStew" title="Documentation">📖</a> <a href="#ideas-BioStew" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://nl.linkedin.com/in/fakhereh-sarah-alidoost-11a24a89"><img src="https://avatars3.githubusercontent.com/u/55081872?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SarahAlidoost</b></sub></a><br /><a href="#content-SarahAlidoost" title="Content">🖋</a></td>
 <td align="center"><a href="https://www.turing.ac.uk/people/doctoral-students/sedar-olmez"><img src="https://avatars3.githubusercontent.com/u/10035934?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sedar Olmez</b></sub></a><br /><a href="#ideas-SedarOlmez94" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/Sergih28"><img src="https://avatars.githubusercontent.com/u/16263046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sergi</b></sub></a><br /><a href="#translation-Sergih28" title="Translation">🌍</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ASergih28" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://growupboron.github.io"><img src="https://avatars3.githubusercontent.com/u/41593068?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shankho Boron Ghosh</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Agrowupboron" title="Bug reports">🐛</a></td>
+<td align="center"><a href="http://growupboron.github.io"><img src="https://avatars3.githubusercontent.com/u/41593068?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ghosh Shankho Boron</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Agrowupboron" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/sianbladon"><img src="https://avatars0.githubusercontent.com/u/60200458?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sian Bladon</b></sub></a><br /><a href="#ideas-sianbladon" title="Ideas, Planning, & Feedback">🤔</a></td>
 </tr>
 <tr>
 <td align="center"><a href="http://sibasmarak.blogspot.com "><img src="https://avatars0.githubusercontent.com/u/49467053?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siba Smarak Panigrahi</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Asibasmarak" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/BeastyBlacksmith"><img src="https://avatars.githubusercontent.com/u/18145188?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simon Christ</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ABeastyBlacksmith" title="Bug reports">🐛</a></td>
+<td align="center"><a href="https://github.com/BeastyBlacksmith"><img src="https://avatars.githubusercontent.com/u/18145188?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cristo Simón</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ABeastyBlacksmith" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://www.solon-karapanagiotis.com/"><img src="https://avatars2.githubusercontent.com/u/7536922?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Solon</b></sub></a><br /><a href="#ideas-solonkarapa" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/BrainonSilicon"><img src="https://avatars1.githubusercontent.com/u/42813259?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sophia Batchelor</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ABrainonSilicon" title="Reviewed Pull Requests">👀</a> <a href="#ideas-BrainonSilicon" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-BrainonSilicon" title="Maintenance">🚧</a> <a href="#talk-BrainonSilicon" title="Talks">📢</a></td>
 <td align="center"><a href="https://github.com/sparkler0323"><img src="https://avatars2.githubusercontent.com/u/18514015?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sparkler</b></sub></a><br /><a href="#translation-sparkler0323" title="Translation">🌍</a></td>
@@ -901,10 +901,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="http://www.tarekallamjr.com"><img src="https://avatars1.githubusercontent.com/u/8843728?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tarek Allam</b></sub></a><br /><a href="#infra-tallamjr" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=tallamjr" title="Documentation">📖</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/davehedgehog"><img src="https://avatars0.githubusercontent.com/u/57715289?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tess Gough</b></sub></a><br /><a href="#ideas-davehedgehog" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="https://github.com/davehedgehog"><img src="https://avatars0.githubusercontent.com/u/57715289?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gasma de ajedrez</b></sub></a><br /><a href="#ideas-davehedgehog" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="http://www.linkedin.com/pub/thomas-sandmann/21/61b/410/"><img src="https://avatars0.githubusercontent.com/u/10490984?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thomas Sandmann</b></sub></a><br /><a href="#translation-tomsing1" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/ThyavdBerg"><img src="https://avatars.githubusercontent.com/u/77287134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thya van den Berg</b></sub></a><br /><a href="#eventOrganizing-ThyavdBerg" title="Event Organizing">📋</a></td>
-<td align="center"><a href="https://github.com/betatim"><img src="https://avatars1.githubusercontent.com/u/1448859?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Head</b></sub></a><br /><a href="#question-betatim" title="Answering Questions">💬</a> <a href="#ideas-betatim" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="https://github.com/betatim"><img src="https://avatars1.githubusercontent.com/u/1448859?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Head</b></sub></a><br /><a href="#question-betatim" title="Answering Questions">:speech _balloon:</a> <a href="#ideas-betatim" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/timyers"><img src="https://avatars.githubusercontent.com/u/48717893?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Myers</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Atimyers" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/teapowell"><img src="https://avatars1.githubusercontent.com/u/35264355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Powell</b></sub></a><br /><a href="#ideas-teapowell" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-teapowell" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/tonyyzy"><img src="https://avatars3.githubusercontent.com/u/38984697?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tony Yang</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=tonyyzy" title="Documentation">📖</a> <a href="#translation-tonyyzy" title="Translation">🌍</a> <a href="#infra-tonyyzy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
@@ -913,16 +913,16 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/CapTen101"><img src="https://avatars0.githubusercontent.com/u/45699327?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tushar Rohilla</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ACapTen101" title="Bug reports">🐛</a> <a href="#content-CapTen101" title="Content">🖋</a></td>
 <td align="center"><a href="http://www.veronikach.com"><img src="https://avatars2.githubusercontent.com/u/10584818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Veronika Cheplygina</b></sub></a><br /><a href="#ideas-vcheplygina" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-vcheplygina" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/blue-moon22"><img src="https://avatars1.githubusercontent.com/u/15203325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victoria</b></sub></a><br /><a href="#ideas-blue-moon22" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/vdda"><img src="https://avatars1.githubusercontent.com/u/642451?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victoria Dominguez del Angel</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Avdda" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://warrickball.github.io"><img src="https://avatars.githubusercontent.com/u/20858744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Warrick Ball</b></sub></a><br /><a href="#ideas-warrickball" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-warrickball" title="Content">🖋</a></td>
+<td align="center"><a href="https://github.com/vdda"><img src="https://avatars1.githubusercontent.com/u/642451?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victoria Dominguez del Ángel</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Avdda" title="Bug reports">🐛</a></td>
+<td align="center"><a href="http://warrickball.github.io"><img src="https://avatars.githubusercontent.com/u/20858744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bola de Warrick</b></sub></a><br /><a href="#ideas-warrickball" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-warrickball" title="Content">🖋</a></td>
 <td align="center"><a href="https://wiebketoussaint.com"><img src="https://avatars3.githubusercontent.com/u/11086407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wiebke Toussaint</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Awiebket" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/wjchulme"><img src="https://avatars1.githubusercontent.com/u/25637345?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Will Hulme</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=wjchulme" title="Documentation">📖</a></td>
+<td align="center"><a href="https://github.com/wjchulme"><img src="https://avatars1.githubusercontent.com/u/25637345?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hulme</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=wjchulme" title="Documentation">📖</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/wna-se"><img src="https://avatars3.githubusercontent.com/u/1221165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wolmar Nyberg Åkerström</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Awna-se" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/xc308"><img src="https://avatars1.githubusercontent.com/u/55785985?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Xiaoqing Chen</b></sub></a><br /><a href="#ideas-xc308" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://yabellini.netlify.com/"><img src="https://avatars.githubusercontent.com/u/2473676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yanina Bellini Saibene</b></sub></a><br /><a href="#content-yabellini" title="Content">🖋</a> <a href="#translation-yabellini" title="Translation">🌍</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ayabellini" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://www.twinreality.blog"><img src="https://avatars0.githubusercontent.com/u/44135465?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yash Varshney</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AYash-Varshney" title="Bug reports">🐛</a></td>
+<td align="center"><a href="http://www.twinreality.blog"><img src="https://avatars0.githubusercontent.com/u/44135465?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Varshney Yash</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AYash-Varshney" title="Bug reports">🐛</a></td>
 <td align="center"><a href="https://github.com/minnieho1115"><img src="https://avatars1.githubusercontent.com/u/35134464?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yini</b></sub></a><br /><a href="#translation-minnieho1115" title="Translation">🌍</a></td>
 <td align="center"><a href="http://yo-yehudi.com"><img src="https://avatars0.githubusercontent.com/u/9271438?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yo Yehudi</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=yochannah" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ayochannah" title="Reviewed Pull Requests">👀</a></td>
 <td align="center"><a href="https://github.com/ufangYang"><img src="https://avatars3.githubusercontent.com/u/33165978?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yu-Fang Yang</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AufangYang" title="Bug reports">🐛</a></td>
@@ -952,7 +952,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center"><a href="https://github.com/irenekp"><img src="https://avatars2.githubusercontent.com/u/53008913?v=4?s=100" width="100px;" alt=""/><br /><sub><b>irenekp</b></sub></a><br /><a href="#content-irenekp" title="Content">🖋</a></td>
 <td align="center"><a href="https://github.com/kgrieman"><img src="https://avatars0.githubusercontent.com/u/55785990?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kgrieman</b></sub></a><br /><a href="#ideas-kgrieman" title="Ideas, Planning, & Feedback">🤔</a></td>
 <td align="center"><a href="https://github.com/l-gorman"><img src="https://avatars2.githubusercontent.com/u/55786252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>l-gorman</b></sub></a><br /><a href="#ideas-l-gorman" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/leavanh"><img src="https://avatars2.githubusercontent.com/u/50297755?v=4?s=100" width="100px;" alt=""/><br /><sub><b>leavanh</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aleavanh" title="Bug reports">🐛</a></td>
+<td align="center"><a href="https://github.com/leavanh"><img src="https://avatars2.githubusercontent.com/u/50297755?v=4?s=100" width="100px;" alt=""/><br /><sub><b>dejar</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aleavanh" title="Bug reports">🐛</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/lottycoupat"><img src="https://avatars.githubusercontent.com/u/82104604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lottycoupat</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Alottycoupat" title="Bug reports">🐛</a> <a href="#content-lottycoupat" title="Content">🖋</a></td>
@@ -989,85 +989,85 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! \n(contributors-record-collaborators)=
 # Collaborating Organisations and Projects
 
-*The Turing Way community receives in-kind contributions from members supported by their employers, projects or organisations for their participation. Such contributions are applicable when one or multiple members from a project or organisation collaborate to build and maintain resources in The Turing Way. These contributions also include projects that build upon The Turing Way resources or collaborate with The Turing Way team members in various capacities. We acknowledge each of these contributing members individually and list their profiles under “Collaborating organisations and projects”.*
+*La comunidad Turing Way recibe contribuciones en especie de miembros apoyados por sus empleadores, proyectos u organizaciones para su participación. Tales contribuciones son aplicables cuando uno o varios miembros de un proyecto u organización colaboran para construir y mantener recursos en The Turing Way. These contributions also include projects that build upon The Turing Way resources or collaborate with The Turing Way team members in various capacities. Reconocemos individualmente a cada uno de estos miembros que contribuyen y listamos sus perfiles en “Organizaciones y proyectos colaboradores”.*
 
-## [Delft University of Technology - Faculty of Applied Sciences](https://www.tudelft.nl/en/faculty-of-applied-sciences)
+## [Universidad de Tecnología de Delft - Facultad de Ciencias Aplicadas](https://www.tudelft.nl/en/faculty-of-applied-sciences)
 
-The Faculty of Applied Sciences is the largest of Delft University of Technology and focuses on finding innovative solutions to some of the problems faced by society. Development of the fundamental knowledge needed to underpin technical developments that can be widely used throughout society. In ensuring that this knowledge can be shared efectively with the wider society, the Faculty values the sharing of data and code and has a [Research Data Management policy](https://www.tudelft.nl/en/library/research-data-management/r/policies/tu-delft-faculty-policies/) in place since 2020. In this effort, the contributions from the Faculty of Applied Sciences have mainly focused on the Reproducible Research Chapter of _The Turing Way_.
+La Facultad de Ciencias Aplicadas es la mayor de la Universidad Tecnológica de Delft y se centra en encontrar soluciones innovadoras a algunos de los problemas a los que se enfrenta la sociedad. Desarrollo de los conocimientos fundamentales necesarios para sustentar desarrollos técnicos que puedan utilizarse ampliamente en toda la sociedad. In ensuring that this knowledge can be shared efectively with the wider society, the Faculty values the sharing of data and code and has a [Research Data Management policy](https://www.tudelft.nl/en/library/research-data-management/r/policies/tu-delft-faculty-policies/) in place since 2020. In this effort, the contributions from the Faculty of Applied Sciences have mainly focused on the Reproducible Research Chapter of _The Turing Way_.
 
-### Esther Plomp
+### Plompa de Esther
 
 * Roles:
   * Book Dash February 2020 Attendee
   * Book Dash Planning Committee 2021
-  * Semi regular co-working call crasher
+  * Crasher semi regular de llamadas co-working
 * GitHub id: [EstherPlomp](https://github.com/estherplomp)
 * ORCID: [0000-0003-3625-1357](https://orcid.org/0000-0003-3625-1357)
 * Twitter: [@PhDToothFAIRy](https://twitter.com/PhDToothFAIRy/)
-* Short bio:
-> I'm a Data Steward at the Delft University of Technology, Faculty of Applied Sciences, in the Netherlands, where I support researchers with their data management and open science practices. For my PhD research, I analysed human teeth for their isotopic/chemical composition in order to say something about human mobility patterns (fields of forensics, archaeology, osteology). Next to the Turing Way I'm also involved with other teams, such as the [Open Research Calendar](https://openresearchcalendar.org/) ([follow the calendar on Twitter!](https://twitter.com/OpenResearchCal)), [IsoArcH](https://isoarch.eu/) and I was an [OLS3](https://openlifesci.org/ols-3/) mentor! I'm also interested in anything related to physical samples in research, and I'm a co-chair of the [Research Data Alliance Physical Samples Interest Group](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig).
+* Breve biografía:
+> Soy un Data Steward en la Universidad de Tecnología de Delft, Faculty of Applied Sciences, en los Países Bajos, donde apoyo a los investigadores con su gestión de datos y prácticas científicas abiertas. For my PhD research, I analysed human teeth for their isotopic/chemical composition in order to say something about human mobility patterns (fields of forensics, archaeology, osteology). Next to the Turing Way I'm also involved with other teams, such as the [Open Research Calendar](https://openresearchcalendar.org/) ([follow the calendar on Twitter!](https://twitter.com/OpenResearchCal)), [IsoArcH](https://isoarch.eu/) and I was an [OLS3](https://openlifesci.org/ols-3/) mentor! I'm also interested in anything related to physical samples in research, and I'm a co-chair of the [Research Data Alliance Physical Samples Interest Group](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig).
 
-* Personal highlights:
-> Thanks to the Turing Way I really learned how to work collaboratively using GitHub. The book dash in February 2020 was a great kick start to actually practise and directly apply these skills, which now allows me to contribute more confidently to other projects as well! I primarily contributed to the Reproducible Research Chapter, to the Research Data Management section. I reviewed existing content and I'm working on adding a section on Data Management Plans and how to handle personal data. I also made a [The Turing Way poster](https://doi.org/10.5281/zenodo.4263403) that I presented during a conference. I hope to pay it forward and facilitate others in learning how to work with GitHub through The Turing Way or The Carpentries workshops. I'm very grateful to be part of this great and inclusive community!
+* Resaltados personales:
+> Thanks to the Turing Way I really learned how to work collaboratively using GitHub. El guión del libro en febrero de 2020 fue un gran comienzo para practicar y aplicar directamente estas habilidades, que ahora me permite contribuir con más confianza a otros proyectos también! I primarily contributed to the Reproducible Research Chapter, to the Research Data Management section. I reviewed existing content and I'm working on adding a section on Data Management Plans and how to handle personal data. También hice un cartel de [The Turing Way](https://doi.org/10.5281/zenodo.4263403) que presenté durante una conferencia. Espero pagarlo adelante y facilitar a otros en el aprendizaje de cómo trabajar con GitHub a través de los talleres The Turing Way o The Carpentries . Estoy muy agradecido de ser parte de esta gran comunidad inclusiva!
 
-* More information:
-> I think scientific research should be accessible to anyone that would like to learn and contribute. I'm hoping to bring together specialists from my research field to establish guidelines for isotopic data from human remains and guidelines for how to handle and document physical samples. I'm a co-chair of the Research Data Alliance group [Physical Samples and Collections in the Research Data Ecosystem IG](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig). Please do get in touch if you work with physical samples and would like to get involved! I'm part of the Open Research Calendar Team. This is a calendar that you can use to stay up to date with open research events, or add your own events to in order to increase visibility. Visit us at the [Open Research Calendar Website](https://openresearchcalendar.github.io/) or follow the calendar on [Twitter](https://twitter.com/OpenResearchCal)!
+* Más información:
+> Creo que la investigación científica debe ser accesible a cualquier persona que quiera aprender y contribuir. Espero reunir a especialistas de mi campo de investigación para establecer pautas para los datos isotópicos de los restos humanos y directrices sobre cómo manejar y documentar muestras físicas. Soy copresidente del grupo Research Data Alliance (Alianza de Datos de Investigación) [Muestras y Colecciones físicas en el IG del Ecosistema de Datos de Investigación](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig). Por favor, ponte en contacto con nosotros si trabajas con muestras físicas y te gustaría quedarte satisfecho! I'm part of the Open Research Calendar Team. Este es un calendario que puedes usar para estar al día con eventos de investigación abiertos o agrega tus propios eventos para aumentar la visibilidad. ¡Visítenos en el sitio web [Open Research Calendar](https://openresearchcalendar.github.io/) o siga el calendario en [Twitter](https://twitter.com/OpenResearchCal)!
 
-* Quote:
-> The 2021 May Book Dash was an exciting opportunity for me to look behind the organisation scenes and to be a part of an amazing team. The week itself was absolutely amazing, especially the discussions and the 'show and tell' session!
+* Cotización:
+> The 2021 May Book Dash was a exciting opportunity for me to look behind the organisation scenes and to be a part of an amazing team. La propia semana ha sido absolutamente sorprendente, especialmente los debates y la sesión "show and tell" .
 
 ## [Netherlands eScience Center](https://www.esciencecenter.nl/)
 
-The Netherlands eScience Center is the Dutch national hub for the development and application of domain overarching software and methods for the scientific community. Their main goal is to enable scientists with varying computing experience to fully utilize the potential of the available e-infrastructure and allow them to achieve otherwise unreachable scientific breakthroughs. The Netherlands eScience Center is primarily funded by the national research council (NWO) and the national e-infrastructure organization (SURF) of the Netherlands.
+El Centro Holandés de Ciencia Electrónica es el centro nacional holandés para el desarrollo y la aplicación del dominio general de software y métodos para la comunidad científica. Their main goal is to enable scientists with varying computing experience to fully utilize the potential of the available e-infrastructure and allow them to achieve otherwise unreachable scientific breakthroughs. El Centro Holandés de Ciencia Electrónica está financiado principalmente por el consejo nacional de investigación (NWR) y la organización nacional de e-infraestructura (SURF) de las tierras de la región.
 
-The Netherlands eScience center maintains [its own guide](https://guide.esciencecenter.nl/) for reproducible software development. The focus of the eScience center guide has a big overlap with _The Turing Way_ and therefore it makes sense to avoid duplicating efforts. The eScience center contributes to _The Turing Way_ in the areas which are relevant for the eScience guide. The eScience guide points to _The Turing Way_ in when information would otherwise be duplicated.
+El Centro Holandés eScience mantiene [su propia guía](https://guide.esciencecenter.nl/) para el desarrollo de software reproducible. The focus of the eScience center guide has a big overlap with _The Turing Way_ and therefore it makes sense to avoid duplicating efforts. The eScience center contributes to _The Turing Way_ in the areas which are relevant for the eScience guide. The eScience guide points to _The Turing Way_ in when information would otherwise be duplicated.
 
-Details of each members with their contributions have been listed alphabetically.
+Los detalles de cada miembro con sus contribuciones han sido listados alfabéticamente.
 
 ### Carlos Martinez Oritz
 
 * Role: **Community manager**, Book Dash November 2020 attendee/helper
 * GitHub id: [c-martinez](http://github.com/c-martinez)
 * ORCID: [0000-0001-5565-7577](https://orcid.org/0000-0001-5565-7577)
-* Short bio:
-> Carlos obtained his PhD in Computer Science at the University of Exeter. Afterwards he worked on various research projects at the University of Exeter and Plymouth University. At the eScience Center, he has worked as an engineer in diverse projects in digital humanities and life sciences, developing expertise in natural language processing, linked open data and software sustainability. He is also a certified Software Carpentry instructor and is frequently involved in organising trainings.
+* Breve biografía:
+> Carlos obtuvo su doctorado en Informática en la Universidad de Exeter. Posteriormente trabajó en varios proyectos de investigación de la Universidad de Exeter y la Universidad de Plymouth. At the eScience Center, he has worked as an engineer in diverse projects in digital humanities and life sciences, developing expertise in natural language processing, linked open data and software sustainability. He is also a certified Software Carpentry instructor and is frequently involved in organising trainings.
 
-* Personal highlights:
+* Resaltados personales:
 > We always advocate for software reuse and collaborative development of software. I love that we can do the same for software development guidelines: reuse content from the eScience guide and collaboratively develop with _The Turing Way_ community!
 
 * More information:
-> I am a big advocate of improving software quality. I am really glad that the eScience center is collaborating with _The Turing Way_ in providing guidelines and helping build better research software.
+> Soy un gran defensor de la mejora de la calidad del software. I am really glad that the eScience center is collaborating with _The Turing Way_ in providing guidelines and helping build better research software.
 
 ### Mateusz Kuzak
 
-* Role: **Community manager**, Book Dash November 2020 attendee/helper
+* Rol: **Community manager**, Book Dash Noviembre 2020 attendee/helper
 * GitHub id: [mkuzak](http://github.com/mkuzak)
 * ORCID: [0000-0003-0087-6021](https://orcid.org/0000-0003-0087-6021)
 * Short bio:
-> Mateusz obtained his master degree in Biotechnology with specialization Biophysics, at the Jagiellonian University, Krakow, Poland. In September 2019 Mateusz joined the Netherlands eScience Center in the role of Community Officer with the focus on communities and training around Research Software Engineering, software best practices and sustainability, and the role of software in open science and reproducible research. Since 2015, Mateusz has been involved in the Carpentries community, first as an instructor, later contributor, mentor, Executive Council member and instructor trainer. He is also leading the Dutch chapter of the Carpentries and is on the core team of nl-RSE community.
+> Mateusz obtuvo su maestría en Biotecnología con especialización Biofísica, en la Universidad Jagelónica, Krakow, Polonia. In September 2019 Mateusz joined the Netherlands eScience Center in the role of Community Officer with the focus on communities and training around Research Software Engineering, software best practices and sustainability, and the role of software in open science and reproducible research. Since 2015, Mateusz has been involved in the Carpentries community, first as an instructor, later contributor, mentor, Executive Council member and instructor trainer. También está liderando el capítulo holandés de los Carpentries y está en el equipo central de la comunidad nl-RSE.
 
-* Personal highlights:
+* Resaltados personales:
 > I have personally contributed to _The Turing Way_ by drafting chapters in the guide for Reproducible Research, reviewed other contributor's Pull Requests and mentored contributions from Netherlands eScience Center.
 
 ## [FAIR Cookbook](https://fairplus.github.io/the-fair-cookbook/content/home.html)
 
-FAIR Cookbook is an online resource that helps researchers and data managers professionals make their data Findable, Accessible, Interoperable and Reusable (FAIR). FAIRPlus Cookbook builds on _The Turing Way_ project and community models, and provides chapters as "recipes" according to the FAIR elements, audience type, reading time, and level of difficulty.
+FAIR Cookbook es un recurso en línea que ayuda a investigadores y gestores de datos a hacer que sus datos sean accesibles, interoperables y reutilizables (FAIR). FAIRPlus Cookbook se basa en _The Turing Way_ proyecto y modelos comunitarios, y proporciona capítulos como "recetas" de acuerdo con los elementos FAIR, tipo de audiencia, tiempo de lectura y nivel de dificultad.
 
-_The Turing Way_ team members and [project's editorial board members](https://fairplus.github.io/the-fair-cookbook/content/recipes/boilerplate/people.html), Susanna-Assunta Sansone and Philippe Rocca-Serra, collaborate to ensure an interoperability between the two resources and exchange experiences as open source project developers. FAIR Cookbook [features relevant chapters from _The Turing Way_](https://fairplus.github.io/the-fair-cookbook/search.html?q=turing+way). Similarly, _The Turing Way_ features the project and provides an impact story titled [From FAIR Co-Author to FAIR Doer](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-stories.html) by Susanna-Assunta Sansone (a co-lead of the FAIR Cookbook project). You can find more details and background in the chapter [Leveraging the Turing Way Book](https://fairplus.github.io/the-fair-cookbook/content/recipes/introduction/the-turing-way.html?highlight=turing).
+_The Turing Way_ team members and [project's editorial board members](https://fairplus.github.io/the-fair-cookbook/content/recipes/boilerplate/people.html), Susanna-Assunta Sansone and Philippe Rocca-Serra, collaborate to ensure an interoperability between the two resources and exchange experiences as open source project developers. FAIR Cookbook [contiene capítulos relevantes de _The Turing Way_](https://fairplus.github.io/the-fair-cookbook/search.html?q=turing+way). Del mismo modo, _La Vía Turística_ presenta el proyecto y proporciona una historia de impacto titulada [Desde el coautor FAIR a FAIR Doer](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-stories.html) de Susanna-Assunta Sansone (un co-líder del proyecto FAIR Cookbook ). Puedes encontrar más detalles y antecedentes en el capítulo [Aprovechando el Libro de Vía Turística](https://fairplus.github.io/the-fair-cookbook/content/recipes/introduction/the-turing-way.html?highlight=turing).
 
 ### Susanna-Assunta Sansone
 
-* Role: Book Dash May 2019 attendee
+* Rol: Libro Dash Mayo 2019 asistente
 * GitHub id: [susannasansone](http://github.com/susannasansone)
 * ORCID: [0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
 * Short bio:
-> Susanna-Assunta Sansone is an Associate Director and Principal Investigator at the Oxford e-Research Centre, and an Associate Professor in the Department of Engineering Science of the University of Oxford. She is also a Consultant for Springer Nature, and Founding Honorary Academic Editor of the Scientific Data journal.
+> Susanna-Assunta Sansone is an Associate Director and Principal Investigator at the Oxford e-Research Centre, and an Associate Professor in the Department of Engineering Science of the University of Oxford. También es Consultante de Springer Nature y Editora Honoraria del Diario de Datos Científicos.
 
 * Personal highlights:
 > TBA
 
-* More information:
-> Susanna-Assunta Sansone's motto is "Better data for better science". With her group of brilliant research software & knowledge engineers, she researches and develops methods and tools to improve data reuse; they work for data transparency, research integrity and the evolution of scholarly publishing. She also conducts research-on-research, to improve how research is practiced and shared. Specifically, she strives to make digital research objects, including data, Findable, Accessible, Interoperable and Reusable, FAIR, for humans and for machines.
+* Más información:
+> La moto de Susanna-Assunta Sansone es "Mejores datos para una mejor ciencia". Con su grupo de brillantes ingenieros de investigación & de conocimiento, investiga y desarrolla métodos y herramientas para mejorar la reutilización de datos; trabajan para la transparencia de los datos, la integridad de la investigación y la evolución de la publicación científica. También lleva a cabo investigaciones sobre investigación, para mejorar la forma en que se practica y comparte la investigación. Specifically, she strives to make digital research objects, including data, Findable, Accessible, Interoperable and Reusable, FAIR, for humans and for machines.
 
 ### Philippe Rocca-Serra
 
@@ -1075,29 +1075,29 @@ _The Turing Way_ team members and [project's editorial board members](https://fa
 * GitHub id: [proccaserra](http://github.com/proccaserra)
 * ORCID: [0000-0001-9853-5668](https://orcid.org/0000-0001-9853-5668)
 * Short bio:
-> Philippe Rocca-Serra received a PhD in Molecular Biology from the University of Bordeaux, moving to the field of bioinformatics upon joining the Microarray Informatics Team at the EMBL-EBI, Cambridge. There, working at establishing ArrayExpress, he became an active member of several standardisation efforts aimed at promoting the vision for open data and open science. As part of several EU projects in toxicogenomics and nutrigenomics, he coordinated the development of the ISA project [1], which now continues at the University of Oxford e-Research Centre.
+> Philippe Rocca-Serra recibió un doctorado en Biología Molecular por la Universidad de Burdeos, mudarse al campo de la bioinformática al unirse al Equipo de Informática de Microarray en el EMBL-EBI, Cambridge. Así, trabajando en el establecimiento de ArrayExpress, se convirtió en un miembro activo de varios esfuerzos de estandarización destinados a promover la visión de los datos abiertos y la ciencia abierta. As part of several EU projects in toxicogenomics and nutrigenomics, he coordinated the development of the ISA project [1], which now continues at the University of Oxford e-Research Centre.
 
-* Personal highlights:
+* Resaltados personales:
 > TBA
 
 ## [Open Life Science](https://openlifesci.org/)
 
-Under the collaboration name OLS-4 for Turing, _The Turing Way_ collaborates with [Open Life Science (OLS)](https://openlifesci.org), a programme that helps individuals and stakeholders in research to become Open Science ambassadors. This programme is cofounded by Bérénice Batut, Malvika Sharan and Yo Yehudi. This collaboration offers training and mentoring to interested members from Turing and The Turing Way communities to join the OLS programme individually or in teams. They develop Open Science aspects in the projects that they either already have been working on or want to develop in the near future.
+Bajo el nombre de colaboración OLS-4 para Turing, _The Turing Way_ colabora con [Open Life Science (OLS)](https://openlifesci.org), un programa que ayuda a las personas y a las partes interesadas en la investigación a convertirse en embajadores de Ciencias Abiertas. Este programa es cofundado por Bérénice Batut, Malvika Sharan y Yo Yehudi. This collaboration offers training and mentoring to interested members from Turing and The Turing Way communities to join the OLS programme individually or in teams. Desarrollan aspectos de Open Science en los proyectos en los que ya han estado trabajando o quieren desarrollarse en un futuro próximo.
 
-You can see the projects that participated in the second round - [OLS-2](https://openlifesci.org/ols-2/projects-participants/) and the third round - [OLS-3](https://openlifesci.org/ols-3/projects-participants/). This collaboration was awarded the Turing Online Training grant to support Turing projects in the fourth round ([OLS-4](https://openlifesci.org/funders)) and share materials openly in the Turing training network.
+You can see the projects that participated in the second round - [OLS-2](https://openlifesci.org/ols-2/projects-participants/) and the third round - [OLS-3](https://openlifesci.org/ols-3/projects-participants/). Esta colaboración recibió la beca de formación en línea de Turing para apoyar proyectos de Turing en la cuarta ronda ([OLS-4](https://openlifesci.org/funders)) y compartir materiales abiertamente en la red de entrenamiento de Turing.
 
 ## [Remote Computational Project Resource](https://isabelbirds.github.io/Remote-Computational-Project-Resource/welcome.html)
 
-This resource was started by Isabel Birds during the COVID-19 pandemic to support students transferred from wet to remote dry lab projects at short notice. This project includes links to (1) general tutorials for the complete beginner, (2) tutorials for specific analyses or pipelines, (3) free online textbooks, and (4) places to ask for help.
+Este recurso fue iniciado por Isabel Birds durante el pandémico COVID-19 para apoyar a los estudiantes transferidos de los proyectos de laboratorios húmedos a distancia a corto plazo. This project includes links to (1) general tutorials for the complete beginner, (2) tutorials for specific analyses or pipelines, (3) free online textbooks, and (4) places to ask for help.
 
-### Isabel Birds
+### Aves Isabel
 
-* Role: The Turing Way Contributor
+* Rol: El colaborador de la Vía Turnante
 * GitHub id: [IsabelBirds](http://github.com/IsabelBirds)
 * ORCID: [0000-0001-8173-3879](https://orcid.org/0000-0001-8173-3879)
 * Short bio:
-> Isabel is a PhD candidate at University of Leeds working on dissecting the function and molecular evolution of long non-coding RNAs Supervised by Dr Julie Aspden, Dr Mary J O’Connell and Dr David Westhead. She has been interested in molecular evolution and the applications of bioinformatic techniques throughout her degree, and developed these interests while undertaking research projects in the Aspden and O’Connell labs.  
-> She also has experience of scientific research from a funders perspective, gained during her year in industry and numerous summer internships with Yorkshire Cancer Research.
+> Isabel es un candidato a doctorado en la Universidad de Leeds trabajando en diseccionar la función y evolución molecular de las largas RNAs no codificadoras Supervisadas por el Dr. Julie Aspden, El Dr. Mary J O’Connell y el Dr. David Westhead. Ha estado interesada en la evolución molecular y las aplicaciones de las técnicas bioinformáticas a lo largo de su grado, y desarrolló estos intereses mientras realiza proyectos de investigación en los laboratorios Aspden y O’Connell.  
+> También tiene experiencia en investigación científica desde la perspectiva de los financistas, ganada durante su año en la industria y numerosas prácticas estivales con la Investigación de Cánceres del Caribe.
 
-* Personal highlights:
+* Resaltados personales:
 > After learning about the Turing Way I was inspired to create a site aimed at a wider audience. The Turing Way tutorials helped me to set up my first Jupyter Book, helped me to create the site in a way that is open to contributions, and made sharing my work openly less scary! The Turing Way also pops up a few times in the resources listed. The aim of the resource is to make starting a computational project less overwhelming by curating links to tutorials and online textbooks. Skills such as file management or asking for help effectively are also highlighted, along with entertaining things like podcasts as a reminder that research can be fun!

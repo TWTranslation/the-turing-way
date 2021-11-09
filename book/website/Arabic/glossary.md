@@ -5,17 +5,17 @@
 
 ```{glossary}
 
-Acceptance Testing
- A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+قبول اختبار
+ مستوى من عملية اختبار البرمجيات حيث يتم اختبار نظام للتحقق من مقبوليته. والغرض من هذا الاختبار هو تقييم مدى امتثال النظام لمتطلبات المشروع وتقدير ما إذا كان مقبولا لهذا الغرض.
 
 Acknowledgements
  Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
 
 Add
- Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
+ Command used to add files to the staging area. يسمح للمستخدم بتحديد أي الملفات أو الدلائل لتضمينها في الالتزام التالي.
 
 Authors
-  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
+  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. ويشارك جميع المؤلفين في تأليف الكتاب ككل.
 ```
 ---
 
@@ -24,58 +24,58 @@ Authors
 ```{glossary}
 
 Binder
-  A web-based service which allows users to upload and share fully-functioning versions of their projects in an environment they define.
+  خدمة قائمة على الويب تسمح للمستخدمين بتحميل ومشاركة الإصدارات الكاملة التشغيل لمشاريعهم في بيئة يحددونها.
 
-Binderhub
-  A service which generates Binders. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+
+  Binderhub خدمة تولد الباندرز. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
 
 Binderize
   To make a Binder of a project.
 
-Branch
-  A parallel version of a repository. Although it is contained within the same repository it allows you to develop it separately and then merge changes back into the ‘live’ repository or with other branches when appropriate.
+الفرع
+  نسخة موازية من المستودع. على الرغم من أنه موجود داخل نفس المستودع فإنه يسمح لك بتطويره بشكل منفصل ثم دمج التغييرات مرة أخرى في المستودع "المباشر" أو مع فروع أخرى عند الاقتضاء.
 
-Bug
-  This is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.
+خطأ
+  هذا خطأ، عيب أو خطأ في برنامج حاسوبي أو نظام حاسوبي يجعله يؤدي إلى نتيجة غير صحيحة أو غير متوقعة. أو التصرف بطرق غير مقصودة.
 
-Build
-  A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
+بناء
+  مجموعة من الوظائف. فعلى سبيل المثال، قد يكون للبناء وظيفتان، يختبر كل منهما مشروعا له صيغة مختلفة من لغة البرمجة. سينتهي البناء عندما تنتهي جميع وظائفه.
 ```
 ---
 
-## C
+## ج
 
 ```{glossary}
 
-Checkout
-  Git command to switch to a specific file, branch, or commit. Allows you to activate older versions of files or commits or switch between active branches.
+قم بالخروج
+  أمر Git للتبديل إلى ملف معين أو فرع أو إلتزام. يسمح لك بتفعيل الإصدارات القديمة من الملفات أو الإلتزامات أو التبديل بين الفروع النشطة.
 
 Citizen Science
   The inclusion of members of the public in scientific research.
 
-Clone
-  Copy of an existing Git repository, normally from some remote location to your local environment. When you clone a repo you copy its entire history as well as all branches.
+استنساخ
+  نسخ من مستودع Git الموجود، عادة من بعض المواقع البعيدة إلى بيئتك المحلية. When you clone a repo you copy its entire history as well as all branches.
 
-Code Coverage
-  A measure which describes how much of the source code is exercised by the test suite.
+كود تغطية
+  مقياس يصف كمية التعليمات البرمجية المصدر التي تمارسها مجموعة الاختبار.
 
 Code of Conduct
   Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
 
-Code Review
-  An additional way of testing code quality. Code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
+مراجعة التعليمات البرمجية
+  طريقة إضافية لاختبار جودة التعليمات البرمجية. مراجعة التعليمات البرمجية تحصل على مبرمج آخر للبحث عن التعليمات البرمجية الجديدة وتقييمها. The goal is to point out strengths and also potential areas of improvement.
 
 Coercive authorship
   When a senior researcher forces a junior researcher to include a gift or guest author.
 
-Commit
-  Snapshot of project history. A commit can be made after changes of a single file or a range of files and directories.
+ارتكاب
+  لقطة لسجل المشروع. A commit can be made after changes of a single file or a range of files and directories.
 
 Commit Message
   A message the user can attach to a commit to explain what it contains.
 
-Communication Channel
-  The method of communication established for projects that might include mailing lists, community forums, chats and/or social media.
+قناة الاتصال
+  طريقة الاتصال التي تم إنشاؤها للمشاريع التي قد تشمل القوائم البريدية، والمنتديات المجتمعية، والمحادثات، و/أو وسائل الإعلام الاجتماعية.
 
 Community Member
   People who use the project. They might be active in conversations or express their opinion on the project’s direction.
@@ -86,37 +86,37 @@ Computational Environment
 Conda
   A commonly used package management system.
 
-Consortia authorship
- A collective or community group authorship model. All members of the consortium are considered authors and are usually required to be listed in the published article although sometimes the article is published in the groups name. If not all members of the consortium agree to the responsibilities of authorship, the members that are authors will be listed separately from those who are not. 
+مؤلف الكونسورتيا
+ نموذج مؤلف جماعي أو مجموعة مجتمعية. وجميع أعضاء الاتحاد يعتبرون مؤلفين وعادة ما يتعين إدراجهم في المقال المنشور، رغم أن المقال ينشر أحيانا باسم المجموعات. وإذا لم يتفق جميع أعضاء الاتحاد على مسؤوليات المؤلف، أما الأعضاء الذين قدموا المشروع فستدرج أسماؤهم بمعزل عن الأعضاء الذين لم يقدموا. 
 
-Container
-  Lightweight files that can encapsulate an entire computational environment including its operating system, customised settings, software and files.
+حاوية
+  ملفات خفيفة الوزن يمكن أن تشمل بيئة حسابية كاملة بما في ذلك نظام التشغيل، الإعدادات المخصصة، البرمجيات والملفات.
 
-Continuous Delivery
-  It automates and runs the steps required to build and test a project.
+التوصيل المستمر
+  يقوم تلقائياً بتشغيل الخطوات المطلوبة لبناء واختبار المشروع.
 
-Continuous Deployment
-  It automatically deploys each time a code change is made.
+النشر المستمر
+  ينشر تلقائياً في كل مرة يتم فيها تغيير التعليمات البرمجية.
 
-Continuous Integration
-  It is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). Also called CI.
+الدمج المستمر
+  هي ممارسة دمج التغييرات على المشروع الذي يقوم به الأفراد في الأساس، الإصدار المشترك بشكل متكرر (عادة عدة مرات في اليوم). Also called CI.
 
 Contributing Guidelines
   Guidelines outlining how a person should go about contributing to an open source project.
 
-Contributors
-  Everyone who has contributed something back to the project. These are members of a research project that have done some work that has made a contribution to the overall completion of the research. This could be a small contribution such as fixing a bug in software or a much larger contribution such as writing an academic article. 
+المساهمون
+  كل من ساهم بشيء ما في المشروع. وهم أعضاء في مشروع بحثي أنجز بعض العمل الذي أسهم في إنجاز البحث بشكل عام. ويمكن أن يكون ذلك مساهمة صغيرة مثل إصلاح خطأ في البرمجيات أو مساهمة أكبر بكثير مثل كتابة مقالة أكاديمية. 
 
-Corresponding author
- The person who administers an academic article for the research group. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
+المؤلف المناظر
+ الشخص الذي يدير مقالة أكاديمية لمجموعة البحوث. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
 
 CRediT Taxonomy
- The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
+ The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. وتصف الأدوار المساهمة المحددة لكل مساهم في الناتج العلمي. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
 
 ```
 ---
 
-## D
+## د
 
 ```{glossary}
 
@@ -126,28 +126,28 @@ Data repository
 DMP
   Data management plan.
 
-Docker Container
-  An active computational environment executed from a Docker image.
+حاوية Docker
+  بيئة حسابية نشطة منفذة من صورة Docker.
 
 Dockerfile
-  A file used for creating Docker images
+  ملف يستخدم لإنشاء صور Docker
 
-Docker Image
-  A machine-readable set of instructions to create a specified computational environment.
+صورة Docker
+  مجموعة من التعليمات التي يمكن قراءتها آليا لإنشاء بيئة حسابية محددة.
 
-Docker Registry
-  A storage and distribution system for named Docker images. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). Such systems are often hosted in the cloud for ease of access.
+سجل Docker
+  نظام تخزين وتوزيع لصور Docker. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). وكثيراً ما تستضيف هذه النظم في السحابة لتيسير الوصول إليها.
 
-Digital Object Identifier
-  A digital object identifier (DOI) is a persistent identifier or handle used to identify objects uniquely, standardized by the International Organization for Standardization (ISO). An implementation of the Handle System, DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports, data sets, and official publications. However, they also have been used to identify other types of information resources, such as commercial videos.
+معرف الكائن الرقمي
+  معرف الكائن الرقمي (DOI) هو معرف ثابت أو معالج يستخدم لتحديد الكائنات بشكل فريد، () قامت المنظمة الدولية لتوحيد المقاييس بتوحيدها. ويستخدم تنفيذ نظام إدارة المعلومات على نطاق واسع في تحديد الأكاديميين والمهنيين في المقام الأول. • المعلومات الحكومية، مثل المقالات الصحفية، وتقارير البحوث، ومجموعات البيانات، والمنشورات الرسمية. However, they also have been used to identify other types of information resources, such as commercial videos.
 ```
 ---
-## E
+## ه
 
 ```{glossary}
 
-Equitable, Diverse and Inclusive Practices
-  Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
+الممارسات العادلة والمتنوعة والشاملة
+  ضمان الحصول على منح دراسية مفتوحة لأي شخص لا توجد حواجز قائمة على عوامل مثل العرق والخلفية ونوع الجنس والميل الجنسي.
 
 End to End Test
   A test that runs the program from beginning to end and verifies that the output is correct.
@@ -158,8 +158,8 @@ End to End Test
 
 ```{glossary}
 
-FAIR
-  Findable, Accessible, Interoperable and Reusable.
+FIR
+  قابل للإيجاد، ويمكن الوصول إليه، ويمكن تشغيله، ويمكن إعادة استخدامه.
 
 First author
  The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research. 

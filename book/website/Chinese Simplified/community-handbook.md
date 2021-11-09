@@ -1,59 +1,64 @@
 (ch)=
-# Community Handbook
+# 社区手册
 
-***This is a community handbook that discusses aspects of The Turing Way project that one can use for participating in this community.***
+***这是一本社区手册，讨论了人们可以用来参与这一社区活动的诱导路线项目的各个方面。***
 
-_The Turing Way_ is a community-led book project that involves diverse perspectives of researchers, funders, educators, learners and various stakeholders from around the world.
+_Ting Way_ 是一个由社区牵头的图书项目，涉及到研究人员的不同观点。 来自世界各地的资助者、教育者、学习者和各种利益攸关者。
 
-The Community Handbook part of this book aims to provide information about the project, ways of working, and other aspects that can make community participation equitable for our members.
+这本书的《社区手册》部分旨在提供有关该项目的信息， • 工作方式和能够使社区参与对我们成员公平的其他方面。
 
-We are incredibly grateful to our community members who are the readers, co-authors, contributors, collaborators, maintainers, helper and supporters.
+我们非常感谢我们的社区成员，他们是读者、共同作者、贡献者、合作者、维护者、助手和支持者。
 
-Thank you for joining the incredible journey of _The Turing Way_!
+感谢您加入了 _令人难以置信的路程_！
 
 ```{figure} ../figures/community.jpg
 ---
-height: 400px
-name: community
-alt: A garden full of folks working on different parts of the garden. Someone is welcoming others, someone is teaching the basics, someone is writing best practices and someone is helping this community grow.
+高度：400px
+name: 社区
+alt: 花园里有着在花园不同部分工作的全套民俗。 有人欢迎他人，有人正在教授基础知识，有人正在写最佳做法，有人正在帮助社区成长。
 ---
-*The Turing Way* community illustrated as a garden. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+*诱惑之路* 社区展示为花园。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-## License for The Turing Way book series
+## Ting Way Book 系列的许可证
 
-All content in this book series is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) (CC BY 4.0) license.
+本书系列中的所有内容都是在 [知识共享属性4.0国际(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) (CC BY 4.0)许可下授权的。
 
-The original files can be accessed online on our [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website).
+原始文件可以在线访问我们的 [GitHub 仓库](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website)。
 
-## Useful links
+## 有用的链接
 
-Visit the Turing Way GitHub repository at [https://github.com/alan-turing-institute/the-turing-way](https://github.com/alan-turing-institute/the-turing-way) to find out what we are working on. Start contributing to the book by reading our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md).
+访问 [https://github.com/alan-turing-institute/the-turing-way](https://github.com/alan-turing-institute/the-turing-way) Ting Way GitHub 仓库来了解我们正在做些什么。 阅读我们的 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 开始为该书做出贡献。
 
-If you are new and would like to connect with us, join our [Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way). We also host bimonthly [online Collaboration Cafés](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) to cowork online with our community members online. This would be the right place to get opinions from other community members and request their feedback and review on your work.
+如果您是新的并想要与我们连接，加入我们的 [Gitter频道](https://gitter.im/alan-turing-institute/the-turing-way)。 我们还主办双月的 [在线协作咖啡厅](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) ，以便在线与我们的社区成员在线合作。 这是向其他社区成员征求意见和征求他们对你的工作的反馈和评论的适当场所。
 
-For specific questions or concerns, you can contact our community manager **Malvika Sharan** by email at [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). Alternatively, you can contact the lead investigator **Kirstie Whitaker** by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+对于具体的问题或问题，您可以通过电子邮件联系我们的社区管理员 **Malvika Sharan** [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk) 或者，您可以通过电子邮件联系主要调查员 **Kirstie Whitaker** [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk)
 
-To stay updated with our community events, subscribe to [_The Turing Way_ calendar](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ). To receive monthly newsletters, [join our mailing list](https://tinyletter.com/TuringWay)
+若要随时更新我们的社区活动，请订阅 [_Ting Way_ 日历](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ)。 若要接收月报， [请加入我们的邮件列表](https://tinyletter.com/TuringWay)
 
-We are also on [Twitter](https://twitter.com/turingway), follow us for daily updates.
+我们也在 [Twitter](https://twitter.com/turingway)，每日更新都跟随我们。
 
-### Wondering where to start?
+### 想要从哪里开始？
 
-Here are a few suggestions for a good first contributions:
+以下是关于好的首次贡献的一些建议：
 
-- Fix a typo in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- 在 [本书](https://the-turing-way.netlify.com) 和/或 [版本库](https://github.com/alan-turing-institute/the-turing-way) 中修复一个输入。
+- 在 GitHub</a> 上打开一个
 
-## The Turing Way Contact Points
+问题以标记书中不明确或重复的信息。</li> 
+  
+  - 修复 [旧问题](https://github.com/alan-turing-institute/the-turing-way/issues) 或评论 [拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls)。
+- 在这个 [谷歌形式](https://goo.gl/forms/akFqZEIy2kxAjfZW2) 中写下你个人的可复制研究体验。
+- 在GitHub上查看更多信息：https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md</ul> 
 
-The lead investigator for this project is [Dr Kirstie Whitaker](https://whitakerlab.github.io/about). She leads the Tools, Practices and Systems Research Programme at [The Alan Turing Institute](http://turing.ac.uk).
 
-The Community Manager is [Malvika Sharan](https://about.me/malvikasharan). She is a research associate at the [Alan Turing Institute](http://turing.ac.uk).
 
-You can contact them on the community Gitter Channel [https://gitter.im/alan-turing-institute/the-turing-way](https://gitter.im/alan-turing-institute/the-turing-way). You can write an email to Malvika Sharan for any question of query by using the community email [theturingway@gmail.com](mailto:theturingway@gmail.com) or contact her directly by emailing [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). In case you want to directly reach Kirstie, email her at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+## 诱惑的道路联系点
 
-For contact details for Code of Conduct related query and reporting, please see the {ref}`Code of Conduct file <ch-coc>` in this Community Handbook.
+这个项目的主要调查员是 [Kirstie Whitaker](https://whitakerlab.github.io/about)。 她领导了 [艾伦·塔普研究所的工具、做法和系统研究方案](http://turing.ac.uk)。
+
+社区管理员是 [Malvika Sharan](https://about.me/malvikasharan)。 她是 [艾伦·托格研究所](http://turing.ac.uk) 的研究助理。
+
+您可以在社区Gitter Channel [https://gitter.im/alan-turing-institute/the-turing-way](https://gitter.im/alan-turing-institute/the-turing-way) 上与他们联系。 您可以使用社区电子邮件 [theturingway@gmail向Malvika Sharan写一封电子邮件进行任何查询。 om](mailto:theturingway@gmail.com) 或直接通过电子邮件 [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk) 联系她。 如果您想直接到达Kirstie，请给她发电子邮件 [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk)。
+
+与《行为守则》有关的查询和报告的详细联系方式， 请在本社区手册中查看 {ref}`行为代码文件 <ch-coc>`

@@ -1,32 +1,32 @@
-(rr-ci-practices)=
-# Best Practices and Recommendations
+(rr-ci-prácticas)=
+# Mejores prácticas y recomendaciones
 
-## Small, iterative changes
+## Cambios pequeños y iterativos
 
-One of the most important practices when adopting continuous integration is to encourage project members to make and commit small changes. Small changes minimise the possibility and impact of problems cropping up when they're integrated, which minimises the time and effort cost of integration.
+Una de las prácticas más importantes a la hora de adoptar una integración continua es animar a los miembros del proyecto a realizar y realizar pequeños cambios. Los pequeños cambios minimizan la posibilidad y el impacto de los problemas que surgen cuando están integrados, lo que minimiza el costo de tiempo y esfuerzo de la integración.
 
-## Trunk-based development
+## Desarrollo basado en troncos
 
-With trunk-based development, work is done in the main branch of the repository or merged back into the shared repository at frequent intervals. Short-lived feature branches are permissible as long as they represent small changes and are merged back as soon as possible.
+Con el desarrollo basado en el tronco, el trabajo se realiza en la rama principal del repositorio o se fusiona de nuevo en el repositorio compartido en intervalos frecuentes. Las ramas de características de corta vida son permisibles siempre y cuando representen pequeños cambios y se fusionen lo antes posible.
 
-The idea behind trunk-based development is to avoid large commits that violate of concept of small, iterative changes discussed above. Code is available to peers early so that conflicts can be resolved when their scope is small.
+La idea detrás del desarrollo basado en el tronco es evitar grandes commits que violen el concepto de pequeños cambios iterativos que se discuten anteriormente. El código está disponible para los pares temprano para que los conflictos puedan resolverse cuando su alcance es pequeño.
 
-## Keep the building and testing phases fast
+## Mantén el edificio y las fases de prueba rápidas
 
-Because the build and test steps must be performed frequently, it is essential that these processes be streamlined to minimise the time spent on them. Increases in build time should be treated as a major problem because the impact is compounded by the fact that each commit kicks off a build.
+Debido a que los pasos de construcción y prueba deben realizarse con frecuencia, es esencial que estos procesos se reorganicen para minimizar el tiempo dedicado a ellos. El aumento del tiempo de construcción debe ser tratado como un problema importante porque el impacto se ve agravado por el hecho de que cada commit emite una construcción.
 
-When possible, running different sections of the test suite in parallel can help move the build through the pipeline faster. Care should also be taken to make sure the proportion of each type of test makes sense. Unit tests are typically very fast and have minimal maintenance overhead. In contrast, automated system or acceptance testing is often complex and prone to breakage. To account for this, it is often a good idea to rely heavily on unit tests, conduct a fair number of integration tests, and then back off on the number of later, more complex testing.
+Cuando es posible, ejecutar diferentes secciones de la suite de pruebas en paralelo puede ayudar a mover la construcción a través del tubo más rápido. También hay que tener cuidado para garantizar que la proporción de cada tipo de ensayo tenga sentido. Las pruebas unitarias son típicamente muy rápidas y tienen una sobrecarga mínima de mantenimiento. En contraste, las pruebas automatizadas o de aceptación son a menudo complejas y propensas a la avería. Para explicar esto, a menudo es una buena idea depender en gran medida de las pruebas unitarias, llevar a cabo un buen número de pruebas de integración y luego dar la espalda al número de pruebas más tarde, más complejas.
 
-## Computational expense
+## Gastos computacionales
 
-Some software will require significant compute resource to build and/or run. Examples include weather and climate models. This can make the use of continuous integration impractical as the tests either take too long or use too much resource. Therefore, a compromise needs to be found to balance the risk of incomplete testing against a usable development process.
+Algunos programas requerirán recursos de cómputo significativos para construir y/o ejecutar. Algunos ejemplos son el clima y los modelos climáticos. Esto puede hacer que el uso de la integración continua sea poco práctico, ya que las pruebas tardan demasiado tiempo o utilizan demasiados recursos. Por lo tanto, es necesario encontrar un compromiso para equilibrar el riesgo de pruebas incompletas con un proceso de desarrollo utilizable.
 
-One approach is to use different levels of testing, with different subgroups being required depending on what is being changed. A common broad subgroup can be used in every case, with additional ones being invoked to test certain areas in more detail. This introduces an element of judgement to the testing process, but can be applied successfully.
+Un enfoque es utilizar diferentes niveles de prueba, con diferentes subgrupos que se requieren dependiendo de lo que se está cambiando. Se puede utilizar un amplio subgrupo común en todos los casos, invocando otros para probar ciertas áreas con más detalle. Esto introduce un elemento de juicio en el proceso de prueba, pero se puede aplicar con éxito.
 
-## Dependencies tracking
+## Seguimiento de dependencias
 
-Checking for dependency updates should be done regularly. It can save a lot of time, avoiding bugs due to code dependent on deprecated functionality. Services such as [David](https://david-dm.org/) are available for dependency management.
+La comprobación de actualizaciones de dependencias debe hacerse regularmente. Puede ahorrar mucho tiempo, evitando errores debido a que el código depende de la funcionalidad obsoleta. Servicios como [David](https://david-dm.org/) están disponibles para la gestión de dependencias.
 
-## Consistency throughout the pipeline
+## Consistencia a lo largo del tubo
 
-A project should be built once at the beginning of the pipeline, the resulting software should be stored and accessible to later processes without rebuilding. By using the exact same artefact in each phase, you can be certain that you are not introducing inconsistencies as a result of different build tools.
+Un proyecto debe construirse una vez al principio del pipeline, el software resultante debe ser almacenado y accesible a procesos posteriores sin reconstruir. Usando el mismo artefacto exacto en cada fase, puede estar seguro de que no está introduciendo inconsistencias como resultado de diferentes herramientas de construcción.

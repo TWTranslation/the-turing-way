@@ -1,132 +1,132 @@
-(pd-persona-creation)=
-# Persona Creation Tool
+（pd-persona-creat）=
+# Persona 创建工具
 
-Persona development for a project or community is a great way for recognising who the stakeholders of that project are, why they would associate with the project, what their needs are and how those needs could be met. Persona creation tools can allow team members to collaborate efficiently with each other, develop a common understanding of their target audience and bring design principles into their work while ultimately creating an empathetic pathway for engagement.
+个人发展项目或社区是承认该项目的利益攸关方的一个重要途径。 为什么他们将与该项目相联系，他们的需要是什么，以及如何能够满足这些需要。 个性化创建工具可以让团队成员有效地相互合作。 • 发展对其目标受众的共同理解，并将设计原则纳入其工作，同时最终为参与开辟一条有益的道路。
 
-In this chapter, we provide a simple step by step guide that one can use for creating different personas for their communities and projects. Your project-specific personas will then be useful in enhancing the pathways your members take to engage with your project, examples for which has been provided in the next subchapter.
+在这一章中，我们提供了一个简单一步一步的指南，人们可以用来为其社区和项目创造不同的人。 你的项目特定的人将有助于改善你的成员参与你的项目的途径。 下一个小章提供了这方面的例子。
 
-## Step-by-step guide for building a persona
+## 构建一个人的一步一步指南a
 
-### Section 1: Name and Role
+### 第1节：名称和角色
 
-Start by giving your persona a real name and real role with the help of some assumed professional skills. This will help you anchor them in reality. You can use the random name generator website [behindthename.com](https://www.behindthename.com/random/) to create diverse names.
+在一些假定的专业技能的帮助下，首先给你的个人一个真正的名字和真正的角色。 这将有助于你把它们固定在现实中。 您可以使用随机名称生成器网站 [backthename.com](https://www.behindthename.com/random/) 来创建不同的名称。
 
 ```{figure} ../../figures/persona-creation.png
 ---
-name: persona-creation
-alt: Persona Canvas by DESIGNBETTERBUSINESS.COM
----
-Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) available under the CC-BY-SA 4.0 license
+名称：个人创建
+备选案文：DESIGNBETTERBUSINESS.COM
+-
+Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) 在 CC-BY-SA 4.0 许可证下可用
 ```
 
-### Section 2: Background and demography
+### 第2节：背景和人口构成
 
-This section is to create an image of your persona. Be aware of your own biases in terms of how you imagine your persona looks like based on their name or assumed gender.
+本节是为了创建您个人的图像。 了解你自己在如何想象你的人看起来像是基于他们的名字或假定的性别方面的偏见。
 
-#### Section 2.1: Background
+#### 第2.1节：背景
 
-Reflect on the job, career, education, and family aspect of your persona by answering the following questions:
+回答以下问题，思考个人的工作、职业、教育和家庭方面：
 
-- Which job does your persona hold?
-- What is your persona's family status?
-  - Some options: single, parent, married, pet-owner, parent, or carer.
-- Does your persona have any health issues?
-    - You don't need to go in detail (though that would add more value to your planning), but start by answering in 'yes' or 'no'.
-- What is your persona's social environment like?
-  - Some options: neutral, favorable, supportive, non-supportive, financially challenging, distracting, politically challenging.
+- 您的个人持有哪一份工作？
+- 您的家庭状况如何？
+  - 有些选择：单身、父母、已婚、宠物所有者、父母或照顾者。
+- 您的个人是否有任何健康问题？
+    - 你不需要详细(尽管这会为你的规划增加更多的价值)，但首先是回答“是”或“否”。
+- 您个人的社会环境是什么？
+  - 有些选择：中立、有利的、支持性的、非支持性的、财政上富有挑战性的、分散注意力的和政治上具有挑战性的。
 
-#### Section 2.2: Demography
+#### 第2.2节：人口统计
 
-Reflect on the age range, gender, location, and living situation of your persona by answering the following questions:
+回答以下问题，思考个人的年龄范围、性别、地点和生活状况：
 
-- What age group that your persona belongs to?
-  - Some options: below 16, 17 - 21, 21 - 30, 31 - 45, 45 - 65, above 65
-- What is your persona's gender?
+- 您的个人属于哪个年龄组？
+  - 有些备选办法：在16岁以下、17-21、21-30、31-45、45-65岁以下，在65
+- 您的性别是什么？
   - Some options: man, woman, non-binary, cisgender, transgender, gender-queer, gender-fluid or other (learn more [here](http://thepbhscloset.weebly.com/a-list-of-genders--sexualities-and-their-definitions.html))
-- Which time zone does your persona live in?
-  - Some options: UTC - GMT, EET - GMT+2:00, IST - GMT+5:30, JST - GMT+9:00, NST - GMT+12:00, CST - GMT-6:00, BET - GMT-3:00, CAT - GMT-1:00
-- What is your persona's living situation?
-- If there is any disability or physical barrier that your persona has to deal with when participating?
+- 您的个人生活在哪个时区？
+  - 一些选项：UTC - GMT, EET - GMT+2:00, IST - GMT+5:30, JST-GMT+9:00, NST - GMT+12:00, CST - GMT-6:00, BET - GMT-3:00, CAT - GMT-1：00
+- 贵人的生活状况如何？
+- 如果您的个人在参与时有任何残疾或身体障碍？
 
-*For this section, you can continue using the random name generator website [behindthename.com](https://www.behindthename.com/random/) with the option "generate life story".*
+*对于本部分，您可以继续使用随机名称生成器网站 [backthename.com](https://www.behindthename.com/random/) 选项"生成生活故事"。*
 
-### Section 3: Needs and Resources
+### 第3节：需要和资源
 
-This section will reflect on the resources available to your persona to participate in your project or community online. This section defines your persona's needs and decisions they make, which you can sketch out by asking the following questions:
+本节将反映您的个人在线参与您的项目或社区的可用资源。 本节定义了您个人的需要和他们作出的决定，你可以通过提出以下问题来勾画出来：
 
-- What is the level of interest your persona has in your project?
-- Does your persona have a suitable schedule to participate in your project activity?
-- Does your persona have the appropriate resources to collaborate or contribute to your project?
-  - Some options: hardware, software, appropriate work arrangement, proper documentation
-- How much time (minimum) your persona needs to dedicate to make contributions to your project by completing different tasks?
-  - This can result in a list of tasks that your members are invited to do with approximate time and skill requirements for each of them.
-- What else can influence your persona's decisions on a day-to-day basis?
+- 您的个人对您的项目有多大兴趣？
+- 您的属性是否有合适的时间安排来参与您的项目活动？
+- 您的个人是否有适当的资源为您的项目提供合作或贡献？
+  - 一些选项：硬件、软件、适当的工作安排、适当的文档
+- 您的个人需要多少时间(最短)通过完成不同的任务为您的项目做出贡献？
+  - 这可能会导致您的成员被邀请与每个成员的大致时间和技能要求相关的任务清单。
+- 还有什么东西能够在日常的基础上影响你的个人的决定？
 
-### Section 4: Persona Profile (positive trends)
+### 第4节：个人概况（积极趋势）
 
-This section will reflect on the hobbies, interests, and things your persona enjoys doing regularly. This can be approached to understand what makes your persona's experience positive. You can sketch out this information by answering the following questions:
+本节将反思您的爱好、兴趣和个人经常享受的东西。 可以用这种方法来理解是什么使你个人的经历是积极的。 你可以通过回答以下问题来勾画这个信息：
 
-- What hobbies and interests your persona has?
-- What personality/demeanor (such as introvert, extrovert) matches your persona's?
-- Through which communication channel will your persona potentially find out about the event?
-  - Some options: by email, mailing list or forums, Twitter, Facebook, Slack, Gitter, newsletters, website or community repository
-- What keeps your persona motivated on a typical day?
+- 你的人有什么爱好和兴趣？
+- 哪个人格/行为(例如内心动物、流体)与你的个人相匹配？
+- 您的个人可以通过哪个通信频道找到有关事件的信息？
+  - 一些选项：通过电子邮件、邮件列表或论坛、Twitter、Facebook、Slack、Gitter、通讯、网站或社区仓库
+- 什么能使你的人在典型的日子里保持动机？
 
-### Section 5: Provisions and opportunities
+### 第5节：条款和机会
 
-This section will reflect on the provisions available to your persona to participate in this project by asking the following questions:
+本节将通过提问以下问题来反思您的个人可以参与本项目的规定：
 
-- What equipment or support can you offer your persona to participate in the project?
-- Are there funding or skill-building opportunity that your persona can share more widely.
-- What other resources does your persona need to fully participate with?
+- 您可以为您的个人提供哪些设备或支持来参与项目？
+- 您的个人是否能够更广泛地分享资金或技能建设机会。
+- 您的个人需要哪些其他资源来充分参与？
 
-### Section 6: Hopes and dreams
+### 第6节：希望和梦想。
 
-This section will reflect on the expectations, goals, and emotions of your persona in regards to this project by asking the following questions:
+本节将通过提出以下问题来反思你个人对这个项目的期望、目标和感情：
 
-- What does your persona want to achieve from this project?
-- What information does your persona want to gain from their participation?
-- What fear or anxiety may your persona have regarding the project?
-- What could inspire your persona at the project?
-- How will your persona know that their goal has been achieved?
+- 您的个人想要从这个项目中取得什么成果？
+- 您的个人想要从他们的参与中获得什么信息？
+- 你的个人对该项目有什么恐惧或焦虑？
+- 在项目中什么能激励你的个人？
+- 你的个人如何知道他们的目标已经实现？
 
-### Section 7: Perceived Barriers (negative trends)
+### 第7节：可设想的障碍（消极趋势）
 
-This section will reflect on the perceived barriers that your persona may face in regards to this project by asking the following questions:
+本节将通过提出以下问题来反思您的个人在这一项目中可能面临的障碍：
 
-- What can frustrate your persona on a typical day?
-- Why would your persona not join this project?
-- What is speaking against this project that can discourage your persona from joining?
-- What could alienate your persona from this project?
-- What improvements can be introduced to help your persona overcome these barriers?
+- 什么可以在一个典型的日子里挫败你的个人？
+- 为什么你的个人不加入这个项目？
+- 这个项目会阻止您的个人加入？
+- 怎样才能让你的人离开这个项目？
+- 可以进行哪些改进来帮助您的个人克服这些障碍？
 
-### Section 8: Hurdles in the project (headaches)
+### 第8节：项目中的冲锋（头部）
 
-This section will reflect on the hurdles and issues that your persona may encounter in regards to this project by asking the following questions:
+本节将通过提出以下问题来反思您的个人在这个项目中可能遇到的障碍和问题：
 
-- What challenges does your persona face when participating in this project?
-- What are your persona's hurdles specific to this project?
-- How can your persona be supported in overcoming the challenges?
-- How can we surpass your persona's expectations?
+- 您的个人在参与这个项目时面临哪些挑战？
+- 这个项目的具体障碍是什么？
+- 如何支持你的个人克服挑战？
+- 我们如何能够超越你个人的期望？
 
-### Section 9: Fears and personal issues
+### 第9节：恐惧和个人问题
 
-This section will reflect on fears and personal issues that your persona may face while participating in this project or community online by asking the following questions:
+本节将通过提出以下问题来反思您的个人在参与此项目或社区在线时可能面临的恐惧和个人问题：
 
-- Would your persona be able to participate for a long period?
-- In what situations your persona might encounter difficulties during their participation?
-- What interruptions they might face while participating in this project?
-- What are the resources available to support your persona better (like funding or equipment)?
-- How can we assist your persona in reaching their goals?
+- 您的个人是否能够长期参与？
+- 在哪些情况下，您的个人在参与过程中可能遇到困难？
+- 他们在参加这个项目时可能面临什么中断？
+- 有哪些资源可以更好地支持您的个人(例如资金或设备)？
+- 我们如何能够帮助你们的个人实现他们的目标？
 
-## Putting this together in a persona canvas
+## 把它放在一个人画布
 
-The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
+人画布可以用来将您的所有响应集中在一个地方， 与您的同事分享您的智力模型的这种具体信息(我们的思想抽象概念)，并创建一个通用语言来交流您的社区成员。 用户和贡献者。
 
-The [https://www.designabetterbusiness.tools](https://www.designabetterbusiness.tools) have created multiple persona canvases (one is shown in the figure above) which are available for reuse under CC-BY ShareAlike 4.0 License, which can be downloaded [here](https://www.designabetterbusiness.tools/tools/persona-canvas).
+[https://www.designabetterbusiness。 ools](https://www.designabetterbusiness.tools) 创建了多个个人画布(其中一个显示在上面的图中)，这些画布可在 CC-BY ShareAlim 4 下重新使用。 许可证，可以在这里下载 [](https://www.designabetterbusiness.tools/tools/persona-canvas)
 
-## Examples of personas in _The Turing Way_ community
+## _种人的例子_ 社区诱人之路
 
-In the next subchapter, you will find examples of personas and pathways in _The Turing Way_ community. With the help of different personas, we have also collected a list of contribution pathways in _The Turing Way_ and how they are acknowledged (see {ref}`Contribution types and pathways <ch-acknowledgement-examples>`).
+在下一章中，您将会在 _Ting Way_ 社区中找到人和路径的例子。 在不同人的帮助下， 我们还收集了 _的贡献路径列表_ 以及它们如何被承认(见 {ref}`贡献类型和路径 <ch-acknowledgement-examples>`)。
 
-*You are welcome to contribute to this chapter by testing the process described here to create a persona for your project. Your feedback will help us improve this process, and your output can be added here under the example section.*
+*欢迎您通过测试这里描述的为您的项目创建一个人的过程来为本章做出贡献。 您的反馈将有助于我们改进这个过程，您的输出可以添加到示例中。*

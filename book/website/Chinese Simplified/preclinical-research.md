@@ -1,24 +1,24 @@
-(er-activism-preclinical-research)=
-# Ethical Decisions in Preclinical Research
+（er-activism-preclinical-research）=
+# 临床研究中的伦理决定
 
-## Prerequisites / recommended skill level
-For preclinical scientists – no previous knowledge needed
+## 前提条件/推荐的技能水平
+对于前临床科学家——不需要以前的知识
 
 ## Summary
-Society continually debate the use of animals in scientific research. The fundamental questions are whether experiments using animals are morally justifiable and whether the potential benefits outweigh the suffering of those animals? These questions have been coupled with increasing concern about the poor reproducibility of findings from animal research, due to the impact this has on translation, scientific progress and the use of resources. A question that is not often addressed is how those justified experiments are designed, conducted and analysed. Flawed experimental design, inappropriate statistical analysis and inadequate reporting have been flagged as areas for major concern {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproducibility`. It is morally incumbent upon us to ensure that animal experiments are appropriately designed, conducted and analysed otherwise the results are at risk of being unreliable. If the results are unreliable then the animals used have in effect have been wasted {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
+社会不断辩论在科学研究中使用动物的问题。 根本问题是，使用动物的实验在道义上是否合理，潜在利益是否大于这些动物的痛苦？ 在提出这些问题的同时，人们日益关切动物研究的结果难以再现。 由于这对翻译、科学进步和资源使用产生了影响。 一个常常得不到解决的问题是这些合理的实验是如何设计、进行和分析的。 错误的试验设计、不恰当的统计分析和不充分的报告已被标记为主要关注的领域 {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproduciability` 我们在道义上有责任确保适当设计动物实验。 如果不这样做，就会产生不可靠的结果。 如果结果不可靠，那么所使用的动物实际上已被擦除 {cite:ps}`Ioannidis2014 increasingValue,deVries2014ReviewAnimalExp`
 
-## How this will help you/ why this is useful
-Many preclinical researchers do not think of themselves as data scientists. This may be primarily because they work with small datasets. However, there are many common open research themes and this chapter aims to assist preclinical scientists in understanding the why, where, when, and how they can employ open research initiatives, some designed specifically for the use by preclinical scientists.
-> The above sentence may not fit with the structure of the book or flow within these chapters - Nadia
+## 这将如何帮助您/为什么这是有用的
+许多临床前研究人员并不认为自己是数据科学家。 这可能主要是因为它们使用了小型数据集。 然而，有许多共同的开放研究主题，本章旨在协助临床前科学家了解原因。 在何时、何地以及如何利用开放式研究举措，有些举措是专门为临床前科学家使用而设计的。
+> 上述句子可能不适合这本书的结构或这些章节内的流程――Nadia
 
-## The Experimental Design Assistant
-The National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) have a freely accessible web-based tool – The Experimental Design Assistant (EDA; https://eda.nc3rs.org.uk) which aims to help researchers improve the design, conduct, analysis and reporting of animal experiments. Designing experiments with the EDA encourages researchers to consider the sources of bias at the design stages of the experiment before the data are collected, ensuring a rigorous design that is more likely to yield robust findings that can be reproduced. The tool ensures that you have a transparent, clear protocol and plan for statistical analysis which can be scrutinised before collecting data.
+## 实验设计助理
+国家安置中心， 精炼和减少研究中的动物（NC3Rs）有一种可免费检索的网络工具——实验设计助理(EDA)； https://eda。 该项目旨在帮助研究人员改进动物实验的设计、进行、分析和报告。 设计与电子数据交换有关的实验，鼓励研究人员在收集数据之前在试验设计阶段考虑偏见的源头， 确保设计严格，更有可能产生强有力的研究结果，可以复制。 该工具确保你有一个透明、清晰的协议和统计分析计划，可以在收集数据之前加以审查。
 
-**Features of the EDA:**
-* A computer-aided design tool to develop a diagram representing the experimental plan
-* feedback from an expert system on the experimental plan
-* analysis suggestion
-* sample size calculation (power analysis)
-* randomisation sequence generation
-* support for allocation concealment and blinding
-* web-based resources to improve knowledge of experimental design and analysis
+**EDA的特性：**
+* 一种计算机辅助设计工具，用以绘制一个反映试验计划的图表
+* 关于试验计划的专家系统的反馈意见
+* 分析建议
+* 样品大小计算(电量分析)
+* 随机序列生成
+* 对隐藏和致盲的支持
+* 基于万维网的资源，以增进实验设计和分析的知识

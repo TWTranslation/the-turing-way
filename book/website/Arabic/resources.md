@@ -1,16 +1,16 @@
-(communication-aa-resources)=
-# Resources:
-* American Journal of Experts [The ethics of manuscript authorship](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) including a link to the white paper - credit where credits due.
+(الاتصالات-آنا - الموارد)=
+# الموارد:
+* مجلة الخبراء الأمريكية [أخلاقيات مؤلف المخطوط](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) بما في ذلك رابط للورقة البيضاء - الائتمان الذي يستحق الائتمان.
 
-* [British sociological association authorship guidelines](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
+* [المبادئ التوجيهية للمؤلفين في الرابطة الاجتماعية البريطانية](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
 
-* [Committe of Publication Ethics (COPE) website](https://publicationethics.org/).
+* [موقع لجنة أخلاقيات النشر على شبكة الإنترنت](https://publicationethics.org/).
 
-* [How to handle authorship disputes: a guide for new researchers](https://publicationethics.org/files/2003pdf12_0.pdf).
+* [كيفية التعامل مع منازعات المؤلف: دليل للباحثين الجدد](https://publicationethics.org/files/2003pdf12_0.pdf).
 
-* [CRediT Taxonomy](https://casrai.org/credit/)
+* [تصنيف CRediT](https://casrai.org/credit/)
 
-* [London School of Economics Impacts of Social Sciences blog on CRediT Taxonomy](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
+* [كلية لندن للاقتصاد تأثير مدونة العلوم الاجتماعية على تصنيف CRediT](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
 
 
 

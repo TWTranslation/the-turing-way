@@ -1,44 +1,44 @@
-(cm-new-community-techissue)=
-# Addressing Technical Issues
+(تكنولوجيا جديدة للمجتمع)=
+# معالجة المسائل التقنية
 
-Make sure that you also have plans in place for people who want to contribute to your project but might deviate from your original goals very fast without supervision or guidance. If specific skills or practices are required for someone to contribute to your project, you should be able to point people to relevant resources so that they can engage with your project effectively.
+تأكد من أن لديك خطط أيضا للأشخاص الذين يرغبون في المساهمة في مشروعك ولكن قد ينحرف عن أهدافك الأصلية بسرعة دون إشراف أو توجيه. إذا كانت هناك حاجة إلى مهارات أو ممارسات محددة ليساهم شخص ما في مشروعك، يجب أن تكون قادراً على توجيه الناس إلى الموارد ذات الصلة حتى يتمكنوا من المشاركة في مشروعك بفعالية.
 
-Here are some recommendations to prepare your project for addressing technical issues that your team or community members can most likely face.
+فيما يلي بعض التوصيات لإعداد مشروعك لمعالجة المشاكل التقنية التي قد يواجهها فريقك أو أعضاء المجتمع المحلي على الأرجح.
 
-## Setup tools to enable collaboration
+## إعداد أدوات لتمكين التعاون
 
-When writing up research either of the final report or for sharing preliminary findings, there should be a conscious decision about what software you are using to write out your result. This decision affects how collaboration will look like in your project. To avoid any potential barriers to collaboration, take the following aspects into considerations:
-* **Availability of software**: Ensure that all of the collaborators have access to the software and platform you are using, for example, paid subscription or licence to use proprietary software.
-* **Technical skills**: Ensure that all of the collaborators are comfortable using the software, for example, they are confident to edit a file written in a programming or mark-up language.
+2 - عند كتابة البحث إما في التقرير النهائي أو لتقاسم النتائج الأولية، يجب أن يكون هناك قرار واعي حول البرامج التي تستخدمها لكتابة نتيجتك. هذا القرار يؤثر على كيف سيبدو التعاون في مشروعك. وتفاديا لأي حواجز محتملة تحول دون التعاون، أخذ الجوانب التالية في الاعتبار:
+* **توافر البرمجة**: تأكد من أن جميع المتعاونين لديهم حق الوصول إلى البرمجيات والمنصة التي تستخدمها، فعلى سبيل المثال، يدفع الاشتراك أو الترخيص باستخدام البرمجيات المسجلة الملكية.
+* **المهارات التقنية**: تأكد من أن جميع المتعاونين مرتاحون باستخدام البرنامج، على سبيل المثال، لديهم الثقة في تحرير ملف مكتوب بلغة برمجة أو ترقيم.
 
-Context-specific issues may appear depending on the roles and responsibilities shared within a team. Therefore, potential solutions can be planned to address these issues including providing short tutorials (see the next point). Being aware of the potential barriers that the software we use may create can lead to choosing tools and solution that works for all our collaborators.
+وقد تظهر المسائل المحددة في السياق تبعا للأدوار والمسؤوليات التي يتقاسمها الفريق. ولذلك، يمكن التخطيط لإيجاد حلول ممكنة لمعالجة هذه المسائل بما في ذلك توفير دروس قصيرة (انظر النقطة التالية). وإدراكا للحواجز المحتملة التي يمكن أن تخلقها البرمجيات التي نستخدمها يمكن أن تؤدي إلى اختيار الأدوات والحلول التي تعمل لصالح جميع المتعاونين معنا.
 
-## Provide short and concise tutorials
+## توفير دروس قصيرة وموجزة
 
-In most of the research projects, we work on what is urgent right now, which might mean that we may overlook what is important in the long term. For example, we might want to test several algorithms on our data but don’t pay attention to recording the outcome systematically in a central platform that others access. Offering training or short pre-recorded videos on recommended practices can enable your community members to work using a standard workflow or take over some tasks from others.
+وفي معظم مشاريع البحوث، نعمل على ما هو عاجل الآن، وهذا قد يعني أننا قد نغفل ما هو مهم في الأجل الطويل. على سبيل المثال قد نريد أن نختبر عدة خوارزميات على بياناتنا ولكن لا نولي الاهتمام لتسجيل النتيجة بشكل منهجي في منصة مركزية يستطيع الآخرون الوصول إليها. تقديم التدريب أو مقاطع الفيديو القصيرة المسجلة مسبقاً عن الممارسات الموصى بها يمكن أن يمكن أفراد مجتمعك من العمل باستخدام تدفق العمل القياسي أو تولي بعض المهام من الآخرين.
 
-## Testing is important
+## الاختبار مهم
 
-To err is human! And when working under pressure, they might be more frequent.
+أن يخطئ بشر! وعندما تعمل تحت الضغط، قد تكون أكثر تواترا.
 
-Test your codes and encourage your community to review and test each other's code. In addition to writing code that solves problems, you should teach and promote the practice of [unit testing](http://softwaretestingfundamentals.com/unit-testing/) to test if the individual units/components of software work as expected.
+اختبر الرموز الخاصة بك وشجع مجتمعك على مراجعة واختبار رمز بعضك البعض. بالإضافة إلى كتابة التعليمات البرمجية التي تحل المشاكل، يجب عليك تدريس وترويج ممارسة [وحدة اختبار](http://softwaretestingfundamentals.com/unit-testing/) لاختبار ما إذا كانت الوحدات/مكونات البرنامج تعمل كما هو متوقع.
 
-You can also set up a {ref}`Continuous Integration<rr-ci>` environment to help automate testing in your workflow.
+يمكنك أيضا إعداد بيئة {ref}`التكامل المستمر<rr-ci>` للمساعدة في التشغيل الآلي للاختبار في سير العمل الخاص بك.
 
-See the {ref}`testing <rr-testing>` section in the Guide for Reproducible Research for more information.
+راجع قسم اختبار {ref}` <rr-testing>` في دليل البحث التجريبي لمزيد من المعلومات.
 
-## Reproducibility is even more important
+## بل إن القابلية للتلاحم أكثر أهمية
 
-A great thing for less involved team members to do is constantly test the reproducibility of any code/environment. Do this from the start and it won’t be a surprise later when it doesn’t work on somebody else’s computer.
+والشيء الرائع الذي يتعين على أعضاء الفريق الأقل مشاركة القيام به هو الاختبار المستمر لقابلية أي شفرة أو بيئة للتكرار. قم بذلك منذ البداية ولن يكون مفاجأة في وقت لاحق عندما لا يعمل على جهاز كمبيوتر شخص آخر.
 
-Reach out to the experts, especially when dealing with legacy code. Reach out to other communities with specific expertise to save effort and time that can be invested in other tasks. For example, a lot of the scientific knowledge is built on top of results from FORTRAN, C, and Java code that isn't maintained any longer and, probably, isn't documented. Finding someone with the knowledge and experience of the legacy code to answer questions that other developers have will be a huge time saver.
+الاتصال بالخبراء، لا سيما عند التعامل مع المدونة القديمة. • الاتصال بالمجتمعات الأخرى ذات الخبرة المحددة لتوفير الجهد والوقت اللذين يمكن استثمارهما في مهام أخرى. وعلى سبيل المثال، فإن الكثير من المعارف العلمية مبنية على أساس النتائج المستمدة من FORTRAN، C، و Java التعليمات البرمجية التي لم يعد يتم صيانتها بعد الآن، وربما لم يتم توثيقها. العثور على شخص لديه معرفة وخبرة من التعليمات البرمجية القديمة للإجابة على الأسئلة التي لدى المطورين الآخرين سيكون توفير الوقت الضخم.
 
-See the {ref}`Guide for Reproducible Research <rr>` chapter for more information.
+راجع {ref}`دليل البحث التجريبي <rr>` الفصل للحصول على مزيد من المعلومات.
 
-## Share code (and data) early on
+## مشاركة الرمز (والبيانات) في وقت مبكر
 
-Developers must share their code in a public version-controlled repository (like GitHub and GitLab) and coordinate who is working on what feature or fix. Especially, when running on urgent projects against the clock, it is crucial not to waste time at the end of your project in compiling the different components of your research when you can practice doing it from the beginning.
+يجب على المطورين مشاركة تعليماتهم البرمجية في مستودع يتحكم فيه الإصدار العام (مثل GitHub و GitLab) وتنسيق من يعمل على أي ميزة أو إصلاح. وعلى وجه الخصوص، عند تنفيذ مشاريع عاجلة على مدار الساعة، من المهم عدم إضاعة الوقت في نهاية مشروعك لتجميع مختلف مكونات بحثك عندما يمكنك ممارسة ذلك منذ البداية.
 
-## Take note of the privacy issues
+## خذ علماً بمشاكل الخصوصية
 
-Ask yourself, how can people who need to access this data get to it. How they can re-use and share the data appropriately. Choose an appropriate open source license for your data, scripts, and software. Choose a relevant license ensuring the protection of information that is sensitive such as movement and location data, personal health issues, contact information, names, date of birth, and personal addresses. Avoid gathering personal information that is not necessary or breaches confidentiality.
+اسأل نفسك، كيف يمكن للناس الذين يحتاجون للوصول إلى هذه البيانات أن يصلوا إليها. كيف يمكنهم إعادة استخدام البيانات وتقاسمها بشكل ملائم. اختر ترخيص مفتوح المصدر مناسب لبياناتك و البرامج النصية و البرمجية. اختر ترخيصا ذا صلة يضمن حماية المعلومات الحساسة مثل بيانات الحركة والموقع. مشاكل الصحة الشخصية، بيانات الاتصال والأسماء وتاريخ الولادة والعناوين الشخصية. تجنب جمع معلومات شخصية غير ضرورية أو تخل بالسرية.

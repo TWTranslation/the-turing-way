@@ -1,29 +1,29 @@
 (pd-overview-repro)=
-# Communication and Collaboration
+# 交流与合作
 
-Good communication and collaboration practices are complementary to research reproducibility, and often it is hard to separate these concepts from each other. In _The Turing Way_, we consider these essential for reproducible research and provide separate guides for {ref}`communication<cm>` and {ref}`collaboration<cl>`.
+良好的沟通和协作做法是对研究可再生性的补充，而且往往难以将这些概念彼此分离。 在 _诱惑路径_， 我们认为这些对于可复制的研究至关重要，并且为 {ref}`通信<cm>` 和 {ref}`协作<cl>`提供单独的指南。
 
-In this page, we highlight some of the most important recommendations for collaboration and communication to ensure that you, and everyone else in your project, understand what the project is about, who the stakeholders are and how they can participate. You can visit specific chapters to gain an in-depth understanding and selection of practices that meet the specific requirements in your project.
+在本页中，我们强调了一些最重要的合作和沟通建议，以确保你们： 和你的项目中的所有其他人都了解项目是什么，利益攸关者是谁，以及他们如何能够参与。 您可以访问特定的章节来深入了解和选择符合您项目具体要求的做法。
 
-**Documenting project plans and processes for transparency**:
+**记录项目计划和进程以提高透明度**:
 
-Document all proposed plans for the project with information on available resources and recommended practices to ensure everyone is on the same page (literally!). Communicate the work culture that you want to promote and policies that ensures the safety and security of both your data and people.
+用现有资源和建议的做法来记录所有拟议的项目计划，以确保每个人都在同一页上(字面上!)。 传播你想要促进的工作文化和确保你的数据和人员安全的政策。
 
-Documentation should be shared via centralised, findable and accessible platforms. It is particularly important to share the vision, mission and milestones clearly. Provide sufficient information for what the expected outcomes and deliverables are.
+文件应通过集中、可找到和可访问的平台共享。 尤其重要的是明确分享远见、使命和里程碑。 请提供充分资料，说明预期成果和可达到的目标。
 
-Provide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature. Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.
+提供总体目标和短期目标并说明预期成果，以帮助贡献者摆脱对特征的单一想法。 叙述在初步实施之后阶段在事先确定和商定的方式中扩大特征的可能性。
 
-**Project's "Who-is-Who"**:
+**项目的 "Who-is-Who"**:
 
-Create a directory to highlight the different stakeholders with their roles in the project, keys skills, interests and contact information (when possible). Describe what opportunities for collaboration different members will have. When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.
+创建一个目录，突出显示不同利益攸关方在项目中的作用、关键技能、兴趣和联系信息(可能时)。 描述不同成员将有什么合作机会。 在可能的情况下，例如在开放源码项目中，为当前组外的人提供这些细节。 特别是当你想要鼓励项目外的人参与时。
 
-Provide resources on ways of working to ensure fair participation of stakeholders who collaborate on short- and long-term milestones within the project. It reduces or addresses concerns about the project's progress towards meeting goals and prevent potential fallout between project stakeholders.
+提供资源说明如何努力确保在项目内就短期和长期里程碑进行合作的利益攸关方的公平参与。 它减少或解决对项目在实现目标方面的进展的关切，并防止项目利益攸关方之间可能产生的影响。
 
-**Participation and contribution process**:
+**参与和贡献过程**:
 
-Considering the variety of different backgrounds and skills your members bring, describe how they can participate and start contributing. Provide clear opportunities for contributions, review, management, mentoring and support. Provide an overview of how different contributions or resources are connected and how new contributions will fit into existing materials. Provide a decision-making framework to facilitate discussions and reaching a shared conclusion. In the context of software, coding projects are as much about communication as they are about coding (if not more). Allow informed discussions when a particular project design has reached the end or when it is useful to update it for efficiency and sustainability.
+考虑到您的成员所具有的不同背景和技能，描述他们如何参与并开始作出贡献。 提供明确的捐助、审查、管理、指导和支助机会。 请概述不同捐款或资源之间的联系，以及新捐款如何与现有材料相适应。 提供一个决策框架，以促进讨论和达成共同结论。 就软件而言，编码项目既涉及通讯，也涉及编码(如果不涉及更多)。 允许在特定项目设计已经结束或为提高效率和可持续性而更新项目时进行知情的讨论。
 
-Describe how your research objects are available or will be published and how different stakeholders will be recognised. It helps everyone feel appreciated and acknowledged for their contribution to the overall vision.
+描述您的研究对象是如何可用的或将要发布的，以及如何识别不同的利益相关者。 它有助于每一个人都感到赞赏和赞赏，感谢他们对总体远景所作的贡献。
 
 
 <!--
@@ -42,46 +42,46 @@ We recommend reading the following chapters to understand effective communicatio
 - {ref}`<>`
 -->
 
-(pd-overview-repro-mistakes)=
-## Bonus Section: Learning from Mistakes
+(pd-overview-reavies)=
+## 耐用部分：从导弹系统中学习
 
-> “Building takes many, many mistakes.” ― Becky Chambers, [The Long Way to a Small, Angry Planet](https://www.goodreads.com/work/quotes/42270825)
+> “建筑需要许多错误。” — — 成为分庭， [通往一个小的、愤怒的星球的长路](https://www.goodreads.com/work/quotes/42270825)
 
-Learning about past design mistakes can give us insight into what we can do differently in the future. We asked a group of researchers to share what they consider their project design regrets, which we have summarised here:
+了解过去设计上的错误，可以使我们深入了解我们今后可以采取的不同行动。 我们请一组研究人员介绍他们认为他们在项目设计方面感到的遗憾，我们在这里已经做了总结：
 
-- Not advocating for clearer goals and success criteria from the beginning.
-- Not communicating the project vision clearly/often enough to the other team members.
-- Not ensuring that all stakeholders were fully aware of the nature of the project.
-- Not understanding that project design is about people first. Designs motivate stakeholders and allow collaboration and inclusion.
-- I guess I wrote these as actions I wish I had done better - Not setting short- and long-term milestones, communicating and enforcing norms for collaborator engagement, delegating work and project management tasks.
-- Not having documentation besides final reports. When being asked about the code or dataset (raw and process), step by step process from preparing data to getting the results, lack of documented guidance in one place made it hard to trace the project with all team members (classic problem).
-- Not properly taking into account the degree to which requirements will change throughout a project - which happens a lot in academia - and the effect this has on designs that then also need to change.
-- Trying to plan too much at the beginning and never getting started.
-- Feeling like I am always taking an ad hoc approach to planning a project and then feeling like I am spending too much time on the organisation side of the project because I don’t have a set workflow to handle project planning and design. Also, not knowing how does project planning fit into project design.
-- Using a very messy excel to store/process data, the shame!
-- Over-engineering a design for features that didn’t end up being implemented (in life before academia!)
-- Not implementing Git flow from the start, and not teaching collaborators how to use Git flow.
-- Not developing tests until after a significant amount of code was written.
-- Not doing code reviews.
-- Not defining use scenarios for the software from the beginning, meaning we didn’t pay enough attention to data input and output.
-- Agonising too long before switching to objectively better design (particularly translating from a largely functional codebase to more object-oriented).
-- Going with options that team members are ‘comfortable’ with (for example, using outdated languages or platform-dependent compilers), rather than teaching team members new skills. Makes life more difficult in the long run.
-- Defining governance at different stages of the project or potential scenario planning for how governance might change as the project scales up/down/gains new users and so on.
-- Not thinking about community from the start, starting with a Code of Conduct, thinking about a Contributor License Agreement (intellectual property), what processes will be used and how they will work, how they will impact future contributors and the overall project.
+- 不从一开始就倡导更明确的目标和成功标准。
+- 没有向其他小组成员明确/经常地传达项目远景。
+- 不能确保所有利益攸关方都充分了解项目的性质。
+- 不理解项目设计首先是人的。 设计动员利益攸关方并允许协作和包容各方。
+- 我猜想我写这些是作为我希望做得更好的行动—— 没有设定短期和长期的里程碑—— 宣传和执行协作者参与、授权工作和项目管理任务的规范。
+- 除了最后报告外，没有文件。 当被问及代码或数据集(原始和过程)时，一步一步从准备数据到获取结果， 由于一个地方没有文件记载的指导，很难与所有小组成员一起追踪项目(典型问题)。
+- 没有适当考虑到在整个项目中要求变化的程度――在学术界发生了许多变化――以及这对那时也需要改变的设计产生的影响。
+- 试图从一开始就规划太多，从未开始。
+- 我觉得总是采取临时办法来规划一个项目，然后感到我在项目组织方面花了太多的时间，因为我没有一个固定的工作流程来处理项目规划和设计。 此外，不知道项目规划如何适合项目设计。
+- 使用一个非常迷惑的Excel 来存储/处理数据，那个形状！
+- 超工程设计的设计尚未实现(在学术界之前的生活中!)
+- 不实现 Git 从一开始就会产生，也不会教合作者如何使用 Git flow。
+- 在编写大量代码之前不进行测试。
+- 不进行代码审查。
+- 没有定义从一开始就使用软件的场景，这意味着我们没有足够注意数据输入和输出。
+- 过长时间才转向客观上更好的设计（特别是从基本上可以使用的代码库转换成更面向对象的代码库）。
+- 前往团队成员“舒适”的选项(例如，使用过时语言或平台依赖编译器)，而不是教团队成员新技能。 从长远来看，使生活更加困难。
+- 界定项目不同阶段的治理或潜在的设想规划，说明随着项目向上/向下/向上增加新用户等等，治理可能如何改变。
+- 从一开始就不想到社区，首先是行为守则，想到贡献者许可证协议(知识产权)， 将使用哪些程序，如何运作，这些程序将如何影响未来的捐助者和整个项目。
 
-### Preparing for Change
+### 准备更改
 
 ```{note}
-**I work alone, do I need to think about project design?**
+**我独自工作，我是否需要思考项目设计？**
 
-The short answer is 'yes'.
-The project design will allow you to manage your work well for yourself (see the section: {ref}`Getting Started<pd-overview-planning-started>`).
+简短的答案是“是”。
+项目设计将使您能够为自己管理您的工作(见： {ref}`入门<pd-overview-planning-started>`)。
 
-A little work and time investment early on in project design saves a lot of time later when any circumstances that demand change.
+在项目设计早期进行少量的工作和投入时间，在任何需要改变的情况下都节省了很多时间。
 ```
 
-It is really hard for a project to move from practices that were designed for one person to practices that work for a team. Therefore, it is essential to document and use practices that will enable collaboration if and when you have to involve others in your project. Considering good team practices even for a project run by an individual makes it easy for them to effectively accomplish their goals. For example, you can define goals in your project and identify tasks by asking questions like: how can my work be split, how will it be reviewed, how will decisions be made, and so on. Learn how [agile methodologies](http://www.agilenutshell.com/) help adapt to changes.
+一个项目确实很难从为一个人设计的做法转向为一个小组工作的做法。 因此，如果您必须让其他人参与您的项目，就必须记录和使用能够使协作的做法。 考虑到良好的团队做法，即使是个人经管的项目，也会使他们很容易有效地实现他们的目标。 例如，您可以在您的项目中定义目标并通过询问如下问题来确定任务： 如何分割我的工作？ 如何进行审查，如何作出决定，等等。 了解 [放大方法](http://www.agilenutshell.com/) 如何帮助适应变化。
 
-Project design would not ensure that everything will always go as planned or there will be no unexpected challenges. However, it helps prepare in advance for risk management and adapt to changes better. Also, see [The cost of change curve](http://www.agilemodeling.com/essays/costOfChange.htm) in the context of Software Engineering.
+项目设计不能确保一切都按计划进行，否则就不会有意料之外的挑战。 然而，它有助于事先为风险管理做好准备，并更好地适应变化。 另外，查看 [软件工程背景下更改曲线](http://www.agilemodeling.com/essays/costOfChange.htm) 的成本。
 
-_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). The workshop was delivered by Malvika Sharan, Emma Karoune and Batool Almarzouq on 31 March 2021. Zenodo. DOI: [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)._
+_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). 讲习班由Malvika Sharan、Emma Karoune和Batool Almarzouq在2021年3月31日讲演。 Zenodo. DOI： [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)。_

@@ -1,55 +1,55 @@
-# Code Style and Formatting
+# نمط التعليمات البرمجية وتنسيقها
 
-A coding style is a set of conventions on how to format code. For instance, what do you call your variables? Do you use spaces or tabs for indentation? Where do you put comments? Consistently using the same style throughout your code makes it easier to read. Code that is easy to read is easier to understand by you as well as by potential collaborators. Therefore, adhering to a coding style reduces the risk of mistakes and makes it easier to work together on software. [Why Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) is a nice article on why coding styles matter and how they increase software quality.
+نمط البرمجة هو مجموعة من الاتفاقيات حول كيفية تنسيق البرمجة. على سبيل المثال، ما الذي تسميه المتغيرات الخاصة بك؟ هل تستخدم المسافات أو علامات التبويب للإضافة؟ أين تضع تعليقات؟ استخدام نفس النمط بشكل متسق في كل الكود يجعل قراءتك أسهل. الكود الذي يسهل قراءته هو أسهل فهمه من جانبك ومن جانب المتعاونين المحتملين. ولذلك، فإن الانضمام إلى أسلوب الترميز يقلل من خطر الأخطاء وييسر العمل معا على البرمجيات. [لماذا البرمجة على نمط الأمور](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) هي مقالة لطيفة عن سبب أهمية أنماط البرمجة وكيف أنها تزيد من جودة البرنامج.
 
-For example, [PEP8](https://www.python.org/dev/peps/pep-0008/) is the most widely used Python coding style and [ECMAScript 6](http://es6-features.org/) aka [ES6](http://es6-features.org/) is the scripting-language specification standardized by ECMA International for programming in Javascript.
+على سبيل المثال [PEP8](https://www.python.org/dev/peps/pep-0008/) هو أكثر أنماط برمجة بايثون استخداما و [ECMAScript 6](http://es6-features.org/) على سبيل المثال [ES6](http://es6-features.org/) هو مواصفات لغة الكتابة الموحدة بواسطة ECMA International للبرمجة في جافاسكريبت.
 
-For commonly used style guides for various programming languages see the [Language Guides](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google also has a [style guide](https://code.google.com/p/google-styleguide/) for many languages that are used in open source projects originating out of Google.
+للحصول على أدلة النمط الشائع الاستخدام لمختلف لغات البرمجة راجع [أدلة اللغة](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). لدى جوجل أيضا دليل نمط [](https://code.google.com/p/google-styleguide/) للعديد من اللغات المستخدمة في مشاريع مفتوحة المصدر منشأ من جوجل.
 
-## Automatic formatting
+## التنسيق التلقائي
 
-Numerous tools exists to automatically format code such that it follows a certain style. Automatic formatting enables higher code quality, especially when you are collaborating in a team and other people need to look at the code you've written. Many developers and organisations maintain standards of code formatting like **2-space** or **4-space indentation**. Using these is highly recommended since the probability of finding bugs (if any) increases multifold.
+يوجد العديد من الأدوات لتنسيق التعليمات البرمجية تلقائياً بحيث تتبع أسلوباً معيناً. يتيح التنسيق التلقائي جودة أكبر، خاصة عندما تتعاون مع فريق والناس الآخرين بحاجة إلى النظر إلى التعليمات البرمجية التي كتبتها. العديد من المطورين والمنظمات يحافظون على معايير تنسيق التعليمات البرمجية مثل **2 مسافة** أو **4 مسافة داخلية**. استخدام هذه يوصى به بشدة لأن احتمال العثور على الأخطاء (إن وجدت) يزيد عدة أضعاف.
 
-[EditorConfig](https://editorconfig.org) is a language independent tool that helps maintain consistent whitespace styles for multiple people working on the same project across various editors. Most editors support EditorConfig either natively or through a plugin. Almost all widely used IDEs and text-editors support automatic code formatting upon typing. For example: [JetBrains IDE Suite](https://www.jetbrains.com/products.html#), [VSCode](https://code.visualstudio.com/) and [Atom](https://atom.io/).
+[EditorConfig](https://editorconfig.org) هي أداة مستقلة لغة تساعد على الحفاظ على أنماط المساحة البيضاء المتسقة لأشخاص متعددين يعملون على نفس المشروع عبر محررين مختلفين. يدعم معظم المحررين تحرير الإعدادات إما محلياً أو من خلال إضافة. تقريبا جميع محرري الـ IDEs والنصوص المستخدمين على نطاق واسع يدعم التنسيق التلقائي عند الكتابة. على سبيل المثال: [مجموعة JetBrains IDE](https://www.jetbrains.com/products.html#)، [VSCode](https://code.visualstudio.com/) و [Atom](https://atom.io/).
 
-In addition to that, there are many language specific tools for automatically formatting code according to a particular style. Note that editors often support using these tools directly from the editing environment.
+بالإضافة إلى ذلك، هناك العديد من الأدوات الخاصة بلغة معينة لتنسيق التعليمات البرمجية تلقائياً وفقاً لنمط معين. لاحظ أن المحررين كثيرا ما يؤيدون استخدام هذه الأدوات مباشرة من بيئة التحرير.
 
-| Language   | Formatter Tool                                                                                              |
-| ---------- | ----------------------------------------------------------------------------------------------------------- |
-| C/C++      | [GNUIndent](http://www.gnu.org/software/indent/), [GreatCode](http://sourceforge.net/projects/gcgreatcode/) |
-| Python     | [Black](https://black.readthedocs.io), [yapf](https://pypi.org/project/yapf/)                               |
-| Javascript | [beautifier.io](https://beautifier.io/)                                                                     |
-| Java       | [Google Java format](https://github.com/google/google-java-format), [JIndent](http://www.jindent.com/)      |
-| PHP        | [phpStylist](http://sourceforge.net/projects/phpstylist/)                                                   |
-| Perl       | [PerlTidy](http://perltidy.sourceforge.net/)                                                                |
-| Shell/Bash | [ShellIndent](http://www.bolthole.com/AWK.html)                                                             |
-| CSS        | [CSSTidy](http://csstidy.sourceforge.net/)                                                                  |
-| HTML       | [Tidy](http://tidy.sourceforge.net/)                                                                        |
+| اللغة       | أداة فورت                                                                                                      |
+| ----------- | -------------------------------------------------------------------------------------------------------------- |
+| C/C++       | [GNUIndent](http://www.gnu.org/software/indent/)، [الكود العظيم](http://sourceforge.net/projects/gcgreatcode/) |
+| Python      | [أسود](https://black.readthedocs.io)، [yapf](https://pypi.org/project/yapf/)                                   |
+| جافا سكريبت | [beautifier.io](https://beautifier.io/)                                                                        |
+| جافا        | [تنسيق جوجل جافا](https://github.com/google/google-java-format)، [JIndent](http://www.jindent.com/)            |
+| PHP         | [phpStylist](http://sourceforge.net/projects/phpstylist/)                                                      |
+| Perl        | [PerlTidy](http://perltidy.sourceforge.net/)                                                                   |
+| قذيفة/باش   | [قماش](http://www.bolthole.com/AWK.html)                                                                       |
+| CSS         | [CSSTidy](http://csstidy.sourceforge.net/)                                                                     |
+| HTML        | [مميتة](http://tidy.sourceforge.net/)                                                                          |
 
-**Quick Tip**: If you use VS Code as your primary text editor, you can enable automatic code formatting right into your browser. Open your preferences page in JSON mode and add the following line:
+**نصيحة سريعة**: إذا كنت تستخدم رمز VS كمحرر نصي رئيسي ، يمكنك تمكين تنسيق التعليمات البرمجية التلقائية إلى المتصفح الخاص بك. فتح صفحة التفضيلات الخاصة بك في وضع JSON وإضافة السطر التالي:
 
 ```
-"editor.formatOnSave": true,
+"editor.formatOnSave": صحيح,
 ```
 
-## Online services providing software quality checks
+## خدمات الإنترنت التي توفر التحقق من جودة البرمجيات
 
-There are several web services that analyse code and make the quality of the code visible. Usually these services run one or more static code analysis tools that can also be used from the command line or integrated into your editor on your own computer. Using a code quality service that integrates with a GitHub/GitLab repository is highly recommended, as it can detect and communicate quality issues in pull requests.
+هناك العديد من خدمات الويب التي تقوم بتحليل التعليمات البرمجية وجعل جودة التعليمات البرمجية مرئية. عادة ما تقوم هذه الخدمات بتشغيل أداة أو أكثر من أدوات تحليل التعليمات البرمجية الثابتة التي يمكن استخدامها أيضًا من سطر الأوامر أو مدمجة في محررك على جهاز الكمبيوتر الخاص بك. يوصى بشدة باستخدام خدمة جودة التعليمات البرمجية التي تتكامل مع مستودع GitHub/GitLab ، حيث يمكنها الكشف عن مشاكل الجودة في طلبات السحب والإبلاغ عنها.
 
-Code quality analysis services are websites that often offer the following features:
+خدمات تحليل جودة البرمجة هي مواقع الويب التي غالباً ما توفر الميزات التالية:
 
-- Automatically analyse your code after pushing it to GitHub/GitLab
-- Usually free for open source projects
-- Support multiple programming languages, but not every language will have the same level of features
-- Grade or score for the quality of all of the code in the repository
-- List of issues with the code, grouped by severity
-- Drill down to location of issue
-- Default list of checks which the service provider finds the best practice
-- Can be configured to make the list of checks more strict or relaxed
-- Can be configured to ignore files or extensions
-- Can read a configuration file from repository
-- Track issues over time and send alerts when quality deteriorates
-- Optionally reports on code coverage generated by a CI build
-- Automatically deploy the repository and generates a preview build for review before final release.
+- تحليل التعليمات البرمجية الخاصة بك تلقائياً بعد دفعها إلى GitHub/GitLab
+- عادة مجانية للمشاريع مفتوحة المصدر
+- دعم لغات برمجة متعددة، ولكن ليس لكل لغة نفس المستوى من الميزات
+- درجة أو درجة لجودة كل الكود البرمجي في المستودع
+- قائمة بالمشكلات مع الكود، مجمعة حسب الشدة
+- التدريب لأسفل إلى موقع المشكلة
+- القائمة الافتراضية للمراجعات التي يجد موفر الخدمة أفضل ممارسة
+- يمكن تكوينه لجعل قائمة التحققات أكثر صرامة أو مريحة
+- يمكن تكوينه لتجاهل الملفات أو الملحقات
+- يمكن قراءة ملف التكوين من المستودع
+- تتبع المشكلات مع مرور الوقت وإرسال تنبيهات عندما تتدهور الجودة
+- تقارير اختيارية عن التغطية البرمجية الناشئة عن بناء CI
+- نشر المستودع تلقائياً و يقوم بإنشاء معاينة بناء للمراجعة قبل الإصدار النهائي.
 
-For a list of choices see [shields.io](https://shields.io/category/analysis) or [this list of services that are free for open source projects](https://github.com/ripienaar/free-for-dev#code-quality).
+للحصول على قائمة من الخيارات أنظر [Shields.io](https://shields.io/category/analysis) أو [قائمة الخدمات المجانية للمشاريع مفتوحة المصدر](https://github.com/ripienaar/free-for-dev#code-quality).

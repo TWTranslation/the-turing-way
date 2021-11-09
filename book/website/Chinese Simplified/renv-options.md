@@ -1,46 +1,46 @@
 (rr-renv-options)=
-# Capturing Computational Environments
+# 捕获计算环境
 
-There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
+有几种方法捕捉计算环境。 本章涉及的主要问题是包管理系统、 Binder、 虚拟机和容器。 每个选项都有其利弊，您最适合的选项将取决于您项目的性质。
 
-They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
+它们可大致分为两类：仅捕获软件及其在环境中使用的版本(黑客管理系统)； 和复制整个计算环境的系统——包括操作系统和定制设置(虚拟机和容器)。
 
-Another way these can be split is by how the reproduced research is presented to the reproducer. Using Binder or a Virtual Machine creates a much more graphical, GUI-type result. In contrast, the outputs of Containers and Package Management Systems are more easily interacted with via the command line.
+另一种可以分割的方法是如何向复制者介绍转载的研究。 使用Binder或虚拟机可以产生更多图形、GUI类型的结果。 与此相对照，集装箱和包裹管理系统的产出更容易通过命令线与之互动。
 
 ```{figure} ../../figures/computational-environments.jpg
 ---
-name: computational-environments
-alt: A depiction of the various tools used to capture computational environments
----
-Ways of capturing computational environments
+名称：计算环境
+Altt: 描述用于捕捉计算环境的各种工具
+--
+捕捉计算环境的方法
 ```
 
-A brief description of each of these tools is given below
+下面简要介绍每个工具
 
 
 (rr-renv-options-pms)=
-## Package Management Systems
+## 软件包管理系统
 
-Package Management Systems [{term}`def<Package Management System>`] are tools used to install and keep track of the software (and critically versions of software) used on a system and can export files specifying these required software packages/versions. The files can be shared with others who can use them to replicate the environment, either manually or via their Package Management Systems.
+包管理系统 [{term}`def<Package Management System>`] 是用于安装和跟踪系统上使用的软件(以及关键版本的软件)的工具，可以导出指定这些软件包/版本的文件。 这些文件可以与其他人共享，这些人可以手动或通过他们的软件包管理系统来复制环境。
 
 
 (rr-renv-options-binder)=
-## Binder
+## 宾代尔
 
-Binder [{term}`def<Binder>`] is a service which generates fully-functioning versions of projects from a git repository and serves them on the cloud. These "binderized" projects can be accessed and interacted with by others via a web browser. In order to do this, Binder requires that the software (and, optionally, versions) required to run the project are specified. Users can make use of Package Management Systems or Dockerfiles (discussed in the {ref}`rr-renv-options-containers` sections) to do this if they so desire.
+Binder [{term}`def<Binder>`] 是一个从git 存储库生成项目功能完整版本并在云端服务的服务。 这些“绑定”项目可以通过网络浏览器访问并与他人交流。 为了做到这一点，Binder要求指定运行项目所需的软件(和可选择的版本)。 Users can make use of Package Management Systems or Dockerfiles (discussed in the {ref}`rr-renv-options-containers` sections) to do this if they so desire.
 
 
 (rr-renv-options-vm)=
-## Virtual Machines
+## 虚拟机
 
-Virtual Machines [{term}`def<Virtual machine>`] are simulated computers. A user can make a "virtual" computer very easily, specifying the operating system they want it to have, among other features, and run it like any other app. Within the app will be the desktop, file system, default software libraries, and other features of the specified machine. These can be interacted with as if it was a real computer. Virtual Machines can be easily replicated and shared. This allows researchers to create Virtual Machines, perform their research on them, and then save their state along with their files, settings and outputs. They can then distribute these as a fully-functioning project.
+虚拟机 [{term}`def<Virtual machine>`] 是模拟计算机。 用户可以非常容易地制作一个“虚拟”计算机，指定他们想要拥有的操作系统。 除其他功能外，并和任何其他应用程序一样运行它。 应用内将有桌面、文件系统、默认软件库和指定机器的其他功能。 这些都可以与真正的计算机进行交流。 虚拟机可以轻易复制和共享。 这使得研究人员能够创建虚拟机，在它们上进行研究，然后保存他们的状态以及他们的文件、设置和输出。 然后他们就可以将其作为一个全面运作的项目来分发。
 
 
 (rr-renv-options-containers)=
-## Containers
+## 容器
 
-Containers [{term}`def<Container>`] offer many of the same benefits as Virtual Machines. They essentially act as entirely separate machines which can contain their own files, software and settings.
+容器 [{term}`def<Container>`] 提供与虚拟机相同的许多好处。 它们基本上是完全分开的机器，可以包含自己的档案、软件和设置。
 
-The difference is that Virtual Machines include an entire operating system along with all the associated software that is typically packaged with it - regardless of whether the project makes use of that associated software. Containers only contain the software and files explicitly defined within them in order to run the project they contain. This makes them far more lightweight than Virtual Machines.
+不同之处在于，虚拟机包括一个整个操作系统以及所有通常与虚拟机一起包装的相关软件――无论该项目是否使用该相关软件。 容器只包含明确定义的软件和文件，以便运行它们所包含的项目。 这使得它们比虚拟机轻得多。
 
-Containers are particularly useful if projects need to run on high-performance computing environments. Since they already _contain_ all the necessary software, they save having to install anything on an unfamiliar system where the researcher may not have the required permissions to do so.
+如果项目需要在高性能的计算机环境中运行，容器就特别有用。 Since they already _contain_ all the necessary software, they save having to install anything on an unfamiliar system where the researcher may not have the required permissions to do so.

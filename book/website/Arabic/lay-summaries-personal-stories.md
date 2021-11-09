@@ -1,55 +1,55 @@
-(cm-lay-summaries-personal-stories)=
-# Personal Stories - Lay Summaries
+(م ع-موجز-قصص شخصية)=
+# القصص الشخصية - الملخصات الصريحة
 
-## Emma Karoune - Making Palaeoecology More Accessible
+## إيما كارون - جعل علم البيئة القصر أكثر سهولة
 
-**Dr Emma Karoune** is a Research Associate at The Alan Turing Institute and Historic England focusing on Open Science and [Phytolith](https://en.wikipedia.org/wiki/Phytolith) Research. She is currently leading a project concerning the FAIRification of phytolith data.
+**الدكتورة إيما كارون** هي باحث مشارك في معهد آلان تورينغ و تاريخ إنكلترا يركز على العلوم المفتوحة و [فيتوليث](https://en.wikipedia.org/wiki/Phytolith) البحوث. وهي تقود حاليا مشروعا يتعلق بقاعدة البيانات المتعلقة بالنباتات والحيوانات النباتية.
 
-Find out more about her work from the links below:
-* [FAIR Phytoliths Project Website](https://open-phytoliths.github.io/FAIR-phytoliths/)
-* Blog - [The Open Archaeobotanist](https://ekaroune.github.io/The-Open-Archaeobotanist/)
+اعرف المزيد عن عملها من الروابط أدناه:
+* [موقع مشروع فيتوليث FIR](https://open-phytoliths.github.io/FAIR-phytoliths/)
+* المدونة - [عالم النبات المفتوح](https://ekaroune.github.io/The-Open-Archaeobotanist/)
 * Twitter - [ekaroune](https://twitter.com/ekaroune)
 
-We would like to thank **Emma** for answering our interview questions about her work with [PalaeoSIG](https://www.britishecologicalsociety.org/membership-community/special-interest-groups/palaeoecology-group/), the special interest group for palaeoecology at the British Ecological Society.
+نود أن نشكر **إيما** على الإجابة على أسئلة مقابلة حول عملها مع [قصر SIG](https://www.britishecologicalsociety.org/membership-community/special-interest-groups/palaeoecology-group/)، مجموعة الاهتمامات الخاصة لعلم البيئة في الجمعية البيئية البريطانية.
 
-Comments are also made in this case study by Dr Althea Davies and Dr Jane Bunting, who are the Secretaries of the PalaeoSIG and the organisers of this project along with Dr Eileen Tisdall.
+كما أبدى الدكتورة ألثيا ديفيس والدكتورة جين بونتنغ تعليقات في دراسة الحالة الإفرادية هذه. وهم أمناء قصر الأمم المتحدة ومنظمو هذا المشروع إلى جانب الدكتورة إيلين تسدال.
 
-**1. Why did you start your work on lay summaries?**
+**1. لماذا بدأت عملك في إعداد الملخصات؟**
 
-I attended an online workshop that PalaeoSIG organised in spring 2020 about [science writing and communication](https://palaeosigbes.wordpress.com/2020/05/11/testing-testing/). This was run by Althea Davies (University St Andrews), Jane Bunting (University Hull) and Eileen Tisdall (University Stirling). This workshop aimed to train palaeoecologists to communicate their research more effectively with non-specialists. As part of the workshop, we were tasked to produce short, accessible summaries of articles that had been suggested as the most influential palaeoecological papers in a recent Palaeoecology special interest group survey and these would then be disseminated in a blog.
-
-
-**2. How did you get started?**
-
-During the workshop, we were put into pairs so that we could work collaboratively on writing our two lay summaries. My collaborator and I opted to work in Google docs so that we could start documents for the first draft of each lay summary separately but we could also then go on to collaborate in real-time to edit and discuss our writing using the built-in editing and commenting features.
-
-Here is one of the lay summaries I wrote with my workshop partner Nick Loughlin - [New evidence to assess the 5 reasons Elm almost disappeared](https://palaeosigbes.wordpress.com/2020/11/18/new-evidence-to-assess-the-5-reasons-elm-almost-disappeared/).
-
-Once the workshop was over, we were asked if anyone wanted to help with editing and publishing the lay summaries. Some of us then formed a group of copy editors and summary editors, again to work in pairs to finalise each lay summary every week for release on the project website. The aim was to release one lay summary a week for a whole year.
-
-**3. What impact do you think your lay summaries are making to your research/project/community?**
-
-Althea told me that the WordPress site has between c.80 and 530 views per month, depending on how many posts we have. As to what impact they're having, she is not sure how to measure this. Althea commented that they didn't set out to be an 'influencer' looking for a high hit rate, rather more of a support mechanism, point of connection and community resource for palaeoscientists working in various disciplines and sectors. For instance, providing an opportunity for blogs by Early Career Researchers who might be unsure about offering one to a 'bigger' organisation, like a journal.
-
-**4. What tools/software do you use most in your lay summaries?**
-
-The Palaeoecology special interest group used Google Drive to run the project as Google Docs were used to write collaboratively and Google Sheets were used to coordinate the lay summaries and the editing and publishing progress. This allowed us to work synchronously during the workshop and asynchronously over the whole time of the project.
-
-The blog website uses WordPress. Althea said that she found uploading blogs quite straightforward and this probably reflects Jane's initial setup choices as well as the simplicity of the WordPress format and templates.
-
-**5. Do you have any top tips for other people that might be interested in starting lay summaries?**
-
-Writing lay summaries is a different type of writing so you do have to learn how to do it. The workshop training helped everyone to improve their writing skills as we were given lectures by an expert scientific editor from a popular science news website. This helped me to think about the differences between academic writing and writing for lay audiences.
-
-Also, you need to write to someone. Collaboration is the key to success as another pair of eyes helps to refine and improve your writing further.
-
-**6. Do you have any tips on things to avoid?**
-
-Don't leave in any technical words - this might seem a very hard thing to achieve but there is always a way you can explain or describe them simply instead. If you do have to include a technical word, you should put a definition in brackets or a link to a website that explains the term simply such as Wikipedia.
+حضرت ورشة عمل على الإنترنت نظمها قصر الأمم في ربيع عام 2020 حول [الكتابة العلمية والاتصال](https://palaeosigbes.wordpress.com/2020/05/11/testing-testing/). وقد تولت إدارة هذا المشروع ألثيا ديفيس (جامعة سانت أندروز)، وجين بونتنغ (جامعة هول) وإلين تيسدال (جامعة ستيرلنغ). وكان الهدف من حلقة العمل هذه هو تدريب علماء البيئة النخيلة على توصيل أبحاثهم بمزيد من الفعالية مع غير المتخصصين. وكجزء من حلقة العمل، كُلِّفنا بإنتاج قصير، أما الملخصات التي يمكن الوصول إليها للمقالات التي اقتُرحت بوصفها أكثر الورقات الإيكولوجية النخيلة تأثيراً في دراسة استقصائية أجرتها مؤخراً مجموعة الاهتمامات الخاصة في قصر الأم، فستوزع بعد ذلك في مدونة.
 
 
-**7. Where do you see your lay summaries writing skills going in the future?**
+**2. كيف بدأت؟**
 
-I have found these skills really useful for several reasons. I had to write a lay summary for a recent article I submitted so it helped me to think about how to change my writing style compared to the abstract.
+وخلال حلقة العمل، تم وضعنا في أزواج حتى نتمكن من العمل بشكل تعاوني على كتابة الموجزين المعروضين لدينا. لقد اخترت أنا والمتعاونين معي العمل في مستندات جوجل حتى نتمكن من البدء في الوثائق الخاصة بالمسودة الأولى لكل ملخص موضوعي بشكل منفصل ولكن يمكننا أيضا أن نواصل التعاون في الوقت الحقيقي لتحرير ومناقشة كتابتنا باستخدام الميزات المدمجة للتحرير والتعليق.
 
-I have also started a new job in the last year that was a project outside of my particular discipline and my first task was to edit lay summaries. This gave me a different perspective about how important they are for clear communication within projects for team members with different specialisms.
+هذه واحدة من الملخصات غير العادية التي كتبتها مع شريك ورشة العمل نيك لوفلين - [أدلة جديدة لتقييم الأسباب الخمسة التي كادت أن تختفي إلم](https://palaeosigbes.wordpress.com/2020/11/18/new-evidence-to-assess-the-5-reasons-elm-almost-disappeared/).
+
+وبمجرد انتهاء حلقة العمل، سئلنا عما إذا كان أحد يريد المساعدة في تحرير ونشر الملخصات غير المحترفة. وأنشأ بعضنا بعد ذلك مجموعة من محرري النسخ والمحررين الموجزين، مرة أخرى للعمل في أزواج لوضع اللمسات الأخيرة على كل ملخص معلن كل أسبوع للنشر على موقع المشروع على شبكة الإنترنت. وكان الهدف من ذلك هو إصدار موجز موضوعي أسبوعيا لسنة كاملة.
+
+**3. ما هو التأثير الذي تعتقد أن ملخصاتك المعتادة تقوم به على بحثك/مشروع/مجتمعك؟**
+
+أخبرتني آلثيا أن موقع ووردبريس لديه ما بين المشاهدتين c.80 و 530 مشاهد شهريا، اعتمادا على عدد المشاركات التي لدينا. فيما يتعلق بالأثر الذي يحدثونه، فهي ليست متأكدة من كيفية قياس هذا. وعلق آلثيا بأنه لم يحدد لهم أن يكونوا "متأثرين" يبحثون عن معدل ضرب مرتفع، بل أكثر من آلية دعم، نقطة الوصل والموارد المجتمعية لعلماء القصر العاملين في مختلف التخصصات والقطاعات. على سبيل المثال، توفير فرصة للمدونات من قبل الباحثين في الحياة المهنية المبكرة الذين قد لا يكونون متأكدين من تقديم واحدة لمنظمة "أكبر"، مثل المجلة.
+
+**4. ما هي الأدوات/البرمجيات التي تستخدمها أكثر في ملخصاتك؟**
+
+واستخدمت مجموعة الاهتمامات الخاصة بقصر البيئة Google Drive لتشغيل المشروع حيث استخدمت مستندات جوجل للكتابة بشكل تعاوني واستُخدمت صحائف جوجل لتنسيق الملخصات غير العادية والتقدم المحرز في التحرير والنشر. وقد مكننا ذلك من العمل بشكل متزامن خلال حلقة العمل وفي وقت غير متزامن طوال فترة المشروع.
+
+موقع المدونة يستخدم WordPress. قالت "ألثيا" إنها وجدت تحميل المدونات مباشرة تماماً، وهذا على الأرجح يعكس خيارات "جين" الأولية للإعداد بالإضافة إلى بساطة تنسيق ونماذج "ووردبرس".
+
+**5. هل لديك أي نصائح أعلى لأشخاص آخرين قد تكون مهتمة ببدء ملخصات عادية؟**
+
+كتابة الملخصات هي نوع مختلف من الكتابة، لذا عليك تعلم كيفية القيام بذلك. وساعد التدريب في حلقة العمل الجميع على تحسين مهاراتهم في الكتابة حيث تلقينا محاضرات من محرر علمي خبير من موقع شائع للأخبار العلمية. وهذا ساعدني على التفكير في الاختلافات بين الكتابة الأكاديمية والكتابة للجمهور العادي.
+
+وأيضا، تحتاج إلى الكتابة إلى شخص ما. التعاون هو مفتاح النجاح حيث أن زوج آخر من العين يساعد على صقل وتحسين كتابتك أكثر.
+
+**6. هل لديك أي نصائح حول الأشياء التي يجب تجنبها؟**
+
+لا تغادر بأي كلمات تقنية - قد يبدو من الصعب جداً تحقيقها ولكن هناك دائماً طريقة يمكن بها شرحها أو وصفها بدلاً من ذلك ببساطة. إذا كان عليك أن تضيف كلمة فنية، يجب عليك وضع تعريف بين قوسين أو رابط إلى موقع شبكي يفسر المصطلح ببساطة مثل ويكيبيديا.
+
+
+**7. أين ترون مهاراتك في الكتابة الملخصة في المستقبل؟**
+
+وقد وجدت أن هذه المهارات مفيدة حقا لعدة أسباب. كان علي أن أكتب ملخصا غير عادي لمقال قدمته مؤخرا حتى ساعدني على التفكير في كيفية تغيير أسلوب الكتابة الخاص بي بالمقارنة مع المجرد.
+
+وقد بدأت أيضا عملا جديدا في العام الماضي كان مشروعا خارج نطاق تخصصي الخاص وكانت مهمتي الأولى هي تحرير الملخصات. وقد أعطاني ذلك منظورا مختلفا عن مدى أهميتهم للاتصال الواضح داخل المشاريع لأعضاء الأفرقة ذوي التخصصات المختلفة.

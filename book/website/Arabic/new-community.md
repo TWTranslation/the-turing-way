@@ -1,22 +1,22 @@
-(cl-new-community)=
-# Managing a New Community and Team
+(نسخة جديدة من المجتمع)=
+# إدارة مجتمع جديد وفريق جديد
 
-As researchers, scientists and 'techies' we look for ways to use our skills to solve pressing, current issues.
+كباحثين، علماء و "تقنيين" نبحث عن طرق لاستخدام مهاراتنا لحل المشاكل الملحّة والحالية.
 
-The most recent example is the COVID-19 pandemic and related events {cite:ps}`WHO2020Jul` worldwide including the global lockdown that started in February 2020. The research communities responded with a sudden surge of hackathons, data modelling projects, task forces, and working groups to find effective and immediate technical solutions to combat this health crisis.
+وأحدث مثال على ذلك هو وباء COVID-19 والأحداث ذات الصلة {cite:ps}`WHO2020Jul` في جميع أنحاء العالم بما في ذلك القفل العالمي الذي بدأ في فبراير 2020. واستجابت الأوساط البحثية بالطفرة المفاجئة في عدد هاكاثيون()، ومشاريع نمذجة البيانات()، وأفرقة العمل()، • إنشاء أفرقة عاملة لإيجاد حلول تقنية فعالة وفورية لمكافحة هذه الأزمة الصحية.
 
 ```{figure} ../figures/new-community.png
 ---
-name: new-community
-alt: An illustration of 2 people who are working together and discussing a data chart.
+الاسم: مجتمع جديد
+البديل: مثال توضيحي لشخصين يعملان معا ومناقشة مخطط بيانات.
 ---
-An illustration of analytic process. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
+مثال توضيحي للعملية التحليلية. [صورة خالية من الملكية من العديد من البكسل](https://www.manypixels.co/gallery/)
 ```
 
-Such action oriented efforts result from a motivation to pull together and combine our scientific knowledge to address unprecedented situations, which is surely an ideal way to move forward. Nevertheless, forming effective collaborations is a challenging process, even in the best of times. Keeping a team engaged is a continuous activity that requires regular checking in and evaluation. Based on each evaluation we can change and improve our workflow and community practices. However, when we hastily create a project to tackle an immediate problem at hand, we don’t have the benefit of time to carry out such evaluation. Therefore it is even more important to be intentional when creating teams and communities and apply the tried and tested best practices from the beginning.
+وهذه الجهود العملية المنحى ناتجة عن دافع إلى توحيد معارفنا العلمية لمعالجة حالات لم يسبق لها مثيل، وهي بالتأكيد طريقة مثالية للمضي قدما. ومع ذلك، فإن إقامة تعاون فعال عملية تنطوي على تحديات، حتى في أحسن الأوقات. ويشكل الإبقاء على فريق ما نشاطا مستمرا يتطلب تدقيقا وتقييما منتظمين. واستنادا إلى كل تقييم، يمكننا أن نغير ونحسن سير عملنا والممارسات المجتمعية. ومع ذلك، فعندما نعجل في إنشاء مشروع لمعالجة مشكلة عاجلة في متناول اليد، وليس لدينا الوقت الكافي لإجراء هذا التقييم. ولذلك فإن من الأهم أن يكون المرء متعمدا عند إنشاء الأفرقة والمجتمعات المحلية وتطبيق أفضل الممارسات المجربة والمختبرة منذ البداية.
 
-So, how can we ensure that the teams and research communities we form during the time of urgency are built on the foundation of excellent science and community practices? To help researchers address this issue, especially when starting a community or team-oriented projects in a short amount of time (such as a pandemic), we have compiled recommendations drawn from the experiences of community and technical experts. In this chapter we discuss the important aspects that helps make a project truly productive, while being successfully community-oriented. We also discuss useful ways to tackle technical issue that can arise in a project. In the third subchapter, we urge our readers to identify their stakeholders, actively invite them to participate and value the differences that exist in their teams and communities.
+وبالتالي، كيف يمكننا أن نكفل بناء الأفرقة والأوساط البحثية التي نشكلها خلال فترة الاستعجال على أساس الممارسات العلمية والمجتمعية الممتازة؟ مساعدة الباحثين على معالجة هذه المسألة، لا سيما عند بدء مشاريع مجتمعية أو جماعية في وقت قصير (مثل الوباء)، وقد جمعنا توصيات مستمدة من تجارب الخبراء المجتمعيين والتقنيين. وفي هذا الفصل، نناقش الجوانب الهامة التي تساعد على جعل المشروع مثمرا حقا، بينما يكون موجها نحو المجتمعات المحلية بنجاح. ونناقش أيضا السبل المفيدة لمعالجة المسألة التقنية التي يمكن أن تنشأ في مشروع ما. وفي الفصل الفرعي الثالث، نحث قراءنا على تحديد أصحاب المصلحة، دعوهم بنشاط إلى المشاركة وتقدير الاختلافات الموجودة في أفرقتهم ومجتمعاتهم المحلية.
 
-We hope that practices recommended in this chapter will give a good starting point for building successful collaboration with your team and community. We want to prompt everyone to think critically not just about the technicalities of the work, but also the social environment in which it is being conducted.
+ونأمل أن توفر الممارسات الموصى بها في هذا الفصل نقطة انطلاق جيدة لبناء تعاون ناجح مع فريقكم ومجتمعكم. ونود أن نحث الجميع على التفكير النقدي ليس فقط في الجوانب الفنية للعمل، ولكن أيضا البيئة الاجتماعية التي تدار فيها.
 
-*This chapter was originally discussed and written in [an online post](https://www.software.ac.uk/blog/2020-05-26-cw20-speed-blog-bootstrapping-development-team-during-time-crisis) by Malvika Sharan, Yo Yehudi, Colin Sauze, Raniere Silva, Caroline Jay, Robert Haines and Claire Wyatt as a part of the [Collaboration Workshop 2020](https://www.software.ac.uk/cw20) speed blog series hosted by [Software Sustainability Institute](https://www.software.ac.uk).*
+*تمت مناقشة هذا الفصل في الأصل وكتابته في [منشور على الإنترنت](https://www.software.ac.uk/blog/2020-05-26-cw20-speed-blog-bootstrapping-development-team-during-time-crisis) من قبل مالفيكا شاران، يو يهودي، كولين سوزي، رانيير سيلفا، كارولين جاي، روبرت هاينز وكلير وايت كجزء من [حلقة العمل التعاونية 2020](https://www.software.ac.uk/cw20) سلسلة المدونة السريعة التي يستضيفها [معهد استدامة البرمجيات](https://www.software.ac.uk)*

@@ -1,107 +1,107 @@
-(cl-remote-collab-coworking)=
-# Organising Online Coworking Calls
+(cl-遥控钶钽铁矿石) =
+# 组织在线合作电话
 
-The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers.
+共事概念一般与与不同独立工作的人，如远距离雇员或自由职业者共享实际办公空间的做法有关。
 
-This allows people - who may otherwise feel isolated while working alone at home - to use traditional office setups, create a work routine, and build a sense of companionship with others who they share their office spaces with.
+这使人们能够利用传统的办公设施――否则他们可能会感到孤独而在家里单独工作――使用传统的办公设施， 创建例行工作并与共享办公室空间的其他人建立同伴感。
 
-In our Community Handbook, we discuss coworking calls hosted for _The Turing Way_ community (see the chapter on {ref}`The Turing Way Coworking Calls<ch-coworking>`). It includes our motivation, background, techniques, format, templates, and materials, which can be repurposed and adapted to support your teams and communities by setting up coworking calls for them.
+在我们的社区手册中， 我们讨论了托管的 _诱惑路径_ 社区的共用电话(见关于 {ref}的章节`“诱导路径合作呼吁<ch-coworking>`)。 它包括我们的动机、背景、技术、格式、模板和材料。 可以重新设计和调整以支持你的团队和社区，为他们建立合作呼叫。
 
-Below are descriptions of different aspects that one should take into consideration when planning or designing your coworking calls.
+以下是在规划或设计您的共用电话时应考虑的不同方面的说明。
 
-## Designing a format the works for you
+## 为您设计一个工作格式
 
-To identify what could be the best format for your coworking calls, you need to think about the following aspects:
+为了确定您的共用电话的最佳格式，您需要考虑以下几个方面：
 
-**Purpose of your coworking calls**
+**您的共事通话的目的**
 
-As described in the {ref}`motivation <ch-coworking-motivation>` subchapter, we host online calls for our community members for building connections, supporting our contributors, onboarding new members and celebrating their work.
+正如在 {ref}`动机 <ch-coworking-motivation>` 子章节中所描述的那样， 我们主办在线电话，请我们的社区成员建立联系，支持我们的贡献者，登上新成员并庆祝他们的工作。
 
-Your purpose for hosting coworking calls could be completely different and identifying that is important for you to plan the remaining logistics.
+您托管共用电话的目的可能完全不同，并且确定对于您规划剩余物流非常重要的内容。
 
-A few other scenarios could be:
-  - If you work from home, you would like to see your colleagues and stay connected with them through designated coworking schedules.
-  - If you are working with a distributed group of people on a common project, and if communication and exchange related to the project while working asynchronously is an issue, you can get a lot of your work done over a coworking call.
-  - If you are working on multiple projects and struggle to focus on one task at a time, coworking can help you put aside a few hours of your time to work with your colleagues who you share the project with.
-  - If there is a task you are struggling to complete, you can invite support from your trusted colleagues through coworking calls.
+其他几种情况可以是：
+  - 如果您在家里工作，您希望看到您的同事，并通过指定的同行时间安排保持联系。
+  - 如果您在一个共同项目上与分布式人员合作, 而且，如果在异步工作时与项目有关的沟通和交流是一个问题， 您可以通过一个共用电话获得许多您的工作。
+  - 如果你正在执行多个项目并努力同时关注一个任务， 通过共事可以帮助您拿出几个小时的时间与您共享项目的同事共事。
+  - 如果你正在努力完成一项任务，你可以通过共用电话邀请你信任的同事给予支持。
 
-**Target audience**
+**目标对象**
 
-If you already know the purpose of your coworking calls, you will be able to identify who your target audience is.
+如果您已经知道您的共用电话的目的，您将能够识别您的目标听众是谁。
 
-For example, if you host your coworking calls for an open source project such as _The Turing Way_, you can expect your current members, past contributors or even new members to the project to participate. If you are part of a small project, you would expect the same familiar faces in all your coworking calls.
+例如，如果您主办了您的共事通话，请拨打一个开放源码项目，例如 _Ting Way_， 您可以指望您当前的成员、过去的贡献者，甚至是项目的新成员参加。 如果你是一个小项目的一部分，你会在你所有的coworking 通话中期望相同的人脸。
 
-**Organisers and hosts**
+**组织者和主机**
 
-Many tasks go into organising a coworking call. These tasks can be taken care of by one person like a community manager, project manager, or a volunteer organiser. However, it is always a good idea to involve more people as co-organisers so that the coworking call still happens even when the main organiser can't join for any reason. To avoid one person burdening themselves with "not so exciting" organisation issues, you can also decide to rotate the role within the members of your project.
+许多任务都组织了一个共用电话。 这些任务可以由一个人照管，如社区管理人员、项目管理人员或志愿组织者。 然而，仍然存在着这种情况。 让更多的人作为共同组织者参与进来总是一个好主意，以便即使主要组织者出于任何原因不能加入，仍然会发生共用电话。 避免有人给自己带来“不那么激动”的组织问题， 你也可以决定在你的项目成员中旋转角色。
 
-**Size of the call**
+**呼叫大小**
 
-No matter what the purpose and who the target audience of your calls are, you can decide the size of your call by managing participation by prior registration. If you organise these calls for your project members on a mutually agreed time and with an agenda to work on specific tasks, you can expect most of them to show up. If you keep your call open for any of your community members to join, you may end up having a different number of participants on different calls. This would also mean that for some calls, there won't be anyone available to co-work with you.
+无论您的呼叫的目的是什么和目标受众是什么， 您可以通过预先注册管理您的参与来决定您通话的大小。 如果你将这些安排在一个共同商定的时间内并在一个议程中安排你的项目成员从事具体的任务， 你可以指望他们中的大多数都会出现。 如果您保持通话开放，让您的社区成员加入， 最后你可能会有不同数量的参与者来打不同的电话。 这也意味着某些电话不会有任何人与您合作。
 
-It's useful to handle some sort of sign-up sheet or registration system so the organisers know who to expect on the call. In _The Turing Way_, we use dedicated HackMD notes that can be updated before each call by the participants.
+处理某种注册表或注册系统是有用的，所以组织者知道打电话的是谁。 在 _诱惑路径_，我们使用专用的 HackMD 笔记，可以在每次参与者通话之前更新。
 
-**Frequency of these calls**
+**这些呼叫的频率**
 
-Once you have identified the purpose, target audience and size of your calls, you can decide how often you would like to host them. If you work with the same group of people, you can host it as per your common availability and at a mutually agreed time on a weekly or monthly basis.
+一旦您确定了您通话的目的、目标受众和大小，您就可以决定您想要多久地主办这些电话。 如果你与同一群人合作, 您可以根据您的共同可用性并在一个共同商定的时间内每周或每月地托管它。
 
-If the expected participants of your call also work on multiple projects, you might consider regularly hosting it on the same day and time each week or each month. This consistency will allow them to check their availability in advance and block these hours in their calendar. This will also reduce the extra work of coordinating the common availability every time (though you will have to do this in the beginning).
+如果您通话的预期参与者也在多个项目上工作， 你可以考虑在每星期或每个月的同一天和时间定期托管它。 这种一致性将使他们能够事先检查他们的可用性，并在他们的日历中阻止这些时间。 这也将减少每次协调共同可用性的额外工作(尽管你必须在一开始就这样做)。
 
-**Resource availability**
+**可用资源**
 
-Based on the resources available to you, you might have to fine-tune other aspects of your call.
+基于您可用的资源，您可能需要调整您通话的其他方面。
 
-For example:
-- *Shared calendar*: If there is a calendar that is updated with a schedule of the coworking calls, people can subscribe to it and indicate their availability.
-- *Communication platforms*: software like Zoom can allow you to connect with many people at the same time. However, you will need a paid subscription (pro account) to control who joins your call (by activating waiting room to avoid Zoom bombing), manage breakout rooms (to allow multiple small groups and discussions) or host longer calls (>40 minutes).
-- *Chat system*: If you have a group Slack or Gitter channel, information can be exchanged with everyone, including those who can not join the calls but want to offer suggestions or carry out related tasks asynchronously but in coordination with the group. This also allows people to keep each other informed of any last-minute changes such as updated links for joining calls, correct notes, or cancellation of calls.
+例如：
+- *共享日历*: 如果有一个日历已经更新，需要使用该日历的调用时间表， 人们可以订阅它并指出它们是否可用。
+- *通信平台*: 像缩放这样的软件可以让您同时与许多人连接。 然而，您需要一个付费订阅(专业帐户)来控制谁加入您的通话(激活等待房间以避免缩放爆炸)， 管理分班房间(允许多个小群组和讨论)或主机更长的通话时间(>40分钟)。
+- *聊天系统*: 如果您有一个群组Slack或Gitter频道，可以与所有人交换信息。 包括那些不能加入呼叫但希望以异步方式提出建议或执行相关任务但与小组协调的人。 这也可以让人们随时了解任何最后一分钟的更改，如加入电话的更新链接， 正确的笔记或取消通话。
 
-## Logistics and tasks
+## 后勤和任务
 
-Like any event, coworking calls require planning, organising, hosting and making sure that they happen.
+和任何事件一样，共用电话都需要规划、组织、托管和确保其发生。
 
-As the organiser/s of the event, you will be required to:
+作为事件的组织者，您必须：
 
-**1. Choose the tools**
+**1. 选择工具**
 
-The choice in regards to which tools you will use will depend on the purpose and scope of your calls. Please see the subchapter {ref}`Tools for Remote Collaboration<cl-remote-collab-tools>` to identify which tools will be most appropriate for communication, chats, shared documentation and scheduling.
+您将使用哪个工具的选择将取决于您通话的目的和范围。 请参阅第 {ref}分章`远程协作工具<cl-remote-collab-tools>` 以确定哪些工具最适合通信。 聊天、共享文档和时间安排。
 
-**2. Plan and host the calls**
+**2. 计划和托管来电**
 
-As discussed earlier, you will need to agree upon dates and times with people who would like to participate in coworking calls. Your calls could be organised on a weekly or monthly basis that consistently takes place on a certain day and time, or it could be organised once in a while by finding a common availability.
+正如早些时候讨论过的那样，你需要与想要参与共用电话的人商定日期和时间。 您的呼叫可以每周或每月组织一次，而且在某一天和某个时间都可以进行。 或者，通过寻找共同的可得性，可以在一段时间内组织一次。
 
-Once you have found a schedule (date, time and frequency), the following tasks will will go into planning them:
-- Update the schedule, agenda and calendar to share them with the attendees (or potential target audience). It is also effective when they receive a calendar invite.
-- Maintain communication (by email, newsletter, or social media) so that everyone is aware of the next calls and the resources available for them to participate.
+一旦您找到了日程表(日期、 时间和频率)，下列任务将被用于规划它们：
+- 更新日程、议程和日历，与参与者(或潜在目标对象)共享。 当他们收到日历邀请时，也是有效的。
+- 保持沟通(通过电子邮件、通讯或社交媒体)，让每个人都知道接下来的通话和他们可以使用的资源来参与。
 
-Your main tasks as a host will be to:
-- Provide adequate support to the participants so they can make the best of their time. In _The Turing Way_ coworking calls, we find it useful to use breakout rooms when many people are working in small groups or if some people need more discussions, while others want to quietly work on their tasks.
-- Facilitate shared notes with participants before, during and after the call, so that they can keep track of useful resources or ideas they discuss during the coworking call.
+您作为主机的主要任务将是：
+- 向参加者提供充分的支助，以便他们能够尽最大的时间。 在 _共用路径_ 中， 当许多人在小团体中工作或有些人需要更多的讨论时，我们认为使用分房间是有益的。 而其他人则希望就他们的任务静悄悄地工作。
+- 便利与与会者在通话之前、期间和之后分享的便笺， 让他们能够跟踪他们在共事呼吁中讨论的有用资源或想法。
 
-**3. Create a safe and accountable space**
+**3. 创建一个安全和负责的空间**
 
-Though discussed last, this should be your highest priority.
+虽然最后讨论了，但这应该是你的最高优先事项。
 
-You should design these calls to make everyone feel welcome, involved and safe. It's highly recommended to choose a Code of Conduct and put reporting guidelines in place to share with everyone in advance. See this minimal [CoC from Contributor Covenant](https://www.contributor-covenant.org/) and an expanded version of {ref}`The Turing Way CoC<ch-coc>`. Additionally, you should also communicate the basic etiquettes, such as muting microphones when not speaking or not interrupting others when working in a Pomodoro session unless necessary.
+你们应该设计这些呼吁，以使每个人都感到受到欢迎、参与和安全。 它强烈建议选择《行为守则》，并制定报告准则，事先与每个人分享。 查看来自贡献者盟约的 [CoC](https://www.contributor-covenant.org/) 和扩展版本的 {ref}`The Ting Way CoC<ch-coc>`。 此外，您还应该交流基本的礼仪， 如，除非有必要，在番茄时不发言或不打断他人的麦克风。
 
-It is useful to let everyone know who they can contact if they need help in troubleshooting during the call or need more time to discuss their ideas. Create an agenda that states clearly what is expected of them, such as if they should bring their tasks and questions to the call or communicate them beforehand. In _The Turing Way_, we have dedicated slots for both group discussions and quiet working.
+如果每个人在呼叫时需要帮助解决问题或需要更多时间来讨论自己的想法，让他们知道他们能够联系谁，这是有益的。 制定一项明确规定对他们的期望的议程； 例如，他们应将其任务和问题交给电话或事先传达。 在 _Ting Way_, 我们有专为小组讨论和静默工作设置的位置。
 
-## Some Examples
+## 一些示例
 
-### Open calls for building connections
+### 打开通话以建立连接
 
-One of _The Turing Way_ contributors, Natalie Thurlby has adapted the Collaboration Café to create a [Data science online co-working group](http://bristol.ac.uk/golding/ask-jgi/data-science-online-co-working-group/). They have designed their call format for the Jean Golding Institute's community members in Bristol to work together and build connections while working on their data science projects. This is a great example of using coworking calls for community building and supporting others with similar research interests.
+_的诱惑路径_ 贡献者， Natalie Thurby调整了协作咖啡厅，以创建 [数据科学在线合作工作组](http://bristol.ac.uk/golding/ask-jgi/data-science-online-co-working-group/)。 他们设计了他们的呼叫格式，让设在布里斯托尔的Jean Golding研究所社区成员在开展数据科学项目时共同努力并建立联系。 这是利用共同呼吁建设社区和支持具有类似研究兴趣的其他人的一个很好例子。
 
-### Small groups for supporting each other
+### 互相支持的小组
 
-You can also plan your coworking calls with a small group of (2-3) colleagues with whom you can mutually hold accountability for your time and work. A small group reduces the burden of coordinating multiple time zones and finding a schedule that is suitable for everyone.
+您还可以与一小群(2-3人)规划您的共事通话，您可以与他们共同对您的时间和工作负责。 一小群人减少了协调多个时区和找到适合每个人的时间表的负担。
 
-Naomi Penfold and Stefanie Butland have written about their 1:1 coworking format in this post: [Online Co-working Partnerships are Community of Practice in Action](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/#more-3009). While reviewing this chapter, Naomi described their 1:1 call format in contrast with _The Turing Way_ group format as follows:
+Naomi Penlut和Stefanie Butland在这个帖子中写了他们的1:1共用格式： [在线合作伙伴关系是行动社区](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/#more-3009)。 在审阅这章时，Naomi描述了他们的1:1通话格式，而不是 _Ting Way_ 组格式如下：
 
-> In the co-working calls I have, it's 1:1 and we often spend 20 minutes, in the beginning, catching up and talking about our progress since last time. If there is something we want to discuss more intensely, we allocate 30 minutes of our call time to that, for example, one of us asking the other how to troubleshoot something. For the time in between, we do a few quiet working sessions (sometimes 25 minutes, sometimes longer). This is likely a combination of a co-mentoring call and a co-working Pomodoro call, and it works well for me.
+> 在共同工作的通话中，我有一：1，我们经常花费20分钟。 首先，赶紧讨论我们自上次以来取得的进展。 如果我们想要更深入地讨论某些问题，我们就把30分钟的时间用于这个目的。 例如，我们当中的一个人问另一个如何解决一些问题。 在闭会期间，我们举行了几次静静的工作会议(有时25分钟，有时更长)。 这很可能是一个共同辅导电话和一个共同工作的Pomodoro电话的结合，对我来说是很好的。
 
-You can read an adapted version of their blog post along with other ideas for virtual events in the document by Center for Scientific Collaboration and Community Engagement {cite:ps}`CSCCE2020virtual`.
+您可以通过科学协作和社区参与中心 {cite:ps}`CSCCE2020虚拟` 阅读他们的博客文章的改编版本以及其他虚拟事件的想法。
 
-If you organise or host a coworking call in your community, you are welcome to highlight them in this chapter by creating a [pull request](https://github.com/alan-turing-institute/the-turing-way/pulls) on the GitHub repository (see [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) for details).
+如果您在您的社区组织或主持一个共用电话， 欢迎您在 GitHub 版本库上创建一个 [拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls) 来突出它们(详情请 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md))。
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

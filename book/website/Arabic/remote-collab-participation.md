@@ -1,63 +1,63 @@
-(cl-remote-collab-participation)=
-# Participating in Remote Events
+(المشاركة عن بُعد) =
+# المشاركة في الأحداث البعيدة
 
-## Motivation
+## الدافع
 
-Now that you have been invited to attend an online meeting, or have registered to attend an online event, this checklist will help you start preparing for your participation and make the most of it.
+وقد دعيت الآن لحضور اجتماع على الإنترنت، أو سجلت لحضور حدث على الإنترنت، سوف تساعدك قائمة المراجعة هذه على بدء الإعداد لمشاركتك والاستفادة منها إلى أقصى حد.
 
-This checklist also aims to help participants support the event organisers by being proactive and informed about the resources that are available for them and make the best of their participation. The tasks and responsibilities are listed in chronological order and have been divided into "before", "during" and "after" the meeting.
+وتهدف هذه القائمة المرجعية أيضا إلى مساعدة المشاركين على دعم منظمي الأحداث من خلال القيام بدور استباقي ومطلع على الموارد المتاحة لهم والاستفادة من مشاركتهم على أفضل وجه. وترد المهام والمسؤوليات حسب الترتيب الزمني وتقسم إلى "قبل" و"أثناء" و"بعد" الاجتماع.
 
-## Before participating in the meeting
+## قبل المشاركة في الاجتماع
 
-- Note the date and time of the meeting in your time zone and mark them correctly in your calendar using custom links from the websites like [arewemeetingyet.com](https://www.timeanddate.com/worldclock/meeting.html) and [timeanddate.com](https://www.timeanddate.com/worldclock/fixedform.html).
-- Indicate that you will be participating by completing any formality put in place, like registering through a registration page, signing up on a shared document, or accepting the calendar invite.
-- Check if there is any other information you need to supply as a participant, like adding or approving agenda items, filling a pre-event survey, signing up for different sessions of a longer event.
-- Install software required for you to join the meeting online.
-- Test your microphone, webcam, internet bandwidth and compatibility of the software used for the online meeting with your system minimum 2 days before the meeting.
-- Check if the event offers any support that you can use for your participation and you are eligible to apply, such as the participation support grant.
-  - If the event doesn't offer any support, check if you can seek this support from other resources, for example, as offered by the [Open Bioinformatics Foundation](https://www.open-bio.org/travel-awards/) and [Software Sustainability Institute](https://software.ac.uk/programmes-and-events/fellowship-programme).
-- Reach out to the organisers if you need any help with installation, or join one of their pre-event setup calls.
-- Ask for the protocols and agenda for the meeting if not supplied already.
-- Familiarise yourself with the participation guideline and Code of Conduct supplied by the conference organisers.
-- Note the contact person for the organisation committee and the Code of Conduct.
-- Familiarise yourself with other documents like agenda of the meeting, protocols for the participation, etiquette for online attendees (how to raise your hand, or participate in a discussion) and other shared documents that will be used during the meeting.
-- If you are responsible for leading or chairing any agenda items, talks, or sessions, please note the slot and duration assigned to you.
-  - Check if there is a speaker or chair guidelines, reach out to the organisers if you have not been given one already.
-  - Prepare your notes or presentation that you will use during your slot as per the guidelines.
-- Please consider accessibility and inclusivity when designing your talk, [see this for reference](https://www.w3.org/WAI/teach-advocate/accessible-presentations/#preparing-slides-and-projected-material-speakers).
-- Join social media platforms, like [Slack](https://slack.com), [Twitter](https://twitter.com), [GitHub](https://github.com) or [Gitter](https://gitter.im), that will be used for announcing updates on the event, or facilitate live chat during the event.
-  - To get a head start on networking with other attendees, use the social media platform to introduce yourself.
-- Help organisers correct any information that you notice by flagging it, and even better, by supplying the correct information.
+- لاحظ تاريخ ووقت الاجتماع في المنطقة الزمنية الخاصة بك ووضعها بشكل صحيح في التقويم الخاص بك باستخدام روابط مخصصة من مواقع مثل [arewemetinge. om](https://www.timeanddate.com/worldclock/meeting.html) و [timeanddate.com](https://www.timeanddate.com/worldclock/fixedform.html).
+- قم بالإشارة إلى أنك سوف تشارك بإكمال أي إجراء رسمي تم اتخاذه، مثل التسجيل من خلال صفحة تسجيل، أو التسجيل في مستند مشترك، أو قبول دعوة التقويم.
+- تحقق مما إذا كانت هناك أية معلومات أخرى تحتاج إلى تقديمها كمشارك، مثل إضافة بنود جدول الأعمال أو الموافقة عليها. ملء دراسة استقصائية سابقة للحدث، والتسجيل لدورات مختلفة من حدث أطول.
+- قم بتثبيت البرمجيات المطلوبة لك للانضمام إلى الاجتماع على الإنترنت.
+- اختبر الميكروفون، كاميرا الويب، عرض النطاق الترددي للإنترنت، وتوافق البرمجيات المستخدمة في الاجتماع عبر الإنترنت مع النظام الخاص بك قبل يومين على الأقل من الاجتماع.
+- تحقق مما إذا كان الحدث يوفر أي دعم يمكنك استخدامه لمشاركتك وأنت مؤهلة للتقدم بالطلب، مثل منحة دعم المشاركة.
+  - إذا لم يقدم الحدث أي دعم، تحقق مما إذا كان يمكنك طلب هذا الدعم من موارد أخرى، على سبيل المثال. كما هو مقدم من [مؤسسة المعلومات الحيوية المفتوحة](https://www.open-bio.org/travel-awards/) و [معهد استدامة البرمجيات](https://software.ac.uk/programmes-and-events/fellowship-programme).
+- اتصل بالمنظمين إذا كنت بحاجة إلى أي مساعدة في التثبيت، أو انضم إلى إحدى مكالمات إعداد ما قبل الحدث.
+- السؤال عن البروتوكولات وجدول أعمال الاجتماع إن لم تكن قد قدمت بالفعل.
+- اطلعتم على المبادئ التوجيهية ومدونة قواعد السلوك الخاصة بالمشاركة التي قدمها منظمو المؤتمر.
+- ملاحظة جهة الاتصال للجنة التنظيمية ومدونة قواعد السلوك.
+- اطلع على الوثائق الأخرى مثل جدول أعمال الاجتماع، وبروتوكولات المشاركة، etiquette للحضور على الإنترنت (كيفية رفع يدك أو المشاركة في مناقشة) وغيرها من الوثائق المشتركة التي ستستخدم أثناء الاجتماع.
+- إذا كنت مسؤولة عن قيادة أو رئاسة أي من بنود جدول الأعمال، أو المحادثات أو الجلسات، يرجى ملاحظة الفتحة والمدة المخصصة لك.
+  - تحقق مما إذا كانت هناك مبادئ توجيهية للمتحدث أو الكراسي، اتصل بالمنظمين إذا لم تكن قد أعطيت أحد هذه المبادئ بالفعل.
+  - قم بإعداد ملاحظاتك أو العرض التقديمي الذي ستستخدمه أثناء فتحتك وفقاً للمبادئ التوجيهية.
+- الرجاء النظر في إمكانية الوصول والشمولية عند تصميم حديثك، [راجع هذا للرجوع](https://www.w3.org/WAI/teach-advocate/accessible-presentations/#preparing-slides-and-projected-material-speakers).
+- انضم إلى منصات وسائل التواصل الاجتماعي، مثل [Slack](https://slack.com)، [تويتر](https://twitter.com)، [GitHub](https://github.com) أو [Gitter](https://gitter.im)، سيتم استخدامه للإعلان عن التحديثات في الحدث، أو تسهيل الدردشة المباشرة خلال الحدث.
+  - للحصول على رأس البدء على التواصل مع الحضور الآخرين، استخدم منصة وسائل الإعلام الاجتماعية لعرض نفسك.
+- ساعد المنظمين على تصحيح أي معلومات تلاحظها من خلال وضع علامة عليها، بل وتحسين ذلك من خلال تقديم المعلومات الصحيحة.
 
-## During participating in the meeting
+## أثناء المشاركة في الاجتماع
 
-- You must have already tested your system in advance, therefore, log in to the online call (using the links supplied by the organisers) a minimum of 5 minutes in advance so that you can troubleshoot any last-minute software updates.
-- The social media platform, especially for the live chat, will be particularly useful to ask for help or information during the meeting that you may have missed.
-- Videos are very important to have effective interaction with someone on the online calls, so if you do not mind, keep your video on.
-- Check the lighting of your room to ensure that your face is clearly visible and people can see you if you raise your hand or speak.
-  - You can use the blurring options to take your background out of focus.
-- Always mute your microphone when not speaking.
-- Follow the etiquette for online meetings that should have been shared by the organisers in their protocol.
-- Introduce yourself on the shared notes or verbally in short and clear sentences if a slot is assigned for that.
-- Note the Code of Conduct facilitator's contact during the meeting, so that you can directly contact them to report any breach or issue that may occur during the call.
-- When participating in a group discussion, for example, during a breakout session, be mindful that you don't use up a lot of time and give everyone a fair chance to speak and share their thoughts.
-- If someone else raised their hand before you, give them a chance to speak first.
-- Avoid repeating something that has already been shared by adding a '+1', 'I agree' or 'I second' in the chat or in the shared notes.
-- Help note-takers capture any information that they might have missed.
-- Avoid off-topic discussions and keep the meeting focused on the assigned agenda points.
-- Ask for clarification on any point that you did not understand so that you continue in the meeting effectively and leave the call with the right information.
-- Note any action points assigned to you at the end of the meeting.
-- Leave the call by thanking everyone!
+- يجب أن تكون قد اختبرت النظام مسبقاً قم بتسجيل الدخول إلى المكالمة عبر الإنترنت (باستخدام الروابط المقدمة من المنظمين) قبل 5 دقائق على الأقل حتى تتمكن من استكشاف أي تحديثات برمجية في آخر لحظة.
+- منصة وسائل الإعلام الاجتماعية، وخاصة للمحادثة المباشرة، سوف يكون مفيداً بشكل خاص في طلب المساعدة أو المعلومات خلال الاجتماع التي قد تكون قد فاتت.
+- الفيديوهات مهمة جدا للحصول على تفاعل فعال مع شخص ما على المكالمات عبر الإنترنت، لذلك إذا كنت لا تفكر في ذلك، إبقاء الفيديو قيد التشغيل.
+- تحقق من إضاءة غرفتك للتأكد من أن وجهك مرئي بوضوح وأن الناس يمكنهم رؤيتك إذا رفعوا يدك أو تحدثوا.
+  - يمكنك استخدام خيارات الضبابية لأخذ خلفيتك من التركيز.
+- كتم الميكروفون دائماً عندما لا تتكلم.
+- اتبع etiquette للاجتماعات الشبكية التي كان من المفترض أن يشارك فيها المنظمون في بروتوكولهم.
+- قدم نفسك على الملاحظات المشتركة أو شفهياً في جمل قصيرة وواضحة إذا تم تعيين فتحة لذلك.
+- وإذ يحيط علماً بالاتصالات التي أجراها الميسر المعني بمدونة قواعد السلوك أثناء الاجتماع، بحيث يمكنك الاتصال بهم مباشرة للإبلاغ عن أي إخلال أو مشكلة قد تحدث أثناء المكالمة.
+- عند المشاركة في مناقشة جماعية على سبيل المثال خلال جلسة فرعية، كن مدركين أنك لا تستغل الكثير من الوقت وتعطي الجميع فرصة عادلة للتكلم ومشاركة أفكارهم.
+- إذا قام شخص آخر برفع يده أمامك، فأعطيهم فرصة التحدث أولاً.
+- تجنب تكرار شيء تم مشاركته بالفعل بإضافة '+1'، 'أوافق' أو 'أنا ثانية' في الدردشة أو في الملاحظات المشتركة.
+- ساعد واضعي الملاحظات على الحصول على أي معلومات قد يفقدونها.
+- تجنب المناقشات خارج الموضوع وإبقاء الاجتماع مركزا على نقاط جدول الأعمال المحددة.
+- السؤال عن أي نقطة لم تفهموها حتى تستمر في الاجتماع بفعالية وتترك المكالمة مشفوعة بالمعلومات الصحيحة.
+- لاحظ أي نقاط عمل تم تعيينها لك في نهاية الاجتماع.
+- اترك المكالمة بشكر الجميع!
 
-## After participating in the meeting
+## بعد المشاركة في الاجتماع
 
-- Finish any post-event formality such as by filling out any feedback survey or form requested from the organisers, or claiming any participation support grant if you are one of the awardees.
-- If requested by the organisers, share with them what worked and what did not work for you in the call and if you have any suggestion for their future events.
-  - This can help them see the impact of their event, and continue doing their work by bringing any change that will be helpful in the future.
-- If you write blogs on your experience from a meeting or event, share them with the organisers so that they can promote and highlight those in their final report.
-- When the notes from the meeting are circulated for approval, make sure that information supplied by you is correctly captured.
-- If you would like to, or if you have the opportunity to, send a thank-you note to the organisers or anyone who might have helped in enhancing your experience as a participant.
-- If you made new connections or established new collaborations during the event, send a follow-up email after the event.
-- Finish any task assigned to you or your team, within the given time limit by coordinating with your collaborators.
+- قم بإكمال أي إجراء رسمي لما بعد الحدث مثل ملء أي دراسة استقصائية أو استمارة مطلوبة من المنظمين، أو المطالبة بأي دعم للمشاركة، إذا كنت أحد الفائزين.
+- إذا طلب المنظمون ذلك، اطلعهم على ما نجح وما لم ينجح معك في المكالمة وإذا كان لديك أي اقتراح للأحداث المستقبلية.
+  - ومن شأن ذلك أن يساعدهم على معرفة أثر حدثهم، ويواصلون القيام بعملهم بإحداث أي تغيير سيكون مفيدا في المستقبل.
+- إذا قمت بكتابة مدونات على تجربتك من اجتماع أو حدث، وتقاسمها مع المنظمين حتى يتمكنوا من الترويج لها وتسليط الضوء عليها في تقريرهم النهائي.
+- وعندما تعمم المذكرات الصادرة عن الاجتماع للموافقة عليها، تأكد من أن المعلومات المقدمة منكم يتم الحصول عليها بشكل صحيح.
+- إذا كنت ترغب في ذلك، أو إذا كانت لديك الفرصة، إرسال ملاحظة شكراً إلى المنظمين أو أي شخص ربما ساعد في تعزيز تجربتك كمشارك.
+- إذا قمت بإنشاء اتصالات جديدة أو أنشأت علاقات تعاون جديدة أثناء الحدث، أرسل رسالة متابعة بعد الحدث.
+- إنهاء أي مهمة مسندة إليك أو إلى فريقك، في غضون المهلة الزمنية المحددة من خلال التنسيق مع المتعاونين معك.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

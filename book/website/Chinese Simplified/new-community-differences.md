@@ -1,30 +1,30 @@
-(cl-new-community-differences)=
-# Valuing Diversity and Differences
+(cl-new-community difference)=
+# 珍视多样性和差异
 
-When people collaborate with others, no matter if they have already worked with them or they are complete strangers, you need to take into account that everyone will have different backgrounds, different cultures, different time zones, different levels of skills and very different lived experiences.
+当人们与他人合作时，无论他们是否已经与他人合作或完全陌生人合作， 你们需要考虑到每个人都有不同的背景、不同的文化和文化。 不同的时区、不同的技能水平和非常不同的生活经历。
 
-(cl-new-community-differences-perspectives)=
-## Welcome Diverse Perspectives From Your Members
+（cl-new-community-difference-perspectives）=
+## 欢迎来自您的会员的透视视图
 
-Think carefully about who your stakeholders are, if they are given fair opportunities to be heard, if certain groups are less represented than others, and if you have strategy in place to ensure diversity in your community.
+认真考虑你们的利益攸关方，如果他们有公平的发言机会的话， 如果某些群体的代表性低于其他群体，如果你有确保您社区多样性的策略的话。
 
-It is important to be mindful of the varying motivations your members will have behind joining to work on your project. For example, in the case of COVID-19 related projects, you can expect that some people will join you because they want to know what kind of data on COVID-19 exist, some will come with an intention to be part of a group while learning some skills, some will simply hang out to watch what you are doing, whereas some people will join you because they have relatives who are suffering from COVID-19 infection and they want to speed up the diagnostic process. Be prepared to welcome their diverse perspectives into your project.
+重要的是要注意到你们的成员们在参加你们的项目工作之后会有不同的动机。 例如，COVID-19相关项目的情况。 您可以指望一些人会加入您，因为他们想知道COVID-19有什么类型的数据。 有些人在学习一些技能的同时打算成为一个小组的成员。 有些人只需要看看你正在做的事情。 一些人会加入你，因为他们有亲属患有COVID-19传染病，他们想要加速诊断过程。 随时准备欢迎他们对你的项目的不同看法。
 
-(cl-new-community-differences-circumstances)=
-## People Have Different Personal Circumstances
+（cl-new-community-differences）=
+## 人们有不同的个人情况
 
-As an individual we may think that everyone has the same working conditions as us, such as access to the tools and resources or their work setup, whereas the reality is far from that. Our colleagues even in the same city may have different living situations, caring responsibilities, medical conditions and resources available to them. Don’t assume that everyone will have equal access or capacity to participate in your project. To create equitable opportunities for everyone, create task lists with varying requirements of time and resources (like hardware, software, reference materials or internet bandwidth) so that people can choose where to contribute based on resources available to them.
+作为一个人，我们可以认为每个人都有与我们相同的工作条件。 例如，获得工具和资源或其工作安排，而现实情况远非如此。 即使在同一个城市，我们的同事也可能有不同的生活状况、照顾责任、医疗条件和可供他们使用的资源。 不要假定每个人都有平等的机会或能力参与您的项目。 为每个人创造平等的机会，创建具有不同时间和资源要求的任务列表 (例如硬件)， 因此，人们可以根据现有资源选择哪里做出贡献。
 
-(cl-new-community-differences-resources)=
-## Allow Access to Assumed Knowledge and Resources
+(cl-new-community-difference-resources)=
+## 允许访问假设的知识和资源
 
-Working with team members from different disciplines and backgrounds can provide a wealth of new perspectives. However, it is important to standardise which concepts all parties should be familiar with for productive collaboration. For example, replacing jargon and acronyms with clearer alternatives will make information accessible to all team members. Where some technical terminology is necessary, it can be useful to have a shared, editable definitions document. Additionally, it is important to create a supportive environment where anyone can ask for clarification without feeling looked down upon.
+与来自不同学科和背景的团队成员合作，可以提供丰富的新视角。 然而，重要的是要使所有各方都应该熟悉哪些概念来进行富有成效的合作。 例如，用更明确的替代办法取代术语和缩略语，将使所有小组成员都能获得信息。 如果有必要使用某些技术术语，则编制一份共同的、可编辑的定义文件可能是有益的。 此外，重要的是创造一种支持性的环境，使任何人都能够要求澄清，而不感到受到忽视。
 
-Additionally, provide access to resources whenever you can to ensure that everyone has the opportunity to gain a common understanding. For example, if your project idea is based on a recent peer reviewed paper that is behind the paywall, members from low income institutes who don't hold a subscription to that journal will not be able to participate unless given access to the information discussed in that paper.
+此外，每当你能够确保每个人都有机会获得共同理解时，提供获取资源的机会。 例如，如果您的项目建议是基于最近的同行审查的文件，这份文件是在付费墙背后的。 没有订阅该期刊的低收入机构的成员将无法参加，除非能够查阅该文件中所讨论的信息。
 
-(cl-new-community-differences-viewpoints)=
-## Invite Those Who Can Help You Expand Your Viewpoints
+(cl-new-community-differences-view)=
+## 邀请那些可以帮助您扩大视图点的人
 
-Make sure that you invite perspectives from your members who can help you maintain heterogeneity and fair distribution in leadership, methods, dataset and solutions that can be reproduced for different scenarios or across different platforms. For example, when making recommendations based on the selected dataset for health care related research, think if they will apply to different geographic conditions, such as both developed and developing countries. If not, consider what you should change, and who you can invite to help improve your project.
+请确保您从您的成员那里征求意见，这些成员可以帮助您保持领导层的多样性和公平分布， 可在不同情况下或在不同平台上复制的方法、数据集和解决办法。 例如，在根据与保健有关的研究的选定数据集提出建议时， 请注意，它们是否将适用于不同的地理条件，例如发达国家和发展中国家。 如果没有，请考虑你应该改变什么，以及你可以邀请谁来帮助改进你的项目。
 
-If crucial voices and viewpoints are missing in your project, how can you invite them in? Talk to an expert (such as clinician, epidemiologist, community lead, and communication officer) if you are not one yourself. Always remember that different stakeholders can introduce new but critical and often unexpected viewpoints and help you avoid incorrect or ineffective assumptions.
+如果您的项目中缺少关键的声音和观点，如何邀请他们加入？ 如果您不是您自己，请与专家(如临床、流行病学家、社区领导和通信官员)交谈。 永远记住，不同的利益攸关方可以提出新的、但批评性和常常意外的观点，并帮助您避免错误或无效的假设。

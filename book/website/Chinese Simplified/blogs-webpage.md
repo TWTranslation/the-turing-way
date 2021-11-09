@@ -1,40 +1,40 @@
 (cm-blogs-webpage)=
-# Building a Webpage for Blogs
+# 为博客创建一个网页
 
-Making a website for a blog is easier than you think so don't be put off if you have never made one before.
+为一个博客创建一个网站比您认为更容易，所以如果您以前从未创建过一个博客，就不会被停用。
 
-You need to consider:
-* **Skill level** - This is important but can be learnt by anyone that regularly uses a computer.
-* **Budget** - there are plenty of free options for websites but you can pay for certain services such as different themes.
-* **Time** - It does take time to initially build the website and get it into the state that you want. Therefore, consider using the tool that will be the least time consuming for you to build and maintain.
+您需要考虑：
+* **技能等级** - 这是重要的，但任何正常使用计算机的人都可以学习。
+* **预算** - 网站有很多免费选项，但您可以支付某些服务的费用，如不同的主题。
+* **时间** - 最初构建网站并使其进入您想要的状态确实需要时间。 因此，考虑使用您最少耗费时间的工具构建和维护。
 
 (cm-blogs-webpage-simple)=
-## Simple Website - Non-Coding Options
+## 简单网站-非编码选项
 * **Wordpress**
-    * Very popular site to use for blogs.
-    * You can start a blog for free but added functions will cost you.
-    * Simple to set up as built-in easy block-like fashion.
+    * 用于博客的非常受欢迎的网站。
+    * 您可以免费创建博客，但添加的功能将花费您。
+    * 简单地设置为内置的简易方块式方式。
     * Here's a [link](https://wordpress.com/go/category/content-blogging/) for help.
-    * This is worth a read about [starting a WordPress blog](https://www.podcastinsights.com/start-a-wordpress-blog/).
-* **Google sites**
-    - Not originally set up for blogs but can be adapted for this purpose or used as a project website with blog-type updates.
-    - It's free as part of the free Google Suite.
-    - You can pay for business accounts through Google workspace for more options.
-    - It has an accessible interface much like Google slides that are easy to use and publish as a website.
-    - Find more information at the [Google site help page](https://support.google.com/sites/?hl=en#topic=7184580)
+    * 这值得阅读一下 [开始一个 WordPress 博客](https://www.podcastinsights.com/start-a-wordpress-blog/)。
+* **Google 网站**
+    - 最初不是为博客设置的，但可以为此目的进行调整或作为一个博客类型更新的项目网站。
+    - 它是免费的 Google Suite 的一部分。
+    - 您可以通过谷歌工作区支付商业帐户的更多选项。
+    - 它有一个可访问的界面，非常像谷歌幻灯片，易于使用并作为网站发布。
+    - 在 [Google 网站帮助页面](https://support.google.com/sites/?hl=en#topic=7184580) 查找更多信息
 
-Here is a link to an [article that compares google sites and wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress/).
+这是一个链接到一个 [篇文章的链接，它比较了谷歌网站和 wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress/)。
 
-There are other options out there and you can always pay for someone to build your blog website if you have the resources.
+还有其他选项，如果您有资源，您总是可以为某人建立博客网站付费。
 
-These options are highlighted as they are very accessible and it's always worth to learn new skills.
+这些选项被突出显示，因为它们非常容易使用，学习新技能总是值得的。
 
 (cm-blogs-webpage-advanced)=
-## Advanced Website Building - Programming Needed
+## 高级网站构建-需要编程程序
 
 * **Github pages**
-    * If you know how to set up a Github repository then this is an accessible way to create a repository and then convert it into web pages.
-    * You can select from various free themes using [Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
-    * This is a good resource to learn how to make GitHub pages - [Collaborative Github Docs](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/4-2-Make-your-Pages-site.html).
-    * This blog uses Github pages - [The Open Archaeobotanist](https://ekaroune.github.io/The-Open-Archaeobotanist/).
-    * You can use this blog post by Sarah Gibson [to create a blog with Hugo and Github pages](https://sgibson91.github.io/blog/hugo-tutorial/).
+    * 如果你知道如何设置一个 Github 仓库，那么这是一个可以创建仓库并将其转换成网页的方法。
+    * 您可以使用 [Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll) 从各种免费主题中选择。
+    * 这是一个很好的资源来学习如何制作GitHub 页面 - [Collaborative Github Docs](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/4-2-Make-your-Pages-site.html)。
+    * 这个博客使用 Github 页面 - [打开考古者](https://ekaroune.github.io/The-Open-Archaeobotanist/)。
+    * 您可以使用Sarah Gibson [的博客来创建一个 Hugo 和 Github 页面](https://sgibson91.github.io/blog/hugo-tutorial/) 的博客。

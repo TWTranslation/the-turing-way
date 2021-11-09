@@ -1,39 +1,39 @@
-# After the Book Dash
+# بعد دشة الكتاب
 
-Our Book Dash attendees begin to introduce their perspectives and skills into the project at the Book Dash. These participants go on to join our global community of contributors.
+ويبدأ الحاضرون في تقديم منظوراتهم ومهاراتهم في المشروع في صحيفة الكتاب (Bobookash). ويمضي هؤلاء المشاركون في الانضمام إلى مجتمع المساهمين العالمي لدينا.
 
-We invite our attendees to contribute in any capacity that is most suitable for their interests and availability. Also, we share with them some ways they can stay connected and keep contributing to the project.
+وندعو الحاضرين إلى المساهمة بأي صفة تكون أنسب من أجل مصالحهم وتوافرهم. وأيضا، نشارك معهم بعض الطرق التي يمكنهم أن يظلوا متصلين وأن يواصلوا المساهمة في المشروع.
 
-## Joining the ongoing efforts
+## ألف - تضافر الجهود الجارية
 
-With every new effort initiated by our members, we gain new insights to improve our global outreach. These efforts often start in our [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues) section. These are good places to begin new discussions by creating a new issue or join the ongoing discussion by commenting on the issue. If our contributors want to start to get to know the project or want to return after a long break, they can begin with our good first issues. If they have a new idea that they would like to add to the project as a new section in an existing chapter, or as a whole new chapter, they can start by creating a new issue.
+ومع كل جهد جديد يبذله أعضاؤنا، فإننا نحصل على رؤى جديدة لتحسين اتصالنا العالمي. هذه الجهود غالبا ما تبدأ في قسم [GitHub](https://github.com/alan-turing-institute/the-turing-way/issues) الخاص بنا. وهذه أماكن جيدة لبدء مناقشات جديدة عن طريق خلق مسألة جديدة أو الانضمام إلى المناقشة الجارية بالتعليق على هذه المسألة. إذا كان المساهمون لدينا يريدون البدء في معرفة المشروع أو يريدون العودة بعد فترة طويلة من الاستراحة، ويمكنها أن تبدأ بمشاكلنا الأولى الجيدة. وإذا كانت لديهم فكرة جديدة يرغبون في إضافتها إلى المشروع كفرع جديد في فصل قائم، أو في فصل جديد بأكمله، يمكن أن تبدأ بإنشاء مشكلة جديدة.
 
-## Attend our online Collaboration Cafe and coworking calls
+## احضر مقهى التعاون عبر الإنترنت والمكالمات الجماعية
 
-Our online Collaboration Cafes take place every 1st Wednesdays and 3rd Wednesdays on each month. These calls are 2 hour long co-working spaces for the _The Turing Way_ community. Everyone interested in learning from or developing this project can join us for any duration possible for them. At these calls, you can work on ideas for a new contribution or enhancement of existing content in the project.
+تُعقد مقاهي التعاون عبر الإنترنت كل يوم الأربعاء الأول وأيام الأربعاء الثالثة كل شهر. هذه المكالمات هي مساحات عمل مشترك لمدة ساعتين لمجتمع _الطريق الوشيك_. كل من يرغب في التعلم من هذا المشروع أو تطوير هذا المشروع يمكنه الانضمام إلينا لأي مدة ممكنة بالنسبة لهم. في هذه النداءات، يمكنك العمل على أفكار من أجل مساهمة جديدة أو تعزيز المحتوى الموجود في المشروع.
 
-Participants can sign up on this HackMD to attend the upcoming calls: https://hackmd.io/@KirstieJane/CollabCafe. Anyone who would like to host these calls at other times, please get in touch with the team members. See more details in the chapter {ref}`Coworking Call<ch-coworking-weekly>`
+يمكن للمشاركين الاشتراك في HackMD لحضور المكالمات القادمة: https://hackmd.io/@KirstieJane/CollabCafe. أي شخص يرغب في استضافة هذه المكالمات في أوقات أخرى، يرجى الاتصال بأعضاء الفريق. انظر المزيد من التفاصيل في الفصل {ref}`دعوة التعاون<ch-coworking-weekly>`
 
-## Reviewing open pull requests
+## استعراض طلبات السحب المفتوحة
 
-Our contributors can help us by reviewing one of the several open pull requests based on their interests. They can join discussions on these pull requests or help in exploring resources that currently exist in the book.
+ويمكن للمساهمين أن يساعدونا باستعراض أحد طلبات السحب المفتوحة العديدة بناء على مصالحهم. ويمكنهم المشاركة في المناقشات بشأن طلبات السحب هذه أو المساعدة في استكشاف الموارد الموجودة حاليا في الكتاب.
 
-## Representing _The Turing Way_ in your community/conference
+## تمثيل _طريق اللعبة_ في مجتمعك/مؤتمر
 
-If our attendees would like to represent our community, they can connect with _The Turing Way_ team for support and assistance in drafting an abstract and help them prepare to deliver a short workshop or presentation. This is another contribution that can be discussed and prepared collaboratively during our Collaboration cafe or coworking calls.
+وإذا كان الحاضرون يريدون تمثيل مجتمعنا، يمكنهم التواصل مع فريق _طريق الترقيق_ للحصول على الدعم والمساعدة في صياغة خلاصة ومساعدتهم على الاستعداد لتقديم ورشة عمل قصيرة أو عرض قصير. هذه مساهمة أخرى يمكن مناقشتها وإعدادها بشكل تعاوني خلال مقهى التعاون أو مكالمات العمل المشتركة.
 
-## Connecting through social media
+## الاتصال عبر وسائل التواصل الاجتماعي
 
-Everyone is welcome to join our Gitter channel for informal discussions. They can also sign up to receive our monthly newsletter: [https://tinyletter.com/TuringWay/](https://tinyletter.com/TuringWay/). We are on Twitter as [@turingway](https://twitter.com/turingway), where we send regular updates.
+ويرحب الجميع بالانضمام إلى قناتنا Gitter لإجراء مناقشات غير رسمية. يمكنهم أيضا الاشتراك لتلقي نشرتنا الإخبارية الشهرية: [https://tinyletter.com/TuringWay/](https://tinyletter.com/TuringWay/). نحن على تويتر كـ [@turingway](https://twitter.com/turingway)، حيث نرسل تحديثات منتظمة.
 
-If you have more ideas or questions about the project, the Book Dash event or something else related to our community, please feel free to reach out to the team members [theturingway@gmail.com](mailto:theturingway@gmail.com).
+إذا كان لديك المزيد من الأفكار أو الأسئلة حول المشروع، حدث دش الكتاب أو شيء آخر يتعلق بمجتمعنا، لا تتردد في التواصل مع أعضاء الفريق [theturingway@gmail. م](mailto:theturingway@gmail.com).
 
-## Reports and additional materials
+## التقارير والمواد الإضافية
 
-- All the templates related to Book Dash is provided in the {ref}`community template collection<ch-templates>`
-- [_The Turing Way_ Report By Malvika Sharan with team members from November 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-nov20-report.md)
-- CSCCE blog post by Arielle Bennett, July 2020: [Book Dashes: Collaborative Community Events](https://www.cscce.org/2020/07/09/book-dashes-collaborative-community-events/)
-- Open Working blog post by Esther Plomp, February 2020: [The Turing Way Bookdash](https://openworking.wordpress.com/2020/02/27/the-turing-way-bookdash/)
-- [_The Turing Way_ Report By Malvika Sharan with team members from February 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-feb20-report.md)
-- [_The Turing Way_ Report By Rachael Ainsworth with team members from London 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-ldn-report.md)
-- [_The Turing Way_ Report By Rachael Ainsworth with team members from Manchester 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-mcr-report.md)
+- يتم توفير جميع القوالب المرتبطة بـ Book Dash في {ref}`مجموعة قالب المجتمع<ch-templates>`
+- [_طريق التورين_ تقرير مالفيكا شارن مع أعضاء الفريق من نوفمبر 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-nov20-report.md)
+- مشاركة مدونة CSCCE من قبل Arielle Bennet، يوليو 2020: [شرايين الكتاب: أحداث المجتمع التعاوني](https://www.cscce.org/2020/07/09/book-dashes-collaborative-community-events/)
+- فتح مشاركة مدونة العمل بواسطة Esther Plomp، فبراير 2020: [كتاب طريق التوبيخ](https://openworking.wordpress.com/2020/02/27/the-turing-way-bookdash/)
+- [_طريق التورج_ تقرير مالفيكا شارن مع أعضاء الفريق من فبراير 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-feb20-report.md)
+- [_طريق الترقيق_ تقرير من راشيل آنسورث مع أعضاء الفريق من لندن 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-ldn-report.md)
+- [_طريق اللارجح_ تقرير من راشيل آنسورث مع أعضاء الفريق من مانشستر 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-mcr-report.md)

@@ -1,202 +1,202 @@
 (rr-renv-package)=
-# Package Management Systems
+# نظم إدارة الحزم
 
-Package managers install and keep track of the different software packages (and their versions) that you use within an environment. There are quite a few to choose from, for example, Yum, Zypper, dpkg, and Nix (which will be mentioned in the {ref}`rr-renv-binder` section). We are going to focus on [Conda](https://conda.io/en/latest/), which has several useful functionalities.
+يقوم مديرو الحزمة بتثبيت وتعقب مختلف مجموعات البرمجيات (وإصدارها) التي تستخدمها في بيئة ما. هناك عدد لا بأس به من الخيارات على سبيل المثال Yum، Zypper، dpkg، ونيكس (والذي سيتم ذكره في قسم {ref}`rr-renv-binder`). سوف نركز على [كوندا](https://conda.io/en/latest/)، الذي لديه عدة وظائف مفيدة.
 
 (rr-renv-package-conda)=
-## What Does Conda Do?
+## ماذا يفعل كوندا؟
 
-Conda allows users to create any number of entirely separate environments, and quickly and switch between them. For example, say a researcher has a project, _Project One_, which has its own environment, defined by Conda, that is made up of the following set of packages:
+"كوندا" يسمح للمستخدمين بإنشاء أي عدد من البيئات المنفصلة تماماً، والسرعة والتبديل بينهم. على سبيل المثال، قل أن الباحث لديه مشروع، _المشروع الأول_، والذي له بيئته الخاصة التي يحددها كوندا، والتي تتكون من المجموعة التالية من الطرود:
 
-| **Package Name** | **Version** |
-| ---------------- | ----------- |
-| `Package A`      | `1.5.2`     |
-| `Package B`      | `2.1.10`    |
-| `Package C`      | `0.7.9`     |
+| **اسم الحزمة** | **الإصدار** |
+| -------------- | ----------- |
+| `الحزمة A`     | `1.5.2`     |
+| `الحزمة B`     | `2.1.10`    |
+| `الحزمة C`     | `0.7.9`     |
 
-Later, the researcher starts _Project Two_ in its own environment, with the following packages:
+في وقت لاحق، يبدأ الباحث _المشروع الثاني_ في بيئته الخاصة، بالحزم التالية:
 
-| _Package Name_ | _Version_ |
-| -------------- | --------- |
-| `Package B`    | `2.1.10`  |
-| `Package C`    | `1.2.4`   |
-| `Package D`    | `1.5.2`   |
-| `Package E`    | `3.7.1`   |
+| _اسم الحزمة_ | _الإصدار_ |
+| ------------ | --------- |
+| `الحزمة B`   | `2.1.10`  |
+| `الحزمة C`   | `1.2.4`   |
+| `الحزمة D`   | `1.5.2`   |
+| `الحزمة E`   | `3.7.1`   |
 
-Note here that the version of `package C` used in _Project Two_ has been updated from the version used in _Project One_. If these project environments were not separate, then the researcher would have the choice of:
+لاحظ هنا أن نسخة `الحزمة C` المستخدمة في _المشروع الثاني_ تم تحديثها من الإصدار المستخدم في _المشروع الأول_. وإذا لم تكن بيئات المشاريع هذه منفصلة، فإن للباحث عندئذ أن يختار ما يلي:
 
-- A) Using the older version of `package C` forever and not benefiting from updates and bugfixes in later versions.
-- B) Installing the updated version of the package and hoping that it does not impact _Project One_.
-- C) Installing the updated version of the package for use in _Project Two_, then uninstalling it and reinstalling the old one whenever they need to do work on _Project One_. This would be extremely annoying and is a step that risks being forgotten.
+- A استخدام الإصدار القديم من `الحزمة C` إلى الأبد وعدم الاستفادة من التحديثات و الأخطاء في الإصدارات اللاحقة.
+- باء - تثبيت النسخة المستكملة من الحزمة وآمل ألا تؤثر على _المشروع الأول_.
+- جيم - تثبيت النسخة المحدثة من الحزمة لاستخدامها في _المشروع الثاني_، ثم قم بإلغاء تثبيته وإعادة تثبيت القديم كلما احتاجوا إلى العمل على _مشروع واحد_. ومن شأن ذلك أن يكون مزعجا للغاية وأن يكون خطوة في خطر النسيان.
 
-All of these options are extremely poor, hence the utility of Conda for creating distinct environments that are easily interchangeable.
+وجميع هذه الخيارات ضعيفة للغاية، ومن ثم فإن فائدة كوندا في تهيئة بيئات متميزة يسهل تبادلها فيما بينها.
 
-Conda can also be used to capture and export computational environments easily. It can go in the other direction too; it can generate computational environments from configuration files which can be used to recreate someone else's environment.
+ويمكن أيضا استخدام كوندا في الاستيلاء على البيئات الحسابية وتصديرها بسهولة. يمكن أن يذهب في الاتجاه الآخر أيضا؛ يمكنه إنشاء بيئات حسابية من ملفات التكوين التي يمكن استخدامها لإعادة إنشاء بيئة شخص آخر.
 
-Another benefit of Conda is that it offers much greater flexibility to users who do not have admin privileges on the machines they are working on (as is very common when working with high-performance computing facilities). Without Conda, it is typically challenging to install required software onto such machines. However, because Conda creates and changes _new_ environments rather than making changes to a machine's overall system environment, admin privileges are not required.
+ومن المزايا الأخرى لكوندا أنها توفر مرونة أكبر بكثير للمستعملين الذين لا يتمتعون بامتيازات المشرف على الآلات التي يعملون عليها (كما هو شائع جدا عند العمل مع مرافق الحوسبة ذات الأداء العالي). وبدون كوندا، من الصعب عادة تركيب البرمجيات المطلوبة على هذه الآلات. لكن، لأن كوندا ينشئ ويغير _البيئات الجديدة_ بدلاً من إجراء تغييرات على بيئة النظام العامة للآلة، فإن امتيازات المشرف ليست مطلوبة.
 
-Finally, while Conda is Python-centric to a degree, it is also well-integrated for use with other languages. For example, the base version of Conda includes the C++ standard library.
+وأخيرا، في حين أن كوندا يتمركز بدرجة ما في البيتون، فإنه أيضا مدمج جيدا لاستخدامه مع اللغات الأخرى. فعلى سبيل المثال، تتضمن النسخة الأساسية من كوندا المكتبة القياسية C++.
 
 (rr-renv-package-installing)=
-## Installing Conda
+## تثبيت كوندا
 
-Note that these installation instructions are directed towards Linux systems. Instructions for installing Conda on Windows or Mac systems can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
+لاحظ أن تعليمات التثبيت هذه موجهة نحو أنظمة لينوكس. يمكن العثور على التعليمات لتثبيت كوندا على أنظمة Windows أو Mac [هنا](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 
-Go to [https://repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/) and download the latest Miniconda 3 installer for your system (32 bit or 64 bit). It will have a name like `miniconda_version_number.sh`. Run the installer using:
-
-```
-bash Miniconda_version_number.sh
-```
-
-You can check that Conda has installed successfully by typing:
+انتقل إلى [https://repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/) وقم بتنزيل أحدث تثبيت Miniconda 3 للنظام الخاص بك (32 بت أو 64 بت). سيكون لها اسم مثل `miniconda_version_number.sh`. تشغيل المثبت بإستخدام:
 
 ```
-conda --version
+باش Miniconda_version_number.sh
 ```
 
-which should output a version number.
-
-(rr-renv-package-using)=
-## Making and Using Environments
-
-Conda automatically installs a base environment with some commonly used software packages. It is possible to work in this base environment; however, it is good practice to create a new environment for every project you start.
-
-To create an environment, use `conda create --name your_project_env_name` followed by a list of packages to include. To include the `scipy` and `matplotlib` packages, add them to the end of the command:
+يمكنك التحقق من أن كوندا قد تم تثبيته بنجاح عن طريق الكتابة:
 
 ```
-conda create --name Project_One scipy matplotlib
+كوندا - الإصدار
 ```
 
-You can specify the versions of certain (or all) packages by using `=package_number` after the name. For example, to specify `scipy 1.2.1` in the above environment:
+الذي يجب أن يخرج رقم الإصدار.
+
+(rr-renv-use package-using)=
+## صنع واستخدام البيئات
+
+يقوم كوندا تلقائياً بتثبيت بيئة أساسية مع بعض حزم البرمجيات الشائعة الاستخدام. ومن الممكن العمل في هذه البيئة الأساسية؛ غير أنه من الممارسات الجيدة تهيئة بيئة جديدة لكل مشروع تشرع فيه.
+
+لإنشاء بيئة ، استخدم `conda create --name your_project_env_name` تليها قائمة من الحزم لتضمينها . لتضمين حزم `scipy` و `matplotlib` ، أضفها إلى نهاية الأمر:
 
 ```
-conda create --name Project_One scipy=1.2.1 matplotlib
+كوندا ينشئ --اسم مشروع_واحد ماسكتلب
 ```
 
-When creating environments, you can also specify versions of languages to install. For example, to use `Python 3.7.1` in the _Project_One_ environment:
+يمكنك تحديد إصدارات معينة (أو جميع) الحزم باستخدام `=package_number` بعد الاسم. على سبيل المثال، لتحديد `scipy 1.2-1` في البيئة المذكورة أعلاه:
 
 ```
-conda create --name Project_One python=3.7.1 scipy=1.2.1 matplotlib
+كوندا ينشئ --اسم مشروع_واحد سيبي=1.2.1 matplotlib
 ```
 
-Now that an environment has been created, it is time to activate (start using) it via `conda activate environment_name`. So in this example:
+عند إنشاء البيئات، يمكنك أيضا تحديد إصدارات من اللغات لتثبيتها. على سبيل المثال، لاستخدام `Python 3.7.1` في _مشروع واحد_ البيئة:
 
 ```
-conda activate Project_One
+كوندا ينشئ --اسم مشروع_واحد python=3.7.1 scipy=1.2.1 matplotlib
 ```
 
-Note that you may need to use `source` instead of `conda` if you are using an old version of Conda.
-
-Once an environment is activated, you should see the environment name before each prompt in your terminal:
+الآن بعد أن تم إنشاء بيئة ، حان الوقت لتفعيل (بدء استخدامها) عن طريق `conda activate environment_name`. في هذا المثال:
 
 ```
-(Project_One) $ python --version
-Python 3.7.1
+تفعيل المشروع_الأول
 ```
 
-(rr-renv-package-deleting)=
-## Deactivating and Deleting Environments
+لاحظ أنك قد تحتاج إلى استخدام `المصدر` بدلاً من `conda` إذا كنت تستخدم نسخة قديمة من كوندا.
 
-You can deactivate (get out of) an environment using:
-
-```
-conda deactivate
-```
-
-and remove (delete) an environment as shown here:
+بمجرد تفعيل بيئة ما، يجب أن ترى اسم البيئة قبل كل توجيه في المحطة الطرفية الخاصة بك:
 
 ```
-conda env remove --name Project_One
+(Project_One) $ بايثون --الإصدار
+بايثون 3.7.1
 ```
 
-To check if an environment has been successfully removed, you can look at a list of all the Conda environments on the system using:
+(rr-renv-deleage-packting)=
+## تعطيل وحذف البيئات
+
+يمكنك إلغاء تنشيط (الخروج من) البيئة باستخدام:
 
 ```
-conda env list
+تعطيل الكوندا
 ```
 
-However, deleting an environment may not delete the package files that were associated with it. This can lead to a lot of memory being wasted on packages that are no longer required. Packages that are no longer referenced by any environments can be deleted using:
+وإزالة (حذف) بيئة كما هو مبين هنا:
 
 ```
-conda clean -pts
+conda env إزالة --اسم مشروع_واحد
 ```
 
-Alternatively, you can delete an environment (such as _Project_One_) along with its associated packages via:
+للتحقق مما إذا كانت بيئة قد تمت إزالتها بنجاح، يمكنك النظر إلى قائمة بجميع بيئات كوندا على النظام باستخدام ما يلي:
 
 ```
-conda remove --name Project_One --all
+قائمة conda env
 ```
 
-(rr-renv-package-removing)=
-## Installing and Removing Packages Within an Environment
-
-Within an environment, you can install more packages using:
+ومع ذلك، فإن حذف بيئة قد لا يحذف ملفات الحزمة التي كانت مرتبطة بها. وهذا يمكن أن يؤدي إلى إهدار الكثير من الذاكرة على حزم لم تعد مطلوبة. الحزم التي لم تعد مشار إليها من قبل أي بيئات يمكن حذفها باستخدام:
 
 ```
-conda install package_name
+حدائق نظيفة
 ```
 
-similarly, you can remove them via:
+بدلاً من ذلك، يمكنك حذف بيئة (مثل _Project_One_) إلى جانب الحزم المرتبطة بها عن طريق ما يلي:
 
 ```
-conda remove package_name
+إزالة الكوندا --اسم المشروع_واحد --الكل
 ```
 
-This is the best way to install packages from within Conda as it will also install a Conda-tailored version of the package. However, it is possible to use other methods if a Conda-specific version of a package is not available. For example, `pip` is commonly used to install Python packages. So, a command like:
+(r-renv-package-إزالة)=
+## تثبيت وإزالة الحزم داخل البيئة
+
+في بيئة ما، يمكنك تثبيت المزيد من الحزم باستخدام:
+
+```
+تثبيت conda package_name
+```
+
+بالمثل، يمكنك إزالتها عن طريق:
+
+```
+إزالة اسم الحزمة_conda
+```
+
+هذه هي أفضل طريقة لتثبيت الحزم من داخل كوندا كما أنها ستقوم أيضا بتثبيت نسخة من الحزمة مكيفة حسب احتياجات كوندا. غير أنه من الممكن استخدام أساليب أخرى إذا لم تكن هناك نسخة محددة من الطرد في كوندا. على سبيل المثال، `pip` يستخدم عادة لتثبيت حزم بايثون بايثون. إذاً، أمر مثل:
 
 ```
 pip install scipy
 ```
 
-will install the `scipy` package explicitly - as long as `pip` is installed inside the currently active Conda environment. Unfortunately, when Conda and `pip` are used together to create an environment, it can lead to a state that can be hard to reproduce. Specifically, running Conda after `pip` may potentially overwrite or break packages installed via `pip`. One way to avoid this is by installing as many requirements as possible with Conda, and then use pip. Detailed information can be read on the post, [Using Pip in a Conda Environment](https://www.anaconda.com/using-pip-in-a-conda-environment/).
+سيتم تثبيت حزمة `scipy` صراحة-طالما تم تثبيت `pip` داخل بيئة كوندا النشطة حاليا. لسوء الحظ، عندما يتم استخدام كوندا و `بيب` معا لإنشاء بيئة ويمكن أن يؤدي إلى حالة يصعب إعادة إنتاجها. وعلى وجه التحديد، فإن تشغيل كوندا بعد `pip` قد يستبدل أو يعطل الحزم المثبتة عبر `pip`. وإحدى الطرق لتجنب ذلك هي تركيب أكبر عدد ممكن من المتطلبات مع كوندا، ثم استخدام الأنابيب. يمكن قراءة معلومات مفصلة على المشاركة، [استخدام الخرسانة في بيئة كوندا](https://www.anaconda.com/using-pip-in-a-conda-environment/).
 
-Although Python packages have been used in many of the examples given here, Conda packages do not have to be Python packages. For example, here the R base language is installed along with the R package `r-yaml`:
-
-```
-conda create --name Project_One r-base r-yaml
-```
-
-To see all of the installed packages in the current environment, use:
+على الرغم من استخدام حزم بايثون في العديد من الأمثلة المقدمة هنا، فإن حزم كوندا لا يجب أن تكون حزم بايتون. على سبيل المثال، هنا تم تثبيت لغة R الأساسية جنبا إلى جنب مع حزمة R `r-yaml`:
 
 ```
-conda list
+كوندا إنشاء --اسم مشروع_قاعدة r-yaml
 ```
 
-To check if a particular package is installed, for example, `scipy` in this case:
+لمشاهدة جميع الحزم المثبتة في البيئة الحالية، استخدم:
+
+```
+قائمة كوندا
+```
+
+للتحقق مما إذا تم تثبيت حزمة معينة، على سبيل المثال، `scipy` في هذه الحالة:
 
 ```
 conda list scipy
 ```
 
-A Conda channel is where it downloaded a package from. Common channels include `Anaconda` (a company which provides the defaults conda package channel), and `conda-forge` (a community-driven packaging endeavour). You can explicitly install a package from a certain channel by specifying it like:
+قناة كوندا هي المكان الذي قامت بتنزيل حزمة منه. تشمل القنوات الشائعة `أناكوندا` (شركة توفر قناة الحزمة الافتراضية) و `كوندا - فورج` (مسعى التعبئة الذي يقوده المجتمع). يمكنك تثبيت حزمة بشكل صريح من قناة معينة عن طريق تحديدها كما يلي:
 
 ```
-conda install -c channel_name package_name
+تثبيت conda -c channel_name package_name
 ```
 
 (rr-renv-package-exporting)=
-## Exporting and Reproducing Computational Environments
+## البيئة الحسابية للتصدير والاستنساخ
 
-Conda environments can be exported easily to human-readable files in the YAML format. YAML files are discussed in more detail {ref}`later <rr-renv-yaml>` in this chapter.
+يمكن تصدير بيئات كوندا بسهولة إلى ملفات قابلة للقراءة البشرية بتنسيق YAML. تتم مناقشة ملفات YAML بمزيد من التفصيل {ref}`لاحقاً <rr-renv-yaml>` في هذا الفصل.
 
-To export a conda environment to a file called `environment.yml`, activate the environment and then run:
-
-```
-conda env export > environment.yml
-```
-
-Similarly, Conda environments can be created from YAML files via:
+لتصدير بيئة كوندا إلى ملف يسمى `environment.yml`، قم بتفعيل البيئة ثم قم بتشغيل:
 
 ```
-conda env create -f environment.yml
+تصدير conda env > environment.yml
 ```
 
-This allows researchers to reproduce one another's computational environments quickly. Note that the list of packages is not just those explicitly installed. It can include OS-specific dependency packages so environment files may require some editing to be portable to different operating systems.
-
-Environments can also be cloned. This may be desirable, for example, if a researcher begins a new project and wants to make a new environment to work on it in; the new project's environment (at least initially) may require the same packages as a previous project's environment.
-
-For example, to clone the _Project_One_ environment, and give this new environment the name _Project_Two_:
+وبالمثل، يمكن إنشاء بيئات كوندا من ملفات YAML عن طريق ما يلي:
 
 ```
-conda create --name Project_Two --clone Project_One
+كوندا إنف خلق -f environment.yml
+```
+
+وهذا يتيح للباحثين أن يستنسخوا البيئات الحاسوبية للباحثين بسرعة. لاحظ أن قائمة الطرود ليست فقط تلك المثبتة صراحة. ويمكن أن تشمل مجموعات الإعالة الخاصة ببرمجيات المصدر المفتوح بحيث أن ملفات البيئة قد تتطلب بعض التحرير لكي تكون محمولة إلى نظم تشغيل مختلفة.
+
+ويمكن أيضا استنساخ البيئات. وقد يكون ذلك مستصوبا، على سبيل المثال، إذا بدأ أحد الباحثين مشروعا جديدا وأراد تهيئة بيئة جديدة للعمل في هذا المشروع؛ وقد تتطلب بيئة المشروع الجديد (في البداية على الأقل) نفس الطرود التي تحتاج إليها بيئة المشروع السابقة.
+
+على سبيل المثال، لاستنساخ بيئة _Project_One_ وإعطاء هذه البيئة الجديدة اسم _Project_Two_:
+
+```
+كوندا ينشئ --اسم مشروع_اثنين --استنساخ مشروع واحد
 ```

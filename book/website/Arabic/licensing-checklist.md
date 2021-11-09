@@ -1,17 +1,17 @@
 (rr-licensing-checklist)=
 # Checklist
 
-This is a checklist for adding a license to your project repository.
+هذه قائمة مرجعية لإضافة ترخيص إلى مستودع المشروع الخاص بك.
 
-- Go to your repository folder (local computer or online repository on GitHub/GitLab/BitBucket)
-- Create a new file and name is `License.txt` or `License.md` based on your  preference of the file format
-- Choose a type of license (or multiple license for mixed content) that is suitable for your project (visit [choosealicense.com](https://choosealicense.com/))
-- Copy the license content to the newly created file, for example, you can use an Open Source license [CC-BY 4.0](https://choosealicense.com/licenses/cc-by-4.0/) for text content and [MIT License](https://choosealicense.com/licenses/mit/) for software
-- Save your file and add details in your README.md file
+- اذهب إلى مجلد مستودعك (كمبيوتر محلي أو مستودع عبر الإنترنت على GitHub/GitLab/BitBucket)
+- إنشاء ملف جديد واسم جديد هو `License.txt` أو `License.md` استنادًا إلى تفضيلك تنسيق الملف
+- اختر نوع ترخيص (أو ترخيص متعدد للمحتوى المختلط) مناسب لمشروعك (زيارة [choosealicense.com](https://choosealicense.com/))
+- نسخ محتوى الترخيص إلى الملف المنشأ حديثا، على سبيل المثال، يمكنك استخدام ترخيص مفتوح المصدر [CC-BY 4.](https://choosealicense.com/licenses/cc-by-4.0/) لمحتوى النص و [رخصة MIT](https://choosealicense.com/licenses/mit/) للبرنامج
+- حفظ الملف الخاص بك وإضافة التفاصيل في ملف README.md الخاص بك
 
-(rr-licensing-reading)=
-## Further Reading
+(r-licensing-read)=
+## المزيد من القراءة
 
-Additional resources you can read to learn more about software licenses.
+موارد إضافية يمكنك قراءتها لمعرفة المزيد عن تراخيص البرمجيات.
 
- - [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)
+ - [تراخيص المصدر المفتوح: ماهية الرخص وأسبابها](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)

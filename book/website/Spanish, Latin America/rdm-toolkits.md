@@ -1,26 +1,26 @@
-# Research data management toolkits
+# Herramientas de gestión de datos de investigación
 
-## What is a research data management toolkit?
+## ¿Qué es un conjunto de herramientas de gestión de datos de investigación?
 
-A research data management toolkit provides information and advice about the data management activities in the whole data lifecycle. As such, it provides researchers with a strategy to manage their data to international standards.
+Un conjunto de herramientas de gestión de datos de investigación proporciona información y asesoramiento sobre las actividades de gestión de datos en todo el ciclo de vida de los datos. Como tal, proporciona a los investigadores una estrategia para gestionar sus datos de acuerdo con las normas internacionales.
 
-Next to a website based around the research data management lifecycle, a research data management toolkit may also include "real world" use cases and scenarios. Additionally, a collection of tools to support the researcher may be available in a number of toolkits.
-
-
-## Why should you use a research data management toolkit?
-
-A research data management toolkit will help you to maximize the efficiency and integrity of your research, and to increase your visibility and impact. Consulting a research data management toolkit will also learn you how to comply with requirements from funders, publishers and others. Last but not least, the toolkit can assist in finding and re-using datasets for your own research.
+Junto a un sitio web basado en el ciclo de vida de gestión de datos de investigación, un conjunto de herramientas de gestión de datos de investigación también puede incluir casos de uso "mundo real" y escenarios. Adicionalmente, una colección de herramientas para apoyar al investigador puede estar disponible en varios conjuntos de herramientas.
 
 
-## How to choose a research data management toolkit?
+## ¿Por qué debería utilizar un conjunto de herramientas de gestión de datos de investigación?
 
-Information and materials are often sorted by topic and audience. Materials can be found relevant to your role (researcher, research support, IT specialist), your research domain (for life sciences: plant phenotyping, human data,...) or your problem (such as storage, data transfer).
+Un conjunto de herramientas de gestión de datos de investigación le ayudará a maximizar la eficiencia e integridad de su investigación, y a aumentar su visibilidad e impacto. Consultar un conjunto de herramientas de gestión de datos de investigación también le enseñará cómo cumplir con los requisitos de los financiadores, editores y otros. Por último, pero no menos importante, el kit de herramientas puede ayudar a encontrar y reutilizar conjuntos de datos para su propia investigación.
 
 
-A wide variety of research data management toolkits are available. Here, we list a number of toolkits:
+## ¿Cómo elegir un conjunto de herramientas de gestión de datos de investigación?
 
-* [JISC research data management toolkit](https://rdmtoolkit.jisc.ac.uk/rdm-for-researchers/)
-* [ELIXIR research data management toolkit](https://rdm.elixir-europe.org/index.html)
-* [University of New Hampshire data management toolkit](https://libraryguides.unh.edu/datamanagement)
+La información y los materiales a menudo se ordenan por tema y audiencia. Se pueden encontrar materiales relevantes para su papel (investigador, apoyo a la investigación, especialista en informática), su dominio de investigación (para ciencias de la vida: fenotipos vegetales, datos humanos,. .) o su problema (como almacenamiento, transferencia de datos).
 
-*Many more toolkits are available: lots of them are rather guides than toolkits. One could argue about the definition of a RDM toolkit*
+
+Una amplia variedad de herramientas de gestión de datos de investigación están disponibles. Aquí listamos un número de conjuntos de herramientas:
+
+* [Kit de herramientas de gestión de datos de investigación JISC](https://rdmtoolkit.jisc.ac.uk/rdm-for-researchers/)
+* [Kit de herramientas de gestión de datos de investigación ELIXIR](https://rdm.elixir-europe.org/index.html)
+* [Kit de herramientas de gestión de datos de la Universidad de New Hampshire](https://libraryguides.unh.edu/datamanagement)
+
+*Hay muchos más kits de herramientas disponibles: muchos de ellos son más guías que los kits de herramientas. Se podría discutir sobre la definición de un kit de herramientas de RDM*

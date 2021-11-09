@@ -1,8 +1,9 @@
-(rr-testing-driven-development)=
-# Test Driven Development
+(rr-testing-drive-development)=
+# 测试驱动器开发
 
-One way of ensuring tests are not neglected in a project is to adopt test-driven development. This is an approach in which unit tests are written before the code. The tests thus describe a "contract" that the code is expected to comply with. This ensures that the code will be correct (as far as can be enforced by the testing contract) as written, and it provides a useful framework for thinking about how the code should be designed, what interfaces it should provide, and how its algorithms might work. This can be a very satisfying mental aid in developing tricky algorithms.
+确保测试在一个项目中不被忽视的一个方法是采用测试驱动的发展。 这是一种在代码之前写入单位测试的方法。 因此，这些测试描述了一种预期代码会遵守的“合同”。 这确保了书面形式的守则正确无误（只要测试合同能够强制执行， 它为思考如何设计守则提供了一个有用的框架， 它应该提供什么接口以及它的算法可能如何工作。 这可以是一种非常令人满意的精神援助，用于发展棘手的算法。
 
-Once the tests are written, the code is developed so that it passes all the associated tests. Testing the code from the outset ensures that your code is always in a releasable state (as long as it passes the tests!). Test driven development forces you to break up your code into small discrete units, to make them easier to test; the code must be modular. The benefits of this were discussed in the section on {ref}`unit testing<rr-testing-unittest>`.
+一旦写入测试，代码就会开发出来，以便通过所有相关的测试。 从一开始测试代码可以确保您的代码始终处于可发布状态(只要它通过测试!)。 测试驱动的开发迫使你将代码拆分成小的离散单元，使它们更容易测试；代码必须是模块。
+{ref}`单元测试<rr-testing-unittest>` 中讨论了这个问题的好处。
 
-An alternative development approach is behaviour driven development. Simply put, under the test driven development paradigm, we check "has the thing been done correctly?", whereas under behaviour driven development we test "has the correct thing been done?". It is more often used in commercial software development to focus development on making the software as simple and effective as possible for users. User experience is very rarely at the heart of code written for the purposes of research, but there are cases where such software is written with a large user-base in mind. In such cases behaviour-driven development is a path worth considering.
+替代发展办法是以行为为驱动力的发展。 简言之，根据试验驱动的发展模式，我们检查“做得是否正确？ 而在行为驱动的发展下，我们检验“是否做了正确的事？” 在商业软件开发中，更经常地将重点放在使软件对用户尽可能简单和有效上。 用户体验很少处于为研究目的编写的代码的核心。 但在有些情况下，这种软件是在考虑到大量用户的情况下编写的。 在这种情况下，行为驱动的发展是一个值得考虑的途径。

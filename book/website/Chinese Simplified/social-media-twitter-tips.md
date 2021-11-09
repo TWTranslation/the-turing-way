@@ -1,84 +1,84 @@
-(cm-social-media-twitter-tips)=
-# Tips for Starting with Twitter
+(cm-socio-media-twitter-tips)=
+# 开始Twitter的提示
 
-Twitter has 353 million monthly active users. You are limited to 280 characters and the style is more informal and chatty than other platforms like Linkedin. You can use links, photos (1200 x 628 pixels) and videos (max 2 minutes 20 secs) in similar ways to the other social media platforms.
+Twitter每月有3.53亿名活跃用户。 您被限制在280个字符，样式比其他平台如Linkedin更加非正式和有趣。 您可以以类似于其他社交媒体平台的方式使用链接、照片(1200×628像素)和视频(最多2分钟20秒)。
 
-Below are general tips for starting to use Twitter for personal academic purposes. Some of the tips have been adapted from 'Practical tips for scientists using twitter' {cite:ps}`Chabrol2021twitter`.
+下面是为个人学术目的开始使用 Twitter 的一般提示。 一些小贴士已经从“使用twitter” {cite:ps}`Chabrol2021twitter` 中改编。
 
-But when starting with Twitter it is important to first consider what your purpose for using it is. This will help you develop your voice (how you want to be heard, what topics you focus on, your overall message) on Twitter.
+但从Twitter开始，必须首先考虑你使用Twitter的目的。 这将帮助您在Twitter上开发自己的语音(您想要听到的方式，您关注的主题是什么，您的总体信息)。
 
-**1. Choose a good Twitter handle and write a good bio**
+**1. 选择一个良好的 Twitter 句柄并写下一个好的 bio**
 
-* Add a photo, cover image and short bio that is relevant to the research you are doing.
-* Your bio can be linked to accounts such as your institution using their @, your funding body and common hashtags for your subject.
-* You might want to have a specific Twitter account for your project or organisation as well as a personal one.
+* 添加一张照片，覆盖图像和与您正在进行的研究相关的短bio。
+* 您的 bio 可以链接到账户，如您的机构使用他们的 @、您的融资机构和您的主题的常见哈希标签。
+* 您可能想要为您的项目或组织拥有一个特定的Twitter账户以及一个个人账户。
 
-**2. Make lists**
+**2. 创建列表**
 
-* This helps you to follow lots of people and can be used for events.
-* Lists can be made public.
+* 这有助于您关注大量的人并且可以用于事件。
+* 名单可以公开。
 
-**3. Think about your audience for each tweet**
+**3. 想一想每个潮湿的听众。**
 
-* It might be that all your tweets are to target your research community but some may also be for the wider public. Therefore, think carefully about the language you use, avoid jargon and subject-specific acronyms, and add links to more information.
+* 也许您的所有推文都是针对您的研究界的，但有些也可能是面向更广泛的公众的。 因此，仔细思考您使用的语言，避免使用术语和特定主题的缩写，并添加链接到更多信息。
 
-**4. Add subject-specific hashtags**
+**4. 添加特定主题的哈希标签**
 
-* You only have 280 characters so using hashtags to link to different groups of interest is an important way to get your message out there.
-* Tweets with hashtags can increase engagement by almost 100% for individuals.
-* There are also regular hashtags for each day of the week, for example, #MondayMotivation or #FridayFeeling.
+* 您只有280个字符，所以使用散列标签链接到不同的兴趣群组是将您的消息传递到那里的一个重要方式。
+* 带有散列标签的推文可以使个人的参与增加近100%。
+* 每周的每一天都有定期的哈希标签，例如#星期一激励或 #星期五Feeling。
 
-**5. Include some other accounts in your tweet**
+**5. 在您的 tweet 中包含其他账户**
 
-* Linking your tweet to other accounts using @ will mean you get more retweets and therefore will spread your tweet further.
-* It is a good idea to find other researchers and organisation that have large Twitter followings. This gives your tweet the largest reach possible.
+* 使用 @ 将您的 tweet 连接到其他帐户将意味着您会得到更多的转发，因此将会进一步扩展您的 tweet。
+* 找到其他有大量Twitter关注的研究人员和组织是一个好主意。 这使你能够最大的伸展。
 
-**6. Add visuals**
+**6. 添加视觉效果**
 
-* You can use images and gifs to draw attention to your tweets.
-* If you don't have an image, a link will generate an image so make sure that the link is up to date and has a relevant image for your tweet.
-* Yow also have the option to add a description of the image so that content is accessible to more people. Here is a link to the twitter help page on [how to make images accessible for people](https://help.twitter.com/en/using-twitter/picture-descriptions).
+* 您可以使用图像和gifs来提请注意您的推文。
+* 如果您没有图像， 链接将生成图像，确保链接是最新的，并具有您的推文相关的图像。
+* 您也可以选择添加图像描述，以便更多人能够访问内容。 这是一个链接到 [上的 twitter 帮助页面的链接，如何让人们访问](https://help.twitter.com/en/using-twitter/picture-descriptions) 的图像。
 
-**7. Don't start a tweet with '@'**
+**7. 不要以“@”开始推送**
 
-* These are treated as replies so become hidden.
+* 这些答复被当作是隐藏的答复。
 
-**8. Be careful with sensitive data**
+**8. 小心处理敏感数据**
 
-* Make sure you are aware of the policy concerning social media in your project or institution.
-* Some projects will not allow you to tweet about progress until a certain time in the project and others will encourage the use of social media from the start.
+* 请确保您知道您的项目或机构中有关社交媒体的政策。
+* 一些项目将不允许您在项目中的某个时间之前转动进度, 其他项目将鼓励从一开始就使用社交媒体。
 
-**9. Take care of yourself**
+**9. 照顾自己**
 
-* Not all the interactions that you have on Twitter will be pleasant as some people find fun in starting arguments or being offensive towards you.
-* It is best not to interact with these people.
-* You can follow [Charles' Rules of Arguments](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument). This sets out that if you receive an argumentative reply, you should state your position once explaining any misunderstandings and then do not reply again. Let others come to your defence.
-* If it continues, you can block this person and report the abuse.
-* Here is a link to the Twitter help page about [how to block accounts](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts).
+* 并不是你在Twitter上的所有交互会很愉快，因为有些人在开始辩论或对你有冒犯。
+* 最好不要与这些人互动。
+* 您可以遵循 [字符参数规则](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument)。 这段话指出，如果你收到一个有论据的答复，你应该在解释任何误解之后说明你的立场，然后不再答复。 让其他人为你们辩护。
+* 如果继续，您可以屏蔽此人并报告滥用。
+* 这是关于 [如何屏蔽帐户](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts) 的 Twitter 帮助页面的链接。
 
-Starting to use Twitter might involve tweeting about new papers and useful resources in your field, events that you go to such as workshops and conferences, and retweeting other people in your field to highlight their work.
+开始使用 Twitter 可能需要在您的领域里推出新的文章和有用的资源。 您可以参加诸如讲习班和会议等活动，并转发您领域中的其他人以突出他们的工作。
 
-You might also want to start with a series of intro tweets to introduce yourself, your career so far and your current work. You can pin this to your profile so that it is always what people see first.
+您也许还想从一系列介绍您自己、您的职业生涯和您当前的工作开始吧。 你可以把这个固定到你的个人资料上，以便它永远是人们首先看到的。
 
 
-## Twitter Terms
+## Twitter 条款
 
-These terms are adapted from {cite:ps}`Cheplygina2020twitter`.
+这些条款从 {cite:ps}`Cheplygina2020twitter` 中修改。
 
-* Confirmation step - Enabling a checking process tweets before posting using Tweetdeck.
-* Direct message (DM) — A private message that is only visible to the sender and the specifically identified recipients. By default, regular Twitter messages are visible to the whole world, including (via search engines such as Google) people who do not have a Twitter account.
-* Hashtag (#) — Used to make it easier to find tweets with a common theme by defining keywords, for example, tweets about an event (#BookDash) or career talks (#PhDChat).
-* Hat Tip or Heard Through (HT) - Used for thanking the source of a tweet.
-* Like (♡) - Used for showing you like a tweet—a fast way to give feedback without replying.
-* There is no similar function for disliking a tweet.
-* List — A list of Twitter users that can be public (followed by anyone) or private.
-* Lists can be used to follow accounts that tweet about specific topics, but which you don’t want to follow yourself.
-* Live-tweeting — Tweeting short summaries of an event, for example of a conference talk, as it is happening.
-* Mentioning (@) — If you mention someone with their account handle (“This paper by @CaAl is great”), your tweet will show up in their notifications.
-* Notifications — Tweets that mention you and replies, retweets and likes for your tweets.
-* Quote-tweet — Sharing a tweet by someone else in a quote, while adding your comments.
-* Retweet (RT)— Sharing a tweet that was originally made by someone else.
-* Subtweeting — Tweeting about somebody without explicitly mentioning their handle, so that they are not informed of your comment.
-* Thread — A series of tweets on one subject, for instance, ten tweets about a new research paper.
-* Timeline — The tweets from the people you follow.
-* Tweetdeck - App that can be used to tweet and run multiple accounts.
+* 确认步骤 - 在使用 Tweetdeck 发布之前启用检查流程推文。
+* 直接消息 (DM) - 只对发件人和具体指明的收件人可见的私人信息。 默认情况下，常规的 Twitter 消息对整个世界都可见。 包括(通过搜索引擎，例如谷歌) 没有Twitter帐户的人。
+* Hashtag (#) - 通过定义关键字，使其更容易找到带有共同主题的推文 例如，关于事件(#BookDash)或职业谈话(#PhDChat)的推文。
+* hat Tip or Heard Through (HT) - 用于感谢推文的来源。
+* 像 (x) - 用于显示您喜欢的 tweet - 一种快速提供反馈而无需回复的方式。
+* 没有类似的函数来取消一个推特。
+* 邮件列表-公开的 Twitter 用户列表 (随后是任何用户) 或私有用户列表。
+* 列表可以用来跟踪特定主题的帐户，但你不想关注自己。
+* 直播——如同正在进行的会议谈话一样，对一项活动进行简短的总结。
+* 提到了 (@) - 如果你提到某人使用了他们的帐户句柄(“@CaAl 的这张纸很棒”)，你的 tweet 将会显示在他们的通知中。
+* 通知 — 提到你的推文并回复、转播和喜欢你的推文。
+* 询价 — — 在添加您的评论的同时由其他人在报价中分享一种推特。
+* Retweet (RT) — 分享原由他人制作的推特。
+* 小推——在没有明确提及他们的手势的情况下转发某人，以便他们不会被告知你的评论。
+* Thread — 例如，关于一个主题的一系列推文涉及一份新的研究文件。
+* 时间线 - 您关注的人的推文。
+* Tweetdeck - 可以用于推送和运行多个帐户的应用。

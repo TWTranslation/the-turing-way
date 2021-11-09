@@ -1,32 +1,32 @@
 (cm-social-media-twitter)=
-# Managing Multiple Twitter Accounts
+# Gestión de múltiples cuentas de Twitter
 
-Managing multiple accounts on Twitter can be challenging and you might be following a certain social media policy or approach that is different from how you would tweet from your personal account.
+Gestionar múltiples cuentas en Twitter puede ser un reto y puede que estés siguiendo una determinada política o enfoque de redes sociales que es diferente de cómo tuitearías desde tu cuenta personal.
 
-Many projects and organisations have their own Twitter account that is used for advertising their research outputs and events.
+Muchos proyectos y organizaciones tienen su propia cuenta de Twitter que se utiliza para publicitar sus resultados de investigación y eventos.
 
-(cm-social-media-twitter-organisation)=
-## Managing an Organisational Twitter Account
+(cm-social-media-twitter-organización)=
+## Gestión de una cuenta de Twitter organizacional
 
-**1. Be sure that you are clear about what the purpose of the account is and the type of tweets that the organisation wants.**
+**1. Asegúrese de que tiene claro cuál es el propósito de la cuenta y el tipo de tweets que desea la organización.**
 
-* Is it going to be a professional tone or more relaxed and fun.
-* Are there certain restrictions about what content you can tweet about such as not sharing data or results?
+* Será un tono profesional o más relajado y divertido.
+* ¿Hay ciertas restricciones sobre qué contenido puede tuitear tales como no compartir datos o resultados?
 
-**2. Use scheduling to time your tweets**
+**2. Utilice la programación para programar sus tweets**
 
-* This can be done through the Twitter web browser or by using a Twitter app such as Tweetdeck.
-* Tweetdeck is the only app owned by Twitter and it is free to use. But there are [other apps for all different platforms](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), although you often have to pay for their services.
-* There are other apps, such as [Buffer](https://buffer.com/), that you can use to control multiple social media channels.
-* Scheduling tweets is particularly helpful if you are running an event as you can schedule tweets well in advance to give important information.
+* Esto se puede hacer a través del navegador web de Twitter o utilizando una aplicación de Twitter como Tweetdeck.
+* Tweetdeck es la única aplicación propiedad de Twitter y es libre de usar. Pero hay [otras aplicaciones para todas las diferentes plataformas](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), aunque a menudo tienes que pagar por sus servicios.
+* Hay otras aplicaciones, como [Buffer](https://buffer.com/), que puedes usar para controlar múltiples canales de redes sociales.
+* Programar tweets es particularmente útil si usted está ejecutando un evento ya que puede programar tweets con mucha antelación para dar información importante.
 
-**3. Preventing miss tweeting**
+**3. Evitar tweets perdidos**
 
-* When you are responsible for multiple tweeter accounts, there is the possibility of miss tweeting. This is when you tweet out, for example, a personal tweet using an organisational account.
-* Tweetdeck has a feature that allows you to add a confirmation step to perform an extra check before tweeting. This helps to prevent this issue.
+* Cuando usted es responsable de múltiples cuentas de tweeter, existe la posibilidad de perder tweeting. Esto es cuando se tuitear, por ejemplo, un tweet personal utilizando una cuenta de organización.
+* Tweetdeck tiene una característica que le permite agregar un paso de confirmación para realizar una comprobación extra antes de tuitear. Esto ayuda a prevenir este problema.
 
-**4. Enabling multiple users of the same account**
+**4. Habilitar múltiples usuarios de la misma cuenta**
 
-* Also on Tweetdeck, you can [set up an account as a team to allow multiple users to have different access](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
-* There will be one person that is the admin for the account and then the other users are contributors.
-* As a contributor you can post Tweets, Direct Message, like, and Retweet for the team account. You cannot change the password or manage account settings.
+* También en Tweetdeck, puede [configurar una cuenta como equipo para permitir a varios usuarios tener un acceso diferente](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
+* Habrá una persona que es el administrador de la cuenta y luego los otros usuarios son colaboradores.
+* Como colaborador puedes publicar Tweets, Mensajes Directos, Me gusta y Retweet para la cuenta del equipo. No puede cambiar la contraseña o administrar la configuración de la cuenta.

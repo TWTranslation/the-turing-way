@@ -1,53 +1,53 @@
 (pd-overview-methods)=
-# Reproducibility Methods
+# 复活方法
 
-Designing a project starts by defining your research question and the methodology that will be used to answer this question. When thinking about the methodology is necessary to think about how to make your research {ref}`open<rr-open>` and {ref}`reproducible<rr-overview>`:
-- How you are going to collect the data.
-- What analysis will be used.
-- Which tools and infrastructure are needed.
+设计一个项目，首先要界定你的研究问题和用来回答这个问题的方法。 当想到方法是需要考虑如何使你的研究 {ref}`打开<rr-open>` 和 {ref}`可复制<rr-overview>`:
+- 您将如何收集数据。
+- 将采用何种分析。
+- 需要哪些工具和基础设施。
 
 (pd-overview-methods-license)=
-## Choose a License
+## 选择一个许可证
 
-Getting a license is a crucial step in open research. Research does not have to be completed to be useful to others. Having a license is the way to communicate how do you want your research to be used and shared.
+获得许可证是公开研究的一个关键步骤。 研究不一定要完成才能对他人有用。 拥有许可证是你想要如何使用和分享你的研究的方式。
 
-There are different types of licenses depending on the type of project and preferences for re-use and sharing. The [choosealicense](https://choosealicense.com/) website has a good mechanism to help you pick a license.
+根据项目类型以及再使用和分享的偏好，有不同类型的许可证。 [可选择的](https://choosealicense.com/) 网站有一个很好的机制来帮助您选择许可证。
 
-To learn more about how to add a license to your project, read the {ref}`Licensing<rr-licensing>` chapter in the Guide for Reproducible Research.
+了解更多关于如何将许可证添加到您的项目， 读取 {ref}`许可证<rr-licensing>` 指南中的章节.
 
 (pd-overview-planning-dmp)=
-## Data Management Plan
+## 数据管理计划
 
-The data collected in a research project have a longer lifespan than the research that creates it. Therefore, is necessary to consider how the data will be used, archived and shared. Creating a Data Management Plan (DMP) is a way to make important decisions about how to manage your data while providing others with information about it.
+在一个研究项目中收集的数据的寿命比创造数据的研究更长。 因此，有必要考虑如何使用、存档和分享数据。 创建数据管理计划(DMP)是就如何管理您的数据同时向其他人提供相关信息作出重要决定的一种方式。
 
-Read the chapter on {ref}`DMP<rr-rdm-dmp>` To learn about what should be included in a Data Management Plan. Comprehensive information on data management is available in the chapter {ref}`Research Data Management<rr-rdm>`.
+阅读关于 {ref}`DMP<rr-rdm-dmp>` 了解数据管理计划中应包含哪些内容。 关于数据管理的全面信息见第 {ref}章`研究数据管理<rr-rdm>`。
 
 (pd-overview-methods-comprepro)=
-## Computational Reproducibility
+## 可计算还原性
 
-Thinking about which software, tools and platforms to use will greatly affect how you analyse and process data, as well as how you share your results.
+考虑使用哪种软件、工具和平台将极大地影响您如何分析和处理数据， 以及您如何分享您的结果。
 
-The idea is to facilitate others, and yourself, recreating the set-up process necessary to reproduce your research. Some tools that can be used to enable these are the following:
-- **Dependency managers**: these keep dependencies updated and make sure the same version of dependencies you used in the development environment are used when reproducing a result.
-- **Containers**: are a way to create environments that are isolated from other applications.
-- **Notebooks**: a useful online environment where you can execute your scripts, and easily add notes and additional information. The added advantage is that you won't need to install anything.
+其目的是促进他人和你本人重新创建必要的设置过程，以复制你的研究。 可以用来实现这些目标的一些工具如下：
+- **依赖管理器**: 这些依赖关系不断更新，并确保您在开发环境中使用的相同版本的依赖关系在复制结果时被使用。
+- **容器**: 是创建与其他应用程序隔离的环境的一种方式。
+- **笔记本**: 一个有用的在线环境，您可以在这里执行脚本，并且可以轻松添加笔记和额外信息。 添加的优点是您不需要安装任何东西。
 
-To learn more about how to create a reproducible environment, the chapter on {ref}`Reproducible Environments<rr-renv>` is a good place to start.
+要了解更多关于如何创建可复现环境的信息， {ref}`可复现环境<rr-renv>` 是一个良好的开始。
 
 (pd-overview-methods-docs)=
-## Documenting the Design of your Study
+## 记录您研究的设计
 
-After you have decided how to collect your data, analyze it and which tools to use, a good way to document these decisions is by writing a Registered Report.
+决定如何收集您的数据，分析数据和使用哪些工具 记录这些决定的好办法是编写一份注册报告。
 
-A Registered Report highlights the importance of the research question and the methods that will be used. They are peer-reviewed before the research, switching the focus of the review from the results to the substance of the research methods.
+一份登记的报告强调了研究问题和将采用的方法的重要性。 在进行研究之前，对它们进行同侪审查，将审查的重点从研究结果转向研究方法的实质内容。
 
 (pd-overview-planning-help)=
-## Collaborating and Asking for Help
+## 协作和寻求帮助
 
-You don't have to work alone. Having others collaborate with your project is the best way to improve the reproducibility and quality of your work.
+你不必单独工作。 让其他人与您的项目合作是提高您工作的可复制性和质量的最佳途径。
 
-If you don't know where to start, a good place would be the {ref}`Guide for Communication<cm>` and the {ref}`Guide for Collaboration<cl>`.
+如果您不知道从哪里开始， 一个很好的地方将是 {ref}`通讯指南<cm>` 和 {ref}`协作指南<cl>`。
 
-## Reference
+## 参考
 
-Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproducibility Starts from You Today." Patterns, vol. 1, no. 6, 11 Sept. 2020, p. 100099, doi:10.1016/j.patter.2020.100099. [Read Online on Science Direct](https://www.sciencedirect.com/science/article/pii/S2666389920301331)
+Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproduciability Starts from You Today." Patterns, vol. 同上，第1号，第6号，2020年9月11日，第100099页，doi:10.1016/j.patter.2020.100099页。 [在科学直接上读取在线](https://www.sciencedirect.com/science/article/pii/S2666389920301331)

@@ -1,40 +1,40 @@
 (rr-reviewing-recommendation)=
-# Recommendations and best practices
+# 建议和最佳做法
 
-## Who reviews?
+## 谁评论？
 
-Within small-scale projects where the developers all typically already know each other, common practice is for the coder to tag someone in the group as the reviewer. When you are tagged as a reviewer, first check if you have enough knowledge about the new changes in the code to do a good job in a reasonable amount of time.
+在开发商通常已经相互了解的小规模项目范围内， 常见的做法是让编译者将该群组中的某人标记为审核者。 当您被标记为审核者时， 首先检查您是否对 有足够的知识。代码中的新更改能够在合理的时间内完成一份很好的工作。
 
-In contrast, large-scale development projects will likely have existing, concrete rules for how reviewers are allocated to individual pull requests. These rules serve to balance the group workload and to maximise the various benefits of the process to the project and its participants. The very largest projects may even have dedicated staff - or teams of staff - to act as reviewers. Typically, code reviews can only be performed by an authorised subset of contributors within larger projects.
+与此相对照，大规模发展项目很可能有适用于 审查人员如何分配给个别吸引申请的现有具体规则。 这些规则有助于平衡小组的工作量，并最大限度地扩大这一进程对项目及其参与者的各种好处。 最大的项目甚至可能有专职工作人员――或工作人员团队――担任审评员。 通常，代码审查只能由授权的贡献者子组在较大的项目中进行。
 
-For projects where multiple rounds of review on similar material are likely and long development cycles are anticipated, a degree of strategic thinking on who completes reviews is sensible. A single reviewer is likely to be able to make comments on code they have reviewed before much more efficiently. However, letting reviewer-coder pairs like this persist is generally a bad idea, as it can lead to the same kinds of groupthink that the review process is designed to avoid in the first place.
+对于可能对类似材料进行多轮审查并预计开发周期长的项目。 一定程度的战略思维对谁完成审查是明智的。 单一审查者很可能能够在更有效率的前提下就他们已经审查过的代码提出意见。 然而，让审核者对此保持不变一般是一个坏主意， 这可能导致同类群体认为审查过程首先是为了避免。
 
-## Be nice!
+## 做得好！
 
-As with all open-source and collaborative enterprises, good internet etiquette makes the whole process go more smoothly. Perhaps most importantly, always assume good faith on both sides of the review interaction, and always be constructive. These principles are true for the review process beyond almost any other project aspect, since it necessarily involves criticism, potentially between two complete strangers.
+如同所有开放源码和协作企业一样，互联网优良使整个过程更加顺利。 也许最重要的是，审查互动双方始终抱有诚意，并始终具有建设性。 这些原则适用于审查进程，而不是几乎任何其他项目方面，因为它必然涉及批评，可能是两个完全陌生人之间的批评。
 
-## Keep it collaborative
+## 保持协作
 
-Unlike traditional, "academic-style" peer review, most code review systems have a number of advantages: they're rarely anonymous, they're public-facing, and without the middleman of an editor, contact between reviewer and reviewee can be direct and rapid. This means code review is typically a fast, flexible, and interactive process. Good peer review will be fully collaborative, where once a potential query has been flagged by a reviewer, the two involved parties can work forward together to find a solution. It's also not atypical for third parties to chime in during the discussion threads that can grow under more gnarly review comments, either voluntarily or by request. This is all to the good.
+与传统的“学术风格”同级审评不同，大多数代码审查系统有若干优点：它们很少匿名， 他们是公开面对面的，没有编辑的中间人，审查者和被审查者之间的联系就可以是直接和迅速的。 这意味着代码审查通常是一个快速、灵活和互动的过程。 良好的同行审查将得到充分合作，一旦审查人员标明了可能的查询，将予以充分合作。 双方可以共同努力寻找解决办法。 第三方在讨论过程中也不非典型，讨论线索可能会在更仔细的评论下成长。 无论是自愿的还是应请求的。 这一切都是好的。
 
-## Avoid being subjective
+## 避免主观性
 
-Code reviews should strive to be as objective as possible. Of course, subjective coding preferences may come up in any project. However, such preferences wherever possible should be decided at the project level beforehand. Thus, one can avoid the situation where an opinion might be passed off as fact. Instead suggestions can be supported by pointing to documented preferences that have been set up in advance. If you do come across undocumented preferences, discuss them with the team again and agree if you would like to add the preference to the checklist of your code review process.
+守则审查应力求尽可能客观。 当然，任何项目都可能出现主观的编码偏好。 但是，只要有可能，就应在项目一级事先作出决定。 因此，我们可以避免意见可能作为事实而被放弃的情况。 相反，可以通过指出事先建立的有文件记载的偏好来支持这些建议。 如果您确实遇到了未验证的偏好设置， 再次与团队讨论，并同意是否在您的代码审核过程的清单中添加首选项。
 
-## Specify crucial versus optional changes
+## 指定关键与可选更改
 
-You might want to differentiate between changes that are crucial and changes that are nice to have. For example, comments that begin "You might..." could be used to express suggestions the reviewers want the coder to consider but are not essential. These can be particularly useful to guide inexperienced coders to write better code while not being too picky. The coder can then decide to ignore these non-crucial comments if they don't agree. Reviewers could use comments that begin "You must..." to specify those that are not optional.
+您可能想要区分关键的更改和优秀的更改。 例如，开始“你可能……”的评论可以用来表达审查人员想要编程器考虑但不是必要的建议。 这些特别有用，可以引导没有经验的编程器编写更好的代码，同时又不过分。 如果他们不同意，编程员就可以决定忽略这些非关键的评论。 评论员可以使用开始"您必须..."的评论来指定那些不是可选的。
 
-## Review code in small chunks
+## 小区块中的验证码
 
-Reviewing code in small chunks incrementally as the project is developing can help make the code review process a lot more efficient. It is a lot more difficult to review an enormous codebase once significant mistakes have been introduced. If mistakes can be spotted early in the process, they are much easier to fix and this will help with the overall code development process.
+随着项目的发展，逐步审查小块代码可有助于提高代码审查过程的效率。 一旦出现重大错误，审查一个巨大的代码库就会更加困难。 如果能够在进程的早期发现错误，这些错误就更容易解决，这将有助于整个代码开发进程。
 
-Here is some general advice on how to integrate code reviews into our working process:
+以下是关于如何将代码评论纳入我们工作进程的一些一般性建议：
 
-- Take the time, read carefully. Review everything, nothing is too short or simple.
-- Try to have something else to do, and spread the load throughout your working day. Don't review for more than an hour at a time, after that the success rate drops quite quickly.
-- Don't review more than 400 lines of code (LOC) at a time, less than 200 LOC is better. Don't review more than 500 LOC/hour.
+- 仔细阅读时间. 审查一切，没有任何东西太短或太简单。
+- 试着还有其他东西要做，并在你的 个工作日中散布负荷。 每次不要检查一小时以上，但成功率下降得相当快。
+- 每次不要检查超过 400行代码，少于200 行就会更好。 不要检查超过 500 个LOC /小时。
 
-## Be okay with taking the discussion offline
+## 可以脱机进行讨论
 
-Sometimes, with more complex code reviews, online communication can lead to unproductive conversations. Setting up an in-person meeting can help to resolve some of the trickier issues in a more collaborative and friendly manner. As an alternative, the development/research team can set regular meetings for doing code reviews with all of the team members. For example, see the approach taken by a professor organizing [lab meetings for code](http://fperez.org/py4science/code_reviews.html).
+有时候，由于代码审查较为复杂，网上通信可能导致没有结果的对话。 安排亲自出席会议有助于以更加协作和友好的方式解决一些更加棘手的问题。 作为一种替代办法，发展/研究小组可定期与小组所有成员举行会议，进行守则审查。 例如，请看一位教授为代码</a> 组织 实验室会议的方法。</p>

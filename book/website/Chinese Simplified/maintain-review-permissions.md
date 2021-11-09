@@ -1,18 +1,18 @@
-(cl-maintain-review-permissions)=
-# Ownership and Permissions
-In any team or organisation owned project, there are different contributors.
+(cl-维护者 - review-permissions)=
+# 所有权和权限
+在任何团队或组织拥有的项目中，都有不同的贡献者。
 
-Owners of a project are individuals or teams who generally start a project, or join it at the time of project creation with a defined vision and goals. The owners have the right to give different [levels of permission](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to outside contributors.
+项目的所有者是一般启动项目的个人或小组。 或在项目创立时加入具有明确的远景和目标的项目。 The owners have the right to give different [levels of permission](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to outside contributors.
 
-In Github, there are five levels of permissions: read, triage, write, maintain, and admin.
-* Readers are non-code contributors who are read the content or join discussions on GitHub issues.
-* With triage permission, contributors can manage issues and pull requests without write access.
-* Write permission allows contributors to push changes to the project.
-* Maintain permission is for project managers but have no access to sensitive or destructive actions (such as project deletion).
-* Admins are people who have full access to the project, including sensitive and destructive actions, and are responsible for granting permission to make other contributors.
+在 Github, 有五个级别的权限：读、试用、写、维护和管理员。
+* 读者是非代码撰稿人，他们阅读内容或参加关于GitHub 问题的讨论。
+* 通过试用许可，贡献者可以管理问题和拉取请求，而无需写入权限。
+* 写入权限允许贡献者推送对项目的更改。
+* 保持许可是给项目管理人员的，但没有机会采取敏感或破坏性的行动(例如项目删除)。
+* 管理人员可以充分参与该项目，包括敏感和破坏性的行动，并有责任批准其他贡献者参加。
 
-These roles are often defined in a project file such as a [CODEOWNERS file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) or a Ways of Working file (see _The Turing Way_'s [Ways of Working](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) as an example). These files provide insight into the core project team and members responsible for maintenance roles in the project.
+这些角色常常在项目文件中定义，如 [CODEOWNERS 文件](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) 或工作方式(见 _Ting Way_的 [工作方式](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) 作为示例)。 这些档案有助于深入了解核心项目小组和负责项目维护作用的成员。
 
-In this chapter, anyone with triage, write and maintain permission is referred to as maintainers. Maintainers are involved with creating issues and pull requests whenever required. They keep the codebase or project updated and help in reviewing contributions. They can often approve and merge pull requests. They can also request reviews from someone else.
+在本章中，任何人只要有分割、写入和保持许可，都会被称为维护者。 维护者参与创建问题并在需要时拉取请求。 它们不断更新代码库或项目，并帮助审查捐款。 他们常常可以批准并合并拉取请求。 他们也可以要求其他人进行审查。
 
-*For more information on permission level, please see this [documentation on GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*
+*关于权限级别的更多信息，请在GitHub</a> 上查看 文档。</em></p>

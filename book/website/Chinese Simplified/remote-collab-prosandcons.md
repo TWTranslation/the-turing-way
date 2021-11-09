@@ -1,28 +1,28 @@
 (cl-remote-collab-prosandcons)=
-# Perceived Pros and Cons
+# 可感知的 Pros 和 Cons
 
-It is needless to say that the same setting can not always work for everyone, which applies to remote collaboration, working, and event participation. For many, it may not always feel as effective as working in physical offices, for example, when they live in a small apartment, share their place with a large family, have an inadequate remote-work setting or feel less connected with their colleagues. However, for others, remote working may be more enjoyable and productive.
-> "As someone who used to commute 4 hours per day for 12 years, I can sum my experiences in four words - *remote working reduces inequality*", says one of our contributors, Pablo Rodríguez-Sánchez (GitHub: PabRod).
+不用说，同一环境并非总能对每个人起作用，这适用于远程合作、工作和活动参与。 对许多人来说，它可能并不总是象在实物办公室工作那样有效，例如当他们住在小公寓里时。 与一个大家庭共用他们的位置，远距离工作环境不足，或感觉与同事联系较少。 然而，对其他人来说，远距离工作可能更加愉快和更有成效。
+> “作为12年来每天上班4小时的人， 我可以用四个单词来总结我的经验 - *远程工作可以减少不平等*", 我们的贡献者之一是Pablo Rodriguez-Sanchez（GitHub：PabRod）。
 
-In this subchapter, we have captured *light opinions* a few contributors on their experience of collaborating remotely with others under "pro" and "cons" sections.
+在本分章中， 我们已经抓住了 *光线意见* 个贡献者在他们在“支持”和“吸附”部分中与其他人进行远程合作的经验。
 
 ## Pros
 
-- Remote collaboration dramatically improves the life quality of those who cannot comfortably travel or afford to live close to their office.
-- It has a positive impact on the environment by reducing travel-related CO2 emissions.
-- A well-established format works equally well for low resource environments as the overall organisational cost can be reduced by not having to deal with the on-site expense.
-- Distributed team format attracts people from different time zones, different workplace requirements or those who work best with flexible working hour arrangements.
-- This can lead to innovative ways to establish social interactions and social dynamics in general.
-- It will help us learn about more colleagues from different parts of the world and educate us more about our cultural differences and accommodations to make in our work environment.
-- Decision making will become more efficient by involving all stakeholders irrespective of their locations, given the meeting is done at a mutually convenient time.
+- 远距离协作极大地提高了那些不能舒服地旅行或在其办公室附近生活的人的生活质量。
+- 它通过减少与旅行有关的二氧化碳排放，对环境产生了积极影响。
+- 一种既定的格式同样适用于资源低下的环境，因为不必支付现场费用就可以降低总体组织成本。
+- 分布式团队形式吸引了来自不同时区、不同工作地点要求的人或以灵活工作时间安排最好工作的人。
+- 这可以导致采取创新办法，建立一般的社会互动和社会动态。
+- 它将帮助我们了解来自世界不同地区的更多同事，并使我们更多地了解我们在工作环境中的文化差异和宽容。
+- 考虑到会议是在双方都方便的时候举行的，所有利益攸关方，不论其所在地，决策都将更加有效。
 
-## Cons
+## 康斯
 
-- Developing camaraderie may be challenging as we are used to developing this in-person.
-- The boundaries between working life and personal life become more blurred.
-- If running an online meeting, the allocated time might not be enough to conclude and may sometime lead to misinterpretation of decisions made by the team.
-- Conflict resolution may be difficult if most interactions happen in an allocated time slot.
-- Sometimes, such interactions may lack body language or tone (online chat) and may lead to misunderstanding or unnecessary conflict.
-- May lose the possibility of chanced interaction or water-cooler-effects and innovative ideas that they produce.
-- People will have different working conditions, for example, limited access to hardware that can lead to wrong assumptions regarding replication of certain tasks.
-- May be distracting if working from a busy co-working space or home without a sufficient arrangement for work that can make it difficult for some people to focus and have disciplined work practices.
+- 发展骆驼可能是一项挑战，因为我们被用来发展这种亲身关系。
+- 工作与个人生活之间的界限变得更加模糊。
+- 如果运行在线会议, 分配的时间可能不足以结束，并可能在某个时候导致对小组所作决定的误解。
+- 如果大多数互动都在分配的时间段内进行，解决冲突可能是困难的。
+- 有时，这种互动可能缺乏人文语言或语音（在线聊天），可能导致误解或不必要的冲突。
+- 有可能失去相互作用或水的冷却效应和它们产生的创新思想。
+- 人们将有不同的工作条件，例如，获得硬件的机会有限，可能导致对某些任务的复制作出错误的假设。
+- 如果没有足够的工作安排，使某些人很难集中精力和有纪律的工作做法，从繁忙的共同工作场所或家庭工作场所工作就会分散注意力。

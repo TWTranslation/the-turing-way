@@ -5,17 +5,17 @@
 
 ```{glossary}
 
-Acceptance Testing
- A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+Pruebas de Aceptación
+ Un nivel del proceso de prueba de software donde un sistema es probado para ser aceptado. El propósito de esta prueba es evaluar el cumplimiento del sistema con los requisitos del proyecto y evaluar si es aceptable para ese propósito.
 
 Acknowledgements
  Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
 
 Add
- Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
+ Command used to add files to the staging area. Permite al usuario especificar qué archivos o directorios incluir en la próxima confirmación.
 
 Authors
-  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
+  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. Todos los autores son coautores del libro en su conjunto.
 ```
 ---
 
@@ -24,22 +24,22 @@ Authors
 ```{glossary}
 
 Binder
-  A web-based service which allows users to upload and share fully-functioning versions of their projects in an environment they define.
+  Un servicio basado en la web que permite a los usuarios cargar y compartir versiones de sus proyectos en pleno funcionamiento en un entorno que definan.
 
 Binderhub
-  A service which generates Binders. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+  Un servicio que genera Binders. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
 
 Binderize
   To make a Binder of a project.
 
-Branch
-  A parallel version of a repository. Although it is contained within the same repository it allows you to develop it separately and then merge changes back into the ‘live’ repository or with other branches when appropriate.
+Rama
+  Una versión paralela de un repositorio. Aunque está contenido en el mismo repositorio le permite desarrollarlo por separado y luego fusionar cambios de nuevo en el repositorio "en vivo" o con otras ramas cuando sea apropiado.
 
-Bug
-  This is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.
+Error
+  Esto es un error, falla o falla en un programa de ordenador o sistema que provoca que produzca un resultado incorrecto o inesperado. o comportarse de maneras no intencionadas.
 
-Build
-  A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
+Construye
+  un grupo de trabajos. Por ejemplo, una compilación podría tener dos trabajos, cada uno de los cuales prueba un proyecto con una versión diferente de un lenguaje de programación. Una construcción termina cuando todos sus trabajos están terminados.
 ```
 ---
 
@@ -48,34 +48,34 @@ Build
 ```{glossary}
 
 Checkout
-  Git command to switch to a specific file, branch, or commit. Allows you to activate older versions of files or commits or switch between active branches.
+  comando Git para cambiar a un archivo específico, rama, o commit. Le permite activar versiones antiguas de archivos o commits o cambiar entre ramas activas.
 
 Citizen Science
   The inclusion of members of the public in scientific research.
 
-Clone
-  Copy of an existing Git repository, normally from some remote location to your local environment. When you clone a repo you copy its entire history as well as all branches.
+Clonar
+  Copia de un repositorio Git existente, normalmente desde alguna ubicación remota a su entorno local. When you clone a repo you copy its entire history as well as all branches.
 
-Code Coverage
-  A measure which describes how much of the source code is exercised by the test suite.
+Cobertura de código
+  Una medida que describe la cantidad del código fuente que ejerce la suite de pruebas.
 
 Code of Conduct
   Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
 
-Code Review
-  An additional way of testing code quality. Code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
+Revisión del código
+  Una forma adicional de probar la calidad del código. La revisión de código obtiene otro programador para revisar el nuevo código y evaluarlo. The goal is to point out strengths and also potential areas of improvement.
 
 Coercive authorship
   When a senior researcher forces a junior researcher to include a gift or guest author.
 
 Commit
-  Snapshot of project history. A commit can be made after changes of a single file or a range of files and directories.
+  Instantánea del historial del proyecto. A commit can be made after changes of a single file or a range of files and directories.
 
 Commit Message
   A message the user can attach to a commit to explain what it contains.
 
-Communication Channel
-  The method of communication established for projects that might include mailing lists, community forums, chats and/or social media.
+Canal de comunicación
+  El método de comunicación establecido para proyectos que pueden incluir listas de correo, foros comunitarios, chats y/o redes sociales.
 
 Community Member
   People who use the project. They might be active in conversations or express their opinion on the project’s direction.
@@ -86,32 +86,32 @@ Computational Environment
 Conda
   A commonly used package management system.
 
-Consortia authorship
- A collective or community group authorship model. All members of the consortium are considered authors and are usually required to be listed in the published article although sometimes the article is published in the groups name. If not all members of the consortium agree to the responsibilities of authorship, the members that are authors will be listed separately from those who are not. 
+Autorización de consorcios
+ Un modelo de autoría de grupo colectivo o comunitario. Todos los miembros del consorcio son considerados autores y generalmente están obligados a ser listados en el artículo publicado, aunque a veces el artículo se publica en el nombre de los grupos. Si no todos los miembros del consorcio aceptan las responsabilidades de autor, los miembros que son autores serán listados separadamente de los que no lo son. 
 
-Container
-  Lightweight files that can encapsulate an entire computational environment including its operating system, customised settings, software and files.
+Contenedor
+  archivos ligeros que pueden encapsular todo un entorno computacional incluyendo su sistema operativo, ajustes personalizados, software y archivos.
 
-Continuous Delivery
-  It automates and runs the steps required to build and test a project.
+Entrega Continua
+  Automatiza y ejecuta los pasos necesarios para construir y probar un proyecto.
 
-Continuous Deployment
-  It automatically deploys each time a code change is made.
+Despliegue continuo
+  Despliegue automáticamente cada vez que se realiza un cambio de código.
 
-Continuous Integration
-  It is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). Also called CI.
+Integración Continua
+  Es la práctica de integrar cambios en un proyecto hecho por individuos en su mayoría, versión compartida con frecuencia (normalmente múltiples veces por día). Also called CI.
 
 Contributing Guidelines
   Guidelines outlining how a person should go about contributing to an open source project.
 
-Contributors
-  Everyone who has contributed something back to the project. These are members of a research project that have done some work that has made a contribution to the overall completion of the research. This could be a small contribution such as fixing a bug in software or a much larger contribution such as writing an academic article. 
+Colaboradores
+  Todos los que han aportado algo al proyecto. Estos son miembros de un proyecto de investigación que ha realizado un trabajo que ha contribuido a la conclusión general de la investigación. Esto podría ser una pequeña contribución como corregir un error en el software o una contribución mucho mayor, como escribir un artículo académico. 
 
-Corresponding author
- The person who administers an academic article for the research group. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
+Autor correspondiente
+ La persona que administra un artículo académico para el grupo de investigación. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
 
 CRediT Taxonomy
- The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
+ The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. Los roles describen la contribución específica de cada colaborador al producto especializado. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
 
 ```
 ---
@@ -127,27 +127,27 @@ DMP
   Data management plan.
 
 Docker Container
-  An active computational environment executed from a Docker image.
+  Un entorno computacional activo ejecutado desde una imagen Docker.
 
 Dockerfile
-  A file used for creating Docker images
+  Un archivo utilizado para crear imágenes Docker
 
 Docker Image
-  A machine-readable set of instructions to create a specified computational environment.
+  Un conjunto de instrucciones legibles para crear un entorno computacional especificado.
 
-Docker Registry
-  A storage and distribution system for named Docker images. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). Such systems are often hosted in the cloud for ease of access.
+Registro Docker
+  Un sistema de almacenamiento y distribución para las imágenes Docker. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). Estos sistemas a menudo están alojados en la nube para facilitar el acceso.
 
-Digital Object Identifier
-  A digital object identifier (DOI) is a persistent identifier or handle used to identify objects uniquely, standardized by the International Organization for Standardization (ISO). An implementation of the Handle System, DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports, data sets, and official publications. However, they also have been used to identify other types of information resources, such as commercial videos.
+Identificador de objeto digital
+  Un identificador de objeto digital (DOI) es un identificador o manejador persistente utilizado para identificar objetos de forma única, estandarizado por la Organización Internacional de Estandarización (ISO). Una implementación del Sistema de Manejo, los DOI se utilizan ampliamente principalmente para identificar a académicos, profesionales, e información gubernamental, como artículos de revistas, informes de investigación, conjuntos de datos y publicaciones oficiales. However, they also have been used to identify other types of information resources, such as commercial videos.
 ```
 ---
 ## E
 
 ```{glossary}
 
-Equitable, Diverse and Inclusive Practices
-  Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
+Prácticas Equitables, Diversas e Inclusivas
+  Garantizar que la beca está abierta a cualquier persona sin barreras basadas en factores como raza, origen, género y orientación sexual.
 
 End to End Test
   A test that runs the program from beginning to end and verifies that the output is correct.
@@ -159,7 +159,7 @@ End to End Test
 ```{glossary}
 
 FAIR
-  Findable, Accessible, Interoperable and Reusable.
+  FINAL, Accesible, Interoperable y Reutilizable.
 
 First author
  The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research. 

@@ -1,10 +1,10 @@
-(rr-open-notebooks)=
-# Open Notebooks
+(rr-opened notebooks)=
+# 打开笔记本
 
-Electronic Lab Notebooks (ELNs) enable researchers to organize and store experimental procedures, protocols, plans, notes, data, and even unfiltered interpretations using their computer or mobile device. They are a digital analogue to the paper notebook most researchers keep. ELNs can offer several advantages over the traditional paper notebook in documenting research during the active phase of a project, including; searchability within and across notebooks, secure storage with multiple redundancies, remote access to notebooks, and the ability to easily share notebooks among team members and collaborators.
+电子实验室笔记本使研究人员能够组织和储存实验程序。 协议、计划、笔记、数据，甚至使用其计算机或移动设备的未过滤解释。 它们是大多数研究人员保存的纸面笔记本的数字模拟。 ELNs在一个项目的积极阶段记录研究方面比传统纸面笔记本具有若干优点，其中包括： 笔记本内部和之间的可搜索性，带有多个冗余的安全存储， 远程访问笔记本，以及团队成员和合作者之间轻松分享笔记本的能力。
 
-Open notebook [{term}`def<Open Notebooks>`] research is simply the practice of making such notebooks openly available, usually online. Some researchers choose to keep their notebooks open from the very beginning of their projects. Rather than wait months, or years, to share their research through journal publication as is the current practice, this allows researchers to post their experimental data and protocols online and in real-time. Sharing research in this open and timely manner helps to reduce duplication of work, helps foster new collaborations, and cultivates a more open dialogue with others. It also helps researchers avoid exploring dead ends and making mistakes that may have already been covered by their colleague but went unpublished because of lack of scientific interest.
+打开笔记本 [{term}`def<Open Notebooks>`] 研究仅仅是公开提供这种笔记本的做法，通常在线提供。 一些研究人员选择从项目一开始就开放他们的笔记本。 而不是等待几个月或几年才按照目前的做法通过期刊出版物分享他们的研究结果。 这使研究人员能够在网上实时张贴他们的实验数据和协议。 以这种公开和及时的方式分享研究有助于减少工作的重复。 帮助促进新的协作，并促进与其他方面的更开放的对话。 它还有助于研究人员避免探索死路，避免犯错误，而这些错误可能已经被他们的同事所掩盖，但由于缺乏科学兴趣而未予公布。
 
-Open notebooks have the further benefit of increasing the quality of scientific outputs by forcing researchers to be careful, thorough, and explicit. Making research open has the added benefit of increasing the likelihood that any errors made in an investigation will be spotted quickly, instead of down the line. Immediate fixes will have much less impact on a research project, which will save research time, lab money, and pride.
+开放笔记本可进一步提高科学产出的质量，因为它迫使研究人员谨慎、彻底和明晰。 开放研究还有一个好处，那就是增加了迅速发现调查中出现的任何错误的可能性， 而不是下线。 即时修复对研究项目的影响要小得多，这将节省研究时间、实验室资金和骄傲。
 
-Ideally, every scientist should maintain an open notebook, which would encompass all aspects of their research, in real-time. However, fears about dealing with complete open access, conflicts with intellectual property and publications, and online data overload hamper this movement. To combat this, practitioners encourage any form of open notebook research ("make open what you can") even if that means uploading some information for a project from many years ago that never saw the light of day.
+理想的情况是，每位科学家都应保持一本开放式笔记本，实时涵盖其研究的所有方面。 然而，人们对处理完全开放的准入、与知识产权和出版物发生冲突以及网上数据超负荷等问题的担心阻碍了这一行动。 为了打击这种现象， 练习者鼓励任何形式的开放笔记本研究(“打开你能做的事情”)，即使这意味着上传多年前从未见过的项目的一些信息。

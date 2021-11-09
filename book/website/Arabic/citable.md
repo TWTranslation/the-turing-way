@@ -1,44 +1,44 @@
 (cm-citable)=
-# Making Research Objects Citable
+# جعل كائنات البحث قابلة للقبول
 
-## Prerequisites / recommended skill level
+## المتطلبات الأساسية/مستوى المهارة الموصى به
 
-| Prerequisite                                          | Importance               |
-| ----------------------------------------------------- | ------------------------ |
-| {ref}`Overview of Reproducibility<rr-overview>` | Useful but not essential |
-| {ref}`Open research<rr-open>`                   | Useful but not essential |
+| الشروط المسبقة                                          | الأهمية              |
+| ------------------------------------------------------- | -------------------- |
+| {ref}`نظرة عامة على إمكانية التكرار<rr-overview>` | مفيد ولكنه غير ضروري |
+| {ref}`بحث مفتوح<rr-open>`                         | مفيد ولكنه غير ضروري |
 
 ## Summary
 
-Many researchers argue that time spent on reproducible research practices reduces the time they have available for activities that are traditionally linked to academic credit, such as writing papers.
+ويرى العديد من الباحثين أن الوقت الذي تستغرقه الممارسات البحثية القابلة للاستنساخ يقلل من الوقت المتاح للأنشطة التي ترتبط تقليدياً بالائتمان الأكاديمي، مثل كتابة الورقات.
 
-What if you could get credit for your reproducibility efforts as well? In this chapter, we will describe how working reproducibly will allow you to get most of your research outputs published in a way that can be cited by others (not just your paper)!
+ماذا لو استطعت الحصول على الفضل لجهودك في إمكانية التكرار؟ في هذا الفصل، سوف نصف كيف أن العمل بشكل مبدئي سيتيح لك الحصول على معظم نواتج بحوثك المنشورة بطريقة يمكن أن يستشهد بها الآخرون (ليس فقط ورقتك)!
 
 ```{figure} ../figures/orcid-ids.jpg
 ---
-name: orcid-ids
-alt: This image shows a female researcher in the centre with her arms raised. She is surrounded in an orbit by different types of documents. On the top left, there is a caption stating 'ORCID IDS', while on the bottom right there is the text that says - 'One ring to rule all outputs'.
+الاسم: orcid-ids
+البديل : هذه الصورة تظهر باحثة أنثى في المركز مع رفع ذراعيها. وهي محاطة في مدار بأنواع مختلفة من الوثائق. على أعلى اليسار، هناك عبارة توضيحية تقول 'معرفات ORCID', بينما في أسفل اليمين هناك النص الذي يقول - "حلقة واحدة لتحكم جميع المخرجات".
 ---
-ORCID ID allows a researcher to connect their profile with all the published research objects, each of which also have their unique persistent identifiers. You will learn about these in this chapter. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+ORCID يسمح للباحث بتوصيل ملفه الشخصي مع جميع عناصر البحث المنشورة، ولكل منها أيضا محددات ثابتة فريدة من نوعها. سوف تتعلم عن هذه في هذا الفصل. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(cm-citable-motivation)=
-## Background & Motivation
+(م - حوافز)=
+## الخلفية & الدافع
 
-Academic research has traditionally maintained a 'reputation economy' where citations are the currency or considered a major metric of success. Most research institutions' promotion and hiring criteria depend to a greater or lesser extent on your publishing record: how many articles you have published, how "important" the journals were, and how many times each article has been cited using the unique identifiers.
+وقد حافظت البحوث الأكاديمية تقليدياً على "اقتصاد السمعة" حيث تكون الاستشهادات هي العملة أو تُعتبر مقياساً رئيسياً للنجاح. تعتمد معظم معايير مؤسسات البحث للترقية والتوظيف إلى حد ما على سجل النشر الخاص بك: كم عدد المقالات التي نشرتها، كيف كانت الصحف "مهمة"، وكم عدد المرات التي استشهد فيها بكل مقالة باستخدام وسائل تعريف فريدة من نوعها.
 
-This is a well-established practice, and while it has its structural (academic) problems at least all stakeholders understand what's involved. One of the consequences of this system is that labour which *doesn't* result in published articles tends to be ignored, discouraging researchers from making their data more open or specialising in software development.
+وهذه ممارسة راسخة، ومع أن لديها مشاكل هيكلية (أكاديمية) على الأقل فإن جميع أصحاب المصلحة يفهمون ما ينطوي عليه الأمر. أحد نتائج هذا النظام هو أن العمل الذي *لا* ينتج عنه مقالات منشورة يميل إلى تجاهله، • عدم تشجيع الباحثين على جعل بياناتهم أكثر انفتاحا أو تخصصا في تطوير البرمجيات.
 
-Establishing good citation practices using persistent and citable identifiers for non-article content is a step towards recognising this valuable work and encouraging more people to take it up. If you can demonstrate the impact of your reproducible research work in addition to more traditional research outputs, you can justify spending more time on doing things right.
+ويشكل إرساء ممارسات استشهاد جيدة باستخدام وسائل تعريف ثابتة وقابلة للتسجيل لمحتوى غير مقالات خطوة نحو الاعتراف بهذا العمل القيّم وتشجيع المزيد من الناس على القيام به. إذا كان بإمكانكم أن تبرهنوا على أثر عملكم البحثي القابل للتكرار، بالإضافة إلى نواتج البحث التقليدية أكثر، يمكنك أن تبرر قضاء المزيد من الوقت في القيام بالأمور بشكل صحيح.
 
-We describe, how you can {ref}`prepare your research object to be citable<cm-citable-steps>`, {ref}`how others can cite them<cm-citable-cite>` (or you can cite others work) and how you can use them to {ref}`gain recognition and build your profile<cm-citable-orcid>`.
+نحن نوصف، كيف يمكنك {ref}`إعداد كائن البحث الخاص بك ليكون قابلاً للتفكير<cm-citable-steps>`، {ref}`كيف يمكن للآخرين أن يستشهدوا بهم<cm-citable-cite>` (أو يمكنك أن تستشهد بأعمال أخرى) وكيف يمكنك استخدامها إلى {ref}`الحصول على اعتراف وبناء ملفك الشخصي<cm-citable-orcid>`.
 
-(cm-citable-contribute)=
-## Contribute to this Chapter
+(م ط - إسهام)=
+## المساهمة في هذا الفصل
 
-We invite you to contribute to this chapter by writing about one or multiple of the following aspects:
-- Demonstrate impact with various metrics described in this chapter
-- Add some tips for peer-reviewed publishing of research components with DOIs (like data journals, JOSS for software)
-- Add information about [citing JSON](http://citebay.com/how-to-cite/json/)
-- How to cite deprecated practices or legacy versions such as citing an early paper or a software manual
-- More thoughts on what does/doesn't need to be cited
+ندعوكم إلى المساهمة في هذا الفصل عن طريق الكتابة حول واحد أو أكثر من الجوانب التالية:
+- تأثير ايضاحي بمقاييس مختلفة موصوفة في هذا الفصل
+- إضافة بعض النصائح لنشر عناصر البحث مع DOIs مراجعة الأقران (مثل مجلات البيانات، JOSS للبرمجيات)
+- إضافة معلومات حول [مع الاستشهاد بـ JSON](http://citebay.com/how-to-cite/json/)
+- كيفية الاستشهاد بالممارسات أو الصيغ الموروثة مثل الاستشهاد بورقة مبكرة أو دليل برمجي
+- المزيد من الأفكار حول ما يفعل/لا يحتاج إلى ذكر

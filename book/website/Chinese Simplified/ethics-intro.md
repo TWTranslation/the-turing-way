@@ -1,100 +1,100 @@
 (er-intro)=
-# Introduction to Research Ethics
+# 研究伦理学简介
 
 ## Summary
 
-This section briefly introduces the key concepts of *Responsible Research and Innovation* (RRI) and *Research Integrity*. Both refer to different questions within the field of research ethics. Below is a table summarising these questions.
+本节简要介绍了 *负责任的研究和创新* and *研究完整性* 的主要概念。 两者都涉及研究道德领域内的不同问题。 以下是这些问题的汇总表。
 
-| Factor                              | RRI                                                                            | Research Integrity                                                                     |
-| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
-| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
-| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
+| 因子           | RRI                         | 研究的完整性                        |
+| ------------ | --------------------------- | ----------------------------- |
+| **对道德问题的认识** | 对外（例如，公众如何看待科学产出？）          | 内向(例如：研究人员如何自己行事？)            |
+| **谁是研究人员与**  | 关于研究课题（例如：我们是否以尊重态度对待它们？）   | 与其他研究人员合作（例如，我们是否遵守行为守则？）     |
+| **什么样的研究**   | 被社会形状(例如：大赦国际如何被普遍理解为解决办法？) | 以体制规范为形形色色(例如：正在为哪些研究问题提供资金？) |
 
 ```{figure} ../figures/ethical-research.jpg
 ---
-name: ethical-research
-alt: One person looks for research integrity and another person holds up a map and looks for the research consequences.
+名称：伦理研究
+备选案文：一个人寻找研究的完整性，另一个人则绘制地图，寻找研究后果。
 ---
-Looking at different aspects of research ethics. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+审视研究道德的不同方面。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
-## Motivation
-> why we think you should read the whole thing
+## B. 动机。
+> 为什么我们认为你应该阅读整个内容
 
- In conducting research within academic institutions, it is common to be faced with ethical questions posed by "Ethics Committees". Decisions made throughout the lifecycle of a project will also raise ethical concerns. This chapter introduces some of these questions within the broad field of research ethics.
+ 在学术机构内进行研究时，常常面临“道德委员会”提出的道德问题。 在项目整个周期内作出的决定也会引起道德上的关注。 本章在研究伦理学的广泛领域介绍了其中一些问题。
 
-## Chapter content
+## 章节内容
 
-### Introducing Ethics
+### 引入道德操守问题
 
- With no intention of doing justice to the vast literature that there is on the topic, we can take *Ethics* to be the subject of study of moral philosophy, which seeks --amongst other things -- to distinguish right from wrong. Nowadays, philosophers speak of three levels of discussion in ethics (Fieser, IEP): metaethics, normative ethics and applied ethics. Roughly, metaethics questions the nature of good and evil, as well as the underlying assumptions held by different ethical frameworks. Normative ethics, then, provides the tools for us to create such ethical frameworks and think within them. Applied ethics, finally, is what is most pertinent to this guide, as we will be discussing the ins and outs of ethical and responsible research and innovation.
+ 无意公正对待关于这一专题的大量文献， 我们可以把 *道德操守* 作为道德哲学研究的主题， 除其他事项外，它寻求区分错误和错误。 今天，哲学家们谈到道德操守(菲塞、IEP)三个层次的讨论：元伦理、规范伦理和应用伦理。 几乎可以想象的是，道德操守对善恶的性质以及不同道德框架的基本假设提出质疑。 因此，规范性道德规范为我们提供了建立这种道德框架和思考的工具。 最后，应用道德规范是与本指南最相关的内容， 我们将讨论道德和负责任的研究和创新的优点。
 
- We begin this introductory chapter with clarifying why *research ethics* matters. Then we discuss two critical concepts relating with research ethics: *responsible research and innovation* and *research integrity*. We then unpick the ethical questions different questions each concept raises.
+ 我们首先澄清了 *研究伦理* 的重要性。 然后我们讨论与研究道德有关的两个关键概念： *负责任的研究和创新* and *研究完整性*。 然后我们将每个概念所引起的不同的道德问题放在一边。
 
- ### Motivating Research Ethics
+ ### 激励研究伦理学
 
- Taking *ethics* as the study of what behaviours are right and what behaviours are wrong highlights that it refers to *action*. Considering this, ethics is relevant to research insofar that researchers are *acting* and *behaving* in certain ways when conducting their work. Taking this definition seriously also means accepting moral philosophy as paramount in our everyday lives: ethics pertains to us all. Furthermore, the potential ripple effects of any research project may be far greater than an individual's actions under normal circumstances.
+ 把 *道德* 当作研究哪些行为是正确的，哪些行为是指 *动作* 的错误高度。 考虑到这一点，只要研究人员在开展工作时行为 ** and *在某些方面行为*。 认真对待这一定义还意味着接受道德哲学在我们日常生活中至高无上：道德伦理关系到我们所有人。 此外，任何研究项目的潜在连锁效应可能远远大于个人在正常情况下的行动。
 
- To this effect, the importance of acting ethically within the academic sphere is heightened. Scientists must reflect on the ethical questions their research projects raise.
+ 为此，在学术界内采取道德行动的重要性得到了加强。 科学家必须思考其研究项目引起的伦理问题。
 
- ## Defining Research Ethics
+ ## 定义研究道德操守。
 
- In practice, the historical development of research ethics has been driven due to ethical concerns around how research has traditionally been conducted and cases of clear controversy (European Commission, 2010). Unfortunately, this reactive nature of research ethics has led to there being many ethical codes for research, each regarding distinct fields of inquiry, designed by and for different institutions, and sometimes affecting scientific work conducted within specific regions. Therefore, researchers are right to feel overwhelmed by the diversity of rules and guidelines they face throughout their careers.
+ 实践中， 研究伦理学的历史发展是由于围绕着传统开展研究的方式和引起明显争议的案例所引起的道德关切（欧洲联盟委员会， 2010年。 不幸的是，研究道德操守的这种反应性导致了许多研究道德守则，每项守则都涉及不同的调查领域。 科学和技术促进发展委员会是由不同机构设计的，有时影响到特定区域内开展的科学工作。 因此，研究人员对他们在整个职业生涯中所面临的规则和准则的多样性感到无能为力。
 
- One source of diversity of ethical frameworks relates with how research institutions generally have "Ethics Committees" that appraise the ethics of research conducted within their institutions. This is traditionally done for institutions to protect themselves from legal liabilities. However, further reflection -- beyond questions of data protection -- can be required by these processes. The point is that one university's process for ethical appraisal will, more often than not, differ from another's.
+ 伦理框架多样性的一个来源涉及研究机构一般是如何设立“道德委员会”，评估其机构内研究工作的道德操守。 传统上是由保护自己免受法律责任影响的机构这样做。 然而，除了数据保护问题之外，这些进程可能需要进一步思考。 重要的是，一所大学的道德评价过程往往与另一所大学不同。
 
-  The below section simply outlines two critical concepts in the realm of research ethics: *responsible research and innovation* (RRI) and *research integrity*.
+  下面一节只是概述了研究道德领域的两个关键概念： *负责任的研究和创新* (RRI) 和 *研究完整性*。
 
-### Responsible Research and Innovation
+### 负责任的研究和Innovation
 
-  *RRI* is a term which has been around for several decades but which gained traction in 2011, when becoming an important term in the context of European policy (Owen et al., 2012). Turning to the European Union’s “Horizon 2020” research programme, we can find one definition of RRI:
-> “[RRI is] an approach that anticipates and assesses potential implications and societal expectations with regard to research and innovation, with the aim to foster the design of inclusive and sustainable research and innovation” (European Commission, n.d.).
+  *RRRI* 是一个几十年来一直在使用但在2011年获得吸引力的术语。 • 在欧洲政策范围内成为一个重要术语(Owen等人， (2012年)。 关于欧洲联盟的“地平线2020”研究方案，我们可以找到RRI的一个定义：
+> “[RRI是一种预期和评估对研究和创新的潜在影响和社会期望的方法。 其目的是促进设计包容性和可持续的研究和创新”（欧洲联盟委员会，注21）。 ……。
 
- There are two aspects of this definition worth focusing on for the purpose of this introductory section. Firstly, RRI refers to “potential implications and societal expectations.” Secondly, it is about “the design of inclusive and sustainable research”. These are two traditionally important aspects of the ethics of science: how research is set up or designed, and what societal consequences this setup has. What is important here is that we consider these aspects of research when speaking of making it ethical.
+ 为了本导言部分的目的，这一定义有两个方面值得强调。 首先，RRRI提到“潜在影响和社会期望”。 第二，它涉及“设计包容性和可持续的研究”。 这些是科学伦理学的两个传统重要方面：研究是如何建立或设计的，以及这种设置产生的社会后果。 在这方面，重要的是，我们在谈论研究的这些方面时，要考虑到研究的道德问题。
 
-### Research Integrity
+### 研究的完整性
 
- Defined by the Office for Research Integrity:
-> "[Research integrity refers to] active adherence to the ethical principles and professional standards essential for the responsible practice of research” (Korenman, n.d.).
+ 由研究完整性办公室界定：
+> “[研究诚信指]积极遵守对负责任的研究活动至关重要的道德原则和专业标准”（Korenman, n.d）。
 
- What this term brings into the discussion about research ethics are “professional standards” and “responsible practice”. Unlike in RRI, the question is no longer on the ethics of scientific output and its consequences, but on the ethics of how scientists conduct themselves in practice. Research integrity, in a sense, captures the ethics of the work done “behind the scenes”, outside the view of the general public.
+ “专业标准”和“负责任的做法”是讨论研究道德问题时所使用的术语。 与重建研究所不同，问题不再是科学产出及其后果的伦理问题。 但不包括科学家如何在实践中行事的道德。 从某种意义上讲，研究完整性掌握了“幕后”所做工作的道德操守，而公众则不认为这种道德操守。
 
-#### Comparing RRI to Research Integrity
+#### 将RRI与研究完整性比较
 
- The two concepts of RRI and research integrity are by no means entirely distinct, as they can overlap in important ways. However, three differences between both concepts are outlined below for the purpose of drawing out more diverse questions pertaining to research ethics at large. A table with the list of concept spefici questions is shared at the end of this subsection.
+ RRI和研究的完整性这两个概念绝非完全不同，因为它们可以在重要方面相互重叠。 然而，下文概述了这两个概念之间的三个不同之处，以便提出与整个研究道德操守有关的更多不同问题。 在本小节末尾共享一个包含概念速度问题列表的表。
 
- Firstly, we can see that who *perceives* the ethical questions differs in either case. To start with, RRI can be understood as outward-looking, or visible to the public. For example, people might ask for what it means when scientists keep animals’ brains alive hours after their decapitation (Reardon, 2019). In the meantime, research integrity refers to how research findings are produced — it is inward-looking. A common term to describe a *lack* of research integrity is “research misconduct”, for which there are many examples. One such example is that of Brian Wansink's work in food science, who endorsed p-hacking and has had a number of papers retracted (see Oransky, 2018).
+ Firstly, we can see that who *perceives* the ethical questions differs in either case. 首先，RRRI可以被理解为外向的，或是公众可见。 例如，人们可能会问，当科学家在动物腐烂后数小时内保持其大脑存活时，这意味着什么(Reardon，2019年)。 同时，研究的完整性指的是如何产生研究结果——它是内向的。 A common term to describe a *lack* of research integrity is “research misconduct”, for which there are many examples. 其中一个例子是Brian Wansink在食品科学方面所做的工作。 他认可了黑客并收回了一些文件(见Oransky, 2018)。
 
- Secondly, each term refers to different people scientists interact with during research. On the one hand, RRI questions how scientists engage with research subjects. Consider, for example, how volunteers are treated during clinical trials. The point here is to work with data subjects in a respectful and inclusive way. One (in)famous case in which there was no respect for data subjects was the Tuskagee experiments, wherein African-American men were recruited to study the development of untreated syphilis, but the volunteers were falsely told they were receiving free treatment — the monitoring and lies persisted for forty years (CDC, 2020). On the other hand, we can question how scientists engage with fellow researchers. We can here discuss the importance of codes of conduct in open source collaborations, for example, [*The Turing Way*'s](https://the-turing-way.netlify.app/community-handbook/coc.html?highlight=code%20conduct); or — returning to “research misconduct” — how one might engage in authorship fraud. Once again, there are many examples of this sort of practice. From being insincere about who contributed to a paper because the academic incentives system almost encourages this (see Harvey, 2018) to inventing entirely fictional authors (see this piece by Marcus & Oransky, 2016), these are questions that are not commonly within the public’s purview.
+ 第二，每个术语都指不同的科学家在研究过程中相互作用。 一方面，RRI质疑科学家如何参与研究科目。 例如，考虑到在临床试验期间如何对待志愿者。 这里的要点是以尊重和包容的方式处理数据主题。 一个不尊重数据主体的著名案例是Tuskagee实验， • 招募非洲裔美国人男子学习未经治疗的梅毒的发育， 但有人错误地告诉志愿者他们接受免费治疗——这种监测和谎言持续了40年（CDC，2020年）。 另一方面，我们可以质疑科学家如何与其他研究人员接触。 我们可以在这里讨论公开来源合作中的行为守则的重要性。 例如： [*Ting Way*'s](https://the-turing-way.netlify.app/community-handbook/coc.html?highlight=code%20conduct); 或者——回到“研究不当行为”——如何进行作者欺诈。 这种做法也有许多例子。 由于学术奖励制度几乎鼓励了这一点，所以对谁为一份文件作出贡献缺乏诚意(见Harvey)。 2018) 发明完全虚构的作者(见Marcus & Oransky的这篇文章) 这些问题通常不属于公众的职权范围。
 
- Thirdly, RRI and research integrity question the ethics of how scientific solutions are framed and shaped either by society at large (RRI) or by institutional practices in particular (research integrity). With our RRI hat on, we can ask how we communicate the validity of scientific outputs. Whilst how scientific findings are communicated is not a new question, it is worth highlighting that artificial intelligence (AI) and machine learning might be framed as delivering much more for research and innovation than what they actually can. Along these lines, we can ask about the role of “AI” as a marketing tool, as a way to grant research findings undeserved credibility (Lanier and Weyl, 2020). A more specific example is available in Nagendran et al.'s' (2020) concerns over exaggerated claims of AI outperforming doctors. Switching to our research integrity goggles, we can question how academic infrastructures shape scientific work.
+ 第三： RRI和研究的完整性质疑科学解决办法是如何由整个社会或特别是由体制做法制定和形成的（研究的完整性）。 我们可以问一问我们如何宣传科学产出的有效性。 尽管如何传达科学结论并不是一个新的问题。 值得强调的是，人造情报和机器学习可能被视为更能促进研究和创新，而不是它们实际所能提供的。 根据这些思路，我们可以问“AI”作为销售工具的作用。 作为授予研究结果不可取的可信度的一种方法（Lanier和Weyl，2020年）。 在Nagendran等人（2020年）对大赦国际胜任医生的夸大其词的关切中有一个更具体的例子。 转到我们的研究完整性花园，我们可以质疑学术基础结构如何塑造科学工作。
 
- Consider, for example, how researchers must weigh the noble pursuit of *truth*, with the need to earn *credit* (on this weighing of options, see, for example, Zollman, 2018). We can also reflect on the impact of funding on scientific endeavours. Questions can be raised regarding the size of research grants (Bloch & Sorensen, 2014) and even the values that motivate the funding of some research projects and not others. Institutional norms might even encourage a “publication bias” whereby positively framed findings will be easier to get published (see Kaiser et al.’s, (2009) finding that studies showing differences in sex/gender are easier to publish than studies *not* supporting such differences).
+ 例如，考虑到研究人员必须如何权衡神圣追求的 *真相*， 需要赚取 *信贷* (关于这种权衡选项的情况，例如，见Zollman，2018年)。 我们还可以思考资金对科学工作的影响。 可以就研究赠款的大小提出问题 (Bloch & Sorensen) 在这方面，委员会建议缔约国采取一切适当的措施，确保所有儿童都能享受《公约》规定的各项权利。 体制规范甚至可能会鼓励一种“出版偏见”，从而使正面构造的定论更易于发表（见Kaiser等人，1999年）。 即(2009年)，认为表明性别/性别差异的研究比研究报告 *而不是* 支持这种差异更容易发表)。
 
- Below is a table illustrating the three differences outlined above. The point here is not to argue for this conceptual distinction but to introduce two important concepts in research ethics and, in doing so, present different questions we must be ready to reflect on when thinking about ethical research.
+ 下表说明了上述三种差异。 这里的要点不是要说明这种概念上的区别，而是要在研究道德方面引入两个重要的概念： 在这样做时，我们必须准备好考虑何时考虑道德研究。
 
-| Factor                              | RRI                                                                            | Research Integrity                                                                     |
-| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
-| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
-| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
+| 因子           | RRI                         | 研究的完整性                        |
+| ------------ | --------------------------- | ----------------------------- |
+| **对道德问题的认识** | 对外（例如，公众如何看待科学产出？）          | 内向(例如：研究人员如何自己行事？)            |
+| **谁是研究人员与**  | 关于研究课题（例如：我们是否以尊重态度对待它们？）   | 与其他研究人员合作（例如，我们是否遵守行为守则？）     |
+| **什么样的研究**   | 被社会形状(例如：大赦国际如何被普遍理解为解决办法？) | 以体制规范为形形色色(例如：正在为哪些研究问题提供资金？) |
 
 
-## What to learn next
+## 下一步学习什么
 
-There are plenty of ways to navigate the realm of Ethics at large and Research Ethics in particular. And there are many reasons why Research Ethics is important to science. We invite you to keep learning about RRI and research integrity, but also to reach out and support the building of this book!
+在整个伦理领域，尤其是研究伦理领域，有许多方法可以借鉴。 研究伦理学对科学很重要，有许多原因。 我们邀请你不断了解RRI和研究的完整性，但也联系并支持编写这本书！
 
-## Definitions/glossary
+## 定义/术语表
 
-* Applied ethics: the subfield of ethics that examines specific moral questions
-* Ethics: moral principles that govern a person's behaviour or the conducting of an activity
-* Ethics Committee: a body within a wider research institution that is responsible for ensuring that research is carried out in an ethical manner in accordance with the law and some ethical principles or framwork
-* Metaethics: the subfield of ethics that investigates where our ethical principles come from, and what they mean
-* Moral philosophy: the branch of philosophy concerned with ethics
-* Normative ethics: the subfield of ethics that seeks to arrive at moral standards that regulate right and wrong conduct
-* P-hacking: the misreporting of true effect sizes in published studies
-* Research integrity: active adherence to the ethical principles and professional standards essential for the responsible practice of research
-* Responsible research and innovation (RRI): an approach that anticipates and assesses potential implications and societal expectations with regard to research and innovation, with the aim to foster the design of inclusive and sustainable research and innovation
+* B. 应用道德规范：审查具体道德问题的道德分领域
+* 道德：规范个人行为或从事某项活动的道德原则
+* 道德操守委员会：一个范围更广的研究机构内负责确保按照法律和某些道德原则或框架以道德方式进行研究的机构
+* 元伦理学：道德操守的亚领域，调查我们的伦理原则来自何处以及它们意味着什么。
+* 道德哲学：涉及道德操守的哲学部门
+* 规范性道德规范：力求达成规范权利和不法行为的道德标准的道德分领域
+* P-hacking: 在已发表的研究报告中误报了真实效果的大小
+* 研究的完整性：积极遵守对负责任的研究活动至关重要的道德原则和专业标准
+* 负责任的研究和创新：一种预测和评估对研究和创新的潜在影响和社会期望的方法。 目的是促进设计包容性和可持续的研究和创新工作
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

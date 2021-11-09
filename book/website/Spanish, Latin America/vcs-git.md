@@ -1,52 +1,52 @@
 (rr-vcs-git)=
-# Getting Started with Git
+# Comenzando con Git
 
-To get started, please make sure that your have Git installed on your computer. Instructions for installing Git on Linux, Windows and Mac machines are available [here](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git). Once the installation is complete, go to your project directory via terminal or command-line interface (for example, `cd my-project-folder`). Your project folder contains all of your files, including subdirectories.
+Para empezar, asegúrese de que tiene instalado Git en su ordenador. Las instrucciones para instalar Git en máquinas Linux, Windows y Mac están disponibles [aquí](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git). Una vez completada la instalación, vaya al directorio del proyecto a través de la interfaz de línea de comandos o terminal (por ejemplo, `cd my-project-folder`). La carpeta de proyecto contiene todos sus archivos, incluyendo subdirectorios.
 
-When working on a project, you will make numerous changes to your files as you progress. Sometimes you may need to undo changes, take another look at past versions, or compare versions. Saving each version individually (such as `version_1.py` and `version_2.py`) is messy and quickly becomes impractical.
+Cuando trabajes en un proyecto, realizarás numerosos cambios en tus archivos a medida que avanzas. A veces puede que necesite deshacer los cambios, echar otro vistazo a las versiones pasadas, o comparar las versiones. Guardar cada versión individualmente (como `version_1.py` y `version_2.py`) es desordenado y rápidamente se vuelve impráctico.
 
-Commits serve as checkpoints where individual files or an entire project can be safely reverted to when necessary. By making commits, you can save versions of your code and switch between them/compare them easily without cluttering up your directory.
+Los commits sirven como puntos de control donde archivos individuales o un proyecto entero pueden ser revertidos de forma segura cuando sea necesario. Al hacer confirmaciones, puedes guardar las versiones de tu código y cambiar entre ellas/compararlas fácilmente sin desordenar tu directorio.
 
-To get started with your Git repository, run the following Git command in the terminal to create/initialise your Git repository:
+Para empezar con su repositorio Git, ejecute el siguiente comando Git en la terminal para crear/inicializar su repositorio Git:
 
 ```
 git init
 ```
 
-This only needs to be done once per project.
+Esto sólo tiene que hacerse una vez por proyecto.
 
-Think of the repository as a place where the history is being stored. When you first initialise a repository with `git init`, all of the files in your project would not be added to the Git repository as they are  untracked by Git by default. Therefore, the next step is to add your files to the Git repository and allow Git to track them.
+Piensa en el repositorio como un lugar donde se almacena la historia. Cuando inicializas por primera vez un repositorio con `git init`, todos los archivos de su proyecto no se añadirían al repositorio Git, ya que no son rastreados por defecto por Git. Por lo tanto, el siguiente paso es añadir tus archivos al repositorio Git y permitir que Git los rastree.
 
-Run the following command to add all files in the current folder:
+Ejecutar el siguiente comando para añadir todos los archivos en la carpeta actual:
 ```
 git add .
 ```
-OR run the following command to add only the files ('your_file_name' in this example):
+O ejecute el siguiente comando para añadir sólo los archivos ('su_nombre_archivo' en este ejemplo):
 ```
-git add your_file_name
+git añadir su_file_name
 ```
 
-This command puts your newly added files or any other changes into what is called the "staging" state.
+Este comando pone sus archivos recién añadidos o cualquier otro cambio en lo que se llama el estado "staging".
 
 ```{figure} ../../figures/change-stage-repo.png
 ---
 name: change-stage-repo
-alt: An illustration of the `git add` and git commit Commands.
+alt: Una ilustración de los comandos `git add` y git commit.
 ---
-How `git add` and `git commit` works
+Cómo funciona `git add` y `git commit`
 ```
 
-If you are ever unsure what files have been added, what files have been changed, or what files are untracked, you can run the following to find out:
+Si alguna vez no está seguro qué archivos han sido añadidos, qué archivos han sido cambiados, o qué archivos están sin seguir, puede ejecutar lo siguiente para averiguar:
 
 ```
 git status
 ```
 
-The next step is to "commit" any changes stored in your staging area so that they are recorded in your repository.
+El siguiente paso es "confirmar" cualquier cambio almacenado en su área de puesta en escena para que sean grabados en su repositorio.
 
 ```
 git commit
 ```
-Congratulations, you have finished setting up your repository!
+¡Felicidades, ha terminado de configurar su repositorio!
 
-You will learn more about `git commit` in the next chapter.
+Aprenderás más sobre `git commit` en el siguiente capítulo.

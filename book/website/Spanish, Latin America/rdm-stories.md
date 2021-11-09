@@ -1,29 +1,29 @@
 (rr-rdm-stories)=
-# Personal Impact Stories
+# Historias de impacto personal
 
-## Susanna-Assunta Sansone: From FAIR Co-Author to FAIR Doer
+## Susanna-Assunta Sansone: Del co-autor FAIR al FAIR Doer
 
-Let us start with my digital footprints so that you can discover my activities:
+Empecemos con mis huellas digitales para que puedan descubrir mis actividades:
 
-- [Biography](https://www.eng.ox.ac.uk/people/susanna-assunta-sansone)
-- [The Data Readiness group I run at Oxford University](https://sansonegroup.eng.ox.ac.uk)
+- [Biografía](https://www.eng.ox.ac.uk/people/susanna-assunta-sansone)
+- [El grupo de preparación de datos que dirijo en la Universidad de Oxford](https://sansonegroup.eng.ox.ac.uk)
 - [ORCID: 0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
-- [Profile on LinkedIn](https://uk.linkedin.com/in/sasansone)
-- [Talks on SlideShare](https://www.slideshare.net/SusannaSansone)
-- [Twitter; yes I am the FAIRlady](https://twitter.com/SusannaASansone)
-- [Activities on GitHub; yeah, no code sorry](https://github.com/SusannaSansone)
-- [Google Scholar](https://scholar.google.co.uk/citations?user=gfJ8wsIAAAAJ&hl=en)
+- [Perfil en LinkedIn](https://uk.linkedin.com/in/sasansone)
+- [Habla en SlideShare](https://www.slideshare.net/SusannaSansone)
+- [Twitter; sí soy la FAIRlady](https://twitter.com/SusannaASansone)
+- [Actividades en GitHub; sí, ningún código lo siento](https://github.com/SusannaSansone)
+- [Google Académico](https://scholar.google.co.uk/citations?user=gfJ8wsIAAAAJ&hl=en)
 
-I have worked on research data management since 2001, yes, way before this area was even considered a 'thing'. I was also told that there is no career to make in research data management. Well, how wrong that comment was! Formerly seen as an intersection between service provision and IT, data management has become a first-class citizen, recognised as a research and development subject, as it should be. A lot of the credit for this change goes to the FAIR principles. Love it or hate it, FAIR is now an internationally-known lighthouse brand. Since we published the first article on the [FAIR principles](https://doi.org/10.1038/sdata.2016.18), enabling FAIR has been my focus.
+He trabajado en la gestión de datos de investigación desde 2001, sí, mucho antes incluso de que este ámbito se considerara una "cosa". También se me dijo que no hay carrera que realizar en la gestión de datos de investigación. Pues bien, ¡qué mal era ese comentario! Anteriormente visto como una intersección entre la prestación de servicios y las TI, la gestión de datos se ha convertido en un ciudadano de primera clase, reconocido como un tema de investigación y desarrollo, como debería ser. Gran parte del mérito de este cambio se debe a los principios de las FAIR. Amadémoslo o odiarlo, FAIR es ahora una marca de faros conocida internacionalmente. Desde que publicamos el primer artículo sobre los [principios FAIR](https://doi.org/10.1038/sdata.2016.18), habilitar FAIR ha sido mi enfoque.
 
-The reuse of other people’s data is providing useful insights for new research questions and products, and driving new scientific discoveries. To realise its potential, however, we need new mechanisms to manage the growing availability and scale of scholarly digital products, such as datasets, software, algorithms, articles. FAIR has been specifically designed to emphasise the machine-readability of these digital objects.
+La reutilización de los datos de otras personas está proporcionando ideas útiles para las nuevas cuestiones y productos de la investigación, y está impulsando nuevos descubrimientos científicos. Sin embargo, para hacer realidad su potencial, necesitamos nuevos mecanismos para gestionar la creciente disponibilidad y la escala de los productos digitales en el ámbito escolar. tales como conjuntos de datos, software, algoritmos, artículos. FAIR ha sido diseñado específicamente para hacer hincapié en la legibilidad de estos objetos digitales.
 
-Within my group of research software and knowledge engineers, we address the grand challenges related to information science and scholarly communications, where data quality and readiness for (re)use is a prerequisite for success. I believe that better data means better science, and this underpins reusable research, aids scholarly publishing, and enables faster and reliable data-driven discoveries. As I say in my [one minute video](https://youtu.be/3VDw7XIulIk), my vision is to transform the concept of data readiness into a powerful toolkit at the researchers’ fingertips to realize FAIR data by stealth.
+Dentro de mi grupo de investigadores de software e ingenieros de conocimiento, abordamos los grandes retos relacionados con las ciencias de la información y las comunicaciones especializadas, donde la calidad de los datos y la preparación para (re)uso es un requisito previo para el éxito. Creo que mejores datos significan una mejor ciencia, y esto sustenta la investigación reutilizable, ayuda a la publicación científica y permite descubrimientos más rápidos y fiables impulsados por datos. Como digo en mi [vídeo de un minuto](https://youtu.be/3VDw7XIulIk), mi visión es transformar el concepto de preparación de datos en un potente conjunto de herramientas al alcance de los investigadores para realizar datos FAIR por sigilo.
 
-FAIR is not a magic wand. There is a lot to be done to enable and enact this transformation. We need all hands on deck! Researchers, service providers, journal publishers, library science experts, funders and learned societies in the academic as well as the commercial and governmental settings all play a role: from providing use cases to drive policy and culture changes that motivates, rewards and credits researchers for disseminating and publishing high-quality, machine-readable data; to building tools and services, to inform, training and educate.
+FAIR no es una varita mágica. Queda mucho por hacer para permitir y aprobar esta transformación. Necesitamos todas las manos en la cubierta. Investigadores, proveedores de servicios, editores de revistas, expertos en ciencias de la biblioteca, los financiadores y las sociedades aprendidas tanto en el entorno académico como en el comercial y gubernamental juegan un rol: desde la provisión de casos de uso para impulsar los cambios de política y cultura que motivan, premia y acredita a los investigadores por divulgar y publicar datos de alta calidad, legibles por la máquina; construir herramientas y servicios, informar, formar y educar.
 
-There are many community efforts around FAIR; keeping abreast with these is an activity in itself. I spend considerable time to bring my group activities (such as [ISA](https://isa-tools.org) and [FAIRsharing](https://fairsharing.org)) in and under larger international umbrella organizations like [GO FAIR](https://www.go-fair.org/implementation-networks/overview/fair-strepo) and the [RDA](http://dx.doi.org/10.15497/RDA00030) to interact with others, learn from them, compare and contrast efforts and build new collaborations. I also play leading roles, sitting on boards and chairing working groups with colleagues, because you must get your hands dirty and lead by example.
+Hay muchos esfuerzos comunitarios alrededor de FAIR; mantenerse al día con estos es una actividad en sí misma. Dedico bastante tiempo para llevar a mis actividades de grupo (como [ISA](https://isa-tools.org) y [FAIRsharing](https://fairsharing.org)) en y bajo organizaciones internacionales más grandes como [GO FAIR](https://www.go-fair.org/implementation-networks/overview/fair-strepo) y el [RDA](http://dx.doi.org/10.15497/RDA00030) para interactuar con otros, aprender de ellos, comparar y contrastar esfuerzos y construir nuevas colaboraciones. También desempeño papeles de liderazgo, sentado en tableros y presidiendo grupos de trabajo con colegas, porque tienen que hacerse sucias las manos y dar ejemplo.
 
-In research data management, the history is the future. The one I envision is a future where scientific evidence is routinely available in a transparent, trustworthy and persistent manner to support peer-review and withstand reproducibility, to underpin new results and discoveries, and effectively drive sciences forward.
+En la gestión de datos de investigación, la historia es el futuro. El que yo visito es un futuro en el que las pruebas científicas estén disponibles en forma transparente, manera confiable y persistente de apoyar la revisión entre pares y soportar la reproducibilidad, sustentar nuevos resultados y descubrimientos, y impulsar eficazmente las ciencias.
 
-**My advice: _be aware, be FAIR!_**
+**Mi consejo: _ten cuidado, ¡sé FAIR!_**

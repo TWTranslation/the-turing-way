@@ -1,28 +1,28 @@
 (cl)=
-# Guide for Collaboration
+# Guía de colaboración
 
-***This guide covers topics related to effective and inclusive collaboration.***
+***Esta guía cubre temas relacionados con la colaboración efectiva e inclusiva.***
 
-Data science is defined by its interdisciplinarity. Our work can only reach its highest potential if there are diverse teams of people involved in designing and delivering the research or product.
+La ciencia de la información se define por su interdisciplinaridad. Nuestro trabajo sólo puede alcanzar su máximo potencial si existen diversos equipos de personas involucradas en el diseño y entrega de la investigación o producto.
 
 ```{figure} ../figures/collaboration.jpg
 ---
-name: collaboration
-width: 500px
-alt: An iceberg's tip is labelled with the project related technical terms, and a few divers are exploring a huge part of iceberg underwater which are labelled with community oriented collaborative terms
+nombre: colaboración
+ancho: 500px
+alt: La punta de un iceberg está etiquetada con los términos técnicos relacionados con el proyecto. y algunos buzos están explorando una gran parte de iceberg bajo el agua que están etiquetados con términos de colaboración orientados a la comunidad
 ---
-There is more to collaboration than we see. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Hay más colaboración de lo que vemos. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-There are many different skills required to work well in groups with a wide range of expertise. In this guide, we welcome contributions in developing guidance on following (but not limited to) topics:
+Hay muchas habilidades diferentes requeridas para trabajar bien en grupos con una amplia gama de experiencias. En esta guía, acogemos con satisfacción las contribuciones en el desarrollo de directrices sobre los temas siguientes (pero no limitados a) :
 
-* Designing a project that welcomes contributions
-* Distributed collaboration on GitHub
-* Reviewing team member's contributions
-* Remote working
-* Running an inclusive event
-* Chairing a meeting
-* Defining explicit expectations
-* Participatory co-creation
+* Diseñar un proyecto que acoge con satisfacción las contribuciones
+* Colaboración distribuida en GitHub
+* Revisando las contribuciones de los miembros del equipo
+* Trabajo remoto
+* Ejecutar un evento inclusivo
+* Reunión
+* Definir expectativas explícitas
+* Co-creación participativa
 
-Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+Echa un vistazo a nuestras [pautas de contribución](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para participar.

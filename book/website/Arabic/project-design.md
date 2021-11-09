@@ -1,23 +1,23 @@
 (pd)=
-# Guide for Project Design
+# دليل تصميم المشروع
 
-***This guide covers topics related to effective project planning and management.***
+***ويغطي هذا الدليل مواضيع تتصل بفعالية تخطيط المشاريع وإدارتها.***
 
-In this guide, we compile best practices and guidance for designing research projects by including different aspects of project management and (iterative) development practices derived from academia and industry.
+في هذا الدليل، ونجمع أفضل الممارسات والتوجيهات لتصميم مشاريع البحوث بإدراج مختلف جوانب إدارة المشاريع والممارسات الإنمائية (المتكررة) المستمدة من الأوساط الأكاديمية والصناعية.
 
-Before starting a project, researchers much define the prpject's scope. Researchers should start by identifying the main questions they aim to address through their work. Scope definition also includes defining the project goals, possible outcomes, resources requirements, people involved (collaborators, users and target audience) and possible constraints.
+قبل بدء مشروع ما، يحدد الباحثون بشكل كبير نطاق هذا الرسم. وينبغي للباحثين أن يبدأوا بتحديد المسائل الرئيسية التي يهدفون إلى معالجتها من خلال عملهم. ويشمل تعريف النطاق أيضا تحديد أهداف المشروع والنتائج المحتملة والاحتياجات من الموارد والأشخاص المشاركين (المتعاونون والمستعملون والجمهور المستهدف) والقيود المحتملة.
 
-Researchers can then proceed to identify the expected minimum viable product of their project, synergies with other projects (similarities as well as differences), measure(s) of success, and the overall impact they hope to achieve. After these crucial questions are addressed, planning can focus on the operational aspects of the project, including ensuring that the project is usable and compliant with appropriate external guidelines (for instance, ethics requirements and regulatory limitations).
+ويمكن للباحثين بعد ذلك أن يعملوا على تحديد الحد الأدنى المتوقع للمنتج القابل للاستمرار لمشروعهم، أوجه التآزر مع المشاريع الأخرى (أوجه التشابه والاختلاف)، ومقاييس النجاح، والأثر العام الذي تأمل في تحقيقه. وبعد معالجة هذه المسائل الحاسمة، يمكن للتخطيط أن يركز على الجوانب التشغيلية للمشروع، (ج) ضمان أن يكون المشروع قابلا للاستخدام وممتثلاً للمبادئ التوجيهية الخارجية المناسبة (مثل المتطلبات الأخلاقية والقيود التنظيمية).
 
 ```{figure} ../figures/project-design.jpg
 ---
-name: project-design
-alt: A group of people collaboratively developing a project plan by writing on a giant canvas with a giant pencil to signify the importance of design work in the project management process. 
+الاسم: تصميم المشروع
+البديل: مجموعة من الناس يتعاونون على وضع خطة مشروع عن طريق الكتابة على قماش ضخم مع قلم رصاص عملاق ليدل على أهمية عمل التصميم في عملية إدارة المشروع. 
 ---
- _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+ _طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
-When designing a team-based project, it is important to think about all the skills required for the project and the resources needed to access those skills. The project design also includes aspects such as timeline, budget, risks, expectations, resources for project management and preregistration of research protocols. With these viewpoints, we welcome chapters defining the requirements in a project in terms of up-skilling, supporting and improving accessibility of different stakeholders.
+عند تصميم مشروع قائم على الفريق، ومن المهم التفكير في جميع المهارات المطلوبة للمشروع والموارد اللازمة للحصول على تلك المهارات. ويشمل تصميم المشروع أيضا جوانب مثل الجدول الزمني والميزانية والمخاطر والتوقعات والموارد اللازمة لإدارة المشاريع والتسجيل المسبق لبروتوكولات البحوث. ومن خلال وجهات النظر هذه، نرحب بالفصول التي تحدد المتطلبات في مشروع ما من حيث تحسين المهارات ودعم وتحسين إمكانية وصول مختلف أصحاب المصلحة.
 
-We hope you will learn from different case studies for small, mid-size, and large projects spanning both short-term and long-term plans. If you are brave enough, your examples of failed projects will be incredibly valuable for understanding how to avoid making the same (totally understandable!) mistakes again.
+ونأمل أن تتعلم من مختلف دراسات الحالات الإفرادية للمشاريع الصغيرة والمتوسطة الحجم والكبيرة التي تغطي الخطط القصيرة الأجل والطويلة الأجل على حد سواء. إذا كنت شجاعا بما فيه الكفاية، فإن أمثلتك من المشاريع الفاشلة ستكون قيمة بشكل لا يصدق لفهم كيفية تجنب صنع الشيء نفسه (مفهوم تماما! الأخطاء مرة أخرى.
 
-Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+تحقق من [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) لدينا للمشاركة .

@@ -1,58 +1,58 @@
 (ch-coc-enforcement)=
-# 4 Enforcement Manual
+# 4 - دليل الإنفاذ
 
-This is the enforcement manual followed by the Turing Way project research team. It's used when we respond to an issue to make sure we're consistent and fair. Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
+وهذا هو دليل الإنفاذ الذي يعقبه فريق أبحاث مشروع طريق تورينج. إنها تستخدم عندما نرد على مشكلة للتأكد من أننا متسقون وعادلون. وينبغي أن يكون إنفاذ مدونة قواعد السلوك محترما وألا يشمل أي سلوك مضايق.
 
-## 4.1 The Code of Conduct Committee
+## 4-1 لجنة مدونة قواعد السلوك
 
-The Code of Conduct committee is:
+وفيما يلي لجنة مدونة قواعد السلوك:
 
 * Kirstie Whitaker: kwhitaker@turing.ac.uk
-* Anna Krystalli: a.krystalli@sheffield.ac.uk
-* Ben Murton: bmurton@turing.ac.uk
+* آنا كريستال: a.krystalli@sheffield.ac.uk
+* بن مورتون: bmurton@turing.ac.uk
 
-As the community grows, we will seek to build a larger committee including members outside of the core development team.
+ومع نمو المجتمع المحلي، سنسعى إلى بناء لجنة أكبر تضم أعضاء من خارج فريق التنمية الرئيسي.
 
-## 4.2 Urgent Situations: Acting Unilaterally
+## 4-2 الحالات العاجلة: العمل من جانب واحد
 
-If the incident involves physical danger, or involves a threat to anyone's safety (such as threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member. This can include contacting law enforcement (or other local personnel) and speaking on behalf of the Turing Way team.
+وإذا كانت الحادثة تنطوي على خطر بدني، أو تنطوي على تهديد لسلامة أي شخص (مثل التهديد بالعنف)، ويمكن لأي فرد من أفراد المجتمع أن يتصرف من جانب واحد لحماية سلامة أي فرد من أفراد المجتمع. ويمكن أن يشمل ذلك الاتصال بأفراد إنفاذ القانون (أو غيرهم من الموظفين المحليين) والتحدث بالنيابة عن الفريق المعني بطريق التورينغ.
 
-If the act is ongoing, any community member may act immediately, before reaching consensus, to diffuse the situation. In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.
+وإذا كان العمل جاريا، يجوز لأي فرد من أفراد المجتمع أن يتصرف فورا، قبل التوصل إلى توافق في الآراء، من أجل تبديد الوضع. وفي الحالات الجارية، يجوز لأي عضو أن يستخدم، حسب تقديره، أياً من الأدوات المتاحة في دليل الإنفاذ هذا، بما في ذلك الحظر والكتل على الإنترنت، أو إزالتها من الفضاء الفيزيائي.
 
-In situations where an individual community member acts unilaterally, they must inform Kirstie Whitaker as soon as possible, and report their actions for review within 24 hours.
+وفي الحالات التي يتصرف فيها فرد من أفراد المجتمع المحلي بصورة انفرادية، وعليها أن تبلغ كريستي ويتكر في أقرب وقت ممكن، وأن تبلغ عن إجراءاتها في غضون 24 ساعة.
 
-## 4.3 Less-Urgent Situations
+## 4-3 الحالات الأقل إلحاحا
 
-Upon receiving a report of an incident, the CoC committee will review the incident and determine, to the best of their ability:
+وعند تلقي تقرير عن حادث، تستعرض لجنة مدونة الإجراءات الجنائية الحادث وتقرر قدر استطاعتها ما يلي:
 
-- whether this is an ongoing situation
-- whether there is a threat to anyone's physical safety
-- what happened
-- whether this event constitutes a Code of Conduct violation
-- who, if anyone, was the bad actor
+- ما إذا كانت هذه حالة مستمرة
+- ألف - ما إذا كان هناك تهديد للسلامة البدنية لأي شخص
+- ماذا حدث
+- ما إذا كان هذا الحدث يشكل انتهاكا لمدونة قواعد السلوك
+- الذي، إن كان أحد، كان الفاعل السيئ
 
-This information will be collected either in person or in writing. The CoC committee will provide a written summary of the information surrounding the incident. All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1". The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
+ويتم جمع هذه المعلومات إما شخصيا أو كتابيا. وستقدم لجنة مدونة قواعد السلوك موجزا خطيا للمعلومات المتعلقة بالحادث. وسيكون جميع المشاركين مضللين في التقرير الموجز، المشار إليه باسم "أعضاء المجتمع 1"، أو "أعضاء المجتمع 2"، أو "أعضاء فريق البحث 1". وسيحتفظ "بالمفتاح اللاوندي" في ملف منفصل ولا يمكن الوصول إليه إلا لربط التقارير المتكررة ضد نفس الشخص بمرور الوقت.
 
-The CoC committee will aim to have a resolution agreed upon within one week. In the event that a resolution can't be determined in that time, a member of the CoC committee will respond to the reporter(s) with an update and projected timeline for resolution.
+وستهدف لجنة مدونة قواعد السلوك إلى الاتفاق على قرار في غضون أسبوع واحد. في حالة أنه لا يمكن تحديد قرار في ذلك الوقت، وسيرد أحد أعضاء لجنة مدونة قواعد السلوك على المحرر (المراسلين) بآخر المستجدات والمواعيد الزمنية المتوقعة للتسوية.
 
-## 4.4 Resolutions
+## 4-4 القرارات
 
-The CoC committee will seek to agree on a resolution by consensus of all members investigating the report in question. If the committee cannot reach consensus and deadlocks for over a week, Dr Whitaker, as lead investigator of the Turing Way project, will break the tie. If Dr Whitaker is unable to take part in the discussion due to a conflict of interest, Dr Ben Murton, as an external member of the CoC committee, will make the decision.
+وستسعى لجنة مدونة قواعد السلوك إلى الاتفاق على قرار بتوافق الآراء من جميع الأعضاء الذين يقومون بالتحقيق في التقرير المعني. وإذا لم تتمكن اللجنة من التوصل إلى توافق في الآراء ومآزق لأكثر من أسبوع، وسيكسر الدكتورة ويتاكر، بصفتها محققا رئيسيا في مشروع طريق التورينغ، هذا الربط. إذا لم يتمكن الدكتور ويتكر من المشاركة في المناقشة بسبب تضارب المصالح، وسيتخذ القرار الدكتور بن مورتون، بصفته عضوا خارجيا في لجنة مدونة قواعد السلوك.
 
-Possible responses may include:
+وقد تشمل الردود الممكنة ما يلي:
 
-* A mediated conversation or agreement between the impacted community members.
-* A request for a verbal or written apology, public or private, from a community member.
-* A public announcement clarifying community responsibilities under the Code of Conduct.
-* Nothing, if the issue reported is not a violation or outside of the scope of this Code of Conduct.
-* A private in-person conversation between a member of the research team and the individual(s) involved. In this case, the person who has the conversation will provide a written summary for record keeping.
-* A private written reprimand from a member of the research team to the individual(s) involved. In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing Kirstie Whitaker for record keeping.
-* A public announcement of an incident, ideally in the same venue that the violation occurred (such as on the listserv for a listserv violation; and GitHub for a GitHub violation). The committee may choose to publish this message elsewhere for posterity.
-* An imposed "time out" from online spaces. Kirstie Whitaker will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all Turing Way project spaces (like on GitHub, online calls or in-person events). The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained. If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
+* وقد أثرت محادثة أو اتفاق تم التوصل إليه عن طريق الوساطة بين أفراد المجتمع المحلي.
+* • طلب اعتذار شفوي أو كتابي، سواء كان عاما أو خاصا، من أحد أفراد المجتمع.
+* إعلان عام يوضح مسؤوليات المجتمع بموجب مدونة قواعد السلوك.
+* لا شيء إذا كانت المسألة المبلغ عنها ليست انتهاكا أو خارجة عن نطاق مدونة قواعد السلوك هذه.
+* محادثة شخصية شخصية بين عضو في فريق البحث والفرد أو الأفراد المعنيين. وفي هذه الحالة، يقدم الشخص الذي أجرى المحادثة موجزا خطيا لحفظ السجلات.
+* توجيه توبيخ كتابي خاص من أحد أعضاء فريق البحث إلى الشخص (الأفراد) المعنيين. وفي هذه الحالة، يقوم عضو فريق البحث بتسليم ذلك التوبيخ إلى الفرد (الأفراد) عن طريق البريد الإلكتروني، cc'Kirstie Whitaker لحفظ السجلات.
+* • إعلان عام عن حادثة وقعت في نفس المكان عن وقوع الانتهاك (كما هو الحال في قائمة البريد الإلكتروني لانتهاك قائمة القوائم البريدية)؛ و GitHub لانتهاك GitHub ). ويجوز للجنة أن تختار نشر هذه الرسالة في مكان آخر للأجيال القادمة.
+* فرض "عطلة زمنية" من المساحات عبر الإنترنت. سيقوم كيرستي ويتاكر بإبلاغ هذا "العطلة الزمنية" إلى الفرد (الأفراد) المعنيين.
+* حظر دائم أو مؤقت من بعض أو كل مساحات مشروع طريق التوريد (على سبيل المثال على GitHub، أو المكالمات عبر الإنترنت أو الأحداث الشخصية). وسيحتفظ فريق البحث بسجلات لجميع أشكال الحظر هذه حتى يتسنى استعراضها في المستقبل. تم توسيع نطاقه ليشمل فريق السلامة التابع لمدونة قواعد السلوك عند بناءه أو صيانته بطريقة أخرى. وفي حالة إقالة أحد أفراد المجتمع المحلي من أحد الأحداث، لا يُسدَّد له أي تعويض عن أي جزء من الحدث الذي لم يُسدد.
 
-Once a resolution is agreed upon, but before it is enacted, a member of the CoC committee will contact the original reporter and any other affected parties and explain the proposed resolution. The CoC committee member will ask if this resolution is acceptable, and must note feedback for the record. However, the CoC committee is not required to act on this feedback.
+حالما يتم الاتفاق على قرار، ولكن قبل اتخاذه، وسيقوم عضو في لجنة مدونة قواعد السلوك بالاتصال بالمراسل الأصلي وبأي أطراف أخرى متضررة ويشرح القرار المقترح. وسيسأل عضو لجنة مدونة قواعد السلوك عما إذا كان هذا القرار مقبولا، ويجب أن يشير إلى ردود الفعل من أجل التسجيل. غير أن لجنة مدونة قواعد السلوك غير مطالبة باتخاذ إجراءات بناء على هذه الملاحظات.
 
-## 4.5 Conflicts of Interest
+## 4-5 تضارب المصالح
 
-In the event of any conflict of interest such that Dr Whitaker is not able to evaluate or enforce the reported violation, Ben Murton will take Kirstie's place.
+وفي حالة وجود أي تضارب في المصالح لا يستطيع الدكتور ويتاكر تقييم أو إنفاذ الانتهاك المبلغ عنه، سيأخذ بن مورتون مكانه كيرستي.

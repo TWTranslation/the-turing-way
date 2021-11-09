@@ -1,56 +1,56 @@
-# This is a list of figures in the book
+# هذه قائمة بالأرقام في الكتاب
 
-**To be kept in alphabetical order**
+**2 - يُحتفظ به حسب الترتيب الأبجدي**
 
-| Filename                      | Chapter                        | Description                                                                      |
-| ----------------------------- | ------------------------------ | -------------------------------------------------------------------------------- |
-| alt_text_demo               | Style guide                    | Demonstration of alt text showing when figure doesn't render                     |
-| barriers_reproducibility      | Reproducible research overview | Slide from a presentation highlighting barriers to reproducible research         |
-| binder_comic                  | Reproducible environments      | Cartoon showing using binder to share research                                   |
-| binder_home                   | Reproducible environments      | Home screen of an example binder                                                 |
-| binder_notebook               | Reproducible environments      | Interacting with an example binder via a notebook                                |
-| binder_terminal               | Reproducible environments      | Interacting with an example binder via a terminal                                |
-| cd_example                    | Reproducible environments      | Example of result of using cd in a Dockerfile                                    |
-| change_stage_repo           | Version control                | Cartoon showing staging and committing changes                                   |
-| communication                 | Communication handbook         | Illustration depicting communication network                                     |
-| community                     | Community Handbook             | Illustration depicting Turing Way community                                      |
-| container_example             | Reproducible environments      | Demo of a simple container in terminal                                           |
-| docker_official_image       | Reproducible environments      | The official ubuntu docker image with badge                                      |
-| easyway1_basic_diagram      | Getting started on Github      | Basic repo after intial creation                                                 |
-| easyway2_readme_before_edit | Getting started on Github      | Annotated diagram of Readme file before edit                                     |
-| easyway3_readme_after_edit  | Getting started on Github      | Annotated diagram of Readme file after edit                                      |
-| easyway4_edited_readme      | Getting started on Github      | Annotated diagram of Readme file + license                                       |
-| easyway5_project              | Getting started on Github      | Annotated diagram of collaborative project page                                  |
-| eyeball_test_1              | Testing                        | Results tested by seeing if they 'look right'                                    |
-| eyeball_test_2              | Testing                        | Results tested by seeing if they 'look right'                                    |
-| eyeball_test_3              | Testing                        | Results tested by seeing if they 'look right'                                    |
-| eyeball_test_error          | Testing                        | Bug detected by result 'looking wrong'                                           |
-| file_collection               | Style guide                    | Two people looking in an organised filing cabinet smiling and giving a thumbs up |
-| first_pull_request          | Style guide                    | Two people making a first pull request on GitHub                                 |
-| flipped_taj_mahal           | Version control                | Upside down taj mahal to confuse people                                          |
-| help_you_of_the_future    | Reproducible research overview | A woman passing documentation to another version of herself                      |
-| master_branch                 | Version control                | Illustrates commits on master branch                                             |
-| make_ok_to_be_human       | Reproducible research overview | A woman looking worried that she has made a mistake                              |
-| mybinder_gen_link           | Reproducible environments      | What the page to generate binder links looks like                                |
-| one_branch                    | Version control                | Illustrates version control master + one branch                                  |
-| open_access_citations       | Open research                  | Impact of openness on citation count                                             |
-| open_umbrella                 | Open research                  | Terms under the umbrella of open scholarship                                     |
-| reasons_reproducibility       | reproducibility                | Added advantages of working reproducibly                                         |
-| regents_map                   | BinderHub workshop             | Map to workshop location                                                         |
-| reproducibility_kirstie       |                                | Depicts cow code and data relate to good practise                                |
-| ResearchCompendium            | Research Compendium            | Illustration on research compendium                                              |
-| risk_matrix                   | risk_assessment                |                                                                                  |
-| robo_debt                     | Activism                       | Illustration depicting biased automated decision-making                          |
-| scientificunionbadge          | Ethical Research               | Image of an enamel badge                                                         |
-| sub_branch                    | Version control                | Illustrates version control branch + sub branch                                  |
-| testing_motivation_1        | Testing                        | Example of consequence of not testing code                                       |
-| testing_motivation_2        | Testing                        | Example of consequence of not testing code                                       |
-| Travis_badge_fail           | Continuous integration         | A readme with a failing Travis badge                                             |
-| Travis_badge_pass           | Continuous integration         | A readme with a passing Travis badge                                             |
-| Travis_build                  | Continuous integration         | What the Travis dashboard looks like                                             |
-| two_branches                  | Version control                | Illustrates version control master + two branches                                |
-| virtual_machine               | Reproducible environments      | Example of a virtual Ubuntu machine on windows                                   |
-| VM_create_machine           | Reproducible environments      | How to create a virtual machine in VirtualBox                                    |
-| VM_export_machine           | Reproducible environments      | How to export a virtual machine in VirtualBox                                    |
-| VM_start_machine            | Reproducible environments      | How to start a virtual machine in VirtualBox                                     |
-| workdir_example               | Reproducible environments      | Example of using workdir in Dockerfiles                                          |
+| اسم الملف                   | الفصل                                | الوصف                                                                             |
+| --------------------------- | ------------------------------------ | --------------------------------------------------------------------------------- |
+| alt_text_التجريبي         | Style guide                          | إظهار النص البديل عند عدم تقديم الشكل                                             |
+| الحواجز_إمكانية التكرار_  | نظرة عامة على البحوث القابلة للتناسب | انزلاق من العرض التقديمي الذي يسلط الضوء على الحواجز أمام البحوث القابلة للتكرار. |
+| رابطة_هزلية                 | البيئات القابلة للتكرير              | عرض الرسوم المتحركة باستخدام البيندر لمشاركة البحث                                |
+| بيد_المنزل                  | البيئات القابلة للتكرير              | الشاشة الرئيسية لمثال Binder                                                      |
+| دفتر مرتبط                  | البيئات القابلة للتكرير              | التفاعل مع مثال مربع عن طريق دفتر ملاحظات                                         |
+| الرابط_المحطة               | البيئات القابلة للتكرير              | التفاعل مع مثالٍ مفصل عن طريق محطة طرفية                                          |
+| مثال cd_                    | البيئات القابلة للتكرير              | مثال على نتيجة استخدام cd في ملف Dockerfile                                       |
+| تغيير_المرحلة_الاسترجاع   | التحكم في الإصدار                    | كارتون يظهر التجهيز والتغيير                                                      |
+| الاتصال                     | دليل الاتصالات                       | المثال التوضيحي الذي يصور شبكة الاتصال                                            |
+| المجتمع                     | دليل المجتمع                         | المثال التوضيحي الذي يصور مجتمع طريق تورينغ                                       |
+| حاوية_مثال                  | البيئات القابلة للتكرير              | عرض حاوية بسيطة في المحطة الطرفية                                                 |
+| صورة_مسؤول                  | البيئات القابلة للتكرير              | صورة مرفأ أوبونتو الرسمية مع شارة                                                 |
+| easyway1_basic_diagram    | البدء على Github                     | المستودع الأساسي بعد الإنشاء الذاتي                                               |
+| سهلة القراءة2_تحرير_مسبق_ | البدء على Github                     | مخطط مشروح لملف Readme قبل التعديل                                                |
+| سهلة القراءة_3_بعد_تحرير  | البدء على Github                     | مخطط مشروح لملف Readme بعد التعديل                                                |
+| easyway4_edited_readme    | البدء على Github                     | مخطط مشروح لملف Readme + ترخيص                                                    |
+| مشروع سهل 5_                | البدء على Github                     | مخطط بياني مشروح لصفحة المشروع التعاوني                                           |
+| اختبار_كرة العين_1        | اختبار                               | النتائج التي تم اختبارها عن طريق رؤية ما إذا كانت 'تبدو صحيحة'                    |
+| اختبار كرة العين_2          | اختبار                               | النتائج التي تم اختبارها عن طريق رؤية ما إذا كانت 'تبدو صحيحة'                    |
+| اختبار_كرة العين_3        | اختبار                               | النتائج التي تم اختبارها عن طريق رؤية ما إذا كانت 'تبدو صحيحة'                    |
+| أخطاء_الاختبار_           | اختبار                               | تم الكشف عن خلل في النتيجة 'خطأ'                                                  |
+| مجموعة_الملف_             | Style guide                          | شخصين يبحثان عن ابتسامة ملف نظامية في مجلس الوزراء وإعطاء إبهام                   |
+| أول طلب_سحب_              | Style guide                          | شخصين يقدمون طلب السحب الأول على GitHub                                           |
+| قلب_تاج_ماهال             | التحكم في الإصدار                    | على أسفل تاج مهل للخلط بين الناس                                                  |
+| مساعدة_من_المستقبل        | نظرة عامة على البحوث القابلة للتناسب | المرأة التي تنقل الوثائق إلى نسخة أخرى من نفسها                                   |
+| ماجستير_فرع                 | التحكم في الإصدار                    | الرسوم التوضيحية على الفرع الرئيسي                                                |
+| مايك_حسن_بشر_بي_        | نظرة عامة على البحوث القابلة للتناسب | امرأة تبدو وكأنها تشعر بالقلق من أنها ارتكبت خطأ                                  |
+| mybinder_gen_link         | البيئات القابلة للتكرير              | ماذا تبدو الصفحة لتوليد روابط بيندر                                               |
+| فرع_واحد                    | التحكم في الإصدار                    | تصوير النسخة الرئيسية + فرع واحد                                                  |
+| المفتوح_الوصول_المستشهد   | بحث مفتوح                            | تأثير الانفتاح على عدد الاقتباسات                                                 |
+| مفتوح_مظلة                  | بحث مفتوح                            | شروط تحت مظلة المنح الدراسية المفتوحة                                             |
+| السبب_إمكانية التكرار       | reproducibility                      | ميزات العمل المضافة                                                               |
+| الخريطة                     | ورشة BinderHub                       | خريطة إلى موقع ورشة العمل                                                         |
+| reproducibility_kirstie     |                                      | صور رمز البقرة والبيانات المتعلقة بالممارسة الجيدة                                |
+| خلاصة البحوث                | خلاصة البحوث                         | مثال توضيحي على خلاصة البحوث                                                      |
+| خطر_مصفوفة                  | تقييم المخاطر                        |                                                                                   |
+| الروبوت_الدين               | النشاط                               | المثال التوضيحي الذي يصور صنع القرار الآلي المتحيز                                |
+| شارة الاتحاد العلمي         | البحوث الأخلاقية                     | صورة شارة الأنميل                                                                 |
+| فرع                         | التحكم في الإصدار                    | فرع مراقبة الإصدارات التوضيحية + فرع فرعي                                         |
+| اختبار_تحفيز_1            | اختبار                               | مثال على نتيجة عدم اختبار رمز                                                     |
+| اختبار_تحفيز_2            | اختبار                               | مثال على نتيجة عدم اختبار رمز                                                     |
+| Travis_badge_فشل          | التكامل المستمر                      | قراءة مع شارة ترافيس الفاشلة                                                      |
+| تمرير_الشارة_Travis_      | التكامل المستمر                      | قراءة مع شارة ترافيس مرورة                                                        |
+| Travis_Building             | التكامل المستمر                      | ما تبدو لوحة تحكم ترافيس                                                          |
+| فرعان                       | التحكم في الإصدار                    | رئيس مراقبة النسخ التوضيحية + فرعين                                               |
+| آلة افتراضية                | البيئات القابلة للتكرير              | مثال على آلة Ubuntu الافتراضية على النوافذ                                        |
+| VM_إنشاء_آلة              | البيئات القابلة للتكرير              | كيفية إنشاء آلة افتراضية في الصندوق الافتراضي                                     |
+| ماكينة تصدير_VM_          | البيئات القابلة للتكرير              | كيفية تصدير آلة افتراضية في الصندوق الافتراضي                                     |
+| VM_بدء_آلة                | البيئات القابلة للتكرير              | كيفية تشغيل آلة افتراضية في الصندوق الافتراضي                                     |
+| مثال_العمل                  | البيئات القابلة للتكرير              | مثال لاستخدام العامل في ملفات Dockerfiles                                         |

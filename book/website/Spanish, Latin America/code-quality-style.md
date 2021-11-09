@@ -1,55 +1,55 @@
-# Code Style and Formatting
+# Estilo de código y formato
 
-A coding style is a set of conventions on how to format code. For instance, what do you call your variables? Do you use spaces or tabs for indentation? Where do you put comments? Consistently using the same style throughout your code makes it easier to read. Code that is easy to read is easier to understand by you as well as by potential collaborators. Therefore, adhering to a coding style reduces the risk of mistakes and makes it easier to work together on software. [Why Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) is a nice article on why coding styles matter and how they increase software quality.
+Un estilo de codificación es un conjunto de convenciones sobre cómo formatear el código. Por ejemplo, ¿a qué llamas tus variables? ¿Utiliza espacios o pestañas para la sangría? ¿Dónde ponen sus comentarios? El uso consistente del mismo estilo a lo largo de su código hace que sea más fácil de leer. El código que es fácil de leer es más fácil de entender por usted, así como por posibles colaboradores. Por lo tanto, adherirse a un estilo de codificación reduce el riesgo de errores y hace más fácil trabajar juntos en software. [¿Por qué Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) es un buen artículo sobre por qué los estilos de codificación importan y cómo aumentan la calidad del software.
 
-For example, [PEP8](https://www.python.org/dev/peps/pep-0008/) is the most widely used Python coding style and [ECMAScript 6](http://es6-features.org/) aka [ES6](http://es6-features.org/) is the scripting-language specification standardized by ECMA International for programming in Javascript.
+Por ejemplo, [PEP8](https://www.python.org/dev/peps/pep-0008/) es el estilo de codificación Python más utilizado y [ECMAScript 6](http://es6-features.org/) aka [ES6](http://es6-features.org/) es la especificación de script estandarizado por ECMA Internacional para la programación en Javascript.
 
-For commonly used style guides for various programming languages see the [Language Guides](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google also has a [style guide](https://code.google.com/p/google-styleguide/) for many languages that are used in open source projects originating out of Google.
+Para guías de estilo comúnmente usadas para varios lenguajes de programación vea las Guías de idioma [](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google también tiene una guía de estilo [](https://code.google.com/p/google-styleguide/) para muchos idiomas que se utilizan en proyectos de código abierto originarios de Google.
 
-## Automatic formatting
+## Formato automático
 
-Numerous tools exists to automatically format code such that it follows a certain style. Automatic formatting enables higher code quality, especially when you are collaborating in a team and other people need to look at the code you've written. Many developers and organisations maintain standards of code formatting like **2-space** or **4-space indentation**. Using these is highly recommended since the probability of finding bugs (if any) increases multifold.
+Existen numerosas herramientas para formatear automáticamente el código de tal forma que siga un estilo determinado. El formato automático permite una mayor calidad de código, especialmente cuando estás colaborando en un equipo y otras personas necesitan mirar el código que has escrito. Muchos desarrolladores y organizaciones mantienen estándares de formato de código como **2 espacios** o **4 espacios de sangría**. El uso de estos es altamente recomendable, ya que la probabilidad de encontrar errores (si los hay) aumenta múltiple.
 
-[EditorConfig](https://editorconfig.org) is a language independent tool that helps maintain consistent whitespace styles for multiple people working on the same project across various editors. Most editors support EditorConfig either natively or through a plugin. Almost all widely used IDEs and text-editors support automatic code formatting upon typing. For example: [JetBrains IDE Suite](https://www.jetbrains.com/products.html#), [VSCode](https://code.visualstudio.com/) and [Atom](https://atom.io/).
+[EditorConfig](https://editorconfig.org) es una herramienta independiente de lenguaje que ayuda a mantener estilos consistentes de espacios en blanco para varias personas que trabajan en el mismo proyecto en varios editores. La mayoría de los editores soportan EditorConfig ya sea nativamente o a través de un plugin. Casi todos los IDEs y editores de texto ampliamente utilizados soportan el formato automático de código al teclear. Por ejemplo: [JetBrains IDE Suite](https://www.jetbrains.com/products.html#), [VSCode](https://code.visualstudio.com/) y [Atom](https://atom.io/).
 
-In addition to that, there are many language specific tools for automatically formatting code according to a particular style. Note that editors often support using these tools directly from the editing environment.
+Además de eso, hay muchas herramientas específicas de lenguaje para formatear código de forma automática de acuerdo a un estilo particular. Tenga en cuenta que los editores a menudo soportan el uso de estas herramientas directamente desde el entorno de edición.
 
-| Language   | Formatter Tool                                                                                              |
-| ---------- | ----------------------------------------------------------------------------------------------------------- |
-| C/C++      | [GNUIndent](http://www.gnu.org/software/indent/), [GreatCode](http://sourceforge.net/projects/gcgreatcode/) |
-| Python     | [Black](https://black.readthedocs.io), [yapf](https://pypi.org/project/yapf/)                               |
-| Javascript | [beautifier.io](https://beautifier.io/)                                                                     |
-| Java       | [Google Java format](https://github.com/google/google-java-format), [JIndent](http://www.jindent.com/)      |
-| PHP        | [phpStylist](http://sourceforge.net/projects/phpstylist/)                                                   |
-| Perl       | [PerlTidy](http://perltidy.sourceforge.net/)                                                                |
-| Shell/Bash | [ShellIndent](http://www.bolthole.com/AWK.html)                                                             |
-| CSS        | [CSSTidy](http://csstidy.sourceforge.net/)                                                                  |
-| HTML       | [Tidy](http://tidy.sourceforge.net/)                                                                        |
+| Idioma        | Herramienta de Forma                                                                                            |
+| ------------- | --------------------------------------------------------------------------------------------------------------- |
+| C/C++         | [GNUindent](http://www.gnu.org/software/indent/), [Codigo genial](http://sourceforge.net/projects/gcgreatcode/) |
+| Python        | [Negro](https://black.readthedocs.io), [yapf](https://pypi.org/project/yapf/)                                   |
+| Javascript    | [hermoso.io](https://beautifier.io/)                                                                            |
+| Java          | [formato Google Java](https://github.com/google/google-java-format), [JIndent](http://www.jindent.com/)         |
+| PHP           | [phpStylist](http://sourceforge.net/projects/phpstylist/)                                                       |
+| Perl          | [PerlTidy](http://perltidy.sourceforge.net/)                                                                    |
+| Congelar/Bash | [Sangría](http://www.bolthole.com/AWK.html)                                                                     |
+| CSS           | [CSSTidy](http://csstidy.sourceforge.net/)                                                                      |
+| HTML          | [Dibujo](http://tidy.sourceforge.net/)                                                                          |
 
-**Quick Tip**: If you use VS Code as your primary text editor, you can enable automatic code formatting right into your browser. Open your preferences page in JSON mode and add the following line:
+**Consejo rápido**: Si utiliza el código VS como su editor de texto principal, puede habilitar el formato automático de código directamente en su navegador. Abre tu página de preferencias en modo JSON y añade la siguiente línea:
 
 ```
-"editor.formatOnSave": true,
+"editor.formatOnSave": verdadero,
 ```
 
-## Online services providing software quality checks
+## Servicios en línea que proporcionan comprobaciones de calidad de software
 
-There are several web services that analyse code and make the quality of the code visible. Usually these services run one or more static code analysis tools that can also be used from the command line or integrated into your editor on your own computer. Using a code quality service that integrates with a GitHub/GitLab repository is highly recommended, as it can detect and communicate quality issues in pull requests.
+Existen varios servicios web que analizan código y hacen visible la calidad del código. Generalmente estos servicios ejecutan una o más herramientas estáticas de análisis de código que también pueden ser usadas desde la línea de comandos o integradas en su editor en su propio equipo. El uso de un servicio de calidad de código que se integra con un repositorio de GitHub/GitLab es altamente recomendable, ya que puede detectar y comunicar problemas de calidad en solicitudes de extracción.
 
-Code quality analysis services are websites that often offer the following features:
+Los servicios de análisis de calidad de código son sitios web que a menudo ofrecen las siguientes características:
 
-- Automatically analyse your code after pushing it to GitHub/GitLab
-- Usually free for open source projects
-- Support multiple programming languages, but not every language will have the same level of features
-- Grade or score for the quality of all of the code in the repository
-- List of issues with the code, grouped by severity
-- Drill down to location of issue
-- Default list of checks which the service provider finds the best practice
-- Can be configured to make the list of checks more strict or relaxed
-- Can be configured to ignore files or extensions
-- Can read a configuration file from repository
-- Track issues over time and send alerts when quality deteriorates
-- Optionally reports on code coverage generated by a CI build
-- Automatically deploy the repository and generates a preview build for review before final release.
+- Analiza automáticamente tu código después de presionarlo en GitHub/GitLab
+- Generalmente gratis para proyectos de código abierto
+- Soporta múltiples lenguajes de programación, pero no todos los idiomas tendrán el mismo nivel de características
+- Calificación o puntuación para la calidad de todo el código en el repositorio
+- Lista de problemas con el código, agrupados por gravedad
+- Perforar hasta la ubicación de la incidencia
+- Lista predeterminada de comprobaciones que el proveedor de servicios encuentra la mejor práctica
+- Puede configurarse para hacer la lista de comprobaciones más estricta o relajada
+- Se puede configurar para ignorar archivos o extensiones
+- Puede leer un archivo de configuración desde el repositorio
+- Rastrear problemas con el tiempo y enviar alertas cuando la calidad se disuelve
+- Informes opcionales sobre la cobertura de código generada por un CI build
+- Despliega automáticamente el repositorio y genera una previsualización de compilación para su revisión antes de la versión final.
 
-For a list of choices see [shields.io](https://shields.io/category/analysis) or [this list of services that are free for open source projects](https://github.com/ripienaar/free-for-dev#code-quality).
+Para una lista de opciones vea [shields.io](https://shields.io/category/analysis) o [esta lista de servicios gratuitos para proyectos de código abierto](https://github.com/ripienaar/free-for-dev#code-quality).

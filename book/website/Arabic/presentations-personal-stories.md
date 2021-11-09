@@ -1,182 +1,182 @@
-(cm-presentations-personal-stories)=
-# Personal stories - Presenting Outside of Your Discipline
+(عرض شهري - قصص شخصية)=
+# القصص الشخصية - عرض خارج النظام الخاص بك
 
-We would like to thank **[Yanina Bellini Saibene](https://yabellini.netlify.app/)** for answering our questions.
+نود أن نشكر **[يانينا بيليني سايبني](https://yabellini.netlify.app/)** على الإجابة على أسئلتنا.
 
-Find out more about her work here:
+اعرف المزيد عن عملها هنا:
 * ORCID: [0000-0002-4522-7466](https://orcid.org/0000-0002-4522-7466)
 * Twitter: [@yabellini](https://twitter.com/yabellini)
 
-**Yanina** is a researcher at [INTA in La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina), applying data science to the agricultural sector. She has a degree in Information Systems and a Master in Data Mining and Knowledge Management. She is the co-founder and organizer of multiple collaborative spaces such as Metadocencia, RLadies and LatinR among others. She has organized more than 70 events (of regional and international scope), including being general chair of the Jornadas Argentinas de Informática (2020-2021), founder and current chair of LatinR (one of the largest Latin American conferences on the use of R in research and development) and one of the global coordinators of useR! 2021. Both in her role as a researcher and within the R community, she works to make science as reproducible and open as possible using open informatics tools.
+**يانينا** باحثة في [INTA في لا بامبا، الأرجنتين](https://inta.gob.ar/personas/bellini.yanina)تطبق علم البيانات في القطاع الزراعي. وهي حاصلة على شهادة في نظم المعلومات وماجستير في استخراج البيانات وإدارة المعارف. وهي تشارك في تأسيس وتنظيم العديد من المساحات التعاونية مثل ميتادنسيا ورلدس ولسيداز ولاينر وغيرها. وقد نظمت أكثر من 70 حدثا (إقليميا ودوليا)، بما في ذلك رئيسة عامة لمجموعة جورناداس الأرجنتينية (2020-2021)، مؤسس المركز والرئيس الحالي للمركز اللاتيني (وهو أحد أكبر مؤتمرات أمريكا اللاتينية بشأن استخدام R في البحث والتطوير) وأحد المنسقين العالميين للاستخدام! 2021. سواء في دورها كباحثة أو في إطار مجتمع الريف. وهي تعمل على جعل العلوم قابلة للتكرار، ومفتوحة قدر الإمكان باستخدام أدوات المعلوماتية المفتوحة.
 
-## 1. When did you start giving talks about your research in non-academic events?
+## 1. متى بدأت بإلقاء الحديث عن بحثك في أحداث غير أكاديمية؟
 
-I work at [INTA](https://www.argentina.gob.ar/inta) (National Institute of Agricultural Technology), which is a scientific institution. Our activities are organized into research & development and knowledge transfer & extension, both with the same weight and importance. Everything that has to do with teaching, outreach, communicating, and transferring knowledge of our production to social actors in the agricultural sector and the general public is part of our work. Within INTA, training and communication activities, whether through a course, a workshop, an article, or an interview in a newspaper, radio, or television, are important and necessary. Our activities only make sense if people use what we do.
+أنا أعمل في [INTA](https://www.argentina.gob.ar/inta) (المعهد الوطني للتكنولوجيا الزراعية)، وهو مؤسسة علمية. يتم تنظيم أنشطتنا في البحث & التطوير ونقل المعرفة & ، مع نفس الوزن والأهمية. كل ما يتعلق بالتدريس والتواصل والتواصل، كما أن نقل المعرفة بإنتاجنا إلى الجهات الفاعلة الاجتماعية في القطاع الزراعي وعامة الجمهور جزء من عملنا. أنشطة التدريب والاتصال داخل المعهد الوطني للإحصاء، سواء من خلال دورة دراسية، أو من خلال حلقة عمل، أي مقالة أو مقابلة في صحيفة أو راديو أو تلفزيون هي أمر هام وضروري. وأنشطتنا لا معنى لها إلا إذا استخدم الناس ما نفعله.
 
-## 2. What aspects do you have to take into account when thinking about an event with very interdisciplinary talks?
+## 2. ما هي الجوانب التي يجب أن تأخذها في الاعتبار عند التفكير في حدث مع محادثات متعددة التخصصات جداً؟
 
-I think the main thing is to know your audience beforehand. You can ask the organizers of the event to whom you are going to speak, what is their background, what is the reason they come to the event, and so on. In that way, you can foresee some of the expectations they are going to have and try to fulfill some of them in your talk.
+أعتقد أن الشيء الرئيسي هو معرفة جمهورك مسبقاً. يمكنك أن تسأل منظمي الحدث من الذي ستتحدث إليه، ما هي خلفيتهم ، وما هو السبب في قدومهم إلى الحدث ، وما إلى ذلك . وبهذه الطريقة، يمكنكم أن تتوقعوا بعض التوقعات التي سيحققونها ومحاولة تحقيق بعضها في حديثكم.
 
-Also, I start the talk with a relaxed attitude so that the audience feels that, even though I am there as an expert, I am approachable when it comes to comments and questions. After all, these kinds of meetings and sessions are meant for people to take something away, to learn something.
+وأيضا، أبدأ الحديث بموقف مريح حتى يشعر الجمهور بما يلي: على الرغم من أنني هناك بصفتي خبيرا، أنا متقارب عندما يتعلق الأمر بالتعليقات والأسئلة. في نهاية المطاف، هذه الأنواع من الاجتماعات والجلسات مخصصة للناس لكي يأخذوا شيئا، ليتعلموا شيئا.
 
-Knowing your audience and at least one or two of the things they expect from the talk is important. By fulfilling these expectations the audience leaves with a sense that it was worth being there.
+معرفة جمهورك وواحد أو اثنين على الأقل من الأشياء التي يتوقعونها من الكلام أمر مهم. وبتحقيق هذه التوقعات، يترك الجمهور شعورا بأنه يستحق أن يكون هناك.
 
-That is another point to take into account, respect for the other person's time and to prepare yourself in advance. Make it clear that you care about giving a good talk, with useful information. Tell your audience that you want them to profit from the time they decided to spend listening to you.
+وتلك نقطة أخرى ينبغي أخذها في الاعتبار واحترام وقت الشخص الآخر وإعدادكم مقدما. اجعل من الواضح أنك تهتم بإلقاء حديث جيد، مع معلومات مفيدة. أخبر جمهورك أنك تريد منهم أن يستفيدوا من الوقت الذي قرروا أن يقضوا فيه الاستماع لك.
 
-Keeping time schedules is also important, both for you, the audience, and the rest of the speakers.
+والإبقاء على الجداول الزمنية أمر هام أيضا، سواء بالنسبة لكم، أو بالنسبة للجمهور، أو بالنسبة لبقية المتكلمين.
 
-It is necessary to be well informed about the format of the talk: the amount of time allotted to the talk, and its structure (like you deliver your talk and questions are asked at the end or you can ask questions during the talk, how much time is given to questions, are debates and discussions expected).
+ومن الضروري أن نكون على دراية جيدة بشكل المحادثة: مقدار الوقت المخصص للمحادثات، وبنيته (مثلك مثل تقديم الكلام والأسئلة في النهاية أو يمكنك طرح الأسئلة أثناء المحادثات، وما هو الوقت المتوقع للأسئلة، وما هي المناقشات والمناقشات).
 
-In general, if there is no predefined format for the talk, I ask to be allowed to interact with the audience. I like to ask questions and have them answer me in the chat, it makes them part of the event. Then, I read the answers and, even though the slide is the same, what I am going to say is going to be different depending on the answers I get.
+وعلى العموم، إذا لم يكن هناك شكل محدد مسبقا للكلمة، أطلب السماح لي بالتفاعل مع الجمهور. أحب أن أطرح أسئلة وأن أجعلهم يجيبون عليّ في المحادثة، الأمر الذي يجعلها جزءا من الحدث. ثم قرأت الأجوبة وعلى الرغم من أن الشريحة هي نفسها، ما سأقوله سيكون مختلفا حسب الإجابات التي حصلت عليها.
 
-If the format is structured, I follow the instructions of the organization, which in general consists of an introduction of the speaker, the presentation, and then the questions. Some organizers ask for the material beforehand so that the audience can go through it and send you the questions before the talk. So you need to communicate with the organizers and understand the process. Also, I always ask for feedback from the organizers so that I can improve the talk.
+وإذا كان الشكل منظما، فإنني أتبع تعليمات المنظمة، وهو يتألف عموما من تقديم للمتكلم والعرض ومن ثم من الأسئلة. وبعض المنظمين يسألون المواد مسبقاً حتى يتمكن الجمهور من المرور بها وإرسال الأسئلة إليك قبل المحادثة. لذا تحتاج إلى التواصل مع المنظمين وفهم العملية. وأيضا، أطلب دائما الحصول على ردود فعل من المنظمين حتى أتمكن من تحسين المحادثة.
 
-On the other hand, I try to address what was left unanswered at the event in two different ways: I make a blog post with the questions and answers (sometimes I add them on the talk’s page) or with Twitter threads.
+ومن ناحية أخرى، أحاول أن أتناول ما بقي دون إجابة في الحدث بطريقتين مختلفتين: أنا أقوم بنشر مدونة مع الأسئلة والإجابات (وأقوم في بعض الأحيان بإضافتها على صفحة المحادثة) أو مع مواضيع تويتر.
 
-In the same way, I strive to make the materials available before the talk and take into account accessibility issues, such as a font size that is visible, colour contrasts, including speaker's notes, a download link, a license so they know how to use it, among other details.
+وبنفس الطريقة، أسعى جاهدين إلى إتاحة المواد قبل الكلام وأأخذ في الاعتبار المسائل المتعلقة بإمكانية الوصول، مثل حجم الخط المرئي، تناقضات الألوان، بما في ذلك ملاحظات مكبر الصوت، وصلة تنزيل، ورخصة حتى يعرفوا كيفية استخدامها، ضمن تفاصيل أخرى.
 
-Thanks to [R-Ladies](https://rladies.org/) I started to pay more attention to these kinds of details in my materials, things that I didn't pay much attention to before but can make a big difference in the use and accessibility of my talks.
+بفضل [ر-سيدات](https://rladies.org/) بدأت في إيلاء المزيد من الاهتمام لهذه الأنواع من التفاصيل في موادي، أشياء لم أوليها الكثير من الاهتمام من قبل ولكن يمكن أن تحدث فرقا كبيرا في استخدام و إمكانية الوصول إلى محادثاتي.
 
-## 3. What aspects of delivering these talks contribute to your professional work?
+## 3. ما هي جوانب عقد هذه المحادثات التي تسهم في عملك المهني؟
 
-The foremost aspect is the network of contacts you gain from the events. By attending and talking about what I’m working on has resulted in collaborations, agreements, publications, joint work, and projects.
+الجانب الأول هو شبكة الاتصالات التي تكسبها من الأحداث. ومن خلال الحضور والتحدث عما أعمل عليه أدى إلى التعاون والاتفاقات والمنشورات والعمل المشترك والمشاريع.
 
-Expanding that network of contacts can also mean that you can bring people together to work jointly. I think it is a very important role for those of us who have been in the profession for several years to be a bridge between communities and people so that they can get to know each other.
+وتوسيع شبكة جهات الاتصال هذه يمكن أن يعني أيضا أنه يمكنك جمع الناس معا للعمل معا. وأعتقد أن من المهم جدا أن يكون أولئك الذين ظلوا بيننا في المهنة لعدة سنوات جسرا بين المجتمعات المحلية والناس حتى يتمكنوا من التعرف على بعضهم البعض.
 
-Delivering talks also helps me to improve my talks, my materials (many of them end up in a somewhat more academic publication), and to gauge the needs, doubts, or concerns of people regarding the topic I am communicating. That serves me as a thermometer of demand, of what people are needing; of what is not being understood; of what topics require training, books, blogposts, or materials; to reaffirm or correct the direction of my work. This can lead to the presentation of a new project proposal, the search for funding for that project.
+ويساعدني إجراء المحادثات أيضا على تحسين محادثاتي، فموادي (وينتهي الأمر بالعديد منها إلى إصدار منشور أكاديمي بدرجة أكبر)، ولقياس احتياجات الناس أو شكوكهم أو شواغلهم بشأن الموضوع الذي أحدثه. وهذا يفيدني كمقياس حراري للطلب، وما يحتاجه الناس؛ وما لا يُفهَم؛ ما هي المواضيع التي تتطلب التدريب أو الكتب أو المدونات أو المواد؛ لإعادة تأكيد أو تصحيح اتجاه عملي. ويمكن أن يؤدي ذلك إلى تقديم مقترح مشروع جديد، وهو البحث عن تمويل لذلك المشروع.
 
-Finally, you learn a lot, about other fields, about other professions, about other people and other countries. In the events, many times you get to attend other invited speakers’ talks and you learn from them. In addition, you learn about projects, you access information and may be presented with other possibilities for yourself or for communities you know.
+أخيراً، تتعلم الكثير عن مجالات أخرى عن المهن الأخرى وعن أشخاص آخرين ودول أخرى. في الأحداث، كثيرا ما تحصل على حضور محادثات المتكلمين المدعوين الآخرين وتتعلم منها. بالإضافة إلى ذلك، تتعلم عن المشاريع ، يمكنك الوصول إلى المعلومات ، ويمكن أن تقدم لك إمكانيات أخرى لنفسك أو للمجتمعات التي تعرفها.
 
-## 4. Do you have any advice on things to avoid or, perhaps, to handle with care?
+## 4. هل لديك أي نصيحة حول الأشياء لتجنب أو ربما للتعامل مع الرعاية؟
 
-I think you have to be very careful with humour. I think that this aspect works only on oneself, if I laugh at myself, then there is less risk of offending or hurting someone.
+أعتقد أنه يجب عليك أن تكون حذرا جدا مع الفكاهة. وأعتقد أن هذا الجانب لا يعمل إلا على نفسه، إذا ضحكت على نفسي، سيكون هناك خطر أقل في الإساءة إلى شخص ما أو إيذائه.
 
-On the other hand, you have to avoid being impolite regarding schedules. For example, if a talk lasts an hour, it would be convenient to finish it within 50 minutes and leave the participant ten minutes to stretch, get up, hydrate themselves or go to the bathroom and then continue with their routine, especially in this virtual setting where we live from one Zoom to another.
+من ناحية أخرى، عليك أن تتجنب أن تكون غير مهذبة فيما يتعلق بالجداول الزمنية. على سبيل المثال إذا كان الحديث يستغرق ساعة، سيكون من المناسب إنهاؤها في غضون 50 دقيقة وترك المشارك عشر دقائق لتمديدها، تحمس نفسها أو تذهب إلى الحمام ثم تواصل مع روتينها، خاصة في هذا الوضع الافتراضي حيث نعيش من تكبير إلى آخر.
 
-If you don't know how long it will take you, it's best to practice it beforehand in front of your pet, your family, or a community. As you get the hang of it, you know how long the talk or concept is going to take, and whether it needs to be shortened or stretched depending on the time.
+إذا كنت لا تعرف كم من الوقت سوف يستغرقك، من الأفضل تدريبه مسبقا أمام حيوانك الأليف أو عائلتك أو مجتمعك. عندما تحصل على معلقة، تعلمون كم من الوقت سوف يستغرقه الحديث أو المفهوم، وما إذا كان من الضروري تقصيرها أو تمديدها حسب الوقت.
 
-Another thing I would try to avoid is not leaving time to interact with people. At some point, you have to interact with the people who attended the event, either during the talk, in the end, or when you feel more comfortable. If you just deliver the talk, finish and leave, you lose the possibility of generating contacts or being approachable, which are two of the main goals of this type of event.
+شيء آخر أحاول تجنبه هو عدم ترك الوقت للتفاعل مع الناس. في وقت ما، عليك أن تتفاعل مع الأشخاص الذين حضروا الحدث، إما أثناء المحادثة، في النهاية، أو عندما تشعر بمزيد من الراحة. إذا قمت فقط بتسليم المحادثة و الانتهاء و المغادرة، فستفقد إمكانية إنشاء جهات اتصال أو الوصول إليها، وهما هدفان من الأهداف الرئيسية لهذا النوع من الأحداث.
 
-Regarding the materials, make sure that they are accessible. As I mentioned before, work to make them as accessible as possible (legible fonts, contrasting sizes and colours, speaker's notes, alternative text in the images) and that they are licensed.
+وفيما يتعلق بالمواد، تأكد من إمكانية الوصول إليها. وكما ذكرت من قبل، العمل على تيسير الوصول إليها قدر الإمكان (الخطوط المقروءة)، تباين الأحجام والألوان وملاحظات المتحدث والنص البديل في الصور) وأنها مرخصة.
 
-When I prepare a talk, when budgeting the time it takes me to put it together, I add a day or two more to check its accessibility. The license is fundamental to let your audience know how they can reuse your material and, if they cannot reuse it, to make it clear.
+عندما أقوم بإعداد محادثة، عندما أضع في الميزانية الوقت الذي يستغرقه لوضعهم معا، أضيف يوما أو يومين آخرين للتحقق من إمكانية الوصول إليها. الرخصة أساسية لإطلاع جمهورك على كيفية إعادة استخدام المواد الخاصة بك، وإذا لم يتمكنوا من إعادة استخدامها، لتوضيح ذلك.
 
-Finally, a very Argentine phrase: "Don’t get up on your high horse"; deliver the talk with the peace of mind that comes from knowing your work and your discipline, but also with fitting humility. You have to acknowledge that there may be questions that you do not know how to answer.
+أخيراً، عبارة أرجنتينية جداً: "لا تصعد على حصانك الأعلى"؛ قم بإلقاء الحديث مع السلام الذهني الذي يأتي من معرفة عملك وانضباطك، ولكن أيضا مع تواضع مناسب. وعليكم أن تعترفوا بأنه قد تكون هناك أسئلة لا تعرفون كيفية الإجابة عليها.
 
-The same goes for language, where you can be technically correct without using complex language. However, if you use technical terms because you have to, you have to explain them or make an analogy with everyday things. For example, a computer program is like a recipe: you give instructions to the computer. That is why it is key to know your audience, as then you know what to rely on when explaining more complex concepts.
+وينطبق نفس الشيء على اللغة، حيث يمكنك أن تكون صحيحا من الناحية الفنية دون استخدام لغة معقدة. على كل حال، إذا كنت تستخدم مصطلحات تقنية لأنك مضطرد، فيجب عليك شرحها أو القياس عليها بالأشياء اليومية. على سبيل المثال، برنامج الكمبيوتر يشبه الوصفة: أنت تعطي إرشادات للكمبيوتر. ولهذا السبب من الأساسي أن نعرف جمهوركم، كما تعلمون آنذاك ما نعتمد عليه عند شرح مفاهيم أكثر تعقيدا.
 
-We are discussing talks given at community events. In general, I deliver them free of charge and the materials are open, but if a company invites you, don't be ashamed or afraid to charge for them in case that, later on, it will be economically profitable for whoever invites you. I also don't pay out of my pocket if I am invited to give a talk; this means that the costs of travel or registration are paid by the organizer. If your talks are in high demand, the organizer's handling of the costs helps you decide. Also, you should never transfer the intellectual property of your material to the event organizer. If organizers ask you to transfer your rights you should charge them for it.
+ونحن نناقش المحادثات التي تجري في المناسبات المجتمعية. وبصفة عامة، فإني أقوم بتسليمها مجانا وتكون المواد مفتوحة، ولكن إذا دعت إليها شركة، لا تخجل أو تخاف من شحنهم في حالة أنه في وقت لاحق، سيكون ذلك مربحاً اقتصادياً لمن يدعوك. كما أنني لا أدفع ثمناً من جيبي إذا دعيت إلى إلقاء محاضرة؛ وهذا يعني أن المنظمة تدفع تكاليف السفر أو التسجيل. إذا كان الطلب مرتفعا على محادثاتك، فإن معالجة المنظمة للتكاليف تساعدك على اتخاذ القرار. كذلك يجب عليك عدم نقل الملكية الفكرية لموادك إلى منظم الحدث. إذا طلب منك المنظمون نقل الحقوق الخاصة بك فيجب عليك تقاضيهم مقابل ذلك.
 
-In my case, the talks I deliver are related to Data Science, with Agricultural Sciences and communities of practice. If I am invited to deliver a talk as an INTA researcher, I do not charge for it either, because it is part of my job. When I am invited to deliver a talk due to my involvement in communities of practice or for events not related to INTA, if they are for public universities, for example, organizations like R-Ladies, or free events and conferences, I accept as a way of giving back a big part of what I received. I live in a country that allowed me to receive education in a public system that is funded by all of us, and giving this kind of training is a way of giving back. Currently, I’m privileged enough to be able to engage in this kind of activity without charging; not everyone is, and they don't have to feel obligated to do it.
+وفي حالتي تتعلق المحادثات التي أدلي بها بعلوم البيانات، مع العلوم الزراعية وجماعات الممارسين. إذا كنت مدعوة لإلقاء محاضرة كباحثة في INTA، كما أنني لا أتحمل أي تكاليف عن ذلك، لأنه جزء من عملي. وعندما أدعى إلى إلقاء محاضرة بسبب مشاركتي في جماعات الممارسين أو في أحداث لا علاقة لها بالمعهد الوطني للإحصاء، إذا كانت في جامعات عامة، على سبيل المثال، منظمات مثل سيداتي R-Lads، أو المناسبات والمؤتمرات الحرة، أقبل كطريقة لإعادة جزء كبير مما تلقيته. إنني أعيش في بلد سمح لي بأن أتلقى التعليم في نظام عام يموله الجميع، وتقديم هذا النوع من التدريب هو طريقة للعودة إلى العمل. حالياً، أنا مميز بما فيه الكفاية لأكون قادراً على المشاركة في هذا النوع من النشاط بدون شحن؛ ليس الجميع ، ولا يجب أن يشعروا بأنهم ملزمون بالقيام بذلك.
 
-Some people have a guideline when it comes to being invited to deliver a talk, such as [Tatiana Mac](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552#file-tatiana-mac-speaker-rider-md), [Greg Wilson](https://third-bit.com/talks/speaking/) and Steph Locke.
+بعض الناس لديهم مبادئ توجيهية عندما يتعلق الأمر بدعوتهم لإلقاء محادثة، مثل [Tatiana Mac](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552#file-tatiana-mac-speaker-rider-md)، [Greg Wilson](https://third-bit.com/talks/speaking/) و Steph lock.
 
-These are also questions that I take into account: Is it an all-male panel? Does the event have a Code of Conduct? Is it open access, or does it have benefits for less advantaged people? Again, if one can demand these types of things in the events one is going to participate in, we will be helping to generate friendlier and safer environments. Sometimes one does not have the possibility or the privilege to choose, so those of us who can do it.
+وهذه أيضا أسئلة أُراعيها: هل هي عبارة عن فريق يتكون من الذكور؟ هل هذا الحدث يحتوي على مدونة سلوك؟ هل هي مفتوحة للوصول، أم أن لها فوائد للأشخاص الأقل حظاً؟ مرة أخرى، إذا استطاع المرء أن يطلب هذه الأنواع من الأشياء في الأحداث فسيشارك فيها، وسوف نساعد على تهيئة بيئات أكثر صداقة وأمنا. وأحيانا لا يملك المرء الإمكانية أو الامتياز لاختياره، لذا فإن من يستطيع منا أن يفعل ذلك.
 
-## 5. What perspectives do you have for your future talks? What would you be interested in trying?
+## 5. ما هي وجهات النظر التي لديك لمحادثاتك في المستقبل؟ ماذا كنت مهتما بالمحاولة؟
 
-Lately, I have been asked to give talks on three topics: communities of practice, science and data applied to agriculture (with use cases), and science and data in geo-technology. It is difficult to maintain the enthusiasm of always telling the same thing because, in addition, you feel like an impostor thinking about how many more times you are going to deliver the same talk. The thing is that, sometimes, they invite you because they have seen it and want to replicate it in another setting.
+وفي الآونة الأخيرة، طُلب مني إجراء محادثات بشأن ثلاثة مواضيع: جماعات الممارسين، ويطبق العلم والبيانات على الزراعة (مع حالات الاستخدام)، والعلوم والبيانات في مجال التكنولوجيا الجغرافية. ومن الصعب المحافظة على الحماس المتمثل في التعبير دائما عن نفس الشيء لأنه، بالإضافة إلى ذلك، تشعر وكأنك مفترض يفكر في عدد المرات التي ستدلي بها بنفس المحادثة. الشئ هو أنهم، في بعض الأحيان، يدعونك لأنهم رأوا ذلك ويريدون تكراره في مكان آخر.
 
-What I generally do is to update the talks when I have new results or use cases and, depending on the expected audience, I explain in more detail the concepts I need them to know to get more out of the talk.
+وما أفعله بصفة عامة هو استكمال المحادثات عندما تكون لي نتائج جديدة أو عندما أستخدم حالات معينة، واعتمادا على الجمهور المتوقع، أنا أشرح بمزيد من التفصيل المفاهيم التي أحتاجها لأعرفها لكي تخرج من المحادثة.
 
-It can be noted that there is a great need to resume face-to-face activities. I hope that virtual activities will continue because they opened up a panorama of participation (as a lecturer and as an attendee) that I did not have before; they allowed me to attend activities that would have been beyond my reach if I’d had to be there in person (Ecuador, Bolivia, USA, Africa) since I have two small children and I avoid long trips, at least until they are older. So, without virtual events, I would not have been able to reach so many people. We’ll see what happens, what the future holds. I think that this year and most of next year, we will continue in the same way, at least in the (Global) South.
+ويمكن ملاحظة أن هناك حاجة كبيرة لاستئناف الأنشطة وجها لوجه. ويحدوني الأمل في أن تستمر الأنشطة الافتراضية لأنها فتحت مظلة المشاركة (كمحاضر وكحاضر) التي لم يسبق لي أن حضرها؛ وسمحوا لي بحضور أنشطة كان من الممكن أن تكون بعيدة المنال لو كان لي أن أكون هناك شخصيا (إكوادور) بوليفيا، الولايات المتحدة الأمريكية، أفريقيا) منذ أن كان لدي طفلان صغيران وأنا أتفادى القيام برحلات طويلة، على الأقل إلى أن يكونا أكبر سنا. لولا الأحداث الافتراضية لما تمكنت من الوصول إلى هذا العدد الكبير من الناس. سنرى ما سيحدث، ما الذي يحمله المستقبل. وأعتقد أننا سنستمر هذا العام ومعظم العام المقبل بنفس الطريقة، على الأقل في الجنوب (العالمي).
 
-Regarding the tools to give courses and talks, I apply a lot of what we teach in MetaDocencia and it works very well. I hope to continue learning; currently, I am reading a couple of books that I hope will help me: *Teaching in the Online Classroom* by Doug Lemov, *The Discussion Book* by Stephen Brookfield, and *The Programmer's Brain* by Felienne Hermans.
+فيما يتعلق بالأدوات لإعطاء الدورات الدراسية والمحادثات، أنا أطبق الكثير مما نتعلمه في ميتادوسينسيا وهي تعمل بشكل جيد. وآمل أن أواصل التعلم؛ حالياً, أنا أقرأ بضعة كتب آمل أن تساعدني: *التدريس في الفصل الدراسي على الإنترنت* بواسطة دوغ ليموف، *كتاب المناقشة* من ستيفن بروكفيلد، و *دماغ المبرمج* من فيلين هرمانز.
 
-*This interview was conducted by Maria Nanton.*
+*وأجرت هذه المقابلة ماريا نانتون.*
 
 
 ---
 
 
-# Personal stories - Presenting outside of your discipline (Español)
+# قصص شخصية - عرض خارج تخصصك (Espan<unk> ol)
 
 Queremos agradecer a **[Yanina Bellini Saibene](https://yabellini.netlify.app/es/)** por responder nuestras preguntas.
 
-Podés interiorizarte en su trabajo en los siguientes links:
+Podés interiorizarte en su trabajo en los siguientes links:
 * [ORCID](https://orcid.org/0000-0002-4522-7466)
-* [Twitter](https://twitter.com/yabellini)
+* [تويتر](https://twitter.com/yabellini)
 
-**Yanina** es investigadora del [INTA en La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina) aplicando ciencia de datos al sector agropecuario. Es Licenciada en Sistemas de Información y Magíster en Explotación de Datos y Gestión del Conocimiento. Es cofundadora y organizadora en múltiples espacios colaborativos como Metadocencia, RLadies y LatinR entre otros. Organizó más de 70 eventos (de alcance regional e internacional) entre los que se destacan ser chair general de las Jornadas Argentinas de Informática (2020-2021) y fundadora y actual chair de LatinR, una de las conferencias latinoamericanas más grandes sobre el uso de R en investigación y desarrollo y una de las coordinadoras globales de useR! 2021. Tanto en su rol como investigadora como con la comunidad R trabaja buscando hacer que la ciencia sea lo más reproducible y abierta posible utilizando herramientas informáticas abiertas.
+**Yanina** es investigadora del [INTA en La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina) aplicando ciencia de datos al sector agropecuario. Es Licenciada en Sistemas de Información y Magíster en Explotación de Datos y Gestión del Conocimiento. Es cofundadora y organizadora en múltiples espacios colaborativos como Metadocencia, RLadies y LatinR entre otros. المنظمة المعنية بـ 70 eventos (de alcance Regional e internacional) entre los que se destacan President General de las Jornadas Argentinas de Informa<unk> tica (2020-2021) and fundadora y chair de LatinR, una de las conferencias latinoamericanas mas grandes sobre el uso de R en investigacio<unk> n y desarrollo y una de las coordinadoras globales de useR! 2021. Tanto en su rol como investigadora como con la comunidad R trabaja buscando hacer que la ciencia sea lo más reproducible y abierta posible utilizando herramientas informáticas abiertas.
 
-## 1. ¿Cuándo comenzaste a dar charlas sobre tu trabajo como investigadora en eventos no académicos?
+## 1. ¿Cuándo comenzaste a dar charlas sobre tu trabajo como investigadora en eventos no académicos?
 
-Yo trabajo en el [INTA](https://www.argentina.gob.ar/inta) (Instituto Nacional de Tecnología Agropecuaria), que es una institución científica. Nuestras actividades están organizadas en investigación y desarrollo y transferencia y extensión, ambas con el mismo peso e importancia. Todo lo que tiene que ver con hacer enseñar, difundir, comunicar, transferir conocimiento de nuestros desarrollos a actores del sector agropecuario y al público en general, es parte de nuestro trabajo. Dentro del INTA, las actividades de formación y comunicación, ya sea por medio de un curso, taller, de una nota o entrevista en un diario, radio, televisión, son importantes y necesarias. Solo tenemos sentido si la gente utiliza lo que hacemos.
+Yo trabajo en el [INTA](https://www.argentina.gob.ar/inta) (Instituto Nacional de Tecnologi<unk> a Agropecuaria)، que es una Institucio<unk> n cienti<unk> fica. Nuestras actividades están organizadas en investigación y desarrollo y transferencia y extensión, ambas con el mismo peso e importancia. Todo lo que tiene que ver con hacer enseñar, difundir, comunicar, transferir conocimiento de nuestros desarrollos a actores del sector agropecuario y al público en general, es parte de nuestro trabajo. Dentro del INTA, las actividades de formación y comunicación, ya sea por medio de un curso, taller, de una nota o entrevista en un diario, radio, televisión, son importantes y necesarias. Solo tenemos sentido si la gente utiliza lo que hacemos.
 
- ## 2. ¿Qué aspectos tenés que atender a la hora de pensar un evento con charlas muy interdisciplinarias?
+ ## 2. ¿Qué aspectos tenés que atender a la hora de pensar un evento con charlas muy interdisciplinarias?
 
-Creo que lo principal es conocer a tu audiencia previamente. Se les puede preguntar a los organizadores del evento a quienes les vas a hablar, cuál es su background, cuál es la razón por la que vienen al evento, ya que, de esa manera, se puede prever algunas de las expectativas que van a tener e intentar, por lo menos, cumplir alguna en tu charla.
+Creo que lo principal es conocer a tu audiencia previamente. Se les puede preguntar a los organizadores del evento a quienes les vas a hablar, cuál es su background, cuál es la razón por la que vienen al evento, ya que, de esa manera, se puede prever algunas de las expectativas que van a tener e intentar, por lo menos, cumplir alguna en tu charla.
 
-Asimismo, comienzo la charla con una actitud descontracturada para que el público sienta que, a pesar de que estoy ahí como experta, soy accesible a la hora de los comentarios y preguntas. Después de todo, este tipo de encuentros e intercambios se realizan para que las personas se lleven algo, aprendan algo.
+Asimismo, comienzo la charla con una actitud descontracturada para que el público sienta que, a pesar de que estoy ahí como experta, soy accesible a la hora de los comentarios y preguntas. Después de todo, este tipo de encuentros e intercambios se realizan para que las personas se lleven algo, aprendan algo.
 
-Conocer a tu audiencia y al menos una o dos de las expectativas que esperan de la charla es importante, ya que al cumplirla se van con algo que fueron a buscar y por eso va a contribuir a la evaluación de que valió la pena estar ahí.
+Conocer a tu audiencia y al menos una o dos de las expectativas que esperan de la charla es importante, ya que al cumplirla se van con algo que fueron a buscar y por eso va a contribuir a la evaluación de que valió la pena estar ahí.
 
-Ese es otro punto a tener en cuenta, el respeto por el tiempo del otro y prepararte con anticipación, que se note que te importa dar una buena charla, con información útil, que se note que querés que aprovechen ese tiempo que decidieron dedicarte a vos escuchandote.
+Ese es otro punto a tener en cuenta, el respeto por el tiempo del otro y prepararte con anticipación, que se note que te importa dar una buena charla, con información útil, que se note que querés que aprovechen ese tiempo que decidieron dedicarte a vos escuchandote.
 
-El respeto por cumplir los tiempos, también es importante, tanto para vos, el público y el resto de los oradores.
+El respeto por cumplir los tiempos, también es importante, tanto para vos, el público y el resto de los oradores.
 
-Es necesario estar bien informado sobre el formato de la charla:  cantidad de tiempo de la charla, formato (ej: se expone y las preguntas al final, se puede ir haciendo preguntas durante la charla, cuánto tiempo de preguntas o intercambios se esperan), ¿hay libertad en el formato o es estructurado?.
+Es necesario estar bien informado sobre el formato de la charla:  cantidad de tiempo de la charla, formato (ej: se expone y las preguntas al final, se puede ir haciendo preguntas durante la charla, cuánto tiempo de preguntas o intercambios se esperan), ¿hay libertad en el formato o es estructurado?.
 
-En general, si hay libertad en el formato de la charla, pido que me dejen interactuar con el público. Me gusta hacer preguntas y que me contesten en el chat, los hace parte del evento. Luego, leo las respuestas y, a pesar de que el slide es el mismo, lo que voy a decir va a ser diferente dependiendo de las respuestas que consiga. Si el formato es estructurado respeto las instrucciones de la organización, que en general es una introducción de la disertante, la presentación y luego las preguntas.
+En general, si hay libertad en el formato de la charla, pido que me dejen interactuar con el público. Me gusta hacer preguntas y que me contesten en el chat, los hace parte del evento. Luego, leo las respuestas y, a pesar de que el slide es el mismo, lo que voy a decir va a ser diferente dependiendo de las respuestas que consiga. Si el formato es estructurado respeto las instrucciones de la organización, que en general es una introducción de la disertante, la presentación y luego las preguntas.
 
-Hay organizadores que te piden el material previamente para que el público lo mire y te envíen las preguntas antes de la charla. Por eso, es preciso comunicarse con los organizadores y comprender el proceso. Además, siempre pido un feedback de los organizadores para poder ir mejorando la charla.
+Hay organizadores que te piden el material previamente para que el público lo mire y te envíen las preguntas antes de la charla. Por eso, es preciso comunicarse con los organizadores y comprender el proceso. Además, siempre pido un feedback de los organizadores para poder ir mejorando la charla.
 
-Por otro lado, intento responder lo que no se contestó en el evento de dos maneras distintas: hago un blog post con las preguntas y respuestas (a veces las agrego en la página de la charla) o con hilos de Twitter. De igual forma, procuro dejar disponibles los materiales antes de la charla y tener en cuenta cuestiones de accesibilidad, como que la fuente tenga un tamaño que sea visible, los contrastes de colores, que incluya notas del orador, un link de descarga, una licencia para que sepan cómo usarla, entre otros detalles.
+Por otro lado, intento responder lo que no se contestó en el evento de dos maneras distintas: hago un blog post con las preguntas y respuestas (a veces las agrego en la página de la charla) o con hilos de Twitter. De igual forma, procuro dejar disponibles los materiales antes de la charla y tener en cuenta cuestiones de accesibilidad, como que la fuente tenga un tamaño que sea visible, los contrastes de colores, que incluya notas del orador, un link de descarga, una licencia para que sepan cómo usarla, entre otros detalles.
 
-Gracias a  R-Ladies empecé a prestar más atención a este tipo de detalles de mis materiales, cosas que antes no tenía mucho en cuenta pero pueden hacer una gran diferencia en el uso y acceso de mis charlas.
+Gracias a  R-Ladies empecé a prestar más atención a este tipo de detalles de mis materiales, cosas que antes no tenía mucho en cuenta pero pueden hacer una gran diferencia en el uso y acceso de mis charlas.
 
- ## 3. ¿Qué aspectos de dar este tipo de charlas aportan a tu trabajo profesional?
+ ## 3. ¿Qué aspectos de dar este tipo de charlas aportan a tu trabajo profesional?
 
-Lo primero es la red de contactos que generas a partir de los eventos. El hecho de ir y contar lo que estás haciendo, me ha significado futuras colaboraciones, convenios, publicaciones, trabajos en conjunto y proyectos.
+Lo primero es la red de contactos que generas a partir de los eventos. El hecho de ir y contar lo que estás haciendo, me ha significado futuras colaboraciones, convenios, publicaciones, trabajos en conjunto y proyectos.
 
-Ampliar esa red de contactos también puede resultar en que uno pueda juntar a personas para que trabajen juntas. Creo que es un rol muy importante que poseemos las personas que ya tenemos varios años en la profesión, ser de puente entre grupos de trabajo y personas para que se conozcan.
+Ampliar esa red de contactos también puede resultar en que uno pueda juntar a personas para que trabajen juntas. Creo que es un rol muy importante que poseemos las personas que ya tenemos varios años en la profesión, ser de puente entre grupos de trabajo y personas para que se conozcan.
 
-Por otra parte, me ayuda a mejorar mis charlas, mis materiales (muchos de ellos terminan en algún tipo de publicación más académica) y a tomar el pulso de cuáles son las necesidades, dudas o inquietudes de las personas con respecto al tema que estoy comunicando. Eso me sirve como un termómetro de la demanda, de lo que las personas están necesitando; de lo que no se está entendiendo; de los temas que están haciendo falta tener una capacitación, libros, blogs o materiales; para reafirmar o corregir la dirección de mi trabajo.
+Por otra parte, me ayuda a mejorar mis charlas, mis materiales (muchos de ellos terminan en algún tipo de publicación más académica) y a tomar el pulso de cuáles son las necesidades, dudas o inquietudes de las personas con respecto al tema que estoy comunicando. Eso me sirve como un termómetro de la demanda, de lo que las personas están necesitando; de lo que no se está entendiendo; de los temas que están haciendo falta tener una capacitación, libros, blogs o materiales; para reafirmar o corregir la dirección de mi trabajo.
 
-Esto puede terminar en la presentación de una propuesta de proyecto nuevo, la búsqueda de un financiamiento para ese proyecto.
+Esto puede terminar en la presentación de una propuesta de proyecto nuevo, la búsqueda de un financiamiento para ese proyecto.
 
-Por último, se aprende muchísimo, sobre otros temas, sobre otras profesiones, sobre otras personas y otros países. En los eventos, muchas veces escuchás la charla de otras personas que están invitadas y aprendes de ellas. Además, te enteras de proyectos, accedes a la información y se te pueden presentar otras posibilidades para vos o para grupos de trabajos que conozcas.
+Por último, se aprende muchísimo, sobre otros temas, sobre otras profesiones, sobre otras personas y otros países. En los eventos, muchas veces escuchás la charla de otras personas que están invitadas y aprendes de ellas. Además, te enteras de proyectos, accedes a la información y se te pueden presentar otras posibilidades para vos o para grupos de trabajos que conozcas.
 
- ## 4. ¿Tenés consejos sobre cosas que hay que evitar o, quizás, manejar con cuidado?
+ ## 4. ¿Tenés consejos sobre cosas que hay que evitar o, quizás, manejar con cuidado?
 
-Creo que con el humor hay que ser muy cuidadosa. Pienso que ese aspecto funciona únicamente sobre uno mismo, si me río de mi, entonces hay menos riesgos de ofender o lastimar.
+Creo que con el humor hay que ser muy cuidadosa. Pienso que ese aspecto funciona únicamente sobre uno mismo, si me río de mi, entonces hay menos riesgos de ofender o lastimar.
 
-Por otro lado, hay que evitar la descortesía de los tiempos. Por ejemplo, si una charla dura una hora, sería conveniente terminarla en 50 minutos y dejarle al participante diez minutos para que se estire, levante, hidrate o vaya al baño y, luego, que continúe con su rutina, especialmente en este ámbito virtual donde vivimos de un zoom a otro.
+Por otro lado, hay que evitar la descortesía de los tiempos. Por ejemplo, si una charla dura una hora, sería conveniente terminarla en 50 minutos y dejarle al participante diez minutos para que se estire, levante, hidrate o vaya al baño y, luego, que continúe con su rutina, especialmente en este ámbito virtual donde vivimos de un zoom a otro.
 
-Si no sabes cuánto tiempo te va a llevar, mejor practicarla previamente ante tu mascota, tu familia o una comunidad. A medida que uno le agarra la mano, sabe cuánto va a tardar la charla o concepto, y si es necesario achicarla o estirarla dependiendo del tiempo.
+Si no sabes cuánto tiempo te va a llevar, mejor practicarla previamente ante tu mascota, tu familia o una comunidad. A medida que uno le agarra la mano, sabe cuánto va a tardar la charla o concepto, y si es necesario achicarla o estirarla dependiendo del tiempo.
 
-Otra cosa que intentaría evitar es que no haya interacción con la gente. En algún momento, se tiene que interactuar con las personas que asistieron al evento, sea durante la charla, en el final o cuando te sientas más cómoda, pero si solo vas dar la charla, terminas y te retirás, perdés la posibilidad de generar contactos o estar accesible, dos de las cosas que este tipo de eventos tiene como objetivo principal.
+Otra cosa que intentaría evitar es que no haya interacción con la gente. En algún momento, se tiene que interactuar con las personas que asistieron al evento, sea durante la charla, en el final o cuando te sientas más cómoda, pero si solo vas dar la charla, terminas y te retirás, perdés la posibilidad de generar contactos o estar accesible, dos de las cosas que este tipo de eventos tiene como objetivo principal.
 
-Con respecto a los materiales, evitar que no sean accesibles.  Como mencioné antes trabajar para que sean lo más accesible posible (fuentes legibles, tamaños y colores contrastantes, notas del orador, texto alternativo en las imágenes) y que tengan licencia.
+Con respecto a los materiales, evitar que no sean accesibles.  Como mencioné antes trabajar para que sean lo más accesible posible (fuentes legibles, tamaños y colores contrastantes, notas del orador, texto alternativo en las imágenes) y que tengan licencia.
 
-Cuando hago una charla, dentro del tiempo que me lleva armarla, le agrego uno o dos días más para chequear la accesibilidad. La licencia es fundamental para que sepan cómo pueden reusar tu material y, si no lo pueden reusar, que quede claro.
+Cuando hago una charla, dentro del tiempo que me lleva armarla, le agrego uno o dos días más para chequear la accesibilidad. La licencia es fundamental para que sepan cómo pueden reusar tu material y, si no lo pueden reusar, que quede claro.
 
-Por último, una frase muy argentina: “no pararse arriba del caballo”, dar la charla con la tranquilidad que conocés tu trabajo y tu disciplina, pero con la humildad que corresponde. Hay que reconocer que puede haber preguntas que no sepas responder.
+Por último, una frase muy argentina: “no pararse arriba del caballo”, dar la charla con la tranquilidad que conocés tu trabajo y tu disciplina, pero con la humildad que corresponde. Hay que reconocer que puede haber preguntas que no sepas responder.
 
-Lo mismo pasa con el lenguaje, donde se puede ser correcto técnicamente sin utilizar un lenguaje complejo. Sin embargo, si empleas términos técnicos porque los tenés que usar sí o sí, hay que explicarlos o hacer una analogía con cosas de la vida cotidiana. Por ejemplo, un programa de computación es como una receta: le das instrucciones a la computadora. Por eso es clave conocer a tu audiencia, porque podés saber en qué apoyarte al momento de explicar conceptos más complejos.
+Lo mismo pasa con el lenguaje, donde se puede ser correcto técnicamente sin utilizar un lenguaje complejo. Sin embargo, si empleas términos técnicos porque los tenés que usar sí o sí, hay que explicarlos o hacer una analogía con cosas de la vida cotidiana. Por ejemplo, un programa de computación es como una receta: le das instrucciones a la computadora. Por eso es clave conocer a tu audiencia, porque podés saber en qué apoyarte al momento de explicar conceptos más complejos.
 
-Estamos hablando de charlas que se dan en eventos comunitarios. En general, yo los doy sin costo y los materiales son abiertos, pero si una empresa te invita, que no te de vergüenza ni miedo cobrar por las mismas en el caso de que eso, después, reditúe económicamente a quien te invita.
+Estamos hablando de charlas que se dan en eventos comunitarios. En general, yo los doy sin costo y los materiales son abiertos, pero si una empresa te invita, que no te de vergüenza ni miedo cobrar por las mismas en el caso de que eso, después, reditúe económicamente a quien te invita.
 
-Yo tampoco hago gastos de mi bolsillo si me invitan a dar una charla; esto significa que los costos de viajes, inscripción, corren por cuenta del organizador. Si tus charlas tienen mucha demanda, el manejo de los costos por parte del organizador, te ayuda a decidir. Asimismo, nunca hay que entregar la propiedad intelectual de tu material a quien haga el evento, pero si te piden que la entregues y vos estás de acuerdo, cobrales muy bien.
+Yo tampoco hago gastos de mi bolsillo si me invitan a dar una charla; esto significa que los costos de viajes, inscripción, corren por cuenta del organizador. Si tus charlas tienen mucha demanda, el manejo de los costos por parte del organizador, te ayuda a decidir. Asimismo, nunca hay que entregar la propiedad intelectual de tu material a quien haga el evento, pero si te piden que la entregues y vos estás de acuerdo, cobrales muy bien.
 
-En mi caso, las charlas que doy tienen que ver con Ciencia de Datos, con Agro y con comunidades de práctica.  
+En mi caso, las charlas que doy tienen que ver con Ciencia de Datos, con Agro y con comunidades de práctica.  
 Si me invitan a dar una charla como investigadora de INTA tampoco cobro, porque es parte de mi trabajo.  
-Cuando me invitan a dar una charla por mi trabajo en las comunidades de práctica o no relacionado con INTA, si son de universidades públicas, de grupos como R-Ladies, para eventos y conferencias gratuitos, las hago como una forma de devolver gran parte de lo que recibí.
+Cuando me invitan a dar una charla por mi trabajo en las comunidades de práctica o no relacionado con INTA, si son de universidades públicas, de grupos como R-Ladies, para eventos y conferencias gratuitos, las hago como una forma de devolver gran parte de lo que recibí.
 
-Vivo en un país que me permitió educarme con un sistema que lo mantenemos entre todos, y dar este tipo de capacitaciones es una forma de retribución. Hoy en día, tengo suficiente privilegio como para poder realizar este tipo de actividades sin cobrar; no todo el mundo puede, y tampoco se tienen que sentir obligadas.
+Vivo en un país que me permitió educarme con un sistema que lo mantenemos entre todos, y dar este tipo de capacitaciones es una forma de retribución. Hoy en día, tengo suficiente privilegio como para poder realizar este tipo de actividades sin cobrar; no todo el mundo puede, y tampoco se tienen que sentir obligadas.
 
-Hay algunas personas que tienen una guía a la hora de ser invitada a dar una charla, por ejemplo [Tatiana Mac](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552#file-tatiana-mac-speaker-rider-md), [Greg Wilson](https://third-bit.com/talks/speaking/) y Steph Locke.
+Hay algunas personas que tienen una guía a la hora de ser invitada a dar una charla, por ejemplo [Tatiana Mac](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552#file-tatiana-mac-speaker-rider-md), [Greg Wilson](https://third-bit.com/talks/speaking/) y Steph Locke.
 
-Estas también son cuestiones que yo tomo en cuenta, ¿es un panel todo de hombres?, ¿el evento tiene un Código de Conducta?, ¿Es de acceso libre o bien tiene beneficios para personas menos favorecidas?. De nuevo, si uno puede exigir este tipo de cosas en los eventos que va a participar estaremos ayudando a generar ambientes más amigables y seguros.  A veces no se tiene la posibilidad o el privilegio de elegir, quienes podemos, debemos hacerlo.
+Estas también son cuestiones que yo tomo en cuenta, ¿es un panel todo de hombres?, ¿el evento tiene un Código de Conducta?, ¿Es de acceso libre o bien tiene beneficios para personas menos favorecidas?. De nuevo, si uno puede exigir este tipo de cosas en los eventos que va a participar estaremos ayudando a generar ambientes más amigables y seguros.  A veces no se tiene la posibilidad o el privilegio de elegir, quienes podemos, debemos hacerlo.
 
- ## 5. ¿Qué perspectivas tenés de tus futuras charlas? ¿Qué te interesaría probar?
+ ## 5. ¿Qué perspectivas tenés de tus futuras charlas? هل هو شريط كهربائي؟
 
-Últimamente, me piden que haga charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados al agro (con casos), y ciencias y datos en geotecnología. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
+Últimamente, me piden que haga charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados al agro (con casos), y ciencias y datos en geotecnología. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
 
-Lo que hago, en general, es ir actualizándolas cuando tengo nuevos resultados o casos de uso y, dependiendo de la audiencia que me dicen que va a haber, ejemplifico en detalle o explico con más detalle los conceptos que necesito que se conozcan para que se aproveche más la charla.
+Lo que hago, en general, es ir actualizándolas cuando tengo nuevos resultados o casos de uso y, dependiendo de la audiencia que me dicen que va a haber, ejemplifico en detalle o explico con más detalle los conceptos que necesito que se conozcan para que se aproveche más la charla.
 
-Se puede observar que hay una gran necesidad de parte de la gente por volver a lo presencial. Yo espero que siga el tema virtual porque se me abrió un panorama de participación (como disertante y como asistente) que no tenía; me permitió llegar a lugares que hubiesen sido imposible si eran presenciales (Ecuador, Bolivia, EE. UU., África) ya que tengo dos hijos chiquitos y evito realizar viajes largos, por lo menos hasta que sean más grandes. Entonces, sin la virtualidad no hubiese podido llegar a tanta gente. Vamos a ver qué ocurre, qué nos depara el futuro. Yo pienso que este año y gran parte del año que viene, vamos a seguir igual, al menos en el sur.
+Se puede observar que hay una gran necesidad de parte de la gente por volver a lo presencial. Yo espero que siga el tema virtual porque se me abrió un panorama de participación (como disertante y como asistente) que no tenía; me permitió llegar a lugares que hubiesen sido imposible si eran presenciales (Ecuador, Bolivia, EE. UU., África) ya que tengo dos hijos chiquitos y evito realizar viajes largos, por lo menos hasta que sean más grandes. Entonces, sin la virtualidad no hubiese podido llegar a tanta gente. Vamos a ver qué ocurre, qué nos depara el futuro. Yo pienso que este año y gran parte del año que viene, vamos a seguir igual, al menos en el sur.
 
-Con respecto a las herramientas para dar cursos y charlas, aplico mucho lo que enseñamos en MetaDocencia y funciona muy bien. Espero seguir aprendiendo; actualmente, estoy leyendo un par de libros que espero me ayuden: *Teaching in the Online Classroom* de Doug Lemov, *The Discussion Book* de Stephen Brookfield y *The Programmer’s Brain* de Felienne Hermans.
+Con respecto a las herramientas para dar cursos y charlas, aplico mucho lo que enseñamos en MetaDocencia y funciona muy bien. إسبيرو للامبراندينو؛ فعليالينت, إستمتاع باللعبة من أجل البيروز الخاص بي أيودن: *التدريس في الفصول الدراسية على الإنترنت* Doug Lemov, *كتاب المناقشة* ستيفن بروكفيلد و *دماغ المبرمج* دي فيلين هرمانس.
 
 *Esta entrevista fue desarrollada por Maria Nanton.*

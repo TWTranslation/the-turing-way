@@ -1,84 +1,84 @@
-(cm-social-media-twitter-tips)=
-# Tips for Starting with Twitter
+(م م-اجتماعي - وسائط الإعلام - تلميحات)=
+# نصائح للبدء مع تويتر
 
-Twitter has 353 million monthly active users. You are limited to 280 characters and the style is more informal and chatty than other platforms like Linkedin. You can use links, photos (1200 x 628 pixels) and videos (max 2 minutes 20 secs) in similar ways to the other social media platforms.
+تويتر لديه 353 مليون مستخدم شهري نشط. أنت محصور في 280 حرفاً والأسلوب غير رسمي وأكثر دردشة من المنصات الأخرى مثل لينكيدين. يمكنك استخدام الروابط والصور (1200 × 628 نقطة) ومقاطع الفيديو (حد أقصى 2 دقيقة 20 ثانية) بطرق مماثلة لوسائل التواصل الاجتماعي الأخرى.
 
-Below are general tips for starting to use Twitter for personal academic purposes. Some of the tips have been adapted from 'Practical tips for scientists using twitter' {cite:ps}`Chabrol2021twitter`.
+فيما يلي نصائح عامة لبدء استخدام تويتر لأغراض أكاديمية شخصية. بعض النصائح تم تكييفها من 'نصائح عملية للعلماء الذين يستخدمون تويتر {cite:ps}`Chabrol2021twitter`.
 
-But when starting with Twitter it is important to first consider what your purpose for using it is. This will help you develop your voice (how you want to be heard, what topics you focus on, your overall message) on Twitter.
+لكن عند البدء مع تويتر من المهم أولاً النظر في الغرض من استخدامه. هذا سيساعدك على تطوير صوتك (كيف تريد أن تسمع ، ما هي المواضيع التي تركز عليها، رسالتك الشاملة) على تويتر.
 
-**1. Choose a good Twitter handle and write a good bio**
+**1. اختر التعامل الجيد مع تويتر وكتابة بيو جيد**
 
-* Add a photo, cover image and short bio that is relevant to the research you are doing.
-* Your bio can be linked to accounts such as your institution using their @, your funding body and common hashtags for your subject.
-* You might want to have a specific Twitter account for your project or organisation as well as a personal one.
+* أضف صورة، صورة غلاف وحيوية قصيرة ذات صلة بالبحث الذي تقوم به.
+* يمكن ربط بياناتك الذاتية بحسابات مثل مؤسستك باستخدام @، جهازك التمويلي وعلامات هاشتاق مشتركة لموضوعك.
+* قد ترغب في أن يكون لديك حساب تويتر محدد لمشروعك أو منظمتك وكذلك حساب شخصي.
 
-**2. Make lists**
+**2. إنشاء قوائم**
 
-* This helps you to follow lots of people and can be used for events.
-* Lists can be made public.
+* هذا يساعدك على متابعة الكثير من الناس ويمكن استخدامه في الأحداث.
+* يمكن نشر القوائم.
 
-**3. Think about your audience for each tweet**
+**3. فكر في جمهورك لكل تغريدة**
 
-* It might be that all your tweets are to target your research community but some may also be for the wider public. Therefore, think carefully about the language you use, avoid jargon and subject-specific acronyms, and add links to more information.
+* قد يكون كل التغريدات الخاصة بك تستهدف مجتمعك البحثي ولكن بعضها قد يكون أيضا لعموم الجمهور. لذلك، فكر بعناية في اللغة التي تستخدمها، وتجنب الاختصارات الخاصة بموضوعات محددة، وإضافة روابط إلى المزيد من المعلومات.
 
-**4. Add subject-specific hashtags**
+**4. إضافة وسوم موضوع محدد**
 
-* You only have 280 characters so using hashtags to link to different groups of interest is an important way to get your message out there.
-* Tweets with hashtags can increase engagement by almost 100% for individuals.
-* There are also regular hashtags for each day of the week, for example, #MondayMotivation or #FridayFeeling.
+* لديك فقط 280 حرفاً لذلك استخدام علامات هاشتاز لربط مجموعات مختلفة من الاهتمامات هي طريقة مهمة للحصول على رسالتك هناك.
+* التغريدات مع الهاشتاق يمكن أن تزيد من المشاركة بنسبة 100% تقريبا للأفراد.
+* هناك أيضًا علامات هاشتاق منتظمة لكل يوم من أيام الأسبوع، على سبيل المثال #الإثنين يوميًا أو #FridayFeeling.
 
-**5. Include some other accounts in your tweet**
+**5. قم بتضمين بعض الحسابات الأخرى في تغريدتك**
 
-* Linking your tweet to other accounts using @ will mean you get more retweets and therefore will spread your tweet further.
-* It is a good idea to find other researchers and organisation that have large Twitter followings. This gives your tweet the largest reach possible.
+* ربط تغريدتك بالحسابات الأخرى باستخدام @ سيعني أنك تحصل على المزيد من عمليات إعادة التغريد، وبالتالي سوف تنشر تغريدتك أكثر من ذلك.
+* إنها فكرة جيدة أن نجد باحثين آخرين ومنظمة لديهم متابعة كبيرة لتويتر. هذا يعطي تغريدتك أكبر إمكانية ممكنة.
 
-**6. Add visuals**
+**6. إضافة مرئيات**
 
-* You can use images and gifs to draw attention to your tweets.
-* If you don't have an image, a link will generate an image so make sure that the link is up to date and has a relevant image for your tweet.
-* Yow also have the option to add a description of the image so that content is accessible to more people. Here is a link to the twitter help page on [how to make images accessible for people](https://help.twitter.com/en/using-twitter/picture-descriptions).
+* يمكنك استخدام الصور والهدايا لتوجيه الانتباه إلى تغريداتك.
+* إذا لم يكن لديك صورة، سيؤدي الرابط إلى إنشاء صورة لذلك تأكد من أن الرابط محدث وأن لديه صورة ذات صلة للتغريدة الخاصة بك.
+* لديه أيضًا خيار إضافة وصف للصورة بحيث يكون المحتوى متاحًا للمزيد من الناس. إليك رابط لصفحة مساعدة تويتر على [كيفية جعل الصور متاحة للناس](https://help.twitter.com/en/using-twitter/picture-descriptions).
 
-**7. Don't start a tweet with '@'**
+**7. لا تبدأ تغريدة ب '@'**
 
-* These are treated as replies so become hidden.
+* وتعامَل هذه الردود كردود بحيث تصبح مخفية.
 
-**8. Be careful with sensitive data**
+**8. كن حذراً مع البيانات الحساسة**
 
-* Make sure you are aware of the policy concerning social media in your project or institution.
-* Some projects will not allow you to tweet about progress until a certain time in the project and others will encourage the use of social media from the start.
+* تأكد من أنك على علم بالسياسة المتعلقة بوسائل التواصل الاجتماعي في مشروعك أو مؤسستك.
+* لن تسمح لك بعض المشاريع بتغريدة التقدم المحرز حتى وقت معين في المشروع، بينما ستشجع مشاريع أخرى استخدام وسائل الإعلام الاجتماعية منذ البداية.
 
-**9. Take care of yourself**
+**9. اهتم بنفسك**
 
-* Not all the interactions that you have on Twitter will be pleasant as some people find fun in starting arguments or being offensive towards you.
-* It is best not to interact with these people.
-* You can follow [Charles' Rules of Arguments](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument). This sets out that if you receive an argumentative reply, you should state your position once explaining any misunderstandings and then do not reply again. Let others come to your defence.
-* If it continues, you can block this person and report the abuse.
-* Here is a link to the Twitter help page about [how to block accounts](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts).
+* ليس كل التفاعلات التي لديك على تويتر ستكون سعيدة لأن بعض الناس يجدون المتعة في بدء الحجج أو الهجوم عليك.
+* ومن الأفضل عدم التفاعل مع هؤلاء الناس.
+* يمكنك اتباع [قواعد حروف الحروف](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument). وهذا يبين أنه إذا تلقيت رداً جادلاً، فيجب عليك أن تذكر موقفك بمجرد شرح أي سوء فهم ومن ثم عدم الرد عليه مرة أخرى. دع الآخرين يأتون إلى دفاعكم.
+* إذا استمر الأمر، فبإمكانك حجب هذا الشخص والإبلاغ عن الاعتداء.
+* إليك رابط لصفحة مساعدة تويتر حول [كيفية حظر الحسابات](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts).
 
-Starting to use Twitter might involve tweeting about new papers and useful resources in your field, events that you go to such as workshops and conferences, and retweeting other people in your field to highlight their work.
+البدء في استخدام تويتر قد ينطوي على تغريدة حول الأوراق الجديدة والموارد المفيدة في الميدان الخاص بك، الأحداث التي تذهب إليها مثل حلقات العمل والمؤتمرات، وإعادة تغذية الآخرين في مجالك لتسليط الضوء على عملهم.
 
-You might also want to start with a series of intro tweets to introduce yourself, your career so far and your current work. You can pin this to your profile so that it is always what people see first.
+قد ترغب أيضًا في البدء بسلسلة من التغريدات الداخلية لتقديم نفسك ومهنتك حتى الآن وعملك الحالي. يمكنك تثبيت هذا على ملفك الشخصي بحيث يكون دائما ما يراه الناس أولا.
 
 
-## Twitter Terms
+## شروط تويتر
 
-These terms are adapted from {cite:ps}`Cheplygina2020twitter`.
+هذه المصطلحات مكيفة من {cite:ps}`Cheplygina2020twitter`.
 
-* Confirmation step - Enabling a checking process tweets before posting using Tweetdeck.
-* Direct message (DM) — A private message that is only visible to the sender and the specifically identified recipients. By default, regular Twitter messages are visible to the whole world, including (via search engines such as Google) people who do not have a Twitter account.
-* Hashtag (#) — Used to make it easier to find tweets with a common theme by defining keywords, for example, tweets about an event (#BookDash) or career talks (#PhDChat).
-* Hat Tip or Heard Through (HT) - Used for thanking the source of a tweet.
-* Like (♡) - Used for showing you like a tweet—a fast way to give feedback without replying.
-* There is no similar function for disliking a tweet.
-* List — A list of Twitter users that can be public (followed by anyone) or private.
-* Lists can be used to follow accounts that tweet about specific topics, but which you don’t want to follow yourself.
-* Live-tweeting — Tweeting short summaries of an event, for example of a conference talk, as it is happening.
-* Mentioning (@) — If you mention someone with their account handle (“This paper by @CaAl is great”), your tweet will show up in their notifications.
-* Notifications — Tweets that mention you and replies, retweets and likes for your tweets.
-* Quote-tweet — Sharing a tweet by someone else in a quote, while adding your comments.
-* Retweet (RT)— Sharing a tweet that was originally made by someone else.
-* Subtweeting — Tweeting about somebody without explicitly mentioning their handle, so that they are not informed of your comment.
-* Thread — A series of tweets on one subject, for instance, ten tweets about a new research paper.
-* Timeline — The tweets from the people you follow.
-* Tweetdeck - App that can be used to tweet and run multiple accounts.
+* خطوة التأكيد - تمكين عملية التحقق من تغريدات التغريدات قبل النشر باستخدام التغريدة
+* رسالة مباشرة - رسالة خاصة لا تكون مرئية إلا للمرسل والمستفيدين المحددين تحديدا. بشكل افتراضي، رسائل تويتر العادية مرئية للعالم كله، بما في ذلك (عبر محركات البحث مثل جوجل) الأشخاص الذين ليس لديهم حساب تويتر.
+* هاشتاج (#) - يستخدم لتسهيل العثور على تغريدات ذات سمة مشتركة عن طريق تحديد الكلمات المفتاحية، على سبيل المثال، تغريدات حول حدث (#BookDash) أو محادثات مهنية (#PhDChat).
+* نصائح القبعة أو سمع من خلال (HT) - تستخدم لشكر مصدر تغريدة.
+* مثل (<unk> ) - يستخدم لإظهار إعجابك بالتغريدة - طريقة سريعة لتقديم ردود الفعل دون الرد.
+* لا توجد دالة مماثلة لاستبعاد تغريدة.
+* القائمة - قائمة مستخدمي تويتر الذين يمكن أن يكونوا عامة (يتبعهم أحد) أو خاصين.
+* يمكن استخدام القوائم لمتابعة الحسابات التي تغريدها حول مواضيع محددة، ولكن لا تريد متابعتها بنفسك.
+* تغريدة حية - تلخيصات تويتر قصيرة لحدث ما، على سبيل المثال محادثة مؤتمرية، كما يحدث.
+* ذكر (@) - إذا كنت تشير إلى شخص له حسابه ("هذه الورقة من قبل @CaAl عظيمة")، فستظهر تغريدتك في إعلاماتهم.
+* إشعارات - تغريدات تويتر التي تتحدث عنك والردود، والتريتشات والمحب للتغريدات الخاصة بك.
+* تغريدة مقتبسة - مشاركة تغريدة من قبل شخص آخر في اقتباس، مع إضافة تعليقاتك.
+* ريتويت (RT)- تقاسم التغريدة التي صنعها في الأصل شخص آخر.
+* تغريدة فرعية - تويتويتر حول شخص ما دون ذكر أيديهم صراحة، حتى لا يتم إبلاغهم بتعليقكم.
+* الموضوع - سلسلة من التغريدات بشأن موضوع واحد، على سبيل المثال، عشرة تغريدات بشأن ورقة بحث جديدة.
+* الخط الزمني - التغريدات من الأشخاص الذين تتابعونهم.
+* التغريدة - التطبيق الذي يمكن استخدامه للتغريدة وتشغيل حسابات متعددة.

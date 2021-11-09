@@ -1,16 +1,16 @@
 (ch-template-bookdash-feedback)=
-# HackMD template for feedback
+# Plantilla HackMD para comentarios
 
-*This template can be used for anonymous feedback by the participants on HackMD at the end of the book dash events. The access permission can be set so that the notes can be read by everyone and edited by anyone.*
+*Esta plantilla puede ser utilizada para comentarios anónimos de los participantes en HackMD al final de los eventos de guión del libro. El permiso de acceso se puede establecer para que las notas puedan ser leídas por todos y editadas por cualquiera.*
 
 ```
 
-# Turing Way Book <Month Year>: Pluses and Deltas - <Location>
+# Libro de camino <Month Year>: Pluss y Deltas - <Location>
 
-:heavy_plus_sign:Pluses
+➕Pluses
 ---
 
-Please add something you liked about the Book Dash. We might use these to advertise the Turing Way project and in impact reports for our funders. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
+Por favor, añade algo que te guste sobre el Libro Dash. Podríamos utilizarlos para anunciar el proyecto Turing Way y en informes de impacto para nuestros financiadores. Si no desea que su comentario se agregue al repositorio de GitHub (y por lo tanto se haga público) por favor añada el 🤫 al principio de la línea.
 
 -
 -
@@ -18,7 +18,7 @@ Please add something you liked about the Book Dash. We might use these to advert
 :arrow_up_small:Deltas
 ---
 
-Please add something that you would change about the Book Dash. We've never run one before and so all of your comments will be really valuable. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
+Por favor añade algo que cambiarías acerca de la Tasa del Libro. Nunca hemos ejecutado uno antes y por lo tanto todos sus comentarios serán realmente valiosos. Si no desea que su comentario se agregue al repositorio de GitHub (y por lo tanto se haga público) por favor añada el 🤫 al principio de la línea.
 
 -
 -

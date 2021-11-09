@@ -1,60 +1,60 @@
 (cl-github-novice-features)=
-# Using more GitHub features
+# Usando más características de GitHub
 
-Now that your repo is set up, you are ready to add more stuff to it and use some of its useful features.
+Ahora que tu repositorio está configurado, estás listo para añadir más cosas y usar algunas de sus características útiles.
 
-## Adding more folders (directories), files and commits
+## Añadir más carpetas (directorios), archivos y commits
 
-* You can add more files to your repo by clicking the "add file" button and either uploading files or creating a new one.
-* Each time you create a new file or upload files you will need to add a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
-* Note that git (and thus GitHub) does not track folders/directories, so you cannot create an empty folder.
-
-
-**Create a new folder by adding a new file:**
-
-* Click on the "add file" button and then create a new file.
-* This will give you a blank file to edit.
-* When naming the file, first type in the name of the folder (existing or new) and then a forward slash, followed by the name of the file: "folder-name/file-name.ext".
-* Edit the content of the file.
-* Save your changes using the "commit" button. Remember to type a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
-
-This file will appear in the folder that you named. You will be able to see the folder on your landing page. If you click on the blue folder symbol, it brings you to the files within that folder.
-
-## Explore the ‘Insight’ features of GitHub
-
-* On GitHub, navigate to the main landing page of the repository.
-* Under your repository name, click "Insights".
-* In the left sidebar, click “Community”.
-  * Here you will find recommended files to include in your repo. These files are especially useful when working with collaborators or members in your community.
-  * The "License" file is one of the most important, because it tells others how they can (or can't) use the materials in your repo.
-  * For collaborations, be sure to look at "Contributing" and "Description".
-  * Whenever possible, add a "Code of conduct" to make your project welcoming and inclusive for others.
-* Other interesting things to look at are “Contributors” (those who contribute to your project), “Traffic” (who visits your project page and when do they do so) and “Commits” (a timeline and number of commits made on your project).
-
-## Explore the ‘Projects’ features of GitHub
-Project boards on GitHub help you organize and prioritize your work. It is a kanban feature to track your tasks with to-do, in progress and done columns. Each item can be linked to specific issues or pull requests to help you track your progress. This feature is a great way to help others contribute to your repo or let them know what you have planned.
+* Puede añadir más archivos a su repositorio haciendo clic en el botón "añadir archivo" y subiendo archivos o creando uno nuevo.
+* Cada vez que crees un nuevo archivo o subas archivos necesitarás añadir un {ref}`mensaje de commit<rr-vcs-commit-messages>` para ayudarte a recordar los cambios que has hecho.
+* Tenga en cuenta que git (y por lo tanto GitHub) no rastrea carpetas/directorios, por lo que no puede crear una carpeta vacía.
 
 
-## Using GitHub Features to foster collaboration
-This is what a repository looks like when it is set up to include many of these features, making it a welcoming, collaborative workspace.
+**Crear una nueva carpeta añadiendo un nuevo archivo:**
+
+* Haga clic en el botón "Añadir archivo" y, a continuación, cree un nuevo archivo.
+* Esto le dará un archivo en blanco para editar.
+* Al nombrar el archivo, primero escriba el nombre de la carpeta (existente o nuevo) y luego una barra de selección, seguido por el nombre del archivo: "carpeta-nombre/nombre de archivo. xt".
+* Editar el contenido del archivo.
+* Guarde los cambios usando el botón "commit". Recuerda escribir un {ref}`mensaje de commit<rr-vcs-commit-messages>` para ayudarte a recordar los cambios que has hecho.
+
+Este archivo aparecerá en la carpeta que ha nombrado. Podrás ver la carpeta en tu página de destino. Si hace clic en la carpeta azul de la lista, le llevará a los archivos dentro de esa carpeta.
+
+## Explora las características 'Insight' de GitHub
+
+* En GitHub, vaya a la página principal de destino del repositorio.
+* Bajo el nombre de su repositorio, haga clic en "Insights".
+* En la barra lateral izquierda, haga clic en “Comunidad”.
+  * Aquí encontrará los archivos recomendados para incluir en su repo. Estos archivos son especialmente útiles cuando se trabaja con colaboradores o miembros de tu comunidad.
+  * El archivo "Licencia" es uno de los más importantes, porque le dice a otros cómo pueden (o pueden) usar los materiales en su repo.
+  * Para las colaboraciones, asegúrese de mirar "Contribución" y "Descripción".
+  * Siempre que sea posible, añada un "Código de conducta" para hacer su proyecto acogedor e inclusivo para los demás.
+* Otras cosas interesantes a ver son los "colaboradores" (los que contribuyen a tu proyecto), “Trafógico” (quien visita la página de su proyecto y cuándo lo hacen) y “Comites” (un cronograma y número de commits realizados en su proyecto).
+
+## Explora las características de 'Projects' de GitHub
+Los tablones de proyectos en GitHub le ayudan a organizar y priorizar su trabajo. Es una característica de kanban para rastrear tus tareas con columnas pendientes, en progreso y hecho. Cada elemento puede ser vinculado a incidencias específicas o pull requests para ayudarle a rastrear su progreso. Esta característica es una gran manera de ayudar a otros a contribuir a tu repositorio o hacerles saber lo que has planeado.
+
+
+## Utilizando características de GitHub para fomentar la colaboración
+Esto es como se ve un repositorio cuando está configurado para incluir muchas de estas características, haciéndolo un espacio de trabajo acogedor y colaborativo.
 
 ```{figure} ../../figures/github-project.jpg
 ---
 name: github-project
-alt: Annotated diagram of a collaborative project repository. Explained in the caption.
-align: left
+alt: Diagrama anotado de un repositorio de proyecto colaborativo. Explicado en el título.
+align: izquierda
 ---
-Annotated diagram of a collaborative project repository.
-- Labels on the left-hand side of the image:
-  - **1. Project:** This shows you the project boards for this repo.
-  - **2. Issues:** All the tasks that have been raised on this repo.
-  - **3. Files:** These are all the files in the repo.
-  - **4. Landing page or README.md file:** Your README.md file is automatically rendered as a landing page for your site.
-- Labels on the right-hand side of the image:
-  - **5. Insights:** This shows you all the activity that has happened on your repo. 
-  - **6. Edit repo details:** You can write a short description of your project and add labels.
-  - **7. Description of the repository.**
-  - **8. Link for GitHub pages:** Website generated by this repo.
-  - **9. Topic labels:** Topic labels related to your repo can help other people find your project.
-  - **10. License:** The license that you have put on your repo.
+Diagrama anotado de un repositorio de proyecto colaborativo.
+- Etiquetas a la izquierda de la imagen:
+  - **1. Project:** Esto te muestra los tableros del proyecto para este repo.
+  - **2. Problemas:** Todas las tareas que se han planteado en este repo.
+  - **3. Archivos:** Estos son todos los archivos en el repo.
+  - **4. Página de tierra o archivo README.md:** Su archivo README.md se representa automáticamente como una página de destino para su sitio.
+- Etiquetas en el lado derecho de la imagen:
+  - **5. Insights:** Esto te muestra toda la actividad que ha ocurrido en tu repo. 
+  - **6. Editar detalles del repo:** Puede escribir una breve descripción de su proyecto y añadir etiquetas.
+  - **7. Descripción del repositorio.**
+  - **8. Enlace para las páginas de GitHub:** Sitio web generado por este repo.
+  - **9. Etiquetas temáticas:** Las etiquetas temáticas relacionadas con tu repositorio pueden ayudar a otras personas a encontrar tu proyecto.
+  - **10. Licencia:** La licencia que has puesto en tu repo.
 ```

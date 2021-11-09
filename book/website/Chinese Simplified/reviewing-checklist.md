@@ -1,147 +1,147 @@
-(rr-checklist-for-code-review)=
-# Checklist for code review process
+(rr-checklist-for-code review)=
+# 代码审核过程清单
 
-This section presents some checklists for both the coder and the reviewer, as part of a formal review process. The reviewer checklists are split into two categories: one for the whole program, and one for individual files or proposed changes.
+本节作为正式审查进程的一部分，提出了编码员和审查员的一些核对表。 审核者核对表分为两类：一类用于整个程序，另一类用于个人档案或拟议的修改。
 
-The lists are created with a focus on good software engineering practice and are intended to be a source of inspiration. When assessing the checklists, it is recommended to consider to what extent the item mentioned is implemented. Some items on the lists may not apply to your project or programming language, in which case they should be disregarded.
+编制这些清单的重点是良好的软件工程做法，其目的是提供启发。 在评估核对表时，建议考虑在多大程度上执行了所述项目。 列表中的一些项目可能不适用于您的项目或编程语言，在这种情况下，它们应该被忽略。
 
-In all cases, the goal is to use your programming experience to figure out how to make the code better.
+在所有情况下，目标都是利用您的编程体验来确定如何使代码变得更好。
 
-## For the coder
+## 用于编程器
 
-- Does the new code meets the required standards of the project? The standards are typically written under `contributing guidelines` by the project you are contributing to.
-- Is there [documentation](#documentation) that meets the required standards of the project?
-- Are you following any declared {ref}`style guide<rr-code-quality>` for the project?
+- 新的守则是否符合项目所要求的标准？ 标准通常是根据你所参与的项目的 `贡献指南` 编写的。
+- 是否有 [个文档](#documentation) 符合项目的必要标准？
+- 您是否正在关注项目中已声明的 {ref}`样式指南<rr-code-quality>`？
 - Are there new [tests](#tests) for the new material, based on the required standards of the project?
-  - Do these tests pass locally?
-  - Are the tests in the rest of the code base still passing locally?
-- Create the pull request.
-- Many {ref}`continuous integration (CI)<rr-ci>` systems will check if the tests in the main project pass automatically once you create a pull request. If the repository is using a CI, make sure all builds and tests complete. Consult the CI reports to see if your code is causing the tests in the main project to fail.
-- If necessary, now formally request a review.
+  - 这些测试是否在本地通过？
+  - 代码基地其余部分的测试是否仍然在本地通过？
+- 创建拉取请求。
+- 许多 {ref}`持续集成 (CI)<rr-ci>` 系统将在您创建拉取请求后检查主项目中的测试是否自动通过。 如果仓库正在使用 CI，请确保所有构建和测试完成。 请参阅CI 报告以查看您的代码是否会导致主项目中的测试失败。
+- 如有必要，现在正式要求审查。
 
-## For the reviewer
+## 给审核者
 
-- Check the required standards of the project. The standards are typically written under `contributing guidelines` by the project you are contributing to.
-- Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
+- 检查项目所需的标准。 标准通常由您要贡献的项目在 `贡献指南` 下写入。
+- 检查代码是否符合基本项目 {ref}`样式指南<rr-code-quality>`, 如果不会自动检查 {ref}`连续集成 (CI)<rr-ci>`
 - Do the [tests](#tests) and [documentation](#documentation) conform to the standards?
-- Is all the code easily understood? Depending on the language, files may contain interfaces, classes or other type definitions, and functions (see [Architecture](#architecture)). The essential architectural concepts can be reviewed as follows:
-  - Check the [interfaces](#interfaces) lists.
-  - Check the [classes and types](#classes-and-types) lists.
-  - Check the [function/method declarations](#function-method-declarations) lists.
-  - Check the [function/method definitions](#function-method-definitions) lists.
-- Do the [tests](#tests) actually ensure the code is robust in its intended use?
-  - Are there any bugs or other defects?
-- Are [security](#security) issues handled correctly?
-  - Check the [security of new codes](#security-of-new-codes).
-- Does the new code meet the [legal requirements](#legal)?
+- 难道所有代码都很容易理解吗？ 视语言而定，文件可能包含接口、类或其他类型的定义和函数(见 [架构](#architecture))。 基本的建筑概念可审查如下：
+  - 检查 [接口](#interfaces) 列表。
+  - 检查 [类和类型](#classes-and-types) 列表。
+  - 检查 [函数/方法声明](#function-method-declarations) 列表。
+  - 检查 [函数/方法定义](#function-method-definitions) 列表。
+- [测试](#tests) 是否真的确保代码在其预定使用中具有强力性？
+  - 是否存在任何缺陷或其他缺陷？
+- [安全](#security) 问题处理正确吗？
+  - 检查 [新代码](#security-of-new-codes) 的安全性。
+- 新代码是否符合 [项法律要求](#legal)？
 
-## Program level checklist
+## 程序一级清单
 
-Here is a list of things to consider when looking at the program as a whole, rather than when looking at an individual file or change.
+下面是一个在查看整个程序时要考虑的事项列表。 而不是在查看单个文件或更改时。
 
-### Documentation
+### 文件
 
-Documentation is a prerequisite for using, developing, and reviewing the program. Someone who isn’t involved with your project should understand what your code does, and what approach you’re taking. Here are some things to check for.
+文件是使用、发展和审查程序的先决条件。 没有参与您的项目的人应该了解您的代码做了什么， 以及您采取了什么方法。 这里有一些要检查的事情。
 
-- Is there a description of the purpose of the program or library?
-- Are detailed requirements listed?
-- Are requirements ranked according to [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)?
-- Is the use and function of third-party libraries documented?
-- Is the structure/architecture of the program documented? (see below)
-- Is there an installation manual?
-- Is there a user manual?
-- Is there documentation on how to contribute?
-  - Including how to submit changes
-  - Including how to document your changes
+- 是否有关于该方案或图书馆目的的说明？
+- 是否列出了详细要求？
+- 是否根据 [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method) 排名？
+- 是否记录第三方库的使用和功能？
+- 是否记录了程序的结构/架构？ (见下文)
+- 是否有安装手册？
+- 是否有用户手册？
+- 是否有关于如何贡献的文件？
+  - 包括如何提交更改
+  - 包括如何记录您的更改
 
-### Architecture
+### 结构
 
-These items are mainly important for larger programs, but may still be good to consider for small ones as well.
+这些项目主要对较大的程序很重要，但也许还是很好的 来考虑小的项目。
 
-- Is the program split up into clearly separated modules?
-- Are these modules as small as they can be?
-- Is there a clear, hierarchical or layered, dependency structure between these modules?
-  - If not, the functionality should be rearranged, or perhaps heavily interdependent modules should be combined.
-- Can the design be simplified?
+- 程序是否被分成明确分开的模块？
+- 这些模块是否尽可能小？
+- 这些模块之间是否有清晰、等级或分层的依赖结构？
+  - 如果没有，则应重新安排功能，或者，或许需要将严重的 相互依存的模块合并起来。
+- 能否简化设计？
 
-### Security
+### 安全
 
-If you're making software that is accessible to the outside world (for example a web application), then security becomes important. Security issues are defects, but not all defects are security issues. A security-conscious design can help mitigate the security impact of defects.
+如果你制作的软件可供外部世界访问(例如一个 web 应用程序)，安全就变得重要。 安全问题是缺陷， 但并非所有缺陷都是安全问题。 有安全意识的设计可以帮助 减轻缺陷对安全的影响。
 
-- Which modules deal with user input?
-- Which modules generate output?
-- Are input and output compartmentalized?
-  - If not, consider making separate modules that manage all input and output, so validation can happen in one place.
-- In which modules is untrusted data present?
-  - The fewer the better.
-- Is untrusted data compartmentalized?
-  - Ideally, validate in the input module and pass only validated data to other parts.
+- 哪些模块涉及用户输入？
+- 哪些模块生成输出？
+- 是否将输入和输出分割化？
+  - 如果不是，请考虑将管理所有输入 和输出的模块分开，所以验证可以在一个地方发生。
+- 哪些模块是不可信任的数据？
+  - 越好越少。
+- 数据是否不受信任的分隔？
+  - 理想的情况是，在输入模块中验证并只将 验证数据传递给其他部分。
 
-### Legal
+### 法律
 
-As a developer, you should pay attention to the legal rights of the creators of the code you're using. Here are some things to check. When in doubt, ask someone experienced in licensing for advice.
+作为开发者，你应该关注你使用的代码的 创作者的合法权利。 这里有一些要检查的事情。 在 怀疑时，向有许可证经验的人询问咨询意见。
 
-- Are the licenses of all modules/libraries that are used documented?
-- Are the requirements set by those licenses fulfilled?
-  - Are the licenses included where needed?
-  - Are copyright statements included in the code where needed?
-  - Are copyright statements included in the documentation where needed?
-- Are the licenses of all the parts compatible with each other?
-- Is the project license compatible with all libraries?
+- 是否记录了所有使用的模块/图书馆的许可证？
+- 这些许可证所规定的要求是否得到满足？
+  - 许可证是否包括在需要的地方？
+  - 版权声明是否在需要时包含在代码中？
+  - 必要时是否将版权声明列入文件？
+- 所有部件的许可证是否相互兼容？
+- 项目许可证是否与所有库兼容？
 
-## File/Change level checklist
+## 文件/更改级别清单
 
-When you're checking individual changes or files in a pull request, the code itself becomes the subject of scrutiny. Depending on the language, files may contain interfaces, classes or other type definitions, and functions. All these should be checked.
+当您检查一个拉取请求中的个别更改或文件时， 代码本身就成为受检查的对象。 根据语言，文件 可能包含接口、类或其他类型的定义和函数。 所有 都应该被检查。
 
-### Interfaces
+### 接口
 
-- Is the interface documented?
-- Does the concept it models make sense?
-- Can it be split up further? (Interfaces should be as small as possible)
+- 接口是否有文件记录？
+- 它所模式的概念是否有意义？
+- 它能够进一步分割吗？ (接口应尽可能小)
 
-Note that most of the following items assume an object-oriented programming style, which may not be relevant to the code you're looking at.
+请注意，以下大多数项目都假定了一个面向对象的编程 风格，这可能与你正在查看的代码无关。
 
-### Classes and types
+### 类和类型
 
-- Is the class documented?
-  - Are external programs needed by the class documented?
-- Does it have a single responsibility? Can it be split?
-- If it's designed to be extended, can it be?
-- If it's not designed to be extended, is it protected against that?
-- If it's derived from another class, can you substitute an object of this class for one of its parent class(es)?
-- Is the class testable?
-  - Are the dependencies clear and explicit?
-  - Does it have a small number of dependencies?
-  - Does it depend on interfaces, rather than on classes?
+- 该类文件记录了吗？
+  - 该类是否需要外部程序文件记录？
+- 它是否有单一的责任？ 它能被分割吗？
+- 如果它被设计为扩展，它能否是？
+- 如果它不是为了扩展，它是否受到保护？
+- 如果它是从另一类衍生出来的，您是否可以将此类对象替换为其上级类之一？
+- 班级是否有遗嘱？
+  - 依赖关系是否明确和明确？
+  - 它是否有少量依赖？
+  - 它是否取决于接口而不是类？
 
-### Function/Method declarations
+### 职能/方法声明
 
-- Are there comments that describe the intent of the function or method?
-- Are input and output documented? Including units?
-- Are pre- and postconditions documented?
-- Are edge cases and unusual things commented?
+- 是否有意见说明该职能或方法的意图？
+- 是否记录输入和输出？ 包括单位？
+- 是否记录了事前和事后条件？
+- 边缘案例和不寻常的事情是否受到评论？
 
-### Function/Method definitions
+### 职能/方法定义
 
-- Are edge cases and unusual things commented?
-- Is there any incomplete code?
-- Could this function be split up (is it not too long)?
-- Does it work? Perform intended function, logic correct, ...
-- Is it easy to understand?
-- Is there redundant or duplicate code? (DRY)
-- Do loops have a set length and do they terminate correctly?
-- Can debugging or logging code be removed?
-- Can any of the code be replaced by library functions?
+- 边缘案例和不寻常的事情是否受到评论？
+- 是否有不完整的代码？
+- 这个函数能被拆分(它不是太长了)吗？
+- 它是否起作用？ 执行预定函数，逻辑正确，...
+- 难道容易理解吗？
+- 是否有多余或重复的代码？ (DRY)
+- 循环是否设定长度并正确终止？
+- 是否可以删除调试或日志代码？
+- 可以用库函数替换其中任何一种代码？
 
-### Security of new codes
+### 新代码的安全
 
-- If you're using a library, do you check errors it returns?
-- Are all data inputs checked?
-- Are output values checked and encoded properly?
-- Are invalid parameters handled correctly?
+- 如果您正在使用一个库，您是否检查它返回的错误？
+- 是否检查所有数据输入？
+- 输出值是否检查和编码正确？
+- 无效参数处理正确吗？
 
-### Tests
+### 测试
 
-- Do unit tests actually test what they are supposed to?
-- Is bounds checking being done?
-- Is a test framework and/or library used?
+- 单位测试是否实际上测试他们应该做些什么？
+- 是否正在进行边界检查？
+- 是否使用测试框架和/或库？

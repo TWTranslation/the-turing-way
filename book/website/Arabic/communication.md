@@ -1,19 +1,19 @@
 (cm)=
-# Guide for Communication
+# دليل الاتصالات
 
-***This guide covers topics related to effective communication in research.***
+***ويغطي هذا الدليل مواضيع تتصل بالاتصالات الفعالة في مجال البحوث.***
 
-Data analysis process, statistics and project development can be overwhelming to explain to people, especially when they are not already involved in this process. Therefore, data scientists should not only have a good understanding of data analysis techniques but also develop skills to communicate insights from their work in a clear and accessible format that can help key stakeholders make meaningful decisions. There are many ways we can convey our insights responsibly that can resonate with and impact our target audience.
+ويمكن أن تكون عملية تحليل البيانات والإحصاءات وتطوير المشاريع مغالاة في تفسيرها للناس، ولا سيما عندما لا يشاركون بالفعل في هذه العملية. ولذلك، وينبغي لعلماء البيانات ألا يكتفوا بفهم جيد لتقنيات تحليل البيانات فحسب، بل ينبغي لهم أيضا أن يطوروا المهارات اللازمة لإيصال الأفكار الثاقبة من عملهم في شكل واضح وميسور يمكن أن يساعد أصحاب المصلحة الرئيسيين على اتخاذ قرارات ذات مغزى. وهناك العديد من الطرق التي يمكننا بها أن ننقل رؤيتنا على نحو مسؤول يمكن أن يتردد صداها مع جمهورنا المستهدف وأن تؤثر عليه.
 
 ```{figure} ../figures/communication.jpg
 ---
-name: communication
-width: 500px
-alt: A network of people exchanging and sharing different information
+الاسم: التواصل
+العرض: 500px
+بديل : شبكة من الناس يتبادلون ويشاركون معلومات مختلفة
 ---
-Communication network for sharing, learning and teaching. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+شبكة اتصال لمشاركتهم، التعليم والتعليم. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-In this guide, we welcome contributions to developing chapters and guidance on effectively communicating the data-driven outcome to different audience types who may or may not be aware of scientific data analytics. We are excited to support data scientists develop skills ranging from interactive visualisation, how to give a talk, writing your first paper, and being interviewed by the media.
+في هذا الدليل، ونرحب بالمساهمات في إعداد الفصول والتوجيهات المتعلقة بإيصال النتائج المستندة إلى البيانات بصورة فعالة إلى مختلف فئات الجمهور التي قد تكون أو لا تكون على علم بتحليلات البيانات العلمية. ونحن متحمسون لدعم علماء البيانات في تطوير مهارات تتراوح بين التصور التفاعلي، كيفية إلقاء كلام، كتابة ورقتك الأولى، والتمتع بالمقابلة من قبل وسائل الإعلام.
 
-_The Turing Way_ itself is a [Jupyter Book](https://jupyterbook.org/intro.html), so please also consider how we can make our communications more exciting! Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+_طريق التوريق_ نفسه هو [كتاب المشتري](https://jupyterbook.org/intro.html)، لذا يرجى أيضا النظر في كيفية جعل اتصالاتنا أكثر إثارة ! تحقق من [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) لدينا للمشاركة .

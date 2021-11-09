@@ -1,32 +1,32 @@
-(pd-project-repo-contributors)=
-# Contributors and Communication Pathways
+(بآلاف دولارات الولايات المتحدة)
+# المساهمون ومسارات الاتصال
 
-Your project is likely to be better if what you create is used by others and they share their ideas and feedback to add new features or improvements. When designing your project, the Goals and aims are as important as their contributors. When designing your project, it is important to think about who the contributors are and how they will collaborate in the project (as described in {ref}`pd-project-repo-readme` and {ref}`pd-project-repo-roadmapping`).
+من المحتمل أن يكون مشروعك أفضل إذا كان ما قمت بإنشائه يستخدم من قبل الآخرين ويشاركون أفكارهم وتعليقاتهم لإضافة ميزات جديدة أو تحسينات. عند تصميم مشروعك، فإن الأهداف والغايات لا تقل أهمية عن المساهمين بها. عند تصميم مشروعك، من المهم التفكير في من هم المساهمون وكيف سيتعاونون في المشروع (على النحو الوارد وصفه في {ref}`pd-project-repo-readme` و {ref}`pd-project-repo-roadping`).
 
-It is also important to set clear expectations for your contributors and describe resources available to facilitate their participation, which discuss in this subchapter. The working relationships you establish with your contributors by welcoming them, engaging with them and supporting them, makes your contributors feel valued and excited about their contributions.
+ومن المهم أيضا تحديد توقعات واضحة للمساهمين ووصف الموارد المتاحة لتيسير مشاركتهم، والتي تناقش في هذا الفصل الفرعي. علاقات العمل التي تقيمها مع المساهمين من خلال الترحيب بهم، التواصل معهم ودعمهم، يجعل مساهمكم يشعرون بالتقدير والحماس حيال مساهماتهم.
 
-(pd-project-repo-contributing-contributors)=
-## Identifying Your Contributors
+(بآلاف دولارات الولايات المتحدة)
+## تحديد المساهمين الخاص بك
 
-Most collaborations in community projects are established and maintained with the contributors. Effective collaboration means that all contributors are given the possibility to combine their diverse perspectives and skills to create meaningful resources. They contribute to the project in various ways, for example by developing documentation or code, fixing bugs, suggesting new features or supporting others.
+ومعظم أوجه التعاون في المشاريع المجتمعية يتم إقامتها والمحافظة عليها مع المساهمين. ويعني التعاون الفعال أن تتاح لجميع المساهمين إمكانية الجمع بين منظوراتهم ومهاراتهم المتنوعة لإيجاد موارد ذات مغزى. وهي تساهم في المشروع بطرق مختلفة، مثلاً عن طريق تطوير الوثائق أو الرموز، وإصلاح الأخطاء، واقتراح ميزات جديدة أو دعم الآخرين.
 
-To make sure that you target a diverse set of collaborators, start by designing {ref}`Persona<pd-persona>` for your project.
+للتأكد من أنك تستهدف مجموعة متنوعة من المتعاونين، ابدأ بتصميم {ref}`شخصية<pd-persona>` لمشروعك.
 
 ```{note}
-A persona is a detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
-It is meaningful when paired with pathways through which these personas engage with a project.
+والشخص عبارة عن تفاصيل لمستعمل أو عضو وهمي، استنادا إلى ملاحظات العالم الحقيقي وتفاهمات الأعضاء الحاليين أو الأعضاء المحتملين في المستقبل.
+وهو مفيد عندما يقترن بمسارات ينخرط فيها هؤلاء الأشخاص في مشروع.
 ```
 
-When you have selected a few personas that capture your idea of contributors who want to involve, you can develop pathways that they can take to engage and contribute to your project (see {ref}`Persona<pd-persona-contributors>`).
+عندما تكون قد اخترت بعض الشخصيات التي تلتقط فكرتك عن المساهمين الذين يريدون المشاركة، يمكنك تطوير المسارات التي يمكنهم أن يأخذوها للمشاركة والمساهمة في مشروعك (أنظر {ref}`شخصية<pd-persona-contributors>`).
 
-(pd-project-repo-contributing-communication)=
-## Setting Communication Pathways
+(بآلاف دولارات الولايات المتحدة)
+## تعيين مسارات الاتصال
 
-When setting up your communication pathways, there are some important things to consider such as the following:
-- How easy is it for the community to find these channels and subscribe/unsubscribe to them?
-- Are they moderated? Under-represented groups may not participate if a channel is free for all.
-- How easy is it for members of the community to find and join specific conversations they are interested in?
-- Will it be a “noisy” channel (for example, lots of notifications)?
-- Can users control or filter what kind of information they receive?
+عند إعداد مسارات الاتصال الخاصة بك، هناك بعض الأمور الهامة التي ينبغي النظر فيها مثل ما يلي:
+- ما هي السهولة التي يمكن بها للمجتمع العثور على هذه القنوات والاشتراك/إلغاء الاشتراك بها؟
+- هل يتم الإشراف عليهم؟ المجموعات الممثلة تمثيلاً ناقصاً قد لا تشارك إذا كانت القناة مجانية للجميع.
+- ما مدى سهولة قيام أفراد المجتمع بالبحث عن محادثات محددة يهتمون بها والانضمام إليها؟
+- هل ستكون قناة "ضوئية" (على سبيل المثال، الكثير من الإشعارات)؟
+- هل يمكن للمستخدمين التحكم في نوع المعلومات التي يتلقونها أو تصفية تلك المعلومات؟
 
-See {ref}`cm-os-comms` to understand various features you can consider for setting a communication channel for your project.
+راجع {ref}`cm-os-comms` لفهم الميزات المختلفة التي يمكنك النظر فيها لإعداد قناة اتصال لمشروعك.

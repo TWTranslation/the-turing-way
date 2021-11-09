@@ -1,20 +1,20 @@
-(cl-shared-ownership)=
-# Shared Ownership in Open Source Projects
+(الملكية المشتركة)=
+# الملكية المشتركة في مشاريع مفتوحة المصدر
 
-Open source or open research movement allows anybody to use, study, modify, and distribute software or research projects freely and for any purpose ([reference](https://opensource.org/osd)). As much as open source is about sharing and distribution of software, it is equally important to highlight practices that support people’s interactions with the project as well as the communities that are built around a common interest and mission. Volunteer contributions are central to the success of open source projects who use frameworks for project peer-production and collaborations. These contributions can be witnessed in the context of coding, reviewing, documenting, error reporting, bug fixing, method selection, mentorship, training, project maintenance and other community interactions. In this chapter, we explore the “shared ownership” models to highlight that the open source projects should be owned by the community of contributors who work to ensure their development and sustainability.
+المصدر المفتوح أو حركة البحث المفتوحة تسمح لأي شخص بالاستخدام، الدراسة، التعديل، وقام بتوزيع البرامج أو مشاريع البحث بحرية ولأي غرض ([مرجع](https://opensource.org/osd)). بقدر ما يتعلق المصدر المفتوح بتقاسم البرمجيات وتوزيعها، ومن المهم بنفس القدر أن نسلط الضوء على الممارسات التي تدعم تفاعل الناس مع المشروع فضلاً عن المجتمعات المحلية التي تدور حول مصلحة مشتركة ورسالة مشتركة. وتعد المساهمات التطوعية أساسية لنجاح المشاريع المفتوحة المصدر التي تستخدم أطر عمل لإنتاج المشاريع وتعاونها مع الأقران. ويمكن ملاحظة هذه المساهمات في سياق الترميز والاستعراض والتوثيق والإبلاغ عن الأخطاء. إصلاح الأخطاء، اختيار الطريقة، الإرشاد، التدريب، صيانة المشروع والتفاعلات المجتمعية الأخرى. في هذا الفصل، ونحن نستكشف نماذج ”الملكية المشتركة“ لإبراز أن مشاريع المصادر المفتوحة ينبغي أن تكون مملوكة لمجتمع المساهمين الذين يعملون على كفالة تنميتها واستدامتها.
 
 ```{figure} ../figures/open-source-collaboration.jpg
 ---
-name: open-source-collaboration
-alt: This illustration shows that closed source projects are driven by the needs of the institution or the individuals whereas the open source community allows different people to interact, exchange ideas, collaborate and build resources using “by the community - for the community” principles
----
-Open source collaborative pathway compared to closed source projects that are driven by institute's personal motivation. Picture credit: _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+الاسم: مفتوح المصدر - التعاون
+بديل: يوضح هذا التوضيح أن مشاريع المصادر المغلقة مدفوعة باحتياجات المؤسسة أو الأفراد في حين أن مجتمع المصادر المفتوحة يسمح لأشخاص مختلفين بالتفاعل، تبادل الأفكار، التعاون وبناء الموارد باستخدام مبادئ "المجتمع - من أجل المجتمع"
+-
+المسار التعاوني المفتوح المصدر مقارنة بمشاريع المصادر المغلقة التي يحركها الدافع الشخصي للمعهد. رصيد الصورة: _مجتمع طرق التورين_ & سكريبيريا. (2020، تشرين الثاني/نوفمبر). أمثلة توضيحية من شرائع كتاب "طريق التودين". Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
-## Motivation
+## الدافع
 
-A shared sense of ownership is important for motivating contributors to collaborate in a project as they align their interests with the project’s goals. The concept of shared or collective ownership is widely practised in open source (see definition for [collective ownership](https://www.agilealliance.org/glossary/collective-ownership/)), but unfortunately, it is not always described in the projects. Often it is vaguely communicated or assumed either based on the contributors’ time or the scale of their contributions. In the long term, it is not helpful for most contributors who don’t know if their contributors are valued, acknowledged or rewarded in the project.
+إن الإحساس المشترك بالملكية أمر مهم لتحفيز المساهمين على التعاون في مشروع ما في الوقت الذي يواءمون فيه مصالحهم مع أهداف المشروع. مفهوم الملكية المشتركة أو الجماعية يمارس على نطاق واسع في المصدر المفتوح (انظر تعريف الملكية الجماعية [](https://www.agilealliance.org/glossary/collective-ownership/))، ولكن للأسف، لا يرد وصفها دائما في المشاريع. وغالباً ما يتم الإبلاغ عنها بشكل غامض أو افتراضها إما استناداً إلى وقت المساهمين أو جدول اشتراكاتهم. وفي الأجل الطويل، ليس من المفيد لمعظم المساهمين الذين لا يعرفون ما إذا كان مساهموهم موضع تقدير أو تقدير أو مكافأة في المشروع.
 
-In the subchapter {ref}`cl-shared-ownership-projects`, we explore what project ownership means in an open source world, in the subchapter {ref}`cl-shared-ownership-models`, we discuss different models that are out there and in the subchapter {ref}`cl-shared-ownership-challenges`, we discuss challenges that exist in adopting them in open source projects. Ultimately, in the subchapter {ref}`cl-shared-ownership-defaults`, we nudge researchers to apply good practices for establishing shared ownership in their open source projects.
+في الفصل الفرعي {ref}`مشاريع الملكية المشتركة`، نستكشف ما تعنيه ملكية المشروع في عالم مفتوح المصدر، في الفصل الفرعي {ref}`نماذج الملكية المشتركة`، نحن نناقش النماذج المختلفة الموجودة هناك وفي الفصل الفرعي {ref}`تحديات الملكية المشتركة`، ونناقش التحديات القائمة في اعتمادها في مشاريع مفتوحة المصدر. في نهاية المطاف، في الفصل الفرعي {ref}`الإخفاقات في الملكية المشتركة`، ندفع الباحثين إلى تطبيق الممارسات الجيدة لإثبات الملكية المشتركة في مشاريعهم مفتوحة المصدر.
 
-*This chapter was originally discussed and written in an online post by Malvika Sharan, Warrick Ball, Ben Krikler, and Andrew Brown as a part of the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21) speed blog series hosted by [Software Sustainability Institute](https://www.software.ac.uk).*
+*وقد نوقش هذا الفصل في الأصل وكتبه مالفيكا شاران، ووارريك بول، وبن كريكلر، على شبكة الإنترنت. وأندرو براون كجزء من [حلقة العمل التعاونية 2021](https://www.software.ac.uk/cw21) سلسلة المدونة السريعة التي استضافها [معهد استدامة البرمجيات](https://www.software.ac.uk).*

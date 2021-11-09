@@ -1,11 +1,11 @@
-# Requirements for the demo notebooks
-# Useful for MyBinder configuration
-pandas==1.0.5
+# 演示笔记本的要求
+# MyBinder配置很有用。
+pandas=1.0.5
 numpy==1.19.0
 matplotlib==3.2.2
-datascience
+达塔斯科学
 folium
-jupyter-book==0.11.2
+jupyter书==0.11.2
 sphinxcontrib-bibtex~=2.2.0
 sphinx-click
 sphinx_inline_tabs

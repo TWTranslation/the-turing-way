@@ -1,23 +1,23 @@
 (cm-os-comms)=
-# Communications in Open Source Projects
+# الاتصالات في المشاريع المفتوحة المصدر
 
 ## Summary
 
-> Conversation as Collaboration
+> المحادثة كتعاون
 
-In an Open Source project, a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions (likely many of them!). It is therefore really important to plan carefully _how_ and _where_ these interactions take place. Community interactions should maintain the transparency and openness of the project to facilitate the growth of your community, and the choice of the platforms should ensure that your project is welcoming, accessible, and secure for its collaborators.
+في مشروع مفتوح المصادر، يتم قدر كبير من التعاون بين الفريق الأساسي أو فريق القيادة والمجتمع على نطاق أوسع في شكل تفاعلات على الإنترنت (يرجح أن يكون الكثير منها!). لذلك من المهم حقاً التخطيط بعناية _كيفية حدوث هذه التفاعلات_ و _حيث_. ينبغي أن تحافظ تفاعلات المجتمع المحلي على شفافية وانفتاح المشروع لتيسير نمو مجتمعك، واختيار المنصات يجب أن يضمن أن مشروعك مرحب به ومتاح ومأمون للمتعاونين معه.
 
-This chapter gives an overview of the most common ways to track, support and maintain community interactions such as by raising issues, reporting bugs and attracting contributions that lead to improvements in the project.
+ويقدم هذا الفصل لمحة عامة عن أكثر الطرق شيوعا لتتبع التفاعلات المجتمعية ودعمها والمحافظة عليها، مثل إثارة القضايا، الإبلاغ عن الأخطاء واجتذاب المساهمات التي تؤدي إلى تحسينات في المشروع.
 
 ```{figure} ../figures/research-tools.jpg
 ---
-name: research-tools
-width: 500px
-alt: A few people are looking for different information about experiment, tools, privacy. There are different places or channels where these details can be identified, which is displayed in a findable manner.
+الاسم: أدوات البحث
+العرض: 500px
+بديل : يبحث عدد قليل من الناس عن معلومات مختلفة عن التجربة، الأدوات، الخصوصية. وهناك أماكن أو قنوات مختلفة يمكن فيها تحديد هذه التفاصيل، وهي معروضة بطريقة يمكن التوصل إليها.
 ---
-Idetifying right channel to communicate and find information. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+إخفاء القناة الصحيحة للاتصال والعثور على المعلومات. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Background ad Motivation
+## دافع الإعلانات الخلفية
 
-When trying to build a community around an Open Source project, the content in this chapter will help make sure that your communications are as open, transparent and accessible as possible. This will help foster trust between the project team and the wider community and give them the agency to contribute where they can.
+عند محاولة بناء مجتمع حول مشروع مفتوح المصادر، المحتوى في هذا الفصل سيساعد على التأكد من أن اتصالاتك مفتوحة وشفافة وسهلة المنال قدر الإمكان. وسيساعد ذلك على تعزيز الثقة بين فريق المشروع والمجتمع المحلي الأوسع ويمنحهم الوكالة المساهمة حيثما أمكنهم.

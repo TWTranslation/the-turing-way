@@ -1,55 +1,55 @@
-(rr-vcs-git-branches)=
-# Git Branches
+(rr-vcs-git-Branches)=
+# فروع Git
 
-When working on a project, individually or collaboratively, you may encounter the following scenarios:
+عند العمل على مشروع ما، فردياً أو بشكل تعاوني، قد تواجه السيناريوهات التالية:
 
-- If you add a new feature to your project, you run the risk of accidentally breaking your working code as you test the feature. This would cause unexpected issues for active users of your project, even if the only active user is you.
-- When you collaborate with others, and everyone works on the main branch simultaneously, there could be a lot of confusion and conflicting changes.
-- Some code/feature might not be interesting for everyone. There may need to be a way to allow new work to be done on a project whilst protecting work that has already been done.
+- إذا قمت بإضافة ميزة جديدة إلى مشروعك، فإنك تواجه خطر كسر رمز العمل الخاص بك عن طريق الخطأ أثناء اختبار الميزة. سيؤدي هذا إلى مشاكل غير متوقعة للمستخدمين النشطين في مشروعك، حتى لو كان المستخدم النشط الوحيد لك.
+- عندما تتعاون مع الآخرين، والجميع يعملون في الفرع الرئيسي في وقت واحد، قد يكون هناك الكثير من الارتباك والتغيرات المتعارضة.
+- قد لا تكون بعض التعليمات البرمجية/الميزة مثيرة للاهتمام للجميع. وقد تكون هناك حاجة إلى طريقة تسمح بالقيام بعمل جديد بشأن مشروع مع حماية العمل الذي تم إنجازه بالفعل.
 
-Git branches are extremely valuable when addressing any of these issues. For every Git project, by default, you have one branch called 'main' where all commits are recorded. The branching feature of Git allows us to create a copy of a project that we can work on and continue to make commits to without integrating them into the main branch right away. Meanwhile, one can continue to make commits on the main branch, which is untouched by the changes made on other branches. Once you are happy with whatever you were working on on a branch, you can merge it into your main branch (or indeed any other branch). Merging will be covered in the {ref}`rr-vcs-git-merge` subchapter.
+وتتسم فروع Git بأهمية بالغة عند معالجة أي من هذه القضايا. لكل مشروع Git بشكل افتراضي، لديك فرع واحد يسمى 'main' حيث يتم تسجيل جميع الالتزامات. وتسمح لنا ميزة الفروع في Git بإنشاء نسخة من مشروع يمكننا العمل عليه والاستمرار في الالتزام به دون دمجهم في الفرع الرئيسي على الفور. وفي هذه الأثناء، يمكن للمرء أن يواصل الالتزام بالفرع الرئيسي، الذي لم تتأثر به التغييرات التي أجريت على فروع أخرى. بمجرد أن تكون سعيدة بكل ما كنت تعمل عليه في فرع، يمكنك دمجه في فرعك الرئيسي (أو في الواقع في أي فرع آخر). سيتم تغطية الدمج في {ref}`rr-vcs-git-دمج` فصل فرعي.
 
-If you test a feature on a branch that does not work out, you can delete or abandon it (for example, Feature B in the diagram below) rather than spending time unpicking your changes if you were doing all your work on the main branch. You can have as many branches off of branches as you desire (for example, Feature A-1).
+إذا قمت باختبار ميزة على فرع لا ينجح، فيمكنك حذفها أو التخلي عنها (على سبيل المثال، الميزة B في الرسم البياني أدناه) بدلاً من قضاء الوقت في اختيار التغييرات إذا كنت تقوم بكل عملك في الفرع الرئيسي. يمكن أن يكون لديك عدد من الفروع خارج الفروع كما ترغب (على سبيل المثال، الميزة A-1).
 
-Using branches keeps working code safe, particularly in collaborations. Each contributor can have their own branch or branches which are only merged into the main project when they are ready.
+استخدام الفروع يحافظ على سلامة التعليمات البرمجية للعمل، لا سيما في مجال التعاون. ويمكن أن يكون لكل مساهم فرعه أو فروعه الخاصة به التي لا تدمج إلا في المشروع الرئيسي عندما تكون جاهزة.
 
 ```{figure} ../../figures/sub-branch.png
 ---
-name: sub-branch
-alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. Feature A and B are branches of the main branch, while Feature A-1 is a branch made from Feature A.
+الاسم: الفرع الفرعي
+البديل : مثال توضيحي للفرع في Git. وهناك أربعة فروع مبينة بشكل رئيسي، الميزة ألف، الميزة باء، والخصيصة ألف - 1. والخصيصتان ألف وباء هما فرعان من الفرع الرئيسي، في حين أن الميزة ألف -1 هي فرع مصنوع من الميزة ألف.
 ---
-An illustration of branching in Git
+مثال توضيحي للفرع في Git
 ```
 
-You can create a branch and switch to it using:
+يمكنك إنشاء فرع والتبديل إليه باستخدام:
 ```
-git checkout -b name_of_your_new_branch
-```
-
-To change between branches, use the following command:
-```
-git checkout name_of_the_branch
+git الدفع -b name_of_your_new_branch
 ```
 
-You must commit any work you have in progress before you can to switch to another branch.
+للتغيير بين الفروع، استخدم الأمر التالي:
+```
+إسم_فرع_الدفع git
+```
 
-You can see all branches of your project using:
+يجب عليك القيام بأي عمل في التقدم قبل أن تتمكن من الانتقال إلى فرع آخر.
+
+يمكنك رؤية جميع فروع مشروعك باستخدام:
 
 ```
-git branch
+فرع Git
 ```
-This gives the output as a list with an asterisk next to the branch you are on. You can also use `git status` if you have forgotten which branch you are on.
+هذا يعطي المخرجات كقائمة مع نجمة بجوار الفرع الذي أنت على تشغيله. يمكنك أيضًا استخدام `git status` إذا كنت قد نسيت أي فرع كنت تشغله.
 
-If you decide to get rid of a branch you can delete it with:
+إذا قررت التخلص من فرع يمكنك حذفه بواسطة:
 
 ```
-git branch -D name_of_the_branch
+git فرع - D name_of_the_branch
 ```
-(rr-vcs-branches-practice)=
-## Good practice
+(rr-vcs-Branches-practice)=
+## الممارسات الجيدة
 
-Branches should be used to **keep the main branch clean**. That is, the main should only contain work which is complete, tested, and rightfully belongs in the main version of the project. Similarly, you should try to keep individual branches as clean as possible by **only adding one new feature per branch**. This is because if you are working on several features, some may be finished and ready to merge into main while others are still under development. Keeping your branches clean means only making changes related to the feature on the feature's branch. Give your branches **sensible names**, "new_feature" is all well and good until you start developing a newer feature on another branch.
+يجب استخدام الفروع **للحفاظ على نظافة الفرع الرئيسي**. أي أنه لا ينبغي أن يتضمن الجزء الرئيسي سوى الأعمال المنجزة والمختبرة، والمتمثلة بحق في النسخة الرئيسية للمشروع. وبالمثل، يجب عليك أن تحاول الحفاظ على نظافة فرادى الفروع قدر الإمكان عن طريق **إضافة ميزة جديدة واحدة فقط لكل فرع**. هذا لأنه إذا كنت تعمل على العديد من الميزات، وقد يكون بعضها جاهزا للانتهاء من إدماجه في الجانب الرئيسي بينما لا يزال البعض الآخر قيد التطوير. الحفاظ على نظافة فروعك يعني فقط إجراء تغييرات ذات صلة بالميزة في فرع الميزة. اعطي فروعك **أسماء معقولة**، "new_feature" جميعًا جيدًا وجيدًا حتى تبدأ في تطوير ميزة أحدث على فرع آخر.
 
-## Interactive tutorial
+## البرنامج التعليمي التفاعلي
 
-[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.
+[تعلم فرع Git](https://learngitbranching.js.org/) هو مشروع لتوفير طريقة تفاعلية لتعلم Git. الذهاب إلى من خلال دروسهم سيوفر تجربة كبيرة مع أوامر git الأكثر شيوعا وتقنيات التلاعب بالفرع.

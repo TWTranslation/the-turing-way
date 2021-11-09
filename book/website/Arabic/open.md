@@ -1,73 +1,73 @@
-(rr-open)=
-# Open Research
+(r-open)=
+# بحث مفتوح
 
-(rr-open-prerequisites)=
-## Prerequisites
+(بآلاف دولارات الولايات المتحدة)
+## الشروط المسبقة
 
-| Prerequisite  | Importance | Notes                                         |
-| ------------- | ---------- | --------------------------------------------- |
-| {ref}`rr-vcs` | Helpful    | Experience with GitHub is particularly useful |
+| الشروط المسبقة | الأهمية | الحواشي                          |
+| -------------- | ------- | -------------------------------- |
+| {ref}`rr-vcs`  | مساعدة  | التجربة مع GitHub مفيدة بشكل خاص |
 
 
 ```{figure} ../figures/evolution-open-research.jpg
 ---
-name: evolution-open-research
-alt: This image shows a researcher evolving their research practices to move towards the era of open research.
+الاسم: البحث التطوري-المفتوح
+البديل : هذه الصورة تظهر للباحث تطور ممارساته البحثية للتحرك نحو عصر البحث المفتوح.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-open-summary)=
+(r-open-summary)=
 ## Summary
 
-Open research aims to transform research by making it more reproducible, transparent, reusable, collaborative, accountable, and accessible to society. It pushes for change in the way that research is carried out and disseminated by digital tools. One definition of open research, [as given by the Organisation for Economic Co-operation and Development (OECD)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25"), is the practice of making "the primary outputs of publicly funded research results – publications and the research data – publicly accessible in a digital format with no or minimal restriction." To achieve this openness in research, each element of the research process should:
+وتهدف البحوث المفتوحة إلى تحويل البحوث عن طريق جعلها أكثر قابلية للتكرار، وشفافية، وقابلية لإعادة الاستخدام، وتعاونية، وخاضعة للمساءلة، وميسورة أمام المجتمع. وهو يدفع إلى التغيير في طريقة إجراء البحوث ونشرها بواسطة الأدوات الرقمية. تعريف واحد للبحث المفتوح، [كما أعطته منظمة التعاون والتنمية في الميدان الاقتصادي](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25")، هي الممارسة المتمثلة في جعل "النواتج الرئيسية لنتائج البحوث الممولة من القطاع العام - المنشورات وبيانات البحوث - متاحة للجمهور في شكل رقمي دون قيود أو تقييدات طفيفة". ولتحقيق هذا الانفتاح في البحوث، ينبغي لكل عنصر من عناصر عملية البحث أن يقوم بما يلي:
 
-- _Be publicly available_: It is difficult to use and benefit from knowledge hidden behind barriers such as passwords and paywalls.
-- _Be reusable_: Research outputs need to be licensed appropriately, so that prospective users know any limitations on re-use.
-- _Be transparent_: With appropriate metadata to provide clear statements of how research output was produced and what it contains.
+- _أن تكون متاحة للجمهور_: من الصعب استخدام المعرفة المخفية خلف حواجز مثل كلمات المرور وجدران الدفع، والاستفادة منها.
+- _أن تكون قابلة لإعادة الاستخدام_: مخرجات البحث يجب أن تكون مرخصة بشكل ملائم، حتى يعرف المستخدمون المحتملون أي قيود على إعادة الاستخدام.
+- _أن تكون شفافة_: مع البيانات الوصفية المناسبة لتقديم بيانات واضحة عن كيفية إنتاج البحوث وما يحتوي عليه.
 
-The research process typically has the following form: data is collected and then analysed (usually using software). This process may involve the use of specialist hardware. The results of the research are then published. Throughout the process, it is good practice for researchers to document their working in notebooks. Open research aims to make each of these elements open:
+وتتخذ عملية البحث عادة الشكل التالي: تُجمع البيانات ثم تُحلل (باستخدام البرمجيات عادة). وقد تنطوي هذه العملية على استخدام أجهزة متخصصة. ثم تُنشر نتائج البحث. ومن الممارسات الجيدة أن يقوم الباحثون طوال العملية بتوثيق عملهم في الكتب. تهدف البحوث المفتوحة إلى جعل كل عنصر من هذه العناصر مفتوحة:
 
-- _Open Data_: Documenting and sharing research data openly for re-use.
-- _Open Source Software_: Documenting research code and routines, and making them freely accessible and available.
-- _Open Hardware_: Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
-- _Open Access_: Making all published outputs freely accessible for maximum use and impact.
-- _Open Notebooks_: An emerging practice, documenting and sharing the experimental process of trial and error.
+- _البيانات المفتوحة_: توثيق ومشاركة بيانات البحث علنا لإعادة الاستخدام.
+- _برمجيات المصدر المفتوح_: توثيق التعليمات البرمجية والاعتيادات البحثية، وجعلها متاحة ومتاحة مجانا.
+- _الجهاز المفتوح_: توثيق التصاميم والمواد وغيرها من المعلومات ذات الصلة بالمعدات، وجعلها متاحة ومتاحة مجانا.
+- _الوصول المفتوح_: جعل جميع النواتج المنشورة متاحة مجانا لأقصى قدر من الاستخدام والتأثير.
+- _ملاحظات مفتوحة_: ممارسة ناشئة، توثيق ومشاركة العملية التجريبية والخطأ.
 
-These elements are expanded upon in this chapter.
+وترد تفاصيل هذه العناصر في هذا الفصل.
 
-Open scholarship [{term}`def<Open Scholarship>`] is a concept that extends open research further. It relates to making other aspects of scientific research open to the public, for example:
+المنحة الدراسية المفتوحة [{term}`def<Open Scholarship>`] هي مفهوم يوسع البحث المفتوح أكثر. وهي تتعلق بجعل جوانب أخرى من البحث العلمي مفتوحة للجمهور، ومنها على سبيل المثال:
 
-- _Open educational resources_: Making educational resources publicly available to be re-used and modified.
-- _Equity, diversity, inclusion_: Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
-- _Citizen science_: The inclusion of members of the public in scientific research.
+- _الموارد التعليمية المفتوحة_: جعل الموارد التعليمية متاحة للجميع لإعادة استخدامها وتعديلها.
+- _الإنصاف، التنوع، الإدراج_: ضمان الحصول على منح دراسية مفتوح لأي شخص لا توجد له حواجز قائمة على عوامل مثل العرق والخلفية ونوع الجنس والميل الجنسي.
+- _علم المواطن_: إشراك أفراد الجمهور في البحث العلمي.
 
-These elements are also discussed in detail in this chapter.
+وتناقش هذه العناصر أيضا بالتفصيل في هذا الفصل.
 
-(rr-open-useful)=
-## Motivation and Background
+(r-open-useful)=
+## الدافع والخلفية
 
-There are five main schools of thought motivating open practices to benefit research:
+وهناك خمس مدارس فكرية رئيسية تحفز الممارسات المفتوحة للاستفادة من البحوث:
 
-| School         | Belief                                                                     | Aim                                                                       |
-| -------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Infrastructure | Efficient research depends on the available tools and applications.        | Creating openly available platforms, tools, and services for researchers. |
-| Pragmatic      | Knowledge-creation could be more efficient if researchers worked together. | Opening up the process of knowledge creation.                             |
-| Measurement    | Academic contributions today need alternative impact measurements.         | Developing an alternative metric system for research impact.              |
-| Democratic     | The access to knowledge is unequally distributed.                          | Making knowledge freely available for everyone.                           |
-| Public         | Research needs to be made accessible to the public.                        | Making research accessible for citizens.                                  |
+| المدرسة        | المعتقد                                                     | الهدف                                            |
+| -------------- | ----------------------------------------------------------- | ------------------------------------------------ |
+| البنية التحتية | وتتوقف البحوث الفعالة على الأدوات والتطبيقات المتاحة.       | إنشاء منصات وأدوات وخدمات متاحة للجميع للباحثين. |
+| براغماتي       | ويمكن أن يكون خلق المعرفة أكثر فعالية إذا عمل الباحثون معا. | 1 - فتح عملية توليد المعارف.                     |
+| القياس         | وتحتاج المساهمات الأكاديمية اليوم إلى مقاييس بديلة للأثر.   | • وضع نظام متري بديل لتأثير البحوث.              |
+| ديموقراطية     | والوصول إلى المعرفة موزع توزيعا غير متكافئ.                 | • إتاحة المعرفة للجميع مجاناً.                   |
+| عامة           | وينبغي أن تكون البحوث متاحة للجمهور.                        | • جعل البحوث متاحة للمواطنين.                    |
 
-Open practices also benefit the researchers that propagate them. For example, there is evidence {cite:ps}`McKiernan et al. 2016<McKiernan2016Open>` that open access articles are cited more often, as shown by the metastudy presented in the figure below.
+كما تفيد الممارسات المفتوحة الباحثين الذين ينشرون هذه الممارسات. على سبيل المثال، هناك أدلة {cite:ps}`McKiernan et al. 2016<McKiernan2016Open>` يشار إلى مقالات الوصول المفتوح على نحو أكثر تواترا، كما يتبين من الدراسة الوصفية الواردة في الشكل أدناه.
 
 ```{figure} ../figures/open-access-citations.jpg
 ---
-height: 500px
-name: open-access-citations
-alt: A scatter plot of the relationship between citation rates and discipline
+الطول: 500px
+الاسم: فتح الوصول إلى الاستشهاد
+البديل : قطعة متناثرة للعلاقة بين معدلات الاقتباس والانضباط
 ---
-The relative citation rate (OA: non-OA) in 19 fields of research. This rate is defined as the mean citation rate of OA articles divided by the mean citation rate of non-OA articles. Multiple points for the same discipline indicate different estimates from the same study or estimates from several studies. (See footnote 1 for references.)
+معدل الاقتباس النسبي (OA: non-OA) في 19 حقل بحث. ويعرَّف هذا المعدل بأنه متوسط معدل الاستشهاد بمواد الزراعة العضوية مقسوماً على متوسط معدل الاستشهاد بالمواد غير المتعلقة بالزراعة العضوية. وتشير نقاط متعددة في نفس المجال إلى تقديرات مختلفة عن نفس الدراسة أو تقديرات من عدة دراسات. (انظر الحاشية 1 للاطلاع على المراجع)
 ```
 
-Another benefit of openness is that while research collaborations are essential to advancing knowledge, identifying and connecting with appropriate collaborators is not trivial. Open practices can make it easier for researchers to connect by increasing the discoverability and visibility of one's work, facilitating rapid access to novel data and software resources, and creating new opportunities to interact with and contribute to ongoing communal projects.
+ومن الفوائد الأخرى للانفتاح أنه في حين أن التعاون في مجال البحوث ضروري لتعزيز المعرفة، فإن تحديد المتعاونين المناسبين والاتصال بهم ليس بالأمر الهين. ويمكن للممارسات المفتوحة أن تجعل من الأيسر على الباحثين الاتصال عن طريق زيادة إمكانية اكتشاف العمل وإبرازه. • تيسير الوصول السريع إلى البيانات الجديدة وموارد البرمجيات، وإيجاد فرص جديدة للتفاعل مع المشاريع المجتمعية الجارية والمساهمة فيها.
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*

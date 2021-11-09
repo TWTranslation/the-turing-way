@@ -1,30 +1,30 @@
-(cl-new-community-differences)=
-# Valuing Diversity and Differences
+(الاختلافات بين المجتمعات المحلية)=
+# تقييم التنوع والاختلافات
 
-When people collaborate with others, no matter if they have already worked with them or they are complete strangers, you need to take into account that everyone will have different backgrounds, different cultures, different time zones, different levels of skills and very different lived experiences.
+عندما يتعاون الناس مع الآخرين، بغض النظر عما إذا كانوا قد عملوا معهم بالفعل أو كانوا غرباء تماما، عليك أن تأخذ في الاعتبار أن الجميع سيكون لديهم خلفيات مختلفة، ثقافات مختلفة. مناطق زمنية مختلفة ومستويات مختلفة من المهارات وتجارب حية مختلفة جدا.
 
-(cl-new-community-differences-perspectives)=
-## Welcome Diverse Perspectives From Your Members
+(منظورات الاختلافات بين المجتمعات المحلية)=
+## مرحبا بوجهات نظر مختلفة من أعضائك
 
-Think carefully about who your stakeholders are, if they are given fair opportunities to be heard, if certain groups are less represented than others, and if you have strategy in place to ensure diversity in your community.
+فكر بعناية في من هم أصحاب المصلحة لديكم، إذا أتيحت لهم فرص عادلة للاستماع إليهم، إذا كانت بعض المجموعات أقل تمثيلاً من غيرها، وإذا كان لديك استراتيجية لضمان التنوع في مجتمعك.
 
-It is important to be mindful of the varying motivations your members will have behind joining to work on your project. For example, in the case of COVID-19 related projects, you can expect that some people will join you because they want to know what kind of data on COVID-19 exist, some will come with an intention to be part of a group while learning some skills, some will simply hang out to watch what you are doing, whereas some people will join you because they have relatives who are suffering from COVID-19 infection and they want to speed up the diagnostic process. Be prepared to welcome their diverse perspectives into your project.
+من المهم أن نضع نصب أعينكم الدوافع المتباينة التي سيتحلى بها أعضاؤكم وراء الانضمام للعمل على مشروعكم. وعلى سبيل المثال، في حالة المشاريع المتصلة بCOVID-19، يمكنك أن تتوقع أن بعض الناس سينضمون إليك لأنهم يريدون معرفة نوع البيانات الموجودة في COVID-19، وبعضها سيأتي بنية أن يكون عضوا في مجموعة بينما يتعلم بعض المهارات، بعضهن سيقمن ببساطة لمشاهدة ما تفعله، بينما بعض الناس سينضمون إليك لأن لديهم أقارب يعانون من عدوى COVID-19 ويريدون تسريع عملية التشخيص. كن على استعداد للترحيب بوجهات نظرهن المتنوعة في مشروعك.
 
-(cl-new-community-differences-circumstances)=
-## People Have Different Personal Circumstances
+(الاختلافات بين المجتمعات المحلية الجديدة) =
+## الناس لديهم ظروف شخصية مختلفة
 
-As an individual we may think that everyone has the same working conditions as us, such as access to the tools and resources or their work setup, whereas the reality is far from that. Our colleagues even in the same city may have different living situations, caring responsibilities, medical conditions and resources available to them. Don’t assume that everyone will have equal access or capacity to participate in your project. To create equitable opportunities for everyone, create task lists with varying requirements of time and resources (like hardware, software, reference materials or internet bandwidth) so that people can choose where to contribute based on resources available to them.
+وبوصفنا فردا، قد نعتقد أن لكل شخص نفس ظروف العمل التي نعيش فيها، مثل الوصول إلى الأدوات والموارد أو إعداد أعمالها، في حين أن الواقع أبعد ما يكون عن ذلك. وقد يكون لزملائنا حتى في نفس المدينة أوضاع معيشية مختلفة، ومسؤوليات الرعاية، والظروف الطبية والموارد المتاحة لهم. لا تفترض أن الجميع سيتمتعون بالمساواة في الوصول أو القدرة للمشاركة في مشروعك. ولإيجاد فرص متكافئة للجميع، وضع قوائم مهام ذات متطلبات مختلفة من الوقت والموارد (مثل المعدات)، البرمجيات أو المواد المرجعية أو عرض النطاق الترددي على الإنترنت) حتى يتمكن الناس من اختيار الجهة التي يمكن أن يساهموا بها استنادا إلى الموارد المتاحة لهم.
 
-(cl-new-community-differences-resources)=
-## Allow Access to Assumed Knowledge and Resources
+(الفروق بين المجتمعات المحلية الجديدة)=
+## السماح بالوصول إلى المعرفة والموارد المفترضة
 
-Working with team members from different disciplines and backgrounds can provide a wealth of new perspectives. However, it is important to standardise which concepts all parties should be familiar with for productive collaboration. For example, replacing jargon and acronyms with clearer alternatives will make information accessible to all team members. Where some technical terminology is necessary, it can be useful to have a shared, editable definitions document. Additionally, it is important to create a supportive environment where anyone can ask for clarification without feeling looked down upon.
+فالعمل مع أعضاء الأفرقة من مختلف التخصصات والخلفيات يمكن أن يوفر ثروة من المنظورات الجديدة. ومع ذلك، من المهم توحيد المفاهيم التي ينبغي أن تكون جميع الأطراف على دراية بها من أجل التعاون المثمر. فعلى سبيل المثال، من شأن الاستعاضة عن المختصرات والمختصرات ببدائل أكثر وضوحا أن يجعل المعلومات متاحة لجميع أعضاء الفريق. وحيثما تكون بعض المصطلحات التقنية ضرورية، قد يكون من المفيد الحصول على وثيقة تعاريف مشتركة قابلة للتحرير. وبالإضافة إلى ذلك، من المهم تهيئة بيئة داعمة يمكن فيها لأي شخص أن يطلب التوضيح دون الشعور بالتفكير في ذلك.
 
-Additionally, provide access to resources whenever you can to ensure that everyone has the opportunity to gain a common understanding. For example, if your project idea is based on a recent peer reviewed paper that is behind the paywall, members from low income institutes who don't hold a subscription to that journal will not be able to participate unless given access to the information discussed in that paper.
+وبالإضافة إلى ذلك، توفر إمكانية الوصول إلى الموارد كلما كان ذلك ممكنا لضمان حصول الجميع على فرصة التوصل إلى فهم مشترك. على سبيل المثال، إذا كانت فكرة مشروعك مبنية على ورقة مراجعة حديثة من النظراء خلف الحائط، الأعضاء من المعاهد ذات الدخل المنخفض الذين لا يحملون اشتراكات في تلك المجلة لن يكونوا قادرين على المشاركة ما لم يتم منحهم حق الوصول إلى المعلومات التي نوقشت في تلك الورقة.
 
-(cl-new-community-differences-viewpoints)=
-## Invite Those Who Can Help You Expand Your Viewpoints
+(وجهات النظر المتعلقة بالاختلافات بين المجتمعات المحلية)=
+## قم بدعوة أولئك الذين يستطيعون مساعدتك في توسيع نطاق وجهات النظر الخاصة بك
 
-Make sure that you invite perspectives from your members who can help you maintain heterogeneity and fair distribution in leadership, methods, dataset and solutions that can be reproduced for different scenarios or across different platforms. For example, when making recommendations based on the selected dataset for health care related research, think if they will apply to different geographic conditions, such as both developed and developing countries. If not, consider what you should change, and who you can invite to help improve your project.
+تأكد من دعوة منظورات من أعضائك الذين يمكنهم مساعدتك على الحفاظ على عدم التجانس والتوزيع العادل في القيادة، الأساليب ومجموعة البيانات والحلول التي يمكن استنساخها لسيناريوهات مختلفة أو عبر منصات مختلفة. فعلى سبيل المثال، عند تقديم توصيات تستند إلى مجموعة البيانات المختارة للبحوث المتعلقة بالرعاية الصحية، فكروا إذا كانت ستنطبق على ظروف جغرافية مختلفة، مثل البلدان المتقدمة النمو والبلدان النامية على حد سواء. إذا لم يكن الأمر كذلك، فكر في ما يجب عليك تغييره، ومن الذي يمكنك دعوته للمساعدة في تحسين مشروعك.
 
-If crucial voices and viewpoints are missing in your project, how can you invite them in? Talk to an expert (such as clinician, epidemiologist, community lead, and communication officer) if you are not one yourself. Always remember that different stakeholders can introduce new but critical and often unexpected viewpoints and help you avoid incorrect or ineffective assumptions.
+إذا كانت الأصوات ووجهات النظر الحاسمة مفقودة في مشروعك، فكيف يمكنك دعوتها؟ تحدثي إلى خبير (مثل العيادة، أخصائي الأوبئة، القائد المجتمعي، وموظف الاتصال) إذا لم تكن واحداً بنفسك. تذكر دائمًا أن مختلف أصحاب المصلحة يمكن أن يقدموا وجهات نظر جديدة ولكنها حاسمة وغالباً ما تكون غير متوقعة ويساعدونك على تجنب الافتراضات الخاطئة أو غير الفعالة.

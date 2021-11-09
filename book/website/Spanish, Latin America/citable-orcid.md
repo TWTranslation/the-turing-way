@@ -1,30 +1,30 @@
 (cm-citable-orcid)=
-# ORCID to Collect your Research Objects
+# ORCID para recoger tus objetos de investigación
 
-You can use ORCID to access or sign up to services that utilise ORCID, for example, publisher requirements, funding management portals ([ResearchFish](https://researchfish.com/)), the [CRIS (current research information system)](https://en.wikipedia.org/wiki/Current_research_information_system) at your institute and data repository like [Zenodo](https://zenodo.org).
+Puede utilizar ORCID para acceder o registrarse a servicios que utilizan ORCID, por ejemplo, requerimientos del editor, portales de gestión de fondos ([InvestigaciónFish](https://researchfish.com/)), el CRIS [(sistema de información de investigación actual)](https://en.wikipedia.org/wiki/Current_research_information_system) en su instituto y repositorio de datos como [Zenodo](https://zenodo.org).
 
-ORCID is an acronym for ‘Open Researcher and Contributor ID'. ORCID is a long-lasting unique identifier for you as a researcher, comparable to a personal identification number that your government may issue to you.
+ORCID es un acrónimo de 'Open Researcher and Contributor ID'. ORCID es un identificador único de larga duración para usted como investigador, comparable a un número de identificación personal que su gobierno le puede emitir.
 
-Watch this short video for more information:
+Ver este vídeo para más información:
 <div class="video-container">
   <iframe src="https://player.vimeo.com/video/97150912" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  <p><a href="https://vimeo.com/97150912">What is ORCID?</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  <p><a href="https://vimeo.com/97150912">¿Qué es ORCID?</a> de <a href="https://vimeo.com/orcidvideos">ORCID</a> en <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>
 
-(cm-citable-orcid-why)=
-## Why You Should Get an ORCID
+(cm-citable-orcida-por qué)=
+## ¿Por qué debería obtener un ORCID
 
-ORCID allows you to provide a unique identity for your body of work independent of your name. It enables you to collect and others to find all your research work and related outputs so they can use and cite them.
+ORCID le permite proporcionar una identidad única para su cuerpo de trabajo independientemente de su nombre. Le permite recoger y otros para encontrar todo su trabajo de investigación y resultados relacionados para que puedan usarlos y citarlos.
 
-All your research objects with different DOIs will remain linked to your unique identifier even if you change your name or your institute. This way, you only have to enter the information once.
+Todos sus objetos de investigación con diferentes DOI permanecerán vinculados a su identificador único, incluso si cambia su nombre o su instituto. De esta manera, sólo tienes que introducir la información una vez.
 
-You can use ORCID to access or sign up to services that utilise ORCID, for example, publisher requirements, funding management portals ([ResearchFish](https://researchfish.com/)), the [CRIS (current research information system)](https://en.wikipedia.org/wiki/Current_research_information_system) at your institute and data repository like [Zenodo](https://zenodo.org).
+Puede utilizar ORCID para acceder o registrarse a servicios que utilizan ORCID, por ejemplo, requerimientos del editor, portales de gestión de fondos ([InvestigaciónFish](https://researchfish.com/)), el CRIS [(sistema de información de investigación actual)](https://en.wikipedia.org/wiki/Current_research_information_system) en su instituto y repositorio de datos como [Zenodo](https://zenodo.org).
 
-You can use your ORCID to your CV/resume so that anyone can have a look at all your research outputs. You can also use your ORCID profile to create a CV using \[ROpenSci package rorcid\](rorcid: https://github.com/ropensci/rorcid) as described [here](https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806).
+Puede utilizar su ORCID para su currículum vitae para que cualquiera pueda echar un vistazo a todos sus resultados de investigación. También puedes usar tu perfil ORCID para crear un CV usando \[ROpenSci package rorcid\](rorcid: https://github.com/ropensci/rorcid) como se describe [aquí](https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806).
 
-(cm-citable-orcid-use)=
-## Using ORCID
+(cm-citable-orcido-uso)=
+## Usando ORCID
 
-You can sign up very quickly here: [https://orcid.org/login](https://orcid.org/login). Once you have signed up and verified your email address you can start adding in your outputs by importing them through [trusted organisations](https://support.orcid.org/hc/en-us/articles/360006973893) and [search and link wizards](https://support.orcid.org/hc/en-us/articles/360006973653-Add-works-by-direct-import-from-other-systems)
+Puedes registrarte muy rápidamente aquí: [https://orcid.org/login](https://orcid.org/login). Una vez que te hayas registrado y verificado tu dirección de correo electrónico, puedes empezar a añadir tus salidas importándolos a través de [organizaciones de confianza](https://support.orcid.org/hc/en-us/articles/360006973893) y [asistentes de búsqueda y enlaces](https://support.orcid.org/hc/en-us/articles/360006973653-Add-works-by-direct-import-from-other-systems)
 
-You can use your ORCID ID whenever you’re prompted to do so, give your [trusted organisations](https://support.orcid.org/hc/en-us/articles/360006973893) (funders, publishers, institutions) permission to automatically update your ORCID record.
+Puedes usar tu ORCID siempre que te lo pidas, dale a tus [organizaciones de confianza](https://support.orcid.org/hc/en-us/articles/360006973893) (financiadores, permisos de editores, instituciones) para actualizar automáticamente su registro ORCID.

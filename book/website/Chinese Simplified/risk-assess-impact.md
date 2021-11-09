@@ -1,45 +1,45 @@
-# Risk assessment: complexity and impact
+# 风险评估：复杂性和影响
 
-We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment- Is this coffee too hot? Is there a bus coming? Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
+我们一直在使用风险评估。 有时，它们是确保某项活动安全的正式程序。 但大多数时候他们都想到了一会儿—— 这个咖啡太热了吗？ 是否有公共汽车来临？ 软件并不不同，使用下文所述的风险评估办法能够真正有助于使您的工作取得成功并具有可持续性。
 
-## The risk matrix
+## 风险矩阵表
 
-A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
+风险矩阵是一种非常流行的方法，用以量化您感兴趣的事情发生了什么。 一轴以某种方式测量暴露情况，另一轴则测量误差的影响。 就起源而言，为了使风险能够被接受，需要采取更多的保障措施。
 
 ```{figure} ../../figures/risk-matrix.png
 ---
-name: risk-matrix
-alt: Impact vs complexity risk matrix
----
-Impact vs complexity risk matrix
+名称：风险矩阵
+备选案文：撞击与复杂风险矩阵
+-
+撞击与复杂风险矩阵。
 ```
 
-In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
+在我们的情况下，我们将使用“复杂”和“撞击”作为两个轴。 一些案例研究说明了它如何工作…
 
-Case 1
+案例1
 
-> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. He pauses for a few seconds and asks:
+> Richard 需要向部门分组提交100个小型工作，这些工作的名称因简单的方式而异。 这种情况很糟，他想走出去玩耍。 因此，Richard 决定写一个简短的 shell 脚本来提交所有工作。 他暂停几秒钟并问：
 
-> How complicated is this? It’ll only be about 1 screen of text.
+> 这是多么复杂？ 只会有一个屏幕上的文本。
 
-> What’s if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails.
+> 如果出错，怎么办？ 作业将不会提交或运行，我会收到一些失败的电子邮件。
 
-> Here, Richard decides that both the complexity and impact of this tiny piece of software are low. Therefore, using version control and writing documentation is disproportionate right now. He decides to do a dry run by echoing the submit line to the terminal so he can give it a quick check.
-> A few weeks later, someone else in the lab wants to do the same thing. Richard offers his script as it worked quite well for him. The goalposts have moved. Richard pauses for a few more seconds to and reassesses the risk…
-> …5 years later, Richard’s script has evolved into a large workflow control system allowing several universities to manage complex workflows  consisting of 1000’s of jobs being submitted to a range of different compute resources. The software now has a formal project board that sets the governance and direction of the software, ensuring that it is sustainable and meets the needs of the 100s of users worldwide.
+> 在此，Richard 决定，这一小软件的复杂性和影响都很低。 因此，现在使用版本控制和书面文件是不相称的。 他决定干一次干燥的操作，重复提交的线路到终端，以便他能够快速检查。
+> 几周后，实验室中的其他人想要做同样的事情。 理查德·瑞安提出了他的脚本，因为它对他非常有效。 目标已移动。 Richard 暂停几秒钟并重新评估风险…
+> …5年后 Richard的脚本已经发展成为一个大型的工作流控制系统，允许几所大学管理复杂的工作流，包括提交给各种不同的计算机资源。 软件现在有一个正式的项目委员会，负责确定软件的管理和方向。 确保其可持续性，并满足全世界100个用户的需要。
 
-Case 2...
+案例2...
 
-> Jemma has a problem with visualising some data. The usual library can’t cope with the format her data. She’s heard about Seth’s Friday afternoon project where he’s written a wrapper around this library to solve what seems to be the same problem. They have a coffee and decide to work together. During this coffee, they make some decisions about how they’re going to work successfully together- this is their risk assessment. Seth agrees to go away and improve the inline documentation and add some use case examples before sharing. Jemma agrees to set up a repository into which Seth will put the code.
+> Jemma在可视化某些数据时遇到问题。 通常的资料库无法处理她的数据格式。 她听到Seth星期五下午的项目，他在这个库周围写了一个包装器来解决似乎相同的问题。 他们有咖啡，决定一起工作。 在这个咖啡期间，他们就如何成功地一起工作做出了一些决定——这是他们的风险评估。 Seth同意离开并改进内联文档，并在分享之前添加一些使用案例示例。 Jemma同意建立一个仓库，Seth将把代码放进这个仓库中。
 
-> Over time, more people start to make use of this software, with feature requests adding complexity and changes in the underlying library causing breakages. Jemma and Seth agree that things are getting a bit risky because the impact of wrong results might cause problems with publishing results. They therefore introduce continuous integration tests and a review process to ensure things remain sustainable.
+> 随着时间的推移，更多的人开始使用这个软件，功能要求增加复杂性和对基础图书馆的更改，造成故障。 Jemma和Sath也认为事情有点危险，因为错误结果的影响可能会导致发布结果的问题。 因此，它们引入了持续的一体化测试和审查进程，以确保情况仍然可以持续。
 
-The key point of these case studies is that every piece of software has different needs to be sustainable, and these requirements can change over time. The use of version control, testing, documentation and other sustainability concepts are useful for managing risk. Using none of these tools leaves your software exposed to things going wrong, but using all of them from the outset can get in the way of innovation. The risk assessment approach helps you find the right balance for now. Revisit the topic once in a while, or when something circumstances change.
+这些案例研究的要点是，每一种软件都有不同的需要是可持续的。 而且，这些要求可能随着时间的推移而变化。 使用版本控制、测试、文件和其他可持续性概念有助于管理风险。 使用所有这些工具都不会让您的软件出现错误。 但从一开始就使用所有这些技术可以阻碍创新。 风险评估方法有助于您找到目前的适当平衡。 在一段时间内或在情况发生变化时重新查看主题一次。
 
-## More about measuring complexity
+## 更多关于测量复杂度
 
-One measure of complexity is line count. The more lines you have the more places there are to make a mistake. However, there are other things one might care about. How many libraries do you depend on? How many functions are there? All of these measure the complexity of the codebase. Complexity can take other forms too. How many use cases are there? Does your blob counting software only get used for counting blobs in the biosciences? Are there people using it to count blobs in CCTV images? What types of computer are people using it on? CPU? GPU? Raspberry Pi? Take a broad view of your software.
+衡量复杂性的一个尺度是直线。 你有越多的地方会犯错误. 然而，我们还可以注意其他问题。 您依赖多少库？ 有多少功能？ 所有这些都衡量了代码段的复杂性。 复杂性也可以采取其他形式。 有多少个使用案例？ 您的博客计数软件是否仅用于计算生物科学中的博客？ 是否有人使用它来计算闭路电视图像中的博客？ 使用计算机的人是什么类型的？ CPU？ GPU？ 树莓派？ 对您的软件进行广泛浏览。
 
-## More about measuring impact
+## 更多关于测量影响
 
-What happens when (not if) your software doesn’t work? Sometimes, it just annoys you for a few minutes. However, other software going wrong can have huge consequences- the retraction of your seminal paper or even lives being lost. Measuring the impact requires good knowledge of what your software is being used for. It can sometimes be difficult to keep track of this until things go wrong. However, one can try to head this off at the pass by asking questions like ‘is this piece of software I use for the analysis in my paper any good?’. Again, take a broad view of your software.
+当您的软件不能工作时发生了什么事(而不是什么)？ 有时候，它只是为你讨厌几分钟。 然而，其他出现错误的软件可能会产生巨大的后果——你的开创性文件会被撤回，甚至生命会丧失。 衡量影响需要很好地了解你的软件正在用于什么目的。 在事情发生之前，有时很难追踪到这一点。 然而，仍然存在着这种情况。 人们可以通过问“我用这个软件在我的纸上进行分析是否有任何好东西”等问题来试图将这个问题摆在旁边？ 同样，对你的软件也持宽泛的看法。

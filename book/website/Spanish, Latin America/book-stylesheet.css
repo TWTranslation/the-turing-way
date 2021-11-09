@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------*\ 
 
-This file contains the CSS that handles styling across the entire book.
-Use the classes defined here to control the look of HTML elements in your contribution.
+Este archivo contiene el CSS que maneja el estilo en todo el libro.
+Utilice las clases definidas aquí para controlar el aspecto de los elementos HTML en su contribución.
 
-If you add new styles, remember explain what it does as shown below. 
+Si añade nuevos estilos, recuerde explicar qué hace como se muestra a continuación. 
 
-Index
-  - Styling for Table of Contents
-  - Styling for Embedded Videos
+Índice
+  - Estilo para la tabla de contenidos
+  - Estilo para Vídeos Incrustados
 
 \*--------------------------------------------------------------------*/ 
 
 /*--------------------------------------------------------------------*\ 
-Styling for Table of Contents 
+Estilo para la tabla de contenidos 
 
-- Ensures that menu items in the table of contents are big enough for readers
+- Asegura que los elementos del menú en la tabla de contenidos sean lo suficientemente grandes para los lectores
 
 \*--------------------------------------------------------------------*/ 
 
@@ -24,40 +24,40 @@ Styling for Table of Contents
 
 /*--------------------------------------------------------------------*\
 
-Styling for Embedded Videos (iframes) 
+Estilo para Videos Incrustados (iframes) 
 
-- Ensures that videos can resize to suit the screen the book is read from.
-- Also ensures that videos are horizontally centered.
+- Asegúrate de que los vídeos pueden cambiar el tamaño para adaptarse a la pantalla de la que se lee el libro.
+- También se asegura de que los vídeos se centren horizontalmente.
 
 \*--------------------------------------------------------------------*/ 
 
-.video-container {
-  position: relative;
+.videocontenedor {
+  posición: relativo;
   padding-bottom: 56.25%;
   padding-top: 35px;
-  height: 0;
+  altura: 0;
   overflow: hidden;
 }
 
-.video-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
+.videocontenedor iframe {
+  posición: absoluto;
+  arriba:0;
+  izquierda: 0;
   width: 100%;
-  height: 100%;
+  altura: 100%;
 }
 
 iframe {
-  margin: auto;
+  margen: auto;
   display:block;
 }
 
 /*--------------------------------------------------------------------*\
 
-Styling for Tables
+Estilo para mesas
 
-- Improves styling of tables over the default Markdown standard
-- Adds borders to tables, and allows a rows to be highlighted when hovered
+- Mejora el estilo de las tablas sobre el estándar de Markdown predeterminado
+- Añade bordes a las tablas, y permite que una fila sea resaltada al pasar el cursor
 
 \*--------------------------------------------------------------------*/ 
 
@@ -68,21 +68,21 @@ th, td {
 }
 
 th {
-  font-weight: bold; 
-  background-color: #EEEEEE;
+  font-weight: negrita; 
+  fondo-color: #EEEE;
 }
 
-table caption {
-  color: black; 
+título de tabla {
+  color: negro; 
   text-align: center;
 }
 
-table caption .footnote {
+título de tabla .footnote {
   color: #666666; 
-  text-align: left; 
-  font-size: smaller;
+  alineación de texto: izquierda; 
+  tamaño de fuente: más pequeño;
 }
 
 tr:hover {
-  background-color: #f7f7f7;
+  color de fondo: #f7f7f7f7;
 }

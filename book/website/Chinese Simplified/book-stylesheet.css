@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------*\ 
 
-This file contains the CSS that handles styling across the entire book.
-Use the classes defined here to control the look of HTML elements in your contribution.
+此文件包含 CSS 处理整个书的样式。
+使用这里定义的类来控制您贡献中的 HTML 元素的外观。
 
-If you add new styles, remember explain what it does as shown below. 
+如果您添加了新样式，请记住解释如下所示。 
 
-Index
-  - Styling for Table of Contents
-  - Styling for Embedded Videos
+索引
+  - 目录样式
+  - 嵌入式视频的样式
 
 \*--------------------------------------------------------------------*/ 
 
 /*--------------------------------------------------------------------*\ 
-Styling for Table of Contents 
+目录样式 
 
-- Ensures that menu items in the table of contents are big enough for readers
+- 确保目录中的菜单项足够阅读器
 
 \*--------------------------------------------------------------------*/ 
 
@@ -24,65 +24,65 @@ Styling for Table of Contents
 
 /*--------------------------------------------------------------------*\
 
-Styling for Embedded Videos (iframes) 
+嵌入式视频(帧) 的样式 
 
-- Ensures that videos can resize to suit the screen the book is read from.
-- Also ensures that videos are horizontally centered.
+- 确保视频可以调整大小以适应书读取的屏幕。
+- 还确保横向检查视频。
 
 \*--------------------------------------------------------------------*/ 
 
-.video-container {
-  position: relative;
+.video-container
+  立场：相对；
   padding-bottom: 56.25%;
   padding-top: 35px;
-  height: 0;
+  高度：0；
   overflow: hidden;
 }
 
-.video-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
+.video-container iframe
+  立场：绝对不变；
+  顶部：0；
+  左：0；
   width: 100%;
-  height: 100%;
+  高度：100%；
 }
 
 iframe {
-  margin: auto;
-  display:block;
+  边距：自动；
+  显示 :block;
 }
 
 /*--------------------------------------------------------------------*\
 
-Styling for Tables
+表格样式
 
-- Improves styling of tables over the default Markdown standard
-- Adds borders to tables, and allows a rows to be highlighted when hovered
+- 在默认Markdown 标准上提高表格样式
+- 在表格中添加边框，并允许悬停时高亮显示行
 
 \*--------------------------------------------------------------------*/ 
 
 th, td {
-  border: 1px solid #999999 !important; 
+  边界: 1px soly #999999 !important; 
   text-align: center; 
   padding: 10px
 }
 
-th {
-  font-weight: bold; 
-  background-color: #EEEEEE;
+英雄省
+  字体重：粗体； 
+  背景颜色： #EEEEE;
 }
 
-table caption {
-  color: black; 
+表格标题*
+  颜色：黑色； 
   text-align: center;
 }
 
-table caption .footnote {
-  color: #666666; 
-  text-align: left; 
-  font-size: smaller;
+表格标题.脚注。
+  颜色： #66666666； 
+  文本对齐：左； 
+  字体大小：小；
 }
 
 tr:hover {
-  background-color: #f7f7f7;
+  背景颜色： #f7f7f7;
 }

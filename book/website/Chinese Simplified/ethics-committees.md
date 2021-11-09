@@ -1,99 +1,99 @@
-(er-committees)=
-# Research Ethics Committees Processes
+(a-committees)=
+# 研究道德操守委员会进程
 
-Research ethics committees (RECs), also known as institutional review boards (IRBs), exist within institutions to scrutinise the ethical implications of their research projects. RECs have historically focused on projects that involve human participants, meaning that they often prioritise the well-being of those directly involved in research projects. RECs are also a useful mechanism for the mitigation of reputational damage for their institutions, as they can ensure that research is conducted within the law. Further, RECs are well-positioned to improve the state of scientific inquiry. This is because they can provide ethical oversight to expert researchers who do not have sufficient experience or capacity to deeply reflect on the ethical questions their work raises. This is not to liberate the researcher of their ethical responsibilities -- ultimately, they make the decisions as to how to conduct their work -- but to provide support in respect to these questions. Whilst there is a great deal of complexity involved in holding individuals accountable in scientific projects, this chapter assumes that RECs seek to improve how science is conducted at large.
+各机构内设有研究道德委员会，又称机构审查委员会，负责审查其研究项目的道德影响。 区域经济共同体历来侧重于涉及人类参与者的项目，这意味着它们往往把直接参与研究项目者的福利放在优先地位。 区域经济共同体也是减轻其机构名誉损害的有用机制。 它们能够确保在法律范围内进行研究。 此外，区域经济共同体完全有能力改善科学调查的状况。 这是因为他们能够对没有足够经验或能力深入思考其工作引起的道德问题的专家研究人员进行道德监督。 这并不是为了使研究人员最终摆脱他们的道德责任。 它们就如何开展工作作出决定，但在这些问题上提供支持。 尽管在科学项目中追究个人责任涉及许多复杂因素， 本章假定区域经济共同体设法改进整个科学的进行方式。
 
-There are many ways a research ethics committee might organise itself. One common approach is to provide a form for all projects conducted at their institution to undergo ethical appraisal. Below, we propose five headline questions that an ethics committee might want to know about. For each headline question, we provide:
-1. Justification as to why it is important (why we suggest these headline questions to RECs), and
-2. Certain considerations a researcher might make when preparing a response (what applicants should consider when reflecting on these points).
+有许多方法可以由一个研究道德委员会自行组织起来。 一种共同的办法是提供一种表格，供其所在机构开展的所有项目接受道德评价。 下面我们提出五个要点，一个道德操守委员会可能想知道这些问题。 对于每个标题问题，我们提供：
+1. 说明为何重要（为什么我们向区域经济共同体提出这些标题问题）；
+2. 研究人员在编写答复时可能提出的某些考虑因素(申请者在思考这些问题时应考虑哪些因素)。
 
-The suggestions we provide are by no means exhaustive and each research project is a world of its own, but the below can help embed ethical reasoning in scientific work.
+我们提出的建议绝非详尽无遗，每个研究项目都是自己的世界。 但下文可有助于将伦理学推理纳入科学工作。
 
-The five headline questions relate with the following topics:
-1. Project Description
-2. Data and Methodology
-3. Consent
-4. Privacy and Security
-5. Further Societal Consequences
+五个标题问题涉及以下专题：
+1. 项目描述
+2. 数据和方法
+3. 同意
+4. 隐私和安全
+5. 进一步的社会后果
 
-## Project Description
-> Please describe your project's goal and purpose.
+## 项目描述
+> 请说明你的项目的目标和目的。
 
-**Justification.** RECs will need to know what your project is about, what it is looking to achieve and why it matters. RECs need to understand what a project entails to consider its ethical implications.
+**理由。** REC需要知道你的项目是什么，它正在寻求实现什么以及它为什么重要。 区域经济共同体需要了解一个项目需要什么来考虑其对道德的影响。
 
-**Responding to this question** is an opportunity to share the benefits that your work strives for. This question can generally be responded to with what was written about the project in its successful grant proposal. It is just worth making sure that past descriptions of the project are updated with new information, as projects can change quickly.
+**回答这个问题** 是分享你的工作所带来的好处的机会。 这个问题一般可以用成功的赠款提案中关于项目的书面材料来解决。 由于项目能够迅速变化，所以应该确保以往对项目的描述有新的信息更新。
 
-A more robust response to this question will also explain how the project fits within the wider goals, challenges, and objectives of your institution. In the case of charities, reference to your institution's "charitable objects" will be important. See [GOV.UK](https://www.gov.uk/government/publications/example-charitable-objects) for example charitable objects.
+对这一问题的更强有力的答复也将解释该项目如何符合贵机构更广泛的目标、挑战和目标。 就慈善机构而言，提及贵机构的“慈善物品”是很重要的。 例如，见 [GOV.UK](https://www.gov.uk/government/publications/example-charitable-objects)。
 
-To respond to this question, provide:
-1. Detailed objectives of your project;
-2. A clear description of the scientific question being responded to;
-3. A clear motivation for answering your project's question;
-4. An explanation as to how your project aligns with your institution's strategic values and aims.
+2. 为答复本问题，提供：
+1. 您的项目的详细目标；
+2. 清楚地描述正在回答的科学问题；
+3. 回答你的项目问题的明确动机；
+4. 说明你的项目如何符合你的机构的战略价值和目标。
 
-## Data and Methodology
-> Please explain what data you will use and why. Please explain how you will use these data.
+## 数据和方法
+> 请解释您将使用哪些数据以及原因。 请解释如何使用这些数据。
 
-**Justification.** Some ethical questions that arise throughout a project will relate with the data and the research methods used. For example, the data employed may be filled with ["missing data sets"](https://github.com/MimiOnuoha/missing-datasets), and the methodology can be problematic if built on unchecked assumptions.
+**理由。** 整个项目中出现的一些伦理问题将与所使用的数据和研究方法有关。 例如，所使用的数据可能被填充了 ["缺失数据集"](https://github.com/MimiOnuoha/missing-datasets), 而且，如果以未加制约的假设为基础，方法可能会有问题。
 
-**Responding to this question** requires describing the project's data and methodology in a detailed manner. Justification must also be provided as to *why* the outlined data are necessary and the described methodology is the best for the job.
+**回答这个问题** 需要详细描述项目的数据和方法。 还必须说明 *为什么需要* 概述的数据，而所描述的方法对工作来说是最好的。
 
-A more robust response to this question will describe how the data will be managed for the purpose of the methodology described. To this effect, it is advisable to share a data management plan. It is also helpful to describe how the data and methodology will be made available to other researchers.
+对这一问题的更强有力的答复将说明如何为所述方法的目的管理数据。 为此，最好分享一个数据管理计划。 说明如何向其他研究人员提供数据和方法也是有益的。
 
-Therefore, responding to this question requires providing:
+因此，对这一问题的答复需要提供：
 
-1. Detail about the data and methodologies you will employ;
-2. Justification for the choice of data and methodologies;
-3. Reference to a data management plan -- consider the [Research Data Management chapter](https://the-turing-way.netlify.app/reproducible-research/rdm.html);
-4. Explanation as to how your chosen tools and methods allow for reproducible research -- consider the benefits listed in the [Added Advantages](https://the-turing-way.netlify.app/reproducible-research/overview/overview-benefit.html?highlight=method) subchapter.
+1. 详细说明您将使用的数据和方法；
+2. 选择数据和方法的理由；
+3. 参考数据管理计划 — — 审议 [研究数据管理章节](https://the-turing-way.netlify.app/reproducible-research/rdm.html);
+4. 解释您选择的工具和方法如何允许可复制的研究 — — 考虑 [增加的优势](https://the-turing-way.netlify.app/reproducible-research/overview/overview-benefit.html?highlight=method) 小章中列出的好处。
 
-## Consent
-> How will you ensure any personal data collected for your research is done so with freely-given informed consent?
+## 同意
+> 您将如何确保为您的研究收集的任何个人数据都是在获得自由知情同意的情况下进行的？
 
-**Justification.** The purpose of ensuring consent for the collection, use or reuse of personal data is to respect the autonomy of individuals and operate in line with pertinent legislation. It is also an important concept enshrined in law. In the General Data Protection Regulation (GDPR), for example, *consent* is defined as:
-> “any freely given, specific, informed and unambiguous indication of the data subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her" ([ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/what-is-valid-consent/))
+**说明理由。** 确保征得各方同意的目的， 个人资料的使用或再利用是为了尊重个人的自主权，并根据相关立法行事。 它也是庄严载入法律的一个重要概念。 例如，在《一般数据保护条例》中， *同意* 被定义为：
+> “对数据主体的任何自由的、具体的、知情的和明确的表示， 1. 通过一项声明或一项明确的扶持行动， 表示同意处理与其相关的个人资料”([ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/what-is-valid-consent/))
 
-**Responding to this question** entails reflection on how data are sourced -- where they come from and who they pertain to. Setting the legal discussions aside, this question requires following one of two approaches:
-1. If employing data that is readily available (perhaps online or provided by a third party), it is important we understand the terms and conditions whereby those data are made available. The point here is to confirm that the data will be used following the purpose for which they were collected. In this respect, a useful subchapter in *The Turing Way* is that of [Data Licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html?highlight=licen), which outlines different ways online data might be held.
-2. If gathering new data through experiments with human research subjects, both participant information sheets (PISs) and consent forms must be issued. On the one hand, participant information sheets provide research participants with all the information they need to know about taking part in the study. On the other hand, consent forms summarise the participant information sheet and provide a section for the potential participant to record their acceptance of the conditions. The consent form, in particular, should provide contact details for participants to reach out to the research team or institution (depending on internal processes) should they have any queries or concerns about the study in the future. The UK Data Service offer templates of both documents [online](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing/consent-forms): individual institutions often also make templates available for their researchers.
+**回答这个问题** 需要思考如何来源数据——数据来自何处以及它们涉及谁。 将法律讨论搁置一边，这个问题需要采取两种办法中的一种：
+1. 如果使用现成的数据（也许在线或由第三方提供）， 我们必须理解提供这些数据的条件。 这里的要点是确认数据将按照收集的目的使用。 在这方面， *有一个有用的子章节* 是 [数据许可](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html?highlight=licen)， 它概述了各种不同的网上数据。
+2. 如果通过对人类研究对象的实验来收集新的数据，就必须颁发参与者信息表和同意表。 一方面，参与者信息介绍为研究参与者提供他们需要了解的关于参与研究的所有信息。 另一方面， 表示同意的表格概述了参与者的情况介绍，并为潜在参与者记录其接受条件的情况提供了一节。 特别是同意的形式 如果学员今后对研究有任何疑问或关切，应向研究小组或机构（视内部程序而定）提供联系细节。 联合王国数据服务处提供两个文档的模板 [在线](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing/consent-forms): 个别机构也常常为其研究人员提供模板。
 
-## Privacy and Security
-> How will you ensure that any sensitive information your project uses is kept secure and made accessible only to pertinent members of the research team?
+## 隐私和安全
+> 您将如何确保您的项目使用的任何敏感信息都是安全的，并且只能提供给研究小组的相关成员？
 
-**Justification.** Privacy is a fundamental human right (see this [draft chapte](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) for *The Turing Way* for more on human rights). Therefore, it is critical that projects be conducted in a way that respects privacy.
+**说明理由。** 隐私权是一项基本人权(见 [本章草案](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) *关于更多关于人权的诱惑方式* 关于人权)。 因此，必须以尊重隐私的方式开展项目。
 
-**Responding to this question** might require a review of your institution's internal policies. When handling personal data in particular, your institution might already have a data policy in place, as well as a process to conduct a data protection impact assessment (see [the ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/) for more details). Some funders also have policies for handling data collected or used in the course of research that they fund. Your institution may also have a secure IT infrastructure for the storage of data, as well as to ensure correct levels of access. It is worth asking if there are such policies and processes in your institution.
+**回答这个问题** 可能需要审查您的机构的内部政策。 特别是在处理个人资料时，您的机构可能已经制定了数据政策。 以及进行数据保护影响评估的过程(详情请参阅 [ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/))。 一些供资者还制定了处理在其资助的研究过程中收集或使用的数据的政策。 贵机构还可能有安全的信息技术基础设施来储存数据，并确保正确的存取水平。 值得问的是，贵机构中是否有这种政策和程序。
 
-In the case of using personal data, it is also worth noting if any method for making data anonymous will be employed. For more details on anonymisation, see [this subchapter](https://github.com/alan-turing-institute/the-turing-way/pull/1579) of *The Turing Way*.
+在使用个人数据的情况下，还值得注意的是，是否会使用任何使数据匿名的方法。 欲了解更多有关地名的详细信息，请参阅 [此小章](https://github.com/alan-turing-institute/the-turing-way/pull/1579) *Ting ways*。
 
-In either case, data security doesn't apply only to personal data. Consider, for example, a project conducted with a government body that holds certain information that musn't be released, or a firm providing you with proprietary code. Ultimately, this is a broad question that requires that we:
+在这两种情况下，数据安全不仅仅适用于个人数据。 例如，考虑到与一个政府机构一起进行的一个项目，该机构持有某些不可公布的信息， 或提供您的专有代码的事务所。 最后，这是一个广泛的问题，要求我们：
 
-1. Describe any privacy concerns and share institutional processes followed in this regard (for example, a data protection impact assessment);
-2. Explain what standards will be used if any anonymisation is conducted;
-3. Explain how data will be stored and kept secure (this can be drawn from your [data management plan](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html))
-4. Consider asking if your institution provides a secure IT environment (an example of this is the Alan Turing Institute's [Data Safe Haven](https://www.turing.ac.uk/research/research-projects/data-safe-havens-cloud))
+1. 描述这方面的任何隐私关注和分享体制程序(例如数据保护影响评估)；
+2. 解释如果进行任何地名化，将采用何种标准；
+3. 解释数据如何存储和保持安全 (这可以从您的 [数据管理计划](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp.html) 中提取)
+4. 请问您的机构是否提供了安全的IT环境(这方面的例子是艾伦·托普研究所 [数据安全港](https://www.turing.ac.uk/research/research-projects/data-safe-havens-cloud))
 
-## Further Societal Consequences
-> Please describe both positive and negative potential societal consequences of your work.
+## 进一步的社会后果
+> 请描述你们工作可能产生的积极和消极的社会后果。
 
-**Justification.** This question relates with the six dimensions of research ethics provided in [*Guide for Ethical Research*](https://the-turing-way.netlify.app/ethical-research/ethics-intro.html). The question acknowledges that research is not conducted in a vacuum but in a social world it can deeply impact. To this effect, the question should be treated in the broadest sense by considering the impact on the researchers involved, the natural environment, society at large and scientific communities in particular.
+**理由说明** 这个问题涉及研究伦理学的六个方面，载于 [*伦理研究指南*](https://the-turing-way.netlify.app/ethical-research/ethics-intro.html)。 这个问题承认，研究不是在真空中进行的，而是在一个社会世界中进行的，它能够产生深刻的影响。 为此，应从最广泛的意义上处理这个问题，考虑到对所涉研究人员的影响。 自然环境、整个社会，特别是科学界。
 
-**Responding to this question** means providing two blocks of information:
-1. The (societal, environmental and personal) risks involved in the project, and
-2. The measures put in place to mitigate these risks.
+**回答这个问题** 意味着提供两个信息块：
+1. 该项目所涉及的（社会、环境和个人）风险，
+2. 为减轻这些风险而采取的措施。
 
-The first point requires further reflection on the myriad of topics already outlined in the previous four questions (recall how methodology and data collection practices might raise ethical questions), as well as careful consideration about the potential risks of your project's output.
+第一点需要进一步思考前四个问题中已经概述的各种议题（回顾方法和数据收集做法如何可能引起道德问题）。 并认真考虑您的项目产出的潜在风险。
 
-The second point relates with the actions taken to *mitigate* identified risks. It is not sufficient, in other words, to describe what might go wrong -- it is necessary to explain how risks will be reasonably avoided.
+The second point relates with the actions taken to *mitigate* identified risks. 换言之，仅仅描述可能出现的错误是不够的——必须解释如何合理地避免风险。
 
-There are two further considerations worth making when responding to this question. On the one hand, how will the project benefit fellow scientists? This question, in turn, can be met by two courses of action. Firstly, consider how your work will be made openly accessible by following the [FAIR principles](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html?highlight=research%20cycle). Secondly, describe how your work might be used for *further* responsible research and innovation.
+在回答这个问题时，还有两个值得考虑的问题。 一方面，该项目将如何使其他科学家受益？ 反过来，这个问题也可以通过两种行动方案来解决。 首先，考虑如何按照 [FAIR principles](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html?highlight=research%20cycle) 来公开您的工作。 第二，描述您的工作可能如何用于 *进一步* 负责任的研究和创新。
 
-On the other hand, it is worth recapitulating the points made in section one. In other words, remind the REC of the benefits that are expected of your work. This is not to "counter" risks -- the safeguards described should do that. The point here is to show that ethical reflection is embedded in your project.
+另一方面，应当重述第一节中提出的各点。 换言之，提醒REC注意您的工作应带来的好处。 这并不是“反”风险——所述保障措施应该这样做。 这里的要点是显示你的项目中包含的伦理反思。
 
-## General suggestions for ethics applications
-Focusing on how to respond to each broad question, we can summarise the advice provided as follows:
-1. Be detailed in your responses -- the more the REC knows, the easier it is for them to consider a project's ethical implications.
-2. Use other documents about your project to provide information to RECs. Although documentation may need updating, using other relevant documents can make this process more straightforward. Such documents might be grant proposals, data management plans, data protection impact assessments...
-3. Find ethical resources that are relevant to your project. Scientific projects can be diverse in object of study. Numerous ethics frameworks have been made available over the years. A well-established framework in data science is that of the [five safes](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes), for example. A comprehensive resource for the governance of articifial intelligence is [*Understanding artificial intelligence ethics and safety*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf). A much more specific framework has been developed for the wellbeing of researchers exposed to abusive online content: [*Guidelines for researchers working with abusive content*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
+## 关于道德操守应用的一般性建议
+我们将重点放在如何对每一个广泛问题作出反应上，可以总结以下意见：
+1. 请在您的答复中详细说明——REC越知道他们就越容易考虑项目对伦理的影响。
+2. 使用您的项目的其他文档向REC提供信息。 虽然文件可能需要更新，但使用其他有关文件可以使这一过程更加直截了当。 这类文件可能是赠款建议、数据管理计划、数据保护影响评估……
+3. 找到与您的项目相关的伦理资源。 科学项目的研究对象多种多样。 多年来提供了许多道德操守框架。 例如，数据科学的一个完善的框架是 [五个保险箱](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes)。 管理艺术家情报的一个全面资源是 [*了解人造情报道德和安全*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) 为暴露在滥用网上内容的研究人员的福祉制定了一个更加具体的框架： [*研究滥用内容的研究人员指南*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
 
-***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

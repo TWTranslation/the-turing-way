@@ -1,56 +1,56 @@
 (cm-blogs-personal-stories)=
-# Personal Stories - Blogs
+# 个人故事 - 博客
 
-## Veronika Cheplygina: Writing a Successful Blog Series
+## Veronika Cheplygina: 撰写成功的博客系列
 
-**Dr Veronika Cheplygina** is an Associate Professor at the IT University Copenhagen. Veronika strives to make science more open and inclusive.
+**Veronika Cheplygina博士** 是哥本哈根信息技术大学的副教授。 Veronika努力使科学更加开放和更具包容性。
 
-You can find out more about her work from the links below:
-* Personal website: [veronikach.com](https://veronikach.com/)
+您可以从下面的链接中找到更多关于她工作的信息：
+* 个人网站： [veronikach.com](https://veronikach.com/)
 * Twitter: [@DrVeronikaCH](https://twitter.com/DrVeronikaCH)
 * ORCID: [0000-0003-0176-9324](https://orcid.org/0000-0003-0176-9324)
 
-We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
+我们要感谢 **Veronika Cheplygina** 博士回答了我们的访谈问题，她的博客系列非常成功，名为 ['我如何失败'](https://veronikach.com/failure/)。
 
-## 1. Why did you start your blog?
+## 1. 您为什么要开始博客？
 
-Very originally (during university) I wanted to have a blog because I was interested in setting it up, and not actually in writing anything. I did try to write some awkward posts, but felt mostly embarrassed about them and ended up deleting them. Only during my PhD/postdoc, I think, I started writing more frequently, mostly updates about my work, exploring productivity tools, and failures.
+最初(大学期间)我想要一个博客，因为我有兴趣设置博客，而不是写任何文章。 我确实试图写一些令人尴尬的帖子，但是大多感到困惑不解，最终将其删除。 我想，只是在我的博士/博士后期间，我才开始更频繁地撰写，大部分是关于我工作的最新情况、探索生产率工具和失败的情况。
 
-## 2. How did you get started?
+## 2. 您是如何开始的？
 
-As described above it was quite gradual, the first blog I set up, I programmed in PHP myself (and it had lots of bugs). Then I switched to a free WordPress blog and then installed WordPress on my website. As for writing on the blog, when I did start to write more, I made it a habit to write (for example) once a week, and it became more natural after a while. Also, it became more clear what is really "my" topics to write about, or not. The CV of Failures I shared during my postdoc resonated, and that later turned into the How I Fail series.
+如上文所述，这是我建立的第一个博客，我自己编程了PHP（并且有大量漏洞）。 然后我切换到免费的 WordPress 博客，然后在我的网站上安装 WordPress 。 至于在博客上撰写，当我开始写更多 我成了每周写一次（例如）的习惯，在一段时间后这种习惯变得更加自然。 此外，更加清楚的是，什么是真正的“我”主题要写还是不写。 我在后台分享的故障的CV会引起共鸣，后来变成了我的故障系列。
 
-## 3. What impact do you think your blog is making on your research/project/community?
+## 3. 你认为你的博客对你的研究/项目/社区有什么影响？
 
-It helps people to see stories by other real people, and relate to the issues that are discussed.
+它有助于人们看到其他真正的人的故事，并涉及所讨论的问题。
 
-## Can I just get you to expand on the impact question? Did your blog lead to more impact in a project, or perhaps got you more noticed to secure a job, or help build a community?
+## 我能让你在影响问题上扩展吗？ 您的博客是否会在一个项目中产生更大的影响，或者让您更加注意力地找到工作，或者帮助建立一个社区？
 
-Yes, I get noticed because people know me from my Twitter and blog, usually this translates into talk invitations. Last year when I announced I was leaving my tenure track, I also had a few suggestions for jobs, which in the end translated into my current (tenured) position.
+是的，我受到注意，因为人们从我的Twitter和博客中了解我，通常这转化为口头邀请。 去年，当我宣布离职时，我也提出了一些工作建议。 最终，我的现任（任期）职位转化为我当前（任期）职位。
 
-I am not sure there is an explicit community, but I do feel like I have a supportive community on Twitter. It has also resulted in some great projects, like the Avengers for Better Science workshop, which was funded by the Mozilla Foundation, or the Ten Simple Rules paper about Twitter.
+我不敢肯定有一个明确的社区，但我确实觉得我在Twitter上有一个支持的社区。 它还产生了一些伟大的项目，如“为了更好的科学”研讨会等。 这是由Mozilla 基金会或关于Twitter的10简单规则文件资助的。
 
-For the blog, I have a sense of what kind of person reads my blog, even if I have never met them. It's great to see the statistics for previous blog posts, and receive a thank you email or message once in a while.
+就博客而言，即使我从未遇到过博客，我也有感受那种人读过我的博客。 看到以前博客的统计资料很好，并且每次收到一次感谢您的电子邮件或消息。
 
 
-## 4. What tools/software do you use most to produce your blog?
+## 4. 您用什么工具/软件来制作您的博客？
 
-Primarily WordPress. I use Mailchimp to send out a newsletter (only if there are any new posts) and Canva if I make graphics (but usually I'm too lazy). WordPress shares my new posts to Twitter and LinkedIn.
+主要是WordPress。 我使用 Mailchimp 发送通讯(仅在有任何新的员额的情况下)，如果我制作图形的话请写Canva (但通常我过于松散)。 WordPress 分享我的新帖子到 Twitter 和 LinkedIn。
 
-## 5. Do you have any top tips for other people that might be interested in starting a blog?
+## 5. 您对其他可能有兴趣开始博客的人有什么顶级提示吗？
 
-Make it a habit to post something. Review your posts after a while to see what kind of tags/categories you seem to use more often, and which kind get more responses.
+让它成为一种习惯来发布一些东西。 一段时间后查看您的帖子，看看您看起来更经常使用哪种标签/类别，以及哪种类型的回应更多。
 
-## 6. Do you have any tips on things to avoid?
+## 6. 您在事情上有什么要避免的提示吗？
 
-Don't fall into the "X step simple formula for bloggers" which is optimized to create short content with lots of clicks. There are lots of types of "real" blogs that do not do this, and which have dedicated readers.
+不要落入“X步简单博客公式”中，该公式被优化以创建多次点击的短内容。 有许多类型的“实时”博客不做这件事，并且有专用的阅读器。
 
-## 7. Where do you see your blog going in the future?
+## 7. 您将来在哪里看到您的博客？
 
-It's been on the back burner a bit last year, so first of all I would like to get back to writing regularly. I'm also thinking about compressing some of the information into a book, for example, but I haven't quite decided on the format yet.
+去年有点落在后面，所以我首先想回头定期写信。 我还想把一些信息压缩成一本书，但我尚未就格式做出决定。
 
-## 8. Is there anything else that you want to share?
+## 8. 您想要分享的其他东西吗？
 
-It's like running, it's better to just start and go regularly, instead of waiting until you have professional shoes.
+它就像跑了，最好是经常开始，而不是等到你有专业鞋子。
 
-*This interview was conducted by Emma Karoune*
+*这次访谈是由Emma Karoune 进行的。*

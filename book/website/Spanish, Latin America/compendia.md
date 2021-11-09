@@ -1,54 +1,54 @@
-(rr-compendia)=
-# Research Compendia
+(rr-compendio)=
+# Compendia de Investigación
 
-## Prerequisite
+## Prerrequisito
 
-| Prerequisite                                    | Importance | Notes                                           |
-| ----------------------------------------------- | ---------- | ----------------------------------------------- |
-| {ref}`Version Control<rr-vcs>`            | Helpful    | Can be used to version the compendium           |
-| {ref}`Open Research<rr-open>`             | Helpful    | Components are part of the compendium           |
-| {ref}`Reproducible Environments<rr-renv>` | Helpful    | Can be used to make the compendium reproducible |
-| {ref}`Binder Hub<rr-binderhub>`           | Helpful    | Can be used to publish the compendium           |
-| {ref}`Make<rr-make>`                      | Helpful    | Can be used for automation in the compendium    |
+| Prerrequisito                                | Importancia | Notas                                                    |
+| -------------------------------------------- | ----------- | -------------------------------------------------------- |
+| {ref}`Control de versiones<rr-vcs>`    | Útil        | Se puede utilizar para versionar el compendio            |
+| {ref}`Abrir Investigación<rr-open>`    | Útil        | Los componentes son parte del compendio                  |
+| {ref}`Entornos Reproducibles<rr-renv>` | Útil        | Se puede usar para hacer el compendio reproducible       |
+| {ref}`Binder Hub<rr-binderhub>`        | Útil        | Se puede utilizar para publicar el compendio             |
+| {ref}`Hacer<rr-make>`                  | Útil        | Se puede utilizar para la automatización en el compendio |
 
 ## Summary
 
-A research compendium is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, meta data). The collection is created in such a way that reproducing all results is straightforward {cite:ps}`Nuest2017compendia,Gentleman2007statistical`.
+Un compendio de investigación es una recopilación de todas las partes digitales de un proyecto de investigación incluyendo datos, código, textos (protocolos, informes, cuestionarios, meta data). La colección se crea de tal manera que la reproducción de todos los resultados es directa {cite:ps}`Compendio Nuest2017,leman2007estadística`.
 
-This chapter has many prerequisites as it takes all digital components of a project together into a reproducible research package. That said: a research compendium can be constructed with minimal technical knowledge. The main purpose is that all elements of a project are published together, so a basic folder structure combining all components can be sufficient.
+Este capítulo tiene muchos requisitos previos, ya que reúne todos los componentes digitales de un proyecto en un paquete de investigación reproducible. Dicho esto, un compendio de investigación se puede construir con un conocimiento técnico mínimo. El propósito principal es que todos los elementos de un proyecto se publiquen juntos, por lo que una estructura de carpetas básica que combine todos los componentes puede ser suficiente.
 
 ```{figure} ../figures/research-compendium.jpg
 ---
 height: 500px
 name: research-compendium
-alt: An illustration showing a person churning a big machine that takes scientific information from multiple papers and gives one output of readable file.
+alt: Una ilustración que muestra a una persona queriendo una máquina grande que toma información científica de varios papeles y da una salida de archivo legible.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Motivation
+## Motivación
 
-A research compendium [{term}`def<Research Compendia>`] combines all elements of your project, allowing others to reproduce your work, and should be the final product of your research project. Publishing your research paper along with a research compendium allows others to access your input, test your analysis, and, if the compendium can be executed, rerun to assess the resulting output. This does not only instill trust in your research but can give you more visibility. Others may use your research in unexpected ways, some of which are discussed below (refer to section: {ref}`Using a research compendium<rr-compendia-using>`).
+Un compendio de investigación [{term}`def<Research Compendia>`] combina todos los elementos de tu proyecto, permitir a otros reproducir su trabajo, y debería ser el producto final de su proyecto de investigación. Publicar tu documento de investigación junto con un compendio de investigación permite a otros acceder a tu entrada, probar su análisis, y, si el compendio puede ser ejecutado, vuelva a ejecutar para evaluar la salida resultante. Esto no sólo infunde confianza en su investigación, sino que le puede dar más visibilidad. Otros pueden usar tu investigación de maneras inesperadas algunas de las cuales se discuten a continuación (consulte la sección: {ref}`Usando un compendio de investigación<rr-compendia-using>`).
 
-## Background
+## Fondo
 
-A research compendium at its most basic is a comprehensive set of files that combines all components of a project. This compendium can be downloaded and run locally to recreate the work done, or it can contain elements that allow it to be executed on a remote server. Executable research compendia aim to make the computational part of a scientific publication reproducible by providing all the building blocks available and give a description of how the user can execute the contained code.
-
-
-### Structure of a Research Compendium
-
-Three principles should be kept in mind when constructing a research compendium {cite:ps}`Marwick2018compendia`.
-
-- Files should be organized in a conventional folder structure;
-- Data, methods, and output should be clearly separated;
-- The computational environment should be specified.
-
-With these principles, a wide variety of compendia are possible. Let's start with the most basic version.
+Un compendio de investigación en su más básico es un conjunto completo de archivos que combina todos los componentes de un proyecto. Este compendio se puede descargar y ejecutar localmente para recrear el trabajo hecho, o puede contener elementos que le permiten ser ejecutado en un servidor remoto. Compendia de investigación ejecutable apunta a hacer que la parte computacional de una publicación científica se reproduzca proporcionando todos los bloques de construcción disponibles y dar una descripción de cómo el usuario puede ejecutar el código contenido.
 
 
-#### Basic Compendium
+### Estructura de un Compendio de Investigación
 
-A basic compendium follows these three principles. It separates data and methods into a conventional folder structure, and describes the computational environment in a designated file. Furthermore, any compendium should have a landing page in the form of a README document.
+Tres principios deben ser tenidos en cuenta al construir un compendio de investigación {cite:ps}`Marwick2018compendia`.
+
+- Los archivos deben organizarse en una estructura de carpetas convencional;
+- Data, métodos y salida deben estar claramente separados;
+- Se debe especificar el entorno computacional.
+
+Con estos principios es posible una amplia variedad de compendias. Empecemos con la versión más básica.
+
+
+#### Compendio básico
+
+Un compendio básico sigue estos tres principios. Separa los datos y los métodos en una estructura de carpetas convencional, y describe el entorno computacional en un archivo designado. Además, cualquier compendio debe tener una página de destino en forma de documento README.
 
 ```text
 compendium/
@@ -60,84 +60,85 @@ compendium/
 └── README.md
 ```
 
-#### Executable Compendium
+#### Compendio Ejecutivo
 
-The following folder can be considered an executable research compendium. It contains all the digital parts of the research project (code, data, text, figures) and all the information on how to obtain the results. The computing environment is described in the `Dockerfile`, the dependencies of files and how to automatically generate the results are described in the `Makefile`. Additionally we have a `README.md` describing what the compendium is about and a `LICENSE` file with info on how it can be used.
+La siguiente carpeta puede considerarse un compendio de investigación ejecutable. Contiene todas las partes digitales del proyecto de investigación (código, datos, texto, cifras) y toda la información sobre cómo obtener los resultados. El entorno de cómputo se describe en `Dockerfile`, las dependencias de archivos y cómo generar automáticamente los resultados se describen en el `Makefile`. Adicionalmente tenemos un `README. d` describiendo de qué trata el compendio y un archivo `LICENSE` con información sobre cómo se puede utilizar.
 
 ```text
-compendium/
-├── CITATION
-├── code
-│   ├── analyse_data.R
-│   └── clean_data.R
-├── data_clean
-│   └── data_clean.csv
-├── data_raw
-│   ├── datapackage.json
-│   └── data_raw.csv
-├── Dockerfile
-├── figures
-│   └── flow_chart.jpeg
-├── LICENSE
-├── Makefile
-├── paper.Rmd
-└── README.md
+compendio/
+→ CITACIÓN
+CITUDES (Codigo de tencia)
+(codigo de tencia)
+(t.). analyse_data.R
+(t.). Limpieza_datos.
+→ data_clean
+Ninguno: datos_clean.csv
+Ninguno: datos_raw
+tórax. son
+✫ ✓ Datos de data_raw.csv
+→ Dockerfile
+Ninguno: figuras
+diagrama. flow_chart. peg
+★ LICENSE
+✓ ★ Makefile
+→ → Papel.Rmd
+Ningunos: README.md
 ```
 
-#### Separating Methods, Data, Output
+#### Métodos separados, Data, Salida
 
-The principles of a research compendium state that it should clearly separate Methods, Data, and Output. Phrased differently, this means we should distinguish between three types of files and folders:
+Los principios de un compendio de investigación afirman que debe separar claramente Methods, Data y Salida. Dicho de forma diferente, esto significa que debemos distinguir entre tres tipos de archivos y carpetas:
 
-- **Read-only**: raw data (``data_raw\`), metadata (``datapackage.json`,`CITATION`)
-- **Human-generated**: code (`clean_data.R`, `analyse_data.R`), paper (`paper.Rmd`), documentation (`README.md`)
-- **Project-generated**: clean data (``data_clean\`, figures (``figures\`), other output
+- **Solo lectura**: datos crudos (``data_raw\`), metadatos (``datapackage.json`,`CITACIÓN`)
+- **Generado humanamente**: código (`clean_data.R`, `analyse_data.`), papel (`paper.Rmd`), documentación (`README.md`)
+- **Project-generated**: limpia datos (``data_clean\`, figuras (``figuras\`), otro resultado
 
-The examples mentioned here are not exhaustive and some may first be "human-generated" and at some point become "read-only" (for example a human may generate the data metadata `datapackage.json`, but once that is done it may become something not to be touched). In other words, whether a folder contains files in either of these categories, may depend on the life cycle of the project.
-
-
-### Creating a Compendium
-
-If you already use some of the tools in this book - such as version control, Makefiles, and/or reproducible environments - it may come naturally to you to create a research compendium. This is, because a version control repository can be a research compendium; A Makefile makes it executable; A reproducible environment makes it reproducible. To create a research compendium, we recommend to first think about *what the components of your project are* and create the folder structure accordingly. Use names for files and folders that make it easy for others to understand what they contain. It is a good idea to think about this early in the research process and start your project with the mindset that the output in the end is a research compendium rather than just a research paper.
+Los ejemplos mencionados aquí no son exhaustivos y algunos pueden ser "generados por el hombre" y en algún momento convertirse en "solo lectura" (por ejemplo, un humano puede generar el paquete de datos `de metadatos de datos. hijo`, pero una vez que se haga puede convertirse en algo que no se toque). En otras palabras, si una carpeta contiene archivos en cualquiera de estas categorías, puede depender del ciclo de vida del proyecto.
 
 
-### Publishing a Compendium
+### Creando un Compendio
 
-There are several options to publish a research compendium:
+Si ya utiliza algunas de las herramientas de este libro - tales como el control de versiones, Makefiles, y/o ambientes reproducibles - puede venir naturalmente a usted crear un compendio de investigación. Esto es, porque un repositorio de control de versiones puede ser un compendio de investigación; Un Makefile lo hace ejecutable; Un entorno reproducible hace que sea reproducible. Crear un compendio de investigación, Recomendamos primero pensar en *cuáles son los componentes de su proyecto* y crear la estructura de carpetas en consecuencia. Utilice nombres para archivos y carpetas que hagan más fácil que otros entiendan lo que contienen. Es una buena idea pensar en esto temprano en el proceso de investigación y comenzar su proyecto con la mentalidad de que el resultado final es un compendio de investigación en lugar de un simple documento de investigación.
 
-- On a versioning platform such as GitHub or GitLab (potentially with a link to Binder).
-- On a research archive such as Zenodo or the Open Science Framework (OSF).
-- As supplementary material of a paper publication.
 
-For examples, see the label/tag/community "research-compendium" (applied on GitHub, Zenodo, OSF) or as a fallback the term "research compendium" in the description (used on GitLab). For more info, see also [Research Compendium](https://research-compendium.science).
+### Publicando un Compendio
 
-In the future, the research compendium may even be the publication itself allowing peer review of the entire research project.
+Hay varias opciones para publicar un compendio de investigación:
+
+- En una plataforma de versiones como GitHub o GitLab (potencialmente con un enlace a Binder).
+- En un archivo de investigación como Zenodo o el Open Science Framework (OSF).
+- Como material complementario de una publicación en papel.
+
+Por ejemplo, vea la etiqueta/etiqueta/comunidad "research-compendium" (aplicada en GitHub, Zenodo, OSF) o como sustituto del término "compendio de investigación" en la descripción (usada en GitLab). Para más información, vea también [Compendio de Investigación](https://research-compendium.science).
+
+En el futuro, el compendio de investigación puede ser incluso la propia publicación que permite la revisión por pares de todo el proyecto de investigación.
 
 (rr-compendia-using)=
-### Using a Compendium
+### Usando un Compendio
 
-A research compendium can be used in several ways, including (but not limited to):
+Un compendio de investigación puede ser utilizado de varias formas, incluyendo (pero no limitado a):
 
-- Peer review: If peers can check what you have done, they can review it much more thoroughly.
-- Understanding research: If you really want to understand what someone has done in their research project, the research compendium is what you need to look at.
-- Teaching: Research compendia can be great examples to be used in teaching.
-- Reproducibility studies / repro hacks: A research compendium allows other researchers to attempt (and hopefully succeed) to redo your computations.
+- Revisión de pares: Si los pares pueden comprobar lo que han hecho, pueden revisarlo mucho más a fondo.
+- Entendida investigación: Si realmente quieres entender lo que alguien ha hecho en su proyecto de investigación, el compendio de investigación es lo que se necesita ver.
+- Enseñar: La compendia de investigación puede ser un buen ejemplo para ser utilizada en la enseñanza.
+- Estudios de reproducibilidad / hacks repro: Un compendio de investigación permite que otros investigadores intenten (y esperemos que tengan éxito) rehacer sus cálculos.
 
 
 ## Checklist
 
-To create a research compendium, follow these steps:
+Para crear un compendio de investigación, siga estos pasos:
 
-- Think about a good folder structure (see example above)
-- Create folder structure (main directory and sub directories)
-- Optional: Make the compendium into a git repository
-- Add all files needed for reproducing the results of the project
-- Try to have the compendium as clean and easy to use as possible when you advertise it for others to use
-- Optional: Have a peer check the compendium and see if it works correctly
-- Publish your compendium
+- Piensa en una buena estructura de carpetas (ver ejemplo arriba)
+- Crear estructura de carpetas (directorios principales y subdirectorios)
+- Opcional: Hacer el compendio en un repositorio git
+- Añadir todos los archivos necesarios para reproducir los resultados del proyecto
+- Intenta tener el compendio lo más limpio y fácil de usar posible cuando lo publique para que otros lo usen
+- Opcional: Haga que un par compruebe el compendio y compruebe si funciona correctamente
+- Publica tu compendio
 
-## Further Reading
+## Leyendo más
 
-- The website [Research Compendium](https://research-compendium.science) contains links to further resources and publications on research compendia as well as links to examples.
+- El sitio web [Compendio de Investigación](https://research-compendium.science) contiene enlaces a más recursos y publicaciones sobre compendia de investigación, así como enlaces a ejemplos.
 
 
 <!---

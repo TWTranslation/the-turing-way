@@ -1,60 +1,60 @@
-(cl-github-novice-features)=
-# Using more GitHub features
+(ميزات Cgithub-novice)=
+# استخدام المزيد من ميزات GitHub
 
-Now that your repo is set up, you are ready to add more stuff to it and use some of its useful features.
+الآن بعد إعداد المستودع الخاص بك، أنت على استعداد لإضافة المزيد من الأشياء إليه واستخدام بعض الميزات المفيدة الخاصة به.
 
-## Adding more folders (directories), files and commits
+## إضافة المزيد من المجلدات (المجلدات) والملفات والأوراق
 
-* You can add more files to your repo by clicking the "add file" button and either uploading files or creating a new one.
-* Each time you create a new file or upload files you will need to add a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
-* Note that git (and thus GitHub) does not track folders/directories, so you cannot create an empty folder.
-
-
-**Create a new folder by adding a new file:**
-
-* Click on the "add file" button and then create a new file.
-* This will give you a blank file to edit.
-* When naming the file, first type in the name of the folder (existing or new) and then a forward slash, followed by the name of the file: "folder-name/file-name.ext".
-* Edit the content of the file.
-* Save your changes using the "commit" button. Remember to type a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
-
-This file will appear in the folder that you named. You will be able to see the folder on your landing page. If you click on the blue folder symbol, it brings you to the files within that folder.
-
-## Explore the ‘Insight’ features of GitHub
-
-* On GitHub, navigate to the main landing page of the repository.
-* Under your repository name, click "Insights".
-* In the left sidebar, click “Community”.
-  * Here you will find recommended files to include in your repo. These files are especially useful when working with collaborators or members in your community.
-  * The "License" file is one of the most important, because it tells others how they can (or can't) use the materials in your repo.
-  * For collaborations, be sure to look at "Contributing" and "Description".
-  * Whenever possible, add a "Code of conduct" to make your project welcoming and inclusive for others.
-* Other interesting things to look at are “Contributors” (those who contribute to your project), “Traffic” (who visits your project page and when do they do so) and “Commits” (a timeline and number of commits made on your project).
-
-## Explore the ‘Projects’ features of GitHub
-Project boards on GitHub help you organize and prioritize your work. It is a kanban feature to track your tasks with to-do, in progress and done columns. Each item can be linked to specific issues or pull requests to help you track your progress. This feature is a great way to help others contribute to your repo or let them know what you have planned.
+* يمكنك إضافة المزيد من الملفات إلى المستودع الخاص بك بالنقر على زر "إضافة ملف" وإما تحميل الملفات أو إنشاء ملف جديد.
+* في كل مرة تقوم بإنشاء ملف جديد أو تحميل ملفات ستحتاج إلى إضافة رسالة التزام {ref}`<rr-vcs-commit-messages>` لمساعدتك على تذكر التغييرات التي قمت بها.
+* لاحظ أن git (وبالتالي GitHub) لا يتتبع المجلدات/الدليل، لذلك لا يمكنك إنشاء مجلد فارغ.
 
 
-## Using GitHub Features to foster collaboration
-This is what a repository looks like when it is set up to include many of these features, making it a welcoming, collaborative workspace.
+**إنشاء مجلد جديد عن طريق إضافة ملف جديد:**
+
+* انقر على زر "إضافة ملف" ثم قم بإنشاء ملف جديد.
+* هذا سيعطيك ملف فارغ للتعديل.
+* عند تسمية الملف، اكتب أولاً باسم المجلد (موجود أو جديد) ثم خط أمامه، يليها اسم الملف: "مجلد-name/file-name. xt".
+* تحرير محتوى الملف.
+* حفظ التغييرات الخاصة بك باستخدام زر "الالتزام". تذكر أن تكتب {ref}`رسالة الالتزام<rr-vcs-commit-messages>` لمساعدتك في تذكر التغييرات التي أجريتها.
+
+سيظهر هذا الملف في المجلد الذي قمت بتسميته. ستتمكن من رؤية المجلد على صفحة الهبوط الخاصة بك. إذا قمت بالنقر على رمز المجلد الأزرق، فإنه يجلبك إلى الملفات داخل ذلك المجلد.
+
+## استكشاف ميزات "Insight" لـ GitHub
+
+* على GitHub، انتقل إلى صفحة الهبوط الرئيسية للمستودع.
+* تحت اسم المستودع الخاص بك، انقر فوق "رؤى".
+* في الشريط الجانبي الأيسر، انقر فوق "مجتمع".
+  * هنا سوف تجد الملفات الموصى بها لتضمينها في المستودع الخاص بك. هذه الملفات مفيدة بشكل خاص عند العمل مع المتعاونين أو الأعضاء في مجتمعك.
+  * ملف "الترخيص" هو واحد من أهم الملفات، لأنه يخبر الآخرين كيف يمكنهم (أو لا يستطيعون) استخدام المواد في المستودع الخاص بك.
+  * بالنسبة للتعاون، تأكد من النظر إلى "المساهمة" و "وصف".
+  * أضف كلما أمكن "مدونة سلوك" لجعل مشروعك مرحباً وشاملاً للآخرين.
+* الأشياء الأخرى المثيرة للاهتمام التي يجب النظر إليها هي "المساهمون" (الذين يساهمون في مشروعك)، "المرور" (الذين يزورون صفحة مشروعكم ومتى يفعلون ذلك) و"الالتزامات" (الجدول الزمني وعدد الالتزامات التي تم التعهد بها في مشروعكم).
+
+## استكشاف ميزات "المشاريع" لـ GitHub
+لوحات المشاريع على GitHub تساعدك على تنظيم العمل الخاص بك وتحديد أولوياتك. إنها ميزة كانبان لتتبع مهامك مع القيام بها، في التقدم والأعمدة المنجزة. يمكن ربط كل عنصر بمشكلات محددة أو سحب الطلبات لمساعدتك على تتبع التقدم الذي تحرزه. هذه الميزة هي طريقة رائعة لمساعدة الآخرين على المساهمة في مستودع بياناتك أو إخبارهم بما خططت.
+
+
+## استخدام ميزات GitHub لتعزيز التعاون
+هذا هو ما يبدو عليه المستودع عندما يتم إنشاؤه لتضمينه العديد من هذه المميزات ، مما يجعله مساحة عمل مرحب بها وتعاونية .
 
 ```{figure} ../../figures/github-project.jpg
 ---
-name: github-project
-alt: Annotated diagram of a collaborative project repository. Explained in the caption.
-align: left
+الاسم: github-Project
+البديل : مخطط مشروح لمستودع المشروع التعاوني. شرح في الشرح.
+المواءمة: يسار
 ---
-Annotated diagram of a collaborative project repository.
-- Labels on the left-hand side of the image:
-  - **1. Project:** This shows you the project boards for this repo.
-  - **2. Issues:** All the tasks that have been raised on this repo.
-  - **3. Files:** These are all the files in the repo.
-  - **4. Landing page or README.md file:** Your README.md file is automatically rendered as a landing page for your site.
-- Labels on the right-hand side of the image:
-  - **5. Insights:** This shows you all the activity that has happened on your repo. 
-  - **6. Edit repo details:** You can write a short description of your project and add labels.
-  - **7. Description of the repository.**
-  - **8. Link for GitHub pages:** Website generated by this repo.
-  - **9. Topic labels:** Topic labels related to your repo can help other people find your project.
-  - **10. License:** The license that you have put on your repo.
+مخطط مشروح لمستودع المشروع التعاوني.
+- تسميات على الجانب الأيسر من الصورة:
+  - **1. مشروع:** هذا يظهر لك لوحات المشروع لهذا المستودع.
+  - **2. المسائل:** جميع المهام التي أثيرت في هذا المستودع.
+  - **3. الملفات:** هذه هي جميع الملفات في المستودع.
+  - **4. صفحة الهبوط أو ملف README.md :** ملف README.md الخاص بك يتم تقديمه تلقائيًا كصفحة هبوط لموقعك.
+- تسميات على الجانب الأيمن من الصورة:
+  - **5. الرؤى:** هذا يظهر لك كل النشاط الذي حدث في مستودعك. 
+  - **6. تحرير تفاصيل المستعرض:** يمكنك كتابة وصف قصير لمشروعك وإضافة ملصقات.
+  - **7. وصف المستودع.**
+  - **8. رابط لصفحات GitHub :** موقع تم إنشاؤه بواسطة هذا المستودع.
+  - **9. تسميات الموضوع:** تسميات المواضيع ذات الصلة بالموجودات الخاصة بك يمكن أن تساعد الآخرين في العثور على مشروعك.
+  - **10. الترخيص:** الترخيص الذي وضعته على مستودعك.
 ```

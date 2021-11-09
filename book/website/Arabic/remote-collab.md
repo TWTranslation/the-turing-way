@@ -1,19 +1,19 @@
-(cl-remote-collab)=
-# Remote Collaboration
+(كل-تجميع)=
+# التعاون عن بعد
 
-Remote collaboration refers to the ability to interact and work with others from anywhere in the world. Remote collaboration is extremely valuable for removing physical barrier in communication among members in a distributed teams who work remotely rather than being located in a physical office.
+ويشير التعاون عن بعد إلى القدرة على التفاعل والعمل مع الآخرين من أي مكان في العالم. والتعاون عن بعد مهم للغاية في إزالة الحاجز المادي في الاتصال فيما بين أعضاء الأفرقة الموزعة الذين يعملون عن بعد بدلا من أن يكونوا موجودين في مكتب مادي.
 
 ```{figure} ../figures/distributed-collaboration.jpg
 ---
-height: 500px
-name: distributed-collaboration
-alt: A person standing on a globe and interacting virtually with people in different time zones on different computer screens
+الطول: 500px
+الاسم: تم توزيعه على التعاون
+بديل: شخص يقف على كوكب الأرض ويتفاعل تقريبا مع أشخاص في مناطق زمنية مختلفة على شاشات كمبيوتر مختلفة
 ---
-Distributed Collaboration. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+التعاون الموزع. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Remote collaboration is quite a standard practice in open source projects or online communities. It has gained popularity over the last few years as more and more companies expand their businesses in areas far from the location of the main office (for example, [Mozilla](https://www.mozilla.org/en-GB/)), or exist entirely as a remote company (for example, [RStudio](https://rstudio.com/about/)).
+والتعاون عن بعد ممارسة عادية تماما في المشاريع المفتوحة المصدر أو في المجتمعات المحلية على الإنترنت. وقد اكتسبت شعبية على مدى السنوات القليلة الماضية مع تزايد عدد الشركات التي توسع أعمالها التجارية في مناطق بعيدة عن موقع المكتب الرئيسي (على سبيل المثال [موزيلا](https://www.mozilla.org/en-GB/)، أو موجودة بالكامل كشركة نائية (على سبيل المثال ، [RStudio](https://rstudio.com/about/)).
 
-In early 2020, as we began to work entirely from home due to the [Coronavirus (COVID-19) pandemic](https://www.who.int/emergencies/diseases/novel-coronavirus-2019), we experienced a drastic change in our work culture. This chapter will present resources and tips for researchers to make their transition of working from the office (physical location) to working from home (online/virtual) easier, or make their collaboration more effective if they are already working remotely.
+في أوائل عام 2020، ونحن بدأنا العمل بالكامل من المنزل بسبب وباء [Coronavirus (COVID-19)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)، لقد شهدنا تغييرا جذريا في ثقافة عملنا. وسيقدم هذا الفصل موارد وإرشادات للباحثين لتيسير انتقالهم من المكتب (الموقع المادي) إلى العمل من المنزل (الخط المباشر/الافتراضي)، أو جعل تعاونهم أكثر فعالية إذا كانوا يعملون من بُعد.
 
 <!--- Add a summary of all the subchapters --->

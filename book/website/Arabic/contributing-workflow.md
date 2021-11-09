@@ -1,83 +1,83 @@
-(ch-contributing-workflow)=
-# Contribution Workflow
+(بدولارات الولايات المتحدة) =
+# سير عمل المساهمة
 
-Whether you are writing new content or reviewing existing ones, contributing to _The Turing Way_ generally encompasses the steps discussed in this section. You may refer to the recommendations here to ensure that you have adequately prepared your contribution for review. Please note that the order of these recommendations are not strict and we encourage you to follow the approach that suits you best.
+سواء كنت تقوم بكتابة محتوى جديد أو مراجعة المحتوى الموجود، مما يسهم في _طريق التوفيق_ يشمل بشكل عام الخطوات التي نوقشت في هذا الفرع. ويمكنكم أن ترجعوا إلى التوصيات هنا للتأكد من أنكم أعدتم إسهامكم على نحو ملائم لاستعراضه. ويرجى ملاحظة أن ترتيب هذه التوصيات ليس صارما، ونحن نشجعكم على اتباع النهج الذي يناسبكم على أفضل وجه.
 
-(ch-contributing-workflow-template)=
-## Select a template
+(ch-contribution flow-template)=
+## حدد قالب
 
-Once you have decided on the type of content you want to contribute to _The Turing Way_, use the relevant [template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) to prepare your contribution.
+بمجرد أن تكون قد قررت نوع المحتوى الذي تريد المساهمة به في _طريق التوريق_، استخدم القالب [ذي الصلة](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) لإعداد مساهمتك.
 
 ```{note}
-Please note that we welcome new template contributions.
-If the chapter or case study templates do not suit your needs, please open a Pull Request with suggestions for improving them.
-If you want to contribute content for which there is no corresponding template, you are also encouraged to create the missing template and add it to the template collection.
+ويرجى ملاحظة أننا نرحب بالمساهمات الجديدة في النماذج النموذجية.
+إذا كانت قوالب الفصل أو دراسة الحالة لا تناسب احتياجاتك، يرجى فتح طلب سحب مع اقتراحات لتحسينها.
+إذا كنت ترغب في المساهمة بالمحتوى الذي لا يوجد له قالب مقابل، يتم تشجيعك أيضًا على إنشاء القالب الناقص وإضافته إلى مجموعة القالب.
 ```
 
-(ch-contributing-workflow-location)=
-## Place new files and folders in appropriate locations
+(بدولارات الولايات المتحدة)
+## وضع الملفات والمجلدات الجديدة في المواقع المناسبة
 
-_The Turing Way_'s Github repository follows an overall file structure where Guides are folders and chapters are sub-folders within them. Similarly, case studies are located inside a `case-studies` sub-folder within the Guide folders. All folders are located inside the [`book/website`](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website) directory.
+_طريق التوفير_مستودع Github للملفات يتبع بنية شاملة للملفات حيث تكون الأدلة مجلدات والفصول هي مجلدات فرعية داخلها. وبالمثل، توجد دراسات الحالة داخل مجلد فرعي `دراسات حالة` داخل مجلدات الدليل. جميع المجلدات موجودة داخل دليل [`كتاب/موقع الويب`](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website).
 
-When writing new content, ensure that the new files and folders you create are placed appropriately to preserve _The Turing Way's_ file structure.
+عند كتابة محتوى جديد، تأكد من أن الملفات والمجلدات الجديدة التي قمت بإنشائها موضوعة بشكل مناسب للحفاظ على _بنية ملف الطريق_.
 
-For example, the [Version Control](https://the-turing-way.netlify.app/reproducible-research/vcs.html) chapter in the Guide for Reproducible Research is placed as follows:
+على سبيل المثال، تم وضع الفصل [التحكم في الإصدار](https://the-turing-way.netlify.app/reproducible-research/vcs.html) في دليل البحوث القابلة للتكاثر على النحو التالي:
 
 ````{admonition} Adding new files and folders
-:class: dropdown
+:class: قائمة منسدلة
 ```
-book\website
-│
-└───reproducible-research <---- (folder for the Guide to Reproducible Research)
-│   │   reproducible-research.md <---- (Guide's Landing Page)
-│   │   vcs.md <---- (Landing page for the Version Control chapter)
-|   |   new-chapter <---- (Landing page for a new chapter)
-│   │
-│   └───vcs (chapter folder)
-│   |   │   vcs-workflow.md
-|   |   |   vcs-git.md
-|   |   |   vcs-git-commit.md
-|   |   |   ...
-|   |   |   vcs-personal-stories.md
-│   |   │   vcs-checklist.md
-│   |   │   vcs-resources.md
-│   |
-|   |
-|   └───new-chapter (new chapter folder)
-|   |   |   ...
-|    
-└───project-design <---- (folder for the Guide for Project Design)
-    │   project-design.md
-    │   ...
+كتاب\الموقع
+<unk>
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> reproducible-Research <---- (مجلد لدليل البحوث القابلة للتنقيح)
+<unk> reproducible-Research. (د) <---- (صفحة هبوط الدليل)
+<unk> <unk> vcs. (د) <---- (صفحة الدخول لفصل التحكم في الإصدار)
+<unk> New chapter <---- (صفحة الدخول لفصل جديد)
+<unk>
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> vcs (مجلد الفصل)
+<unk> <unk> <unk> <unk> vcs-workflow. (د)
+<unk> <unk> <unk> <unk> <unk> vcs-git. (د)
+<unk> <unk> <unk> <unk> vcs-git-commit.md
+<unk> <unk> <unk> <unk> ...
+<unk> <unk> <unk> vcs-personal-stories.md
+<unk> <unk> <unk> <unk> vcs-checklist (د)
+<unk> <unk> <unk> <unk> <unk> vcs-resources. d
+<unk>
+<unk>
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> : فصل جديد (مجلد جديد للفصل الجديد)
+<unk> <unk> ...
+<unk>    
+<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> project-design <---- (مجلد لدليل تصميم المشروع)
+    <unk> project-design.md
+    <unk> ...
 ```
 ````
 
-New chapters in the Guide for Reproducible Research should be added like `new-chapter` in the example above.
+ينبغي إضافة فصول جديدة في دليل البحوث القابلة للتكاثر مثل `فصل جديد` في المثال أعلاه.
 
-(ch-contributing-workflow-naming)=
-## Name files/folders appropriately
+(ع-المساهمة - تسمية تدفق العمل)=
+## اسم الملفات/المجلدات بشكل مناسب
 
-Please follow _The Turing Way's_ conventions for naming files. With proper file names, other contributors can easily identify the purpose and location of your files and add to or improve them if necessary.
+الرجاء اتباع _اتفاقيات طريق اللارجح_ لتسمية الملفات. مع أسماء الملفات الصحيحة، يمكن للمساهمين الآخرين التعرف بسهولة على الغرض من الملفات الخاصة بك وموقعها وإضافتها أو تحسينها إذا لزم الأمر.
 
-(ch-contributing-workflow-guidelines)=
-## Follow the style and consistency guidelines
+(بآلاف دولارات الولايات المتحدة)
+## اتبع المبادئ التوجيهية للأسلوب والاتساق
 
-As you write your chapter, keep _The Turing Way's_ [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations in mind. This ensures that your new content is accessible, and fits the overall style, structure, and formatting of the book.
+أثناء كتابة الفصل الخاص بك، ابقي _نمط المسار_ [](https://the-turing-way.netlify.app/community-handbook/style.html) و [الاتساق](https://the-turing-way.netlify.app/community-handbook/consistency.html) توصيات في الاعتبار. هذا يضمن أن المحتوى الجديد الخاص بك يمكن الوصول إليه، ويناسب النمط العام للكتاب وهيكله وتنسيقه.
 
-(ch-contributing-workflow-toc)=
-## Add your new files to the book's table of contents
+(بدولارات الولايات المتحدة)
+## أضف ملفاتك الجديدة إلى جدول المحتويات في الكتاب
 
-The book-wide table of contents lives in the `_toc.yml` [file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_toc.yml). This file structures _The Turing Way_ and defines the order in which chapters appear. Your chapter's files should be added to the `_toc.yml` as appropriate.
+يوجد جدول المحتويات على مستوى الكتاب في ملف `_toc.yml` [](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_toc.yml). هذا الملف هياكل _طريق التوفير_ ويحدد الترتيب الذي تظهر به الفصول . يجب إضافة ملفات الفصل الخاص بك إلى `_toc.yml` حسب الاقتضاء.
 
-For example, because the [Statistical Methods Manuscript](https://the-turing-way.netlify.app/reproducible-research/case-studies/statistical-methods-manuscript.html) case study belongs to the Guide for Reproducible Research, it was added to the table of contents as follows:
+على سبيل المثال، لأن دراسة الحالة [مخطوطة الأساليب الإحصائية](https://the-turing-way.netlify.app/reproducible-research/case-studies/statistical-methods-manuscript.html) تنتمي إلى دليل البحوث القابلة للتناثر، وقد أضيف إلى قائمة المحتويات على النحو التالي:
 
 ````{admonition} Updating the book-wide table of contents
-:class: dropdown
+:class: القائمة المنسدلة
 ```
 
-- file: reproducible-research/reproducible-research
-  sections:
-  ...
+- الملف: البحث التجريلي/البحث
+  الأقسام:
+...
 
   - title: Case Studies
     file: reproducible-research/case-studies
@@ -88,17 +88,17 @@ For example, because the [Statistical Methods Manuscript](https://the-turing-way
 
 ````
 
-(ch-contributing-workflow-referencing)=
-## Reference external sources appropriately
+(بدولارات الولايات المتحدة)
+## المصادر الخارجية المرجعية المناسبة
 
-Ensure external sources are properly referenced and included in _The Turing Way's_ centralised bibtex file as recommended in the [style guide](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
+تأكد من أن المصادر الخارجية قد تم الرجوع إليها بشكل صحيح وإدراجها في _الطريق الوشيك_ ملف bibtex المركزي كما هو موصى به في دليل الطراز [](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
 
-(ch-contributing-workflow-glossary)=
-## Update the book-wide glossary
+(بآلاف دولارات الولايات المتحدة)
+## تحديث المسرد على مستوى الكتاب
 
-_The Turing Way_ maintains a book-wide glossary located in its [Afterword](https://the-turing-way.netlify.app/afterword/glossary.html). When writing your chapter, [update the book-wide glossary](https://the-turing-way.netlify.app/community-handbook/style/style-more-styling.html) with the key terms in your chapter that readers should remember.
+_طريقة التورينج_ تحتفظ بمسرد على نطاق الكتاب موجود في [كلمة ما بعد](https://the-turing-way.netlify.app/afterword/glossary.html). عند كتابة الفصل الخاص بك، [قم بتحديث المسرد على نطاق الكتابة](https://the-turing-way.netlify.app/community-handbook/style/style-more-styling.html) مع المصطلحات الرئيسية في الفصل الخاص بك التي ينبغي للقراء أن يتذكروها.
 
-(ch-contributing-workflow-crosschecking)=
-## Cross check your Pull Request
+(المتبرع - التدقيق في سير العمل)=
+## التحقق من طلب السحب الخاص بك
 
-The content of the templates are only meant to guide and structure your writing. Please remove all of the template's placeholders, tips, and suggestions from your chapter before you submit your PR for review.
+محتوى القوالب مقصود فقط لتوجيه وتنظيم الكتابة الخاصة بك. الرجاء إزالة جميع عناصر القالب، والنصائح، والاقتراحات من الفصل الخاص بك قبل أن تقوم بإرسال كلمة المرور الخاصة بك للمراجعة.

@@ -1,29 +1,29 @@
-(rr-licensing-software)=
-# Software Licenses
+(rr-licensing-Software)=
+# 软件许可证
 
-A software license governs the extent of use or redistribution of software, with or without software documentation.
+软件许可证管理软件的使用或再分配范围，无论是否有软件文件。
 
-There are many software licenses in existence. Many of those allow the licensee to do very little, but some give you more freedom to use and re-use the licensed software.
+目前有许多软件许可证。 其中许多允许被许可使用人做得很少，但有些允许你有更多的自由使用和重新使用被许可使用的软件。
 
-The [https://choosealicense.com/](https://choosealicense.com/) website offers a straightforward mechanism to help you pick the best license for your project.
+[https://choosealicense.com/](https://choosealicense.com/) 网站提供了一个简单易行的机制，帮助您为您的项目选择最好的许可证。
 
-To make some sense of this variety, we can categorize them as follows.
+为了使这种多样性有一定的意义，我们可以将其分类如下。
 
-## License Categories
+## 许可证类别
 
 <table>
     <thead>
         <tr>
-            <th colspan="3">Free</th>
-            <th rowspan="3">Proprietary</th>
+            <th colspan="3">免费的</th>
+            <th rowspan="3">专有性</th>
         </tr>
         <tr>
-            <th colspan="2">Copyleft</th>
-            <th rowspan="2">Permissive</th>
+            <th colspan="2">左面复制</th>
+            <th rowspan="2">允许的</th>
         </tr>
         <tr>
-            <th>Strong</th>
-            <th>Weak</th>
+            <th>强度</th>
+            <th>虚弱的</th>
         </tr>
     </thead>
     <tbody>
@@ -31,122 +31,122 @@ To make some sense of this variety, we can categorize them as follows.
         <td>GPL<sup>1</sup> CDDL<sup>2</sup></td>
         <td>LGPL<sup>3</sup> MPL<sup>4</sup></td>
         <td>BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
-            <td>Research Only: No&nbsp;copying, No&nbsp;modification</td>
+            <td>仅研究：没有&nbsp;复制，没有&nbsp;修改</td>
         </tr>
     </tbody>
     <caption>
       <div class="footnote">
-        <sup>1</sup>GPL: GNU General Public License <sup>2</sup>CDDL: Common Development and Distribution License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup> MPL: Mozilla Public License <sup>5</sup> BSD: Berkeley Software Distribution <sup>6</sup> MIT: Massachusetts Institute of Technology
+        <sup>1</sup>GPL: GNU 通用公共许可证 <sup>2</sup>CDDL: 通用发展和分发许可证 <sup>3</sup>LGPL: GNU 较低一般公共许可证 <sup>4</sup> MPL: Mozilla 公共许可证 <sup>5</sup> BSD: Berkeley 软件分发 <sup>6</sup> MIT: Massachusetts Institute
       </div>
-      Licenses can either be Free or Proprietary, with Free Licenses further classified as Copyleft or Permissive.
+      许可证既可以是自由许可证，也可以是专有许可证，自由许可证可进一步归类为科普利夫或佩尔。
     </caption>
 </table>
 
-(rr-licensing-software-free)=
-## Free Software
+(rr-licensing-softre-free)=
+## 免费软件
 
-Software licenses are either free or proprietary. Free software comes with license terms that give you ([as defined by GNU](https://www.gnu.org/philosophy/free-sw.html)):
+软件许可证是免费的，也是专有的。 免费软件带有给您的许可条款 ([由 GNU](https://www.gnu.org/philosophy/free-sw.html) 定义)：
 
-* _Freedom 0_: The freedom to run the program as you wish, for any purpose.
-* _Freedom 1_: The freedom to study how the program works, and change it, so it does your computing as you wish. Access to the source code is a precondition for this.
-* _Freedom 2_: The freedom to redistribute copies so you can help others in your community.
-* _Freedom 3_: The freedom to distribute copies of your modified versions to others. By doing this, you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+* _自由 0_: 出于任何目的按您的意愿运行程序的自由。
+* _自由 1_: 研究程序如何工作并更改它的自由，因此你可以随意进行计算。 访问源码是这样做的先决条件。
+* _自由 2_: 重新分发副本的自由，以便您可以帮助您所在社区的其他人。
+* _Freedom 3_: 向他人分发您修改过的版本的自由。 通过这样做，您可以让整个社区有机会受益于您的更改。 访问源码是这样做的先决条件。
 
-These four freedoms together effectively neutralize copyright; *Freedoms 0* and *2* let you use the original software and share it with others. *Freedoms 1* and *3* let you create derivative works based on the software and share these with others.
+这四项自由共同有效地抵消了版权的效力。 *Freedom 0* and *2* 允许您使用原始软件并与他人分享。 *Freedom 1* and *3* 允许您创建基于软件的衍生作品并与他人分享。
 
-Note that it is perfectly acceptable to sell copies of free software, warranty, or development services; this is about the freedom to do things with the software, not about its price.
+注意出售免费软件、保修或开发服务完全可以接受； 这是关于使用软件做事的自由，而不是关于其价格。
 
-There are two other, similar definitions in use; the Open Source Institute's [Open Source Definition](https://opensource.org/osd-annotated) and the [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). The free software definition above, by Richard Stallman, is the most straightforward and concise, and in practice, the categories they define are almost identical.
+还使用了另外两个类似的定义； 开放源代码研究所 [开放源代码定义](https://opensource.org/osd-annotated) and [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). 上面由Richard Stallman提出的自由软件定义是最简单明了的，实际上，它所界定的类别几乎完全相同。
 
-Software that is not free is proprietary. Software that you are not allowed to copy or modify falls into this category, as does software with usage restrictions, for example, "For research use only" or "For non-commercial use only".
+非免费软件是专有的。 您不允许复制或修改的软件属于此类别。 像带有使用限制的软件一样，例如“仅供研究使用”或“仅供非商业使用”。
 
-There are some confusingly-named subcategories of proprietary software. _Freeware_ is software that can be copied without paying anyone, but comes without source and cannot be modified. _Shared-source_ comes with source, but without permission to modify. Neither of these is free in the above sense.
+有些专利软件的子类别名称令人困惑。 _Freeware_ 是可以复制而不支付任何人的软件，但是它没有源，无法修改。 _共享源代码_ 带有源代码，但没有修改权限。 从上述意义上讲，两者都不是自由的。
 
-(rr-licensing-software-derivative)=
-## Derivative Software
+(rr-licensing-software re-derivative)=
+## 衍生软件
 
-Within the category of free software, there are several subcategories, which are distinguished by what is allowed when making derivative software. There are two basic ways of making a derivative work of a program or library: modifying it (forking), or combining it with other software (for example using a library in your program). Of course, you can modify and then combine as well.
+在免费软件类别内，有几个子类别，用制作衍生软件时允许的方式加以区分。 有两种基本方法来制作一个程序或图书馆的衍生作品：修改它（叉）， 或将其与其他软件合并(如在您的程序中使用库)。 当然，您也可以修改然后结合起来。
 
-Modifying a program leads to a new program that is derived from the original. This is similar to deriving the new edition of a textbook from the original. Both the original and modified versions are works under copyright law, and both of them may be licensed.
+修改程序将导致一个新的程序产生于原始程序。 这类似于教科书新版本的原始版本。 原始版本和经修改的版本都是版权法规定的作品，两者均可获得许可。
 
-As an example of combining software, imagine a program A that uses two preexisting libraries B and C. The complete program A will consist of library B, library C, and some code D that connects the libraries together and perhaps adds additional functionality. Each of these four items is a work of authorship with a license. Program A can sometimes be referred to as the "Combined work", "Work as a whole" or "Larger work".
+作为合并软件的一个例子，设想一个程序A，使用两个事先存在的库 B 和 C 。 完整的方案A将由库B、库C组成， 和一些将图书馆连接在一起的代码D，或许会增加额外的功能。 这四个项目中的每一个都是一份有许可证的作品。 方案A有时可以称为“综合工作”、“整体工作”或“大型工作”。
 
-Different free software licenses place different constraints on how modified versions and combined works can be licensed.
+不同的免费软件许可证对如何许可修改版和合并作品造成了不同的限制。
 
-(rr-licensing-software-permissive)=
-## Permissive Licenses
+(rr-licensing-software re-permissive)=
+## 许可协议
 
-As the name implies, permissive free software licenses are the least restrictive. They let you distribute the software unchanged under that license, with or without source code. They will also let you distribute a modified version under any license you like, and let you distribute a combined work under any license.
+正如名称所暗示的那样，允许的自由软件许可证是限制性最小的。 不论是否有源代码，他们让您在该许可下的软件分布没有变化。 他们还将允许您在任何您喜欢的许可下发布一个经修改的版本，并允许您在任何许可下发布一个合并的作品。
 
-Examples of well-known permissive licenses are the various BSD licenses, the MIT license, and the Apache License 2.0.
+众所周知的许可许可证的例子包括各种BSD许可证、MIT许可证和Apache许可证2.0。
 
-(rr-licensing-software-copyleft)=
-## Copyleft
+(rr-licensing-software re-copyleft)=
+## 左面复制
 
-Copyleft licenses add some restrictions to the licensing of derivative works. Like permissive licenses, they let you distribute the software unchanged under that license. However, if you distribute a binary, then you have to include the source code as well. Modified versions have to be distributed under the same license as the original; you are not allowed to change the license.
+左边的许可证对衍生作品的许可证增加了一些限制。 像允许使用的许可证一样，它们允许您在该许可证下的软件分布没有变化。 但是，如果您分发了一个二进制文件，那么您也必须包含源代码。 修改后的版本必须在与原版相同的许可证下发布；您不允许更改该许可证。
 
-When creating a combined work, a further distinction can be made. _Strong_ copyleft licenses on a component require a combined work to be licensed under the same license as the component. In the example above, if library B is distributed under a strong copyleft license such as the GNU GPL, then program A must be distributed under that same license.
+在创建合并工作时，可以作进一步的区分。 _一个组件上强力的_ 版面左边许可证需要一个合并的工作才能根据与组件相同的许可证授予。 在上面的例子中，如果库B是在诸如GNU GPL之类的强大版面许可下分发的， 然后程序A必须在同一许可证下分发。
 
-_Weak_ copyleft licenses allow the combined work (A) to be distributed under any license, as long as the source for the licensed component (B) is also made available under its original license. They may also require that the recipient of the combined work can re-link the modules after modifying the component.
+_软弱的_ 份左边许可使合并工作(A) 能够在任何许可下分发。 只要许可部分(B)的来源也是根据原许可提供的。 它们还可能要求合并工作的接受者在修改组件后重新连接模块。
 
-(rr-licensing-software-overview)=
-## Permission Overview
+(rr-licensing-softre-overview)=
+## 权限概述
 
 <table>
     <thead>
         <tr>
             <th rowspan="2"></th>
-            <th colspan="2">Copyleft</th>
-            <th rowspan="2">Permissive</th>
-            <th rowspan="2">Proprietary</th>
+            <th colspan="2">左面复制</th>
+            <th rowspan="2">允许的</th>
+            <th rowspan="2">专有性</th>
         </tr>
         <tr>
-            <th>Strong</th>
-            <th>Weak</th>
+            <th>强度</th>
+            <th>虚弱的</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th>Use for anything</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Sometimes</td>
+            <th>用于任何内容</th>
+            <td>否</td>
+            <td>否</td>
+            <td>否</td>
+            <td>有时：</td>
         </tr>
         <tr>
-            <th>Private changes</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Rarely</td>
+            <th>私密更改</th>
+            <td>否</td>
+            <td>否</td>
+            <td>否</td>
+            <td>罕见</td>
         </tr>
         <tr>
-            <th>Distribute original</th>
-            <td>Same license, with source</td>
-            <td>Same license, with source</td>
-            <td>Same license, also binary-only<sup>1</sup></td>
-            <td>Rarely</td>
+            <th>原始分布</th>
+            <td>与源相同的许可协议</td>
+            <td>与源相同的许可协议</td>
+            <td>相同的许可证，也只能同时使用<sup>1</sup></td>
+            <td>罕见</td>
         </tr>
         <tr>
-            <th>Distribute modified</th>
-            <td>Same license, with source</td>
-            <td>Same license, with source<sup>2</sup></td>
-            <td>Any license, also binary-only</td>
-            <td>Rarely</td>
+            <th>已修改分布</th>
+            <td>与源相同的许可协议</td>
+            <td>相同的许可，源<sup>2</sup></td>
+            <td>任何许可，也只适用于二维码</td>
+            <td>罕见</td>
         </tr>
         <tr>
-            <th>Distribute combined</th>
-            <td>Same license, with source</td>
-            <td>Any license, binary additions</td>
-            <td>Any license, also binary-only</td>
-            <td>Rarely</td>
+            <th>分布组合</th>
+            <td>与源相同的许可协议</td>
+            <td>任何许可，二进制添加</td>
+            <td>任何许可，也只适用于二维码</td>
+            <td>罕见</td>
         </tr>
     </tbody>
     <caption>
       <div class="footnote">
-        <sup>1</sup>Under any license for the MIT license <sup>2</sup>Relicensing LGPL to GPL is allowed
+        <sup>1</sup>在MIT许可的任何许可下 <sup>2</sup>允许将 LGPL 改为GPL
       </div>
-      Permissive licenses grant the largest set of permissions to users. Copyleft licenses require redistribution of the original or modified source to use the same license, with weak copyleft licences allowing a different choice of license for the combined work. Proprietary licenses rarely provide any permissions beyond the right to use the software.
+      允许许可证授予用户最大的一组权限。 左边的许可证需要重新分配原始或修改后的来源才能使用相同的许可证， 使用软弱无力的拷贝许可证，可以为联合作品选择不同的许可证。 专有许可证很少提供使用软件的权利以外的任何权限。
     </caption>
 </table>
 

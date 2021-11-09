@@ -1,3 +1,3 @@
-# License for this book
+# رخصة لهذا الكتاب
 
-All content in this book (located in the `book/website/` folder) is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. For more details please see our [README.md](../../README.md) file.
+All content in this book (located in the `book/website/` folder) is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. لمزيد من التفاصيل يرجى الاطلاع على ملفنا [README.md](../../README.md).

@@ -1,60 +1,60 @@
 (pd-project-repo-roadmapping)=
-# Roadmapping
+# 路径管理
 
-If you plan a large piece of work in your project, it is a good idea to produce an outline of the work to share with your potential contributors. Your roadmap should cover your goal and vision and include a timeline for tasks that need to be completed, thus helping new contributors to your project to get an understanding of what is currently happening on the project and what's coming next.
+如果您计划在您的项目中做大量的工作， 编写一份与潜在贡献者分享的工作大纲是一个好主意。 您的行进图应该包含您的目标和远见，包含需要完成的任务的时间表。 从而帮助您的项目的新贡献者了解该项目目前正在发生的情况以及下一步将发生的情况。
 
 ```{figure} ../../figures/project-roadmap.jpg
 ---
-name: project-roadmap
-alt: image shows a hand holding a smartphone with a map that is marked with milestones 1, 2 and 3. This phone app for map or navigator analogy is helpful to understand milestones and project roadmaps in research projects.
+名称：项目路径图
+Alt：图像显示了一只手持智能手机的手，其地图已标记为里程碑1、2和3。 这个用于地图或导航类比的手机应用有助于了解研究项目中的里程碑和项目路线图。
 ---
-Illustration about project roadmap.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+关于项目路径图的图形说明。
+Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：10.5281/zenodo.3332807。
 ```
 
-To create a roadmap, it is important to map out the key milestones, tasks needed to accomplish the milestones and related challenges to help you allocate your resources and time to work on them efficiently. Milestones can be organised around your project's objectives, community events, contributors development or timeframes. If you work on GitHub, you can use [GitHub's Project board](https://help.github.com/en/articles/tracking-the-progress-of-your-work-with-project-boards) to manage all the tasks on issues where you provide details and collect relevant information collaboratively and openly.
+为了绘制一份路线图，重要的是绘制关键的里程碑。 完成里程碑和相关挑战所需的任务，以帮助您分配资源和时间，有效地处理这些任务。 可以围绕你的项目目标、社区活动、贡献者开发或时间框架组织里程碑。 如果您在 GitHub 上运行， 您可以使用 [GitHub的项目板](https://help.github.com/en/articles/tracking-the-progress-of-your-work-with-project-boards) 来管理所有在您提供详细信息的问题上的任务，并合作和公开地收集相关信息。
 
-A roadmap can be described in the landing page or README file to describe the following aspects of your project:
+可以在登陆页面或README 文件中描述路径图，描述您项目的以下方面：
 
-1. Project summary to provide an overview and the current status of your project.
-2. Onboarding information describing how others can get involved and what immediate tasks they can do.
-3. Timeline with both short-term and long-term goals for your project describing tasks that need to be done, what contributors are working on and where it is going to happen next. For example, if a new release of the project will be made or an event will be hosted.
+1. 提供项目概述和您的项目的当前状态。
+2. 随时登载信息，说明他人如何参与以及他们能够立即完成哪些任务。
+3. 包含您项目的短期和长期目标的时间线描述需要完成的任务。 捐助国正在开展哪些工作，下一步将在哪里进行。 例如，如果项目将重新发布，或者将主办一个活动。
 
-For details, please see [this presentation](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) by the [Open Life Science](https://openlifesci.org/) training and mentoring program.
+欲了解详情，请查看 [此演示](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) 由 [开放生命科学](https://openlifesci.org/) 培训和辅导方案。
 
-## Case Study: AutSPACES Project
+## 案例研究：自动启动项目
 
-*This case study has been drafted by Lotty Coupet, a community manager of the AutSPACES project (2021).*
+*这项个案研究是由自动SPACES项目（2021年）的社区管理人Lotty Coupet起草的。*
 
-[AutSPACEs](https://github.com/alan-turing-institute/AutSPACEs) is a citizen science platform co-created by autistic people and their supporters alongside researchers and the open source community. To successfully communicate where we are and what needs to be done, the AutSPACEs project has created a highly detailed Roadmap.
+[AutSPACE](https://github.com/alan-turing-institute/AutSPACEs) 是一个公民科学平台，由孤独症患者及其支持者与研究人员和开放源码社区共同创建。 为了成功地沟通我们在哪里和需要做什么，AutSPACE项目创建了一个非常详细的路线图。
 
-**How did we get started?**
+**我们是如何开始的？**
 
-To kickstart the creation of a Roadmap we used the issues function in GitHub to begin the journey of creating a Roadmap. Here, we have raised an issue in our GitHub repository where we invite contributors to comment on any proposed milestones and surrounding tasks that should be included in the roadmap.
+为了开始创建一个路线图，我们使用 GitHub 中的问题函数开始创建一个路线图的旅程。 在这里，我们在GitHub 仓库中提出了一个问题，我们请捐助国就任何拟议的里程碑和应列入路线图的相关任务发表意见。
 
-The Community Manager will collate all the information to produce a Roadmap that will be proficient for the community.
+社区管理员将整理所有信息以制作一份对社区十分熟练的路线图。
 
-**What does our Roadmap include?**
+**我们的路线图包括什么？**
 
-The road map will include high-level milestones which are made up of a list of issues of which each contains a checklist with granular tasks. This will inform any contributor where they can start participating within the project.
+行进图将包括高级别里程碑，这些里程碑是由一份问题清单组成的，每份清单都载有一份附有宏伟任务的清单。 这将通知任何捐助方它们可以开始参与项目的地方。
 
-Milestones, in this project, are seen more as an overarching theme rather than a tick list. The idea behind this is that we don't want to tick off a milestone as we believe work is continuous, open and subject to review and iteration in all aspects.
+在这个项目中，里程碑更多地被看作是一个总主题，而不是一个勾画清单。 其背后的想法是，我们不想在我们认为工作是持续不断的情况下划上一个里程碑。 委员会还建议缔约国采取一切必要的措施，确保所有儿童都能够自由地参加选举，并且在所有方面都能够接受审查和振动。
 
-Key timelines and dependencies will be highlighted as this will allow for all contributors to know how each task fits into the wider project. There will be a prioritisation of tasks that correlate with the strategic direction of the project; what is needed to be done at this point.
+将强调关键的时间安排和依赖性，因为这将使所有贡献者都能够知道每项任务如何适合更广泛的项目。 将确定与项目战略方向相关的任务的优先次序；此时需要做些什么。
 
-**Where will we put our Roadmap?**
+**我们将把我们的路线图放在哪里？**
 
-The AutSPACEs project is a Citizen Science and Participatory Research project. This means that many of our contributors do not have the technical expertise to use GitHub. Therefore, we need to ensure that our roadmap is accessible for all and thus not only accessed via GitHub. Therefore, our roadmap will be hosted:
-- On our website
-- In a shared document for internal use (Excel sheet)
+AutSPACE项目是公民科学和参与性研究项目。 这意味着我们的许多贡献者不具备使用GitHub 的技术专长。 因此，我们需要确保所有人都能够进入我们的路线图，从而不仅仅是通过GitHub 进入我们的路线图。 因此，我们的路线图将由东道主：
+- 在我们的网站
+- 在供内部使用的共享文档中(Excel表格)
 - Github repository (MarkDown file)
 
-However, we will address this technical barrier as our roadmap will include a link to issues in the repository. To overcome this, we have planned to teach basic skills in GitHub, such as creating an account and accessing our issues list.
+然而，我们将解决这一技术障碍，因为我们的路线图将包括与处置库中的问题的联系。 为了克服这个问题，我们计划在GitHub教授基本技能，比如创建一个帐户和访问我们的问题清单。
 
-**How will we keep it updated?**
+**我们将如何不断更新它？**
 
-One of the main issues with Roadmaps and similarly project plans is the risk of them becoming out of date. It can confuse rather than help in communicating where the project is and where it needs to go.
+路线图和类似项目计划的主要问题之一是它们有可能过时。 它可能会混淆而不是帮助沟通项目的去向和去往何处。
 
-The AutSPACEs project creates a fortnightly progress report recording updates from the community, software development status and research progress, as well as what tasks have been completed since the last update and what should be the next steps.
+AutSPACE项目每两周编写一份进度报告，记录社区提供的更新、软件开发状况和研究进展情况。 以及自上次更新以来已经完成的任务以及今后应采取的步骤。
 
-These updates drive and feed into the future updates of the roadmap. This process allows us to ensure that our roadmap and tasks priorities are always up to date.
+这些更新将推动今后更新路径图并将其输入进去。 这一进程使我们能够确保我们的路线图和任务优先事项始终是最新的。

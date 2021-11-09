@@ -1,73 +1,73 @@
-(pd-filenaming)=
-# Naming files, folders and other things
+(تسمية الملفات) =
+# أسماء الملفات، المجلدات والأشياء الأخرى
 
-## Prerequisites / recommended skill level
+## المتطلبات الأساسية/مستوى المهارة الموصى به
 
-None.
+لا شيء.
 
 ## Summary
 
-By naming your files, folders, and other research components consistently and descriptively, you can make your work findable, understandable and reusable by yourself, your collaborators, and other people interested in your research. It allows others to understand what the digital object is about: What the files contain and where to find them. Moreover, by following simple tips for file naming, you can make your files easy for computers to identify and process.
+من خلال تسمية ملفاتك، مجلداتك، وغيرها من مكونات البحث بشكل متسق ووصفي، يمكنك جعل عملك خاضعا، يمكن فهمه وإعادة استخدامه بنفسك، والمتعاونين معك، وغيرهم من المهتمين ببحثك. فهو يسمح للآخرين بفهم ما هو الكائن الرقمي عنه: ما الذي تحتوي عليه الملفات ومكان العثور عليها. علاوة على ذلك، من خلال اتباع نصائح بسيطة لتسمية الملفات، يمكنك جعل ملفاتك سهلة على أجهزة الكمبيوتر للتعرف عليها ومعالجتها.
 
-## How this will help you/why this is useful
+## كيف سيساعدك/لماذا هذا مفيد
 
-Using good names is probably the easiest way to improve reproducibility and reusability of your research project.
+إن استخدام الأسماء الجيدة هو على الأرجح أسهل طريقة لتحسين قابلية مشروعك البحثي لإعادة التكرار وإعادة الاستخدام.
 
-## Chapter content
+## محتوى الفصل
 
-There are three principles to naming things; the first two apply to all kinds of things and the third is optional but valuable for keeping track of your files {cite:ps}`Bryan2015Filenaming`.
+وهناك ثلاثة مبادئ لتسمية الأشياء؛ يطبقان على جميع أنواع الأشياء، والثالث اختياري ولكنه قيم لتتبع ملفاتك {cite:ps}`Bryan2015Filennaming`.
 
-File names should be:
-1. Machine readable
-2. Human readable
-3. Optional: Play well with default ordering
-
-
-Before we dive into the details of what they mean, let's look at some examples of bad and good file names.
-
-| ❌ Bad                                             | ✔️ Good                                           |
-| ------------------------------------------------- | ------------------------------------------------- |
-| `Myabstract.docx`                                 | `2020-06-08_abstract-for-sla.docx`                |
-| `Joe’s Filenames Use Spaces and Punctuation.xlsx` | `Joes-filenames-are-getting-better.xlsx`          |
-| `figure 1.png`                                    | `Fig01_scatterplot-talk-length-vs-interest.png`   |
-| `fig 2.png`                                       | `Fig02_histogram-talk-attendance.png`             |
-| `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` | `1986-01-28_raw-data-from-challenger-o-rings.txt` |
+ينبغي أن تكون أسماء الملفات:
+1. مقروءة آليا
+2. مقروء بشري
+3. اختياري: تشغيل جيد مع الطلب الافتراضي
 
 
-### Machine readable
+قبل أن نغوص في تفاصيل ما تعنيه، دعونا ننظر إلى بعض الأمثلة على أسماء الملفات السيئة والجيدة.
 
-Names of digital components should be easy to understand for computers. Computers like names to have no spaces, deliberate use of delimiters, and no special or accented characters. Also computers are case sensitive, so for them `cat.txt` and `Cat.txt` are different files.
+| ❌ سيء                                                  | ✔️ جيد                                             |
+| ------------------------------------------------------ | -------------------------------------------------- |
+| `Myabstract.docx`                                      | `2020-06-08_exstract-for-sla.docx`                 |
+| `جوه أسماء الملفات تستخدم المسافات و Punctuation.xlsx` | `Joes-filenames-are-getting-better.xlsx`           |
+| `الشكل 1.png`                                          | `الشكل 01_scatterplot-talk-long vs-interest.png`   |
+| `اصلاح 2.png`                                          | `الشكل 02_histogram-talk-attendance.png`           |
+| `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt`      | `1986-01-28_بيانات خام ممنوعة-التحدي أو-رينغز txt` |
 
-The file names `Joe´s Filenames Use Spaces and Punctuation.xlsx` and `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` shown above use empty spaces and special characters (`´`, `^`, `(`, `@`,`*`), which can lead to difficulties, for example when you want to send it someone else's computer.
 
-Good file/folder names are easy to search for (also using regular expressions) and easy to compute on (for example by splitting on `_` or `-` characters).
+### مقروءة آليا
 
-### Human readable
+وينبغي أن تكون أسماء المكونات الرقمية سهلة الفهم بالنسبة للحواسيب. الحواسيب مثل الأسماء التي لا توجد فيها مسافات ، والاستخدام المتعمد للمحددات ، ولا توجد أحرف خاصة أو محنكة. أجهزة الكمبيوتر أيضا حساسة لحالة الأحرف، لذلك بالنسبة لها `cat.txt` و `Cat.txt` ملفات مختلفة.
 
-To achieve human readability, it is helpful to have short (< 25 characters) but descriptive names that contain information on the content of the file/folder. Word boundaries in the file name can be indicated by using medial capitalization called camel case, for example "FileName", or underscore, for example "file_name". File names should not have any spaces or other special characters.
+أسماء الملفات `Joe <unk> s الملفات تستخدم المساحات و Punctuation.xlsx` و `JW7d^(2sl@deletethisandyourcareerisoverWx2*. xt` يظهر أعلاه استخدام مسافات فارغة وأحرف خاصة (`<unk>`، `^`، `(`، `@`،`*`، مما قد يؤدي إلى صعوبات، على سبيل المثال عندما ترغب في إرسالها إلى جهاز كمبيوتر آخر.
 
-For web links or Uniform Resource Locator (URL), this concept is called [clean URL](https://en.wikipedia.org/wiki/Clean_URL).
+أسماء الملفات/المجلدات الجيدة سهلة البحث عنها (أيضا باستخدام التعبيرات العادية) وسهلة الحساب (على سبيل المثال عن طريق تقسيم الأحرف `_` أو `-`).
 
-### Play well with default ordering
+### مقروء بشري
 
-To create a good default ordering adding a number or date at the beginning of the name is often a good idea. This keeps our files sorted in ascending order based on file versions or in chronological order. For instance, we often organize all our slide decks created on different dates in the same folder. To sort them by their date of creation, we can start the file names with `year-month-day` (for example `2020-02-21`). We recommend using something like the [ISO 8601 standard: YYYY-MM-DD](https://en.wikipedia.org/wiki/ISO_8601) for dates. If you use other numbers, we recommend left padding them with zeros, because your computer will order `003 < 004 < 020 < 100` as opposed to `100 < 20 < 3 < 4`.
+• تحقيق قدرة الإنسان على القراءة، من المفيد أن يكون هناك قصير (< 25 حرفاً) ولكن أسماء وصفية تحتوي على معلومات عن محتوى الملف/المجلد. يمكن تعيين حدود الكلمات في اسم الملف باستخدام رسمال ميداني يسمى حالة الجمال، على سبيل المثال "FileName"، أو تسطير سفلي، على سبيل المثال "file_name". لا ينبغي أن تحتوي أسماء الملفات على أي مسافات أو أحرف خاصة أخرى.
 
-Naming folders according to a logical number can lead to a mess if the ordering changes in the future. For example, there is a folder with the book chapters `01_introduction`, `02_naming_files`, and `03_naming_folders`. The author writes a preface of the book and decides to squeeze it before the introduction chapter. This would mean that they will have to rename all the files to maintain the intended order. This happens a lot and clearly, this has more downsides than upsides.
+بالنسبة لروابط الويب أو تحديد موقع المصدر الموحد (URL)، هذا المفهوم يسمى [رابط نظيف](https://en.wikipedia.org/wiki/Clean_URL).
+
+### اللعب بشكل جيد مع الطلب الافتراضي
+
+إنشاء ترتيب افتراضي جيد إضافة عدد أو تاريخ في بداية الاسم غالبا ما يكون فكرة جيدة. هذا يبقي ملفاتنا مرتبة ترتيباً تصاعدياً بناءً على إصدارات الملفات أو بالترتيب الزمني. على سبيل المثال، غالبا ما نقوم بتنظيم جميع أسطح الشرائح التي تم إنشاؤها في تواريخ مختلفة في نفس المجلد. لفرزهم حسب تاريخ إنشائهم، يمكننا بدء تشغيل أسماء الملفات بـ `يوم شهر العام` (على سبيل المثال `2020-02-21`). نوصي باستخدام شيء مثل معيار [ISO 8601: YYYY-MM-DD](https://en.wikipedia.org/wiki/ISO_8601) للتواريخ. إذا كنت تستخدم أرقام أخرى، نوصي بحشدها إلى اليسار مع الصفراء، لأن جهاز الكمبيوتر الخاص بك سيطلب `003 < 004 < 020 < 100` مقابل `100 < 20 < 3 < 4`.
+
+تسمية المجلدات وفقا لعدد منطقي يمكن أن يؤدي إلى فوضى إذا تغير الطلب في المستقبل. على سبيل المثال، هناك مجلد مع فصول الكتاب `01_introduc`و `02_naming_files`و `03_naming_folders`. ويكتب المؤلف مقدمة للكتاب ويقرر الضغط عليه قبل الفصل المتعلق بالمقدمة. وهذا يعني أنه سيتعين عليهم إعادة تسمية جميع الملفات للحفاظ على الطلب المقصود. وهذا يحدث كثيرا وبوضوح، وهذا له جوانب سلبية أكثر مما له جوانب قلبية.
 
 ## Checklist
 
-Here are some tips for naming files within a research project, which are both human- and machine-readable {cite:ps}`Cowles2019Filenaming,Hodge2015Filenaming`:
+فيما يلي بعض النصائح لتسمية الملفات ضمن مشروع بحثي، والتي يمكن قراءتها بشريًا وآليا {cite:ps}`Cowles2019Filennaming,Hodge2015Filennaming`:
 
-- Name your files consistently
-- Keep it short but descriptive
-- Avoid special characters or spaces to keep it machine-compatible
-- Use capitals or underscores to keep it human-readable
-- Use consistent date formatting, for example ISO 8601: `YYYY-MM-DD` to maintain default order
-- Include a version number when applicable
-- Share/establish a naming convention when working with collaborators
-- Record a naming convention in your data management plan
+- اسم ملفاتك باستمرار
+- ابقه قصير ولكن وصفي
+- تجنب الأحرف أو المسافات الخاصة للحفاظ على توافقه مع الآلة
+- استخدام العواصم أو أسفل سفلية للحفاظ على قابليتها للقراءة البشرية
+- استخدام تنسيق التاريخ المتسق، على سبيل المثال ISO 8601: `YYYY-MM-DD` للحفاظ على الطلب الافتراضي
+- تضمين رقم الإصدار عند الاقتضاء
+- مشاركة/إنشاء اتفاقية التسمية عند العمل مع المتعاونين
+- تسجيل اتفاقية التسمية في خطة إدارة البيانات الخاصة بك
 
 
-## What to learn next
+## ماذا نتعلم بعد ذلك
 
-Want to build a folder with all the files from your research project? Check out our chapter on {ref}`research compendia<rr-compendia>`.
+هل ترغب في بناء مجلد مع جميع الملفات من مشروع البحث الخاص بك؟ شاهد فصلنا على {ref}`خلاصة بحث<rr-compendia>`.

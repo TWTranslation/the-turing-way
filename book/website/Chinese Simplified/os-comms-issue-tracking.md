@@ -1,82 +1,82 @@
 (cm-os-comms-issue-tracking)=
-# Issue Tracking
+# 问题跟踪
 
-Most software development projects have some kind of issue board to easily track current issues in the project, such as bug fixing, rolling out new features, or community engagement plans. [GitHub](https://github.com) (a very popular collaboration platform) has a built-in [issue tracker](https://guides.github.com/features/issues/) and [project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) where issues can be collated together to track progress towards a more specific, higher-level goal.
+大多数软件开发项目都有某种问题板，可以方便地跟踪项目中的当前问题。 例如修复错误，展开新功能，或社区参与计划。 [GitHub](https://github.com) (一个非常受欢迎的协作平台) 有一个内置的 [问题跟踪器](https://guides.github.com/features/issues/) 和 [项目板](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) 可以将问题一起进行比较以追踪更具体的进度。 更高级别的目标。
 
-This section is a discussion around why issue tracking is useful and where you can store them.
+本节讨论了为什么问题跟踪是有用的，以及你可以在哪里储存它们。
 
 (os-comms-issue-tracking-purpose)=
-## What is the purpose of your issues?
+## 您的问题的目的是什么？
 
-There are many different reasons for keeping/tracking issues related to a project. The platform for issue tracking and the features tracked by those issues can influence how your community interact with your project.
+保持/跟踪项目相关问题有许多不同的原因。 问题跟踪平台和这些问题跟踪的功能可以影响您的社区如何与您的项目互动。
 
-Mostly, issues are used to track bug reports, feature requests, opportunities for community members to engage, and so on, then a public issue board will allow your community to get a clear overview of what's coming down the pipeline and how they can get involved.
+大多数问题被用来跟踪错误报告、功能要求、社区成员参与的机会等等。 然后一个公开的议题板将使您的社区能够清楚地了解管道下来的情况以及他们如何能够参与。
 
-Let's look into centralised and decentralised/distributed issue boards and how they might engage your community.
+让我们看看集中和分散/分布式的问题板以及它们如何能够让您的社区参与。
 
 (os-comms-issue-tracking-purpose-issues)=
-### Issues per Repository (Decentralised/Distributed)
+### 每个存储库的问题 (分散/分发)
 
-If your project is split across multiple repositories, then it's a good idea to keep the issues specifically related to that module within that repository: a decentralised system. This allows your community to focus their attention on what is important to them.
+如果您的项目被拆分到多个仓库， 然后将与该模块具体相关的问题保留在该仓库中是一个好主意：一个分散的系统。 这使你们的社区能够把注意力集中在对他们重要的问题上。
 
-This approach has several smaller issue boards for each repository (or module) within your codebase. This method has a lot of positive outcomes, such as:
+这个方法为您的代码库中的每个存储库(或模块)设置了几个较小的问题看板。 这种方法有许多积极的结果，例如：
 
-- The volume of issues is more manageable;
-- Most contributors only need to be aware of issues relating to one or two repositories;
-- Contributors can subscribe to notifications or updates from only the repositories that interest them;
-- It feels like "divide and conquer", more people are working on more aspects to move the project as a whole forward.
+- 问题的数量更易于管理；
+- 大多数贡献者只需要知道与一个或两个仓库有关的问题；
+- 贡献者只能订阅对他们感兴趣的通知或更新；
+- 它感到“分裂和征服”，更多的人正在更多地努力推动整个项目。
 
-(os-comms-issue-tracking-purpose-issues-case-study)=
-#### Case study: mybinder.org
+(os-comms-issue-tracking-purpose-issues-case study)=
+#### 案例研究：mybinder.org
 
-[mybinder.org](https://mybinder.org) is a platform facilitating users to easily share reproducible analyses and computational environments with one another in [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/) via the cloud. This project is spread across a number of different repositories, each one an individual tool that can be used in isolation from the others. These are:
+[mybinder。 rg](https://mybinder.org) 是一个方便用户通过云端轻松分享可重复分析和计算环境的平台。 [Jupyter 笔记本](https://jupyter-notebook.readthedocs.io/en/stable/) 这个项目分散在若干不同的仓库，每个仓库都是一个单独的工具，可以与其他仓库分开使用。 它们是：
 
-- [repo2docker](https://github.com/jupyter/repo2docker),
-- [JupyterHub for Kubernetes](https://github.com/jupyterhub/zero-to-jupyterhub-k8s),
-- [BinderHub](https://github.com/jupyterhub/binderhub).
+- [repo2docker](https://github.com/jupyter/repo2docker) , ,
+- [Kubernetes JupyterHub](https://github.com/jupyterhub/zero-to-jupyterhub-k8s),
+- [绑定Hub](https://github.com/jupyterhub/binderhub).
 
-There are also some tools in the Jupyter ecosystem that are only weakly associated with Binder. Tools which Project Binder uses and people associated with Binder contribute to, but so do other unrelated communities. Such tools are [JupyterHub](https://github.com/jupyterhub/jupyterhub) and [KubeSpawner](https://github.com/jupyterhub/kubespawner).
+Jupyter生态系统中还有一些与Binder联系很薄弱的工具。 项目Binder使用的工具以及与Binder相关的人都可以帮助其他不相关的社区。 这些工具是 [JupyterHub](https://github.com/jupyterhub/jupyterhub) 和 [Kubepawner](https://github.com/jupyterhub/kubespawner)。
 
-Each of these repositories contains hundreds of issues tracking on-going work being performed by the community and scoping future directions for each project to take.
+每个储存库都有数百个问题，追踪社区正在进行的工作，并确定每个项目今后的方向。
 
-Can you imagine trying to combine all of these issues into one place? It would become very difficult, if not impossible, for someone to find what they are looking for and would require a very clever tagging schema plus instructions for filtering by tag.
+你能想象把所有这些问题合并成一个地方吗？ 如果不是不可能的话，也会变得非常困难。 要有人找到他们正在寻找的东西，并且需要一个非常聪明的标记方案加上通过标签进行过滤的说明。
 
-In the Project Binder team's experience, most community members contribute to just one or maybe two of these projects. So having consolidated access to all the issues for all the working parts is not a high priority for their community.
+根据Binder项目小组的经验，大多数社区成员只为其中一个或两个项目作出贡献。 因此，让所有工作部门更多地接触所有问题并不是他们所在社区的高度优先事项。
 
-They find that having distributed issue tracking allows those members of the community who may only work with JupyterHub to comfortably contribute without needing to be familiar with everything that goes into running [mybinder.org](https://mybinder.org).
+他们发现，分发问题跟踪后，社区中那些只能在朱皮特尔胡布工作的成员能够轻松地作出贡献，而不需要熟悉运行 [mybinder的一切。 rg](https://mybinder.org)。
 
-(os-comms-issue-tracking-purpose-issues-case-centralised-issue)=
-### Centralised Issue Repository
+(os-comms-issue-tracking-designe-issues-centralised-issue)=
+### 集中问题仓库
 
-With a big project, it can be tempting to collate all your issues into one place for the sake of easier management: a centralised system. If you are using issues to track a central service, personal to-do lists, and answering questions like if a task is high priority or if it is assigned to someone already, then issue tracking in a centralised system is a good option and it does not necessarily need to be circulated to your wider community.
+有了一个大型项目，为了更容易的管理而将你的所有问题整理成一个地方是有吸引力的。 如果您正在使用问题跟踪中央服务，个人待办事宜列表。 并回答问题，如某项任务是高优先级还是它已经分配给某人， 然后在中央系统中跟踪问题是一个很好的选择，它不一定需要分发给你们更广泛的社区。
 
-However in terms of engaging your community, such a centralised system can be problematic. If your issues are elsewhere this can create a lot of barriers to entry for community members, such as:
+然而，在让你们的社区参与方面，这种中央化制度可能会产生问题。 如果您的问题在其他地方，这会给社区成员的进入设置许多障碍，例如：
 
-- Issues are more difficult to discover;
-- If they are hosted on another platform (for example, code is on GitHub but issues are on [Asana](https://asana.com/)), that's another tool community members need to learn how to use;
-- Issues are separated from the code they are referencing.
+- 这些问题更难发现；
+- 如果它们在另一个平台上托管(例如，代码在 GitHub 上，但问题在 [Asana](https://asana.com/)上) ， 这是社区成员需要学习如何使用的另一个工具；
+- 问题从他们要引用的代码中分离出来。
 
-A very large impact on the community of having a separate issue board is that when people visit your code repository, it looks like an inactive project because there are no issues or conversations going on where the code is hosted. This may cause community members to believe that the code is no longer being actively developed/maintained/supported and may choose to use another codebase or software package.
+一个单独的议题板对社区的影响非常大，当人们访问你的代码仓库时， 它看起来像一个不活跃的项目，因为没有问题或会话在代码托管中。 这可能会使社区成员相信代码不再被积极开发/维护/支持，并且可能选择使用另一个代码或软件包。
 
 (os-comms-issue-tracking-comparative-table)=
-## Comparative Table
+## 对比表
 
-The table below compares features of distributed and centralised issue repositories for a multi-repository project.
+下表比较了一个多版本库项目的分布式和集中式问题仓库的特征。
 
-| Feature                                 | Centralised Issue Repo | Distributed Issue Repos |
-|:--------------------------------------- |:----------------------:|:-----------------------:|
-| Global issue search                     |           ✅            |                         |
-| Hosted by the same platform as the code |   ❓(not guaranteed)    |            ✅            |
-| Filter by repository                    |    ❓(power users*)     |            ✅            |
-| Subscribe to relevant updates           |     ❓(power users)     |            ✅            |
-| Easy to Discover                        |                        |            ✅            |
-| Connected to the Codebase               |                        |            ✅            |
-| Appears active to community             |                        |            ✅            |
-| Manageable volume                       |                        |            ✅            |
+| 功能          |     集中的问题Repo      | 已分发的问题仓库 |
+|:----------- |:------------------:|:--------:|
+| 全局问题搜索      |         ✅          |          |
+| 由与代码相同的平台主机 |       ❓(不保证)       |    ✅     |
+| 按资源库筛选      | :ques_mark:(电源用户*) |    ✅     |
+| 订阅相关更新      | :ques_mark:(电源用户)  |    ✅     |
+| 轻松发现        |                    |    ✅     |
+| 已连接到代码库     |                    |    ✅     |
+| 在社区活动时显示    |                    |    ✅     |
+| 可管理的音量      |                    |    ✅     |
 
-*Power users = These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient
+*电源用户 = 这些人已经非常熟悉一个平台，知道使他们的体验更有效率的获得方法和技巧。
 
-## Further Reading
+## 进一步阅读
 
-- Blog post comparing the convenience and community closeness of Mailing Lists and Forums: <https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/>
-- Blog post by [Tim Head](https://github.com/betatim):  <https://betatim.github.io/posts/thoughts-on-collective-thinking/>
+- 博客文章比较邮件列表和论坛的方便性和社区近似性： [https://psychcentral.com/blog/mailing-lists-versus-forums-community-closeness/](https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/)
+- 博客文章由 [Tim Head](https://github.com/betatim):  [https://betatim.github.io/posts/posts-on-collective-thinking/](https://betatim.github.io/posts/thoughts-on-collective-thinking/)

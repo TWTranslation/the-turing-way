@@ -1,39 +1,39 @@
-(rr-open-checklist)=
+(r-open-checklist)=
 # Checklist
 
-(rr-open-checklist-data)=
-## Open Data
+(r-open-checklist-data)=
+## فتح البيانات
 
 
-- Ensure your data is in a simple, standard format or formats which is machine and human-readable.
-- Check, reformat or create metadata to clearly describe what the data is, how it was collected, and any associated strengths/weaknesses to someone that finds it.
-- Identify a relevant, easily discoverable repository or repositories to host your data, and upload it there.
-- Assign your data a persistent identifier such as a DOI.
+- تأكد من أن بياناتك في شكل أو أشكال بسيطة أو قياسية تكون آلة وقابلة للقراءة البشرية.
+- التحقق من البيانات الفوقية أو إصلاحها أو إنشاء بيانات فوقية لوصف البيانات بوضوح، وكيفية جمعها، وأي مواطن قوة أو نقاط ضعف مرتبطة بها لشخص يجد هذه البيانات.
+- تحديد مستودع أو مستودعات ذات صلة وسهلة الاكتشاف لاستضافة بياناتك وتحميلها هناك.
+- تعيين بياناتك معرف ثابت مثل DOI.
 
-(rr-open-checklist-software)=
-## Open Source Software
+(r-open-check-software)=
+## برنامج مفتوح المصدر
 
-- Put your code in a freely accessible repository.
-- Include a licence granting others the right to use, copy and modify your work. You can use the {ref}`rr-licensing` chapter to help you pick the most appropriate licence for your project.
-- Include a README file containing useful information about a project such as what it is, how to use/install it and how to run any tests.
-- If you want others to collaborate on the project include contribution guidelines.
+- ضع التعليمات البرمجية الخاصة بك في مستودع يمكن الوصول إليه بحرية.
+- قم بتضمين الترخيص الذي يمنح الآخرين الحق في استخدام العمل ونسخه وتعديله. يمكنك استخدام فصل {ref}`ترخيص rrr-licen` لمساعدتك على اختيار الترخيص الأنسب لمشروعك.
+- قم بتضمين ملف README يحتوي على معلومات مفيدة حول مشروع مثل ماهيه، كيفية استخدامه/تثبيته وكيفية تشغيل أي اختبارات.
+- إذا كنت تريد أن يتعاون الآخرون في المشروع فيتضمن المبادئ التوجيهية للمساهمة.
 
-(rr-open-checklist-hardware)=
-## Open Hardware
+(r-open-checklist-hardware)=
+## فتح الجهاز
 
-- Use open hardware where practical.
-- Make detailed documentation and designs for any hardware you develop openly available.
-- Include a licence granting others the right to use, copy and modify your work. You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
-- Include a README file containing useful information about a project (for example, what it is and the materials used).
+- استخدام الأجهزة المفتوحة حيثما كان ذلك عملياً.
+- اصنع وثائق وتصاميم مفصلة لأي أجهزة تقوم بتطويرها بشكل مفتوح.
+- قم بتضمين الترخيص الذي يمنح الآخرين الحق في استخدام العمل ونسخه وتعديله. يمكنك استخدام [هذا](https://choosealicense.com/) الموقع لمساعدتك في اختيار الترخيص الأنسب لمشروعك.
+- تضمين ملف README يحتوي على معلومات مفيدة عن المشروع (على سبيل المثال، ما هو والمواد المستخدمة).
 
-(rr-open-checklist-access)=
-## Open Access
+(r-open-checklist-access)=
+## فتح الوصول
 
-- Publish your research in an open-access journal.
-- Store a copy or preprint of your work in a freely accessible public repository.
+- نشر بحثك في مجلة مفتوحة الوصول.
+- قم بتخزين نسخة أو نسخة مسبقة من عملك في مستودع عام يمكن الوصول إليه مجانا.
 
-(rr-open-checklist-notebooks)=
-## Open Notebooks
+(r-open-checklist notebooks)=
+## فتح ملاحظات
 
-- Keep notes in an Electronic Lab Notebook.
-- Make your notebooks publicly accessible online.
+- احتفظ بملاحظات في مختبر الكتروني.
+- اجعل دفتر الملاحظات الخاص بك متاحة للجمهور عبر الإنترنت.

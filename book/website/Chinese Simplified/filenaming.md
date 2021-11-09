@@ -1,73 +1,73 @@
 (pd-filenaming)=
-# Naming files, folders and other things
+# 命名文件、文件夹和其他内容
 
-## Prerequisites / recommended skill level
+## 前提条件/推荐的技能水平
 
-None.
+无。
 
 ## Summary
 
-By naming your files, folders, and other research components consistently and descriptively, you can make your work findable, understandable and reusable by yourself, your collaborators, and other people interested in your research. It allows others to understand what the digital object is about: What the files contain and where to find them. Moreover, by following simple tips for file naming, you can make your files easy for computers to identify and process.
+通过始终如一和描述性地命名您的文件、文件夹和其他研究组件，您可以使您的工作变得可以找到。 您本人、您的合作者以及对您的研究感兴趣的其他人可以理解和重新使用。 它允许他人了解数字对象的含义：文件包含什么以及在哪里找到它们。 此外，通过关注文件命名的简单提示, 您可以让计算机轻松识别和处理您的文件。
 
-## How this will help you/why this is useful
+## 这将如何帮助您/为什么这将是有用的
 
-Using good names is probably the easiest way to improve reproducibility and reusability of your research project.
+使用良好的名称可能是提高你的研究项目的可再生性和可再利用性的最容易的方法。
 
-## Chapter content
+## 章节内容
 
-There are three principles to naming things; the first two apply to all kinds of things and the third is optional but valuable for keeping track of your files {cite:ps}`Bryan2015Filenaming`.
+a. 有三项原则可命名事物； 前两种应用于所有类型的物品，第三种是可选的，但对保持您的文件的跟踪很有价值 {cite:ps}`Bryan2015文件名`
 
-File names should be:
-1. Machine readable
-2. Human readable
-3. Optional: Play well with default ordering
-
-
-Before we dive into the details of what they mean, let's look at some examples of bad and good file names.
-
-| ❌ Bad                                             | ✔️ Good                                           |
-| ------------------------------------------------- | ------------------------------------------------- |
-| `Myabstract.docx`                                 | `2020-06-08_abstract-for-sla.docx`                |
-| `Joe’s Filenames Use Spaces and Punctuation.xlsx` | `Joes-filenames-are-getting-better.xlsx`          |
-| `figure 1.png`                                    | `Fig01_scatterplot-talk-length-vs-interest.png`   |
-| `fig 2.png`                                       | `Fig02_histogram-talk-attendance.png`             |
-| `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` | `1986-01-28_raw-data-from-challenger-o-rings.txt` |
+文件名应该是：
+1. 机器可读
+2. 人类可读
+3. 可选：以默认排序进行很好的游戏
 
 
-### Machine readable
+在我们深入了解它们所指的细节之前，让我们看看一些错误和好的文件名称的例子。
 
-Names of digital components should be easy to understand for computers. Computers like names to have no spaces, deliberate use of delimiters, and no special or accented characters. Also computers are case sensitive, so for them `cat.txt` and `Cat.txt` are different files.
+| :cross_mark：错误                                    | ✔️ 好                                                     |
+| ------------------------------------------------- | -------------------------------------------------------- |
+| `文档`                                              | `2020-06-08_抽象-for-sla.docx`                             |
+| `Joe的文件名使用空格和标点符号.xlsx`                           | `Joes-filenames-are-getting-better .xlsx`                |
+| `图1.png`                                          | `数字01_散射图-talk-length-vs-interest.png`                   |
+| `2.png`                                           | `Fig02_histogram-talk-attachance.png`                    |
+| `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` | `1986-01-28_raw-data from -challer-challenger-rings.txt` |
+
+
+### 机器可读
+
+数字组件的名称应易于为计算机所理解。 计算机，例如名称没有空格，故意使用分隔符，没有特殊或有口音的字符。 计算机也是区分大小写的，所以对于他们来说， `cat.txt` and `Cat.txt` 是不同的文件。
 
 The file names `Joe´s Filenames Use Spaces and Punctuation.xlsx` and `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` shown above use empty spaces and special characters (`´`, `^`, `(`, `@`,`*`), which can lead to difficulties, for example when you want to send it someone else's computer.
 
-Good file/folder names are easy to search for (also using regular expressions) and easy to compute on (for example by splitting on `_` or `-` characters).
+好的文件/文件夹名称很容易搜索(也使用正则表达式)，很容易计算(例如通过在 `_` 或 `-` 字符进行拆分)。
 
-### Human readable
+### 人类可读
 
-To achieve human readability, it is helpful to have short (< 25 characters) but descriptive names that contain information on the content of the file/folder. Word boundaries in the file name can be indicated by using medial capitalization called camel case, for example "FileName", or underscore, for example "file_name". File names should not have any spaces or other special characters.
+实现人的可读性。 包含文件/文件夹内容的描述性名称（< 25个字符）是很有帮助的。 文件名中的单词边界可以通过使用称为camel的中间大写大写来标出，例如"FileName"或下划线，例如"file_name"。 文件名不应有任何空格或其他特殊字符。
 
-For web links or Uniform Resource Locator (URL), this concept is called [clean URL](https://en.wikipedia.org/wiki/Clean_URL).
+对于友情链接或统一资源定位器 (URL) ，这个概念叫做 [clean URL](https://en.wikipedia.org/wiki/Clean_URL)。
 
-### Play well with default ordering
+### 按默认排序游戏很好
 
-To create a good default ordering adding a number or date at the beginning of the name is often a good idea. This keeps our files sorted in ascending order based on file versions or in chronological order. For instance, we often organize all our slide decks created on different dates in the same folder. To sort them by their date of creation, we can start the file names with `year-month-day` (for example `2020-02-21`). We recommend using something like the [ISO 8601 standard: YYYY-MM-DD](https://en.wikipedia.org/wiki/ISO_8601) for dates. If you use other numbers, we recommend left padding them with zeros, because your computer will order `003 < 004 < 020 < 100` as opposed to `100 < 20 < 3 < 4`.
+创建一个良好的默认顺序，在名称开头添加一个数字或日期常常是一个好主意。 这将使我们的文件按照文件版本或按时间顺序按升序排序。 例如，我们常常在同一个文件夹的不同日期创建的所有幻灯片牌组。 要按创建日期对它们进行排序，我们可以用 `个月的天` 来开始文件名称(例如， `202020-02-21`)。 我们建议在日期上使用类似的 [ISO 8601 标准：YYYY-MM-DD](https://en.wikipedia.org/wiki/ISO_8601)。 如果你使用其他数字，我们建议用零填充它们， 因为您的计算机将订购 `003 < 004 < 020 < 100` 而不是 `100 < 20 < 3 < 4`
 
-Naming folders according to a logical number can lead to a mess if the ordering changes in the future. For example, there is a folder with the book chapters `01_introduction`, `02_naming_files`, and `03_naming_folders`. The author writes a preface of the book and decides to squeeze it before the introduction chapter. This would mean that they will have to rename all the files to maintain the intended order. This happens a lot and clearly, this has more downsides than upsides.
+如果排序在将来发生变化，按照逻辑编号命名文件夹可能会导致迷惑。 例如，本书章节 `01_introduction`, `02_naming_files`和 `03_naming_folds` 有一个文件夹。 提交人撰写了该书的前言，并决定在导言章节之前将其挤掉。 这意味着他们必须重命名所有文件以维持预定的订单。 这种情况发生得很多，而且很明显，这种情况比上面更少。
 
 ## Checklist
 
-Here are some tips for naming files within a research project, which are both human- and machine-readable {cite:ps}`Cowles2019Filenaming,Hodge2015Filenaming`:
+以下是一个研究项目中命名文件的一些提示, 这些文件是人和机器可读 {cite:ps}`Cowles2019文件名, Hodge2015文件名`
 
-- Name your files consistently
-- Keep it short but descriptive
-- Avoid special characters or spaces to keep it machine-compatible
-- Use capitals or underscores to keep it human-readable
-- Use consistent date formatting, for example ISO 8601: `YYYY-MM-DD` to maintain default order
-- Include a version number when applicable
-- Share/establish a naming convention when working with collaborators
-- Record a naming convention in your data management plan
+- 始终如一地命名您的文件
+- 保持简短但描述性的
+- 避免特殊字符或空格保持机器兼容
+- 使用首都或下划线保持可读性
+- 使用一致的日期格式，例如ISO 8601： `YYYY-MM-DD` 来保持默认顺序
+- 适用时包括一个版本号
+- 与合作者合作时分享/建立命名协议
+- 在您的数据管理计划中记录命名协议
 
 
-## What to learn next
+## 下一步学习什么
 
-Want to build a folder with all the files from your research project? Check out our chapter on {ref}`research compendia<rr-compendia>`.
+想要建立一个包含您研究项目所有文件的文件夹吗？ 查看我们关于 {ref}`研究简编<rr-compendia>`

@@ -1,15 +1,15 @@
 (cm-comms-overview-principles)=
-# Principles of Communicating with Wider Audiences
+# Principios de alfabetización con el auditorio Wider
 
-Researchers should consider communicating their research less technically to expand its accessibility to wider audiences. This will increase the impact of the research on different academic disciplines and also on non-specialist audiences.
+Los investigadores deberían considerar comunicar sus investigaciones de forma menos técnica para ampliar su accesibilidad a un público más amplio. Esto aumentará el impacto de la investigación en diferentes disciplinas académicas y también en públicos no especializados.
 
-You need to think carefully about the readability of any written or spoken communications.
+Debe reflexionar detenidamente sobre la legibilidad de cualquier comunicación escrita o hablada.
 
-## Main Points to Consider:
+## Puntos principales a tener en cuenta:
 
-* **Identify your audience** - It is important to first establish the audience that you want to communicate with as this will determine the level of readability and therefore the level of technical language that you can use.
-    * To assess and organise the characteristics of your audiences, you can use a persona creation tool like the one referenced in the {ref}`Guide for Project Design<pd-persona>`.
-    * Keep in mind that there are usually many different audiences that consume the same content you publish in each of the media that we'll cover in this chapter.
-* **Change your style** - Academic writing is often very formal and uses a lot of passive voice such as 'the authors suggest ...'. This style does not suit a non-academic audience and therefore your writing needs to be adapted to suit the audience you are aiming for.
-* **Make it accessible** - As well as making the technical level of your writing lower, you also need to get rid of any commonly used abbreviations used in your discipline or at least make sure that you explain them. Each discipline has its acronyms that even other scientific fields do not understand. There are also issues concerning different audiences being physically able to access the output that must be considered. Removing as many barriers to research communication as possible will increase its effectiveness.
+* **Identifique su audiencia** - Es importante establecer primero la audiencia con la que desea comunicarse, ya que esto determinará el nivel de legibilidad y por lo tanto el nivel de lenguaje técnico que puede utilizar.
+    * Evaluar y organizar las características de sus audiencias, puede utilizar una herramienta de creación de persona como la referenciada en la {ref}`Guía para Diseño de proyecto<pd-persona>`.
+    * Ten en cuenta que normalmente hay muchas audiencias diferentes que consumen el mismo contenido que publicas en cada uno de los medios que cubriremos en este capítulo.
+* **Cambie su estilo** - La escritura académica es a menudo muy formal y utiliza una gran cantidad de voz pasiva como "los autores sugieren ...". Este estilo no se adapta a un público no académico, por lo que su escritura debe adaptarse a la audiencia que usted desea.
+* **Hazlo accesible** - así como hacer más bajo el nivel técnico de su escritura, También necesita deshacerse de cualquier abreviatura usada comúnmente en su disciplina o al menos asegúrese de explicarlas. Cada disciplina tiene sus acrónimos que ni siquiera otros campos científicos entienden. También hay cuestiones relacionadas con diferentes audiencias siendo físicamente capaces de acceder a la salida que hay que considerar. Eliminar el mayor número posible de barreras a la comunicación de investigación aumentará su eficacia.
 

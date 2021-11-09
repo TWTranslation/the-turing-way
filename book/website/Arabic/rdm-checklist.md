@@ -1,14 +1,14 @@
-(rr-rdm-checklist)=
+(القائمة المرجعية r-rdm) =
 # Checklist
 
 <!-- This is a different style than the other chapters, but I really love what Alex provided so I just kept it. -->
 
-- Do not touch the raw data. Back it up somewhere reasonable and keep a read-only copy.
+- لا تلمس البيانات الخام. قم بنسخه احتياطياً في مكان ما بشكل معقول والاحتفاظ بنسخة للقراءة فقط.
 
-- Have a plan! Decide where your data is going to be stored, what it is called, when/if it needs to be deleted BEFORE you start collecting it and note it down in a data management plan. If you collect sensitive data, plan for consent for sharing from the start!
+- لديك خطة! تقرر أين سيتم تخزين بياناتك، ما يسمى بذلك، عندما/إذا كان من الضروري حذفه من قبل EFORE فأنت تبدأ في جمعه وإشارته إلى أسفل في خطة إدارة البيانات. إذا قمت بجمع بيانات حساسة، قم بالتخطيط للموافقة على المشاركة من البداية!
 
-- Document everything. You know who the worst person at replying to emails is about what the sampling frequency of channel X was. Nope not him, it's actually yourself from a year ago. Keep the documentation with the data!
+- توثيق كل شيء. أنت تعرف من هو أسوأ شخص في الرد على رسائل البريد الإلكتروني هو حول ما هو تردد أخذ العينات للقناة X. ليس هو، إنه في الواقع نفسك منذ عام مضى. احتفظ بالوثائق مع البيانات!
 
-- Create the data you want to see in the word. Imagine someone was about to give you a dataset that you needed to analyse well in order to get that job you have been dreaming about. What would you want it to look like? That is how yours should look.
+- قم بإنشاء البيانات التي تريد رؤيتها في الكلمة. تخيل أن أحدهم كان على وشك أن يعطيك مجموعة بيانات تحتاجها لتحليلها بشكل جيد من أجل الحصول على تلك الوظيفة التي تحلم بها. ماذا تريد أن تبدو كذلك؟ وهذه هي الطريقة التي ينبغي أن تنظر بها إليكم.
 
-- Try not to re-invent the wheel. Before you start creating some crazy new schema, storage format or naming protocol, have a quick google or ask your colleagues. Something that is already being used is likely to be better in the long run, even if you think there is a better solution.
+- حاول عدم إعادة اختراع العجلة. قبل أن تبدأ في إنشاء مخطط جديد مجنون، أو تنسيق تخزين أو بروتوكول التسمية، لديك جوغل سريع أو اسأل زملائك. هناك شيء يتم استخدامه بالفعل من المرجح أن يكون أفضل على المدى البعيد، حتى لو كنت تعتقد أن هناك حلاً أفضل.

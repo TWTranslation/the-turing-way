@@ -1,40 +1,40 @@
 (ch-template-bookdash-precall)=
-# Pre-Book Dash Onboarding Sessions
+# 预定Dash Ontool会话
 
 ```
-# Book Dash, DD Month YYYY - Pre-Book Dash Onboarding Sessions
+# Book Dash, DD month YYYY - Pre-Book Dash Onboarding Session
 
-###### tags: `bookdash YYYY` `month` `event`
+###标签: `bookdash YYYYY` `mon` `event`
 
-==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
+==如果你是HackMD, 请参阅本简短指南：[https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
 
 :::info
-- **Date:** (DD Month YYYY)
-    - ==Call 1: 9:00 - 10:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/09:00))==
-    - ==Call 2: 17:00 - 18:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/17:00))==
-- **Hosts:** (Add names)
-- **Join Zoom Meeting:** (add links)
-:::
+- **日期:** (DD month YYYY)
+    - ==Call 1: 9:00 - 10:00 London time (an your time zone](https://arewemeetingay) om/London/YYYY-MM-DD/09:00)==
+    - ==Call 2：17：00 - 18：00 London time ([在你的时区](https://arewemeetingay) om/London/YYYY-MM-D/17：00)==
+- **主机：** (添加名称)
+- **加入缩放会议：** (添加链接)
+::::
 
-**Table of content**
+**内容表格**
 
 [TOC]
 
-:sunflower: Welcome!  
+:sunflower: 欢迎!  
 ---
 
-This call is scheduled for the invited participants of the next Book Dash event hosted by The Turing Way taking place from 17 to 21 May 2021 online.
+此通话预定在2021年5月17日至21日在线举行的下一次书签活动的受邀参与者。
 
-Please note that everyone who participates in _The Turing Way_ project is expected to abide by our [Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+请注意，所有参与_Ting Way_项目的人都必须遵守我们的[行为守则](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)。
 
-Please see more details on [the project](https://github.com/alan-turing-institute/the-turing-way), [Book Dash](https://the-turing-way.netlify.app/community-handbook/bookdash.html) and logistics details (shared by email before the event) for the upcoming book dash below the notes.
+请在[项目](https://github.com/alan-turing-institute/the-turing-way)上查看更多详细信息，[Book Dash](https://the-turing-way.netlify。 pp/community-handbook/bookdash.html)和物流细节（活动前用电子邮件共享）用于即将到来的笔记下面的书籍。
 
 ### Agenda
 
-- Introductions (get to know each other): 10 minutes
-- About the Book Dash ([logistics, accessibility support, socials](https://hackmd.io/@turingway/bookdash-may2021-index)): 10 minutes
-- [SMART goal setting exercise](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) in breakout (or quiet writing): 15 minutes
-- A Scriberia artist will be there!! - would you like to get some illustration? (you should [check this out(https://zenodo.org/record/3332808))
+- Introductions (互相了解): 10 minutes
+- About Book Dash([logistics, accessible support, socials](https://hackmd. o/@turingway/bookdash-may2021-index): 10 分钟
+- [SMART objective setting](https://www.atlassian.com/blog/productivity/how to written smart-goals) (or quit writing): 15 minutes
+- A Strieria artists will be there !! - 你想要得到一些说明吗？ (you should [check this out(https://zenodo.org/record/3332808))
 - Report out and general discussion: 30 minutes
 - Wrap up and final words: 5 minutes
 
@@ -63,72 +63,72 @@ Please see more details on [the project](https://github.com/alan-turing-institut
 ---
 <!-- Other important details discussed during the meeting can be entered here. -->
 
-* Detailed [Presentation](https://zenodo.org/record/3615259) about the project ([video](https://www.youtube.com/watch?v=dlycvMU45ek)) <--- update this
-* See the index HackMd: https://hackmd.io/@turingway/bookdash-may2021-index <--- update this
-* GitHub: https://github.com/alan-turing-institute/the-turing-way
-    * [Introductory materials](https://hackmd.io/@turingway/bookdash-may2021-index#GitHub-Resources) <--- update this
+* 详细 [Presentation](https://zenodo.org/record/3615259) 项目([video](https://www.youtube)。 om/watch?v=dlycvMU45ek)) <- 更新这个
+* 查看索引HackMd：https://hackmd.io/@turingway/bookdash-may2021-index <- 更新这个
+* GitHub：https://github。 om/Alan-turing-institute/the-turing-way
+    * [介绍材料](https://hackmd. o/@turingway/bookdash-may2021/index#GitHub-Resource) <— — — — 更新此
 
-:dart: Goal setting exercise: Breakout
----
+:dart: 目标设定练习：打破
+— —
 
-We would like to help create some plans and topics they you would like to explore for your contributions in _The Turing Way_. 
-- Please note that this goal setting can relate to the suggestions made the reviewers based on your application (see your acceptance email). 
-- We will be delighted to work with you to make sure that you are excited about your contribution to the Book Dash event. 
-- These topics can be something that is either missing in the existing chapters or need to be updated in the project.
-- You personal motivation could also be to collaborate with others at the event to work on and support what they are working on
-- We also recognise - and celebrate the fact - that plans may change once you meet the other participants!
+我们想帮助创建一些你想要在 _Ting Way_中探索的一些计划和主题。 
+- 请注意，这个目标设置可以与基于您的应用程序提出的建议相关(见您的接受电子邮件)。 
+- 我们将很高兴与您合作，确保您对书籍破折号活动的贡献感到兴奋。 
+- 这些主题可能是现有章节中缺少的或需要在项目中更新的内容。
+- 您的个人动机也可以是与其他人合作，以开展和支持他们正在做的工作
+- 我们也认识到并且庆祝事实——一旦您会见其他参与者，计划可能会改变！
 
 
-Setting our personal goals will help us prepare better for your participation:
-- **S**pecific: They precisely spell out what you want to accomplish and usually answer the 5 Ws (Who? What? Where? When? Why?)
-- **M**easurable: They provide a specific indicator of success.
-- **A**ttainable: They are realistic.
-- **R**elevant: They are important and practical.
-- **T**ime-bound: They specify a deadline for when the goal will be met.
+设定我们的个人目标将有助于我们更好地为您的参与做准备：
+- **S**特设：他们准确地说明了您想要完成的任务，并且通常回答5个Ws (Who？ 什么? 在哪里？ 什么时候？ 为什么？)
+**M**easula：它们提供了一个具体的成功指标。
+- **当然：它们是现实的。
+- **R**海拔：它们是重要和实用的。
+- **T**ime-bound：他们指定了目标何时实现的截止日期。
 
-*We are using [this template](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) by Danielle R. Schultz (2015).*
+*我们正在使用Danielle R. Schultz（2015年）的[本模板](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf)。
 
-<!--COPY IT BELOW-->
+<-复制IT BELOW-->
+
+> [name=name]
+> **S**设置：我想完成什么？
+> **M**easula: 我如何衡量我的成功？
+> **A**tainable: 我能否现实地实现这个目标？ 我将采取什么步骤？
+    > 第1步：
+    > 第 2步：
+    > 第 3步：
+> **R**高 
+> **T**ime-bound: 什么是我的目标截止日期？ (可能在11月9日至13日之间)： 
+> 目标声明：
 
 > [name=Name]
-> **S**pecific: What do I want to accomplish?:
-> **M**easurable: How will I measure my success?:
-> **A**ttainable: Can I realistically achieve this goal? What steps will I take?
-    > step 1:
-    > step 2:
-    > step 3:
-> **R**elevant: Does this goal meet a specific need?: 
-> **T**ime-bound: What is my target deadline? (potentially between 9 and 13 Nov): 
-> Goal statement:
-
-> [name=Name]
-> **S**pecific: What do I want to accomplish?:
-> **M**easurable: How will I measure my success?:
-> **A**ttainable: Can I realistically achieve this goal? What steps will I take?
-    > step 1:
-    > step 2:
-    > step 3:
-> **R**elevant: Does this goal meet a specific need?: 
-> **T**ime-bound: What is my target deadline? (potentially between 9 and 13 Nov): 
-> Goal statement:
+> **S**专设：我想完成什么？
+> **M**easula: 我如何衡量我的成功？
+> **A**tainable: 我能否现实地实现这个目标？ 我将采取什么步骤？
+    > 第1步：
+    > 第 2步：
+    > 第 3步：
+> **R**高 
+> **T**ime-bound: 什么是我的目标截止日期？ (可能在11月9日至13日之间)： 
+> 目标声明：
 >
 
-## Open questions: (feel free to write them below):
+## 未决问题：(请随时写下它们)：
 *
 *
 *
 
-##  Closing:
+## 关闭：
 
 - 
 
-### Wondering where to start?
+### 从哪里开始？
 
-Here are a few suggestions for a good first contributions:
+以下是一些关于好的第一个贡献的建议：
 
-- Review an existing chapter by suggesting a few changes in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- 通过在[书](https://the-turing-way)中提出一些修改来审查现有的一章。 etlify.com)和/或 [repository](https://github.com/alan-turing-institute/the-turing-way).
+- 在书中标注不明确或重复的信息，方法是在GitHub上创建一个[期](https://github.com/alan-turing-institute/the-turing-way/issues)。
+- 修复[旧问题](https://github.com/alan-turing-institute/the-turing-way/issues)或评论[拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls)。
+- 用这个 [google form](https://goo.gl/forms/akFqZEy2kxAjfZW2) 写下你个人的可复制研究体验。
+- 在GitHub上查看更多信息：https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
 ```

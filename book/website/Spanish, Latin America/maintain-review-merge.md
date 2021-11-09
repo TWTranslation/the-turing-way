@@ -1,6 +1,6 @@
 (cl-maintain-review-merging)=
-# Merging Contributions
-Pull requests made by contributors can be approved or merged by maintainers after the review. There are different ways of merging a pull request:
-- *Merge pull request*: Merges all commits to base branch. It keeps all commits made in the PR as separate and merges them as they are, through a single merge commit to the base branch.
-- *Squash and merge*: Squashes all commits created in the pull request into one commit and merges them as a single commit (with the help of a merge commit) to the base branch (see this [blog for details](https://github.blog/2016-04-01-squash-your-commits/)).
-- *Rebase and merge*: Rebases all commits individually to base branch (integrating changes from one branch to other) before merging. In the prompt message, the maintainer can provide a merge message along with comments(if any) and then press the “confirm merge” button.
+# Fusionando contribuciones
+Las solicitudes de extracción realizadas por los colaboradores pueden ser aprobadas o fusionadas por los mantenedores después de la revisión. Hay diferentes maneras de combinar una solicitud de extracción:
+- *Fusionar pull request*: combina todos los commits a la rama base. Mantiene todos los commits hechos en las relaciones públicas como separados y los fusiona como son, a través de un único compromiso de fusión con la rama base.
+- *Squash y fusionar*: Borra todos los commits creados en la pull request en un solo commit y los fusiona como un solo commit (con la ayuda de un commit de merge) en la rama base (ver este [blog para más detalles](https://github.blog/2016-04-01-squash-your-commits/)).
+- *Reiniciar y combinar*: Reemplaza todos los commits individualmente a la rama base (integrando cambios de una rama a otra) antes de fusionar. En el mensaje del mensaje, el mantenedor puede proporcionar un mensaje de fusión junto con comentarios (si los hay) y luego presionar el botón "confirmar fusión".

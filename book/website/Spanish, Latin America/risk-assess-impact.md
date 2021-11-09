@@ -1,45 +1,45 @@
-# Risk assessment: complexity and impact
+# Evaluación de riesgo: complejidad e impacto
 
-We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment- Is this coffee too hot? Is there a bus coming? Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
+Todos utilizamos las evaluaciones de riesgos todo el tiempo. A veces son procedimientos formales para asegurar que una actividad es segura. pero la mayoría de las veces están pensando en un momento - ¿Es este café demasiado caliente? ¿Llegará un autobús? El software no es diferente, y usar un enfoque de evaluación de riesgos como el descrito a continuación puede realmente ayudar a que su trabajo sea exitoso y sostenible.
 
-## The risk matrix
+## La matriz de riesgo
 
-A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
+Una matriz de riesgo es una forma muy popular de cuantificar lo que está pasando con lo que te interesa. Un eje mide la exposición de alguna manera, y el otro el impacto de un error. Cuanto más lejos del origen, más garantías se necesitan para que el riesgo sea aceptable.
 
 ```{figure} ../../figures/risk-matrix.png
 ---
-name: risk-matrix
-alt: Impact vs complexity risk matrix
+nombre: risk-matrix
+alt: Impacto vs matriz de riesgo de complejidad
 ---
-Impact vs complexity risk matrix
+Impacto vs matriz de riesgo de complejidad
 ```
 
-In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
+En nuestro caso, utilizaremos como dos ejes la «complexión» y el «impacto». Algunos estudios de caso ilustran cómo funciona…
 
-Case 1
+Caso 1
 
-> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. He pauses for a few seconds and asks:
+> Richard necesita enviar 100 trabajos pequeños al grupo de departamentos, con los nombres de los trabajos variando según un patrón simple. Esto es tedioso y quiere salir fuera y jugar. Por lo tanto, Richard decide escribir un guión corto de shell para enviar todos los trabajos. Pausa unos segundos y pregunta:
 
-> How complicated is this? It’ll only be about 1 screen of text.
+> ¿Cuán complicado es esto? Sólo será alrededor de 1 pantalla de texto.
 
-> What’s if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails.
+> ¿Qué pasa si sale mal? Los trabajos no se enviarán ni se ejecutarán y recibiré algunos mensajes de correo electrónico fallidos.
 
-> Here, Richard decides that both the complexity and impact of this tiny piece of software are low. Therefore, using version control and writing documentation is disproportionate right now. He decides to do a dry run by echoing the submit line to the terminal so he can give it a quick check.
-> A few weeks later, someone else in the lab wants to do the same thing. Richard offers his script as it worked quite well for him. The goalposts have moved. Richard pauses for a few more seconds to and reassesses the risk…
-> …5 years later, Richard’s script has evolved into a large workflow control system allowing several universities to manage complex workflows  consisting of 1000’s of jobs being submitted to a range of different compute resources. The software now has a formal project board that sets the governance and direction of the software, ensuring that it is sustainable and meets the needs of the 100s of users worldwide.
+> Aquí, Richard decide que tanto la complejidad como el impacto de esta pequeña pieza de software son bajos. Por lo tanto, usar el control de versiones y escribir documentación es desproporcionado en este momento. Él decide hacer una carrera seca haciéndose eco de la línea de envío a la terminal para que pueda darle una rápida comprobación.
+> Unas semanas más tarde, alguien en el laboratorio quiere hacer lo mismo. Richard ofrece su guión ya que funcionó bastante bien para él. Las porterías se han movido. Richard se detiene por unos segundos más y reevalúa el riesgo…
+> …5 años más tarde El guión de Richard se ha convertido en un gran sistema de control de flujo de trabajo que permite a varias universidades gestionar complejos flujos de trabajo que consisten en miles de puestos de trabajo que se someten a una serie de diferentes recursos de computación. El software ahora tiene una junta formal de proyectos que establece la gobernanza y la dirección del software, asegurar que sea sostenible y satisfacer las necesidades de los 100 usuarios de todo el mundo.
 
-Case 2...
+Caso 2...
 
-> Jemma has a problem with visualising some data. The usual library can’t cope with the format her data. She’s heard about Seth’s Friday afternoon project where he’s written a wrapper around this library to solve what seems to be the same problem. They have a coffee and decide to work together. During this coffee, they make some decisions about how they’re going to work successfully together- this is their risk assessment. Seth agrees to go away and improve the inline documentation and add some use case examples before sharing. Jemma agrees to set up a repository into which Seth will put the code.
+> Jemma tiene un problema con la visualización de algunos datos. La biblioteca habitual no puede manejar el formato de sus datos. She’s heard about Seth’s Friday afternoon project where he has written a wrapper around this library to solve what seems to be the same problem. Tienen un café y deciden trabajar juntos. Durante este café, toman algunas decisiones sobre cómo van a funcionar juntos con éxito, esta es su evaluación de riesgos. Seth se compromete a salir y mejorar la documentación en línea y añadir algunos ejemplos de casos de uso antes de compartir. Jemma acuerda configurar un repositorio en el que Seth pondrá el código.
 
-> Over time, more people start to make use of this software, with feature requests adding complexity and changes in the underlying library causing breakages. Jemma and Seth agree that things are getting a bit risky because the impact of wrong results might cause problems with publishing results. They therefore introduce continuous integration tests and a review process to ensure things remain sustainable.
+> Con el tiempo, más personas comienzan a hacer uso de este software, con peticiones de características que añaden complejidad y cambios en la biblioteca subyacente causando roturas. Jemma y Seth están de acuerdo en que las cosas se están poniendo un poco arriesgadas, porque el impacto de resultados erróneos podría causar problemas en la publicación de los resultados. Por lo tanto, introducen pruebas de integración continuas y un proceso de revisión para garantizar que las cosas sigan siendo sostenibles.
 
-The key point of these case studies is that every piece of software has different needs to be sustainable, and these requirements can change over time. The use of version control, testing, documentation and other sustainability concepts are useful for managing risk. Using none of these tools leaves your software exposed to things going wrong, but using all of them from the outset can get in the way of innovation. The risk assessment approach helps you find the right balance for now. Revisit the topic once in a while, or when something circumstances change.
+El punto clave de estos estudios de caso es que cada pieza de software tiene necesidades diferentes para ser sostenible, y estos requisitos pueden cambiar con el tiempo. El uso de los conceptos de control de versiones, pruebas, documentación y otros conceptos de sostenibilidad son útiles para la gestión del riesgo. El uso de ninguna de estas herramientas deja su software expuesto a las cosas que van mal, pero utilizar todas ellas desde el principio puede obstaculizar la innovación. El enfoque de evaluación de riesgos le ayuda a encontrar el equilibrio adecuado por ahora. Revisar el tema de vez en cuando, o cuando algo cambie.
 
-## More about measuring complexity
+## Más sobre la medición de la complejidad
 
-One measure of complexity is line count. The more lines you have the more places there are to make a mistake. However, there are other things one might care about. How many libraries do you depend on? How many functions are there? All of these measure the complexity of the codebase. Complexity can take other forms too. How many use cases are there? Does your blob counting software only get used for counting blobs in the biosciences? Are there people using it to count blobs in CCTV images? What types of computer are people using it on? CPU? GPU? Raspberry Pi? Take a broad view of your software.
+Una medida de la complejidad es el conteo de líneas. Cuantas más líneas tengas más lugares hay para cometer un error. Sin embargo, hay otras cosas que podrían preocuparse. ¿En cuántas bibliotecas dependen? ¿Cuántas funciones hay? Todas ellas miden la complejidad del código. La complejidad también puede tomar otras formas. ¿Cuántos casos de uso hay? ¿Su software de recuento de blob sólo se utiliza para contar los bloques en las biosciences? ¿Hay gente que lo usa para contar las manchas en las imágenes CCTV? ¿En qué tipo de ordenador lo utilizan las personas? ¿CPU? ¿GPU? ¿Raspberry Pi? Echa una vista amplia de tu software.
 
-## More about measuring impact
+## Más sobre la medición del impacto
 
-What happens when (not if) your software doesn’t work? Sometimes, it just annoys you for a few minutes. However, other software going wrong can have huge consequences- the retraction of your seminal paper or even lives being lost. Measuring the impact requires good knowledge of what your software is being used for. It can sometimes be difficult to keep track of this until things go wrong. However, one can try to head this off at the pass by asking questions like ‘is this piece of software I use for the analysis in my paper any good?’. Again, take a broad view of your software.
+¿Qué sucede cuando el software no funciona? A veces te molesta por unos minutos. Sin embargo, otro software que va mal puede tener enormes consecuencias: la retracción de su papel seminal o incluso la pérdida de vidas. Medir el impacto requiere un buen conocimiento de para qué se está utilizando su software. A veces puede ser difícil hacer un seguimiento de esto hasta que las cosas vayan mal. Sin embargo, uno puede intentar evitarlo en el pasaporte haciendo preguntas como «¿este software que utilizo para el análisis de mi papel es algo bueno?». Una vez más, tenga una amplia visión de su software.

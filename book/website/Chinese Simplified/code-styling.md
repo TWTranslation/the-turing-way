@@ -1,24 +1,24 @@
 (pd-code-styling)=
-# Code Styling and Linting
+# 代码样式和链接
 
-Have you ever opened a syntax or script file two years after running an analysis only to find that you have no immediate memory of the code? Have you received analysis files from a collaborator, or downloaded them from an online repository that you have never used before? Now imagine that these files are very hard to read, or there are lots of variables being passed to arcane functions, or worse, you can't find useful code as they are saved with meaningless file names such as `analysis_1final_FINAL.R`, or `onlyusethisoneforanalysis_onamonday2a.py`.
+您是否在运行分析后两年才打开了一个语法或脚本文件以发现您没有立即的内存代码？ 您是否从协作者收到过分析文件，或从您以前从未使用过的在线存储库下载过这些文件？ 现在想象这些文件很难读取，或者有许多变量被传递到奥术函数中。 或者更糟糕的是，你找不到有用的代码，因为它们是用没有意义的文件名保存的，例如 `analysis_1final_FINAL。`, 或 `onethisoneforanalysis_onamonday2a.py`.
 
-If you have not - then you are one of the lucky ones! But if you have experienced it then you might know how frustrating it is to work with those files.
+如果你没有，那么你就是一个幸运的人！ 但如果你曾经经历过这种情况，你可能会知道如何处理这些文件是多么令人沮丧。
 
-This chapter will highlight ways to avoid such challenges in your projects by introducing some principals of 'code hygiene', otherwise known as *linting*.
+本章将通过引入一些“卫生编码”原则来突出在您的项目中避免这种挑战的方式。 另称为 *lining*。
 
 ```{figure} ../figures/zen-of-python.png
 ---
-height: 500px
-name: zen-of-python
-alt: The Zen of Python, by Tim Peters. Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense. Readability counts. Special cases aren't special enough to break the rules. Although practicality beats purity. Errors should never pass silently. Unless explicitly silenced. In the face of ambiguity, refuse the temptation to guess. There should be one-- and preferably only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch. Now is better than never. Although never is often better than *right* now. If the implementation is hard to explain, it's a bad idea. If the implementation is easy to explain, it may be a good idea. Namespaces are one honking great idea -- let's do more of those!
+高度：500px
+name: zen-fython
+alt: The Zen of Python, by Tim Peters. 美丽胜于丑恶。 明示优于默示性。 简单要比复杂得好。 复杂性比复杂性要好。 平面优于嵌套。 Sparse 优于密度。 可读性计数。 特殊情况不足以破坏规则。 虽然实际可行，但是纯洁。 错误不应无声地传递。 除非明确静音。 面对模棱两可的局面，拒绝猜测。 应该有一种——最好只有一种——明显的方式来这样做。 虽然这种方式在开始时可能并不明显，但除非你是荷兰人。 现在比以往任何时候都好。 虽然现在总是比*正确*好些。 如果执行难以解释，这是一个坏主意。 如果执行容易解释，这可能是一个好主意。 命名空间是一个好主意——让我们做更多的事情！
 ---
-*Point 7 of the [Zen of Python](https://www.python.org/dev/peps/pep-0020/) is "Readability Counts". (This can be printed with the python command `>>> import this`)*
+*[Python的Zen](https://www.python.org/dev/peps/pep-0020/)第7点为“可读性数”。 (可以使用 python 命令打印。>>> 导入此命令)*
 ```
 
-## Overview
+## 概览
 
-Linting includes {ref}`guidelines for styling<pd-code-styling-guidelines>` such as for naming, and ensuring that {ref}`code is human readable<pd-code-styling-readability>` such as by using useful formatting, and writing comments.  
-Some integrated development environments (IDEs) include automatic linting, but there are free {ref}`packages and tools for linting<pd-code-styling-tools>` that will lint code for you (for example, [autopep8](https://pypi.org/project/autopep8/)).
+链接包含 {ref}`样式准则<pd-code-styling-guidelines>` 比如命名， 并确保代码为 {ref}`可读<pd-code-styling-readability>` 例如使用有用的格式化和撰写评论。  
+一些综合发展环境包括自动行号， 但有空闲的 {ref}`软件包和工具用于lining<pd-code-styling-tools>` 将为您联接代码 (例如) [autopep8](https://pypi.org/project/autopep8/)。
 
-By keeping the following advice in mind while coding, your code will be more reusable, adaptable, and clear.
+通过在编码时考虑到以下建议，你的代码将更易重复使用，更易适应，更清晰。

@@ -1,16 +1,16 @@
 (cl-shared-ownership-challenges)=
-# Challenges with Applying Ownership Models Retroactively
+# 应用所有权模式的挑战
 
-While the project ownership models represent the ideal frameworks in open source, some issues hinder their adoption widely across different projects. Specifically, it is difficult to apply shared ownership models retroactively for a few reasons described below.
+虽然项目所有权模式代表开放源码中的理想框架，但有些问题妨碍了在不同项目中广泛采用这些模式。 具体而言，由于下述几个原因，很难追溯适用共同所有权模式。
 
-## Strong Ownership
+## 强大的所有权
 
-A “strong-ownership” model is when a single contributor or small group of developers feel a strong sense of ownership over the project. It essentially assigns ownership of the project to a few individuals: although the source code may be freely available, projects are often not open for collaboration or do not incentivise contribution. This is a two-pronged problem - in the immediate term it prevents the building up of effective user and developer communities who could help to improve the software and in the long term, it may mean that codes retire along with their owners. Many code suites, especially those using High-Performance Computing (HPC), those in long-established fields and legacy code more generally, are particularly prone to these problems of strong ownership and are resistant to attempts at democratisation.
+“强所有权”模式是单个贡献者或少数开发者对项目有强烈的主人翁感。 它基本上将项目的所有权分配给少数几个人：尽管源代码可以免费获得。 项目往往不开放合作或不鼓励捐款。 这是一个双管齐下的问题――从近期来看，它妨碍了建立有效的用户和开发者社区，这些社区能够帮助改进软件，长期而言也是如此。 这可能意味着法规会与所有者一起退出。 许多代码套装，特别是那些使用高性能计算(HPC)的代码，那些在长期建立的字段中的代码和更普遍的旧代码。 我们尤其容易遇到这些强大自主权的问题，并抵制民主化的企图。
 
-## Old or Institute-funded Projects
+## 老项目或研究所资助的项目
 
-While it may be easier to adopt a shared ownership model for new projects, especially those originating outside of established institutions, the process is hampered when working with old projects, or those new projects that arise within ingrained norms of research software. Research software is developed by individuals within research groups, which operate within an organisation or a regulated research environment. For instance, nationally-funded research operates under national laws that may not always comply with the legal requirements in other countries. Organisations hosting these research themselves are constrained by national laws and international interests. The very structure of these institutions depends on ownership. For example, we have found that arranging collaboration agreements for joint funding is often held up by the need to define ownership of the intellectual property, even if the software is open source. This may be part of the larger legal framework: specifying that software is owned by a project or community rather than a person may be ideal for encouraging participation, but it could also be open to abuse if the legal ownership of the software can be disputed, or worse, appropriated by bad actors.
+虽然对新项目，尤其是来自现有机构以外的新项目采用共同所有权模式可能比较容易， 在处理旧项目或在研究软件固有规范内产生的新项目时，这一进程受到阻碍。 研究软件由研究小组内的个人开发，这些研究小组在一个组织内或受管制的研究环境内运作。 例如，由国家资助的研究是根据国家法律进行的，这些法律可能并不总是符合其他国家的法律要求。 主办这些研究的组织本身受到国家法律和国际利益的制约。 这些机构的结构本身取决于所有权。 例如， 我们发现，为联合供资安排合作协议往往因需要界定知识产权所有权而受阻， 即使软件是开放源码。 这可能是较大的法律框架的一部分：具体规定软件由项目或社区所有，而不是由个人拥有，可能是鼓励参与的理想办法。 但如果对软件的合法所有权有争议，或者更糟糕的是被坏行为者占用，也可能被滥用。
 
-## Fix-Forward Approach
+## 固定前进方法
 
-Beyond the institutional level, open source projects should transcend national borders, but we have also found that organisations might restrict the use of software that is legally registered in another country {cite:ps}`EU2013legal`. This, unfortunately, goes against the open source philosophy, but, as we explore some solutions for our main theme in the next section, we can learn to advocate for the subculture of open source within the organisation culture in which we operate.
+在体制方面，开放源码项目应超越国界。 但我们也发现一些组织可能会限制在另一个国家 {cite:ps}`EU2013legal` 合法注册的软件的使用。 不幸的是，这违背了开放源码哲学，但我们在下一节探讨我们的主题的一些解决办法。 我们可以学会在我们工作的组织文化中倡导开放源码的次级文化。

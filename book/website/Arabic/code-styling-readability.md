@@ -1,108 +1,108 @@
-(pd-code-styling-readability)=
-# Writing Human Readable Code
+(قابلية قراءة الشفرة للتطبيق)=
+# كتابة كود مقروء بشري
 
-Writing clear, well commented, readable and re-usable code benefits not only you but the community (or audience) that you are developing it for. This may be your lab, external collaborators, stakeholders, or you might be writing open source software for global distribution! Whatever scale you work at, readability counts!
+كتابة شفرة واضحة ومعلقة جيدا وقابلة للقراءة وإعادة الاستخدام لا تفيد فقط المجتمع (أو الجمهور) الذي تقوم بتطويره من أجله. قد يكون هذا مختبرك، أو متعاونين خارجيين، أو أصحاب المصلحة، أو قد تكتب برمجيات مفتوحة المصدر للتوزيع العالمي! أيّاً كان المقياس الذي تعمله، فإن القروية تُعدّ!
 
-Here are a few aspects to consider when making your code easy to read by others.
+إليك بعض الجوانب التي يجب مراعاتها عند جعل التعليمات البرمجية الخاصة بك سهلة القراءة من قبل الآخرين.
 
-## Line Length
+## طول الخط
 
-There is some agreement on the length of the coding lines. PEP8 suggests a maximum of 79 characters per line and 80 by the R style guide. This means that the lines can easily fit on a screen, and multiple coding windows can be opened. It is argued that if your line is any longer than this then your function is too complex and should be separated! This is the crux of the Tidy method of R programming, which even has a special operator `%>%` which passes the previous object to the next function, so fewer characters are required:
+وهناك بعض الاتفاق على طول خطوط الترميز. ويقترح PEP8 حرف كحد أقصى 79 حرف في السطر الواحد و80 حرف في دليل أسلوب R. وهذا يعني أن الخطوط يمكن أن تتواءم بسهولة مع الشاشة، ويمكن فتح نوافذ برمجة متعددة. يقال إنه إذا كان سطرك أطول من هذا فستكون دالتك معقدة للغاية ويجب فصلها! هذا هو جوهر طريقة برمجة R، الذي لديه حتى مشغل خاص `٪>٪` الذي ينقل الكائن السابق إلى الوظيفة التالية، لذا مطلوب عدد أقل من الأحرف:
 
 ```r
-recoded_melt_dat <- read_csv('~/files/2019-05-17_dat.csv') %>%
-recode() %>%
-melt() #We now have a recoded, melted dataframe called recoded_melt_dat
+تم استرداد_melt_dat <- قراءة_csv('~/files/2019-05-17_dat.csv') ٪>
+استرجاع () ٪>٪
+ذوبان () #لدينا الآن بيانات مستعادة ومذابة تسمى مستعادة_melt_dat
 ```
 
-## Commenting
+## التعليق
 
-Comments have been described as "Love letters to your future self" by Jon Peirce, creator of PsychoPy. Comments can be blocked or inline.  
-The PEP8 guidelines have firm suggestions that block comments should be full sentences, have two spaces following a period, and follow a dated style guide (Strunk and White). Fortunately the Elements of Style no longer 'requires' an unfair emphasis on masculine pronouns. Whereas inline comments should be used sparingly. Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes. The syntax for comments varies with programming languages. In R and Python, a hashtag is used, whereas in C and Java the brackets `/* /*` are used, and in C++/C# a double slash `//` comments single lines.
+تم وصف التعليقات بأنها "رسائل حب لنفسك في المستقبل" من قبل جون بييرس، منشئ النفس. التعليقات يمكن حظرها أو إدخالها.  
+المبادئ التوجيهية لـ PEP8 لديها اقتراحات ثابتة بأن تمنع التعليقات يجب أن تكون جمل كاملة، لديك مسافتين بعد فترة زمنية، واتبع دليل نمط التاريخ (Strunk and White). لحسن الحظ، لم تعد عناصر النمط 'تتطلب` تركيزا غير منصف على الضمائر الذكرية. في حين أن التعليقات الواردة ينبغي أن تستخدم بشكل محدود. الاحتفاظ بتعليقات واضحة وموجزة لا يسمح لك فقط بتتبع القرارات التي اتخذتها، ما هي الوظائف المعينة التي تقوم بها، وما هي المتغيرات المستخدمة، كما أنها تسمح لأشخاص آخرين برؤية عمليات تفكيركم. بناء الجملة للتعليقات يتفاوت حسب لغات البرمجة. في R و Python، يتم استخدام هاشتاج، في حين يتم استخدام الأقواس `/* * /*` في C و Java، وفي C+++/C# هناك خط مزدوج `//` يبدي أسطر واحدة.
 
-In Python:
+في بايثون
 ```python
-times = 10 # Set integer
-my_variable = "my variable is %s times better than yours" %times #Set my_variable to a string
-print(my_variable) #print the value
+مرات = 10 # تعيين عدد صحيح
+my_variable = "متغيري هو %s مرات أفضل منك" %tiملم #تعيين my_variable إلى سلسلة
+print(my_variable) #طباعة القيمة
 ```
 
-In R:
+في R:
 ```r
 my_func = function(number){ #R function
 
 (number * 5) - 2
 }
-print(my_func(2))
+print(my_function (2))
 ```
 
-For longer comments, information can be included above the code block. In Python, you can use triple speech marks as a parenthesis. This will comment out anything in between.
+للحصول على تعليقات أطول، يمكن إدراج المعلومات فوق كتلة التعليمات البرمجية. في بايتون، يمكنك استخدام علامات الكلام الثلاثية كقوسين. وهذا سيعلق على أي شيء بينهما.
 
 ```python
 """
-The following function takes a number, multiplies it by 5, and subtracts 2.
-This may seem pointless but is simple for demonstration.
+الدالة التالية تأخذ رقما، تضرب في 5، وتطرح 2.
+وقد يبدو هذا عديم الجدوى، ولكنه أمر بسيط بالنسبة للمظاهرة.
 """
 def myfunc(numb): #python function
-      return((numb*5)-2)
+      عادة(numb*5)-2)
 print(myfunc(8))
 ```
-Longer blocks of comments are not available in R. There are ways around this, such as setting up a string, or an if(false) statement:
+الكتل الأطول من التعليقات غير متوفرة في R. هناك طرق حول هذا، مثل إعداد سلسلة أو بيان إذا(مزيف):
 
 ```r
-"1 - This is a string. It will not be evaluated by R, and will not raise
-and exception"
+"1- هذه سلسلة لن يتم تقييمه بواسطة R ولن تثير
+والاستثناء"
 
 if(false){
-2 - All of your comment can go here and will never be evaluated.
-It also means you keep to the 80 character line length suggestion.
-Also, in RStudio you can fold away the comment using the arrow next to the
-line number of the if statement.
+2 - كل تعليقك يمكن أن يذهب إلى هنا ولن يتم تقييمه أبدا.
+كما يعني أنك تحتفظ باقتراح طول سطر 80 حرفاً.
+أيضًا في RStudio يمكنك طي التعليق بعيداً باستخدام السهم المجاور لرقم السطر
+من بيان الحالة.
 }
 ```
 
-Or commenting out individual lines:
+أو التعليق على سطر فردي:
 
 ```r
-#This is also a very long comment
-#covering many lines.
+#هذا أيضا تعليق طويل جدا
+#يغطي العديد من الأسطر.
 ```
-Your IDE will probably have a keyboard shortcut for commenting out blocks.
+قد يكون لدى IDE الخاص بك اختصار لوحة المفاتيح للتعليق على الكتل.
 
-## Indentation
+## النزول
 
-The R style guide suggests that lines should be separated:
+ويقترح دليل أسلوب "R" أنه ينبغي فصل الخطوط:
 ```r
-by
-  two spaces
+بواسطة
+  مساحتين
 ```
-And not
+وليس
 ```r
- a mixture
-   of
-    tabs
-      and   spaces.
+ مزيج
+   من
+    علامات التبويب
+      والمسافات.
 ```
 
-Obviously, sometimes the arguments of a function can far expand 80 characters. In this case, it is recommended that the second line be indented to the start of the arguments:
+ومن الواضح أن حجج الوظيفة يمكن أحيانا أن توسع 80 حرفا بكثير. وفي هذه الحالة، يوصى بأن يكون السطر الثاني مفقودا في بداية الحجج، على النحو التالي:
 
 ```r
-my_variable <- a_really_long_function(data = "2019-05-17_Long_File_Name_2",
-                                      header = TRUE, verbose = TRUE)
+my_variable <- a_really_long_function(البيانات = "2019-05-17_Long_File_Name_2",
+                                      رأس = TRUE, فلونز = TRUE)
 
 ```
 
-These are of course just guidelines, and you should choose elements that suit your coding style. However, and again, it is important to ensure that you are consistent when collaborating, and can agree on a common style. It could be useful to create a readme file describing your coding style so collaborators or contributors can follow your lead.
+هذه بالطبع مجرد مبادئ توجيهية، ويجب عليك اختيار العناصر التي تناسب أسلوب البرمجة الخاص بك. ومع ذلك، ومرة أخرى، من المهم ضمان أن تكون متسقا عند التعاون، وأن تكون قادرا على الاتفاق على أسلوب مشترك. قد يكون من المفيد إنشاء ملف جديد يصف نمط البرمجة الخاص بك حتى يمكن للمتعاونين أو المساهمين اتباع العرض الخاص بك.
 
-### ...end. ...end.  ...or end.\\n
+### ...نهاية. ...نهاية.  ...أو نهاية \\n
 
-If you are sharing text files or working collaboratively on manuals or documents, then there is a lot of controversy surrounding whether to use one or two spaces after a period. When using Markdown, it can be clearer to include a new line after every sentence. This chapter (and most, if not all, of this book) has a new line after every sentence that makes the raw text easier to read, review and solve the spacing issue.
+إذا كنت تشارك الملفات النصية أو تعمل بشكل تعاوني على الأدلة أو الوثائق، ثم هناك الكثير من الجدل حول ما إذا كان سيتم استخدام مسافة أو مساحتين بعد فترة من الزمن. عند استخدام Markdown، يمكن أن يكون من الأوضح إدراج سطر جديد بعد كل جملة. هذا الفصل (ومعظم هذا الكتاب، إن لم يكن كله) له سطر جديد بعد كل جملة تجعل النص الخام أسهل قراءته، مراجعة مشكلة المباعدة بين الولادات وحلها.
 
 ```{figure} ../../figures/xkcd1285.png
 ---
-height: 500px
-name: xkcd1285
-alt: Two groups holding different flags and fighting, one says "two spaces after a period" and other says "one space after a period". While a person stands with their flag that says "Line break after every sentence"
+الطول: 500px
+الاسم: xkcd1285
+بديل : مجموعتان تحملان أعلام مختلفة و تقاتل، واحد يقول "مساحتين بعد فترة" والآخر يقول "مسافة واحدة بعد فترة". بينما يقف شخص مع علمه الذي يقول "استراحة الخط بعد كل جملة"
 ---
-*Line break after each sentence makes it easy to review and comment - [XKCD Link](https://www.explainxkcd.com/wiki/index.php/1285:_Third_Way)*
+*استراحة الخط بعد كل جملة تجعل من السهل مراجعتها والتعليق عليها - [XKCD Link](https://www. xplainxkcd.com/wiki/index.php/1285:_Third_Way)*
 ```

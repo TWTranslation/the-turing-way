@@ -1,58 +1,58 @@
-(cm-citable-steps)=
-# Steps for Making Research Objects Citable
+(Cm-citable-steps) =
+# خطوات لجعل عناصر البحث قابلة للحساب
 
-There are many reasons why authors don't cite the data and software that they use, but one of the biggest ones is that it's not clear how. You can go a long way to reducing this barrier by following a few steps to make it as easy as possible.
+هناك العديد من الأسباب التي تجعل المؤلفين لا يستشهدون بالبيانات والبرمجيات التي يستخدمونها، ولكن واحدة من اكبر الامور هي انه ليس من الواضح كيف يمكن يمكنك أن تقطع شوطا طويلا لتقليل هذا الحاجز باتباع خطوات قليلة لجعله أيسر ما يمكن.
 
-(cm-citable-steps-object)=
-## 1. Identify Your Research Objects
+(Cm-citable-steps-object)=
+## 1. تحديد عناصر بحثك
 
-We want to emphasise that most of our research objects should be shared so that other researchers can reproduce and reuse them. Therefore, the first step is to identify all the research components that you would share online. Practising open research isn't essential to get credit for your data or software, but it makes it much easier for others to build on your work in a way that acknowledges your contribution. There is a growing body of evidence that shows open research tends to be cited more than non-open research of equivalent quality and significance.
+نريد أن نشدد على أن معظم أشياء بحثنا يجب أن تشارك حتى يتمكن الباحثون الآخرون من إعادة استنساخها وإعادة استخدامها. لذلك، الخطوة الأولى هي تحديد جميع عناصر البحث التي يمكن أن تتقاسمها عبر الإنترنت. ممارسة البحث المفتوح ليست ضرورية للحصول على رصيد لبياناتك أو برامجك، ولكنه يجعل من الأسهل على الآخرين أن يبنوا على عملكم بطريقة تعترف بمساهماتكم. وهناك كم متزايد من الأدلة التي تبين أن البحوث المفتوحة تميل إلى الاستشهاد بها أكثر من البحوث غير المفتوحة ذات النوعية والأهمية المعادلة.
 
-As part of the citation for your research objects, it is important to publish research objects beyond papers, such as images, data, software, protocols, methods ang workflow associated with your research.
+كجزء من الاستشهاد بالأشياء البحثية الخاصة بك، من المهم نشر أشياء بحثية تتعدى الورقات، مثل الصور، والبيانات، والبرمجيات، والبروتوكولات، والأساليب التي تضع علامات على سير العمل المرتبطة ببحثك.
 
-The best way to get started with this will be to look up some examples of what kind of research objects are or should be cited. Finding commonly referenced research objects in your discipline serves two purposes:
-1. It demonstrates that software & data are things that can be cited;
-2. It gives authors a reference and format that they can copy and paste directly into their document.
+أفضل طريقة للبدء بهذا هو البحث عن بعض الأمثلة على أي نوع من الكائنات البحثية التي يجب الاستشهاد بها. البحث عن كائنات البحث ذات الإشارة الشائعة في تخصصك يخدم غرضين:
+1. وهو يوضح أن البرنامج & البيانات هي أشياء يمكن ذكرها؛
+2. يعطي المؤلفين مرجع و صيغة يمكنهم نسخها و لصقها مباشرة في مستنداتهم
 <!-- TODO: Cite relevant paper for this (Piwowar et al 2013?) -->
 
 ```{note}
-You can learn more about the different types of research objects in the chapters {ref}`making your research open<rr-open>` and {ref}`making your research FAIR<rr-rdm>`.
+يمكنك معرفة المزيد عن الأنواع المختلفة من عناصر البحث في الفصلين {ref}`جعل بحثك مفتوحًا<rr-open>` و {ref}`جعل بحثك يفر<rr-rdm>`.
 ```
 
-(cm-citable-steps-publish)=
-## 2. Publish your work online
+(m-citable-steps-publish)=
+## 2. نشر عملك عبر الإنترنت
 
-Online publications are attached to persistent identifiers that are used for citing them. It's important to note that not everything published online gets a unique identifier but it is important that research objects are published online with DOIs as described below.
+وتلحق المنشورات الإلكترونية بأجهزة تحديد الهوية الدائمة التي تستخدم للإشارة إليها. من المهم ملاحظة أن ليس كل شيء منشور على الإنترنت يحصل على معرف فريد ولكن من المهم أن تنشر الأجسام البحثية عبر الإنترنت مع جهات الوصل كما هو مبين أدناه.
 
-(cm-citable-steps-doi)=
+(Cm-citable-steps-doi)=
 ### DOIs
 
 ```{figure} ../../figures/DOI.jpg
 ---
-name: doi
-alt: This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'.
+الاسم: doi
+البديل : هذه الصورة تظهر ثلاثة صناديق مع مواد في الأعلى. يحتوي المربع الرئيسي في الوسط على 'معرفات مكتوبة عليه مع ثلاثة أقراص فوقه تسمى 'مجموعات البيانات'. وكلا الصندوقين يحملان جانبهما مقالات صحفية فوقهما. سهم في الجزء العلوي من الصورة يشير إلى هذه الصور على أنها 'معرف الكائن الرقمي'. هناك نص في الجزء السفلي من الصورة التي تقول "دائم"، "فريد"، "ثقت".
 ---
-Digital Object Identifiers or DOIs are persistent, unique and trusted. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+أجهزة تعريف الكائن الرقمي أو DOI ثابتة وفريدة وموثوقة. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Unique identifiers or persistent links for digital objects are more formally called [Digital Object Identifiers or DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier). Using DOIs makes it much easier for others to cite your data, reduces the risk of link rot and means you can track how your research is being used and cited.
+المعرّفات الفريدة أو الروابط الثابتة للأشياء الرقمية تسمى بشكل رسمي [معرّفات الكائنات الرقمية أو أجهزة التنبيه](https://en.wikipedia.org/wiki/Digital_object_identifier). استخدام DOI يجعل من الأسهل للآخرين أن يستشهدوا ببياناتك، يقلل من خطر الود الرابط والوسائل التي يمكنك تتبع كيفية استخدام البحث الخاص بك والاستشهاد به.
 
-### Servers that provide DOIs
+### الخوادم التي توفر DOI
 
-Independent of the paper, different research objects can be published online on servers that offer DOIs. Some of these servers are [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/) (for different objects such as figures, presentations and reports), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework (OSF)](https://osf.io/) (for different components of an open research project).
+وبصرف النظر عن الورقة، يمكن نشر أشياء بحثية مختلفة على الإنترنت على الخوادم التي تقدم مؤسسات البحث الرقمي. بعض هذه الخوادم هي [زينودو](https://zenodo.org/) و [مشاركة الرقم](https://figshare.com/) (لعناصر مختلفة مثل الأرقام، عروض وتقارير)، [جفاف البيانات](https://datadryad.org/stash) (للبيانات)، [المنح المفتوحة](https://www.ogrants.org/) (لمقترحات المنح) و [إطار العلوم المفتوحة](https://osf.io/) (لمختلف مكونات مشروع البحوث المفتوحة).
 
-It's perfectly possible to cite a dataset or software package directly, and most major publishers now permit this in their style guides. However, it can sometimes help to have a more conventional paper to cite, and this is where software and data journals come in. These journals are similar to methods journals, in that they tend not to include significant results but instead focus on describing data and software in sufficient detail to allow reuse. Some examples include:
-- [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/)
-- [Journal of Open Source Software](https://joss.theoj.org/)
+من الممكن تماماً الاستشهاد بمجموعة بيانات أو مجموعة برامج مباشرة، ومعظم الناشرين الرئيسيين الآن يسمحون بذلك في أدلّة أسلوبهم. غير أنه قد يساعد أحياناً على الاستشهاد بورقة أكثر تقليدية، وهنا تأتي البرمجيات ومجلات البيانات. وهذه المجلات مشابهة لمجلات الأساليب، ومن حيث أنها تميل إلى عدم تضمينها نتائج هامة، بل تركز بدلا من ذلك على وصف البيانات والبرمجيات بتفصيل كاف للسماح بإعادة استخدامها. ومن الأمثلة على ذلك:
+- [يومية برنامج البحوث المفتوحة](https://openresearchsoftware.metajnl.com/)
+- [يومية برمجيات المصدر المفتوح](https://joss.theoj.org/)
 
-(cm-citable-steps-referencing)=
-## 3. Add Machine-Readable Referencing Information
+(m-citable-steps-referencing)=
+## 3. إضافة معلومات مرجعية مقروءة آليا
 
-You can go a step further by allowing people to import information about your research objects into their preferred referencing database. If [BibTeX](https://en.wikipedia.org/wiki/BibTeX) is popular in your field for managing references, post a `.bib` file of *all* your outputs (not just your papers). If [Endnote](https://endnote.com/) is more popular, make an Endnote export available. If you use GitHub, GitLab or similar, consider creating a `CITATION` file in each repository containing guidance for how someone can refer to different research outputs from your project.
+يمكنك الذهاب خطوة أبعد من ذلك من خلال السماح للناس باستيراد معلومات عن الكائنات البحثية الخاصة بك في قاعدة البيانات المفضلة الخاصة بهم. إذا كان [BibTeX](https://en.wikipedia.org/wiki/BibTeX) شعبيًا في الحقل الخاص بك لإدارة المراجع، قم بنشر `. ib` ملف *لكل* مخرجاتك (ليس فقط ورقاتك). إذا كان [الحاشية](https://endnote.com/) أكثر شعبية، اجعل تصدير الحاشية متاح. إذا كنت تستخدم GitHub، GitLab أو ما شابه ذلك، النظر في إنشاء ملف `CITATION` في كل مستودع يحتوي على إرشادات حول كيف يمكن لشخص ما أن يشير إلى نواتج بحث مختلفة من مشروعك.
 
-If possible, provide several formats: you won't need to update these very often and it will pay off.
+إذا كان ذلك ممكناً، قم بتوفير عدة تنسيقات: لن تحتاج إلى تحديث هذه الأشكال بشكل متكرر جداً وستدفع ثمنها.
 
 ```{note}
-Many online tools allow exporting citation of research objects in different formats.
-For example, see [https://www.citethisforme.com/](https://www.citethisforme.com/).
+ويسمح العديد من الأدوات الإلكترونية بتصدير أشياء بحثية بأشكال مختلفة.
+على سبيل المثال، انظر [https://www.citethisforme.com/](https://www.citethisforme.com/).
 ```

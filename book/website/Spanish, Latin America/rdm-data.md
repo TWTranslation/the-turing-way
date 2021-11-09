@@ -1,14 +1,14 @@
 (rr-rdm-data)=
-# Research Data
+# Datos de investigación
 
-(rr-rdm-data-definition)=
-## What is Data?
+(rr-rdm-data-definición)=
+## ¿Qué son los datos?
 
-Data are objects that you use and produce during your research life cycle, encompassing datasets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset. In some fields, it is obvious what data means - you have observations or results of simulations. However, in other fields, particularly in Social Sciences, Humanities or Arts, you may be thinking "I do not think I have any data". A good way of thinking about what might be classed as data that needs to be managed is to ask yourself the questions: "What is the information that I need to use and write about in my paper or book?", "What information would I need to back up my conclusions?" and "What information is needed by others to understand and possibly replicate the research that I have done?". This information is your data.
+Los datos son objetos que usted utiliza y produce durante su ciclo de vida de investigación, englobando conjuntos de datos, software, código, flujo de trabajo, modelos, figuras, tablas, imágenes y videos, entrevistas, artículos. Los datos son su activo de investigación. En algunos campos, es obvio lo que significan los datos - usted tiene observaciones o resultados de simulaciones. Sin embargo, en otros campos, particularmente en Ciencias Sociales, Humanidades o Artes, se puede pensar "No creo que tenga datos". Una buena manera de pensar sobre lo que se podría clasificar como datos que hay que gestionar es hacerse las preguntas: "¿Cuál es la información sobre la que necesito usar y escribir en mi documento o libro? , "¿Qué información necesitaría para respaldar mis conclusiones? y "¿Qué información necesitan otros para entender y posiblemente replicar la investigación que he hecho?". Esta información son sus datos.
 
-(rr-rdm-data-lifecycle)=
-## The Research Data Lifecycle - A Model for Data Management
+(rr-rdm-data-ciclo de vida)=
+## El ciclo de vida de los datos de investigación - Un modelo para la gestión de datos
 
-Research data often follows a 'lifecycle' which follows the research project as it evolves; here is a [video](https://www.youtube.com/watch?v=-wjFMMQD3UA) that describes it. This model provides a sound basis on which to plan for research data management, from data creation at the start of a research project, through to publishing and sharing research at the end of the project, and archiving any research data for the long-term and future re-use once the project has ended.
+Los datos de investigación a menudo siguen un "ciclo de vida" que sigue el proyecto de investigación a medida que evoluciona; aquí hay un [video](https://www.youtube.com/watch?v=-wjFMMQD3UA) que lo describe. Este modelo proporciona una base sólida sobre la que planificar la gestión de datos de investigación, desde la creación de datos al inicio de un proyecto de investigación, a través de la publicación y el intercambio de investigación al final del proyecto, y archivar cualquier dato de investigación para la reutilización a largo plazo y futuro una vez finalizado el proyecto.
 
-The research data lifecycle involves data creation, data use, data publication and sharing, data archiving, and data re-use or destruction. However, data have a longer lifespan than the research project that creates them. In a  {ref}`Data Management Plan <rr-rdm-dmp>` you can structure how you will manage and share your research data.
+El ciclo de vida de los datos de investigación incluye la creación de datos, el uso de datos, la publicación y el intercambio de datos, el archivo de datos y la reutilización o destrucción de los datos. Sin embargo, los datos tienen una vida más larga que el proyecto de investigación que los crea. En un  {ref}`Plan de gestión de datos <rr-rdm-dmp>` puede estructurar cómo gestionará y compartir sus datos de investigación.

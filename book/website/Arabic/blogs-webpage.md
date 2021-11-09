@@ -1,40 +1,40 @@
-(cm-blogs-webpage)=
-# Building a Webpage for Blogs
+(m-blogs-webpage)=
+# بناء صفحة ويب للمدونات
 
-Making a website for a blog is easier than you think so don't be put off if you have never made one before.
+إنشاء موقع على الإنترنت لمدونة أسهل مما تظن لذلك لا يمكن تأجيله إذا لم تقم بذلك من قبل.
 
-You need to consider:
-* **Skill level** - This is important but can be learnt by anyone that regularly uses a computer.
-* **Budget** - there are plenty of free options for websites but you can pay for certain services such as different themes.
-* **Time** - It does take time to initially build the website and get it into the state that you want. Therefore, consider using the tool that will be the least time consuming for you to build and maintain.
+تحتاج إلى النظر في:
+* **مستوى المهارات** - هذا مهم ولكن يمكن تعلمه من قبل أي شخص يستخدم الكمبيوتر بانتظام.
+* **الميزانية** - هناك الكثير من الخيارات المجانية لمواقع الويب، ولكن يمكنك دفع بعض الخدمات مثل مواضيع مختلفة.
+* **الوقت** - يحتاج الأمر إلى وقت لبناء الموقع في البداية ودخوله إلى الحالة التي تريدها. لذلك، فكر في استخدام الأداة التي ستكون أقل استهلاكا للوقت من أجل البناء والصيانة.
 
-(cm-blogs-webpage-simple)=
-## Simple Website - Non-Coding Options
-* **Wordpress**
-    * Very popular site to use for blogs.
-    * You can start a blog for free but added functions will cost you.
-    * Simple to set up as built-in easy block-like fashion.
-    * Here's a [link](https://wordpress.com/go/category/content-blogging/) for help.
-    * This is worth a read about [starting a WordPress blog](https://www.podcastinsights.com/start-a-wordpress-blog/).
-* **Google sites**
-    - Not originally set up for blogs but can be adapted for this purpose or used as a project website with blog-type updates.
-    - It's free as part of the free Google Suite.
-    - You can pay for business accounts through Google workspace for more options.
-    - It has an accessible interface much like Google slides that are easy to use and publish as a website.
-    - Find more information at the [Google site help page](https://support.google.com/sites/?hl=en#topic=7184580)
+(m-blogs-webpage-simple)=
+## موقع بسيط - خيارات عدم البرمجة
+* **وردبريس**
+    * موقع شائع جدا لاستخدامه للمدونات.
+    * يمكنك بدء مدونة مجانية ولكن الوظائف المضافة سوف تكلفك.
+    * بسيط للإعداد كموضة سهلة مثل الكتلة.
+    * إليك رابط [](https://wordpress.com/go/category/content-blogging/) للمساعدة.
+    * هذا يستحق قراءة حول [بدء مدونة ووردبرس](https://www.podcastinsights.com/start-a-wordpress-blog/).
+* **مواقع جوجل**
+    - لم يتم إعدادها أصلاً للمدونات ولكن يمكن تكييفها لهذا الغرض أو استخدامها كموقع لمشروع مع تحديثات من نوع المدونة.
+    - إنها مجانية كجزء من مجموعة جوجل المجانية.
+    - يمكنك الدفع لحسابات الأعمال التجارية من خلال مساحة عمل جوجل للحصول على المزيد من الخيارات.
+    - لديها واجهة سهلة المنال مثل شرائح جوجل التي يسهل استخدامها ونشرها كموقع على شبكة الإنترنت.
+    - ابحث عن مزيد من المعلومات في [صفحة مساعدة موقع جوجل](https://support.google.com/sites/?hl=en#topic=7184580)
 
-Here is a link to an [article that compares google sites and wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress/).
+إليك رابط لمقال [يقارن بين مواقع جوجل والكلمات](https://superbwebsitebuilders.com/google-sites-vs-wordpress/).
 
-There are other options out there and you can always pay for someone to build your blog website if you have the resources.
+هناك خيارات أخرى هناك ويمكنك دائماً أن تدفع لشخص ما تكاليف إنشاء موقع مدونتك الإلكتروني إذا كان لديك الموارد.
 
-These options are highlighted as they are very accessible and it's always worth to learn new skills.
+وقد تم تسليط الضوء على هذه الخيارات لأنها سهلة المنال وتستحق دائماً تعلم مهارات جديدة.
 
-(cm-blogs-webpage-advanced)=
-## Advanced Website Building - Programming Needed
+(m-blogs-webpage-Advced)=
+## بناء الموقع المتقدم - البرمجة المطلوبة
 
 * **Github pages**
-    * If you know how to set up a Github repository then this is an accessible way to create a repository and then convert it into web pages.
-    * You can select from various free themes using [Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
-    * This is a good resource to learn how to make GitHub pages - [Collaborative Github Docs](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/4-2-Make-your-Pages-site.html).
-    * This blog uses Github pages - [The Open Archaeobotanist](https://ekaroune.github.io/The-Open-Archaeobotanist/).
-    * You can use this blog post by Sarah Gibson [to create a blog with Hugo and Github pages](https://sgibson91.github.io/blog/hugo-tutorial/).
+    * إذا كنت تعرف كيفية إنشاء مستودع Github فستكون هذه طريقة متاحة لإنشاء مستودع ثم تحويله إلى صفحات ويب.
+    * يمكنك الاختيار من مختلف السمات المجانية باستخدام [Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
+    * هذا مورد جيد لتعلم كيفية إنشاء صفحات GitHub - [Github Coative Docs](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/4-2-Make-your-Pages-site.html).
+    * هذه المدونة تستخدم صفحات Github - [عالم النبات المفتوح](https://ekaroune.github.io/The-Open-Archaeobotanist/).
+    * يمكنك استخدام هذه المدونة المنشورة من قبل سارة جيبسون [لإنشاء مدونة مع صفحات Hugo و Github](https://sgibson91.github.io/blog/hugo-tutorial/).

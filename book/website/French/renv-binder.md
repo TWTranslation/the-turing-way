@@ -1,188 +1,188 @@
 (rr-renv-binder)=
 # Binder
 
-(rr-renv-binder-overview)=
-## Overview
+(rr-renv-vue d'ensemble du lien)=
+## Aperçu
 
-Now that we have seen how to use and capture the computational environment used in a Python project, it is time to think about how to share that environment.
+Maintenant que nous avons vu comment utiliser et capturer l'environnement informatique utilisé dans un projet Python, il est temps de réfléchir à la façon de partager cet environnement.
 
-With an `environment.yml` file (or similar, from alternative package management systems),others can recreate the environment specified by that file. However, this relies on the new user having the same package management system set up, and knowing how to use it. It would be far easier if there was an automated solution to recreate the computational environment - and this is where Binder comes in.
+Avec un fichier `environment.yml` (ou similaire, à partir de systèmes alternatifs de gestion de paquets),d'autres peuvent recréer l'environnement spécifié par ce fichier. Cependant, cela dépend du fait que le nouvel utilisateur ait le même système de gestion des paquets mis en place, et qu'il sache comment l'utiliser. Il serait beaucoup plus facile de trouver une solution automatisée pour recréer l'environnement informatique - et c'est là qu'intervient Binder.
 
-Binder uses a tool called `repo2docker` to create a Docker image of a project based on the configuration files that are included. The resulting image contains the project and the computational environment specified by the original user. Other users can access the image via a cloud-based BinderHub, which allows them to view, edit and run the code from their web browser.
+Binder utilise un outil appelé `repo2docker` pour créer une image Docker d'un projet basée sur les fichiers de configuration qui sont inclus. L'image qui en résulte contient le projet et l'environnement de calcul spécifié par l'utilisateur d'origine. D'autres utilisateurs peuvent accéder à l'image via un nuage basé sur BinderHub, qui leur permet de visualiser, éditer et exécuter le code à partir de leur navigateur Web.
 
-Juliette Taka's excellent cartoon below illustrates the steps in creating and sharing a "binderized" project.
+L'excellent dessin animé de Juliette Taka ci-dessous illustre les étapes de la création et du partage d'un projet "lié".
 
-**Step 1:** We start with a researcher who has completed a project and wants to share her work with anyone, regardless of their computational environment. Note that Binder does not only have to be applied to finished projects; it can be used in the same way to share projects that are in progress.
+**Étape 1 :** Nous commençons avec un chercheur qui a terminé un projet et veut partager son travail avec quiconque, indépendamment de leur environnement informatique. Notez que le Binder ne doit pas seulement être appliqué aux projets finis ; il peut être utilisé de la même manière pour partager des projets en cours.
 
-**Step 2:** The researcher's project contains many files of different types. In this case, the researcher has been working in Jupyter notebooks. However, Binder can be used just as effectively with many other file formats and languages which we will cover in more detail shortly.
+**Étape 2 :** Le projet du chercheur contient de nombreux fichiers de différents types. Dans ce cas, le chercheur a travaillé dans les blocs-notes Jupyter. Cependant, Binder peut être utilisé aussi efficacement avec de nombreux autres formats de fichiers et langues que nous aborderons plus en détail sous peu.
 
-**Step 3:** The researcher uploads her code to a publicly available repository hosting service, such as GitHub, where others can access it. She includes a file describing the computational environment required to run the project.
+**Étape 3 :** Le chercheur télécharge son code vers un service d'hébergement de dépôts publiquement disponible, tel que GitHub, où d'autres peuvent y accéder. Elle comprend un fichier décrivant l'environnement informatique requis pour exécuter le projet.
 
-**Step 4:** She generates a link at the [mybinder.org](https://mybinder.org) BinderHub. By clicking on this link, anyone can access a "binderized" version of her project. The click triggers `repo2docker` to build a Docker image based on the contents of the repository and its configuration files. This image is then hosted on the cloud. The person who clicked the link will be taken to a copy of her project in their web browser where they can interact with it. This copy of the project is hosted in the environment the researcher specified in step 3, regardless of the computational environment it is accessed from.
+**Étape 4 :** Elle génère un lien sur le [mybinder.org](https://mybinder.org) BinderHub. En cliquant sur ce lien, tout le monde peut accéder à une version « bindée » de son projet. Le clic déclenche `repo2docker` pour construire une image Docker basée sur le contenu du dépôt et ses fichiers de configuration. Cette image est ensuite hébergée sur le cloud. La personne qui a cliqué sur le lien sera transférée à une copie de son projet dans son navigateur Web où elle pourra interagir avec lui. Cette copie du projet est hébergée dans l'environnement spécifié par le chercheur à l'étape 3, quel que soit l'environnement informatique auquel il est accédé.
 
 ```{figure} ../../figures/binder-comic.png
 ---
-name: binder-comic
-alt: An illustration of the steps a person can take to create a binderised project.
+nom: lider-comique
+alt : Une illustration des pas qu'une personne peut prendre pour créer un projet bindérivé.
 ---
-Figure credit - [Juliette Taka, Logilab and the OpenDreamKit project](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
+Crédit de figure - [Juliette Taka, Logilab et le projet OpenDreamKit](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
 ```
 
-To get an idea of what this looks like, below is a binder of a simple example project. Files are listed and can be clicked on and modified by the person accessing the Binder.
+Pour avoir une idée de ce à quoi cela ressemble, ci-dessous est un lieur d'un projet d'exemple simple. Les fichiers sont répertoriés et peuvent être cliqués et modifiés par la personne qui accède au lieur.
 
 ```{figure} ../../figures/binder-home.png
 ---
-name: binder-home
-alt: A screenshot of a binder of a sample project
+name : binder-home
+alt: Une capture d'écran d'un lieur d'un projet d'échantillon
 ---
-A binder of a sample project.
+Un lieur d'un projet d'échantillon.
 ```
 
-Users can also open terminals to run or otherwise interact with the files by clicking on "New" and then "Terminal" in the top right of the home Binder screen shown above. Here, this is used to run the analysis script in the example Binder which performs a linear regression on some data:
+Les utilisateurs peuvent également ouvrir des terminaux pour exécuter ou autrement interagir avec les fichiers en cliquant sur "Nouveau" puis sur "Terminal" en haut à droite de l'écran de la liaison d'accueil affiché ci-dessus. Ici, ceci est utilisé pour exécuter le script d'analyse dans l'exemple Binder qui effectue une régression linéaire sur certaines données:
 
 ```{figure} ../../figures/binder-terminal.png
 ---
-name: binder-terminal
-alt: A screenshot of a terminal where users can run or interact with project files
+nom: lider-terminal
+alt: Une capture d'écran d'un terminal où les utilisateurs peuvent s'exécuter ou interagir avec les fichiers du projet
 ---
-A screenshot of a terminal where users can run or interact with project files
+Une capture d'écran d'un terminal où les utilisateurs peuvent s'exécuter ou interagir avec les fichiers du projet
 ```
 
-As mentioned, Binder is well integrated with Jupyter notebooks. Notebooks can be opened by clicking on "New" and then "Notebook" in the same way terminals can be opened. These may be more convenient for those working with graphical outputs, as shown here where one is used to run `make_plot.py` in the example Binder:
+Comme mentionné, Binder est bien intégré avec les blocs-notes Jupyter. Les ordinateurs portables peuvent être ouverts en cliquant sur "Nouveau" puis "Carnet" de la même manière que les terminaux peuvent être ouverts. Celles-ci peuvent être plus pratiques pour ceux qui travaillent avec des sorties graphiques, comme indiqué ici où on est utilisé pour exécuter `make_plot. y` dans l'exemple Binder :
 
 ```{figure} ../../figures/binder-notebook.png
 ---
-name: binder-notebook
-alt: A screenshot of a Jupyter Notebook integrated with Binder
+name : lider-notebook
+alt: Une capture d'écran d'un Notebook Jupyter intégré avec Binder
 ---
-A screenshot of a Jupyter Notebook integrated with Binder
+Une capture d'écran d'un Notebook Jupyter intégré avec Binder
 ```
 
-If R is installed in a Binder, the dropdown menu will show the options to open R Jupyter notebooks and RStudio sessions in the Binder.
+Si R est installé dans une Binder, le menu déroulant affichera les options pour ouvrir les cahiers R Jupyter et les sessions RStudio dans la Binder.
 
-(rr-renv-binder-disambiguation)=
-## Disambiguation
+(rr-renv-lien-désambiguïté)=
+## Désambiguïté
 
-In this section, there are some related terms, which will be outlined here for clarity:
+Dans cette section, il y a des termes connexes qui seront décrits ici pour plus de clarté:
 
-- **Binder**: A sharable version of a project that can be viewed and interacted within a reproducible computational environment via a web browser.
-- **BinderHub**: A service which generates Binders. The most widely-used is [mybinder.org](https://mybinder.org), which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
-- **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
-- **Binderize**: To make a Binder of a project.
+- **Binder**: Une version partageable d'un projet qui peut être visualisée et interagir dans un environnement informatique reproductible via un navigateur Web.
+- **BinderHub**: Un service qui génère des lieurs. Le plus largement utilisé est [mybinder.org](https://mybinder.org), qui est maintenu par l'équipe de Binder. Il est possible de créer d'autres BinderHubs qui peuvent supporter des configurations plus spécialisées. Une telle configuration pourrait inclure l'authentification pour permettre le partage de dépôts privés entre des collaborateurs proches.
+- **[mybinder.org](https://mybinder.org)**: Un BinderHub public et libre. Parce qu'il est public, vous ne devriez pas l'utiliser si votre projet nécessite des informations personnelles ou sensibles (comme des mots de passe).
+- **Binderize**: Faire un Binder d'un projet.
 
 (rr-renv-binder-creating)=
-## Creating a Binder for a Project
+## Créer une liaison pour un projet
 
-Creating a binderized version of a project involves three key steps which will be explained in this section:
+La création d'une version bindée d'un projet implique trois étapes clés qui seront expliquées dans cette section :
 
-1. Specify the computational environment
-2. Put the project files somewhere publicly available (we will describe how to do this with GitHub)
-3. Generate a link to a Binder of the project
+1. Spécifiez l'environnement de calcul
+2. Mettre les fichiers du projet quelque part publiquement disponible (nous décrirons comment le faire avec GitHub)
+3. Générer un lien vers une liaison du projet
 
-For a list of sample repositories for use with Binder, see the [Sample Binder Repositories](https://mybinder.readthedocs.io/en/latest/sample_repos.html) page.
+Pour une liste d'exemples de dépôts à utiliser avec Binder, voir la page [Exemple de dépôts Binder](https://mybinder.readthedocs.io/en/latest/sample_repos.html).
 
 (rr-renv-binder-creating-stepone)=
-### Step 1: Specify your Computational Environment
+### Étape 1 : Spécifiez votre environnement informatique
 
-Suppose project contains no file specifying the computational environment. When a Binder is generated, the environment will be the Binder default environment, (containing Python 3.6) which may or may not be suitable for the project. However, if it does contain a configuration file for the environment, then the Binder will be generated with the specified environment. A full list of such files Binder accepts, with examples, can be found [here](https://mybinder.readthedocs.io/en/latest/config_files.html). Key ones are discussed below, some of which are language-specific:
+Supposons que le projet ne contient aucun fichier spécifiant l'environnement de calcul. Lorsqu'un Binder est généré, l'environnement sera l'environnement par défaut du Binder (contenant Python 3. ) qui peuvent ou ne peuvent pas convenir au projet. Cependant, si elle contient un fichier de configuration pour l'environnement, alors le Binder sera généré avec l'environnement spécifié. Une liste complète de ces fichiers que Binder accepte, avec des exemples, peut être trouvée [ici](https://mybinder.readthedocs.io/en/latest/config_files.html). Les clés sont discutées ci-dessous, dont certaines sont spécifiques à la langue:
 
-- `environment.yml`
-  - Recall that `environment.yml` files were discussed in the {ref}`rr-renv-package` section.
-- Dockerfile
-  - Dockerfiles will be discussed in the {ref}`rr-renv-containers` section, so will not be discussed further here.
-- `apt.txt`
-  - Dependencies that would typically be installed via commands such as `sudo apt-get install package_name` should be listed in an `apt.txt` file, and will be automatically installed in the Binder.
-  - For example if a project uses Latex the `apt.txt` file should read
+- `yml`
+  - Rappelez-vous que les fichiers `environment.yml` ont été discutés dans la section {ref}`rr-renv-package`.
+- Fichier Docker
+  - Les fichiers Dockerfiles seront discutés dans la section {ref}`rr-renv-containers` , donc ne seront pas discutés plus loin ici.
+- `format@@0 apt.txt`
+  - Les dépendances qui seraient généralement installées via des commandes telles que `sudo apt-get install package_name` devraient être listées dans un apt `. xt` , et sera automatiquement installé dans le lieur.
+  - Par exemple, si un projet utilise Latex, le fichier `apt.txt` devrait être lu
     ```
     texlive-latex-base
     ```
-    to install the base Latex package.
+    pour installer le paquet de base Latex.
 - `default.nix`
-  - For those that use the {ref}`rr-renv-package` Nix a `default.nix` file can be a convenient way to capture their environment.
+  - Pour ceux qui utilisent le paquet {ref}`rr-renv-package` Nix un fichier `default.nix` peut être un moyen pratique de capturer leur environnement.
 - `requirements.txt` (Python)
-  - For Python users a `requirements.txt` file can be used to list dependent packages.
-  - For example to have Binder install `numpy` this file would simply need to read:
+  - Pour les utilisateurs de Python, un fichier `requirements.txt` peut être utilisé pour lister les paquets dépendants.
+  - Par exemple pour que Binder installe `numpy` ce fichier aurait simplement besoin de lire :
     ```
     numpy
     ```
-  - A specific package version can also be specified using an `==`. For example, to have Binder install version `1.14.5` of `numpy` then the file would be
+  - Une version spécifique du paquet peut également être spécifiée en utilisant un `==`. Par exemple, pour que Binder installe la version `1.14.5` de `numpy` alors le fichier serait
     ```
     numpy==1.14.5
     ```
-  - The `requirement.txt` file does not need to be handwritten. Running the command `pip freeze > requirements.txt` will output a `requirements.txt` file that fully defines the Python environment.
+  - Le fichier `requirement.txt` n'a pas besoin d'être écrit à la main. L'exécution de la commande `pip gèle > requirements.txt` affichera un fichier `requirements.txt` qui définit pleinement l'environnement Python.
 - `runtime.txt`
-  - It is used to specify a particular version of Python or R for the Binder to use.
-  - To specify which version of R to use, find the date it was captured on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) and include it in the `runtime.txt` file as
+  - Il est utilisé pour spécifier une version particulière de Python ou R que le Binder peut utiliser.
+  - Spécifier quelle version de R utiliser, trouver la date à laquelle elle a été capturée sur [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) et l'inclure dans le runtime `. xt` fichier en tant que
     ```
     r-<YYYY>-<MM>-<DD>
     ```
-  - To specify a version of Python, state the version in the `runtime.txt` file. For example, to use Python 2.7, the file would need to read
+  - Pour spécifier une version de Python, indiquez la version dans le fichier `runtime.txt`. Par exemple, pour utiliser Python 2.7, le fichier devrait être lu
     ```
     python-2.7
     ```
-- `install.R` or `DESCRIPTION` (R/RStudio)
-  - An `install.R` file lists the packages to be installed. For example, to install the package `tibble` in the Binder:
+- `install.R` ou `DESCRIPTION` (R/RStudio)
+  - Un fichier `install.R` répertorie les paquets à installer. Par exemple, pour installer le paquet `tibble` dans le binder:
     ```
     install.packages("tibble")
     ```
-  - [DESCRIPTION files](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) are more typically used in the R community for dependency management.
+  - [Les fichiers DESCRIPTION](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) sont plus généralement utilisés dans la communauté R pour la gestion des dépendances.
 
 (rr-renv-binder-creating-steptwo)=
-### Step 2: Put your Code on GitHub
+### Étape 2 : Mettez votre code sur GitHub
 
-GitHub is discussed at length in the chapter on {ref}`rr-vcs`, which you should refer to if you wish to understand more about this step. In this chapter, we will give a brief explanation. GitHub is a very widely used platform where you can make "repositories", and upload code, documentation, or any other files into them. To complete this step:
+GitHub est longuement discuté dans le chapitre sur {ref}`rr-vcs`, à laquelle vous devez faire référence si vous voulez en savoir plus sur cette étape. Dans ce chapitre, nous donnerons une brève explication. GitHub est une plateforme très largement utilisée où vous pouvez créer des "dépôts", et télécharger du code, de la documentation, ou tout autre fichier dedans. Pour compléter cette étape:
 
-1. Make an account on [GitHub](https://github.com/).
-2. Create a repository for the project you wish to make a Binder of.
-3. Upload your project files (including the file you have created to specify your computational environment) to the repository and save ("commit" in the vocabulary of GitHub) them there.
+1. Créez un compte sur [GitHub](https://github.com/).
+2. Créez un dépôt pour le projet dont vous souhaitez créer un lien.
+3. Téléchargez les fichiers de votre projet (y compris le fichier que vous avez créé pour spécifier votre environnement de calcul) dans le référentiel et enregistrez les ("commit" dans le vocabulaire de GitHub) là-bas.
 
-If you are unable to complete these steps, refer to the chapter on {ref}`version control <rr-vcs>` for a fuller explanation.
+Si vous ne pouvez pas compléter ces étapes, reportez-vous au chapitre sur le contrôle de version de {ref}` <rr-vcs>` pour une explication plus complète.
 
 (rr-renv-binder-creating-stepthree)=
-### Step 3: Generate a Link to a Binder of your Project
+### Étape 3 : Générer un lien vers un lien de votre projet
 
-Head to [https://mybinder.org](https://mybinder.org). You will see a form that asks you to specify a repository for [mybinder.org](https://mybinder.org) to build. In the first field, paste the URL of the project's GitHub repository. It will look something like this: `https://github.com/<your-username>/<your-repository>`
+Rendez-vous sur [https://mybinder.org](https://mybinder.org). Vous verrez un formulaire qui vous demandera de spécifier un dépôt pour [mybinder.org](https://mybinder.org) à construire. Dans le premier champ, collez l'URL du dépôt GitHub du projet. Cela ressemblera à ceci : `https://github.com/<your-username>/<your-repository>`
 
 ```{figure} ../../figures/mybinder-gen-link.png
 ---
-name: mybinder-gen-link
-alt: A screenshot of the webpage used to generate a Binder link for your project
+nom: mybinder-gen-link
+alt: Une capture d'écran de la page Web utilisée pour générer un lien de liaison pour votre projet
 ---
-Interface for generating Binder links for projects
+Interface de génération de liens binaires pour les projets
 ```
 
-As you can see, there are additional fields in this form, but these are optional and will not be discussed here.
+Comme vous pouvez le constater, il y a des champs supplémentaires dans ce formulaire, mais ils sont facultatifs et ne seront pas abordés ici.
 
-Once the URL to the project to be binderized is supplied, two fields will be automatically populated on the screen depicted above:
+Une fois que l'URL du projet à relier est fournie, deux champs seront automatiquement remplis à l'écran décrit ci-dessus:
 
-- The `Copy the URL below and share your Binder with others` field, provides a link to the Binder that can be copied and shared.
-- The `Copy the text below, then paste into your README to show a binder badge` field, can be included in GitHub to create a button that allows anyone that accesses your project to launch the Binder.
+- Le `Copiez l'URL ci-dessous et partagez votre Binder avec d'autres champs` , fournit un lien vers le lieur qui peut être copié et partagé.
+- Le `Copiez le texte ci-dessous, puis collez dans votre README pour afficher un badge de liaison` champ, peut être inclus dans GitHub pour créer un bouton qui permet à tous ceux qui accèdent à votre projet de lancer le lien.
 
-Finally, click the launch button. This will ask [mybinder.org](https://mybinder.org) to build the environment needed to run the project. This may take several minutes. You can click on the `Build logs` button to see the logs generated by the build process. These logs help resolve any issues that cause the build to fail, such as errors in the file defining the computational environment to be generated.
+Enfin, cliquez sur le bouton de lancement. Cela demandera à [mybinder.org](https://mybinder.org) de construire l'environnement nécessaire à l'exécution du projet. Cela peut prendre plusieurs minutes. Vous pouvez cliquer sur le bouton `Log de construction` pour voir les logs générés par le processus de construction. Ces logs aident à résoudre tous les problèmes qui causent l'échec de la compilation, comme les erreurs dans le fichier définissant l'environnement de calcul à générer.
 
-Once it has been built, the Binder will be automatically launched; again, this may take some time.
+Une fois construit, le Binder sera automatiquement lancé; encore une fois, cela peut prendre un certain temps.
 
 (rr-renv-binder-data)=
-## Including Data in a Binder
+## Inclure les données dans un attacheur
 
-There are a few ways to make data available in your Binder. The best one depends on how big your data is and your preferences for sharing data. Note that the more data that is included, the longer it will take for a Binder to launch. Data also takes up storage space that must be paid for, so it is good to be considerate and minimise the data you include, especially on the publicly provided [mybinder.org](https://mybinder.org).
+Il y a plusieurs façons de rendre les données disponibles dans votre associé. Le meilleur dépend de la taille de vos données et de vos préférences pour le partage de données. Notez que plus de données sont incluses, plus il faudra de temps pour qu'un Binder puisse être lancé. Les données occupent également de l'espace de stockage qui doit être payé, il est donc bon d'être pris en considération et de minimiser les données que vous incluez, surtout sur le mylificateur [fourni publiquement. rg](https://mybinder.org).
 
 (rr-renv-binder-data-small)=
-### Small Public Files
+### Petits fichiers publics
 
-The simplest approach for small data files that are public is to add them directly to your GitHub repository or include them along with the rest of your project files in the Binder. This works well and is reasonable for files with sizes up to 10MB.
+La méthode la plus simple pour les petits fichiers de données qui sont publics est de les ajouter directement à votre dépôt GitHub ou de les inclure avec le reste de vos fichiers de projet dans le binder. Cela fonctionne bien et est raisonnable pour les fichiers avec des tailles allant jusqu'à 10 Mo.
 
 (rr-renv-binder-data-medium)=
-### Medium Public Files
+### Fichiers publics moyens
 
-For medium-sized files - a few 10s of megabytes to a few hundred megabytes - find some other place online to store them and make sure they are publicly available. Add a file named `postBuild` (which is a shell script so the first line must be `#!/bin/bash`) to your project files. In the `postBuild` file, add a single line reading:
+Pour les fichiers de taille moyenne - de quelques 10 méga-octets à quelques centaines de méga-octets - trouver un autre endroit en ligne pour les stocker et s'assurer qu'ils sont accessibles au public. Ajoute un fichier nommé `postBuild` (qui est un script shell donc la première ligne doit être `#! bin/bash`) à vos fichiers de projet. Dans le fichier `postBuild` , ajoutez une ligne de lecture :
 ```
-wget -q -O name_of_your_file link_to_your_file
+wget -q -O nom_de_votre_fichier_lien_à_votre_fichier
 ```
 
-The `postBuild` file is used to execute commands when the files to produce the Binder are being generated. In this case, it can be used to download your data into the files used to launch the binder.
+Le fichier `postBuild` est utilisé pour exécuter des commandes lorsque les fichiers pour produire le Binder sont générés. Dans ce cas, il peut être utilisé pour télécharger vos données dans les fichiers utilisés pour lancer le lieur.
 
 (rr-renv-binder-data-large)=
-### Large Public Files
+### Fichiers publics volumineux
 
-The best option for large files is to use a library specific to the data format to stream the data as you are using it. There are a few restrictions on outgoing traffic from your Binder that are imposed by the team operating [mybinder.org](https://mybinder.org). Currently only connections to HTTP and Git are allowed. This comes up when people want to use FTP sites to fetch data. For security reasons FTP is not allowed on [mybinder.org](https://mybinder.org).
+La meilleure option pour les fichiers volumineux est d'utiliser une bibliothèque spécifique au format de données pour diffuser les données en cours d'utilisation. Il y a quelques restrictions sur le trafic sortant de votre Binder qui sont imposées par l'équipe opérant [mybinder.org](https://mybinder.org). Actuellement, seules les connexions vers HTTP et Git sont autorisées. Cela arrive lorsque les gens veulent utiliser des sites FTP pour récupérer des données. Pour des raisons de sécurité, FTP n'est pas autorisé sur [mybinder.org](https://mybinder.org).

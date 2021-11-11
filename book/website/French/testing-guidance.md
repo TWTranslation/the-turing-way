@@ -1,87 +1,87 @@
-# General guidance and good practice for testing
+# Orientations générales et bonnes pratiques pour les tests
 
-There are a number of of testing which each have best practice specific to them. Nevertheless there is some general guidance that applies to all of them, which will be outlined here.
+Il y a un certain nombre de tests qui ont chacun des meilleures pratiques spécifiques à eux. Néanmoins, il existe certaines orientations générales qui s'appliquent à toutes ces questions, qui seront exposées ici.
 
-## Write Tests - Any Tests!
+## Ecrire des tests - N'importe quel test !
 
-Starting the process of writing tests can be overwhelming, especially if you have a large code base. Further to that, as mentioned, there are many kinds of tests, and implementing all of them can seem like an impossible mountain to climb. That is why the single most important piece of guidance in this chapter is as follows: **write some tests**. Testing one tiny thing in a code that's thousands of lines long is infinitely better than testing no things in a code that's thousands of lines long. You may not be able to do everything, but doing *something* is valuable.
+Lancer le processus d'écriture des tests peut être accablant, surtout si vous avez une grande base de code. De plus, comme on l’a mentionné, il existe de nombreux types de tests et la mise en œuvre de tous ces tests peut sembler une montagne impossible à escalader. C'est pourquoi le seul élément d'orientation le plus important de ce chapitre est le suivant : **écrire des tests**. Tester une petite chose dans un code de plusieurs milliers de lignes est infiniment mieux que de tester aucune chose dans un code de plusieurs milliers de lignes. Vous ne pourrez peut-être pas tout faire, mais faire *quelque chose* est précieux.
 
-Make improvements where you can, and do your best to include tests with new code you write even if it's not feasible to write tests for all the code that's already written.
+Faites des améliorations là où vous le pouvez, et faites de votre mieux pour inclure les tests avec le nouveau code que vous écrivez même s'il n'est pas possible d'écrire des tests pour tout le code déjà écrit.
 
-## Run the tests
+## Exécuter les tests
 
-The second most important piece of advice in this chapter: run the tests. Having a beautiful, perfect test suite is no use if you rarely run it. Leaving long gaps between test runs makes it more difficult to track down what has gone wrong when a test fails because a great deal in the code will have changed. Also if it's been weeks or months since tests have been run and they fail it is difficult or impossible to know what work/results that have been done in the intervening time are still valid, and which have to be thrown away as they could have been impacted by the bug.
+Le deuxième conseil le plus important dans ce chapitre : exécuter les tests. Avoir une belle et parfaite suite de tests n'est pas utile si vous l'exécutez rarement. Laisser de longs écarts entre les exécutions de test rend plus difficile le suivi de ce qui s'est mal passé lorsqu'un test échoue parce que beaucoup de choses dans le code auront changé. Également si cela fait des semaines ou des mois que les tests ont été exécutés et qu'ils échouent, il est difficile ou impossible de savoir quels travaux / résultats ont été effectués pendant le temps écoulé sont toujours valides, et qui doivent être jetés car ils auraient pu être touchés par le bug.
 
-As such it is best to automate your testing as far as possible. If each test needs to be run individually then that boring painstaking process is likely to get neglected. This can be done by making use of a testing framework ([discussed later](#Use_a_testing_framework)). [Jenkins](https://jenkins.io) is another good tool for this. Ideally set your tests up to run at regular intervals, possibly each night.
+Il est donc préférable d'automatiser vos tests autant que possible. Si chaque test doit être exécuté individuellement, alors ce processus ennuyeux et pénible sera probablement négligé. Cela peut être fait en utilisant un framework de test ([discuté plus tard](#Use_a_testing_framework)). [Jenkins](https://jenkins.io) est un autre bon outil pour cela. Idéalement, réglez vos tests pour qu'ils fonctionnent à intervalles réguliers, éventuellement chaque nuit.
 
-Consider setting up continuous integration (discussed in the continuous integration chapter) on your project. This will automatically run your tests each time you make a change to your code and, depending on the continuous integration software you use, will notify you if any of the tests fail.
+Envisagez de mettre en place une intégration continue (discutée dans le chapitre d'intégration continue) de votre projet. Cela exécutera automatiquement vos tests chaque fois que vous apportez une modification à votre code et, Selon le logiciel d'intégration continue que vous utilisez, vous avertirez si l'un des tests échoue.
 
-## Consider how long it takes your tests to run
+## Considérez combien de temps vos tests doivent être exécutés
 
-Some tests, like [unit tests](#Unit_tests) only test a small piece of code and so typically are very fast. However other kinds of tests, such as [system tests](#System_tests) which test the entire code from end to end, may take a long time to run depending on the code. As such it can be obstructive to run the entire test suite after each little bit of work. In that case it is better to run lighter weight tests such as unit tests frequently, and longer tests only once per day overnight. It is also good to scale the number of each kind of tests you have in relation to how long they take to run. You should have a lot of unit tests (or other types of tests that are fast) but much fewer tests which take a long time to run.
+Certains tests, comme les [tests unitaires](#Unit_tests) ne testent qu'un petit bout de code et sont donc généralement très rapides. Cependant d'autres types de tests, tels que [tests système](#System_tests) qui testent le code de bout en bout de bout en bout, peut prendre beaucoup de temps à exécuter selon le code. En tant que tel, il peut être obstructif d'exécuter toute la suite de tests après chaque petit peu de travail. Dans ce cas, il vaut mieux faire des tests de poids plus légers tels que des tests unitaires fréquemment, et des tests plus longs seulement une fois par jour du jour au lendemain. Il est également bon de mettre à l'échelle le nombre de chaque type de tests que vous avez en rapport avec le temps qu'ils prennent à exécuter. Vous devriez avoir beaucoup de tests unitaires (ou d'autres types de tests qui sont rapides) mais beaucoup moins de tests qui prennent beaucoup de temps à exécuter.
 
-## Document the tests and how to run them
+## Documentez les tests et comment les exécuter
 
-It is important to provide documentation that describes how to run the tests, both for yourself in case you come back to a project in the future, and for anyone else that may wish to build upon or reproduce your work. This documentation should also cover subjects such as
+Il est important de fournir une documentation qui décrit comment exécuter les tests, les deux pour vous-même si vous revenez à un projet dans le futur, et pour toute autre personne désireuse de construire ou de reproduire votre travail. Cette documentation devrait également couvrir des sujets tels que
 
-- Any resources, such as test dataset files that are required
-- Any configuration/settings adjustments needed to run the tests
-- What software (such as [testing frameworks](#Use_a_testing_framework)) need to be installed
+- Toutes les ressources, telles que les fichiers du jeu de données de test qui sont nécessaires
+- Tous les réglages de configuration nécessaires pour exécuter les tests
+- Quels logiciels (tels que [les frameworks de test](#Use_a_testing_framework)) doivent être installés
 
-Ideally, you would provide scripts to set up and configure any resources that are needed.
+Idéalement, vous devriez fournir des scripts pour configurer et configurer toutes les ressources nécessaires.
 
-## Test Realistic Cases
+## Tester les cas réalistes
 
-Make the cases you test as realistic as possible. If for example, you have dummy data to run tests on you should make sure that data is as similar as possible to the actual data. If your actual data is messy with a lot of null values, so should your test dataset be.
+Rendre les cas que vous testez aussi réalistes que possible. Si par exemple, vous avez des données factices pour exécuter des tests sur vous devez vous assurer que les données sont aussi similaires que possible aux données actuelles. Si vos données réelles sont salissantes avec beaucoup de valeurs nulles, il en va de même pour votre jeu de données de test.
 
-## Use a Testing Framework
+## Utiliser un framework de test
 
-There are tools available to make writing and running tests easier, these are known as testing frameworks. Find one you like, learn about the features it offers, and make use of them. Common testing frameworks (and the languages they apply to) include:
+Il y a des outils disponibles pour faciliter l'écriture et l'exécution des tests, connus sous le nom de frameworks de test. Trouvez-en un que vous aimez, apprenez-en plus sur les fonctionnalités qu'il propose, et faites-en usage. Les frameworks de test communs (et les langages auxquels ils s'appliquent) incluent :
 
-- Language agnostic
-  - CTest, test runner for executables, bash scripts, and more. Great for legacy code hardening
+- agnostic de la langue
+  - CTest, test runner pour les exécutables, bash scripts, et plus encore. Idéal pour le durcissement du code
 - C++
-  - Catch
-  - CppTest
+  - Attraper
+  - Test Cppp
   - Boost::Test
-  - google-test
+  - test google
 - C
-  - all C++ frameworks
-  - Check
+  - tous les frameworks C++
+  - Contrôler
   - CUnit
 ```{note}
-While modern C++ and C are still mostly compatible, they're not completely and using test framework interchangeably may not always work.
+Bien que les C++ et C modernes soient encore pour la plupart compatibles, ils ne sont pas complètement et utilisent des framework de test de façon interchangeable peut ne pas toujours fonctionner.
 ```
 - Python
-  - pytest (recommended)
-  - unittest comes with standard Python library
-- R unit-tests
-  - testthat
+  - pytest (recommandé)
+  - le test unitaire est fourni avec la bibliothèque Python standard
+- R tests unitaires
+  - testque
   - tinytest
-  - svUnit (works with SciViews GUI)
+  - svUnit (fonctionne avec l'interface graphique SciViews)
 - Fortran unit-tests:
   - funit
-  - pfunit (works with MPI)
+  - pfunit (fonctionne avec MPI)
 
-## Aim to have a good code coverage
+## Visez à avoir une bonne couverture de code
 
-Code coverage is a measure of how much of your code is "covered" by tests. More precisely it a measure of how much of your code is run when tests are conducted. So for example, if you have a `if` statement but only test things where that if statement evaluates to "True" then none of the code that comes under "False" will be run. As a result your code coverage would be < 100% (the exact number would depend on how much code comes under the True and False cases). Code coverage doesn't include documentation like comments, so adding more documentation doesn't affect your percentages.
+La couverture du code est une mesure de la quantité de votre code "couvert" par les tests. Plus précisément, c'est une mesure de la part de votre code qui est exécutée lorsque des tests sont effectués. Ainsi, par exemple, si vous avez une instruction `if` mais seulement tester des choses où l'instruction if évalue à "True" alors aucun du code qui tombe sous "Faux" ne sera exécuté. En conséquence, votre couverture de code serait < 100% (le nombre exact dépendrait de la quantité de code dans les cas True et Faux). La couverture de code n'inclut pas de documentation comme des commentaires, donc ajouter plus de documentation n'affecte pas vos pourcentages.
 
-As discussed any tests are an improvement over no tests. Nevertheless it is good to at least aspire to having your code coverage as high as feasible.
+Comme on l'a dit, tous les tests sont une amélioration par rapport à aucun test. Néanmoins, il est bon d'aspirer au moins à ce que votre couverture de code soit aussi élevée que possible.
 
-Most programming languages have tools either built into them, or that can be imported, or as part of testing frameworks, which automatically measure code coverage. There's also a nice little [bot](https://codecov.io/) for measuring code coverage available too.
+La plupart des langages de programmation ont des outils soit intégrés, soit importés, soit dans le cadre des frameworks de test, qui mesurent automatiquement la couverture de code. Il y a aussi un joli petit bot [](https://codecov.io/) pour mesurer la couverture de code également disponible.
 
-**Pitfall: The illusion of good coverage.** In some instances, the same code can and probably should be tested in multiple ways. For example, coverage can quickly increase on code that applies "sanity check" tests to its output ([see below](#tests-that-are-difficult-to-quantify)), but this doesn't preclude the risk that the code is producing the broadly right answer for the wrong reasons. In general, the best tests are those that isolate the smaller rather than larger chunks of coherent code, and so pick out individual steps of logic. Try to be guided by thinking about the possible things that might happen to a particular chunk of code in the execution of the whole, and test these individual cases. Often, this will result in the same code being tested multiple times - this is a good thing!
+**Pitfall : L'illusion de bonne couverture.** Dans certains cas, le même code peut et doit probablement être testé de plusieurs manières. Par exemple, la couverture peut rapidement augmenter sur le code qui applique des tests de « vérification de l'état de santé » à sa sortie ([voir ci-dessous](#tests-that-are-difficult-to-quantify)), mais cela n'exclut pas le risque que le code produise la réponse largement correcte pour les mauvaises raisons. En général, les meilleurs tests sont ceux qui isolent les plus petits plutôt que les plus gros morceaux de code cohérent, et ainsi choisir les étapes individuelles de la logique. Essaie d'être guidée en pensant aux choses possibles qui pourraient arriver à un morceau de code particulier dans l'exécution de l'ensemble et de tester ces cas individuels. Souvent, cela se traduira par le même code testé plusieurs fois - c'est une bonne chose !
 
-## Use test doubles/stubs/mocking where appropriate
+## Utiliser les doubles/moquettes/doublures de test le cas échéant
 
-If a test fails it should be constructed such that it is as easy to trace the source of the failure as possible. This becomes problematic if a piece of code you want to test unavoidably depends on other things. For example if a test for a piece of code that interacts with the web fails, that could be because the code has a bug *or* because there is a problem with the internet connection. Similarly if a test for a piece of code that uses an object fails it could be because there is a bug in the code being tested, or a problem with the object (which should be tested by its own, separate tests). These dependencies should be eliminated from tests, if possible. This can be done by using test replacements (test doubles) in the place of the real dependencies. Test doubles can be classified as follows:
+Si un test échoue, il devrait être construit de telle sorte qu'il soit aussi facile de tracer la source de l'échec que possible. Cela devient problématique si un morceau de code que vous voulez tester dépend inévitablement d'autres choses. Par exemple, si un test pour un morceau de code qui interagit avec le web échoue, qui peut être parce que le code a un bogue *ou* parce qu'il y a un problème avec la connexion Internet. De même, si un test pour un morceau de code qui utilise un objet échoue, c'est peut-être parce qu'il y a un bogue dans le code à tester, ou un problème avec l'objet (qui devrait être testé par ses propres tests). Ces dépendances devraient être éliminées des tests, si possible. Cela peut être fait en utilisant des remplacements de test (tests doubles) à la place des dépendances réelles. Les doubles de test peuvent être classés comme suit :
 
-- A dummy object is passed around but never used, meaning its methods are never called. Such an object can for example be used to fill the parameter list of a method.
-- Fake objects have working implementations, but are usually simplified. For example, they use an in memory database and not a real database.
-- A stub is a partial implementation for an interface or class with the purpose of using an instance of this stub during testing. Stubs usually don’t respond to anything outside what’s programmed in for the test. Stubs may also record information about calls.
-- A mock object is a dummy implementation for an interface or a class in which you define the output of certain method calls. Mock objects are configured to perform a certain behaviour during a test. They typically record the interaction with the system and tests can validate that.
+- Un objet factice est passé mais jamais utilisé, ce qui signifie que ses méthodes ne sont jamais appelées. Un tel objet peut par exemple être utilisé pour remplir la liste de paramètres d'une méthode.
+- Les faux objets ont des implémentations fonctionnelles, mais sont généralement simplifiés. Par exemple, ils utilisent une base de données en mémoire et non une base de données réelle.
+- Un conteneur est une implémentation partielle d'une interface ou d'une classe dans le but d'utiliser une instance de ce conteneur pendant le test. Les ébauches ne répondent généralement à rien en dehors de ce qui est programmé pour le test. Les ébauches peuvent également enregistrer des informations sur les appels.
+- Un objet bouchon est une implémentation factice pour une interface ou une classe dans laquelle vous définissez la sortie de certains appels de méthodes. Les objets fictifs sont configurés pour effectuer un certain comportement lors d'un test. Ils enregistrent généralement l'interaction avec le système et les tests peuvent valider cela.
 
-Test doubles can be passed to other objects which are tested.
+Les doublons de test peuvent être passés à d'autres objets qui sont testés.
 
-You can create mock objects manually (via code) or use a mock framework to simulate these classes. Mock frameworks allow you to create mock objects at runtime and define their behaviour. The classical example for a mock object is a data provider. In production an implementation to connect to the real data source is used. But for testing a mock object simulates the data source and ensures that the test conditions are always the same.
+Vous pouvez créer des objets fantaisie manuellement (via code) ou utiliser un framework fictif pour simuler ces classes. Les frameworks fictifs vous permettent de créer des objets fictifs à l'exécution, et de définir leur comportement. L'exemple classique d'un objet fantaisie est un fournisseur de données. En production on utilise une implémentation pour se connecter à la source de données réelle. Mais pour tester un objet fantaisie la source de données et s'assure que les conditions de test sont toujours les mêmes.

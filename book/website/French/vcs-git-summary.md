@@ -1,22 +1,22 @@
 (rr-vcs-git-summary)
-# Summary Table of Git Commands
+# Tableau sommaire des commandes Git
 
-| Command                         | Use                                                                          |
-| ------------------------------- | ---------------------------------------------------------------------------- |
-| `git init`                      | Initialises a Git repository in that directory                               |
-| `git add .`                     | Adds all changes to the staging area to be committed                         |
-| `git add file_name`             | Adds changes to the specified file to the staging area to be committed       |
-| `git commit`                    | Commits staged changes and allows you to write a commit message              |
-| `git checkout SHA`              | Checks out a past commit with the given SHA                                  |
-| `git checkout SHA -- file_name` | Checks out the past version of a file from the commit with the given SHA     |
-| `git checkout -b branch_name`   | Creates and switches to a new branch                                         |
-| `git checkout branch_name`      | Switches to the specified branch                                             |
-| `git merge branch_name`         | Merges the branch you are on into the specified branch                       |
-| `git log`                       | Outputs a log of past commits with their commit messages                     |
-| `git status`                    | Outputs status, including what branch you are on and what changes are staged |
-| `git diff`                      | Outputs the differences between the working directory and most recent commit |
-| `git diff thing_a thing_b`      | Outputs the differences between two things, such as commits and branches     |
-| `git clone URL`                 | Makes a clone of the repository at the specified URL                         |
-| `git remote add origin URL`     | Links a local repository and an online repository at the specified URL       |
-| `git push origin branch_name`   | Pushes local changes to the specified branch of the online repository        |
-| `git pull origin branch_name`   | Pull changes from the online repository into local repository                |      
+| Commandes                               | Utiliser                                                                                               |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `git init`                              | Initialise un dépôt Git dans ce répertoire                                                             |
+| `git add .`                             | Ajoute toutes les modifications à la zone de pré-production à valider                                  |
+| `git add file_name`                     | Ajoute des modifications au fichier spécifié dans la zone de pré-production à valider                  |
+| `commit git`                            | Commet des changements en étape et vous permet d'écrire un message de commit                           |
+| `SHA git checkout`                      | Vérifie un commit passé avec la SHA donnée                                                             |
+| `SHA -- file_name`                      | Vérifie la version passée d'un fichier depuis le commit avec la SHA donnée                             |
+| `format@@0 git checkout -b branch_name` | Crée et passe à une nouvelle branche                                                                   |
+| `format@@0 git checkout branch_name`    | Bascule vers la branche spécifiée                                                                      |
+| `nom_branche de la fusion git`          | Fusionne la branche sur laquelle vous êtes dans la branche spécifiée                                   |
+| `log git`                               | Affiche un journal des commits passés avec leurs messages de commit                                    |
+| `git status`                            | Statut des sorties, y compris la branche sur laquelle vous êtes et quels changements sont mis en scène |
+| `diff git`                              | Affiche les différences entre le répertoire de travail et le dernier commit                            |
+| `format@@0 git diff thing_a thing_b`    | Affiche les différences entre deux choses, telles que les commits et les branches                      |
+| `git clone URL`                         | Fait un clone du dépôt à l'URL spécifiée                                                               |
+| `git distante ajoute l'URL d'origine`   | Lier un dépôt local et un dépôt en ligne à l'URL spécifiée                                             |
+| `format@@0 git push origin branch_name` | Pousse les changements locaux dans la branche spécifiée du référentiel en ligne                        |
+| `format@@0 git pull origin branch_name` | Retirer les modifications du dépôt en ligne vers le dépôt local                                        |      

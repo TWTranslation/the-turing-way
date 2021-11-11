@@ -1,104 +1,104 @@
 (rr-vcs-git-merge)=
-# Merging Branches in Git
+# Fusion des branches dans Git
 
-(rr-vcs-merge-command)=
-## The `git merge` Command
+(rr-vcs-merge-commande)=
+## La commande `git merge`
 
-Once you have finished up some work on a branch and you are ready to integrate it to your main project (or any other branch), you can merge the branch that you worked on into the main branch or any other target branch of your interest. You can also use merging to combine work that other people have done with your own and vice versa.
+Une fois que vous avez terminé un travail sur une branche et que vous êtes prêt à l'intégrer à votre projet principal (ou à toute autre branche), vous pouvez fusionner la branche sur laquelle vous avez travaillé dans la branche principale ou toute autre branche cible de votre intérêt. Vous pouvez également utiliser la fusion pour combiner le travail que d'autres personnes ont fait avec votre propre et vice versa.
 
-To merge a branch, branch_A, into another branch, branch_B, switch to branch_A via:
+Pour fusionner une branche, branche_A, dans une autre branche, branche_B, passez à branche_A via :
 ```
-git checkout branch_A
+Branche_A git checkout
 ```
-Merge it into branch_B by:
-
-```
-git merge branch_B
-```
-
-Merging will not be possible if there are changes in either your working directory or staging area that could be written over by the files that you are merging in. If this happens, there are no merge conflicts in individual files. You need to commit or stash the files it lists and then try again. The error messages are as follows:
+Fusionner dans la branche par :
 
 ```
-error: Entry 'your_file_name' not update. Cannot merge. (Changes in working directory)
+git fusion branche_B
 ```
 
-or
+La fusion ne sera pas possible si des modifications sont apportées à votre dossier de travail ou à votre zone de pré-production qui pourraient être écrites par les fichiers dans lesquels vous êtes en train de fusionner. Si cela se produit, il n'y a pas de conflits de fusion dans les fichiers individuels. Vous devez valider ou mettre en cache les fichiers qu'il liste, puis réessayer. Les messages d'erreur sont les suivants :
 
 ```
-error: Entry 'your_file_name' would be overwritten by merge. Cannot merge. (Changes in staging area)
+erreur: l'entrée 'votre_nom_fichier_' n'est pas mise à jour. Impossible de fusionner. (Changements dans le répertoire de travail)
 ```
 
-(rr-vcs-merge-command-practice)=
-### Good practice
-
-First and foremost, your **main branch should always be stable**. Only merge work that is finished and tested (for example, on a different branch). If your project is collaborative, then it is a good idea to merge changes that others make into your own work frequently or share your changes with your collaborators. If you do not do it often, it is very easy to merge conflicts that arise (next section).
-
-(rr-vcs-merge-conflicts)=
-## Merge Conflicts
-
-When changes are made to the same file on different branches, sometimes those changes may be incompatible. This most commonly occurs in collaborative projects, but it happens in solo projects too. Say there is a project that contains a file with this line of code:
+ou
 
 ```
-print('hello world')
+erreur: L'entrée 'your_file_name' serait remplacée par la fusion. Impossible de fusionner. (Changements dans la zone de diffusion)
 ```
 
-Suppose one person, on their branch, decides to "pep it up" a bit and changes the line to:
+(rr-vcs-fuge-commande-pratique)=
+### Bonne pratique
+
+Tout d'abord, votre branche **principale doit toujours être stable**. Uniquement les travaux de fusion qui sont terminés et testés (par exemple, sur une branche différente). Si votre projet est collaboratif, alors c'est une bonne idée de fusionner les changements que d'autres font fréquemment dans votre propre travail ou de partager vos changements avec vos collaborateurs. Si vous ne le faites pas souvent, il est très facile de fusionner les conflits qui surviennent (section suivante).
+
+(rr-vcs-fusion-conflits)=
+## Fusionner les conflits
+
+Lorsque des modifications sont apportées au même fichier sur différentes branches, ces modifications peuvent parfois être incompatibles. Cela se produit le plus souvent dans des projets collaboratifs, mais aussi dans des projets solos. Dire qu'il y a un projet qui contient un fichier avec cette ligne de code :
 
 ```
-print('hello world!!!')
+print('bonjour le monde')
 ```
 
-while someone else, on another branch, decides to change it to:
+Supposons qu'une seule personne, sur sa branche, décide de la "remonter" un peu et change la ligne à:
 
 ```
-print('Hello World')
+print('bonjour le monde!!!')
 ```
 
-They continue doing work on their respective branches and eventually decide to merge. Their version control software then goes through and combines their changes into a single version of the file; *but*, when it gets to the `hello world` statement, it does not know which version to use. This is a merge conflict: incompatible changes have been made to the same file.
+alors que quelqu'un d'autre, sur une autre branche, décide de le changer pour :
 
-When a merge conflict arises, it will be flagged during the merge process. Within the files with conflicts, the incompatible changes will be marked so you can fix them:
+```
+print('Bonjour le monde')
+```
+
+Ils continuent à travailler sur leurs branches respectives et décident éventuellement de fusionner. Leur logiciel de contrôle de version passe ensuite en revue et combine leurs modifications en une seule version du fichier ; *mais*, quand il arrive à l'instruction `bonjour le monde` , il ne sait pas quelle version utiliser. Il s'agit d'un conflit de fusion : des modifications incompatibles ont été apportées au même fichier.
+
+Lorsqu'un conflit de fusion apparaît, il sera signalé pendant le processus de fusion. Dans les fichiers en conflit, les modifications incompatibles seront marquées pour que vous puissiez les corriger :
 
 ```
 <<<<<<< HEAD
-print('hello world!!!')
+print('bonjour le monde!!!')
 =======
-print('Hello World')
->>>>>>> main
+print('Bonjour le monde')
+>>>>>>> principal
 ```
-`<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.
+`<<<<<<<`: Indique le début des lignes qui avaient un conflit de fusion. Les premières lignes sont les lignes du fichier dans lequel vous essayez de fusionner les modifications.
 
-`=======`: Indicates the breakpoint used for comparison. It separates the changes the user has committed (above), from the changes coming from the merge (below), for visual comparison.
+`=======`: Indique le point d'arrêt utilisé pour la comparaison. Il sépare les changements que l'utilisateur a commis (ci-dessus), des changements venant de la fusion (ci-dessous), pour comparaison visuelle.
 
-`>>>>>>>`: Indicates the end of the lines that had a merge conflict.
+`>>>>>>>`: Indique la fin des lignes qui ont eu un conflit de fusion.
 
-You resolve a conflict by editing the file to manually merge the parts of the file that Git had trouble merging. This may mean discarding either your changes or someone else's or doing a mix of the two. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. In this project, the users may decide in favour of one `hello world` over another, or they may decide to replace the conflict with:
-
-```
-print('Hello World!!!')
-```
-
-Once you have fixed the conflicts, commit the new version. You have now resolved the conflict. If during the process, you need a reminder of which files the conflicts are in, you can use `git status` to find out.
-
-If you find there are particularly nasty conflicts, and you want to abort the merge you can use:
-```
-git merge --abort
-```
-
-(rr-vcs-merge-conflicts-practice)=
-### Good practice
-
-Before you start trying to resolve conflicts, make sure you fully understand the changes and how they are incompatible to avoid the risk of making things more tangled. Merge conflicts can be intimidating to resolve, especially if you are merging branches that diverged many commits ago and now have numerous incompatibilities. However, it is worth remembering that your previous versions are safe and that you can go about fixing this issue without affecting the past versions. This is why it is good practice to **merge other's changes into your work frequently**.
-
-There are tools available to assist in resolving merge conflicts, some are free; some are not. Find and familiarise yourself with one that works for you. Commonly used merge tools include [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), and [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). To set a tool as your default do:
+Vous résolvez un conflit en éditant le fichier pour fusionner manuellement les parties du fichier que Git avait du mal à fusionner. Cela peut signifier le rejet de vos changements ou de celui d'une autre personne ou un mélange des deux. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. Dans ce projet, les utilisateurs peuvent décider en faveur d'un `bonjour le monde` par rapport à un autre, ou ils peuvent décider de remplacer le conflit par :
 
 ```
-git config --global merge.tool name_of_the_tool
+print('Bonjour le monde!!!')
 ```
 
-and launch it with:
+Une fois que vous avez corrigé les conflits, livrez la nouvelle version. Vous venez de résoudre le conflit. Si pendant le processus, vous avez besoin d'un rappel des fichiers dans lesquels se trouvent les conflits, vous pouvez utiliser le statut `git` pour le savoir.
+
+Si vous trouvez qu'il y a des conflits particulièrement méchants et que vous voulez abandonner la fusion que vous pouvez utiliser:
+```
+Fusion git --abort
+```
+
+(rr-vcs-fusion-exercices-conflits)=
+### Bonne pratique
+
+Avant de commencer à essayer de résoudre les conflits, assurez-vous de bien comprendre les changements et comment ils sont incompatibles pour éviter le risque de rendre les choses plus enchevêtrées. Les conflits de fusion peuvent être intimidés à résoudre, surtout si vous fusionnez des branches qui ont divergé de nombreux commits il y a déjà et ont maintenant de nombreuses incompatibilités. Cependant, il est utile de se rappeler que vos versions précédentes sont sûres et que vous pouvez résoudre ce problème sans affecter les versions précédentes. C'est pourquoi il est bon de **fusionner fréquemment les modifications apportées à votre travail**.
+
+Il y a des outils disponibles pour aider à résoudre les conflits de fusion, certains sont gratuits; d'autres non. Trouvez et familiarisez-vous avec celui qui vous convient. Les outils de fusion communément utilisés incluent [KDiff3](http://kdiff3.sourceforge.net/), [Compare au-delà](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), et [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). Pour définir un outil comme votre méthode par défaut:
 
 ```
-git mergetool
+config git --global merge.tool nom_de_le_outil
 ```
 
-Fundamentally, the best way to deal with merge conflicts is, as far as it is possible, to try to avoid them in the first place. You can improve your odds on this by keeping branches clean and focused on a single issue and involving as few files as possible. Before merging, make sure you know what is in both branches. If you are not the only one that has worked on the branches, then keep the lines of communication open, so you are all aware of what the others are doing.
+et lancez le avec :
+
+```
+git fusiontool
+```
+
+Fondamentalement, la meilleure façon de gérer les conflits de fusion est, dans la mesure du possible, d'essayer de les éviter en premier lieu. Vous pouvez améliorer vos chances à ce sujet en gardant les branches propres et en vous concentrant sur un problème unique et en impliquant le moins de fichiers possible. Avant de fusionner, assurez-vous de savoir ce qui se trouve dans les deux branches. Si vous n'êtes pas le seul à avoir travaillé sur les branches, gardez alors les lignes de communication ouvertes, donc vous êtes tous au courant de ce que font les autres.

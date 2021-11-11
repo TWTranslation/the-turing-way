@@ -1,35 +1,35 @@
 (rr-vcs-github)=
-# Git Commands to Work on GitHub
+# Git Befehle auf GitHub arbeiten
 
-As research becomes increasingly collaborative and multiple people work on the same project, it becomes difficult to keep track of changes made by others if not done systematically. Moreover, it is time-consuming to manually incorporate the work of different participants in a project, even when all of their changes are compatible. Hosting the project on an online repository hosting service like GitHub is beneficial to make collaborations open and effective. If you are new to collaboration through [GitHub](https://github.com), please follow the comprehensive guide in the previous sections.
+Da die Forschung zunehmend kooperativ wird und mehrere Menschen an demselben Projekt arbeiten Es wird schwierig, Änderungen von anderen zu verfolgen, wenn nicht systematisch. Darüber hinaus ist es zeitaufwändig, die Arbeit der verschiedenen Teilnehmer in ein Projekt einzubinden, selbst wenn alle Änderungen kompatibel sind. Das Hosting des Projekts auf einem Online-Repository-Hosting-Service wie GitHub ist nützlich, um die Zusammenarbeit offen und effektiv zu gestalten. Wenn du neu in Zusammenarbeit mit [GitHub](https://github.com)bist, folge bitte der umfassenden Anleitung in den vorherigen Abschnitten.
 
-In this section, we will discuss how to use Git commands to work with an online Git repository.
+In diesem Abschnitt werden wir diskutieren, wie man Git Befehle verwenden, um mit einem Online-Git Repository zu arbeiten.
 
-Please note that the commands listed in this chapter (both in this and previous subchapters) are NOT specific to GitHub. They are used for collaborative work on any Git repositories and to interact with any repository hosting site/servers, which can be [GitHub](https://github.com/), but also [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/) or a [self-set-up bare Git repository on a web server](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6).
+Bitte beachten Sie, dass die in diesem Kapitel aufgelisteten Befehle (sowohl in diesem als auch in früheren Unterkapiteln) NICHT für GitHub spezifisch sind. Sie werden für die Zusammenarbeit in allen Git-Repositories und für die Interaktion mit jeder Hosting-Site des Projektarchivs, das [GitHub](https://github.com/)sein kann, aber auch [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/) oder ein [selbsteinrichtetes Git Repository auf einem Webserver](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6).
 
-For simplicity, we will use GitHub as an example to explain commands that are used for interacting with Git repositories.
+Aus Gründen der Einfachheit werden wir GitHub als Beispiel verwenden, um Befehle zu erklären, die für die Interaktion mit Git-Repositories verwendet werden.
 
 (rr-vcs-github-local)=
-## Create a Local Copy of an Online Repository
+## Lokale Kopie eines Online-Repositorys erstellen
 
-So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a *clone* (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a *remote*, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a `remote` of the local repository. Usually, this remote is called "origin". Having a web-based remote allows you to *push* changes to your project online. It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a *pull request* that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:
+Bisher betreffen alle Git-Befehle, die in diesem Kapitel eingeführt wurden, lokale, nicht verbundene Git-Repositorys. Um mit anderen zusammenzuarbeiten, Hosting-Dienste wie GitHub, kann einen *Klon* (eine Kopie) Ihres lokalen Projektarchivs speichern und anderen aussetzen. Normalerweise haben Sie ein lokales Repository und ein *entferntes*, web-gehostetes Repository. Ihr lokales Repository ist mit dem webbasierten Klon verbunden. Technisch gesehen ist der webbasierte Klon ein `entfernter` des lokalen Projektarchivs. Normalerweise nennt man diese Fernbedienung "origin". Having a web-based remote allows you to *push* changes to your project online. Es ermöglicht anderen, ihren eigenen Klon Ihres Projektarchivs zu erhalten (eine Kopie Ihres Projektarchivs auf ihren lokalen Computer), Änderungen vornehmen und eine *-Pull-Request* einreichen, mit der Sie ihre Änderungen integrieren können. Zum Beispiel kann man mit dem folgenden Git-Befehl eine unabhängige lokale Kopie eines Projekts erstellen:
 
 ```
 git clone <insert GitHub link of the repository here>
 ```
 
-Collaborators can update their local version of an online repository or *pull* other's work into their copy using the command:
+Mitarbeiter können ihre lokale Version eines Online-Projektarchivs aktualisieren oder *ziehen Sie* die Arbeit anderer mit dem Befehl in ihre Kopie:
 ```
 git pull
 ```
-Similarly, they can edit files locally and stage their updates (`git add .`), commit changes to a new version (`git commit`) and *push* changes to the remote online repository using the Git command:
+Ebenso können sie Dateien lokal bearbeiten und ihre Aktualisierungen stufen (`git add .`), Änderungen an einer neuen Version übertragen (`git commit`) und *pushen* Änderungen in das entfernte Online-Repository mit dem Git-Befehl:
 ```
-git push
+git Push
 ```
 (rr-vcs-github-online)=
-## Link a Local Project on Your Computer to an Online Repository
+## Verknüpfen Sie ein lokales Projekt auf Ihrem Computer mit einem Online-Repository
 
-To link a project on your computer to a new GitHub repository (preferably with the same name), you need to follow the standard workflow for creating a Git repository (described in the {ref}`rr-vcs-workflow` subchapter) by issuing the following set of commands in the terminal, one by one:
+Um ein Projekt auf deinem Computer mit einem neuen GitHub Repository zu verknüpfen (vorzugsweise mit dem gleichen Namen), Sie müssen dem Standard-Workflow folgen, um ein Git-Repository zu erstellen (beschrieben im Unterkapitel {ref}`rrr-vcs-workflow` </code> indem Sie die folgenden Befehle im Terminal ausgeben, eins nach dem einen:
 
 ```
 cd <your project folder>
@@ -37,27 +37,27 @@ git init
 git add .
 git commit
 ```
-Assuming that you have a GitHub repository that you want to connect with this project, run the following command:
+Wenn du ein GitHub Repository hast, das du mit diesem Projekt verbinden möchtest, führe den folgenden Befehl aus:
 
 ```
 git remote add origin <GitHub repository link for your project>
 ```
 
-Then, *push* all the files on your computer to the online version so they match:
+Dann, *drücken Sie* alle Dateien auf Ihrem Computer auf die Online-Version, damit sie übereinstimmen:
 
 ```
-git push -u origin main
+git Push-u Ursprung main
 ```
 
-You can then go on and make more commits on your computer. When you want to push them to your online version, similarly you do:
+Sie können dann weitermachen und mehr Commits auf Ihrem Computer machen. Wenn Sie sie auf Ihre Online-Version schieben möchten, tun Sie es ebenfalls:
 
 ```
-git push origin branch_you_want_to_push_to
+git Push-Ursprung branch_you_want_to_push_to
 ```
 
-You can also make changes directly on GitHub by editing the online repository, and *pull* those changes locally by using the `git pull` command.
+Du kannst auch direkt auf GitHub Änderungen vornehmen, indem du das Online-Repository editierst, und *ziehen* diese Änderungen lokal durch Verwendung des `git pull` Befehls.
 
-Others can also clone the repository to their computer by using:
+Andere können das Projektarchiv auch auf ihren Computer klonen:
 
 ```
 git clone git@github.com:your-github-username/repository_name
@@ -66,116 +66,116 @@ git clone git@github.com:your-github-username/repository_name
 They can make and commit changes to the code without impacting the original, and push their changes to *their* online GitHub account using:
 
 ```
-git push -u origin main
+git Push-u Ursprung main
 ```
 
-The same procedure applies to you if you want to clone someone else's repository.
+Die gleiche Prozedur gilt für Sie, wenn Sie das Projektarchiv einer anderen Person klonen möchten.
 
 (rr-vcs-github-online-pull)=
-### Pull Requests
+### Pull-Anfragen
 
-If you are working on a personal branch and some other changes were made in the main branch, you can *pull* those changes down to your branch using the Git command:
+Wenn Sie an einem persönlichen Zweig arbeiten und andere Änderungen im Hauptzweig vorgenommen wurden, du kannst *mit dem Git-Befehl* diese Änderungen in deinen Zweig ziehen:
 ```
-git pull origin main
+git Pull-Ursprung Haupt
 ```
 
 When everyone has a copy of the project on their own branch (checkout your branch with `git checkout branch-name`), they can *push* their changes to their branch using the following command:
 
 ```
-git push origin branch-name
+git Push-Ursprungs Branch-Name
 ```
 
-However, if you can not directly edit the repository (when you are not an owner or admin of the project), you will be able to share your work with the help of *pull requests*. A pull request allows a contributor to get the proposed changes from their branch or repository integrated into the main branch of the project. It is also possible to make pull requests via the command line (see the GitLab documentation [here](https://git-scm.com/docs/git-request-pull)).
+Wenn Sie jedoch das Projektarchiv nicht direkt bearbeiten können (wenn Sie kein Eigentümer oder Administrator des Projekts sind), Sie können Ihre Arbeit mit Hilfe von *Pull-Requests* teilen. Ein Pull-Request erlaubt es einem Mitwirkenden, die vorgeschlagenen Änderungen aus seinem Zweig oder Projektarchiv in den Hauptzweig des Projekts zu integrieren. Es ist auch möglich, Pull-Requests über die Kommandozeile zu erstellen (siehe die GitLab-Dokumentation [hier](https://git-scm.com/docs/git-request-pull)).
 
-(rr-vcs-github-contributing)=
-## Contributing to Other Projects
+(rr-vcs-github-beitragen)=
+## Zu anderen Projekten beitragen
 
-When you create a local copy of a repository, you only keep the versions of the files that are in the repository at the time of creating that copy. If any changes are made in the original repository afterwards, your copy will get out of sync out-of-sync. This can lead to problems like conflicting file contents when making a pull request or merging changes from your branch to the main repository. Therefore, when working on different branches or forks of a repository, it is a good practice to keep them updated with the main repository and in sync with the original repository.
+Wenn Sie eine lokale Kopie eines Projektarchivs erstellen, behalten Sie nur die Versionen der Dateien, die sich im Projektarchiv befinden, zum Zeitpunkt der Erstellung dieser Kopie. Wenn danach irgendwelche Änderungen im ursprünglichen Projektarchiv vorgenommen werden, wird Ihre Kopie nicht synchronisiert. Dies kann zu Problemen wie widersprüchlichen Dateiinhalten führen, wenn Sie einen Pull-Request machen oder Änderungen von Ihrem Branch zum Hauptarchiv zusammenführen. Daher bei der Arbeit an verschiedenen Zweigen oder Gabeln eines Projektarchivs, Es ist eine gute Praxis, sie mit dem Hauptarchiv auf dem Laufenden zu halten und mit dem ursprünglichen Projektarchiv zu synchronisieren.
 
 (rr-vcs-github-contributing-workflow)=
-### A Workflow to Contribute to Others Github Projects via `git`:
+### Ein Workflow zum Mitwirken zu anderen Github Projekten über `git`:
 
-Using the fork button on the GitHub repository you wish to contribute to, create a copy of the repository in your account. The main repository that you forked will be referred to as the "upstream" repository.
+Mit dem Fork-Button auf dem GitHub Repository erstellen Sie eine Kopie des Projektarchivs in Ihrem Konto. Das von Ihnen abgewiesene Haupt-Repository wird als das "Upstream"-Repository bezeichnet.
 
-You can now work on your copy using the command line, via the following steps (make sure you replace the placeholder user and repository names):
+Sie können nun mit der Befehlszeile an Ihrer Kopie über die folgenden Schritte arbeiten (stellen Sie sicher, dass Sie den Platzhalter- und Repository-Namen ersetzen):
 
-1. Clone it to your local machine:
+1. Klonen Sie es auf Ihrem lokalen Rechner:
 
     ```
     git clone git@github.com:your-github-username/repository_name
     ```
 
-2. Add the 'upstream' repository to the list of remote repositories using the `git remote` command:
+2. Fügen Sie das 'upstream' Repository mit dem `git remote` Befehl zur Liste der Remote Repositories hinzu:
 
     ```
     git remote add upstream git@github.com:upstream-github-username/repository_name
     ```
 
-3. Verify the new remote 'upstream' repository:
+3. Überprüfen Sie das neue Remote-'Upstream'-Repository:
 
     ```
     git remote -v
     ```
 
-4. Update your fork with the latest upstream changes, by first fetching the upstream repository's branches and latest commits to bring them into your repository:
+4. Aktualisieren Sie Ihre Fork mit den neuesten Änderungen des Upstream-Servers, indem Sie zuerst die Zweige des Upstream-Repositorys und die neuesten Commits abrufen, um sie in Ihr Repository zu bringen:
 
     ```
-    git fetch upstream
+    git Abruf von Upstream
     ```
 
-5. View all branches, including those from upstream:
+5. Alle Zweige anzeigen, auch die aus dem Upstream:
 
     ```
     git branch -va
     ```
 
-Make sure that you are on your main branch locally, if not, then checkout your main branch using the command `git checkout main`
+Vergewissern Sie sich, dass Sie lokal in Ihrem Hauptzweig sind, falls nicht, dann auschecken Sie Ihren Hauptzweig mit dem Befehl `git checkout main`
 
-6. Keep your fork updated by merging those commits (fetched from the upstream) to your own local main branch.
+6. Halten Sie Ihre Fork auf dem neuesten Stand, indem Sie diese Commits (aus dem Upstream) zu Ihrem eigenen lokalen Hauptzweig zusammenführen.
 
     ```
-    git merge upstream/main
+    git upstream/main zusammenführen
     ```
 
-Now, your local main branch is up-to-date with everything modified upstream. If there are no unique commits on the local main branch, git will simply perform a fast-forward.
+Jetzt ist Ihr lokaler Hauptzweig auf dem neuesten Stand mit allen geänderten Upstreams. Wenn es keine eindeutigen Commits für den lokalen Hauptzweig gibt, führt git einfach einen schnellen Vorlauf durch.
 
-*Note: The upstream/main is the original repository's main which you wish to contribute to, whereas origin/main refers to the repository you cloned in your local machine after it was forked on GitHub.*
+*Notiz: Upstream/main ist der Hauptteil des ursprünglichen Projektarchivs, zu dem Sie beitragen möchten während der Ursprung/main auf das Repository verweist, das Sie auf Ihrem lokalen Rechner geklont haben, nachdem es auf GitHub geforkt wurde.*
 
-Once your fork is in sync with the upstream main repository, you can always keep your local cloned repository in sync with origin (fork in this case) by using:
+Sobald dein Fork mit dem Hauptarchiv synchronisiert ist, Sie können Ihr lokales geklontes Repository immer mit dem Ursprung synchronisieren (in diesem Fall fork) indem Sie folgen:
 
 ```
 git checkout main
 git pull
 ```
 
-The `git pull` command combines two other commands, `git fetch` and `git merge`. When using `git fetch`, the resulting commits are stored as the remote branch allows you to review the changes before merging.
+Der `git pull` Befehl kombiniert zwei andere Befehle, `git fetch` und `git merge`. Beim `Git holen`werden die resultierenden Commits als entfernter Zweig gespeichert, um die Änderungen vor dem Zusammenführen zu überprüfen.
 
-Similarly, if you have created more branches other than main, you can also keep them in sync with your main, once it is in sync with the upstream repository.
+Ähnlich ist, wenn Sie andere Zweige als Hauptzweige erstellt haben, Sie können sie auch mit Ihrem Main synchronisieren, sobald es mit dem Upstream-Repository synchronisiert ist.
 
 ```
-git checkout my-other-branch
+git checkout my-other-Branch
 git pull origin main
 ```
 
-When everything is up-to-date, you can work on your branch and commit changes.
+Wenn alles aktuell ist, können Sie an Ihrem Zweig arbeiten und Änderungen bearbeiten.
 
-When you are ready to push your local commits to your forked repository (origin), use the following command.
+Wenn Sie bereit sind, Ihre lokalen Commits in Ihr geforktes Projektarchiv (origin) zu schieben, verwenden Sie den folgenden Befehl.
 
 ```
-git push origin forked_repository
+git Push-Ursprung forked_repository
 ```
 
-Now you can make a pull request!
+Jetzt kannst du eine Pull-Anfrage machen!
 
 (rr-vcs-github-contributing-practice)=
-### Good Practice
+### Gute Praxis
 
-Before you create a branch, make sure you have all the upstream changes from the origin/main branch.
-
-
-**A word of caution on the `rebase` command**: While trying to keep your branches in sync, you may come across the `rebase` command. It tends to rewrite history and could be troublesome if not communicated with others working on the same branch. Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section. You can find more details about [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+Bevor Sie einen Zweig erstellen, stellen Sie sicher, dass Sie alle Upstream-Änderungen aus dem Quell-/Hauptzweig haben.
 
 
-## Further reading
-- An [article on syncing a fork of a repository](https://help.github.com/en/articles/syncing-a-fork) to keep it up-to-date with the upstream repository.
-- Instructions if you wish to do it all [in the browser itself](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).
+**Ein Wort der Vorsicht auf den `rebase` Befehl**: Während des Versuchs, Ihre Zweige synchron zu halten, Sie können über den `rebase` Befehl kommen. Es neigt dazu, die Geschichte neu zu schreiben und könnte problematisch sein, wenn es nicht mit anderen kommuniziert wird, die an demselben Zweig arbeiten. Versuchen Sie, den `rebase` Befehl zu vermeiden, und verwenden Sie stattdessen `pull` oder `holen Sie`+`Merge`, wie in diesem Abschnitt diskutiert. Weitere Details finden Sie unter [Zusammenführen vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+
+
+## Weiterlesen
+- Ein [-Artikel zum Synchronisieren einer Abzweigung eines Projektarchivs](https://help.github.com/en/articles/syncing-a-fork) um ihn mit dem Upstream-Repository auf dem Laufenden zu halten.
+- Anleitungen, wenn Sie alles [im Browser selbst machen wollen](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).

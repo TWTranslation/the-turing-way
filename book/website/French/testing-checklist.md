@@ -1,23 +1,23 @@
-# Checklist for Code Testing
+# Liste de contrôle des tests de code
 
-This checklist contains a lot of items. As [mentioned](#Write_tests_any_tests) it is far better to do some of the items than none of them. Do not be discouraged if this list of tasks seems insurmountable.
+Cette liste de contrôle contient beaucoup d'éléments. Comme [l'a mentionné](#Write_tests_any_tests) il est bien mieux de faire certains des éléments que aucun d'eux. Ne soyez pas découragé si cette liste de tâches semble insurmontable.
 
-## Writing tests
+## Tests d'écriture
 
-- Write a few smoke tests.
-- Write unit tests for all your code units.
-- Write integration tests to check the integration between units.
-- Write a few system tests. Prioritise common and important paths through the program.
-- Write regression tests. Regression tests can exist at any level of testing.
-- If appropriate for your project write acceptance tests.
-- Add runtime tests into your project.
+- Écrivez quelques tests de fumée.
+- Écrivez des tests unitaires pour toutes vos unités de code.
+- Écrire des tests d'intégration pour vérifier l'intégration entre unités.
+- Écrire quelques tests système. Prioriser les chemins communs et importants dans le cadre du programme.
+- Écrire les tests de régression. Les tests de régression peuvent exister à n'importe quel niveau de test.
+- Le cas échéant pour votre projet écrire des tests d'acceptation.
+- Ajouter des tests d'exécution à votre projet.
 
-## Good practice checks
+## Bonnes vérifications de pratique
 
-- Document the tests and how to run them.
-- Write scripts to set up and configure any resources that are needed to run the tests.
-- Pick and make use of a testing framework.
-- Run the tests regularly.
-- Automate the process of running tests. Consider making use of continuous integration (see continuous integration chapter) to do this.
-- Check the code coverage of your tests and try to improve it.
-- Engage in code review with a partner.
+- Documentez les tests et comment les exécuter.
+- Écrire des scripts pour configurer et configurer toutes les ressources nécessaires pour exécuter les tests.
+- Choisissez et utilisez un framework de test.
+- Exécutez les tests régulièrement.
+- Automatiser le processus de tests en cours d'exécution. Envisagez d'utiliser l'intégration continue (voir le chapitre sur l'intégration continue) pour ce faire.
+- Vérifiez la couverture de code de vos tests et essayez de l'améliorer.
+- Engager dans la révision de code avec un partenaire.

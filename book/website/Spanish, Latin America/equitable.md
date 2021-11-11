@@ -1,0 +1,18 @@
+(comunicación-aa-equitable)=
+# Autoridades grandes y equitativas
+
+Los grandes proyectos de colaboración son cada vez más frecuentes y tratar con la autoría de cientos o incluso miles de autores puede ser difícil.
+
+Algunos estudios científicos, como los ensayos clínicos y los grandes proyectos científicos, requieren la colaboración de muchos equipos de investigadores y diferentes tipos de especialistas. Esta investigación se está publicando con autores muy grandes. Un ejemplo son las publicaciones del CERN que a menudo tienen miles de autores en orden alfabético. Aquí está un enlace [a un artículo 2021 del CERN que tiene 3078 autores](http://cds.cern.ch/record/2753518#) como ejemplo de este tipo de autoría.
+
+Este tipo de modelo de autoría compartida se encuentra cada vez más en proyectos de ciencia abierta y comunidades donde el espíritu requiere una autoría más equitativa que realmente refleja todas las contribuciones realizadas. *La comunidad de Turing Way* quiere reconocer todas las contribuciones y por lo tanto estas se registran cuidadosamente de varias maneras. Aquí hay un enlace a nuestro {ref}`Capítulo sobre confirmaciones<ch-acknowledgement>`. Utilizamos un [bot de colaboradores](https://allcontributors.org/) para registrar el tipo de contribuciones de diferentes miembros que se muestran en nuestro Github Readme. ile y también tenemos {ref}`perfiles de colaborador<ch-acknowledgement-record>` al final del libro, en la que cada colaborador puede registrar sus contribuciones con más detalle.
+
+Aunque The Turing Way no es un artículo académico, es un libro en línea publicado, y por lo tanto tenemos {ref}`directrices de autor<ch-acknowledgement-members>`. El primer autor es siempre *la comunidad de Turing Way* y luego los autores están listados en orden alfabético por apellido. La autoría es acumulativa, por lo que los autores siempre seguirán siendo autores. En consecuencia, este modelo de autoría da el mismo reconocimiento como autor a cualquier contribución y, por lo tanto, en este sentido es una autoría de los contribuyentes más que de los autores.
+
+Esto es similar a una autoría de consorcios. Se trata de un colectivo de autores y todos los miembros del consorcio son considerados autores y deben figurar en los artículos publicados como tales. A veces esto se ve en el diario como una lista grande de autores o puede mostrarse como el nombre de la comunidad, sin embargo debajo de todos los nombres de autor de la comunidad será visible.
+
+Otro desarrollo reciente en el uso de la taxonomía CRediT es la idea de proporcionar una página de portada a un artículo similar al visto en créditos de película. Esta reciente [pre-impresión del Proyecto Living with Machines](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/) ha tomado este enfoque. Los autores señalan que este modelo de autoría se basa en que todos los autores reconocen abiertamente la importancia de las contribuciones de todos. El proyecto Living with Machines se discute en la {ref}`historia personal sobre la autoría en proyectos interdisciplinarios<aa-intps>` al final de este capítulo.
+
+El uso de ORCID es otra forma de garantizar una autoría equitativa. ORCID es un identificador digital persistente para los investigadores. Significa que incluso si el nombre de un investigador cambia de alguna manera, tales como no usar exactamente el mismo nombre en cada artículo o un cambio de apellido, sus publicaciones seguirán estando vinculadas a ellos. Garantiza el reconocimiento de sus contribuciones.
+
+Descubre más información sobre {ref}`ORCID<cm-citable-orcid>` en nuestro subcapítulo en la Guía para la Comunicación. 

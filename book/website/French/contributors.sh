@@ -1,28 +1,28 @@
-#! /bin/bash
-# Copy the latest contributors.md file content to afterword
-# this will publish the contributors file online in The Turing Way book
+#! /fr/bin/bash
+# Copier le dernier contenu du fichier contributors.md vers afterword
+# cela va publier le fichier des contributeurs en ligne dans le livre de Turing Way
 
-all_contributors='../../README.md' # Path to the main README file of The Turing Way
+all_contributors='../../README.md' # Chemin vers le fichier README principal de la Voie Turing
 contributor_highlights='../../contributors.md'
 collaborating_projects='../../collaborating_projects.md'
 contributors_record='afterword/contributors-record.md'
 
-# Copy everything from the contributors highlight
-echo '(contributors-record-highlights)=' > $contributors_record
-cat $contributor_highlights >> $contributors_record
+# Copier tout depuis la surbrillance des contributeurs
+echo '(contributeurs-record-highlights)=' > $contributors_record
+chat $contributor_highlights >> $contributors_record
 
-# # Get linenumber where all contributors list starts
-echo '\n(contributors-record-all)=' >> $contributors_record
-echo '\n# All Contributors\n' >> $contributors_record
-echo '\n✨Using [all-contributors](https://allcontributors.org/) specification, _The Turing Way_ Recognises all contributors, not just the ones who push code. ✨' >> $contributors_record
-line_num=$(grep -n '## Contributors' $all_contributors | cut -d: -f1)
-echo '\n(contributors-record-contributors)=' >> $contributors_record
+# # Obtenir la ligne où commence la liste de tous les contributeurs
+echo '\n(contributeurs-record-all)=' >> $contributors_record
+echo '\n# Tous les contributeurs\n' >> $contributors_record
+echo '\n✨En utilisant la spécification [all-contributors](https://allcontributors.org/), _The Turing Way_ reconnaît tous les contributeurs, pas seulement ceux qui poussent du code. ✨' >> $contributors_record
+line_num=$(grep -n '## Contributeurs' $all_contributors | coupé -d: -f1)
+echo '\n(contributeurs-record-contributeurs)=' >> $contributors_record
 
-tail -n +"$line_num" "$all_contributors" | while read line;
-do
+queue -n +"$line_num" "$all_contributors" | en lecture de la ligne;
+faire
   echo $line >> $contributors_record
-done
+Terminé
 
-# Copy everything from the collaborating projects files
-echo '\n(contributors-record-collaborators)=' >> $contributors_record
-cat $collaborating_projects >> $contributors_record
+# Copier tout depuis les fichiers des projets collaboratifs
+echo '\n(contributeurs-record-collaborateurs)=' >> $contributors_record
+chat $collaborating_projects >> $contributors_record

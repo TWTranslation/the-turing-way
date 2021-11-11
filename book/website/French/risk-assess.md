@@ -1,26 +1,26 @@
 (rr-risk-assess)=
-# Risk Assessment - deciding how to manage your software
+# Évaluation des risques - décider comment gérer votre logiciel
 
 ## TL;DR
-Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
+Utilisez une évaluation des risques pour aider à choisir les concepts de logiciels durables appropriés pour votre projet. Trop peu et votre logiciel est insoutenable; trop et vous ne pourrez pas continuer avec lui. Cela peut prendre quelques secondes, mais vous emmène au bon pied.
 
-## Longer read…
-We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment: "Is this coffee too hot?", "Is there a bus coming?". Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
+## Lecture plus longue…
+Nous utilisons tous des évaluations des risques en permanence. Parfois, ce sont des procédures formelles pour s'assurer qu'une activité est sûre, mais la plupart du temps, ils sont la pensée d’un instant : « Est-ce que ce café est trop chaud ? , "Is there a bus coming?". Le logiciel n'est pas différent, et utiliser une approche d'évaluation des risques comme celle décrite ci-dessous peut vraiment aider à rendre votre travail efficace et durable.
 
-### The risk matrix
-A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
+### La matrice de risque
+Une matrice de risque est une façon très populaire de quantifier ce qui se passe avec ce qui vous intéresse. Un axe mesure l'exposition d'une certaine manière, et l'autre l'impact d'un malentendu. Plus l'origine est éloignée, plus il faut des garanties pour rendre le risque acceptable.
 
-In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
+Dans notre cas, nous utiliserons la ‘complexité’ et l’‘impact’ comme les deux axes. Certaines études de cas illustrent comment cela fonctionne…
 
-Case 1
+Cas 1
 
-> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. He pauses for a few seconds and asks: "How complicated is this? It’ll only be about 1 screen of text." "What if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails."
+> Richard doit soumettre 100 petits emplois au pôle départemental, les noms des emplois variant selon un modèle simple. C'est fastidieux et il veut sortir et jouer. Par conséquent, Richard décide d'écrire un script shell court pour soumettre tous les travaux. Il se met en pause pendant quelques secondes et lui demande : « À quel point cela est-il compliqué ? Il ne s’agira que d’un seul écran de texte." "Et si ça se passe mal ? Les jobs ne seront pas envoyés ou exécutés et je vais recevoir des e-mails d'échec. "
 
-## Prerequisites/recommended skill level
-> This needs writing
+## Prérequis / Niveau de compétence recommandé
+> Il faut écrire
 
 ## Summary
-Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
+Utilisez une évaluation des risques pour aider à choisir les concepts de logiciels durables appropriés pour votre projet. Trop peu et votre logiciel est insoutenable; trop et vous ne pourrez pas continuer avec lui. Cela peut prendre quelques secondes, mais vous emmène au bon pied.
 
-## How this will help you/why this is useful
-> This needs writing
+## Comment cela va vous aider/pourquoi cela est utile
+> Il faut écrire

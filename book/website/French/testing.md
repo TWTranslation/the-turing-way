@@ -1,55 +1,55 @@
 (rr-testing)=
-# Code Testing
+# Tests de code
 
-| Prerequisite                                                                                  | Importance |
-| --------------------------------------------------------------------------------------------- | ---------- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  |
+| Pré-requis                                                                                        | Importance |
+| ------------------------------------------------------------------------------------------------- | ---------- |
+| [Expérience avec la ligne de commande](https://programminghistorian.org/en/lessons/intro-to-bash) | Nécessaire |
 
 ## Summary
 
-Researcher-written code now forms a part of a huge portion of research, and if there are mistakes in the code the results may be partly or entirely unreliable. Testing code thoroughly and frequently is vital to ensure reliable, reproducible research. This chapter will provide general guidance for writing tests and describe a number of different kinds of testing, their uses and how to go about implementing them.
+Le code écrit par un chercheur fait désormais partie d'une grande partie de la recherche, et s'il y a des erreurs dans le code, les résultats peuvent être partiellement ou entièrement peu fiables. Il est vital de tester le code de façon approfondie et fréquente pour assurer une recherche fiable et reproductible. Ce chapitre fournira des conseils généraux pour écrire des tests et décrira un certain nombre de différents types de tests, leurs utilisations et comment les mettre en œuvre.
 
 ```{figure}  ../figures/error-management.jpg
 ---
-name: error-management
-alt: A person is happily coding, then a error throws and the coder gets confused. Then the coder can find the error and fix it.
+name : gestion des erreurs
+alt : Une personne est heureuse de coder, puis une erreur se déclenche et le codeur est confondu. Ensuite, le codeur peut trouver l'erreur et la corriger.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Utilisé sous licence CC-BY 4.0. DOI : [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 ## Motivation
 
-It is very, very easy to make mistakes when coding. A single misplaced character can cause a program's output to be entirely wrong. One of the examples above was caused by a plus sign which should have been a minus. Another was caused by one piece of code working in meters while a piece of code written by another researcher worked in feet. *Everyone* makes mistakes, and in research the results can be catastrophic. Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost to exploring incorrect avenues. This is why tests are vital.
+Il est très, très facile de faire des erreurs en codant. Un seul caractère déplacé peut rendre la sortie d'un programme totalement erronée. Un des exemples ci-dessus a été causé par un signe plus qui aurait dû être un moins. Une autre a été causée par un morceau de code travaillant en mètres alors qu'un autre chercheur a travaillé dans les pieds. *Tout le monde* fait des erreurs, et dans la recherche les résultats peuvent être catastrophiques. Les carrières peuvent être endommagées/terminées, des sommes considérables peuvent être gaspillées et un temps précieux peut être perdu pour explorer des voies incorrectes. C'est pourquoi les tests sont vitaux.
 
-Here's a couple of illustrations exemplifying of why should write tests:
+Voici quelques illustrations illustrant pourquoi écrire des tests :
 
 ```{figure}  ../figures/testing-motivation1.png
 ---
-name: testing-motivation1
-alt:
+name : testing-motivation1
+alt :
 ---
 ```
 
 ```{figure}  ../figures/testing-motivation2.png
 ---
-name: testing-motivation2
-alt:
+nom: testing-motivation2
+alt :
 ---
 ```
 
-Even if problems in a program are caught before research is published it can be difficult to figure out what results are contaminated and must be re-done. This represents a huge loss of time and effort. Catching these problems as early as possible minimises the amount of work it takes to fix them, and for most researchers time is by far their most scarce resource. You should not skip writing tests because you are short on time, you should write tests *because* you are short on time. Researchers cannot afford to have months or years of work go down the drain, and they can't afford to repeatedly manually check every little detail of a program that might be hundreds or hundreds of thousands of lines long. Writing tests to do it for you is the time-saving option, and it's the safe option.
+Même si des problèmes dans un programme sont détectés avant la publication de la recherche, il peut être difficile de déterminer quels sont les résultats contaminés et doivent être refaits. Cela représente une perte de temps et d'efforts considérables. Attraper ces problèmes le plus tôt possible minimise la quantité de travail nécessaire pour les résoudre, et pour la plupart des chercheurs, c'est de loin leur ressource la plus rare. Vous ne devriez pas ignorer les tests d'écriture parce que vous avez peu de temps, vous devez écrire des tests *parce que* vous avez peu de temps. Les chercheurs ne peuvent pas se permettre d'avoir des mois ou des années de travail dans le vide, et ils ne peuvent pas se permettre de vérifier à plusieurs reprises manuellement tous les détails d'un programme qui pourrait être long de centaines ou de centaines de milliers de lignes. Écrire des tests pour le faire pour vous est l'option de gain de temps, et c'est l'option sûre.
 
-As researchers write code they generally do some tests as they go along, often by adding in print statements and checking the output. However, these tests are often thrown away as soon as they pass and are no longer present to check what they were intended to check. It is comparatively very little work to place these tests in functions and keep them so they can be run at any time in the future. The additional labour is minimal, the time saved and safeguards provided are invaluable. Further, by formalising the testing process into a suite of tests that can be run independently and automatically, you provide a much greater degree of confidence that the software behaves correctly and increase the likelihood that defects will be found.
+Comme les chercheurs écrivent du code, ils font généralement certains tests au fur et à mesure, souvent en ajoutant des déclarations imprimées et en vérifiant la sortie. Cependant, ces tests sont souvent jetés dès qu'ils sont passés et ne sont plus présents pour vérifier ce qu'ils étaient censés vérifier. C'est relativement peu de travail de placer ces tests dans des fonctions et de les garder afin qu'ils puissent être exécutés à tout moment dans le futur. La main-d’œuvre supplémentaire est minimale, le temps gagné et les garanties fournies sont inestimables. De plus, en formalisant le processus de test en une suite de tests qui peuvent être exécutés de manière indépendante et automatique, vous offrez un degré de confiance beaucoup plus grand que le logiciel se comporte correctement et augmentez la probabilité que des défauts soient trouvés.
 
-Testing also affords researchers much more peace of mind when working on/improving a project. After changing their code a researcher will want to check that their changes or fixes have not broken anything. Providing researchers with a fail-fast environment allows the rapid identification of failures introduced by changes to the code. The alternative, of the researcher writing and running whatever small tests they have time for is far inferior to a good testing suite which can thoroughly check the code.
+Les tests offrent également aux chercheurs une plus grande tranquillité d'esprit lorsqu'ils travaillent ou améliorent un projet. Après avoir modifié leur code, un chercheur voudra vérifier que leurs modifications ou corrections n'ont rien cassé. Fournir aux chercheurs un environnement rapide permettant d'identifier rapidement les défaillances introduites par les modifications apportées au code. L'alternative, du chercheur qui écrit et exécute les petits tests pour lesquels il a du temps est bien inférieur à une bonne suite de tests qui peut vérifier le code en profondeur.
 
-Another benefit of writing tests is that it typically forces a researcher to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
-{ref}`Good quality code<rr-code-quality>` is far easier (and altogether more pleasant) to work with than tangled rat's nests of code I'm sure we've all come across (and, let's be honest, written). This point is expanded upon in the section {ref}`rr-testing-unittest`.
+Un autre avantage de l'écriture de tests est qu'il oblige généralement un chercheur à écrire plus propre, plus de code modulaire en tant que tel code est beaucoup plus facile à écrire des tests pour, menant à une amélioration de la qualité du code.
+{ref}`Le code de bonne qualité<rr-code-quality>` est beaucoup plus facile (et tout à fait plus plaisant) à travailler avec des nids de code de rat enchevêtrés, je suis sûr que nous avons tous rencontré (et, soyons honnêtes, écrits). Ce point est étendu dans la section {ref}`rr-testing-unittest`.
 
-## The advantages of testing for research
+## Les avantages des tests pour la recherche
 
-As well as advantaging individual researchers testing also benefits research as a whole. It makes research more reproducible by answering the question "how do we even know this code works". If tests are never saved, just done and deleted the proof cannot be reproduced easily.
+En plus de profiter des tests individuels des chercheurs, la recherche dans son ensemble est également bénéfique. Il rend la recherche plus reproductible en répondant à la question "comment on sait même que ce code fonctionne". Si les tests ne sont jamais enregistrés, il suffit de faire et de supprimer la preuve ne peut pas être reproduite facilement.
 
-Testing also helps prevent valuable grant money being spent on projects that may be partly or wholly flawed due to mistakes in the code. Worse, if mistakes are not at found and the work is published, any subsequent work that builds upon the project will be similarly flawed.
+Les tests aident également à éviter que des fonds précieux ne soient dépensés pour des projets qui peuvent être partiellement ou totalement imparfaits en raison d'erreurs dans le code. Pire encore, si des erreurs ne sont pas détectées et que le travail est publié, tout travail ultérieur qui s'appuie sur le projet sera tout aussi imparfait.
 
-Perhaps the cleanest expression of why testing is important for research as a whole can be found in the [Software Sustainability Institute](https://www.software.ac.uk/) slogan: better software, better research.
+Peut-être l'expression la plus propre des raisons pour lesquelles les tests sont importants pour la recherche dans son ensemble se trouve dans le slogan de [Software Sustainability Institute](https://www.software.ac.uk/) : meilleur logiciel, meilleur logiciel. une meilleure recherche.

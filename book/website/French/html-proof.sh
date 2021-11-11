@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-set -e # halt script on error
+set -e # stopt script en cas d'erreur
 
-make site 
+créer un site 
 bundle exec htmlproofer --allow-hash-href \
 --assume-extension ./_site \
 --url-ignore "/\/apple-touch*.*/,/\/images/logo/favicon.ico/,/#*/" \

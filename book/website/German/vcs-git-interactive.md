@@ -1,16 +1,16 @@
-(rr-vcs-git-interactive)=
-# Interactive, Visual Git
+(rr-vcs-git-interaktive)=
+# Interaktiv, Visual Git
 
-One of the biggest challenges to getting started with Git can be understanding the file and directory structure and complexity of branches, commits, and remotes and how they interact, particularly on the command line with limited visual representations. It is often confusing - even for advanced users - to translate from a conceptual diagram to the correct Git commands needed achieve the desired outcomes.
+Eine der größten Herausforderungen für den Start mit Git kann das Verständnis der Datei-und Verzeichnis-Struktur und der Komplexität der Zweige sein. commits, und remotes und wie sie interagieren, insbesondere auf der Kommandozeile mit begrenzten visuellen Darstellungen. Es ist oft verwirrend - auch für fortgeschrittene Benutzer - von einem konzeptuellen Diagramm in die richtigen Git-Befehle zu übersetzen, die das gewünschte Ergebnis erzielen.
 
-The [LearnGitBranching](https://learngitbranching.js.org/) tool created by [pcottle](https://github.com/pcottle/learnGitBranching) provides an interactive, visual introduction to Git. This browser-based, interactive tool includes tutorials and allows you to practice using Git through a virtual "repository" and sandbox. Through completion of built-in challenges, becoming comfortable with Git commands is more like a game than a chore.
+Das [LearnGitBranching](https://learngitbranching.js.org/) Werkzeug, das von [Pcottle](https://github.com/pcottle/learnGitBranching) erstellt wurde, bietet eine interaktive visuelle Einführung in Git. Dieses browserbasierte, interaktive Tool beinhaltet Tutorials und erlaubt es Ihnen, Git durch ein virtuelles "Repository" und Sandbox zu üben. Durch die Fertigstellung eingebauter Herausforderungen ist es eher wie ein Spiel als eine Aufgabe, sich mit Git-Befehlen vertraut zu machen.
 
 ```{figure} ../../figures/interactive-learn-git.png
 ---
-name: interactive-learn-git
-alt: An illustration of the interactive, visual Learn Git Brnaching tool interface
+Name: interactive-learn-git
+alt: Eine Illustration des interaktiven, Visual Learn Git Brnaching Werkzeugschnittstelle
 ---
-A challenge in the LearnGitBranching tool.
+Eine Herausforderung im LearnGitBranching-Werkzeug.
 ```
 
-The sandbox capabilities of this tool also make it a great place for testing commands before running them on your actual repository.
+Die Sandbox-Funktionen dieses Tools machen es auch zu einem idealen Ort um Befehle zu testen, bevor sie auf Ihrem eigentlichen Projektarchiv ausgeführt werden.

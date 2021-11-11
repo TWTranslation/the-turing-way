@@ -2,35 +2,35 @@
 # Checklist
 
 (rr-vcs-checklist-makeuseof)=
-## Make Use of Git
+## Utiliser Git
 
-- Make your project version controlled by initialising a Git repository in its directory using `git init`.
-- Add and commit all your files to the repository using `git add .` then `git commit`.
-- Continue to add and commit changes as your project progresses. Stage the changes in specific files to be committed with `git add filename`, and add messages to your commits.
-  - Each commit should make one simple change.
-  - No generated files committed.
-  - Commit messages are meaningful, with a ~50 character summary at the top.
-  - Commit messages are in the present tense and imperative.
-- Develop new features on their own branches, which you can create via `git checkout -b branch_name` and switch between via `git checkout branch_name`.
-  - Make sure branches have informative names.
-  - Make sure the main branch is kept clean.
-  - Make sure each branch has a single purpose and only changes related to that purpose are made on it.
-- Once features are complete, merge their branches into the main branch by switching to the feature branch and running `git merge main`.
-  - Merge other's changes into your work frequently.
-  - When dealing with merge conflicts, make sure you fully understand both versions before trying to resolve them.
+- Rend la version de votre projet contrôlée en initialisant un dépôt Git dans son répertoire en utilisant `git init`.
+- Ajouter et valider tous vos fichiers au dépôt en utilisant `git add .` puis `git commit`.
+- Continuez à ajouter et à valider les changements au fur et à mesure que votre projet progresse. Étapez les changements dans des fichiers spécifiques pour être validés avec `git add filename`, et ajoutez des messages à vos commits.
+  - Chaque commit devrait faire un simple changement.
+  - Aucun fichier généré n'a été validé.
+  - Les messages de commit sont significatifs, avec un résumé de ~50 caractères en haut.
+  - Les messages de compromis sont dans la tension actuelle et impérative.
+- Développer de nouvelles fonctionnalités sur leurs propres branches, que vous pouvez créer via `git checkout -b branch_name` et basculer entre `git checkout branch_name`.
+  - Assurez-vous que les branches ont des noms informatifs.
+  - Assurez-vous que la branche principale est propre.
+  - Assurez-vous que chaque branche a un seul but et que seules les modifications liées à cet objectif sont effectuées sur elle.
+- Une fois les fonctionnalités terminées, fusionnez leurs branches dans la branche principale en passant à la branche de fonctionnalité et en exécutant `git merge main`.
+  - Fusionner fréquemment les modifications apportées à votre travail.
+  - Lorsque vous traitez de conflits de fusion, assurez-vous de bien comprendre les deux versions avant d'essayer de les résoudre.
 
 (rr-vcs-checklist-contribute)=
-## Contribute to Someone Else's Project
+## Contribuer au projet de quelqu'un d'autre
 
-- Clone their project's repository from GitHub `git clone repository_url`.
-- Make and commit changes.
-- Push your changes to you GitHub version of the project.
-- Make use of issues to discuss possible changes to a project.
-- Make pull requests on GitHub to share your work.
-  - Clearly explain the changes you have made (and why) in your pull request.
+- Cloner le dépôt de leur projet à partir de GitHub `git clone repository_url`.
+- Effectuer et valider les modifications.
+- Poussez vos modifications vers la version GitHub du projet.
+- Utiliser les numéros pour discuter des modifications possibles à un projet.
+- Faites des pull requests sur GitHub pour partager votre travail.
+  - Expliquez clairement les changements que vous avez apportés (et pourquoi) dans votre pull request.
 
 (rr-vcs-checklist-data)=
-## Make Sure That Your Data Is Version-Controlled
+## Assurez-vous que vos données sont contrôlées par la version
 
-- If your projects involve data, check whether [Git LFS](https://git-lfs.github.com/), [git-annex](https://git-annex.branchable.com/), or [DataLad](https://www.datalad.org/) fits your needs for version-controlling it.
-- Share the data along with your project to help others reproduce your results.
+- Si vos projets impliquent des données, vérifiez si [Git LFS](https://git-lfs.github.com/), [git-annex](https://git-annex.branchable.com/), ou [DataLad](https://www.datalad.org/) répond à vos besoins de contrôle de version.
+- Partagez les données avec votre projet pour aider les autres à reproduire vos résultats.

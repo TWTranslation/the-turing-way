@@ -1,0 +1,3 @@
+# Resumen de la evaluación de riesgos
+
+Desplácese su software y para qué se utiliza. Conocer esto le ayuda a decidir qué conceptos de sostenibilidad son apropiados para sus necesidades. Hay muchas herramientas y ecosistemas que se utilizan comúnmente para ayudarle a practicar estos conceptos: GitHub, Docker y muchos más. Lea para aprender sobre estos conceptos y herramientas…

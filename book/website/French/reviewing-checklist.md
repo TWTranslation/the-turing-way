@@ -1,147 +1,147 @@
 (rr-checklist-for-code-review)=
-# Checklist for code review process
+# Liste de contrôle pour le processus de révision du code
 
-This section presents some checklists for both the coder and the reviewer, as part of a formal review process. The reviewer checklists are split into two categories: one for the whole program, and one for individual files or proposed changes.
+Cette section présente quelques listes de contrôle pour le codeur et l’examinateur, dans le cadre d’un processus d’examen formel. Les listes de contrôle des réviseurs sont divisées en deux catégories : une pour l'ensemble du programme et une pour les fichiers individuels ou les modifications proposées.
 
-The lists are created with a focus on good software engineering practice and are intended to be a source of inspiration. When assessing the checklists, it is recommended to consider to what extent the item mentioned is implemented. Some items on the lists may not apply to your project or programming language, in which case they should be disregarded.
+Les listes sont créées en mettant l'accent sur de bonnes pratiques d'ingénierie logicielle et sont destinées à être une source d'inspiration. Lors de l'évaluation des listes de contrôle, il est recommandé de déterminer dans quelle mesure le point mentionné est implémenté. Certains éléments des listes peuvent ne pas s'appliquer à votre projet ou à votre langage de programmation, auquel cas ils devraient être ignorés.
 
-In all cases, the goal is to use your programming experience to figure out how to make the code better.
+Dans tous les cas, l'objectif est d'utiliser votre expérience de programmation pour trouver comment améliorer le code.
 
-## For the coder
+## Pour le codeur
 
-- Does the new code meets the required standards of the project? The standards are typically written under `contributing guidelines` by the project you are contributing to.
-- Is there [documentation](#documentation) that meets the required standards of the project?
-- Are you following any declared {ref}`style guide<rr-code-quality>` for the project?
-- Are there new [tests](#tests) for the new material, based on the required standards of the project?
-  - Do these tests pass locally?
-  - Are the tests in the rest of the code base still passing locally?
-- Create the pull request.
-- Many {ref}`continuous integration (CI)<rr-ci>` systems will check if the tests in the main project pass automatically once you create a pull request. If the repository is using a CI, make sure all builds and tests complete. Consult the CI reports to see if your code is causing the tests in the main project to fail.
-- If necessary, now formally request a review.
+- Est-ce que le nouveau code répond aux normes requises du projet? Les standards sont généralement écrits sous `les directives de contribution` du projet auquel vous contribuez.
+- Y a-t-il [de la documentation](#documentation) qui répond aux normes requises du projet ?
+- Suivez-vous un guide de style de {ref}`déclaré<rr-code-quality>` pour le projet ?
+- Y a-t-il de nouveaux [tests](#tests) pour le nouveau matériau, basés sur les normes requises du projet ?
+  - Ces tests sont-ils passés localement ?
+  - Les tests dans le reste de la base de code sont-ils toujours passés localement ?
+- Créer la pull request.
+- Beaucoup de systèmes d'intégration continue (CI) de {ref}`<rr-ci>` vérifieront si les tests dans le projet principal passent automatiquement une fois que vous créez une pull request. Si le référentiel utilise une CI, assurez-vous que toutes les versions et les tests sont terminés. Consultez les rapports CI pour voir si votre code cause l'échec des tests dans le projet principal.
+- Si nécessaire, demander officiellement un réexamen.
 
-## For the reviewer
+## Pour le relecteur
 
-- Check the required standards of the project. The standards are typically written under `contributing guidelines` by the project you are contributing to.
-- Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
-- Do the [tests](#tests) and [documentation](#documentation) conform to the standards?
-- Is all the code easily understood? Depending on the language, files may contain interfaces, classes or other type definitions, and functions (see [Architecture](#architecture)). The essential architectural concepts can be reviewed as follows:
-  - Check the [interfaces](#interfaces) lists.
-  - Check the [classes and types](#classes-and-types) lists.
-  - Check the [function/method declarations](#function-method-declarations) lists.
-  - Check the [function/method definitions](#function-method-definitions) lists.
-- Do the [tests](#tests) actually ensure the code is robust in its intended use?
-  - Are there any bugs or other defects?
-- Are [security](#security) issues handled correctly?
-  - Check the [security of new codes](#security-of-new-codes).
-- Does the new code meet the [legal requirements](#legal)?
+- Vérifiez les normes requises du projet. Les standards sont généralement écrits sous `lignes directrices de contribution` par le projet auquel vous contribuez.
+- Vérifiez que le code rencontre le guide de style de base du projet {ref}`<rr-code-quality>`, si ce n'est pas automatiquement vérifié par {ref}`intégration continue (CI)<rr-ci>`.
+- Les [tests](#tests) et [documentation](#documentation) sont-ils conformes aux standards ?
+- Est-ce que tout le code est facilement compris ? Selon le langage, les fichiers peuvent contenir des interfaces, des classes ou d'autres définitions de type et des fonctions (voir [Architecture](#architecture)). Les concepts architecturaux essentiels peuvent être revus comme suit:
+  - Vérifiez les listes [interfaces](#interfaces).
+  - Vérifiez les listes de [classes et types](#classes-and-types).
+  - Vérifiez la liste des [déclarations de fonction/méthodes](#function-method-declarations).
+  - Vérifiez les listes [des définitions de fonctions/méthodes](#function-method-definitions).
+- Les [tests](#tests) s'assurent-ils réellement que le code est robuste dans son utilisation prévue ?
+  - Y a-t-il des bugs ou d'autres défauts?
+- Les problèmes de [sécurité](#security) sont-ils traités correctement ?
+  - Vérifiez la [sécurité des nouveaux codes](#security-of-new-codes).
+- Est-ce que le nouveau code répond aux [exigences légales](#legal)?
 
-## Program level checklist
+## Liste de contrôle du niveau du programme
 
-Here is a list of things to consider when looking at the program as a whole, rather than when looking at an individual file or change.
+Voici une liste de choses à considérer lorsque vous regardez le programme dans son ensemble, plutôt que de regarder un fichier ou un changement individuel.
 
 ### Documentation
 
-Documentation is a prerequisite for using, developing, and reviewing the program. Someone who isn’t involved with your project should understand what your code does, and what approach you’re taking. Here are some things to check for.
+La documentation est une condition préalable pour utiliser, développer et examiner le programme. Quelqu'un qui n'est pas impliqué dans votre projet devrait comprendre ce que fait votre code, et quelle approche vous adoptez. Voici quelques choses à vérifier.
 
-- Is there a description of the purpose of the program or library?
-- Are detailed requirements listed?
-- Are requirements ranked according to [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)?
-- Is the use and function of third-party libraries documented?
-- Is the structure/architecture of the program documented? (see below)
-- Is there an installation manual?
-- Is there a user manual?
-- Is there documentation on how to contribute?
-  - Including how to submit changes
-  - Including how to document your changes
+- Y a-t-il une description du but du programme ou de la bibliothèque ?
+- Les exigences détaillées sont-elles répertoriées ?
+- Les exigences sont-elles classées selon [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)?
+- L'utilisation et la fonction des bibliothèques tierces sont-elles documentées ?
+- La structure/architecture du programme est-elle documentée ? (voir ci-dessous)
+- Y a-t-il un manuel d'installation ?
+- Y a-t-il un manuel d'utilisateur?
+- Y a-t-il de la documentation sur la façon de contribuer?
+  - Inclure comment soumettre les modifications
+  - Inclure comment documenter vos modifications
 
 ### Architecture
 
-These items are mainly important for larger programs, but may still be good to consider for small ones as well.
+Ces éléments sont principalement importants pour les programmes plus grands, mais peuvent quand même être de bon à considérer pour les petits aussi.
 
-- Is the program split up into clearly separated modules?
-- Are these modules as small as they can be?
-- Is there a clear, hierarchical or layered, dependency structure between these modules?
-  - If not, the functionality should be rearranged, or perhaps heavily interdependent modules should be combined.
-- Can the design be simplified?
+- Le programme est-il divisé en modules clairement séparés ?
+- Ces modules sont-ils aussi petits qu'ils peuvent être ?
+- Y a-t-il une structure de dépendance claire, hiérarchique ou calquée entre ces modules ?
+  - Si ce n'est pas le cas, la fonctionnalité devrait être réarrangée, ou peut-être les modules interdépendants fortement devraient être combinés.
+- Peut-on simplifier la conception ?
 
-### Security
+### Sécurité
 
-If you're making software that is accessible to the outside world (for example a web application), then security becomes important. Security issues are defects, but not all defects are security issues. A security-conscious design can help mitigate the security impact of defects.
+Si vous faites des logiciels accessibles au monde extérieur (par exemple une application web ), la sécurité devient importante. Les problèmes de sécurité sont des défauts, mais tous les défauts ne sont pas des problèmes de sécurité. Une conception consciente de la sécurité peut aider à atténuer l'impact des défauts sur la sécurité.
 
-- Which modules deal with user input?
-- Which modules generate output?
-- Are input and output compartmentalized?
-  - If not, consider making separate modules that manage all input and output, so validation can happen in one place.
-- In which modules is untrusted data present?
-  - The fewer the better.
-- Is untrusted data compartmentalized?
-  - Ideally, validate in the input module and pass only validated data to other parts.
+- Quels modules traitent de la saisie de l'utilisateur ?
+- Quels modules génèrent une sortie ?
+- Les éléments d'entrée et de sortie sont-ils compartimentés ?
+  - Sinon, envisagez de créer des modules séparés qui gèrent toutes les entrées et sorties, de sorte que la validation puisse avoir lieu à un seul endroit.
+- Dans quels modules les données non fiables sont-elles présentes ?
+  - Moins il y a de choses à faire.
+- Les données non fiables sont-elles compartimentées ?
+  - Idéalement, validez dans le module d'entrée et passez seulement données validées à d'autres parties.
 
-### Legal
+### Mentions légales
 
-As a developer, you should pay attention to the legal rights of the creators of the code you're using. Here are some things to check. When in doubt, ask someone experienced in licensing for advice.
+En tant que développeur, vous devriez prêter attention aux droits légaux des créateurs du code que vous utilisez. Voici quelques choses à vérifier. En cas de doute dans , demandez conseil à une personne expérimentée dans le domaine de la licence.
 
-- Are the licenses of all modules/libraries that are used documented?
-- Are the requirements set by those licenses fulfilled?
-  - Are the licenses included where needed?
-  - Are copyright statements included in the code where needed?
-  - Are copyright statements included in the documentation where needed?
-- Are the licenses of all the parts compatible with each other?
-- Is the project license compatible with all libraries?
+- Les licences de toutes les modules/bibliothèques utilisées sont-elles documentées ?
+- Les exigences fixées par ces licences sont-elles remplies?
+  - Les licences sont-elles incluses lorsque nécessaire?
+  - Les déclarations de copyright sont-elles incluses dans le code si nécessaire?
+  - Les déclarations de droits d'auteur sont-elles incluses dans la documentation lorsque cela est nécessaire?
+- Les licences de toutes les pièces sont-elles compatibles entre elles ?
+- La licence de projet est-elle compatible avec toutes les bibliothèques ?
 
-## File/Change level checklist
+## Fichier/Modifier la liste de contrôle du niveau
 
-When you're checking individual changes or files in a pull request, the code itself becomes the subject of scrutiny. Depending on the language, files may contain interfaces, classes or other type definitions, and functions. All these should be checked.
+Lorsque vous vérifiez des modifications individuelles ou des fichiers dans une demande de pull, le code lui-même devient l'objet d'un examen. Selon la langue, les fichiers peuvent contenir des interfaces, des classes ou d'autres définitions de type et des fonctions. Tous les doivent être vérifiés.
 
 ### Interfaces
 
-- Is the interface documented?
-- Does the concept it models make sense?
-- Can it be split up further? (Interfaces should be as small as possible)
+- L'interface est-elle documentée ?
+- Est-ce que le concept qu'il modèle a de sens?
+- Peut-elle être scindée davantage? (Les interfaces doivent être aussi petites que possible)
 
-Note that most of the following items assume an object-oriented programming style, which may not be relevant to the code you're looking at.
+Notez que la plupart des éléments suivants supposent un style de programmation orienté objet, qui peut ne pas être pertinent pour le code que vous regardez.
 
-### Classes and types
+### Classes et types
 
-- Is the class documented?
-  - Are external programs needed by the class documented?
-- Does it have a single responsibility? Can it be split?
-- If it's designed to be extended, can it be?
-- If it's not designed to be extended, is it protected against that?
-- If it's derived from another class, can you substitute an object of this class for one of its parent class(es)?
-- Is the class testable?
-  - Are the dependencies clear and explicit?
-  - Does it have a small number of dependencies?
-  - Does it depend on interfaces, rather than on classes?
+- La classe est-elle documentée ?
+  - Les programmes externes sont-ils nécessaires à la classe documentés?
+- A-t-elle une responsabilité unique? Peut-on le diviser?
+- Si elle est conçue pour être étendue, est-ce possible?
+- S'il n'est pas conçu pour être étendu, est-il protégé contre cela?
+- Si elle est dérivée d'une autre classe, pouvez-vous remplacer un objet de cette classe par une de ses classes parentales ?
+- La classe est-elle testable ?
+  - Les dépendances sont-elles claires et explicites ?
+  - A-t-elle un petit nombre de dépendances?
+  - Cela dépend-il des interfaces, plutôt que des classes?
 
-### Function/Method declarations
+### Déclarations de fonction/méthode
 
-- Are there comments that describe the intent of the function or method?
-- Are input and output documented? Including units?
-- Are pre- and postconditions documented?
-- Are edge cases and unusual things commented?
+- Y a-t-il des commentaires qui décrivent l'intention de la fonction ou de la méthode?
+- Les entrées et sorties sont-elles documentées ? Y compris les unités ?
+- Les conditions préalables et postales sont-elles documentées ?
+- Les cas de pointe et les choses inhabituelles sont-elles commentées ?
 
-### Function/Method definitions
+### Définitions de fonction/méthode
 
-- Are edge cases and unusual things commented?
-- Is there any incomplete code?
-- Could this function be split up (is it not too long)?
-- Does it work? Perform intended function, logic correct, ...
-- Is it easy to understand?
-- Is there redundant or duplicate code? (DRY)
-- Do loops have a set length and do they terminate correctly?
-- Can debugging or logging code be removed?
-- Can any of the code be replaced by library functions?
+- Les cas de pointe et les choses inhabituelles sont-elles commentées ?
+- Y a-t-il un code incomplet ?
+- Cette fonction peut-elle être divisée (n'est-ce pas trop long) ?
+- Cela fonctionne-t-il? Effectuer la fonction prévue, logique correcte, ...
+- Est-il facile à comprendre?
+- Y a-t-il du code redondant ou dupliqué ? (DRY)
+- Les boucles ont-elles une longueur définie et se terminent-elles correctement ?
+- Le débogage ou le code de log peuvent-ils être supprimés ?
+- Est-ce que le code peut être remplacé par des fonctions de bibliothèque ?
 
-### Security of new codes
+### Sécurité des nouveaux codes
 
-- If you're using a library, do you check errors it returns?
-- Are all data inputs checked?
-- Are output values checked and encoded properly?
-- Are invalid parameters handled correctly?
+- Si vous utilisez une bibliothèque, vérifiez-vous les erreurs qu'elle renvoie ?
+- Toutes les entrées de données sont-elles vérifiées ?
+- Les valeurs de sortie sont-elles vérifiées et encodées correctement ?
+- Les paramètres invalides sont-ils traités correctement ?
 
 ### Tests
 
-- Do unit tests actually test what they are supposed to?
-- Is bounds checking being done?
-- Is a test framework and/or library used?
+- Est-ce que les tests unitaires testent réellement ce à quoi ils sont censés servir?
+- La vérification des limites est-elle en cours ?
+- Un framework de test et/ou une bibliothèque sont-ils utilisés ?

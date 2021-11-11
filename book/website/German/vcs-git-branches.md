@@ -1,55 +1,55 @@
-(rr-vcs-git-branches)=
-# Git Branches
+(rr-vcs-git-Zweig)=
+# Git Zweige
 
-When working on a project, individually or collaboratively, you may encounter the following scenarios:
+Wenn Sie an einem Projekt arbeiten, können Sie auf die folgenden Szenarien stoßen:
 
-- If you add a new feature to your project, you run the risk of accidentally breaking your working code as you test the feature. This would cause unexpected issues for active users of your project, even if the only active user is you.
-- When you collaborate with others, and everyone works on the main branch simultaneously, there could be a lot of confusion and conflicting changes.
-- Some code/feature might not be interesting for everyone. There may need to be a way to allow new work to be done on a project whilst protecting work that has already been done.
+- Wenn Sie Ihrem Projekt eine neue Funktion hinzufügen, besteht das Risiko, während Sie die Funktion testen, versehentlich Ihren Arbeitscode zu brechen. Dies würde zu unerwarteten Problemen für aktive Benutzer Ihres Projekts führen, auch wenn Sie der einzige aktive Benutzer sind.
+- Wenn du mit anderen zusammenarbeitest und jeder gleichzeitig am Hauptzweig arbeitest, könnte es eine Menge Verwirrung und widersprüchliche Veränderungen geben.
+- Einige Code/Feature sind vielleicht nicht für alle interessant. Möglicherweise muss es eine Möglichkeit geben, neue Arbeit an einem Projekt zu leisten und gleichzeitig die bereits geleistete Arbeit zu schützen.
 
-Git branches are extremely valuable when addressing any of these issues. For every Git project, by default, you have one branch called 'main' where all commits are recorded. The branching feature of Git allows us to create a copy of a project that we can work on and continue to make commits to without integrating them into the main branch right away. Meanwhile, one can continue to make commits on the main branch, which is untouched by the changes made on other branches. Once you are happy with whatever you were working on on a branch, you can merge it into your main branch (or indeed any other branch). Merging will be covered in the {ref}`rr-vcs-git-merge` subchapter.
+Git Zweige sind sehr wertvoll, wenn man sich mit diesen Fragen auseinandersetzt. Für jedes Git-Projekt haben Sie standardmäßig einen Zweig namens 'main', in dem alle Commits protokolliert werden. Die Verzweigungsfunktion von Git ermöglicht es uns, eine Kopie eines Projekts zu erstellen, an dem wir arbeiten können und weiterhin Commits zu machen, ohne sie sofort in den Hauptzweig zu integrieren. In der Zwischenzeit kann man weiterhin Commits für den Hauptzweig machen, der von den Änderungen an anderen Zweigen unberührt bleibt. Sobald du zufrieden bist mit allem, was du an einem Zweig arbeitest, Sie können es in Ihren Hauptzweig (oder sogar in irgendeinem anderen Zweig) zusammenführen. Zusammenführung wird im Unterkapitel {ref}`rrr-vcs-git-merge` behandelt.
 
-If you test a feature on a branch that does not work out, you can delete or abandon it (for example, Feature B in the diagram below) rather than spending time unpicking your changes if you were doing all your work on the main branch. You can have as many branches off of branches as you desire (for example, Feature A-1).
+Wenn Sie eine Funktion auf einem Zweig testen, der nicht funktioniert, können Sie sie löschen oder aufgeben (zum Beispiel Feature B im Diagramm unten) anstatt Zeit für die Auswahl der Änderungen zu verbringen, wenn Sie all Ihre Arbeit am Hauptzweig erledigen. Sie können so viele Zweige aus den Zweigen haben, wie Sie möchten (z. B. Feature A-1).
 
-Using branches keeps working code safe, particularly in collaborations. Each contributor can have their own branch or branches which are only merged into the main project when they are ready.
+Die Verwendung von Zweigen hält funktionierenden Code sicher, insbesondere in Kooperationen. Jeder Mitwirkende kann seinen eigenen Zweig oder Zweigstellen haben, die nur dann in das Hauptprojekt integriert werden, wenn er bereit ist.
 
 ```{figure} ../../figures/sub-branch.png
 ---
-name: sub-branch
-alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. Feature A and B are branches of the main branch, while Feature A-1 is a branch made from Feature A.
+Name: Unterzweig
+alt: Eine Illustration des Zweigs in Git. Es gibt vier Zweige mit dem Namen main, Feature A, Feature B und Feature A-1. Feature A und B sind Zweige der Hauptbranche, während Feature A-1 ist ein Zweig aus Feature A.
 ---
-An illustration of branching in Git
+Eine Abbildung des Verzweigens in Git
 ```
 
-You can create a branch and switch to it using:
+Sie können einen Zweig erstellen und zu ihm wechseln:
 ```
 git checkout -b name_of_your_new_branch
 ```
 
-To change between branches, use the following command:
+Um zwischen den Zweigen zu wechseln, verwenden Sie den folgenden Befehl:
 ```
-git checkout name_of_the_branch
+git checkout name_of_the_Branch
 ```
 
-You must commit any work you have in progress before you can to switch to another branch.
+Du musst alle laufenden Arbeiten übertragen, bevor du zu einem anderen Zweig wechseln kannst.
 
-You can see all branches of your project using:
-
-```
-git branch
-```
-This gives the output as a list with an asterisk next to the branch you are on. You can also use `git status` if you have forgotten which branch you are on.
-
-If you decide to get rid of a branch you can delete it with:
+Sie können alle Zweige Ihres Projekts sehen unter Verwendung von:
 
 ```
-git branch -D name_of_the_branch
+git Branch
+```
+Dies gibt die Ausgabe als eine Liste mit einem Stern neben dem Zweig, auf dem Sie sich befinden. Sie können auch `Git Status` verwenden, wenn Sie vergessen haben, in welchem Zweig Sie sind.
+
+Wenn du dich entschließst, einen Branch loszuwerden, kannst du ihn löschen mit:
+
+```
+git Branch -D name_of_the_Branch
 ```
 (rr-vcs-branches-practice)=
-## Good practice
+## Gute Praxis
 
-Branches should be used to **keep the main branch clean**. That is, the main should only contain work which is complete, tested, and rightfully belongs in the main version of the project. Similarly, you should try to keep individual branches as clean as possible by **only adding one new feature per branch**. This is because if you are working on several features, some may be finished and ready to merge into main while others are still under development. Keeping your branches clean means only making changes related to the feature on the feature's branch. Give your branches **sensible names**, "new_feature" is all well and good until you start developing a newer feature on another branch.
+Zweige sollten verwendet werden, um **den Hauptzweig sauber zu halten**. Das heißt, der Hauptteil sollte nur Arbeiten enthalten, die vollständig, getestet und rechtmäßig in die Hauptversion des Projekts gehören. Ebenso sollten Sie versuchen, einzelne Zweige so sauber wie möglich zu halten, indem **nur eine neue Funktion pro Zweig** hinzufügt. Dies liegt daran, wenn Sie an mehreren Funktionen arbeiten, Einige können fertig und bereit sein, sich in main einzufügen, während andere noch in Entwicklung sind. Ihre Zweige sauber zu halten bedeutet, nur Änderungen an der Funktion des Zweiges vorzunehmen. Geben Sie Ihren Branches **vernünftige Namen**, "new_feature" ist schön und gut, bis Sie mit der Entwicklung einer neueren Funktion auf einem anderen Branch beginnen.
 
-## Interactive tutorial
+## Interaktives Tutorial
 
-[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.
+[Lerne Git Branching](https://learngitbranching.js.org/) ist ein Projekt, um eine interaktive Art Git zu lernen. Wenn du durch ihre Tutorials gehst, wirst du viel Erfahrung mit den am häufigsten verwendeten Git Befehlen und Branchenmanipulationstechniken haben.

@@ -1,13 +1,13 @@
-"""A helper script to "clean up" all of your generated markdown and HTML files."""
-import shutil as sh
-from pathlib import Path
+"""Un script d'aide pour "nettoyer" tous vos fichiers HTML et markdown générés."""
+importez shutil en tant que sh
+depuis le chemin d'importation de pathlib
 
 path_root = Path(__file__).parent.parent
 
-paths = [path_root.joinpath('_site'),
+path = [path_root.joinpath('_site'),
          path_root.joinpath('_build')]
-for path in paths:
-    print(f'Removing {path}...')
+pour le chemin dans les chemins :
+    print(f'Suppression de {path}...')
     sh.rmtree(path, ignore_errors=True)
 
-print('Done!')
+print('Terminé !')

@@ -1,28 +1,28 @@
 #! /bin/bash
-# Copy the latest contributors.md file content to afterword
-# this will publish the contributors file online in The Turing Way book
+# Kopieren Sie den neuesten contributors.md Dateiinhalt in das Nachwort
+# Dies veröffentlicht die Beitragende Datei online im The Turing Way Buch
 
-all_contributors='../../README.md' # Path to the main README file of The Turing Way
+all_contributors='../../README.md' # Pfad zur Hauptdatei von The Turing Way
 contributor_highlights='../../contributors.md'
 collaborating_projects='../../collaborating_projects.md'
 contributors_record='afterword/contributors-record.md'
 
-# Copy everything from the contributors highlight
+# Kopiere alles von den Beitragenden hervorheben
 echo '(contributors-record-highlights)=' > $contributors_record
-cat $contributor_highlights >> $contributors_record
+Katze $contributor_highlights >> $contributors_record
 
-# # Get linenumber where all contributors list starts
+# # Lade Linenumber ab, wo alle Mitwirkenden Liste beginnt
 echo '\n(contributors-record-all)=' >> $contributors_record
-echo '\n# All Contributors\n' >> $contributors_record
-echo '\n✨Using [all-contributors](https://allcontributors.org/) specification, _The Turing Way_ Recognises all contributors, not just the ones who push code. ✨' >> $contributors_record
-line_num=$(grep -n '## Contributors' $all_contributors | cut -d: -f1)
+echo '\n# Alle Mitwirkenden\n' >> $contributors_record
+echo '\n✨Benutze [all-contributors](https://allcontributors.org/) Spezifikation, _The Turing Way_ erkennt alle Mitwirkenden und nicht nur diejenigen, die Code schieben. ✨' >> $contributors_record
+line_num=$(grep -n '## Mitwirkende' $all_contributors | cut -d: -f1)
 echo '\n(contributors-record-contributors)=' >> $contributors_record
 
-tail -n +"$line_num" "$all_contributors" | while read line;
-do
+tail -n +"$line_num" "$all_contributors" | beim Lesen der Zeile;
+machen
   echo $line >> $contributors_record
-done
+fertig
 
-# Copy everything from the collaborating projects files
-echo '\n(contributors-record-collaborators)=' >> $contributors_record
-cat $collaborating_projects >> $contributors_record
+# Kopieren Sie alles aus den kollaborierenden Projektdateien
+echo '\n(Mitwirkende Rekord-Mitarbeiter)=' >> $contributors_record
+Katze $collaborating_projects >> $contributors_record

@@ -1,81 +1,81 @@
 (rr-vcs-git-commit)=
-# The `git commit` Command
+# Das `Git Command`
 
-Every time you 'add' changes (new files or existing files with some changes) and 'commit' those in your Git repository, you create a version of your project that is stored in your project history and can be accessed any time.
+Jedes Mal, wenn Sie Änderungen "hinzufügen" (neue Dateien oder existierende Dateien mit einigen Änderungen) und "commit" die in Ihrem Git-Repository enthalten sind, Sie erstellen eine Version Ihres Projekts, die in Ihrem Projektverlauf gespeichert ist und jederzeit abgerufen werden kann.
 
-To commit changes with a meaning statement about changes made in a version, use `git commit` with a `-m` (m for message) flag:
-
-```
-git commit -m 'helpful statement about the change here'
-```
-
-You can see a log of your previous commits using
+Änderungen mit einer Bedeutungsanweisung über Änderungen in einer Version übertragen `git commit` mit einem `-m` (m für Nachricht) Flag:
 
 ```
-git log
+git commit -m 'hilfreiche Erklärung über die Änderung hier'
 ```
 
-In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. Here is an example of a commit in the Git log: The SHA is in the very first line, and apart from this SHA, the log also contains information on the date, time, and author of the change as well as the commit message ("minor typo fix").
+Sie können ein Protokoll Ihrer vorherigen Commits mit
 
 ```
-commit 0346c937d0c451f6c622c5800a46f9e9e1c2b035
-Author: Malvika Sharan <some@email.com>
-Date:   Wed May 6 18:22:40 2020 +0100
+git Log
+```
+
+Im Log-Bericht auf Ihrem Terminal, werden Sie sehen, dass jede Version automatisch mit einer eindeutigen Zeichenkette von Zahlen und Buchstaben markiert wird, die SHA genannt wird. Sie können verschiedene Versionen anhand der entsprechenden SHA identifizieren, darauf zugreifen und vergleichen. Hier ist ein Beispiel für einen Commit im Git-Log: Die SHA befindet sich in der allerersten Zeile, und abgesehen von dieser SHA, das log enthält auch Informationen zum Datum, zur Zeit und zum Autor der Änderung sowie die Commit-Nachricht ("minor typo fix").
+
+```
+committet 0346c937d0c451f6c622c5800a46f9e9e1c2b035
+Autor: Malvika Sharan <some@email.com>
+Datum: Mi 6. Mai 18:22:40 2020 +0100
 
     minor typo fix
 
 ```
 
 (rr-vcs-commit-messages)=
-## More on the Commit Messages
+## Mehr zu den Commit-Nachrichten
 
-As you work on your project, you will make more and more commits. Without any other information, it can be hard to remember which version of your project is in which. Storing past versions is useless if you can not understand them, and figuring out what they contain by inspecting the code is frustrating and takes valuable time.
+Wenn Sie an Ihrem Projekt arbeiten, werden Sie immer mehr Verpflichtungen eingehen. Ohne weitere Informationen kann es schwierig sein, sich daran zu erinnern, in welcher Version Ihres Projekts sich befindet. Die Speicherung vergangener Versionen ist nutzlos, wenn Sie sie nicht verstehen können und herauszufinden, was sie durch die Überprüfung des Codes enthalten, ist frustrierend und dauert wertvolle Zeit.
 
-When you commit, you have the chance to write a commit message describing what the commit is and what it does, and you should always, *always,* **_always_** do so. A commit message gets attached to the commit, so if you look back at it (for example, via `git log`), it will show up. Creating insightful and descriptive commit messages is one of the best things you can do to get the most out of version control. It lets people (and your future self when you have long since forgotten what you were doing and why) quickly understand what updates a commit contains without having to carefully read code and waste time figuring it out. Good commit messages improve your code quality by drastically reducing wrong assumptions by people on why certain changes were made.
+Wenn du überträgst, hast du die Möglichkeit, eine Commit-Nachricht zu schreiben, die beschreibt, was der Commit ist und was er macht, und Sie sollten immer, *immer,* **_immer_** tun. Eine Commit-Nachricht wird dem Commit angehängt, also wenn du sie zurücksiehst (zum Beispiel über `git log`), wird es angezeigt. Das Erstellen von aufschlussreichen und beschreibenden Commit-Nachrichten ist eine der besten Dinge, die Sie tun können, um das Beste aus der Versionskontrolle herauszuholen. Es ermöglicht Leuten (und ihr zukünftiges Selbst, wenn Sie längst vergessen haben, was Sie getan haben und warum) schnell zu verstehen, welche Aktualisierungen ein Commit enthält, ohne sorgfältig Code lesen zu müssen und Zeit damit vergeuden zu müssen. Gute Commit-Nachrichten verbessern Ihre Code-Qualität, indem sie falsche Annahmen von Leuten drastisch reduzieren, warum bestimmte Änderungen vorgenommen wurden.
 
-When you commit via `git commit` without the `-m` or `--message` option, a field appears (either within the terminal or in a text editor) where a commit message can be written. You can write a meaningful statement and save (and close if writing the message via text editor). You can set your preferred editor as the default by running a statement like this:
+Wenn Sie per `git commit` ohne die `-m` oder `--message` Option übertragen, ein Feld erscheint (entweder innerhalb des Terminals oder im Texteditor), in dem eine Commit-Nachricht geschrieben werden kann. Sie können eine aussagekräftige Anweisung schreiben und speichern (und schließen, wenn Sie die Nachricht über den Texteditor schreiben). Sie können Ihren bevorzugten Editor als Standard einstellen, indem Sie eine Anweisung wie folgt ausführen:
 
 ```
 git config --global core.editor "your_preferred_editor"
 ```
 
-To avoid writing this commit message in an editor, you can use the command `git commit -m "your message here"`, as discussed earlier.
+Um zu vermeiden, dass diese Commit-Nachricht in einem Editor geschrieben wird, Sie können den Befehl `git commit -m "Ihre Nachricht hier" verwenden`, wie zuvor diskutiert.
 
 (rr-vcs-commit-messages-practice)=
-### Good practice
+### Gute Praxis
 
-The number one rule is: **make it meaningful**. A commit message like "Fixed a bug" leaves it entirely up to the person to understand what that means (again, this person may very well be you a few months in the future when you have forgotten what you were doing). This can end up wasting your or others time figuring out what the bug was, what changes were actually made, and how a bug was fixed. As such, a good commit message should *explain what you did, why you did it, and what is impacted by the changes*. As with comments, you should describe what the code is "doing" rather than the code itself. For example, it is not obvious what "Change N_sim to 10" actually does, but "Change number of simulations run by the program to 10" is clear.
+Die Regel Nummer eins ist: **aussagekräftig machen**. Eine Commit-Nachricht wie "Bug behoben überlassen" überlässt es der Person, zu verstehen, was das bedeutet (nochmals, Diese Person kann sehr gut sein, Sie ein paar Monate in der Zukunft, wenn Sie vergessen haben, was Sie getan haben). Dies kann dazu führen, dass du deine oder andere Zeit vergeudet hast, um herauszufinden, was der Fehler war welche Änderungen tatsächlich vorgenommen wurden und wie ein Fehler behoben wurde. Eine gute Commit-Nachricht sollte *erklären, was Sie getan haben, warum Sie es getan haben und was die Änderungen* beeinflussen. Wie bei Kommentaren, sollten Sie beschreiben, was der Code ist "machen" statt der Code selbst. Zum Beispiel ist nicht offensichtlich, was "Change N_sim to 10" tatsächlich tut, Aber "Ändern Sie die Anzahl der Simulationen, die vom Programm auf 10 ausgeführt werden" ist klar.
 
-**Summarise the changes your commit contains**. This should be written in the first line (in 50 characters maximum), then leave a blank line before you continue with the description or body of the message. The first line is the shortened version that appears as a summary when you use the command:
-
-```
-git log
-```
-
-This makes it much easier to quickly search through a large number of commits. It is also a good practice to **use the imperative present tense** in these messages. For example, instead of "I added tests for" or "Adding tests for", use "Add tests for".
-
-Here is a good example of a commit message structure:
+**Zusammenfassen Sie die Änderungen, die Ihr Commit enthält**. Dies sollte in der ersten Zeile geschrieben werden (maximal 50 Zeichen), lassen Sie dann eine Leerzeile, bevor Sie mit der Beschreibung oder dem Inhalt der Nachricht fortfahren. Die erste Zeile ist die gekürzte Version, die als Zusammenfassung erscheint, wenn Sie den Befehl verwenden:
 
 ```
-Short (50 chars. or less) summary of changes
+git Log
+```
 
-More detailed explanatory text, if necessary. Wrap it to
-about 72 characters or so. In some contexts, the first
-line is treated as the subject of an email and the rest of
-the text as the body. The blank line separating the
-summary from the body is critical (unless you omit the body
-entirely); tools like rebase can get confused if you run
-the two together.
+Dies macht es viel einfacher, schnell durch eine große Anzahl von Commits zu suchen. Es ist auch eine gute Praxis, **die zwingend vorhandene Spannung** in diesen Nachrichten zu verwenden. Anstelle von "Ich habe Tests für " oder "Hinzufügen von Tests für" verwenden Sie "Hinzufügen von Tests für".
 
-Further paragraphs come after blank lines.
+Hier ist ein gutes Beispiel für eine Commit-Nachrichten-Struktur:
 
-  - Bullet points are okay, too
+```
+Kurz (50 Zeichen. oder weniger) Zusammenfassung der Änderungen
 
-  - Typically, a hyphen or asterisk is used for the bullet,
-    preceded by a single space, with blank lines in
-    between, but conventions vary here
+detaillierterer Erklärungstext, falls nötig. Umwickeln auf
+etwa 72 Zeichen. In einigen Kontexten wird die erste
+Zeile als Betreff einer E-Mail und der Rest von
+als Text behandelt. Die leere Zeile, die die
+-Zusammenfassung vom Körper trennt, ist kritisch (es sei denn, Sie lassen den Körper
+gänzlich); -Werkzeuge wie rebase können verwirrt werden, wenn Sie
+die beiden zusammen ausführen.
+
+Weitere Absätze folgen leeren Zeilen.
+
+  - Kugelpunkte sind in Ordnung, auch
+
+  - Normalerweise wird ein Bindestrich oder Sternchen für die Kugel verwendet,
+    wurde einem einzigen Leerzeichen vorausgegangen, mit Leerzeilen in
+    zwischen, aber die Konventionen variieren hier
 ```
 (rr-vcs-commit-summary)=
-## Git commit: Summary
+## Git Commit: Zusammenfassung
 
-By committing your changes throughout the development of your project in meaningful units with descriptive and clear commit messages, you can create an easily understandable history. This will help you and others to understand the progress of your work. Furthermore, as the next section will demonstrate, it will also make it easy to view past versions of your history or revert changes you have made.
+Indem Sie Ihre Änderungen während der gesamten Entwicklung Ihres Projekts in aussagekräftigen Einheiten mit beschreibenden und klaren Commit-Mitteilungen vornehmen, Sie können einen leicht verständlichen Verlauf erstellen. Dies wird Ihnen und anderen helfen, den Fortschritt Ihrer Arbeit zu verstehen. Darüber hinaus wird, wie der nächste Abschnitt zeigt, es wird auch die Ansicht vergangener Versionen Ihres Verlaufs erleichtern oder Änderungen rückgängig machen.

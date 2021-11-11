@@ -1,76 +1,76 @@
 (rr-vcs-git-compare)=
-# Retrieving and Comparing Versions
+# Récupération et comparaison des versions
 
-(rr-vcs-versions-retrieving)=
-## Retrieving Past Versions
+(rr-vcs-versions-récupération)=
+## Récupération des versions passées
 
-To cancel your latest commit (revert to the previous version), run the following command:
+Pour annuler votre dernier commit (revenir à la version précédente), exécutez la commande suivante :
 ```
-git revert HEAD
-```
-
-This command creates a new commit that reverts the changes made in the last version. If you want to retrieve a version from weeks or months ago, start by using `git log` to find the SHA of the version you want to retrieve. To reset your entire project to this version run the following commands:
-
-```
-git checkout SHA_of_the_version
+Git annuler la HEAD
 ```
 
-If you want the old version of a single file and not the previous version of the entire project, you can do so by using the following command:
+Cette commande crée un nouveau commit qui annule les changements effectués dans la dernière version. Si vous voulez récupérer une version de il y a des semaines ou des mois, commencez par utiliser `git log` pour trouver la SHA de la version que vous voulez récupérer. Pour réinitialiser l'ensemble de votre projet à cette version, exécutez les commandes suivantes :
+
+```
+Git checkout SHA_of_the_version
+```
+
+Si vous voulez une ancienne version d'un seul fichier et non la version précédente de l'ensemble du projet, vous pouvez le faire en utilisant la commande suivante :
 
  ```
- git checkout SHA_of_the_version -- your_file_name
+ format@@0 git checkout SHA_of_the_version -- your_file_name
  ```
 
-(rr-vcs-versions-retrieving-practice)=
-### Good Practice
+(rr-vcs-versions-récupération-pratique)=
+### Bonnes pratiques
 
-Commits should be 'atomic', meaning that **they should do one simple thing and they should do it completely**. For example, an 'atomic' commit could be adding a new function or renaming a variable. If a lot of different changes to your project are all committed together, it can be hard to troubleshoot if any error appears in that version. Furthermore, undoing the whole commit may throw away valid and useful work.
+Les commits devraient être 'atomiques', ce qui signifie que **ils devraient faire une chose simple et qu'ils devraient le faire complètement**. Par exemple, un commit « atomic » pourrait être l'ajout d'une nouvelle fonction ou le renommage d'une variable. Si beaucoup de changements différents à votre projet sont tous engagés ensemble, il peut être difficile de résoudre un problème si une erreur apparaît dans cette version. En outre, l'annulation de l'ensemble de la livraison peut perdre un travail valable et utile.
 
-It is good practice to **specify the files to be committed**, that is, adding files to the staging area by name (`git add your_file_name`) rather than adding everything (`git add .`). This prevents you from unintentionally bundling different changes together. For example, if you have made a change to file A while primarily working on file B, you may have forgotten this when you go to commit. With `git add .`, file A would be brought along for the ride. If there are several *unrelated* changes that should not be added together in a *single* file, `git add -p your_file_name` will let you interactively chose which changes to add. That said, **you do not necessarily need to do per-file commits** when working on multiple files, but for one single problem. For example, if we add a figure to this chapter here, choosing one to catch the attention of someone skimming through:
+Il est de bonne pratique de **spécifier les fichiers à valider**, c'est-à-dire ajouter des fichiers à la zone de staging par nom (`git add your_file_name`) plutôt que d'ajouter tout (`git add .`). Cela vous empêche de regrouper involontairement différents changements. Par exemple, si vous avez modifié le fichier A pendant que vous travaillez principalement sur le fichier B, vous avez peut-être oublié cela lorsque vous allez à la livraison. Avec `git add .`, le fichier A serait emmené pour la course. S'il y a plusieurs changements *non liés* qui ne devraient pas être ajoutés ensemble dans un fichier *unique* `git add -p your_file_name` vous permettra de choisir de façon interactive les changements à ajouter. Cela dit, **vous n'avez pas nécessairement besoin de faire des commits par fichier** lorsque vous travaillez sur plusieurs fichiers, mais pour un seul problème. Par exemple, si nous ajoutons un chiffre à ce chapitre ici, en choisissant un pour attirer l'attention de quelqu'un à travers :
 
 ```{figure} ../../figures/flipped-taj-mahal.png
 ---
-name: flipped-taj-mahal
-alt: A flipped photograph of the Taj Mahal to grab the reader's attention.
+nom : flipped-taj-mahal
+alt : Une photographie retournée du Taj Mahal pour attirer l'attention du lecteur.
 ---
-Flipped Taj Mahal
+a renversé Taj Mahal
 ```
 
-two files are changed:
+deux fichiers ont été modifiés :
 
-1. First, the figure file is added in the project repository.
-2. Then, a line is added in this file that references the figure, so it is displayed.
+1. Tout d'abord, le fichier figure est ajouté dans le dépôt du projet.
+2. Ensuite, une ligne est ajoutée dans ce fichier qui fait référence à la figure, de sorte qu'elle est affichée.
 
-So two files are affected, but "Add figure to version control chapter" is a single, *atomic* unit of work, so only one commit is necessary.
+Alors deux fichiers sont affectés, mais "Ajouter un chiffre au chapitre du contrôle de version" est un seul, *unité de travail* atomique, donc un seul commit est nécessaire.
 
-Finally, do not commit anything that is regenerated from other files committed in a version (unless it is something that would take hours to regenerate). Generated files, such as scripts, clutter up your repository and may contain features such as timestamps that can cause annoying file conflicts (see {ref}`rr-vcs-git-merge`). You can instruct Git to ignore certain files by creating a file called `.gitignore` and including names of the file that you do not need to store in your Git repository. For example, configuration files that might change from environment to environment should be ignored.
+Enfin, ne livrez rien qui soit régénéré à partir d'autres fichiers livrés dans une version (à moins que ce ne soit quelque chose qui prendrait des heures à se régénérer). Fichiers générés, tels que les scripts, encombrer votre dépôt et peut contenir des fonctionnalités telles que des horodatages qui peuvent causer des conflits de fichiers ennuyeux (voir {ref}`rr-vcs-git-merge`). Vous pouvez demander à Git d'ignorer certains fichiers en créant un fichier appelé `. itignore` et y compris les noms du fichier que vous n'avez pas besoin de stocker dans votre dépôt Git. Par exemple, les fichiers de configuration qui peuvent passer de l'environnement à l'environnement doivent être ignorés.
 
-(rr-vcs-versions-comparing)=
-## Comparing Versions
+(comparaison-rr-vcs-versions-fr)=
+## Comparaison des versions
 
-At some point, you will likely need/want to compare versions of a project, for example, to see what version was used to generate a particular result.
+À un certain moment, vous aurez probablement besoin/envie de comparer les versions d'un projet, par exemple, pour voir quelle version a été utilisée pour générer un résultat particulier.
 
-To address this issue, use the `git diff` function, that takes two input data sets and outputs the changes between them.
+Pour résoudre ce problème, utilisez la fonction `git diff` qui prend deux jeux de données d'entrée et génère les changements entre eux.
 
-`git diff` is a multi-use function that runs on Git data sources such as commits, branches, files and more. By default, `git diff` will show you any uncommitted changes since the last commit. If you want to compare two specific things the syntax is:
-
-```
-git diff thing_a thing_b
-```
-
-For example, if you want to compare how a file has changed between two commits, use `git log` to get the SHAs of those commits and run:
+`git diff` est une fonction multi-usages qui s'exécute sur les sources de données Git telles que les commits, les branches, les fichiers et plus encore. Par défaut, `git diff` vous montrera toutes les modifications non validées depuis le dernier commit. Si vous voulez comparer deux choses spécifiques, la syntaxe est :
 
 ```
-git diff SHA_a:your_file_name SHA_b:your_file_name
+format@@0 git diff thing_a thing_b
 ```
 
-Or if you wanted to compare two branches, it would be:
+Par exemple, si vous voulez comparer comment un fichier a changé entre deux commits, utiliser `git log` pour obtenir les SHAs de ces commits et exécuter :
 
 ```
-git diff branch_name other_branch_name
+format@@0 git diff SHA_a:your_file_name SHA_b:your_file_name
 ```
 
-(rr-vcs-versions-comparing-practice)=
-### Good practice
+Ou si vous vouliez comparer deux branches, ce serait :
 
-With a little familiarity, `git diff` becomes an extremely powerful tool you can use to track what files have changed and exactly what those changes are. This is extremely valuable for unpicking bugs and comparing work done by different people. Be careful to **understand what exactly is being compared** and, where possible, **only compare the relevant files** for what you are interested in to avoid large amounts of extraneous information.
+```
+git diff branche_name other_branch_name
+```
+
+(rr-vcs-versions-comparaison-pratique)=
+### Bonne pratique
+
+Avec un peu de familiarité, `git diff` devient un outil extrêmement puissant que vous pouvez utiliser pour suivre quels fichiers ont changé et quels sont exactement ces changements. Ceci est extrêmement précieux pour désélectionner les bogues et comparer le travail effectué par différentes personnes. Faites attention à **comprendre ce qui est exactement comparé** et, dans la mesure du possible, **ne comparer que les fichiers pertinents** pour ce qui vous intéresse pour éviter de grandes quantités d'informations externes.

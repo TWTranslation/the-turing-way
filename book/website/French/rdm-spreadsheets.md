@@ -1,148 +1,148 @@
-(rr-rdm-spreadsheets)=
-# Data Organisation in Spreadsheets
+(feuilles de calcul rr-rdm)=
+# Organisation des données dans les feuilles de calcul
 
-Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used to collect, store, manipulate, analyse, and share research data. Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans. However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow. There is a collection of [horror-stories](http://www.eusprig.org/horror-stories.htm) that tells how the use of spreadsheets can ruin analysis-based studies due to unexpected behaviour of the spreadsheet or error-prone editing processes. Some of these mishaps are not unique to spreadsheets, but many, such as [this](https://doi.org/10.1186/s13059-016-1044-7) and [this](https://doi.org/10.1186/1471-2105-5-80), are.
+Feuilles de calcul, comme les fichiers Microsoft Excel, les feuilles Google, et leur alternative Open Source [(par exemple) LibreOffice](https://www.libreoffice.org), sont couramment utilisés pour collecter, stocker, manipuler, analyser et partager des données de recherche. Les feuilles de calcul sont des outils pratiques et faciles à utiliser pour organiser l'information dans un formulaire facile à écrire et facile à lire pour les humains. Cependant, il faut les utiliser avec prudence, car l'utilisation d'une feuille de calcul inappropriée est une cause majeure d'erreurs dans le flux de travail d'analyse des données. Il y a une collection de [horror-stories](http://www.eusprig.org/horror-stories.htm) qui raconte comment l'utilisation de feuilles de calcul peut ruiner des études basées sur l'analyse en raison du comportement inattendu de la feuille de calcul ou des processus d'édition sujets à des erreurs. Certaines de ces erreurs ne sont pas uniques aux feuilles de calcul, mais plusieurs, telles que [ceci](https://doi.org/10.1186/s13059-016-1044-7) et [ceci](https://doi.org/10.1186/1471-2105-5-80), sont.
 
-Fortunately, most problems can be avoided with the following recommendations:
-- Use spreadsheet in a text-only format (.csv or .tsv),
-- Create tidy spreadsheets,
-- Make spreadsheets consistent (with each other) and implement rules for data entries, and
-- Avoid manipulating and analysing data in spreadsheet software (this includes copy-paste).
+Heureusement, la plupart des problèmes peuvent être évités avec les recommandations suivantes :
+- Utiliser la feuille de calcul dans un format texte uniquement (.csv ou .tsv),
+- Créer des feuilles de calcul bien ajustées,
+- Rendre les feuilles de calcul cohérentes les unes avec les autres et implémenter les règles pour les entrées de données, et
+- Évitez de manipuler et d'analyser les données dans les feuilles de calcul (incluant le copier-coller).
 
-Spreadsheets are a powerful tool only if the dataset is collected and organised in specific formats that are usable for both the computers and researchers.
+Les feuilles de calcul ne sont un outil puissant que si le jeu de données est collecté et organisé dans des formats spécifiques utilisables à la fois pour les ordinateurs et les chercheurs.
 
-(rr-rdm-spreadsheets-nondata)=
-## 1. Avoid Non-Data Content
+(rr-rdm-tabadsheets-nondata)=
+## 1. Éviter le contenu des non-données
 
-Spreadsheets are used for organising data in a tabular form. The subject, the object and the relationship between them are transformed into rows, cells and columns, respectively. For example, the subject: `experiment`, relationship: `was performed on the date`, and the object: `2020-06-06` gives one row for each experiment, one column for `date of experiment`, and the value `2020-06-06` in the cell. Unfortunately, spreadsheet programs allow you to add other kinds of contents to this, like color to specific cells. While it may help the researchers at some point, one needs to remember that this kind of **cell modification should not be considered as data**, primarily because they cannot be exported to other software.
+Les feuilles de calcul sont utilisées pour organiser les données sous une forme tabulaire. Le sujet, l'objet et la relation entre eux sont transformés en lignes, cellules et colonnes, respectivement. Par exemple, le sujet : `expérience`, relation : `a été effectuée à la date`, et l'objet : `2020-06-06` donne une ligne pour chaque expérience, une colonne pour `date d'expérimentation`, et la valeur `2020-06-06` dans la cellule. Malheureusement, les programmes de feuilles de calcul vous permettent d'ajouter d'autres types de contenu à cela, comme la couleur à certaines cellules. Même si cela peut aider les chercheurs à un certain moment, il faut se rappeler que ce type de **modification de cellule ne doit pas être considéré comme des données**, principalement parce qu'ils ne peuvent pas être exportés vers d'autres logiciels.
 
-As a simple rule, what can be exported in a text-only format, comma-separated values (CSV), or tab-separated values (TSV), can be considered as the data. Other functions should be avoided when using these programs for research data. This includes:
-- changing font, color or borders,
-- using functions,
-- merging cells (this one is particularly problematic),
-- using specific cell formats (especially dates, see below).
+En règle simple, ce qui peut être exporté dans un format texte uniquement, des valeurs séparées par des virgules (CSV), ou des valeurs séparées par des tabulations (TSV), peut être considéré comme des données. D'autres fonctions devraient être évitées lors de l'utilisation de ces programmes pour les données de recherche. Cela comprend :
+- changement de police, de couleur ou de bordure,
+- en utilisant des fonctions,
+- fusion des cellules (celle-ci est particulièrement problématique),
+- en utilisant des formats de cellules spécifiques (surtout les dates, voir ci-dessous).
 
-As a test for your spreadsheet compatibility with reproducible research, export your data from the spreadsheet to the CSV format and reopen it. If you can still get all the information that you stored in your sheet, then your data is fine.
-
-```
-Tip: If you want to use color to help with a rapid highlight in your document, create a new column to indicate which cells are highlighted (it becomes a part of your data).
-In addition to the visual feedback, you can now also use this information to filter or sort your data and get the highlighted cells quickly.
+En tant que test pour la compatibilité de votre tableur avec la recherche reproductible, exportez vos données de la feuille de calcul au format CSV et rouvez-les. Si vous pouvez toujours obtenir toutes les informations que vous avez stockées dans votre feuille, alors vos données sont correctes.
 
 ```
-(rr-rdm-spreadsheets-format)=
-## 2. Tidy Format For Spreadsheets
+Astuce : Si vous voulez utiliser la couleur pour aider avec une mise en valeur rapide dans votre document, créer une nouvelle colonne pour indiquer quelles cellules sont surlignées (cela devient une partie de vos données).
+En plus des retours visuels, vous pouvez maintenant utiliser ces informations pour filtrer ou trier vos données et obtenir rapidement les cellules surlignées.
 
-If the spreadsheet is poorly organised, then it may be [difficult for collaborators](https://luisdva.github.io/pls-don't-do-this/) to easily {ref}`read-in and re-use <rr-rdm-fair>` your data for further analysis.
+```
+(format de feuilles de calcul rr-rdm)=
+## 2. Format de rangement pour les feuilles de calcul
 
-Indeed, a large part of the work of data scientists is to transform the data into a form that the computer can read. However, this is incredibly time-consuming when the information is split between several spreadsheets and when there are no concrete data transformation plans before the data is acquired.
+Si la feuille de calcul est mal organisée, alors il peut être [difficile pour les collaborateurs](https://luisdva.github.io/pls-don't-do-this/) de facilement {ref}`accéder et réutiliser vos données <rr-rdm-fair>` pour une analyse plus approfondie.
 
-There are very simple rules to facilitate data use, which go into the concept of [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
+En effet, une grande partie du travail des chercheurs de données est de transformer les données en une forme que l'ordinateur peut lire. Cependant, Cela prend énormément de temps quand l'information est divisée entre plusieurs feuilles de calcul et quand il n'y a pas de plans concrets de transformation de données avant que les données ne soient acquises.
 
-In short:
+Il y a des règles très simples pour faciliter l'utilisation des données, qui vont dans le concept de [**données ajustées**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). Le format de données bien ajusté permet de filtrer et de trier facilement les données dans les feuilles de calcul.
 
-- One column = one variable (no more, no less, this implies that two header names can not be identical)
-- One row = one sample
-- One cell = one information
-- **The first row is the header**
-- Header names must not include a special character (including space) or start with a number
+En bref:
+
+- Une colonne = une variable (ni plus, ni moins, cela implique que deux noms d'en-tête ne peuvent pas être identiques)
+- Une ligne = un échantillon
+- Une cellule = une information
+- **La première ligne est l'en-tête**
+- Les noms d'en-tête ne doivent pas inclure un caractère spécial (y compris l'espace) ou commencer par un nombre
 
 ```{figure} ../../figures/tidy-1.png
 ---
-name: tidy-1
-alt: The image depicts tidy data. One column represents a variable, one row represents a sample, and one cell represents a piece of information.
+name : tidy-1
+alt : L'image représente des données bien rangées. Une colonne représente une variable, une ligne représente un échantillon, et une cellule représente un morceau d'information.
 ---
-An illustration of tidy data.
+Une illustration de données de rangement.
 ```
 
-Three rules make a dataset tidy:
-1. Each variable must have its own column.
-2. Each observation must have its own row.
-3. Each value must have its own cell.
+Trois règles rendent un jeu de données rangé :
+1. Chaque variable doit avoir sa propre colonne.
+2. Chaque observation doit avoir sa propre rangée.
+3. Chaque valeur doit avoir sa propre cellule.
 
-There are data validation tools available, like https://goodtables.io, that allow you to automatically check whether your spreadsheets are tidy.
+Il y a des outils de validation de données disponibles, comme https://goodtables.io, qui vous permettent de vérifier automatiquement si vos feuilles de calcul sont bien rangées.
 
-(rr-rdm-spreadsheets-consistent)=
-## 3. Consistent Values
+(rr-rdm-tables-cohérents)=
+## 3. Valeurs cohérentes
 
-When you work with several spreadsheets or with a team during data collection, it is crucial to make sure the same information will be entered with the same term, and that the same term always conveys the same information. In the example of iris data, if some people use different terms to record information for a specific column - such as naming the column `species` instead of `Species` or using `iris setosa`, `set.` or `i.setosa` instead of `setosa` - the creation of a reproducible workflow will be more difficult, and errors may even be overlooked.  
-Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
+Lorsque vous travaillez avec plusieurs feuilles de calcul ou avec une équipe lors de la collecte de données, il est crucial de s'assurer que les mêmes informations seront saisies avec le même terme, et que le même terme communique toujours la même information. Dans l'exemple des données iris, si certaines personnes utilisent des termes différents pour enregistrer des informations pour une colonne spécifique - comme nommer la colonne `espèces` au lieu de `espèces` ou utiliser `iris setosa`, `défini.` ou `i. etosa` au lieu de `setosa` - la création d'un workflow reproductible sera plus difficile, et les erreurs peuvent même être négligées.  
+Les différences entraînent souvent des erreurs, surtout lorsque les mêmes termes peuvent signifier des choses différentes en fonction de la personne qui entre les données. Par exemple, indiquer la date comme `02-03` signifie Février le 3<sup>rd</sup> aux États-Unis, mais Mars le 2<sup>e</sup> en Europe.
 
-It is good practice to implement a `data dictionary` or a `taxonomy` of accepted terms and document the convention used in a README file. Depending on the software you use, you may be able to restrict the accepted values in specific columns. If such a taxonomy or ontology is available, using it may allow you (and others) to use the data in conjunction with other datasets. For example, you may use the generic `male` and `female` term for the sex of an animal (without capitals, and without using abbreviation), as many ontologies use these terms. Besides, you may want to use some extra tools to validate the spreadsheets before its integration in the analysis.
+Il est de bonne pratique d'implémenter un `dictionnaire de données` ou une `taxonomie` de termes acceptés et de documenter la convention utilisée dans un fichier README. Selon le logiciel que vous utilisez, vous pourriez être en mesure de restreindre les valeurs acceptées dans des colonnes spécifiques. Si une telle taxonomie ou une telle ontologie est disponible, elle peut vous permettre (et d’autres) d’utiliser les données en conjonction avec d’autres jeux de données. Par exemple, vous pouvez utiliser le terme générique `mâle` et `femelle` pour le sexe d'un animal (sans majuscules, et sans abréviation), car de nombreuses ontologies utilisent ces termes. De plus, vous pouvez utiliser des outils supplémentaires pour valider les feuilles de calcul avant leur intégration dans l'analyse.
 
-You should also have clear rules about missing data points. Using `NA`, `NULL`, or empty cells is not trivial and may have different meanings (impossible data point, not recorded, or lost data point). Imagine a researcher wants to record the time spent before seeing a pollinator land on an iris flower, and no pollinator was seen during the 10-minute experiment. Suppose the researcher reports `600` (the duration of the experiment in seconds). In that case, there will be no way to distinguish a scenario where no pollinator was seen, and one when a pollinator was seen at the end of the experiment (and you may forget that rule and treat `600` as a normal value).
+Vous devriez également avoir des règles claires concernant les points de données manquants. En utilisant `NA`, `NULL`, ou les cellules vides ne sont pas triviales et peuvent avoir des significations différentes (point de données impossible, non enregistré ou point de données perdu). Imaginez qu'un chercheur souhaite enregistrer le temps passé avant de voir une terre pollinisée sur une fleur d'iris, et aucun pollinisateur n'a été vu au cours de l'expérience de 10 minutes. Supposons que le chercheur rapporte `600` (la durée de l'expérience en secondes). Dans ce cas, il n'y aura aucun moyen de distinguer un scénario où aucun pollinisateur n'a été vu, et une fois qu'un pollinisateur a été vu à la fin de l'expérience (et vous pouvez oublier cette règle et traiter `600` comme une valeur normale).
 
-If `NA` is reported, one may interpret this value as a non-existing data point (the experiment had not been performed). An elegant solution is to have a second column stating whether a pollinator was seen during the experiment, where `TRUE`, `FALSE` and `NA` values are accepted.
+Si `NA` est signalé, on peut interpréter cette valeur comme un point de données inexistant (l'expérience n'a pas été effectuée). Une solution élégante est d'avoir une deuxième colonne indiquant si un pollinisateur a été vu pendant l'expérience, où les valeurs `TRUE`, `FALSE` et `NA` sont acceptées.
 
-Finally, you should also be aware of the default behaviour of your spreadsheet program, as it may be different for different programs, and different versions of the same program. For instance, the decimal is usually indicated with a comma in the French or German versions of Excel. In the English versions, a dot is used since the comma has no meaning (`9,000` will be translated into `9000` or `9` depending on the version you are using).
+Enfin, vous devriez également être au courant du comportement par défaut de votre programme de tableur, car il peut être différent pour différents programmes, et pour différentes versions du même programme. Par exemple, la virgule est généralement indiquée par une virgule dans les versions françaises ou allemandes d'Excel. Dans les versions anglaises, un point est utilisé car la virgule n'a aucun sens (`9, 00` sera traduit en `9000` ou `9` selon la version que vous utilisez).
 
-(rr-rdm-spreadsheets-manipulation)=
-## 4. Data Manipulation and Analysis
+(manipulation des feuilles de calcul rr-rdm)=
+## 4. Manipulation et analyse des données
 
-***Do not manipulate or analyse data in a spreadsheet program.***
+***Ne pas manipuler ou analyser les données dans une feuille de calcul.***
 
-In particular, only copy-paste from one spreadsheet to another if the process is used very rarely. It is now effortless to read and combine different spreadsheets in the analysis software, with the additional advantage that the software will return an error message if the headers do not fit.
+En particulier, seulement copier-coller d'une feuille de calcul à une autre si le processus est très rarement. Il est maintenant facile de lire et de combiner différents feuilles de calcul dans le logiciel d'analyse, avec l'avantage supplémentaire que le logiciel retournera un message d'erreur si les en-têtes ne correspondent pas.
 
-(rr-rdm-spreadsheets-tips)=
-## Other Tips
+(rr-rdm-table-conseils-conseils)=
+## Autres conseils
 
-(rr-rdm-spreadsheets-tips-time)=
-### Dealing With Time Information
+(rr-rdm-tabadsheets-tips-time)=
+### Traiter avec des informations sur le temps
 
-While dates should be written as `yyyy-mm-dd`, Excel and other software tend to transform this data into their own date formats (even during data import from a CSV file). The only 100% secure way to deal with this is to make different columns for years, months, and days and recreate the data in the software used for analysis. Time entered with `hh:mm:ss` normally works.
+Tandis que les dates doivent être écrites en tant que `aaaa-mm-jj`, Excel et d'autres logiciels ont tendance à transformer ces données en leur propre format de date (même lors de l'importation de données à partir d'un fichier CSV). La seule façon à 100% sûre de gérer cela est de faire différentes colonnes pour des années, mois et jours et recréer les données dans le logiciel utilisé pour l'analyse. Le temps entré avec `hhh:mm:ss` fonctionne normalement.
 
-(rr-rdm-spreadsheets-tips-several)=
-### Working With Several Sheets
+(rr-rdm-table-tips-plusieurs)=
+### Travailler avec plusieurs feuilles
 
-We often use several sheets for different but related data. It is a handy tool indeed, especially when one wants to share the complete dataset with colleagues.  
-On the other hand, CSV files only save one sheet at a time. Though most data analysis software have several ways to import `xlsx` files, the practical solution is to work with the `xlsx` format while making sure that the information is available in CSV format for each sheet. A better solution, especially for long term storage, is to save all sheets separately in a CSV file and zip them together. This solution also allows including extra documentation that could be in a different format (for example, a text file explaining the meaning of the headers and the chosen unit).
+Nous utilisons souvent plusieurs feuilles pour des données différentes mais liées. C'est un outil pratique en effet, surtout quand on veut partager l'ensemble des données avec ses collègues.  
+Par contre, les fichiers CSV n'enregistrent qu'une seule feuille à la fois. Bien que la plupart des logiciels d'analyse de données aient plusieurs façons d'importer des fichiers `xlsx` la solution pratique est de travailler avec le format `xlsx` tout en s'assurant que l'information est disponible au format CSV pour chaque feuille. Une meilleure solution, en particulier pour le stockage à long terme, est de sauvegarder toutes les feuilles séparément dans un fichier CSV et de les compresser ensemble. Cette solution permet également d'inclure de la documentation supplémentaire qui pourrait être dans un format différent (par exemple, un fichier texte expliquant la signification des en-têtes et de l'unité choisie).
 
-(rr-rdm-spreadsheets-tips-design)=
-### Spreadsheet Design
+(rr-rdm-tabadsheets-tips-design)=
+### Conception de la feuille de calcul
 
-Data is often collected manually, on paper. To be most efficient and avoid mistakes, it is best to collect the data in the same format as it will be digitalised. That is, one should design the computer-readable spreadsheet to be printed for data collection. This poses some design questions, especially for information that is unique to one experiment (one paper) but may change between experiments (for example, experimentalist or temperature of the room). You indeed want that information in one column, but you would like to enter it only once during data acquisition (especially on the paper version). One solution is to move these columns onto a second (non-printed) page on the spreadsheet and adjust the headers and footers to enter the information on the paper version. One needs to make sure the information is entered in the column during digitalisation.
+Les données sont souvent collectées manuellement, sur papier. Pour être le plus efficace et éviter les erreurs, il est préférable de collecter les données dans le même format que celui qui sera numérisé. Autrement dit, il faut concevoir la feuille de calcul lisible par ordinateur qui sera imprimée pour la collecte de données. Cela pose certaines questions de conception, en particulier pour les informations qui sont uniques à une expérience (un seul papier) mais qui peuvent changer entre les expériences (par exemple, expérimentaliste ou température de la pièce). Vous voulez en effet cette information dans une seule colonne, mais vous ne voudriez la saisir qu'une seule fois lors de l'acquisition de données (surtout sur la version papier). Une solution est de déplacer ces colonnes sur une seconde page (non imprimée) de la feuille de calcul et d'ajuster les en-têtes et les pieds de page pour entrer l'information sur la version papier. Il faut s'assurer que les informations sont saisies dans la colonne lors de la numérisation.
 
-The way you enter the information (that is, the way you design your headers and cell content) may be different depending on the analysis you want to perform. One should still always try to be as generic and objective as possible and think about any additional analyses one may want to perform.
+La façon dont vous saisissez les informations (c.-à-d. la façon dont vous concevez vos en-têtes et le contenu de votre cellule) peut être différente selon l'analyse que vous voulez effectuer. Il faut toujours essayer d'être aussi générique et objectif que possible et réfléchir à toute analyse supplémentaire que l'on pourrait vouloir effectuer.
 
 
-As an example, let us suppose you are interested in depicting if the percentage of flowers whose sepal length is longer than 6 mm is different in three iris species. You may be inclined to record a true or false column `is-sepal-longer-than-6cm`, but this will restrict the analysis you can perform. A better solution is to record the length of the sepal (in mm) and automatically create the categorization later.
+À titre d'exemple, supposons que vous êtes intéressé à décrire si le pourcentage de fleurs dont la longueur est supérieure à 6 mm est différente dans trois espèces d'iris. Vous pouvez être enclin à enregistrer une colonne vraie ou fausse `est sepal-longer-than-6cm`, mais cela restreindra l'analyse que vous pouvez effectuer. Une meilleure solution consiste à enregistrer la longueur du sepal (en mm) et à créer automatiquement la catégorisation plus tard.
 
-If you are using R, you would then plot what you wanted with:
+Si vous utilisez R, vous traceriez alors ce que vous vouliez avec:
 ```
-iris %>% ## the iris dataset is included in R base
-  dplyr::mutate ("is-sepal-longer-than-6cm" = ifelse(Sepal.Length >6, TRUE, FALSE)) %>% ## this create the new column
-  ggplot2::ggplot (aes (x=`is-sepal-longer-than-6cm` , fill= Species)) + ggplot2::geom_bar() ## this plots the data
+iris %>% ## le jeu de données iris est inclus dans la base R
+  dplyr::mutate ("is-sepal-longer-than-6cm" = ifelse(Sepal. longueur >6, TRUE, FALSE)) %>% ## cela crée la nouvelle colonne
+  ggplot2::ggplot (aes (x=`is-sepal-longer-than-6cm` , fill= Espèces)) + ggplot2::geom_bar() ## ce tracer les données
 ```
 
-Headers names should be chosen with care, and when it is not clear what is meant and what unit is used, you may want to add some explanation in an external document. You may also share a sample spreadsheet to a colleague to receive feedback on how understandable your sheet is.
+Les noms d'entêtes doivent être choisis avec soin, et quand il n'est pas clair ce que l'on entend et quelle unité est utilisée, vous pouvez ajouter quelques explications dans un document externe. Vous pouvez également partager un exemple de feuille de calcul à un collègue pour recevoir des commentaires sur la façon dont votre feuille de calcul est compréhensible.
 
-Another alternative is to add some explanations on top of the sheet in the first rows before the headers. By keeping human-readable information at the top of the file, one can better understand the data that starts in the header rows. This information can also help in analysing that data, making sure that the scripts ignore the explanation lines and only consider it during analysis. However, a good file with tidy columns and rows should not need extra explanation.
+Une autre alternative est d'ajouter quelques explications en haut de la feuille dans les premières lignes avant les en-têtes. En conservant des informations lisibles par l'homme en haut du fichier, on peut mieux comprendre les données qui commencent dans les lignes d'en-tête. Ces informations peuvent également aider à analyser ces données, en s'assurant que les scripts ignorent les lignes d'explication et ne les considèrent que pendant l'analyse. Cependant, un bon fichier avec des colonnes et des lignes bien ajustées ne devrait pas avoir besoin d'explications supplémentaires.
 
-As for header names, the size of the headers is not an issue for computers. However, for human readability, it is better to keep it short (up to 32 characters).
+Comme pour les noms d'en-têtes, la taille des en-têtes n'est pas un problème pour les ordinateurs. Cependant, pour la lisibilité humaine, il est préférable de le garder court (jusqu'à 32 caractères).
 
-You do not have to think about the order of the columns for the analysis, as it has no importance for data analysis software. You can, therefore, completely optimise that parameter for the data collection step.
+Vous n'avez pas à penser à l'ordre des colonnes pour l'analyse, car il n'a aucune importance pour les logiciels d'analyse de données. Vous pouvez donc optimiser complètement ce paramètre pour l'étape de collecte de données.
 
-(rr-rdm-spreadsheets-tips-versioning)=
-### Standard and Versioning
+(rr-rdm-tabadsheets-tips-versioning)=
+### Standard et Versioning
 
-A good spreadsheet design has instructive and intuitive header names, and it facilitates both data collection and analysis. Building such a spreadsheet design is difficult as it takes time, multiple iterations, and consensus. It is therefore beneficial to look for a standard spreadsheet before designing your own and to share your design openly once it is created. One should also use a version history of the spreadsheets (as they will evolve), and the analysis script should mention the version number of the spreadsheet. Documentation of the spreadsheet, its version history, and the ontologies it is linked to, can be useful for future users.
+Une bonne conception de feuille de calcul a des noms d'en-tête instructifs et intuitifs, et elle facilite à la fois la collecte et l'analyse de données. La construction d'une telle feuille de calcul est difficile car il faut du temps, de multiples itérations et un consensus. Il est donc avantageux de rechercher une feuille de calcul standard avant de concevoir le vôtre et de partager ouvertement votre design une fois qu'il est créé. On devrait également utiliser un historique de version des feuilles de calcul (comme elles vont évoluer), et le script d'analyse devrait mentionner le numéro de version de la feuille de calcul. La documentation de la feuille de calcul, son historique de versions et les ontologies auxquelles elle est liée, peuvent être utiles pour les futurs utilisateurs.
 
-(rr-rdm-spreadsheets-tips-team)=
-### Working In A Team: Wrap-up
+(rr-rdm-tabadsheets-tips-team)=
+### Travailler en équipe : Embrasement
 
-If you are working with a team on data collection, make sure:
-- Everyone uses the same software (and software version) to enter the data.
-- Everyone uses the same version of the spreadsheet template.
-- Everyone understands what each column represents, and the unit that should be used.
-- Every column has a defined standard on how to enter data in it or taxonomy of terms that one can use.
-- One person is responsible for answering putative questions during data collection.
-- Every spreadsheet is validated before entering the analysis workflow, and as soon as possible.
+Si vous travaillez avec une équipe sur la collecte de données, assurez-vous :
+- Tout le monde utilise le même logiciel (et la même version) pour entrer les données.
+- Tout le monde utilise la même version du modèle de tableur.
+- Tout le monde comprend ce que chaque colonne représente et l'unité à utiliser.
+- Chaque colonne a un standard défini sur la façon de saisir des données ou la taxonomie des termes que l'on peut utiliser.
+- Une personne est responsable de répondre à des questions putatives lors de la collecte de données.
+- Chaque feuille de calcul est validée avant d'entrer dans le flux de travail d'analyse, et dès que possible.
 
 
 (rr-rdm-spreadsheets-summary)=
 ## Summary
 
-While spreadsheets can be a very user-friendly way to collect and share data, they can also be the source of mistakes if misused. When aiming at developing a reproducible workflow for analyses, one should design the spreadsheet for both computer and human readability, and, even before starting data collection, they should consider what would make their data analysis easy. Data manipulation and analysis in spreadsheets, in particular, is best avoided as it leads to non-reproducible workflows. Using version control and making the data read-only are two additional data management practices that can prevent accidents.
+Bien que les feuilles de calcul puissent être un moyen très convivial de collecter et de partager des données, elles peuvent également être la source d'erreurs si elles sont mal utilisées. Lorsqu'il s'agit de développer un flux de travail reproductible pour les analyses, il faut concevoir la feuille de calcul pour la lisibilité de l'ordinateur et de l'être humain, et, même avant de commencer la collecte de données, ils devraient réfléchir à ce qui faciliterait leur analyse de données. Il vaut mieux éviter la manipulation et l'analyse des données dans les feuilles de calcul, en particulier, car cela conduit à des flux de travail non reproductibles. Utiliser le contrôle de version et rendre les données en lecture seule sont deux autres pratiques de gestion des données qui peuvent prévenir les accidents.
 
-Use a README [{term}`def<README>`] file and and other structure choices to explain naming conventions. It will make it clear to others what the file and header names mean, and what criteria to consider when designing an analysis workflow. If you work in a team, you should take particular care of the conventions and make sure everyone follows them.
+Utilisez un fichier README [{term}`def<README>`] et d'autres choix de structure pour expliquer les conventions de nommage. Il indiquera clairement aux autres ce que signifie le nom du fichier et des en-têtes et les critères à prendre en considération lors de la conception d'un flux de travail d'analyse. Si vous travaillez dans une équipe, vous devriez prendre soin des conventions et vous assurer que tout le monde les suit.
 
-To learn more about data organisation in spreadsheets, you may have a look at the Data Carpentry lessons for [Social Scientists](https://datacarpentry.org/spreadsheets-socialsci/) and [Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/).
+Pour en savoir plus sur l'organisation des données dans les feuilles de calcul, vous pouvez consulter les cours de menuiserie de données pour les [scientifiques sociaux](https://datacarpentry.org/spreadsheets-socialsci/) et les [écologistes](https://datacarpentry.org/spreadsheet-ecology-lesson/).

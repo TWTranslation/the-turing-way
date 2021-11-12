@@ -1,17 +1,17 @@
 (rr-testing-unittest)=
-# Unit Testing
+# 単体テスト
 
-Unit tests are responsible for testing individual elements of code in an isolated and highly targeted way. The functionality of individual functions and classes are tested on their own. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. In procedural programming, a unit may be an individual program, function or procedure. In object-oriented programming the smallest unit is typically a method. It usually has one or a few inputs and usually a single output. Any external dependencies should be replaced with stub or mock implementations to focus the test completely on the code in question.
+ユニットテストは、コードの個々の要素を分離された高度に標的化された方法でテストする責任があります。 個々の関数とクラスの機能は独自にテストされます。 目的は、ソフトウェアの各単位が設計されたように動作することを確認することです。 単位は、任意のソフトウェアの最小のテスト可能な部分です。 手続き型プログラミングでは、ユニットは個々のプログラム、関数またはプロシージャである可能性があります。 オブジェクト指向プログラミングでは、最も小さい単位は一般的にメソッドです。 通常、1つまたは2つの入力と1つの出力があります。 外部の依存関係は、テストを問題のコードに完全に集中させるためにスタブまたはモック実装に置き換える必要があります。
 
-Unit tests are essential to test the correctness of individual code components for internal consistency and correctness before they are placed in more complex contexts. The limited extent of the tests and the removal of dependencies makes it easier to hunt down the cause of any defects. It also is the best time to test a variety of inputs and code branches that might be difficult to hit later on. For example system tests are often time consuming to run and it will likely be impractical to have system tests for every possible path through a code that has more than a few conditional statements. Unit tests are smaller, faster, and so it is more practical to cover all possible cases with them.
+単体テストは、より複雑なコンテキストに配置される前に、内部の一貫性と正確性のために個々のコードコンポーネントの正確性をテストするために不可欠です。 テストの限られた範囲と依存関係の削除により、欠陥の原因を簡単に調べることができます。 また、後でヒットするのが難しいかもしれないさまざまな入力とコードブランチをテストするのに最適な時期です。 例えば、システムテストはしばしば実行に時間がかかることがあり、いくつかの条件文を持つコードを通じて可能なすべてのパスに対してシステムテストを行うことは現実的ではないでしょう。 ユニットのテストはより小さく、より速く、より実用的であるため、可能な限りすべてのケースをカバーすることができます。
 
-Often, after any smoke tests, unit tests are the first tests that are run when any changes are made.
+多くの場合、煙のテストの後、ユニットテストは変更が加えられたときに実行される最初のテストです。
 
-## Benefits of Unit Testing
+## ユニットテストの利点
 
-If a researcher makes a change to a piece of code or how it is run then how can they be sure that doing so has not broken something? They may run a few tests, but without testing every small piece of code individually how can they be certain? Unit testing gives researchers that certainty, and allows them to be confident when changing and maintaining their code.
+研究者がコードの一部に変更を加えた場合、またはそれがどのように実行された場合、どのように彼らはそうして何かを壊していないことを確認することができますか? 彼らはいくつかのテストを実行することができますが、個別にコードのすべての小さな部分をテストすることなく、彼らはどのように確認することができますか? ユニットテストは、研究者に確実性を与え、コードを変更して維持する際に自信を持てるようにします。
 
-Here's a little example. Say a researcher has a small function that does one simple thing (here only a single line for brevity). In this example this will be raising a number to the 5th power:
+例を挙げましょう 研究者が一つの簡単なことを行う小さな機能を持っているとします(ここでは短縮のための単一の行だけ)。 この例では、これは数字を5番目の出力に引き上げます。
 
 ```
 def take_fifth_power(x):
@@ -19,60 +19,60 @@ def take_fifth_power(x):
   return result
 ```
 
-The unit test for this function could look like this:
+この関数の単位テストは次のようになります:
 ```
 def test_take_fifth_power():
   assert take_fifth_power(1.5) == 7.59375
 ```
 
-So it checks that the correct result is outputted for a given input. If not the test will fail. The researcher carries on with their work. In the middle of it they decide to tidy up this function, multiplying the number five times like this is a bit crude. They change the `result = x * x * x * x * x` line to `result = x * 5`. Next time they run their unit tests, this test will fail, because they just made a mistake. Maybe they needed a coffee, maybe their finger slipped, maybe their coworker shot them in the ear with a nerf dart and distracted them, but when they were tidying up this function they should have written `result = x ** 5` *not* `result = x * 5`. The failed test will flag up the mistake and it can quickly be corrected. If a mistake like this went unobserved it could lead to serious errors in the researcher's work.
+ですから、与えられた入力に対して正しい結果が出力されることを確認します。 そうでなければテストは失敗します。 研究者は仕事を続けている。 途中でこの関数を整理することにしました。このような数字の5倍をかけるのは、少し粗いことです。 `result = x * x * x * x * x` line を `result = x * 5` に変更します。 次回ユニットテストを実行すると、このテストは失敗します。彼らは間違いを犯したからです。 Maybe they needed a coffee, maybe their finger slipped, maybe their coworker shot them in the ear with a nerf dart and distracted them, but when they were tidying up this function they should have written `result = x ** 5` *not* `result = x * 5`. 失敗したテストは間違いにフラグを立て、すぐに修正することができます。 このような間違いがないと、研究者の研究に深刻な誤りが生じる可能性があります。
 
-So unit testing leads to more reliable code, but there are other benefits too. Firstly, it makes development faster by making bugs easier to find. Larger-scale tests which test large chunks of code (while still useful) have the disadvantage that if they fail it is difficult to pinpoint the source of the bug. Because unit tests by their very definition test small pieces of code, they help developers find the cause of a bug much more quickly than higher-level tests or code with no tests at all. Unit tests also make fixing bugs faster and easier because they catch bugs early while the impact is limited to small individual units. If bugs are not detected early via unit tests then it may be a long time before they are discovered, impacting later work that built on the faulty code. This means that much more code is at risk and that fixing the bug is more time consuming.
+そのため、ユニットテストはより信頼性の高いコードにつながりますが、他にもメリットがあります。 まず、バグを見つけやすくすることで、開発が速くなります。 大きなコードの塊をテストする大規模なテスト(まだ役に立つが)は、失敗した場合、バグの原因を突き止めることが困難であるという欠点があります。 なぜなら、単位は非常に定義されたコードの小片をテストするからです。 開発者がバグの原因を見つけるのに役立ちます上級レベルのテストやコードよりも ユニットテストでは、インパクトが小さい個々のユニットに限定されている間、バグを早期に捕まえるため、バグの修正が迅速かつ容易になります。 バグが単体テストで早期に検出されない場合は、発見されるまでに時間がかかる可能性があります。 欠陥のあるコードに影響を与えています これは、より多くのコードが危険にさらされ、バグを修正するのに時間がかかることを意味します。
 
-The other major benefit of unit testing is that it strongly incentivises researchers to write modular code because modular code is far easier to write unit tests for. Modular code is code that is broken up into manageable chunks which each accomplish simple tasks. This is typically achieved by dividing the code into functions and groups of functions. In contrast a script which is just one long continuous series of lines which produces a result is highly non-modular.
+ユニットテストのもう一つの大きな利点は、モジュール式コードを書くことを研究者に強く奨励することです。なぜなら、モジュール式コードは単体テストを書くのがはるかに簡単だからです。 モジュラーコードは、管理可能なチャンクに分割されたコードで、それぞれが単純なタスクを実行します。 これは通常、コードを関数と関数のグループに分けることによって達成されます。 対照的に、結果を生成する一連の長い一連の行だけであるスクリプトは非常に非モジュールです。
 
-Modular code is much easier to reuse, too. For example, if a researcher has an individual function that does some Useful Thing and in a future project they need to do that thing again, it is trivial to copy or import the function. In contrast, if the code that does this Useful Thing is entwined with a great deal of other code in a long script it is much harder to separate it out for re-use.
+モジュラーコードも簡単に再利用できます。 例えば、 研究者が役に立つ機能を持っていて、将来のプロジェクトではもう一度それを行う必要があります。 関数をコピーしたりインポートしたりするのは些細なことです 対照的に、 この有用な Thing を実現するコードが、長いスクリプト内にたくさんの他のコードが含まれている場合、再利用のために分離するのは非常に困難です。
 
-## Unit Testing Tips
+## 単体テストのヒント
 
-- Many testing frameworks have tools specifically geared towards writing and running unit tests.
-- Isolate the development environment from the test environment.
-- Write test cases that are independent of each other. For example, if a unit A utilises the result supplied by another unit B, you should test unit A with a [test double](#Use_test_doubles_stubs_mocking_where_appropriate), rather than actually calling the unit B. If you don't do this your test failing may be due to a fault in either unit A *or* unit B, making the bug harder to trace.
-- Aim at covering all paths through a unit. Pay particular attention to loop conditions.
-- In addition to writing cases to verify the behaviour, write cases to ensure the performance of the code. For example, if a function that is supposed to add two numbers takes several minutes to run there is likely a problem.
-- If you find a defect in your code write a test that exposes it. Why? First, you will later be able to catch the defect if you do not fix it properly. Second, your test suite is now more comprehensive. Third, you will most probably be too lazy to write the test after you have already fixed the defect. Say a code has a simple function to classify people as either adults or children:
+- 多くのテストフレームワークには、単体テストの書き込みや実行に特化したツールがあります。
+- 開発環境をテスト環境から分離します。
+- 互いに独立したテストケースを作成します。 For example, if a unit A utilises the result supplied by another unit B, you should test unit A with a [test double](#Use_test_doubles_stubs_mocking_where_appropriate), rather than actually calling the unit B. If you don't do this your test failing may be due to a fault in either unit A *or* unit B, making the bug harder to trace.
+- ユニットを通してすべてのパスをカバーすることを目指してください。 ループ状態に特に注意を払う。
+- 動作を検証するためのケースを書くことに加えて、コードのパフォーマンスを確保するためにケースを書く。 例えば、2 つの数値を追加すると仮定される関数が実行に数分かかる場合、問題が発生する可能性があります。
+- コードに欠陥が見つかった場合は、それを公開するテストを書きます。 なぜでしょう？ まず、適切に修正しないと、後で欠陥を捕まえることができます。 第二に、テストスイートはより包括的になりました。 第三に、あなたはおそらくあなたがすでに欠陥を修正した後、テストを書くのに遅すぎるだろう。 たとえば、コードには大人または子供に人を分類する簡単な関数があるとします。
 
 ```
 def adult_or_child(age):
 
-  # If the age is greater or equal to 18 classify them as an adult
-  if age >= 18:
-    person_status = 'Adult'
+  # 年齢が18歳以上の場合、成人として分類する
+  年齢 >= 18:
+    person_status = '大人'
 
-  # If the person is not an adult classify them as a child
+  # 大人でない場合、それらを子として分類する
   else:
     person_status = 'Child'
 
   return person_status
 ```
 
-And say this code has a unit test like this:
+そして、このコードには次のような単位テストがあるとします。
 
 ```
 def test_adult_or_child():
 
-  # Test that an adult is correctly classified as an adult
-  assert adult_or_child(22) == 'Adult'
+  # 大人が成人として正しく分類されることをテスト
+  adult_or_child(22) == 'Adult'
 
-  # Test that an child is correctly classified as a child
-  assert adult_or_child(5) == 'Child'
+  # 子が子として正しく分類されることをテスト
+  adult_or_child(5) == 'Child'
 
   return
 ```
 
-There's a problem with this code that isn't being tested: if a negative age is supplied it will happily classify the person as a child despite negative ages not being possible. The code should throw an error in this case.
+テストされていないこのコードに問題があります: 負の年齢が与えられた場合、否定的な年齢が不可能であるにもかかわらず、その人を子供として喜んで分類します。 この場合、コードはエラーをスローする必要があります。
 
-So once the bug is fixed:
+そのため、バグが修正されると、
 ```
 def adult_or_child(age):
 
@@ -91,7 +91,7 @@ else:
 return person_status
 ```
 
-Go ahead and write a test to ensure that future changes in the code can't cause it to happen again:
+コード内の将来の変更が再び起こらないようにテストを書いてください。
 ```
 def test_adult_or_child():
 

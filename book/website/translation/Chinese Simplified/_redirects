@@ -1,0 +1,23 @@
+# 从浏览器的请求重定向到我们的服务
+
+https://the-turing-way.netlify.app https://the-turing-way.netlify.app/welcome.html 301
+https://the-turing-way.netlify.app/introduction/introduction.html https://the-turing-way.netlify.app/welcome 301
+/reducability/* /reducible-research/reducible-research 301
+/reducibility/04/resources /reducible-research/overview/resources 301
+/open_research/open_research /reducible-research/open_research 301
+/version_control/version_control /reducible-research/version-control 301
+/许可证/许可证/许可证/复发-研究/许可证301
+/collaborating_github /communication/communication 301
+/open-source-comms/* /communication/open-source-comms 301
+/credit/creduit/reducible-research/credit 301
+/rdm/rdm /reducible-research/rdm 301
+/reducible_environments/reducible_environment/reducible_research/reducible-environment 301
+/code_quality/code_quality /reducible-research/code-quality 301
+/testing/testing/reprocible-research/testing 301
+/review /review /reducible-research/review 301
+/continuous_integration/continuous_integration/reducible-research/continuous-integration 301
+/make/make /reducible-research/make 301
+/ research_compendia/research_compendia /reducible-research/research-compendia 301
+/risk_assessment/risk_assessment /reducible-research/risk assessment 301
+binderhub/binderhub/binderhube/repucible-research/binderhogue 301
+https://the-turing-way.netlify.app/reducible-research/credit.html hhttps://the-turing-way.netlify.app/communication/citable.html 301

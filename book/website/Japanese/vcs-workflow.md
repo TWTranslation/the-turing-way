@@ -1,61 +1,61 @@
 (rr-vcs-workflow)=
-# General Workflow
+# 一般的なワークフロー
 
-Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. A typical procedure for using version control is as follows:
+バージョン管理は、ファイルに加えられた変更を記録するための体系的なアプローチです。 これにより、あなたとコラボレーターは履歴を追跡し、変更内容を確認し、必要に応じて後で特定のバージョンを呼び出すことができます。 バージョン管理を使用する一般的な手順は次のとおりです。
 
-1. Create files - these may contain text, code or both.
-2. Work on these files, by changing, deleting or adding new content.
-3. Create a snapshot of the file status (also known as version) at this time.
+1. ファイルを作成する - これらはテキスト、コード、またはその両方を含むことができます。
+2. 新しいコンテンツを変更、削除、または追加して、これらのファイルを操作します。
+3. この時点でファイルステータス(バージョンとも呼ばれる)のスナップショットを作成します。
 
-This process of creating a snapshot is described differently in different version control software. For example, Git describes it as "a commit". Some systems call it "a time-point" or "a checkpoint"; and this is referred to as "saving your work" in other cases such as in [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/).
+スナップショットを作成するこのプロセスは、異なるバージョン管理ソフトウェアで異なって記述されます。 例えば、Gitはそれを「コミット」と表現しています。 システムによっては、それを「時点」または「チェックポイント」と呼ぶものもあります。 これは、 [Google ドキュメント](https://docs.google.com/) や [HackMD](http://hackmd.io/) などの他の場合では、「作業を保存」と呼ばれます。
 
-As you keep saving your work by adding changes, you make more and more snapshots. You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
+変更を追加して作業を保存し続けると、ますます多くのスナップショットが作成されます。 これらは、これらのファイルのバージョンを保存しながら、履歴を記録すると考えることができます。 誤りのために以前のバージョンのファイルに戻る必要がある場合。 以前のアップデートについて考えを変えた場合 ご希望のバージョンでファイルにアクセスしたり、プロジェクト全体を過去の状態に戻すことができます。
 
-An illustration of this is shown below.
+以下にその例を示します。
 
 ```{figure} ../../figures/main-branch.png
 ---
 name: main-branch
-alt: An illustration of a main branch
+alt: メインブランチのイラスト
 ---
-An illustration of a main branch
+メインブランチのイラスト。
 ```
 
-In many version control systems, you will be able to add a comment every time you save a new version. These comments should be clear and concise to make it easy to understand what changes were proposed and what updates were made in a version. This ensures that it is easy to find what you are looking for when you need to go back to a past version. Your collaborators will thank you, but so will future versions of yourself.
+多くのバージョン管理システムでは、新しいバージョンを保存するたびにコメントを追加できます。 これらのコメントは明確かつ簡潔に、どのような変更が提案されたか、バージョンでどのような更新が行われたかを理解しやすくする必要があります。 これは、過去のバージョンに戻る必要があるときにあなたが探しているものを見つけることが容易であることを保証します。 協力者はあなたに感謝しますが、将来のバージョンはあなた自身のものになります。
 
 (rr-vcs-workflow-branches)=
-## Non-Linear Development of Your Project with "Branches"
+## 「ブランチ」を使用したプロジェクトの非線形開発
 
-So you have your project and you want to add something new or try something out before reflecting the changes in the main project folder. To add something new, you can continue editing your files and save them with the proposed changes. Suppose you want to try something without reflecting the changes in the central repository. In that case, you can use the "branching" feature of more advanced version control systems such as Git. A branch creates a local copy of the main repository where you can work and try new changes. Any work you do on your branch will not be reflected on your main project (referred to as your main branch) so it remains secure and error-free. At the same time, you can test your ideas and troubleshoot in a local branch.
+したがって、プロジェクトがあり、新しいものを追加したり、メインのプロジェクトフォルダに変更を反映する前に何かを試してみたいです。 新しいものを追加するには、ファイルの編集を続けて、提案された変更とともに保存することができます。 中央リポジトリの変更を反映せずに何かを試してみたいとします。 その場合、Gitなどのより高度なバージョン管理システムの「ブランチ」機能を使用できます。 ブランチはメインリポジトリのローカルコピーを作成し、新しい変更を試すことができます。 ブランチで行う作業は、メインプロジェクト(メインブランチと呼ばれる)に反映されないため、安全でエラーが発生しません。 同時に、アイデアをテストしたり、ローカルのブランチでトラブルシューティングを行うこともできます。
 
-When you are happy with the new changes, you can introduce them to the main project. The merge feature in Git allows the independent lines of development in a local branch to get integrated into the main branch.
+新しい変更に満足している場合は、それらをメインプロジェクトに紹介できます。 Git のマージ機能により、ローカルブランチ内の独立した開発ラインをメインブランチに統合することができます。
 
 ```{figure} ../../figures/one-branch.png
 ---
 name: one-branch
-alt: An illustration of a development and main branch in git
+alt: git における開発とメインブランチのイラスト
 ---
-An illustration of a development and main branch in git.
+git における開発とメインブランチのイラスト。
 ```
 
-You can have more than one branch off of your main copy. If one of your branches ends up not working, you can either abandon it or delete it without impacting the main branch of your project.
+メインコピーから複数のブランチを持つことができます。 いずれかのブランチが機能しなくなった場合は、プロジェクトのメインブランチに影響を与えることなく、それを放棄または削除できます。
 
 ```{figure} ../../figures/two-branches.png
 ---
 name: two-branches
-alt: An illustration of two development branches and one main branch in git
+alt: 開発ブランチ2つと git のメインブランチ1つのイラスト
 ---
-Two development branches and one main branch in git.
+開発ブランチ2つと git のメインブランチ1つ。
 ```
 
-If you want, you can create branches from branches (and branches off of those branches and so on).
+必要であれば、ブランチからブランチを作成することができます(ブランチなどからブランチを作成することもできます)。
 
 ```{figure} ../../figures/sub-branch.png
 ---
 name: sub-branch1
-alt: An illustration of a development branch in git.
+alt: git の開発ブランチのイラスト。
 ---
-A development branch in git.
+gitの開発ブランチ。
 ```
 
-No matter how many branches you have, you can access the past versions you made on any of them. If you are curious to know how to use this feature in practice, you will find more details a few sections ahead.
+いくつ枝があっても、過去のバージョンにアクセスできます。 実際にこの機能を使用する方法を知りたい場合は、より詳細にいくつかのセクションを先に見つけるでしょう。

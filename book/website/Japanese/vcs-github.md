@@ -1,24 +1,24 @@
 (rr-vcs-github)=
-# Git Commands to Work on GitHub
+# GitHub上で動作するGitコマンド
 
-As research becomes increasingly collaborative and multiple people work on the same project, it becomes difficult to keep track of changes made by others if not done systematically. Moreover, it is time-consuming to manually incorporate the work of different participants in a project, even when all of their changes are compatible. Hosting the project on an online repository hosting service like GitHub is beneficial to make collaborations open and effective. If you are new to collaboration through [GitHub](https://github.com), please follow the comprehensive guide in the previous sections.
+研究がますますコラボレーションし、複数の人が同じプロジェクトに取り組むようになります。 体系的に行わなければ他者の変化を把握するのは難しくなります さらに、すべての変更が互換性がある場合でも、手動でプロジェクトに異なる参加者の作業を組み込むには時間がかかります。 GitHubのようなオンラインリポジトリホスティングサービスでプロジェクトをホスティングすることは、コラボレーションをオープンで効果的にするのに有益です。 [GitHub](https://github.com)を通じてコラボレーションを始める方は、前のセクションの包括的なガイドに従ってください。
 
-In this section, we will discuss how to use Git commands to work with an online Git repository.
+このセクションでは、オンラインの Git リポジトリを使用するために Git コマンドを使用する方法について説明します。
 
-Please note that the commands listed in this chapter (both in this and previous subchapters) are NOT specific to GitHub. They are used for collaborative work on any Git repositories and to interact with any repository hosting site/servers, which can be [GitHub](https://github.com/), but also [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/) or a [self-set-up bare Git repository on a web server](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6).
+この章に記載されているコマンド(この章と以前の章の両方)は GitHub に固有のものではないことに注意してください。 They are used for collaborative work on any Git repositories and to interact with any repository hosting site/servers, which can be [GitHub](https://github.com/), but also [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/) or a [self-set-up bare Git repository on a web server](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6).
 
-For simplicity, we will use GitHub as an example to explain commands that are used for interacting with Git repositories.
+簡単にするために、Gitリポジトリとやり取りするために使用されるコマンドを説明するための例としてGitHubを使用します。
 
 (rr-vcs-github-local)=
-## Create a Local Copy of an Online Repository
+## オンラインリポジトリのローカルコピーを作成
 
-So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a *clone* (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a *remote*, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a `remote` of the local repository. Usually, this remote is called "origin". Having a web-based remote allows you to *push* changes to your project online. It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a *pull request* that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:
+これまでのところ、この章で導入された Git コマンドはすべて、ローカルの接続されていない Git リポジトリに関係しています。 GitHubのような他のホスティングサービスとコラボレーションするために。 ローカルリポジトリの *クローン* （コピー）を保存し、他のリポジトリに公開できます。 通常、ローカルリポジトリと *リモート*、ウェブホストのリポジトリがあります。 ローカルリポジトリはウェブベースのクローンに接続されています。 専門的に言うと、Web ベースのクローンはローカルリポジトリの `リモート` です。 通常、このリモートは "origin" と呼ばれます。 Web ベースのリモートを使用すると、プロジェクトの *変更を* オンラインでプッシュできます。 他のユーザーがリポジトリのクローン(あなたのリポジトリのローカルコンピュータへのコピー)を取得することができます。 変更を加え、変更内容を統合できる *プルリクエスト* を送信します。 たとえば、次の Git コマンドを使用して、プロジェクトの独立したローカルコピーを作成できます。
 
 ```
 git clone <insert GitHub link of the repository here>
 ```
 
-Collaborators can update their local version of an online repository or *pull* other's work into their copy using the command:
+コラボレーターは、オンラインリポジトリのローカルバージョンを更新するか、 *コマンドを使用して他の* 人の作業をコピーに取り込むことができます。
 ```
 git pull
 ```
@@ -27,9 +27,9 @@ Similarly, they can edit files locally and stage their updates (`git add .`), co
 git push
 ```
 (rr-vcs-github-online)=
-## Link a Local Project on Your Computer to an Online Repository
+## コンピュータ上のローカルプロジェクトをオンラインリポジトリにリンク
 
-To link a project on your computer to a new GitHub repository (preferably with the same name), you need to follow the standard workflow for creating a Git repository (described in the {ref}`rr-vcs-workflow` subchapter) by issuing the following set of commands in the terminal, one by one:
+コンピュータ上のプロジェクトを新しい GitHub リポジトリにリンクするには (同じ名前が望ましいです) Git リポジトリを作成するための標準的なワークフローに従う必要があります (以下の {ref}`rrr-vcs-workflow` サブチャプターで説明されています) ターミナルで次のコマンドセットを発行することによって。 一つずつです
 
 ```
 cd <your project folder>
@@ -37,19 +37,19 @@ git init
 git add .
 git commit
 ```
-Assuming that you have a GitHub repository that you want to connect with this project, run the following command:
+このプロジェクトに接続する GitHub リポジトリがあると仮定して、次のコマンドを実行します。
 
 ```
 git remote add origin <GitHub repository link for your project>
 ```
 
-Then, *push* all the files on your computer to the online version so they match:
+次に、 *コンピュータ上のすべてのファイルをオンライン版に* 押して一致するようにします。
 
 ```
 git push -u origin main
 ```
 
-You can then go on and make more commits on your computer. When you want to push them to your online version, similarly you do:
+その後、コンピュータ上でより多くのコミットを行うことができます。 オンライン版にプッシュしたい場合は、次のようにします。
 
 ```
 git push origin branch_you_want_to_push_to
@@ -57,24 +57,24 @@ git push origin branch_you_want_to_push_to
 
 You can also make changes directly on GitHub by editing the online repository, and *pull* those changes locally by using the `git pull` command.
 
-Others can also clone the repository to their computer by using:
+また、以下を使用してリポジトリをコンピュータにクローンできます。
 
 ```
 git clone git@github.com:your-github-username/repository_name
 ```
 
-They can make and commit changes to the code without impacting the original, and push their changes to *their* online GitHub account using:
+元のコードに影響を与えることなく、コードに変更を加えたり反映したりすることができ、変更内容を ** オンラインの GitHub アカウントにプッシュすることができます。
 
 ```
 git push -u origin main
 ```
 
-The same procedure applies to you if you want to clone someone else's repository.
+他人のリポジトリをクローンしたい場合も同じ手順が適用されます。
 
 (rr-vcs-github-online-pull)=
-### Pull Requests
+### 取得リクエスト
 
-If you are working on a personal branch and some other changes were made in the main branch, you can *pull* those changes down to your branch using the Git command:
+個人ブランチに取り組んでいて、他の変更がメインブランチに加えられている場合。 Git コマンドを使用して、これらの変更をブランチに *プル* できます。
 ```
 git pull origin main
 ```
@@ -85,97 +85,97 @@ When everyone has a copy of the project on their own branch (checkout your branc
 git push origin branch-name
 ```
 
-However, if you can not directly edit the repository (when you are not an owner or admin of the project), you will be able to share your work with the help of *pull requests*. A pull request allows a contributor to get the proposed changes from their branch or repository integrated into the main branch of the project. It is also possible to make pull requests via the command line (see the GitLab documentation [here](https://git-scm.com/docs/git-request-pull)).
+ただし、リポジトリを直接編集できない場合(プロジェクトのオーナーまたは管理者でない場合) *プルリクエスト* の助けを借りて、あなたの作品を共有することができます。 プルリクエストにより、コントリビューターはブランチまたはリポジトリから提案された変更をプロジェクトのメインブランチに統合することができます。 コマンドラインを介してプルリクエストを行うことも可能です (GitLab ドキュメント [を参照してください](https://git-scm.com/docs/git-request-pull))。
 
-(rr-vcs-github-contributing)=
-## Contributing to Other Projects
+(rr-vcs-github-contributoring)=
+## 他のプロジェクトへの貢献
 
-When you create a local copy of a repository, you only keep the versions of the files that are in the repository at the time of creating that copy. If any changes are made in the original repository afterwards, your copy will get out of sync out-of-sync. This can lead to problems like conflicting file contents when making a pull request or merging changes from your branch to the main repository. Therefore, when working on different branches or forks of a repository, it is a good practice to keep them updated with the main repository and in sync with the original repository.
+リポジトリのローカルコピーを作成する場合 コピーの作成時にリポジトリにあるファイルのバージョンのみを保持します。 後で元のリポジトリに変更が加えられた場合、コピーは同期を解除します。 これにより、プルリクエストを行ったり、ブランチからメインリポジトリに変更をマージしたりする際に、ファイルの内容が競合するなどの問題が発生する可能性があります。 したがって、リポジトリの異なるブランチやフォークで作業する場合。 元のリポジトリと同期させておくのが良い方法です
 
 (rr-vcs-github-contributing-workflow)=
-### A Workflow to Contribute to Others Github Projects via `git`:
+### `git` を通じて他の Github プロジェクトに貢献するワークフロー :
 
-Using the fork button on the GitHub repository you wish to contribute to, create a copy of the repository in your account. The main repository that you forked will be referred to as the "upstream" repository.
+貢献したいGitHubリポジトリのフォークボタンを使用して、アカウントにリポジトリのコピーを作成します。 フォークしたメインリポジトリは、"upstream" リポジトリと呼ばれます。
 
-You can now work on your copy using the command line, via the following steps (make sure you replace the placeholder user and repository names):
+以下の手順により、コマンド ラインを使用してコピーを作業できます(プレースホルダー ユーザーとリポジトリ名を置き換えることを確認してください)。
 
-1. Clone it to your local machine:
+1. ローカルマシンにクローンします。
 
     ```
     git clone git@github.com:your-github-username/repository_name
     ```
 
-2. Add the 'upstream' repository to the list of remote repositories using the `git remote` command:
+2. 'upstream' リポジトリを `git remote` コマンドを使用して、リモートリポジトリのリストに追加します。
 
     ```
     git remote add upstream git@github.com:upstream-github-username/repository_name
     ```
 
-3. Verify the new remote 'upstream' repository:
+3. 新しいリモート 'upstream' リポジトリを確認してください:
 
     ```
     git remote -v
     ```
 
-4. Update your fork with the latest upstream changes, by first fetching the upstream repository's branches and latest commits to bring them into your repository:
+4. 最新の上流の変更でフォークを更新します。最初にアップストリームリポジトリのブランチと最新のコミットをフェッチし、リポジトリにそれらをもたらします。
 
     ```
     git fetch upstream
     ```
 
-5. View all branches, including those from upstream:
+5. 上流からのものを含むすべてのブランチを表示:
 
     ```
     git branch -va
     ```
 
-Make sure that you are on your main branch locally, if not, then checkout your main branch using the command `git checkout main`
+ローカルでメインブランチにいることを確認し、そうでない場合は、コマンド `git checkout main を使用してメインブランチをチェックアウトしてください`
 
-6. Keep your fork updated by merging those commits (fetched from the upstream) to your own local main branch.
+6. それらのコミット(上流から取得される)を自分のローカルメインブランチにマージすることで、フォークを更新してください。
 
     ```
     git merge upstream/main
     ```
 
-Now, your local main branch is up-to-date with everything modified upstream. If there are no unique commits on the local main branch, git will simply perform a fast-forward.
+今、あなたのローカルメインブランチは、上流に変更されたすべてで最新です。 ローカルのメインブランチに一意のコミットがない場合、git は単に早送りを実行します。
 
-*Note: The upstream/main is the original repository's main which you wish to contribute to, whereas origin/main refers to the repository you cloned in your local machine after it was forked on GitHub.*
+*注: upstream/main は、貢献したい元のリポジトリのメインです。 一方、origin/main は、GitHub 上でフォークされた後にローカルマシンでクローンしたリポジトリを指します。*
 
-Once your fork is in sync with the upstream main repository, you can always keep your local cloned repository in sync with origin (fork in this case) by using:
+上流のメインリポジトリとフォークが同期したら。 以下を使用することで、ローカルでクローンされたリポジトリをオリジンと同期させることができます(この場合フォーク)。
 
 ```
 git checkout main
 git pull
 ```
 
-The `git pull` command combines two other commands, `git fetch` and `git merge`. When using `git fetch`, the resulting commits are stored as the remote branch allows you to review the changes before merging.
+`git pull` コマンドは、 `git fetch` と `git merge` という他の2つのコマンドを組み合わせています。 `git fetch`を使用すると、結果のコミットはリモートブランチとして保存され、マージ前に変更を確認できます。
 
-Similarly, if you have created more branches other than main, you can also keep them in sync with your main, once it is in sync with the upstream repository.
+同様に、main以外のブランチを作成した場合 上流リポジトリと同期したら、メインと同期させることもできます。
 
 ```
 git checkout my-other-branch
 git pull origin main
 ```
 
-When everything is up-to-date, you can work on your branch and commit changes.
+すべてが最新の状態であれば、ブランチで作業し、変更をコミットできます。
 
-When you are ready to push your local commits to your forked repository (origin), use the following command.
+フォークされたリポジトリ(origin)にローカルコミットをプッシュする準備ができたら、次のコマンドを使用します。
 
 ```
 git push origin forked_repository
 ```
 
-Now you can make a pull request!
+これでプルリクエストができます！
 
 (rr-vcs-github-contributing-practice)=
-### Good Practice
+### 良い練習
 
-Before you create a branch, make sure you have all the upstream changes from the origin/main branch.
-
-
-**A word of caution on the `rebase` command**: While trying to keep your branches in sync, you may come across the `rebase` command. It tends to rewrite history and could be troublesome if not communicated with others working on the same branch. Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section. You can find more details about [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+ブランチを作成する前に、origin/main ブランチからのすべてのアップストリームの変更があることを確認します。
 
 
-## Further reading
-- An [article on syncing a fork of a repository](https://help.github.com/en/articles/syncing-a-fork) to keep it up-to-date with the upstream repository.
-- Instructions if you wish to do it all [in the browser itself](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).
+**A word of caution on the `rebase` command**: While trying to keep your branches in sync, you may come across the `rebase` command. それは歴史を書き換える傾向があり、同じ支店で働いている他の人と連絡を取らなければ面倒なことになる。 Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section. [マージとリベース](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)の詳細を確認できます。
+
+
+## 詳細を読む
+- リポジトリのフォークの同期に関する [記事](https://help.github.com/en/articles/syncing-a-fork) 上流リポジトリと最新の状態に保つ。
+- ブラウザ自体で [すべてを実行したい場合の手順](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)。

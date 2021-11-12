@@ -1,26 +1,26 @@
 (rr-testing-systemtest)=
-# System Testing
+# システムテスト
 
-Once integration tests are performed, another level of testing called system testing can begin. System testing is a level of software testing where a complete and integrated software is tested. The tester supplies the program with input and verifies if the program's output is correct. If it is not then there is a problem somewhere in the system. Note that this does not have to be done manually, it can be automated. The purpose of these tests is to evaluate the system's compliance with the specified requirements. In many ways, system testing acts as an extension to integration testing. The focus of system tests are to make sure that groups of components function correctly as a cohesive whole.
+統合テストを実行すると、システムテストと呼ばれる別のレベルのテストを開始できます。 システムテストとは、完全かつ統合されたソフトウェアがテストされるレベルのソフトウェアテストです。 テスターはプログラムに入力を与え、プログラムの出力が正しいかどうかを確認します。 それがない場合は、システムのどこかに問題があります。 これを手動で行う必要はありませんので、自動化することができます。 これらのテストの目的は、システムが規定された要件に適合しているかどうかを評価することです。 多くの点で、システムテストは統合テストの拡張として機能します。 システムテストの焦点は、コンポーネントのグループが全体として正しく機能することを確認することです。
 
-However, instead of focusing on the interfaces between components, system tests typically evaluate the outward functionality of a full piece of software. This set of tests ignores the constituent parts in order to gauge the composed software as a unified entity. Because of this distinction, system tests usually focus on user- or externally-accessible outputs.
+しかし、コンポーネント間のインタフェースに焦点を当てるのではなく、システムテストは通常、完全なソフトウェアの外側の機能を評価します。 この一連のテストは、構成されたソフトウェアを統一された実体として測定するために構成部分を無視します。 この区別のため、システムテストは通常、ユーザまたは外部からアクセス可能な出力に焦点を当てます。
 
-System testing can also test features of the system other than correctness. Examples include:
+システムテストは、正確性以外のシステムの機能をテストすることもできます。 例:
 
-- Performance testing: does the program performance meet the minimum requirements? A performance test may measure how long the system takes to run in a given case.
-- Migration testing: does the program work when transferred to another computational environment?
-- Stress/scale/load testing: testing how the program behaves when under stress, for example, when required to process very large volumes of data.
-- Usability testing: how user-friendly the program is (more common in commercial software, tests typically conducted by humans rather than automated).
-- Recovery testing: whether the program can continue if errors occur (again, more common in commercial software).
+- パフォーマンステスト:プログラムのパフォーマンスは最小要件を満たしていますか? 性能テストでは、システムが特定のケースで実行されるまでにかかる時間を測定することがあります。
+- マイグレーションテスト:別の計算環境に移行するとプログラムは動作しますか?
+- 応力/スケール/負荷テスト:例えば、非常に大量のデータを処理するために必要な場合、応力下でプログラムがどのように動作するかをテストします。
+- ユーザビリティテスト:プログラムがどの程度使いやすいか(商用ソフトウェアでは一般的で、テストは自動ではなく人間によって行われます)。
+- 回復テスト:エラーが発生した場合にプログラムが継続できるかどうか(再び、商用ソフトウェアでは一般的です)。
 
-## System Testing Tips
+## システムテストのヒント
 
-System tests, also called end-to-end tests, run the program, well, from end to end. As such these are the most time consuming tests to run. Therefore you should only run these if all the lower-level tests (smoke, unit, integration) have already passed. If they haven't, fix the issues they have detected first before wasting time running system tests.
+エンドツーエンドのテストとも呼ばれるシステムテストは、プログラムを実行し、最後から最後まで実行します。 これらは実行に最も時間がかかるテストです。 したがって、これらは、すべての低レベルテスト(煙、ユニット、統合)がすでに合格している場合にのみ実行する必要があります。 そうでない場合は、実行中のシステムテストを無駄にする前に、最初に検出した問題を修正してください。
 
-Because of their time-consuming nature it will also often be impractical to have enough system tests to trace every possible route through a program, especially if there are a significant number of conditional statements. Therefore you should consider the system test cases you run carefully and prioritise:
+彼らの時間がかかる性質のため、プログラムを通じてあらゆるルートを追跡するのに十分なシステムテストを受けることはしばしば不可能です。 特に条件文がかなりある場合は したがって、慎重に実行されるシステムテストケースを考慮する必要があります。
 
-- The most common routes through a program.
-- The most important routes for a program. For example, the LIGO detector aims to find gravitational wave events, which are extremely rare. If there's a bug in that path through the program which monitors the detector then it's a *huge* problem.
-- Cases that are prone to breakage due to structural problems within the program. Though ideally it's better to just fix those problems, but cases exist where this may not be feasible.
+- プログラムを通じて最も一般的なルート。
+- プログラムのための最も重要なルート。 例えば、LIGO検出器は極めて稀な重力波現象を発見することを目指しています。 検出器を監視するプログラムの中にバグがあるとしたら、それは *巨大な* 問題になります。
+- プログラム内の構造問題により破損しやすい場合。 理想的には、これらの問題を修正する方が良いですが、これが実現できない場合があります。
 
-Because system tests can be time consuming it may be impractical to run them very regularly (such as multiple times a day after small changes in the code). Therefore it can be a good idea to run them each night (and to automate this process) so that if errors are introduced that only system testing can detect the programmer will be made aware of them relatively quickly.
+システムテストは時間がかかる可能性があるため、非常に定期的に実行することは不可能かもしれません(コードの小さな変更の後1日に複数回など)。 したがって、それらを毎晩実行することをお勧めします (そして、このプロセスを自動化する) エラーが導入された場合、システムテストだけがプログラマを検出することができますが、比較的迅速にそれらを認識させることができます。

@@ -1,0 +1,23 @@
+# Redirige à partir de ce que le navigateur demande à ce que nous servons
+
+https://the-turing-way.netlify.app https://the-turing-way.netlify.app/welcome.html 301
+https://the-turing-way.netlify.app/introduction/introduction.html https://the-turing-way.netlify.app/welcome 301
+/fr/reproduccibility/* /reproduccible-research/reproduccible-research 301
+/fr/reproduccibility/04/resources /reproducible-research/overview/resources 301
+/open_research/open_research /reproducible-research/open_research 301
+/fr/version_control/version_control /reproduccible-research/version-control 301
+/fr/licensing/Licence/reproduccible-research/licensing 301
+/collaborating_github/collaborating_github /communication/communication 301
+/fr/open-source-comms/* /communication/open-source-comms 301
+/fr/credit/credit /reproduccible-research/credit 301
+/rdm/rdm /reproduccible-research/rdm 301
+/fr/reproducible_environments/reproducible_environments /reproducible-research/reproducible-environments 301
+/fr/code_quality/code_quality /reproducible-research/code-quality 301
+/fr/testing/testing /reproducible-research/testing 301
+/reviewing/reviewing /reproducible-research/reviewing 301
+/continuous_integration/continuous_integration /reproducible-research/continuous-integration 301
+/fr/make/make /reproduccible-research/make 301
+/fr/research_compendia/research_compendia /reproducible-research/research-compendia 301
+/risk_assessment/risk_assessment /reproducible-research/risk-assessment 301
+/fr/binderhub/binderhub /reproducible-research/binderhub 301
+https://the-turing-way.netlify.app/reproducible-research/credit.html hhttps://the-turing-way.netlify.app/communication/citable.html 301

@@ -1,0 +1,873 @@
+---
+#Each entry has the following schema:
+#- title: mytitle   # Title of chapter or subchapter
+#file: myfile  # filename relative to the  folder.
+#sections:  # Contains a list of more entries that make up the chapter's subchapters
+#Below are some special values that trigger specific behavior:
+#- header: My Header  # Will insert a header with no link in the sidebar
+#===== Main Landing Page ========================================
+format: jb-book
+root: いらっしゃいませ
+parts:
+  - 
+    chapters:
+      - 
+        #===== Guide for Reproducible Research ========================================
+        file: 再現性研究/再現性研究
+        sections:
+          - 
+            title: 概要
+            file: 再現性のある研究/概要
+            sections:
+              - 
+                title: 定義
+                file: 再現性研究/概要/概要/概要定義
+              - 
+                title: 追加の利点
+                file: 再現性研究/概要/概要/概要-利点
+              - 
+                title: バリアー設定
+                file: 再現性研究/概要/概要/概要障壁format@@0
+              - 
+                title: リソース
+                file: 再現性研究/概要/概要/概要
+          - 
+            title: 研究を開く
+            file: 再現性研究/オープン
+            sections:
+              - 
+                title: オープンデータ
+                file: 再現性研究/オープン/オープンデータ
+              - 
+                title: オープンソースソフトウェア
+                file: 再現性のある研究/オープン/オープン ソース
+              - 
+                title: ハードウェアを開く
+                file: 再現性研究/オープン/オープンハードウェア
+              - 
+                title: オープンアクセス
+                file: 再現性のある研究/オープン/オープン アクセス
+              - 
+                title: ノートブックを開く
+                file: 再現性研究/オープン/オープンノートブック
+              - 
+                title: 奨学金を開く
+                file: 再現性のある研究/オープン/オープンな奨学金
+              - 
+                title: Checklist
+                file: 再現性研究/オープン/オープンチェックリスト
+              - 
+                title: リソース
+                file: 再現性研究/オープン/オープンリソース
+          - 
+            title: バージョン管理
+            file: 再現性研究/vcs
+            sections:
+              - 
+                title: 一般的なワークフロー
+                file: reproble-research/vcs/vcs-workflow
+              - 
+                title: Git 入門
+                file: reproducible-research/vcs/vcs-git
+              - 
+                title: Git コミットコマンド
+                file: reproducible-research/vcs/vcs-git-commit
+              - 
+                title: バージョンの取得と比較
+                file: reproducible-research/vcs/vcs-git-compare
+              - 
+                title: Git ブランチ
+                file: reproducible-research/vcs/vcs-git-branches
+              - 
+                title: Git でブランチをマージする
+                file: reproducible-research/vcs/vcs-git-merge
+              - 
+                title: Interactive, Visual Git
+                file: reproducible-research/vcs/vcs-git-interactive
+              - 
+                title: GitHub上で動作するGitコマンド
+                file: reproducible-research/vcs/vcs-github
+              - 
+                title: Git コマンドの概要
+                file: reproducible-research/vcs/vcs-git-summary
+              - 
+                title: データのバージョン管理
+                file: 再現性研究/vcs/vcs-data
+              - 
+                title: 個人的なストーリー
+                file: reproble-research/vcs/vcs-personal-stories
+              - 
+                title: Checklist
+                file: reproducible-research/vcs/vcs-checklist
+              - 
+                title: リソース
+                file: 再現性研究/vcs/vcs-resources
+          - 
+            title: ライセンス
+            file: 再現性研究/ライセンス
+            sections:
+              - 
+                title: ソフトウェアライセンス
+                file: 再現性のある研究/ライセンス/ライセンスソフトウェア
+              - 
+                title: ライセンスの互換性
+                file: 再現性研究/ライセンス/ライセンス適合性
+              - 
+                title: データライセンス
+                file: 再現性研究/ライセンス/ライセンスデータ
+              - 
+                title: Checklist
+                file: reproducible-research/licensing/licensing-checklist
+          - 
+            title: 研究データ管理
+            file: 再現性研究/rdm
+            sections:
+              - 
+                title: 研究データ
+                file: 再現性研究/rdm/rdm-data
+              - 
+                title: データ管理プラン
+                file: 再現性研究/rdm/rdm-dmp
+              - 
+                title: FAIRの原則と練習
+                file: 再現性研究/rdm/rdm-fair
+              - 
+                title: 個人データ管理
+                file: 再現性研究/rdm/rdm-personal
+              - 
+                title: データの保存と組織
+                file: 再現性研究/rdm/rdm-storage
+              - 
+                title: スプレッドシート内のデータ組織
+                file: 再現性研究/rdm/rdm-spreadsheet
+              - 
+                title: ドキュメントとメタデータ
+                file: 再現性研究/rdm/rdm-メタデータ
+              - 
+                title: データの共有とアーカイブ
+                file: 再現性研究/rdm/rdm-sharing
+              - 
+                title: 研究データ管理ツールキット
+                file: 再現性研究/rdm/rdm-toolkits
+              - 
+                title: パーソナルインパクトストーリー
+                file: 再現性研究/rdm/rdm-stories
+              - 
+                title: Checklist
+                file: 再現性研究/rdm/rdm-checklist
+              - 
+                title: リソース
+                file: 再現性研究/rdm/rdm-resources
+          - 
+            title: 再現可能な環境
+            file: reproducible-research/renv
+            sections:
+              - 
+                title: 計算環境の取得
+                file: reproble-research/renv/renv-options
+              - 
+                title: パッケージ管理システム
+                file: reproble-research/renv/renv-package
+              - 
+                title: YAML
+                file: reproducible-research/renv-yaml
+              - 
+                title: バインダー
+                file: 再現性研究/renv/renv-binder
+              - 
+                title: 仮想マシン
+                file: reproducible-research/renv/virtualmachine
+              - 
+                title: コンテナ
+                file: reproble-research/renv/renv-container
+              - 
+                title: リソースとチェックリスト
+                file: 再現性研究/renv/renv-resources
+          - 
+            title: BinderHub
+            file: 再現性研究/バインダーハブ
+            sections:
+              - 
+                title: BinderHub の紹介
+                file: 再現性研究/binderhub/binderhub-introduction
+              - 
+                title: リソースを計算
+                file: reproducible-research/binderhub/binderhub-compute
+              - 
+                title: 独自のBinderHubを構築する
+                file: reproble-research/binderhub/binderhub-build
+              - 
+                title: BinderHub のリソース
+                file: reproble-research/binderhub/binderhub-resources
+          - 
+            title: コードの品質
+            file: 再現性のある研究/コード品質
+            sections:
+              - 
+                title: コードスタイルと書式設定
+                file: reproducible-research/code-quality/code-quality style
+              - 
+                title: チェックリストとリソース
+                file: 再現性のある研究/コード品質/コード品質のリソース
+          - 
+            title: コードテスト
+            file: 再現性研究/テスト
+            sections:
+              - 
+                title: テストのための一般的なガイド
+                file: 再現性研究/テスト/テストガイダンスformat@@0
+              - 
+                title: テストタイプの概要
+                file: 再現性のある研究/テスト/テストの概要
+              - 
+                title: スモークテスト
+                file: 再現性研究/テスト/テスト/テストスモークテスト
+              - 
+                title: 単体テスト
+                file: replicible-research/testing/testing-unittest
+              - 
+                title: 統合テスト
+                file: 再現性研究/テスト/テスト/テスト統合テスト
+              - 
+                title: システムテスト
+                file: 再現性研究/テスト/テスト/テスト-systemtest
+              - 
+                title: 受け入れと回帰テスト
+                file: 再現性研究/テスト/テスト/testing-acceptance-regulation
+              - 
+                title: ランタイムテスト
+                file: 再現性のある研究/テスト/テスト実行時間
+              - 
+                title: テスト駆動開発
+                file: 再現性研究/テスト/テスト/テスト駆動開発
+              - 
+                title: チャレンジと優れたケース
+                file: 再現性のある研究/テスト/テスト例外format@@0
+              - 
+                title: コードテストのチェックリスト
+                file: 再現性のある研究/テスト/テストチェックリスト
+              - 
+                title: その他の推奨
+                file: 再現性-研究/テスト/テスト-リソース
+          - 
+            title: コードレビュープロセス
+            file: 再現性研究/レビュー
+            sections:
+              - 
+                title: コードレビューの動機付け
+                file: 再現性のある研究/レビュー/レビュー動機付け
+              - 
+                title: Recommendations for code review
+                file: 再現性のある研究/レビュー/レビューの推奨
+              - 
+                title: コードレビューワークフロー
+                file: 再現性-研究/レビュー/レビュー-ワークフロー
+              - 
+                title: コードレビューのチェックリスト
+                file: 再現性研究/レビュー/レビューチェックリスト
+              - 
+                title: コードレビューのリソース
+                file: 再現性研究/レビュー/レビューリソース
+          - 
+            title: 継続的統合 (CI)
+            file: 再現性研究/ci
+            sections:
+              - 
+                title: 継続的インテグレーション入門 (CI)
+                file: 再現性のある研究/ci/ci-options
+              - 
+                title: GitHubアクションを始める
+                file: reproducible-research/ci/ci-github-actions
+              - 
+                title: Github アクションのブロックの作成
+                file: reproducible-research/ci/ci-building-gh-actions.md
+              - 
+                title: ベストプラクティスと推奨事項
+                file: 再現性研究/ci/ci-practice
+              - 
+                title: チェックリストとリソース
+                file: 再現性のある研究/ci/ci-resources
+          - 
+            title: メイクで再現可能な研究
+            file: 再現性のある研究/作成
+            sections:
+              - 
+                title: 例で「メイク」を学ぶ
+                file: 再現性研究/make/make-examples
+              - 
+                title: Makefileのデバッグ
+                file: 再現性のある研究/メイク/デバッグ
+              - 
+                title: 再現可能な論文の事例研究
+                file: 再現性研究/make/make-casestudy
+              - 
+                title: 数値結果と表を含む
+                file: 再現性のある研究/メイク/メイク結果
+              - 
+                title: '"Make"のリソース'
+                file: 再現性のあるリサーチ/メイク/メイクリソース
+              - 
+                title: 付録
+                file: 再現性研究/make/make-appendix
+          - 
+            title: Compendiaの研究
+            file: 再現性研究/compendia
+          - 
+            title: リスク評価
+            file: 再現性研究/リスク評価
+            sections:
+              - 
+                title: リスク評価の複雑性と影響
+                file: 再現性研究/リスクアセスメント/リスクアセスメント-影響
+              - 
+                title: リスク評価の概要
+                file: 再現性研究/リスクアセスメント/リスクアセスメント-リソース
+          - 
+            title: 事例研究
+            file: 再現性研究/事例研究
+            sections:
+              - 
+                title: 統計的手法解説
+                file: 再現性研究/事例研究/事例研究-事例研究-統計
+      - 
+        #===== Guide for Project Design ========================================
+        file: project-design/project-Design
+        sections:
+          - 
+            title: プロジェクトデザインの概要
+            file: プロジェクトデザイン/pd-overview
+            sections:
+              - 
+                title: プロジェクト設計の計画
+                file: project-design/pd-overview/pd-overview-planning
+              - 
+                title: コミュニケーションとコラボレーション
+                file: project-design/pd-overview/pd-overview-repro
+              - 
+                title: 再現性の方法
+                file: project-design/pd-overview/pd-概要-methods
+              - 
+                title: バージョン管理とドキュメント
+                file: project-design/pd-overview/pd-overview-version
+              - 
+                title: 研究内容を共有
+                file: project-design/pd-overview/pd-overview-share
+          - 
+            title: プロジェクトリポジトリの作成
+            file: project-design/project-repo
+            sections:
+              - 
+                title: ランディングページ - READMEファイル
+                file: project-design/project-repo/project-repo-readme
+              - 
+                title: ロードマッピング
+                file: project-design/project-repo/project-repo-roadmapping
+              - 
+                title: 貢献者とコミュニケーションの道
+                file: project-design/project-repo/project-repo-contributors
+              - 
+                title: 参加ガイドライン
+                file: project-design/project-repo/project-repo-participation
+              - 
+                title: データ解析のための高度な構造
+                file: project-design/project-repo/project-repo-advanced
+              - 
+                title: その他の推奨
+                file: project-design/project-repo/project-repo-resources
+          - 
+            title: Personas and Pathway
+            file: project-design/persona
+            sections:
+              - 
+                title: ペルソナ作成ツール
+                file: project-design/persona/person-creation
+              - 
+                title: コントリビューターパス
+                file: project-design/persona/persona-contributors
+          - 
+            title: ファイル命名規則
+            file: project-design/filename
+          - 
+            title: コードのスタイルとリンク
+            file: project-Design/code-styling
+            sections:
+              - 
+                title: コードのスタイル設定に関するガイドライン
+                file: project-design/code-styling/code-styling-guidelines
+              - 
+                title: 人間が読めるコードを書く
+                file: project-design/code-stying/code-styling-readability
+              - 
+                title: コードスタイルツール
+                file: project-design/code-styling/code-styling-tools
+      - 
+        #===== Guide for Communication ========================================
+        file: 通信/通信
+        sections:
+          - 
+            title: コミュニケーションガイドの概要
+            file: 通信/通信の概要
+            sections:
+              - 
+                title: より広いオーディエンスとコミュニケーションするための原則
+                file: communication/comms-概要/comms-概要-原則
+              - 
+                title: アクセシビリティ対応のコミュニケーション
+                file: communication/comms-overview/comms-overview-accessibly
+              - 
+                title: リソースと推奨事項
+                file: communication/comms-overview/comms-overview-resources
+          - 
+            title: Research Communicationのブログ
+            file: 通信/ブログ
+            sections:
+              - 
+                title: ブログ用のWebページを構築する
+                file: コミュニケーション/ブログ/blogs-webpage
+              - 
+                title: 個人的な話 - ブログ
+                file: コミュニケーション/ブログ/blogs-personal-stories
+          - 
+            title: 概要を表示する
+            file: communication/lay-summary
+            sections:
+              - 
+                title: 個人的な物語 - レイサマリー。
+                file: communication/lay-summaries/lay-summaries-personal-stories
+          - 
+            title: 研究コミュニケーションのためのポッドキャスト
+            file: コミュニケーション/ポッドキャスト
+            sections:
+              - 
+                title: パーソナルストーリー - ポッドキャスト
+                file: communication/podcasts/podcasts-personal-stories
+          - 
+            title: ポスターと会議トークのプレゼンテーション
+            file: コミュニケーション/プレゼンテーション
+            sections:
+              - 
+                title: リモートイベントでのプレゼンテーション
+                file: 通信/プレゼンテーション/プレゼンテーション-リモート
+              - 
+                title: 個人的なストーリー - プレゼンテーション
+                file: コミュニケーション/プレゼンテーション/プレゼンテーション-個人的なストーリー
+          - 
+            title: リサーチコミュニケーションのためのSNS
+            file: 通信/ソーシャル メディア
+            sections:
+              - 
+                title: Twitterから始めるためのヒント
+                file: communication/social-media/social-media-twitter-tips
+              - 
+                title: 複数のTwitterアカウントを管理する
+                file: communication/social-media-twitter-multiple
+          - 
+            title: 研究オブジェクトを陽性にする
+            file: 通信/発信可能
+            sections:
+              - 
+                title: 研究対象を陽性にするためのステップ
+                file: communication/citable/citable-step
+              - 
+                title: 研究オブジェクトを引用中
+                file: communication/citable/citable-cite
+              - 
+                title: 研究オブジェクトをリンクする
+                file: communication/citable/citable-linking
+              - 
+                title: 研究対象を集めるためのORCID
+                file: communication/citable/citable-orcid
+              - 
+                title: チェックリストとリソース
+                file: communication/citable/citable-resources
+          - 
+            title: オープンソースプロジェクトでのコミュニケーション
+            file: communication/os-comms
+            sections:
+              - 
+                title: 課題の追跡
+                file: communication/os-comms/os-comms-issue-tracking
+              - 
+                title: 通信チャンネル
+                file: communication/os-comms/os-comms-channels
+          - 
+            title: 著者と学術論文への貢献
+            file: 通信/a
+            sections:
+              - 
+                title: アカデミックオーサリングの概要
+                file: 通信/a/概要
+              - 
+                title: 著者の不正行為の種類
+                file: 通信/AA/不正行為
+              - 
+                title: 規律ある特定の権威の<unk>
+                file: 通信/a/traditions
+              - 
+                title: 大規模で公平な権限
+                file: communication/a/equitable
+              - 
+                title: 著者権限を取得する方法のヒント
+                file: コミュニケーション/a/tips
+              - 
+                title: 個人的な物語 - 学際的なプロジェクトの著者
+                file: コミュニケーション/学際的・個人的な物語
+              - 
+                title: 個人的な話 - 大規模共同研究コミュニティ
+                file: 通信/a/大人話
+              - 
+                title: リソース
+                file: 通信/a/リソース
+      - 
+        #===== Guide for Collaboration ========================================
+        file: コラボレーション/コラボレーション
+        sections:
+          - 
+            title: GitHub入門
+            file: コラボレーション/github-novice
+            sections:
+              - 
+                title: GitHubを使うモチベーション（モチベーション）
+                file: collection/github-novice/github-novice-motivation
+              - 
+                title: Github の最初のステップ
+                file: collection/github-novice/github-novice-firststep
+              - 
+                title: もっとGithubの機能を使う
+                file: コラボレーション/github-novice/github-novice-features
+              - 
+                title: Github の高度な機能
+                file: コラボレーション/github-novice/github-novice-advanced
+          - 
+            title: GitHubのメンテナーとレビュアー
+            file: コラボレーション/メンテナンス-レビュー
+            sections:
+              - 
+                title: プロジェクトメンテナンス
+                file: collection/maintain-review/mainten-review-maintenance
+              - 
+                title: 所有権と権限
+                file: コラボレーション/メンテナンスレビュー/メンテナンスレビュー-権限
+              - 
+                title: 貢献のレビュー
+                file: collection/mainten-review/mainten-review-review
+              - 
+                title: コントリビューションの結合
+                file: collection/mainten-review/main-review-merge
+              - 
+                title: リソース
+                file: コラボレーション/メンテナンスレビュー/メンテナンスレビュー-リソース
+          - 
+            title: 新しいコミュニティとチームの管理
+            file: コラボレーション/新しいコミュニティ
+            sections:
+              - 
+                title: コミュニティ企画ガイド
+                file: コラボレーション/new-community/new-community-guide
+              - 
+                title: 技術的な問題への対処中
+                file: collection/new-community/new-community-techissues
+              - 
+                title: 多様性と違いを大切にする
+                file: コラボレーション/new-community/new-community-difference
+          - 
+            title: データサイエンスにおけるリーダー
+            file: コラボレーション/リーダー
+            sections:
+              - 
+                title: 個人的なリーダーシップの物語
+                file: コラボレーション/リーダーシップ/リーダーシップストーリー
+          - 
+            title: 研究インフラの役割
+            file: コラボレーション/研究-インフラストラクチャ-役割
+            sections:
+              - 
+                title: コミュニティマネージャーの概要
+                file: コラボレーション/研究-インフラストラクチャロール/コミュニティマネージャー
+              - 
+                title: データスチュワードの概要
+                file: コラボレーション/研究-インフラストラクチャ-ロール/data-steward
+              - 
+                title: データスチュワードの事例研究
+                file: collection/research-インフラストラクチャ-roles/data-steward/data-steward-casestudy
+              - 
+                title: Research Software Engineers 概要
+                file: コラボレーション/研究-インフラストラクチャの役割/研究ソフトウェアエンジニア
+          - 
+            title: リモートコラボレーション
+            file: collab/remote-collab
+            sections:
+              - 
+                title: リモートミーティングの管理
+                file: コラボレーション/remote-collab/remote-collab-meetses
+              - 
+                title: リモートコラボレーションガイドライン
+                file: コラボレーション/remote-collab/remote-collab-guidelines
+              - 
+                title: リモートコラボレーションのためのツール
+                file: コラボレーション/remote-collab/remote-collab-tools
+              - 
+                title: オンラインコワーキングコールの開催
+                file: collab/remote-collab/remote-collab-coorking
+              - 
+                title: リモート会議の管理
+                file: collab/remote-collab-conference
+              - 
+                title: リモートイベントの議長中
+                file: コラボレーション/remote-collab/remote-collab-chairs
+              - 
+                title: リモートイベントへの参加
+                file: コラボレーション/remote-collab/remote-collab-participation
+              - 
+                title: 分散チームの管理
+                file: コラボレーション/remote-collab/remote-collab-management
+              - 
+                title: 非公式のコーヒーチャット
+                file: collab/remote-collab/remote-collab-informatil
+              - 
+                title: 認識された長所と短所。
+                file: コラボレーション/remote-collab/remote-collab-prosandcons
+          - 
+            title: オープンソースプロジェクトで共有された所有者
+            file: コラボレーション/共有所有者
+            sections:
+              - 
+                title: プロジェクトの所有者
+                file: コラボレーション/共有所有/共有所有-プロジェクト
+              - 
+                title: 共有オーナーシップモデル
+                file: コラボレーション/共有所有/共有所有-モデル
+              - 
+                title: 所有権モデルを適用する課題 Retroactively
+                file: コラボレーション/共有所有/共有所有-チャレンジ
+              - 
+                title: より優れたデフォルトのためにナッジする
+                file: コラボレーション/共有所有/共有所有/デフォルト設定
+      - 
+        #===== Guide for Ethical Research ========================================
+        file: 倫理研究/倫理研究
+        sections:
+          - 
+            title: 研究倫理紹介
+            file: 倫理研究/ethics-intro
+          - 
+            title: 研究倫理委員会ワークフロー
+            file: 倫理研究/倫理委員会
+          - 
+            title: Prelinical Research における倫理的決定
+            file: 倫理研究/前臨床研究
+          - 
+            title: 倫理における法律、政策および人権について
+            file: 倫理研究/法律ポリシー
+            sections:
+              - 
+                title: 倫理と法
+                file: 倫理研究/法律政策/法律政策-倫理論
+              - 
+                title: ヒューマンライツ
+                file: 倫理研究/法律政策/法律政策-権利
+              - 
+                title: その他の推奨
+                file: 倫理研究/法律政策/法律政策リソース
+          - 
+            title: 研究者のための活動
+            file: 倫理的研究/活動
+            sections:
+              - 
+                title: Unionisation
+                file: 倫理研究/活動/活動-<unk>
+              - 
+                title: 口笛吹き
+                file: 倫理研究/活動主義/活動主義-笛吹き
+              - 
+                title: 事例研究 - Robocredit
+                file: 倫理研究/アクティヴィズム/アクティヴィズム-ロボット<unk>
+              - 
+                title: 事例調査 - Google Worker
+                file: 倫理研究/activism/activism-case-study-google.md
+          - 
+            title: 内部ポリシーアドボカシー
+            file: 倫理研究/内部ポリシー
+          - 
+            title: 自己リフレクション
+            file: 倫理研究/自己<unk>
+            sections:
+              - 
+                title: アイデンティティと位置
+                file: 倫理研究/self-reflection/sr-positionality
+              - 
+                title: 権限と特権
+                file: 倫理研究/自己反射/sr-power
+              - 
+                title: 自己反射のプロンプト表示
+                file: 倫理研究/self-reflection/sr-prompts
+              - 
+                title: リソース
+                file: 倫理研究/self-reflection/sr-resources
+      - 
+        #===== Community Handbook ========================================
+        file: community-handbook/community-handbook
+        sections:
+          - 
+            title: 行動基準
+            file: community-handbook/coc
+            sections:
+              - 
+                title: 行動規範（詳細）
+                file: community-handbook/coc/coc-details
+              - 
+                title: インシデント報告ガイドライン
+                file: community-handbook/coc/coc-reporting
+              - 
+                title: 強制マニュアル
+                file: community-handbook/coc/coc-forcent
+              - 
+                title: 取得
+                file: community-handbook/coc/coc-accept
+          - 
+            title: Style Guide
+            file: community-handbook / style
+            sections:
+              - 
+                title: 外部リソースの引用と参照
+                file: community-handbook/style/style-citing
+              - 
+                title: セクションと章を相互参照する
+                file: community-handbook/style/style-crossref
+              - 
+                title: 図の使用
+                file: community-handbook/style/style-figes
+              - 
+                title: 用語集、特別なブロック、その他のスタイル
+                file: community-handbook/style/style-more-styling
+              - 
+                title: カスタムスタイル
+                file: community-handbook/style/style-custom-styling
+          - 
+            title: 一貫性の維持
+            file: community-handbook/consistence
+            sections:
+              - 
+                title: 書式設定
+                file: community-handbook/consistency/consistency-formatting
+              - 
+                title: 構成
+                file: community-handbook/consistency/consistency-structure
+              - 
+                title: 言語
+                file: community-handbook/consistency/consistency-language
+          - 
+            title: チャプターの貢献と開発 - テンプレートとワークフロー
+            file: community-handbook/contribution
+            sections:
+              - 
+                title: テンプレート
+                file: community-handbook/contributing/contributing-templates
+              - 
+                title: ワークフロー
+                file: community-handbook/contributing/contributing-workflow
+          - 
+            title: 貢献者の承認
+            file: community-handbook/通知
+            sections:
+              - 
+                title: コミュニティメンバーと共有の所有者
+                file: community-handbook/accepgement/agreement-members
+              - 
+                title: 貢献記録
+                file: community-handbook/accepgement-record
+              - 
+                title: 異なる貢献と謝辞
+                file: community-handbook/accepgement/acceptement-examples
+          - 
+            title: 月刊ニュースレター
+            file: community-handbook/ニュースレター
+            sections:
+              - 
+                title: ニュースレター作成のプロセス
+                file: community-handbook/newsletters/newsletters-process
+              - 
+                title: ニュースレターのスタイルガイド
+                file: community-handbook/newsletters/newsletters-style
+              - 
+                title: Turing Way Newsletterテンプレート
+                file: community-handbook/newsletters/newsletters-template
+          - 
+            title: ダッシュイベントの予約
+            file: community-handbook/bookdash
+            sections:
+              - 
+                title: 申請と審査プロセス
+                file: community-handbook/bookdash/bookdash-application
+              - 
+                title: ダッシュロジスティクス
+                file: community-handbook/bookdash/bookdash-logic
+              - 
+                title: 参加者の選択プロセス
+                file: community-handbook/bookdash/bookdash-selection
+              - 
+                title: ダッシュのメインイベントプラン
+                file: community-handbook/bookdash/bookdash-events
+              - 
+                title: 本のダッシュの後
+                file: community-handbook/bookdash/bookdash-after
+          - 
+            title: コミュニティコワーキングコール
+            file: community-handbook/coworking
+            sections:
+              - 
+                title: 背景、動機、技術
+                file: community-handbook/coorking/coorking-motivation
+              - 
+                title: オンラインコラボカフェ
+                file: community-handbook/coorking/coorking-collabcafe
+              - 
+                title: 毎週のコワーキングコール
+                file: community-handbook/coorking/coorking-weekly
+              - 
+                title: コワーキングコールの管理
+                file: community-handbook/coworking/coworking-organisation
+          - 
+            title: テンプレートコレクション
+            file: community-handbook/templates
+            sections:
+              - 
+                title: ブックダッシュメイン共有ドキュメント
+                file: community-handbook/templates/template-bookdash-index
+              - 
+                title: ダッシュ前イベントのオンボーディング
+                file: community-handbook/templates/template-bookdash-precall
+              - 
+                title: Book DashGitHub Session
+                file: community-handbook/templates/template-bookdash-github
+              - 
+                title: 共有ノートのブックダッシュテンプレート
+                file: community-handbook/templates/template-bookdash-notes
+              - 
+                title: フィードバックのためのブックダッシュテンプレート
+                file: community-handbook/templates/template-bookdash-feedback
+              - 
+                title: オンラインコラボカフェテンプレート
+                file: community-handbook/templates/template-coorking-collabcafe
+              - 
+                title: 毎週のコワーキングコールテンプレート
+                file: community-handbook/templates/template-coorking-weekly
+              - 
+                title: ニュースレターの作成のためのテンプレート
+                file: community-handbook/templates/template-newsletter-draft
+      - 
+        #===== Afterword ========================================
+        file: afterword/afterword
+        sections:
+          - 
+            title: 法的免責事項
+            file: afterword/legal-disclaimer
+          - 
+            title: Glossary
+            file: afterword/glossary
+          - 
+            title: 参考文献表
+            file: afterword/bibliography
+          - 
+            title: 貢献者記録
+            file: afterword/contributors-record

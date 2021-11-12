@@ -1,42 +1,42 @@
 (rr-vcs)=
-# Version Control
+# バージョン管理
 
 (rr-vcs-prerequisites)=
-## Prerequisites
+## 前提条件
 
-| Prerequisite                                                                                  | Importance | Notes |
-| --------------------------------------------------------------------------------------------- | ---------- | ----- |
-| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Helpful    |       |
+| 前提条件                                                                     | 重要度    | メモ |
+| ------------------------------------------------------------------------ | ------ | -- |
+| [コマンドラインでの経験](https://programminghistorian.org/en/lessons/intro-to-bash) | 役に立つもの |    |
 
-**Recommended Skill Level**: _Beginner-Intermediate_
+**推奨スキルレベル**: _中級_
 
 (rr-vcs-summary)=
 ## Summary
 
-No matter how your group is organized, the work of many contributors needs to be managed into a single set of shared working documents. Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions. Management of changes or revisions to any types of information made in a file or project is called versioning.
+あなたのグループがどのように整理されても、多くの貢献者の作業は、単一の共有作業文書のセットに管理する必要があります。 バージョン管理は、あなたとコラボレーターが自分の履歴を追跡できるように、ファイルまたはファイルのセットに加えられた変更を時間の経過とともに記録するアプローチです。 変更を確認して元に戻すか、以前のバージョンに戻ります。 ファイルやプロジェクトで行われたあらゆる種類の情報の変更またはリビジョンの管理をバージョニングと呼びます。
 
-In this chapter, we discuss the best practices that are relevant regardless of tools. Versioning practices mainly come from managing changes in the code repositories. However, in reality, you can use version control for nearly any type of file on a computer. For example, when writing a paper with multiple collaborators, version control can help track what changed, who changed them, and what updates were made.
+この章では、ツールに関係なく関連するベストプラクティスについて説明します。 バージョン管理のプラクティスは、主にコードリポジトリの変更を管理することから生じます。 ただし、実際には、コンピュータ上のほぼすべての種類のファイルに対してバージョン管理を使用できます。 たとえば、複数のコラボレーターで論文を書く場合、バージョン管理は何が変更されたか、何が更新されたかを追跡するのに役立ちます。
 
-Different version control systems can be used through a program with a graphical user interface, web browser-based applications, or command-line tools. We have all seen a simple file versioning approach where different versions of a file are stored with a different name. Tools such as Google Drive and Dropbox offer platforms to update files and share them with others in real-time, collaboratively. More sophisticated version control system exists within tools like [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/). These allow collaborators to update files while storing each version in its version history (we will discuss this in detail). Advanced version control systems (VCS) such as [Git](https://en.wikipedia.org/wiki/Git), [Mercurial](https://www.mercurial-scm.org/), and [SVN](https://subversion.apache.org/) provide much more powerful tools.
+グラフィカルユーザーインターフェイス、ウェブブラウザベースのアプリケーション、またはコマンドラインツールを備えたプログラムを通じて異なるバージョン管理システムを使用できます。 ファイルの異なるバージョンが異なる名前で保存される単純なファイルバージョン管理アプローチをすべて見てきました。 Google DriveやDropboxなどのツールは、リアルタイムで共同でファイルを更新し、他の人と共有するためのプラットフォームを提供します。 より洗練されたバージョン管理システムは、 [Google ドキュメント](https://docs.google.com/) や [HackMD](http://hackmd.io/) のようなツール内に存在します。 これにより、コラボレーターは各バージョンをバージョン履歴に保存しながらファイルを更新することができます(詳細についてはこれについて説明します)。 [Git](https://en.wikipedia.org/wiki/Git)、 [Mercurial](https://www.mercurial-scm.org/)、 [SVN](https://subversion.apache.org/) などの高度なバージョン管理システム(VCS)は、より強力なツールを提供します。
 
-This chapter aims to cover the general principles underpinning all the advanced version control systems and best practice which applies for all such systems. We discuss many tools and features; however, we encourage readers to use features that are useful for their work and tools they are comfortable with. Most instructions given in this chapter will also be geared towards Git, which is most commonly used by researchers, and a web-based Git repository hosting service, [GitHub](https://github.com/), which facilitates online collaborations.
+この章では、すべてのシステムに適用されるすべての高度なバージョン管理システムとベストプラクティスを支える一般的な原則について説明します。 私たちは、多くのツールや機能について議論します; しかしながら, 私たちは、彼らが快適である仕事やツールに有用である機能を使用する読者を奨励します. この章で説明されているほとんどの命令は、研究者によって最も一般的に使用されている Git に向けられています。 そして、オンラインコラボレーションを容易にするWebベースのGitリポジトリホスティングサービス [GitHub](https://github.com/)。
 
-Later in this chapter, we also discuss version control for data, which is applied to keep track of revisions of large amounts of data, especially when working collaboratively. It is useful to know that data can be volatile and versioning them can improve the reproducibility of your scientific analyses.
+この章の後半では、データのバージョン管理についても説明します。 大量のデータの修正を追跡するために適用されます。特に共同作業の場合。 データが揮発性になり、バージョン管理が科学的分析の再現性を向上させることができることを知ることは有用です。
 
 ```{figure}  ../figures/project-history.jpg
 ---
 name: project-history
-alt: Contrast in project history management. On the left - choosing between ambiguosly named files. On the right - picking between successive versions (from V1 to V6).
+alt: プロジェクト履歴管理のコントラスト。 左側には - あいまいな名前のファイルを選択します。 右側には - 連続バージョン(V1からV6まで)を選択します。
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
 (rr-vcs-useful)=
-## Motivation and Background
+## モチベーションと背景
 
-Version control helps us understand what changes we made in the past or why we did a specific analysis in the way we did it, even weeks or months later. With the help of comments and commit messages, each version can explain what changes it contains compared to the previous versions. This is helpful when we share our analysis (not only data), and make it auditable or **reproducible** - which is good scientific practice.
+バージョン管理は、私たちが過去に行った変更や、なぜ私たちがそれを行った方法で特定の分析を行ったのかを理解するのに役立ちます。 数週間から数ヶ月経ってもです コメントとコミットメッセージの助けを借りて、各バージョンは以前のバージョンと比較してどのような変更が含まれているかを説明できます。 これは、分析(データだけではなく)を共有し、監査可能にしたり、 **再現性のある** を良い科学的実践である場合に役立ちます。
 
-A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
+バージョン管理システムは、変更履歴をきちんと保存し、誰が作成したかを確認します。アクセスはまだ簡単です。 作業ディレクトリは以前のバージョンの破片で混乱してない 念のために必要なものだ 同様に、バージョンコントロールを使用します。 もう一度古いバージョンに戻る必要があるなら、コメントを残す必要はありません。
 
 
-Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other's work. It allows the changes made by different people to be tracked and can automatically combine people's work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as {ref}`GitHub<cl-github-novice-motivation>` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
+最後に、バージョン管理は、異なる人々が同じコードで同時に作業し、お互いの作業を基に構築するコラボレーションプロジェクトにとって非常に貴重です。 これにより、さまざまな人々によって行われた変更を追跡することができ、手動で行うために多大な労力を節約しながら、人々の作業を自動的に組み合わせることができます。 あなたの研究プロジェクトにバージョン管理を使用することは、あなたの仕事が完全に透明であることを意味します。 すべての行動が記録されているので他の人が研究を再現できるようになります さらに、 {ref}`GitHub<cl-github-novice-motivation>` のようなバージョン管理ホスティングサービスは、より構造化された方法でコミュニケーションとコラボレーションを行う方法を提供します。 例えば、プルリクエスト、コードレビュー、課題など。

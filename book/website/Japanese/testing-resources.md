@@ -1,64 +1,64 @@
-# Further Recommendations
+# その他の推奨
 
-Try reading the chapter on reproducible computational environments and then the chapter on continuous integration. The chapter on reviewing outlines how you can further strengthen your code base by adding a formal reviewing stage to your development workflow.
+再現可能な計算環境の章を読んでから、連続的な統合についての章を読んでみてください。 開発ワークフローに正式なレビューステージを追加することで、コードベースをさらに強化する方法について概説します。
 
-[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) has a number of useful tutorials related to testing, as does the [Turing Institute](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). It is also worth looking at [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com).
+[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) には、 [Teuring Institute](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) と同様に、テストに関連する多くの有用なチュートリアルがあります。 また、 [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com) を見る価値があります。
 
-## Materials used: How this will help you/ why this is useful
+## 使用される材料: これがあなたを助ける方法/これが有用である理由
 
 - [Talk by Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**](https://chryswoods.com/main/copyright.html)
-- [Turing testing course basics](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Creative Commons share and remix**
+- [チューリングテストコースの基本](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Creative Commons share and remix**
 - [SSI blog](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License.**
 
-## Materials used: General guidance and good practice for testing
+## 使用される材料: 一般的なガイダンスとテスト
 
-- [SSI blog on testing software](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License.**
-- [Turing testing course](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Creative Commons share and remix**
-- [Mocking](https://www.vogella.com/tutorials/Mockito/article.html) **Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE)**
-- [Testing with floating points](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- [テストソフトウェアに関するSSI ブログ](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commons 2.5 License.**
+- [チューリングテストコース](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Creative Commons share and remix**
+- [Mocking](https://www.vogella.com/tutorials/Mockito/article.html) **Attribution-NonCommercial-ShareAlike 3.0 ドイツ (CC BY-NC-SA 3.0 DE)**
+- [浮動小数点数でテスト](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
 
-## Materials used: Types of tests
+## 使用される材料: テストの種類
 
-- [Software testing fundamentals: levels of tests](http://softwaretestingfundamentals.com/software-testing-levels/) **Copyleft - 2019 STF**
+- [ソフトウェアテストの基礎: テスト](http://softwaretestingfundamentals.com/software-testing-levels/) **Copyleft - 2019 STF**
 
-## Materials used: Smoke testing
+## 使用材料: 煙テスト
 
-- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
-## Materials used: Unit testing
+## 使用材料: ユニットテスト
 
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
-- [Software testing fundamentals: unit tests](http://softwaretestingfundamentals.com/unit-testing/) **Copyleft - 2019 STF**
+- [継続的統合の紹介](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [ソフトウェアテストの基礎: ユニットテスト](http://softwaretestingfundamentals.com/unit-testing/) **Copyleft - 2019 STF**
 
-## Materials used: Integration testing
+## 使用されている材料: 統合テスト
 
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
-- [Software testing fundamentals: integration testing](http://softwaretestingfundamentals.com/integration-testing/) **Copyleft - 2019 STF**
+- [継続的統合の紹介](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [ソフトウェアテストの基礎: 統合テスト](http://softwaretestingfundamentals.com/integration-testing/) **Copyleft - 2019 STF**
 
-## Materials used: System testing
+## 使用された材料: システムテスト
 
-- [Software testing fundamentals: system testing](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [ソフトウェアテストの基礎: システムテスト](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
+- [継続的統合の紹介](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
-## Materials used: Acceptance testing
-- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+## 使用される材料: 受け入れ試験
+- [継続的統合の紹介](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
-## Materials used: Regression testing
+## 使用された材料: 回帰試験
 
-- [Sound software](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License**
-- [Software testing fundamentals regression testing](http://softwaretestingfundamentals.com/regression-testing/) **Copyleft**
-- [Examples of Regression Testing by Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **Creative Commons Attribution-ShareAlike License 2.0**
-- [Adopting automated testing](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- [サウンドソフトウェア](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 ライセンス**
+- [ソフトウェアテストの基礎 回帰テスト](http://softwaretestingfundamentals.com/regression-testing/) **Copyleft**
+- [Cem Karner による回帰テストの例](http://www.testingeducation.org/k04/RegressionExamples.htm) **Creative Commons Attribution-ShareAlike License 2.0**
+- [自動テストの採用](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
 
-## Materials used: Runtime testing
+## 使用された材料: ランタイムテスト
 
 - [Talk by Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**](https://chryswoods.com/main/copyright.html)
 
-## Materials used: Test driven development
+## 使用する材料: テスト駆動開発
 
-- [Testing your software](https://software.ac.uk/resources/guides/testing-your-software) **Creative Commons Attribution-NonCommercial 3.0 License.**
-- [Why bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License.**
+- [ソフトウェアのテスト](https://software.ac.uk/resources/guides/testing-your-software) **Creative Commons Attribution-NonCommercial 3.0 License**
+- [気になる理由](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License**
 
-## Materials used: glossary
+## 使用された材料: 用語集
 
-- [Netherlands eScience centre](https://guide.esciencecenter.nl/best_practices/testing.html) **Creative Commons Attribution 4.0 International License**
+- [オランダ eScience Center](https://guide.esciencecenter.nl/best_practices/testing.html) **Creative Commons Attribution 4.0 International License**

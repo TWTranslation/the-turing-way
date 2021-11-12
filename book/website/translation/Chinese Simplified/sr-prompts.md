@@ -1,49 +1,49 @@
-(er-self-reflection-promts)=
-# Self Reflection Prompts
+(er-sel-reflection-promts)=
+# 自我反射提示
 
-Reflexivity is the process of using self-reflection to understand ourselves and our beliefs, and how these influence how we create knowledge through our work in data science. There are lots of different aspects you could consider, and the questions below are some prompts to help get you started.
+反弹是利用自我反省来理解我们自己和我们的信仰的过程。 以及这些如何影响我们如何通过我们在数据科学方面的工作创造知识。 您可以考虑许多不同的方面，下面的问题是一些提示来帮助您开始操作。
 
-## Questions about my own identity
+## 关于我自己身份的问题
 
-- What is considered ethical in my culture that other cultures may see differently?
-- What are my own {ref}`Social Graces<er-self-reflection-social-graces>`?
-- How have my Social Graces shaped my experiences of life?
-- How have my Social Graces shaped the decisions that have led me to do what I do now?
-- What are the Social Graces of my family and friends?
-  - Are there Social Graces where we vary a lot/little?
+- 在我的文化中，其他文化可能会看到不同的道德观念是什么？
+- 我自己的 {ref}`社交之星<er-self-reflection-social-graces>`？
+- 我的社会阵营如何塑造我的生活经历？
+- 我的社会阶级是如何决定导致我现在做什么呢？
+- 我的家庭和朋友的社会阵营是什么？
+  - 是否有社会极限变化？
 
-## Questions about my research environment
+## 关于我的研究环境的问题
 
-- What are the shared values of my lab? My department? My university?
-- Who is visibly present in my department? Who isn't?
-    - What understanding do I have of why that is, and how have I formed this understanding?
-- What do I know about the visible and invisible Social Graces of people in my department or field?
-- How do the people who work in my field represent the people our work serves?
-  - How do I relate to the people I am trying to serve with my work?
+- 我实验室的共同价值是什么？ 我的部门？ 我的大学吗？
+- 我的部门有谁明显存在？ 谁不是？
+    - 我对为什么会有什么理解，以及我是如何达成这种理解的？
+- 我知道我的部门或领域中人们可见和无形的社会阵营的情况是什么？
+- 在我的领域工作的人如何代表我们的工作服务对象？
+  - 我如何与我想要为我工作服务的人联系？
 
-## Questions about my relationship to knowledge
+## 关于我与知识的关系的问题
 
-- What types of knowledge do I value?
-- Am I more convinced by a certain type of data over another - why is that?
-- Are there certain people I am more likely to believe, or find convincing?
-- What type of data presentation do I find convincing?
-- What type of statistics do I view as more robust (and why)?
-- What checks do I think data and analysis need to go through to be considered robust?
-- What are my views on qualitative data vs. quantitative data?
+- 我珍视哪些类型的知识？
+- 我是否更加相信某种类型的数据，而不是另一种数据？
+- 我是否更有可能相信或找到令人信服的某些人？
+- 我认为有说服力的数据列报方式是何种？
+- 我认为何种类型的统计数据更加可靠（以及为什么如此）？
+- 我认为数据和分析需要进行什么样的检查才能被认为是有力的？
+- 我对定性数据与定量数据有何看法？
 
-## Questions about my relationship to my research topic
+## 关于我与我的研究主题关系的问题
 
-- What do I believe are 'truths' about the concept I study?
-    - What evidence do I base those truths on? Who developed this evidence?
-- Who do I most commonly cite in my research area, and how are their perspectives similar or different to mine?
--  Whose perspectives are important in answering this research topic?
-- Am I the best person to answer this question - what might I be missing?
+- 我认为我所研究的概念是什么“真理”？
+    - 我以什么证据作为这些真理的依据？ 谁制定了这一证据？
+- 我在研究领域最常提到的是谁，他们的观点与我的观点如何类似或不同？
+-  在回答这个研究题目时，谁的观点很重要？
+- 我是回答这个问题的最好人吗？
 
-## Questions about my data
+## 关于我的数据的问题
 
-- Who isn't included in the data I have collected or reusing an existing dataset?
-- When and where was this data created?
-- What were the dominant beliefs at the time?
-- What do you know about the people who created this data?
+- 谁没有包含在我收集到的数据或重新使用现有数据集？
+- 数据是在何时和何处生成的？
+- 当时占主导地位的信仰是什么？
+- 您对创建此数据的人知道什么？
 
-Note, if you are creating a dataset and would like to record this information about your data for future users, consider using 'Datasheets for Datasets' {cite:ps}`gebru2018datasheets` as a guide. 
+注意，如果您正在创建一个数据集并想要为未来用户记录有关您数据的信息。 考虑使用 '数据表' {cite:ps}`getru2018数据表` 作为指南。 

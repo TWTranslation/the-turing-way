@@ -1,0 +1,12 @@
+# デモノートブックの要件
+# MyBinder設定に便利です
+pandas==1.0.5
+numpy==1.19.0
+matplotlib==3.2.2
+データサイエンス(datascience)
+folium
+jupyter-book==0.11.2
+sphinxcontrib-bibtex~=2.2.0
+sphinx-click
+sphinx_inline_tabs
+sphinxext-rediraffe~=0.2.3

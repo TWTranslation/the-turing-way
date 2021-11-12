@@ -1,49 +1,49 @@
-(er-self-reflection-promts)=
-# Self Reflection Prompts
+(er-auto-reflet-promts)=
+# Demandes d'auto-réflexion
 
-Reflexivity is the process of using self-reflection to understand ourselves and our beliefs, and how these influence how we create knowledge through our work in data science. There are lots of different aspects you could consider, and the questions below are some prompts to help get you started.
+La flexivité est le processus consistant à utiliser l'auto-réflexion pour nous comprendre nous-mêmes et nos croyances, et comment elles influent sur la façon dont nous créons la connaissance grâce à notre travail en science des données. Il y a beaucoup d'aspects différents que vous pourriez prendre en considération, et les questions ci-dessous sont des incitations pour vous aider à démarrer.
 
-## Questions about my own identity
+## Questions sur ma propre identité
 
-- What is considered ethical in my culture that other cultures may see differently?
-- What are my own {ref}`Social Graces<er-self-reflection-social-graces>`?
-- How have my Social Graces shaped my experiences of life?
-- How have my Social Graces shaped the decisions that have led me to do what I do now?
-- What are the Social Graces of my family and friends?
-  - Are there Social Graces where we vary a lot/little?
+- Qu'est-ce qui est considéré comme éthique dans ma culture que d'autres cultures peuvent voir différemment?
+- Que sont mes propres {ref}`Grâces Sociales<er-self-reflection-social-graces>`?
+- Comment mes Grâces Sociales ont-elles façonné mes expériences de vie?
+- Comment mes Grâces Sociales ont-elles façonné les décisions qui m'ont amené à faire ce que je fais maintenant?
+- Quelles sont les Grâces Sociales de ma famille et de mes amis?
+  - Existe-t-il des Grâces Sociales où nous varions beaucoup ou peu ?
 
-## Questions about my research environment
+## Questions sur mon environnement de recherche
 
-- What are the shared values of my lab? My department? My university?
-- Who is visibly present in my department? Who isn't?
-    - What understanding do I have of why that is, and how have I formed this understanding?
-- What do I know about the visible and invisible Social Graces of people in my department or field?
-- How do the people who work in my field represent the people our work serves?
-  - How do I relate to the people I am trying to serve with my work?
+- Quelles sont les valeurs partagées de mon laboratoire ? Mon service ? Mon université?
+- Qui est visiblement présent dans mon service? Qui ne l'est pas?
+    - Quelle compréhension ai-je de ce qui est en cause, et comment ai-je formé cette entente?
+- Que puis-je savoir des Grâces Sociales visibles et invisibles des personnes de mon département ou de mon domaine?
+- Comment les personnes qui travaillent dans mon domaine représentent-elles les personnes que notre travail sert?
+  - Comment puis-je communiquer avec les personnes que j'essaie de servir avec mon travail?
 
-## Questions about my relationship to knowledge
+## Questions sur ma relation avec la connaissance
 
-- What types of knowledge do I value?
-- Am I more convinced by a certain type of data over another - why is that?
-- Are there certain people I am more likely to believe, or find convincing?
-- What type of data presentation do I find convincing?
-- What type of statistics do I view as more robust (and why)?
-- What checks do I think data and analysis need to go through to be considered robust?
-- What are my views on qualitative data vs. quantitative data?
+- Quels types de connaissances ai-je de valeur?
+- Suis-je plus convaincu par un certain type de données par rapport à une autre - pourquoi ?
+- Y a-t-il certaines personnes que je suis plus susceptible de croire, ou que je trouve convaincante?
+- Quel type de présentation de données puis-je trouver convaincant?
+- Quel type de statistiques puis-je considérer comme plus robuste (et pourquoi)?
+- Quels sont les contrôles que je pense que les données et les analyses doivent passer pour être considérées comme robustes?
+- Quelles sont mes opinions sur les données qualitatives par rapport aux données quantitatives?
 
-## Questions about my relationship to my research topic
+## Questions sur ma relation avec mon sujet de recherche
 
-- What do I believe are 'truths' about the concept I study?
-    - What evidence do I base those truths on? Who developed this evidence?
-- Who do I most commonly cite in my research area, and how are their perspectives similar or different to mine?
--  Whose perspectives are important in answering this research topic?
-- Am I the best person to answer this question - what might I be missing?
+- Que sont selon moi des "vérités" sur le concept que j'étudie ?
+    - Sur quelles preuves dois-je baser ces vérités? Qui a développé cette preuve?
+- Qui puis-je citer le plus souvent dans mon domaine de recherche et en quoi leurs perspectives sont-elles similaires ou différentes de la mienne?
+-  Quels sont les points de vue importants pour répondre à ce sujet de recherche?
+- Suis-je la meilleure personne pour répondre à cette question - que puis-je manquer?
 
-## Questions about my data
+## Questions sur mes données
 
-- Who isn't included in the data I have collected or reusing an existing dataset?
-- When and where was this data created?
-- What were the dominant beliefs at the time?
-- What do you know about the people who created this data?
+- Qui n'est pas inclus dans les données que j'ai collectées ou que je réutilise un jeu de données existant?
+- Quand et où ces données ont-elles été créées ?
+- Quelles étaient les croyances dominantes à l'époque?
+- Que savez-vous des personnes qui ont créé ces données ?
 
-Note, if you are creating a dataset and would like to record this information about your data for future users, consider using 'Datasheets for Datasets' {cite:ps}`gebru2018datasheets` as a guide. 
+Notez que si vous créez un jeu de données et que vous souhaitez enregistrer ces informations à propos de vos données pour les futurs utilisateurs, envisagez d'utiliser comme guide les 'Fiches de données pour les jeux de données' {cite:ps}`feuilles de données`. 

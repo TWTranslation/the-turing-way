@@ -1,52 +1,52 @@
 (rr-vcs-git)=
-# Getting Started with Git
+# Git 入門
 
-To get started, please make sure that your have Git installed on your computer. Instructions for installing Git on Linux, Windows and Mac machines are available [here](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git). Once the installation is complete, go to your project directory via terminal or command-line interface (for example, `cd my-project-folder`). Your project folder contains all of your files, including subdirectories.
+始めるには、Gitがコンピュータにインストールされていることを確認してください。 Linux、Windows、MacマシンにGitをインストールするための手順はこちら [](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git) でご覧いただけます。 インストールが完了したら、ターミナルまたはコマンドラインインターフェースを介してプロジェクトディレクトリに移動します (例: `cd my-project-folder`)。 プロジェクトフォルダにはサブディレクトリを含むすべてのファイルが含まれています。
 
-When working on a project, you will make numerous changes to your files as you progress. Sometimes you may need to undo changes, take another look at past versions, or compare versions. Saving each version individually (such as `version_1.py` and `version_2.py`) is messy and quickly becomes impractical.
+プロジェクトで作業すると、進行中にファイルに多数の変更が加えられます。 場合によっては、変更を取り消したり、過去のバージョンを再確認したり、バージョンを比較したりする必要があるかもしれません。 それぞれのバージョン( `version_1.py` や `version_2.py`など)を個別に保存するのは厄介で、すぐに実用的ではありません。
 
-Commits serve as checkpoints where individual files or an entire project can be safely reverted to when necessary. By making commits, you can save versions of your code and switch between them/compare them easily without cluttering up your directory.
+コミットは、個々のファイルまたはプロジェクト全体を必要に応じて安全に元に戻すことができるチェックポイントとして機能します。 コミットを行うことで、コードのバージョンを保存し、ディレクトリを乱雑にすることなく簡単にそれらを比較/切り替えることができます。
 
-To get started with your Git repository, run the following Git command in the terminal to create/initialise your Git repository:
+Git リポジトリを使用するには、以下の Git コマンドをターミナルで実行して、Git リポジトリを作成/初期化します。
 
 ```
 git init
 ```
 
-This only needs to be done once per project.
+これはプロジェクトごとに一度だけ行う必要があります。
 
-Think of the repository as a place where the history is being stored. When you first initialise a repository with `git init`, all of the files in your project would not be added to the Git repository as they are  untracked by Git by default. Therefore, the next step is to add your files to the Git repository and allow Git to track them.
+リポジトリは歴史が保存されている場所だと考えてください。 `git init`でリポジトリを初期化するとき。 プロジェクト内のすべてのファイルがGitリポジトリに追加されることはありません。Gitはデフォルトで追跡されないためです。 したがって、次のステップは、Gitリポジトリにファイルを追加し、Gitがそれらを追跡できるようにすることです。
 
-Run the following command to add all files in the current folder:
+現在のフォルダ内のすべてのファイルを追加するには、次のコマンドを実行します。
 ```
 git add .
 ```
-OR run the following command to add only the files ('your_file_name' in this example):
+または以下のコマンドを実行して、ファイルのみを追加します(この例では'your_file_name')。
 ```
 git add your_file_name
 ```
 
-This command puts your newly added files or any other changes into what is called the "staging" state.
+このコマンドは、新しく追加されたファイルやその他の変更を「ステージング」状態にします。
 
 ```{figure} ../../figures/change-stage-repo.png
 ---
 name: change-stage-repo
-alt: An illustration of the `git add` and git commit Commands.
+alt: `git add` と git commit Commands.
 ---
-How `git add` and `git commit` works
+`git add` と `git commit` の仕組み
 ```
 
-If you are ever unsure what files have been added, what files have been changed, or what files are untracked, you can run the following to find out:
+どのファイルが追加されたかがわからない場合は、どのファイルが変更されています。 追跡されていないファイルは、次のように実行できます。
 
 ```
 git status
 ```
 
-The next step is to "commit" any changes stored in your staging area so that they are recorded in your repository.
+次のステップは、ステージングエリアに保存された変更を「コミット」し、リポジトリに記録することです。
 
 ```
 git commit
 ```
-Congratulations, you have finished setting up your repository!
+おめでとうございます。リポジトリの設定が完了しました！
 
-You will learn more about `git commit` in the next chapter.
+`git commit` については、次の章で学びます。

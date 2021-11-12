@@ -1,0 +1,12 @@
+# 演示笔记本的要求
+# MyBinder配置很有用。
+pandas=1.0.5
+numpy==1.19.0
+matplotlib==3.2.2
+达塔斯科学
+folium
+jupyter书==0.11.2
+sphinxcontrib-bibtex~=2.2.0
+sphinx-click
+sphinx_inline_tabs
+sphinxext-rediraffe~=0.2.3

@@ -1,49 +1,49 @@
 (er-self-reflection-promts)=
-# Self Reflection Prompts
+# 自己反射のプロンプト表示
 
-Reflexivity is the process of using self-reflection to understand ourselves and our beliefs, and how these influence how we create knowledge through our work in data science. There are lots of different aspects you could consider, and the questions below are some prompts to help get you started.
+柔軟性とは自己反射を使って自分自身と私たちの信念を理解するプロセスです データサイエンスの研究を通じて知識を生み出す方法に影響を与えているのです あなたが考慮することができるさまざまな側面がたくさんあり、以下の質問はあなたが始めるのを助けるためのいくつかのプロンプトです。
 
-## Questions about my own identity
+## 自分の身元に関する質問
 
-- What is considered ethical in my culture that other cultures may see differently?
-- What are my own {ref}`Social Graces<er-self-reflection-social-graces>`?
-- How have my Social Graces shaped my experiences of life?
-- How have my Social Graces shaped the decisions that have led me to do what I do now?
-- What are the Social Graces of my family and friends?
-  - Are there Social Graces where we vary a lot/little?
+- 他の文化が異なって見るかもしれない、私の文化において、何が倫理的であると考えられますか?
+- 自分の {ref}`ソーシャルグレイス<er-self-reflection-social-graces>` とは何ですか？
+- 私の社会的恵みは、私の人生の経験をどのように形作ってきましたか?
+- 私の社会的恩寵は、私が今していることを行うために私を導いた決断をどのように形作ってきましたか?
+- 家族や友人の社会恩寵とは何ですか。
+  - 私達が多く/少し変わる社会の恵みがあるか。
 
-## Questions about my research environment
+## 研究環境に関する質問
 
-- What are the shared values of my lab? My department? My university?
-- Who is visibly present in my department? Who isn't?
-    - What understanding do I have of why that is, and how have I formed this understanding?
-- What do I know about the visible and invisible Social Graces of people in my department or field?
-- How do the people who work in my field represent the people our work serves?
-  - How do I relate to the people I am trying to serve with my work?
+- 私の研究室の共有価値とは何ですか? 私の部署ですか？ 私の大学ですか。
+- 誰が目に見えて私の部門に存在していますか? 誰がそうではありませんか？
+    - 私には何を理解することができ、どのように理解することができるのでしょうか?
+- 自分の部門や分野の人々の目に見える目に見えない社会的恵みについて、私は何を知っていますか?
+- 私の分野で働く人々は、私たちの仕事をする人々をどのように表しているのでしょうか?
+  - 自分の仕事に奉仕しようとしている人たちとは、どのように関連付けるのでしょうか?
 
-## Questions about my relationship to knowledge
+## 知識との関係に関する質問
 
-- What types of knowledge do I value?
-- Am I more convinced by a certain type of data over another - why is that?
-- Are there certain people I am more likely to believe, or find convincing?
-- What type of data presentation do I find convincing?
-- What type of statistics do I view as more robust (and why)?
-- What checks do I think data and analysis need to go through to be considered robust?
-- What are my views on qualitative data vs. quantitative data?
+- 私はどのような知識を大切にしていますか?
+- 私は別のタイプのデータによってもっと確信しているでしょうか?なぜでしょうか?
+- 私がもっと信じる人、または説得力がある人はいますか?
+- 私はどのような種類のデータプレゼンテーションを得ることができますか?
+- どのような種類の統計がより堅牢であると考えていますか(そしてなぜですか)。
+- ロバスト性を考慮するためには、データと分析はどのようなチェックを通過する必要があると思いますか?
+- 定性的データと定量的データに対する私の見解は何ですか?
 
-## Questions about my relationship to my research topic
+## 研究テーマとの関係についての質問
 
-- What do I believe are 'truths' about the concept I study?
-    - What evidence do I base those truths on? Who developed this evidence?
-- Who do I most commonly cite in my research area, and how are their perspectives similar or different to mine?
--  Whose perspectives are important in answering this research topic?
-- Am I the best person to answer this question - what might I be missing?
+- 私が研究している概念についての「真実」とは何でしょうか?
+    - 私はどのような証拠を根拠にしていますか? 誰がこの証拠を開発したのでしょうか。
+- 私の研究分野で最も一般的に言及しているのは誰でしょうか、そして彼らの視点は私の視点とどのように似ているのでしょうか?
+-  この研究テーマに答える上で、誰の視点が重要なのでしょうか?
+- 私はこの質問に答えるのに最適な人でしょうか?何が欠けているのでしょうか?
 
-## Questions about my data
+## 自分のデータに関する質問
 
-- Who isn't included in the data I have collected or reusing an existing dataset?
-- When and where was this data created?
-- What were the dominant beliefs at the time?
-- What do you know about the people who created this data?
+- 収集したデータまたは既存のデータを再利用したデータに含まれないのは誰ですか?
+- このデータはいつ、どこで作成されたのでしょうか?
+- 当時の支配的な信念は何でしたか?
+- このデータを作成した人々について、あなたは何を知っていますか?
 
-Note, if you are creating a dataset and would like to record this information about your data for future users, consider using 'Datasheets for Datasets' {cite:ps}`gebru2018datasheets` as a guide. 
+データセットを作成し、将来のユーザーのためにあなたのデータに関するこの情報を記録したい場合に注意してください。 'Datasheets for Datasets' {cite:ps}`gebru2018datasheets` をガイドとして使用することを検討してください。 

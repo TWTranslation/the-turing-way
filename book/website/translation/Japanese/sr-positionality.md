@@ -1,33 +1,33 @@
 (er-self-reflection-identity-positionality)=
-# Identity and positionality
+# アイデンティティと位置性
 
-Traditional science training may lead us to believe that it is possible to analyse and interpret data objectively. This tends to be because most sciences, and data, are often seen as being inherently neutral. However, we know now that the way data is collected, recorded and used can create significant problems for fairness, accountability and bias in data science systems. For example, we might choose training data for a model without thinking to consider whether it is representative in a particular way, or we might not consider whether a data visualisation is accessible to people with color blindness.
+従来の科学のトレーニングでは、データを客観的に分析し解釈することが可能であると考えられるかもしれません。 これは、ほとんどの科学やデータが本質的に中立的であると見なされることが多いため、傾向があります。 しかし、データの収集方法が分かりました 記録され使用されると、データサイエンスシステムの公平性、説明責任、偏見に大きな問題が生じる可能性があります。 例えば、モデルが特定の方法で代表的かどうかを考慮せずに、モデルのトレーニングデータを選択できます。 色覚障害のある人がデータを可視化できるかどうかは考慮しないでしょう
 
-Some schools of thought say that true objectivity is impossible because every person comes with their own lived experiences. This provides the lenses through which we see the world and influences the way we behave, including how we do research. These could be 'macro' influences like our motivations to address a particular problem, or 'micro' like the way we numerically represent a social concept.  
-While there are lots of benefits to the individual ways we all experience the world, the single view each person takes can also embed unseen biases into how we think and work.
+思考のいくつかの流派は、真の客観性は不可能であると言います, なぜなら、すべての人は、自分自身の生きた経験と一緒に来るからです. これにより私たちは世界を見ることができ、私たちの行動に影響を与えます。 これらは、特定の問題に対処するための私たちの動機のような「マクロ」の影響、あるいは社会的概念を数値的に表現する方法と同じような「micro」である可能性があります。  
+私たちが世界を経験する個々の方法には多くの利益があります。 それぞれの人がとる単一の見方も我々の考え方や仕事に未知の偏見を埋め込むことができます
 
-By better understanding ourselves, we can be more proactive about spotting where we might hold biases or gaps in our knowledge. This means we can be transparent about how our unique view has influenced the way we work, which is beneficial to scientific integrity and reproducibility. It can also help us to identify and work against systemic and structural barriers that might otherwise go unchallenged, in order to make our research environments more inclusive (see {ref}`Activism<er-activism>`).
+自分自身をよりよく理解することにより、知識の偏りやギャップをどこに持っているかをより積極的に見つけることができます。 このことは、私たちの独自の見解が私たちの働き方にどのように影響を与えているかを明らかにすることができることを意味します。これは科学的完全性と再現性に有益です。 それはまた、そうでなければ挑戦されないかもしれない全身的で構造的な障壁を特定し、取り組むのに役立ちます。 研究環境をより包括的にするために( {ref}`Activism<er-activism>` を参照してください)。
 
-The placement of our identities, socio-cultural position and epistemological approach [{term}`def<Epistemology>`] to knowledge in the context of our research is called our *positionality*. We can understand our positionality through the practice of *reflexivity*, which is the process of using *self-reflection* [{term}`def<Self Reflection>`] to better understand how our identities and experiences influence the way we behave in our work.
+アイデンティティの配置 私たちの研究の文脈における知識に対する社会文化的位置と認識論的アプローチ[{term}`def<Epistemology>`]は、私たちの *位置性* と呼ばれています。 We can understand our positionality through the practice of *reflexivity*, which is the process of using *self-reflection* [{term}`def<Self Reflection>`] to better understand how our identities and experiences influence the way we behave in our work.
 
 (er-self-reflection-social-graces)=
-## Understanding ourselves
+## 自分自身を理解する
 
-Self-reflection and reflexivity can be challenging, and takes time and practice to feel natural. To be most effective, they should be employed throughout our work and will never be 'finished' as we constantly change and so does the world around us.
+自己反射と反射は難しいことができ、自然を感じるために時間と練習がかかります。 最も効果的であるために。 彼らは私たちの仕事を通じて採用されるべきであり、決して私たちが常に変化し、私たちの周りの世界もそうするように、「完了」されることはありません。
 
-In order to help get started, there are lots of frameworks that can be used as a guide. One of these is called the 'Social Graces', which was developed by psychotherapists John Burnham, Alison Roper-Hall and colleagues in the 1990s {cite:ps}`burnham2018developments`.
+始めるのを助けるために、ガイドとして使えるフレームワークがたくさんあります。 これらの一つは、心理療法士ジョン・バーナムによって開発された「社会の恵み」と呼ばれています。 Alison Roper-Hallたちは、1990年代の {cite:ps}`burnham2018developments` の研究者である。
 
-The Social Graces are a mnemonic to help cover aspects of identity that affect our power and privilege. They are not fixed and you can choose the most relevant ones, or add more. The idea of the Social Graces was to explicitly name power differentials, which might be visible or invisible in our interactions.
+社会的恩寵は、私たちの力と特権に影響を与えるアイデンティティの側面をカバーするためのニーモニックです。 それらは固定されておらず、最も関連性の高いものを選択したり、さらに追加することができます。 社会的恩寵の考え方は明示的に権力差異を名付けることでした それは私たちの相互作用において 目に見えるかもしれませんし 見えないかもしれません
 
 - **G** = Gender, Geography
-- **R** = Race, Religion
-- **A** = Age, Ability, Appearance
-- **C** = Class, Culture
-- **E** = Ethnicity, Education, Employment
-- **S** = Sexuality, Sexual Orientation, Spirituality
+- **R** = レース, 宗教
+- **A** = 年齢, 能力, 外観
+- **C** = クラス, 文化
+- **E** = 民族性, 教育, <unk>
+- **S** = セクシュアリティ, 性的オリエンテーション, 霊性
 
-The Graces are a helpful place to start thinking about your intersecting identities.
+グレースはあなたの交差するアイデンティティについて考え始めるのに役立つ場所です。
 
-It can also be helpful to ask:
-- Which of the Social Graces do I particularly identify with? Are there some that stood out to me right away?
-- Which Social Graces did not stand out to me, and why might that be? 
+以下の質問にも役立ちます。
+- 特に社会的恩寵の中で私はどのようなものを選びますか? 私がすぐに目立ったものはありますか?
+- 私にとって社会的恵みが際立っていなかったのは、なぜでしょうか? 

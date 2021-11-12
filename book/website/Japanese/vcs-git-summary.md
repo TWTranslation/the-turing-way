@@ -1,22 +1,22 @@
 (rr-vcs-git-summary)
-# Summary Table of Git Commands
+# Git コマンドの概要
 
-| Command                         | Use                                                                          |
-| ------------------------------- | ---------------------------------------------------------------------------- |
-| `git init`                      | Initialises a Git repository in that directory                               |
-| `git add .`                     | Adds all changes to the staging area to be committed                         |
-| `git add file_name`             | Adds changes to the specified file to the staging area to be committed       |
-| `git commit`                    | Commits staged changes and allows you to write a commit message              |
-| `git checkout SHA`              | Checks out a past commit with the given SHA                                  |
-| `git checkout SHA -- file_name` | Checks out the past version of a file from the commit with the given SHA     |
-| `git checkout -b branch_name`   | Creates and switches to a new branch                                         |
-| `git checkout branch_name`      | Switches to the specified branch                                             |
-| `git merge branch_name`         | Merges the branch you are on into the specified branch                       |
-| `git log`                       | Outputs a log of past commits with their commit messages                     |
-| `git status`                    | Outputs status, including what branch you are on and what changes are staged |
-| `git diff`                      | Outputs the differences between the working directory and most recent commit |
-| `git diff thing_a thing_b`      | Outputs the differences between two things, such as commits and branches     |
-| `git clone URL`                 | Makes a clone of the repository at the specified URL                         |
-| `git remote add origin URL`     | Links a local repository and an online repository at the specified URL       |
-| `git push origin branch_name`   | Pushes local changes to the specified branch of the online repository        |
-| `git pull origin branch_name`   | Pull changes from the online repository into local repository                |      
+| (Command)                       | 使用                                           |
+| ------------------------------- | -------------------------------------------- |
+| `git init`                      | そのディレクトリ内の Git リポジトリを初期化します                  |
+| `git add .`                     | 反映されるステージング領域にすべての変更を追加します                   |
+| `git add file_name`             | 反映するステージング領域に指定されたファイルに変更を追加します。             |
+| `git commit`                    | ステージングされた変更をコミットし、コミットメッセージを書くことができます        |
+| `git checkout SHA`              | 指定されたSHAを使って過去のコミットをチェックする                   |
+| `git checkout SHA -- file_name` | 指定されたSHAを使用してコミットからファイルの過去のバージョンをチェックする      |
+| `git checkout -b branch_name`   | 新しいブランチを作成し、切り替えます                           |
+| `git checkout branch_name`      | 指定したブランチに切り替える                               |
+| `git merge ブランチ_name`           | 指定したブランチにあなたがいるブランチをマージします。                  |
+| `git ログ`                        | コミットメッセージで過去のコミットのログを出力します。                  |
+| `git status`                    | 出力ステータス（あなたがどのブランチにいるか、どの変更がステージングされているかを含む） |
+| `git diff`                      | 作業ディレクトリと最新のコミットの違いを出力します                    |
+| `git diff thing_a thing_b`      | コミットやブランチなどの2つの違いを出力します。                     |
+| `git clone URL`                 | 指定された URL のリポジトリのクローンを作成します                  |
+| `git remote add origin URL`     | 指定されたURLのローカルリポジトリとオンラインリポジトリをリンクします         |
+| `git push origin branch_name`   | オンラインリポジトリの指定されたブランチにローカル変更をプッシュします          |
+| `git pull origin branch_name`   | 変更をオンラインリポジトリからローカルリポジトリにプルします               |      

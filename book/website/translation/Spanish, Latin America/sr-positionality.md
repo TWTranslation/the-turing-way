@@ -1,33 +1,33 @@
-(er-self-reflection-identity-positionality)=
-# Identity and positionality
+(er-auto-reflexión-identidad-posicionalidad-de)=
+# Identidad y posicionalidad
 
-Traditional science training may lead us to believe that it is possible to analyse and interpret data objectively. This tends to be because most sciences, and data, are often seen as being inherently neutral. However, we know now that the way data is collected, recorded and used can create significant problems for fairness, accountability and bias in data science systems. For example, we might choose training data for a model without thinking to consider whether it is representative in a particular way, or we might not consider whether a data visualisation is accessible to people with color blindness.
+La formación tradicional en ciencias puede llevarnos a creer que es posible analizar e interpretar datos de forma objetiva. Esto tiende a ser porque a menudo se considera que la mayoría de las ciencias y datos son inherentemente neutrales. Sin embargo, ahora sabemos que la forma en que se recopilan los datos. grabado y utilizado puede crear problemas significativos para la equidad, la responsabilidad y el sesgo en los sistemas de ciencias de la información. Por ejemplo, podríamos elegir datos de formación para un modelo sin pensar si es representativo de un modo determinado. o podríamos no considerar si una visualización de datos es accesible para personas con ceguera de color.
 
-Some schools of thought say that true objectivity is impossible because every person comes with their own lived experiences. This provides the lenses through which we see the world and influences the way we behave, including how we do research. These could be 'macro' influences like our motivations to address a particular problem, or 'micro' like the way we numerically represent a social concept.  
-While there are lots of benefits to the individual ways we all experience the world, the single view each person takes can also embed unseen biases into how we think and work.
+Algunas escuelas de pensamiento dicen que la verdadera objetividad es imposible porque cada persona viene con sus propias experiencias vividas. Esto proporciona las lentes a través de las cuales vemos el mundo e influye en la forma en que nos comportamos, incluyendo cómo hacemos la investigación. Estas podrían ser influencias "macro" como nuestras motivaciones para abordar un problema en particular, o "micro" como la forma en que representamos numéricamente un concepto social.  
+Mientras que hay muchos beneficios en las formas individuales que todos experimentamos el mundo, la vista única que cada persona toma también puede incrustar sesgos no vistos en cómo pensamos y trabajamos.
 
-By better understanding ourselves, we can be more proactive about spotting where we might hold biases or gaps in our knowledge. This means we can be transparent about how our unique view has influenced the way we work, which is beneficial to scientific integrity and reproducibility. It can also help us to identify and work against systemic and structural barriers that might otherwise go unchallenged, in order to make our research environments more inclusive (see {ref}`Activism<er-activism>`).
+Al comprender mejor a nosotros mismos, podemos ser más proactivos a la hora de detectar dónde podríamos mantener sesgos o lagunas en nuestros conocimientos. Esto significa que podemos ser transparentes sobre cómo nuestra visión única ha influido en la forma en que trabajamos, lo que es beneficioso para la integridad científica y la reproducibilidad. También puede ayudarnos a identificar y trabajar contra barreras sistémicas y estructurales que, de lo contrario, podrían quedar sin desafíos. con el fin de hacer nuestros entornos de investigación más inclusivos (ver {ref}`Activismo<er-activism>`).
 
-The placement of our identities, socio-cultural position and epistemological approach [{term}`def<Epistemology>`] to knowledge in the context of our research is called our *positionality*. We can understand our positionality through the practice of *reflexivity*, which is the process of using *self-reflection* [{term}`def<Self Reflection>`] to better understand how our identities and experiences influence the way we behave in our work.
+La colocación de nuestras identidades, La posición cultural y el enfoque epistemológico [{term}`def<Epistemology>`] al conocimiento en el contexto de nuestra investigación se llama nuestra *posicionalidad*. Podemos entender nuestra posicionalidad a través de la práctica de *reflexividad*, que es el proceso de usar *auto-reflexión* [{term}`def<Self Reflection>`] para entender mejor cómo nuestras identidades y experiencias influyen en la forma en que nos comportamos en nuestro trabajo.
 
 (er-self-reflection-social-graces)=
-## Understanding ourselves
+## Entenderse a nosotros mismos
 
-Self-reflection and reflexivity can be challenging, and takes time and practice to feel natural. To be most effective, they should be employed throughout our work and will never be 'finished' as we constantly change and so does the world around us.
+La autoreflexión y la reflexividad pueden ser desafiantes, y toma tiempo y práctica para sentirse natural. Para ser más efectivo, deberían estar empleados durante todo nuestro trabajo y nunca estarán "terminados" a medida que cambiemos constantemente, al igual que el mundo que nos rodea.
 
-In order to help get started, there are lots of frameworks that can be used as a guide. One of these is called the 'Social Graces', which was developed by psychotherapists John Burnham, Alison Roper-Hall and colleagues in the 1990s {cite:ps}`burnham2018developments`.
+Para ayudar a empezar, hay muchos frameworks que pueden ser usados como guía. Uno de ellos se llama "Gracas Sociales", que fue desarrollado por los psicoterapeutas John Burnham, Alison Roper-Hall y colegas en el {cite:ps}`desarrollo de burnham2018` de 1990.
 
-The Social Graces are a mnemonic to help cover aspects of identity that affect our power and privilege. They are not fixed and you can choose the most relevant ones, or add more. The idea of the Social Graces was to explicitly name power differentials, which might be visible or invisible in our interactions.
+Las Gracias Sociales son una mnemónica para ayudar a cubrir aspectos de identidad que afectan nuestro poder y nuestro privilegio. No son fijas y usted puede elegir las más relevantes o añadir más. La idea de las Gracidades Sociales era nombrar explícitamente diferenciales de poder, que podrían ser visibles o invisibles en nuestras interacciones.
 
-- **G** = Gender, Geography
-- **R** = Race, Religion
-- **A** = Age, Ability, Appearance
-- **C** = Class, Culture
-- **E** = Ethnicity, Education, Employment
-- **S** = Sexuality, Sexual Orientation, Spirituality
+- **G** = Género, Geografía
+- **R** = raza, religión
+- **A** = edad, habilidad, apariencia
+- **C** = Clase, Cultura
+- **E** = Etnicidad, Educación, Empleo
+- **S** = Sexualidad, orientación sexual, espíritu
 
-The Graces are a helpful place to start thinking about your intersecting identities.
+Las Graces son un lugar útil para empezar a pensar en tus identidades intersectoriales.
 
-It can also be helpful to ask:
-- Which of the Social Graces do I particularly identify with? Are there some that stood out to me right away?
-- Which Social Graces did not stand out to me, and why might that be? 
+También puede ser útil preguntar:
+- ¿Con cuál de las Gracia Social me identifico particularmente? ¿Hay algunos que me destacaron enseguida?
+- ¿Qué Gracia Social no me destacó y por qué podría ser? 

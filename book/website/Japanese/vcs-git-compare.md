@@ -1,76 +1,76 @@
 (rr-vcs-git-compare)=
-# Retrieving and Comparing Versions
+# バージョンの取得と比較
 
 (rr-vcs-versions-retrieving)=
-## Retrieving Past Versions
+## 過去のバージョンを取得中
 
-To cancel your latest commit (revert to the previous version), run the following command:
+最新のコミット (前のバージョンに戻す) をキャンセルするには、次のコマンドを実行します。
 ```
-git revert HEAD
+git revert Head
 ```
 
-This command creates a new commit that reverts the changes made in the last version. If you want to retrieve a version from weeks or months ago, start by using `git log` to find the SHA of the version you want to retrieve. To reset your entire project to this version run the following commands:
+このコマンドは、前のバージョンで行われた変更を元に戻す新しいコミットを作成します。 数週間または数ヶ月前からバージョンを取得したい場合は、 `git log` を使用して、取得したいバージョンの SHA を見つけます。 プロジェクト全体をこのバージョンにリセットするには、次のコマンドを実行します。
 
 ```
 git checkout SHA_of_the_version
 ```
 
-If you want the old version of a single file and not the previous version of the entire project, you can do so by using the following command:
+プロジェクト全体の以前のバージョンではなく、単一のファイルの古いバージョンが必要な場合。 次のコマンドを使用することで行うことができます。
 
  ```
  git checkout SHA_of_the_version -- your_file_name
  ```
 
 (rr-vcs-versions-retrieving-practice)=
-### Good Practice
+### 良い練習
 
-Commits should be 'atomic', meaning that **they should do one simple thing and they should do it completely**. For example, an 'atomic' commit could be adding a new function or renaming a variable. If a lot of different changes to your project are all committed together, it can be hard to troubleshoot if any error appears in that version. Furthermore, undoing the whole commit may throw away valid and useful work.
+コミットは 'atomic' である必要があります。つまり、 **は簡単なことを一つする必要があり、完全に行う必要があります**。 例えば、'atomic' コミットは、新しい関数を追加したり、変数の名前を変更したりすることができます。 プロジェクトへの多くの変更がすべて一緒にコミットされている場合。 そのバージョンでエラーが発生した場合のトラブルシューティングは難しい場合があります。 さらに、コミット全体を元に戻すと、有効で有用な作業が捨てられる可能性があります。
 
-It is good practice to **specify the files to be committed**, that is, adding files to the staging area by name (`git add your_file_name`) rather than adding everything (`git add .`). This prevents you from unintentionally bundling different changes together. For example, if you have made a change to file A while primarily working on file B, you may have forgotten this when you go to commit. With `git add .`, file A would be brought along for the ride. If there are several *unrelated* changes that should not be added together in a *single* file, `git add -p your_file_name` will let you interactively chose which changes to add. That said, **you do not necessarily need to do per-file commits** when working on multiple files, but for one single problem. For example, if we add a figure to this chapter here, choosing one to catch the attention of someone skimming through:
+It is good practice to **specify the files to be committed**, that is, adding files to the staging area by name (`git add your_file_name`) rather than adding everything (`git add .`). これにより、意図せずに別の変更をまとめることができなくなります。 たとえば、主にファイル B で作業している間にファイル A に変更を加えた場合 あなたはこれを忘れたかもしれない あなたがコミットに行くとき。 `git add .`では、ファイル A がライド用に導入されます。 If there are several *unrelated* changes that should not be added together in a *single* file, `git add -p your_file_name` will let you interactively chose which changes to add. とはいえ、 **複数のファイルを扱う場合は必ずしもファイル毎のコミット** をする必要はありませんが、1つの問題があります。 例えば、ここでこの章に図を追加した場合、スキミング中の誰かの注意を引くものを選択します。
 
 ```{figure} ../../figures/flipped-taj-mahal.png
 ---
 name: flipped-taj-mahal
-alt: A flipped photograph of the Taj Mahal to grab the reader's attention.
+alt: 読者の注意を引くためにタージ・マハルをひっくり返した写真。
 ---
-Flipped Taj Mahal
+タージ・マハルを反転させた
 ```
 
-two files are changed:
+2つのファイルが変更されました:
 
-1. First, the figure file is added in the project repository.
-2. Then, a line is added in this file that references the figure, so it is displayed.
+1. まず、図ファイルがプロジェクト・リポジトリに追加されます。
+2. 次に、このファイルに図を参照する行が追加されるので、図が表示されます。
 
-So two files are affected, but "Add figure to version control chapter" is a single, *atomic* unit of work, so only one commit is necessary.
+したがって、2つのファイルが影響を受けますが、「バージョン管理チャプターに図を追加」は単一です。 *原子* 作業単位なので、1つのコミットしか必要ありません。
 
-Finally, do not commit anything that is regenerated from other files committed in a version (unless it is something that would take hours to regenerate). Generated files, such as scripts, clutter up your repository and may contain features such as timestamps that can cause annoying file conflicts (see {ref}`rr-vcs-git-merge`). You can instruct Git to ignore certain files by creating a file called `.gitignore` and including names of the file that you do not need to store in your Git repository. For example, configuration files that might change from environment to environment should be ignored.
+最後に、バージョンでコミットされた他のファイルから再生成されたものをコミットしないでください (再生成に数時間かかるものでない限り)。 スクリプトなどの生成されたファイル リポジトリを混乱させ、迷惑なファイルの競合を引き起こす可能性のあるタイムスタンプなどの機能が含まれている場合があります ( {ref}`rrr-vcs-git-merge` を参照してください)。 You can instruct Git to ignore certain files by creating a file called `.gitignore` and including names of the file that you do not need to store in your Git repository. 例えば、環境から環境へ変更される可能性のある設定ファイルは無視されるべきです。
 
 (rr-vcs-versions-comparing)=
-## Comparing Versions
+## バージョンの比較
 
-At some point, you will likely need/want to compare versions of a project, for example, to see what version was used to generate a particular result.
+ある時点で、プロジェクトのバージョンを比較する必要があります。 例えば、特定の結果を生成するためにどのバージョンが使用されたかを確認します。
 
-To address this issue, use the `git diff` function, that takes two input data sets and outputs the changes between them.
+この問題に対処するには、2つの入力データセットを取り、それらの間の変更を出力する `git diff` 関数を使用します。
 
-`git diff` is a multi-use function that runs on Git data sources such as commits, branches, files and more. By default, `git diff` will show you any uncommitted changes since the last commit. If you want to compare two specific things the syntax is:
+`git diff` はコミット、ブランチ、ファイルなどのGit データソース上で動作する多用途機能です。 デフォルトでは、 `git diff` は前回のコミット以降に反映されていない変更を表示します。 2つの特定のものを比較したい場合、構文は次のとおりです。
 
 ```
 git diff thing_a thing_b
 ```
 
-For example, if you want to compare how a file has changed between two commits, use `git log` to get the SHAs of those commits and run:
+たとえば、2つのコミット間でファイルがどのように変更されたかを比較したい場合。 これらのコミットと実行のSHAを取得するには、 `git log` を使用します。
 
 ```
 git diff SHA_a:your_file_name SHA_b:your_file_name
 ```
 
-Or if you wanted to compare two branches, it would be:
+または、2つのブランチを比較したい場合は、次のようになります。
 
 ```
 git diff branch_name other_branch_name
 ```
 
 (rr-vcs-versions-comparing-practice)=
-### Good practice
+### 良い練習
 
-With a little familiarity, `git diff` becomes an extremely powerful tool you can use to track what files have changed and exactly what those changes are. This is extremely valuable for unpicking bugs and comparing work done by different people. Be careful to **understand what exactly is being compared** and, where possible, **only compare the relevant files** for what you are interested in to avoid large amounts of extraneous information.
+少し親しみやすさがあります `git diff` は、どのファイルが変更されたか、変更内容が正確に把握できる非常に強力なツールになります。 これはバグを解明し、さまざまな人が行った作業を比較するのに非常に価値があります。 Be careful to **understand what exactly is being compared** and, where possible, **only compare the relevant files** for what you are interested in to avoid large amounts of extraneous information.

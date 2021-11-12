@@ -2,35 +2,35 @@
 # Checklist
 
 (rr-vcs-checklist-makeuseof)=
-## Make Use of Git
+## Git の利用
 
-- Make your project version controlled by initialising a Git repository in its directory using `git init`.
-- Add and commit all your files to the repository using `git add .` then `git commit`.
-- Continue to add and commit changes as your project progresses. Stage the changes in specific files to be committed with `git add filename`, and add messages to your commits.
-  - Each commit should make one simple change.
-  - No generated files committed.
-  - Commit messages are meaningful, with a ~50 character summary at the top.
-  - Commit messages are in the present tense and imperative.
-- Develop new features on their own branches, which you can create via `git checkout -b branch_name` and switch between via `git checkout branch_name`.
-  - Make sure branches have informative names.
-  - Make sure the main branch is kept clean.
-  - Make sure each branch has a single purpose and only changes related to that purpose are made on it.
-- Once features are complete, merge their branches into the main branch by switching to the feature branch and running `git merge main`.
-  - Merge other's changes into your work frequently.
-  - When dealing with merge conflicts, make sure you fully understand both versions before trying to resolve them.
+- `git init` を使用して、Gitリポジトリをディレクトリに初期化することで、プロジェクトのバージョンを制御できます。
+- `git add を使用してリポジトリにすべてのファイルを追加およびコミットします。` そして `git commit`.
+- プロジェクトが進行するにつれて、変更の追加と反映を続行します。 `git add filename`でコミットされる特定のファイルの変更をステージングし、メッセージをコミットに追加します。
+  - 各コミットは、単純な変更を行う必要があります。
+  - コミットされた生成されたファイルはありません。
+  - コミットメッセージは意味があり、上部には約50文字の要約があります。
+  - コミットメッセージは現在時制と命令的なものです。
+- 独自のブランチで新しい機能を開発する これは `git checkout -b branch_name` で作成し、 `git checkout branch_name` で切り替えることができます。
+  - ブランチに有益な名前があることを確認してください。
+  - メインブランチがきれいに保たれていることを確認してください。
+  - 各ブランチに目的があり、その目的に関連する変更のみが行われることを確認してください。
+- フィーチャーブランチに切り替え、 `git merge main` を実行して、フィーチャーブランチにブランチをマージします。
+  - 他の変更を頻繁にあなたの仕事にマージします。
+  - マージ競合を扱う場合は、両方のバージョンを完全に理解してから、それらを解決しようとしてください。
 
 (rr-vcs-checklist-contribute)=
-## Contribute to Someone Else's Project
+## 他の人がプロジェクトに貢献する
 
-- Clone their project's repository from GitHub `git clone repository_url`.
-- Make and commit changes.
-- Push your changes to you GitHub version of the project.
-- Make use of issues to discuss possible changes to a project.
-- Make pull requests on GitHub to share your work.
-  - Clearly explain the changes you have made (and why) in your pull request.
+- GitHub `git clone repository_url` からプロジェクトのリポジトリをクローンします。
+- 変更を作成し、コミットします。
+- GitHub バージョンのプロジェクトに変更をプッシュします。
+- 課題を利用して、プロジェクトへの変更の可能性を議論します。
+- あなたの作品を共有するために GitHub でプルリクエストを作成します。
+  - プルリクエストで行った変更(およびその理由)を明確に説明してください。
 
 (rr-vcs-checklist-data)=
-## Make Sure That Your Data Is Version-Controlled
+## データがバージョン管理されていることを確認する
 
 - If your projects involve data, check whether [Git LFS](https://git-lfs.github.com/), [git-annex](https://git-annex.branchable.com/), or [DataLad](https://www.datalad.org/) fits your needs for version-controlling it.
-- Share the data along with your project to help others reproduce your results.
+- 他の人が結果を再現できるように、プロジェクトとデータを共有します。

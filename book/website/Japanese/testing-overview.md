@@ -1,26 +1,26 @@
 (rr-testing-overview)=
-# Overview of Testing Types
+# テストタイプの概要
 
-There are a number of different kinds of tests, which will be discussed here.
+さまざまな種類のテストがあり、ここで説明します。
 
-Firstly there are positive tests and negative tests. Positive tests check that something works, for example testing that a function that multiplies some numbers together outputs the correct answer. Negative tests check that something generates an error when it should. For example nothing can go quicker than the speed of light, so a plasma physics simulation code may contain a test that an error is outputted if there are any particles faster than this, as it indicates there is a deeper problem in the code.
+まず、正の検査と負の検査があります。 正のテストは、ある数値を乗算する関数が正しい答えを出力することをテストするなど、何かが機能することを確認します。 否定的なテストは、何かが必要なときにエラーが発生することを確認します。 例えば、光の速度より速くは何も行くことができません。 プラズマ物理のシミュレーションコードにはテストが含まれているかもしれません これより速く粒子があれば エラーが出るかもしれません コードにはより深い問題があることを示しています
 
-In addition to these two kinds of tests, there are also different levels of tests which test different aspects of a project. These levels are outlined below and both positive and negative tests can be present at any of these levels. A thorough test suite will contain tests at all of these levels (though some levels will need very few).
+これらの2種類のテストに加えて、プロジェクトのさまざまな側面をテストする異なるレベルのテストもあります。 これらのレベルは以下のように概説されており、正と負の両方のテストがこれらのレベルのいずれかに存在する可能性があります。 徹底的なテストスイートには、これらのレベルのすべてのテストが含まれます(いくつかのレベルは非常に少ない必要がありますが)。
 
-## Types of Testing
+## テストの種類
 
-[Smoke testing](#Smoke_testing): Very brief initial checks that ensures the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+[煙テスト](#Smoke_testing): プロジェクトホールドの実行に必要な基本的な要件を確実にする非常に簡単な初期チェック。 これらが失敗した場合、修正されるまで追加のレベルのテストに進むことはありません。
 
-[Unit testing](#Unit_tests):    A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+[ユニットテスト](#Unit_tests): ソフトウェアの個々のユニットがテストされるソフトウェアテストプロセスのレベル。 目的は、ソフトウェアの各単位が設計されたように動作することを確認することです。
 
-[Integration testing](#Integration_testing): A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+[統合テスト](#Integration_testing): 個々のユニットを組み合わせてグループとしてテストするソフトウェアテストのレベル。 このレベルのテストの目的は、積分ユニット間の相互作用における欠陥を露出させることです。
 
-[System testing](#System_tests):    A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+[システムテスト](#System_tests): 完全に統合されたシステムがテストされるソフトウェアテストプロセスのレベル。 このテストの目的は、システム全体が与えられた入力に正しい出力を与えるかどうかを評価することです。
 
-[Acceptance testing](#Acceptance_testing):  A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+[Acceptance testing](#Acceptance_testing): システムが受け入れ可能性のためにテストされるソフトウェアテストプロセスのレベル。 このテストの目的は、システムがプロジェクト要件に適合しているかどうかを評価し、それが目的に適合しているかどうかを評価することです。
 
-Here's an analogy: during the process of manufacturing a ballpoint pen, the cap, the body, the tail, the ink cartridge and the ballpoint are produced separately and unit tested separately. When two or more units are ready, they are assembled and integration testing is performed, for example a test to check the cap fits on the body. When the complete pen is integrated, system testing is performed to check it can be used to write like any pen should. Acceptance testing could be a check to ensure the pen is the colour the customer ordered.
+例えばボールペン、キャップ、ボディを製造する過程で 尻尾とインクカートリッジとボールポイントは別々に製造されており、別々に試験を行っています。 2つ以上のユニットの準備ができたら、それらは組み立てられ、統合テストが行われます。 例えばキャップが体に付着しているか調べてみると 完全なペンが統合されると、システムテストが実行され、それを使用して任意のペンのように記述することができます。 受入テストは、ペンが顧客が注文した色であることを確認するためのチェックとなる可能性があります。
 
-There is also another kind of testing called regression testing. Regression testing is a type of testing that can be performed at any of the four main levels and compares the results of tests before and after a change is made to the code, and gives an error if these are different.
+回帰テストと呼ばれる別の種類のテストもあります。 回帰テストは、4つの主要なレベルのいずれかで実行され、コードに変更が加えられる前と後のテストの結果を比較することができるテストの一種です。 これらが異なる場合はエラーになります
 
-These different types of tests are discussed in more detail in the next subchapters.
+これらの異なるタイプのテストについては、次の章で詳しく説明します。

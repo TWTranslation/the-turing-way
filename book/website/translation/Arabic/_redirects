@@ -1,0 +1,23 @@
+# إعادة توجيه مما يطلبه المتصفح إلى ما نخدمه
+
+https://the-turing-way.netlify.app https://the-turing-way.netlify.app/welcome.html 301
+https://the-turing-way.netlify.app/introduction/introduction.html https://the-turing-way.netlify.app/welcom301
+2001/111 إمكانية الاستنساخ/*/البحث الاستباقي/البحث الاستباقي 301
+المرفق الثاني
+/open_research/open_research/reproducible-research/open_research 301
+/version_control/version_control/reproducible-research/version-control 301
+/الترخيص/الترخيص/البحث/الترخيص 301
+/cooperating_github/cooperating_github /communication/Communication 301
+/open-source-comms/* /communication/open-source-comms 301
+/الائتمان/الائتمان/البحوث/الائتمان 301
+/rdm/rdm /reproducible-research/rdm 301
+/reproducible_environments/reproducible_environments /reproducible-research/reproducible-environments 301
+/code_quality/code_quality /reproducible-research/جودة الرمز 301
+/الاختبار/الاختبار/البحث/الاختبار 301
+أو استعراض/استعراض/إجراء بحوث/استعراض 301
+/continuous_integration/continuous_integration /reproducible-research/continuous-integration 301
+/make/making /reproducible-research/Make 301
+/research_compendia/research_compendia /reproducible-research/research-compendia 301
+2001/101 تقييم المخاطر 301
+/binderhub/binderhub /reproducible-research/binderhub 301
+https://the-turing-way.netlify.app/reproducible-research/credit.html hhttps://the-turing-way.netlify.app/communication/citable.html 301

@@ -1,20 +1,20 @@
-(er-self-reflection-power-privilege)=
-# Power and privilege
+(er-self-reflection-power-privileges)=
+# 権限と特権
 
-When thinking about positionality [{term}`def<Positionality>`], it is important to understand how we might hold power and privilege relative to the people we work with, those whose data we are studying, and the problems we are attempting to solve. Our experiences of power and privilege, or oppression, are tightly interwoven with our experiences of class, race, gender and more {cite:ps}`crenshaw1989demarginalizing, collins1990black`. These experiences are important to consider because themes of power and privilege are present in all of our contexts. Having privilege can make us unaware of related issues that do not directly affect us.
+位置性について考えるとき [{term}`def<Positionality>`]. 我々がいかに権力と特権を持っているかを理解することが重要です 私たちが研究しているデータや解決しようとしている問題を 権力と特権、抑圧の私たちの経験は、私たちのクラスの経験と緊密に絡み合っています。 race, gender and more {cite:ps}`crenshaw1989demarginalizing, collins1990black`. これらの経験は、私たちのすべての文脈に権力と特権のテーマが存在するので、考慮する必要があります。 特権を持つことは、私たちに直接影響を与えない関連する問題を認識させることができます。
 
-To illustrate, here are some examples of how power and privilege present as structural issues in data science:  
+例えば、データサイエンスにおける権力と特権が構造的な問題としてどのように存在するかをいくつか紹介します。  
 <!-- Welcome more examples here! -->
-- **Racial injustice and patriarchal systems** have meant that data science has historically been dominated by white men. This means that there has not been a diverse group of people to direct the aims of data science work, and so many groups are likely to be overlooked when considering the negative impacts and potential benefits of data science.
-- **The English language is the default** in many programming languages and academic settings, which creates barries to knowledge sharing and inclusion. Rather than English speakers learning other languages, it is generally expected that non-English speakers learn English in order to participate and collaborate, which frames English as the default.
-- **Data science work can require huge amounts of energy and computational power**, which disproportionality affects the lives of people living in the places most affected by climate change. These countries tend to already be economically disadvantaged relative to others, and have less access to the resources needed to manage the impacts of climate change.
+- **人種の不公平と家父長制システム** は、データ科学が歴史的に白人男性によって支配されてきたことを意味している。 これは、データサイエンスの仕事の目的を指示する多様な人々のグループが存在しなかったことを意味します。 データサイエンスの悪影響と潜在的利益を考慮すると、多くのグループが見逃される可能性があります。
+- **英語は、多くのプログラミング言語と学問的設定においてデフォルト** であり、知識の共有と包摂のためのバリエーションを作成します。 英語を話す人が他の言語を学ぶのではなく、 一般的には、英語以外の人が参加し、協力するために英語を学ぶことが期待されています。
+- **データサイエンス作業には膨大なエネルギーと計算能力が必要です**気候変動によって最も影響を受ける場所に住む人々の生活に影響を与えます これらの国は、すでに他国と比較して経済的に恵まれない傾向がある。 気候変動の影響を管理するために必要な資源へのアクセスが少なくなっています
 
-Broader structural aspects of power and privilege can seem too big to counter on our own, but they also play out in individual interactions where we have much more control. By understanding systems and structures of power and oppression, and where we sit within them, we can better identify where change needs to happen, and what we can do to contribute to that change.
+権力と特権のより広範な構造的側面は、私たち自身に対抗するには大きすぎるように思えるかもしれません。 個々の相互作用でも大きな制御が可能になります 権力と抑圧のシステムと構造を理解することによって、そして私たちがその中に座っている場所 変化が起こるべき場所とその変化に貢献するために何ができるかをより良く特定することができます
 
-## Intersectionality
+## 相互作用性
 
-Intersectionality [{term}`def<Intersectionality>`] is an important concept to know and understand when thinking about power, privilege and identity.
+Intersectionality [{term}`def<Intersectionality>`] は、パワー、特権、アイデンティティについて考えるときに理解し知るための重要な概念です。
 
-The term **intersectionality** refers to how multiple identities can intersect, and so people can be oppressed on the basis of combinations of their identities instead of, or as well as, their separate identities. The term was coined by Kimberlié Crenshaw in 1989 {cite:ps}`crenshaw1989demarginalizing` to describe the way that laws that protected Black people and women separately. However, Black women were not by default protected against discrimination that exclusively affected Black women. Now, the term 'intersectionality' has become more widely used and broadly refers to how people are often disadvantaged by multiple sources of oppression.
+**の交差性** という用語は、複数のアイデンティティがどのように交差するかを示しています 人々は自分のアイデンティティの組み合わせに基づいて抑圧されるのです The term was coined by Kimberlié Crenshaw in 1989 {cite:ps}`crenshaw1989demarginalizing` to describe the way that laws that protected Black people and women separately. しかし、黒人女性は黒人女性のみに影響を与えた差別に対して、デフォルトでは保護されていませんでした。 現在、「交差性」という言葉はより広く使われるようになり、広く人々が複数の抑圧源によっていかに恵まれないかを指しています。
 
-Intersectionality has sometimes incorrectly been assumed to be a way of making a 'heirarchy of oppression', which is not its purpose. We must recognise that power and privilege is a case of _both/and_ rather than _either/or_. This means that someone may be privileged in one way, and disadvantaged in another.
+時には交差性が「抑圧の家系」を作る方法であると誤って想定されることもあったが、それが目的ではない。 私たちは、パワーと特権は _/_ ではなく _/_の両方のケースであることを認識しなければなりません。 これは、誰かが何らかの方法で特権を持ち、別の方法で不利になる可能性があることを意味します。

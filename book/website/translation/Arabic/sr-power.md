@@ -1,20 +1,20 @@
-(er-self-reflection-power-privilege)=
-# Power and privilege
+(امتياز القدرة على التأمل الذاتي)=
+# السلطة والامتياز
 
-When thinking about positionality [{term}`def<Positionality>`], it is important to understand how we might hold power and privilege relative to the people we work with, those whose data we are studying, and the problems we are attempting to solve. Our experiences of power and privilege, or oppression, are tightly interwoven with our experiences of class, race, gender and more {cite:ps}`crenshaw1989demarginalizing, collins1990black`. These experiences are important to consider because themes of power and privilege are present in all of our contexts. Having privilege can make us unaware of related issues that do not directly affect us.
+عند التفكير في الموقف [{term}`ديف<Positionality>`]، ومن المهم أن نفهم كيف يمكننا أن نملك السلطة والامتياز بالقياس إلى الأشخاص الذين نعمل معهم، أولئك الذين ندرس بياناتهم، والمشاكل التي نحاول حلها. إن تجاربنا في مجال السلطة والامتيازات، أو القمع، ترتبط ارتباطا وثيقا بتجاربنا في الطبقة الواحدة، العرق ونوع الجنس وأكثر من {cite:ps}`الإزاحة عن التهميش، التواطؤ في 1990black`. ومن المهم النظر في هذه التجارب لأن مواضيع السلطة والامتيازات موجودة في جميع سياقاتنا. فالتمتع بامتياز يمكن أن يجعلنا غير مدركين للمسائل ذات الصلة التي لا تؤثر علينا بشكل مباشر.
 
-To illustrate, here are some examples of how power and privilege present as structural issues in data science:  
+ولتوضيح ذلك، ترد فيما يلي بعض الأمثلة على الكيفية التي تظهر بها القوة والامتياز كقضايا هيكلية في مجال علم البيانات:  
 <!-- Welcome more examples here! -->
-- **Racial injustice and patriarchal systems** have meant that data science has historically been dominated by white men. This means that there has not been a diverse group of people to direct the aims of data science work, and so many groups are likely to be overlooked when considering the negative impacts and potential benefits of data science.
-- **The English language is the default** in many programming languages and academic settings, which creates barries to knowledge sharing and inclusion. Rather than English speakers learning other languages, it is generally expected that non-English speakers learn English in order to participate and collaborate, which frames English as the default.
-- **Data science work can require huge amounts of energy and computational power**, which disproportionality affects the lives of people living in the places most affected by climate change. These countries tend to already be economically disadvantaged relative to others, and have less access to the resources needed to manage the impacts of climate change.
+- **الظلم العنصري والنظم الأبوية** تعني أن علم البيانات كان يهيمن عليه الرجال البيض تاريخيا. وهذا يعني أنه لم تكن هناك مجموعة متنوعة من الناس لتوجيه أهداف العمل المتعلق بعلم البيانات، ومن المحتمل أن يُغفل هذا العدد الكبير من المجموعات عند النظر في الآثار السلبية والفوائد المحتملة لعلوم البيانات.
+- **اللغة الإنجليزية هي اللغة الافتراضية** في العديد من لغات البرمجة والإعدادات الأكاديمية، مما يخلق حواجز أمام تقاسم المعرفة وشمولها. بدلاً من تعلم لغات أخرى من الناطقين بالإنكليزية. من المتوقع بشكل عام أن يتعلم غير الناطقين بالإنجليزية اللغة الإنجليزية من أجل المشاركة والتعاون، وهو ما يجعل اللغة الإنجليزية افتراضيا.
+- **عمل علوم البيانات يمكن أن يتطلب كميات ضخمة من الطاقة والطاقة الحاسوبية**، • عدم التناسب الذي يؤثر على حياة الناس الذين يعيشون في الأماكن الأكثر تضررا من تغير المناخ. وتميل هذه البلدان بالفعل إلى أن تكون محرومة اقتصاديا مقارنة بغيرها من البلدان، كما أن فرص حصولها على الموارد اللازمة لإدارة آثار تغير المناخ أقل من تلك الموارد.
 
-Broader structural aspects of power and privilege can seem too big to counter on our own, but they also play out in individual interactions where we have much more control. By understanding systems and structures of power and oppression, and where we sit within them, we can better identify where change needs to happen, and what we can do to contribute to that change.
+ويمكن أن تبدو الجوانب الهيكلية الأوسع للسلطة والامتيازات أكبر من أن نتصدى لها بمفردنا، ولكنها أيضا تؤثر في التفاعلات الفردية حيث لدينا سيطرة أكبر بكثير. بفهم أنظمة وهياكل السلطة والقمع، وأين نجلس داخلها، ويمكننا أن نحدد بشكل أفضل المجالات التي يلزم أن يحدث فيها التغيير، وما يمكننا أن نفعله للإسهام في ذلك التغيير.
 
-## Intersectionality
+## تقاطع
 
-Intersectionality [{term}`def<Intersectionality>`] is an important concept to know and understand when thinking about power, privilege and identity.
+التداخل [{term}`def<Intersectionality>`] هو مفهوم مهم لمعرفته وفهمه عند التفكير في القوة والامتياز والهوية.
 
-The term **intersectionality** refers to how multiple identities can intersect, and so people can be oppressed on the basis of combinations of their identities instead of, or as well as, their separate identities. The term was coined by Kimberlié Crenshaw in 1989 {cite:ps}`crenshaw1989demarginalizing` to describe the way that laws that protected Black people and women separately. However, Black women were not by default protected against discrimination that exclusively affected Black women. Now, the term 'intersectionality' has become more widely used and broadly refers to how people are often disadvantaged by multiple sources of oppression.
+يشير مصطلح **تقاطع** إلى كيفية تداخل الهويات المتعددة، وهكذا يمكن اضطهاد الناس على أساس الجمع بين هويتهم بدلاً من هويتهم المنفصلة أو على أساس هويتهم المنفصلة. وقد صاغها كيمبرلي كرينشاو في عام 1989 {cite:ps}`خروج من التهميش` لوصف الطريقة التي تحمي بها القوانين السود والنساء كل على حدة. غير أن المرأة السوداء ليست محمية من التمييز الذي يؤثر حصرا على المرأة السوداء. والآن، أصبح مصطلح ”التقاطع“ أكثر استخداما ويشير بشكل عام إلى كيف أن الناس كثيرا ما يعانون من الحرمان بسبب تعدد مصادر القمع.
 
-Intersectionality has sometimes incorrectly been assumed to be a way of making a 'heirarchy of oppression', which is not its purpose. We must recognise that power and privilege is a case of _both/and_ rather than _either/or_. This means that someone may be privileged in one way, and disadvantaged in another.
+وقد افتُرض أحيانا على نحو خاطئ أن التقاطع هو وسيلة لإحداث ”تسلسل هرمي في القمع“، وهو ليس هدفه. يجب أن نعترف بأن القوة والامتياز هي حالة من _كليهما/_ بدلاً من _إما/أو_. وهذا يعني أن شخصاً ما قد يكون متميزا بطريقة أو بأخرى ومحروماً منها.

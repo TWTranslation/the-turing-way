@@ -1,55 +1,55 @@
 (rr-vcs-git-branches)=
-# Git Branches
+# Git ブランチ
 
-When working on a project, individually or collaboratively, you may encounter the following scenarios:
+プロジェクトを個別または共同で作業する場合、以下のシナリオが発生することがあります。
 
-- If you add a new feature to your project, you run the risk of accidentally breaking your working code as you test the feature. This would cause unexpected issues for active users of your project, even if the only active user is you.
-- When you collaborate with others, and everyone works on the main branch simultaneously, there could be a lot of confusion and conflicting changes.
-- Some code/feature might not be interesting for everyone. There may need to be a way to allow new work to be done on a project whilst protecting work that has already been done.
+- プロジェクトに新しい機能を追加すると、テスト中に作業コードが誤って破損するリスクが発生します。 これにより、アクティブなユーザーだけがあなたであっても、プロジェクトのアクティブなユーザーに予期しない問題が発生します。
+- 他の人とコラボレーションし、誰もが本部で同時に作業すると、多くの混乱と矛盾する変化が生じる可能性があります。
+- 一部のコード/機能は皆にとって興味深いものではないかもしれません。 すでに行われている作業を保護しながら、プロジェクトで新しい作業を行うことを可能にする方法があるかもしれません。
 
-Git branches are extremely valuable when addressing any of these issues. For every Git project, by default, you have one branch called 'main' where all commits are recorded. The branching feature of Git allows us to create a copy of a project that we can work on and continue to make commits to without integrating them into the main branch right away. Meanwhile, one can continue to make commits on the main branch, which is untouched by the changes made on other branches. Once you are happy with whatever you were working on on a branch, you can merge it into your main branch (or indeed any other branch). Merging will be covered in the {ref}`rr-vcs-git-merge` subchapter.
+Git ブランチは、これらの問題のいずれかに対処する際に非常に価値があります。 Gitプロジェクトごとにデフォルトでは、すべてのコミットが記録される「main」と呼ばれる1つのブランチがあります。 Gitのブランチ機能により、すぐにメインブランチに統合せずに作業し続けることができるプロジェクトのコピーを作成することができます。 一方、他のブランチで行われた変更によって影響を受けないメインブランチにコミットを続けることができます。 ブランチで作業していたものは何でも満足したら。 メインブランチ(または他のブランチ)にマージできます。 マージは {ref}`rr-vcs-git-merge` サブ章でカバーされます。
 
-If you test a feature on a branch that does not work out, you can delete or abandon it (for example, Feature B in the diagram below) rather than spending time unpicking your changes if you were doing all your work on the main branch. You can have as many branches off of branches as you desire (for example, Feature A-1).
+問題が解決しないブランチで機能をテストする場合は、それを削除または放棄することができます (例えば、 メインブランチですべての作業を行っていた場合、変更を解除する時間を費やすのではなく、下図のBをご覧ください。 必要な数のブランチ(Feature A-1など)を持つことができます。
 
-Using branches keeps working code safe, particularly in collaborations. Each contributor can have their own branch or branches which are only merged into the main project when they are ready.
+ブランチを使用すると、特にコラボレーションでは、コードが安全に動作します。 各貢献者は、準備が整ったらメインプロジェクトにのみマージされる独自のブランチまたはブランチを持つことができます。
 
 ```{figure} ../../figures/sub-branch.png
 ---
 name: sub-branch
-alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. Feature A and B are branches of the main branch, while Feature A-1 is a branch made from Feature A.
+alt: Gitで分岐する図。 main、Feature A、Feature B、Feature A-1の4つのブランチがあります。 Feature AとBはメインブランチ、Feature A-1はFeature Aから作られたブランチです。
 ---
-An illustration of branching in Git
+Git でのブランチのイラストです。
 ```
 
-You can create a branch and switch to it using:
+ブランチを作成し、次のように切り替えることができます。
 ```
 git checkout -b name_of_your_new_branch
 ```
 
-To change between branches, use the following command:
+ブランチ間で変更するには、次のコマンドを使用します。
 ```
 git checkout name_of_the_branch
 ```
 
-You must commit any work you have in progress before you can to switch to another branch.
+他のブランチに切り替える前に、進行中の作業をコミットする必要があります。
 
-You can see all branches of your project using:
-
-```
-git branch
-```
-This gives the output as a list with an asterisk next to the branch you are on. You can also use `git status` if you have forgotten which branch you are on.
-
-If you decide to get rid of a branch you can delete it with:
+プロジェクトのすべてのブランチを使用して確認できます。
 
 ```
-git branch -D name_of_the_branch
+git ブランチ
+```
+これにより、現在のブランチの隣にアスタリスクが付いたリストとして出力されます。 `git status` を使用することもできます。
+
+ブランチを削除することにした場合は、以下のように削除できます:
+
+```
+git ブランチ -D name_of_the_branch
 ```
 (rr-vcs-branches-practice)=
-## Good practice
+## 良い練習
 
-Branches should be used to **keep the main branch clean**. That is, the main should only contain work which is complete, tested, and rightfully belongs in the main version of the project. Similarly, you should try to keep individual branches as clean as possible by **only adding one new feature per branch**. This is because if you are working on several features, some may be finished and ready to merge into main while others are still under development. Keeping your branches clean means only making changes related to the feature on the feature's branch. Give your branches **sensible names**, "new_feature" is all well and good until you start developing a newer feature on another branch.
+ブランチは **メインブランチをきれいに保つ**に使用する必要があります。 つまり、メインは、完全でテストされ、かつ正当なものがプロジェクトのメインバージョンに属する作業だけを含める必要があります。 同様に、 **ブランチごとに新しい機能を1つ追加するだけで、個々のブランチを可能な限りきれいに保つようにする必要があります**。 これは、いくつかの機能に取り組んでいる場合に発生します。 開発中のものもありますが主に統合する準備が整っています ブランチをきれいに保つことは、フィーチャーのブランチ上のフィーチャーに関連する変更を行うことのみを意味します。 あなたのブランチを与えなさい **賢明な名前**、 "new_feature" は、別のブランチで新しい機能を開発し始めるまで、すべて順調で良いです。
 
-## Interactive tutorial
+## インタラクティブなチュートリアル
 
-[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.
+[Git Branching を学ぶ](https://learngitbranching.js.org/) は、Git を学ぶインタラクティブな方法を提供するプロジェクトです。 チュートリアルを通して を行うことは、最も一般的に使用される git コマンドと分岐操作技術の実質的な経験を提供します。

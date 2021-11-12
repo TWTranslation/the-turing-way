@@ -1,49 +1,49 @@
-(er-self-reflection-promts)=
-# Self Reflection Prompts
+(er-Selbstreflexion-Promots)=
+# Self-Reflection Prompts
 
-Reflexivity is the process of using self-reflection to understand ourselves and our beliefs, and how these influence how we create knowledge through our work in data science. There are lots of different aspects you could consider, and the questions below are some prompts to help get you started.
+Reflexivität ist der Prozess der Selbstreflexion um uns und unsere Überzeugungen zu verstehen und wie diese beeinflussen, wie wir durch unsere Arbeit in der Datenwissenschaft Wissen schaffen. Es gibt viele verschiedene Aspekte, die Sie berücksichtigen könnten, und die folgenden Fragen sind ein paar Hinweise, um Ihnen beim Start zu helfen.
 
-## Questions about my own identity
+## Fragen zu meiner eigenen Identität
 
-- What is considered ethical in my culture that other cultures may see differently?
-- What are my own {ref}`Social Graces<er-self-reflection-social-graces>`?
-- How have my Social Graces shaped my experiences of life?
-- How have my Social Graces shaped the decisions that have led me to do what I do now?
-- What are the Social Graces of my family and friends?
-  - Are there Social Graces where we vary a lot/little?
+- Was wird als ethisch in meiner Kultur angesehen, die andere Kulturen anders sehen können?
+- Was sind meine eigenen {ref}`Social Graces<er-self-reflection-social-graces>`?
+- Wie haben meine Social Graces meine Lebenserfahrungen geprägt?
+- Wie haben meine Social Graces die Entscheidungen geprägt, die mich dazu gebracht haben, das zu tun, was ich jetzt tue?
+- Was sind die sozialen Gräueltaten meiner Familie und Freunde?
+  - Gibt es Social Graces wo wir viel / wenig variieren?
 
-## Questions about my research environment
+## Fragen zu meiner Forschungsumgebung
 
-- What are the shared values of my lab? My department? My university?
-- Who is visibly present in my department? Who isn't?
-    - What understanding do I have of why that is, and how have I formed this understanding?
-- What do I know about the visible and invisible Social Graces of people in my department or field?
-- How do the people who work in my field represent the people our work serves?
-  - How do I relate to the people I am trying to serve with my work?
+- Was sind die gemeinsamen Werte meines Labors? Meine Abteilung? Meine Universität?
+- Wer ist in meiner Abteilung sichtbar? Wer ist es nicht?
+    - Welches Verständnis habe ich davon, warum das so ist, und wie habe ich dieses Verständnis gebildet?
+- Was weiß ich über die sichtbaren und unsichtbaren sozialen Gräben von Menschen in meiner Abteilung oder Branche?
+- Wie repräsentieren die Menschen, die auf meinem Gebiet arbeiten, die Menschen, denen unsere Arbeit dient?
+  - Wie kann ich mich auf die Personen beziehen, die ich mit meiner Arbeit zu bedienen versuche?
 
-## Questions about my relationship to knowledge
+## Fragen zu meiner Beziehung zu Wissen
 
-- What types of knowledge do I value?
-- Am I more convinced by a certain type of data over another - why is that?
-- Are there certain people I am more likely to believe, or find convincing?
-- What type of data presentation do I find convincing?
-- What type of statistics do I view as more robust (and why)?
-- What checks do I think data and analysis need to go through to be considered robust?
-- What are my views on qualitative data vs. quantitative data?
+- Welche Art von Wissen schätze ich?
+- Bin ich mehr von einer bestimmten Art von Daten über einen anderen überzeugt - warum ist das so?
+- Gibt es Leute, die ich eher glaube oder überzeugend finde?
+- Welche Art von Datenpräsentation finde ich überzeugend?
+- Welche Art von Statistiken betrachte ich als robuster (und warum)?
+- Welche Prüfungen müssen meiner Meinung nach durchgeführt werden, um als robust angesehen zu werden?
+- Wie beurteile ich die qualitativen Daten gegenüber den quantitativen Daten?
 
-## Questions about my relationship to my research topic
+## Fragen zu meiner Beziehung zu meinem Forschungsthema
 
-- What do I believe are 'truths' about the concept I study?
-    - What evidence do I base those truths on? Who developed this evidence?
-- Who do I most commonly cite in my research area, and how are their perspectives similar or different to mine?
--  Whose perspectives are important in answering this research topic?
-- Am I the best person to answer this question - what might I be missing?
+- Was glaube ich, sind "Wahrheiten" an dem Konzept, das ich studiere?
+    - Auf welchen Belegen stütze ich diese Wahrheit? Wer hat diese Beweise entwickelt?
+- Wen zitiere ich am häufigsten in meinem Forschungsbereich, und wie sind ihre Perspektiven ähnlich oder anders als meine?
+-  Wessen Perspektiven sind wichtig, um dieses Forschungsthema zu beantworten?
+- Bin ich der beste Mensch, um diese Frage zu beantworten - was könnte ich verpassen?
 
-## Questions about my data
+## Fragen zu meinen Daten
 
-- Who isn't included in the data I have collected or reusing an existing dataset?
-- When and where was this data created?
-- What were the dominant beliefs at the time?
-- What do you know about the people who created this data?
+- Wer ist nicht in den Daten enthalten, die ich gesammelt oder wiederverwendet habe?
+- Wann und wo wurden diese Daten erstellt?
+- Was waren damals die vorherrschenden Überzeugungen?
+- Was wissen Sie über die Personen, die diese Daten erstellt haben?
 
-Note, if you are creating a dataset and would like to record this information about your data for future users, consider using 'Datasheets for Datasets' {cite:ps}`gebru2018datasheets` as a guide. 
+Beachten Sie, wenn Sie einen Datensatz erstellen und diese Informationen über Ihre Daten für zukünftige Benutzer aufzeichnen möchten erwägen die Verwendung von 'Datenblättern für Daten' {cite:ps}`gebru2018datasheets` als Anleitung. 

@@ -1,62 +1,62 @@
 (rr-vcs-git-merge)=
-# Merging Branches in Git
+# Git でブランチをマージする
 
 (rr-vcs-merge-command)=
-## The `git merge` Command
+## `git merge` Command
 
-Once you have finished up some work on a branch and you are ready to integrate it to your main project (or any other branch), you can merge the branch that you worked on into the main branch or any other target branch of your interest. You can also use merging to combine work that other people have done with your own and vice versa.
+ブランチの作業が終わったら、メインプロジェクト(または他のブランチ)に統合する準備が整いました。 あなたが作業したブランチをメインブランチや、関心のある他のターゲットブランチに統合できます。 マージを使用して、他の人が自分でやった作業を組み合わせることもできます。
 
-To merge a branch, branch_A, into another branch, branch_B, switch to branch_A via:
+ブランチをマージするには、branch_Aを別のブランチにマージするには、branch_Bをviaに切り替えます:
 ```
 git checkout branch_A
 ```
-Merge it into branch_B by:
+それを branch_B にマージする方法:
 
 ```
 git merge branch_B
 ```
 
-Merging will not be possible if there are changes in either your working directory or staging area that could be written over by the files that you are merging in. If this happens, there are no merge conflicts in individual files. You need to commit or stash the files it lists and then try again. The error messages are as follows:
+作業ディレクトリまたはマージ中のファイルによって書き換えられる可能性のあるステージング領域に変更がある場合、マージはできません。 この場合、個々のファイルにマージの競合はありません。 リストされているファイルをコミットまたは隠し、再度試す必要があります。 エラーメッセージは以下の通りです:
 
 ```
-error: Entry 'your_file_name' not update. Cannot merge. (Changes in working directory)
+error: Entry 'your_file_name' not update. 結合できません。 (作業ディレクトリの変更)
 ```
 
-or
+または
 
 ```
-error: Entry 'your_file_name' would be overwritten by merge. Cannot merge. (Changes in staging area)
+error: Entry 'your_file_name' はマージで上書きされます。 結合できません。 (ステージエリアの変更)
 ```
 
 (rr-vcs-merge-command-practice)=
-### Good practice
+### 良い練習
 
-First and foremost, your **main branch should always be stable**. Only merge work that is finished and tested (for example, on a different branch). If your project is collaborative, then it is a good idea to merge changes that others make into your own work frequently or share your changes with your collaborators. If you do not do it often, it is very easy to merge conflicts that arise (next section).
+まず第一に、あなたの **メインブランチは常に安定している必要があります**. マージ作業のみが終了およびテストされます (異なるブランチなど)。 プロジェクトがコラボレーションしている場合 他の人が自分の仕事に頻繁に加わる変更をマージしたり、自分の変更を共同作業者と共有したりするのは良いアイデアです。 頻繁に行わない場合は、発生する競合(次のセクション)をマージすることは非常に簡単です。
 
 (rr-vcs-merge-conflicts)=
-## Merge Conflicts
+## コンフリクトの結合
 
-When changes are made to the same file on different branches, sometimes those changes may be incompatible. This most commonly occurs in collaborative projects, but it happens in solo projects too. Say there is a project that contains a file with this line of code:
+異なるブランチで同じファイルに変更が加えられた場合、それらの変更は互換性がない場合があります。 これは最も一般的に共同プロジェクトで行われますが、ソロプロジェクトでも行われます。 例えば、このコード行のファイルが含まれるプロジェクトがあるとします。
 
 ```
 print('hello world')
 ```
 
-Suppose one person, on their branch, decides to "pep it up" a bit and changes the line to:
+ある人が枝にあるとします。少し「上に上に上げて」行を変更したとします。
 
 ```
 print('hello world!!!')
 ```
 
-while someone else, on another branch, decides to change it to:
+他の誰かが別の枝にそれを変更することにしました:
 
 ```
 print('Hello World')
 ```
 
-They continue doing work on their respective branches and eventually decide to merge. Their version control software then goes through and combines their changes into a single version of the file; *but*, when it gets to the `hello world` statement, it does not know which version to use. This is a merge conflict: incompatible changes have been made to the same file.
+彼らはそれぞれの枝で作業を続け、最終的にマージすることにしました。 バージョン管理ソフトウェアは、その後、ファイルの単一のバージョンに変更を組み合わせます。 *ですが、*は `hello world` ステートメントに到達すると、どのバージョンを使うか分かりません。 これはマージ競合です: 互換性のない変更が同じファイルに行われています。
 
-When a merge conflict arises, it will be flagged during the merge process. Within the files with conflicts, the incompatible changes will be marked so you can fix them:
+マージの競合が発生すると、マージ処理中にフラグが立てられます。 競合するファイル内では、互換性のない変更がマークされるため、以下のように修正できます。
 
 ```
 <<<<<<< HEAD
@@ -65,40 +65,40 @@ print('hello world!!!')
 print('Hello World')
 >>>>>>> main
 ```
-`<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.
+`<<<<<<<`: マージ競合があった行の開始を示します。 行の最初のセットは、変更をマージしようとしていたファイルからの行です。
 
-`=======`: Indicates the breakpoint used for comparison. It separates the changes the user has committed (above), from the changes coming from the merge (below), for visual comparison.
+`=======`: 比較に使用されるブレークポイントを示します。 ユーザーがコミットした変更(上記)と、マージ(下記)から得られる変更(視覚的な比較)を区別します。
 
-`>>>>>>>`: Indicates the end of the lines that had a merge conflict.
+`>>>>>>>`: マージ競合があった行の末尾を示します。
 
-You resolve a conflict by editing the file to manually merge the parts of the file that Git had trouble merging. This may mean discarding either your changes or someone else's or doing a mix of the two. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. In this project, the users may decide in favour of one `hello world` over another, or they may decide to replace the conflict with:
+Gitがマージできなかったファイルの一部を手動でマージするようにファイルを編集して競合を解決します。 これは、あなたの変更または他の誰かが両方を混在させることを意味するかもしれません。 You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. このプロジェクトでは、ユーザーは `hello world` を別のものに賛成することができます。 紛争に取って代わることもあります
 
 ```
 print('Hello World!!!')
 ```
 
-Once you have fixed the conflicts, commit the new version. You have now resolved the conflict. If during the process, you need a reminder of which files the conflicts are in, you can use `git status` to find out.
+競合を修正したら、新しいバージョンをコミットします。 競合を解決しました。 処理中に競合ファイルがどのファイルにあるかを確認する必要がある場合は、 `git status` を使用して調べることができます。
 
-If you find there are particularly nasty conflicts, and you want to abort the merge you can use:
+特に厄介な競合があり、あなたが使用できるマージを中止したい場合:
 ```
 git merge --abort
 ```
 
 (rr-vcs-merge-conflicts-practice)=
-### Good practice
+### 良い練習
 
-Before you start trying to resolve conflicts, make sure you fully understand the changes and how they are incompatible to avoid the risk of making things more tangled. Merge conflicts can be intimidating to resolve, especially if you are merging branches that diverged many commits ago and now have numerous incompatibilities. However, it is worth remembering that your previous versions are safe and that you can go about fixing this issue without affecting the past versions. This is why it is good practice to **merge other's changes into your work frequently**.
+競合を解決しようとする前に 変化を十分に理解してくださいそしてそれらが両立しないように 事態をより絡ませるリスクを回避するために Merge の競合は、特に多くのコミットを分岐し、多数の非互換性があるブランチをマージしている場合は、解決することができます。 ただし、以前のバージョンは安全であり、過去のバージョンに影響を与えずにこの問題を修正することができます。 これが、 **相手の変更を頻繁にあなたの仕事にマージする**ことをお勧めする理由です。
 
-There are tools available to assist in resolving merge conflicts, some are free; some are not. Find and familiarise yourself with one that works for you. Commonly used merge tools include [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), and [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). To set a tool as your default do:
+マージ競合の解決に役立つツールがあります。無料ツールもあります。そうでないツールもあります。 あなたのために働くものを見つけ、あなた自身をよく理解しなさい。 一般的に使用されるマージツールには、 [KDiff3](http://kdiff3.sourceforge.net/)、 [比較](https://www.scootersoftware.com/)、 [加工](http://meldmerge.org/)、および [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge) が含まれます。 ツールをデフォルトとして設定するには:
 
 ```
 git config --global merge.tool name_of_the_tool
 ```
 
-and launch it with:
+次の場所で起動します:
 
 ```
 git mergetool
 ```
 
-Fundamentally, the best way to deal with merge conflicts is, as far as it is possible, to try to avoid them in the first place. You can improve your odds on this by keeping branches clean and focused on a single issue and involving as few files as possible. Before merging, make sure you know what is in both branches. If you are not the only one that has worked on the branches, then keep the lines of communication open, so you are all aware of what the others are doing.
+基本的にはマージ競合に対処する最善の方法は、最初の場所でそれらを避けることを試みることです。 ブランチをきれいに保ち、1つの問題に焦点を当て、可能な限り少ないファイルを含めることで、これに対する確率を向上させることができます。 マージする前に、両方のブランチに何があるかを確認してください。 枝に取り組んでいるのはあなただけではない場合 だったらコミュニケーションの線を開けたままにしておきなさい。

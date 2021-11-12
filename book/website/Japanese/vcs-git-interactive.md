@@ -1,9 +1,9 @@
 (rr-vcs-git-interactive)=
 # Interactive, Visual Git
 
-One of the biggest challenges to getting started with Git can be understanding the file and directory structure and complexity of branches, commits, and remotes and how they interact, particularly on the command line with limited visual representations. It is often confusing - even for advanced users - to translate from a conceptual diagram to the correct Git commands needed achieve the desired outcomes.
+Gitを使い始める最大の課題の1つは、ファイルとディレクトリ構造とブランチの複雑さを理解することです。 限られた視覚表現のコマンドラインでは、コミット、リモート、そしてそれらがどのように相互作用するか。 上級ユーザーの場合でも、概念図から必要なGitコマンドに変換することで、望ましい結果を得ることができます。
 
-The [LearnGitBranching](https://learngitbranching.js.org/) tool created by [pcottle](https://github.com/pcottle/learnGitBranching) provides an interactive, visual introduction to Git. This browser-based, interactive tool includes tutorials and allows you to practice using Git through a virtual "repository" and sandbox. Through completion of built-in challenges, becoming comfortable with Git commands is more like a game than a chore.
+[LearnGitBranching](https://learngitbranching.js.org/) ツール [pcottle](https://github.com/pcottle/learnGitBranching) は、Gitへのインタラクティブで視覚的な紹介を提供します。 このブラウザベースのインタラクティブなツールにはチュートリアルが含まれており、仮想の "リポジトリ" と Sandbox を介して Git を使用することができます。 組み込みのチャレンジを完了することで、Git コマンドに慣れることは、雑用よりもゲームのようなものです。
 
 ```{figure} ../../figures/interactive-learn-git.png
 ---
@@ -13,4 +13,4 @@ alt: An illustration of the interactive, visual Learn Git Brnaching tool interfa
 A challenge in the LearnGitBranching tool.
 ```
 
-The sandbox capabilities of this tool also make it a great place for testing commands before running them on your actual repository.
+このツールの Sandbox 機能により、実際のリポジトリでコマンドを実行する前にコマンドをテストするのに最適な場所になります。

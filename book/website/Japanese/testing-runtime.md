@@ -1,16 +1,16 @@
 (rr-testing-runtime)=
-# Runtime testing
+# ランタイムテスト
 
-Runtime tests are tests that run as part of the program itself. They may take the form of checks within the code, as shown below:
+ランタイムテストとは、プログラム自体の一部として実行されるテストです。 以下に示すように、コード内のチェックの形式をとることができます。
 ```
-population = population + people_born - people_died
+popular = popularity + people_born - people_died
 
-// test that the population is positive
+// testing that the popular is positive
 if (population < 0):
-error( 'The number of people can never be negative' )
+error( 'number of people can negative' )
 ```
 
-Another example of a use of runtime tests is internal checks within functions that verify that their inputs and outputs are valid, as shown below:
+ランタイムテストを使用する別の例として、以下に示すように、入力と出力が有効であることを検証する機能内の内部チェックがあります。
 ```
 function add_arrays( array1, array2 ):
 
@@ -21,17 +21,17 @@ if (array1.size() != array2.size()):
 output = array1 + array2
 
 if (output.size() != array1.size()):
-  error( 'The output array has the wrong size!'' )
+  error( 'output array has the wrong size!'' )
 
-return output
+戻り値の出力
 ```
 
-Advantages of runtime testing:
-- Run within the program, so can catch problems caused by logic errors or edge cases.
-- Makes it easier to find the cause of the bug by catching problems early.
-- Catching problems early also helps prevent them escalating into catastrophic failures. It minimises the blast radius.
+ランタイムテストの利点:
+- プログラム内で実行すると、ロジックエラーやエッジケースによって引き起こされる問題をキャッチできます。
+- 問題を早期に捕まえることで、バグの原因を見つけやすくします。
+- 問題を早期に捕まえることは、壊滅的な失敗にエスカレートするのを防ぐのにも役立ちます。 爆風半径を最小限に抑えます。
 
-Disadvantages of runtime testing:
+ランタイムテストの欠点:
 
-- Tests can slow down the program.
-- What is the right thing to do if an error is detected? How should this error be reported? Exceptions are a recommended route to go with this.
+- テストはプログラムを遅くすることができます。
+- エラーが検出された場合、正しいことは何ですか? このエラーはどのように報告する必要がありますか? 例外はこれに合わせて推奨されるルートです。

@@ -1,49 +1,49 @@
-(er-self-reflection-promts)=
-# Self Reflection Prompts
+(-self-reflection-promts)=
+# موجات الانعكاس الذاتي
 
-Reflexivity is the process of using self-reflection to understand ourselves and our beliefs, and how these influence how we create knowledge through our work in data science. There are lots of different aspects you could consider, and the questions below are some prompts to help get you started.
+إن المرونة هي عملية استخدام التفكير الذاتي لفهم أنفسنا ومعتقداتنا، وكيف تؤثر هذه على كيفية خلق المعرفة من خلال عملنا في علوم البيانات. هناك الكثير من الجوانب المختلفة التي يمكنك النظر فيها، والأسئلة أدناه هي بعض المطالب لمساعدتك على البدء.
 
-## Questions about my own identity
+## أسئلة حول هويتي الخاصة
 
-- What is considered ethical in my culture that other cultures may see differently?
-- What are my own {ref}`Social Graces<er-self-reflection-social-graces>`?
-- How have my Social Graces shaped my experiences of life?
-- How have my Social Graces shaped the decisions that have led me to do what I do now?
-- What are the Social Graces of my family and friends?
-  - Are there Social Graces where we vary a lot/little?
+- ما الذي يعتبر أخلاقيا في ثقافتي التي قد تراها الثقافات الأخرى بشكل مختلف؟
+- ما هو {ref}الخاص بي`غراس اجتماعية<er-self-reflection-social-graces>`؟
+- كيف شكّلت غراسي الإجتماعية تجاربي في الحياة؟
+- كيف شكّلت غراس الإجتماعية الخاصة بي القرارات التي دفعتني إلى القيام بما أفعله الآن؟
+- ما هي الغضب الاجتماعي لعائلتي وأصدقائي؟
+  - هل هناك غراس إجتماعية حيث نختلف كثيراً/قليلاً؟
 
-## Questions about my research environment
+## أسئلة حول بيئتي البحثية
 
-- What are the shared values of my lab? My department? My university?
-- Who is visibly present in my department? Who isn't?
-    - What understanding do I have of why that is, and how have I formed this understanding?
-- What do I know about the visible and invisible Social Graces of people in my department or field?
-- How do the people who work in my field represent the people our work serves?
-  - How do I relate to the people I am trying to serve with my work?
+- ما هي القيم المشتركة لمختبري؟ أقسامتي؟ جامعتي؟
+- من الواضح أنه موجود في إداراتي؟ من ليس كذلك؟
+    - ما هو الفهم الذي لديّ لماذا هذا هو ، وكيف قمت بتكوين هذا الفهم؟
+- ماذا أعرف عن الغضب الإجتماعي المرئي وغير المرئي للناس في قسمي أو ميداني؟
+- كيف يمثل الأشخاص الذين يعملون في ميداني الناس الذين يخدمون عملنا؟
+  - كيف لي أن أتعامل مع الأشخاص الذين أحاول أن أخدم في عملي؟
 
-## Questions about my relationship to knowledge
+## أسئلة حول علاقتي بالمعرفة
 
-- What types of knowledge do I value?
-- Am I more convinced by a certain type of data over another - why is that?
-- Are there certain people I am more likely to believe, or find convincing?
-- What type of data presentation do I find convincing?
-- What type of statistics do I view as more robust (and why)?
-- What checks do I think data and analysis need to go through to be considered robust?
-- What are my views on qualitative data vs. quantitative data?
+- ما هي أنواع المعرفة التي أقيمها؟
+- هل أنا مقتنع بقدر أكبر بنوع معين من البيانات على بيانات أخرى - لماذا هذا؟
+- هل هناك أشخاص معينون أصدقهم، أو أجدهم مقنعين؟
+- ما نوع عرض البيانات الذي أجده مقنعا؟
+- ما نوع الإحصاءات التي أرى أنها أكثر قوة (ولماذا)؟
+- ما هي عمليات التحقق التي أعتقد أن البيانات والتحليلات تحتاج إلى المرور بها لكي تعتبر قوية؟
+- ما هي وجهات نظري بشأن البيانات النوعية مقابل البيانات الكمية؟
 
-## Questions about my relationship to my research topic
+## أسئلة حول علاقتي بموضوع بحثي
 
-- What do I believe are 'truths' about the concept I study?
-    - What evidence do I base those truths on? Who developed this evidence?
-- Who do I most commonly cite in my research area, and how are their perspectives similar or different to mine?
--  Whose perspectives are important in answering this research topic?
-- Am I the best person to answer this question - what might I be missing?
+- ما الذي أعتقد أنه "حقائق" حول المفهوم الذي أقوم بدراسته؟
+    - ما هي الأدلة التي أستند إليها في هذه الحقائق؟ من طور هذه الأدلة؟
+- من الذي أستشهد به عادة في مجال بحثي وكيف تشابه منظوراتهم أو تختلف عن منظوري؟
+-  مَن المنظورات الهامة في الإجابة على هذا الموضوع البحثي؟
+- هل أنا أفضل شخص للرد على هذا السؤال - ماذا قد أفتقد؟
 
-## Questions about my data
+## أسئلة حول بياناتي
 
-- Who isn't included in the data I have collected or reusing an existing dataset?
-- When and where was this data created?
-- What were the dominant beliefs at the time?
-- What do you know about the people who created this data?
+- من غير مضمن في البيانات التي جمعتها أو إعادة استخدام مجموعة بيانات موجودة؟
+- متى وأين تم إنشاء هذه البيانات؟
+- ما هي المعتقدات المهيمنة في ذلك الوقت؟
+- ماذا تعرفون عن الأشخاص الذين قاموا بإنشاء هذه البيانات؟
 
-Note, if you are creating a dataset and would like to record this information about your data for future users, consider using 'Datasheets for Datasets' {cite:ps}`gebru2018datasheets` as a guide. 
+لاحظ إذا كنت تقوم بإنشاء مجموعة بيانات وتود تسجيل هذه المعلومات حول بياناتك للمستخدمين في المستقبل، النظر في استخدام 'ورقات البيانات لمجموعات البيانات' {cite:ps}`gebru2018datashets` كدليل. 

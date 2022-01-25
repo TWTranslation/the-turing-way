@@ -17,7 +17,7 @@ _The Turing Way_ コラボカフェ(アクセント付きカフェ)は、毎月�
 
 これらの通話に使用するリソースは次のとおりです。
 
-1. Shared notes by [HackMD](https://hackmd.io/): You can access these notes online at [https://hackmd.io/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) and can take notes together with others on the call.
+1. Shared notes by [HackMD](https://hackmd.io/): You can access these notes online at [hackmd.io/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) and can take notes together with others on the call.
 2. Online call by [Zoom](https://www.zoom.us/): The Zoom link is provided in the HackMD before the call, and members can click to join the call by opening zoom window on the web or by using the Zoom app that should be installed locally ([available for free](https://zoom.us/download)).
 3. Cuckooのオンラインポモドーロ時計 eam [](https://cuckoo.team/collabcafe): 呼び出し時には、ブラウザを通じてすべての人がライブトラッキングできるポモドーロ作業間隔に時計が設定されています。</li> 
    
@@ -30,6 +30,10 @@ _The Turing Way_ コラボカフェ(アクセント付きカフェ)は、毎月�
 ## 通話の形式
 
 {ref}`コラボレーションカフェ<ch-template-coworking-collabcafe>`のテンプレートが用意されています。これは、通話ごとに共有されたノートで更新されます。
+
+**ボーナス**
+
+このビデオでは、KirstieとMalvikaがコラボカフェの構造と形式を計画しているのを見ることができます。 <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="YouTubeビデオプレーヤー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 
 
@@ -50,6 +54,41 @@ _The Turing Way_ コラボカフェ(アクセント付きカフェ)は、毎月�
 | 30分  | オープンディスカッション：祝賀会、反省会、今後の方向 |
 | 5分   | 👋 閉じる                      |
 
+
+
+
+### オンラインコラボカフェ会長
+
+
+
+#### 通話前
+
+- イベントの前に共有ドキュメント([HackMD](https://hackmd.io/@turingway/collaboration-cafe)) を以下の手順で更新してください: 
+    - 今後の通話の日付を更新
+  - 作業領域の下にある前の呼び出しからノートを移動します (この通知ページで定期的にアーカイブされます)
+  - 砕氷船の質問を更新
+  - SlackとTwitterでイベント発表のメモをシェアする
+
+**これらの呼び出しを実行する方法を知りたいですか?**
+
+私たちは、コラボカフェからYouTubeにいくつかのビデオを投稿しました。 Kirstieが最初に起動したときにどのようにコールを主催したかをビデオでご覧ください。 <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="YouTubeビデオプレーヤー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe> 
+
+
+
+#### 通話中
+
+- 通話中にメモを使用して情報を共有します
+- 行動規範のリンクを共有し、共有された Cuckoo (または他のウェブベースの時計) を使用してください
+- ポモドーロを開始する前に、ブレークアウトルームを作成してください
+- ポモドーロが終わったら、部屋を閉めてフィードバックを求め、5分休憩を要求します
+- 人々が何に取り組んでいるかについての議論のために最後の15-30分を残して、2-3ポモドーロのために繰り返しセッションを続けます。
+- すべての人に感謝の気持ちを伝える通話を終了し、次回の通話のためにノートをアーカイブします
+
+
+
+#### 通話後
+
+この通話からのフィードバックは、 *The Turing Way*のCommunity Manager と共有してください。 具体的には、何かフィードバックがあれば、将来の呼び出しのための懸念やアイデア。 今後の参加者とコラボカフェの議長に役立つこの章を改善するために、プルリクエストを作成することをお勧めします。
 
 
 

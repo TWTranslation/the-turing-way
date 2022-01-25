@@ -44,8 +44,7 @@ Nom / Institut ou affiliation / Quel aspect spécifique de GitHub trouvez vous d
 
 ### Appel de rouleau
 
-- Nom / Brise-glace question : Partagez quelque chose de la nature qui vous a éveillé ou vous a apporté la paix récemment - peut-être une fleur, une vue, une photo, un parfum, une plante en pote, un oiseau qui a volé le passé... 
-* 
+- Nom / Brise-glace question : Partagez quelque chose de la nature qui vous a éveillé ou vous a apporté la paix récemment - peut-être une fleur, une vue, une photo, un parfum, une plante en pote, un oiseau qui a volé le passé... * 
 * 
 *  
 

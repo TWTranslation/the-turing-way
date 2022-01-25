@@ -1,14 +1,10 @@
-# بعد الكلمة
+# crwdns2203:0crwdne2203:0
 
-الجزء الأخير من _طريق اللارجح_ كتاب يسمى **بعد كلمة**. اتباعا لهذا المبدأ التصميمي للكتب القياسية، قمنا حتى الآن بإدراج {ref}`المسرد`، {ref}`ثبت المراجع` و {ref}`سجل المساهمين` كمواد تكميلية لـ _طريق التجديد_
+crwdns2205:0crwdne2205:0 crwdns2207:0{ref}crwdnd2207:0{ref}crwdnd2207:0{ref}crwdne2207:0
 
-تم كتابة جوانب التعاون المجتمعي والتنمية من الكتاب في قسم [دليل المجتمع](../community-handbook/community-handbook) من هذا الكتاب.
+crwdns2209:0crwdne2209:0
 
 ```{figure} ../figures/road-to-reproducibility.jpg
----
-height: 400px
-name: road-to-reproducibility
-alt: Three hands holding magnifying glasses and varifying 'road to reproducibility' of The Turig Way.
----
-الطريق إلى إمكانية التكرار. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+crwdns2211:0crwdne2211:0
+crwdns2213:0crwdne2213:0 crwdns2215:0crwdne2215:0 crwdns2217:0crwdne2217:0 crwdns2219:0crwdne2219:0
 ```

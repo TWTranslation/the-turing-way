@@ -54,9 +54,7 @@ Tout le temps fourni dans London Time (UTC+1). Veuillez utiliser ce lien pour co
 
 ### :wave: Inscription
 
-*Veuillez ajouter votre nom à cette liste, mais n'oubliez pas qu'il s'agit d'un document public, alors utilisez un pseudonyme si vous préférez, ou simplement n'hésitez pas à laisser votre nom éteint.
-
-*Nom (pronouns - facultatif) / Institut / Twitter, GitHub / icebreaker : quelle chanson/musique/artiste/album vous met dans une bonne humeur ! :musical_score: 
+*Veuillez ajouter votre nom à cette liste, mais n'oubliez pas qu'il s'agit d'un document public, alors utilisez un pseudonyme si vous préférez, ou simplement n'hésitez pas à laisser votre nom éteint. *Nom (pronouns - facultatif) / Institut / Twitter, GitHub / icebreaker : quelle chanson/musique/artiste/album vous met dans une bonne humeur ! :musical_score: 
 
 * 
 * 

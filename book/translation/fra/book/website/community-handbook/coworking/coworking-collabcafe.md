@@ -28,9 +28,13 @@ Nous coordonnons nos tâches sur le dépôt GitHub et/ou _The Turing Way_ , où 
 
 Nous avons un modèle pour les {ref}`Collaboration Cafés<ch-template-coworking-collabcafe>`, qui est mis à jour sur les notes partagées pour chaque appel.
 
+**Bonus**
+
+L'appel commence avec les membres de l'équipe qui accueillent les participants, partageant le Code de Conduite, rappeler comment participer à l'appel, et définir le terrain pour des présentations rapides par tout le monde.<iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
 ### Planifier
 
-Nous allons exécuter l'horaire suivant lors de chaque café Collaboration :
+Nous prendrons de courtes pauses après chaque Pomodoro pour discuter de ce sur quoi nous travaillons, posez des questions qui pourraient vous aider dans votre prochaine session Pomodoro, partagez des erreurs ou des progrès, et célébrez les succès les uns des autres.
 
 | Durée      | Activité                                                              |
 | ---------- | --------------------------------------------------------------------- |
@@ -45,13 +49,39 @@ Nous allons exécuter l'horaire suivant lors de chaque café Collaboration :
 | 30 minutes | Discussion ouverte : célébrations, réflexions et orientations futures |
 | 5 minutes  | 👋 Fermer                                                              |
 
+### Inscription et brise-glace
+
 #### Début
+
+- Veuillez mettre à jour le document partagé ([HackMD](https://hackmd.io/@turingway/collaboration-cafe)) avant l'événement en utilisant les étapes suivantes :
+  - Mettre à jour la date de l'appel à venir
+  - Déplacer les notes de l'appel précédent sous la zone de travail (qui seront archivées périodiquement dans cette page de notion)
+  - Mettre à jour une question icebreaker
+  - Partagez les notes sur Slack et Twitter annonçant l'événement
+
+**Vous voulez voir comment nous gérons ces appels ?**
+
+Nous avons posté quelques vidéos de notre Collaboration Cafés sur YouTube. Regardez la vidéo pour voir comment Kirstie a hébergé les appels lors du premier lancement. <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
+#### Casse
+- Trouver une faute de frappe dans le livre et/ou dans le dépôt et la réparer.
+- Recherche d'informations dupliquées dans le livre et ouverture d'un problème pour discuter de la façon dont il peut être combiné.
+- Trouver un ancien problème ou un RP et essayer de résumer la discussion afin qu'il soit facile de décider de l'étape suivante.
+- Ajouter votre expérience personnelle de recherche reproductible dans la forme toujours ouverte de Google : [https://goo.gl/forms/akFqZEIy2kxAjfZW2](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
+- Poursuivre la session répétée pour 2-3 Pomodoro, laissant les 15 à 30 dernières minutes pour discuter de ce que les gens ont travaillé.
+- Fermer l'appel pour remercier tout le monde, et archiver les notes pour le prochain appel
+
+#### Après l'appel
+
+Veuillez partager tout commentaire de cet appel avec le gestionnaire de la communauté *The Turing Way*, plus précisément, si vous avez des commentaires, des préoccupations ou des idées pour des appels futurs. Nous vous encourageons à créer une Pull Request pour améliorer ce chapitre qui peut aider les futurs participants et le président du Collaboration Café.
+
+#### Si vous rejoignez cet appel plus tard
 
 L'appel commence avec les membres de l'équipe qui accueillent les participants, partageant le Code de Conduite, rappeler comment participer à l'appel, et définir le terrain pour des présentations rapides par tout le monde.
 
-#### Casse
+#### Enregistrement de cet appel
 
-Nous prendrons de courtes pauses après chaque Pomodoro pour discuter de ce sur quoi nous travaillons, posez des questions qui pourraient vous aider dans votre prochaine session Pomodoro, partagez des erreurs ou des progrès, et célébrez les succès les uns des autres.
+Si vous savez à l'avance à quelle heure vous rejoindrez l'appel de cotravail, vous pouvez en informer l'hôte avant l'appel ou laisser une note dans le document partagé.
 
 Nous utiliserons les 30 dernières minutes pour la discussion, le dépannage collaboratif, ou l'échange d'idées pour le projet et la communauté.
 
@@ -65,26 +95,26 @@ Les sessions de Pomodoro peuvent se produire soit dans la salle de zoom principa
 
 Lors d'une session typique de Pomodoro, les participants sont envoyés dans les salles de réfection en fonction du sujet sur lequel ils travaillent. Si vous rejoignez plus tard, vous serez en mesure de vérifier le temps restant dans le Pomodoro en cours en ouvrant l'horloge partagée dans votre navigateur (le lien doit être fourni dans les notes partagées). Vous pouvez utiliser cette session Pomodoro pour vous inscrire, lire les notes d'autres participants dans le document partagé, et découvrez sur quoi vous souhaitez travailler lors de la prochaine session de Pomodoro.
 
-Si vous savez à l'avance à quelle heure vous rejoindrez l'appel de cotravail, vous pouvez en informer l'hôte avant l'appel ou laisser une note dans le document partagé.
+*Avez-vous une autre question intéressante à poser aux autres ?* *[Contactez-nous](/README.md#get-in-touch) et faites-le nous savoir !* *Nous aimons les suggestions créatives !*
 
 #### Enregistrement de cet appel
 
 Nous pouvons enregistrer l'appel pour la partie qui implique une discussion ouverte afin que les autres personnes qui ne peuvent pas assister à l'appel puissent apprendre des conversations que nous avons au cours des cafés de collaboration. Pour cette part, vous n'avez pas à parler ou avoir votre vidéo sur si vous préférez ne pas être dans la vidéo. Les vidéos seront téléchargées sur le canal YouTube _The Turing Way_ : [https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
 
-### Inscription et brise-glace
+### Début de la conversation
 
 Si vous êtes intéressé à rejoindre le prochain Café, veuillez en informer les organisateurs en ajoutant votre nom à la section **Inscription** de la page des notes HackMD. L'ajout de votre nom est utile pour les organisateurs afin qu'ils puissent se préparer à l'appel. Mais ne vous inquiétez pas si vous ne vous inscrivez pas à l'avance. Il est normal de vous joindre à tout moment aussi longtemps que vous le souhaitez.
 
-En plus de vos noms, nous encouragerons tout le monde à ajouter une courte réponse à une question de brise-glace, qui nous aideront tous à apprendre quelque chose de personnel sur les différentes personnes à l'appel.
+Dans la section **Début de conversation** des notes HackMD, nous encourageons tout le monde à annoncer leurs événements ou à les mettre à jour depuis leur communauté.
 
 Voici quelques exemples de questions (donc vous savez à quoi vous attendre):
 
-* quelle a été votre plus grande réalisation cette semaine?
-* quand a été la dernière fois que vous avez vu un arc-en-ciel?
-* Qu'est-ce que vous êtes le plus excité de cette année?
-* Quelle est votre saveur préférée dans la crème glacée/gâteau?
+* Nouveau utilisateur GitHub ou actualiser les questions (et réponses)
+* Recherche d'un bon premier problème
+* Lire et donner des commentaires sur un chapitre avec l'auteur original
+* Lire et donner des commentaires sur un chapitre avec un nouveau lecteur
 
-*Avez-vous une autre question intéressante à poser aux autres ?* *[Contactez-nous](/README.md#get-in-touch) et faites-le nous savoir !* *Nous aimons les suggestions créatives !*
+Nous voulons que les cafés de collaboration soient un endroit qui accueille les nouveaux et les anciens membres de la communauté _The Turing Way_.
 
 Voici un exemple du deuxième café Collaboration en septembre 2019 :
 
@@ -95,33 +125,33 @@ Voici un exemple du deuxième café Collaboration en septembre 2019 :
 
 Comme vous pouvez le voir, il y a un rappel dans les notes qu'ils sont dans un document public. Il est tout à fait acceptable que vous ajoutiez autant ou aussi peu d'informations que vous vous sentez à l'aise de les partager.
 
-### Début de la conversation
+### Les bonnes premières contributions
 
-Dans la section **Début de conversation** des notes HackMD, nous encourageons tout le monde à annoncer leurs événements ou à les mettre à jour depuis leur communauté.
+Les bonnes premières contributions pourraient inclure :
 
 Celles-ci ne doivent pas être "marquées" de Turing Way ! **Nous voulons savoir sur toutes les choses intéressantes sur lesquelles vous travaillez.**✨
 
-### Les bonnes premières contributions
+### Salles de repos
 
-Nous voulons que les cafés de collaboration soient un endroit qui accueille les nouveaux et les anciens membres de la communauté _The Turing Way_.
+Zoom permet à des groupes de collaborateurs de discuter dans une "salle principale", ou de se diviser - dans le même appel - et de parler les uns avec les autres dans les plus petites ["pièces d'arrachage"](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms).
 
 Dans le brainstorming de ces événements, nous avons imaginé que certaines personnes pourraient vouloir ajouter du nouveau matériel qu'elles ont créé avant le livre, d'autres peuvent vouloir terminer une contribution qu'ils ont commencée, et d'autres encore pourraient vouloir apprendre de nouvelles compétences, y compris _comment_ contribuer à _The Turing Way_. Ce sont **toutes les** bonnes raisons de nous rejoindre !
 
-Nous aurons toujours quelqu'un dans l'équipe disponible pour vous aider à remuer votre première contribution et répondre à toutes les questions sur la façon d'intégrer votre travail.
+Vous verrez une section d'apparition dans les notes partagées :
 
-Les bonnes premières contributions pourraient inclure :
+Pour chaque session, vous pouvez proposer une conversation pour avoir dans une salle d'arrachage ou ajouter votre nom pour rejoindre une suggestion qui est déjà sur la liste.
 
 * Trouver une faute de frappe dans le livre et/ou dans le dépôt et la réparer.
 * Recherche d'informations dupliquées dans le livre et ouverture d'un problème pour discuter de la façon dont il peut être combiné.
 * Trouver un ancien problème ou un RP et essayer de résumer la discussion afin qu'il soit facile de décider de l'étape suivante.
 * Ajouter votre expérience personnelle de recherche reproductible dans la forme toujours ouverte de Google : [https://goo.gl/forms/akFqZEIy2kxAjfZW2](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
 
-(-coworking-collabcafe-breakout)=
+Vous n'avez pas à ajouter votre nom à l'avance (bien que vous soyez les bienvenus à) et vous n'avez pas à rester dans la chambre d'étage que vous avez mis votre nom à côté.
 ### Salles de repos
 
-Zoom permet à des groupes de collaborateurs de discuter dans une "salle principale", ou de se diviser - dans le même appel - et de parler les uns avec les autres dans les plus petites ["pièces d'arrachage"](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms).
+Les sujets de discussion de la salle de rétractation peuvent inclure :
 
-Pendant les sessions en ligne du Café de Collaboration, Nous utiliserons les salles d'arrachage pour permettre aux gens de parler de plusieurs sujets différents en parallèle pendant les sessions de Pomodoro.
+La personne qui préside l’appel vous mettra dans les salles spécifiques pour les sessions de Pomodoro et vous ramènera ensuite dans la salle principale pour les pauses de 5 minutes et la conversation plus large à la fin du café Collaboration.
 
 Vous verrez une section d'apparition dans les notes partagées :
 
@@ -142,4 +172,4 @@ Les sujets de discussion de la salle de rétractation peuvent inclure :
 * Brainstorming _où_ vos sujets pourraient mieux s'intégrer dans _The Turing Way_
 * Bug squashing - suppression des barrières (techniques et autres)
 
-La personne qui préside l’appel vous mettra dans les salles spécifiques pour les sessions de Pomodoro et vous ramènera ensuite dans la salle principale pour les pauses de 5 minutes et la conversation plus large à la fin du café Collaboration.
+Pendant les sessions en ligne du Café de Collaboration, Nous utiliserons les salles d'arrachage pour permettre aux gens de parler de plusieurs sujets différents en parallèle pendant les sessions de Pomodoro.

@@ -1,3 +1,13 @@
+```{figure} ../figures/data-ecosystem.jpg
+---
+Höhe: 400px
+Name: Datenökosystem
+alt: Bild des Datenökosystems mit privaten und öffentlichen Daten
+---
+Offene und geschlossene Daten zur Reproduzierbarkeit.
+_The Turing Way_ Projekt-Illustration von Scriberia. Originalversion auf Zenodo. http://doi.org/10.5281/zenodo.3695300. 
+```
+
 (rr-rdm)=
 # Recherchedatenmanagement
 
@@ -15,6 +25,8 @@ Die folgenden Abschnitte in diesem Handbuch enthalten nützliche Zusammenhänge 
 ## Summary
 
 Research Data Management (RDM) [{term}`def<Research Data Management>`] deckt ab, wie Forschungsdaten gespeichert, beschrieben und wiederverwendet werden können. Daten werden hier als generischer Begriff verwendet, um alle digitalen Objekte zu erfassen. RDM ist ein wesentlicher Bestandteil der reproduzierbaren Forschung. RDM sorgt für Effizienz in Forschungsworkflows und auch für größere Reichweite und Wirkung, da Daten FAIR werden (Findable, Accessible, Interoperable and Reusable). Daten sollten an mehreren Orten gespeichert und regelmäßig gesichert werden, um Verluste oder Datenschäden zu verhindern. Die klare Beschreibung von Daten mithilfe von Dokumentation und Metadaten stellt sicher, dass andere wissen, wie man zugreifen kann Ihre Daten zu verwenden und zu verwerten sowie die Bedingungen für den Austausch und die Veröffentlichung von Daten zu skizzieren.
+
+
 
 (rr-rdm-nützlich)=
 ## Warum dies nützlich ist

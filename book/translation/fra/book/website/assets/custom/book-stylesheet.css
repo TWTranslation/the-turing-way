@@ -1,0 +1,88 @@
+/*--------------------------------------------------------------------*\ 
+
+Ce fichier contient le CSS qui gère le style dans tout le livre.
+Utilisez les classes définies ici pour contrôler l'apparence des éléments HTML de votre contribution.
+
+Si vous ajoutez de nouveaux styles, n'oubliez pas d'expliquer ce qu'il fait comme montré ci-dessous. 
+
+Index
+  - Style de la table des matières
+  - Style pour les vidéos embarquées
+
+\*--------------------------------------------------------------------*/ 
+
+/*--------------------------------------------------------------------*\ 
+Style de la table des matières 
+
+- S'assure que les éléments du menu dans la table des matières sont assez grands pour les lecteurs
+
+\*--------------------------------------------------------------------*/ 
+
+#site-navigation li > a {
+  font-size: 1.1em;
+}
+
+/*--------------------------------------------------------------------*\
+
+Style pour les vidéos embarquées (iframes) 
+
+- S'assure que les vidéos peuvent être redimensionnées en fonction de l'écran à partir duquel le livre est lu.
+- assure également que les vidéos sont centrées horizontalement.
+
+\*--------------------------------------------------------------------*/ 
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  hauteur: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position : absolue;
+  haut:0;
+  gauche: 0;
+  width: 100%;
+  hauteur: 100%;
+}
+
+iframe {
+  marge : auto;
+  display:block;
+}
+
+/*--------------------------------------------------------------------*\
+
+Style pour les tables
+
+- Améliore le style des tables par rapport au standard Markdown
+- Ajoute des bordures aux tables, et permet de surligner les lignes lors du survol
+
+\*--------------------------------------------------------------------*/ 
+
+th, td {
+  bordure: 1 px solide #999999 !important; 
+  text-align: center; 
+  padding: 10px
+}
+
+ème {
+  poids-police : gras; 
+  background-color: #EEEEEE;
+}
+
+légende de la table {
+  couleur: noir; 
+  text-align: center;
+}
+
+légende de la table .footnote {
+  couleur: #66666666; 
+  text-align: gauche; 
+  taille de la police : plus petite;
+}
+
+tr:hover {
+  background-color: #f7f7f7;
+}

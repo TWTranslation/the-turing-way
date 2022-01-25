@@ -25,7 +25,7 @@ Testez vos codes et encouragez votre communauté à revoir et à tester le code 
 
 Vous pouvez également configurer un environnement {ref}`Intégration continue<rr-ci>` pour aider à automatiser les tests dans votre flux de travail.
 
-Voir la section {ref}de test` <rr-testing>` dans le Guide de recherche reproductible pour plus d'informations.
+Voir la section {ref}de test`<rr-testing>` dans le Guide de recherche reproductible pour plus d'informations.
 
 ## La reproductibilité est encore plus importante
 

@@ -1,3 +1,13 @@
+```{figure} ../figures/data-ecosystem.jpg
+---
+height: 400px
+nome: data-ecosystem
+alt: imagem do ecossistema de dados com dados privados e públicos
+---
+Abrir e fechar dados para reprodução.
+_O projeto Turing Way_ ilustração por Scriberia. Versão original em Zenodo. http://doi.org/10.5281/zenodo.3695300. 
+```
+
 (rr-rdm)=
 # Gerenciamento de Dados de Pesquisa
 
@@ -15,6 +25,8 @@ As seções seguintes deste manual fornecem um contexto útil e informações co
 ## Summary
 
 Gerenciamento de Dados de Pesquisa (RDM) [{term}`def<Research Data Management>`] cobre como os dados de pesquisa podem ser armazenados, descritos e reutilizados. Os dados aqui são usados como um termo genérico para abranger todos os objetos digitais. O RDM é uma parte vital para permitir a investigação reprodutível. RDM garante eficiência em fluxos de trabalho de pesquisa, e também maior alcance e impacto, à medida que os dados se tornam FAIR (buscáveis, acessíveis, interoperáveis e reutilizáveis). Os dados devem ser armazenados em vários locais e no backup regularmente para prevenir a perda ou a corrupção de dados. Descrever claramente dados usando a documentação e os metadados garante que outros saibam como acessá-los. use e reutilize seus dados, e também ative condições para que sejam delineados os dados de compartilhamento e publicação.
+
+
 
 (rr-rdm-útil)=
 ## Por que isso é Útil

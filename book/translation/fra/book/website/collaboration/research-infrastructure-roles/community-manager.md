@@ -76,7 +76,7 @@ Vous pouvez trouver la roue de compétences sur Zendo ici : [https://zenodo.org/
 
 (cl-infrastructure-organisations-communautés)=
 ## Organisations qui soutiennent les gestionnaires de la communauté
-Le Centre de Collaboration Scientifique et d'Engagement Communautaire ([cscce. rg](https://www.cscce.org/) travaille à _"professionnaliser et institutionnaliser le rôle du gestionnaire d'engagement communautaire (CEM) dans la science._ Ils proposent de la formation, des ressources cocréées, de la recherche, de la recherche et une communauté de pratique active pour les gestionnaires de la communauté scientifique afin de se connecter et de s'entraider.
+rg</a> travaille à _"professionnaliser et institutionnaliser le rôle du gestionnaire d'engagement communautaire (CEM) dans la science._ Ils proposent de la formation, des ressources cocréées, de la recherche, de la recherche et une communauté de pratique active pour les gestionnaires de la communauté scientifique afin de se connecter et de s'entraider.
 
 (résumé cl-infrastructure-communitymanagers-résumé)=
 ## Summary

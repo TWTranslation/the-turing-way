@@ -1,17 +1,17 @@
-(rr-licensing-checklist)=
-# Checklist
+crwdns24131:0crwdne24131:0
+# crwdns24133:0crwdne24133:0
 
-هذه قائمة مرجعية لإضافة ترخيص إلى مستودع المشروع الخاص بك.
+crwdns24135:0crwdne24135:0
 
-- اذهب إلى مجلد مستودعك (كمبيوتر محلي أو مستودع عبر الإنترنت على GitHub/GitLab/BitBucket)
-- إنشاء ملف جديد واسم جديد هو `License.txt` أو `License.md` استنادًا إلى تفضيلك تنسيق الملف
-- اختر نوع ترخيص (أو ترخيص متعدد للمحتوى المختلط) مناسب لمشروعك (زيارة [choosealicense.com](https://choosealicense.com/))
-- نسخ محتوى الترخيص إلى الملف المنشأ حديثا، على سبيل المثال، يمكنك استخدام ترخيص مفتوح المصدر [CC-BY 4.](https://choosealicense.com/licenses/cc-by-4.0/) لمحتوى النص و [رخصة MIT](https://choosealicense.com/licenses/mit/) للبرنامج
-- حفظ الملف الخاص بك وإضافة التفاصيل في ملف README.md الخاص بك
+- crwdns24137:0crwdne24137:0
+- crwdns24139:0crwdne24139:0
+- crwdns24141:0crwdne24141:0
+- crwdns24143:0crwdne24143:0
+- crwdns24145:0crwdne24145:0
 
-(r-licensing-read)=
-## المزيد من القراءة
+crwdns24147:0crwdne24147:0
+## crwdns24149:0crwdne24149:0
 
-موارد إضافية يمكنك قراءتها لمعرفة المزيد عن تراخيص البرمجيات.
+crwdns24151:0crwdne24151:0
 
- - [تراخيص المصدر المفتوح: ماهية الرخص وأسبابها](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)
+ - [crwdns24155:0crwdne24155:0](crwdns24153:0crwdne24153:0)

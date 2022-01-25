@@ -17,7 +17,7 @@ _导星路径_ 团队每周都在接待较短的合作电话。 这些电话与�
 
 这些电话的所需资源也与协作咖啡厅非常相似。
 
-1. 共享笔记由 [HackMD](https://hackmd.io/): [https://hackmd.io/@malvikasharan/Tw-coworking](https://hackmd.io/@malvikasharan/TW-coworking)
+1. 由 [HackMD](https://hackmd.io/)分享的备注: [https://hackmd.io/@turingway/coworking-calling](https://hackmd.io/@turingway/coworking-call)
 2. 由 [缩放](https://www.zoom.us/)进行的在线通话：缩放链接是在 HackMD中提供的。
 3. 在线番茄钟： [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
 
@@ -40,13 +40,27 @@ _导星路径_ 团队每周都在接待较短的合作电话。 这些电话与�
 
 与协作咖啡馆不同，这些电话的时间安排似乎更加紧张，讨论的机会也较少。 然而，由于这些电话的参与者较少，因此提供了进行非正式互动的更多机会。
 
+### Chairing Coworking calling
+
+请使用以下步骤每月更新文档：
+
+- [每月更新HackMD](https://hackmd.io/@turingway/coworking-call) ，增加每周通话的日期
+- 将笔记从前调用到模板区域下方(将会定期存档于本节点页面)
+- 在Slack和Twitter上分享笔记，宣布日期
+- 通话期间使用便笺，在您主持通话时分享信息
+- 请确保您共享行为守则链接并使用共享的 Cuckoo (或其他网络时钟)
+- 在开始番茄钟会话之前为人们创建分区房间——需要时
+- 随着第一个番茄钟结束, 关闭任何分房间, 要求反馈, 然后重启第二个番茄会议
+- 通话排定时间为60分钟，因此最多可以容纳2个番茄会议
+- 关闭通话，感谢所有人，并为下一次通话腾出笔记
+
 #### 开始
 
 这次呼吁首先是小组成员欢迎与会者，分享《行为守则》，提醒他们如何参与呼吁， 并为每个人分享他们正在做的事情和他们将要做的事情奠定基础。
 
 #### Pomodoros
 
-我们将启动 [计时器](https://cuckoo.team/TW-coworking) 来跟踪番茄钟会话。 如果每个人都计划就独立的任务开展工作，我们就会留在主会议室，静悄悄地工作。 对于呼叫中的两个人正在进行的任何讨论或协作任务，我们将为他们创建 [个断开房间](#breakout-rooms)。
+会话主席将启动 [计时器](https://cuckoo.team/TW-coworking) 来跟踪番茄钟的会话。 如果每个人都计划就独立的任务开展工作，我们就会留在主会议室，静悄悄地工作。 对于呼叫中的两个人正在进行的任何讨论或协作任务，我们将为他们创建 [个断开房间](#breakout-rooms)。
 
 如果有新成员在通话中， 其中一名成员(通常是电话主页)将把新成员带到一个分区房间，在项目仓库周围展示并分享一些开始的小贴士。
 

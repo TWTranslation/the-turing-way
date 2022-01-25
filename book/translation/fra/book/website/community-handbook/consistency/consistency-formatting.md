@@ -163,7 +163,7 @@ Lorsque vous écrivez du texte ALT, n'oubliez pas:
 
 Veuillez noter que les images incluses dans le livre _The Turing Way_ doivent être inférieures à 1 Mo. Cela permet de charger le livre plus rapidement, en particulier pour les lecteurs qui peuvent avoir des connexions lentes à Internet.
 
-Veuillez vous référer au guide de style {ref}` <ch-style-figures>` pour des exemples sur le formatage des images à l'aide de `MyST` et leur ajout de texte ALT. Lorsque vous incluez des images dans vos contributions, il est peut-être préférable d'éviter le paramètre de hauteur, car la mauvaise valeur peut faire apparaître votre image déformée sur les appareils mobiles. Vous devriez toujours vérifier l'apparence de votre image dans l'aperçu Netlify du livre lorsque vous faites une PR.
+Veuillez vous référer au guide de style {ref}`<ch-style-figures>` pour des exemples sur le formatage des images à l'aide de `MyST` et leur ajout de texte ALT. Lorsque vous incluez des images dans vos contributions, il est peut-être préférable d'éviter le paramètre de hauteur, car la mauvaise valeur peut faire apparaître votre image déformée sur les appareils mobiles. Vous devriez toujours vérifier l'apparence de votre image dans l'aperçu Netlify du livre lorsque vous faites une PR.
 
 #### Démo
 

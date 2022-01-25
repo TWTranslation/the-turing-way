@@ -1,35 +1,35 @@
-(قائمة مرجعية للمواقع الطبيعية)=
-# قوائم المراجعة والموارد
+crwdns9715:0crwdne9715:0
+# crwdns9717:0crwdne9717:0
 
-(مؤلفو قائمة مرجعية بالأحكام) =
-## قائمة التحقق للمؤلفين
+crwdns9719:0crwdne9719:0
+## crwdns9721:0crwdne9721:0
 
-- اختيار مجموعات البيانات الرئيسية والبرمجيات تعتمد استنتاجاتك على
-- ذكر البيانات والبرمجيات كما لو كنت تستشهد بورقة
-- نشر بياناتك/برمجياتك الخاصة واستشهد بذلك أيضا
-- احصل على [معرف ORCID!](https://orcid.org/)
+- crwdns9723:0crwdne9723:0
+- crwdns9725:0crwdne9725:0
+- crwdns9727:0crwdne9727:0
+- crwdns9729:0crwdne9729:0
 
-(بيانات قائمة مرجعية للمخاطب)=
-## لمبتكري البيانات
+crwdns9731:0crwdne9731:0
+## crwdns9733:0crwdne9733:0
 
-- إيداع بياناتك في مستودع مستقر
-- احصل على معرف دائم (DOI) لبياناتك
-- قم بتضمين مثال اقتباس في ملف README الخاص بك
+- crwdns9735:0crwdne9735:0
+- crwdns9737:0crwdne9737:0
+- crwdns9739:0crwdne9739:0
 
-(برامجيات قائمة مرجعية ممتدنة)=
-## لمطوري البرمجيات
+crwdns9741:0crwdne9741:0
+## crwdns9743:0crwdne9743:0
 
-- إيداع لقطات الاصدار الرئيسية من برنامجك في مستودع ثابت
-- احصل على معرف ثابت متميز لكل إصدار رئيسي
-- قم بتضمين مثال اقتباس في دليل برنامجك
+- crwdns9745:0crwdne9745:0
+- crwdns9747:0crwdne9747:0
+- crwdns9749:0crwdne9749:0
 
-(توصية بقائمة مرجعية للمخاطب)=
-## توصية أخرى
+crwdns9751:0crwdne9751:0
+## crwdns9753:0crwdne9753:0
 
-- [إرشادات الاستشهاد بالبيانات](https://datacite.org/cite-your-data.html)
-- [مبادئ بيانات FAIR](https://www.force11.org/group/fairgroup/fairprinciples)
-- [الاستمارة 11 مبادئ الإشارة إلى البيانات](https://www.force11.org/datacitationprinciples)
-- [المرفق 11 - مبادئ الإشارة إلى البرمجيات](https://www.force11.org/software-citation-principles)
-- [البدء مع سجل ORCID الخاص بك](https://support.orcid.org/hc/en-us/articles/360006896894-Getting-started-with-your-ORCID-record)
-- [جعل البرنامج قابل للاستشهاد](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
-- [دليل OpenAIRE بشأن هويات الأشخاص](https://www.openaire.eu/how-can-identifiers-improve-the-dissemination-of-your-research-outputs)
+- [crwdns9757:0crwdne9757:0](crwdns9755:0crwdne9755:0)
+- [crwdns9761:0crwdne9761:0](crwdns9759:0crwdne9759:0)
+- [crwdns9765:0crwdne9765:0](crwdns9763:0crwdne9763:0)
+- [crwdns9769:0crwdne9769:0](crwdns9767:0crwdne9767:0)
+- [crwdns9773:0crwdne9773:0](crwdns9771:0crwdne9771:0)
+- [crwdns9777:0crwdne9777:0](crwdns9775:0crwdne9775:0)
+- [crwdns9781:0crwdne9781:0](crwdns9779:0crwdne9779:0)

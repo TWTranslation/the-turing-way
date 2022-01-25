@@ -17,7 +17,7 @@ Embora agendada para 1 hora, você está convidado a participar por um período 
 
 O requisito de recursos para estas chamadas é também muito semelhante ao Caio de Colaboração.
 
-1. Notas compartilhadas por [HackMD](https://hackmd.io/): [https://hackmd.io/@malvikasharan/TW-coworking](https://hackmd.io/@malvikasharan/TW-coworking)
+1. Notas compartilhadas por [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
 2. Chamada online por [Zoom](https://www.zoom.us/): O link de Zoom é fornecido no HackMD.
 3. Um relógio Pomodoro online: [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
 
@@ -40,13 +40,27 @@ Vamos executar o seguinte cronograma em cada chamada:
 
 Em contraste com os cafés de Colaboração, o calendário para estas chamadas parece mais intenso e menos susceptível de discussão. No entanto, uma vez que estes apelos contam com menos participantes, oferece mais oportunidades para interacções informais.
 
+### Coordenando chamadas de trabalho
+
+Por favor, atualize o documento todo mês usando os seguintes passos:
+
+- [Atualize o HackMD](https://hackmd.io/@turingway/coworking-call) a cada mês adicionando datas para as chamadas semanais
+- Mover as anotações da chamada anterior abaixo da área de template (que serão arquivadas nesta página de Notion periodicamente)
+- Compartilhe as notas no Slack e Twitter anunciando as datas
+- Utilize as notas durante a chamada para compartilhar informações à medida que você preside à chamada
+- Certifique-se de compartilhar o link do Código de Conduta e usar o Cuckoo compartilhado (ou outros relógios da web)
+- Crie salas de interrupção para pessoas antes de iniciar as sessões do Pomodoro - quando necessário
+- À medida que a primeira sessão do Pomodoro termina, feche quaisquer salas de interrupção, peça comentários e reinicie a segunda sessão do Pomodoro
+- A chamada está agendada para 60 minutos, podendo assim acomodar até 2 sessões de Pomodoro
+- Feche a chamada de agradecimento a todos, e dê chefe das notas para a próxima chamada
+
 #### Início
 
 A chamada começa com os membros da equipe que acolhem os participantes, compartilhando o Código de Conduta, lembrando como participar da chamada, e preparar o terreno para que todos partilhem o que estão a fazer e o que irão fazer.
 
 #### Pomodoros
 
-Vamos começar o [cronômetro](https://cuckoo.team/TW-coworking) para acompanhar as sessões do Pomodoro. Se todos planearem trabalhar em tarefas independentes, permaneceremos na sala principal e trabalharemos em silêncio. Para qualquer discussão ou tarefa colaborativa em que duas pessoas da chamada estejam trabalhando, criaremos [salas de interrupção](#breakout-rooms) para elas.
+A cadeira de sessão iniciará o [temporizador](https://cuckoo.team/TW-coworking) para manter o controle das sessões do Pomodoro. Se todos planearem trabalhar em tarefas independentes, permaneceremos na sala principal e trabalharemos em silêncio. Para qualquer discussão ou tarefa colaborativa em que duas pessoas da chamada estejam trabalhando, criaremos [salas de interrupção](#breakout-rooms) para elas.
 
 Se houver novos membros a chamar, um dos membros (normalmente host da chamada) levará o novo membro a uma sala de interrupção para mostrar em torno do repositório do projeto e compartilhará algumas dicas para começar.
 

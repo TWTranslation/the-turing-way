@@ -1,166 +1,103 @@
-(ص-ماكي-تذييل)=
-# تذييل
+crwdns25001:0crwdne25001:0
+# crwdns25003:0crwdne25003:0
 
-(r-make-pendix-dag)=
-## الرسم البياني المعجّل الموجه
+crwdns25005:0crwdne25005:0
+## crwdns25007:0crwdne25007:0
 
-الرسم البياني للموسيقى (DAG) هو *رسم بياني* من العقد والحواف التي هي:
+crwdns25009:0crwdne25009:0
 
-1. *الموجه*: الحواف لها اتجاه ويمكنك فقط المشي على الرسم البياني في ذلك الاتجاه
-2. *المعقل*: لا يحتوي على دورات: A لا يمكن أن يعتمد على B عندما يعتمد B على A.
+1. crwdns25011:0crwdne25011:0
+2. crwdns25013:0crwdne25013:0
 
-وبالطبع فإن هذه الممتلكات الأخيرة مفيدة جدا لنظام البناء. يمكن العثور على المزيد من المعلومات حول DAGs على [ويكيبيديا](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+crwdns25015:0crwdne25015:0 crwdns25017:0crwdne25017:0
 
-(r-make-appendix-installing)=
-## تثبيت الصنع
+crwdns25019:0crwdne25019:0
+## crwdns25021:0crwdne25021:0
 
-أولا، تحقق مما إذا كان لديك غنو اصنع مثبت بالفعل. في النوع النهائي:
-
-```bash
-صنع $
-```
-
-إذا حصلت على `صنع: الأمر غير موجود` (أو مماثل)، ليس لديك أي صنع. إذا حصلت على `صنع: *** لا توجد أهداف محددة ولم يتم العثور على مكان مؤقت.  توقف.` أنت لديها صنع.
-
-سنستخدم **غنو اصنع** في هذا البرنامج التعليمي. تحقق من أن هذا ما لديك عن طريق الكتابة:
+crwdns25023:0crwdne25023:0 crwdns25025:0crwdne25025:0
 
 ```bash
-إصدار $ --الإصدار
+crwdns25027:0crwdne25027:0
 ```
 
-إذا لم يكن لديك غنو صنع ولكن لديك إصدار BSD ، قد لا تعمل بعض الأشياء كما هو متوقع ونوصي بتثبيت GNU Make.
+crwdns25029:0crwdne25029:0 crwdns25031:0crwdne25031:0  crwdns25033:0crwdne25033:0
 
-لتثبيت GU Mak، يرجى اتباع هذه التعليمات:
+crwdns25035:0crwdne25035:0 crwdns25037:0crwdne25037:0
 
-- **Linux**: استخدم مدير الحزمة لتثبيت Make. على سبيل المثال على Arch Linux:
+```bash
+crwdns25039:0crwdne25039:0
+```
+
+crwdns25041:0crwdne25041:0
+
+crwdns25043:0crwdne25043:0
+
+- crwdns25045:0crwdne25045:0 crwdns25047:0crwdne25047:0
 
   ```bash
-  $ sudo pacman -S make
+  crwdns25049:0crwdne25049:0
   ```
 
-  Ubuntu:
+  crwdns25051:0crwdne25051:0
   ```bash
-  $ تثبيت sudo apt-get الضروري للبناء
+  crwdns25053:0crwdne25053:0
   ```
 
-- **MacOS**: إذا كان لديك [Homebrew](https://brew.sh/) مثبت، فهي بسيطة:
+- crwdns25055:0crwdne25055:0
 
   ```bash
-  التثبيت $ لتثبيت البقر
+  crwdns25057:0crwdne25057:0
   ```
 
-  إذا كان لديك تنفيذ مدمج، فيرجى التأكد من أنها تصنع جنو عن طريق التحقق من `اجعل --الإصدار`.
+  crwdns25059:0crwdne25059:0
 
-(r-make-appendix-Advcedgr)=
-## المتقدم: توليد القواعد باستخدام المكالمة
+crwdns25061:0crwdne25061:0
+## crwdns25063:0crwdne25063:0
 
-*يواصل هذا القسم البرنامج التعليمي أعلاه ويعرض ميزة صنع للإنشاء التلقائي للقواعد.*
+*crwdns25065:0crwdne25065:0*
 
-في خط أنابيب علوم البيانات، قد يكون من الشائع تطبيق برامج نصية متعددة على نفس البيانات (على سبيل المثال عندما تقارن الأساليب أو تختبر معلمات مختلفة). في هذه الحالة، قد يصبح من الممل كتابة قاعدة منفصلة لكل نص نصي عندما يتغير اسم البرنامج النصي فقط. لتبسيط هذه العملية ، يمكننا أن نجعل توسيع ما يسمى [*المعلبة* وصفة](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
+crwdns25067:0crwdne25067:0 crwdns25069:0crwdne25069:0 crwdns25071:0crwdne25071:0
 
-للمتابعة، قم بالتبديل إلى فرع `المعلب`:
+crwdns25073:0crwdne25073:0
 
 ```bash
-$ جعل
-$ git Stsh --كل # لاحظ العلم '--all' لذلك نحن أيضًا نضع Makefile
-$ git معلّقة
+crwdns25075:0crwdne25075:0
 ```
 
-على هذا الفرع ستلاحظ أن هناك برنامج نصي جديد في **البرامج النصية** الدليل المسمى `generate_qplot.py`. يعمل هذا البرنامج النصي بشكل مماثل لـ `Generate_histogram. y` سكريبت (يحتوي على نفس بناء سطر الأوامر)، ولكن يولد [Q-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). ملف **report.tex** تم تحديثه أيضا لدمج هذه المخططات.
+crwdns25077:0crwdne25077:0 crwdns25079:0%Ecrwdnd25079:0%80crwdnd25079:0%93crwdne25079:0 crwdns25081:0crwdne25081:0
 
-بعد التبديل إلى فرع `المعلب` سيكون هناك Makefile في مستودع الذي يحتوي على قاعدة منفصلة لإنشاء قطع QQ. هذا Makefile يبدو هكذا:
+crwdns25083:0crwdne25083:0 crwdns25085:0crwdne25085:0
 
 ```makefile
-# Makefile للحصول على تقرير تحليلي
-#
-
-ALL_CSV = $(wildcard data/*.csv)
-DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
-HISTOGRAMS = $(patst data/%.csv,output/figure_%. ng,$(DATA))
-QQPLOTS = $(patsubst data/%.csv,output/qplot_%.png,$(DATA))
-
-.PHONY: جميع
-
-كل: خرج/report.pdf
-
-$(HISTOGRAMS): output/histogram_%.png: data/%.csv scripts/generate_histogram. y
-    نصوص python scripts/generate_histogram.py -i $< -o $@
-
-$(QQPLOTS): خرج/qplot_%.png: البيانات/%. sv scripts/generate_qplot.py
-    python scripts/generate_qplot.py -i $< -o $@
-
-خرج/تقرير. df: report/report.tex $(FIGURES)
-    cd report && pdflatex report &تقرير& ملف. df ../$@
-
-نظيف:
-    rm -f خرج/report.pdf
-    rm -f $(HISTOGRAMS) $(QQPLOTS)
+crwdns25087:0$(ALL_CSV)crwdnd25087:0$(DATA)crwdnd25087:0$(DATA)crwdnd25087:0$(HISTOGRAMS)crwdnd25087:0$(QQPLOTS)crwdnd25087:0$(FIGURES)crwdnd25087:0$(HISTOGRAMS)crwdnd25087:0$(QQPLOTS)crwdne25087:0
 ```
 
-ستلاحظون أن القواعد الخاصة بالرسوم البيانية وقطع Q-قطع الأرض متشابهة جداً.
+crwdns25089:0crwdne25089:0
 
-مع تزايد عدد البرامج النصية التي تريد تشغيلها على بياناتك، قد يؤدي هذا إلى عدد كبير من القواعد في ماكيفيلي التي تكاد تكون واحدة بالضبط. يمكننا تبسيط هذا عن طريق إنشاء [*وصفة معلبة *](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) تأخذ كلا من اسم البرنامج النصي واسم النوع كمدخلات:
+crwdns25091:0crwdne25091:0 crwdns25093:0crwdne25093:0
 
 ```makefile
-تعريف run-script-on-البيانات
-الإخراج /$(1)_$(2).png: البيانات/$(2).csv scripts/generate_$(1). y
-    سكريبتات بايثون / إنشاء_$(1).py - i $< -o $@
-إنتهاء
+crwdns25095:0$(1)crwdnd25095:0$(2)crwdnd25095:0$(2)crwdnd25095:0$(1)crwdnd25095:0$(1)crwdne25095:0
 ```
 
-لاحظ أننا في هذه الوصفة نستخدم `$(1)` لأي من `الرسم البياني` أو `القطع` و `$(2)` للنوع الصحيح. تتطابق هذه مع حجج الدالة المتوقعة مع `وصفة البرنامج النصي على البيانات` المعلّبة. لاحظ أيضا أننا نستخدم $ `$<` و `$@` في الوصفة الفعلية، مع اثنين `$` رموز للهروب. لإنشاء جميع الأهداف، نحن بحاجة إلى سطر يستدعي هذه الوصفة المعلبة.  في حالتنا، نحن نستخدم حلقة التكرار المزدوجة حول الأنواع و البرامج النصية:
+crwdns25097:0$(1)crwdnd25097:0$(2)crwdne25097:0 crwdns25099:0crwdne25099:0 crwdns25101:0crwdne25101:0 crwdns25103:0crwdne25103:0  crwdns25105:0crwdne25105:0
 
 ```makefile
-$(نوع الترجيح،$(GENRES),\
-    $(النص البرمجي،$(SCRIPTS),\
-        $(نص الكلام على البيانات,$(script),$(genre)) \
-    \
-)
+crwdns25107:0$(GENRES)crwdnd25107:0$(SCRIPTS)crwdnd25107:0$(script)crwdnd25107:0$(genre)crwdne25107:0
 ```
 
-في هذه الأسطر يستخدم حرف `\` للاستمرار في الخطوط الطويلة.
+crwdns25109:0crwdne25109:0
 
-ثم يصبح الميكفيلي الكامل:
+crwdns25111:0crwdne25111:0
 
 ```makefile
-# Makefile لتقرير التحليل
-#
-
-ALL_CSV = $(بيانات البطاقة البرية/*.csv)
-DATA = $(تصفية بيانات البطاقة البرية / input_file_*. sv),$(ALL_CSV))
-HISTOGRAMS = $(براءة الاختراع %,output/histogram_%.png,$(GENRES))
-QQPLOTS = $(براءة الاختراع %,output/qplot_%. ng,$(GENRES))
-
-GENRES = $(بيانات براءة الاختراع/%.csv,%,$(DATA))
-SCRIPTS = histogram qqplot
-
-.PHONY: كلها نظيفة
-
-كل: الناتج/التقرير. df
-
-تعريف run-script-on-data
-خرج/$(1)_$(2).png: البيانات/$(2).csv scripts/generate_$(1). y
-    سكريبت بايثون / إنشاء_$(1). y -i $$< -o $$@
-enf
-
-$(نوع الأخر،$(GENRES),\
-    $(سكريبتة،$(SCRIPTS),
-        $(فاتورة $(كل نسخة تجريبية على البيانات)،$(script)،$(genre))\
-    )\
-)
-
-المخرجات/التقرير. df: report/report.tex $(HISTOGRAMS) $(QQPLOTS)
-    cd report/ && pdflatex report تقرير && ملف. df ../$@
-
-نظيف:
-    rm -f خرج/report.pdf
-    rm -f $(HISTOGRAMS) $(QQPLOTS)
+crwdns25113:0$(ALL_CSV)crwdnd25113:0$(GENRES)crwdnd25113:0$(GENRES)crwdnd25113:0$(DATA)crwdnd25113:0$(1)crwdnd25113:0$(2)crwdnd25113:0$(2)crwdnd25113:0$(1)crwdnd25113:0$(1)crwdnd25113:0$(GENRES)crwdnd25113:0$(SCRIPTS)crwdnd25113:0$(script)crwdnd25113:0$(genre)crwdnd25113:0$(HISTOGRAMS)crwdnd25113:0$(QQPLOTS)crwdnd25113:0$(HISTOGRAMS)crwdnd25113:0$(QQPLOTS)crwdne25113:0
 ```
 
-لاحظ أننا أضيفنا متغير `SCRIPTS` مع `هستوغرام` و `Qqplot` الأسماء. إذا كان علينا إضافة برنامج نصي آخر يتبع نفس النمط كهذين الأمرين، سوف نحتاج فقط إلى إضافته إلى متغير `SRIPTS` .
+crwdns25115:0crwdne25115:0 crwdns25117:0crwdne25117:0
 
-لبناء كل هذا، قم بتشغيل
+crwdns25119:0crwdne25119:0
 
 ```bash
-$ اصنع -ي-ي4
+crwdns25121:0crwdne25121:0
 ```

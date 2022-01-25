@@ -40,6 +40,20 @@ Nous exécuterons le planning suivant pendant chaque appel:
 
 Contrairement aux Cafés Collaboratoires, le calendrier de ces appels semble plus intense avec moins de chances de discussion. Cependant, étant donné que ces appels sont assistés par moins de participants, ils offrent plus de possibilités d'interactions informelles.
 
+### Chaire des Appels de Coworking
+
+L'appel commence avec les membres de l'équipe qui accueillent les participants, partageant le Code de conduite, rappelant comment participer à l'appel, et préparer le terrain pour que tout le monde puisse partager comment ils font et sur quoi ils travailleront.
+
+- [Mettre à jour le HackMD](https://hackmd.io/@turingway/coworking-call) chaque mois en ajoutant des dates pour les appels hebdomadaires
+- Déplacer les notes de l'appel précédent sous la zone du modèle (qui seront archivées périodiquement dans cette page de notion)
+- Partagez les notes sur Slack et Twitter annonçant les dates
+- Utilisez les notes pendant l'appel pour partager des informations pendant que vous présidez l'appel
+- Assurez-vous de partager le lien Code de Conduite et d'utiliser le Cuckoo partagé (ou d'autres horloges basées sur le web)
+- Créer des salles d'arrêts pour les personnes avant de commencer les sessions de Pomodoro - si nécessaire
+- À la fin de la première session Pomodoro, fermez toutes les salles d'arrachage, demandez des commentaires, puis redémarrez la seconde session Pomodoro
+- L'appel est programmé pour 60 minutes, et peut donc accueillir jusqu'à 2 sessions Pomodoro
+- Fermer l'appel en remerciant tout le monde et en retirant les notes pour le prochain appel
+
 #### Début
 
 L'appel commence avec les membres de l'équipe qui accueillent les participants, partageant le Code de conduite, rappelant comment participer à l'appel, et préparer le terrain pour que tout le monde puisse partager comment ils font et sur quoi ils travailleront.
@@ -48,7 +62,7 @@ L'appel commence avec les membres de l'équipe qui accueillent les participants,
 
 Nous allons commencer la minuterie [](https://cuckoo.team/TW-coworking) pour garder une trace des sessions Pomodoro. Si tout le monde envisage de travailler sur des tâches indépendantes, nous resterons dans la salle principale et travaillerons silencieusement. Pour toute discussion ou tâche collaborative sur laquelle deux personnes de l'appel sont en train de travailler, nous allons créer des [salles d'arrachage](#breakout-rooms) pour eux.
 
-S'il y a de nouveaux membres en appel, un des membres (généralement l'hôte de l'appel) emmènera le nouveau membre dans une salle d'arrachage pour montrer autour du dépôt du projet et partager quelques conseils pour commencer.
+Nous prendrons de courtes pauses après chaque Pomodoro pour réfléchir à ce que nous pourrions faire, résoudre toute erreur que n'importe quel participant aurait pu croire, verbaliser nos progrès et célébrer de petits succès.
 
 #### Casse
 

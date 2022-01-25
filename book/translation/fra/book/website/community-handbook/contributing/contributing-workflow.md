@@ -91,7 +91,7 @@ Par exemple, parce que l'étude de cas [Méthodes statistiques](https://the-turi
 (ch-contributing-workflow-referencing)=
 ## Référence des sources externes de manière appropriée
 
-Assurez-vous que les sources externes sont correctement référencées et incluses dans le fichier _The Turing Way's_ centralisé bibtex comme recommandé dans le guide de style [](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
+Assurez-vous que les sources externes sont correctement référencées et incluses dans le fichier _The Turing Way's_ centralisé bibtex comme recommandé dans le guide de style
 
 (ch-contributing-workflow-glossaire)=
 ## Mettre à jour le glossaire du livre

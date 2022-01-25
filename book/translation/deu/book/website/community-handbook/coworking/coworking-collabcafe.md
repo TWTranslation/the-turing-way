@@ -17,7 +17,7 @@ Wenn der aktuelle Zeitplan des Online-Collaboration Cafe nicht für Ihre Zeitzon
 
 Hier sind die Ressourcen, die wir für diese Anrufe verwenden:
 
-1. Geteilte Notizen von [HackMD](https://hackmd.io/): Sie können diese Notizen online unter [https://hackmd abrufen. o/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) und kann Notizen zusammen mit anderen beim Anruf machen.
+1. Geteilte Notizen von [HackMD](https://hackmd.io/): Sie können diese Notizen online unter [hackmd abrufen. o/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) und kann Notizen zusammen mit anderen beim Anruf machen.
 2. Online-Anruf von [Zoom](https://www.zoom.us/): Der Zoom-Link wird in der HackMD vor dem Anruf angezeigt, und Mitglieder können klicken, um dem Anruf beizutreten, indem sie Zoomfenster im Web öffnen oder die Zoom-App verwenden, die lokal installiert werden soll ([kostenlos verfügbar](https://zoom.us/download)).
 3. Online Pomodoro Uhr auf [Cuckoo. eam](https://cuckoo.team/collabcafe): Während des Anrufs wird die Uhr für Pomodoro Arbeitsabstände gesetzt, die von jedem über seinen Browser live verfolgt werden können.
 4. Videoaufnahmen einiger früherer Anrufe sind auf [unserem YouTube-Kanal](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA) verfügbar.
@@ -27,6 +27,10 @@ Wir koordinieren unsere Aufgaben auf der gemeinsamen HackMD und/oder _der Turing
 ## Format des Anrufs
 
 Wir haben eine Vorlage für die {ref}`Collaboration Cafes<ch-template-coworking-collabcafe>`, die für jeden Anruf aktualisiert wird.
+
+**Bonus**
+
+Du kannst dieses Video ansehen und Kirstie und Malvika die Struktur und das Format des Collaboration Cafe<unk> sehen. <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="YouTube-Video-Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 ### Zeitplan
 
@@ -44,6 +48,32 @@ Wir werden den folgenden Zeitplan während jedes Collaboration Cafe ausführen:
 | 5 Minuten  | :hot_getrunken: Pause                                            |
 | 30 Minuten | Offene Diskussion: Feiern, Reflexionen und zukünftige Richtungen |
 | 5 Minuten  | 👋 Schließen                                                      |
+
+### Einrichtung eines Online-Collaboration-Cafés
+
+#### Vor dem Anruf
+
+- Bitte aktualisieren Sie das geteilte Dokument ([HackMD](https://hackmd.io/@turingway/collaboration-cafe)) vor dem Ereignis in den folgenden Schritten:
+  - Datum für den nächsten Anruf aktualisieren
+  - Verschieben Sie die Notizen vom vorherigen Aufruf unter den Arbeitsbereich (diese werden regelmäßig in dieser Notion-Seite archiviert)
+  - Eisbrecherfrage aktualisieren
+  - Teile die Notizen auf Slack und Twitter über die Ankündigung der Veranstaltung
+
+**Möchten Sie sehen, wie wir diese Anrufe ausführen?**
+
+Wir haben ein paar Videos von unserem Collaboration Café auf YouTube gepostet. Sehen Sie sich das Video an, um zu sehen, wie Kirstie die Anrufe gehostet hat, als es zum ersten Mal gestartet wurde. <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="YouTube-Video-Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
+#### Während des Anrufs
+- Verwenden Sie die Notizen während des Anrufs, um Informationen zu teilen, während Sie den Vorsitz führen
+- Stellen Sie sicher, dass Sie den Code of Conduct Link teilen und den gemeinsamen Cuckoo (oder andere webbasierte Uhren) verwenden
+- Erstelle Breakout-Räume für Leute vor dem Start des Pomodoro
+- Wenn das Pomodoro endet, schließen Sie die Zimmer, fragen Sie nach Rückmeldungen und rufen Sie eine 5-minütige Pause an
+- Führen Sie die wiederholte Sitzung für 2-3 Pomodoro fort und lassen Sie die letzten 15-30 Minuten zur Diskussion darüber, was die Leute gearbeitet haben.
+- Schließen Sie den Anruf Dank an alle und archivieren Sie die Notizen für den nächsten Anruf
+
+#### Nach dem Anruf
+
+Bitte teile alle Rückmeldungen von diesem Anruf mit dem Community Manager von *The Turing Way*, insbesondere, wenn Sie irgendwelche Rückmeldungen, Sorgen oder Ideen für zukünftige Anrufe haben. Sie werden ermutigt, eine Pull Request zu erstellen, um dieses Kapitel zu verbessern, das den zukünftigen Teilnehmern und Vorsitzenden des Collaboration Cafe<unk> helfen kann.
 
 #### Anfang
 

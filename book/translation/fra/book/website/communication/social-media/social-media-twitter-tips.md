@@ -69,7 +69,7 @@ Ces termes sont adaptés de {cite:ps}`Cheplygina2020twitter`.
 * Message direct (MD) — Un message privé qui n'est visible que par l'expéditeur et les destinataires spécifiquement identifiés. Par défaut, les messages Twitter réguliers sont visibles dans le monde entier, y compris (via les moteurs de recherche tels que Google) les personnes qui n'ont pas de compte Twitter.
 * Hashtag (#) — Utilisé pour faciliter la recherche de tweets avec un thème commun en définissant des mots-clés, par exemple, tweets à propos d'un événement (#BookDash) ou de discussions de carrière (#PhDChat).
 * Astuce de chapeau ou à travers (HT) - Utilisé pour remercier la source d'un tweet.
-* Like (<unk> ) - Utilisé pour vous montrer comme un tweet — un moyen rapide de donner des commentaires sans répondre.
+* ) - Utilisé pour vous montrer comme un tweet — un moyen rapide de donner des commentaires sans répondre.
 * Il n'y a pas de fonction similaire pour dégoûter un tweet.
 * Liste — Une liste d'utilisateurs Twitter qui peuvent être publics (suivis par n'importe qui) ou privés.
 * Les listes peuvent être utilisées pour suivre les comptes qui tweet sur des sujets spécifiques, mais que vous ne voulez pas suivre vous-même.

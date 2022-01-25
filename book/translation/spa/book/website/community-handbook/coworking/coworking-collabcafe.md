@@ -17,7 +17,7 @@ Si el horario actual del Café de Colaboración en Línea no es adecuado para su
 
 Estos son los recursos que utilizamos para estas llamadas:
 
-1. Notas compartidas por [HackMD](https://hackmd.io/): Puede acceder a estas notas en línea en [https://hackmd. o/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) y puede tomar notas junto con otros en la llamada.
+1. Notas compartidas por [HackMD](https://hackmd.io/): Puede acceder a estas notas online en [hackmd. o/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) y puede tomar notas junto con otros en la llamada.
 2. Llamada en línea por [zoom](https://www.zoom.us/): El enlace zoom se proporciona en el HackMD antes de la llamada, y los miembros pueden hacer clic para unirse a la llamada abriendo una ventana de zoom en la web o utilizando la aplicación Zoom, que debería instalarse localmente ([disponible gratis](https://zoom.us/download)).
 3. Un reloj Pomodoro en línea en [Cuckoo. eam](https://cuckoo.team/collabcafe): Durante la llamada, el reloj está configurado para los intervalos de trabajo Pomodoro que pueden ser rastreados en vivo por todos a través de sus navegadores.
 4. Las grabaciones de vídeo de algunas de las llamadas anteriores están disponibles en [nuestro canal de YouTube](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
@@ -27,6 +27,10 @@ Coordenamos nuestras tareas en el HackMD compartido y/o _The Turing Way_ reposit
 ## Formato de la llamada
 
 Tenemos una plantilla para los {ref}`Cafés de Colaboración<ch-template-coworking-collabcafe>`que se actualiza en las notas compartidas para cada llamada.
+
+**Bono**
+
+Puede ver este video para ver Kirstie y Malvika planificar la estructura y el formato del Café de Colaboración. <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 ### Programar
 
@@ -44,6 +48,32 @@ Ejecutaremos el siguiente programa durante cada Cafe de Colaboración:
 | 5 min    | ☕ Break                                                             |
 | 30 min   | Discusión abierta: celebraciones, reflexiones y direcciones futuras |
 | 5 min    | 👋 Cerrar                                                            |
+
+### Colaboración en línea
+
+#### Antes de la llamada
+
+- Por favor, actualice el documento compartido ([HackMD](https://hackmd.io/@turingway/collaboration-cafe)) antes del evento utilizando los siguientes pasos:
+  - Actualizar la fecha para la próxima llamada
+  - Mover las notas de la llamada anterior debajo del área de trabajo (que se archivará en esta página de Noción periódicamente)
+  - Actualizar una pregunta de rompehielos
+  - Comparte las notas en Slack y Twitter anunciando el evento
+
+**¿Quieres ver cómo ejecutamos estas llamadas?**
+
+Hemos publicado algunos videos de nuestro Collaboration Cafés en YouTube. Vea el vídeo para ver cómo Kirstie organizó las llamadas cuando se lanzó por primera vez. <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
+#### Durante la llamada
+- Utilice las notas durante la llamada para compartir información mientras usted preside la llamada
+- Asegúrese de compartir el enlace Código de Conducta y utilizar el Catálogo compartido (u otros relojes basados en web)
+- Crear salas de ruptura para la gente antes de comenzar el Pomodoro
+- A medida que termine el Pomodoro, cierre las habitaciones, pida cualquier comentario y llame para un descanso de 5 minutos
+- Continuar la sesión repetida para 2-3 Pomodoro, dejando los últimos 15-30 minutos para discutir en lo que la gente trabajó.
+- Cerrar la llamada de agradecimiento a todos, y archivar las notas para la siguiente llamada
+
+#### Después de la llamada
+
+Por favor, comparte cualquier comentario de esta llamada con el administrador de la comunidad de *The Turing Way*, específicamente, si usted tiene algún comentario, preocupación o ideas para futuras llamadas. Se le anima a crear una Pull Request para mejorar este capítulo que puede ayudar a los futuros asistentes y presidente del Collaboration Café.
 
 #### Comenzando
 

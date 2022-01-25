@@ -24,17 +24,17 @@ Vous pouvez trouver des exemples de ces déclarations dans les politiques d'aute
 
 ### Exemples d'énoncé de disponibilité des données :
 
-**Utilisation du Digital Object Identifier (DOI) :** « Les données qui supportent les résultats de cette étude sont ouvertement disponibles dans [le nom du référentiel] sur http://doi. rg/[doi]».
+**Utilisation du Digital Object Identifier (DOI) :** « Les données qui supportent les résultats de cette étude sont ouvertement disponibles dans [le nom du référentiel] sur http://doi.
 
 **Si aucun DOI n'est délivré :**
-- « Les données qui soutiennent les conclusions de cette étude sont ouvertement disponibles dans [nom du référentiel] à [URL], numéro de référence [numéro de référence]. »
+- « Les données qui soutiennent les conclusions de cette étude sont ouvertement disponibles dans [nom du référentiel] à [URL], numéro de référence [numéro de référence].
 
 **Lorsqu'il y a une période d'embargo, vous pouvez réserver votre DOI et tout de même inclure une référence au jeu de données dans votre document :**
 - « Les données qui soutiennent les conclusions seront disponibles dans [nom du référentiel] à [URL / DOI] après un embargo [6 mois] à compter de la date de publication afin de permettre la commercialisation des résultats de la recherche ».
 
 **Quand les données ne peuvent pas être rendues disponibles :**
-- « Les restrictions s'appliquent aux données qui appuient les conclusions de cette étude. [Expliquer la nature des restrictions, par exemple, si les données contiennent des informations qui pourraient compromettre la vie privée des participants à la recherche. Les données sont disponibles sur demande raisonnable en contactant [nom et coordonnée] et avec la permission de [nom de tierce] . »
--  « Les données qui appuient les résultats de cette étude sont disponibles sur demande. Les conditions d'accès et les procédures peuvent être trouvées à [URL du dépôt d'accès restreint tel que [ESSAIRE](https://easy.dans.knaw.nl/ui/home) .] »
+- « Les restrictions s'appliquent aux données qui appuient les conclusions de cette étude. [Expliquer la nature des restrictions, par exemple, si les données contiennent des informations qui pourraient compromettre la vie privée des participants à la recherche. Les données sont disponibles sur demande raisonnable en contactant [nom et coordonnée] et avec la permission de [nom de tierce] .
+-  « Les données qui appuient les résultats de cette étude sont disponibles sur demande. Les conditions d'accès et les procédures peuvent être trouvées à [URL du dépôt d'accès restreint tel que [ESSAIRE](https://easy.dans.knaw.nl/ui/home) .]
 
 **Plus d'exemples d'énoncé de disponibilité de données:**
 

@@ -89,7 +89,7 @@ En ce qui concerne les outils pour donner des cours et des discussions, j'appliq
 ---
 
 
-# Histoires personnelles - Présentation en dehors de votre discipline (Espan<unk> ol)
+# Histoires personnelles - Présentation en dehors de votre discipline (Espan
 
 Queremos agradecer a **[Yanina Bellini Saibene](https://yabellini.netlify.app/es/)** por responder nuestras preguntas.
 

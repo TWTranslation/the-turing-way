@@ -1,5 +1,5 @@
 (cl-github-novice)=
-# 开始使用 Github
+# 开始使用 GitHub
 
 ## 必备条件
 

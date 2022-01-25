@@ -1,4 +1,4 @@
-(rr-code-style-and-formatting)=
+(rr-code-style)=
 # Style de code et mise en forme
 
 Un style de codage est un ensemble de conventions sur la façon de formater le code. Par exemple, que nommez-vous vos variables ? Utilisez-vous des espaces ou des tabulations pour l'indentation ? Où avez-vous des commentaires? En utilisant le même style dans tout votre code, il est plus facile à lire. Le code facile à lire est plus facile à comprendre par vous ainsi que par les collaborateurs potentiels. Par conséquent, adhérer à un style de codage réduit les risques d'erreurs et facilite la collaboration sur le logiciel. [Pourquoi Coding Style Matter](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) est un article sympa sur pourquoi les styles de codage sont importants et comment ils augmentent la qualité du logiciel.
@@ -7,6 +7,7 @@ Par exemple, [PEP8](https://www.python.org/dev/peps/pep-0008/) est le style de c
 
 Pour les guides de style couramment utilisés pour divers langages de programmation, consultez les [Guides de langues](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google a également un [guide de style](https://code.google.com/p/google-styleguide/) pour de nombreuses langues qui sont utilisées dans des projets open source provenant de Google.
 
+(rr-code-style-and-formatting)=
 ## Formatage automatique
 
 De nombreux outils existent pour formater automatiquement le code de telle sorte qu'il suit un certain style. La mise en forme automatique permet une meilleure qualité de code, surtout lorsque vous collaborez avec une équipe et que d'autres personnes ont besoin de regarder le code que vous avez écrit. De nombreux développeurs et organisations maintiennent des standards de formatage de code comme **2-space** ou **4-space indentation**. Il est fortement recommandé de les utiliser car la probabilité de trouver des bogues (le cas échéant) est multiple.
@@ -33,6 +34,7 @@ En plus de cela, il existe de nombreux outils spécifiques à un langage pour fo
 "editor.formatOnSave": vrai,
 ```
 
+(rr-code-style-service)=
 ## Services en ligne fournissant des contrôles de qualité des logiciels
 
 Il y a plusieurs services web qui analysent le code et rendent la qualité du code visible. Habituellement, ces services exécutent un ou plusieurs outils d'analyse de code statique qui peuvent également être utilisés depuis la ligne de commande ou intégrés dans votre éditeur sur votre propre ordinateur. Il est fortement recommandé d’utiliser un service de qualité de code qui s’intègre à un dépôt GitHub/GitLab, car il peut détecter et communiquer des problèmes de qualité dans les pull requests.

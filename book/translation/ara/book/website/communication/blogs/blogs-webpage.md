@@ -1,40 +1,40 @@
-(m-blogs-webpage)=
-# بناء صفحة ويب للمدونات
+crwdns9303:0crwdne9303:0
+# crwdns9305:0crwdne9305:0
 
-إنشاء موقع على الإنترنت لمدونة أسهل مما تظن لذلك لا يمكن تأجيله إذا لم تقم بذلك من قبل.
+crwdns9307:0crwdne9307:0
 
-تحتاج إلى النظر في:
-* **مستوى المهارات** - هذا مهم ولكن يمكن تعلمه من قبل أي شخص يستخدم الكمبيوتر بانتظام.
-* **الميزانية** - هناك الكثير من الخيارات المجانية لمواقع الويب، ولكن يمكنك دفع بعض الخدمات مثل مواضيع مختلفة.
-* **الوقت** - يحتاج الأمر إلى وقت لبناء الموقع في البداية ودخوله إلى الحالة التي تريدها. لذلك، فكر في استخدام الأداة التي ستكون أقل استهلاكا للوقت من أجل البناء والصيانة.
+crwdns9309:0crwdne9309:0
+* crwdns9311:0crwdne9311:0
+* crwdns9313:0crwdne9313:0
+* crwdns9315:0crwdne9315:0 crwdns9317:0crwdne9317:0
 
-(m-blogs-webpage-simple)=
-## موقع بسيط - خيارات عدم البرمجة
-* **وردبريس**
-    * موقع شائع جدا لاستخدامه للمدونات.
-    * يمكنك بدء مدونة مجانية ولكن الوظائف المضافة سوف تكلفك.
-    * بسيط للإعداد كموضة سهلة مثل الكتلة.
-    * إليك رابط [](https://wordpress.com/go/category/content-blogging/) للمساعدة.
-    * هذا يستحق قراءة حول [بدء مدونة ووردبرس](https://www.podcastinsights.com/start-a-wordpress-blog/).
-* **مواقع جوجل**
-    - لم يتم إعدادها أصلاً للمدونات ولكن يمكن تكييفها لهذا الغرض أو استخدامها كموقع لمشروع مع تحديثات من نوع المدونة.
-    - إنها مجانية كجزء من مجموعة جوجل المجانية.
-    - يمكنك الدفع لحسابات الأعمال التجارية من خلال مساحة عمل جوجل للحصول على المزيد من الخيارات.
-    - لديها واجهة سهلة المنال مثل شرائح جوجل التي يسهل استخدامها ونشرها كموقع على شبكة الإنترنت.
-    - ابحث عن مزيد من المعلومات في [صفحة مساعدة موقع جوجل](https://support.google.com/sites/?hl=en#topic=7184580)
+crwdns9319:0crwdne9319:0
+## crwdns9321:0crwdne9321:0
+* **crwdns9323:0crwdne9323:0**
+    * crwdns9325:0crwdne9325:0
+    * crwdns9327:0crwdne9327:0
+    * crwdns9329:0crwdne9329:0
+    * crwdns9331:0crwdne9331:0
+    * crwdns9333:0crwdne9333:0
+* **crwdns9335:0crwdne9335:0**
+    - crwdns9337:0crwdne9337:0
+    - crwdns9339:0crwdne9339:0
+    - crwdns9341:0crwdne9341:0
+    - crwdns9343:0crwdne9343:0
+    - crwdns9345:0crwdne9345:0
 
-إليك رابط لمقال [يقارن بين مواقع جوجل والكلمات](https://superbwebsitebuilders.com/google-sites-vs-wordpress/).
+crwdns9347:0crwdne9347:0
 
-هناك خيارات أخرى هناك ويمكنك دائماً أن تدفع لشخص ما تكاليف إنشاء موقع مدونتك الإلكتروني إذا كان لديك الموارد.
+crwdns9349:0crwdne9349:0
 
-وقد تم تسليط الضوء على هذه الخيارات لأنها سهلة المنال وتستحق دائماً تعلم مهارات جديدة.
+crwdns9351:0crwdne9351:0
 
-(m-blogs-webpage-Advced)=
-## بناء الموقع المتقدم - البرمجة المطلوبة
+crwdns9353:0crwdne9353:0
+## crwdns9355:0crwdne9355:0
 
-* **Github pages**
-    * إذا كنت تعرف كيفية إنشاء مستودع Github فستكون هذه طريقة متاحة لإنشاء مستودع ثم تحويله إلى صفحات ويب.
-    * يمكنك الاختيار من مختلف السمات المجانية باستخدام [Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
-    * هذا مورد جيد لتعلم كيفية إنشاء صفحات GitHub - [Github Coative Docs](https://cassgvp.github.io/github-for-collaborative-documentation/docs/tut/4-2-Make-your-Pages-site.html).
-    * هذه المدونة تستخدم صفحات Github - [عالم النبات المفتوح](https://ekaroune.github.io/The-Open-Archaeobotanist/).
-    * يمكنك استخدام هذه المدونة المنشورة من قبل سارة جيبسون [لإنشاء مدونة مع صفحات Hugo و Github](https://sgibson91.github.io/blog/hugo-tutorial/).
+* **crwdns9357:0crwdne9357:0**
+    * crwdns9359:0crwdne9359:0
+    * crwdns9361:0crwdne9361:0
+    * crwdns9363:0crwdne9363:0
+    * crwdns9365:0crwdne9365:0
+    * crwdns9367:0crwdne9367:0

@@ -1,62 +1,58 @@
-(النمط - النمط المخصص)=
-# نمط مخصص
+crwdns15701:0crwdne15701:0
+# crwdns15703:0crwdne15703:0
 
-على الرغم من أن المحتوى ساهم في _طريق اللارجح_ يجب أن يكتب في {ref}`Markdown <ch-consistency-formatting-hr-markdown>` كلما كان ذلك ممكناً، في بعض الأحيان، `HTML` بناء الجملة قد يكون ضرورياً لتهيئة مساهمتك بالطريقة التي تريدها. بالفعل ، كتاب المشتري يحول بناء جمل Markdown إلى `HTML`، جعل من الممكن الحصول على نسخة على الويب من _كتاب طريق الترينغ_ ونتيجة لذلك، الكتابة الخاصة بك `HTML` قد تقدم بعض التغييرات في الطريقة التي يظهر بها المحتوى الجديد على الإنترنت مقارنة ببقية الكتاب.
+crwdns15705:0{ref}crwdne15705:0 crwdns15707:0crwdne15707:0 crwdns15709:0crwdne15709:0
 
-للتقليل من هذا التفاوت، _طريق الترقيق_ يحافظ على [صحائف الأنماط على مستوى الكتاب](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) التي تتحكم في مظهر والشعور بمحتوى الكتاب. عند إدراج `HTML` في المساهمات، يرجى الرجوع إلى أوراق الأنماط هذه وإضافة الفئات والمعرفات ذات الصلة المحددة هناك إلى عناصر الـ `HTML` الخاصة بك. وهذا يضمن أن المحتوى الجديد الخاص بك يتوافق مع النمط العام للكتاب _طريق التوريق_.
+crwdns15711:0crwdne15711:0 crwdns15713:0crwdne15713:0 crwdns15715:0crwdne15715:0
 
-في هذا الفصل الفرعي، نقدم شرحاً لكيفية الاستفادة من ألواح أساليب الكتاب لتصميم إسهاماتك في عينة من حالات الاستخدام. إذا كنت ترغب في تحسين أسلوب الكتاب، فإن هذا الفصل الفرعي يقدم أيضا لمحة عامة موجزة عن كيفية القيام بذلك.
+crwdns15717:0crwdne15717:0 crwdns15719:0crwdne15719:0
 
-(طراز النمط المخصص-النمط النمطي) =
-## استخدام الورق النمطي
+crwdns15721:0crwdne15721:0
+## crwdns15723:0crwdne15723:0
 
-(أشرطة فيديو-نمط مخصص)=
-### فيديوهات
+crwdns15725:0crwdne15725:0
+### crwdns15727:0crwdne15727:0
 
-في حين أنه من الممكن تضمين الصور و الصور المتحركة في المحتوى الخاص بك باستخدام بناء الـ Markdown، من الممكن حاليا فقط تضمين مقاطع الفيديو مع `HTML`. والأكثر من ذلك، نحن لا نوصي بإضافة مقاطع فيديو مباشرة إلى _الطريق الوشيك_ مستودع Github لأن ملفات الفيديو عادة ما تكون كبيرة وسوف تجعل تحميل الكتاب أبطأ بكثير، خاصة للقراء الذين لديهم اتصالات إنترنت بطيئة.
+crwdns15729:0crwdne15729:0 crwdns15731:0crwdne15731:0
 
-لإضافة فيديو إلى مساهمتك ، قم بتحميله أولا إلى _طريق اللارجح_ قناة يوتيوب، ثم نسخ/لصق رمز HTML `` الذي يتم إنشاؤه عندما تقوم بما يلي:
-1. انقر على خيار `مشاركة` تحت الفيديو،
-1. ثم انقر فوق خيار `تضمين` من مجموعة الخيارات التي تظهر
+crwdns15733:0crwdne15733:0
+1. crwdns15735:0crwdne15735:0
+1. crwdns15737:0crwdne15737:0
 
 
-رمز `HTML` الذي قمت بنسخه سيكون [`iframe`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) عنصر. وعلى سبيل المثال:
-
-```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-بشكل افتراضي، `iframes` غير مستجيبة، مما يعني أن الفيديو الذي أدمجته للتو لن يكون في متناول القراء على الأجهزة المحمولة. لإصلاح هذا، _ورقة الطباعة_ تحدد الفئات والأسلوب التي تسمح `الإطارات` بتغيير الحجم وتلائم الشاشة التي يقرأ منها الكتاب.
-
-لاستخدام هذا الأسلوب المخصص، قم بتغليف `iframe` في `وسوم` وقم بإعطاء عنصر `Dv` `حاوية فيديو`. وعلى سبيل المثال:
+crwdns15739:0crwdne15739:0 crwdns15741:0crwdne15741:0
 
 ```
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+crwdns15743:0crwdne15743:0
 ```
 
-ومن ثم فإن الرمز المذكور أعلاه ينص على ما يلي:
+crwdns15745:0crwdne15745:0 crwdns15747:0crwdne15747:0
+
+crwdns15749:0crwdne15749:0 crwdns15751:0crwdne15751:0
+
+```
+crwdns15753:0crwdne15753:0
+```
+
+crwdns15755:0crwdne15755:0
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="crwdns15757:0crwdne15757:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(تحسين النمط المخصص) =
-## تحسين _طريقة التوت_
+crwdns15759:0crwdne15759:0
+## crwdns15761:0crwdne15761:0
 
-يعمل كتاب المشتري عن طريق تحويل صياغة Markdown إلى `HTML`. لذلك، لتحسين النمط العام للكتاب، يجب أن تستهدف قواعد `CSS` عناصر `HTML` التي يولدها كتاب المشتري.
+crwdns15763:0crwdne15763:0 crwdns15765:0crwdne15765:0
 
-قبل كتابة أي CSS، افحص رمز مصدر HTML الخاص بالكتاب أولاً. هذا يعطيك فكرة عن العناصر التي يجب استهدافها، وقد يساعدك على معرفة كيفية هيكلة قواعد CSS الخاصة بك.
+crwdns15767:0crwdne15767:0 crwdns15769:0crwdne15769:0
 
-كل متصفحات الويب تسمح لك بعرض شفرة المصدر للمواقع بسهولة. على أجهزة الكمبيوتر التي تعمل بنظام Windows OS، يتم ذلك باستخدام `CTRL + U`. بالنسبة للحواسيب التي تعمل بنظام تشغيل Mac OS، يتم ذلك باستخدام `خيار + الأمر + U`.
+crwdns15771:0crwdne15771:0 crwdns15773:0crwdne15773:0 crwdns15775:0crwdne15775:0
 
-بمجرد تحديد العنصر (العناصر) الذي تريد تعديله، اكتب CSS الخاص بك في _ملف طريق التوبيخ_ [ورقة الطرائد](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). إذا كان على سبيل المثال لقد أردت تغيير `خط العائلة` من نص الفقرة عبر _كتاب الطريق_ بأكمله، ثم يمكنك إضافة قاعدة CSS التالية إلى أوراق النماذج التي تستهدف جميع العناصر التي تحتوي على `<p>` علامة:
+crwdns15777:0crwdne15777:0 crwdns15779:0crwdne15779:0
 
 ```
-p {
-    خط الأسرة: georgia, garamond, serif;
-}
+crwdns15781:0crwdne15781:0
 ```
 
-إذا كنت تعتقد أن الأسلوب المقدم في _طريقة تورينغ_ يمكن أن يكون مفيدا لمستخدمي كتاب المشتري الآخرين، يرجى النظر في تقديم مساهمة في المشروع في المرحلة التمهيدية من خلال إنشاء مشكلة GitHub جديدة وبدء مناقشة مع مشرفي المشروع : [https://github. om/executablebooks/jupyter-book/issu](https://github.com/executablebooks/jupyter-book/issues)
+crwdns15783:0crwdne15783:0

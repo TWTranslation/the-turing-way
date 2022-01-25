@@ -1,12 +1,12 @@
-# متطلبات دفتر الملاحظات التجريبي
-# مفيد لتكوين MyBinder
-pandas==1.0.5
-numpy==1.19.0
-matplotlib==3.2.2
-علم البيانات
-folium
-jupyter-book=0.11.2
-sphinxcontrib-bibtex~=2.0
-sphinx-click
-sphinx_inline_tabs
-sphinxext-rediraffe~=0.2.3
+crwdns34021:0crwdne34021:0
+crwdns34023:0crwdne34023:0
+crwdns34025:0crwdne34025:0
+crwdns34027:0crwdne34027:0
+crwdns34029:0crwdne34029:0
+crwdns34031:0crwdne34031:0
+crwdns34033:0crwdne34033:0
+crwdns34035:0crwdne34035:0
+crwdns34037:0crwdne34037:0
+crwdns34039:0crwdne34039:0
+crwdns34041:0crwdne34041:0
+crwdns34043:0crwdne34043:0

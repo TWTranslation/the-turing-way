@@ -17,7 +17,7 @@ Se o cronograma atual do Colaborador on-line não é adequado para o seu fuso ho
 
 Aqui estão os recursos que utilizamos para estas chamadas:
 
-1. Notas compartilhadas por [HackMD](https://hackmd.io/): Você pode acessar essas notas online em [https://hackmd. o/@turingway/colaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) e pode fazer anotações junto com outros na chamada.
+1. Notas compartilhadas por [HackMD](https://hackmd.io/): você pode acessar essas notas online em [hackmd. o/@turingway/colaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) e pode fazer anotações junto com outros na chamada.
 2. Chamada online por [Zoom](https://www.zoom.us/): O link de Zoom é fornecido no HackMD antes da chamada, e membros podem clicar para entrar na chamada abrindo a janela de zoom na web ou usando o aplicativo Zoom que deve ser instalado localmente ([disponível gratuitamente](https://zoom.us/download)).
 3. Um relógio Pomodoro online no [Cuckoo. eam](https://cuckoo.team/collabcafe): Durante a chamada, o relógio é definido para intervalos de trabalho do Pomodoro que podem ser rastreados ao vivo por todos através de seus navegadores.
 4. Gravações de vídeo de algumas das chamadas anteriores estão disponíveis no [nosso canal do YouTube](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
@@ -27,6 +27,10 @@ Coordenamos nossas tarefas no HackMD compartilhado e/ou _The Turing Way_ reposit
 ## Formato da chamada
 
 Temos um template para o {ref}`Colaboração<ch-template-coworking-collabcafe>`, que é atualizado nas notas compartilhadas para cada chamada.
+
+**Bônus**
+
+Você pode assistir este vídeo para ver o Kirstie e o Malvika planejar a estrutura e o formato do Cafen de Colaboração. <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="Reprodutor de vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 ### Agendamento
 
@@ -44,6 +48,32 @@ Vamos executar o seguinte cronograma em cada Cálculo de Colaboração:
 | 5 min   | ☕ Quebra                                                    |
 | 30 min  | Discussão aberta: celebrações, reflexões e direções futuras |
 | 5 min   | 👋 Fechar                                                    |
+
+### Dirigindo uma Colaboração On-line
+
+#### Antes da Chamada
+
+- Atualize o documento compartilhado ([HackMD](https://hackmd.io/@turingway/collaboration-cafe)) antes do evento usando as seguintes etapas:
+  - Atualizar a data para a próxima chamada
+  - Mover as anotações da chamada anterior abaixo da área de trabalho (que serão arquivadas nesta página de Notion periodicamente)
+  - Atualizar uma pergunta icebreaker
+  - Compartilhe as notas no Slack e Twitter anunciando o evento
+
+**Quer ver como executamos essas chamadas?**
+
+Publicamos alguns vídeos do nosso Colaborador Cafeës no YouTube. Assista ao vídeo para ver como Kirstie sediou as chamadas quando elas foram iniciadas. <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="Reprodutor de vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
+#### Durante a Chamada
+- Utilize as notas durante a chamada para compartilhar informações à medida que você preside à chamada
+- Certifique-se de compartilhar o link do Código de Conduta e usar o Cuckoo compartilhado (ou outros relógios da web)
+- Crie salas de interrupção para as pessoas antes de iniciar o Pomodoro
+- À medida que o Pomodoro termina, feche as salas, peça qualquer feedback e peça uma pausa de 5 minutos
+- Continue a sessão repetida para 2-3 Pomodoro, deixando os últimos 15-30 minutos para discussão sobre o trabalho das pessoas.
+- Fechar a chamada agradecendo a todos, e arquivar as notas para a próxima chamada
+
+#### Após a chamada
+
+Por favor, compartilhe qualquer feedback a partir desta chamada com o Gerente da Comunidade de *The Turing Way*, especificamente, se tiver algum feedback, preocupação ou ideias para chamadas futuras. O senhor é incentivado a criar um pedido de ajuda para melhorar este capítulo que pode ajudar futuros participantes e presidente do Caio de Colaboração.
 
 #### Início
 

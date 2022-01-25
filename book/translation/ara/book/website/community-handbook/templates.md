@@ -1,39 +1,34 @@
-(ch-templates)=
-# مجموعة النماذج
+crwdns16045:0crwdne16045:0
+# crwdns16047:0crwdne16047:0
 
-***هذه الصفحة تعمل كفهرس لجميع موارد القالب المقدمة في دليل مجتمع طريق تورينج***
+***crwdns16049:0crwdne16049:0***
 
 ```{figure} ../figures/templates.png
----
-الطول: 200px
-الاسم: قوالب
-بديلة: مثال توضيحي لشخص, ربما مهندس معماري يصنع رسمة
----
-مثال توضيحي لعملية رسمة. [صورة خالية من الملكية من العديد من البكسل](https://www.manypixels.co/gallery/)
+crwdns16051:0crwdne16051:0 crwdns16053:0crwdne16053:0
 ```
 
-(chtemplate-bookdash)=
-## أحداث دش الكتاب
+crwdns16055:0crwdne16055:0
+## crwdns16057:0crwdne16057:0
 
-هناك أربعة قوالب ماركداون للملاحظات المشتركة (HackMD)، ردود الفعل و مشكلة GitHub لتنظيم وتشغيل _طريق التورين_ أحداث تجزئة الكتاب. يمكن إعادة استخدام هذه القوالب وتكييفها لأحداث مختلفة داخل وخارج مجتمع _الطريق إلى اللعبة_.
+crwdns16059:0crwdne16059:0 crwdns16061:0crwdne16061:0
 
-- {ref}`قالب HackMD لصفحة الفهرس<ch-template-bookdash-index>`
-- {ref}`قالب HackMD للمكالمات السابقة للحدث<ch-template-bookdash-precall>`
-- {ref}`قالب مشكلة للتخطيط لشرطات الكتاب<ch-template-bookdash-github>`
-- {ref}`قالب HackMD للملاحظات المشتركة<ch-template-bookdash-notes>`
-- {ref}`قالب HackMD لتعليقات الحدث اللاحق<ch-template-bookdash-feedback>`
+- crwdns16063:0{ref}crwdne16063:0
+- crwdns16065:0{ref}crwdne16065:0
+- crwdns16067:0{ref}crwdne16067:0
+- crwdns16069:0{ref}crwdne16069:0
+- crwdns16071:0{ref}crwdne16071:0
 
-(chtemplate-cowork)=
-## المكالمات التعاونية
+crwdns16073:0crwdne16073:0
+## crwdns16075:0crwdne16075:0
 
-هناك قوالب ماركداون للملاحظات المشتركة (HackMD) أثناء المكالمات المشتركة التي تم استضافتها من أجل مجتمع _الطريق الوشيك_:
+crwdns16077:0crwdne16077:0
 
-- {ref}`قالب للمقاهي التعاونية<ch-template-coworking-collabcafe>`
-- {ref}`قالب لمكالمات العمل اليومية<ch-template-coworking-weekly>`
+- crwdns16079:0{ref}crwdne16079:0
+- crwdns16081:0{ref}crwdne16081:0
 
-(ch-template-newsletter)=
-## مسودة النشرة البريدية
+crwdns16083:0crwdne16083:0
+## crwdns16085:0crwdne16085:0
 
-كما نوقش في {ref}`النشرة الإخبارية<ch-newsletters>` فصل، نحن نستخدم قالب مجمل كدليل لجمع مواد إخبارية للنشرات الإخبارية _The Turing Way_ ويتغير باستمرار حسب الأنشطة في المجتمع.
+crwdns16087:0{ref}crwdne16087:0
 
-- {ref}`قالب لصياغة النشرات الإخبارية<ch-template-newsletter-draft>`
+- crwdns16089:0{ref}crwdne16089:0

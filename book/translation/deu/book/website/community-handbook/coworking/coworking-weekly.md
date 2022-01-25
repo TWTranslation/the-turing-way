@@ -17,7 +17,7 @@ Obwohl du für 1 Stunde geplant bist, kannst du gerne für kürzere Zeit beitret
 
 Die Ressourcenanforderung für diese Aufrufe ist auch sehr ähnlich dem Collaboration Cafe.
 
-1. Geteilte Notizen von [HackMD](https://hackmd.io/): [https://hackmd.io/@malvikasharan/TW-Coworking](https://hackmd.io/@malvikasharan/TW-coworking)
+1. Geteilte Notizen von [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
 2. Online-Anruf von [Zoom](https://www.zoom.us/): Der Zoom-Link wird in der HackMD bereitgestellt.
 3. Eine Online-Pomodoro-Uhr: [https://cuckoo.team/TW-Coworking](https://cuckoo.team/TW-coworking)
 
@@ -40,13 +40,27 @@ Wir führen den folgenden Zeitplan während jedes Anrufs aus:
 
 Im Gegensatz zu den Collaboration Cafes scheint der Zeitplan für diese Anrufe intensiver zu sein und weniger Chancen auf Diskussion. Da diese Anrufe jedoch von weniger Teilnehmern besucht werden, bieten sie mehr Möglichkeiten für informelle Interaktionen.
 
+### Coating Coworking Calls
+
+Bitte aktualisieren Sie das Dokument jeden Monat mit folgenden Schritten:
+
+- [Aktualisiere die HackMD](https://hackmd.io/@turingway/coworking-call) jeden Monat, indem du Termine für die wöchentlichen Anrufe hinzufügst
+- Verschieben Sie die Notizen vom vorherigen Aufruf unter den Template-Bereich (diese werden regelmäßig in dieser Notion-Seite archiviert)
+- Teile die Notizen auf Slack und Twitter mit der Ankündigung der Termine
+- Verwenden Sie die Notizen während des Anrufs, um Informationen zu teilen, während Sie den Vorsitz führen
+- Stellen Sie sicher, dass Sie den Code of Conduct Link teilen und den gemeinsamen Cuckoo (oder andere webbasierte Uhren) verwenden
+- Erstelle Breakout-Räume für Leute, bevor du die Pomodoro-Sitzungen startest - wenn nötig
+- Wenn die erste Pomodoro-Sitzung endet, schließen Sie alle Breakout-Räume, fragen Sie nach Feedback und starten Sie dann die zweite Pomodoro-Sitzung neu
+- Der Anruf ist für 60 Minuten geplant und kann daher bis zu 2 Pomodoro-Sitzungen aufnehmen
+- Schließen Sie den Anruf und bedanken Sie sich bei allen und arhieve die Notizen für den nächsten Anruf
+
 #### Anfang
 
 Der Anruf beginnt mit der Begrüßung der Teammitglieder, die den Verhaltenskodex teilen und daran erinnern, wie man am Anruf teilnimmt, und die Voraussetzungen für alle zu teilen, wie sie tun und woran sie arbeiten werden.
 
 #### Pomodoros
 
-Wir starten den [Timer](https://cuckoo.team/TW-coworking) um den Überblick über die Pomodoro Sitzungen zu behalten. Wenn jeder beabsichtigt, an unabhängigen Aufgaben zu arbeiten, bleiben wir im Hauptraum und arbeiten still. Für jede Diskussion oder kollaborative Aufgabe, an der zwei Personen des Gesprächs arbeiten, werden wir [Breakout-Räume](#breakout-rooms) für sie erstellen.
+Der Sitzungsstuhl startet den [Timer](https://cuckoo.team/TW-coworking) um den Überblick über die Pomodoro Sitzungen zu behalten. Wenn jeder beabsichtigt, an unabhängigen Aufgaben zu arbeiten, bleiben wir im Hauptraum und arbeiten still. Für jede Diskussion oder kollaborative Aufgabe, an der zwei Personen des Gesprächs arbeiten, werden wir [Breakout-Räume](#breakout-rooms) für sie erstellen.
 
 Wenn neue Mitglieder im Anruf sind, eines der Mitglieder (normalerweise Gastgeber des Anrufs) bringt das neue Mitglied in einen Breakout-Raum, um im Projektarchiv zu zeigen und einige Tipps für den Einstieg zu teilen.
 

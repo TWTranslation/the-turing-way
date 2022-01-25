@@ -3,8 +3,8 @@
 */
 var _paq = window._paq = window._paq || [];
 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-_paq.push(['مسار PageView']);
-_paq.push(['تمكين LinkTTrking']);
+_paq.push(['crwdns4925:0crwdne4925:0']);
+_paq.push(['crwdns4927:0crwdne4927:0']);
 (function () {
   var u = 'https://theturingwaynetlifyapp.matomo.cloud/';
   _paq.push([

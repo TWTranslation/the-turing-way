@@ -1,8 +1,8 @@
-(الموارد المخصصة للاستعراض)=
-# الموارد
+crwdns31191:0crwdne31191:0
+# crwdns31193:0crwdne31193:0
 
-## مزيد من القراءة
+## crwdns31195:0crwdne31195:0
 
-- أتوود، جيف (2006) [مراجعات التعليمات البرمجية: فقط فعل ذلك](http://blog.codinghorror.com/code-reviews-just-do-it/)
-- بوركينا فاسو، كيفن (2011) [لماذا مراجعة التعليمات البرمجية تفترض الاختبار: أدلة من عقود من بحوث البرمجة.](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)
-- () McConnell, Steve (2004) Code Complete: A Practical Handbook of Software Construction, Second Edition. مطبعة مايكروسوفت. ISBN-13: 978-073561967
+- crwdns31197:0crwdne31197:0
+- crwdns31199:0crwdne31199:0
+- crwdns31201:0crwdne31201:0 crwdns31203:0crwdne31203:0 crwdns31205:0crwdne31205:0

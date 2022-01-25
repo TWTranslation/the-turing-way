@@ -1,226 +1,201 @@
-(الاتساق - التنسيق)=
-# التنسيق
+crwdns13785:0crwdne13785:0
+# crwdns13787:0crwdne13787:0
 
-يشير التهيئة إلى كيفية كتابة كتاب _الطريق الوشيك_ ويؤثر مباشرة على مظهر الكتاب وعرضه.
+crwdns13789:0crwdne13789:0
 
-_طريق التدوين_ يستضيف على الإنترنت ككتاب للمشتري، ويستخدم توصيات التنسيق على النحو الموصوف في الوثائق [الخاصة بهم](https://jupyterbook.org/intro.html). التهيئة المناسبة تضمن أن _طريق الترقيق_ قابل للقراءة، ويمكن الوصول إليه، ويشبه قطعة عمل نموذجية.
-
-
-(بآلاف دولارات الولايات المتحدة)
-## المتطلبات الصعبة
-
-المتطلبات الصعبة في قائمة التحقق من الاتساق تضمن أن _طريق التوفير_ يعطي الأولوية للوصول والتعاون والقراءة وسهولة الاستخدام. وتشمل عمليات التحقق التي تتعامل مع تنسيق _طريق الشحن_ ما يلي:
-
-(بآلاف دولارات الولايات المتحدة)
-### تحقق 1: استخدم Markdown لإنشاء المحتوى الخاص بك
-
-_طريق التوفير_ يجب أن يكتب في [Markdown](https://en.wikipedia.org/wiki/Markdown) كلما كان ذلك ممكناً، حتى يقدم كتاب المشتري على النحو المنشود.
+crwdns13791:0crwdne13791:0 crwdns13793:0crwdne13793:0
 
 
-#### Markdown x HTML
+crwdns13795:0crwdne13795:0
+## crwdns13797:0crwdne13797:0
 
-أجزاء من الفصول السابقة في _طريق التوريق_ تم كتابتها في `HTML`مما جعل من الصعب قراءة بعض محتواها.
+crwdns13799:0crwdne13799:0 crwdns13801:0crwdne13801:0
 
-على سبيل المثال، {ref}`html-to-markdown` يصور جدولاً كُتب في `HTML`.
+crwdns13803:0crwdne13803:0
+### crwdns13805:0crwdne13805:0
+
+crwdns13807:0crwdne13807:0
+
+
+#### crwdns13809:0crwdne13809:0
+
+crwdns13811:0crwdne13811:0
+
+crwdns13813:0{ref}crwdne13813:0
 
 ```{figure} ../../figures/html-to-markdown.png
----
-name: html-to-markdown
-البديل : لقطة شاشة من جدول سيء التنسيق مكتوب في HTML. يتم مسح الجدول معاً وليس له حدود عمود أو صف دراسي. وهذا يجعل من الصعب على القارئ أن يفك معناه.
----
-المحتوى المكتوب في HTML قد لا يقدم بشكل صحيح.
+crwdns13815:0crwdne13815:0 crwdns13817:0crwdne13817:0 crwdns13819:0crwdne13819:0
+crwdns13821:0crwdne13821:0
 ```
 
-عند إعادة تشكيلها إلى ماركدون، أصبح الجدول أنظف ويسهل قراءته كما يلي:
+crwdns13823:0crwdne13823:0
 
 ```{figure} ../../figures/html-to-markdown2.png
----
-name: html-to-markdown2
-البديل : لقطة شاشة لجدول تم تحويله إلى Markdown من HTML. الجدول يصبح أسهل للقراءة والفهم عند تحويله إلى ماركداون.
----
-تحويل HTML إلى Markdown يجعل كتاب طريق التورينج أسهل للقراءة.
+crwdns13825:0crwdne13825:0 crwdns13827:0crwdne13827:0
+crwdns13829:0crwdne13829:0
 ```
-```{note} يمكن العثور على كلمة مرور تتناول هذا الشيك [هنا](https://github.com/alan-turing-institute/the-turing-way/pull/1460).
+crwdns13831:0{note}crwdne13831:0
 ```
 
-محتوى الفصل المكتوب في `HTML` عادة ما يكون ملحق في العلامات التي تبدأ وتنتهي بأقواس الزوايا `<>`.
-[W3Schools](https://www.w3schools.com/html/html_elements.asp) هو مورد ممتاز لفهم ما تعنيه هذه العلامات، وأدلة Markdown المرجعية، مثل [هذه الشائعة](https://www. arkdownguide.org/cheat-sheet/) يمكن أن يساعد في ترجمة تنسيق HTML` إلى Markdown.
-هناك أيضا أدوات مفيدة على الويب، مثل [Turndown](https://domchristie.github.io/turndown/) و [CloudConvert](https://cloudconvert.com/html-to-md) التي تحول `HTML` إلى Markdown بنقرة واحدة.
+crwdns13833:0crwdne13833:0
+crwdns13835:0[W3Schools]crwdne13835:0
+crwdns13837:0[Turndown]crwdnd13837:0[CloudConvert]crwdne13837:0
 
-يرجى ملاحظة أنه إذا كان 'HTML` هو الخيار الوحيد لك لتهيئة النص بالطريقة التي ترغب بها، يمكنك استخدامه فقط إذا كان المحتوى في كتاب الإنترنت لا يزال يمكن قراءته وفهمه (استخدم معاينة Netlify في حسابك الشخصي لاختبار).
-على سبيل المثال، يمكن كتابة [superscripts and الاشتراكات](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet#toc-superscript-and-subscript) في `HTML` لأنها تظهر دائما كما هو مقصود.
-بالإضافة إلى ذلك، يمكن كتابة محتوى مثل مقاطع فيديو YouTube وجداول مع رؤوس تحتوي على أعمدة أو صفوف متعددة في `HTML`.
+crwdns13839:0crwdne13839:0
+crwdns13841:0crwdne13841:0
+crwdns13843:0crwdne13843:0
 
 
-```{attention} ملاحظة حول النمذجة
-:class: تلميح
+crwdns13845:0{attention}crwdnd13845:0:class:crwdne13845:0
+crwdns13847:0crwdne13847:0
 
-_The Turing Way_ لديه [Stylesheet](https://github. om/alan-turing-Institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) التي تتحكم بمظهر المحتوى المكتوب في `HTML`.
-إذا قمت بإدراج 'HTML' في مساهمتك ، تأكد من أن التنسيق الخاص بك يتضمن الصفوف والمعرفات ذات الصلة من صفحة النماذج.
+crwdns13849:0crwdne13849:0
 
-على سبيل المثال، إذا كنت ترغب في إضافة فيديو يوتيوب إلى المحتوى الخاص بك باستخدام علامة<iframe>`، قم بتدوين `<iframe>` في علامة `<div>` ، واعطي `div` فئة "حاوية فيديو" كما هو موضح أدناه.
+crwdns13851:0crwdne13851:0
+
+```
+
+crwdns13853:0{ref}crwdne13853:0
+
+#### crwdns13855:0crwdne13855:0
 
 <div class="video-container">
-    <iframe>....</iframe>
+    <iframe width="560" height="315" src="crwdns13857:0crwdne13857:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-```
+#### crwdns13859:0crwdne13859:0
 
-تم وصف هذا أيضا في دليل الطراز {ref}`<ch-style-custom-styling-videos>`.
-
-#### تجريبي
-
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tv0HlVgxDdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-#### كتابة قوائم التحقق
-
-عند كتابة فصل جديد لـ _طريق التوريق_، قد تضمّن فصلا فرعيا للقائمة المرجعية يورد نقاط العمل الرئيسية التي تريد من القراء أن يتخذوها استنادا إلى محتوى الفصل. للفصول السابقة في _طريق الترقيق_، هذا الفصل الفرعي مكتوب في Markdown كقائمة مهام مع خانات العلامات:
+crwdns13861:0crwdne13861:0 crwdns13863:0crwdne13863:0
 
 ```
-# قائمة المراجعة
-- [ ] عنصر واحد
-- [ ] عنصر 2
-- [ ] عنصر 3
+crwdns13865:0crwdne13865:0
 
 ```
 
-على أن خانات الاختيار لا تعرض كما هو مقصود في الإصدار الإلكتروني للكتاب، على سبيل المثال:
+crwdns13867:0crwdne13867:0
 
 ```{figure} ../../figures/checklist-formatting.png
----
-الاسم: التحقق من تنسيق القائمة
-البديل: عندما يتم كتابة الفصل الفرعي للقائمة المرجعية من أي فصل في Markdown كقائمة مهمة مع خانات الاختيار، يتم عرض الأقواس المعقوفة بدلاً من خانات الاختيار في إصدار الويب من الكتاب.
----
-خانات الاختيار تظهر كأقواس مربعة في إصدار الويب من الكتاب.
+crwdns13869:0crwdne13869:0
+crwdns13871:0crwdne13871:0
 ```
 
-لذلك، نوصي بأن تقوم بتهيئة الفصول الفرعية لقائمة التحقق الخاصة بك كقوائم غير مرتبة في إسهاماتك المستقبلية، وأن تقوم بتعديل الفصول السابقة التي تتبع الاتفاقية الأخرى:
+crwdns13873:0crwdne13873:0
 
 ```
-# قائمة المراجعة
-- العنصر 1
-- العنصر 2
-- العنصر 3
+crwdns13875:0crwdne13875:0
 
 ```
-#### تجريبي
+#### crwdns13877:0crwdne13877:0
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/oe2Up1pU5DY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="crwdns13879:0crwdne13879:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(الاتساق - التنسيق - ساعة الرؤوس)=
-### الاختيار 2: استخدام الترويسات بالترتيب المتسلسل.
+crwdns13881:0crwdne13881:0
+### crwdns13883:0crwdne13883:0
 
-وتشير العناوين الرئيسية غير المتتالية إلى زيادة في مستويات الرؤوس بأكثر من واحد. وعلى سبيل المثال:
-
-```
-# عنوان
-### عنوان آخر
-```
-مثل هذه الزيادة من مستويي الترويسة تسفر عن تحذيرات عند بناء _طريق الترقيق_ محلياً. من الناحية المثالية، يجب أن تبدأ جميع ملفات Markdown مع عنوان مستوى 1 وأن تزيد بالتسلسل حسب الاقتضاء:
+crwdns13885:0crwdne13885:0 crwdns13887:0crwdne13887:0
 
 ```
-# عنوان
-## عنوان آخر
+crwdns13889:0crwdne13889:0
+```
+crwdns13891:0crwdne13891:0 crwdns13893:0crwdne13893:0
+
+```
+crwdns13895:0crwdne13895:0
 ```
 
-العديد من الملفات في _دفتر طريق الترقيق_ لا تتبع هذه الاتفاقية. يمكن العثور على قائمة بهذه الملفات في [هذه المشكلة](https://github.com/alan-turing-institute/the-turing-way/issues/1321)، و [هذا ال PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) هو مثال رائع على كيفية إصلاح ملف مع رؤوس غير متتالية.
+crwdns13897:0crwdne13897:0 crwdns13899:0crwdne13899:0
 
-#### تجريبي
+#### crwdns13901:0crwdne13901:0
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qq9QCrykdbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="crwdns13903:0crwdne13903:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(الاتساق - تنسيق العلامات) =
-### الاختيار 3: إضافة تسميات إلى الفصول والفصول الفرعية والأقسام والصور لتمكين الإحالة المتقاطعة.
+crwdns13905:0crwdne13905:0
+### crwdns13907:0crwdne13907:0
 
-وكثيرا ما يمكن أن يشير فصل إلى محتوى من فصل آخر لشرح المفاهيم أو التوسع في النقاط. وتيسر الإحالة المرجعية ذلك من خلال ضمان سهولة العثور على المحتوى المشار إليه بضغطة بسيطة. هذا يساعد على جعل _طريق التوريق_ أكثر قابلية للملاحة والوصول إليها.
+crwdns13909:0crwdne13909:0 crwdns13911:0crwdne13911:0 crwdns13913:0crwdne13913:0
 
-{ref}`تبادل المراجع <ch-style-crossref>` نوقش بالتفصيل على نمط {ref}``. يشرح الفصل الفرعي ما هي التسميات ، ويوفر اتفاقية التسمية للتسميات في _طريق التوبيخ_، ويقدم عدة أمثلة مفيدة للكيفية التي ينبغي أن تتم بها الإحالات المرجعية.
+crwdns13915:0{ref}crwdnd13915:0{ref}crwdne13915:0 crwdns13917:0crwdne13917:0
 
-#### تجريبي
+#### crwdns13919:0crwdne13919:0
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ikcjxjklLVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="crwdns13921:0crwdne13921:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(تنسيق الصور) =
-### تحقق 4: استخدم `MyST` لتنسيق الصورة
+crwdns13923:0crwdne13923:0
+### crwdns13925:0crwdne13925:0
 
-بعض الأرقام والصور في _طريق تورينج_ مضمنة باستخدام بناء صيغة Markdown. وبينما يعمل هذا، فإنه لا يسمح للصور بالتكيف مع حجم الشاشة للجهاز الذي يقرأ منه الكتاب.
+crwdns13927:0crwdne13927:0 crwdns13929:0crwdne13929:0
 
-النص الهيكلي المميز (`MyST`) هو نكهة من «Markdown» التي تعالج هذا وتمكين الصور المستجيبة في _طريق «Ting»_.
+crwdns13931:0crwdne13931:0
 
-كما أنه يسمح باستخدام التسميات التوضيحية والنصوص البديلة (نص قانون الإجراءات الجنائية)، ما هي أوصاف الصور غير المرئية التي تُقرأ بصوت عال لقراء _طريق التوبيخ_ الذين يستخدمون قارئ الشاشة. إذا لم يتم توفير أي نص غير عادي مع صورة، لن يتمكن هؤلاء المستخدمين من فهم الغرض من الصورة.
+crwdns13933:0crwdne13933:0 crwdns13935:0crwdne13935:0
 
-عند كتابة نص منخفض السعر انخفاضا غير عادي، تذكر أن:
-- **كن وصفيا** - وصف الصورة بشكل مناسب باستخدام محتواها وسياقها للتوجيه. عند القيام بذلك، لا حاجة إلى "إعلان" صورة في وصفك (على سبيل المثال، باستخدام "التوضيح من" أو "صورة")، لأن قراء الشاشة سيفعلون ذلك بالفعل.
-- **حافظ عليها أقصر ما يمكن** - على الرغم من أن الوصف الطويل قد يكون ضرورياً لبعض الصور، ومن الأفضل إبقائها قصيرة قدر الإمكان. وهذا يكفل سهولة فهم الأوصاف.
+crwdns13937:0crwdne13937:0
+- crwdns13939:0crwdne13939:0 crwdns13941:0crwdne13941:0
+- crwdns13943:0crwdne13943:0 crwdns13945:0crwdne13945:0
 
-يرجى ملاحظة أن الصور المتضمنة في _طريق التوريق_ يجب أن تكون أقل من 1 ميغابايت. وهذا يسمح بتحميل الكتاب بشكل أسرع، خاصة للقراء الذين قد تكون لديهم اتصالات إنترنت بطيئة.
+crwdns13947:0crwdne13947:0 crwdns13949:0crwdne13949:0
 
-الرجاء الرجوع إلى دليل الطراز {ref}` <ch-style-figures>` للحصول على أمثلة على تنسيق الصور باستخدام `MyST` وإضافة نص LT لهم. عند تضمين الصور في مساهماتك، قد يكون من الأفضل تجنب معلمة الطول لأن القيمة الخاطئة يمكن أن تجعل صورتك تبدو مشوهة على الأجهزة المحمولة. يجب عليك دائماً التحقق من كيف تبدو صورتك في معاينة Netlify للكتاب عند إنشاء PR.
+crwdns13951:0{ref}crwdne13951:0 crwdns13953:0crwdne13953:0 crwdns13955:0crwdne13955:0
 
-#### تجريبي
+#### crwdns13957:0crwdne13957:0
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/upBiKLR_A5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="crwdns13959:0crwdne13959:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(بآلاف دولارات الولايات المتحدة)
-## المتطلبات الناعمة
+crwdns13961:0crwdne13961:0
+## crwdns13963:0crwdne13963:0
 
-المتطلبات الناعمة تساعد على تحسين الصورة العامة و الشعور من _طريق اللحم_. عند إجراء هذه الفحوصات، قد تكون غير ملحوظة، ولكنها تسهم أيضا في جعل _طريق اللحم_ قطعة عمل مصقولة. المتطلبات الناعمة التي تتعامل مع تنسيق _طريق الشحن_ تشمل ما يلي:
+crwdns13965:0crwdne13965:0 crwdns13967:0crwdne13967:0 crwdns13969:0crwdne13969:0
 
-(الاتساق - تنسيق-sr-one)=
-### تحقق 1: تأكد من أن أسماء الفصول / الفصول الفرعية قصيرة وخريطة بالضبط لكيفية عنوانها في `_toc.yml`
+crwdns13971:0crwdne13971:0
+### crwdns13973:0crwdne13973:0
 
-لا تتطابق بعض الفصول والفصول الفرعية في _طريق التوريق_ مع المراجع المقابلة لها في جدول المحتويات على نطاق الكتاب الذي يظهر على يسار صفحة الويب. وقد يكون ذلك مربكا بالنسبة للمستعملين، خاصة عندما تختلف إشارة الفصل/الفصل الفرعي في جدول المحتويات اختلافا كبيرا عن اسم الفصل/الفصل الفرعي.
+crwdns13975:0crwdne13975:0 crwdns13977:0crwdne13977:0
 
 ```{figure} ../../figures/mismatched-title-toc.png
----
-name: disched-title-toc
-البديل : فصل فرعي يختلف عنوانه عن الإشارة إليه في جدول المحتويات. عنوان الفصل الفرعي هو 'استخدام كشوف البيانات لبيانات البحث'، غير أنه يشار إليه في جدول المحتويات بأنه 'تنظيم البيانات في كشوف البيانات'.
----
-عنوان هذا الفصل الفرعي هو 'استخدام جداول البيانات البحثية', غير أن جدول المحتوى يشير إلى نفس الملف مثل "منظمة البيانات في جداول البيانات".
+crwdns13979:0crwdne13979:0 crwdns13981:0crwdne13981:0
+crwdns13983:0crwdne13983:0
 ```
 
-في التأكد من أن محتوى _طريق اللارجح_ يجتاز هذا الشيء، إحدى التوصيات التي يجب اتباعها هي إبقاء العناوين قصيرة. 3 - عند كتابة فصل جديد، كفالة أن يكون عنوانه قصيرا وأن يكون له نفس الاسم في قائمة المحتويات. وبالمثل، عند استعراض الفصول القائمة، إذا اختلفت عناوينها وإشارتها في جدول المحتويات، جعل عنوان الفصل أقصر من العنوان, و قم بتحديث `_toc. م.ل` إذا لزم الأمر.
+crwdns13985:0crwdne13985:0 crwdns13987:0crwdne13987:0 crwdns13989:0crwdne13989:0
 
 ```{note}
-'_toc.yml' هو الملف الذي يعيش فيه جدول محتويات على نطاق الكتاب لـ _The Turing Way_.
+crwdns13991:0crwdne13991:0
 ```
 
-ومع ذلك، تذكر أن العنوان النهائي ينبغي أن يخبر القراء بما يتوقعونه من فصل أو فصل فرعي.
+crwdns13993:0crwdne13993:0
 
-#### تجريبي
+#### crwdns13995:0crwdne13995:0
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HxcdqKJbCE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="crwdns13997:0crwdne13997:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(بآلاف دولارات الولايات المتحدة)
-### التحقق 2: التأكد من صحة غلاف الألقاب للرؤوس
+crwdns13999:0crwdne13999:0
+### crwdns14001:0crwdne14001:0
 
-عناوين بعض الفصول في _طريق التوريق_ لا تستخدم تحميل العناوين. [ترجمة العنوان](https://en.wikipedia.org/wiki/Title_case) هو أسلوب رسملي يستخدم لتنسيق عناوين وعناوين الأعمال المنشورة. كمرجع مثير للأفراد الذين يسعون إلى القيام بعلوم البيانات القابلة للاستنساخ، العناوين والعناوين في _طريق التوبيخ_ يجب أن تكون ملكية.
+crwdns14003:0crwdne14003:0 crwdns14005:0crwdne14005:0 crwdns14007:0crwdne14007:0
 
-على الرغم من أن _طريق التوريق_ لا يتبع أسلوبا محددا لرأسمالية الملكية، فإن بعض القواعد العامة غير الشاملة التي يجب النظر فيها تشمل ما يلي:
-- رسملة الكلمات الرئيسية أو المهمة
-- المقالات والملابسات والحروف السفلية (ما لم يتم الإجهاد عليها)
-- رسملة الكلمات الأولى والأخيرة
+crwdns14009:0crwdne14009:0
+- crwdns14011:0crwdne14011:0
+- crwdns14013:0crwdne14013:0
+- crwdns14015:0crwdne14015:0
 
-هناك أدوات مفيدة، مثل [CapitalizeMyTtle](https://capitalizemytitle.com/) و [تحويل عنوان الحالة](https://titlecaseconverter.com/)، التي يمكن استخدامها لرؤوس حروف العنوان عند كتابة المحتوى الخاص بك. وعلاوة على ذلك، يمكن تشغيل العناوين الرئيسية في _طريق اللعبة_ من خلال هذه الأدوات للتأكد من أنها تتبع اتفاقيات تسجيل الملكية. ثم يمكن استبدالها داخل الفصول وفي `_toc.yml` حسب الاقتضاء.
+crwdns14017:0crwdne14017:0 crwdns14019:0crwdne14019:0 crwdns14021:0crwdne14021:0
 
-على سبيل المثال، في {ref}`غير متطابقة-title-toc` أعلاه، **استخدام جداول البيانات للبحث** يجب أن يكون عنوان **باستخدام جداول البيانات الخاصة بالبحث**.
+crwdns14023:0{ref}crwdne14023:0
 
-وقد لا تكون هناك حاجة إلى إخراج بعض العناوين تبعاً للسياق الذي تستخدم فيه. فعلى سبيل المثال، لما كانت بعض العناوين الرئيسية في هذا الفصل تشكل قائمة مرجعية - فليس من الضروري أن تكون ملكية.
+crwdns14025:0crwdne14025:0 crwdns14027:0crwdne14027:0
 
-#### تجريبي
+#### crwdns14029:0crwdne14029:0
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ET_LI5dwP9M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="crwdns14031:0crwdne14031:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

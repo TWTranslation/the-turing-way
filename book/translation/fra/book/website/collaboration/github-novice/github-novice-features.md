@@ -14,7 +14,7 @@ Maintenant que votre repo est configuré, vous êtes prêt à y ajouter plus de 
 
 * Cliquez sur le bouton "Ajouter un fichier" puis créez un nouveau fichier.
 * Cela vous donnera un fichier vide à modifier.
-* Lorsque vous nommez le fichier, tapez d'abord le nom du dossier (existant ou nouveau) puis un slash, suivi du nom du fichier : "nom-dossier/nom-fichier. xt".
+* Lorsque vous nommez le fichier, tapez d'abord le nom du dossier (existant ou nouveau) puis un slash, suivi du nom du fichier : "nom-dossier/nom-fichier.
 * Modifier le contenu du fichier.
 * Enregistrez vos modifications en utilisant le bouton "commit". N'oubliez pas de taper un message de commit de {ref}`<rr-vcs-commit-messages>` pour vous aider à vous souvenir des changements que vous avez apportés.
 

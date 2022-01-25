@@ -1,0 +1,88 @@
+/*--------------------------------------------------------------------*\ 
+
+Diese Datei enthält das CSS, das Styling im gesamten Buch behandelt.
+Verwenden Sie die Klassen, die hier definiert sind, um das Aussehen von HTML-Elementen in Ihrem Beitrag zu kontrollieren.
+
+Wenn Sie neue Stile hinzufügen, bitte erläutern, was es macht, wie unten gezeigt. 
+
+Index
+  - Styling für Inhaltsverzeichnis
+  - Styling für eingebettete Videos
+
+\*--------------------------------------------------------------------*/ 
+
+/*--------------------------------------------------------------------*\ 
+Styling für Inhaltsverzeichnis 
+
+- Stellen Sie sicher, dass Menüpunkte im Inhaltsverzeichnis groß genug sind für Leser
+
+\*--------------------------------------------------------------------*/ 
+
+#site-navigation li > a {
+  font-size: 1.1em;
+}
+
+/*--------------------------------------------------------------------*\
+
+Styling für eingebettete Videos (iframes) 
+
+- Stellen Sie sicher, dass Videos auf den Bildschirm passen können, von dem das Buch gelesen wird.
+- Stellen Sie auch sicher, dass Videos horizontal zentriert sind.
+
+\*--------------------------------------------------------------------*/ 
+
+.video-Container {
+  position: relativ;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  Höhe: 0;
+  overflow: hidden;
+}
+
+.video-Container iframe {
+  position: absolut;
+  top:0;
+  links: 0;
+  width: 100%;
+  Höhe: 100%;
+}
+
+iframe {
+  Rand: Auto;
+  anzeigen:block;
+}
+
+/*--------------------------------------------------------------------*\
+
+Styling für Tische
+
+- Verbessert das Styling von Tabellen über den Standard Markdown
+- Fügt Ränder zu Tabellen hinzu und erlaubt die Hervorhebung von Zeilen bei Schwebung
+
+\*--------------------------------------------------------------------*/ 
+
+th, td {
+  border: 1px solide #999999 !wichtig; 
+  text-align: center; 
+  padding: 10px
+}
+
+th {
+  Schriftgewicht: fett; 
+  background-color: #EEEEEEEE;
+}
+
+-Tabelle Beschriftung {
+  farbe: schwarz; 
+  text-align: center;
+}
+
+table caption .footnote {
+  farbe: #6666; 
+  text-Ausricht: links; 
+  Schriftgröße: kleiner;
+}
+
+tr:hover {
+  background-color: #f7f7f7f7;
+}

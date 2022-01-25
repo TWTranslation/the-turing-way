@@ -1,45 +1,41 @@
-(pd-project-repo-readme)=
-# صفحة الهبوط - ملف
+crwdns22363:0crwdne22363:0
+# crwdns22365:0crwdne22365:0
 
-صفحة هبوط لمشروعك هي أول شيء سيراه الزوار الجدد لمستودع مشروعك. في مستودع على الإنترنت، مثل GitHub، تسمى صفحة الهبوط هذه 'README' التي تعادل الصفحة الرئيسية لموقع على شبكة الإنترنت.
+crwdns22367:0crwdne22367:0 crwdns22369:0crwdne22369:0
 
-> ملفات README هي نقطة الترحيب لمشروعك - فهي تعطيك فرصة للربط بين المساهمين والمستخدمين المحتملين من خلال إظهار قيمة مشروعك. - [القيادة المفتوحة لموزيلا](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)
+> crwdns22371:0crwdne22371:0 crwdns22373:0crwdne22373:0
 
-لتوصيل مشروعك بفعالية ودعوة القراء للمساهمة في مشروعك، يجب أن يغطي ملف README ما يلي:
-* ماذا تفعلون، لمن، ولماذا.
-* ما الذي يجعل مشروعك مميزة ومثيرة للاهتمام.
-* كيفية البدء.
-* أين يمكن العثور على الموارد الرئيسية.
+crwdns22375:0crwdne22375:0
+* crwdns22377:0crwdne22377:0
+* crwdns22379:0crwdne22379:0
+* crwdns22381:0crwdne22381:0
+* crwdns22383:0crwdne22383:0
 
-فكر في تصميم صفحة هبوط جذابة لأكبر عدد ممكن من القراء وتوفر كل المعلومات المفيدة دون أن تطغى على المساهمين بك. بالنسبة لمشروع البرمجيات، قم بتوفير تعليمات بشأن التثبيت والاختبار والنشر وغير ذلك من المتطلبات لتشغيل برنامجك. شاهد هذا القالب [بواسطة PurpleBooth](https://github.com/PurpleBooth/a-good-readme-template).
+crwdns22385:0crwdne22385:0 crwdns22387:0crwdne22387:0 crwdns22389:0crwdne22389:0
 
-لمزيد من التفاصيل، راجع [هذا العرض التقديمي](https://docs.google.com/presentation/d/e/2PACX-1vTvwtT3GddLaDr8J4ZEf8TkufiN_Wn1Kgv2xu6YSH8hgocb6LJ_WB82OzfcPeJ0b09_xyMOMSft7-Gq/pub?start=false&loop=false&delayms=3000) بواسطة [برنامج Open Life Science](https://openlifesci.org/) للتدريب والتوجيه. أيضًا ، راجع [ورشة العمل القصيرة هذه بواسطة هاو ي](https://ha0ye.github.io/CW21-README-tips/) مع [قالب README](https://ha0ye.github.io/CW21-README-tips/template_README.html) للبدء بها.
+crwdns22391:0crwdne22391:0 crwdns22393:0crwdne22393:0
 
 ```{note}
-**ثلاثة دروس حول README**
+crwdns22395:0crwdne22395:0
 
-- اعرف مستخدميك وما يحتاجونه
-- اجعل المستخدمين يفعلون أشياء قوية بسرعة
-- احترس من أجل الذوق!
-
-المصدر: هاو ي. (2021، آذار/مارس). حلقة عمل التعاون 2021 المصغرة: نصائح README لجعل مشروعك أكثر قابلية للاقتراب (الإصدار 1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4647391
+crwdns22397:0crwdne22397:0 crwdns22399:0crwdne22399:0 crwdns22401:0crwdne22401:0 crwdns22403:0crwdne22403:0 crwdns22405:0crwdne22405:0
 ```
 
-## دراسة حالة: _طريق التوفير_
+## crwdns22407:0crwdne22407:0
 
-باستخدام [_طريقة التوفير_ ملف README](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) كمثال، نحن نصف ما يبدو عليه ملف README جيد.
+crwdns22409:0crwdne22409:0
 
-_طريق الترقيق_ يتضمن ملف README التفاصيل التالية المقدمة بالترتيب الزمني:
-1. اسم المشروع كرأس أعلى.
-2. مجموعة من [شارات/دروع GitHub](https://github.com/badges/shields) (يمكنك إنشاء شارة خاصة بك [هنا](https://shields.io/)). دروع GitHub هي أزرار يمكن النقر عليها وتوفر إجراءات موجزة ذات صلة بالمشروع، والتي في _طريق الترقيق_ تشمل ما يلي: [![قراءة الكتاب](https://img.shields.io/badge/read-the%20book-blue.svg)](https://the-turing-way.netlify.com) [![انضم إلى قائمتنا البريدية القصيرة](https://img.shields.io/badge/receive-our%20newsletter%20❤%EF%B8%8F-blueviolet.svg)](https://tinyletter.com/TuringWay) [![الانضمام إلى المحادثة على https://gitter.im/alan-turing-Institute/the-turing-way](https://img.shields.io/gitter/room/alan-turing-institute/the-turing-way?logo=gitter)](https://gitter.im/alan-turing-institute/the-turing-way) [![ديوي](https://zenodo.org/badge/DOI/10.5281/zenodo.3233853.svg)](https://doi.org/10.5281/zenodo.3233853) [![](https://img.shields.io/static/v1?label=TuringWay&message=I%20want%20to%20contribute!&color=yellow&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAACYklEQVQ4jXXTy09TQRTH8f5VPhI1xoVxYURNAFcmRleaGDdGXQlKAYkLUARNfICoScGKpTyE3t5bkKD2AUQepUXB0gcgLTalD9rema8LKRVrT3I2k%2Fl95kwyY6BMfQiFqHaoVDlUBoJBZJl9hn8XRsIhqh0abd55tnWdrBA8WfBSpakMhUqhXUCJhKl2aLR65%2FEtLeGc%2BYoy5aHf46bX7cThctK%2BAw2HQkVAW41wzqHRMjNNRteR%2BQzGjg5udZtQ47FiO50gdLZ1nVbvPNUOFSUSxnB4sJ%2F0TjCTTjHk%2BoJl%2BRtqPEaL6zMH79Rw0dyDVVURqRgyn0EkN8jkshwZGsBQodgQyQ2kyDPsce859drjdqLRKE0D%2FZhHR5F6DpHc2B3%2FjF3BcFqxARIpBXXmt9ii67vAYDhIr8fNx0UfE3OzzC0sIHIpxNYqSPEHqFBsiFQMkU3h8vs5%2FvABTeNje6BCj%2FxcwzLlIZHYROq5v4EoIr2JyCbJ57Kobjd3u7o41v4I68pyCfTGrhSvUKHYAJD5bcTWGjKbJJdO4A8E6JyexP4rWgK8Vkb2AjK7hcxnmZybxfF9kff%2BhZJQofvXwhg7O4vAfU2l79ME79xOrjY3c9ZYVzZs8nvZf6%2BRQCRCTgiODg1iCK6vc6WtjZM1tzlRW8sNa99%2Fx64fH%2BNAQz0un49nfh%2BVmspAcKX4lKWUbMbjXOg2cf3Vy%2BLIoRWqekxc7nhB6%2FQ0lZqKJRBAyjKfKZFIcKixgVPPn3LTamFfUyPne7qp1Oz0Bn4g5d7vVAIUamJ2FqPZzCW7gvlHabBQvwE2XnlAiFRrOwAAAABJRU5ErkJggg%3D%3D)](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)
-3. روابط إلى النسخة المترجمة من ملفات README للسماح للقراء بقراءتها بلغتهم المفضلة.
-4. وجملة واحدة تقدم كل منها رؤية المشروع وأهدافه والجمهور المستهدف.
-5. جدول للمحتوى الذي يوفر روابط سريعة لمختلف أقسام ملف README
-6. الأقسام المختلفة ذات التفاصيل والروابط الملائمة:
-  - حول المشروع: الدافع والخلفية
-  - الفريق : من هم أعضاء الفريق
-  - المساهمة: الصلات مع المبادئ التوجيهية المتعلقة بالإسهام ومدونة قواعد السلوك
-  - الاستشهاد بطريق الشحن: تعليمات للإشهاد بالمشروع
-  - اتصل بـ: تفاصيل الاتصال بالعملاء المحتملين للمشروع
+crwdns22411:0crwdne22411:0
+1. crwdns22413:0crwdne22413:0
+2. crwdns22443:0crwdne22443:0 crwdns22445:0crwdne22445:0 [![crwdns22441:0crwdne22441:0](crwdns22439:0%20bcrwdne22439:0)](crwdns22437:0crwdne22437:0) [![crwdns22435:0crwdne22435:0](crwdns22433:0%20ncrwdnd22433:0%20crwdnd22433:0%Ecrwdnd22433:0%Bcrwdnd22433:0%8Fcrwdne22433:0)](crwdns22431:0crwdne22431:0) [![crwdns22429:0crwdne22429:0](crwdns22427:0crwdne22427:0)](crwdns22425:0crwdne22425:0) [![crwdns22423:0crwdne22423:0](crwdns22421:0crwdne22421:0)](crwdns22419:0crwdne22419:0) [![](crwdns22417:0%20crwdnd22417:0%20tocrwdnd22417:0%20ccrwdnd22417:0%3crwdnd22417:0%2Fcrwdnd22417:0%3Bcrwdnd22417:0%2Ccrwdnd22417:0%2Fcrwdnd22417:0%2Fcrwdnd22417:0%2Fcrwdnd22417:0%2Bcrwdnd22417:0%2Bcrwdnd22417:0%2Bcrwdnd22417:0%2Fcrwdnd22417:0%2Bcrwdnd22417:0%2Bcrwdnd22417:0%2Fcrwdnd22417:0%2Fcrwdnd22417:0%2Fcrwdnd22417:0%2Fcrwdnd22417:0%2Bcrwdnd22417:0%2Bcrwdnd22417:0%2Fcrwdnd22417:0%2Bcrwdnd22417:0%2Bcrwdnd22417:0%2Bcrwdnd22417:0%2Fcrwdnd22417:0%3crwdnd22417:0%3crwdne22417:0)](crwdns22415:0crwdne22415:0)
+3. crwdns22447:0crwdne22447:0
+4. crwdns22449:0crwdne22449:0
+5. crwdns22451:0crwdne22451:0
+6. crwdns22453:0crwdne22453:0
+  - crwdns22455:0crwdne22455:0
+  - crwdns22457:0crwdne22457:0
+  - crwdns22459:0crwdne22459:0
+  - crwdns22461:0crwdne22461:0
+  - crwdns22463:0crwdne22463:0
 
-وأخيرا، نقدم قائمة كاملة بالمساهمين في المشروع. يتم تحديث جدول المساهمين هذا باستخدام [كل المساهمين](https://allcontributors.org) الذي يعترف بجميع أنواع المساهمات، بما في ذلك تلك التي 'لا تدفع التعليمات البرمجية'.
+crwdns22465:0crwdne22465:0 crwdns22467:0crwdne22467:0

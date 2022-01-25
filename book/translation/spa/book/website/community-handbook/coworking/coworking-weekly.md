@@ -17,7 +17,7 @@ Aunque está programado para 1 hora, puedes unirte por un período más corto, t
 
 La necesidad de recursos para estas llamadas también es muy similar a la cafetería de colaboración.
 
-1. Notas compartidas por [HackMD](https://hackmd.io/): [https://hackmd.io/@malvikasharan/TW-coworking](https://hackmd.io/@malvikasharan/TW-coworking)
+1. Notas compartidas por [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
 2. Llamada en línea por [zoom](https://www.zoom.us/): El enlace ZOP se proporciona en el HackMD.
 3. Un reloj Pomodoro en línea: [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
 
@@ -40,13 +40,27 @@ Ejecutaremos el siguiente programa durante cada llamada:
 
 A diferencia de los Cafés de Colaboración, el calendario para estas llamadas parece más intenso con menos oportunidades de discusión. Sin embargo, dado que estas llamadas son atendidas por menos participantes, proporciona más oportunidades para interacciones informales.
 
+### Colaboración de llamadas
+
+Por favor, actualice el documento cada mes utilizando los siguientes pasos:
+
+- [Actualiza el HackMD](https://hackmd.io/@turingway/coworking-call) cada mes añadiendo fechas para las llamadas semanales
+- Mover las notas de la llamada anterior debajo del área de plantilla (que se archivará en esta página de Noción periódicamente)
+- Comparte las notas en Slack y Twitter anunciando las fechas
+- Utilice las notas durante la llamada para compartir información mientras usted preside la llamada
+- Asegúrese de compartir el enlace Código de Conducta y utilizar el Catálogo compartido (u otros relojes basados en web)
+- Crear salas de ruptura para la gente antes de comenzar las sesiones de Pomodoro - cuando sea necesario
+- Cuando termine la primera sesión de Pomodoro, cierre cualquier sala de interrupción, pida comentarios y luego reinicie la segunda sesión de Pomodoro
+- La llamada está programada para 60 minutos, y por lo tanto puede acomodar hasta 2 sesiones de Pomodoro
+- Cierra la llamada agradeciendo a todos, y evita las notas para la siguiente llamada
+
 #### Comenzando
 
 La llamada comienza con los miembros del equipo dando la bienvenida a los participantes, compartiendo el Código de Conducta, recordando cómo participar en la llamada, y establecer el escenario para que todos compartan cómo están haciendo y en qué trabajarán.
 
 #### Pomodoros
 
-Iniciaremos el [temporizador](https://cuckoo.team/TW-coworking) para seguir las sesiones de Pomodoro. Si todo el mundo planea trabajar en tareas independientes, nos quedaremos en la sala principal y trabajaremos en silencio. Para cualquier discusión o tarea colaborativa en la que estén trabajando dos personas de la llamada, crearemos [salas de ruptura](#breakout-rooms) para ellos.
+La silla de sesión iniciará el temporizador [](https://cuckoo.team/TW-coworking) para hacer un seguimiento de las sesiones de Pomodoro. Si todo el mundo planea trabajar en tareas independientes, nos quedaremos en la sala principal y trabajaremos en silencio. Para cualquier discusión o tarea colaborativa en la que estén trabajando dos personas de la llamada, crearemos [salas de ruptura](#breakout-rooms) para ellos.
 
 Si hay nuevos miembros en la llamada, uno de los miembros (generalmente anfitrión de la llamada) llevará al nuevo miembro a una sala de ruptura para mostrar alrededor del repositorio del proyecto y compartir algunos consejos para empezar.
 

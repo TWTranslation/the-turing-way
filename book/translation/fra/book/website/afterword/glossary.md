@@ -33,8 +33,7 @@ Binderhub
 Binderize
   Pour faire un Binder d'un projet.
 
-
-  Une version parallèle d'un dépôt. Bien qu'il soit contenu dans le même référentiel, il vous permet de le développer séparément et ensuite de fusionner les changements dans le dépôt « live » ou avec d'autres branches lorsque cela est approprié.
+Une version parallèle d'un dépôt. Bien qu'il soit contenu dans le même référentiel, il vous permet de le développer séparément et ensuite de fusionner les changements dans le dépôt « live » ou avec d'autres branches lorsque cela est approprié.
 
 Bug
   Ceci est une erreur, défaut ou défaut dans un programme ou un système informatique qui le fait produire un résultat incorrect ou inattendu ou de se comporter de manière non intentionnelle.
@@ -128,6 +127,9 @@ Dépôt de données
 DMP
   Plan de gestion des données
 
+DMP
+  Plan de gestion des données
+
 Docker Container
   Un environnement de calcul actif exécuté à partir d'une image Docker.
 
@@ -185,9 +187,7 @@ Github
   Un service d'hébergement de code en ligne et de contrôle de version. Il possède de nombreuses fonctionnalités pour faciliter la collaboration entre les utilisateurs et héberge un grand nombre de projets open source.
 
 GitLab
-  GitLab est un outil web pour le cycle de vie de DevOps qui fournit un gestionnaire de dépôt Git-fournissant un wiki, suivi des problèmes et intégration continue et fonctionnalités de pipeline de déploiement, en utilisant une licence open-source, développée par GitLab Inc.
-
-Auteur de fantôme
+  GitLab est un outil web pour le cycle de vie de DevOps qui fournit un gestionnaire de dépôt Git-fournissant un wiki, suivi des problèmes et intégration continue et fonctionnalités de pipeline de déploiement, en utilisant une licence open-source, développée par GitLab Inc. Auteur de fantôme
  C'est une personne qui écrit un article académique sans avoir effectué la recherche. Il pourrait être un écrivain professionnel. Souvent, ils ne se qualifieraient pas d’auteur en vertu des critères d’auteur de l’ICMJE.
 
 Donner à l'auteur
@@ -273,8 +273,7 @@ Dernier auteur
 La machine lisible
   se réfère à des documents, des données ou d'autres sorties numériques dont le contenu peut être facilement traité par des ordinateurs. Ces documents se distinguent des données lisibles par une machine en raison de leur structure suffisante pour fournir le contexte nécessaire pour soutenir les processus commerciaux pour lesquels ils sont créés. Les données lisibles par une machine peuvent être définies comme des données dans un format qui peut être facilement traité par un ordinateur sans intervention humaine tout en assurant qu'aucun sens sémantique n'est perdu.
 
-
-  Principal de la branche principale du dépôt. Selon le flux de travail, c'est celui sur lequel les gens travaillent ou celui sur lequel se déroule l'intégration. Cela s’appelait autrefois «Maître» à Github.
+Principal de la branche principale du dépôt. Selon le flux de travail, c'est celui sur lequel les gens travaillent ou celui sur lequel se déroule l'intégration. Cela s’appelait autrefois «Maître» à Github.
 
 Maintenant
   Les contributeurs qui sont chargés de diriger la vision et de gérer les aspects organisationnels du projet. Ils peuvent également être des auteurs et/ou des propriétaires du projet.
@@ -478,14 +477,12 @@ Auteur partagée
 Tests de fumée
   Des vérifications initiales très brèves qui garantissent les exigences de base requises pour exécuter la maintenance du projet. En cas d'échec, il ne sert à rien de passer à des niveaux de test supplémentaires jusqu'à ce qu'ils soient corrigés.
 
-
-  Empaqueté les modifications qui seront incluses dans le prochain commit git.
+Empaqueté les modifications qui seront incluses dans le prochain commit git.
 
 Code Stochastic Code
   qui, bien que correct, ne donne pas toujours le même résultat. Par exemple, un programme qui donne dix nombres aléatoires générera un résultat différent à chaque fois, bien qu'il soit correct.
 
-
-  Syntaxe de la structure des déclarations dans un langage informatique.
+Syntaxe de la structure des déclarations dans un langage informatique.
 
 System Testing
   Un niveau du processus de test logiciel où un système complet et intégré est testé. Le but de ce test est d'évaluer si le système dans son ensemble donne les bons résultats pour les entrées données. Voir aussi la fin du test.

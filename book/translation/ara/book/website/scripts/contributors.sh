@@ -1,28 +1,26 @@
-#! /bin/bash
-# نسخ أحدث محتوى ملف المساهمين.md إلى كلمة لاحقة
-# هذا سينشر ملف المساهمين على الإنترنت في كتاب طريق «The Turing Way Wy».
+crwdns34065:0crwdne34065:0 crwdns34067:0crwdne34067:0
+crwdns34069:0crwdne34069:0
+crwdns34071:0crwdne34071:0
 
-all_contributors='../../README.md' # المسار إلى ملف README الرئيسي لطريق التوفير
-المساهمة_highlights='../../contributors.md'
-Coating_projects='../../cooperating_projects.md'
-contributors_record='بعد word/contributors-record.md'
+crwdns34073:0crwdne34073:0
+crwdns34075:0crwdne34075:0
 
-# نسخ كل شيء من تسليط الضوء على المساهمين
-تردد '(المساهمون-السجل - إبراز)=' > $contributors_record
-قطة $contributor_highlights >> $contributors_record
+crwdns34077:0crwdne34077:0
+crwdns34079:0$contributors_recordcrwdne34079:0
+crwdns34081:0$contributor_highlightscrwdnd34081:0$contributors_recordcrwdne34081:0
 
-# # احصل على ترقيم حيث تبدأ قائمة جميع المساهمين
-صدى '\n(المساهمون-سجل الكل)=' >> $contributors_record
-تردد '\n# جميع المساهمين\n' >> $contributors_record
-تردد '\n✨بإستخدام [all-contributors](https://allcontributors.org/) مواصفات، _The Turing Way_Recognises جميع المساهمين، وليس فقط المساهمين الذين يدفعون التعليمات البرمجية. ✨' >> $contributors_record
-خط_num=$(grep -n '## المساهمون' $all_contributors <unk> cut -d: -f1)
-صدى '\n(المساهمون-تسجيل المساهمين)=' >> $contributors_record
+crwdns34083:0crwdne34083:0
+crwdns34085:0$contributors_recordcrwdne34085:0
+crwdns34087:0$contributors_recordcrwdne34087:0
+crwdns34089:0[all-contributors]crwdne34089:0 crwdns34091:0$contributors_recordcrwdne34091:0
+crwdns34093:0$all_contributorscrwdne34093:0
+crwdns34095:0$contributors_recordcrwdne34095:0
 
-ذيل -n +"$line_num"$all_contributors" <unk> اثناء قراءة السطر;
-فعل
-  صدى $line >> $contributors_record
-تم
+crwdns34097:0$line_numcrwdnd34097:0$all_contributorscrwdne34097:0
+crwdns34099:0crwdne34099:0
+  crwdns34101:0$linecrwdnd34101:0$contributors_recordcrwdne34101:0
+crwdns34103:0crwdne34103:0
 
-# نسخ كل شيء من ملفات المشاريع المتعاونة
-صدى '\n(المساهمون-السجل المتعاون)=' >> $contributors_record
-قطة $collaborating_projects >> $contributors_record
+crwdns34105:0crwdne34105:0
+crwdns34107:0$contributors_recordcrwdne34107:0
+crwdns34109:0$collaborating_projectscrwdnd34109:0$contributors_recordcrwdne34109:0

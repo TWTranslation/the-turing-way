@@ -56,9 +56,9 @@ Ce chiffre peut être référencé dans d'autres fichiers en utilisant le rôle 
 Veuillez noter qu'une hauteur de 500px fonctionne très bien avec le livre _The Turing Way_ , mais ce n'est qu'une suggestion.
 (ch-style-figures-alttext)=
 ## Texte alternatif
-Le texte alternatif ou le texte alt sont utilisés pour décrire l'apparence et la fonction d'une image sur une page HTML. Notre exemple de figure peut être expliqué avec cette phrase : *Deux personnes lisent volontiers les fichiers dans un tiroir de documents.*
+Le texte alternatif ou le texte alt sont utilisés pour décrire l'apparence et la fonction d'une image sur une page HTML. Notre exemple de figure peut être expliqué avec cette phrase : *Deux personnes lisent volontiers les fichiers dans un tiroir de documents.* L'ajout de texte alternatif à la figure est l'un des premiers principes de l'accessibilité du Web.
 L'ajout de texte alternatif à la figure est l'un des premiers principes de l'accessibilité du Web. Le logiciel de lecture d'écran peut lire un texte alt pour mieux expliquer le contenu de la figure à ses utilisateurs.
-Tous les composants de votre figure (emplacement du fichier image, taille, nom, alt text and title) peuvent être encapsulés en section dans un fichier markdown en utilisant la directive suivante :
+(ch-style-figures-légende)=
 
 ````
 ```{figure} ../../figures/file-collection.jpg
@@ -80,7 +80,7 @@ alt : Deux personnes parcourent volontiers les fichiers dans un tiroir de docume
 _The Turing Way_ project illustration by Scriberia. Utilisé sous licence CC-BY 4.0. DOI : [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Lorsque tous ces composants sont utilisés correctement, un chiffre inclus dans un fichier sera affiché dans le livre en ligne comme dans cette page :
+Par exemple, une légende pourrait dire:
 
 ```{figure} ../../figures/file-collection.jpg
 ---
@@ -96,7 +96,7 @@ _The Turing Way_ project illustration by Scriberia. Utilisé sous licence CC-BY 
 
 Les légendes apparaissent sous la figure. Elles devraient être courtes et concises et inclure une référence à la source d'où elles proviennent. En particulier, il est important de décrire la licence sous laquelle l'image est réutilisée.
 
-Par exemple, une légende pourrait dire:
+(figure-ch-style-advanced)=
 
 > Effectuez votre première pull request sur GitHub. _Illustration du projet Turing Way_ par Scriberia. Utilisé sous licence CC-BY 4.0. DOI : [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 

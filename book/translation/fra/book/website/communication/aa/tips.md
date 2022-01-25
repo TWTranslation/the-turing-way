@@ -10,7 +10,7 @@ Il est utile de considérer que tout le monde sur le même projet de recherche o
 
 **Motivation moyenne** Autres membres de l'équipe, probablement plus d'universitaires établis qui ont déjà une quantité importante de publications et un emploi stable. peut être moins préoccupé par l'ordre des auteurs de leurs articles ou de la manière dont les contributions sont attribuées et suivies.
 
-**Faible motivation** Les membres de l'équipe qui ne sont pas intéressés par une carrière purement académique, mais qui font toujours partie intégrante de l'équipe et ont apporté des contributions substantielles au projet. comme les ingénieurs de recherche, peuvent ne pas être intéressés par la paternité du tout.
+**Faible motivation** Les membres de l'équipe qui ne sont pas intéressés par une carrière purement académique, mais qui font toujours partie intégrante de l'équipe et ont apporté des contributions substantielles au projet.
 
 (communication-aa-tips-culture)=
 ## Encourager une culture de la paternité éthique et équitable

@@ -1,4 +1,4 @@
-(rr-overview-Ressourcen)=
+﻿(rr-overview-Ressourcen)=
 # Ressourcen
 Weitere Ressourcen wie Videos und Referenzpapiere zur Reproduzierbarkeit finden Sie in den {ref}`rrr-overview-ressourcen-Lesung` und {ref}`rr-overview-resources-addmaterial` Sektionen.
 
@@ -22,6 +22,16 @@ Weitere Ressourcen wie Videos und Referenzpapiere zur Reproduzierbarkeit finden 
 
 ### Nützliche Links
 
+#### **Reproducibility**
+
 * Markowetz, F. (2018). 5 egoistische Gründe zu arbeiten reproduzierbar. Folien verfügbar unter https://osf.io/a8wq4/. Aufnahme eines Vortrags bei Data Stewardship TU Delft im Jahr 2019. [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
 
 * Leipzig, J (2020). Awesome Reproduzible Research: Eine kuratierte Liste reproduzierbarer Forschungsfallstudien, Projekte, Tutorials und Medien. Github repo. https://github.com/leipzig/awesome-reproducible-research
+
+#### **Datenwissenschaft**
+
+* _Datenwissenschaft: Ein Leitfaden für die Gesellschaft_. Bitte um Evidenz. (2019). Erhalten vom 26. Oktober 2021 von https://askforevidence.org/articles/data-science-a-guide-for-society.
+
+* Riley, E. (2019). Data Science Guide for Society. London; senseaboutcience.org.
+
+* Das Open Data Institute. (2019). _Wissen & Bewertung_. Die ODI. Erhalten vom 26. Oktober 2021 von https://theodi.org/article/data-ethics-canvas.

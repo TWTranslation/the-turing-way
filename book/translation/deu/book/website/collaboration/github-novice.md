@@ -1,5 +1,5 @@
 (cl-github-novice)=
-# Erste Schritte mit Github
+# Erste Schritte mit GitHub
 
 ## Voraussetzungen
 

@@ -23,7 +23,7 @@ Les fichiers vides inclus dans la table des matières de Turing Way sont toujour
 
 Une suggestion générale est de supprimer les références à de tels fichiers du ToC et de soulever un problème dans le dépôt _The Turing Way_ Github [Github](https://github.com/alan-turing-institute/the-turing-way) pour que le contenu soit écrit pour ces fichiers. Lorsque le contenu est écrit, les fichiers peuvent alors être ajoutés au CT.
 
-Par exemple, [ce problème](https://github.com/alan-turing-institute/the-turing-way/issues/1391) conserve une liste de fichiers vides et incomplets actuellement dans _The Turing Way_, et [cette PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) écrit du contenu pour le sous-chapitre `Licence de données` affiché dans l'image {ref}` <empty-toc-file>`.
+Par exemple, [ce problème](https://github.com/alan-turing-institute/the-turing-way/issues/1391) conserve une liste de fichiers vides et incomplets actuellement dans _The Turing Way_, et [cette PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) écrit du contenu pour le sous-chapitre `Licence de données` affiché dans l'image {ref}`<empty-toc-file>`.
 
 (ch-consistcy-structure-hr-structure)=
 ### Vérifier 2 : Assurez-vous que les chapitres suivent une structure cohérente
@@ -76,9 +76,9 @@ La table des matières écrite manuellement est inutile car Jupyter Book génèr
 (cohérence-structure-hr-citation)=
 ### S'assurer que les sources externes sont correctement citées et référencées
 
-Comme décrit dans le guide de style de {ref}`<ch-style-citing>`, _Les références de la Voie Turing_sont stockées dans un fichier BibTeX appelé `références. ib`. Lors de l'écriture d'un nouveau contenu, assurez-vous que les informations collectées à partir de sources externes sont citées en utilisant le format BibTeX et ajoutées aux références `. fichier ib` si approprié.
+Comme décrit dans le guide de style de {ref}`<ch-style-citing>`, _Les références de la Voie Turing_sont stockées dans un fichier BibTeX appelé `références. ib`. Lors de l'écriture d'un nouveau contenu, assurez-vous que les informations collectées à partir de sources externes sont citées en utilisant le format BibTeX et ajoutées aux références `.</p>
 
-Le guide de style de {ref}`<ch-style-citing>` montre comment ajouter une nouvelle référence au fichier BibTeX centralisé, et montre comment cette référence peut être incluse dans votre écriture.
+<p spaces-before="0">Le guide de style de {ref}<code><ch-style-citing>` montre comment ajouter une nouvelle référence au fichier BibTeX centralisé, et montre comment cette référence peut être incluse dans votre écriture.
 
 
 (ch-consistcy-structure-soft-req)=

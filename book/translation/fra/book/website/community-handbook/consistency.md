@@ -45,14 +45,14 @@ Pathway pour maintenir la cohérence. Illustration du projet _Turing Way_ par Sc
 
 #### Structure
 
-| Requis    | VÉRIFICATION                                                                                                                                                                                                    |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Difficile | Assurez-vous que les chapitres suivent une structure telle que décrite dans le nouveau modèle de chapitre [](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) |
-| Difficile | Ne pas ajouter une 'table des matières' dans les chapitres ou sous-chapitres car elle est générée automatiquement par le livre Jupyter                                                                          |
-| Difficile | Assurez-vous que les sources externes sont correctement référencées et incluses dans le fichier BibTeX centralisé tel que recommandé dans le guide de style de {ref}`<ch-style-citing>`                   |
-| Difficile | N'ajoutez pas de fichiers vides dans le `_toc.yml`, à la place créez une anomalie pour de nouveaux chapitres                                                                                                    |
-| Douce     | Assurez-vous que chaque chapitre a un bon résumé sur sa page d'accueil ainsi que des liens vers ses sous-chapitres.                                                                                             |
-| Douce     | Diviser les longs chapitres en sous-chapitres plus petits pour qu'ils soient modulaires.                                                                                                                        |
+| Requis    | VÉRIFICATION                                                                                                                                                                                  |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Difficile | Assurez-vous que les chapitres suivent une structure telle que décrite dans le nouveau modèle de chapitre                                                                                     |
+| Difficile | Ne pas ajouter une 'table des matières' dans les chapitres ou sous-chapitres car elle est générée automatiquement par le livre Jupyter                                                        |
+| Difficile | Assurez-vous que les sources externes sont correctement référencées et incluses dans le fichier BibTeX centralisé tel que recommandé dans le guide de style de {ref}`<ch-style-citing>` |
+| Difficile | N'ajoutez pas de fichiers vides dans le `_toc.yml`, à la place créez une anomalie pour de nouveaux chapitres                                                                                  |
+| Douce     | Assurez-vous que chaque chapitre a un bon résumé sur sa page d'accueil ainsi que des liens vers ses sous-chapitres.                                                                           |
+| Douce     | Diviser les longs chapitres en sous-chapitres plus petits pour qu'ils soient modulaires.                                                                                                      |
 
 
 #### Langue

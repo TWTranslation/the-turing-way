@@ -1,4 +1,4 @@
-(rr-overview-resources)=
+﻿(rr-overview-resources)=
 # Recursos
 Para recursos adicionais como vídeos e papéis de referência na reprodutibilidade, veja as seções {ref}`rr-overview-resources` e {ref}`rr-overview-resources-addmaterial`.
 
@@ -22,6 +22,16 @@ Para recursos adicionais como vídeos e papéis de referência na reprodutibilid
 
 ### Links Úteis
 
+#### **Reproducibility**
+
 * Markowetz, F. (2018). 5 razões egoístas para trabalhar reprodutoramente. Slides disponíveis em https://osf.io/a8wq4/. Gravando de uma palestra no Stewardship de Dados TU Delft em 2019. [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
 
 * Leipzig, J (2020). Pesquisa Reprodutiva incrível: uma lista selecionada de estudos de casos de pesquisa reproduzíveis, projetos, tutoriais e mídia. Github repo. https://github.com/leipzig/awesome-reproducible-research
+
+#### **Ciência de Dados**
+
+* _Ciência de Dados: um guia para a sociedade_. Pergunte por evidência. (2019). Recuperado 26 de outubro, 2021, de https://askforevidence.org/articles/data-science-a-guide-for-society.
+
+* Riley, E. (2019). Guia da Ciência de Dados para a Sociedade. Londres; senseaboutscience.org.
+
+* O Instituto de Dados Abertos. (2019). _Conhecimento & opinião_. O ODI. Recuperado 26, 2021, de https://theodi.org/article/data-ethics-canvas.

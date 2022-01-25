@@ -1,23 +1,26 @@
-crwdns22655:0crwdne22655:0
-# crwdns22657:0crwdne22657:0
+(r-binderhub)=
+# بيندرهوب
 
-## crwdns22659:0crwdne22659:0
+## الشروط الأولية/مستوى المهارة الموصى بها
 
-| crwdns22661:0crwdne22661:0      | crwdns22663:0crwdne22663:0 |
-| ------------------------------- | -------------------------- |
-| crwdns22665:0{ref}crwdne22665:0 | crwdns22667:0crwdne22667:0 |
-| crwdns22669:0{ref}crwdne22669:0 | crwdns22671:0crwdne22671:0 |
+| الشروط المسبقة                            | الأهمية |
+| ----------------------------------------- | ------- |
+| {ref}`التحكم في الإصدار<rr-vcs>`    | مهم جدا |
+| {ref}`بيئات قابلة للتكرار<rr-renv>` | مهم جدا |
 
-crwdns22673:0crwdne22673:0 crwdns22675:0crwdne22675:0
+سيناقش هذا الفصل [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html)، وهو مسحوق تكنولوجيا السحابة [Binder](https://mybinder.readthedocs.io/en/latest/). سوف نغطي التكنولوجيات والأدوات التي يستخدمها BinderHub والموارد التي ستحتاج إليها لإعداد BinderHub.
 
-crwdns22677:0crwdne22677:0 crwdns22679:0crwdne22679:0
+ويستهدف هذا الفصل في المقام الأول مهندسي البرمجيات البحثية وخدمات تكنولوجيا المعلومات الذين يرغبون في توفير BinderHub كخدمة لمجموعة من الباحثين. على الرغم من أن أي شخص يمكنه بناء BinderHub.
 
 ```{figure} ../figures/binderhub.jpg
-crwdns22681:0crwdne22681:0
-crwdns22683:0crwdne22683:0
-crwdns22685:0crwdne22685:0 crwdns22687:0crwdne22687:0 crwdns22689:0crwdne22689:0
+---
+الاسم: Binderhub
+البديل : تمثيل بنية BinderHub التي تشمل GitHub, repo2docker, docker, jupyterhub والشحن للعملاء في الشركة.
+---
+توضيح عن هندسة BinderHub المعمارية.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
 ```
 
-## crwdns22691:0crwdne22691:0
+## الدافع
 
-crwdns22693:0crwdne22693:0 crwdns22695:0crwdne22695:0
+ستعطيك قراءة هذا الفصل صورة أوضح لكيفية خدمات Binder (مثل [mybinder. rg](https://mybinder.org)) تعمل التكنولوجيات التي تعمل على تشغيل BinderHub وكيف تتفاعل فيما بينها. ويغطي هذا الفصل أيضاً الأسباب التي تجعلك تبني BinderHub، بدلاً من استخدام الخدمة العامة في mybinder.org.

@@ -56,4 +56,4 @@ Le Community Manager est [Malvika Sharan](https://about.me/malvikasharan). Elle 
 
 Vous pouvez les contacter sur la communauté Gitter Channel [https://gitter.im/alan-turing-institute/the-turing-way](https://gitter.im/alan-turing-institute/the-turing-way). Vous pouvez écrire un courriel à Malvika Sharan pour toute question de requête en utilisant le courriel de la communauté [theturingway@gmail. om](mailto:theturingway@gmail.com) ou contactez-la directement en envoyant un e-mail à [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). Dans le cas où vous souhaitez rejoindre directement Kirstie, envoyez-lui un e-mail à [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
 
-Pour les coordonnées de la requête relative au Code de Conduite et la déclaration, veuillez consulter le fichier du code de conduite {ref}` <ch-coc>` dans ce manuel de la communauté.
+Pour les coordonnées de la requête relative au Code de Conduite et la déclaration, veuillez consulter le fichier du code de conduite {ref}`<ch-coc>` dans ce manuel de la communauté.

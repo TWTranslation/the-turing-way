@@ -43,9 +43,12 @@ Pouvez-vous imaginer essayer de combiner toutes ces questions en un seul endroit
 
 Dans l'expérience de l'équipe Project Binder, la plupart des membres de la communauté contribuent à un ou deux de ces projets. Ainsi, avoir un accès consolidé à toutes les questions pour toutes les pièces de travail n'est pas une priorité élevée pour leur communauté.
 
-Ils trouvent que le fait d'avoir distribué le suivi des problèmes permet aux membres de la communauté qui ne peuvent travailler qu'avec JupyterHub de contribuer confortablement sans avoir besoin de se familiariser avec tout ce qui va avec le mybinder [qui fonctionne. rg](https://mybinder.org).
+Ils trouvent que le fait d'avoir distribué le suivi des problèmes permet aux membres de la communauté qui ne peuvent travailler qu'avec JupyterHub de contribuer confortablement sans avoir besoin de se familiariser avec tout ce qui va avec le mybinder
+qui fonctionne.</p> 
 
 (os-comms-issue-tracking-purpose-issues-case-centralised-issue)=
+
+
 ### Dépôt centralisé de problèmes
 
 Avec un grand projet, il peut être tentant de rassembler toutes vos questions en un seul endroit pour faciliter la gestion : un système centralisé. Si vous utilisez des problèmes pour suivre un service central, des listes de tâches personnelles, et répondre à des questions comme si une tâche est une priorité élevée ou si elle est déjà assignée à quelqu'un alors le suivi des problèmes dans un système centralisé est une bonne option et ne doit pas nécessairement être distribué à votre communauté dans son ensemble.
@@ -59,6 +62,8 @@ Toutefois, en termes d'engagement de votre communauté, un tel système centrali
 Un impact très important sur la communauté d'avoir un tableau de tickets séparé est que lorsque des gens visitent votre référentiel de code, il ressemble à un projet inactif car il n'y a pas de problèmes ou de conversations sur l'endroit où le code est hébergé. Cela peut faire croire aux membres de la communauté que le code n'est plus activement développé, maintenu/pris en charge et peut choisir d'utiliser une autre base de code ou un autre paquet logiciel.
 
 (os-comms-issue-tracking-comparative-table)=
+
+
 ## Tableau comparatif
 
 Le tableau ci-dessous compare les fonctionnalités des dépôts de tickets distribués et centralisés pour un projet multi-référentiel.
@@ -74,7 +79,10 @@ Le tableau ci-dessous compare les fonctionnalités des dépôts de tickets distr
 | Apparaît actif à la communauté             |                               |              ✅               |
 | Volume gérable                             |                               |              ✅               |
 
+
 *Utilisateurs de puissance = Ce sont des personnes qui sont déjà suffisamment familières avec une plateforme pour connaître les trucs et astuces qui rendent leur expérience plus efficace
+
+
 
 ## Lecture ultérieure
 

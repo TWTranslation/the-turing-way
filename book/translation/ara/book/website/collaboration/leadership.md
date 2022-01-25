@@ -1,8 +1,8 @@
-(قيادة)=
-# القيادة في علوم البيانات
+crwdns5525:0crwdne5525:0
+# crwdns5527:0crwdne5527:0
 
-TBA
+crwdns5529:0crwdne5529:0
 
-## نظرة عامة
+## crwdns5531:0crwdne5531:0
 
-TBA
+crwdns5533:0crwdne5533:0

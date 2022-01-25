@@ -1,5 +1,5 @@
 (cl-github-novice)=
-# Github 入門
+# GitHub入門
 
 ## 前提条件
 

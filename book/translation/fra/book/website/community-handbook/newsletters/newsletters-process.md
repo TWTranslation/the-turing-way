@@ -14,7 +14,7 @@ Créez un nouveau ticket GitHub où, tout au long du mois, vous et d'autres memb
 
 Il y a plusieurs façons de commencer un brouillon :
 
-1. Créez une nouvelle branche de _The Turing Way_ [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/) dans le répertoire approprié (expliqué dans le sous-chapitre suivant sur le guide de style de la newsletter de {ref}` <ch-newsletters-style>`).
+1. Créez une nouvelle branche de _The Turing Way_ [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/) dans le répertoire approprié (expliqué dans le sous-chapitre suivant sur le guide de style de la newsletter de {ref}`<ch-newsletters-style>`).
 
 Vous pouvez travailler sur cette branche GitHub localement ou en ligne via une pull request (PR). Si vous travaillez en ligne, veuillez garder le mode brouillon activé pour votre PR ou ajouter "[WIP]" (travail en cours) dans le titre.
 

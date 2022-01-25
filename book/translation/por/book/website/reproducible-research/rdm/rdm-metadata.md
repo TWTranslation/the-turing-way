@@ -1,7 +1,7 @@
 (rr-rdm-metadados)=
 # Documentação e Metadados
 
-Ter dados disponíveis de nada serve se não for possível compreendê-los. Por exemplo, uma tabela de números é inútil se não houver nenhum título que descreva o que as colunas/linhas contêm. Portanto, você deve garantir que conjuntos de dados abertos incluam documentação.
+Ter dados disponíveis de nada serve se não for possível compreendê-los. Sem metadados para fornecer provisão e contexto, os dados não podem ser usados eficazmente. Por exemplo, uma tabela de números é inútil se nenhum título descreve o que as colunas/linhas contêm. Portanto, você deve garantir que os conjuntos de dados abertos incluam metadados consistentes, ou seja, informações sobre os dados para que os dados sejam completamente descritos. Isso requer que todos os dados que acompanham sejam escritos em linguagem clara, simples e que os usuários de dados tenham informações suficientes para entender a fonte, pontos fortes, fraquezas e limitações analíticas dos dados tomam decisões informadas ao usá-los.
 
 ## Documentação
 
@@ -21,4 +21,8 @@ Metadados são informações sobre os dados, descritores que facilitam a catalog
 (rr-rdm-metadados-padrões)=
 ### Padrões Comunitários - Metadados
 
-O uso de padrões definidos pela comunidade para metadados é vital para a pesquisa reprodutível e permite a comparação de dados heterogéneos de múltiplas fontes. domínios e disciplinas. As normas dos metadados são específicas da disciplina. Por exemplo, para dados cerebrais, a [Estrutura de dados brain Imaging](https://doi.org/10.25504/FAIRsharing.rd1j6t) é o padrão a ser usado. No entanto, nem toda disciplina pode usar padrões de metadados. Você pode ver se a sua disciplina usa padrões de metadados através do [FAIRsharing](https://fairsharing.org/), um recurso para identificar e citar os metadados ou esquemas de identificação, bancos de dados ou repositórios que existem para seus dados e disciplina. Existem também situações em que os investigadores utilizam padrões de metadados mais gerais. por exemplo, quando usam um arquivo genérico para armazenar os seus dados têm de aderir aos padrões de metadados do arquivo. Neste caso, um arquivo de texto com metadados disciplinares específicos pode ser adicionado como parte da documentação.
+O uso de padrões definidos pela comunidade para metadados é vital para a pesquisa reprodutível e permite a comparação de dados heterogéneos de múltiplas fontes. domínios e disciplinas.
+
+As normas de metadados incluem os conteúdos e as normas estruturais. As normas de conteúdo explicam que informações devem ser registradas quando se descreve um determinado tipo de recurso e como essa informação deve ser registrada. Embora as normas estruturais definam quais são os campos e quais os tipos de informação que devem ser registados nelas.
+
+As normas dos metadados são também disciplinares. Por exemplo, para dados cerebrais, a [Estrutura de dados brain Imaging](https://doi.org/10.25504/FAIRsharing.rd1j6t) é o padrão a ser usado. No entanto, nem toda disciplina pode usar padrões de metadados. Você pode ver se a sua disciplina usa padrões de metadados através do [FAIRsharing](https://fairsharing.org/), um recurso para identificar e citar os metadados ou esquemas de identificação, bancos de dados ou repositórios que existem para seus dados e disciplina. Existem também situações em que os investigadores utilizam padrões de metadados mais gerais. por exemplo, quando usam um arquivo genérico para armazenar os seus dados têm de aderir aos padrões de metadados do arquivo. Neste caso, um arquivo de texto com metadados disciplinares específicos pode ser adicionado como parte da documentação.

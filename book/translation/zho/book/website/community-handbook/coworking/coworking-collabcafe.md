@@ -17,7 +17,7 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 
 以下是我们用于这些调用的资源：
 
-1. 由 [HackMD](https://hackmd.io/)分享的备注：您可以在线访问这些备注 [https://hackmd. o/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) 并可以和其他人一起在通话时领取笔记。
+1. 由 [HackMD](https://hackmd.io/)分享的备注：您可以在线访问这些备注到 [hackmd。 o/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) 并可以和其他人一起在通话时领取笔记。
 2. [缩放](https://www.zoom.us/)的在线通话：在通话之前，缩放链接是在HackMD 中提供的， 成员可以通过在网络上打开缩放窗口或使用应在本地安装的缩放应用程序来加入通话([免费](https://zoom.us/download))。
 3. [Cuckoo上的在线番茄钟。 eam](https://cuckoo.team/collabcafe): 在通话过程中，为番茄钟设置了可由每个人通过浏览器进行直播跟踪的工作间隔。
 4. 一些先前通话的视频录音可在 [我们的 YouTube 频道](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA) 上获得。
@@ -27,6 +27,10 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 ## 通话格式
 
 我们有一个 {ref}`协作咖啡厅<ch-template-coworking-collabcafe>`的模板，该模板在每次通话的共享注释上得到更新。
+
+**加成**
+
+您可以观看这个视频来观看Kirstie 和 Malvika 规划协作咖啡厅的结构和格式。 <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 ### 日程安排
 
@@ -44,6 +48,32 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 | 5 分钟  | ☕ break          |
 | 30 分钟 | 公开讨论：庆祝、思考和未来方向  |
 | 5 分钟  | 👋 关闭             |
+
+### 主持在线协作咖啡厅
+
+#### 通话前
+
+- 请在事件之前使用以下步骤更新共享文档 ([HackMD](https://hackmd.io/@turingway/collaboration-cafe))：
+  - 更新即将来电的日期
+  - 将笔记从先前调用到工作区下方(将定期存档于本概念页面)
+  - 更新 icebreaker 问题
+  - 分享Slack和Twitter上的便笺，宣布事件
+
+**想看看我们如何运行这些电话？**
+
+我们已经在YouTube上张贴了我们协作咖啡厅的一些视频。 观看视频，看看Kirstie是如何在首次启动时接听电话的。 <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+
+#### 通话期间
+- 通话期间使用便笺，在您主持通话时分享信息
+- 请确保您共享行为守则链接并使用共享的 Cuckoo (或其他网络时钟)
+- 在开始番茄之前为人们创建分房间。
+- 番茄钟结束后，房间关闭，要求任何反馈，并要求休息5分钟
+- 继续重复的会议2至3个番茄，留下最后15至30分钟的时间来讨论人们做些什么工作。
+- 关闭通话，感谢所有人，并为下一次通话归档笔记
+
+#### 通话之后
+
+请将此通话中的任何反馈意见分享给 *诱惑路径*的社区管理员。 具体而言，如果您有任何反馈、关切或今后打电话的想法。 鼓励您创建一个合并请求来改进本章，以帮助未来的参与者和协作足球食堂的主席。
 
 #### 开始
 

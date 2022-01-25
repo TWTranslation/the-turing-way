@@ -1,32 +1,32 @@
-# الموارد
+# crwdns35949:0crwdne35949:0
 
-## فروع أخرى ذات صلة في سبيل التوريد
+## crwdns35951:0crwdne35951:0
 
-* [تقييم التنوع والاختلافات](https://the-turing-way.netlify.app/collaboration/new-community/new-community-differences.html)
+* [crwdns35955:0crwdne35955:0](crwdns35953:0crwdne35953:0)
 
-* [نشاط الباحثين](https://the-turing-way.netlify.app/ethical-research/activism.html)
+* [crwdns35959:0crwdne35959:0](crwdns35957:0crwdne35957:0)
 
-## باء - الموارد الإضافية لممارسة التأمل الذاتي والردود والموقف
-وتشير بعض هذه الموارد إلى بحوث نوعية ولكنها تنطبق على نطاق واسع على الوضع عموما.
+## crwdns35961:0crwdne35961:0
+crwdns35963:0crwdne35963:0
 
-* ماكينتوش، ب. (1988) [الامتياز الأبيض: فك تعبئة الفن المخفي](https://admin.artsci.washington.edu/sites/adming/files/unpacking-invisible-knapsack.pdf) {cite:ps}`mcintosh1988white`
+* crwdns35965:0{cite:ps}crwdne35965:0
 
-* Gebru, T. et al. (2018) [صحائف بيانات لمجموعات البيانات](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/1803.09010.pdf) {cite:ps}`gebru2018datashets`
+* crwdns35967:0{cite:ps}crwdne35967:0
 
-* جاكوبسون، د. ومصطفى، ن. (2019) [خريطة الهوية الاجتماعية: أداة للرد على الوضع الواضح في البحث النوعي الحرج](https://journals.sagepub.com/doi/full/10.1177/1609406919870075) {cite:ps}`جاكوبسون2019الاجتماعي`
+* crwdns35969:0{cite:ps}crwdne35969:0
 
-* هولمز، أ. (2020) [موقف الباحث - الاعتبار لتأثيره ومكانه في البحث النوعي - دليل الباحث الجديد.](https://files.eric.ed.gov/fulltext/EJ1268044.pdf) {cite:ps}`Holmes2020باحث`
+* crwdns35971:0crwdne35971:0 crwdns35973:0{cite:ps}crwdne35973:0
 
-## مزيد من القراءة بشأن الموقف والردود في مجال العلم
+## crwdns35975:0crwdne35975:0
 
-* هاراواي، د. (1988) [معرفة الموقف: السؤال العلمي في الحركة النسائية وامتياز المنظور الجزئي](https://www.jstor.org/stable/3178066) {cite:ps}`هاراواي 1988`
+* crwdns35977:0{cite:ps}crwdne35977:0
 
-* ريكر، B. (2017) [المرونة والموقف والموقف في سياق بحث البيانات الكبيرة](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2911652) {cite:ps}`ricker2017reflexivity`
+* crwdns35979:0{cite:ps}crwdne35979:0
 
-* Jafar, A.N.J. (2018) [ما هو الموقف وينبغي التعبير عنه في الدراسات الكمية؟](https://emj.bmj.com/content/35/5/323) {cite:ps}`الجفار 2018`
+* crwdns35981:0crwdne35981:0 crwdns35983:0{cite:ps}crwdne35983:0
 
-* كوستانزا - شوكك، S., (2020) [تصميم العدالة: ممارسات المجتمع المحلي لبناء العالم الذي نحتاج إليه](https://design-justice.pubpub.org/) {cite:ps}`كستانزا 2020تصميم`
+* crwdns35985:0{cite:ps}crwdne35985:0
 
-* D'ignazio, C., & Klein, L. F. (2020). [بيانات الحركة النسائية](https://mitpress.mit.edu/books/data-feminism) {cite:ps}`بيانات 2020`
+* crwdns35987:0crwdne35987:0 crwdns35989:0crwdne35989:0 crwdns35991:0{cite:ps}crwdne35991:0
 
-* Birhane, A. (2021) [المظالم الخوارزمية: نهج الأخلاقيات العلاقية](https://www.sciencedirect.com/science/article/pii/S2666389921000155) {cite:ps}`birhane2021algorithmic`
+* crwdns35993:0{cite:ps}crwdne35993:0

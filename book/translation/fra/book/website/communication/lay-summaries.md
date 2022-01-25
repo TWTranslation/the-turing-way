@@ -8,7 +8,7 @@ Plus récemment, les résumés de laïcs deviennent une exigence des revues univ
 (cm-lay-résumés-quoi)=
 ## Qu'est-ce qu'un résumé de lait?
 
-Un résumé laïc est un résumé d'un projet de recherche ou d'une proposition de recherche qui est généralement écrite pour les membres du public. plutôt que de chercheurs ou de professionnels. Il devrait être écrit en anglais clair, évitez l'utilisation de jargon et expliquez tout terme technique qui doit être inclus {cite:ps}`Duke2012summary`.
+Un résumé laïc est un résumé d'un projet de recherche ou d'une proposition de recherche qui est généralement écrite pour les membres du public. Il devrait être écrit en anglais clair, évitez l'utilisation de jargon et expliquez tout terme technique qui doit être inclus {cite:ps}`Duke2012summary`.
 
 (cm-lay-résumés-pourquoi)=
 ## Pourquoi écrire des résumés de la?

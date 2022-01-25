@@ -1,36 +1,33 @@
-(مشروع -repo-recommendations)=
-# التوصيات والموارد
+crwdns22469:0crwdne22469:0
+# crwdns22471:0crwdne22471:0
 
-(مشروع - توصية - قائمة مرجعية) =
-## قائمة التحقق لإعداد مشروعك
+crwdns22473:0crwdne22473:0
+## crwdns22475:0crwdne22475:0
 
-* إنشاء ملف README و Vision
-* إنشاء خارطة طريق مشروع لمشاركتها
-* إنشاء ملف مشاركة
-* حدد & اعتمد مدونة قواعد سلوك مع دليل الإبلاغ &
-* يمكنك أيضا إنشاء صفحة مخصصة لمساعدة أعضاء مجتمعك على استكشاف مشروعك وموارده (انظر [Django Documentation](https://docs.djangoproject.com/)).
+* crwdns22477:0crwdne22477:0
+* crwdns22479:0crwdne22479:0
+* crwdns22481:0crwdne22481:0
+* crwdns22483:0crwdne22483:0
+* crwdns22485:0crwdne22485:0
 
-وتشكل هذه الوثائق أيضا أدوات فعالة لبناء المجتمعات المحلية حيث أنها تدعم المساهمين الأوائل في الحصول على سهولة الوصول إليها وتسهل على المساهمين السابقين العودة.
+crwdns22487:0crwdne22487:0
 
-### GitHub Insights
+### crwdns22489:0crwdne22489:0
 
-ويشجع GitHub الممارسة التعاونية في مبادئها التوجيهية المجتمعية. يوفر تبويب الرؤى في مشروع GitHub الخاص بك قسما يسمى "المجتمع" الذي يتضمن قائمة بالمستندات الموصى بها التي ينبغي أن يكون لدى مشروعك.
+crwdns22491:0crwdne22491:0 crwdns22493:0crwdne22493:0
 
 ```{figure} ../../figures/community-profile.png
----
-الاسم: ملف المجتمع
-البديل : صورة لقائمة التحقق في قسم المجتمع من علامة التبويب الخاصة بمشروع GitHub .
----
-قائمة مرجعية بالمستندات الموصى بها
+crwdns22495:0crwdne22495:0
+crwdns22497:0crwdne22497:0
 ```
 
-(مشروع - توصيات - متقدمة)=
-## الموارد اللازمة للهيكل المتقدم لتحليل البيانات
+crwdns22499:0crwdne22499:0
+## crwdns22501:0crwdne22501:0
 
-- راجع الفصل الخاص بـ {ref}`rr-compendia`.
-- ماكس جوزيف، [كيف (ولماذا) إعداد خلاصة بحثية](https://mbjoseph.github.io/intro-research-compendia/#1). (2020، 19 آذار/مارس). عرض
-- Nüst, D., Boettiger, C., & Marwick, B. (2018). [كيفية قراءة خلاصة البحث](https://arxiv.org/abs/1806.09525v1). arXiv, 1806.09525. مخطوط.
-- () انظر: Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., da Veiga Leagost, F., Christian Fufezan, Ternent, T. () Eglen, S. J., Katz, D. S., Pollard, T. J., Konovalov, S., Flight, R. M., Blin, K., Vizcai<unk> no, J. A. (2016). [عشر قواعد بسيطة للاستفادة من Git و GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947). حساب PLoS. بيول، 12(7)، 1004947. doi: 10.1371/journal.pcbi.1004947. مادة مستعرضة من النظراء.
-- Venigalla, A. S. M., & Chimalakonda, S. (2021). [ماذا يوجد في مستودع GitHub ؟ -- منظور التوثيق البرمجي](https://arxiv.org/abs/2102.12727v2). arXiv, 2102.12727.
-- [العلاقة بين استخدام المجلد وعدد الفروك: دراسة حالة إفرادية على مستودعات Github](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.650.8150). (2021، يوليو 02).
-- Marwick, B., Boettiger, C., & Mullen, L. (2018). [تغليف العمل التحليلي للبيانات باستخدام R (والأصدقاء)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375986). الإحصائيون الأمريكيون، 72(1)، 80-88. دوي: 10.1080/00031305.2017.1375986
+- crwdns22503:0{ref}crwdne22503:0
+- crwdns22505:0crwdne22505:0 crwdns22507:0crwdne22507:0 crwdns22509:0crwdne22509:0
+- crwdns22511:0crwdne22511:0 crwdns22513:0crwdne22513:0 crwdns22515:0crwdne22515:0 crwdns22517:0crwdne22517:0
+- crwdns22519:0crwdne22519:0 crwdns22521:0crwdne22521:0 crwdns22523:0crwdne22523:0 crwdns22525:0crwdne22525:0 crwdns22527:0crwdne22527:0 crwdns22529:0crwdne22529:0 crwdns22531:0crwdne22531:0
+- crwdns22533:0crwdne22533:0 crwdns22535:0crwdne22535:0 crwdns22537:0crwdne22537:0 crwdns22539:0crwdne22539:0 crwdns22541:0crwdne22541:0
+- crwdns22543:0crwdne22543:0 crwdns22545:0crwdne22545:0
+- crwdns22547:0crwdne22547:0 crwdns22549:0crwdne22549:0 crwdns22551:0crwdne22551:0 crwdns22553:0crwdne22553:0

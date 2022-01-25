@@ -243,7 +243,7 @@ La version tl;dr pour une référence facile pendant le dashing:
 
 #### :bell: Notifications GitHub
 
-Cliquez [ici](https://github.com/alan-turing-institute/the-turing-way/invitations) pour accepter votre invitation à avoir accès en écriture à *La Voie Turing* - cela vous donne une agence pour fusionner vos propres pull requests (une fois approuvée ! , examinez d'autres demandes de fusion et ajoutez des étiquettes aux demandes de fusion et aux demandes de fusion.
+Cliquez [ici](https://github.com/alan-turing-institute/the-turing-way/invitations) pour accepter votre invitation à avoir accès en écriture à *La Voie Turing* - cela vous donne une agence pour fusionner vos propres pull requests (une fois approuvée !
 
 #### :no_bell: Désactive ces notifications
 

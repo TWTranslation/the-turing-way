@@ -1,13 +1,12 @@
-"""برنامج نصي مساعد "تنظيف" كل ما تم إنشاؤه من ملفات الدرجات السفلى و HTML."""
-استيراد إيقاف تشغيل كمادة قاسية
-من مسار استيراد pathlib
+crwdns34047:0crwdne34047:0
+crwdns34049:0crwdne34049:0
 
-path_root = Path(__file__).parent.الأصل
+crwdns34051:0__file__crwdne34051:0
 
-المسارات = [path_root.joinpath('_site')،
-         path_root.joinpath('_build')]
-للمسار في المسارات:
-    print(f'إزالة {path}...')
-    sh.rmtree(المسار , تجاهل_errors=True)
+crwdns34053:0crwdne34053:0
+         crwdns34055:0crwdne34055:0
+crwdns34057:0crwdne34057:0
+    crwdns34059:0{path}crwdne34059:0
+    crwdns34061:0crwdne34061:0
 
-print('تم!')
+crwdns34063:0crwdne34063:0

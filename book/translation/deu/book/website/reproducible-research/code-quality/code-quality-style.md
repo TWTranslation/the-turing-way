@@ -1,4 +1,4 @@
-(rr-code-style-and-formating)=
+(rr-code-Stil)=
 # Code-Stil und Formatierung
 
 Ein Code-Stil ist eine Reihe von Konventionen zum Formatieren von Code. Zum Beispiel, was nennen Sie Ihre Variablen? Verwenden Sie Leerzeichen oder Tabs für Einrücken? Wo bringen Sie Einwände? Durch die konsequente Verwendung des gleichen Stils während des gesamten Codes wird das Lesen vereinfacht. Code, der leicht zu lesen ist, ist sowohl von Ihnen als auch von potenziellen Mitarbeitern leichter zu verstehen. Das Festhalten an einem Programmierstil verringert somit das Fehlerrisiko und erleichtert die Zusammenarbeit im Bereich Software. [Warum Coding Style wichtig ist](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) ist ein netter Artikel darüber, warum Codierungsstile wichtig sind und wie sie die Software-Qualität erhöhen.
@@ -7,6 +7,7 @@ Zum Beispiel [PEP8](https://www.python.org/dev/peps/pep-0008/) ist der am weites
 
 Für häufig verwendete Stilanleitungen für verschiedene Programmiersprachen lesen Sie bitte die [Sprachanleitungen](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google hat auch einen [Style-Guide](https://code.google.com/p/google-styleguide/) für viele Sprachen, die in Open-Source-Projekten verwendet werden, die von Google stammen.
 
+(rr-code-style-and-formating)=
 ## Automatische Formatierung
 
 Es gibt zahlreiche Werkzeuge, um Code automatisch so zu formatieren, dass er einem bestimmten Stil folgt. Automatische Formatierung ermöglicht eine höhere Code-Qualität, insbesondere wenn Sie in einem Team zusammenarbeiten und andere Leute müssen sich den Code ansehen, den Sie geschrieben haben. Viele Entwickler und Organisationen unterhalten Standards für die Codeformatierung wie **2-space** oder **4-space Einrückung**. Diese zu verwenden ist sehr empfehlenswert, da sich die Wahrscheinlichkeit vervielfacht, Fehler zu finden (falls vorhanden).
@@ -33,6 +34,7 @@ Zusätzlich gibt es viele sprachspezifische Tools zur automatischen Formatierung
 "editor.formatOnSave": wahr,
 ```
 
+(rr-code-style-service)=
 ## Online-Dienste zur Qualitätskontrolle von Software
 
 Es gibt mehrere Webdienste, die Code analysieren und die Qualität des Codes sichtbar machen. In der Regel führen diese Dienste ein oder mehrere statische Codeanalysewerkzeuge aus, die auch von der Kommandozeile aus verwendet oder auf Ihrem eigenen Computer in Ihren Editor integriert werden können. Die Verwendung eines Code-Qualitätsdienstes, der in ein GitHub/GitLab Repository integriert wird, wird dringend empfohlen, da es Qualitätsprobleme in Pull-Requests erkennen und kommunizieren kann.

@@ -1,4 +1,4 @@
-(rr-overview-resources)=
+﻿(rr-overview-resources)=
 # リソース
 再現性に関するビデオやリファレンスペーパーのようなその他のリソースについては、 {ref}`rr-overview-resources-reading` と {ref}`rr-overview-resources-addmaterials` セクションを参照してください。
 
@@ -22,6 +22,16 @@
 
 ### 有用なリンク
 
+#### **Reproducibility**
+
 * Markowetz, F. (2018). 5つの利己的な理由を再現します。 スライドは https://osf.io/a8wq4 で利用できます。 2019年のData Stewardship TU Delft でトークを録音。 [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
 
 * Leipzig, J (2020). 素晴らしい再現可能な研究:再現可能な研究事例、プロジェクト、チュートリアル、およびメディアのキュレーションされたリスト。 Github repo. https://github.com/leipzig/awesome-reproducible-research
+
+#### **データ科学**
+
+* _データサイエンス:社会のためのガイド_. 証拠を求めてください。 (2019). 2021年10月26日、https://askforvidence.org/articles/data-science-a-guide-for-societyから取得されました。
+
+* Riley, E. (2019). 社会のためのデータサイエンスガイド。 ロンドン、senseaboutscience.org
+
+* オープンデータ研究所 (2019). _知識 & ご意見_. ODI 2021年10月26日、https://theodi.org/article/data-ethics-canvasから取得されました。

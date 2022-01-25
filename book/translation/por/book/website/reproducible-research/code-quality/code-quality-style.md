@@ -1,4 +1,4 @@
-(rr-code-style-and-formatting)=
+(estilo rr-coder)=
 # Estilo e Formatação de Código
 
 Um estilo de codificação é um conjunto de convenções sobre como formatar código. Por exemplo, como se chama as suas variáveis? Você usa espaços ou guias para recuo? Onde você coloca os comentários? Usar consistentemente o mesmo estilo em todo o seu código facilita a leitura. Código que é fácil de ler é mais fácil de entender por você e por possíveis colaboradores. Por conseguinte, aderir a um estilo de codificação reduz o risco de erros e torna mais fácil trabalhar em conjunto em software. [Por que a codificação de estilos é importante](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) é um artigo legal sobre por que os estilos de codificação importam e como eles aumentam a qualidade do software.
@@ -7,6 +7,7 @@ For example, [PEP8](https://www.python.org/dev/peps/pep-0008/) is the most widel
 
 Para guias de estilo comumente usados para vários idiomas de programação, consulte os [Guias de Idiomas](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). O Google também tem um guia de estilo [](https://code.google.com/p/google-styleguide/) para vários idiomas que são usados em projetos de código aberto originários do Google.
 
+(rr-code-style-and-formatting)=
 ## Formatação automática
 
 Numerosas ferramentas existem para formatar automaticamente código, tal que segue um certo estilo. A formatação automática permite uma maior qualidade de código, especialmente quando você está colaborando em uma equipe e outras pessoas precisam ver o código que você escreveu. Muitos desenvolvedores e organizações mantêm os padrões de formatação de código como **2 espaços** ou **recuo de 4 espaços**. Usar isso é altamente recomendado já que a probabilidade de encontrar bugs (se houver) aumenta multiplicando.
@@ -33,6 +34,7 @@ Além disso, há muitas ferramentas específicas de idioma para formatação aut
 "editor.formatOnSave": true,
 ```
 
+(rr-code-style-service)=
 ## Serviços on-line que fornecem verificações de qualidade de software
 
 Existem vários serviços web que analisam o código e tornam a qualidade do código visível. Geralmente, esses serviços rodam uma ou mais ferramentas de análise de código estático que também podem ser usadas na linha de comando ou integradas ao seu editor no seu próprio computador. Usar um serviço de qualidade de código que se integra a um repositório GitHub/GitLab é altamente recomendado, pois ele pode detectar e comunicar problemas de qualidade em pull requests.

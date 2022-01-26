@@ -1,148 +1,89 @@
-# الهيكل المتقدم لتحليل البيانات
+# crwdns22055:0crwdne22055:0
 
-## الشروط/مستوى المهارة الموصى بها
+## crwdns22057:0crwdne22057:0
 
-| الشروط المسبقة                            | الأهمية | الحواشي                                            |
-| ----------------------------------------- | ------- | -------------------------------------------------- |
-| {ref}`التحكم في الإصدار<rr-vcs>`    | مساعدة  | معرفة استخدام git للتحكم في الإصدار                |
-| {ref}`بحث مفتوح<rr-open>`           | مساعدة  | المكونات جزء من الخلاصة الوافية                    |
-| {ref}`بيئات قابلة للتكرار<rr-renv>` | مساعدة  | يمكن استخدامه لجعل الخلاصة الوافية قابلة للاستنساخ |
+| crwdns22059:0crwdne22059:0      | crwdns22061:0crwdne22061:0 | crwdns22063:0crwdne22063:0 |
+| ------------------------------- | -------------------------- | -------------------------- |
+| crwdns22065:0{ref}crwdne22065:0 | crwdns22067:0crwdne22067:0 | crwdns22069:0crwdne22069:0 |
+| crwdns22071:0{ref}crwdne22071:0 | crwdns22073:0crwdne22073:0 | crwdns22075:0crwdne22075:0 |
+| crwdns22077:0{ref}crwdne22077:0 | crwdns22079:0crwdne22079:0 | crwdns22081:0crwdne22081:0 |
 
-## Summary
+## crwdns22083:0crwdne22083:0
 
-وعند التخطيط لدراسة بحثية، يتمثل أحد المكونات الحاسمة التي كثيرا ما تكون منسية في إنشاء مستودع. وفي هذا الفرع، ستعرض الفوائد والاعتبارات المتعلقة بتصميم المستودع، جنبا إلى جنب مع نموذج هيكلي وموارد إضافية لتوجيه سير العمل الخاص بك.
+crwdns22085:0crwdne22085:0 crwdns22087:0crwdne22087:0
 
-ويمكن أن تختلف الشروط المسبقة لهذا الفصل تبعاً للاحتياجات التنظيمية للمشروع. ويمكن أن يتطلب إنشاء مستودع ذي تصميم مشروع بحثي بسيط أدنى قدر من المعرفة التقنية (مثل إدارة بيانات المدخلات فقط ونتائج النواتج). وفي غضون ذلك، يمكن أن تكون هناك حاجة إلى مخططات مستودعات متقدمة لمشاريع أكثر تعقيدا (مثل المشاريع التي تعتمد على مشاريع أخرى).
+crwdns22089:0crwdne22089:0 crwdns22091:0crwdne22091:0 crwdns22093:0crwdne22093:0
 
-## الخلفية
+## crwdns22095:0crwdne22095:0
 
-المستودع (أو "repo") هو موقع تخزين لمشروع بحثك. يمكن للمستودع أن يحتوي على مجموعة من الكائنات الرقمية ويمكن استخدامه لتخزين مشروعك باستخدام المنصات عبر الإنترنت مثل GitHub. الهدف من المستودع هو تنظيم مشروعك بطريقة يمكن للآخرين الوصول إليها وكفؤة لاستخدامها.
+crwdns22097:0crwdne22097:0 crwdns22099:0crwdne22099:0 crwdns22101:0crwdne22101:0
 
-وحتى الآن، رأينا الوثائق الرئيسية التي ينبغي للمرء إضافتها عند بدء أو إنشاء مستودع للمشروع. إذا كنت تتابع، فيجب أن يحتوي مشروعك على الملفات التالية:
+crwdns22103:0crwdne22103:0 crwdns22105:0crwdne22105:0
 
 ```
-مجلد المشروع/
-<unk> <unk> <unk> <unk> ', CODE_OF_CONDUCT          <- مدونة قواعد السلوك لمشاريع المجتمع
-<unk> <unk> ', CONTRIBUTING             <- مبدأ توجيهي للمساهمات للمتعاونين
-<unk> <unk> <unk> <unk> <unk> <unk> ', LICENSE                  <- رخصة البرمجيات
-<unk> <unk> A/C. .                      <- أي ملفات أخرى قد تكون قمت بإضافتها لمشروعك
-<unk> <unk> <unk> <unk> -- README. (د)                <- معلومات عن المستودع
+crwdns22107:0crwdne22107:0
 ```
 
-وفي هذا الفصل الفرعي، نوجز الفوائد والاعتبارات المتعلقة بتصميم المستودع، إلى جانب هيكل نموذجي وموارد إضافية لتوجيه سير العمل لديك.
+crwdns22109:0crwdne22109:0
 
 ```{note}
-الميزة الرئيسية لتصميم مستودعك عن طريق إضافة الوثائق عمدا، وتسمح الموارد والمعلومات ذات الصلة بإنشاء بنية تحتية للبحوث الأخلاقية والمفتوحة وذات الجودة العالية انطلاقا من مبادرة الوصول إلى الأسواق.
+crwdns22111:0crwdne22111:0
 ```
 
-## الاعتبارات الرئيسية
+## crwdns22113:0crwdne22113:0
 
-عند مشاركة مواردك عبر المستودع الخاص بك، ضع في اعتبارك الجوانب التالية من قابلية التكرار في بحثك:
+crwdns22115:0crwdne22115:0
 
-- الشفافية والانفتاح
-- نظام التحكم في الإصدار (لا مزيد من الملفات مثل final_v1_FINAL.R, final_v2_FINAL.R, ...)
-- اجعل من السهل التنقل بحيث توفر الوقت لكل المعنيين
-- النظر في {ref}`pd-Overview-repro` الجوانب
-- تأكد من أنك تقدم تفاصيل كافية حتى يتمكن الآخرون من البناء على عملك
+- crwdns22117:0crwdne22117:0
+- crwdns22119:0crwdne22119:0
+- crwdns22121:0crwdne22121:0
+- crwdns22123:0{ref}crwdne22123:0
+- crwdns22125:0crwdne22125:0
 
-## التوصيات الرئيسية
+## crwdns22127:0crwdne22127:0
 
-التفكير دائماً في تصميم مشروعك للتعاون بإضافة وثائق رئيسية تصف أهداف المشروع ورؤيته وخريطة الطريق ومساهمته وعملية الاتصال (على النحو المبين في الفصول الفرعية السابقة).
-- قم بتضمين التفاصيل في {ref}`ملف README<pd-project-repo-readme>`وصف _ما هو_ المستودع له و _كيف_ للتنقل
-- توفير الرؤية، الأهداف وخريطة الطريق كلما كان ذلك ممكنا (انظر [خريطة طريق مطور كامران أحمد](https://github.com/kamranahmedse/developer-roadmap) على سبيل المثال)
-- وينبغي أن يكون الهيكل العام منفصلا بين المدخلات (البيانات) والأساليب (البرامج النصية) والناتج (النتائج والأرقام والمخطوط)
-- حدد ما لا ينبغي تعقبه في ملف `.gitignore` مثل الملفات الحساسة/الخاصة أو مجموعة البيانات الكبيرة أو الملاحظات الشخصية
-- قم بتضمين معلومات عن البيئة الحسابية الخاصة بك {ref}`البيئات القابلة للتكرار<rr-renv>` لضمان قابلية التكرار (يمكن تحديد هذا أيضا في README)
+crwdns22129:0crwdne22129:0
+- crwdns22131:0{ref}crwdne22131:0
+- crwdns22133:0crwdne22133:0
+- crwdns22135:0crwdne22135:0
+- crwdns22137:0crwdne22137:0
+- crwdns22139:0{ref}crwdne22139:0
 
-## مثال على هيكل المستودع
+## crwdns22141:0crwdne22141:0
 
-### مثال لمشروع بحثي
+### crwdns22143:0crwdne22143:0
 
-فيما يلي اقتراح بملفات ومجلدات يجب أن يكون لمشروع بحث.
-
-```
-مجلد المشروع/
-<unk> <unk> <unk> <unk> <unk> ', docs                     <- Documents
-<unk> <unk> <unk> <unk> <unk> <unk> <unk> ', codelist.txt 
-<unk> <unk> <unk> <unk> ', project_plan.txt
-<unk> <unk> <unk> <unk> <unk> ', ...
-│   └── deliverables.txt
-├── data
-│   └── raw/
-│       └── my_data.csv
-│   └── clean/
-│       └── data_clean.csv
-├── analysis                 <- scripts
-│   └── my_script.R
-├── results                  <- analysis output     
-│   └── figures
-├── .gitignore               <- files excluded from git version control 
-├── install.R                <- environment setup
-├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
-├── CONTRIBUTING             <- Contribution guideline for collaborators
-├── LICENSE                  <- software license
-├── README.md                <- information about the repo
-└── report.md                <- report of project
-```
-
-### مثال مع كل مجلد ممكن
-
-هذا المثال يظهر ملفات ودليل مختلف يمكن أن يحتوي عليه المشروع عند إنشاء تطبيق برمجي أو أدوات هندسية بحثية.
+crwdns22145:0crwdne22145:0
 
 ```
-Project Folder/                        
-├── analysis                 <- scripts
-│   └── my_script.R
-├── build                    <- built files, Makefile
-|   ├── debug
-|   └── release
-├── data
-│   └── raw/
-│       └── my_data.csv
-│   └── clean/
-│       └── data_clean.csv
-├── docs                     <- documentation
-│   └── codelist.txt 
-├── project-management       <- project management related documents
-│   └── communication.md
-│   └── people.md
-│   └── project-report.md
-│   └── tools.md
-├── res                      <- static resources (images and audio files)
-│   └── figures
-├── .gitignore               <- files excluded from git version control 
-├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
-├── CONTRIBUTING             <- Contribution guideline for collaborators
-├── lib                      <- dependencies (shared components that can be used across an application or across projects, code that supports the core application)
-├── logs.txt                 <- history of all major updates like feature release, bug fix, updates
-├── example                  <- example code application
-├── LICENSE                  <- software license
-├── environment.yml          <- anaconda environment setup   
-├── install.R                <- R environment setup
-├── requirements.txt         <- python environment setup
-├── runtime.txt              <- R in binder setup
-├── report.md                <- report of analysis
-├── README.md                <- information about the repo
-├── src                      <- source files
-└── test                     <- unit tests  
+crwdns22147:0crwdne22147:0
+crwdns22149:0crwdne22149:0
 ```
 
-## الموارد
+### crwdns22151:0crwdne22151:0
 
-### حزم R و بايثون
+crwdns22153:0crwdne22153:0
 
-| ر                                                                 | Python                                                       |
-| ----------------------------------------------------------------- | ------------------------------------------------------------ |
-| [rrtools](https://annakrystalli.me/rrresearch/10_compendium.html) | [compendium-dodo](https://pypi.org/project/compendium-dodo/) |
-| [قالب](https://github.com/Pakillo/template)                       | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
-| [خلاصة](https://github.com/FRBCesab/rcompendium)                  |                                                              |
-| [إعادة](https://github.com/richfitz/remake)                       |                                                              |
+```
+crwdns22155:0crwdne22155:0  
+```
 
-### أمثلة محصورة لمستودعات GitHub
+## crwdns22157:0crwdne22157:0
 
-- [_طريق التورنج_ رد المشروع](https://github.com/alan-turing-institute/the-turing-way)
-- [مستودع مشروع كتاب المشتري](https://github.com/executablebooks/jupyter-book)
-- [حزمة بانداس](https://github.com/pandas-dev/pandas)
-- [تعديل محرر النص](https://github.com/atom/atom)
+### crwdns22159:0crwdne22159:0
 
-للمزيد من التفاصيل، يرجى اتباع {ref}`المشروع -repo-recommendations-المتقدمة`.
+| crwdns22161:0crwdne22161:0                               | crwdns22163:0crwdne22163:0                               |
+| -------------------------------------------------------- | -------------------------------------------------------- |
+| [crwdns22167:0crwdne22167:0](crwdns22165:0crwdne22165:0) | [crwdns22171:0crwdne22171:0](crwdns22169:0crwdne22169:0) |
+| [crwdns22175:0crwdne22175:0](crwdns22173:0crwdne22173:0) | [crwdns22179:0crwdne22179:0](crwdns22177:0crwdne22177:0) |
+| [crwdns22183:0crwdne22183:0](crwdns22181:0crwdne22181:0) |                                                          |
+| [crwdns22187:0crwdne22187:0](crwdns22185:0crwdne22185:0) |                                                          |
+
+### crwdns22189:0crwdne22189:0
+
+- [crwdns22193:0crwdne22193:0](crwdns22191:0crwdne22191:0)
+- [crwdns22197:0crwdne22197:0](crwdns22195:0crwdne22195:0)
+- [crwdns22201:0crwdne22201:0](crwdns22199:0crwdne22199:0)
+- [crwdns22205:0crwdne22205:0](crwdns22203:0crwdne22203:0)
+
+crwdns22207:0{ref}crwdne22207:0

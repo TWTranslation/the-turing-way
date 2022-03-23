@@ -1,32 +1,29 @@
-(r-Overview)=
-# Übersicht der reproduzierbaren Forschung
+crwdns58597:0crwdne58597:0
+# crwdns58599:0crwdne58599:0
 
-(rr-overview-Voraussetzungen)=
-## Voraussetzungen
+crwdns58601:0crwdne58601:0
+## crwdns58603:0crwdne58603:0
 
-Keine vorherigen Kenntnisse erforderlich.
+crwdns58605:0crwdne58605:0
 
 ```{figure} ../figures/research-cycle.jpg
----
-Name: Forschungszyklus
-alt: Der Forschungsprozess wird als fortwährender Zyklus der Erstellung von Forschungsideen dargestellt Durchführung der Datenplanung und -gestaltung, Datenerfassung und Datenverarbeitung und -analyse, Veröffentlichung, Aufbewahrung und damit Wiederverwendung von Daten. 
----
-_طريق التوحيد_ توضيح بروجكت فون سكريبيريا. Wird unter einer CC-BY 4.0 Lizenz verwendet. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+crwdns58607:0crwdne58607:0 
+crwdns58609:0crwdne58609:0 crwdns58611:0crwdne58611:0 crwdns58613:0crwdne58613:0
 ```
 
-(بآلاف دولارات الولايات المتحدة)
-## Summary
+crwdns58615:0crwdne58615:0
+## crwdns58617:0crwdne58617:0
 
-Wissenschaftliche Ergebnisse und Belege werden verstärkt, wenn diese Ergebnisse von mehreren unabhängigen Forschern nachgebildet und bestätigt werden können (siehe {ref}`Definitionen <rr-overview-definitions>`).
+crwdns58619:0{ref}crwdne58619:0
 
-Wenn Forscher Transparenz in ihrer Forschung verwenden - mit anderen Worten, Wenn sie die mit ihren Analysen verbundenen Daten und Prozesse richtig dokumentieren und austauschen - kann die breitere Forschungsgemeinschaft wertvolle Zeit sparen, wenn sie die veröffentlichten Ergebnisse reproduzieren oder darauf aufbaut. Oft werden Daten oder Code aus früheren Projekten von neuen Forschern zur Überprüfung alter Erkenntnisse oder zur Entwicklung neuer Analysen wiederverwendet.
+crwdns58621:0crwdne58621:0 crwdns58623:0crwdne58623:0
 
-Erfahren Sie mehr über die anderen Vorteile reproduzierbarer Forschung im {ref}`Vorteile <rr-overview-benefits>` Unterkapitel.
+crwdns58625:0{ref}crwdne58625:0
 
-Wichtige Medienstellen haben [über](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) Untersuchungen berichtet, die zeigen, dass ein beträchtlicher Prozentsatz wissenschaftlicher Studien nicht reproduziert werden kann. Dies führt dazu, dass andere Wissenschaftler und Gesellschaft das Vertrauen in wissenschaftliche Ergebnisse {cite:ps}`Baker2016Reproduzierbarkeit` verlieren.
+crwdns58627:0crwdne58627:0 crwdns58629:0{cite:ps}crwdne58629:0
 
-Darüber hinaus können "negative Ergebnisse" leicht veröffentlicht werden, Vermeiden Sie andere Forscher Zeitverschwendung Wiederholung von Analysen, die nicht die erwarteten Ergebnisse {cite:ps}`Dirnagl2010bias` zurück.
+crwdns58631:0{cite:ps}crwdne58631:0
 
-Um weitere Ressourcen über die Reproduzierbarkeit zu lesen, schauen Sie sich bitte das {ref}`Unterkapitel <rr-overview-resources>` an.
+crwdns58633:0{ref}crwdne58633:0
 
-***Kapitel Tags**: Dieses Kapitel ist kuratiert für die `Turing Data Study Group` (`turing-dsg`).*
+*crwdns58635:0crwdne58635:0*

@@ -1,170 +1,170 @@
-(r-open-source)=
-# برنامج مفتوح المصدر
+crwdns58863:0crwdne58863:0
+# crwdns58865:0crwdne58865:0
 
-(r-open-source-whatis)=
-## هل كان البرنامج مفتوح المصدر؟
+crwdns58867:0crwdne58867:0
+## crwdns58869:0crwdne58869:0
 
-Wenn ein Projekt Open-Source [{term}`def<Open Source Software>`] ist, kann jeder das Projekt für jeden Zweck ansehen, verwenden, modifizieren und verteilen. Diese Berechtigungen werden durch eine Open-Source-Lizenz erzwungen. Open Source ist mächtig, weil es die Hindernisse für eine Adoption abbaut, wodurch Ideen schnell verbreitet werden können. In seiner grundlegendsten Form bedeutet Open-Sourcing, dass Sie Ihren Code dort online stellen, wo er von anderen angesehen und wiederverwendet werden kann.
+crwdns58871:0{term}crwdne58871:0 crwdns58873:0crwdne58873:0 crwdns58875:0crwdne58875:0 crwdns58877:0crwdne58877:0
 
-Viele der am häufigsten verwendeten Forschungssoftware ist Open Source. Vielleicht ist das paradigmatische Beispiel das scikit-learn Python-Paket für maschinelles Lernen (Pedregosa et al. 2011), das innerhalb von etwas mehr als fünf Jahren über 500 einzigartige Beitragszahler, 20.000 individuelle Code-Beiträge und 2.500 Artikelzitierungen angezogen hat. Die Erstellung eines vergleichbaren Pakets unter Verwendung eines traditionellen Closed-Source-Ansatzes wäre wahrscheinlich nicht machbar. Es würde zumindest ein Budget von zig Millionen Dollar erfordern. أوبوهل علمية-تعلم أوزلو، أستاذ علمي, ha<unk> ngen hunderte andere Open-Source-Pakete, die viel spezifischere Bedu<unk> rfnisse unterstu<unk> tzen, in a<unk> hnlicher Weise von unerbetenen Gemeinschaftsbeitra<unk> gen ab؛ زوم بيسبييل يموت نيبي (التصوير العصبي في بيثون) غروبي فون بروجكتن في التصوير العصبي (Gorgolewski et al. 2016). Vor allem führen solche Beiträge nicht nur zu neuen Funktionen, von denen die breitere Gemeinschaft profitieren kann, aber auch ihren jeweiligen Autoren regelmäßig mehr Anerkennung zu verschaffen und neue Projekt- und Beschäftigungsmöglichkeiten zu eröffnen.
+crwdns58879:0crwdne58879:0 crwdns58881:0crwdne58881:0 crwdns58883:0crwdne58883:0 crwdns58885:0crwdne58885:0 crwdns58887:0crwdne58887:0 crwdns58889:0crwdne58889:0
 
-Forscher, die Open-Source-Software nutzen, machen oft Änderungen an ihnen, wie zum Beispiel das Hinzufügen von Funktionen, die sie für ihre Forschung benötigen, oder das Beheben von Fehlern. Sie können diese Verbesserungen dann wieder in das Hauptprojekt einbringen, so dass die breitere Gemeinschaft von ihnen profitieren kann.
+crwdns58891:0crwdne58891:0 crwdns58893:0crwdne58893:0
 
-(r-open-source-efitsyou)=
-## Wie Sie zu Open-Source-Software-Projekten beitragen und führen können
+crwdns58895:0crwdne58895:0
+## crwdns58897:0crwdne58897:0
 
-- _تحسين المهارات الحالية_: سواء كانت تقوم بالبرمجة، تصميم واجهة المستخدم، تصميم الرسوم البيانية، الكتابة، أو تنظيم، إذا كنت تبحث عن ممارسة، هناك مهمة لك على مشروع برمجيات مفتوح المصدر. Darüber hinaus erfordert Open Source saubereren und wartungsfähigeren Code, um eine Zusammenarbeit zwischen potentiellen Tausenden von Menschen zu ermöglichen, die sich vielleicht nie treffen werden. Dies hilft, gute Kodierungsgewohnheiten aufzubauen und aufrechtzuerhalten. Nicht zu unterschätzen sind die Fähigkeiten des Personals, die Sie bei Open Source Software-Projekten entwickeln können. Open Source bietet Möglichkeiten, Führungsfähigkeiten und Managementfähigkeiten zu üben, wie etwa die Lösung von Konflikten, die Organisation von Teams von Menschen und die Prioritätensetzung.
-- _Fortentwicklung Ihrer Karriere_: Per definitionem sind alle Ihre Open-Source-Arbeiten öffentlich, und das bietet Chancen:
-  - _Technische Fähigkeit_Demonstrat: Technische Interviews beinhalten traditionell die Arbeit an einem simulierten Problem, das in einer bestimmten Zeit mit wenig zusätzlichem Kontext angegangen werden kann. Solche Simulationen sind per definitionem weder reale Anwendungsfälle noch zeigen sie, wie die Arbeit mit einem Bewerber aussehen würde. Open Source bietet Einblick in die Frage, wie ein Kandidat Probleme löst und wie er mit anderen zusammenarbeitet. Sie machen einen viel attraktiveren Arbeitnehmer, wenn ein Arbeitgeber die Qualität Ihrer Arbeit sehen und sehen kann, wie Sie mit anderen über einen längeren Zeitraum arbeiten, anstatt eine Chance auf ein kurzes Ziel zu nehmen High Stress-Gehäuse, die möglicherweise nicht Ihren Stärken gerecht werden.
-  - _Reputation_: Als aktives Mitglied der Open Source Community zu werden, kann Ihnen einen guten Ruf verschaffen, der zukünftige Jobperspektiven stärken kann.
-- _Trefft Leute mit ähnlichen Interessen_: Open-Source-Software-Projekte mit warm, freundliche Gemeinschaften halten Menschen jahrelang zurück, und viele Menschen bilden lebenslange Freundschaften durch ihre Teilnahme an Open Source.
-- _Finde Mentoren und lebe andere_: Arbeiten Sie mit anderen an einem gemeinsamen Projekt zusammen, bedeutet, dass Sie erklären müssen, wie Sie Dinge tun sowie andere Leute um Hilfe bitten. Die Akte des Lernens und des Unterrichts können eine erfüllende Tätigkeit für alle Beteiligten sein.
+- crwdns58899:0crwdne58899:0 crwdns58901:0crwdne58901:0 crwdns58903:0crwdne58903:0 crwdns58905:0crwdne58905:0 crwdns58907:0crwdne58907:0
+- crwdns58909:0crwdne58909:0
+  - crwdns58911:0crwdne58911:0 crwdns58913:0crwdne58913:0 crwdns58915:0crwdne58915:0 crwdns58917:0crwdne58917:0
+  - crwdns58919:0crwdne58919:0
+- crwdns58921:0crwdne58921:0
+- crwdns58923:0crwdne58923:0 crwdns58925:0crwdne58925:0
 
-### Machen Sie Ihre Arbeit Open Source
+### crwdns58927:0crwdne58927:0
 
-- _Wiederverwendbarkeit_: Wenn du deine Arbeit offen für die Wiederverwendung bereitstellst, wird es für andere einfacher in ihre Forschung einzubinden. Wenn Sie beispielsweise Ihre Software mit einem DOI [{term}`def<Digital Object Identifier>`] ansprechen, kann dies Ihre Zitate erhöhen.
-- _Beitrag_: Wenn Sie Closed Source Software schreiben, sind die einzigen Entwickler, die potenziell entdecken, Software-Fehler zu diagnostizieren, zu testen und zu beheben, sind solche, die eine Kopie des Codes besitzen. Wenn Ihr Projekt offen ist, ist die Anzahl potenzieller Entwickler und damit der potenzielle Wissenspool größer.
-- _Feedback_: Wenn du deine Arbeit offen hältst, erhältst du Feedback und verbesserst dein Projekt in einer Weise, die du vielleicht nie alleine gedacht hast.
-- _Rechenschaftspflicht_: Es gibt ein Argument, dass jede Software, die mit staatlichem Geld entwickelt wurde, standardmäßig Open-Source sein sollte; Wenn die Öffentlichkeit für ihre Entwicklung bezahlt hat, haben sie das Recht, sie zu nutzen. Wenn Ihre Arbeit von der Regierung finanziert wird, ist ihre Öffnung ein Schritt, den Sie in Richtung Offenheit und Rechenschaftspflicht der Regierung unternehmen können.
+- crwdns58929:0crwdne58929:0 crwdns58931:0{term}crwdne58931:0
+- crwdns58933:0crwdne58933:0 crwdns58935:0crwdne58935:0
+- crwdns58937:0crwdne58937:0
+- crwdns58939:0crwdne58939:0 crwdns58941:0crwdne58941:0
 
-### Beitrag zu Open-Source-Software-Projekten anderer
+### crwdns58943:0crwdne58943:0
 
-- _Es ist ermächtigt, Änderungen vornehmen zu können auch kleine_: Sie müssen nicht zu einem lebenslangen Mitwirkenden werden, um an Open Source teilnehmen zu können. Haben Sie schon einmal einen Tippfehler auf einer Website gesehen und gewünscht, dass jemand das Problem beheben würde? Auf einem Open-Source-Software-Projekt können Sie genau das tun. Open Source hilft den Menschen, sich in ihrem Leben zu fühlen und die Welt zu erleben, und das ist an sich erfreulich.
-- _Es macht Spaß:_: Open Source bietet Ihnen eine endlose, sich ständig wandelnde Reihe von Rubix-Würfel an, die Sie an Wochenenden lösen können. Genau wie Puzzles, sowohl Kreuzwort als auch Puzzle, bietet Open Source intellektuelle Eskapazitäten.
+- crwdns58945:0crwdne58945:0 crwdns58947:0crwdne58947:0 crwdns58949:0crwdne58949:0 crwdns58951:0crwdne58951:0
+- crwdns58953:0crwdne58953:0 crwdns58955:0crwdne58955:0
 
-(r-open-source-efitsresearch)=
-## Wie Open-Source-Software Forschung nutzt
+crwdns58957:0crwdne58957:0
+## crwdns58959:0crwdne58959:0
 
-Es gibt verschiedene Möglichkeiten, wie Open-Source-Software Forschung nutzt:
+crwdns58961:0crwdne58961:0
 
-(r-open-source-efitsresearch-wiederverwendbar)=
-### Wiederverwendbar
+crwdns58963:0crwdne58963:0
+### crwdns58965:0crwdne58965:0
 
-Open-Source-Software-Projekte ermöglichen es Forschern, die Arbeit des anderen zu nutzen. Dies ermöglicht es Forschern, ihre Anstrengungen auf hochwertige Arbeit zu richten. Manchmal wird gesagt, dass „alle einfachen Probleme bereits gelöst sind“. Blogging, Content-Management und Betriebssysteme sind alle Probleme mit etablierten (und Mainstream) Open-Source-Lösungen, um nur einige zu nennen. Während Entwickler ihre Zeit damit verbringen konnten, Räder neu zu erfinden, die die Open-Source-Community bereits perfektioniert hat, es ist sehr vorzuziehen, das beste Rad der Welt zu benutzen, vor allem, wenn dieses Rad für Sie kostenlos kommt. Dies reduziert Doppelarbeit und ermöglicht es Forschern, sich auf noch ungelöste Herausforderungen zu konzentrieren.
+crwdns58967:0crwdne58967:0 crwdns58969:0crwdne58969:0 crwdns58971:0crwdne58971:0 crwdns58973:0crwdne58973:0 crwdns58975:0crwdne58975:0 crwdns58977:0crwdne58977:0
 
-Die {ref}`rrr-code-reuse` bietet eine detailliertere Liste von verschiedenen Aspekten, um Ihren Code wiederverwendbarer zu machen ob dies ein kleines Skript oder eine Bibliothek ist.
+crwdns58979:0{ref}crwdne58979:0
 
-(r-open-source-efitsresearch-checkable)=
-### شريط روبوت
+crwdns58981:0crwdne58981:0
+### crwdns58983:0crwdne58983:0
 
-Open-Source-Projekte ermöglichen es der breiteren Forschungsgemeinschaft, den Code des anderen zu lesen und zu testen. Auf diese Weise können Fehler schneller gefunden werden und andere Forscher können Ergebnisse validieren.
+crwdns58985:0crwdne58985:0 crwdns58987:0crwdne58987:0
 
-(r-open-source-efitsresearch-cooperative)=
-### Kollaborativ
-Die Arbeit ermöglicht darüber hinaus eine offene Zusammenarbeit aller Forscher an Projekten, die von einzelnen ForscherInnen/Forschungsgruppen unmöglich entwickelt werden könnten. Beispiele sind [Linux](https://www.linux.org/) Betriebssysteme, Python-Pakete wie [scipy](https://www.scipy.org/) und [numpy](http://www.numpy.org/), und die Maschinenlernbibliothek [TensorFlow](https://www.tensorflow.org/).
+crwdns58989:0crwdne58989:0
+### crwdns58991:0crwdne58991:0
+crwdns58993:0crwdne58993:0 crwdns58995:0crwdne58995:0
 
-(r-open-source-run)=
-## برنامج Wie Sie Ihr المفتوح المصدر - Projekt ausfu<unk> hren
+crwdns58997:0crwdne58997:0
+## crwdns58999:0crwdne58999:0
 
-Sie können Open Source eine Idee, ein Werk in Arbeit oder nach Jahren der geschlossenen Quelle. Auf der grundlegendsten Ebene müssen Sie nur Ihren Code irgendwo online stellen, was wahrscheinlich eine lange Zeit dauern wird. Du kannst deinen Code als DOI zuweisen [{term}`def<Digital Object Identifier>`] (wie im Abschnitt unter {ref}erläutert`rrr-rdm-sharing`). Dadurch wird sichergestellt, dass Sie eine angemessene Anerkennung erhalten, wenn die Leute Ihre Arbeit nutzen oder darauf aufbauen.
+crwdns59001:0crwdne59001:0 crwdns59003:0crwdne59003:0 crwdns59005:0{term}crwdnd59005:0{ref}crwdne59005:0 crwdns59007:0crwdne59007:0
 
-Ein beliebter Ort, um deinen Code verfügbar zu machen, ist GitHub [{term}`def<Github>`] (siehe Kapitel auf {ref}`rr-vcs`). Sie müssen eine Lizenzdatei angeben, die besagt, dass jeder die Erlaubnis hat, Ihr Werk zu verwenden, zu kopieren und zu modifizieren. Ohne dies kann niemand Ihre Arbeit legal nutzen, und so ist es nicht Open Source. Das Kapitel {ref}`rrr-licensing` hilft Ihnen, die beste Lizenz für Ihr Projekt auszuwählen. Es gibt auch einige andere Dateien, die Sie mit Ihrem Code einfügen sollten, wie unten beschrieben.
+crwdns59009:0{term}crwdnd59009:0{ref}crwdne59009:0 crwdns59011:0crwdne59011:0 crwdns59013:0crwdne59013:0 crwdns59015:0{ref}crwdne59015:0 crwdns59017:0crwdne59017:0
 
-(r-open-source-run-readme)=
-### Willkommen Benutzer durch Hinzufügen von Informationen zu Ihrer README
+crwdns59019:0crwdne59019:0
+### crwdns59021:0crwdne59021:0
 
-Sie sollten eine README [{term}`def<README>`] Datei angeben, in der Sie nützliche Informationen über das Projekt einfügen wie man es verwendet und wie man dazu beiträgt. Hier ist eine Liste der wichtigsten Dinge, die eine README beinhalten sollte:
+crwdns59023:0{term}crwdne59023:0 crwdns59025:0crwdne59025:0
 
-- _Der Projektname und was er ist:_: Dies hilft jemandem, der ihm begegnet, eine Vorstellung vom Projekt zu bekommen. Fügen Sie ein paar Schlüsselpunkte hinzu, die die Hauptmerkmale des Projekts und die von Ihnen implementierten Funktionen beschreiben. So können Sie schnell andere Projekte mit Ihren vergleichen, und Sie können sich vorstellen, warum das Projekt überhaupt existiert.
-- _Anweisungen zur Installation des Projekts_: Der Installer könnte Mitarbeiter sein, jemand, der an dem Projekt interessiert ist oder sogar Sie - wenn Sie eine neue Maschine bekommen und Ihr Projekt neu installieren müssen. Nichtsdestotrotz ist es eine totale Verschwendung Ihrer Ressourcen, herauszufinden, wie Sie mit dem Projekt von Grund auf beginnen können. Die Anweisungen sollten auch alle Voraussetzungen enthalten, die für die Ausführung des Projekts erforderlich sind. Das Beste, was du tun kannst, ist, die Installationsanweisungen zu schreiben, wenn du sie zuerst selbst machst und Sie sparen schnell Stunden Arbeit in der Zukunft.
-- _Anweisungen zum Ausführen des Codes und alle zugehörigen Tests_: Wenn Sie an Ihrem Projekt gearbeitet haben, scheint es offensichtlich, wie Sie es ausführen können aber das wird wahrscheinlich nicht der Fall sein für jemanden, der es zum ersten Mal begegnet.
-- _Links zu verwandtem Material_
-- _Liste der Autoren/Mitwirkenden am Projekt, möglicherweise mit Kontaktinformationen_
-- _Danksagungen_
+- crwdns59027:0crwdne59027:0 crwdns59029:0crwdne59029:0 crwdns59031:0crwdne59031:0
+- crwdns59033:0crwdne59033:0 crwdns59035:0crwdne59035:0 crwdns59037:0crwdne59037:0 crwdns59039:0crwdne59039:0
+- crwdns59041:0crwdne59041:0
+- _crwdns59043:0crwdne59043:0_
+- _crwdns59045:0crwdne59045:0_
+- _crwdns59047:0crwdne59047:0_
 
-Angenommen, Sie beabsichtigen, dass andere Personen an Ihrem Projekt mitarbeiten (statt nur Ihren Code zur Verfügung zu stellen und ihn für abgeschlossen zu erwägen). In diesem Fall sollten Sie mitwirkende Richtlinien und höchstwahrscheinlich einen Verhaltenskodex enthalten.
+crwdns59049:0crwdne59049:0 crwdns59051:0crwdne59051:0
 
-(r-open-sour-run-guidelines)=
-### Mitwirkende Richtlinien
+crwdns59053:0crwdne59053:0
+### crwdns59055:0crwdne59055:0
 
-Mitwirkende Richtlinien [{term}`def<Contributing Guidelines>`] teilen Ihrem Publikum mit, wie Sie an Ihrem Projekt teilnehmen können. Zum Beispiel können Sie Informationen einfügen auf:
+crwdns59057:0{term}crwdne59057:0 crwdns59059:0crwdne59059:0
 
-- Fehlerbericht erstellen
-- Wie man eine neue Funktion vorschlägt
-- Ihr Fahrplan oder Ihre Vision für das Projekt
-- Wie Mitwirkende mit Ihnen in Kontakt treten sollen (oder sollten)
+- crwdns59061:0crwdne59061:0
+- crwdns59063:0crwdne59063:0
+- crwdns59065:0crwdne59065:0
+- crwdns59067:0crwdne59067:0
 
-Einen warmen, freundlichen Ton verwenden und spezielle Vorschläge für Beiträge (wie zum Beispiel das Schreiben von Dokumentation, oder eine Website zu erstellen) kann dazu beitragen, dass Neuankömmlinge sich willkommen fühlen und begeistert zur Teilnahme werden. بدء Zum Beispiel [المشرف النشط](https://activeadmin.info/index.html) أعرف Seinem [Beitrag Guide](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md) mit: "أولاً, شكراً لك على النظر الذي يسهم في المشرف النشط. Es sind Leute wie Sie, die Active Admin zu einem so tollen Werkzeug machen."
+crwdns59069:0crwdne59069:0 crwdns59071:0crwdne59071:0 crwdns59073:0crwdne59073:0
 
-In den frühesten Phasen Ihres Projekts kann Ihre Datei "Contributing Guidelines" einfach sein. Sie sollten immer erläutern, wie Sie Fehler melden oder Fehler melden oder technische Anforderungen (wie Tests) um einen Beitrag zu leisten. Im Laufe der Zeit können Sie weitere häufig gestellte Fragen hier oder in Ihrer Readme-Datei hinzufügen. Wenn Sie diese Informationen aufschreiben, werden Sie immer wieder die gleichen Fragen stellen. Es ist auch eine gute Idee, auf Ihre Datei mit den Richtlinien Ihrer README zu verlinken, so dass mehr Leute sie sehen.
+crwdns59075:0crwdne59075:0 crwdns59077:0crwdne59077:0 crwdns59079:0crwdne59079:0 crwdns59081:0crwdne59081:0 crwdns59083:0crwdne59083:0
 
-(r-open-source-run-conduct)=
-### Verhaltenskodex
+crwdns59085:0crwdne59085:0
+### crwdns59087:0crwdne59087:0
 
-Ein Verhaltenskodex [{term}`def<Code of Conduct>`] hilft bei der Festlegung von Grundregeln für das Verhalten der Teilnehmer Ihres Projekts. Dies ist besonders wertvoll, wenn Sie ein Open-Source-Projekt für eine Gemeinschaft oder ein Unternehmen starten. Ein Verhaltenskodex ermöglicht es Ihnen, ein gesundes und konstruktives Gemeinschaftsverhalten zu erleichtern, was Ihren Stress als Betreuer verringern wird. Es kommuniziert, wie Sie erwarten, dass sich die Teilnehmer verhalten und beschreibt, für wen diese Erwartungen gelten , wenn sie gelten und was zu tun ist, wenn eine Verletzung auftritt.
+crwdns59089:0{term}crwdne59089:0 crwdns59091:0crwdne59091:0 crwdns59093:0crwdne59093:0 crwdns59095:0crwdne59095:0
 
-Ähnlich wie Open-Source-Lizenzen gibt es auch neue Standards für Verhaltenskodizes, so dass Sie nicht Ihre eigenen schreiben müssen. Der [Mitwirkende Covenant](https://contributor-covenant.org/) ist ein Code of Conduct, der von [über 40.000 Open-Source-Projekten](https://www.contributor-covenant.org/adopters) verwendet wird. Egal welcher Text Sie verwenden, Sie sollten bereit sein, Ihren Verhaltenskodex bei Bedarf durchzusetzen.
+crwdns59097:0crwdne59097:0 crwdns59099:0crwdne59099:0 crwdns59101:0crwdne59101:0
 
-Behalten Sie die Datei im Stammverzeichnis Ihres Projekts, so dass es leicht zu finden ist, und verlinken Sie sie von Ihrem README.
+crwdns59103:0crwdne59103:0
 
-(r-open-source-Beitrag)=
-## Wie man zu Open-Source-Software-Projekten anderer beitra<unk> gt
+crwdns59105:0crwdne59105:0
+## crwdns59107:0crwdne59107:0
 
-(r-open-source-contribute-anatomy)=
-### آناتومي أياين مفتوحة المصدر - البرمجيات
+crwdns59109:0crwdne59109:0
+### crwdns59111:0crwdne59111:0
 
-Jede Open-Source-Gemeinschaft ist anders. Allerdings folgen viele Open-Source-Software-Projekte einer ähnlichen Organisationsstruktur. Das Verständnis der verschiedenen Gemeinschaftsrollen und des gesamten Prozesses wird Ihnen helfen, sich schnell an jedes neue Projekt zu orientieren.
+crwdns59113:0crwdne59113:0 crwdns59115:0crwdne59115:0 crwdns59117:0crwdne59117:0
 
-Ein typisches Open-Source-Software-Projekt hat folgende Personen:
+crwdns59119:0crwdne59119:0
 
-- _Autor_: Die Person/s oder Organisation, die das Projekt erstellt hat.
-- _Besitzer_: Die Person/s, die administratives Eigentum an der Organisation oder dem Repository haben (nicht immer identisch mit dem Originalautor).
-- _Maintainers_: Mitwirkende, die die Vision und das Management der organisatorischen Aspekte des Projekts vorantreiben. Sie können auch Autoren und/oder Eigentümer des Projekts sein.
-- _Mitwirkende_: Jeder, der etwas zum Projekt beigetragen hat.
-- _Community-Mitglieder_: Leute, die das Projekt verwenden. Sie können in Gesprächen aktiv sein oder ihre Meinung über die Richtung des Projekts äußern.
+- crwdns59121:0crwdne59121:0
+- crwdns59123:0crwdne59123:0
+- crwdns59125:0crwdne59125:0 crwdns59127:0crwdne59127:0
+- crwdns59129:0crwdne59129:0
+- crwdns59131:0crwdne59131:0 crwdns59133:0crwdne59133:0
 
-Größere Projekte können auch Unterausschüsse oder Arbeitsgruppen haben, die sich auf verschiedene Aufgaben wie Tooling, Triage, Community-Moderation und Event-Organisation konzentrieren. Schauen Sie auf der Website eines Projekts nach einer „Team“-Seite oder im Projektarchiv für die Dokumentation der Governance, um diese Informationen zu finden.
+crwdns59135:0crwdne59135:0 crwdns59137:0crwdne59137:0
 
-Viele Open-Source-Projekte werden auf GitHub gehostet (siehe Kapitel zur Versionskontrolle für weitere Details), die Einrichtungen wie z. باء
+crwdns59139:0crwdne59139:0 crwdns59141:0crwdne59141:0
 
-- _Issue Tracker_: Wo Personen Fragen im Zusammenhang mit dem Projekt diskutieren.
-- _Pull-Requests_: Wo Leute aktuelle Änderungen diskutieren und überprüfen.
-- _Diskussionsforen oder Mailinglisten_: Einige Projekte können diese Kanäle für Konversationsthemen nutzen (zum Beispiel "Wie kann ich? " oder "Was denkst du..." anstelle von Fehlerberichten oder Feature-Anfragen). Andere verwenden den Issue-Tracker für alle Unterhaltungen.
-- _Synchroner Chatkanal_: Einige Projekte verwenden Chatkanäle (wie Slack oder IRC) für Gelegenheitsgespräche, Zusammenarbeit und schnellen Austausch.
+- crwdns59143:0crwdne59143:0
+- crwdns59145:0crwdne59145:0
+- crwdns59147:0crwdne59147:0 crwdns59149:0crwdne59149:0 crwdns59151:0crwdne59151:0
+- crwdns59153:0crwdne59153:0
 
-(بآلاف دولارات الولايات المتحدة)
-### Ihre Änderungen beitragen
+crwdns59155:0crwdne59155:0
+### crwdns59157:0crwdne59157:0
 
-Sagen Sie, Sie haben eine Funktion hinzugefügt oder einen Fehler behoben und möchten diese Arbeit zum Hauptprojekt beitragen.
+crwdns59159:0crwdne59159:0
 
-1. _Lesen Sie die Dokumentation_: Das Hauptprojekt könnte Richtlinien oder Informationen in einer README enthalten sein, die potenzielle Mitwirkende anweisen, wie sie ihre Änderungen liefern können.
-2. _تأكد من أن الاتفاقيات الخاصة بك تتطابق مع نمط وبنية المشروع الرئيسي_: على سبيل المثال، إذا كانت جميع المتغيرات في مشروع ما تسمى بطريقة معينة ينبغي أن تكون لك أيضا. Konsistente Konventionen erleichtern es jemandem, der Ihr Projekt noch nicht gesehen hat, viel einfacher, es zu verstehen, anstatt Ihre speziellen Konventionen *und* herauszufinden, was der Code tut. Die Konventionen des Projekts können in seiner Dokumentation umrissen werden oder aus der Prüfung des Kodex selbst ersichtlich sein.
-3. _Teilen Sie Ihre Änderungen in überschaubare, gut definierte Chunks_auf: Wenn Sie zum Beispiel zwei separate Funktionen hinzugefügt haben, reichen Sie diese nicht zusammen ein. Auf diese Weise "sauber" zu halten, macht Ihre Arbeit einfacher zu verstehen und zu überprüfen.
-4. _Teste deine Änderungen_: Wenn das Projekt mit Tests kommt, führe sie aus. Vergewissern Sie sich, dass Sie gegen eine aktuelle Version des Projekts testen, da es sich im Laufe der Zeit erheblich entwickelt haben könnte. Schreiben Sie spezifische Tests für Ihre Änderungen und senden Sie diese ebenfalls ab.
-5. _Senden Sie nicht nur Code, aktualisieren Sie auch relevante Dokumentation_: Wenn Ihre Änderungen übernommen werden, muss sie aktualisiert werden. Wenn Sie es nicht tun, wird jemand anderes tun müssen.
-6. _Stellen Sie Fragen_: Wenn es Dinge gibt, über die Sie sich nicht sicher sind, dann schadet es nicht zu stellen. Viele größere Projekte haben spezielle Foren oder andere Veranstaltungsorte für Fragen und Diskussionen.
-7. _Sei klar_: Wenn du deine Änderungen einreichst beschreiben Sie die von Ihnen vorgenommenen Änderungen eindeutig, warum Sie sie vorgenommen haben und wie sie umgesetzt wurden. Dies macht es einfacher für jemanden, der Ihre Arbeit betrachtet und entscheidet, ob es in das Hauptprojekt integriert werden soll, um dies zu tun. Im wahrscheinlichen Fall wird das Hauptprojekt auf GitHub gehostet, Sie sollten dies in den Pull-Request setzen (siehe Kapitel {ref}`rrr-vcs` für weitere Details).
+1. crwdns59161:0crwdne59161:0
+2. crwdns59163:0crwdne59163:0 crwdns59165:0crwdne59165:0 crwdns59167:0crwdne59167:0
+3. crwdns59169:0crwdne59169:0 crwdns59171:0crwdne59171:0
+4. crwdns59173:0crwdne59173:0 crwdns59175:0crwdne59175:0 crwdns59177:0crwdne59177:0
+5. crwdns59179:0crwdne59179:0 crwdns59181:0crwdne59181:0
+6. crwdns59183:0crwdne59183:0 crwdns59185:0crwdne59185:0
+7. crwdns59187:0crwdne59187:0 crwdns59189:0crwdne59189:0 crwdns59191:0{ref}crwdne59191:0
 
-(r-open-source-look te-contribuking)=
-### Auf der Suche nach Projekten für und wie man zu dir beitragen kann
+crwdns59193:0crwdne59193:0
+### crwdns59195:0crwdne59195:0
 
-Sie müssen nicht überdenken, was genau Ihr erster Beitrag sein wird oder wie er aussehen wird. Stattdessen sollten Sie zuerst über die Projekte nachdenken, die Sie bereits verwenden oder verwenden möchten. Zu den Projekten, zu denen Sie aktiv beitragen werden, kommen Sie wieder zurück. In diesen Projekten, wann immer Sie selbst denken, dass etwas Besseres oder anderes sein könnte, handeln Sie auf Ihrem Instinkt. Sie können eine README scannen und einen defekten Link oder einen Tippfehler finden. Alternativ können Sie ein neuer Benutzer sein und feststellen, dass etwas kaputt ist oder ein Problem finden, das Ihrer Meinung nach in der Dokumentation enthalten sein sollte. Anstatt es zu ignorieren und weiter zu gehen oder jemanden zu bitten, es zu reparieren, schaue nach, ob du durch Einsetzen helfen kannst. Darum geht es bei Open Source.
+crwdns59197:0crwdne59197:0 crwdns59199:0crwdne59199:0 crwdns59201:0crwdne59201:0 crwdns59203:0crwdne59203:0 crwdns59205:0crwdne59205:0 crwdns59207:0crwdne59207:0 crwdns59209:0crwdne59209:0 crwdns59211:0crwdne59211:0
 
-Sie können auch eine der folgenden Ressourcen verwenden, um Ihnen zu helfen, neue Projekte zu entdecken und zu unterstützen:
+crwdns59213:0crwdne59213:0
 
-- [فريتاج مفتوح المصدر](https://opensourcefriday.com/)
-- [Nur erste Timer](https://www.firsttimersonly.com/)
-- [الكودتريج](https://www.codetriage.com/)
+- [crwdns59217:0crwdne59217:0](crwdns59215:0crwdne59215:0)
+- [crwdns59221:0crwdne59221:0](crwdns59219:0crwdne59219:0)
+- [crwdns59225:0crwdne59225:0](crwdns59223:0crwdne59223:0)
 
-Wenn Sie nicht sicher sind, wie Sie anfangen sollen, gibt es einige andere Möglichkeiten, wie Sie es machen können B. ein offenes Problem zu finden oder zu fragen, ob Sie helfen können, ein neues Feature zu schreiben.
+crwdns59227:0crwdne59227:0
 
-Ein gängiger Irrtum, zu Open Source beizutragen, ist, dass Sie Code beitragen müssen. In der Tat sind es oft die anderen Teile eines Projekts, die am meisten vernachlässigt oder übersehen werden. Sie werden dem Projekt einen großen Gefallen tun, indem Sie diese Art von Beiträgen anbieten. اختبار Du ko<unk> nnn:
+crwdns59229:0crwdne59229:0 crwdns59231:0crwdne59231:0 crwdns59233:0crwdne59233:0 crwdns59235:0crwdne59235:0
 
-- Code für Einreichungen anderer Personen überprüfen.
-- Schreiben und verbessern Sie die Dokumentation des Projekts.
-- Kurieren Sie einen Ordner mit Beispielen, der zeigt, wie das Projekt verwendet wird.
-- Beantworten Sie Fragen zum Projekt zum Beispiel zum Stack-Overflow,
-- Halten Sie die Dinge auf GitHub von:
-    - Verknüpfung mit doppelten Problemen.
-    - Neue Ticket-Etiketten vorschlagen.
-    - Es geht durch offene Fragen und schlägt vor, alte zu schließen.
-    - Stellen Sie Fragen zu den kürzlich eröffneten Fragen, um die Diskussion voranzubringen.
+- crwdns59237:0crwdne59237:0
+- crwdns59239:0crwdne59239:0
+- crwdns59241:0crwdne59241:0
+- crwdns59243:0crwdne59243:0
+- crwdns59245:0crwdne59245:0
+    - crwdns59247:0crwdne59247:0
+    - crwdns59249:0crwdne59249:0
+    - crwdns59251:0crwdne59251:0
+    - crwdns59253:0crwdne59253:0
 
-(rr-open-source-geschlossen)=
-## Geschlossene Software
+crwdns59255:0crwdne59255:0
+## crwdns59257:0crwdne59257:0
 
-Was ist, wenn Sie mit Leuten arbeiten, die das Open-Source-Modell nicht für ihre Software verwenden? Dies mag zunächst eine Beleidigung aller bisher diskutierten Grundsätze sein. Es gibt jedoch in der Regel sehr gute Gründe dafür, warum die Dinge so sind wie sie sind (zum Beispiel rechtliche, kommerzielle oder Sicherheitsgründe). Oft wird es immer noch möglich sein, zu nutzen und dazu beizutragen, aber die Einzelheiten darüber, wie unterschiedlich sein könnte. Die Art von Praktiken, die in "geschlossenen" Software verwendet werden, sind im Allgemeinen die gleichen, und die Konzepte und Werkzeuge, über die Sie in der Turing Way lernen können, gelten noch immer.
+crwdns59259:0crwdne59259:0 crwdns59261:0crwdne59261:0 crwdns59263:0crwdne59263:0 crwdns59265:0crwdne59265:0 crwdns59267:0crwdne59267:0
 
-Manchmal gibt es jedoch möglicherweise keine guten Gründe für den Ansatz der geschlossenen Quellen. Verschiedene Forschungsbereiche haben unterschiedliche Kulturen, die dem Korn offener Prinzipien zuwiderlaufen und sehr frustrierend wirken. Die Beseitigung dieser Barriere kann sehr schwierig sein, da die Kulturen Jahre oder Jahrzehnte dauern können, um sich zu verändern.
+crwdns59269:0crwdne59269:0 crwdns59271:0crwdne59271:0 crwdns59273:0crwdne59273:0
 
-Mit geschlossener Software zu arbeiten kann sowohl Chancen als auch Bedrohungen für Ihre Forschung bieten. In jedem Fall bietet das Verständnis und die Achtung der Perspektiven anderer die größten Erfolgschancen.
+crwdns59275:0crwdne59275:0 crwdns59277:0crwdne59277:0

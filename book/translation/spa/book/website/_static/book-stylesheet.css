@@ -1,0 +1,88 @@
+/*--------------------------------------------------------------------*\ 
+
+Este archivo contiene el CSS que maneja el estilo en todo el libro.
+Utilice las clases definidas aquí para controlar el aspecto de los elementos HTML en su contribución.
+
+Si añade nuevos estilos, recuerde explicar qué hace como se muestra a continuación. 
+
+Índice
+  - Estilo para la tabla de contenidos
+  - Estilo para Vídeos Incrustados
+
+\*--------------------------------------------------------------------*/ 
+
+/*--------------------------------------------------------------------*\ 
+Estilo para la tabla de contenidos 
+
+- Asegura que los elementos del menú en la tabla de contenidos sean lo suficientemente grandes para los lectores
+
+\*--------------------------------------------------------------------*/ 
+
+#site-navigation li > a {
+  font-size: 1.1em;
+}
+
+/*--------------------------------------------------------------------*\
+
+Estilo para Videos Incrustados (iframes) 
+
+- Asegúrate de que los vídeos pueden cambiar el tamaño para adaptarse a la pantalla de la que se lee el libro.
+- También se asegura de que los vídeos se centren horizontalmente.
+
+\*--------------------------------------------------------------------*/ 
+
+.videocontenedor {
+  posición: relativo;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  altura: 0;
+  overflow: hidden;
+}
+
+.videocontenedor iframe {
+  posición: absoluto;
+  arriba:0;
+  izquierda: 0;
+  width: 100%;
+  altura: 100%;
+}
+
+iframe {
+  margen: auto;
+  display:block;
+}
+
+/*--------------------------------------------------------------------*\
+
+Estilo para mesas
+
+- Mejora el estilo de las tablas sobre el estándar de Markdown predeterminado
+- Añade bordes a las tablas, y permite que una fila sea resaltada al pasar el cursor
+
+\*--------------------------------------------------------------------*/ 
+
+th, td {
+  border: 1px solid #999999 !important; 
+  text-align: center; 
+  padding: 10px
+}
+
+th {
+  font-weight: negrita; 
+  fondo-color: #EEEE;
+}
+
+título de tabla {
+  color: negro; 
+  text-align: center;
+}
+
+título de tabla .footnote {
+  color: #666666; 
+  alineación de texto: izquierda; 
+  tamaño de fuente: más pequeño;
+}
+
+tr:hover {
+  color de fondo: #f7f7f7f7;
+}

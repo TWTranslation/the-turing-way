@@ -1,35 +1,35 @@
-(r-code-quality)=
-# 代码质量
+crwdns69767:0crwdne69767:0
+# crwdns69769:0crwdne69769:0
 
-| 前提条件：                                                               | 重要性 |
-| ------------------------------------------------------------------- | --- |
-| [命令行的经验](https://programminghistorian.org/en/lessons/intro-to-bash) | 有帮助 |
+| crwdns69771:0crwdne69771:0                               | crwdns69773:0crwdne69773:0 |
+| -------------------------------------------------------- | -------------------------- |
+| [crwdns69777:0crwdne69777:0](crwdns69775:0crwdne69775:0) | crwdns69779:0crwdne69779:0 |
 
-## Summary
+## crwdns69781:0crwdne69781:0
 
-改进软件质量有几种方法需要相对较少的努力。 通过遵循编码风格,代码将更容易让您和其他人理解,因此它包含的漏洞将会减少。 静态代码分析工具可以报告错误以及风格问题,甚至不会运行代码。
+crwdns69783:0crwdne69783:0
 
-## 静态代码分析
+## crwdns69785:0crwdne69785:0
 
-静态代码分析是一种方法,在你的代码执行或项目建立和部署之前检查代码和检测软件的脆弱性。 这种分析能够查明质量问题,包括安全方面的弱点和错误。 除了查找bug之外,许多这些工具还可以帮助保持一种前后一致的编码风格。
+crwdns69787:0crwdne69787:0
 
-(فئة الخدمات العامة)=
-### 静态代码分析的优势
+crwdns69789:0crwdne69789:0
+### crwdns69791:0crwdne69791:0
 
-- 写高质量代码：及早发现可能的编程错误帮助开发人员知道他们在哪里出了错。
+- crwdns69793:0crwdne69793:0
 
-- 实现遵守规章制度：实现软件的遵守对于产品的稳定和安全至关重要。 这样,开发者就能够在非运行环境中全面测试他们的代码,确保所有代码标准都得到满足,并实现企业安全。
+- crwdns69795:0crwdne69795:0
 
-- 加速软件开发生命周期：静态代码分析确保高质量的代码能够在较少的时间内送达测试者。 这意味着即使是测试者也需要更少的时间来测试产品,从而加快软件开发寿命周期。
+- crwdns69797:0crwdne69797:0
 
-下面的表格中提到了一些最广泛使用的 `linters`：
+crwdns69799:0crwdne69799:0
 
-| 语言          | 静态代码分析工具                                                                                                              |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- |
-| C/C++       | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                            |
-| Python      | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                           |
-| جافا سكريبت | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                           |
-| جافا        | [检查样式](https://checkstyle.sourceforge.io/), [FindBug](http://findbugs.sourceforge.net), [PMD](https://pmd.github.io/) |
-| Perl        | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                         |
-| ر           | [lintr](https://github.com/jimhester/lintr)                                                                           |
-| قذيفة/باش   | [边框检查](https://www.shellcheck.net)                                                                                    |
+| crwdns69801:0crwdne69801:0 | crwdns69803:0crwdne69803:0                               |
+| -------------------------- | -------------------------------------------------------- |
+| crwdns69805:0crwdne69805:0 | crwdns69807:0crwdne69807:0                               |
+| crwdns69809:0crwdne69809:0 | crwdns69811:0crwdne69811:0                               |
+| crwdns69813:0crwdne69813:0 | crwdns69815:0crwdne69815:0                               |
+| crwdns69817:0crwdne69817:0 | crwdns69819:0crwdne69819:0                               |
+| crwdns69821:0crwdne69821:0 | [crwdns69825:0crwdne69825:0](crwdns69823:0crwdne69823:0) |
+| crwdns69827:0crwdne69827:0 | [crwdns69831:0crwdne69831:0](crwdns69829:0crwdne69829:0) |
+| crwdns69833:0crwdne69833:0 | [crwdns69837:0crwdne69837:0](crwdns69835:0crwdne69835:0) |

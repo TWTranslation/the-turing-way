@@ -1,90 +1,90 @@
 <a name="General_guidance_and_good_practice_for_testing"></a>
 
-# Orientations générales et bonnes pratiques pour les tests
+# crwdns45845:0crwdne45845:0
 
-Il y a plusieurs {ref}`types différents`<rr-testing-types-of-testing> de tests qui ont chacun les meilleures pratiques spécifiques à eux. Néanmoins, il existe des orientations générales qui s'appliquent à toutes ces questions, qui seront exposées ici.
+crwdns45847:0{ref}crwdne45847:0<rr-testing-types-of-testing> crwdns45849:0crwdne45849:0 crwdns45851:0crwdne45851:0
 
-(ص - اختبار - كتابة)=
-## Ecrire des test-N'import quel!
+crwdns45853:0crwdne45853:0
+## crwdns45855:0crwdne45855:0
 
-Lancer le processus d'écriture des tests peut être accablant, surtout si vous avez une grande base de code. De plus, comme on l’a mentionné, il existe de nombreux types de tests et la mise en œuvre de tous ces tests peut sembler une montagne impossible à escalader. C'est pourquoi le seul élément d'orientation le plus important de ce chapitre est le suivant : **écrire des tests**. Tester une petite chose dans un code de plusieurs milliers de lignes est infiniment mieux que de tester rien dans un code de plusieurs milliers de lignes. Vous ne pourrez peut-être pas tout faire, mais faire *quelque chose* est précieux.
+crwdns45857:0crwdne45857:0 crwdns45859:0crwdne45859:0 crwdns45861:0crwdne45861:0 crwdns45863:0crwdne45863:0 crwdns45865:0crwdne45865:0
 
-Faites des améliorations là où vous le pouvez, et faites de votre mieux pour inclure les tests avec le nouveau code que vous écrivez même s'il n'est pas possible d'écrire des tests pour tout le code déjà écrit.
+crwdns45867:0crwdne45867:0
 
-## اختبارات امتدت
+## crwdns45869:0crwdne45869:0
 
-Le deuxième conseil le plus important dans ce chapitre : exécuter les tests. Avoir une belle et parfaite suite de tests n'est pas utile si vous l'exécutez rarement. Laisser de longs écarts entre les épreuves de test rend plus difficile le suivi de ce qui s'est mal passé lorsqu'un test échoue parce que, une grande partie du code aura changé. En outre, si cela a été des semaines ou des mois depuis que les tests ont été exécutés et qu'ils ont échoué, il est difficile ou impossible de savoir quels résultats ont été obtenus entre-temps sont toujours valables, et qui doivent être jetés car ils auraient pu être touchés par le bug.
+crwdns45871:0crwdne45871:0 crwdns45873:0crwdne45873:0 crwdns45875:0crwdne45875:0 crwdns45877:0crwdne45877:0
 
-امتحان المكانة التلقائية للاختبار التلقائي الممكنة. Si chaque test doit être exécuté individuellement, alors ce processus ennuyeux et pénible sera probablement négligé. Cela peut être fait en utilisant un framework de test ([discuté plus tard](#use-a-testing-framework)). [Jenkins](https://jenkins.io) est un autre bon outil pour cela. Idéalement, réglez vos tests pour qu'ils fonctionnent à intervalles réguliers, peut-être tous les soirs.
+crwdns45879:0crwdne45879:0 crwdns45881:0crwdne45881:0 crwdns45883:0crwdne45883:0 crwdns45885:0crwdne45885:0 crwdns45887:0crwdne45887:0
 
-Envisagez de mettre en place une intégration continue (discutée dans le chapitre d'intégration continue) de votre projet. Cela exécutera automatiquement vos tests chaque fois que vous apportez une modification à votre code et, Selon le logiciel d'intégration continue que vous utilisez, vous avertirez si l'un des tests échoue.
+crwdns45889:0crwdne45889:0 crwdns45891:0crwdne45891:0
 
-## Considérez combien de temps vos tests doivent être exécutés
+## crwdns45893:0crwdne45893:0
 
-Certains tests, comme {ref}`rr-testing-unittest` ne testent qu'un petit bout de code et sont donc généralement très rapides. Cependant d'autres types de tests, tels que {ref}`rr-testing-systemtest` qui testent tout le code de bout en bout peut prendre beaucoup de temps à exécuter selon le code. En tant que tel, il peut être obstructif d'exécuter toute la suite de tests après chaque petit peu de travail. Dans ce cas, il vaut mieux faire des tests de poids plus légers tels que des tests unitaires fréquemment, et des tests plus longs seulement une fois par jour du jour au lendemain. Il est également bon de mettre à l'échelle le nombre de chaque type de tests que vous avez en rapport avec le temps qu'ils prennent à exécuter. Vous devriez avoir beaucoup de tests unitaires (ou d'autres types de tests qui sont rapides) mais beaucoup moins de tests qui prennent beaucoup de temps à exécuter.
+crwdns45895:0{ref}crwdne45895:0 crwdns45897:0{ref}crwdne45897:0 crwdns45899:0crwdne45899:0 crwdns45901:0crwdne45901:0 crwdns45903:0crwdne45903:0 crwdns45905:0crwdne45905:0
 
-## وثائق الاختبارات والتعليقات على الاختبارات السابقة
+## crwdns45907:0crwdne45907:0
 
-Il est important de fournir une documentation qui décrit comment exécuter les tests, les deux pour vous-même si vous revenez à un projet dans le futur, et pour toute autre personne désireuse de construire ou de reproduire votre travail. Cette documentation devrait également couvrir des sujets tels que
+crwdns45909:0crwdne45909:0 crwdns45911:0crwdne45911:0
 
-- Toutes les ressources, telles que les fichiers du jeu de données de test qui sont nécessaires
-- Tous les réglages de configuration nécessaires pour exécuter les tests
-- Quels logiciels (tels que [les frameworks de test](#use-a-testing-framework)) doivent être installés
+- crwdns45913:0crwdne45913:0
+- crwdns45915:0crwdne45915:0
+- crwdns45917:0crwdne45917:0
 
-Idéalement, vous devriez fournir des scripts pour configurer et configurer toutes les ressources nécessaires.
+crwdns45919:0crwdne45919:0
 
-## Tester les cas réalistes
+## crwdns45921:0crwdne45921:0
 
-Rendre les cas que vous testez aussi réalistes que possible. Si par exemple, vous avez des données factices pour exécuter des tests sur vous devez vous assurer que les données sont aussi similaires que possible aux données actuelles. Si vos données réelles sont salissantes avec beaucoup de valeurs nulles, il en va de même pour votre jeu de données de test.
+crwdns45923:0crwdne45923:0 crwdns45925:0crwdne45925:0 crwdns45927:0crwdne45927:0
 
-## Utiliser un framework de test
+## crwdns45929:0crwdne45929:0
 
-Il y a des outils disponibles pour faciliter l'écriture et l'exécution des tests, connus sous le nom de frameworks de test. Trouvez-en un que vous aimez, apprenez-en plus sur les fonctionnalités qu'il propose, et faites-en usage. Les frameworks de test communs (et les langages auxquels ils s'appliquent) incluent :
+crwdns45931:0crwdne45931:0 crwdns45933:0crwdne45933:0 crwdns45935:0crwdne45935:0
 
-- agnostic de la langue
-  - CTest, test runner pour les exécutables, bash scripts, et plus encore. Idéal pour le durcissement du code
-- ++C
-  - تراب
-  - اختبار Cpp
-  - التعزيز::اختبار
-  - جوجل الاختبار
-- ج
-  - tous les frameworks C++
-  - المتحكم
-  - CUnit
+- crwdns45937:0crwdne45937:0
+  - crwdns45939:0crwdne45939:0 crwdns45941:0crwdne45941:0
+- crwdns45943:0crwdne45943:0
+  - crwdns45945:0crwdne45945:0
+  - crwdns45947:0crwdne45947:0
+  - crwdns45949:0crwdne45949:0
+  - crwdns45951:0crwdne45951:0
+- crwdns45953:0crwdne45953:0
+  - crwdns45955:0crwdne45955:0
+  - crwdns45957:0crwdne45957:0
+  - crwdns45959:0crwdne45959:0
 ```{note}
-Bien que les C++ et C modernes soient encore pour la plupart compatibles, ils ne sont pas complètement et utilisent des framework de test de façon interchangeable peut ne pas toujours fonctionner.
+crwdns45961:0crwdne45961:0
 ```
-- Python
-  - اختبار (recommande<unk> )
-  - le test unitaire est fourni avec la bibliothèque Python standard
-- R، اختبارات الوحدات
-  - testque
-  - tinytest
-  - SvUnit (Fonctionne avec l'face graphique Sciws)
-- اختبارات الوحدة الفورية:
-  - وحدة
-  - pfunit (fonctionne avec MPI)
+- crwdns45963:0crwdne45963:0
+  - crwdns45965:0crwdne45965:0
+  - crwdns45967:0crwdne45967:0
+- crwdns45969:0crwdne45969:0
+  - crwdns45971:0crwdne45971:0
+  - crwdns45973:0crwdne45973:0
+  - crwdns45975:0crwdne45975:0
+- crwdns45977:0crwdne45977:0
+  - crwdns45979:0crwdne45979:0
+  - crwdns45981:0crwdne45981:0
 
-## Visez à avoir une bonne couverture de code
+## crwdns45983:0crwdne45983:0
 
-La couverture du code est une mesure de la quantité de votre code "couvert" par les tests. Plus précisément, c'est une mesure de la part de votre code qui est exécutée lorsque des tests sont effectués. Ainsi, par exemple, si vous avez une instruction `if` mais seulement tester des choses où l'instruction if évalue à "Faux" alors aucun du code dans le bloc if ne sera exécuté. En conséquence, votre couverture de code serait < 100%. La couverture de code n'inclut pas de documentation comme des commentaires, donc ajouter plus de documentation n'affecte pas vos pourcentages.
+crwdns45985:0crwdne45985:0 crwdns45987:0crwdne45987:0 crwdns45989:0crwdne45989:0 crwdns45991:0crwdne45991:0 crwdns45993:0crwdne45993:0
 
-Comme on l'a dit, tous les tests sont une amélioration par rapport à aucun test. Néanmoins, il est bon d'aspirer au moins à ce que votre couverture de code soit aussi élevée que possible.
+crwdns45995:0crwdne45995:0 crwdns45997:0crwdne45997:0
 
-La plupart des langages de programmation ont des outils soit intégrés, soit importés, soit dans le cadre des frameworks de test, qui mesurent automatiquement la couverture de code. Il y a un joli petit bot [](https://codecov.io/) pour mesurer la couverture de code également disponible.
+crwdns45999:0crwdne45999:0 crwdns46001:0crwdne46001:0
 
-**Pitfall : L'illusion de bonne couverture.** Dans certains cas, le même code peut et doit probablement être testé de plusieurs manières. Par exemple, la couverture peut rapidement augmenter sur le code qui applique des tests de « vérification de santé » à sa sortie (voir aussi {ref}<rr-testing-challenges-difficult-quatify>), mais cela n'exclut pas le risque que le code produise la réponse largement correcte pour les mauvaises raisons. En général, les meilleurs tests sont ceux qui isolent les plus petits plutôt que les plus gros morceaux de code cohérent, et ainsi choisir les étapes individuelles de la logique. Essaie d'être guidée en pensant aux choses possibles qui pourraient arriver à un morceau de code particulier dans l'exécution de l'ensemble et de tester ces cas individuels. Souvent, cela se traduira par le même code testé plusieurs fois - c'est une bonne chose !
+crwdns46003:0crwdne46003:0 crwdns46005:0{ref}crwdne46005:0<rr-testing-challenges-difficult-quatify>crwdns46007:0crwdne46007:0 crwdns46009:0crwdne46009:0 crwdns46011:0crwdne46011:0 crwdns46013:0crwdne46013:0
 
-## Utiliser les doubles/moquettes/doublures de test le cas échéant
+## crwdns46015:0crwdne46015:0
 
-Si un test échoue, il devrait être construit de telle sorte qu'il soit aussi facile de tracer la source de l'échec que possible. Cela devient problématique si un morceau de code que vous voulez tester dépend inévitablement d'autres choses. Par exemple, si un test pour un morceau de code qui interagit avec le web échoue, qui peut être parce que le code a un bogue *ou* parce qu'il y a un problème avec la connexion Internet. De même, si un test pour un morceau de code qui utilise un objet échoue, c'est peut-être parce qu'il y a un bogue dans le code à tester, ou un problème avec l'objet (qui devrait être testé par ses propres tests). Ces dépendances devraient être éliminées des tests, si possible. Cela peut être fait en utilisant des remplacements de test (tests doubles) à la place des dépendances réelles. Les doubles de test peuvent être classés comme suit :
+crwdns46017:0crwdne46017:0 crwdns46019:0crwdne46019:0 crwdns46021:0crwdne46021:0 crwdns46023:0crwdne46023:0 crwdns46025:0crwdne46025:0 crwdns46027:0crwdne46027:0 crwdns46029:0crwdne46029:0
 
-- Un objet factice est passé mais jamais utilisé, ce qui signifie que ses méthodes ne sont jamais appelées. Un tel objet peut par exemple être utilisé pour remplir la liste de paramètres d'une méthode.
-- Les faux objets ont des implémentations fonctionnelles, mais sont généralement simplifiés. Par exemple, ils utilisent une base de données en mémoire et non une base de données réelle.
-- Un conteneur est une implémentation partielle d'une interface ou d'une classe dans le but d'utiliser une instance de ce conteneur pendant le test. Les ébauches ne répondent généralement à rien en dehors de ce qui est programmé pour le test. Les ébauches peuvent également enregistrer des informations sur les appels.
-- Un objet bouchon est une implémentation factice pour une interface ou une classe dans laquelle vous définissez la sortie de certains appels de méthodes. Les objets fictifs sont configurés pour effectuer un certain comportement lors d'un test. Ils enregistrent généralement l'interaction avec le système et les tests peuvent valider cela.
+- crwdns46031:0crwdne46031:0 crwdns46033:0crwdne46033:0
+- crwdns46035:0crwdne46035:0 crwdns46037:0crwdne46037:0
+- crwdns46039:0crwdne46039:0 crwdns46041:0crwdne46041:0 crwdns46043:0crwdne46043:0
+- crwdns46045:0crwdne46045:0 crwdns46047:0crwdne46047:0 crwdns46049:0crwdne46049:0
 
-Les doublons de test peuvent être passés à d'autres objets qui sont testés.
+crwdns46051:0crwdne46051:0
 
-Vous pouvez créer des objets fantaisie manuellement (via code) ou utiliser un framework fictif pour simuler ces classes. Les frameworks fictifs vous permettent de créer des objets fictifs à l'exécution, et de définir leur comportement. L'exemple classique d'un objet fantaisie est un fournisseur de données. الانتاج على الانتفاع من أداة التشغيل une pour se connecter a<unk> la source de donne<unk> es re<unk> elle. Mais pour tester un objet fantaisie la source de données et s'assure que les conditions de test sont toujours les mêmes.
+crwdns46053:0crwdne46053:0 crwdns46055:0crwdne46055:0 crwdns46057:0crwdne46057:0 crwdns46059:0crwdne46059:0 crwdns46061:0crwdne46061:0

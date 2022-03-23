@@ -1,32 +1,29 @@
-(r-aperc<unk> u)=
-# Aperçu de la recherche reproductible
+crwdns45805:0crwdne45805:0
+# crwdns45807:0crwdne45807:0
 
-(بآلاف دولارات الولايات المتحدة)
-## Pré-requis
+crwdns45809:0crwdne45809:0
+## crwdns45811:0crwdne45811:0
 
-Aucune connaissance préalable requise.
+crwdns45813:0crwdne45813:0
 
 ```{figure} ../figures/research-cycle.jpg
----
-name: recherche-cycle
-alt : Le processus de recherche est représenté comme un cycle perpétuel de génération d'idées de recherche, réaliser la planification et la conception des données, la collecte et l'analyse des données, la publication, la conservation et donc la réutilisation des données. 
----
-_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. ترخيص الاستخدام CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+crwdns45815:0crwdne45815:0 
+crwdns45817:0crwdne45817:0 crwdns45819:0crwdne45819:0 crwdns45821:0crwdne45821:0
 ```
 
-(re<unk> sume<unk> -aperc<unk> u de rr)=
-## Summary
+crwdns45823:0crwdne45823:0
+## crwdns45825:0crwdne45825:0
 
-Les résultats scientifiques et les preuves sont renforcés si ces résultats peuvent être répliqués et confirmés par plusieurs chercheurs indépendants (voir les définitions de {ref}`<rr-overview-definitions>`).
+crwdns45827:0{ref}crwdne45827:0
 
-Lorsque les chercheurs emploient la transparence dans leurs recherches - en d'autres termes, lorsqu’ils documentent et partagent correctement les données et les processus associés à leurs analyses – la communauté de recherche au sens large est en mesure de gagner un temps précieux en reproduisant ou en tirant parti des résultats publiés. Souvent, les données ou le code provenant de projets antérieurs seront réutilisés par de nouveaux chercheurs pour vérifier les anciennes conclusions ou développer de nouvelles analyses.
+crwdns45829:0crwdne45829:0 crwdns45831:0crwdne45831:0
 
-Apprenez-en plus sur les autres avantages de la recherche reproductible dans le sous-chapitre {ref}`Avantages ajoutés <rr-overview-benefits>`.
+crwdns45833:0{ref}crwdne45833:0
 
-Les principaux médias ont rapporté [sur](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) des enquêtes démontrant qu'un pourcentage significatif d'études scientifiques ne peut pas être reproduit. Cela conduit à ce que d'autres universitaires et la société perdent confiance dans les résultats scientifiques {cite:ps}`baker2016reproduccibility`.
+crwdns45835:0crwdne45835:0 crwdns45837:0{cite:ps}crwdne45837:0
 
-En outre, les « résultats négatifs » peuvent être publiés facilement, aider à éviter que d'autres chercheurs de perdre du temps à répéter des analyses qui ne retourneront pas les résultats attendus {cite:ps}`Dirnagl2010bias`.
+crwdns45839:0{cite:ps}crwdne45839:0
 
-Pour plus de ressources de lecture sur la reproductibilité, veuillez consulter le sous-chapitre {ref}`Ressources <rr-overview-resources>`.
+crwdns45841:0{ref}crwdne45841:0
 
-***Mots-clés de chapitre**: Ce chapitre est supervisé pour le `Groupe d'étude de données Turing` (`turing-dsg`).*
+*crwdns45843:0crwdne45843:0*

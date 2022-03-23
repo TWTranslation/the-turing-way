@@ -1,97 +1,88 @@
-(r-open access)=
-# Öffne Zugriff
+crwdns58637:0crwdne58637:0
+# crwdns58639:0crwdne58639:0
 
-(r-open access-whatis)=
-## هل تم فتح الوصول؟
+crwdns58641:0crwdne58641:0
+## crwdns58643:0crwdne58643:0
 
-Die Verbreitung und der Austausch wissenschaftlicher Ergebnisse ist seit ihrer Gründung Teil der Forschung. Die erste wissenschaftliche Zeitschrift, Philosophische Transaktionen, wurde 1665 gegründet und veröffentlichte Briefe über wissenschaftliche Beobachtungen und Experimente. Die "Kommerzialisierung" der wissenschaftlichen Veröffentlichung begann in den 1940er Jahren und seit vielen Jahren Veröffentlichungen, wie etwa durch eine Zeitschrift, Konferenzveranstaltungen oder Buchungen standen der Öffentlichkeit zur Verfügung, wenn sie über eine Abonnementgebühr erworben oder einzeln erworben wurden.
+crwdns58645:0crwdne58645:0 crwdns58647:0crwdne58647:0 crwdns58649:0crwdne58649:0
 
-Das neue Wissen wird jedoch durch Synthetisierung aktueller Stipendien aufgebaut und dann darauf aufgebaut. Um die Wende des 21. Jahrhunderts wurde die Bewegung Open Access [{term}`def<Open Access>`] eingeführt, vor allem durch das [Budapest Open Access Initative](https://www.budapestopenaccessinitiative.org/) und die Berliner Erklärung zum offenen Zugang. Ein Zitat aus der Budapester Open Access Initiative fasst das Ziel zusammen:
-> "Wir meinen seine kostenlose Verfügbarkeit im öffentlichen Internet, damit alle Benutzer lesen können, Download, kopieren, verteilen, drucken, suchen oder Link zu den vollständigen Texten dieser Artikel... er nur die Vervielfältigung und den Vertrieb einschränkt, und die einzige Rolle des Urheberrechts in diesem Bereich, sollte es sein, den Autoren die Kontrolle über die Integrität ihrer Arbeit und das Recht zu geben, ordnungsgemäß anerkannt und zitiert zu werden"
+crwdns58651:0crwdne58651:0 crwdns58653:0crwdne58653:0 crwdns58655:0{term}crwdne58655:0 crwdns58657:0crwdne58657:0
+> crwdns58659:0crwdne58659:0
 
-Es wurden schätzungsweise 28% der wissenschaftlichen Literatur ist Open Access {cite}`Piwowar2018stateofOA`und im Jahr 2020 wurden mehr Ausgaben über Open Access Kanäle veröffentlicht als traditionelle Abonnementkanäle weltweit {cite}`Dimensions2021openaccesssurpasses`.
+crwdns58661:0{cite}crwdnd58661:0{cite}crwdne58661:0
 
-(r-open access-routes)=
-## Routen für offenen Zugriff
+crwdns58663:0crwdne58663:0
+## crwdns58665:0crwdne58665:0
 
-Eine Übersicht über den offenen Zugang und alle unten genannten Routen finden Sie in diesen Videos von [Welch Medizinische Bibliothek](https://www.youtube.com/watch?v=CFa2QeMgk9k) und dem [Unpaywall Team](http://go.sirsidynix.com/2020-04-29-Episode-1-Introduction-to-Open-Access.html).
+crwdns58667:0crwdne58667:0
 
-Es gibt keine 'richtige' Möglichkeit Open Access zu tun und es gibt viele verschiedene Routen, um Ihre Forschung offen zu teilen - wir haben 3 unten geteilt, die Ihnen helfen können. Die Entscheidung darüber, ob Sie Ihre Forschung offen teilen wollen, kann jedoch davon abhängen, wie stark Open Access in Ihrem Forschungsbereich ist wie viele Ressourcen müssen Sie dies tun und ob es Beschränkungen oder Mandate von Ihrem Geldgeber oder Institution.
+crwdns58669:0crwdne58669:0 crwdns58671:0crwdne58671:0
 
-(r-open access-preprints)=
-### Vorabdruck
+crwdns58673:0crwdne58673:0
+### crwdns58675:0crwdne58675:0
 
-Ein Vorabdruck [{term}`def<Preprint>`] ist ein wissenschaftliches Manuskript, das von den Autoren vor dem Peer-Review auf einen öffentlichen Server hochgeladen wird. Der erste Vordruckserver namens [arXiv](https://arxiv.org/) wurde 1991 für Physik gegründet. Aufgrund der Ineffizienz traditioneller Zeitschriften haben Vorabdruckserver für andere Disziplinen in den letzten 5 Jahren enorm an Popularität zugenommen mit der Entstehung von [bioRxiv](https://www.biorxiv.org/), [medRxiv](https://www.medrxiv.org/), [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard), [SocArXiv](https://osf.io/preprints/socarxiv) und viele mehr. Vorabdrucke ermöglichen es Forschern, ihre Ergebnisse schnell herauszuholen und geben die Möglichkeit, Feedback über ein Manuskript zu erhalten, bevor es an eine Zeitschrift geschickt wird. Einige Zeitschriften werden es nicht zulassen, dass ein Papier eingereicht wird, wenn es bereits auf einem Vorabdruckserver veröffentlicht wurde, da sie es als "vorherige Veröffentlichung" betrachten. aber die anhaltende Beliebtheit der Vorabdrucke hat viele Verlage dazu gezwungen, Vorabdrucke zu übernehmen, oder im Falle von Zeitschriften wie eLife ermutigen sie aktiv {cite}`elife20preprints`. Mehr über Vorabdrucke erfahren Sie unter [ASAPbio](https://asapbio.org/preprint-info).
+crwdns58677:0{term}crwdne58677:0 crwdns58679:0crwdne58679:0 crwdns58681:0crwdne58681:0 crwdns58683:0crwdne58683:0 crwdns58685:0crwdne58685:0 crwdns58687:0{cite}crwdne58687:0 crwdns58689:0crwdne58689:0
 
-(r-open-access-ournal-publishing)=
-### Öffne Zeitschriftenveröffentlichung
+crwdns58691:0crwdne58691:0
+### crwdns58693:0crwdne58693:0
 
-Traditionell sind viele Zeitschriften Abonnenten-Journale, was bedeutet, dass ihr Inhalt hinter einer Paywall steht. Universitäten können Abonnements für dieses Journal haben, Sie können auf deren Inhalt zugreifen, wenn Sie sich bei einer abonnierenden Institution befinden oder Sie eine einmalige Gebühr für den Zugriff auf einzelne Artikel bezahlen können.
+crwdns58695:0crwdne58695:0 crwdns58697:0crwdne58697:0
 
-Die Open-Access-Bewegung führte zur Schaffung von Open Access-Journals, wo die Inhalte für jeden zugänglich sind, ohne dass sie zu bezahlen oder Mitglied einer abonnierenden Institution sein müssen. Die Zahl dieser Zeitschriften steigt mit 17, 00 gelistet im Verzeichnis der Open Access Journals [DOAJ](http://www.doaj.org) (Daten geholt November 2021).
+crwdns58699:0crwdne58699:0 crwdns58701:0crwdne58701:0
 
-(r-open-access-gold-publishing)=
-#### الوصول المفتوح للذهب Vero<unk> ffentlichung
+crwdns58703:0crwdne58703:0
+#### crwdns58705:0crwdne58705:0
 
-Gold Open Access Publishing (oder manchmal auch als Libre) kann als Zahlung einer Artikel-Bearbeitungsgebühr (APC) an eine Zeitschrift definiert werden, so dass sie die endgültige Version Ihres Artikels unter einer offenen Zugriffslizenz veröffentlichen, die dann dauerhaft und frei online für jedermann verfügbar ist. Der Autor behält das Urheberrecht an seinem Artikel bei, üblicherweise über eine [Creative Commons Lizenz](https://creativecommons.org/) ihrer Wahl, die bestimmt, was andere mit dem Artikel tun können. Mehr über APCs erfahren Sie in diesem [Video](https://www.youtube.com/watch?v=QAeTKUpZq_Y).
+crwdns58707:0crwdne58707:0 crwdns58709:0crwdne58709:0 crwdns58711:0crwdne58711:0
 
-Es kann oft zu Fehleinschätzungen bei der Veröffentlichung in Open Access-Zeitschriften kommen - da sie dem System, das sie oft fälschlicherweise als "weniger streng" oder "weniger Qualität" angesehen werden, neuer, als die "traditionellen" Zeitschriften. Einige Forscher sind auch in einem so genannten "räuberischen Publizieren" verstrickt worden, wo sie dazu verleitet werden, Zeitschriften mit einer Bearbeitungsgebühr für Artikel zu verrechnen, die betrügerisch sind und keine redaktionellen Verfahren anbieten, die Artikel auf Qualität und Legitimität überprüfen. Nach [Think.Check.Submit Richtlinien](https://thinkchecksubmit.org/) können Forschern helfen, räuberische Zeitschriften zu vermeiden.
+crwdns58713:0crwdne58713:0 crwdns58715:0crwdne58715:0 crwdns58717:0crwdne58717:0
 
-Eine Kritik am Gold Open Access Publishing ist auch die Kosten. APCs können in der Regel etwa 2000 USD oder in einigen Fällen mehr betragen, was daher für Autoren auf der ganzen Welt unerschwinglich sein kann. Einige Verlage bieten Autoren aus Ländern, die von der Weltbank als Wirtschaften mit geringem Einkommen oder APC eingestuft werden, Rabatte oder Befreiungen an.
+crwdns58719:0crwdne58719:0 crwdns58721:0crwdne58721:0 crwdns58723:0crwdne58723:0
 
-Während einige Zeitschriften vollständig Open Access sind, sind alle Artikel, die sie veröffentlichen, offen und frei zu lesen, einige Zeitschriften sind hybrid. Dies sind Abonnenten-Zeitschriften, die eine Option für Autoren haben, eine APC zu bezahlen, um ihre Inhalte Open Access zu machen - ein Teil des Inhalts der Zeitschrift wird hinter einer Paywall und einige werden frei zu lesen sein. Während Verlage argumentieren, hybride Zeitschriften es Autoren erlauben, in traditionellen Zeitschriften offen zu veröffentlichen, stehen viele (insbesondere Geldgeber) diesem Modell als "Double-Dipping" kritisch gegenüber. als Verlage von Autoren bezahlt werden, um ihre Inhalte zugänglich zu machen und gleichzeitig das Zeitschriftenabonnement an Universitäten zu verkaufen.
+crwdns58725:0crwdne58725:0 crwdns58727:0crwdne58727:0 crwdns58729:0crwdne58729:0 crwdns58731:0crwdne58731:0
 
-(r-open-access-self-archivierung)=
-### Selbstarchivierung
+crwdns58733:0crwdne58733:0
+### crwdns58735:0crwdne58735:0
 
-Sie können Ihre Forschung auch über die Selbstarchivierung öffnen, die oft als Green Open Access oder Gratis bezeichnet wird. Die Selbstarchivierungsbewegung [{term}`def<Self Archiving>`] zielt darauf ab, Wissenschaftlern Werkzeuge und Unterstützung bei der Einlagerung und Verbreitung ihrer referenzierten Zeitschriftenartikel in offenen institutionellen oder fachbezogenen Repositories zur Verfügung zu stellen. Sie können Ihre Arbeit selbst archivieren, um sie besser zu entdecken und/oder nach der Veröffentlichung in einer Zeitschrift zu überprüfen, um sicherzustellen, dass es eine offene Version Ihres Beitrags gibt.
+crwdns58737:0crwdne58737:0 crwdns58739:0{term}crwdne58739:0 crwdns58741:0crwdne58741:0
 
-Anfang 2019 mehr als 4000 Repositories standen Forschern zur Verfügung, um ihre Publikationen nach der [Registry of Open Access Repositories](http://roar.eprints.org/) selbst zu archivieren. Diese Liste umfasst institutionelle Repositorien, themenbezogene oder thematische Repositories und Ernteerträger.
+crwdns58743:0crwdne58743:0 crwdns58745:0crwdne58745:0
 
-Institutionelle Repositories werden in der Regel von Forschungsinstitutionen verwaltet, um ihrer Gemeinschaft einen Ort zu bieten, an dem Papiere und andere Forschungsergebnisse öffentlich archiviert und geteilt werden können. Forschungsgemeinschaften verwalten in der Regel themenbezogene Repositories und die meisten Inhalte beziehen sich auf eine bestimmte Disziplin. Schließlich aggregieren Harvester Inhalte aus verschiedenen Repositories und werden zu Sites, um allgemeine Recherchen durchzuführen und andere Mehrwertdienste aufzubauen.
+crwdns58747:0crwdne58747:0 crwdns58749:0crwdne58749:0 crwdns58751:0crwdne58751:0
 
-Wenn Sie sich entscheiden, Ihre Arbeit selbst zu archivieren, müssen Sie die Urheberrechtspolitik der Zeitschrift, in der Sie veröffentlicht haben, überprüfen (auch wenn Sie sich anschauen, welche Zeitschrift auch Ihr Manuskript einreicht). Viele Zeitschriften verlangen nach wie vor, dass Autoren das volle Urheberrecht für die Publikation übertragen. Diese Übertragung von Rechten impliziert, dass Autoren um Erlaubnis bitten müssen, ihr Werk über das hinaus zu verwenden, was das anwendbare Recht zulässt, es sei denn, es gibt bereits einige Verwendungen gewährt. Derart gewährte Verwendungen können Lehren, Austausch mit Kollegen und selbstarchivierende Papiere in Repositorien umfassen. Manchmal gibt es in allen Zeitschriften Standardrichtlinien, die von den gleichen Herausgebern verwaltet werden.
+crwdns58753:0crwdne58753:0 crwdns58755:0crwdne58755:0 crwdns58757:0crwdne58757:0 crwdns58759:0crwdne58759:0 crwdns58761:0crwdne58761:0
 
-Im Allgemeinen haben die Zeitschriften jedoch ihre eigene Politik, insbesondere wenn sie im Namen einer wissenschaftlichen Gesellschaft veröffentlicht werden. Beim Betrachten der Bedingungen für die Selbstarchivierung, wir müssen zwei Schlüsselfragen feststellen: die Version des Papiers, das hinterlegt werden kann, und wenn es öffentlich zugänglich gemacht werden kann.
+crwdns58763:0crwdne58763:0 crwdns58765:0crwdne58765:0
 
-In Bezug auf die Version erlauben einige Zeitschriften die Verbreitung der eingereichten Versionen, auch bekannt als Vorabdruck. Sie ermöglichen auch den Ersatz durch die von Peer überprüfte Version, sobald sie veröffentlicht wurde. Aufgrund der zunehmenden Politiken, die den Zugang zu Forschungsergebnissen erfordern, die meisten der Zeitschriften erlauben die Selbstarchivierung der akzeptierten Version des Papiers, auch bekannt als das Autorenmanuskript oder Postprint. Diese Version ist der endgültige Text nach dem Peer-Review-Prozess, hat aber noch keine Publikationsformatierung oder -layout angewendet. Schließlich erlauben einige Zeitschriften den Forschern, die endgültige veröffentlichte Version, auch bekannt als die Version der Aufzeichnung, zu hinterlegen.
+crwdns58767:0crwdne58767:0 crwdns58769:0crwdne58769:0 crwdns58771:0crwdne58771:0 crwdns58773:0crwdne58773:0 crwdns58775:0crwdne58775:0
 
-Was den Zeitpunkt betrifft, das Papier öffentlich zugänglich zu machen, so legen viele Zeitschriften einen Zeitraum von seiner ursprünglichen Veröffentlichung fest - der Embargo-Periode. die können zwischen Null und 60 Monate - wurden die Veröffentlichung des Papiers ist nicht zulässig. Einige Zeitschriften schließen Embargos je nach Version ein oder aus. Zum Beispiel könnte die akzeptierte Version nach der Veröffentlichung öffentlich zugänglich gemacht werden, aber die veröffentlichte Version muss 12 Monate warten. Sie können die Zeitschriftenrichtlinien über die Selbstarchivierung mit [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php) einsehen.
+crwdns58777:0crwdne58777:0 crwdns58779:0crwdne58779:0 crwdns58781:0crwdne58781:0 crwdns58783:0crwdne58783:0 crwdns58785:0crwdne58785:0
 
 ```{figure} ../../figures/routes-to-OA.jpg
----
-Höhe: 500px
-Name: routes-to-OA
-alt: Ein Bild eines Zugs, der die Routen für das Publizieren des Zugriffs anzeigt. Die grüne Route wird als kostenlos signalisiert und zeigt am Ende einen Vordruckserver zum Reise- und Selbstarchiv an. Die Gold- und Diamantenrouten werden signalisiert, als der Autor bezahlt, Geldgeber oder Institution zahlen und die Veröffentlichung in einem offenen Zeitschriftenblatt der Reise zeigen.
----
-Routen zum offenen Publizieren.
-_طريق الشحن_ Projekt-Illustration von Scriberia. Wird unter einer CC-BY 4.0 Lizenz verwendet. الأصل النور زينودو. [http://doi.org/10.5281/zenodo.5706310] (http://doi.org/10.5281/zenodo.5706310)
+crwdns58787:0crwdne58787:0 crwdns58789:0crwdne58789:0 crwdns58791:0crwdne58791:0
+crwdns58793:0crwdne58793:0
+crwdns58795:0crwdne58795:0 crwdns58797:0crwdne58797:0 crwdns58799:0crwdne58799:0 crwdns58801:0crwdne58801:0
 ```
 
-(r-open-access-why)=
-## Warum sollten Sie Ihre Forschung offen teilen?
+crwdns58803:0crwdne58803:0
+## crwdns58805:0crwdne58805:0
 
-Forschung ist nutzlos, wenn sie nicht geteilt wird; selbst die beste Forschung ist wirkungslos, wenn andere nicht in der Lage sind, sie zu lesen und darauf aufzubauen. Teilen Sie Ihre Forschung offen und machen Sie Ihre Ergebnisse anderen in Ihrem Bereich und darüber hinaus bekannt (via Vorabdruck, Gold Open Access Publishing, Selbstarchivierung oder eine Kombination der 3! kann den Forschern helfen, effektiver mit einem besseren Verständnis der Literatur zu arbeiten und hilft, Doppelarbeit zu vermeiden - kein Forscher (oder Geldgeber) will Zeit und Geld verschwenden, wenn sie wissen, dass es anderswo versucht wurde. Wenn die Forschung offen ist und dem breitestmöglichen Leserpool zur Verfügung steht, bedeutet dies auch, dass sie eher kontrolliert und reproduziert wird. Darüber hinaus Es kann argumentiert werden, dass Steuerzahler, die für einen Großteil der in Zeitschriften publizierten Forschung bezahlen, ein Recht auf den Zugang zu den Informationen haben, die sich aus dieser Investition ergeben, ohne Gebühr.
+crwdns58807:0crwdne58807:0 crwdns58809:0crwdne58809:0 crwdns58811:0crwdne58811:0 crwdns58813:0crwdne58813:0 crwdns58815:0crwdne58815:0
 
-Das Publizieren hat auch Vorteile für Sie als Autor. Ihre Arbeit wird wahrscheinlich ein größeres Publikum erreichen, was bedeutet, dass sie eine breitere gesellschaftliche Wirkung haben kann. Veröffentlichte Beiträge haben auch eher einen Zitiervorteil {cite}`Tennant2016openaccess`.
+crwdns58817:0crwdne58817:0 crwdns58819:0crwdne58819:0 crwdns58821:0{cite}crwdne58821:0
 
 ```{figure} ../../figures/share-work-openly.jpg
----
-Höhe: 500px
-Name: share-work-offen
-alt: Ein Plakatbild einer Bahnfahrt und fünf Gründe, warum Sie Ihre Forschung offen teilen sollten, werden kommentiert.
----
-Vorteile, deine Forschung offen zu teilen:
-_Die Turing Way_ Projekt-Illustration von Scriberia. Wird unter einer CC-BY 4.0 Lizenz verwendet. الأصل النور زينودو. [http://doi.org/10.5281/zenodo.5706310] (http://doi.org/10.5281/zenodo.5706310)
+crwdns58823:0crwdne58823:0
+crwdns58825:0crwdne58825:0 crwdns58827:0crwdne58827:0 crwdns58829:0crwdne58829:0 crwdns58831:0crwdne58831:0
 ```
 
-(r-open access-Future)=
-## Die Zukunft des offenen Zugangs
+crwdns58833:0crwdne58833:0
+## crwdns58835:0crwdne58835:0
 
-Die Open-Access-Bewegung hat auf Veränderungen unter den Verlagen gedrängt und viele, sowohl gemeinnützige als auch gewinnorientierte, Ihre Artikel freiwillig zum Zeitpunkt der Veröffentlichung oder innerhalb von 6-12 Monaten öffentlich zugänglich machen. Sie haben auch viele ihrer Zeitschriften von einer geschlossenen Zeitschrift gewechselt. Abonnementmodell für ein offenes Modell als strategische Geschäftsentscheidung, um die Exposition und Wirkung ihrer Zeitschrift zu erhöhen. [Viele sind jedoch kritisch](https://www.the-scientist.com/news-opinion/for-a-hefty-fee-nature-journals-offer-open-access-publishing-68181) hinsichtlich der steigenden Kosten der Verlage für die Veröffentlichung in Open Access.
+crwdns58837:0crwdne58837:0 crwdns58839:0crwdne58839:0 crwdns58841:0crwdne58841:0 crwdns58843:0crwdne58843:0
 
-Weitere Pläne, um mehr Forschung offen zu machen und sich für Veränderungen in langsam wechselnden Verlagen einzusetzen, stammen von Initiativen wie [Plan S](https://www.coalition-s.org/why-plan-s/) , die von einer Koalition von Geldgebern und Stakeholdern unterstützt werden. UKRI hat kürzlich eine neue Open Access-Richtlinie {cite}`ukri2021openaccess`für die von ihnen finanzierte Arbeit angekündigt die sofortigen offenen Zugang für von Fachleuten geprüfte Forschungsartikel verlangen, die am 1. April 2022 zur Veröffentlichung eingereicht wurden.
+crwdns58845:0crwdne58845:0 crwdns58847:0{cite}crwdne58847:0 crwdns58849:0crwdne58849:0
 
-Der Streben nach Offenheit ist auch weltweit weit verbreitet- Initiativen wie [SciELO](https://en.wikipedia.org/wiki/SciELO) , die geschaffen wurden, um den Anforderungen der wissenschaftlichen Kommunikation in Entwicklungsländern gerecht zu werden und eine effiziente Möglichkeit bieten, die Sichtbarkeit und den Zugang zu wissenschaftlicher Literatur zu verbessern.
+crwdns58851:0crwdne58851:0
 
-Funders haben auch Maßnahmen ergriffen, indem sie selbst Verlage werden (Diamond Open Access). Plattformen wie [Open Research Europe](https://open-research-europe.ec.europa.eu/) & [Wellcome Open Research](https://wellcomeopenresearch.org/) sind Open Access Publishing-Plattformen fu<unk> r Forscher, يموت فون فون ديزيلين جيلدجبر الممولزيرت ويردن. Funders betrachten dies als einen Service für ihre Grantees, der es ihnen ermöglicht, schnell und offen zu publizieren (Geldgeber decken die Kosten für die Infrastruktur und die Artikelverarbeitungskosten) und mehr Flexibilität als die Veröffentlichung in einer Zeitschrift. Diese Plattformen ermöglichen es Forschern, eine Reihe von Artikeltypen über den "traditionellen Forschungsartikel" hinaus zu publizieren B. Datennotizen, Software-Tool-Artikel, Methoden, Recherchehinweise und vieles mehr. Diese Geldgeber unterstützten Plattformen helfen auch, die Nadel zu verschieben und neue Richtlinien über die Bewertung der Forscher zu informieren, wie etwa die Abkehr von den Wirkungsfaktoren.
+crwdns58853:0crwdne58853:0 crwdns58855:0crwdne58855:0 crwdns58857:0crwdne58857:0 crwdns58859:0crwdne58859:0 crwdns58861:0crwdne58861:0

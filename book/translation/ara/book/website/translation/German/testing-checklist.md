@@ -1,27 +1,27 @@
-# التحقق من اختبار كود الوقود
+# crwdns59573:0crwdne59573:0
 
-Diese Checkliste enthält viele Elemente. Wie {ref}`bereits erwähnt hat<rr-testing-write-tests>`, ist es viel besser, einige der Elemente zu tun als keines von ihnen. Lassen Sie sich nicht entmutigen, wenn diese Liste der Aufgaben unüberwindbar erscheint.
+crwdns59575:0crwdne59575:0 crwdns59577:0{ref}crwdne59577:0 crwdns59579:0crwdne59579:0
 
 <a name="Writing_tests"></a>
 
-## Schreibe Tests
+## crwdns59581:0crwdne59581:0
 
-- Schreiben Sie ein paar Rauchtests.
-- Schreiben Sie Einheitstests für alle Ihre Code-Einheiten.
-- Schreibe Integrationstests, um die Integration zwischen den Einheiten zu überprüfen.
-- Schreiben Sie ein paar Systemtests. Priorisieren Sie gemeinsame und wichtige Pfade durch das Programm.
-- Regressionstests schreiben. Regressionstests können auf jeder Teststufe existieren.
-- Wenn dies für Ihr Projekt angemessen ist, schreiben Sie Akzeptanztests.
-- Fügen Sie Laufzeit-Tests in Ihr Projekt ein.
+- crwdns59583:0crwdne59583:0
+- crwdns59585:0crwdne59585:0
+- crwdns59587:0crwdne59587:0
+- crwdns59589:0crwdne59589:0 crwdns59591:0crwdne59591:0
+- crwdns59593:0crwdne59593:0 crwdns59595:0crwdne59595:0
+- crwdns59597:0crwdne59597:0
+- crwdns59599:0crwdne59599:0
 
 <a name="Good_practice_checks"></a>
 
-## bewährte Praxisprüfungen
+## crwdns59601:0crwdne59601:0
 
-- [ ] Dokumentation der Tests und wie sie ausgeführt werden.
-  - [ ] Schreiben Sie Skripte, um alle Ressourcen einzurichten und zu konfigurieren, die benötigt werden, um die Tests durchzuführen.
-- [ ] Wählen und nutzen Sie ein Test-Framework.
-- [ ] Führen Sie die Tests regelmäßig aus.
-  - [ ] Automatisieren Sie den Prozess der Ausführung von Tests. Ziehen Sie dazu in Betracht, die kontinuierliche Integration zu nutzen (siehe Kapitel zur kontinuierlichen Integration).
-- [ ] Überprüfen Sie die Code-Abdeckung Ihrer Tests und versuchen Sie es zu verbessern.
-- [ ] الانخراط في رمز إعادة توجيه الشريك في الأينوم.
+- crwdns59603:0crwdne59603:0
+  - crwdns59605:0crwdne59605:0
+- crwdns59607:0crwdne59607:0
+- crwdns59609:0crwdne59609:0
+  - crwdns59611:0crwdne59611:0 crwdns59613:0crwdne59613:0
+- crwdns59615:0crwdne59615:0
+- crwdns59617:0crwdne59617:0

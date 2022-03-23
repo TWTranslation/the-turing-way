@@ -1,98 +1,98 @@
-# 进一步的建议
+# crwdns70345:0crwdne70345:0
 
-尝试阅读关于可复现的计算环境的一章,然后阅读关于持续整合的一章。 关于审查的一章概述了你如何能够通过为你的开发工作流程添加一个正式的审查阶段来进一步加强你的代码基础。
+crwdns70347:0crwdne70347:0
 
-[教程点](https://www.tutorialspoint.com/software_testing/) 有一些与测试相关的有用教程, [训研所](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) 也是如此。 还值得查看 [softwentestestingfundamentals.com](http://softwaretestingfundamentals.com)。
+crwdns70349:0crwdne70349:0
 
-## 使用的材料：这将如何帮助你/为什么这很有用。
+## crwdns70351:0crwdne70351:0
 
-- [Chrys Woods说话](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**知识共享署名-非商业性商业性质的共享 4.0 国际许可证**](https://chryswoods.com/main/copyright.html)
-- [正在试用课程的基础知识](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **知识共享并重新组合**
-- [SSI 博客](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **知识共享属名协议。非商业2.5许可。**
+- crwdns70353:0crwdne70353:0
+- crwdns70355:0crwdne70355:0
+- crwdns70357:0crwdne70357:0
 
-## 所用材料：测试的一般指导和良好做法
+## crwdns70359:0crwdne70359:0
 
-- [SSI 测试软件博客](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **知识共享属名协议、非商业2.5许可。**
-- [正在试用课程](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **知识共享并重新组合**
-- [嘲讽](https://www.vogella.com/tutorials/Mockito/article.html) **署名-非商业性分享-相同方式的 3.0 德国 (CC BY-NC-SA 3.0 DE)**
-- [用浮点测试](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache 许可证 2.0**
+- crwdns70361:0crwdne70361:0
+- crwdns70363:0crwdne70363:0
+- crwdns70365:0crwdne70365:0
+- crwdns70367:0crwdne70367:0
 
-## 使用的材料：试验类型
+## crwdns70369:0crwdne70369:0
 
-- [软件测试基本原理：测试水平](http://softwaretestingfundamentals.com/software-testing-levels/) **复制左右-2019 STF**
+- crwdns70371:0crwdne70371:0
 
-## 使用的材料：烟雾测试
+## crwdns70373:0crwdne70373:0
 
-- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **<unk> <unk> <unk> Attributtion-NonCommercial-ShareAlis 4.0 International License@**
+- crwdns70375:0crwdne70375:0
 
-## 使用的材料：单元测试
+## crwdns70377:0crwdne70377:0
 
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
-- [软件测试基础：单元测试](http://softwaretestingfundamentals.com/unit-testing/) **复制左右-2019 STF**
+- crwdns70379:0crwdne70379:0
+- crwdns70381:0crwdne70381:0
 
-## 使用的材料：整合测试
+## crwdns70383:0crwdne70383:0
 
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
-- [软件测试基础：集成测试](http://softwaretestingfundamentals.com/integration-testing/) **复制左右-2019 STF**
+- crwdns70385:0crwdne70385:0
+- crwdns70387:0crwdne70387:0
 
-## 使用的材料：系统测试
+## crwdns70389:0crwdne70389:0
 
-- [软件测试基础：系统测试](http://softwaretestingfundamentals.com/system-testing/) **复制左右-2019 STF**
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
+- crwdns70391:0crwdne70391:0
+- crwdns70393:0crwdne70393:0
 
-## 使用的材料：验收测试
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
+## crwdns70395:0crwdne70395:0
+- crwdns70397:0crwdne70397:0
 
-## 使用的材料：回归测试
+## crwdns70399:0crwdne70399:0
 
-- [声音软件](http://soundsoftware.ac.uk/unit-testing-why-bother/) **知识共享署名-非商业化 3.0 许可证**
-- [软件测试基础回归测试](http://softwaretestingfundamentals.com/regression-testing/) **复制左**
-- [回归测试示例由 Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **知识共享署名-共享许可协议 2.0**
-- [采用自动测试](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache 许可证 2.0**
+- crwdns70401:0crwdne70401:0
+- crwdns70403:0crwdne70403:0
+- crwdns70405:0crwdne70405:0
+- crwdns70407:0crwdne70407:0
 
-## 使用的材料：运行时间 测试
+## crwdns70409:0crwdne70409:0
 
-- [Chrys Woods说话](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**知识共享署名-非商业性商业性质的共享 4.0 国际许可证**](https://chryswoods.com/main/copyright.html)
+- crwdns70411:0crwdne70411:0
 
-## 所用材料：由测试驱动的开发
+## crwdns70413:0crwdne70413:0
 
-- [测试您的软件](https://software.ac.uk/resources/guides/testing-your-software) **知识共享署名-非商业性3.0 许可。**
-- [为什么bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **知识共享署名-非商业性3.0 许可。**
+- crwdns70415:0crwdne70415:0
+- crwdns70417:0crwdne70417:0
 
-## 使用的材料：术语表
+## crwdns70419:0crwdne70419:0
 
-- [荷兰电子科学中心](https://guide.esciencecenter.nl/#/best_practices/testing) **知识共享属性4.0 国际许可证**
+- crwdns70421:0crwdne70421:0
 
-### 定义/术语表
+### crwdns70423:0crwdne70423:0
 
-- **接受测试：** 程序符合项目基本要求的测试。
+- crwdns70425:0crwdne70425:0
 
-- **代码覆盖：** 一个描述测试套件执行多少源代码的计量。
+- crwdns70427:0crwdne70427:0
 
-- **结束测试：** 一个运行程序从开始到结束的测试,并验证输出是否正确。
+- crwdns70429:0crwdne70429:0
 
-- **集成测试：** 一个混合和运行代码的测试 并验证输出以检查设备是否被正确集成。
+- crwdns70431:0crwdne70431:0
 
-- **Mocking：** 用一个假装的对象来替换一个真正的对象来运行测试。
+- crwdns70433:0crwdne70433:0
 
-- **回归测试：** 比较代码更改之前和之后的测试结果。 如果产出已经改变,在程序的某个地方引入了一个问题,并且出现了一个错误。
+- crwdns70435:0crwdne70435:0
 
-- **运行时间测试：** 程序内嵌的测试作为程序的一部分。
+- crwdns70437:0crwdne70437:0
 
-- **烟雾测试：** 非常简短的初步检查,确保运行项目挂卡所需的基本要求。
+- crwdns70439:0crwdne70439:0
 
-- **存档代码：** 代码虽然正确,但并不总是输出相同的结果。 例如,一个输出10个随机数的程序将每次产生不同的结果,尽管是正确的。
+- crwdns70441:0crwdne70441:0
 
-- **系统测试：** 查看“结束到结束测试”。
+- crwdns70443:0crwdne70443:0
 
-- **测试驱动开发：** 代码开发过程,单位测试由单位自己编写。
+- crwdns70445:0crwdne70445:0
 
-- **测试根:** 虚拟实现测试中用于删除依赖的代码部件。
+- crwdns70447:0crwdne70447:0
 
-- **测试套装：** 已经为一个项目编写的测试。
+- crwdns70449:0crwdne70449:0
 
-- **测试框架：** 可以降低写作和运行测试的劳动力密集度的工具。
+- crwdns70451:0crwdne70451:0
 
-- **单位：** 一件用来做一件简单事情的小代码。 它通常有一个或几个投入,通常只有一个产出。
+- crwdns70453:0crwdne70453:0
 
-- **单元测试：** 个测试,检查单元的行为。
+- crwdns70455:0crwdne70455:0

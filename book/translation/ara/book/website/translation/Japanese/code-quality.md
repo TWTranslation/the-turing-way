@@ -1,35 +1,35 @@
-(r-code-quality)=
-# コード品質
+crwdns64625:0crwdne64625:0
+# crwdns64627:0crwdne64627:0
 
-| 前提条件                                                                       | 重要度    |
-| -------------------------------------------------------------------------- | ------ |
-| [コマンドラインでの経験](https://programminghistorian.org/en/lessons/intro-to-bash) | 役に立つもの |
+| crwdns64629:0crwdne64629:0                               | crwdns64631:0crwdne64631:0 |
+| -------------------------------------------------------- | -------------------------- |
+| [crwdns64635:0crwdne64635:0](crwdns64633:0crwdne64633:0) | crwdns64637:0crwdne64637:0 |
 
-## Summary
+## crwdns64639:0crwdne64639:0
 
-ソフトウェアの品質を向上させるには、比較的少ない労力を要する方法がいくつかあります。 コーディングスタイルに従うことで、コードは自分自身や他の人が理解しやすくなり、バグが少なくなります。 静的コード解析のためのツールは、コードを実行することなく、バグやスタイルの問題を報告することができます。
+crwdns64641:0crwdne64641:0
 
-## 静的コード解析
+## crwdns64643:0crwdne64643:0
 
-静的コード解析とは、コードを調べてソフトウェアの脆弱性を検出する手法で、コードが実行されたり、プロジェクトがビルドされてデプロイされたりする前に、ソフトウェアの脆弱性を検出する手法です。 この分析では、セキュリティの弱点やエラーなど、品質の問題を特定できます。 バグを見つけるだけでなく、これらのツールの多くは一貫したコーディングスタイルを維持するのにも役立ちます。
+crwdns64645:0crwdne64645:0
 
-(r-code-quality-<unk> <unk> )=
-### 静的コード解析の利点
+crwdns64647:0crwdne64647:0
+### crwdns64649:0crwdne64649:0
 
-- 高品質なコードを書く: プログラミングエラーを早期に検出することで、開発者はどこで問題が発生したのかを知ることができます。
+- crwdns64651:0crwdne64651:0
 
-- 規制遵守の達成: 製品の安定性とセキュリティのためには、ソフトウェアのコンプライアンスを達成することが重要です。 これにより、開発者は非ランタイム環境でコードを包括的にテストでき、すべてのコード標準が満たされ、エンタープライズセキュリティが達成されるようになります。
+- crwdns64653:0crwdne64653:0
 
-- ソフトウェア開発のライフサイクルを加速する: 静的コード解析により、より短時間で高品質なコードがテスターに到達します。 つまり、テスターでさえも製品のテストに時間がかかるため、ソフトウェア開発のライフサイクルが加速します。
+- crwdns64655:0crwdne64655:0
 
-最も広く使用されている `リンタ` のいくつかは以下の表に記載されています。
+crwdns64657:0crwdne64657:0
 
-| 言語          | 静的コード解析ツール                                                                                                              |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| C/C++       | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                               |
-| Python      | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                              |
-| جافا سكريبت | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                              |
-| جافا        | [اختبار](https://checkstyle.sourceforge.io/)، [FindBugs](http://findbugs.sourceforge.net)، [PMD](https://pmd.github.io/) |
-| Perl        | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                            |
-| ر           | [lintr](https://github.com/jimhester/lintr)                                                                              |
-| シェル/バッシュ   | [シェルチェック](https://www.shellcheck.net)                                                                                    |
+| crwdns64659:0crwdne64659:0 | crwdns64661:0crwdne64661:0                               |
+| -------------------------- | -------------------------------------------------------- |
+| crwdns64663:0crwdne64663:0 | crwdns64665:0crwdne64665:0                               |
+| crwdns64667:0crwdne64667:0 | crwdns64669:0crwdne64669:0                               |
+| crwdns64671:0crwdne64671:0 | crwdns64673:0crwdne64673:0                               |
+| crwdns64675:0crwdne64675:0 | crwdns64677:0crwdne64677:0                               |
+| crwdns64679:0crwdne64679:0 | [crwdns64683:0crwdne64683:0](crwdns64681:0crwdne64681:0) |
+| crwdns64685:0crwdne64685:0 | [crwdns64689:0crwdne64689:0](crwdns64687:0crwdne64687:0) |
+| crwdns64691:0crwdne64691:0 | [crwdns64695:0crwdne64695:0](crwdns64693:0crwdne64693:0) |

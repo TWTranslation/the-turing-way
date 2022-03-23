@@ -1,146 +1,146 @@
-(r-code-style-and format-formatting)=
-# コードスタイルと書式設定
+crwdns64697:0crwdne64697:0
+# crwdns64699:0crwdne64699:0
 
-コーディングスタイルは、コードのフォーマット方法に関する規約のセットです。 例えば、あなたの変数を何と呼びますか? インデントにスペースやタブを使用しますか? どこにコメントを入れますか? コード全体で一貫して同じスタイルを使用することで、読みやすくなります。 読みやすいコードは、あなただけでなく、潜在的なコラボレーターによって理解しやすいです。 したがって、コーディングスタイルに準拠することで、ミスのリスクが低減され、ソフトウェア上での連携が容易になります。 [なぜコーディングスタイルが重要なのか](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) は、コーディングスタイルがなぜ重要なのか、ソフトウェアの品質を向上させる方法についての良い記事です。
+crwdns64701:0crwdne64701:0 crwdns64703:0crwdne64703:0 crwdns64705:0crwdne64705:0
 
-例えば、 [PEP8](https://www.python.org/dev/peps/pep-0008/) は Python のコーディングスタイルで最も広く使用されており、 [ECMAScript 6](http://es6-features.org/) 別名 [ES6](http://es6-features.org/) は ECMA International がJavascript でプログラミングするために標準化したスクリプト言語仕様です。
+crwdns64707:0crwdne64707:0
 
-さまざまなプログラミング言語で一般的に使用されるスタイルガイドについては、 [言語ガイド](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html) を参照してください。 Googleには、Googleに由来するオープンソースプロジェクトで使用されている多くの言語の [スタイルガイド](https://code.google.com/p/google-styleguide/) もあります。
+crwdns64709:0crwdne64709:0
 
-## 自動書式設定
+## crwdns64711:0crwdne64711:0
 
-コードを特定のスタイルに従うように自動的にフォーマットするための多くのツールが存在します。 自動書式設定により、特にチームでコラボレーションする場合や、他の人があなたが書いたコードを見る必要がある場合には、より高いコード品質が可能になります。 多くの開発者や組織は、 **2-space** や **4-space indentation** のようなコードフォーマットの標準を維持しています。 バグを見つける確率(もしあれば)が増えるので、これらを使用することを強くお勧めします。
+crwdns64713:0crwdne64713:0
 
-[EditorConfig](https://editorconfig.org) は言語に依存しないツールで、さまざまなエディタで同じプロジェクトに取り組む複数の人々に対して一貫した空白スタイルを維持するのに役立ちます。 ほとんどのエディタは EditorConfig をネイティブまたはプラグインでサポートしています。 ほとんどすべての広く使用されているIDEおよびテキストエディタは、入力時に自動コードフォーマットをサポートしています。 例: [JetBrains IDE Suite](https://www.jetbrains.com/products.html#), [VScode](https://code.visualstudio.com/) , [Atom](https://atom.io/).
+crwdns64715:0crwdne64715:0
 
-それに加えて、特定のスタイルに応じてコードを自動的にフォーマットするための多くの言語固有のツールがあります。 エディタは、多くの場合、編集環境から直接これらのツールを使用することをサポートしています。
+crwdns64717:0crwdne64717:0
 
 <table spaces-before="0">
   <tr>
     <th>
-      言語
+      crwdns64719:0crwdne64719:0
     </th>
     
     <th>
-      フォーマターツール
+      crwdns64721:0crwdne64721:0
     </th>
   </tr>
   
   <tr>
     <td>
-      C/C++
+      crwdns64723:0crwdne64723:0
     </td>
     
     <td>
-      <a href="http://www.gnu.org/software/indent/">GNUIndent</a>، <a href="http://sourceforge.net/projects/gcgreatcode/">الكود العظيم</a>
+      crwdns64725:0crwdne64725:0
     </td>
   </tr>
   
   <tr>
     <td>
-      Python
+      crwdns64727:0crwdne64727:0
     </td>
     
     <td>
-      <a href="https://black.readthedocs.io"><unk></a>, <a href="https://pypi.org/project/yapf/">yapf</a>
+      crwdns64729:0crwdne64729:0
     </td>
   </tr>
   
   <tr>
     <td>
-      جافا سكريبت
+      crwdns64731:0crwdne64731:0
     </td>
     
     <td>
-      <a href="https://beautifier.io/">beautifer.io</a>
+      <a href="crwdns64733:0crwdne64733:0">crwdns64735:0crwdne64735:0</a>
     </td>
   </tr>
   
   <tr>
     <td>
-      جافا
+      crwdns64737:0crwdne64737:0
     </td>
     
     <td>
-      <a href="https://github.com/google/google-java-format">تنسيق جوجل جافا</a>، <a href="http://www.jindent.com/">JIndent</a>
+      crwdns64739:0crwdne64739:0
     </td>
   </tr>
   
   <tr>
     <td>
-      PHP
+      crwdns64741:0crwdne64741:0
     </td>
     
     <td>
-      <a href="http://sourceforge.net/projects/phpstylist/">phpStylist</a>
+      <a href="crwdns64743:0crwdne64743:0">crwdns64745:0crwdne64745:0</a>
     </td>
   </tr>
   
   <tr>
     <td>
-      Perl
+      crwdns64747:0crwdne64747:0
     </td>
     
     <td>
-      <a href="http://perltidy.sourceforge.net/">PerlTidy</a>
+      <a href="crwdns64749:0crwdne64749:0">crwdns64751:0crwdne64751:0</a>
     </td>
   </tr>
   
   <tr>
     <td>
-      シェル/バッシュ
+      crwdns64753:0crwdne64753:0
     </td>
     
     <td>
-      <a href="http://www.bolthole.com/AWK.html">قماش</a>
+      <a href="crwdns64755:0crwdne64755:0">crwdns64757:0crwdne64757:0</a>
     </td>
   </tr>
   
   <tr>
     <td>
-      CSS
+      crwdns64759:0crwdne64759:0
     </td>
     
     <td>
-      <a href="http://csstidy.sourceforge.net/">CSSTidy</a>
+      <a href="crwdns64761:0crwdne64761:0">crwdns64763:0crwdne64763:0</a>
     </td>
   </tr>
   
   <tr>
     <td>
-      HTML
+      crwdns64765:0crwdne64765:0
     </td>
     
     <td>
-      <a href="http://tidy.sourceforge.net/"><unk></a>
+      <a href="crwdns64767:0crwdne64767:0"><unk></a>
     </td>
   </tr>
 </table>
 
-**クイックヒント**: メインテキストエディタとしてVS Codeを使用している場合、ブラウザに自動コードフォーマットを有効にできます。 JSONモードで環境設定ページを開き、次の行を追加します。
+crwdns64769:0crwdne64769:0
 
 ```
-"editor.formatOnSave": صحيح,
+crwdns64771:0crwdne64771:0
 ```
 
-## ソフトウェアの品質チェックを提供するオンラインサービス
+## crwdns64773:0crwdne64773:0
 
-コードを分析し、コードの品質を見えるようにするWebサービスがいくつかあります。 通常、これらのサービスは、コマンドラインから使用したり、自分のコンピュータ上のエディタに統合したりすることができる1つ以上の静的コード解析ツールを実行します。 プルリクエストで品質の問題を検出して通信できるため、GitHub/GitLabリポジトリと統合するコード品質サービスを使用することを強くお勧めします。
+crwdns64775:0crwdne64775:0
 
-コード品質分析サービスは、多くの場合、以下の機能を提供するウェブサイトです:
+crwdns64777:0crwdne64777:0
 
-- GitHub/GitLabにプッシュしたコードを自動的に分析する
-- 通常はオープンソースのプロジェクトでは無料です
-- 複数のプログラミング言語をサポートしますが、すべての言語が同じレベルの機能を持つとは限りません。
-- リポジトリ内のすべてのコードの品質を評価または得点します。
-- 重要度ごとにグループ化されたコードの課題一覧
-- 問題の場所までドリルダウン
-- サービスプロバイダがベストプラクティスを見つけるチェックのデフォルトリスト
-- チェックリストをより厳格またはリラックスさせるように設定できます
-- ファイルや拡張子を無視するように設定できます。
-- リポジトリから設定ファイルを読み込むことができます。
-- 時間の経過とともに問題を追跡し、品質が悪化したときにアラートを送信します
-- 必要に応じて、CI ビルドによって生成されたコードカバレッジについて報告します
-- リポジトリを自動的にデプロイし、最終リリース前にレビュー用のプレビュービルドを生成します。
+- crwdns64779:0crwdne64779:0
+- crwdns64781:0crwdne64781:0
+- crwdns64783:0crwdne64783:0
+- crwdns64785:0crwdne64785:0
+- crwdns64787:0crwdne64787:0
+- crwdns64789:0crwdne64789:0
+- crwdns64791:0crwdne64791:0
+- crwdns64793:0crwdne64793:0
+- crwdns64795:0crwdne64795:0
+- crwdns64797:0crwdne64797:0
+- crwdns64799:0crwdne64799:0
+- crwdns64801:0crwdne64801:0
+- crwdns64803:0crwdne64803:0
 
-選択肢のリストについては、 [shields.io](https://shields.io/category/analysis) または [オープンソースプロジェクト](https://github.com/ripienaar/free-for-dev#code-quality) で無料で利用できるサービスのリストを参照してください。
+crwdns64805:0crwdne64805:0

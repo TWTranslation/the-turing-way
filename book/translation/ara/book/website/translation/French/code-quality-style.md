@@ -1,56 +1,56 @@
-(r-code-style-and format-formatting)=
-# Style de code et mise en forme
+crwdns44957:0crwdne44957:0
+# crwdns44959:0crwdne44959:0
 
-Un style de codage est un ensemble de conventions sur la façon de formater le code. Par exemple, que nommez-vous vos variables ? Utilisez-vous des espaces ou des tabulations pour l'indentation ? Où avez-vous des commentaires? En utilisant le même style dans tout votre code, il est plus facile à lire. Le code facile à lire est plus facile à comprendre par vous ainsi que par les collaborateurs potentiels. Par conséquent, adhérer à un style de codage réduit les risques d'erreurs et facilite la collaboration sur le logiciel. [Pourquoi Coding Style Matter](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) est un article sympa sur pourquoi les styles de codage sont importants et comment ils augmentent la qualité du logiciel.
+crwdns44961:0crwdne44961:0 crwdns44963:0crwdne44963:0 crwdns44965:0crwdne44965:0 crwdns44967:0crwdne44967:0 crwdns44969:0crwdne44969:0 crwdns44971:0crwdne44971:0 crwdns44973:0crwdne44973:0 crwdns44975:0crwdne44975:0
 
-نموذج البار, [PEP8](https://www.python.org/dev/peps/pep-0008/) أفضل نمط لبرمجة Python le بالإضافة إلى التوسيع المستخدم، [ECMAScript 6](http://es6-features.org/) على سبيل المثال [ES6](http://es6-features.org/) a spe<unk> cification de langage de script standardise<unk> e par ECMA International pour la programming en Javascript.
+crwdns44977:0crwdne44977:0
 
-Pour les guides de style couramment utilisés pour divers langages de programmation, consultez les [Guides de langues](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google a également un [guide de style](https://code.google.com/p/google-styleguide/) pour de nombreuses langues qui sont utilisées dans des projets open source provenant de Google.
+crwdns44979:0crwdne44979:0 crwdns44981:0crwdne44981:0
 
-## التنسيق التلقائي
+## crwdns44983:0crwdne44983:0
 
-De nombreux outils existent pour formater automatiquement le code de telle sorte qu'il suit un certain style. La mise en forme automatique permet une meilleure qualité de code, surtout lorsque vous collaborez avec une équipe et que d'autres personnes ont besoin de regarder le code que vous avez écrit. De nombreux développeurs et organisations maintiennent des standards de formatage de code comme **2-space** ou **4-space indentation**. Il est fortement recommandé de les utiliser car la probabilité de trouver des bogues (le cas échéant) est multiple.
+crwdns44985:0crwdne44985:0 crwdns44987:0crwdne44987:0 crwdns44989:0crwdne44989:0 crwdns44991:0crwdne44991:0
 
-[EditorConfig](https://editorconfig.org) est un outil indépendant du langage qui aide à maintenir des styles cohérents d'espaces pour plusieurs personnes travaillant sur le même projet entre différents éditeurs. لا تفصل بين المؤلفين والمحررين بتكاليف تحرير أو عن طريق البرنامج المساعد Presque tous les éditeurs de texte et IDE largement utilisés prennent en charge le formatage automatique du code lors de la saisie. نموذج بار: [مجموعة JetBrains IDE](https://www.jetbrains.com/products.html#)، [VSCode](https://code.visualstudio.com/) و [Atom](https://atom.io/).
+crwdns44993:0crwdne44993:0 crwdns44995:0crwdne44995:0 crwdns44997:0crwdne44997:0 crwdns44999:0crwdne44999:0
 
-En plus de cela, il existe de nombreux outils spécifiques à un langage pour formater automatiquement le code selon un style particulier. Notez que les éditeurs supportent souvent l'utilisation de ces outils directement depuis l'environnement d'édition.
+crwdns45001:0crwdne45001:0 crwdns45003:0crwdne45003:0
 
-| اللغة         | Outil Formatter                                                                                                |
-| ------------- | -------------------------------------------------------------------------------------------------------------- |
-| C/C++         | [GNUIndent](http://www.gnu.org/software/indent/)، [الكود العظيم](http://sourceforge.net/projects/gcgreatcode/) |
-| Python        | [Noir](https://black.readthedocs.io), [yapf](https://pypi.org/project/yapf/)                                   |
-| جافا سكريبت   | [Io](https://beautifier.io/)                                                                                   |
-| جافا          | [تنسيق جوجل جافا](https://github.com/google/google-java-format)، [جيندين](http://www.jindent.com/)             |
-| PHP           | [phpStylist](http://sourceforge.net/projects/phpstylist/)                                                      |
-| Perl          | [PerlTidy](http://perltidy.sourceforge.net/)                                                                   |
-| Obus / Frappe | [مشروع التهدئة](http://www.bolthole.com/AWK.html)                                                              |
-| CSS           | [CSSTidy](http://csstidy.sourceforge.net/)                                                                     |
-| HTML          | [مميتة](http://tidy.sourceforge.net/)                                                                          |
+| crwdns45005:0crwdne45005:0 | crwdns45007:0crwdne45007:0                               |
+| -------------------------- | -------------------------------------------------------- |
+| crwdns45009:0crwdne45009:0 | crwdns45011:0crwdne45011:0                               |
+| crwdns45013:0crwdne45013:0 | crwdns45015:0crwdne45015:0                               |
+| crwdns45017:0crwdne45017:0 | [crwdns45021:0crwdne45021:0](crwdns45019:0crwdne45019:0) |
+| crwdns45023:0crwdne45023:0 | crwdns45025:0crwdne45025:0                               |
+| crwdns45027:0crwdne45027:0 | [crwdns45031:0crwdne45031:0](crwdns45029:0crwdne45029:0) |
+| crwdns45033:0crwdne45033:0 | [crwdns45037:0crwdne45037:0](crwdns45035:0crwdne45035:0) |
+| crwdns45039:0crwdne45039:0 | [crwdns45043:0crwdne45043:0](crwdns45041:0crwdne45041:0) |
+| crwdns45045:0crwdne45045:0 | [crwdns45049:0crwdne45049:0](crwdns45047:0crwdne45047:0) |
+| crwdns45051:0crwdne45051:0 | [crwdns45055:0crwdne45055:0](crwdns45053:0crwdne45053:0) |
 
-**Astuce rapide**: Si vous utilisez le code VS comme éditeur de texte principal, vous pouvez activer le formatage automatique du code directement dans votre navigateur. Ouvrez votre page de préférences en mode JSON et ajoutez la ligne suivante :
+crwdns45057:0crwdne45057:0 crwdns45059:0crwdne45059:0
 
 ```
-"editor.formatOnSave": vrai,
+crwdns45061:0crwdne45061:0
 ```
 
-## Services en ligne fournissant des contrôles de qualité des logiciels
+## crwdns45063:0crwdne45063:0
 
-Il y a plusieurs services web qui analysent le code et rendent la qualité du code visible. Habituellement, ces services exécutent un ou plusieurs outils d'analyse de code statique qui peuvent également être utilisés depuis la ligne de commande ou intégrés dans votre éditeur sur votre propre ordinateur. Il est fortement recommandé d’utiliser un service de qualité de code qui s’intègre à un dépôt GitHub/GitLab, car il peut détecter et communiquer des problèmes de qualité dans les pull requests.
+crwdns45065:0crwdne45065:0 crwdns45067:0crwdne45067:0 crwdns45069:0crwdne45069:0
 
-Les services d'analyse de qualité de code sont des sites Web qui offrent souvent les fonctionnalités suivantes :
+crwdns45071:0crwdne45071:0
 
-- Analyser automatiquement votre code après l'avoir envoyé sur GitHub/GitLab
-- Habituellement gratuit pour les projets open source
-- Prise en charge de plusieurs langages de programmation, mais pas toutes les langues auront le même niveau de fonctionnalités
-- Note ou note pour la qualité de tout le code dans le référentiel
-- Liste des problèmes avec le code, regroupés par gravité
-- نزل التذكرة
-- Liste par défaut des vérifications que le fournisseur de services trouve les meilleures pratiques
-- Peut être configuré pour rendre la liste des contrôles plus stricte ou plus détendue
-- Peut être configuré pour ignorer les fichiers ou les extensions
-- Peut lire un fichier de configuration depuis le référentiel
-- Suivre les problèmes au fil du temps et envoyer des alertes lorsque la qualité se détériore
-- Rapporte éventuellement sur la couverture de code générée par une version CI
-- 1 - وضع الصيغة النهائية للنشر بصورة تلقائية في الموقع الشبكي للمنشور.
+- crwdns45073:0crwdne45073:0
+- crwdns45075:0crwdne45075:0
+- crwdns45077:0crwdne45077:0
+- crwdns45079:0crwdne45079:0
+- crwdns45081:0crwdne45081:0
+- crwdns45083:0crwdne45083:0
+- crwdns45085:0crwdne45085:0
+- crwdns45087:0crwdne45087:0
+- crwdns45089:0crwdne45089:0
+- crwdns45091:0crwdne45091:0
+- crwdns45093:0crwdne45093:0
+- crwdns45095:0crwdne45095:0
+- crwdns45097:0crwdne45097:0
 
-Pour une liste de choix, voir [shields.io](https://shields.io/category/analysis) ou [cette liste de services gratuits pour les projets open source](https://github.com/ripienaar/free-for-dev#code-quality).
+crwdns45099:0crwdne45099:0

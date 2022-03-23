@@ -1,35 +1,35 @@
-(r-code-Qualita<unk> t)=
-# كودي كياليتا
+crwdns59345:0crwdne59345:0
+# crwdns59347:0crwdne59347:0
 
-| Voraussetzung                                                                                | Bedeutung |
-| -------------------------------------------------------------------------------------------- | --------- |
-| [Erfahrung mit der Kommandozeile](https://programminghistorian.org/en/lessons/intro-to-bash) | Hilfreich |
+| crwdns59349:0crwdne59349:0                               | crwdns59351:0crwdne59351:0 |
+| -------------------------------------------------------- | -------------------------- |
+| [crwdns59355:0crwdne59355:0](crwdns59353:0crwdne59353:0) | crwdns59357:0crwdne59357:0 |
 
-## Summary
+## crwdns59359:0crwdne59359:0
 
-Es gibt mehrere Möglichkeiten, die Software-Qualität zu verbessern, die relativ wenig Aufwand erfordert. Durch das Befolgen eines Codierungsstils wird Code für Sie und andere leichter zu verstehen sein und wird daher weniger Fehler enthalten. Tools für statische Codeanalyse können Fehler sowie Stil-Probleme melden, ohne den Code auszuführen.
+crwdns59361:0crwdne59361:0 crwdns59363:0crwdne59363:0 crwdns59365:0crwdne59365:0
 
-## Statische Code-Analyse
+## crwdns59367:0crwdne59367:0
 
-Statische Code-Analyse ist eine Methode, die Code untersucht und Software-Verwundbarkeiten entdeckt, bevor Ihr Code ausgeführt wird oder das Projekt gebaut und verteilt wird. Diese Analyse ist in der Lage, Qualitätsprobleme zu identifizieren, einschließlich Sicherheitslücken und Fehlern. Neben dem Auffinden von Fehlern können viele dieser Tools auch dazu beitragen, einen konsistenten Programmierstil zu erhalten.
+crwdns59369:0crwdne59369:0 crwdns59371:0crwdne59371:0 crwdns59373:0crwdne59373:0
 
-(rr-code-Qualität-Vorteile)=
-### Vorteile der statischen Codeanalyse
+crwdns59375:0crwdne59375:0
+### crwdns59377:0crwdne59377:0
 
-- Schreibe qualitativ hochwertigen Code: Frühe Erkennung möglicher Programmierfehler hilft Entwicklern zu wissen, wo sie schief gelaufen sind.
+- crwdns59379:0crwdne59379:0
 
-- Erzielen regulatorischer Compliance: Die Einhaltung von Software ist entscheidend für die Stabilität und Sicherheit von Produkten. Damit können Entwickler ihren Code umfassend in einer nicht-Laufzeitumgebung testen, um sicherzustellen, dass alle Code-Standards eingehalten werden und Unternehmenssicherheit erreicht wird.
+- crwdns59381:0crwdne59381:0 crwdns59383:0crwdne59383:0
 
-- Lebenszyklen für die Softwareentwicklung: Statische Codeanalyse sorgt dafür, dass qualitativ hochwertiger Code in kürzester Zeit Tester erreicht. Das bedeutet, dass selbst Tester viel weniger Zeit brauchen, um das Produkt zu testen und so die Software-Entwicklungslebenszyklen zu beschleunigen.
+- crwdns59385:0crwdne59385:0 crwdns59387:0crwdne59387:0
 
-Einige der am häufigsten verwendeten `Linters` werden in der folgenden Tabelle erwähnt:
+crwdns59389:0crwdne59389:0
 
-| سباخ        | Statisches Codeanalysewerkzeug                                                                                           |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| C/C++       | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                               |
-| Python      | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                              |
-| جافا سكريبت | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                              |
-| جالتا       | [اختبار](https://checkstyle.sourceforge.io/)، [FindBugs](http://findbugs.sourceforge.net)، [PMD](https://pmd.github.io/) |
-| Perl        | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                            |
-| ل           | [lintr](https://github.com/jimhester/lintr)                                                                              |
-| قذيفة/باش   | [قذيفة](https://www.shellcheck.net)                                                                                      |
+| crwdns59391:0crwdne59391:0 | crwdns59393:0crwdne59393:0                               |
+| -------------------------- | -------------------------------------------------------- |
+| crwdns59395:0crwdne59395:0 | crwdns59397:0crwdne59397:0                               |
+| crwdns59399:0crwdne59399:0 | crwdns59401:0crwdne59401:0                               |
+| crwdns59403:0crwdne59403:0 | crwdns59405:0crwdne59405:0                               |
+| crwdns59407:0crwdne59407:0 | crwdns59409:0crwdne59409:0                               |
+| crwdns59411:0crwdne59411:0 | [crwdns59415:0crwdne59415:0](crwdns59413:0crwdne59413:0) |
+| crwdns59417:0crwdne59417:0 | [crwdns59421:0crwdne59421:0](crwdns59419:0crwdne59419:0) |
+| crwdns59423:0crwdne59423:0 | [crwdns59427:0crwdne59427:0](crwdns59425:0crwdne59425:0) |

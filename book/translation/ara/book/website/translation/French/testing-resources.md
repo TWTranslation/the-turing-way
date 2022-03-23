@@ -1,98 +1,98 @@
-# Autres recommandations
+# crwdns46339:0crwdne46339:0
 
-Essayez de lire le chapitre sur les environnements de calcul reproductibles et ensuite le chapitre sur l'intégration continue. Le chapitre sur l'examen décrit comment vous pouvez renforcer davantage votre base de code en ajoutant une étape d'évaluation formelle à votre flux de développement.
+crwdns46341:0crwdne46341:0 crwdns46343:0crwdne46343:0
 
-[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) a un certain nombre de tutoriels utiles liés aux tests, tout comme l'Institut [Turing](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). Il vaut également la peine de regarder [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com).
+crwdns46345:0crwdne46345:0 crwdns46347:0crwdne46347:0
 
-## Matériaux utilisés : en quoi cela vous aidera/ pourquoi cela est utile
+## crwdns46349:0crwdne46349:0
 
-- [Discours de Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Paternité-Pas d'Utilisation Commerciale-Partage à l'identique 4.0 Licence internationale**](https://chryswoods.com/main/copyright.html)
-- [Les bases du cours de test Turing](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Le partage et le remix Creative Commons**
-- [مدونة SSI](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير التجارية 2.5 .**
+- crwdns46351:0crwdne46351:0
+- crwdns46353:0crwdne46353:0
+- crwdns46355:0crwdne46355:0
 
-## Matériaux utilisés : Orientation générale et bonnes pratiques pour les tests
+## crwdns46357:0crwdne46357:0
 
-- [Blogue SSI sur le logiciel de test](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير التجارية 2.5 غير التجارية**
-- [Cours de test Turing](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Partage et remixage Creative Commons**
-- [السخرة](https://www.vogella.com/tutorials/Mockito/article.html) **الإسناد-غير التجارية-المساهمة مثل 3.0 Allemagne (CC BY-NC-SA 3.0 DE)**
-- [Tests avec virgule flottante](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Licence Apache 2.0**
+- crwdns46359:0crwdne46359:0
+- crwdns46361:0crwdne46361:0
+- crwdns46363:0crwdne46363:0
+- crwdns46365:0crwdne46365:0
 
-## Mate<unk> riaux usise<unk> : أنواع الاختبارات
+## crwdns46367:0crwdne46367:0
 
-- [Essai de logiciels fondamentaux : niveaux de tests](http://softwaretestingfundamentals.com/software-testing-levels/) **Copyleft - 2019 STF**
+- crwdns46369:0crwdne46369:0
 
-## Matériaux utilisés : Essai de fumée
+## crwdns46371:0crwdne46371:0
 
-- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **المشاع الإبداعي الأبوين - استخدام التجارة - Partage a<unk> l'identique 4.0 Licence Internationale.**
+- crwdns46373:0crwdne46373:0
 
-## Mate<unk> riaux usise<unk> : وحدات الاختبار
+## crwdns46375:0crwdne46375:0
 
-- [لا يوجد تعريف مستبعد يستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **المشاع الإبداعي الأبوين - استخدام التجارة - Partage a<unk> l'identique 4.0 Licence International**
-- [Essai de logiciels fondamentaux : tests unitaires](http://softwaretestingfundamentals.com/unit-testing/) **Copyleft - 2019 STF**
+- crwdns46377:0crwdne46377:0
+- crwdns46379:0crwdne46379:0
 
-## Matériaux utilisés : Essais d'intégration
+## crwdns46381:0crwdne46381:0
 
-- [لا يوجد تعريف مستبعد يستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **المشاع الإبداعي الأبوين - استخدام التجارة - Partage a<unk> l'identique 4.0 Licence International**
-- [Tests de logiciels fondamentaux : intégration testée](http://softwaretestingfundamentals.com/integration-testing/) **Copyleft - 2019 STF**
+- crwdns46383:0crwdne46383:0
+- crwdns46385:0crwdne46385:0
 
-## Mate<unk> riaux usise<unk> : اختبار <unk> me
+## crwdns46387:0crwdne46387:0
 
-- [Essai de base des logiciels : test système](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
-- [لا يوجد تعريف مستبعد يستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **المشاع الإبداعي الأبوين - استخدام التجارة - Partage a<unk> l'identique 4.0 Licence International**
+- crwdns46389:0crwdne46389:0
+- crwdns46391:0crwdne46391:0
 
-## منظمة Mate<unk> riaux usise<unk> : اختبار القبول
-- [لا يوجد تعريف مستبعد يستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **المشاع الإبداعي الأبوين - استخدام التجارة - Partage a<unk> l'identique 4.0 Licence International**
+## crwdns46393:0crwdne46393:0
+- crwdns46395:0crwdne46395:0
 
-## Mate<unk> riaux usise<unk> : اختبارات إعادة التجاوز
+## crwdns46397:0crwdne46397:0
 
-- [Logiciel de son](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Paternité-Pas d'Utilisation Commerciale 3.0 Licence**
-- [اختبارات منطقية قاعدة اختبارات إعادة العدوان](http://softwaretestingfundamentals.com/regression-testing/) **نسخة**
-- [اختبارات الانقلاب للمبادرة](http://www.testingeducation.org/k04/RegressionExamples.htm) **المشاع الابداعيون الأبوون - تحليل لمبادرات الشروط a<unk> l'Identique 2.0**
-- [تبني الاختبارات تلقائيًا](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **رخصة أباتشي 2.0**
+- crwdns46399:0crwdne46399:0
+- crwdns46401:0crwdne46401:0
+- crwdns46403:0crwdne46403:0
+- crwdns46405:0crwdne46405:0
 
-## ماتيو أريو المستخدمة: اختبار التوقف
+## crwdns46407:0crwdne46407:0
 
-- [Discours de Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Paternité-Pas d'Utilisation Commerciale-Partage à l'identique 4.0 Licence internationale**](https://chryswoods.com/main/copyright.html)
+- crwdns46409:0crwdne46409:0
 
-## Matériaux utilisés : développement piloté par le test
+## crwdns46411:0crwdne46411:0
 
-- [منطق الناخبين المختبر](https://software.ac.uk/resources/guides/testing-your-software) **رخصة المشاع الإبداعي - غير تجاري 3.0**
-- [ترخيص Pourquoi embe<unk> ter](http://soundsoftware.ac.uk/unit-testing-why-bother/) **رخصة المشاع الإبداعي Paternite<unk> -Pas d'Use Commerciale 3.0**
+- crwdns46413:0crwdne46413:0
+- crwdns46415:0crwdne46415:0
 
-## Matériaux utilisés : glossaire
+## crwdns46417:0crwdne46417:0
 
-- [مركز العلوم الإلكترونية](https://guide.esciencecenter.nl/#/best_practices/testing) **رخصة المشاع الإبداعية<unk> 4.0 دولية**
+- crwdns46419:0crwdne46419:0
 
-### Définitions/glossaire
+### crwdns46421:0crwdne46421:0
 
-- **Test d'acceptation :** Un test que le programme répond aux exigences fondamentales du projet.
+- crwdns46423:0crwdne46423:0
 
-- **Couverture de code :** Une mesure qui décrit combien de code source est exercé par la suite d'essai.
+- crwdns46425:0crwdne46425:0
 
-- **Test de fin à fin :** Un test qui exécute le programme du début à la fin et vérifie que la sortie est correcte.
+- crwdns46427:0crwdne46427:0
 
-- **Test d'intégration :** Un test où les unités de code sont combinées et exécutées, et la sortie est vérifiée pour vérifier que les unités ont été correctement intégrées.
+- crwdns46429:0crwdne46429:0
 
-- **Mocking :** Remplace un objet réel par un prétendu utiliser lors de l'exécution de tests.
+- crwdns46431:0crwdne46431:0
 
-- **اختبارات إعادة العدوان:** مقارنة بين إعادة السلطنة في سان سان وسان كيس في الكود البرمجي أو التعديل. Si la sortie a changé, un problème a été introduit quelque part dans le programme, et une erreur est levée.
+- crwdns46433:0crwdne46433:0 crwdns46435:0crwdne46435:0
 
-- **اختبارات exe<unk> cution :** الاختبارات المميزة في البرنامج qui y sont exe<unk> cute<unk> .
+- crwdns46437:0crwdne46437:0
 
-- **Test de fumée :** Très brèves vérifications initiales qui assurent les exigences de base nécessaires pour exécuter le projet maintenu.
+- crwdns46439:0crwdne46439:0
 
-- **Code Stochastique :** Code qui, bien que correct, ne produit pas toujours le même résultat. Par exemple, un programme qui donne dix nombres aléatoires générera un résultat différent à chaque fois, bien qu'il soit correct.
+- crwdns46441:0crwdne46441:0 crwdns46443:0crwdne46443:0
 
-- **اختبار <unk> me :** Voir "إنهاء الاختبار النهائي".
+- crwdns46445:0crwdne46445:0
 
-- **Test de développement piloté :** Un processus de développement de code où les tests unitaires sont écrits avant les unités elles-mêmes.
+- crwdns46447:0crwdne46447:0
 
-- **Test stub :** Fausses implémentations de parties de code qui sont utilisées dans le test pour supprimer les dépendances.
+- crwdns46449:0crwdne46449:0
 
-- **Suite de test :** Les tests qui ont été écrits pour un projet.
+- crwdns46451:0crwdne46451:0
 
-- **Cadre de test :** Outils qui rendent l'écriture et l'exécution de tests moins intensifs en main-d'œuvre.
+- crwdns46453:0crwdne46453:0
 
-- **Unité :** Un petit morceau de code qui fait une chose simple. Il a généralement une ou quelques entrées et généralement une seule sortie.
+- crwdns46455:0crwdne46455:0 crwdns46457:0crwdne46457:0
 
-- **Test unitaire :** Un test qui vérifie le comportement d'une unité.
+- crwdns46459:0crwdne46459:0

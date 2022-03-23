@@ -1,0 +1,88 @@
+/*--------------------------------------------------------------------*\ 
+
+Este arquivo contém o CSS que lida com o estilo em todo o livro.
+Use as classes aqui definidas para controlar a aparência dos elementos HTML na sua contribuição.
+
+Se você adicionar novos estilos, lembre-se de explicar o que ele faz como mostrado abaixo. 
+
+Indexação
+  - Estilo para a Tabela de Conteúdo
+  - Estilo para vídeos incorporados
+
+\*--------------------------------------------------------------------*/ 
+
+/*--------------------------------------------------------------------*\ 
+Estilo para a Tabela de Conteúdo 
+
+- Garante que os itens de menu na tabela de conteúdo são grandes o suficiente para os leitores
+
+\*--------------------------------------------------------------------*/ 
+
+#site-navigation li > a {
+  font-size: 1.1em;
+}
+
+/*--------------------------------------------------------------------*\
+
+Estilo para Vídeos Embutidos (iframes) 
+
+- Garante que os vídeos podem redimensionar para se adequar à tela onde o livro é lido.
+- Também garante que os vídeos sejam horizontalmente centrados.
+
+\*--------------------------------------------------------------------*/ 
+
+.vídeo-contêiner {
+  posição: relativo;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  altura: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  posição: absoluta;
+  topo:0;
+  restante: 0;
+  width: 100%;
+  altura: 100%;
+}
+
+iframe {
+  margin: automático;
+  exibir:bloco;
+}
+
+/*--------------------------------------------------------------------*\
+
+Estilo para tabelas
+
+- Melhora o estilo de tabelas sobre o padrão de Markdown
+- Adiciona bordas às tabelas e permite que uma linha seja destacada quando pairada
+
+\*--------------------------------------------------------------------*/ 
+
+th, td {
+  borda: 1px sólido #99999999 !important; 
+  text-align: center; 
+  padding: 10px
+}
+
+ovo {
+  font-weight: negrito; 
+  cor-de-fundo: #EEEEEEEE;
+}
+
+legenda da tabela {
+  color: preto; 
+  text-align: center;
+}
+
+legenda da tabela .footnote {
+  cor: #666666; 
+  text-align: esquerda; 
+  font-size: menor;
+}
+
+tr:hover {
+  cor de fundo: #f7f7f7;
+}

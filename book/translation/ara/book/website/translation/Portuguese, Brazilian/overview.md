@@ -1,32 +1,29 @@
-(rr-visão geral)=
-# Visão geral de pesquisa reprodutível
+crwdns75461:0crwdne75461:0
+# crwdns75463:0crwdne75463:0
 
-(r-overview-pre<unk> -requisitos)=
-## الشروط المسبقة
+crwdns75465:0crwdne75465:0
+## crwdns75467:0crwdne75467:0
 
-Não é necessário conhecimento anterior.
+crwdns75469:0crwdne75469:0
 
 ```{figure} ../figures/research-cycle.jpg
----
-nome: ciclo de pesquisa
-alt: O processo de pesquisa é representado como um ciclo perpétuo de gerar idéias pesquisas, realizando o planejamento e design de dados, coleta de dados e processamento e análise de dados, publicando, preservando e daí permitindo a reutilização de dados. 
----
-_A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+crwdns75471:0crwdne75471:0 
+crwdns75473:0crwdne75473:0 crwdns75475:0crwdne75475:0 crwdns75477:0crwdne75477:0
 ```
 
-(r-overview-sumy)=
-## Summary
+crwdns75479:0crwdne75479:0
+## crwdns75481:0crwdne75481:0
 
-Os resultados e evidências científicos são reforçados se esses resultados podem ser replicados e confirmados por vários pesquisadores independentes (veja {ref}`definições <rr-overview-definitions>`).
+crwdns75483:0{ref}crwdne75483:0
 
-Quando os investigadores empregam a transparência na sua investigação - por outras palavras, quando eles documentam e compartilham adequadamente os dados e processos associados às suas análises - a comunidade científica em geral é capaz de poupar um tempo valioso quando reproduzem ou se desenvolvem sobre os resultados publicados. Muitas vezes, os dados ou códigos de projetos anteriores serão reutilizados por novos pesquisadores para verificar descobertas antigas ou desenvolver novas análises.
+crwdns75485:0crwdne75485:0 crwdns75487:0crwdne75487:0
 
-Saiba mais sobre alguns dos outros benefícios da pesquisa reprodutível no {ref}`Adicionado Vantagens <rr-overview-benefits>` subcapítulo.
+crwdns75489:0{ref}crwdne75489:0
 
-Principais meios de comunicação [relataram sobre as investigações](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) que mostram que uma porcentagem significativa de estudos científicos não pode ser reproduzida. Isso leva a que outros acadêmicos e sociedades percam a confiança nos resultados científicos {cite:ps}`paniker2016reproducibility`.
+crwdns75491:0crwdne75491:0 crwdns75493:0{cite:ps}crwdne75493:0
 
-Além disso, "resultados negativos" podem ser publicados facilmente, ajudar a evitar que outros pesquisadores percam tempo repetindo análises que não retornarão os resultados esperados {cite:ps}`Dirnagl2010bias`.
+crwdns75495:0{cite:ps}crwdne75495:0
 
-لمزيد من قراءة الموارد على قابلية الاستنساخ، يرجى التحقق من {ref}`<code> فصل فرعي <rr-overview-resources>`.
+crwdns75497:0{ref}crwdne75497:0
 
-***Tags de Capítulo**: Este capítulo é curado para o `Grupo de Estudo de Dados de Turing` (`turing-dsg`).*
+*crwdns75499:0crwdne75499:0*

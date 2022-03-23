@@ -1,98 +1,98 @@
-# Weitere Empfehlungen
+# crwdns59619:0crwdne59619:0
 
-Lesen Sie das Kapitel über reproduzierbare Computer-Umgebungen und dann das Kapitel über kontinuierliche Integration. Das Kapitel zur Überprüfung skizziert wie Sie Ihre Codebasis weiter stärken können, indem Sie Ihrem Entwicklungs-Workflow eine formale Überprüfungsphase hinzufügen.
+crwdns59621:0crwdne59621:0 crwdns59623:0crwdne59623:0
 
-[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) hat eine Reihe nützlicher Tutorials zum Testen sowie das [Turing Institute](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). Es lohnt sich auch einen Blick auf [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com).
+crwdns59625:0crwdne59625:0 crwdns59627:0crwdne59627:0
 
-## Verwendete Materialien: Wie wird dir helfen/ warum dies nützlich ist
+## crwdns59629:0crwdne59629:0
 
-- [Sprechen Sie von Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Namensnennung-Nichtkommerziell-ShareAlike 4.0 Internationale Lizenz**](https://chryswoods.com/main/copyright.html)
-- [Grundlagen des Testkurses einrichten](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Creative Commons teilen und neu mischen**
-- [مدونة SSI](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **المشاع الإبداعي Namensnennung Non-Commercial 2.5 Lizenz**
+- crwdns59631:0crwdne59631:0
+- crwdns59633:0crwdne59633:0
+- crwdns59635:0crwdne59635:0
 
-## Verwendete Materialien: Allgemeine Anleitung und bewährte Verfahren für Tests
+## crwdns59637:0crwdne59637:0
 
-- [SI Bauf Testsoftware](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **المشاع الإبداعي Namensnennung Non-Commercial 2.5 Lizenz**
-- [Testkurs zum Turnen](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Creative Commons teilen und neu mischen**
-- [Verhöhnung](https://www.vogella.com/tutorials/Mockito/article.html) **Namensnennung-Nichtkommerziell-ShareAlike 3.0 Deutschland (CC BY-NC-SA 3.0 DE)**
-- [Testen mit Fließkommazahlen](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- crwdns59639:0crwdne59639:0
+- crwdns59641:0crwdne59641:0
+- crwdns59643:0crwdne59643:0
+- crwdns59645:0crwdne59645:0
 
-## Verwendete Materialien: Testtypen
+## crwdns59647:0crwdne59647:0
 
-- [اختبارات البرمجيات: مستوى الاختبارات](http://softwaretestingfundamentals.com/software-testing-levels/) **نسخ - 2019 STF**
+- crwdns59649:0crwdne59649:0
 
-## Verwendete Materialien: Rauchversuche
+## crwdns59651:0crwdne59651:0
 
-- [Digitale Lizenz](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **المشاع الإبداعي-غير تجاري-المشاركة الدولية مثل 4.0 Lizenz**
+- crwdns59653:0crwdne59653:0
 
-## Verwendete Materialien: Einheitstest
+## crwdns59655:0crwdne59655:0
 
-- [Eine Einfu<unk> hrung in die kontinuierliche Integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Internationale Lizenz**
-- [اختبارات البرمجيات-البرمجيات: وحدات الاختبارات](http://softwaretestingfundamentals.com/unit-testing/) **نسخ اليسار - 2019 STF**
+- crwdns59657:0crwdne59657:0
+- crwdns59659:0crwdne59659:0
 
-## Verwendete Materialien: اندماج
+## crwdns59661:0crwdne59661:0
 
-- [Eine Einfu<unk> hrung in die kontinuierliche Integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Internationale Lizenz**
-- [اختبارات البرمجيات: التكامل:](http://softwaretestingfundamentals.com/integration-testing/) **نسخ - 2019 STF**
+- crwdns59663:0crwdne59663:0
+- crwdns59665:0crwdne59665:0
 
-## Verwendete Materialien: Systemtest
+## crwdns59667:0crwdne59667:0
 
-- [Grundlagen zum Software-Testen: Systemtest](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
-- [Eine Einfu<unk> hrung in die kontinuierliche Integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Internationale Lizenz**
+- crwdns59669:0crwdne59669:0
+- crwdns59671:0crwdne59671:0
 
-## Verwendete Materialien: Akzeptanzprüfung
-- [Eine Einfu<unk> hrung in die kontinuierliche Integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Internationale Lizenz**
+## crwdns59673:0crwdne59673:0
+- crwdns59675:0crwdne59675:0
 
-## Verwendete Materialien: Regressionstest
+## crwdns59677:0crwdne59677:0
 
-- [Sound-Software](http://soundsoftware.ac.uk/unit-testing-why-bother/) **المشاع الإبداعي Namensnennung-Nichtkommerzielles 3.0 Lizenz**
-- [برنامج التجارب-غراندلاغن ريسيسترستيف](http://softwaretestingfundamentals.com/regression-testing/) **نسخ**
-- [Beispiele fu<unk> r Regressionsteants von Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **Creative Commons Namensnennung-ShareAlike Lizenz 2.0**
-- [Automatisches Testen übernehmen](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- crwdns59679:0crwdne59679:0
+- crwdns59681:0crwdne59681:0
+- crwdns59683:0crwdne59683:0
+- crwdns59685:0crwdne59685:0
 
-## Verwendete Materialien: Laufzeit-Test
+## crwdns59687:0crwdne59687:0
 
-- [Sprechen Sie von Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Namensnennung-Nichtkommerziell-ShareAlike 4.0 Internationale Lizenz**](https://chryswoods.com/main/copyright.html)
+- crwdns59689:0crwdne59689:0
 
-## Verwendete Materialien: Testgetriebene Entwicklung
+## crwdns59691:0crwdne59691:0
 
-- [برنامج Testen Ihrer](https://software.ac.uk/resources/guides/testing-your-software) **المشاع الإبداعي Namensnennung-NonCommercial 3.0 Lizenz**
-- [موقد الوارم](http://soundsoftware.ac.uk/unit-testing-why-bother/) **المشاع الإبداعي Namensnennung-NonCommercial 3.0 Lizenz**
+- crwdns59693:0crwdne59693:0
+- crwdns59695:0crwdne59695:0
 
-## Verwendete Materialien: Glossar
+## crwdns59697:0crwdne59697:0
 
-- [niederla<unk> ndisches eScience Zentrum](https://guide.esciencecenter.nl/#/best_practices/testing) **المشاع الإبداعي Namensnennung 4.0 Internationale Lizenz**
+- crwdns59699:0crwdne59699:0
 
-### التعريف/المسرد
+### crwdns59701:0crwdne59701:0
 
-- **Akzeptierungstest:** Ein Test, dass das Programm die grundlegenden Anforderungen des Projekts erfüllt.
+- crwdns59703:0crwdne59703:0
 
-- **Code-Code:** Ein Maß, das beschreibt, wie viel des Quellcodes von der Testsuite ausgeübt wird.
+- crwdns59705:0crwdne59705:0
 
-- **Ende-Test:** Ein Test, der das Programm vom Anfang bis zum Ende ausführt und überprüft, ob die Ausgabe korrekt ist.
+- crwdns59707:0crwdne59707:0
 
-- **Integrationstest:** Ein Test, bei dem Code-Einheiten kombiniert und ausgeführt werden, und die Ausgabe überprüft wird, um zu überprüfen, dass die Einheiten korrekt integriert wurden.
+- crwdns59709:0crwdne59709:0
 
-- **Verhöhnung:** Ersetzen Sie ein echtes Objekt durch ein angebliches zu verwendendes Objekt beim Ausführen von Tests.
+- crwdns59711:0crwdne59711:0
 
-- **Regressionstest:** Vergleicht das Ergebnis eines Tests vor und nach der Änderung des Codes. Wenn sich die Ausgabe geändert hat, wurde irgendwo ein Problem in das Programm eingeführt, und ein Fehler wird geworfen.
+- crwdns59713:0crwdne59713:0 crwdns59715:0crwdne59715:0
 
-- **Laufzeittest:** Tests eingebettet in das Programm, die als Teil des Programms ausgeführt werden.
+- crwdns59717:0crwdne59717:0
 
-- **Smoke Test:** Sehr kurze Erstprüfungen, die sicherstellen, dass die grundlegenden Anforderungen für die Ausführung des Projekts eingehalten werden.
+- crwdns59719:0crwdne59719:0
 
-- **Stochastischer Code:** Code, der zwar korrekt ist, aber nicht immer das gleiche Ergebnis ausgibt. Zum Beispiel erzeugt ein Programm, das zehn zufällige Zahlen ausgibt, jedes Mal ein anderes Ergebnis, obwohl es korrekt ist.
+- crwdns59721:0crwdne59721:0 crwdns59723:0crwdne59723:0
 
-- **اختبار النظام:** Siehe "إنهاء الاختبار".
+- crwdns59725:0crwdne59725:0
 
-- **Testgetriebene Entwicklung:** Ein Prozess der Code-Entwicklung, bei dem Unit-Tests vor den Einheiten selbst geschrieben werden.
+- crwdns59727:0crwdne59727:0
 
-- **Teststub:** Falsche Implementierungen von Teilen des Codes, die in Testing verwendet werden, um Abhängigkeiten zu entfernen.
+- crwdns59729:0crwdne59729:0
 
-- **Testsuite:** Die Tests, die für ein Projekt geschrieben wurden.
+- crwdns59731:0crwdne59731:0
 
-- **Test-Framework:** Werkzeuge, die das Schreiben und Ausführen von Tests weniger arbeitsintensiv machen.
+- crwdns59733:0crwdne59733:0
 
-- **Einheit:** Ein kleines Stück Code, das eine einfache Sache macht. Es hat in der Regel einen oder ein paar Eingänge und normalerweise eine einzige Ausgabe.
+- crwdns59735:0crwdne59735:0 crwdns59737:0crwdne59737:0
 
-- **Einheitstest:** Ein Test, der das Verhalten einer Einheit überprüft.
+- crwdns59739:0crwdne59739:0

@@ -1,56 +1,56 @@
-(نمط وتكوين r-code)=
-# Code-Stil und Formatierung
+crwdns59429:0crwdne59429:0
+# crwdns59431:0crwdne59431:0
 
-Ein Code-Stil ist eine Reihe von Konventionen zum Formatieren von Code. Zum Beispiel, was nennen Sie Ihre Variablen? Verwenden Sie Leerzeichen oder Tabs für Einrücken? Wo bringen Sie Einwände? Durch die konsequente Verwendung des gleichen Stils während des gesamten Codes wird das Lesen vereinfacht. Code, der leicht zu lesen ist, ist sowohl von Ihnen als auch von potenziellen Mitarbeitern leichter zu verstehen. Das Festhalten an einem Programmierstil verringert somit das Fehlerrisiko und erleichtert die Zusammenarbeit im Bereich Software. [Warum Coding Style wichtig ist](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) ist ein netter Artikel darüber, warum Codierungsstile wichtig sind und wie sie die Software-Qualität erhöhen.
+crwdns59433:0crwdne59433:0 crwdns59435:0crwdne59435:0 crwdns59437:0crwdne59437:0 crwdns59439:0crwdne59439:0 crwdns59441:0crwdne59441:0 crwdns59443:0crwdne59443:0 crwdns59445:0crwdne59445:0 crwdns59447:0crwdne59447:0
 
-Zum Beispiel [PEP8](https://www.python.org/dev/peps/pep-0008/) جهاز الدرس هو بايثون - كود-ستيل آند [ECMAScript 6](http://es6-features.org/) كعرف [ES6](http://es6-features.org/) ist die von ECMA International standardisierte Spezifikation fu<unk> r die Programmierung in Javascript.
+crwdns59449:0crwdne59449:0
 
-Für häufig verwendete Stilanleitungen für verschiedene Programmiersprachen lesen Sie bitte die [Sprachanleitungen](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google hat auch einen [Style-Guide](https://code.google.com/p/google-styleguide/) für viele Sprachen, die in Open-Source-Projekten verwendet werden, die von Google stammen.
+crwdns59451:0crwdne59451:0 crwdns59453:0crwdne59453:0
 
-## Automatische Formatierung
+## crwdns59455:0crwdne59455:0
 
-Es gibt zahlreiche Werkzeuge, um Code automatisch so zu formatieren, dass er einem bestimmten Stil folgt. Automatische Formatierung ermöglicht eine höhere Code-Qualität, insbesondere wenn Sie in einem Team zusammenarbeiten und andere Leute müssen sich den Code ansehen, den Sie geschrieben haben. Viele Entwickler und Organisationen unterhalten Standards für die Codeformatierung wie **2-space** oder **4-space Einrückung**. Diese zu verwenden ist sehr empfehlenswert, da sich die Wahrscheinlichkeit vervielfacht, Fehler zu finden (falls vorhanden).
+crwdns59457:0crwdne59457:0 crwdns59459:0crwdne59459:0 crwdns59461:0crwdne59461:0 crwdns59463:0crwdne59463:0
 
-[EditorConfig](https://editorconfig.org) ist ein sprachunabhängiges Werkzeug, das hilft, konsistente Whitespace-Stile für mehrere Personen zu erhalten, die in verschiedenen Editoren am selben Projekt arbeiten. Die meisten Editoren unterstützen EditorConfig entweder nativ oder über ein Plugin. Fast alle verbreiteten IDEs und Text-Editoren unterstützen die automatische Codeformatierung beim Schreiben. Zum Beispiel: [JetBrains IDE Suite](https://www.jetbrains.com/products.html#), [VSCode](https://code.visualstudio.com/) und [Atom](https://atom.io/).
+crwdns59465:0crwdne59465:0 crwdns59467:0crwdne59467:0 crwdns59469:0crwdne59469:0 crwdns59471:0crwdne59471:0
 
-Zusätzlich gibt es viele sprachspezifische Tools zur automatischen Formatierung von Code nach einem bestimmten Stil. Beachten Sie, dass Editoren diese Werkzeuge oft direkt aus der Editierumgebung heraus verwenden.
+crwdns59473:0crwdne59473:0 crwdns59475:0crwdne59475:0
 
-| سباخ        | Formatierer                                                                                                        |
-| ----------- | ------------------------------------------------------------------------------------------------------------------ |
-| C/C++       | [GNUIndent](http://www.gnu.org/software/indent/), [Großartiger Code](http://sourceforge.net/projects/gcgreatcode/) |
-| Python      | [Schwarz](https://black.readthedocs.io), [yapf](https://pypi.org/project/yapf/)                                    |
-| جافا سكريبت | [beautifier.io](https://beautifier.io/)                                                                            |
-| جالتا       | [تنسيق جوجل جافا](https://github.com/google/google-java-format)، [JIndent](http://www.jindent.com/)                |
-| PHP         | [phpStylist](http://sourceforge.net/projects/phpstylist/)                                                          |
-| Perl        | [PerlTidy](http://perltidy.sourceforge.net/)                                                                       |
-| قذيفة/باش   | [Shelleinzug](http://www.bolthole.com/AWK.html)                                                                    |
-| CSS         | [CSSTidy](http://csstidy.sourceforge.net/)                                                                         |
-| HTML        | [مميتة](http://tidy.sourceforge.net/)                                                                              |
+| crwdns59477:0crwdne59477:0 | crwdns59479:0crwdne59479:0                               |
+| -------------------------- | -------------------------------------------------------- |
+| crwdns59481:0crwdne59481:0 | crwdns59483:0crwdne59483:0                               |
+| crwdns59485:0crwdne59485:0 | crwdns59487:0crwdne59487:0                               |
+| crwdns59489:0crwdne59489:0 | [crwdns59493:0crwdne59493:0](crwdns59491:0crwdne59491:0) |
+| crwdns59495:0crwdne59495:0 | crwdns59497:0crwdne59497:0                               |
+| crwdns59499:0crwdne59499:0 | [crwdns59503:0crwdne59503:0](crwdns59501:0crwdne59501:0) |
+| crwdns59505:0crwdne59505:0 | [crwdns59509:0crwdne59509:0](crwdns59507:0crwdne59507:0) |
+| crwdns59511:0crwdne59511:0 | [crwdns59515:0crwdne59515:0](crwdns59513:0crwdne59513:0) |
+| crwdns59517:0crwdne59517:0 | [crwdns59521:0crwdne59521:0](crwdns59519:0crwdne59519:0) |
+| crwdns59523:0crwdne59523:0 | [crwdns59527:0crwdne59527:0](crwdns59525:0crwdne59525:0) |
 
-**Schnelltipp**: Wenn Sie VS Code als Hauptexteditor verwenden, können Sie die automatische Codeformatierung direkt in Ihren Browser aktivieren. Öffnen Sie Ihre Einstellungsseite im JSON-Modus und fügen Sie folgende Zeile hinzu:
+crwdns59529:0crwdne59529:0 crwdns59531:0crwdne59531:0
 
 ```
-"editor.formatOnSave": wahr,
+crwdns59533:0crwdne59533:0
 ```
 
-## البرنامج الحاسوبي الإلكتروني دينست زور كاليتا تسكونترول فون
+## crwdns59535:0crwdne59535:0
 
-Es gibt mehrere Webdienste, die Code analysieren und die Qualität des Codes sichtbar machen. In der Regel führen diese Dienste ein oder mehrere statische Codeanalysewerkzeuge aus, die auch von der Kommandozeile aus verwendet oder auf Ihrem eigenen Computer in Ihren Editor integriert werden können. Die Verwendung eines Code-Qualitätsdienstes, der in ein GitHub/GitLab Repository integriert wird, wird dringend empfohlen, da es Qualitätsprobleme in Pull-Requests erkennen und kommunizieren kann.
+crwdns59537:0crwdne59537:0 crwdns59539:0crwdne59539:0 crwdns59541:0crwdne59541:0
 
-Code-Qualitätsanalysedienste sind Websites, die oft folgende Funktionen bieten:
+crwdns59543:0crwdne59543:0
 
-- Analysieren Sie Ihren Code nach dem Drücken auf GitHub/GitLab
-- Normalerweise kostenlos für Open-Source-Projekte
-- Unterstützen Sie mehrere Programmiersprachen, aber nicht jede Sprache wird die gleichen Funktionen haben
-- Bewertung oder Punktzahl für die Qualität des gesamten Codes im Projektarchiv
-- Liste der Probleme mit dem Code, nach Schwere sortiert
-- Üben Sie nach unten an den Ort des Tickets
-- Standardliste der Prüfungen, die der Diensteanbieter für die beste Praxis findet
-- Kann so konfiguriert werden, dass die Checkliste strenger oder entspannter wird
-- Kann so konfiguriert werden, dass Dateien oder Erweiterungen ignoriert werden
-- Kann eine Konfigurationsdatei aus dem Repository lesen
-- Verfolgen Sie Probleme im Laufe der Zeit und senden Sie Warnungen, wenn die Qualität verschlechtert
-- Optional Berichte über Code-Abdeckung, die von einem CI-Build generiert wurden
-- Automatisch das Projektarchiv bereitstellen und eine Vorschau zur Überprüfung vor der endgültigen Veröffentlichung erzeugen.
+- crwdns59545:0crwdne59545:0
+- crwdns59547:0crwdne59547:0
+- crwdns59549:0crwdne59549:0
+- crwdns59551:0crwdne59551:0
+- crwdns59553:0crwdne59553:0
+- crwdns59555:0crwdne59555:0
+- crwdns59557:0crwdne59557:0
+- crwdns59559:0crwdne59559:0
+- crwdns59561:0crwdne59561:0
+- crwdns59563:0crwdne59563:0
+- crwdns59565:0crwdne59565:0
+- crwdns59567:0crwdne59567:0
+- crwdns59569:0crwdne59569:0
 
-Eine Liste der Optionen finden Sie unter [shields.io](https://shields.io/category/analysis) oder [dieser Liste der Dienste, die für Open-Source-Projekte kostenlos sind](https://github.com/ripienaar/free-for-dev#code-quality).
+crwdns59571:0crwdne59571:0

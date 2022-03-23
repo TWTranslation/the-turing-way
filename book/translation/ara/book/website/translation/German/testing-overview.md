@@ -1,27 +1,27 @@
-(r-test-Overview)=
-# Übersicht der Testtypen
+crwdns59741:0crwdne59741:0
+# crwdns59743:0crwdne59743:0
 
-Es gibt eine Reihe von verschiedenen Testarten, die hier diskutiert werden.
+crwdns59745:0crwdne59745:0
 
-Erstens gibt es positive und negative Tests. Positive Tests überprüfen, ob etwas funktioniert, zum Beispiel dass eine Funktion, die einige Zahlen multipliziert, die richtige Antwort ausgibt. Negative Tests überprüfen, ob etwas einen Fehler erzeugt, wenn es sollte. Zum Beispiel kann nichts schneller gehen als die Lichtgeschwindigkeit so dass ein Plasmaphysik-Simulationscode einen Test enthalten kann, dass ein Fehler ausgeliefert wird, wenn es schneller irgendwelche Partikel gibt als diese, da es darauf hindeutet, dass es ein tieferes Problem im Code gibt.
+crwdns59747:0crwdne59747:0 crwdns59749:0crwdne59749:0 crwdns59751:0crwdne59751:0 crwdns59753:0crwdne59753:0
 
-Zusätzlich zu diesen beiden Arten von Tests gibt es auch verschiedene Teststufen, die verschiedene Aspekte eines Projekts testen. Diese Ebenen sind unten aufgeführt, und auf jedem dieser Ebenen können sowohl positive als auch negative Tests vorhanden sein. Eine gründliche Testsuite wird Tests auf allen diesen Stufen enthalten (obwohl einige Stufen nur sehr wenige benötigen).
+crwdns59755:0crwdne59755:0 crwdns59757:0crwdne59757:0 crwdns59759:0crwdne59759:0
 
-(r-test-Types) =
-## *النوع
+crwdns59761:0crwdne59761:0
+## crwdns59763:0crwdne59763:0
 
-[Smoke Test](#Smoke_testing): Sehr kurze anfängliche Prüfungen, die die grundlegenden Anforderungen für die Ausführung des Projekts sicherstellen. Wenn diese fehlschlagen, hat es keinen Sinn, weitere Teststufen einzuführen, bis sie behoben sind.
+crwdns59765:0crwdne59765:0 crwdns59767:0crwdne59767:0
 
-[Unit Test](#Unit_tests): Ein Level des Software-Testprozesses, auf dem einzelne Einheiten einer Software getestet werden. Der Zweck besteht darin, zu überprüfen, dass jede Einheit der Software wie geplant ausgeführt wird.
+crwdns59769:0crwdne59769:0 crwdns59771:0crwdne59771:0
 
-[Integrationstest](#Integration_testing): Eine Stufe des Software-Testens, bei der einzelne Einheiten als Gruppe kombiniert und getestet werden. Der Zweck dieser Teststufe ist es, Fehler in der Interaktion zwischen integrierten Einheiten zu enthüllen.
+crwdns59773:0crwdne59773:0 crwdns59775:0crwdne59775:0
 
-[Systemtest](#System_tests): Ein Level des Software-Testprozesses, bei dem ein komplettes und integriertes System getestet wird. Der Zweck dieses Tests ist es, zu beurteilen, ob das System als Ganzes die richtigen Ausgänge für die gegebenen Eingaben liefert.
+crwdns59777:0crwdne59777:0 crwdns59779:0crwdne59779:0
 
-[Akzeptanzprüfung](#Acceptance_testing): Ein Level des Software-Testprozesses, bei dem ein System auf Akzeptanz getestet wird. Der Zweck dieses Tests ist es, die Einhaltung der Projektanforderungen durch das System zu bewerten und zu beurteilen, ob er für diesen Zweck annehmbar ist.
+crwdns59781:0crwdne59781:0 crwdns59783:0crwdne59783:0
 
-Hier ist eine Analogie: Während des Prozesses der Herstellung eines Kugelschreibers, der Kappe, des Körpers Der Schwanz, die Tintenpatrone und der Kugelschreiber werden separat produziert und einzeln getestet. Wenn zwei oder mehr Einheiten bereit sind, werden sie zusammengestellt und Integrationstests durchgeführt, zum Beispiel ein Test zum Prüfen der Kappe passt auf den Körper. Wenn der komplette Stift integriert ist, wird der Systemtest durchgeführt, um zu überprüfen, ob er wie jeder andere Stift geschrieben werden sollte. Akzeptanzprüfung könnte eine Prüfung sein, um sicherzustellen, dass der Stift die Farbe ist, die der Kunde bestellt hat.
+crwdns59785:0crwdne59785:0 crwdns59787:0crwdne59787:0 crwdns59789:0crwdne59789:0 crwdns59791:0crwdne59791:0
 
-Es gibt auch eine andere Art von Test namens Regressionstest. Regressionstest ist eine Art von Test, die auf jedem der vier Hauptstufen durchgeführt werden kann und vergleicht die Ergebnisse der Tests vor und nach einer Änderung des Codes und gibt einen Fehler an, wenn diese verschieden sind.
+crwdns59793:0crwdne59793:0 crwdns59795:0crwdne59795:0
 
-Diese verschiedenen Testtypen werden in den nächsten Unterkapiteln detaillierter diskutiert.
+crwdns59797:0crwdne59797:0

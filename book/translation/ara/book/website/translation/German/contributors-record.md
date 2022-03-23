@@ -1,243 +1,243 @@
-(المساهمون - السجل - البارزة)=
-# Spendenaufzeichnung
+crwdns55849:0crwdne55849:0
+# crwdns55851:0crwdne55851:0
 
-*Die `Mitwirkenden. d` Datei und die Tabelle der Mitwirkenden in der `README Datei` zusammen bilden den Beitrag in _Der Turing Way_.*
+*crwdns55853:0crwdne55853:0 crwdns55855:0crwdne55855:0*
 
-Beiträge an _The Turing Way_ können enthalten, aber nicht beschränkt auf Fehlerbehebung, Kapitel Planung, Schreiben, Bearbeiten, Rezensieren, Ideengenerierung, Präsentation, Projektmanagement und Wartung. Wir erkennen all diese Beiträge an und würdigen unsere Community Mitglieder. Mit [allen Mitwirkenden Bot](https://allcontributors.org) zum Beispiel aktualisieren wir die Tabelle der Mitwirkenden mit dem Namen jeder Person wobei die Emoji-Tasten die verschiedenen Aufgaben angeben, die sie erledigt haben (siehe [README-Datei](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md#contributors)). Wir verstehen, dass verschiedene Beiträge für die Menschen unterschiedliche Dinge bedeuten und für ihre persönlichen Interessen unterschiedlich übersetzen können. Qualifikationsentwicklung, Wertschöpfung und Fortentwicklung ihrer Karriere. Daher bieten wir die Datei [contributors.md](https://github.com/alan-turing-institute/the-turing-way/contributors.md) auch als Ort an, an dem Sie persönliche Highlights von _der Turing Way_ Community erfassen können.
+crwdns55857:0crwdne55857:0 crwdns55859:0crwdne55859:0 crwdns55861:0crwdne55861:0 crwdns55863:0crwdne55863:0 crwdns55865:0crwdne55865:0 crwdns55867:0crwdne55867:0
 
-Einzelne Mitwirkende können ihre Details unter dem Abschnitt "Persönliche Highlights von _Die Turing Way_ Mitwirkende" angeben. Organisatorische Unterstützung und Kooperationen finden Sie im Abschnitt "Kooperative Organisationen". Jeder Organisationsname und -details wird separat aufgelistet, gefolgt von Beitragsdetails zu jedem einzelnen Beitragszahler dieser Organisation.
+crwdns55869:0crwdne55869:0 crwdns55871:0crwdne55871:0 crwdns55873:0crwdne55873:0
 
-Lesen Sie bitte das [-Community-Handbuch](https://the-turing-way.netlify.app/community-handbook/acknowledgement) für Details, wie Sie für Ihre Arbeit fair anerkannt werden können.
+crwdns55875:0crwdne55875:0
 
-## Persönliche Highlights von _Die Turing Way_ Mitwirkende
+## crwdns55877:0crwdne55877:0
 
-Bitte nutzen Sie diesen Abschnitt, um Ihre persönlichen Erfahrungen im _Turing Way_ Projekt und Community hervorzuheben. Du kannst auch den Einfluss _der Turing Way_ auf dich oder deine Teammitglieder beschreiben, wie zum Beispiel bei der Förderung reproduzierbarer, ethische, kooperative und integrative Forschungspraktiken.
+crwdns55879:0crwdne55879:0 crwdns55881:0crwdne55881:0
 
-Dieser Datensatz kann in Ihrem persönlichen oder professionellen Portfolio verwendet werden (Profil, Lebenslauf, resume) indem Sie Funktionen beschreiben, die Sie verbessert haben, Ziele, die Sie erreicht haben, Fähigkeiten, die Sie erhalten, Chancen, die Sie erhalten, persönliche Verbindungen, Personen, die Sie unterstützen, und Werte, die Sie durch Ihre Beteiligung in _The Turing Way_ schaffen.
+crwdns55883:0crwdne55883:0
 
-Sehen Sie diesen Eintrag als Beispiel von Kirstie Whitaker, dem Projektleiter:
+crwdns55885:0crwdne55885:0
 
-### كيرستي ويتكر
+### crwdns55887:0crwdne55887:0
 
-* Rolle: **Projektleiter**
-* GitHub id: [kirstiejane](http://github.com/kirstiejane)
-* ORCID: [0000-0001-8498-4059](https://orcid.org/0000-0001-8498-4059)
-* Kurzbio:
-> برنامج بحوث الأدوات والممارسات والنظم، معهد آلان تورينغ (Ich bin fu<unk> hrend bei Tools, Practices and Systems Research Institute am Alan Ting). إتش هابي أينين دوكتورتيل في نيوروسنسنافتن جامعة كاليفورنيا في بيركلي وهابي بوستدوكتورينفورشونغ وهي جامعة كامبريدج في وحدة رسم خرائط الدماغ. إيش بن موزيلا - ستيالخلاصة (2016) و فولبرايت ستوخت (2007) ألومنا.
+* crwdns55889:0crwdne55889:0
+* crwdns55891:0crwdne55891:0
+* crwdns55893:0crwdne55893:0
+* crwdns55895:0crwdne55895:0
+> crwdns55897:0crwdne55897:0 crwdns55899:0crwdne55899:0 crwdns55901:0crwdne55901:0
 
-* أبرزها بيرسو نليش:
-> Ich bin die Führung von _The Turing Way_. Ich habe mich sehr für den Wandel der Forschungskultur eingesetzt, um unsere Arbeit effizienter und effektiver zu gestalten. und ich habe bemerkt, dass wir die Machtstrukturen in der akademischen Welt ansprechen müssen, wenn wir wirklich die Forschung reproduzierbar zu machen. Ich freue mich auf den Bau der Turing Way zu beiden inspirieren die Menschen, die die Forschung zu machen, um alle ihre Ergebnisse so zugänglich wie möglich zu machen und alle anderen in das Ökosystem zu bewegen, sich um die dafür erforderliche Arbeit zu kümmern.
+* crwdns55903:0crwdne55903:0
+> crwdns55905:0crwdne55905:0 crwdns55907:0crwdne55907:0 crwdns55909:0crwdne55909:0 crwdns55911:0crwdne55911:0
 
-* Weitere Informationen:
-> Ich bin wirklich leidenschaftlich über das Konzept, Wissenschaft "offen für alle" zu machen. Ich meine, wir sollten alle unsere Leistungen teilen - die Daten. -Code und Protokolle, die wir entwickeln - ob sie "signifikant" sind oder nicht. Aber es beinhaltet auch, diese Ausgänge FAIR - findbar, zugänglich, interoperabel und wiederverwendbar. Ich bin ein Verfechter einer größeren Vielfalt in STEM und in der Datenwissenschaft und besonders leidenschaftlich an der Verbesserung der Art und Weise, wie wir kooperatives und unterstützendes Arbeiten honorieren. Schließlich Ich möchte mich dafür einsetzen, dass das Datenwissenschaftsprojekt von Anfang an und mit einem Entscheidungsfindungsprozess, der integrativ und gemeinschaftlich geführt wird, entwickelt wird.
+* crwdns55913:0crwdne55913:0
+> crwdns55915:0crwdne55915:0 crwdns55917:0crwdne55917:0 crwdns55919:0crwdne55919:0 crwdns55921:0crwdne55921:0 crwdns55923:0crwdne55923:0 crwdns55925:0crwdne55925:0
 
-**Namen der Mitwirkenden werden alphabetisch hinzugefügt**
+**crwdns55927:0crwdne55927:0**
 
 <!---A--->
-## أ
+## crwdns55929:0crwdne55929:0
 
-### Achintya Rao
+### crwdns55931:0crwdne55931:0
 
-* Rolle: Buch Dash 2021 Teilnehmer
-* GitHub id: [RaoOfPhysics](http://github.com/RaoOfPhysics)
-* ORCID: [0000-0002-1628-2618](https://orcid.org/0000-0002-1628-2618)
-* Kurzbio:
-> Achintya ist Gemeinschaftsleiter für das Forschungsprogramm _KI für Wissenschaft und Regierung_ des Alan Turing Instituts. Er hat einen BSc in Physik und einen MA in Wissenschaftsjournalismus. Bevor er zu The Turing kam, verbrachte er mehr als ein Jahrzehnt als Wissenschaftskommunikator bei CERN, der Europäischen Organisation für Nuklearforschung, in Genf. Er schließt auch einen Doktortitel in Wissenschaftskommunikation von UWE Bristol ab.
+* crwdns55933:0crwdne55933:0
+* crwdns55935:0crwdne55935:0
+* crwdns55937:0crwdne55937:0
+* crwdns55939:0crwdne55939:0
+> crwdns55941:0crwdne55941:0 crwdns55943:0crwdne55943:0 crwdns55945:0crwdne55945:0 crwdns55947:0crwdne55947:0
 
-* أبرزها بيرسو نليش:
-> Es war eine Freude, Menschen zu helfen, die GitHub noch nie benutzt hatten, bevor sie ihre ersten Probleme einreichen und ihre ersten Pull-Requests machen. Ich habe mich auch mit der Struktur des Buches vertraut und kann hoffentlich auch anderen Mitgliedern der Gemeinschaft helfen, in Zukunft dazu beizutragen! Es war eine Menge Spaß, mit so vielen wunderbaren Leuten in einem gemeinsamen virtuellen Raum zusammenzuarbeiten.
+* crwdns55949:0crwdne55949:0
+> crwdns55951:0crwdne55951:0 crwdns55953:0crwdne55953:0 crwdns55955:0crwdne55955:0
 
-* Weitere Informationen:
-> Ich liebe es, dass das TTW Repo ein Ort ist, an dem man nicht nur mitwirkt, sondern auch lernen kann, so hatte ich keine Angst, Fehler in Commits und Pull-Requests zu machen. Es ist hilfreich, dass so viele erfahrene Mitglieder der Community dabei sind, zu helfen!
+* crwdns55957:0crwdne55957:0
+> crwdns55959:0crwdne55959:0 crwdns55961:0crwdne55961:0
 
-* Persönliches Angebot:
-> _Der Turing Way_ ist der ideale Ort, um kollektives Wissen aus unterschiedlichen Erfahrungen in der Datenwissenschaft und in der offenen Forschung zu sammeln und durch Tun zu lernen.
+* crwdns55963:0crwdne55963:0
+> crwdns55965:0crwdne55965:0
 
-### ألكسندر مورلي
+### crwdns55967:0crwdne55967:0
 
-* Rolle: Infrastrukturbetreuer (2018 - 2019)
-* GitHub id: [alexmorley](http://github.com/alexmorley)
-* ORCID: [TBA](https://orcid.org/TBA)
+* crwdns55969:0crwdne55969:0
+* crwdns55971:0crwdne55971:0
+* crwdns55973:0crwdne55973:0
 
-* Kurzbio:
-> زميل إيك بن موزيلا (2018) و Doktoranden وحدة ديناميكية شبكة دماغ MRC، جامعة أكسفورد (2015). برنامج زمالة معهد البرمجيات للاستدامة (2018) وبرنامج برنامج البرمجيات الحاسوبية الميكروسوفت/البحوث في إنكلترا لبرمجيات الحوسبة (2018). حرب استوديو الميناء في Medizin an der Universita<unk> t Oxford (2012-2015).
+* crwdns55975:0crwdne55975:0
+> crwdns55977:0crwdne55977:0 crwdns55979:0crwdne55979:0 crwdns55981:0crwdne55981:0
 
-* أبرزت النليشات:
-> Als Mitwirkende möchte ich "Warum kümmert mich der Turing Way? Wenn Menschen in der Datenwissenschaft keine bewährten Methoden anwenden, ist das fast immer so, weil sie entweder nicht über sie Bescheid wissen. oder das Gefühl, dass sie keine Zeit haben. Die Anwälte werden den Menschen sagen, dass die Zeit langfristig gerettet wird, aber es ist ein harter Verkauf. Durch die Bereitstellung konkreter, schrittweiser, aber maßgeblicher Leitlinien glaube ich, dass der Turing Way den Anstoß geben könnte, der es den Menschen ermöglicht, die Vorteile für sich selbst zu realisieren. und senkt die Barriere für mehr Forscher, um diese hoch geschätzten Fähigkeiten zu erwerben.
+* crwdns55983:0crwdne55983:0
+> crwdns55985:0crwdne55985:0 crwdns55987:0crwdne55987:0 crwdns55989:0crwdne55989:0 crwdns55991:0crwdne55991:0 crwdns55993:0crwdne55993:0 crwdns55995:0crwdne55995:0
 
-* Weitere Informationen:
-> Ich möchte wirklich, dass die Forschung zugänglich ist, aber in einem viel umfassenderen Sinne als das Wort oft verwendet wird. Ich würde gerne eine Welt sehen, in der Forschung neu gemischt wird, ob es sich dabei nun um eine Neuvermischung von Zahlen handelt, um sie verständlicher zu machen. die Wiederverwendung von Daten, um neue Einsichten zu generieren oder neue Methoden zu testen, um zu sehen, wie sich unsere Theorien ändern müssen. Weniger zum Thema, aber genauso wichtig bin ich auch leidenschaftlich für die Entwicklung und Annahme von Best Practices in der Governance. Sichere und integrative Räume sind nur allzu selten in der akademischen Welt, und ich denke, dass ein Teil davon gelöst werden kann, indem wir unsere Laissez-faire-Haltung gegenüber Governance und Management abschaffen.
+* crwdns55997:0crwdne55997:0
+> crwdns55999:0crwdne55999:0 crwdns56001:0crwdne56001:0 crwdns56003:0crwdne56003:0 crwdns56005:0crwdne56005:0 crwdns56007:0crwdne56007:0
 
-## Alejandro Coca
+## crwdns56009:0crwdne56009:0
 
-* الرحلة:
-    * دِر تورينج الطريق U<unk> bersetzer
-    * Buch-Dash 2021 Teilnehmer
-* GitHub id: [acocac](https://github.com/acocac)
-* ORCID: [0000-0002-9264-1539](https://orcid.org/0000-0002-9264-1539)
-* Kurzbio:
-> أليخاندرو هات م سبتمبر 2020 Seine Doktorarbeit in Physical Geography am King's College London abgeschlossen. Derzeit arbeitet er als Postdoctoral Research Associate am Alan Turing Institute an einem Projekt mit dem Ziel, Open-Source-Toolkits und Demonstranten für Umweltdatenwissenschaft zu bauen und einzusetzen. Er trägt auch zu `Scivision`bei, ein generisches Framework für skalierbare Bildanalyse, geleitet von der Turing in Zusammenarbeit mit der Open-Source-Community.
+* crwdns56011:0crwdne56011:0
+    * crwdns56013:0crwdne56013:0
+    * crwdns56015:0crwdne56015:0
+* crwdns56017:0crwdne56017:0
+* crwdns56019:0crwdne56019:0
+* crwdns56021:0crwdne56021:0
+> crwdns56023:0crwdne56023:0 crwdns56025:0crwdne56025:0 crwdns56027:0crwdne56027:0
 
-* أبرزها بيرسو نليش:
-> Ich freue mich sehr, _der Turing Way_ Community beizutreten. Ich habe eine große und sehr aktive Gemeinschaft getroffen, die zu einem gemeinsamen Ziel beiträgt, offen, Inclusive und Kollaborative Wissenschaft. Meine Teilnahme am Buch Dash 2021 war eine fantastische Erfahrung, um mit einer Vielzahl von TTW-Mitwirkenden zu lernen, zu diskutieren, zusammenzuarbeiten und zu vernetzen. Mein besonderer Beitrag während des Buchs 2021 war die Verbesserung der Dokumentation von Übersetzungen innerhalb des gemeinschaftlichen Handbuchs. Die Dokumentation fasst die Erfahrungen und Erfahrungen des spanischen Übersetzungsteams zusammen, das für zukünftige Übersetzungen relevant ist.
+* crwdns56029:0crwdne56029:0
+> crwdns56031:0crwdne56031:0 crwdns56033:0crwdne56033:0 crwdns56035:0crwdne56035:0 crwdns56037:0crwdne56037:0 crwdns56039:0crwdne56039:0
 
-* Weitere Informationen:
-> Dank des TTW und des Open Life Science Trainingsprogramms Ich verbessere einen Prototyp des Online-und Community-getriebenen E-Buches zur Umweltdatenwissenschaft, genannt Umwelt-AI-Buch.
+* crwdns56041:0crwdne56041:0
+> crwdns56043:0crwdne56043:0
 
-* Angebote:
-> Es gibt immer Hoffnung!
+* crwdns56045:0crwdne56045:0
+> crwdns56047:0crwdne56047:0
 
 
-### Andreea Avramescu
+### crwdns56049:0crwdne56049:0
 
-* Rolle: Buch Dash 2021 Teilnehmer
-* GitHub id: [andreea-avramescu](https://github.com/andreea-avramescu)
-* ORCID: [0000-0001-6837-6272](https://orcid.org/0000-0001-6837-6272)
+* crwdns56051:0crwdne56051:0
+* crwdns56053:0crwdne56053:0
+* crwdns56055:0crwdne56055:0
 
-* Kurzbio:
-> معهد مانشستر للأعمال التجارية التابع لتحالف، جامعة مانشستر (Beaufsichtigt von Dr. Richard Allmendinger und Manuel Lo<unk> pez-Iba<unk> ن<unk> ez) und ein Engage@Turing/Enrichment Student am Alan Ting. Meine Forschungsinteressen liegen in den Bereichen personalisierte Medizin, Optimierung und Datenwissenschaft, und wie all diese gemeinsam genutzt werden können, um die Verfügbarkeit und Zugänglichkeit von gezielten Behandlungen weltweit zu verbessern. Ich habe einen MSc in der Datenwissenschaft und habe zuvor an verschiedenen Forschungsproblemen aus den Bereichen Sozialwissenschaften gearbeitet, Recht, Informatik und operiert Forschung.
+* crwdns56057:0crwdne56057:0
+> crwdns56059:0crwdne56059:0<unk> crwdns56061:0crwdne56061:0<unk> crwdns56063:0crwdne56063:0<unk> crwdns56065:0crwdne56065:0 crwdns56067:0crwdne56067:0 crwdns56069:0crwdne56069:0
 
-* أبرزها بيرسو نليش:
-> Während der ganzen Woche hatte ich die Möglichkeit, ein Kapitel über das Projektdesign und die Überprüfung bestehender PRs zu verbessern. Ich habe mich auch mit dem Team über die generellen Herausforderungen im Bereich reproduzierbarer Forschung und Projektdesign unterhalten.
+* crwdns56071:0crwdne56071:0
+> crwdns56073:0crwdne56073:0 crwdns56075:0crwdne56075:0
 
-* Angebote:
-> Das Buch Dash vom Mai 2021 war eine spannende und inspirierende Chance. Die Veranstaltungen in der ganzen Woche waren sehr gut organisiert und das Umfeld inklusive war sehr einladend.
+* crwdns56077:0crwdne56077:0
+> crwdns56079:0crwdne56079:0 crwdns56081:0crwdne56081:0
 
-### Anna Krystalli
+### crwdns56083:0crwdne56083:0
 
-* Rolle: [Code of Conduct Committee](https://the-turing-way.netlify.app/community-handbook/coc/coc-enforcement.html) Mitglied (2018 - vorhanden)
-* GitHub id: [annakrystalli](http://github.com/annakrystalli)
-* ORCID: [0000-0002-2378-4915](https://orcid.org/0000-0002-2378-4915)
-* Kurzbio:
-> 1 - جامعة شيفيلد- إتش بن فورشونغس - البرمجيات. Ich bin auch ein Editor für rOpenSci, eine Gemeinschaft von Benutzern und Entwicklern, Schaffung einer technischen Infrastruktur für Peer-Review-R-Software-Tools für die Zusammenarbeit mit wissenschaftlichen Datenquellen im Internet.
+* crwdns56085:0crwdne56085:0
+* crwdns56087:0crwdne56087:0
+* crwdns56089:0crwdne56089:0
+* crwdns56091:0crwdne56091:0
+> crwdns56093:0crwdne56093:0 crwdns56095:0crwdne56095:0
 
-* Weitere Informationen:
-> Ich interessiere mich für reproduzierbare Forschung in R! Ich habe während meiner Doktorarbeit in der Marine Makroökologie gelernt und war sofort Haken dabei. Aufbauend auf den Erfahrungen der Vergangenheit als Qualitätssicherungsprüfer Meine Erfahrungen machten mich daran interessiert, wie wir Wissenschaft praktizieren und wie wir aus den echten Arbeitspferden der modernen Forschung mehr machen können. unser Code und Daten. Arbeiten in _Die Turing Way_ ist eine fantastische Gelegenheit, eine Bestandsaufnahme der großartigen Arbeit zu machen, die in diesem Raum bereits geleistet wurde zusammenfassen und bis es zu Vorlagen, Checklisten und Best Practice-Richtlinien, die für Forscher sofort nützlich sind. Es ist eine Gelegenheit, Standards zu setzen und die Macht des Konvents zu nutzen, vor allem bei ECRs, die von Anfang an die Möglichkeit haben, bewährte Praktiken zu etablieren! Ich hoffe, dass auch der Turing Way zum „Sheffield Way“ werden wird!
+* crwdns56097:0crwdne56097:0
+> crwdns56099:0crwdne56099:0 crwdns56101:0crwdne56101:0 crwdns56103:0crwdne56103:0 crwdns56105:0crwdne56105:0 crwdns56107:0crwdne56107:0 crwdns56109:0crwdne56109:0 crwdns56111:0crwdne56111:0
 
-### أرييل بينيت
+### crwdns56113:0crwdne56113:0
 
-* Rolle: Buch Dash 2021 Organisationskomitee & Teilnehmer
-* GitHub id: [Arielle-Bennett](http://github.com/Arielle-Bennett)
-* ORCID: https://orcid.org/0000-0002-0154-2982
+* crwdns56115:0crwdne56115:0
+* crwdns56117:0crwdne56117:0
+* crwdns56119:0crwdne56119:0
 
-* Kurzbio:
-> Arielle ist der Forschungsprojektmanager für das Programm Werkzeuge, Verfahren & Systems am Alan Turing Institute. Zuvor arbeitete sie in einer Vielzahl von wissenschaftlich-angrenzenden Rollen in den Bereichen Technik, Start-ups und Science Publishing. دارو بر هينو ستاز على اسم Mentorin beim Open Life Sciences-Programm und einem 2019 Community Engengagement Fellow mit dem Centre for Scientific Cooperation und Community Engagement.
+* crwdns56121:0crwdne56121:0
+> crwdns56123:0crwdne56123:0 crwdns56125:0crwdne56125:0 crwdns56127:0crwdne56127:0
 
-* أبرزها بيرسو نليش:
-> Bevor ich an der Turing Way teilnahm, wusste ich nicht, was ein Pull-Request war, egal wie man eine macht! Jetzt habe ich zu verschiedenen Teilen der fünf Leitfäden beigetragen, einschließlich der Mitschreibung der ersten Kapitel über [Aktivismus für Forscher](https://the-turing-way.netlify.app/ethical-research/activism.html) und Präsentationen zum Thema auf Konferenzen. Ich unterrichte jetzt auch andere Community-Mitwirkende darüber, wie Pull-Requests erstellt werden können, zu bestehenden Kapiteln beitragen, andere Arbeiten prüfen und neue Ideen entwerfen. Der **Mai 2021 Book Dash** war eine fantastische Gelegenheit, sich mit der Community zu beschäftigen und sich wieder über das Projekt zu freuen! Ich bin davon abgekommen, mich begeistert und stolz auf die Beiträge, die mit meiner Unterstützung geleistet wurden. Es wird brillant sein zu sehen, wie sich diese in den kommenden Monaten zu Inhalten und Kapiteln entwickeln. In der **November 2021 Book Dash** Woche haben wir ein neues Kapitel über die Rolle der Forschungsinfrastruktur zusammengeführt - diejenigen, die kritische Aufgaben erledigen, um die Forschung am Laufen zu halten, offen, reproduzierbar, kooperativ und wiederverwendbar! Es ist großartig, in der Lage zu sein, die Sichtbarkeit von Rollen wie mir der breiteren Gemeinschaft zu fördern. Ich bin auch unglaublich stolz auf all unsere ersten Besucher, die diese Woche brillante Arbeit geleistet haben, indem sie alte Kapitel überarbeitet und neue geschrieben haben.
+* crwdns56129:0crwdne56129:0
+> crwdns56131:0crwdne56131:0 crwdns56133:0crwdne56133:0 crwdns56135:0crwdne56135:0 crwdns56137:0crwdne56137:0 crwdns56139:0crwdne56139:0 crwdns56141:0crwdne56141:0 crwdns56143:0crwdne56143:0 crwdns56145:0crwdne56145:0 crwdns56147:0crwdne56147:0
 
-* Weitere Informationen:
-> Das Kapitel über die Rolle der Forschungsinfrastruktur ist noch nicht fertig! Wir hoffen, dass die Menschen einen Überblick über mehr Rollen in diesem Raum geben werden. oder teilen Sie ihre Laufbahn und ihren Hintergrund als Fallstudien in der Zukunft.
+* crwdns56149:0crwdne56149:0
+> crwdns56151:0crwdne56151:0 crwdns56153:0crwdne56153:0 crwdns56155:0crwdne56155:0
 
-* Persönliches Angebot:
-> Es ist immer eine Freude an der Arbeit mit Book Dash Teilnehmern, erfahrene und neue, um etwas Erstaunliches zu schaffen. The Book Dash ist eine unglaubliche Erfahrung sowohl für neuere als auch für etablierte Gemeinschaftsmitglieder. Es ist eine Freude, sich darauf zu konzentrieren, Inhalte für die Turing Way zu entwickeln und Menschen aus der ganzen Welt zu unterstützen. Ich habe das Glück, dass ich im Rahmen des Organisationskomitees eine prominentere Rolle übernehmen und übernehmen konnte.
+* crwdns56157:0crwdne56157:0
+> crwdns56159:0crwdne56159:0 crwdns56161:0crwdne56161:0 crwdns56163:0crwdne56163:0 crwdns56165:0crwdne56165:0
 
 
 
 <!---B--->
-## ب
+## crwdns56167:0crwdne56167:0
 
-### Batool Almarzouq
+### crwdns56169:0crwdne56169:0
 
-* Rolle: Buch Dash November 2020 Teilnehmer
-* ORCID: [0000-0002-3905-2751](https://orcid.org/my-orcid)
-* Kurzbio:
-> Ich bin der Gründer von R-Ladies in Saudi-Arabien (Dammam). Ich habe zunächst in der Pharmakologie gedient, aber schnell ein Interesse an Biochemie, Strukturbiologie und Bioinformatik entwickelt. Ich freue mich über die Anwendung eines tiefen Lernens, um biologische Fragen zu beantworten.
+* crwdns56171:0crwdne56171:0
+* crwdns56173:0crwdne56173:0
+* crwdns56175:0crwdne56175:0
+> crwdns56177:0crwdne56177:0 crwdns56179:0crwdne56179:0 crwdns56181:0crwdne56181:0
 
-* أبرزها بيرسو نليش:
-> Ich arbeite derzeit an einem Kapitel über "CI Services". Ich habe dabei geholfen, die Jupyter Buchinfrastruktur zu aktualisieren und [Hypothese hinzufügen.is](https://web.hypothes.is/) um eine gemeinsame Anmerkung von _The Turing Way_ Kapiteln zu ermöglichen. Ich habe auch das Kapitel README.me in Arabisch übersetzt. Persönliches Zitat: "Ich finde es schwierig, meine persönlichen Gedanken und Gefühle in Worten zum Ausdruck zu bringen. Das war eine so erstaunliche Erfahrung. Es hat mir geholfen, meine technischen Fähigkeiten zu entwickeln. Vielen Dank an alle, die ich in diesem Buch-Strich-Event :heart: getroffen habe."
+* crwdns56183:0crwdne56183:0
+> crwdns56185:0crwdne56185:0 crwdns56187:0crwdne56187:0 crwdns56189:0crwdne56189:0 crwdns56191:0crwdne56191:0 crwdns56193:0crwdne56193:0 crwdns56195:0crwdne56195:0 crwdns56197:0:heart:crwdne56197:0
 
-### بيكي غرون
-* Rolle: Buch Dash 2021 Teilnehmer
-* Github id: beckigreen
-* ORCID: https://orcid.org/0000-0002-0513-5188
+### crwdns56199:0crwdne56199:0
+* crwdns56201:0crwdne56201:0
+* crwdns56203:0crwdne56203:0
+* crwdns56205:0crwdne56205:0
 
-* Kurzbio:
-> إتش بن دوكتوران آم كينغ كلية لندن (Beaufsichtigt von الدكتور بتروولا بروتسي & البروفيسور ماركوس ريتشاردز) & Engage Student am The Alan Ting. Mein Doktorandenprojekt zielt darauf ab, frühe Mechanismen und biologische Marker von Demenz zu identifizieren, und ich arbeite derzeit auch am DECOVID Projekt am Institut.
+* crwdns56207:0crwdne56207:0
+> crwdns56209:0crwdne56209:0 crwdns56211:0crwdne56211:0
 
-* أبرزها بيرسو نليش:
-> Arbeiten Sie mit so wunderbaren Menschen und lernen Sie so viel! Eine wirklich bereichernde und lohnende Erfahrung - ich freue mich auf einen Beitrag bei zukünftigen Veranstaltungen. Ein weiteres Highlight war die Erfahrung in der Zusammenarbeit mit einem großen Projekt, einschließlich der Überprüfung meiner ersten Pull-Request!
+* crwdns56213:0crwdne56213:0
+> crwdns56215:0crwdne56215:0 crwdns56217:0crwdne56217:0 crwdns56219:0crwdne56219:0
 
-* Angebote:
-> Eine einladende und bereichernde Umwelt. Die Zusammenarbeit mit anderen war wirklich wertvoll und hat mir Instrumente zur Verfügung gestellt, um mich auf meine Forschung zu wenden und mit anderen zu teilen.
+* crwdns56221:0crwdne56221:0
+> crwdns56223:0crwdne56223:0 crwdns56225:0crwdne56225:0
 
 
-### بيكي أرنولد
+### crwdns56227:0crwdne56227:0
 
-* الرحلة: Core-Mitwirkender (2018-2019)
-* GitHub id: [r-j-arnold](http://github.com/r-j-arnold)
-* ORCID: [0000-0003-0355-0617](https://orcid.org/0000-0003-0355-0617)
-* Kurzbio:
-> 1 - جامعة شيفيلد آند آند آلة الكمبيوتر بجامعة ستيرنبيلدرو Ich bin Mitglied des Software-Nachhaltigkeitsinstituts 2018 und benutze die Mittel, um Vorträge und Workshops zu verschiedenen Themen im Zusammenhang mit guter Programmierpraxis zu organisieren.
+* crwdns56229:0crwdne56229:0
+* crwdns56231:0crwdne56231:0
+* crwdns56233:0crwdne56233:0
+* crwdns56235:0crwdne56235:0
+> crwdns56237:0crwdne56237:0 crwdns56239:0crwdne56239:0
 
-* Weitere Informationen:
-> Ich bin begeistert von der Wissenschaft. Überall auf der Welt treffen sich Menschen, um herauszufinden, wie das Universum funktioniert, und das ist *erstaunlich*, genauso erstaunlich wie die Antworten selbst. Ich bin auch leidenschaftlich darüber, wie wir tatsächlich diese Wissenschaft machen und sicherstellen, dass sie präzise und reproduzierbar. Wenn es nicht beide Dinge sind, haben wir uns nicht viel vorwärts bewegt oder noch schlimmer in Kreisen verlaufen. Mir ist es sehr wichtig, die Kultur der Wissenschaft zu verändern, in der Machtmissbrauch (sowohl geringfügig als auch groß) nur allzu häufig vorkommt. Ich habe so viele Leute getroffen, die gut programmieren wollen und best practice befolgen, was der Wissenschaft enorm zugute kommen wird, aber nur schwer zu wissen, wie man dies tun kann. Während es dort draußen viele fantastische Ressourcen gibt, sind sie oft verstreut und _die Turing Way_ kann das verbessern. Ich hoffe auch, dass es Menschen überzeugen kann, die sich selbst nicht als gute Programmierer ansehen, dass es Schritte gibt, die sie ergreifen können, um ihre Programmierung drastisch zu verbessern.
+* crwdns56241:0crwdne56241:0
+> crwdns56243:0crwdne56243:0 crwdns56245:0crwdne56245:0 crwdns56247:0crwdne56247:0 crwdns56249:0crwdne56249:0 crwdns56251:0crwdne56251:0 crwdns56253:0crwdne56253:0 crwdns56255:0crwdne56255:0 crwdns56257:0crwdne56257:0
 
-### Benjamin Mummery
+### crwdns56259:0crwdne56259:0
 
-* Twitter: [@BenjaminMummery](https://twitter.com/@BenjaminMummery)
-* Kurzbio:
-> Während des Studiums von Astrophysen war Benjamin der erste Sprecher bei Liverpool PubHD und später Organisator ([Facebook](https://www.facebook.com/pubhdliverpool/), [Twitter](https://twitter.com/pubhd_liverpool?lang=en-gb)) - ein monatliches Cross-Disziplin-Ereignis, das Doktoranden dazu aufforderte, "ihre Forschung in 10 Minuten zu erklären, während sie einen Pint genießen" Während dieser Zeit entwickelte und lieferte er auch mehrere weitere offizielle Outreach-Events, einschließlich der öffentlichen und Luftwaffenkommandanten auf der [RAF Cosford Airshow](https://www.youtube.com/watch?v=KImlYiCO7Vs), und häufige Aktivitäten für Schulen. Jetzt Forschungs-Software-Ingenieur im Hartree-Zentrum, hat er sein Engagement für den Einsatz in der Öffentlichkeit fortgesetzt, zuletzt in Zusammenarbeit mit Tim Powell bei der Gestaltung einer LEGO Version des ikonischen Supercomputers des Zentrums [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963). Er kann häufig auf etwa [fiktiven](https://www.youtube.com/watch?v=zrqfT4aotfE) [Zeitreise](https://inews.co.uk/culture/film/donnie-darko-reviewed-astrophysicist-531742) gesprungen werden.
+* crwdns56261:0crwdne56261:0
+* crwdns56263:0crwdne56263:0
+> crwdns56265:0crwdne56265:0 crwdns56267:0crwdne56267:0 crwdns56269:0crwdne56269:0
 
-* أبرزها بيرسو نليش:
-> Ich habe mit einer Gruppe von Forschern des Alan Turing Institute zusammengearbeitet, um ein Kapitel der wissenschaftlichen Reichweite zu entwerfen.
+* crwdns56271:0crwdne56271:0
+> crwdns56273:0crwdne56273:0
 
 
 <!---C--->
-## ج
+## crwdns56275:0crwdne56275:0
 
-### كاميلا إنجيل سميث
+### crwdns56277:0crwdne56277:0
 
-* Rolle: Buch Dash Mai 2019 Teilnehmer, Übersetzungsleiter - Spanisch (2020)
-* GitHub id: [crangelsmith](https://github.com/crangelsmith)
-* معرف ORCID: [0000-0002-0227-836X](https://orcid.org/0000-0002-0227-836X)
-* Kurzbio:
-> معهد آل آلان تورينغ لعالم البيانات في اش بن بابحث. إش هابي ترويجي جامعة باريس ديديروت، و هو هو ألياس - تجريب صدم هادرون كبير في قرن أربيتيت. Während meiner Doktorarbeit habe ich an der Entdeckung der Higgs Boson-Partikel teilgenommen, die 2012 von CERN angekündigt wurde. Ich arbeitete weiter an ATLAS als Postdoc an der Uppsala Universität, wo ich mich auf die Suche nach Physik jenseits des Standardmodells der Teilchenphysik konzentrierte. Vor meinem Eintritt in die Turing war ich als Data Scientist im EdTech-Sektor tätig und habe innovative Produkte entwickelt, die sich auf den Bewertungsprozess in der Ausbildung konzentrieren. درزيت الأربيت في زوساممناربيت يقضى بأن معهد فورشيرن للنظم العالمية هو جامعة إكستر نامينز لعلوم البيانات من أجل التنمية المستدامة. In diesem Projekt verwenden wir Fernerkundung, um die Widerstandsfähigkeit der gemusterten Vegetation von halbtrockenen Trockenökosystemen in der Sahel zu überwachen.
+* crwdns56279:0crwdne56279:0
+* crwdns56281:0crwdne56281:0
+* crwdns56283:0crwdne56283:0
+* crwdns56285:0crwdne56285:0
+> crwdns56287:0crwdne56287:0 crwdns56289:0crwdne56289:0 crwdns56291:0crwdne56291:0 crwdns56293:0crwdne56293:0 crwdns56295:0crwdne56295:0 crwdns56297:0crwdne56297:0 crwdns56299:0crwdne56299:0
 
-* علامات بيرسو نليش
-> Ich denke, The Turing Way ist eine ausgezeichnete Ressource, die die Art und Weise ändern kann, wie die Wissenschaft gemacht wird (ich wünschte, ich hatte es, als ich meinen Doktor!). Obwohl die internationale Sprache der Wissenschaft Englisch ist Ich weiß um die Tatsache, dass nicht jeder an Orten wie lateinamerikanischen Ländern die Zeit und die Ressourcen hat, um es zu erlernen. Daher denke ich, dass wir alles in unserer Macht Stehende tun müssen, um diese Barrieren zu überwinden und den Zugang zu Wissen für alle zu verbessern. Das ist meine Motivation, das Buch ins Spanische zu übersetzen, und ich hoffe, dass die spanische Version wird als eine wichtige Ressource für den Master-Kurs, den wir entwickeln in LA-CoNGA Physik Projekt.
+* crwdns56301:0crwdne56301:0
+> crwdns56303:0crwdne56303:0 crwdns56305:0crwdne56305:0 crwdns56307:0crwdne56307:0 crwdns56309:0crwdne56309:0
 
-* Weitere Informationen
-> Ich komme aus Venezuela, und obwohl ich den Großteil meiner Karriere in Europa gemacht habe, war ich immer darauf bedacht, mit dem akademischen und wissenschaftlichen Wold in Lateinamerika in Verbindung zu bleiben. Ich bin Mitbegründer des CEVALE2VE Projekts (http://www.cevale2ve. rg/de/home/), die einer virtuellen Lerngemeinschaft, die darauf abzielt, das ernste Problem der Abwanderung von Gehirnen in einigen lateinamerikanischen Ländern durch die Rückführung des Wissens auf einer digitalen/Online-Plattform zu lösen. In jüngerer Zeit hat sich das Projekt in der LA-CoNGA Physik (http://laconga.redclara konsolidiert. et/), ein EU Erasmus+ finanziertes Projekt mit der Mission, eine lateinamerikanische und Europäische Gemeinschaft für fortgeschrittene Physik zu schaffen. In diesem Projekt helfe ich beim Aufbau eines Datenwissenschaftsmoduls, das in einem Online-Masterkurs erwogen wird.
+* crwdns56311:0crwdne56311:0
+> crwdns56313:0crwdne56313:0 crwdns56315:0crwdne56315:0 crwdns56317:0crwdne56317:0 crwdns56319:0crwdne56319:0 crwdns56321:0crwdne56321:0 crwdns56323:0crwdne56323:0
 
 <!---D
 ## D--->
 
 
 <!---E--->
-## ج
+## crwdns56325:0crwdne56325:0
 
-### Emma Karoune
+### crwdns56327:0crwdne56327:0
 
-* الرحلة:
-    * Mitwirkender
-    * Buch Dash November 2020 Teilnehmer
-    * Buchprüfungsausschuss 2021
-* GitHub id: [EKaroune](https://github.com/EKaroune)
-* ORCID: [0000-0002-6576-6053](https://orcid.org/0000-0002-6576-6053)
-* Kurzbio: Ich bin Forschungsmitglied und Community Manager von DECOVID am Alan Turing Institute. Ich bin auch Postdoktorin im Bereich der Umwelt-Archäologie und Paläoekologie. إيش هابي إينين دوكتورتيتيل في بالاو وكولولوجيا في معهد علم الآثار، كلية جامعة لندن. Ich führe ein Projekt zur Verbesserung der FAIRness von Phytolith Daten. Ich arbeite auch an einem Projekt mit Historic England über die Entwicklung neuartiger Methoden in der Phytolith Forschung für die Anwendung auf British Archaeological Rests.
+* crwdns56329:0crwdne56329:0
+    * crwdns56331:0crwdne56331:0
+    * crwdns56333:0crwdne56333:0
+    * crwdns56335:0crwdne56335:0
+* crwdns56337:0crwdne56337:0
+* crwdns56339:0crwdne56339:0
+* crwdns56341:0crwdne56341:0 crwdns56343:0crwdne56343:0 crwdns56345:0crwdne56345:0 crwdns56347:0crwdne56347:0 crwdns56349:0crwdne56349:0
 
-* أبرزها بيرسو نليش:
-> Ich habe wirklich Freude daran gehabt, während des Buch-Dashs so kooperativ zu arbeiten. Ich habe interessante Diskussionen über die Zugänglichkeit von The Turing Art, Zusammenarbeit, Kommunikation und Forschung im Allgemeinen mit anderen Mitwirkenden geführt. Ich habe meine Github Fähigkeiten weiterentwickelt, indem ich in Zusammenarbeit mit @paulowoicho, @malvikasharan und @KirstieJane ein Kapitel über 'Erste Schritte auf Github' entwickelt habe. Diese Verbesserung meiner Fähigkeiten wird wirklich meiner eigenen persönlichen Forschung zugute kommen, um meine eigenen kooperativen Arbeitsgruppen zu entwickeln und anderen beizubringen, wie man diese Forschungsinstrumente verwendet. Im Jahr 2021 war es mir ein Vergnügen, neue Beitragsbeiträge zu betreuen, Pull-Requests zu prüfen und die Durchführung von Sitzungen während des Buch-Dashs zu unterstützen. Es war großartig, gemeinsam an der Verbesserung und Veröffentlichung eines neuen Kapitels über "Kommunikation mit einem breiteren Publikum" im Leitfaden für Kommunikation zu arbeiten.
+* crwdns56351:0crwdne56351:0
+> crwdns56353:0crwdne56353:0 crwdns56355:0crwdne56355:0 crwdns56357:0crwdne56357:0 crwdns56359:0crwdne56359:0 crwdns56361:0crwdne56361:0 crwdns56363:0crwdne56363:0
 
-* Weitere Informationen:
-> Ich versuche so offen wie möglich zu arbeiten und ein Großteil meiner aktuellen Forschung entwickelt sich einfach und zugänglich für alle kollaborativen und offenen Arbeitsweisen. Ich arbeite auch intensiv daran, Fachleute aus meinem Bereich in eine Arbeitsgruppe für Open Science zusammenzubringen, damit wir gemeinsam an themenspezifischen FAIR-Richtlinien für Phytolith Data arbeiten können.
+* crwdns56365:0crwdne56365:0
+> crwdns56367:0crwdne56367:0 crwdns56369:0crwdne56369:0
 
-* Angebote:
-> So eine tolle Woche! Unterstützendes gemeinschaftliches Umfeld, um wirklich qualitativ hochwertige Beiträge zu diesem wunderbaren Projekt zu produzieren.
+* crwdns56371:0crwdne56371:0
+> crwdns56373:0crwdne56373:0 crwdns56375:0crwdne56375:0
 
-### Eric Daub
+### crwdns56377:0crwdne56377:0
 
-* GitHub id: [edaub](https://github.com/edaub)
-* Kurzbio:
-> Eric ist Datenwissenschaftler und Geophysiker ist auf mehreren Fernsehprogrammen und Podcasts erschienen, um seine Forschung über Erdbebenereignisse in den zentralamerikanischen Staaten zu diskutieren. Eine Herausforderung für die Präsentation der Erdbebenforschung ist die Tendenz, die Ergebnisse zum Thema Erdbebenvorhersage zu überhitzen. Eric hat diese Medienauftritte genutzt, um die Schwierigkeiten bei der Vorhersage von Erdbeben hervorzuheben, und erklären, warum es keine verlässliche Methode gibt, um Erdbeben genau genug vorherzusagen, um gesellschaftliche Aktionen durchzuführen. Aus dieser Diskussion über überhyped Ergebnisse er überging zu erklären, wie seine Forschungsergebnisse zeigten, dass sich die Wahrscheinlichkeit eines Erdbebens aufgrund der jüngsten Veränderungen der Aktivität nicht verändert hatte da die Schwankungen *exakt* entsprechen würden, was für ein einfaches Basisrisiko zu erwarten wäre. Diese Aktivität hat dazu beigetragen, das Verständnis des Zielpublikums für einen Komplex zu verbessern, Technisches Thema und debunken einige der allgemein vertretenen Annahmen über Erdbebenvorhersage und Risikomanagement.
+* crwdns56379:0crwdne56379:0
+* crwdns56381:0crwdne56381:0
+> crwdns56383:0crwdne56383:0 crwdns56385:0crwdne56385:0 crwdns56387:0crwdne56387:0 crwdns56389:0crwdne56389:0 crwdns56391:0crwdne56391:0
 
-* أبرزها بيرسو نليش:
-> Ich habe mit einer Gruppe von Forschern des Alan Turing Institute zusammengearbeitet, um ein Kapitel der wissenschaftlichen Reichweite zu entwerfen.
+* crwdns56393:0crwdne56393:0
+> crwdns56395:0crwdne56395:0
 
-### إيستر بلومب
+### crwdns56397:0crwdne56397:0
 
-Die Teilnahme von Esther Plomp wird von der Fachhochschule Delft unterstützt. [siehe Details](https://the-turing-way.netlify.app/afterword/contributors-record.html#esther-plomp) unter [Kooperative Organisationen und Projekte](https://the-turing-way.netlify.app/afterword/contributors-record.html#delft-university-of-technology-faculty-of-applied-sciences).
+crwdns56399:0crwdne56399:0 crwdns56401:0crwdne56401:0
 
 <!---F
 ## F--->
@@ -248,414 +248,414 @@ Die Teilnahme von Esther Plomp wird von der Fachhochschule Delft unterstützt. 
 
 
 <!---H--->
-## خ
+## crwdns56403:0crwdne56403:0
 
-### Hannah Nicholls
+### crwdns56405:0crwdne56405:0
 
-* Rolle: Buch Dash 2021 Teilnehmer
-* GitHub id: hlnicholls
-* ORCID:https://orcid.org/0000-0002-3480-7852
+* crwdns56407:0crwdne56407:0
+* crwdns56409:0crwdne56409:0
+* crwdns56411:0crwdne56411:0
 
-* Kurzbio:
-> Ich bin Doktorandenstudent, der an The Turing Way mitwirkt, um das Schreiben über reproduzierbare Forschungspraktiken zu entwickeln. Ich habe einen BSc in der biomedizinischen Wissenschaft und einen Hintergrund in der Nass-Labor Herz-Kreislauf-Forschung. Mein Doktorat ist in der Anwendung des Maschinenlernens, um die wahrscheinlichsten Kausalgene aus genomweiten Assoziationsstudien zu priorisieren.
+* crwdns56413:0crwdne56413:0
+> crwdns56415:0crwdne56415:0 crwdns56417:0crwdne56417:0 crwdns56419:0crwdne56419:0
 
-* أبرزها بيرسو نليش:
-> Zusammenarbeit mit anderen, um etwas Neues als Beitrag zur The Turing Way, und Zusammenarbeit mit anderen, um ihre Arbeit zu überprüfen und zu unterstützen. Das Verständnis der inneren Funktionsweise von The Turing Way über das Navigieren in seinem GitHub. Auch zu helfen und zu sehen, eine wirklich coole Illustration gemacht wird!
+* crwdns56421:0crwdne56421:0
+> crwdns56423:0crwdne56423:0 crwdns56425:0crwdne56425:0 crwdns56427:0crwdne56427:0
 
-* Angebote:
-> Die Teilnahme am Turing Way Book Dash war eines der ersten Male, das ich über einen längeren Zeitraum zusammengearbeitet habe und es war eine so tolle Erfahrung! Es erlaubte mir, neue Fähigkeiten auszuprobieren und wirklich Vertrauen in meine Arbeit zu schaffen, Ich fühle mich wirklich ermutigt, weiterhin einen Beitrag zu The Turing Way!
+* crwdns56429:0crwdne56429:0
+> crwdns56431:0crwdne56431:0 crwdns56433:0crwdne56433:0
 
 
-### Heidi Seibold
+### crwdns56435:0crwdne56435:0
 
-* Rolle: Core-Mitwirkender (2020), Book Dash Februar 2020 Teilnehmer
-* GitHub id: [HeidiSeibold](https://github.com/HeidiSeibold)
-* ORCID id: [0000-0002-8960-9642](https://orcid.org/0000-0002-8960-9642)
-* Kurzbio:
-> Ich führe am Helmholtz-Zentrum München eine Gruppe über Open AI im Gesundheitswesen. Ich entwickle Maschinenlernmethoden, um herauszufinden, welche Patienten gut auf bestimmte Behandlungen reagieren und diese Methoden in R implementieren. Meine Leidenschaft für offene und reproduzierbare Forschung hat mich veranlasst, der Turing Way Community beizutreten. Ich bin an Meta-Forschungsprojekten beteiligt (Forschung über Forschung), ich betreibe und lebe an offenen Projekten wie The Turing Way. Meine Arbeit für das *Journal of Statistical Software* beinhaltet Reproduzierbarkeitsprüfungen. Wir veröffentlichen nur voll rechnerisch reproduzierbare Dokumente. Ich arbeite auch daran, unsere Maschinenlern-Software benutzerfreundlicher, wiederverwendbarer und erweiterbar zu machen. Zusammen mit einem Doktoranden denke ich darüber nach, wie die Daten von Krankenhäusern verwendet, um Ärzten und Patienten dabei zu helfen, die richtige Behandlung für jeden einzelnen Patienten zu finden.
+* crwdns56437:0crwdne56437:0
+* crwdns56439:0crwdne56439:0
+* crwdns56441:0crwdne56441:0
+* crwdns56443:0crwdne56443:0
+> crwdns56445:0crwdne56445:0 crwdns56447:0crwdne56447:0 crwdns56449:0crwdne56449:0 crwdns56451:0crwdne56451:0 crwdns56453:0crwdne56453:0 crwdns56455:0crwdne56455:0 crwdns56457:0crwdne56457:0 crwdns56459:0crwdne56459:0
 
-* أبرزها بيرسو نليش:
-> Ich arbeite in der Datenwissenschaft und offene und reproduzierbare Forschung sind die Dinge, die ich denke, und kümmern mich am meisten. Daher war es für mich nur sinnvoll, sich einzumischen. Plus: Die Gemeinschaft schien erstaunlich! Für mich ist der Turing Way ein Vorbild, wenn es um kooperative, verteilte Arbeit geht. لقد تعلمت الكثير من خلال المشاركة في سرقة الكتاب ورؤية كيف أن مالفيكا، وأسهم كيرستي وكل شخص آخر في توفير حيز مثمر ومرحب به للغاية في الوقت نفسه. Ich nahm an, was gelernt habe und versuchte, es in anderen Kontexten wie dem Unterricht anzuwenden. Ich werde das fortsetzen. Die Turing Way inspirierte mich auch, über neue Wege nachzudenken, wie wir den Leuten über offene und reproduzierbare (Daten) Wissenschaft beibringen könnten. Ich denke derzeit viel über nach, wie wir den Inhalt von The Turing Way nutzen und ihn in einen Kurs verwandeln könnten. Diese Idee war auch Teil einer Anwendung, wo ich vorschlug, eine neue -Gruppe auf *Open AI* zu starten. Insbesondere habe ich diese Kapitel mitverfasst: [Research Compendia](https://the-turing-way.netlify.app/reproducible-research/compendia.html), [File Naming Convention](https://the-turing-way.netlify.app/project-design/filenaming.html)und viele Beiträge überprüft. Ich empfehle regelmässig The Turing Way als Ressource. Sowohl für das Lernen von mehr über reproduzierbare Datenwissenschaften als auch für die Diskussion bestimmter Themen. Ich denke, dass die Leute es übernehmen und lesen :)
+* crwdns56461:0crwdne56461:0
+> crwdns56463:0crwdne56463:0 crwdns56465:0crwdne56465:0 crwdns56467:0crwdne56467:0 crwdns56469:0crwdne56469:0 crwdns56471:0crwdne56471:0 crwdns56473:0crwdne56473:0 crwdns56475:0crwdne56475:0 crwdns56477:0crwdne56477:0 crwdns56479:0crwdne56479:0 crwdns56481:0crwdne56481:0 crwdns56483:0crwdne56483:0 crwdns56485:0crwdne56485:0 crwdns56487:0crwdne56487:0 crwdns56489:0crwdne56489:0
 
-* Weitere Informationen:
-> Erstens möchte ich weiterhin bei der Erstellung von Inhalten helfen, andere Inhalte überprüfen und auf jede erdenkliche Weise hilfreich sein. Manchmal schaue ich mir sehr alte Probleme an und ziehe zum Beispiel Anfragen an. Die Wiederbelebung solcher alten, oft fast abgeschlossenen, ist sehr lohnend. Ansonsten habe ich auch eine größere, langfristige Idee für The Turing Way. Ich persönlich bin kein großer Fan des Lesens. Bücher sind also nicht meine bevorzugte Art, zu lernen.  In den vergangenen Jahren habe ich viel gelernt, indem ich anderen in Vorträgen, Podcasts, Videos und natürlich Gesprächen zuhörte.  Für mich ist es also nur ein natürlicher nächster Schritt, dass der Turing Weg mehr als ein Buch wird. Es könnte ein Ökosystem sein, mit dem Buch auf seiner Basis. Und -- wenn wir uns entschließen, diese Route zu gehen -- Ich möchte Teil davon sein.
+* crwdns56491:0crwdne56491:0
+> crwdns56493:0crwdne56493:0 crwdns56495:0crwdne56495:0 crwdns56497:0crwdne56497:0 crwdns56499:0crwdne56499:0 crwdns56501:0crwdne56501:0 crwdns56503:0crwdne56503:0  crwdns56505:0crwdne56505:0  crwdns56507:0crwdne56507:0 crwdns56509:0crwdne56509:0 crwdns56511:0crwdne56511:0
 
 <!---I--->
-## ص
+## crwdns56513:0crwdne56513:0
 
-### Irene K
+### crwdns56515:0crwdne56515:0
 
-* Rolle: Buch Dash November 2020 Teilnehmer
-* GitHub id: [irenekp](http://github.com/irenekp)
-* Kurzbio:
-> Ich bin Student in Informatik und Ingenieurwesen. Kurz, Meine Reise mit Data Science und Data Management war vielfältig und ich habe gerne beobachtet, wie ein einzelnes Konzept in so viele verschiedene Disziplinen einfließen kann! Ich war in der Lage, mit der Datenwissenschaft als RA für einige Projekte zu arbeiten, die sich auf verschiedene Aspekte der Social Network-Analyse konzentrierten. Während meiner Praktika bei einem fintech und einem Telekom-Unternehmen habe ich auch Datenmanagement und damit zusammenhängende Praktiken verfolgen können.
+* crwdns56517:0crwdne56517:0
+* crwdns56519:0crwdne56519:0
+* crwdns56521:0crwdne56521:0
+> crwdns56523:0crwdne56523:0 crwdns56525:0crwdne56525:0 crwdns56527:0crwdne56527:0 crwdns56529:0crwdne56529:0
 
-* أبرزها بيرسو نليش:
-> Turing Way war mein erster Weg in Open Source, und ich fand es sehr hilfreich, sowohl über allgemeine github und Open-Source-Praktiken als auch als Teil einer sich bewegenden und kooperativen Community zu lernen. Ich habe mich besonders geliebt, Teil einer extrem multidisziplinären Gruppe von Menschen zu sein, zeigt mir wirklich die echte Spannweite der Data Science! Das ethische Buch war für mich eine große Quelle von Interesse, da es viele der Themen, mit denen ich mich beide auseinandergesetzt habe, umfasst. während meiner eigenen Datenwissenschaftsprojekte ausführlich diskutiert und darüber beraten. Während meiner Arbeit an dem Datenanonymisierungs-Kapitel (Problem: #1578 , Pull Request: #1579 ) Ich schaffte es, ausführlicher über Anonymisierung zu lesen und fand Antworten auf viele der Fragen, die mich vorher störten. Ich hoffe wirklich, dass die Arbeit, die wir hier geleistet haben, um all diese ethischen Leitlinien zu konsolidieren, dazu beitragen wird, die Praxis der Datenwissenschaft auf einer soliden ethischen Grundlage und einem klaren moralischen Gewissen leichter und leichter zugänglich zu machen.
+* crwdns56531:0crwdne56531:0
+> crwdns56533:0crwdne56533:0 crwdns56535:0crwdne56535:0 crwdns56537:0crwdne56537:0 crwdns56539:0crwdne56539:0 crwdns56541:0crwdne56541:0 crwdns56543:0crwdne56543:0
 
-* Weitere Informationen:
-> In Übereinstimmung mit meinen bisherigen Beiträgen bin ich sehr leidenschaftlich an einem ethischen Rahmen für die Datenwissenschaft zu arbeiten, als eine Menge von es konzentriert sich auf das Aufdecken von Mustern die leicht invasiv sein könnten Ich glaube wirklich, dass ein ethischer Ansatz in diesem Bereich die einzige Möglichkeit ist, ihn auf lange Sicht nachhaltig zu praktizieren. Wissenschaftskommunikation ist ein weiterer meiner wichtigsten Interessenbereiche Ich habe es bisher mit meiner Liebe zu nachhaltigen Praktiken kombiniert (sei es Datenwissenschaft oder Wasserressourcenmanagement), um Artikel zu erforschen und zu schreiben, die hoffentlich mehr Menschen informieren und erziehen würden! Ich hoffe, in Kürze Datenvisualisierung zu dieser Kombination hinzuzufügen! Ich werde in absehbarer Zeit an der Kreuzung von Data Science und Sci-Comm arbeiten!
+* crwdns56545:0crwdne56545:0
+> crwdns56547:0crwdne56547:0 crwdns56549:0crwdne56549:0 crwdns56551:0crwdne56551:0 crwdns56553:0crwdne56553:0
 
-### Ismael Kherroubi Garcia
+### crwdns56555:0crwdne56555:0
 
-* Rolle: Core-Mitwirkender (2020), [OLS-2 für Turing-Projektleiter](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring), Buch Dash November 2020 Teilnehmer
-* GitHub id: [Ismael-KG](https://github.com/Ismael-KG)
-* Kurzbio:
-> معهد إيش بن إيميك - فورشونغسميث أمان تورينغ Ich habe ein BSc in Business Management und Administration und arbeite derzeit an einem MSc in der Philosophie der Sozialwissenschaften. إيش بن ميغليد من المعهد المعتمد للموظفين والتنمية.
+* crwdns56557:0crwdne56557:0
+* crwdns56559:0crwdne56559:0
+* crwdns56561:0crwdne56561:0
+> crwdns56563:0crwdne56563:0 crwdns56565:0crwdne56565:0 crwdns56567:0crwdne56567:0
 
-* أبرزها بيرسو نليش:
-> Seit meinem Studienabschluss habe ich in fintech und dann in Kunstorganisationen innerhalb von Personalteams gearbeitet, bis zum Alan Turing Institut und Unterstützung der Ethik-Beratergruppe. Ich denke, mein Highlight ist, dass ich einen großen Hintergrund als Generalistin habe! Ich freue mich derzeit sehr, zusammen mit [Laura Carter](https://github.com/LauraCarter) und [Sophia Batchelor](https://github.com/BrainonSilicon) eine Gemeinschaft um den Leitfaden für ethische Forschung zu gründen! بيرسو نليشيس زيتات: "أخلاقيات البحث معقدة والمفهومين المتصلين بها هما البحث المسؤول والابتكار ونزاهة البحوث. Je nachdem, ob wir einen RRRI-Hut oder eine Forschungs-Integritätsbrille tragen, werden wir auf verschiedene Forschungs-Ethikfragen stoßen. Aber es ist wichtig, diese beiden zu jeder Zeit zu tragen. Ich nenne das Steampunk-Forschungsethiken."
+* crwdns56569:0crwdne56569:0
+> crwdns56571:0crwdne56571:0 crwdns56573:0crwdne56573:0 crwdns56575:0crwdne56575:0 crwdns56577:0crwdne56577:0 crwdns56579:0crwdne56579:0 crwdns56581:0crwdne56581:0 crwdns56583:0crwdne56583:0
 
-* Weitere Informationen:
-> Ich bin wirklich von philosophischen Diskussionen über die Sozialwissenschaften fasziniert so liebe ich den Gedanken zu fragen, wie eine offene Wissenschaftskultur aussieht und wie man dorthin kommt!
+* crwdns56585:0crwdne56585:0
+> crwdns56587:0crwdne56587:0
 
 <!---J--->
-## ياء
+## crwdns56589:0crwdne56589:0
 
-### José María Fernández
+### crwdns56591:0crwdne56591:0
 
-* Rolle: Buch Dash November 2020 Teilnehmer (BioHackathon-EU)
-* GitHub id: @jmfernandez
-* ORCID: [0000-0002-4806-5140](https://orcid.org/0000-0002-4806-5140).
+* crwdns56593:0crwdne56593:0
+* crwdns56595:0crwdne56595:0
+* crwdns56597:0crwdne56597:0
 
-* Kurzbio:
-> إش بن كبير مهندسي البحوث von [INB](https://inb-elixir.es) Koordinationseinheit, [BSC](https://bsc.es), ELIXIR سبانين. Mit einem MSc in der Informatik arbeite ich seit 1999 in der Bioinformatik und beschäftige mich in diesen Jahren mit sehr unterschiedlichen Projekten. Derzeit bin ich sehr in technische und wissenschaftliche Benchmarking, Reproduzierbarkeit und Workflow-Ausführung Abstraktionen, unter anderem beteiligt.
+* crwdns56599:0crwdne56599:0
+> crwdns56601:0crwdne56601:0 crwdns56603:0crwdne56603:0 crwdns56605:0crwdne56605:0
 
-* أبرزها بيرسو نليش:
-> لقد استمتعت حقا بلقاء دافئ جدا والمجتمع الديناميكي حول طريق التورين! Ich habe hauptsächlich dazu beigetragen, offene Pull Requests und Netzwerke mit den Community-Mitgliedern zu prüfen.
+* crwdns56607:0crwdne56607:0
+> crwdns56609:0crwdne56609:0 crwdns56611:0crwdne56611:0
 
 <!---K--->
-## ك
+## crwdns56613:0crwdne56613:0
 
-### Kim De Ruyck
+### crwdns56615:0crwdne56615:0
 
-* Rolle: Buch Dash November 2020 Teilnehmer (BioHackathon-EU)
-* GitHub id: [kderuyck](https://github.com/kderuyck)
-* ORCID: [0000-0001-9921-644X](https://orcid.org/0000-0001-9921-644X)
+* crwdns56617:0crwdne56617:0
+* crwdns56619:0crwdne56619:0
+* crwdns56621:0crwdne56621:0
 
-* Kurzbio:
-> Seit 2016 verwalte ich den belgischen ELIXIR-Knoten (wir verfolgen FAIRification von Forschungsdaten und erleichtern reproduzierbare Analysen. durch Aktivitäten im Datenmanagement und -analyse sowie in der Ausbildung; Wir konzentrieren uns auch auf bereichsspezifische Dienstleistungen in den Pflanzenwissenschaften, der menschlichen Gesundheit und der Proteomik). Ich wurde als Biowissenschaftsingenieur ausgebildet, promovierte in Medizinwissenschaften und führte jahrelang medizinische Genetikforschung durch.
+* crwdns56623:0crwdne56623:0
+> crwdns56625:0crwdne56625:0 crwdns56627:0crwdne56627:0 crwdns56629:0crwdne56629:0
 
-* أبرزها بيرسو نليش:
-> Ich fing an, mich mit der GitHub Umgebung vertraut zu machen und lernte, durch sie zusammenzuarbeiten. Es war besonders schön, die lebendige Gemeinschaft kennen zu lernen, die gemeinsam auf dem Turing Way arbeitet! Insbesondere habe ich ein Unterkapitel zu [Research Data Management Toolkit](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-toolkits.html) verfasst.
+* crwdns56631:0crwdne56631:0
+> crwdns56633:0crwdne56633:0 crwdns56635:0crwdne56635:0 crwdns56637:0crwdne56637:0
 
 
 <!---L--->
-## ل
+## crwdns56639:0crwdne56639:0
 
-### Laura Acion
+### crwdns56641:0crwdne56641:0
 
-* Rolle: Buch Dash November 2020 Teilnehmer
-* GitHub id: [lauracion](http://github.com/lauracion)
-* ORCID: [0000-0001-5213-6012](https://orcid.org/0000-0001-5213-6012)
-* Kurzbio:
-> Ich bin Biostatistiker, der zur Datenwissenschaft übergegangen ist. Ich arbeite an der Universität Buenos Aires (Argentinien). Ich spezialisiere mich auf verschiedene Bereiche der Gesundheitswissenschaften. Ich bin leidenschaftlich dafür, die Art und Weise zu ändern, wie angewandte Statistiken gelehrt und praktiziert werden. Ich habe so viel zu lernen und zu tun; es scheint, als brauche ich zusätzliches Leben, um alle zu erreichen. Mehr über mich [hier](https://lacion.rbind.io).
+* crwdns56643:0crwdne56643:0
+* crwdns56645:0crwdne56645:0
+* crwdns56647:0crwdne56647:0
+* crwdns56649:0crwdne56649:0
+> crwdns56651:0crwdne56651:0 crwdns56653:0crwdne56653:0 crwdns56655:0crwdne56655:0 crwdns56657:0crwdne56657:0 crwdns56659:0crwdne56659:0 crwdns56661:0crwdne56661:0
 
-* أبرزها بيرسو نليش:
-> Ich bin derzeit an der Entwicklung eines Kapitels über "Leadership in Data Science" und der Unterstützung der spanischen Gemeinschaft bei der Übersetzung und Teilnahme am Projekt beteiligt. Ich hoffe, das ist mein erster von mehreren Buch-Dashes! Es war eine hervorragende Erfahrung. Vielen Dank, Malvika und Kirstie, dass Sie diese Veranstaltung hervorragend organisiert und koordiniert haben! ✨ 💖
+* crwdns56663:0crwdne56663:0
+> crwdns56665:0crwdne56665:0 crwdns56667:0crwdne56667:0 crwdns56669:0crwdne56669:0 crwdns56671:0crwdne56671:0 crwdns56673:0crwdne56673:0
 
-### لورا كارتر
+### crwdns56675:0crwdne56675:0
 
-* Rolle: [OLS-2 für Turing Projektleiter](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring), Book Dash November 2020 Teilnehmer
-* GitHub id: [Laura Carter](https://github.com/LauraCarter)
-* ORCID: [0000-0002-4285-1140](https://orcid.org/0000-0002-4285-1140)
-* Kurzbio:
-> Ich bin Doktorkandidat im Menschenrechtszentrum der Universität Essex, Großbritannien, Erforschung der Auswirkungen des Einsatzes von datenbasierten Technologien auf die Menschenrechte im öffentlichen Sektor des Vereinigten Königreichs, wobei der Schwerpunkt auf geschlechtsspezifische Stereotypisierung und geschlechtsspezifische Diskriminierung liegt. Vor meiner Doktorarbeit arbeitete ich fast ein Jahrzehnt lang als Menschenrechtsforscher und spezialisierte mich hauptsächlich auf Menschenrechte, sexuelle Orientierung und Geschlechteridentität. Ich habe in Europa und den afrikanischen Ländern südlich der Sahara Feldforschung durchgeführt, die Themen wie Homophobe und transphobische Hassverbrechen umfasste. Kriminalisierung von Homosexualität und Sexarbeit, rechtliche Anerkennung von Trans-Personen und Gesundheitsrechte für intersexuelle Personen.
+* crwdns56677:0crwdne56677:0
+* crwdns56679:0crwdne56679:0
+* crwdns56681:0crwdne56681:0
+* crwdns56683:0crwdne56683:0
+> crwdns56685:0crwdne56685:0 crwdns56687:0crwdne56687:0 crwdns56689:0crwdne56689:0 crwdns56691:0crwdne56691:0
 
-* أبرزها بيرسو نليش:
-> Ich freue mich sehr, mehr über Open Science Practices und Communities zu lernen! Ich freue mich, Teil eines [OLS-2](https://openlifesci.org/) zu sein, neben [Ismael Kherroubi Garcia](https://github.com/Ismael-KG) und [Sophia Batchelor](https://github.com/BrainonSilicon)zu sein Arbeiten an der _Anleitung für ethische Forschung_: Wenn du daran interessiert bist, eine Gemeinschaft von nachdenklich nachdenkliche, ethische Datenwissenschaftler, kommen Sie zu uns und kommen Sie zu uns!
+* crwdns56693:0crwdne56693:0
+> crwdns56695:0crwdne56695:0 crwdns56697:0crwdne56697:0
 
-* Weitere Informationen:
-> Ich interessiere mich für feministische und queere Forschungsmethoden sowie für die Verhöre von Macht- und Kategorisierungssystemen. Während meiner gesamten Karriere war der Großteil meiner Arbeit auf das Verständnis dieser Systeme, wie sie arbeiten und wie sie schaden: so dass sie abgebaut werden können! Mehr Informationen über mich auf meiner [-Website](https://lauracarter.github.io/).
+* crwdns56699:0crwdne56699:0
+> crwdns56701:0crwdne56701:0 crwdns56703:0crwdne56703:0 crwdns56705:0crwdne56705:0
 
-* Persönliches Angebot:
-> "Ich bin nicht aus einem Technologiefeld, aber ich habe so viel über Github gelernt, als ein Werkzeug für die Zusammenarbeit. Vielen Dank für alle, die Teil des Buches November 2020 waren, für all Ihre nützlichen Ratschläge!"
+* crwdns56707:0crwdne56707:0
+> crwdns56709:0crwdne56709:0 crwdns56711:0crwdne56711:0
 
 
-### لويز باولر
+### crwdns56713:0crwdne56713:0
 
-* رسالة: المساهم الأساسي (2019)، كتاب داش فبراير 2020 هيلفر
-* GitHub id: [LouiseABowler](http://github.com/LouiseABowler)
-* ORCID: [0000-0002-4910-9205](https://orcid.org/0000-0002-4910-9205)
-* Kurzbio:
-> إش بن باحث عالم البيانات في فريق البحوث الهندسية التابع لمعهد آلان تورينغ إتش هابي أينين أبشلوس في كلية فيسيك إم إمبريال في لندن، داناس تريش في داس علوم الحياة في واجهة Doktorausbildungszentrum دير جامعة أكسفورد. Ich arbeitete an einem interdisziplinären Doktorandenprojekt, das mathematische Modellierung, Herzphysiologie und Sicherheits-Pharmakologie kombinierte und anschließend zur Turing überging. Seitdem habe ich an einer Reihe von Projekten gearbeitet, die synthetische Daten, Datenvisualisierung und natürlich den Turing Way umfassen!
+* crwdns56715:0crwdne56715:0
+* crwdns56717:0crwdne56717:0
+* crwdns56719:0crwdne56719:0
+* crwdns56721:0crwdne56721:0
+> crwdns56723:0crwdne56723:0 crwdns56725:0crwdne56725:0 crwdns56727:0crwdne56727:0 crwdns56729:0crwdne56729:0
 
-* أبرزها بيرسو نليش:
-> Ich habe mich mit _der Turing Way_ über Fallstudien der Reproduzierbarkeit in akademischen Projekten befasst - im Wesentlichen Ich war ein Reproduzierbarkeitsdetektiv während der Anfangsphase des Projekts! :female_detective: Der Turing Way war meine erste Erfahrung bei der Zusammenarbeit mit Mitarbeitern aus so vielen verschiedenen Institutionen, und die Community rund um dieses Projekt war ein echtes Highlight für mich. Meine offizielle Zeit auf dem Turing Way ist zu Ende gegangen aber ich liebe es immer noch, durch das Buch Dashes und andere Veranstaltungen in Kontakt zu bleiben.
+* crwdns56731:0crwdne56731:0
+> crwdns56733:0crwdne56733:0 crwdns56735:0:female_detective:crwdne56735:0 crwdns56737:0crwdne56737:0
 
-* Weitere Informationen:
-> Als Wissenschaftler teilen wir unsere Arbeit über Papiere und Gespräche mit, aber die Komplexität von *, wie* wir eine Analyse-Pipeline oder einen neuartigen Algorithmus implementieren, kann in diesen Formaten sehr schwierig zu übermitteln sein. Wir sehen derzeit Änderungen in der Standardweise, wie wir unsere Beiträge über die offene Zugriffsbewegung veröffentlichen wollen und ich würde gerne eine ähnliche Änderung der Denkweise über die Daten, die wir sammeln, und den Code, den wir entwickeln, damit andere reproduzieren können, lernen und bauen Sie auf unserer Arbeit. Ich möchte sicherstellen, dass der Weg zur gemeinsamen Nutzung dieser Art von Forschungsleistung allen offen steht, unabhängig von ihrem Programmiererlebnis - die Route könnte nicht immer einfach sein, aber es ist eine großartige Gelegenheit zu teilen und von unseren Erfahrungen zu lernen! So viele Forschungsprojekte enthalten jetzt rechnerische Elemente, Dennoch ist es leicht zu vergessen, dass nicht jeder Zugang zu Schulungen im Software-Engineering hat oder eine Gruppe von Kollegen mit solchen Interessen hat. Wenn wir sagen, dass wir wollen, dass die Menschen ihre Forschung offen und reproduzierbar machen wir müssen ihnen die Instrumente geben, die sie brauchen, um dies zu tun. Ich betrachte den Turing Way als Mittel zur Überbrückung dieser Kluft durch eine freundschaftliche Beziehung. Praktischer und hilfreicher Leitfaden für Forscher in allen Stufen ihrer Karriere.
+* crwdns56739:0crwdne56739:0
+> crwdns56741:0crwdne56741:0 crwdns56743:0crwdne56743:0 crwdns56745:0crwdne56745:0 crwdns56747:0crwdne56747:0 crwdns56749:0crwdne56749:0 crwdns56751:0crwdne56751:0 crwdns56753:0crwdne56753:0
 
 <!---M--->
-## م
+## crwdns56755:0crwdne56755:0
 
-### Malvika-Scharan
+### crwdns56757:0crwdne56757:0
 
-* Rolle: **Community Manager** (2019 - vorhanden), Book Dash Mai 2019 Teilnehmer
-* GitHub id: [malvikasharan](http://github.com/malvikasharan)
-* ORCID: [0000-0001-6619-7369](https://orcid.org/0000-0001-6619-7369)
-* Kurzbio:
-> إتش بن در مدير المجتمع فون _طريق التورين_ هو معهد ألان تورينج. Ich arbeite mit der Gemeinschaft verschiedener Mitglieder zusammen, um Ressourcen und Wege zu entwickeln, die Datenwissenschaft für ein breiteres Publikum zugänglich machen können. Nach dem Empfang meines Doktoranden. in Bioinformatik und ich arbeitete am European Molecular Biology Laboratory, Deutschland, das mir geholfen hat, meine Werte als Open Researcher und Community Builder zu festigen. Ich habe 2019 das Open Life Science Mentoring-Programm mitinitiiert, um den Zugang zu Open Leadership Tools für Personen zu verbessern, die daran interessiert sind, Gemeinschaften um ihre Arbeit herum aufzubauen. Ich bin auch Mitglied des Software Sustainability Institute und Vorstandsmitglied der Open Bioinformatics Foundation.
+* crwdns56759:0crwdne56759:0
+* crwdns56761:0crwdne56761:0
+* crwdns56763:0crwdne56763:0
+* crwdns56765:0crwdne56765:0
+> crwdns56767:0crwdne56767:0 crwdns56769:0crwdne56769:0 crwdns56771:0crwdne56771:0 crwdns56773:0crwdne56773:0 crwdns56775:0crwdne56775:0 crwdns56777:0crwdne56777:0
 
-* أبرزها بيرسو نليش:
-> Als Community-Manager Ich schätze die Möglichkeiten, die Arbeit unserer Mitwirkenden in diesem Gemeinschaftsraum zu erleichtern und dabei neue Fähigkeiten und Ideen zu lernen. Durch meine Vorträge, Podiumsdiskussionen und Workshops möchte ich mit Mitgliedern aus verschiedenen Forschungsbereichen interagieren, wer sonst werde ich nie eine Chance zu treffen. Neben der Verbindung mit Mitgliedern aus verschiedenen Perspektiven, sind meine Highlights in _Die Turing Way_ die gemeinsame Entwicklung von Community-Governance, Anerkennung von Pfaden und Community-Ressourcen im [Community Handbuch](https://the-turing-way.netlify.app/community-handbook) für unsere Mitglieder. Ich freue mich über das Entwerfen von Ausbildungsressourcen um Führungsstärke in der Forschung in Zusammenarbeit mit [Open Life Science](https://openlifesci.org/).
+* crwdns56779:0crwdne56779:0
+> crwdns56781:0crwdne56781:0 crwdns56783:0crwdne56783:0 crwdns56785:0crwdne56785:0 crwdns56787:0crwdne56787:0
 
-### Margaret Wanjiku
+### crwdns56789:0crwdne56789:0
 
-* Rolle: Buch Dash 2021 Teilnehmer
-* GitHub id: [Megmugure](https://github.com/Megmugure)
-* ORCID: [0000-0003-2275-2134](https://orcid.org/0000-0003-2275-2134)
+* crwdns56791:0crwdne56791:0
+* crwdns56793:0crwdne56793:0
+* crwdns56795:0crwdne56795:0
 
-* Kurzbio:
-> Margaret schloss im Juli 2021 mit einem MSc in Bioinformatik ab. Sie ist Projektleiter bei der Bioinformatik-Hub von Kenya (BHKi), einer Trainingsplattform und Netzwerkplattform für ambitionierte und etablierte Bioinformatiker. Ihr Ziel ist es, Forscher mit Fähigkeiten und Werkzeugen in der offenen Wissenschaft und Bioinformatik auszustatten. Neben der Kapazitätsentwicklung interessiert sie sich auch für Genomik und große Datenanalyse. Margaret dabbles auch beim Schreiben von Geschichten!
+* crwdns56797:0crwdne56797:0
+> crwdns56799:0crwdne56799:0 crwdns56801:0crwdne56801:0 crwdns56803:0crwdne56803:0 crwdns56805:0crwdne56805:0 crwdns56807:0crwdne56807:0
 
-* أبرزها بيرسو نليش:
-> Dies war mein erster Beitrag zu TTW! Ich habe gerne zugehört und gelesen, woran andere Teilnehmer arbeiteten, als ich meinen Beitrag geleistet habe. Ich habe bei meiner Recherche mehr über GitHub und Forschungsdatenmanagement gelernt.
+* crwdns56809:0crwdne56809:0
+> crwdns56811:0crwdne56811:0 crwdns56813:0crwdne56813:0 crwdns56815:0crwdne56815:0
 
-* Weitere Informationen:
-> Ich freue mich darauf, bald weitere Beiträge zu TTW zu leisten, einschließlich, aber nicht beschränkt auf die Aktualisierung des Unterabschnitts Dokumentation und Metadaten.
-* Angebote:
-> Kreativität ist Intelligenz, die Spaß hat!
+* crwdns56817:0crwdne56817:0
+> crwdns56819:0crwdne56819:0
+* crwdns56821:0crwdne56821:0
+> crwdns56823:0crwdne56823:0
 
-### María Nanton
+### crwdns56825:0crwdne56825:0
 
-* Rolle: Bookdash Mai 2021 Teilnehmer.
-* GitHub id: [mcnanton](http://github.com/mcnanton)
-* ORCID: [0000-0003-0426-2879](https://orcid.org/0000-0003-0426-2879)
+* crwdns56827:0crwdne56827:0
+* crwdns56829:0crwdne56829:0
+* crwdns56831:0crwdne56831:0
 
-* Kurzbio:
-> Ich bin ein Data Analyst mit einem sozialen Kommunikations-Hintergrund, der in der Datenanalyse, Berichterstattung und Dashboarding in Marketing, sozialen und gesundheitlichen Daten erfahren ist. Ich bin derzeit Datenanalyst im Amt für Gesundheitsinformationen und Statistik, Teil des Gesundheitsministeriums der Stadtverwaltung Buenos Aires. Ich bin auch ein TA an der Universität Buenos Aires, ein RLadies Buenos Aires Veranstalter, und ein Dozent für Soziale Datenanalyse und Datenvisualisierung bei EANT.
+* crwdns56833:0crwdne56833:0
+> crwdns56835:0crwdne56835:0 crwdns56837:0crwdne56837:0 crwdns56839:0crwdne56839:0
 
-* أبرزها بيرسو نليش:
-> Es war großartig, an Kapitel 3 des Leitfadens der Kommunikation zu arbeiten und auch gelungen, einige Probleme zu lösen und einfache PRs im Zusammenhang mit anderen Kapiteln auf dem Weg zu überprüfen.
+* crwdns56841:0crwdne56841:0
+> crwdns56843:0crwdne56843:0
 
-* Angebote:
-> Dies war mein erstes Buch Dash und ich kann mir keine bessere Umgebung vorstellen, um ernsthafte, herausfordernde und lustige gemeinsame Arbeit zu machen. Ich bin allen sehr dankbar, die ich in dieser Woche begegnet bin und ich kann nicht warten, die Werkzeuge, die ich gelernt habe, mit Kollegen und Mitgliedern von Daten und Forschungsgemeinschaften in Argentinien zu teilen.
+* crwdns56845:0crwdne56845:0
+> crwdns56847:0crwdne56847:0 crwdns56849:0crwdne56849:0
 
-### Mariana Vivas
+### crwdns56851:0crwdne56851:0
 
-* Rolle: Buch Dash 2021 Teilnehmer
-* GitHub id: [marianaiv](http://github.com/marianaiv)
+* crwdns56853:0crwdne56853:0
+* crwdns56855:0crwdne56855:0
 
-* Kurzbio:
-> Ich bin ein Untergrad-Physik-Student an der Central University of Venezuela. Arbeit an meiner Arbeit und versuchen, es reproduzierbar zu tun.
+* crwdns56857:0crwdne56857:0
+> crwdns56859:0crwdne56859:0 crwdns56861:0crwdne56861:0
 
-* أبرزها بيرسو نليش:
-> Die Arbeit am Einführungskapitel für den Projektleitfaden war unglaublich. Ich habe es wirklich genossen mit Malvika beim Schreiben zusammenzuarbeiten.  Ich bin auch sehr froh über eine Illustration speziell für das Kapitel.
+* crwdns56863:0crwdne56863:0
+> crwdns56865:0crwdne56865:0 crwdns56867:0crwdne56867:0  crwdns56869:0crwdne56869:0
 
-* Angebote:
-> Dieses Buch Dash war mein erstes Mal gemeinsame Arbeit. I really enjoyed meeting all - so eine einladende Umgebung, ich weiß es wirklich zu schätzen! Ich hatte Spaß mit einem Kapitel für The Turing Way, konnte nicht glücklicher!
-
-
-### Marta Mangiarulo
-
-* Rolle: Buch Dash 2020 & 2021 Teilnehmer
-* GitHub id: [Marta-MM](http://github.com/Marta-MM)
-* ORCID: [0000-0001-7995-3717](https://orcid.org/0000-0001-7995-3717)
-
-* Kurzbio:
-> Ich bin Lehrbeauftragter für Psychologie an der Universität Leicester. Bevor ich nach Großbritannien zog, erhielt ich einen MSc in Sozialer Psychologie und Doktortitel in Kognitive und Gehirnwissenschaften. Ich interessiere mich für Argumente, Urteilsvermögen und Entscheidungsfindungsthemen und leidenschaftliche wissenschaftliche Kommunikation und Öffentlichkeitsarbeit.
-
-* أبرزها بيرسو نليش:
-> Im **November 2020 Buchstapel**habe ich zum ersten Mal GitHub benutzt! Ich half, einige kleine Fehler zu beheben (Grammatik und Syntax, Typos, Formatierung), und ich schlug zwei Kapitel zur Datenvisualisierung und zur Vorregistrierung von Studien vor. Ich fing an, mich mit der GitHub Umgebung vertraut zu machen und lernte durch sie zusammenzuarbeiten, um wertvolle Beiträge zum Projekt zu leisten. Meine Arbeit in diesen 5 Tagen war meist individuell, aber ich würde wirklich gerne mit anderen zusammenarbeiten, um an den beiden Kapiteln, die ich vorgeschlagen habe! Im **Mai 2021 Buchstau**war ich sehr froh, dort zu beginnen, wo ich in der vorherigen Buchstabe-Zeit aufgehört hatte. Ich glaube, ich habe kleine, aber relevante Beiträge geleistet und habe eine klare Vorstellung davon, wohin ich weiter gehen möchte, was viel mehr ist, als ich erwartet habe! أنا **نوفمبر 2021 كتاب Dash** (حمامات اللحم! , wurde ich eingeladen, eine Diskussion über Datenvisualisierung zu leiten, die ein sehr interessantes Gespräch auslöste. Ich habe auch eine spezielle Sektion in das Buch aufgenommen und freue mich darauf, es zu entwickeln! 25 م November werde ich bei einem der Leicester [ReproducibiliTEA](https://reproducibilitea.org/) Treffen über meine Erfahrungen mit The Turing way sprechen!
-
-* Weitere Informationen:
-> Ich bin leidenschaftlich an der Verbreitung von Wissenschaftskommunikation und Forschung interessiert und interessiert mich an Reproduzierbarkeit, offenen wissenschaftlichen Fragen und die Schnittstelle zwischen kognitiven und sozialen Aspekten in sozialpsychologischen Themen wie Gruppenbeziehungen und Druckbildung. Im Moment bin ich besonders fasziniert von der Datenvisualisierung und der Infographie.
-
-* Zitat:
-> Ich liebte die Teilnahme an der Bookdash, es ist eine so lohnende Erfahrung über seine materiellen Leistungen.
+* crwdns56871:0crwdne56871:0
+> crwdns56873:0crwdne56873:0 crwdns56875:0crwdne56875:0 crwdns56877:0crwdne56877:0
 
 
-### مارتن أوريلي
+### crwdns56879:0crwdne56879:0
 
-* الرحلة: Core-Mitwirkender (2019)
-* GitHub id: [martintoreilly](http://github.com/martintoreilly)
-* ORCID: [TBA](https://orcid.org/TBA)
-* Kurzbio:
-> شركة Ich بن الرئيسية لبحوث مهندس البرمجيات و Stellvertretender Leiter der Research Engineering Group am Alan Ting. Mein Fokus liegt auf der Anwendung guter Software-Engineering-Methoden, um die Wirkung von Forschungssoftware zu erhöhen, indem sie wiederverwendbar gemacht wird. zuverlässig und robust Ich habe auch ein starkes Interesse an reproduzierbarer Forschung und ich arbeite daran, die Werkzeuge und Arbeitsmethoden von Turing zu verbessern, um es unseren Forschern zu erleichtern, reproduzierbar zu arbeiten. Ich habe mich im Laufe der Jahre zwischen Industrie und Wissenschaft hin und her bewegt ein MSc in der künstlichen Intelligenz und eine Doktorarbeit in Computer-Neurowissenschaften auf dem Weg zu erwerben.
+* crwdns56881:0crwdne56881:0
+* crwdns56883:0crwdne56883:0
+* crwdns56885:0crwdne56885:0
 
-* Weitere Informationen:
-> Ich bin der festen Überzeugung, dass die Forscher die Verantwortung tragen sicherzustellen, dass die Ergebnisse ihrer Forschung allen - Forschern - zur Verfügung gestellt werden. Praktizierende und die Öffentlichkeit. Diese Ergebnisse sollten auf eine Weise zur Verfügung gestellt werden, die es anderen ermöglicht, sie nicht nur zu reproduzieren, sondern auch wiederzuverwenden und darauf aufzubauen. Es wird sehr viel Zeit für Forscher und Praktiker aufgewendet, um den Punkt zu erreichen, an dem sie sinnvoll beurteilen können, ob einige Forschungen für sie von Nutzen sind. oder bei der Wiederentdeckung unveröffentlichter negativer Ergebnisse. Das scheint sehr verschwenderisch zu sein, und ich bin überzeugt, dass wir es besser machen können und sollten. Insbesondere glaube ich, dass viel getan werden kann, um die effektive Wiederverwendung von Daten aus Forschungsprojekten zu verbessern. Obwohl es in den letzten Jahren erhebliche Fortschritte bei der Datenmenge gibt, die neben Forschungsartikeln veröffentlicht wurde, zwischen offenen Daten und wiederverwendbaren Daten besteht nach wie vor eine große Kluft. In den Forschungsbereichen fasziniert mich das Gehirn und vor allem der Ansatz des Gehirns durch "Fälschen" (z.B. Modellierung und Simulation). Ich interessiere mich besonders für Roboter, um diese Modelle in der realen Welt zu verkörpern. Ich glaube, der Turing Way kann sich in diesen beiden Bereichen positiv auswirken. Durch die Bereitstellung von empfohlenen Arbeitsmethoden und Anleitung zu assoziierten Werkzeugen können wir es Forschern leicht machen, das Richtige zu tun. Indem wir dies mit dem Gewicht der Marke Turing veröffentlichen, wir können sozialen Druck ausüben, um diese Praktiken als neue Normen in den Forschungsgemeinschaften einzuführen, in denen wir tätig sind.
+* crwdns56887:0crwdne56887:0
+> crwdns56889:0crwdne56889:0 crwdns56891:0crwdne56891:0 crwdns56893:0crwdne56893:0
+
+* crwdns56895:0crwdne56895:0
+> crwdns56897:0crwdne56897:0 crwdns56899:0crwdne56899:0 crwdns56901:0crwdne56901:0 crwdns56903:0crwdne56903:0 crwdns56905:0crwdne56905:0 crwdns56907:0crwdne56907:0 crwdns56909:0crwdne56909:0 crwdns56911:0crwdne56911:0 crwdns56913:0crwdne56913:0 crwdns56915:0crwdne56915:0 crwdns56917:0crwdne56917:0
+
+* crwdns56919:0crwdne56919:0
+> crwdns56921:0crwdne56921:0 crwdns56923:0crwdne56923:0
+
+* crwdns56925:0crwdne56925:0
+> crwdns56927:0crwdne56927:0
 
 
-### Martina G. Vilas
+### crwdns56929:0crwdne56929:0
 
-* رسالة: مساهم أساسي، مشرف البنية التحتية للكتاب JupyterBook (2020)، OLS-2 لمرشد، Book Dash 2020 Teilnehmer und Helfer
-* GitHub id: [martinagvilas](http://github.com//martinagvilas)
-* ORCID: [0000-0002-1097-8534](https://orcid.org/0000-0002-1097-8534)
-* Kurzbio:
-> Ich beende meinen Doktortitel in Neurowissenschaften am Max-Planck-Institut AE in Frankfurt. Ich untersuche, wie das Gehirn konzeptionelle Kenntnisse analysiert und neuronale Aufnahmen mit computergestützten Modellierungstechniken analysiert. Als Befürworter der offenen Forschung arbeite ich auch an der Verbesserung der Reproduzierbarkeit von neurowissenschaftlichen Analysen und freue mich über einen Beitrag zu Open-Source-Software-Projekten.
+* crwdns56931:0crwdne56931:0
+* crwdns56933:0crwdne56933:0
+* crwdns56935:0crwdne56935:0
+* crwdns56937:0crwdne56937:0
+> crwdns56939:0crwdne56939:0 crwdns56941:0crwdne56941:0 crwdns56943:0crwdne56943:0 crwdns56945:0crwdne56945:0
 
-* أبرزها بيرسو نليش:
-> Seit dem Buch Dash im Februar 2020 unterstütze ich die Infrastruktur von The Turing Way und seine Abhängigkeit von Jupyter Book. Der Turing-Weg ist nicht nur ein großartiger Leitfaden für reproduzierbare Forschungen aber es bietet auch einen wunderbaren Einstieg in Open-Source-Beitrag im Allgemeinen und verbindet Sie mit einer Vielzahl von offenen Daten-Wissenschaftsgemeinschaften. Ich bin auch Mentor am [OLS-2](https://openlifesci.org/ols-2) Programm und habe auch mit den [Pandas](https://pandas.pydata.org/) Core-Contributors zusammengearbeitet, um Menschen aus unterrepräsentierten Gruppen in der Technologie zu helfen, ihren ersten Open-Source-Beitrag zu leisten. Ich habe das Tutorial auf [Erstellen eines Jupyter-Buches mit The Turing Way](https://cfp.jupytercon.com/2020/schedule/presentation/225/creating-a-jupyter-book-with-the-turing-way/) ([Github repo](https://github.com/martinagvilas/tutorial-jupyterbook-with-turing-way) ) mitgeführt und entwickelt. Während des Buches Dash (November 2020) arbeitete ich mit @BatoolMM an der Aktualisierung des Jupyter Books, das Anmerkungen ermöglicht (PR #1516). Ich habe Mentore-Beiträge _(auf Spanisch auch :Argentinien: :Bolivien: )_ Ich habe auch einen Vortrag über den Turing Weg und die Rechenreproduzierbarkeit auf der [Brainhack Donostia 2020](https://brainhack-donostia.github.io/) (Dias [hier](https://zenodo.org/record/4269795#.X7glTlNKitg))
+* crwdns56947:0crwdne56947:0
+> crwdns56949:0crwdne56949:0 crwdns56951:0crwdne56951:0 crwdns56953:0crwdne56953:0 crwdns56955:0crwdne56955:0 crwdns56957:0crwdne56957:0 crwdns56959:0crwdne56959:0 crwdns56961:0crwdne56961:0 crwdns56963:0crwdne56963:0 crwdns56965:0crwdne56965:0 crwdns56967:0crwdne56967:0 crwdns56969:0crwdne56969:0 crwdns56971:0crwdne56971:0 crwdns56973:0crwdne56973:0 crwdns56975:0crwdne56975:0
 
-* Weitere Informationen:
-> Weitere Informationen über mich finden Sie auf meiner [-Website](https://martinagvilas.github.io/).
+
+### crwdns56977:0crwdne56977:0
+
+* crwdns56979:0crwdne56979:0
+* crwdns56981:0crwdne56981:0
+* crwdns56983:0crwdne56983:0
+* crwdns56985:0crwdne56985:0
+> crwdns56987:0crwdne56987:0 crwdns56989:0crwdne56989:0 crwdns56991:0crwdne56991:0
+
+* crwdns56993:0crwdne56993:0
+> crwdns56995:0crwdne56995:0 crwdns56997:0crwdne56997:0 crwdns56999:0crwdne56999:0 crwdns57001:0crwdne57001:0 crwdns57003:0crwdne57003:0 crwdns57005:0:Argentinien:crwdnd57005:0:Bolivien:crwdne57005:0
+
+* crwdns57007:0crwdne57007:0
+> crwdns57009:0crwdne57009:0
 
 <!-- N -->
-## ن
+## crwdns57011:0crwdne57011:0
 
-### Nina Di Cara
+### crwdns57013:0crwdne57013:0
 
-* Rolle: Buch Dash 2021 Teilnehmer
-* GitHub id: ninadicara
-* ORCID: https://orcid.org/0000-0002-6179-1067
+* crwdns57015:0crwdne57015:0
+* crwdns57017:0crwdne57017:0
+* crwdns57019:0crwdne57019:0
 
-* Kurzbio:
-> Ich bin Doktorand an der University of Bristol und arbeite an Datenwissenschaften für psychische Gesundheit unter Verwendung von Social Media-Daten. Ich habe auch einen Master-Abschluss in Familienarbeit und wurde vor Beginn meiner Doktorarbeit als Sozialarbeiterin ausgebildet. Ich organisiere den [Data Ethics Club](https://github.com/very-good-science/data-ethics-club/), und ich bin wirklich daran interessiert, wie wir die Datenanalyse in Abhängigkeit von gelebten Erfahrungen und Positionalität verstehen können.
+* crwdns57021:0crwdne57021:0
+> crwdns57023:0crwdne57023:0 crwdns57025:0crwdne57025:0 crwdns57027:0crwdne57027:0
 
-* أبرزها بيرسو نليش:
-> Ich fing an, ein neues Kapitel über die Selbstreflexion für Datenwissenschaftler zu entwerfen und zu entwerfen und war wirklich begeistert, viele faszinierende und freundliche Leute zu treffen, die auch am Leitfaden für Ethische Forschung arbeiten!
+* crwdns57029:0crwdne57029:0
+> crwdns57031:0crwdne57031:0
 
-* Angebote:
-> Teil des Buches Dash zu sein war eine großartige Erinnerung daran, wie teambasierte Wissenschaft eine so fröhliche und lustige Erfahrung sein kann! Eine besonders zeitgemäße Erinnerung nach einem Jahr Arbeit von meiner Wohnung!
+* crwdns57033:0crwdne57033:0
+> crwdns57035:0crwdne57035:0 crwdns57037:0crwdne57037:0
 
 <!--P-->
-## ب
+## crwdns57039:0crwdne57039:0
 
-### Patricia Herterich
+### crwdns57041:0crwdne57041:0
 
-* Rolle: Core-Mitwirkender (2019 - vorhanden)
-* GitHub id: [pherterich](http://github.com/pherterich)
-* ORCID: [0000-0002-4542-9906](https://orcid.org/0000-0002-4542-9906)
-* Kurzbio:
-> إش بن باحث في تسليح البيانات في جامعة أدنبره، المملكة المتحدة. Ich bin Mitglied des Ausschusses für Software-Nachhaltigkeitsinstitut Fellow und HiddenREF. مستشار مستودع البحوث في جامعة بيرمنغهام (Von 2016 مكررا 2019). Von 2012 bis 2016 Ich habe bei CERN als Doktorand für Open Research gearbeitet und habe dann die Doktorarbeit aufgegeben und mit all den Fähigkeiten, die ich erworben habe, einen echten Job gestartet.
+* crwdns57043:0crwdne57043:0
+* crwdns57045:0crwdne57045:0
+* crwdns57047:0crwdne57047:0
+* crwdns57049:0crwdne57049:0
+> crwdns57051:0crwdne57051:0 crwdns57053:0crwdne57053:0 crwdns57055:0crwdne57055:0 crwdns57057:0crwdne57057:0
 
-* أبرزها بيرسو نليش:
-> Die Arbeit an der Turing Way erinnerte mich daran, was ich in meiner Arbeit schätze und dass ich mehr technische Fähigkeiten habe, als ich glaube. Basierend auf der Turing Way Arbeit, Ich habe die Produkt-Management-Rolle für DMPonline begonnen und ich versuche, die Inspiration aus dem Projekt in meine tägliche Arbeit zu nehmen, wann immer ich kann.
+* crwdns57059:0crwdne57059:0
+> crwdns57061:0crwdne57061:0 crwdns57063:0crwdne57063:0
 
-* Weitere Informationen:
-> Als Bibliothekar fühlt es sich an, als sei unser Einfluss oft begrenzt, aber ich versuche, Workshops/Events einzurichten, um zumindest die Diskussion zu beginnen und vor allem Doktoranden das Gefühl zu geben, dass sie den Status quo in Frage stellen können und es gibt Leute in der Institution, die sie unterstützen werden, die vielleicht nicht ihre Aufsichtsbehörde sind. Ich liebe es wirklich, wie der Turing Way versucht, gute Beispiele zu schaffen, und ich hoffe, dass wir einige Ideen und Ressourcen entwickeln können, die sich positiv auf die Änderung des gegenwärtigen Systems auswirken können. Ich interessiere mich für die Zusammenarbeit und werde mich sehr darüber freuen, neue Tools auszuprobieren, wenn meine begrenzten technologischen Fähigkeiten es erlauben.
+* crwdns57065:0crwdne57065:0
+> crwdns57067:0crwdne57067:0 crwdns57069:0crwdne57069:0 crwdns57071:0crwdne57071:0
 
-### بول أوويتشو
+### crwdns57073:0crwdne57073:0
 
-* رحلة: جوجل موسم الوثيقة : الكاتب الفني، [OLS-2 fu<unk> r توصيل Projektleiter](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)(2020)
-* GitHub id: [paulowoicho](http://github.com/paulowoicho)
-* ORCID: TBA
-* Kurzbio:
-> Ich bin Technischer Autor / Google Season of Docs (GSoD) Teilnehmer arbeitet daran, den Turing Way konsistent, nachhaltig und zugänglich zu machen. إتش هابي أين بكالوريوس في هندسة البرمجيات في جامعة نيجيريا الأمريكية. Danach arbeitete ich als Research Analyst in der Fintech & Abteilung Innovation der Guaranty Trust Bank Nigeria und trugen dazu bei, die Bemühungen der Bank voranzutreiben, durch die Schaffung innovativer digitaler Produkte eine Plattform zu werden. Ich absolvierte einen Master in Data Science an der Universität Glasgow und begann meine Doktorarbeit im Januar 2021 und studierte Gesprächsinformations-Suchsysteme. Ich verbrachte zwei Jahre als Research Analyst bei der Garanty Trust Bank in Lagos, Nigeria hilft dabei, innovative digitale Produkte zu entwickeln, um die Kundenziele der Bank zu erreichen.
+* crwdns57075:0crwdne57075:0
+* crwdns57077:0crwdne57077:0
+* crwdns57079:0crwdne57079:0
+* crwdns57081:0crwdne57081:0
+> crwdns57083:0crwdne57083:0 crwdns57085:0crwdne57085:0 crwdns57087:0crwdne57087:0 crwdns57089:0crwdne57089:0 crwdns57091:0crwdne57091:0
 
-* أبرزها بيرسو نليش:
-> Der Turing Way ist mein erster Weg nach Open Source und war eine fantastische Lernerfahrung. Nicht nur habe ich ein tieferes Verständnis und Wertschätzung für die Funktionsweise von GitHub gewonnen aber ich lerne auch, Nachhaltigkeit und Ermächtigung in der Arbeit, die ich tue, vorrangig zu behandeln. Obwohl The Turing Way mein erstes Open-Source-Projekt ist, habe ich die Erfahrung sehr genossen und dabei viel gelernt. Vor dem GSoD-Programm habe ich nur Github benutzt, um meine Projekte zu speichern. Jetzt bin ich viel kompetenter in der Zusammenarbeit mit Github und bin geschickter in der Arbeit mit Tools wie Markdown, Jupyter Buch und Sphinx. Darüber hinaus habe ich mich mit der Einrichtung und der Arbeit mit Webanalyse-Software vertraut gemacht. Den vollständigen Bericht der GSoD-Teilnahme [finden Sie hier](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/GSOD-applications/GSoD-2020-Project-Report.md). در بوكداش نوفمبر 2020 فارس حرب خروج! Es war großartig, sich zu treffen, zusammenzuarbeiten und Ideen mit Menschen aus der ganzen Welt zu teilen. Jenseits des Buches Dash, The Turing Way ist das allererste Open-Source-Projekt, an dem ich jemals gearbeitet habe. Die Erfahrung war fantastisch, und ich beabsichtige, als Mitwirkender nach dem Ende der Google Season of Docs Programm herumzuspielen. Ich sehe auch, dass ich mich an anderen Open-Source-Projekten beteilige.
+* crwdns57093:0crwdne57093:0
+> crwdns57095:0crwdne57095:0 crwdns57097:0crwdne57097:0 crwdns57099:0crwdne57099:0 crwdns57101:0crwdne57101:0 crwdns57103:0crwdne57103:0 crwdns57105:0crwdne57105:0 crwdns57107:0crwdne57107:0 crwdns57109:0crwdne57109:0 crwdns57111:0crwdne57111:0 crwdns57113:0crwdne57113:0 crwdns57115:0crwdne57115:0 crwdns57117:0crwdne57117:0
 
-* Persönliches Angebot:
-> Technische Fähigkeiten Asides habe ich sehr geschätzt, was die Arbeit an einem Open-Source-Projekt mit sich bringt. Meine Mentoren haben mir geholfen, zu erkennen, dass der Wert, den ich aus dem GSoD-Programm zurückgelassen habe, nicht in der von mir geleisteten Arbeit lag, aber wie ich anderen Mitwirkenden die Arbeit ermöglichte, die ich geleistet habe. Als Ergebnis lernte ich, als Technischer Schriftsteller auf reproduzierbare, nachhaltige, zugängliche und integrative Weise beizutragen.
+* crwdns57119:0crwdne57119:0
+> crwdns57121:0crwdne57121:0 crwdns57123:0crwdne57123:0 crwdns57125:0crwdne57125:0
 
 <!---Q
 ## Q--->
 
 
 <!---R-->
-## ل
+## crwdns57127:0crwdne57127:0
 
 
-### Rosie Higman
+### crwdns57129:0crwdne57129:0
 
-* Rolle: Core Contributor (2019), Book Dash 2019 Teilnehmer und Helfer
-* GitHub id: [rosiehigman](http://github.com/rosiehigman)
-* ORCID: [0000-0001-5329-7168](https://orcid.org/0000-0001-5329-7168)
-* Kurzbio:
-> Ich bin Forschungsdatenbibliothekar an der University of Manchester, wo ich den Support für Forschungsdatenmanagement mitleite. Mein Schwerpunkt liegt auf dem Datenaustausch, der Ausbildung und der Ermutigung von Forschern zur offenen Forschung. Mein Hintergrund liegt in den Sozialwissenschaften und ich habe kürzlich einen Doktortitel bei der British Library und der University of Sheffield mit Blick auf den offenen Zugang und die Rolle der Nationalbibliothek begonnen.
+* crwdns57131:0crwdne57131:0
+* crwdns57133:0crwdne57133:0
+* crwdns57135:0crwdne57135:0
+* crwdns57137:0crwdne57137:0
+> crwdns57139:0crwdne57139:0 crwdns57141:0crwdne57141:0 crwdns57143:0crwdne57143:0
 
-* Weitere Informationen:
-> Ich bin leidenschaftlich für die Unterstützung von Forschern! Den Forschern so einfach wie möglich zu machen, ihre Forschung reproduzierbar und offen zu machen und dies einfacher als die Durchführung von Forschung in geschlossener Weise. Ich versuche den Forschern dabei zu helfen, kleine Verbesserungen bei der Öffnung ihrer Forschung vorzunehmen, wobei einige Fortschritte besser sind als keine! Bei der Arbeit im Forschungsdatenmanagement mache ich mir natürlich Sorgen, dass Daten nicht ernst genommen werden als unabhängige Forschungsleistung und das Vergütungssystem in der Wissenschaft ist so stark auf "hochschlagende" Zeitschriftenartikel ausgerichtet. Als Nicht-STEM-Mitarbeiter interessiere ich mich auch dafür, wie wir reproduzierbare Forschung möglichst zugänglich machen können. Dies wird das erste Projekt sein, bei dem ich direkt in GitHub gearbeitet habe und ich bin gespannt darauf, mehr Vertrauen in die Verwendung zu bekommen! أقضي الكثير من وقتي في التحدث مع الباحثين حول المبادئ العامة لـ *لماذا* البحوث القابلة للتكرير والمفتوحة هي فكرة جيدة وأنا متحمس لفكرة إعطاء الناس توجيهات عملية حول *كيف* القيام بذلك. Schurkencode wird in diesen Diskussionen häufig als Grund angeführt, um nicht gemeinsam Code zu verwenden. Wenn wir also etwas produzieren könnten, das den Menschen hilft, diese Barriere zu überwinden, wäre diese Barriere groß. Ich hoffe, dass der Turing Way etwas sein wird, das wir auch an der Universität von Manchester und anderen Turing-Universitäten im ganzen Land nutzen können!
+* crwdns57145:0crwdne57145:0
+> crwdns57147:0crwdne57147:0 crwdns57149:0crwdne57149:0 crwdns57151:0crwdne57151:0 crwdns57153:0crwdne57153:0 crwdns57155:0crwdne57155:0 crwdns57157:0crwdne57157:0 crwdns57159:0crwdne57159:0 crwdns57161:0crwdne57161:0 crwdns57163:0crwdne57163:0 crwdns57165:0crwdne57165:0
 
 
-### راشيل آنسورث
+### crwdns57167:0crwdne57167:0
 
-* رسالة: المساهم الأساسي (2019)، ميسر كتاب داش ماي 2019
-* GitHub id: [rainsworth](http://github.com/rainsworth)
-* ORCID: [0000-0003-2591-9462](https://orcid.org/0000-0003-2591-9462)
-* Kurzbio:
-> معهد إستدامة البرمجيات في مجتمع إتش بن ليتر د. مركز زوفور أربييت للأبحاث المعاون وبطل العلوم المفتوحة لدى مصرف جودريل للفيزياء الفلكية التابع لجامعة مانشستر. Meine Forschungen betrafen die Beobachtung von Jets junger Sterne mit Funkteleskopen der nächsten Generation, um die physikalischen Prozesse zu untersuchen, die Sterne wie unsere Sonne zusammenbringen. und ich arbeite derzeit daran, Daten aus den Funkteleskopanlagen bei der Jodrell Bank für alle zugänglicher zu machen. Ich bin auch ein FOSTER zertifizierter Open Science Trainer, Mozilla Open Leader und Organisatorin für die Frauen in der Datentreffengruppe HER+Data MCR.
+* crwdns57169:0crwdne57169:0
+* crwdns57171:0crwdne57171:0
+* crwdns57173:0crwdne57173:0
+* crwdns57175:0crwdne57175:0
+> crwdns57177:0crwdne57177:0 crwdns57179:0crwdne57179:0 crwdns57181:0crwdne57181:0 crwdns57183:0crwdne57183:0 crwdns57185:0crwdne57185:0
 
-* أبرزها بيرسو نليش:
-> Ich habe *den Turing Weg* durch viele Präsentationen befördert vor allem auf der Open Science Fair 2019, wo ich ein Plakat präsentierte und 3 Demonstrationen des Projekts an die Teilnehmer lieferte einer von ihnen wurde im Rahmen des [ORION Open Science Podcast](https://orionopenscience.podbean.com/e/the-fair-is-in-town-figshare-the-turing-way-and-open-science-quest-at-the-osfair2019/) aufgenommen. Durch *das Projekt Turing Way* habe ich wertvolle Fähigkeiten im offenen Projektmanagement erworben und mich wirklich inspirierende Personen getroffen, die hart daran arbeiten, Offenheit und Reproduzierbarkeit in der Forschung zu fördern.
+* crwdns57187:0crwdne57187:0
+> crwdns57189:0crwdne57189:0 crwdns57191:0crwdne57191:0
 
-* Weitere Informationen:
-> Ich bin leidenschaftlich für die Förderung von Offenheit, Transparenz, Reproduzierbarkeit. das Wohlbefinden und die Einbindung in STEM und die Erleichterung von interaktionsübergreifenden Gesprächen, um die Forschungskultur zum Besseren zu verändern. Ich liebe auch die Erkundung des Weltraums. *Der Turing Way* Ziel sicherzustellen, dass reproduzierbare Datenwissenschaften "zu einfach nicht zu tun" bei mir wirklich widerhallt. Ich finde, dass es schwierig sein kann, die Forscher dazu zu bewegen, sich mit Reproduzierbarkeit zu befassen und ihre Forschungsleistungen zu teilen, weil sie glauben, dass es zu viel Zeit und Mühe mit sehr wenig Belohnung brauchen wird - wenn das Gegenteil der Fall ist! Die Sicherstellung von Ergebnissen ist nicht nur für die Forschung insgesamt reproduzierbar und erhöht die Effizienz, aber auf diese Weise zu arbeiten bietet den Forschern auch mehr Möglichkeiten zur Wirkung und Zusammenarbeit.
+* crwdns57193:0crwdne57193:0
+> crwdns57195:0crwdne57195:0 crwdns57197:0crwdne57197:0 crwdns57199:0crwdne57199:0 crwdns57201:0crwdne57201:0 crwdns57203:0crwdne57203:0 crwdns57205:0crwdne57205:0
 
 <!---S--->
-## س
+## crwdns57207:0crwdne57207:0
 
-### صامويل-غواي
+### crwdns57209:0crwdne57209:0
 
-* الرحلة: OLS-2 fu<unk> r Ting Mentor, Book Dash November 2020 Teilnehmer
-* GitHub id: [SamGuay](https://github.com/SamGuay)
-* ORCID: [0000-0001-6990-839X](https://orcid.org/0000-0001-6990-839X)
+* crwdns57211:0crwdne57211:0
+* crwdns57213:0crwdne57213:0
+* crwdns57215:0crwdne57215:0
 
-* Kurzbio:
-> Ich bin Doktorand für kognitive Neurowissenschaften an der Universität Montreal, Kanada, Die Erforschung der Wirkungen des sich wiederholenden Kopfes wirkt sich auf inaktive und pensionierte Athleten mit einer neuroimagierenden Perspektive aus. Parallel Ich habe die [Open Science UMontreal](https://umontreal.openscience.ca) Initiative gestartet, um Frühkarriere-Wissenschaftler mit besseren Kenntnissen und Werkzeugen auszustatten, um mehr offene Wissenschaft in ihren Workflow umzusetzen. Die OSUM-Community Mitglieder sind wirklich großartig :rocket:. Insbesondere habe ich daran gearbeitet, einen Prozess für die Übersetzung von _der Turing Way_ auf Französisch zu setzen. Ich habe dazu beigetragen, [Hypothese hinzuzufügen.is](https://web.hypothes.is/) zu _Der Turing Weg_.
+* crwdns57217:0crwdne57217:0
+> crwdns57219:0crwdne57219:0 crwdns57221:0crwdne57221:0 crwdns57223:0:rocket:crwdne57223:0 crwdns57225:0crwdne57225:0 crwdns57227:0crwdne57227:0
 
-* أبرزت النليشات:
-> Der gesamte November 2020 Buch Dash war mein Höhepunkt. Ich habe die ganze Woche über eine einladende Gemeinschaft und erstaunliche Menschen kennen gelernt. Es war erstaunlich, in dieser winzigen Zeit so viel Fortschritt zu beobachten.
+* crwdns57229:0crwdne57229:0
+> crwdns57231:0crwdne57231:0 crwdns57233:0crwdne57233:0 crwdns57235:0crwdne57235:0
 
 
-### سارة جيبسون
+### crwdns57237:0crwdne57237:0
 
-* Rolle: Core contributor, Infrastructure Maintainer (2019 - jetzt), OLS-2 und OLS-3 for Turing mentor, Book Dash 2020 Helfer
-* GitHub id: [sgibson91](http://github.com/sgibson91)
-* ORCID: [0000-0003-0356-2765](https://orcid.org/0000-0003-0356-2765)
-* Kurzbio:
-> Sarah Gibson ist ein Open Source Infrastructure Engineer bei 2i2c, einer Open-Source-Mitwirkenden und Fürsprecherin. Sie verfügt über mehr als zwei Jahre Erfahrung als Forschungsingenieurin an einem nationalen Institut für Datenwissenschaft und künstliche Intelligenz sowie eine zentrale Rolle in den Open-Source-Projekten Binder, JupyterHub und der Turing Way. Sie ist Mitglied des Betriebsteams mybinder.org und unterhält Infrastrukturen, die eine globale Gemeinschaft bei der gemeinsamen Nutzung reproduzierbarer Computerumgebungen unterstützen.
+* crwdns57239:0crwdne57239:0
+* crwdns57241:0crwdne57241:0
+* crwdns57243:0crwdne57243:0
+* crwdns57245:0crwdne57245:0
+> crwdns57247:0crwdne57247:0 crwdns57249:0crwdne57249:0 crwdns57251:0crwdne57251:0
 
-* أبرزها بيرسو نليش:
-> Ich werde eingeladen, dem Mybinder beizutreten. rg Operating Team nach der Zusammenarbeit mit ihnen durch _die Turing Way_ und hilft, Leute auf mybinder aufzurufen. rg durch _Von Null bis Binder_ Workshops.
+* crwdns57253:0crwdne57253:0
+> crwdns57255:0crwdne57255:0 crwdns57257:0crwdne57257:0 crwdns57259:0crwdne57259:0
 
-* Weitere Informationen:
-> Sarah ist leidenschaftlich bei der Zusammenarbeit mit Domänenexperten, um Cloud-Computing zu nutzen, um den Schnelllauf zu beschleunigen, datenintensive Forschung und Verbreitung der Ergebnisse auf offene, reproduzierbare und wiederverwendbare Weise. Darüber hinaus ist sie als Stipendiatin bei dem Software-Nachhaltigkeitsinstitut tätig und tritt für Best Software Practices in der Forschung ein.
+* crwdns57261:0crwdne57261:0
+> crwdns57263:0crwdne57263:0 crwdns57265:0crwdne57265:0
 
-### باتشيلور صوفيا
+### crwdns57267:0crwdne57267:0
 
-* رحلة: HacktoberFest Spendenfo<unk> rderer, [OLS Projektleiter](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring) (2020), Book Dash November 2020 Teilnehmer
-* GitHub id: [BrainonSilicon](https://github.com/BrainonSilicon)
-* ORCID: [0000-0002-8572-2058](https://orcid.org/0000-0002-8572-2058)
-* Kurzbio:
-> إش بن دوكتوراند من جامعة ليدز، موت مستشارة استشاريموتور ليرنن اذهب إلى مركز دراسة التكنولوجيات الغامرة. Meine Forschung konzentriert sich darauf, zu verstehen, wie unser Gehirn interpretiert, und reagiert sowohl auf unsere physische Realität als auch auf eine konstruierte Realität (AR/VR). Ich tue dies durch eine tiefe Liebe zum Gehirn und den aufstrebenden Technologien. Wir werden in der Zukunft existieren, die wir jetzt erarbeiten; Wenn wir also mit einer "Menschen zuerst" (oder einem Gehirn zuerst) Philosophie bauen, bauen wir am Ende einen Raum auf, der es den Menschen ermöglicht, zu gedeihen.
+* crwdns57269:0crwdne57269:0
+* crwdns57271:0crwdne57271:0
+* crwdns57273:0crwdne57273:0
+* crwdns57275:0crwdne57275:0
+> crwdns57277:0crwdne57277:0 crwdns57279:0crwdne57279:0 crwdns57281:0crwdne57281:0 crwdns57283:0crwdne57283:0
 
-* أبرزها بيرسو نليش:
-> MEINE ERSTEN VERTRIBUTION ZUM TURING WOHN! Es ist eine absolute Ehre, der The Turing Way Community beizutreten, wenn wir in eine offene, ethische und zugängliche Zukunft schauen. Nach einem solchen gemischten STEM und Nicht-STEM Hintergrund, Ich freue mich, dass ich dieser Community beigetreten bin, da sie wächst und mein Denken darüber leitet, wie und was es bedeutet, Forschung zu machen.
+* crwdns57285:0crwdne57285:0
+> crwdns57287:0crwdne57287:0 crwdns57289:0crwdne57289:0 crwdns57291:0crwdne57291:0
 
-* Weitere Informationen:
-> Ich bin ein leidenschaftlicher Verfechter ethischer und offener Forschung, und diese Überzeugungen neigen dazu, in alles, was ich tue, hineinzutragen. Ich habe zuvor an Brain Computer Interfaces gearbeitet, nachdem ich meine Untergrade bei UC Berkeley beendet hatte, wo ich die unglaubliche Arbeit sah, die durch Zusammenarbeit geleistet werden kann Crossdisziplinäre Wissenschaft. Ich bin nun Teil von Open Life Science's zweitem Kohorten-Lernen, wie man die Lehren von The Turing Way umsetzt, denn wenn gute Wissenschaft und bewährte Praxis zusammentreffen, große Dinge können passieren.
+* crwdns57293:0crwdne57293:0
+> crwdns57295:0crwdne57295:0 crwdns57297:0crwdne57297:0 crwdns57299:0crwdne57299:0
 
 
 <!---T--->
-## ت
+## crwdns57301:0crwdne57301:0
 
-### تيم باول
+### crwdns57303:0crwdne57303:0
 
-* Twitter: [@mrtimpowell](https://twitter.com/mrtimpowell)
-* Kurzbio:
-> Tim ist ein Astrophysiker wandelte Research Software Engineer, der seit jeher eine Leidenschaft für den wissenschaftlichen Austausch hatte. Von der Teilnahme an öffentlichen Vorträgen und der Teilnahme als Teilnehmer an Outreach-Veranstaltungen in Cambridge als Teenager bis zum Bau eines Miniatur-Supercomputers Tim hat eine lange Geschichte von Outreach-Aktivitäten. Während Tim an der Universität zu einem STEM Botschafter bei der Physik-Gesellschaft wurde, wo er die zur Verfügung gestellten Werkzeuge nutzte, um Gruppen von Kindern in wissenschaftliche Konzepte einzubringen. Tim nahm auch an 4 [British Science Weeks](https://www.britishscienceweek.org/) teil, die viele verschiedene Aspekte der Physik und Fernerkundung zeigen. Als Tim dem Hartree Center von STFC beigetreten ist, baute er einen Miniatur-Supercomputer namens [HPiC](https://blog.hartree.ac.uk/wordpress/?p=361). HPiC ist das Hartree Centre Raspberry Pi Cluster. Es wurde geschaffen, um Supercomputing-Techniken zu demonstrieren und einige der Fachkenntnisse des Hartree Centers zu zeigen. تم عرض HPiC في العديد من [المؤتمرات التقنية](https://twitter.com/MrTimPowell/status/1062098668403245058) و [أحداث التوعية العامة](https://twitter.com/HartreeCentre/status/1055029464592273408) ليس فقط عبر المملكة المتحدة ولكن على الصعيد الدولي أيضًا. Neben der Präsentation von technischen Plakaten und Vorträgen auf verschiedenen Konferenzen bietet Tim auch gerne seine Erfahrung in der Öffentlichkeitsarbeit und stellt vor, was er gelernt hat und wie dies für den Unterricht gilt. Tim pra<unk> sentierte auf der ISC 2019 HPC التعليم والتدريب للتكنولوجيات الناشئة وحلقة العمل والتدريب في مجال التكنولوجيات الناشئة وحلقة العمل [SIGHPC](https://sighpceducation.acm.org/) أفضل الممارسات في مجال التدريب والتعليم HPC لفريق التدريب والتعليم فائق الحوسبة لعام 2019. تموت شركة Zusammenarbeit التي اعترفت ببنجامين موميري نسخة الـ LEGO من مركز هارتري السوبر كمبيوتر [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963)
+* crwdns57305:0crwdne57305:0
+* crwdns57307:0crwdne57307:0
+> crwdns57309:0crwdne57309:0 crwdns57311:0crwdne57311:0 crwdns57313:0crwdne57313:0 crwdns57315:0crwdne57315:0 crwdns57317:0crwdne57317:0 crwdns57319:0crwdne57319:0 crwdns57321:0crwdne57321:0 crwdns57323:0crwdne57323:0 crwdns57325:0crwdne57325:0 crwdns57327:0crwdne57327:0 crwdns57329:0crwdne57329:0
 
-* أبرزها بيرسو نليش:
-> Ich habe mit einer Gruppe von Forschern des Alan Turing Institute zusammengearbeitet, um ein Kapitel der wissenschaftlichen Reichweite zu entwerfen.
+* crwdns57331:0crwdne57331:0
+> crwdns57333:0crwdne57333:0
 
 
 <!---U
 ## U--->
 
 
-## ف
+## crwdns57335:0crwdne57335:0
 
-### فيسكي هول
+### crwdns57337:0crwdne57337:0
 
-* Rolle: Buch Dash 2021 Teilnehmer
-* GitHub id: vhellon
-* تويتر: @ فيكيهيلون
+* crwdns57339:0crwdne57339:0
+* crwdns57341:0crwdne57341:0
+* crwdns57343:0crwdne57343:0
 
-* Kurzbio:
-> مدير المجتمع فيكي هيلون إم آلان تورينغ لشراكة تورينغ - روتش. Sie wird eng mit beiden Organisationen zusammenarbeiten, um eine engagierte und nachhaltige Gemeinschaft rund um die Partnerschaft aufzubauen. mit dem Fokus auf die Unterstützung von Forschern bei der Umsetzung und Einbettung von Open Science Praktiken. Sie hat ein BSc in Biomedizinwissenschaften der Universität Sheffield und hatte zuvor Rollen in der Open Access-Veröffentlichung. Sie engagiert sich für vorausschauende Veränderungen im akademischen Verlagssystem und engagiert sich mit Forschern aus unterschiedlichem Hintergrund.
+* crwdns57345:0crwdne57345:0
+> crwdns57347:0crwdne57347:0 crwdns57349:0crwdne57349:0 crwdns57351:0crwdne57351:0 crwdns57353:0crwdne57353:0 crwdns57355:0crwdne57355:0
 
-* أبرزها بيرسو نليش:
-> Dies war eine großartige Einführung in die Turing Way und die Gemeinschaft. Ich liebte es zu sehen, wie kollaborativ jeder war und auch die Skala dessen, was jeder während der Bindestriche produzieren konnte! Ich bin stolz, dass ich es geschafft habe, meinen ersten richtigen Pull-Antrag zu machen, einen greifbaren Beitrag zu leisten und mich um Github zu navigieren, um andere zu überprüfen.
+* crwdns57357:0crwdne57357:0
+> crwdns57359:0crwdne57359:0 crwdns57361:0crwdne57361:0 crwdns57363:0crwdne57363:0
 
-* Weitere Informationen:
-> Ich werde weiter am Kapitel "Open Access" arbeiten und hoffe, mit anderen wie @EKaroune @Karwovskaya zusammenarbeiten zu können, um ein Kapitel/Abschnitt "Publishing" zu erweitern
+* crwdns57365:0crwdne57365:0
+> crwdns57367:0crwdne57367:0
 
-* Angebote:
-> Wenn du "Community" machen willst, dann kannst du kein besseres Beispiel bekommen als die Turing Way
+* crwdns57369:0crwdne57369:0
+> crwdns57371:0crwdne57371:0
 
 <!---W
 ## W--->
@@ -672,409 +672,409 @@ Die Teilnahme von Esther Plomp wird von der Fachhochschule Delft unterstützt. 
 <!---Z
 ## Z--->
 
-(Mitwirkende)=
-# Alle Mitwirkenden
-✨Benutze [alle Mitwirkenden](https://allcontributors.org/) Spezifikation, _der Turing Way_ erkennt alle Mitwirkenden, nicht nur diejenigen, die Code schieben. ✨ (contributors-record-contributors)=
+crwdns57373:0crwdne57373:0
+# crwdns57375:0crwdne57375:0
+crwdns57377:0crwdne57377:0 crwdns57379:0crwdne57379:0
 
-## Mitwirkende
+## crwdns57381:0crwdne57381:0
 
-Danke an diese wunderbaren Leute ([Emoji-Schlüssel](https://allcontributors.org/docs/en/emoji-key)):
+crwdns57383:0crwdne57383:0
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
 <tr>
-<td align="center"><a href="https://github.com/Aakash-Raj-2001"><img src="https://avatars.githubusercontent.com/u/79682170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aakash Raj</b></sub></a><br /><a href="#translation-Aakash-Raj-2001" title="Translation">🌍</a></td>
-<td align="center"><a href="https://achintyarao.in"><img src="https://avatars.githubusercontent.com/u/7623019?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Achintya Rao</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ARaoOfPhysics" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ARaoOfPhysics" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://www.adina-wagner.com"><img src="https://avatars1.githubusercontent.com/u/29738718?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adina Wagner</b></sub></a><br /><a href="#content-adswa" title="Content">🖋</a></td>
-<td align="center"><a href="http://warwick.ac.uk/aditishenvi"><img src="https://avatars2.githubusercontent.com/u/39489147?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aditi Shenvi</b></sub></a><br /><a href="#ideas-ashenvi10" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/afzal442"><img src="https://avatars.githubusercontent.com/u/11625672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Afzal Ansari</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aafzal442" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/Ago3"><img src="https://avatars.githubusercontent.com/u/30800478?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ago3</b></sub></a><br /><a href="#ideas-Ago3" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/Hanaffi"><img src="https://avatars.githubusercontent.com/u/35642947?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أحمد عصام</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AHanaffi" title="Bug reports">🐛</a></td>
+<td align="center">crwdns57385:0crwdne57385:0</td>
+<td align="center">crwdns57387:0%3crwdnd57387:0%3crwdnd57387:0%3crwdne57387:0</td>
+<td align="center">crwdns57389:0crwdne57389:0</td>
+<td align="center">crwdns57391:0crwdne57391:0</td>
+<td align="center">crwdns57393:0%3crwdne57393:0</td>
+<td align="center">crwdns57395:0crwdne57395:0</td>
+<td align="center">crwdns57397:0%3crwdne57397:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/AidaMehonic"><img src="https://avatars.githubusercontent.com/u/45169136?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aida Mehonic</b></sub></a><br /><a href="#ideas-AidaMehonic" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/ahornos"><img src="https://avatars0.githubusercontent.com/u/9551786?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Albert Hornos Vidal</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aahornos" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aahornos" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/aldenc"><img src="https://avatars.githubusercontent.com/u/20688591?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alden Conner</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aaldenc" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/acocac"><img src="https://avatars.githubusercontent.com/u/13321552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أليخاندرو ©</b></sub></a><br /><a href="#content-acocac" title="Content">🖋</a></td>
-<td align="center"><a href="https://ornithos.github.io/"><img src="https://avatars3.githubusercontent.com/u/8834882?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Bird</b></sub></a><br /><a href="#tutorial-ornithos" title="Tutorials">✅</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aornithos" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://alexwlchan.net"><img src="https://avatars0.githubusercontent.com/u/301220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أليكس تشان</b></sub></a><br /><a href="#ideas-alexwlchan" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://informationcake.com"><img src="https://avatars3.githubusercontent.com/u/16001543?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ألكس كلارك</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=informationcake" title="Documentation">📖</a></td>
+<td align="center">crwdns57399:0crwdne57399:0</td>
+<td align="center">crwdns57401:0%3crwdnd57401:0%3crwdnd57401:0%3crwdne57401:0</td>
+<td align="center">crwdns57403:0%3crwdne57403:0</td>
+<td align="center">crwdns57405:0crwdne57405:0</td>
+<td align="center">crwdns57407:0%3crwdnd57407:0%3crwdne57407:0</td>
+<td align="center">crwdns57409:0crwdne57409:0</td>
+<td align="center">crwdns57411:0crwdne57411:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://alexmorley.me"><img src="https://avatars2.githubusercontent.com/u/13655521?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexander Morley</b></sub></a><br /><a href="#question-alexmorley" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aalexmorley" title="Reviewed Pull Requests">👀</a> <a href="#ideas-alexmorley" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=alexmorley" title="Tests">⚠️</a> <a href="#infra-alexmorley" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-alexmorley" title="Maintenance">🚧</a></td>
-<td align="center"><a href="http://www.saral.it"><img src="https://avatars1.githubusercontent.com/u/11707417?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ali Seyhun Saral</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=seyhunsaral" title="Documentation">📖</a></td>
-<td align="center"><a href="http://www.saral.it"><img src="https://avatars.githubusercontent.com/u/82848414?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ali Seyhun Saral</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aaseyq" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/kir0ul"><img src="https://avatars3.githubusercontent.com/u/6053592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea Pierré</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Akir0ul" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/andreea-avramescu"><img src="https://avatars.githubusercontent.com/u/33720256?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andreea Avramescu</b></sub></a><br /><a href="#content-andreea-avramescu" title="Content">🖋</a></td>
-<td align="center"><a href="http://inwaves.io"><img src="https://avatars.githubusercontent.com/u/8530685?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrei Alexandru</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ainwaves" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ainwaves" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://scholar.google.co.uk/citations?user=o0cD2JgAAAAJ&hl=en"><img src="https://avatars3.githubusercontent.com/u/26226804?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew Stewart</b></sub></a><br /><a href="#tutorial-ajstewartlang" title="Tutorials">✅</a></td>
+<td align="center">crwdns57413:0%3crwdnd57413:0%3crwdne57413:0</td>
+<td align="center">crwdns57415:0crwdne57415:0</td>
+<td align="center">crwdns57417:0%3crwdnd57417:0%3crwdne57417:0</td>
+<td align="center">crwdns57419:0%3crwdne57419:0</td>
+<td align="center">crwdns57421:0crwdne57421:0</td>
+<td align="center">crwdns57423:0%3crwdnd57423:0%3crwdnd57423:0%3crwdne57423:0</td>
+<td align="center">crwdns57425:0crwdne57425:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://www.linkedin.com/in/andriannobella"><img src="https://avatars0.githubusercontent.com/u/57834926?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrian Nobella</b></sub></a><br /><a href="#translation-andriannobella" title="Translation">🌍</a></td>
-<td align="center"><a href="http://varlotta.xyz"><img src="https://avatars3.githubusercontent.com/u/5478922?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Angelo Varlotta</b></sub></a><br /><a href="#translation-varlottaang" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/aniketh-varma"><img src="https://avatars.githubusercontent.com/u/55805574?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aniketh Varma</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aaniketh-varma" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/annahadji"><img src="https://avatars0.githubusercontent.com/u/14828356?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anna Hadjitofi</b></sub></a><br /><a href="#content-annahadji" title="Content">🖋</a> <a href="#translation-annahadji" title="Translation">🌍</a> <a href="#tutorial-annahadji" title="Tutorials">✅</a></td>
-<td align="center"><a href="https://www.annakrystalli.me/"><img src="https://avatars1.githubusercontent.com/u/5583057?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anna Krystalli</b></sub></a><br /><a href="#question-annakrystalli" title="Answering Questions">💬</a> <a href="#example-annakrystalli" title="Examples">💡</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aannakrystalli" title="Reviewed Pull Requests">👀</a> <a href="#ideas-annakrystalli" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tutorial-annakrystalli" title="Tutorials">✅</a></td>
-<td align="center"><a href="https://annabelelizabethwhipp.github.io/homepage"><img src="https://avatars0.githubusercontent.com/u/32568227?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Annabel Elizabeth Whipp</b></sub></a><br /><a href="#ideas-annabelelizabethwhipp" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/Arielle-Bennett"><img src="https://avatars.githubusercontent.com/u/74651964?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arielle-Bennett</b></sub></a><br /><a href="#ideas-Arielle-Bennett" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AArielle-Bennett" title="Reviewed Pull Requests">👀</a> <a href="#content-Arielle-Bennett" title="Content">🖋</a></td>
+<td align="center">crwdns57427:0crwdne57427:0</td>
+<td align="center">crwdns57429:0crwdne57429:0</td>
+<td align="center">crwdns57431:0%3crwdne57431:0</td>
+<td align="center">crwdns57433:0crwdne57433:0</td>
+<td align="center">crwdns57435:0%3crwdnd57435:0%3crwdne57435:0</td>
+<td align="center">crwdns57437:0crwdne57437:0</td>
+<td align="center">crwdns57439:0%3crwdnd57439:0%3crwdne57439:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://aryanuwu.myportfolio.com/"><img src="https://avatars.githubusercontent.com/u/26514224?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aryan nath</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AAryannath" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/augustinas1"><img src="https://avatars1.githubusercontent.com/u/10000223?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Augustinas Sukys</b></sub></a><br /><a href="#ideas-augustinas1" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://barbaravreede.com"><img src="https://avatars2.githubusercontent.com/u/5747405?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Barbara Vreede</b></sub></a><br /><a href="#content-bvreede" title="Content">🖋</a></td>
-<td align="center"><a href="http://medium.com/@batool664"><img src="https://avatars1.githubusercontent.com/u/53487593?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Batool</b></sub></a><br /><a href="#ideas-BatoolMM" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-BatoolMM" title="Content">🖋</a> <a href="#translation-BatoolMM" title="Translation">🌍</a> <a href="#infra-BatoolMM" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ABatoolMM" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://beckigreen.netlify.app"><img src="https://avatars.githubusercontent.com/u/77735779?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Becki Gru<unk> n</b></sub></a><br /><a href="#ideas-beckigreen" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-beckigreen" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/r-j-arnold"><img src="https://avatars1.githubusercontent.com/u/20441134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>بيكي أرنولد</b></sub></a><br /><a href="#question-r-j-arnold" title="Answering Questions">:speech_ballon:</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=r-j-arnold" title="Code">💻</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=r-j-arnold" title="Documentation">📖</a> <a href="#ideas-r-j-arnold" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ar-j-arnold" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/BenjaminMummery"><img src="https://avatars3.githubusercontent.com/u/46931690?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benjamin Mummery</b></sub></a><br /><a href="#ideas-BenjaminMummery" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-BenjaminMummery" title="Content">🖋</a></td>
+<td align="center">crwdns57441:0%3crwdne57441:0</td>
+<td align="center">crwdns57443:0crwdne57443:0</td>
+<td align="center">crwdns57445:0crwdne57445:0</td>
+<td align="center">crwdns57447:0%3crwdnd57447:0%3crwdne57447:0</td>
+<td align="center">crwdns57449:0crwdne57449:0</td>
+<td align="center">crwdns57451:0:speech_ballon:crwdnd57451:0%3crwdnd57451:0%3crwdne57451:0</td>
+<td align="center">crwdns57453:0crwdne57453:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/AlfAWolf140"><img src="https://avatars2.githubusercontent.com/u/29063219?v=4?s=100" width="100px;" alt=""/><br /><sub><b>الأسنان مونتاغوي-هيلين</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=AlfAWolf140" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/bouweandela"><img src="https://avatars3.githubusercontent.com/u/5430937?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bouwe Andela</b></sub></a><br /><a href="#content-bouweandela" title="Content">🖋</a></td>
-<td align="center"><a href="https://brndnlee.me/"><img src="https://avatars3.githubusercontent.com/u/39078797?v=4?s=100" width="100px;" alt=""/><br /><sub><b>براندون لي</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ablee1710" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://bsipocz.github.io/"><img src="https://avatars1.githubusercontent.com/u/6788290?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brigitta Sipőcz</b></sub></a><br /><a href="#content-bsipocz" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/bcamino"><img src="https://avatars.githubusercontent.com/u/39554331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>برونو كامينو</b></sub></a><br /><a href="#content-bcamino" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/callummole"><img src="https://avatars1.githubusercontent.com/u/22677759?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Callum Mole</b></sub></a><br /><a href="#ideas-callummole" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://trotts.io"><img src="https://avatars3.githubusercontent.com/u/9531671?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cameron Trotter</b></sub></a><br /><a href="#ideas-Trotts" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57455:0crwdne57455:0</td>
+<td align="center">crwdns57457:0crwdne57457:0</td>
+<td align="center">crwdns57459:0%3crwdne57459:0</td>
+<td align="center">crwdns57461:0crwdne57461:0</td>
+<td align="center">crwdns57463:0crwdne57463:0</td>
+<td align="center">crwdns57465:0crwdne57465:0</td>
+<td align="center">crwdns57467:0crwdne57467:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/crangelsmith"><img src="https://avatars2.githubusercontent.com/u/11162074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>كاميلا رانغل سميث</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=crangelsmith" title="Documentation">📖</a> <a href="#translation-crangelsmith" title="Translation">🌍</a> <a href="#maintenance-crangelsmith" title="Maintenance">🚧</a></td>
-<td align="center"><a href="https://github.com/c-martinez"><img src="https://avatars3.githubusercontent.com/u/7782231?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Martinez</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ac-martinez" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ac-martinez" title="Reviewed Pull Requests">👀</a> <a href="#content-c-martinez" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/vladoxNCL"><img src="https://avatars0.githubusercontent.com/u/33488410?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Vladimiro González Zelaya</b></sub></a><br /><a href="#ideas-vladoxNCL" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/cassgvp"><img src="https://avatars2.githubusercontent.com/u/43407869?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cassandra Gould van Praag</b></sub></a><br /><a href="#ideas-cassgvp" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=cassgvp" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/cemulus"><img src="https://avatars3.githubusercontent.com/u/55829938?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cem Ulus</b></sub></a><br /><a href="#translation-cemulus" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/chadsgilbert"><img src="https://avatars1.githubusercontent.com/u/524598?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tschad Gilbert</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Achadsgilbert" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://chandlerklein.com"><img src="https://avatars3.githubusercontent.com/u/18371945?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chandler Klein</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AChandlerKlein" title="Bug reports">🐛</a></td>
+<td align="center">crwdns57469:0crwdne57469:0</td>
+<td align="center">crwdns57471:0%3crwdnd57471:0%3crwdnd57471:0%3crwdne57471:0</td>
+<td align="center">crwdns57473:0crwdne57473:0</td>
+<td align="center">crwdns57475:0crwdne57475:0</td>
+<td align="center">crwdns57477:0crwdne57477:0</td>
+<td align="center">crwdns57479:0%3crwdne57479:0</td>
+<td align="center">crwdns57481:0%3crwdne57481:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/illushka"><img src="https://avatars1.githubusercontent.com/u/8143964?v=4?s=100" width="100px;" alt=""/><br /><sub><b>شانوكي إيلوشكا سيريسينه</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=illushka" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/watson-c"><img src="https://avatars3.githubusercontent.com/u/48691807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Charlotte Watson</b></sub></a><br /><a href="#ideas-watson-c" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://chrisholdgraf.com"><img src="https://avatars1.githubusercontent.com/u/1839645?v=4?s=100" width="100px;" alt=""/><br /><sub><b>كريس هولدغراف</b></sub></a><br /><a href="#question-choldgraf" title="Answering Questions">:speech_ballon:</a> <a href="#ideas-choldgraf" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/effigies"><img src="https://avatars0.githubusercontent.com/u/83442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Markiewicz</b></sub></a><br /><a href="#ideas-effigies" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://ctomlinson.net"><img src="https://avatars.githubusercontent.com/u/46465574?v=4?s=100" width="100px;" alt=""/><br /><sub><b>كريس توملينسون</b></sub></a><br /><a href="#ideas-tomlincr" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/Chrisisour"><img src="https://avatars2.githubusercontent.com/u/49248075?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christina Hitrova</b></sub></a><br /><a href="#ideas-Chrisisour" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://christopherlovell.co.uk"><img src="https://avatars3.githubusercontent.com/u/4648092?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Lovell</b></sub></a><br /><a href="#infra-christopherlovell" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+<td align="center">crwdns57483:0crwdne57483:0</td>
+<td align="center">crwdns57485:0crwdne57485:0</td>
+<td align="center">crwdns57487:0:speech_ballon:crwdne57487:0</td>
+<td align="center">crwdns57489:0crwdne57489:0</td>
+<td align="center">crwdns57491:0crwdne57491:0</td>
+<td align="center">crwdns57493:0crwdne57493:0</td>
+<td align="center">crwdns57495:0crwdne57495:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/ClareLiggins"><img src="https://avatars3.githubusercontent.com/u/47981871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Liggins auswerfen</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=ClareLiggins" title="Documentation">📖</a></td>
-<td align="center"><a href="http://users.aber.ac.uk/cos"><img src="https://avatars3.githubusercontent.com/u/1053628?v=4?s=100" width="100px;" alt=""/><br /><sub><b>حافظ الكولين</b></sub></a><br /><a href="#ideas-colinsauze" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-colinsauze" title="Content">🖋</a></td>
-<td align="center"><a href="http://collinschwantes.github.io"><img src="https://avatars.githubusercontent.com/u/6107885?v=4?s=100" width="100px;" alt=""/><br /><sub><b>كولين شوانت</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Acollinschwantes" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/DaisyParry"><img src="https://avatars.githubusercontent.com/u/56261324?v=4?s=100" width="100px;" alt=""/><br /><sub><b>دايزي باري</b></sub></a><br /><a href="#content-DaisyParry" title="Content">🖋</a></td>
-<td align="center"><a href="http://spot.colorado.edu/~daho1668/"><img src="https://avatars3.githubusercontent.com/u/6867260?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dan Hobley</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=SiccarPoint" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/taunsquared"><img src="https://avatars1.githubusercontent.com/u/27739141?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Danbee Kim</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=taunsquared" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/dlintott"><img src="https://avatars2.githubusercontent.com/u/4700562?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Lintott</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Adlintott" title="Bug reports">🐛</a></td>
+<td align="center">crwdns57497:0crwdne57497:0</td>
+<td align="center">crwdns57499:0crwdne57499:0</td>
+<td align="center">crwdns57501:0%3crwdne57501:0</td>
+<td align="center">crwdns57503:0crwdne57503:0</td>
+<td align="center">crwdns57505:0crwdne57505:0</td>
+<td align="center">crwdns57507:0crwdne57507:0</td>
+<td align="center">crwdns57509:0%3crwdne57509:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://orcid.org/0000-0001-9488-1870"><img src="https://avatars3.githubusercontent.com/u/465923?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Mietchen</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ADaniel-Mietchen" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://nordholmen.net"><img src="https://avatars1.githubusercontent.com/u/1325054?v=4?s=100" width="100px;" alt=""/><br /><sub><b>دانيال نوي</b></sub></a><br /><a href="#content-nuest" title="Content">🖋</a></td>
-<td align="center"><a href="http://dannygarside.co.uk"><img src="https://avatars3.githubusercontent.com/u/3739866?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Danny Garage</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ada5nsy" title="Bug reports">🐛</a> <a href="#content-da5nsy" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ada5nsy" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/foster999"><img src="https://avatars0.githubusercontent.com/u/31405412?v=4?s=100" width="100px;" alt=""/><br /><sub><b>دافيد فوستر</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Afoster999" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Afoster999" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://www.davidstansby.com"><img src="https://avatars0.githubusercontent.com/u/6197628?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ديفيد ستانسبي</b></sub></a><br /><a href="#content-dstansby" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/DerienFe"><img src="https://avatars3.githubusercontent.com/u/55786232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DerienFe</b></sub></a><br /><a href="#ideas-DerienFe" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://www.imperial.ac.uk/quantum-photovoltaics"><img src="https://avatars1.githubusercontent.com/u/6095790?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diego Alonso Alvarez</b></sub></a><br /><a href="#ideas-dalonsoa" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Adalonsoa" title="Reviewed Pull Requests">👀</a></td>
+<td align="center">crwdns57511:0%3crwdne57511:0</td>
+<td align="center">crwdns57513:0crwdne57513:0</td>
+<td align="center">crwdns57515:0%3crwdnd57515:0%3crwdnd57515:0%3crwdne57515:0</td>
+<td align="center">crwdns57517:0%3crwdnd57517:0%3crwdnd57517:0%3crwdne57517:0</td>
+<td align="center">crwdns57519:0crwdne57519:0</td>
+<td align="center">crwdns57521:0crwdne57521:0</td>
+<td align="center">crwdns57523:0%3crwdnd57523:0%3crwdne57523:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://dblana.github.io/"><img src="https://avatars0.githubusercontent.com/u/13907429?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dimitra Blana</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Adblana" title="Reviewed Pull Requests">👀</a> <a href="#content-dblana" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/dineshkumar12004"><img src="https://avatars.githubusercontent.com/u/67814205?v=4?s=100" width="100px;" alt=""/><br /><sub><b>دينيش كومار</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Adineshkumar12004" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://emalliaraki.com"><img src="https://avatars3.githubusercontent.com/u/36627260?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eirini Malliaraki</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=rockita" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/eirini-zormpa"><img src="https://avatars3.githubusercontent.com/u/30151074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eirini Zormpa</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aeirini-zormpa" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aeirini-zormpa" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://emdupre.me"><img src="https://avatars3.githubusercontent.com/u/15017191?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elizabeth DuPre</b></sub></a><br /><a href="#infra-emdupre" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-emdupre" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aemdupre" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/EKaroune"><img src="https://avatars2.githubusercontent.com/u/58147174?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Em K</b></sub></a><br /><a href="#content-EKaroune" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AEKaroune" title="Bug reports">🐛</a> <a href="#blog-EKaroune" title="Blogposts">📝</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AEKaroune" title="Reviewed Pull Requests">👀</a> <a href="#talk-EKaroune" title="Talks">📢</a></td>
-<td align="center"><a href="http://www.glerean.com"><img src="https://avatars1.githubusercontent.com/u/8993301?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Enrico Glerean</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aeglerean" title="Bug reports">🐛</a></td>
+<td align="center">crwdns57525:0%3crwdnd57525:0%3crwdne57525:0</td>
+<td align="center">crwdns57527:0%3crwdne57527:0</td>
+<td align="center">crwdns57529:0crwdne57529:0</td>
+<td align="center">crwdns57531:0%3crwdnd57531:0%3crwdnd57531:0%3crwdne57531:0</td>
+<td align="center">crwdns57533:0%3crwdnd57533:0%3crwdne57533:0</td>
+<td align="center">crwdns57535:0%3crwdnd57535:0%3crwdnd57535:0%3crwdne57535:0</td>
+<td align="center">crwdns57537:0%3crwdne57537:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/edaub"><img src="https://avatars0.githubusercontent.com/u/45598892?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Daub</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=edaub" title="Documentation">📖</a></td>
-<td align="center"><a href="https://erictleung.com"><img src="https://avatars2.githubusercontent.com/u/2754821?v=4?s=100" width="100px;" alt=""/><br /><sub><b>إيريك ليونغ</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aerictleung" title="Bug reports">:خطأ:</a></td>
-<td align="center"><a href="http://www.ericrscott.com"><img src="https://avatars2.githubusercontent.com/u/25404783?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric R Scott</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AAariq" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/EstherPlomp"><img src="https://avatars1.githubusercontent.com/u/46314469?v=4?s=100" width="100px;" alt=""/><br /><sub><b>إستير بلومب</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AEstherPlomp" title="Bug reports">🐛</a> <a href="#ideas-EstherPlomp" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-EstherPlomp" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AEstherPlomp" title="Reviewed Pull Requests">👀</a> <a href="#talk-EstherPlomp" title="Talks">📢</a> <a href="#blog-EstherPlomp" title="Blogposts">📝</a> <a href="#translation-EstherPlomp" title="Translation">🌍</a></td>
-<td align="center"><a href="http://evelinag.com"><img src="https://avatars2.githubusercontent.com/u/5541162?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Evelina Gabasova</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aevelinag" title="Bug reports">🐛</a> <a href="#content-evelinag" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/fdiblen"><img src="https://avatars.githubusercontent.com/u/144492?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Faruk D.</b></sub></a><br /><a href="#content-fdiblen" title="Content">🖋</a></td>
-<td align="center"><a href="https://federiconanni.com/"><img src="https://avatars2.githubusercontent.com/u/8415204?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Federico Nanni</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Afedenanni" title="Bug reports">🐛</a> <a href="#content-fedenanni" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Afedenanni" title="Reviewed Pull Requests">👀</a></td>
+<td align="center">crwdns57539:0crwdne57539:0</td>
+<td align="center">crwdns57541:0%3crwdne57541:0</td>
+<td align="center">crwdns57543:0%3crwdne57543:0</td>
+<td align="center">crwdns57545:0%3crwdnd57545:0%3crwdnd57545:0%3crwdne57545:0</td>
+<td align="center">crwdns57547:0%3crwdne57547:0</td>
+<td align="center">crwdns57549:0crwdne57549:0</td>
+<td align="center">crwdns57551:0%3crwdnd57551:0%3crwdnd57551:0%3crwdne57551:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://www.turing.ac.uk/people/doctoral-students/ferran-gonzalez-hernandez"><img src="https://avatars0.githubusercontent.com/u/43019129?v=4?s=100" width="100px;" alt=""/><br /><sub><b>فيران غونزاليس هرنانديز</b></sub></a><br /><a href="#ideas-fgh95" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://asquera.de"><img src="https://avatars2.githubusercontent.com/u/47542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Florian Gilcher</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Askade" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://francescooper.net"><img src="https://avatars3.githubusercontent.com/u/14854230?v=4?s=100" width="100px;" alt=""/><br /><sub><b>فرانسيس كوبر</b></sub></a><br /><a href="#content-fmcooper" title="Content">🖋</a> <a href="#ideas-fmcooper" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/FrancesMadden"><img src="https://avatars3.githubusercontent.com/u/52208466?v=4?s=100" width="100px;" alt=""/><br /><sub><b>فرانسيس مادن</b></sub></a><br /><a href="#content-FrancesMadden" title="Content">🖋</a></td>
-<td align="center"><a href="https://www.linkedin.com/in/fuad-reza-pahlevi-531283160/"><img src="https://avatars1.githubusercontent.com/u/25898509?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fuad Reza Pahlevi</b></sub></a><br /><a href="#translation-fuadreza" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/GeorgiaHCA"><img src="https://avatars1.githubusercontent.com/u/46889966?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جورجي</b></sub></a><br /><a href="#ideas-GeorgiaHCA" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/GeorgiaA"><img src="https://avatars2.githubusercontent.com/u/33513781?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جورجيا أتكينسون</b></sub></a><br /><a href="#ideas-GeorgiaA" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57553:0crwdne57553:0</td>
+<td align="center">crwdns57555:0%3crwdne57555:0</td>
+<td align="center">crwdns57557:0crwdne57557:0</td>
+<td align="center">crwdns57559:0crwdne57559:0</td>
+<td align="center">crwdns57561:0crwdne57561:0</td>
+<td align="center">crwdns57563:0crwdne57563:0</td>
+<td align="center">crwdns57565:0crwdne57565:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/georgiatomova"><img src="https://avatars3.githubusercontent.com/u/17258191?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Georgien Tomova</b></sub></a><br /><a href="#ideas-georgiatomova" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/GeorgianaElena"><img src="https://avatars0.githubusercontent.com/u/7579677?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جورجانا إلينا</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AGeorgianaElena" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://gertjan.dev"><img src="https://avatars2.githubusercontent.com/u/3286696?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gertjan van den Burg</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=GjjvdBurg" title="Documentation">📖</a> <a href="#ideas-GjjvdBurg" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-GjjvdBurg" title="Answering Questions">💬</a></td>
-<td align="center"><a href="https://github.com/giannidsp"><img src="https://avatars1.githubusercontent.com/u/40976911?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gianni Scolaro</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Agiannidsp" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://labrary.online"><img src="https://avatars0.githubusercontent.com/u/237254?v=4?s=100" width="100px;" alt=""/><br /><sub><b>غراهام لي</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aiamleeg" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aiamleeg" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://gkiar.github.io"><img src="https://avatars3.githubusercontent.com/u/4883288?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Greg Kiar</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=gkiar" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Agkiar" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/gustavobecelli"><img src="https://avatars3.githubusercontent.com/u/39573195?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gustavo Becelli do Nacimento</b></sub></a><br /><a href="#translation-gustavobecelli" title="Translation">🌍</a></td>
+<td align="center">crwdns57567:0crwdne57567:0</td>
+<td align="center">crwdns57569:0%3crwdnd57569:0%3crwdne57569:0</td>
+<td align="center">crwdns57571:0crwdne57571:0</td>
+<td align="center">crwdns57573:0%3crwdne57573:0</td>
+<td align="center">crwdns57575:0%3crwdnd57575:0%3crwdnd57575:0%3crwdne57575:0</td>
+<td align="center">crwdns57577:0%3crwdnd57577:0%3crwdne57577:0</td>
+<td align="center">crwdns57579:0crwdne57579:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://twitter.com/HeidiBaya"><img src="https://avatars1.githubusercontent.com/u/14146757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Heidi Seibold</b></sub></a><br /><a href="#ideas-HeidiSeibold" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-HeidiSeibold" title="Content">🖋</a></td>
-<td align="center"><a href="http://www.hoang.co.uk/hieu"><img src="https://avatars1.githubusercontent.com/u/691732?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hieu Hoang</b></sub></a><br /><a href="#ideas-hieuhoang" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/Iain-S"><img src="https://avatars.githubusercontent.com/u/25081046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>إيا</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AIain-S" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://ianhinder.net"><img src="https://avatars3.githubusercontent.com/u/213274?v=4?s=100" width="100px;" alt=""/><br /><sub><b>إيان هاندر</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=ianhinder" title="Documentation">📖</a></td>
-<td align="center"><a href="https://aspdenlab.weebly.com/isabel-birds.html"><img src="https://avatars.githubusercontent.com/u/44876111?v=4?s=100" width="100px;" alt=""/><br /><sub><b>إيزابيل بيد</b></sub></a><br /><a href="#ideas-IsabelBirds" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://twitter.com/complexbrains"><img src="https://avatars1.githubusercontent.com/u/45263281?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isil Bilgin</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Acomplexbrains" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/Ismael-KG"><img src="https://avatars0.githubusercontent.com/u/64027166?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ismael-KG</b></sub></a><br /><a href="#content-Ismael-KG" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AIsmael-KG" title="Reviewed Pull Requests">👀</a> <a href="#blog-Ismael-KG" title="Blogposts">📝</a> <a href="#ideas-Ismael-KG" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57581:0crwdne57581:0</td>
+<td align="center">crwdns57583:0crwdne57583:0</td>
+<td align="center">crwdns57585:0%3crwdnd57585:0%3crwdne57585:0</td>
+<td align="center">crwdns57587:0crwdne57587:0</td>
+<td align="center">crwdns57589:0crwdne57589:0</td>
+<td align="center">crwdns57591:0%3crwdne57591:0</td>
+<td align="center">crwdns57593:0%3crwdnd57593:0%3crwdne57593:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://sites.google.com/view/drjkasmireresearch/home"><img src="https://avatars2.githubusercontent.com/u/1334163?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JKasmire</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AJKasmire" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/jspickering"><img src="https://avatars3.githubusercontent.com/u/28339195?v=4?s=100" width="100px;" alt=""/><br /><sub><b>التقريب المشي</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jspickering" title="Documentation">📖</a></td>
-<td align="center"><a href="https://www.linkedin.com/in/james-kent-24666468/"><img src="https://avatars0.githubusercontent.com/u/12564882?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيمس كينت</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ajdkent" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://www.jamesmyatt.co.uk/"><img src="https://avatars1.githubusercontent.com/u/1047337?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيمس مايات</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jamesmyatt" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/jemrobinson"><img src="https://avatars2.githubusercontent.com/u/3502751?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيمس روبنسون</b></sub></a><br /><a href="#ideas-jemrobinson" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jemrobinson" title="Code">:laptop_computer</a></td>
-<td align="center"><a href="https://linkedin.com/in/jatonline"><img src="https://avatars.githubusercontent.com/u/48878399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيمس توماس</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Ajatonline" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/jmgate"><img src="https://avatars3.githubusercontent.com/u/20327215?v=4?s=100" width="100px;" alt=""/><br /><sub><b>بوابات جاسون</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jmgate" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ajmgate" title="Reviewed Pull Requests">👀</a></td>
+<td align="center">crwdns57595:0%3crwdne57595:0</td>
+<td align="center">crwdns57597:0crwdne57597:0</td>
+<td align="center">crwdns57599:0%3crwdne57599:0</td>
+<td align="center">crwdns57601:0crwdne57601:0</td>
+<td align="center">crwdns57603:0crwdne57603:0</td>
+<td align="center">crwdns57605:0%3crwdne57605:0</td>
+<td align="center">crwdns57607:0%3crwdnd57607:0%3crwdne57607:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/jmoldon"><img src="https://avatars2.githubusercontent.com/u/1053066?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Javier Moldon</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jmoldon" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/IIITM-Jay"><img src="https://avatars2.githubusercontent.com/u/65283880?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jay Dev Jha</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AIIITM-Jay" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://jending.com"><img src="https://avatars.githubusercontent.com/u/5104098?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جينيفر دينغ</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Adingaaling" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://twitter.com/jermdemo"><img src="https://avatars3.githubusercontent.com/u/147991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeremy Leipzig</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aleipzig" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/JessicaS11"><img src="https://avatars.githubusercontent.com/u/11756442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيسيكا</b></sub></a><br /><a href="#content-JessicaS11" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/jessyprovencher"><img src="https://avatars2.githubusercontent.com/u/70674444?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jessy Provencher</b></sub></a><br /><a href="#translation-jessyprovencher" title="Translation">🌍</a></td>
-<td align="center"><a href="http://erambler.co.uk/"><img src="https://avatars3.githubusercontent.com/u/457628?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيب كوب</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=jezcope" title="Documentation">📖</a></td>
+<td align="center">crwdns57609:0crwdne57609:0</td>
+<td align="center">crwdns57611:0%3crwdne57611:0</td>
+<td align="center">crwdns57613:0%3crwdne57613:0</td>
+<td align="center">crwdns57615:0%3crwdne57615:0</td>
+<td align="center">crwdns57617:0crwdne57617:0</td>
+<td align="center">crwdns57619:0crwdne57619:0</td>
+<td align="center">crwdns57621:0crwdne57621:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/JiaruiWang-Jill"><img src="https://avatars.githubusercontent.com/u/41178872?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيل وانج</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AJiaruiWang-Jill" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/JimMadge"><img src="https://avatars2.githubusercontent.com/u/23616154?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جيم مادج</b></sub></a><br /><a href="#content-JimMadge" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=JimMadge" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/JoannaLeng"><img src="https://avatars1.githubusercontent.com/u/23033397?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joanna Leng</b></sub></a><br /><a href="#content-JoannaLeng" title="Content">🖋</a> <a href="#ideas-JoannaLeng" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://www.jearly.co.uk"><img src="https://avatars2.githubusercontent.com/u/7620667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جو مبكرا</b></sub></a><br /><a href="#ideas-JAEarly" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/joe-fennell"><img src="https://avatars3.githubusercontent.com/u/25105262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>جو فنل</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=joe-fennell" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/jbteves"><img src="https://avatars3.githubusercontent.com/u/26722533?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joshua Teves</b></sub></a><br /><a href="#ideas-jbteves" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://www.madrimasd.org/blogs/bioinformatica"><img src="https://avatars1.githubusercontent.com/u/2072150?v=4?s=100" width="100px;" alt=""/><br /><sub><b>José María Fernández</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ajmfernandez" title="Reviewed Pull Requests">👀</a></td>
+<td align="center">crwdns57623:0%3crwdne57623:0</td>
+<td align="center">crwdns57625:0crwdne57625:0</td>
+<td align="center">crwdns57627:0crwdne57627:0</td>
+<td align="center">crwdns57629:0crwdne57629:0</td>
+<td align="center">crwdns57631:0crwdne57631:0</td>
+<td align="center">crwdns57633:0crwdne57633:0</td>
+<td align="center">crwdns57635:0%3crwdnd57635:0%3crwdne57635:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://guiomarniso.com"><img src="https://avatars.githubusercontent.com/u/4451818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julia Guiomar Niso Galán</b></sub></a><br /><a href="#translation-guiomar" title="Translation">🌍</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aguiomar" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://orcid.org/0000-0002-3127-5520"><img src="https://avatars2.githubusercontent.com/u/1876667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julien Colomb</b></sub></a><br /><a href="#content-jcolomb" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/kdixey"><img src="https://avatars2.githubusercontent.com/u/59925972?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Katherine Dixey</b></sub></a><br /><a href="#ideas-kdixey" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/Kelly-dot"><img src="https://avatars0.githubusercontent.com/u/59481756?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kelly-Punkt</b></sub></a><br /><a href="#ideas-Kelly-dot" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/kessonovitch"><img src="https://avatars0.githubusercontent.com/u/23242159?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kesson Magid</b></sub></a><br /><a href="#ideas-kessonovitch" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://kkmann.github.io/"><img src="https://avatars2.githubusercontent.com/u/2482236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Kunzmann</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=kkmann" title="Documentation">📖</a> <a href="#ideas-kkmann" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Akkmann" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/KimDeRuyck"><img src="https://avatars1.githubusercontent.com/u/26715049?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim De Ruyck</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AKimDeRuyck" title="Bug reports">🐛</a></td>
+<td align="center">crwdns57637:0%3crwdnd57637:0%3crwdne57637:0</td>
+<td align="center">crwdns57639:0crwdne57639:0</td>
+<td align="center">crwdns57641:0crwdne57641:0</td>
+<td align="center">crwdns57643:0crwdne57643:0</td>
+<td align="center">crwdns57645:0crwdne57645:0</td>
+<td align="center">crwdns57647:0%3crwdne57647:0</td>
+<td align="center">crwdns57649:0%3crwdne57649:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/kderuyck"><img src="https://avatars3.githubusercontent.com/u/74196557?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim De Ruyck</b></sub></a><br /><a href="#content-kderuyck" title="Content">🖋</a></td>
-<td align="center"><a href="https://whitakerlab.github.io"><img src="https://avatars1.githubusercontent.com/u/3626306?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kirstie Whitaker</b></sub></a><br /><a href="#question-KirstieJane" title="Answering Questions">:speech_ballon:</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=KirstieJane" title="Documentation">📖</a> <a href="#design-KirstieJane" title="Design">🎨</a> <a href="#eventOrganizing-KirstieJane" title="Event Organizing">📋</a> <a href="#fundingFinding-KirstieJane" title="Funding Finding">🔍</a> <a href="#ideas-KirstieJane" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AKirstieJane" title="Reviewed Pull Requests">👀</a> <a href="#talk-KirstieJane" title="Talks">📢</a></td>
-<td align="center"><a href="https://github.com/KristijanArmeni"><img src="https://avatars3.githubusercontent.com/u/14061041?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kristijan Armeni</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AKristijanArmeni" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://krrank.live"><img src="https://avatars0.githubusercontent.com/u/44499991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>رنق الكرونات</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AKRHero03" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/masonlr"><img src="https://avatars2.githubusercontent.com/u/5828176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lachlan Mason</b></sub></a><br /><a href="#ideas-masonlr" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=masonlr" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=masonlr" title="Code">💻</a></td>
-<td align="center"><a href="http://lacion.rbind.io"><img src="https://avatars3.githubusercontent.com/u/17729900?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Laura Acion</b></sub></a><br /><a href="#a11y-lauracion" title="Accessibility">️️️️♿️</a> <a href="#translation-lauracion" title="Translation">🌍</a> <a href="#content-lauracion" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/LauraCarter"><img src="https://avatars3.githubusercontent.com/u/16853500?v=4?s=100" width="100px;" alt=""/><br /><sub><b>كارتر لورا</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ALauraCarter" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ALauraCarter" title="Bug reports">🐛</a> <a href="#ideas-LauraCarter" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-LauraCarter" title="Content">🖋</a></td>
+<td align="center">crwdns57651:0crwdne57651:0</td>
+<td align="center">crwdns57653:0:speech_ballon:crwdnd57653:0%3crwdnd57653:0%3crwdne57653:0</td>
+<td align="center">crwdns57655:0%3crwdne57655:0</td>
+<td align="center">crwdns57657:0%3crwdne57657:0</td>
+<td align="center">crwdns57659:0crwdne57659:0</td>
+<td align="center">crwdns57661:0crwdne57661:0</td>
+<td align="center">crwdns57663:0%3crwdnd57663:0%3crwdnd57663:0%3crwdne57663:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/Karvovskaya"><img src="https://avatars3.githubusercontent.com/u/44666630?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lenka</b></sub></a><br /><a href="#blog-Karvovskaya" title="Blogposts">📝</a> <a href="#content-Karvovskaya" title="Content">🖋</a></td>
-<td align="center"><a href="http://csd.utexas.edu/research/hamilton-lab"><img src="https://avatars2.githubusercontent.com/u/3268583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>الحرية هاملتون</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Alibertyh" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/Lion-admin"><img src="https://avatars.githubusercontent.com/u/72327875?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lion-admin</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ALion-admin" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/LouiseABowler"><img src="https://avatars1.githubusercontent.com/u/25640708?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Louise Bowler</b></sub></a><br /><a href="#question-LouiseABowler" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=LouiseABowler" title="Code">💻</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=LouiseABowler" title="Documentation">📖</a> <a href="#example-LouiseABowler" title="Examples">💡</a> <a href="#ideas-LouiseABowler" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-LouiseABowler" title="Event Organizing">📋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ALouiseABowler" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/Lovkush-A"><img src="https://avatars.githubusercontent.com/u/25344832?v=4?s=100" width="100px;" alt=""/><br /><sub><b>لوفكوش</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ALovkush-A" title="Bug reports">:خطأ:</a></td>
-<td align="center"><a href="http://www.robots.ox.ac.uk/~luca"><img src="https://avatars3.githubusercontent.com/u/3330489?v=4?s=100" width="100px;" alt=""/><br /><sub><b>لوكا بيرتينيتو</b></sub></a><br /><a href="#translation-bertinetto" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/GGn0"><img src="https://avatars.githubusercontent.com/u/44038661?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luigi Scalzone</b></sub></a><br /><a href="#translation-GGn0" title="Translation">🌍</a></td>
+<td align="center">crwdns57665:0crwdne57665:0</td>
+<td align="center">crwdns57667:0%3crwdne57667:0</td>
+<td align="center">crwdns57669:0%3crwdne57669:0</td>
+<td align="center">crwdns57671:0%3crwdnd57671:0%3crwdne57671:0</td>
+<td align="center">crwdns57673:0%3crwdne57673:0</td>
+<td align="center">crwdns57675:0crwdne57675:0</td>
+<td align="center">crwdns57677:0crwdne57677:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/perluna"><img src="https://avatars.githubusercontent.com/u/47083632?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luna</b></sub></a><br /><a href="#translation-perluna" title="Translation">🌍</a></td>
-<td align="center"><a href="http://laboratoria.la"><img src="https://avatars0.githubusercontent.com/u/15850514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lupe CaMay</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aluucamay" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/malvikasharan"><img src="https://avatars0.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>مالفيكا شاران</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=malvikasharan" title="Documentation">📖</a> <a href="#eventOrganizing-malvikasharan" title="Event Organizing">📋</a> <a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-malvikasharan" title="Project Management">📆</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Amalvikasharan" title="Reviewed Pull Requests">👀</a> <a href="#talk-malvikasharan" title="Talks">:Lautsprecher:</a> <a href="#maintenance-malvikasharan" title="Maintenance">🚧</a> <a href="#video-malvikasharan" title="Videos">📹</a></td>
-<td align="center"><a href="https://marcosellys.com"><img src="https://avatars.githubusercontent.com/u/6751242?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marcos Ellys Rocha Honorato</b></sub></a><br /><a href="#translation-MarcosEllys" title="Translation">🌍</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3AMarcosEllys" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/MariaEriksson"><img src="https://avatars1.githubusercontent.com/u/43676485?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Maria Eriksson</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AMariaEriksson" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/Mariam-ke"><img src="https://avatars3.githubusercontent.com/u/39956740?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mariam-ke</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AMariam-ke" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/marianaiv"><img src="https://avatars.githubusercontent.com/u/53548707?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ماريانا V</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Amarianaiv" title="Bug reports">🐛</a> <a href="#content-marianaiv" title="Content">🖋</a></td>
+<td align="center">crwdns57679:0crwdne57679:0</td>
+<td align="center">crwdns57681:0%3crwdnd57681:0%3crwdne57681:0</td>
+<td align="center">crwdns57683:0%3crwdnd57683:0%3crwdnd57683:0:Lautsprecher:crwdne57683:0</td>
+<td align="center">crwdns57685:0%3crwdnd57685:0%3crwdne57685:0</td>
+<td align="center">crwdns57687:0%3crwdne57687:0</td>
+<td align="center">crwdns57689:0%3crwdne57689:0</td>
+<td align="center">crwdns57691:0%3crwdne57691:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://www.turing.ac.uk/people/researchers/mariona-coll-ardanuy"><img src="https://avatars.githubusercontent.com/u/46483603?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ماريونا</b></sub></a><br /><a href="#content-mcollardanuy" title="Content">🖋</a></td>
-<td align="center"><a href="https://www.imperial.ac.uk/ict/rcs"><img src="https://avatars3.githubusercontent.com/u/1724545?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Holzbrücke markieren</b></sub></a><br /><a href="#ideas-mwoodbri" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-mwoodbri" title="Content">🖋</a></td>
-<td align="center"><a href="https://www.linkedin.com/in/mloning/"><img src="https://avatars3.githubusercontent.com/u/21020482?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Markus Löning</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Amloning" title="Reviewed Pull Requests">👀</a> <a href="#content-mloning" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/Marta-MM"><img src="https://avatars2.githubusercontent.com/u/67780317?v=4?s=100" width="100px;" alt=""/><br /><sub><b>مارتا-MM</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AMarta-MM" title="Bug reports">🐛</a> <a href="#content-Marta-MM" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/martintoreilly"><img src="https://avatars3.githubusercontent.com/u/21147592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>مارتن أوريلي</b></sub></a><br /><a href="#question-martintoreilly" title="Answering Questions">:speech_ballon:</a> <a href="#tool-martintoreilly" title="Tools">🔧</a> <a href="#ideas-martintoreilly" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://martinagvilas.github.io"><img src="https://avatars2.githubusercontent.com/u/37339384?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Martina G. Vilas</b></sub></a><br /><a href="#infra-martinagvilas" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=martinagvilas" title="Tests">⚠️</a> <a href="#talk-martinagvilas" title="Talks">📢</a> <a href="#video-martinagvilas" title="Videos">📹</a> <a href="#tutorial-martinagvilas" title="Tutorials">✅</a></td>
-<td align="center"><a href="https://github.com/mkuzak"><img src="https://avatars2.githubusercontent.com/u/208443?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mateusz Kuzak</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Amkuzak" title="Bug reports">🐛</a> <a href="#eventOrganizing-mkuzak" title="Event Organizing">📋</a> <a href="#ideas-mkuzak" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Amkuzak" title="Reviewed Pull Requests">👀</a> <a href="#content-mkuzak" title="Content">🖋</a></td>
+<td align="center">crwdns57693:0crwdne57693:0</td>
+<td align="center">crwdns57695:0crwdne57695:0</td>
+<td align="center">crwdns57697:0%3crwdnd57697:0%3crwdne57697:0</td>
+<td align="center">crwdns57699:0%3crwdne57699:0</td>
+<td align="center">crwdns57701:0:speech_ballon:crwdne57701:0</td>
+<td align="center">crwdns57703:0crwdne57703:0</td>
+<td align="center">crwdns57705:0%3crwdnd57705:0%3crwdnd57705:0%3crwdne57705:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://ml-evs.science"><img src="https://avatars2.githubusercontent.com/u/7916000?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ماثيو إيفان</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aml-evs" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://mbjoseph.github.io"><img src="https://avatars3.githubusercontent.com/u/2664564?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أقصى جوزيف</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ambjoseph" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/melibleq"><img src="https://avatars.githubusercontent.com/u/16723182?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Melissa Black</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Amelibleq" title="Reviewed Pull Requests">👀</a> <a href="#content-melibleq" title="Content">🖋</a></td>
-<td align="center"><a href="https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/michael-grayling/"><img src="https://avatars2.githubusercontent.com/u/4548867?v=4?s=100" width="100px;" alt=""/><br /><sub><b>مايكل غرايلنغ</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=mjg211" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/m-rivera"><img src="https://avatars1.githubusercontent.com/u/22956181?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ميغيل ريفيرا</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Am-rivera" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://www.linkedin.com/in/aniltuncel/"><img src="https://avatars2.githubusercontent.com/u/7026020?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mustafa Anil Tuncel</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aanilbey" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/nadiasoliman"><img src="https://avatars0.githubusercontent.com/u/41086364?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nadia Soliman</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=nadiasoliman" title="Documentation">📖</a></td>
+<td align="center">crwdns57707:0%3crwdne57707:0</td>
+<td align="center">crwdns57709:0%3crwdnd57709:0%3crwdne57709:0</td>
+<td align="center">crwdns57711:0%3crwdnd57711:0%3crwdne57711:0</td>
+<td align="center">crwdns57713:0crwdne57713:0</td>
+<td align="center">crwdns57715:0%3crwdne57715:0</td>
+<td align="center">crwdns57717:0%3crwdne57717:0</td>
+<td align="center">crwdns57719:0crwdne57719:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://npscience.github.io"><img src="https://avatars2.githubusercontent.com/u/9406530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Naomi Penfold</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Anpscience" title="Reviewed Pull Requests">👀</a> <a href="#ideas-npscience" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://mednche.github.io"><img src="https://avatars0.githubusercontent.com/u/24226111?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ناتاشا تشينيفوي</b></sub></a><br /><a href="#ideas-mednche" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/NatalieThurlby"><img src="https://avatars1.githubusercontent.com/u/17617308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ناتالي ثورلبي</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=NatalieThurlby" title="Code">:laptop_computer</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=NatalieThurlby" title="Tests">⚠️</a></td>
-<td align="center"><a href="https://github.com/nathanbegbie"><img src="https://avatars0.githubusercontent.com/u/7100966?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nathan Begbie</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Anathanbegbie" title="Bug reports">🐛</a> <a href="#ideas-nathanbegbie" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/nehamoopen"><img src="https://avatars3.githubusercontent.com/u/37183829?v=4?s=100" width="100px;" alt=""/><br /><sub><b>فتح نيها</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Anehamoopen" title="Reviewed Pull Requests">👀</a> <a href="#content-nehamoopen" title="Content">🖋</a></td>
-<td align="center"><a href="http://www.software.ac.uk"><img src="https://avatars1.githubusercontent.com/u/1507151?v=4?s=100" width="100px;" alt=""/><br /><sub><b>نيل تشويه</b></sub></a><br /><a href="#ideas-npch" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/nbarlowATI"><img src="https://avatars3.githubusercontent.com/u/33832774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>باركلو نيك</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AnbarlowATI" title="Bug reports">🐛</a> <a href="#content-nbarlowATI" title="Content">🖋</a></td>
+<td align="center">crwdns57721:0%3crwdnd57721:0%3crwdne57721:0</td>
+<td align="center">crwdns57723:0crwdne57723:0</td>
+<td align="center">crwdns57725:0crwdne57725:0</td>
+<td align="center">crwdns57727:0%3crwdne57727:0</td>
+<td align="center">crwdns57729:0%3crwdnd57729:0%3crwdne57729:0</td>
+<td align="center">crwdns57731:0crwdne57731:0</td>
+<td align="center">crwdns57733:0%3crwdne57733:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/NZR"><img src="https://avatars3.githubusercontent.com/u/2925086?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nico</b></sub></a><br /><a href="#ideas-NZR" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://orcid.org/0000-0002-6595-0969"><img src="https://avatars0.githubusercontent.com/u/43151303?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolás Alessandroni</b></sub></a><br /><a href="#ideas-nalessandroni" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/ninadicara"><img src="https://avatars.githubusercontent.com/u/44364127?v=4?s=100" width="100px;" alt=""/><br /><sub><b>نينا</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aninadicara" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/nlharris"><img src="https://avatars3.githubusercontent.com/u/348704?v=4?s=100" width="100px;" alt=""/><br /><sub><b>نومي هاريس</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Anlharris" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/NotActuallyACat"><img src="https://avatars.githubusercontent.com/u/69468081?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NotActuallyACat</b></sub></a><br /><a href="#ideas-NotActuallyACat" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/obisargoni"><img src="https://avatars0.githubusercontent.com/u/33906525?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Obi Thompson Sargoni</b></sub></a><br /><a href="#ideas-obisargoni" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/OliJimbo"><img src="https://avatars2.githubusercontent.com/u/16899600?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أوليفر كلارك</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=OliJimbo" title="Documentation">📖</a></td>
+<td align="center">crwdns57735:0crwdne57735:0</td>
+<td align="center">crwdns57737:0crwdne57737:0</td>
+<td align="center">crwdns57739:0%3crwdnd57739:0%3crwdne57739:0</td>
+<td align="center">crwdns57741:0%3crwdnd57741:0%3crwdne57741:0</td>
+<td align="center">crwdns57743:0crwdne57743:0</td>
+<td align="center">crwdns57745:0crwdne57745:0</td>
+<td align="center">crwdns57747:0crwdne57747:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/oforrest"><img src="https://avatars2.githubusercontent.com/u/49275282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أوليفر فورست</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=oforrest" title="Documentation">📖</a> <a href="#ideas-oforrest" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-oforrest" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aoforrest" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/defaultobject"><img src="https://avatars2.githubusercontent.com/u/1484941?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Hamelijnck</b></sub></a><br /><a href="#ideas-defaultobject" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/ots22"><img src="https://avatars1.githubusercontent.com/u/5434836?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Strickson</b></sub></a><br /><a href="#question-ots22" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=ots22" title="Documentation">📖</a> <a href="#tutorial-ots22" title="Tutorials">✅</a></td>
-<td align="center"><a href="https://github.com/OscartGiles"><img src="https://avatars0.githubusercontent.com/u/12784013?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oscar Giles</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=OscartGiles" title="Documentation">📖</a></td>
-<td align="center"><a href="https://pabrod.github.io/"><img src="https://avatars0.githubusercontent.com/u/7677614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pablo Rodríguez-Sánchez</b></sub></a><br /><a href="#content-PabRod" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/pherterich"><img src="https://avatars0.githubusercontent.com/u/8457675?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patricia Herterich</b></sub></a><br /><a href="#question-pherterich" title="Answering Questions">💬</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=pherterich" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Apherterich" title="Reviewed Pull Requests">👀</a> <a href="#ideas-pherterich" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-pherterich" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/paulbaniqued"><img src="https://avatars2.githubusercontent.com/u/47854500?v=4?s=100" width="100px;" alt=""/><br /><sub><b>بول دومينيك بانيكيد</b></sub></a><br /><a href="#ideas-paulbaniqued" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57749:0%3crwdnd57749:0%3crwdne57749:0</td>
+<td align="center">crwdns57751:0crwdne57751:0</td>
+<td align="center">crwdns57753:0crwdne57753:0</td>
+<td align="center">crwdns57755:0crwdne57755:0</td>
+<td align="center">crwdns57757:0crwdne57757:0</td>
+<td align="center">crwdns57759:0%3crwdnd57759:0%3crwdne57759:0</td>
+<td align="center">crwdns57761:0crwdne57761:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://www.linkedin.com/in/paulowoicho/"><img src="https://avatars3.githubusercontent.com/u/28223751?v=4?s=100" width="100px;" alt=""/><br /><sub><b>بول أوويتشو</b></sub></a><br /><a href="#ideas-paulowoicho" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Apaulowoicho" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Apaulowoicho" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=paulowoicho" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/orchid00"><img src="https://avatars3.githubusercontent.com/u/9795785?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paula Andrea Martinez</b></sub></a><br /><a href="#ideas-orchid00" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aorchid00" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://ppintosilva.com"><img src="https://avatars1.githubusercontent.com/u/11331882?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pedro Pinto da Silva</b></sub></a><br /><a href="#ideas-ppintosilva" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/PeterC-ATI"><img src="https://avatars1.githubusercontent.com/u/55786296?v=4?s=100" width="100px;" alt=""/><br /><sub><b>PeterC-ATI</b></sub></a><br /><a href="#ideas-PeterC-ATI" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://philipdarke.com"><img src="https://avatars2.githubusercontent.com/u/43066442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Philip Darke</b></sub></a><br /><a href="#ideas-philipdarke" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/pc494"><img src="https://avatars.githubusercontent.com/u/32455330?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Phillip Crout</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Apc494" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://p.ier.re"><img src="https://avatars1.githubusercontent.com/u/1866496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pierre Grimaud</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Apgrimaud" title="Bug reports">🐛</a></td>
+<td align="center">crwdns57763:0%3crwdnd57763:0%3crwdnd57763:0%3crwdne57763:0</td>
+<td align="center">crwdns57765:0%3crwdnd57765:0%3crwdne57765:0</td>
+<td align="center">crwdns57767:0crwdne57767:0</td>
+<td align="center">crwdns57769:0crwdne57769:0</td>
+<td align="center">crwdns57771:0crwdne57771:0</td>
+<td align="center">crwdns57773:0%3crwdne57773:0</td>
+<td align="center">crwdns57775:0%3crwdne57775:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/pgadige"><img src="https://avatars2.githubusercontent.com/u/8632025?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pooja Gadige</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=pgadige" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Apgadige" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://pranavmahajan25.github.io/"><img src="https://avatars0.githubusercontent.com/u/33349653?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Mahajan</b></sub></a><br /><a href="#content-PranavMahajan25" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/przemekdolata96"><img src="https://avatars3.githubusercontent.com/u/26312462?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Przemek Dolata</b></sub></a><br /><a href="#translation-przemekdolata96" title="Translation">🌍</a></td>
-<td align="center"><a href="https://rainsworth.github.io"><img src="https://avatars3.githubusercontent.com/u/10600877?v=4?s=100" width="100px;" alt=""/><br /><sub><b><b> راشيل آنسور</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=rainsworth" title="Documentation">📖</a> <a href="#eventOrganizing-rainsworth" title="Event Organizing">📋</a> <a href="#ideas-rainsworth" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-rainsworth" title="Answering Questions">:speech_ballon:</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Arainsworth" title="Reviewed Pull Requests">👀</a> <a href="#talk-rainsworth" title="Talks">:loudمكبر الصوت:</a></td>
-<td align="center"><a href="https://github.com/radka-j"><img src="https://avatars2.githubusercontent.com/u/29207091?v=4?s=100" width="100px;" alt=""/><br /><sub><b>رادكا جيرساكوفا</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aradka-j" title="Bug reports">🐛</a> <a href="#content-radka-j" title="Content">🖋</a></td>
-<td align="center"><a href="https://www.linkedin.com/in/rafaelaqueirozg/"><img src="https://avatars.githubusercontent.com/u/42815135?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rafaela Queiroz</b></sub></a><br /><a href="#translation-rafaelaqueirozg" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/bantya"><img src="https://avatars.githubusercontent.com/u/16685565?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rahul Thakare</b></sub></a><br /><a href="#translation-bantya" title="Translation">🌍</a></td>
-<td align="center"><a href="http://rgaiacs.com"><img src="https://avatars0.githubusercontent.com/u/1506457?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Raniere Silva</b></sub></a><br /><a href="#content-rgaiacs" title="Content">🖋</a></td>
+<td align="center">crwdns57777:0%3crwdnd57777:0%3crwdne57777:0</td>
+<td align="center">crwdns57779:0crwdne57779:0</td>
+<td align="center">crwdns57781:0crwdne57781:0</td>
+<td align="center">crwdns57783:0:speech_ballon:crwdnd57783:0%3crwdnd57783:0%3crwdne57783:0</td>
+<td align="center">crwdns57785:0%3crwdne57785:0</td>
+<td align="center">crwdns57787:0crwdne57787:0</td>
+<td align="center">crwdns57789:0crwdne57789:0</td>
+<td align="center">crwdns57791:0crwdne57791:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/camachoreina"><img src="https://avatars0.githubusercontent.com/u/12454015?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reina Camacho Toro</b></sub></a><br /><a href="#translation-camachoreina" title="Translation">🌍</a></td>
-<td align="center"><a href="https://remi-gau.github.io/"><img src="https://avatars3.githubusercontent.com/u/6961185?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Remi Gau</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ARemi-Gau" title="Bug reports">🐛</a> <a href="#content-Remi-Gau" title="Content">🖋</a></td>
-<td align="center"><a href="https://reshamas.github.io"><img src="https://avatars0.githubusercontent.com/u/2507232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ريشاما شيخ</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Areshamas" title="Bug reports">🐛</a> <a href="#content-reshamas" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/rjjgilham"><img src="https://avatars0.githubusercontent.com/u/18323072?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ريتشارد جيلهام</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=rjjgilham" title="Documentation">📖</a> <a href="#ideas-rjjgilham" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/risaueno"><img src="https://avatars0.githubusercontent.com/u/22602921?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Risa Ueno</b></sub></a><br /><a href="#ideas-risaueno" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/RobPrecious"><img src="https://avatars.githubusercontent.com/u/9133187?v=4?s=100" width="100px;" alt=""/><br /><sub><b>روبرت ثمين</b></sub></a><br /><a href="#a11y-RobPrecious" title="Accessibility">:rollstuhl_symbol:</a></td>
-<td align="center"><a href="https://github.com/longr"><img src="https://avatars0.githubusercontent.com/u/3597743?v=4?s=100" width="100px;" alt=""/><br /><sub><b>روبين الطويل</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=longr" title="Documentation">📖</a></td>
+<td align="center">crwdns57793:0crwdne57793:0</td>
+<td align="center">crwdns57795:0%3crwdne57795:0</td>
+<td align="center">crwdns57797:0%3crwdne57797:0</td>
+<td align="center">crwdns57799:0crwdne57799:0</td>
+<td align="center">crwdns57801:0crwdne57801:0</td>
+<td align="center">crwdns57803:0:rollstuhl_symbol:crwdne57803:0</td>
+<td align="center">crwdns57805:0crwdne57805:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://rohitmidha23.github.io"><img src="https://avatars1.githubusercontent.com/u/38888530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohit Midha</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=RohitMidha23" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/romeroclaudino"><img src="https://avatars1.githubusercontent.com/u/6520331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Romero Silva</b></sub></a><br /><a href="#translation-romeroclaudino" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/rosesisk"><img src="https://avatars2.githubusercontent.com/u/52324551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>سيسك الورد</b></sub></a><br /><a href="#ideas-rosesisk" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/rosiehigman"><img src="https://avatars2.githubusercontent.com/u/15738325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rosie Higman</b></sub></a><br /><a href="#question-rosiehigman" title="Answering Questions">💬</a> <a href="#eventOrganizing-rosiehigman" title="Event Organizing">📋</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Arosiehigman" title="Reviewed Pull Requests">👀</a> <a href="#ideas-rosiehigman" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/RostiReadioff"><img src="https://avatars1.githubusercontent.com/u/45424690?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rosti Readioff</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=RostiReadioff" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/SYU-NING"><img src="https://avatars.githubusercontent.com/u/71600183?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SYU-NING</b></sub></a><br /><a href="#ideas-SYU-NING" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/SamGuay"><img src="https://avatars1.githubusercontent.com/u/30598330?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Samuel Guay</b></sub></a><br /><a href="#translation-SamGuay" title="Translation">🌍</a></td>
+<td align="center">crwdns57807:0crwdne57807:0</td>
+<td align="center">crwdns57809:0crwdne57809:0</td>
+<td align="center">crwdns57811:0crwdne57811:0</td>
+<td align="center">crwdns57813:0%3crwdnd57813:0%3crwdne57813:0</td>
+<td align="center">crwdns57815:0crwdne57815:0</td>
+<td align="center">crwdns57817:0crwdne57817:0</td>
+<td align="center">crwdns57819:0crwdne57819:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://snastase.github.io/"><img src="https://avatars2.githubusercontent.com/u/3496566?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Samuel Nastase</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Asnastase" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://sksahu.net"><img src="https://avatars1.githubusercontent.com/u/23085664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sangram K Sahu</b></sub></a><br /><a href="#ideas-sk-sahu" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/sgibson91"><img src="https://avatars2.githubusercontent.com/u/44771837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarah Gibson</b></sub></a><br /><a href="#question-sgibson91" title="Answering Questions">:speech_ballon:</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=sgibson91" title="Code">💻</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=sgibson91" title="Documentation">📖</a> <a href="#tool-sgibson91" title="Tools">🔧</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Asgibson91" title="Reviewed Pull Requests">👀</a> <a href="#talk-sgibson91" title="Talks">:Lautsprecher:</a> <a href="#ideas-sgibson91" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tutorial-sgibson91" title="Tutorials">✅</a> <a href="#video-sgibson91" title="Videos">📹</a></td>
-<td align="center"><a href="https://github.com/Biostew"><img src="https://avatars3.githubusercontent.com/u/17767752?v=4?s=100" width="100px;" alt=""/><br /><sub><b>سارة ستيوارت</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=BioStew" title="Documentation">📖</a> <a href="#ideas-BioStew" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://nl.linkedin.com/in/fakhereh-sarah-alidoost-11a24a89"><img src="https://avatars3.githubusercontent.com/u/55081872?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SarahAlidoost</b></sub></a><br /><a href="#content-SarahAlidoost" title="Content">🖋</a></td>
-<td align="center"><a href="https://www.turing.ac.uk/people/doctoral-students/sedar-olmez"><img src="https://avatars3.githubusercontent.com/u/10035934?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sedar Olmez</b></sub></a><br /><a href="#ideas-SedarOlmez94" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/Sergih28"><img src="https://avatars.githubusercontent.com/u/16263046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sergi</b></sub></a><br /><a href="#translation-Sergih28" title="Translation">🌍</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ASergih28" title="Reviewed Pull Requests">👀</a></td>
+<td align="center">crwdns57821:0%3crwdne57821:0</td>
+<td align="center">crwdns57823:0crwdne57823:0</td>
+<td align="center">crwdns57825:0:speech_ballon:crwdnd57825:0%3crwdnd57825:0%3crwdnd57825:0:Lautsprecher:crwdne57825:0</td>
+<td align="center">crwdns57827:0crwdne57827:0</td>
+<td align="center">crwdns57829:0crwdne57829:0</td>
+<td align="center">crwdns57831:0crwdne57831:0</td>
+<td align="center">crwdns57833:0%3crwdnd57833:0%3crwdne57833:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://growupboron.github.io"><img src="https://avatars3.githubusercontent.com/u/41593068?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shankho Boron Ghosh</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Agrowupboron" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/sianbladon"><img src="https://avatars0.githubusercontent.com/u/60200458?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sian Bladon</b></sub></a><br /><a href="#ideas-sianbladon" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://sibasmarak.blogspot.com "><img src="https://avatars0.githubusercontent.com/u/49467053?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siba Smarak Panigrahi</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Asibasmarak" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/BeastyBlacksmith"><img src="https://avatars.githubusercontent.com/u/18145188?v=4?s=100" width="100px;" alt=""/><br /><sub><b>مسيء سيمون</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ABeastyBlacksmith" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://www.solon-karapanagiotis.com/"><img src="https://avatars2.githubusercontent.com/u/7536922?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Solon</b></sub></a><br /><a href="#ideas-solonkarapa" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/BrainonSilicon"><img src="https://avatars1.githubusercontent.com/u/42813259?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sophia Batchelor</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3ABrainonSilicon" title="Reviewed Pull Requests">👀</a> <a href="#ideas-BrainonSilicon" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-BrainonSilicon" title="Maintenance">🚧</a> <a href="#talk-BrainonSilicon" title="Talks">📢</a></td>
-<td align="center"><a href="https://github.com/sparkler0323"><img src="https://avatars2.githubusercontent.com/u/18514015?v=4?s=100" width="100px;" alt=""/><br /><sub><b>المبارز</b></sub></a><br /><a href="#translation-sparkler0323" title="Translation">🌍</a></td>
+<td align="center">crwdns57835:0%3crwdne57835:0</td>
+<td align="center">crwdns57837:0crwdne57837:0</td>
+<td align="center">crwdns57839:0%3crwdne57839:0</td>
+<td align="center">crwdns57841:0%3crwdne57841:0</td>
+<td align="center">crwdns57843:0crwdne57843:0</td>
+<td align="center">crwdns57845:0%3crwdnd57845:0%3crwdne57845:0</td>
+<td align="center">crwdns57847:0crwdne57847:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://srishti-nema.github.io/"><img src="https://avatars1.githubusercontent.com/u/42498900?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Srishti Nema</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Asrishti-nema" title="Bug reports">🐛</a> <a href="#content-srishti-nema" title="Content">🖋</a></td>
-<td align="center"><a href="https://stefanjanssen.nl"><img src="https://avatars1.githubusercontent.com/u/6250246?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan Janssen</b></sub></a><br /><a href="#translation-StefanJanssen95" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/sverhoeven"><img src="https://avatars1.githubusercontent.com/u/1713488?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan Verhoeven</b></sub></a><br /><a href="#content-sverhoeven" title="Content">🖋</a></td>
-<td align="center"><a href="http://sdruskat.net"><img src="https://avatars0.githubusercontent.com/u/3007126?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ستيفان دروسكات</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=sdruskat" title="Documentation">📖</a> <a href="#content-sdruskat" title="Content">🖋</a> <a href="#ideas-sdruskat" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://damtp.cam.ac.uk/user/eglen"><img src="https://avatars1.githubusercontent.com/u/1095067?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ستيفن إيجلن</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Asje30" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/Sylfrena"><img src="https://avatars2.githubusercontent.com/u/35404119?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumera Priyadarsini</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ASylfrena" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://sansonegroup.eng.ox.ac.uk/"><img src="https://avatars3.githubusercontent.com/u/525719?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Susanna-Assunta Sansone</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=SusannaSansone" title="Documentation">📖</a></td>
+<td align="center">crwdns57849:0%3crwdne57849:0</td>
+<td align="center">crwdns57851:0crwdne57851:0</td>
+<td align="center">crwdns57853:0crwdne57853:0</td>
+<td align="center">crwdns57855:0crwdne57855:0</td>
+<td align="center">crwdns57857:0%3crwdnd57857:0%3crwdne57857:0</td>
+<td align="center">crwdns57859:0%3crwdne57859:0</td>
+<td align="center">crwdns57861:0crwdne57861:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://www.bitsandchips.me"><img src="https://avatars3.githubusercontent.com/u/23552331?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tania Allard</b></sub></a><br /><a href="#ideas-trallard" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-trallard" title="Answering Questions">💬</a></td>
-<td align="center"><a href="http://www.tarekallamjr.com"><img src="https://avatars1.githubusercontent.com/u/8843728?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tarek Allam</b></sub></a><br /><a href="#infra-tallamjr" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=tallamjr" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/davehedgehog"><img src="https://avatars0.githubusercontent.com/u/57715289?v=4?s=100" width="100px;" alt=""/><br /><sub><b>تيس غوف</b></sub></a><br /><a href="#ideas-davehedgehog" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://www.linkedin.com/pub/thomas-sandmann/21/61b/410/"><img src="https://avatars0.githubusercontent.com/u/10490984?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thomas Sandmann</b></sub></a><br /><a href="#translation-tomsing1" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/ThyavdBerg"><img src="https://avatars.githubusercontent.com/u/77287134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thya van den Berg</b></sub></a><br /><a href="#eventOrganizing-ThyavdBerg" title="Event Organizing">📋</a></td>
-<td align="center"><a href="https://github.com/betatim"><img src="https://avatars1.githubusercontent.com/u/1448859?v=4?s=100" width="100px;" alt=""/><br /><sub><b>رأس تيم</b></sub></a><br /><a href="#question-betatim" title="Answering Questions">:speech_ballon:</a> <a href="#ideas-betatim" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/timyers"><img src="https://avatars.githubusercontent.com/u/48717893?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ماير</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Atimyers" title="Bug reports">:خطأ:</a></td>
+<td align="center">crwdns57863:0crwdne57863:0</td>
+<td align="center">crwdns57865:0crwdne57865:0</td>
+<td align="center">crwdns57867:0crwdne57867:0</td>
+<td align="center">crwdns57869:0crwdne57869:0</td>
+<td align="center">crwdns57871:0crwdne57871:0</td>
+<td align="center">crwdns57873:0:speech_ballon:crwdne57873:0</td>
+<td align="center">crwdns57875:0%3crwdne57875:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/teapowell"><img src="https://avatars1.githubusercontent.com/u/35264355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>تيم باول</b></sub></a><br /><a href="#ideas-teapowell" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-teapowell" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/tonyyzy"><img src="https://avatars3.githubusercontent.com/u/38984697?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tony Yang</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=tonyyzy" title="Documentation">📖</a> <a href="#translation-tonyyzy" title="Translation">🌍</a> <a href="#infra-tonyyzy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-<td align="center"><a href="https://github.com/CapTen101"><img src="https://avatars0.githubusercontent.com/u/45699327?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tushar Rohilla</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3ACapTen101" title="Bug reports">🐛</a> <a href="#content-CapTen101" title="Content">🖋</a></td>
-<td align="center"><a href="http://www.veronikach.com"><img src="https://avatars2.githubusercontent.com/u/10584818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Veronika Cheplygina</b></sub></a><br /><a href="#ideas-vcheplygina" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-vcheplygina" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/blue-moon22"><img src="https://avatars1.githubusercontent.com/u/15203325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>فيكتوريا</b></sub></a><br /><a href="#ideas-blue-moon22" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/vdda"><img src="https://avatars1.githubusercontent.com/u/642451?v=4?s=100" width="100px;" alt=""/><br /><sub><b>فيكتوريا دومينغويز ديل أنخيل</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Avdda" title="Bug reports">🐛</a></td>
-<td align="center"><a href="http://warrickball.github.io"><img src="https://avatars.githubusercontent.com/u/20858744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Warrick-Kugel</b></sub></a><br /><a href="#ideas-warrickball" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-warrickball" title="Content">🖋</a></td>
+<td align="center">crwdns57877:0crwdne57877:0</td>
+<td align="center">crwdns57879:0crwdne57879:0</td>
+<td align="center">crwdns57881:0%3crwdne57881:0</td>
+<td align="center">crwdns57883:0crwdne57883:0</td>
+<td align="center">crwdns57885:0crwdne57885:0</td>
+<td align="center">crwdns57887:0%3crwdne57887:0</td>
+<td align="center">crwdns57889:0crwdne57889:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://wiebketoussaint.com"><img src="https://avatars3.githubusercontent.com/u/11086407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wiebke Toussaint</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Awiebket" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/wjchulme"><img src="https://avatars1.githubusercontent.com/u/25637345?v=4?s=100" width="100px;" alt=""/><br /><sub><b>wird Hulme</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=wjchulme" title="Documentation">📖</a></td>
-<td align="center"><a href="https://github.com/wna-se"><img src="https://avatars3.githubusercontent.com/u/1221165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wolmar Nyberg Åkerström</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Awna-se" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/xc308"><img src="https://avatars1.githubusercontent.com/u/55785985?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Xiaoqing Chen</b></sub></a><br /><a href="#ideas-xc308" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://yabellini.netlify.com/"><img src="https://avatars.githubusercontent.com/u/2473676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yanina Bellini Saibene</b></sub></a><br /><a href="#content-yabellini" title="Content">🖋</a> <a href="#translation-yabellini" title="Translation">🌍</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ayabellini" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="http://www.twinreality.blog"><img src="https://avatars0.githubusercontent.com/u/44135465?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yash Varshney</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AYash-Varshney" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/minnieho1115"><img src="https://avatars1.githubusercontent.com/u/35134464?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yini</b></sub></a><br /><a href="#translation-minnieho1115" title="Translation">🌍</a></td>
+<td align="center">crwdns57891:0%3crwdne57891:0</td>
+<td align="center">crwdns57893:0crwdne57893:0</td>
+<td align="center">crwdns57895:0%3crwdnd57895:0%3crwdne57895:0</td>
+<td align="center">crwdns57897:0crwdne57897:0</td>
+<td align="center">crwdns57899:0%3crwdnd57899:0%3crwdne57899:0</td>
+<td align="center">crwdns57901:0%3crwdne57901:0</td>
+<td align="center">crwdns57903:0crwdne57903:0</td>
 </tr>
 <tr>
-<td align="center"><a href="http://yo-yehudi.com"><img src="https://avatars0.githubusercontent.com/u/9271438?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yo Yehudi</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=yochannah" title="Documentation">📖</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Ayochannah" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/ufangYang"><img src="https://avatars3.githubusercontent.com/u/33165978?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yu-Fang Yang</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3AufangYang" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/ZoeIngr"><img src="https://avatars.githubusercontent.com/u/80701413?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ZoeIngr</b></sub></a><br /><a href="#content-ZoeIngr" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/abrown41"><img src="https://avatars.githubusercontent.com/u/10060170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>abrown41</b></sub></a><br /><a href="#ideas-abrown41" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-abrown41" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/acork25"><img src="https://avatars0.githubusercontent.com/u/55786005?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أكورك 25</b></sub></a><br /><a href="#ideas-acork25" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/akira-endo"><img src="https://avatars3.githubusercontent.com/u/26547770?v=4?s=100" width="100px;" alt=""/><br /><sub><b>akira-endo</b></sub></a><br /><a href="#ideas-akira-endo" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/alessandroragano"><img src="https://avatars3.githubusercontent.com/u/44505487?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alessandroragano</b></sub></a><br /><a href="#ideas-alessandroragano" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57905:0%3crwdnd57905:0%3crwdne57905:0</td>
+<td align="center">crwdns57907:0%3crwdne57907:0</td>
+<td align="center">crwdns57909:0crwdne57909:0</td>
+<td align="center">crwdns57911:0crwdne57911:0</td>
+<td align="center">crwdns57913:0crwdne57913:0</td>
+<td align="center">crwdns57915:0crwdne57915:0</td>
+<td align="center">crwdns57917:0crwdne57917:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/alihumayun"><img src="https://avatars.githubusercontent.com/u/78482064?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alihumayun</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aalihumayun" title="Bug reports">🐛</a> <a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aalihumayun" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/andreabecsek"><img src="https://avatars.githubusercontent.com/u/50207436?v=4?s=100" width="100px;" alt=""/><br /><sub><b>andreabecsek</b></sub></a><br /><a href="#ideas-andreabecsek" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/andrealuppi"><img src="https://avatars.githubusercontent.com/u/50251039?v=4?s=100" width="100px;" alt=""/><br /><sub><b>andrealuppi</b></sub></a><br /><a href="#ideas-andrealuppi" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://www.lse.ac.uk/media-and-communications/people/research-staff/asha-titus"><img src="https://avatars3.githubusercontent.com/u/32542663?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ashatitus</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aashatitus" title="Reviewed Pull Requests">👀</a> <a href="#content-ashatitus" title="Content">🖋</a></td>
-<td align="center"><a href="http://www.drrebeccawilson.co.uk"><img src="https://avatars0.githubusercontent.com/u/5114032?v=4?s=100" width="100px;" alt=""/><br /><sub><b>beccawilson</b></sub></a><br /><a href="#a11y-beccawilson" title="Accessibility">️️️️♿️</a></td>
-<td align="center"><a href="http://benkrikler.github.io"><img src="https://avatars.githubusercontent.com/u/4083697?v=4?s=100" width="100px;" alt=""/><br /><sub><b>benkrikler</b></sub></a><br /><a href="#ideas-benkrikler" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-benkrikler" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/ceciledebezenac"><img src="https://avatars2.githubusercontent.com/u/49871974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ceciledebezenac</b></sub></a><br /><a href="#ideas-ceciledebezenac" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57919:0%3crwdnd57919:0%3crwdnd57919:0%3crwdne57919:0</td>
+<td align="center">crwdns57921:0crwdne57921:0</td>
+<td align="center">crwdns57923:0crwdne57923:0</td>
+<td align="center">crwdns57925:0%3crwdnd57925:0%3crwdne57925:0</td>
+<td align="center">crwdns57927:0crwdne57927:0</td>
+<td align="center">crwdns57929:0crwdne57929:0</td>
+<td align="center">crwdns57931:0crwdne57931:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/claudia-belardi"><img src="https://avatars.githubusercontent.com/u/62244233?v=4?s=100" width="100px;" alt=""/><br /><sub><b>claudia-belardi</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Aclaudia-belardi" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/daniguariso"><img src="https://avatars3.githubusercontent.com/u/40636435?v=4?s=100" width="100px;" alt=""/><br /><sub><b>daniguariso</b></sub></a><br /><a href="#ideas-daniguariso" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/giuliaok"><img src="https://avatars1.githubusercontent.com/u/33548935?v=4?s=100" width="100px;" alt=""/><br /><sub><b>giuliaok</b></sub></a><br /><a href="#ideas-giuliaok" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/glumand"><img src="https://avatars3.githubusercontent.com/u/55833875?v=4?s=100" width="100px;" alt=""/><br /><sub><b>glumand</b></sub></a><br /><a href="#translation-glumand" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/griff-rees"><img src="https://avatars.githubusercontent.com/u/60181741?v=4?s=100" width="100px;" alt=""/><br /><sub><b>griff-rees</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Agriff-rees" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/hlnicholls"><img src="https://avatars.githubusercontent.com/u/53306752?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hlnicholls</b></sub></a><br /><a href="#content-hlnicholls" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/irenekp"><img src="https://avatars2.githubusercontent.com/u/53008913?v=4?s=100" width="100px;" alt=""/><br /><sub><b>irenekp</b></sub></a><br /><a href="#content-irenekp" title="Content">🖋</a></td>
+<td align="center">crwdns57933:0%3crwdnd57933:0%3crwdne57933:0</td>
+<td align="center">crwdns57935:0crwdne57935:0</td>
+<td align="center">crwdns57937:0crwdne57937:0</td>
+<td align="center">crwdns57939:0crwdne57939:0</td>
+<td align="center">crwdns57941:0%3crwdne57941:0</td>
+<td align="center">crwdns57943:0crwdne57943:0</td>
+<td align="center">crwdns57945:0crwdne57945:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/kgrieman"><img src="https://avatars0.githubusercontent.com/u/55785990?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kgrieman</b></sub></a><br /><a href="#ideas-kgrieman" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/l-gorman"><img src="https://avatars2.githubusercontent.com/u/55786252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ل-غورمان</b></sub></a><br /><a href="#ideas-l-gorman" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/leavanh"><img src="https://avatars2.githubusercontent.com/u/50297755?v=4?s=100" width="100px;" alt=""/><br /><sub><b>verlassen</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aleavanh" title="Bug reports">🐛</a></td>
-<td align="center"><a href="https://github.com/lottycoupat"><img src="https://avatars.githubusercontent.com/u/82104604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>لوتي كوبات</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Alottycoupat" title="Bug reports">🐛</a> <a href="#content-lottycoupat" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/mcnanton"><img src="https://avatars.githubusercontent.com/u/42379883?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mcnanton</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Amcnanton" title="Bug reports">🐛</a> <a href="#content-mcnanton" title="Content">🖋</a></td>
-<td align="center"><a href="https://twitter.com/mishkanemes"><img src="https://avatars.githubusercontent.com/u/39628884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mishkanemes</b></sub></a><br /><a href="#eventOrganizing-mishkanemes" title="Event Organizing">📋</a></td>
-<td align="center"><a href="https://github.com/mjcasy"><img src="https://avatars1.githubusercontent.com/u/44202821?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mjcasy</b></sub></a><br /><a href="#ideas-mjcasy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-mjcasy" title="Content">🖋</a></td>
+<td align="center">crwdns57947:0crwdne57947:0</td>
+<td align="center">crwdns57949:0crwdne57949:0</td>
+<td align="center">crwdns57951:0%3crwdne57951:0</td>
+<td align="center">crwdns57953:0%3crwdne57953:0</td>
+<td align="center">crwdns57955:0%3crwdne57955:0</td>
+<td align="center">crwdns57957:0crwdne57957:0</td>
+<td align="center">crwdns57959:0crwdne57959:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/msanter01"><img src="https://avatars0.githubusercontent.com/u/39199660?v=4?s=100" width="100px;" alt=""/><br /><sub><b>msanter01</b></sub></a><br /><a href="#translation-msanter01" title="Translation">🌍</a> <a href="#talk-msanter01" title="Talks">:Lautsprecher:</a></td>
-<td align="center"><a href="https://github.com/oxpeter"><img src="https://avatars3.githubusercontent.com/u/6393360?v=4?s=100" width="100px;" alt=""/><br /><sub><b>أكسبيتر</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Aoxpeter" title="Bug reports">:خطأ:</a></td>
-<td align="center"><a href="https://github.com/peterrhysstrong"><img src="https://avatars.githubusercontent.com/u/43751009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>peterrhysstrong</b></sub></a><br /><a href="#ideas-peterrhysstrong" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/rabbits99"><img src="https://avatars1.githubusercontent.com/u/72690233?v=4?s=100" width="100px;" alt=""/><br /><sub><b>الأرانب 99</b></sub></a><br /><a href="#translation-rabbits99" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/raptorchief"><img src="https://avatars.githubusercontent.com/u/55805992?v=4?s=100" width="100px;" alt=""/><br /><sub><b>رابط</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/issues?q=author%3Araptorchief" title="Bug reports">:خطأ:</a></td>
-<td align="center"><a href="https://github.com/sallyob123"><img src="https://avatars2.githubusercontent.com/u/55785959?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sallyob123</b></sub></a><br /><a href="#ideas-sallyob123" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/sethsh7"><img src="https://avatars0.githubusercontent.com/u/53264282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sethsh7</b></sub></a><br /><a href="#ideas-sethsh7" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57961:0:Lautsprecher:crwdne57961:0</td>
+<td align="center">crwdns57963:0%3crwdne57963:0</td>
+<td align="center">crwdns57965:0crwdne57965:0</td>
+<td align="center">crwdns57967:0crwdne57967:0</td>
+<td align="center">crwdns57969:0%3crwdne57969:0</td>
+<td align="center">crwdns57971:0crwdne57971:0</td>
+<td align="center">crwdns57973:0crwdne57973:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/sliaqat3"><img src="https://avatars2.githubusercontent.com/u/56300607?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sliaqat3</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Asliaqat3" title="Reviewed Pull Requests">👀</a></td>
-<td align="center"><a href="https://github.com/saramasa22"><img src="https://avatars3.githubusercontent.com/u/55786246?v=4?s=100" width="100px;" alt=""/><br /><sub><b>smasarone</b></sub></a><br /><a href="#ideas-saramasa22" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/swalkoAI"><img src="https://avatars2.githubusercontent.com/u/55786131?v=4?s=100" width="100px;" alt=""/><br /><sub><b>swalkoAI</b></sub></a><br /><a href="#ideas-swalkoAI" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/takuover"><img src="https://avatars2.githubusercontent.com/u/52206060?v=4?s=100" width="100px;" alt=""/><br /><sub><b>takuover</b></sub></a><br /><a href="#ideas-takuover" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/tugceoruc"><img src="https://avatars0.githubusercontent.com/u/20405276?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tugceoruc</b></sub></a><br /><a href="#ideas-tugceoruc" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/vasilisstav"><img src="https://avatars0.githubusercontent.com/u/55793023?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vasilisstav</b></sub></a><br /><a href="#ideas-vasilisstav" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="https://github.com/vcpope"><img src="https://avatars.githubusercontent.com/u/62377353?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vcpope</b></sub></a><br /><a href="#talk-vcpope" title="Talks">📢</a></td>
+<td align="center">crwdns57975:0%3crwdnd57975:0%3crwdne57975:0</td>
+<td align="center">crwdns57977:0crwdne57977:0</td>
+<td align="center">crwdns57979:0crwdne57979:0</td>
+<td align="center">crwdns57981:0crwdne57981:0</td>
+<td align="center">crwdns57983:0crwdne57983:0</td>
+<td align="center">crwdns57985:0crwdne57985:0</td>
+<td align="center">crwdns57987:0crwdne57987:0</td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/vhellon"><img src="https://avatars.githubusercontent.com/u/93144591?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vhellon</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+reviewed-by%3Avhellon" title="Reviewed Pull Requests">👀</a> <a href="#content-vhellon" title="Content">🖋</a></td>
-<td align="center"><a href="https://github.com/yaseminturkyilmaz"><img src="https://avatars3.githubusercontent.com/u/45484225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yaseminturkyilmaz</b></sub></a><br /><a href="#blog-yaseminturkyilmaz" title="Blogposts">📝</a> <a href="#ideas-yaseminturkyilmaz" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center">crwdns57989:0%3crwdnd57989:0%3crwdne57989:0</td>
+<td align="center">crwdns57991:0crwdne57991:0</td>
 </tr>
 </table>
 
@@ -1083,118 +1083,117 @@ Danke an diese wunderbaren Leute ([Emoji-Schlüssel](https://allcontributors.or
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Dieses Projekt folgt der [Spezifikation für alle Mitwirkenden](https://github.com/all-contributors/all-contributors). Spenden jeder Art willkommen! \n(Mitwirkende)=
-# Organisationen und Projekte kooperieren
+crwdns57993:0crwdne57993:0 crwdns57995:0crwdne57995:0 crwdns57997:0crwdne57997:0
+# crwdns57999:0crwdne57999:0
 
-*Die Turing Way Community erhält Sachspenden von Mitgliedern, die von ihren Arbeitgebern, Projekten oder Organisationen für ihre Teilnahme unterstützt werden. Solche Beiträge sind anwendbar, wenn ein oder mehrere Mitglieder eines Projekts oder einer Organisation zusammenarbeiten, um Ressourcen in The Turing Way zu bauen und zu pflegen. Diese Beiträge umfassen auch Projekte, die auf den Ressourcen von The Turing Way aufbauen oder mit den Teammitgliedern von The Turing Way in verschiedenen Kapazitäten zusammenarbeiten. Wir erkennen jeden dieser Mitwirkenden individuell an und listen seine Profile unter „Kooperative Organisationen und Projekte“ auf.*
+*crwdns58001:0crwdne58001:0 crwdns58003:0crwdne58003:0 crwdns58005:0crwdne58005:0 crwdns58007:0crwdne58007:0*
 
-## [Technische Universität Delft - Fakultät für angewandte Wissenschaften](https://www.tudelft.nl/en/faculty-of-applied-sciences)
+## [crwdns58011:0crwdne58011:0](crwdns58009:0crwdne58009:0)
 
-Die Fakultät für Angewandte Wissenschaften ist die größte Universität Delft und konzentriert sich auf die Suche nach innovativen Lösungen für einige der Probleme, vor denen die Gesellschaft steht. Entwicklung des grundlegenden Wissens, das notwendig ist, um technische Entwicklungen zu untermauern, die in der gesamten Gesellschaft weit verbreitet sind. Indem wir sicherstellen, dass dieses Wissen effektiv mit der breiteren Gesellschaft geteilt werden kann die Fakultät legt Wert auf die gemeinsame Nutzung von Daten und Code und verfügt über eine [Forschungsdatenverwaltungsrichtlinie](https://www.tudelft.nl/en/library/research-data-management/r/policies/tu-delft-faculty-policies/) seit 2020. In diesem Bemühen, die Beiträge der Fakultät für Angewandte Wissenschaften haben sich hauptsächlich auf das Reproduzierbare Forschungskapitel von _The Turing Way_ konzentriert.
+crwdns58013:0crwdne58013:0 crwdns58015:0crwdne58015:0 crwdns58017:0crwdne58017:0 crwdns58019:0crwdne58019:0
 
-### إيستر بلومب
+### crwdns58021:0crwdne58021:0
 
-* الدردشة:
-  * Book Dash Februar 2020 Teilnehmer
-  * Buchprüfungsausschuss 2021
-  * شبه منظمة فاكهة أبستورز
-* GitHub id: [EstherPlomp](https://github.com/estherplomp)
-* ORCID: [0000-0003-3625-1357](https://orcid.org/0000-0003-3625-1357)
-* Twitter: [@PhDToothFAIRy](https://twitter.com/PhDToothFAIRy/)
-* Kurzbio:
-> Ich bin ein Data Steward an der Technischen Universität Delft, der Fakultät für Angewandte Wissenschaften, in den Niederlanden, wo ich Forscher mit ihrem Datenmanagement und offenen wissenschaftlichen Verfahren unterstütze. Für meine Doktorandenforschung habe ich menschliche Zähne für ihre isotopische/chemische Zusammensetzung analysiert, um etwas über menschliche Mobilitätsmuster zu sagen (Felder der Forensik, Archäologie, Osteologie). Neben dem Turing Weg bin ich auch mit anderen Teams beteiligt, wie der [Forschungskalender öffnen](https://openresearchcalendar.org/) ([folgen Sie dem Kalender auf Twitter!](https://twitter.com/OpenResearchCal)), [IsoArcH](https://isoarch.eu/) und ich war ein [OLS3](https://openlifesci.org/ols-3/) Mentor! إتش إيرسيير ميش أوتش فور كله، تم قبول فيسيكاليشين بروبن في در فورشونغ زو القبعة أو ش بن كو-فورسيتزندر [عينات فيزيائية لتحالف بيانات البحث من أجل الحصول على الفوائد](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig).
+* crwdns58023:0crwdne58023:0
+  * crwdns58025:0crwdne58025:0
+  * crwdns58027:0crwdne58027:0
+  * crwdns58029:0crwdne58029:0
+* crwdns58031:0crwdne58031:0
+* crwdns58033:0crwdne58033:0
+* crwdns58035:0crwdne58035:0
+* crwdns58037:0crwdne58037:0
+> crwdns58039:0crwdne58039:0 crwdns58041:0crwdne58041:0 crwdns58043:0crwdne58043:0 crwdns58045:0crwdne58045:0
 
-* أبرزها بيرسو نليش:
-> Dank des Turing Weges habe ich wirklich gelernt, gemeinsam mit GitHub zu arbeiten. Das Buch Strich im Februar 2020 war ein großartiger Anfang, um diese Fähigkeiten tatsächlich zu üben und direkt anzuwenden. was mir jetzt erlaubt, selbstbewusster auch zu anderen Projekten beizutragen! Ich habe in erster Linie zum Reproduzierbaren Forschungskapitel, zum Abschnitt Forschung Data Management beigetragen. Ich habe bereits existierende Inhalte überprüft und arbeite daran, einen Abschnitt über die Datenverwaltungspläne und den Umgang mit personenbezogenen Daten hinzuzufügen. Ich habe auch ein [das Turing Way Poster](https://doi.org/10.5281/zenodo.4263403) erstellt, das ich während einer Konferenz vorgestellt habe. إتش هاف, es zu bezahlen und anderen zu helfen, zu lernen, wie man mit GitHub durch The Turing Way oder The Carpentries Workshops. Ich bin sehr dankbar, Teil dieser großartigen und inklusiven Community zu sein!
+* crwdns58047:0crwdne58047:0
+> crwdns58049:0crwdne58049:0 crwdns58051:0crwdne58051:0 crwdns58053:0crwdne58053:0 crwdns58055:0crwdne58055:0 crwdns58057:0crwdne58057:0 crwdns58059:0crwdne58059:0 crwdns58061:0crwdne58061:0 crwdns58063:0crwdne58063:0
 
-* Weitere Informationen:
-> Meines Erachtens sollte die wissenschaftliche Forschung jedem zugänglich sein, der lernen und einen Beitrag leisten möchte. Ich hoffe, Fachleute aus meinem Forschungsbereich zusammenzubringen, um Richtlinien für Isotopische Daten aus menschlichen Überresten und Richtlinien für den Umgang mit und die Dokumentation physischer Proben zu erstellen. إش بن كو - فورستزندر للبحث في بيانات التحالف [عينات فيزيائية و جمع تصميم النظام الإيكولوجي لبيانات البحث IG](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig). Bitte nehmen Sie Kontakt auf, wenn Sie mit körperlichen Proben arbeiten und sich daran beteiligen möchten! إتش بن فريق التقويم المفتوح للبحث. Dies ist ein Kalender, den Sie nutzen können, um mit offenen Forschungsveranstaltungen auf dem Laufenden zu bleiben oder fügen Sie Ihre eigenen Ereignisse hinzu, um die Sichtbarkeit zu erhöhen. Besuchen Sie uns auf der [Open Research Calendar Website](https://openresearchcalendar.github.io/) oder folgen Sie dem Kalender auf [Twitter](https://twitter.com/OpenResearchCal)!
+* crwdns58065:0crwdne58065:0
+> crwdns58067:0crwdne58067:0 crwdns58069:0crwdne58069:0 crwdns58071:0crwdne58071:0 crwdns58073:0crwdne58073:0 crwdns58075:0crwdne58075:0 crwdns58077:0crwdne58077:0 crwdns58079:0crwdne58079:0
 
-* Zitat:
-> Das Buch Dash im Mai 2021 war für mich eine spannende Gelegenheit, hinter die Kulissen der Organisation zu blicken und Teil eines tollen Teams zu sein. Die Woche selbst war absolut erstaunlich, vor allem die Diskussionen und die "Show and tell" Sitzung!
+* crwdns58081:0crwdne58081:0
+> crwdns58083:0crwdne58083:0 crwdns58085:0crwdne58085:0
 
-## [مركز نيدرلاند للعلوم الإلكترونية](https://www.esciencecenter.nl/)
+## [crwdns58089:0crwdne58089:0](crwdns58087:0crwdne58087:0)
 
-Das niederländische eScience Center ist das nationale Zentrum für die Entwicklung und Anwendung von domänenübergreifender Software und Methoden für die wissenschaftliche Gemeinschaft. Ihr Hauptziel ist es, Wissenschaftlern mit unterschiedlicher Rechenerfahrung die Möglichkeit zu geben, das Potenzial der verfügbaren E-Infrastruktur voll auszuschöpfen und ihnen zu ermöglichen, ansonsten unerreichbare wissenschaftliche Durchbrüche zu erzielen. Das niederländische eScience Center wird hauptsächlich vom nationalen Forschungsrat (NWO) und der nationalen E-Infrastruktur-Organisation (SURF) der Niederlande finanziert.
+crwdns58091:0crwdne58091:0 crwdns58093:0crwdne58093:0 crwdns58095:0crwdne58095:0
 
-Das niederländische eScience Zentrum unterhält [seinen eigenen Leitfaden](https://guide.esciencecenter.nl/) für reproduzierbare Softwareentwicklung. Der Fokus des eScience Center-Leitfadens hat eine große Überlappung mit _der Turing Way_ und daher ist es sinnvoll, doppelte Anstrengungen zu vermeiden. Das eScience Center trägt zu _der Turing Way_ in den Bereichen bei, die für den eScience Guide relevant sind. Der eScience Leitfaden verweist auf _den Turing Way_ in dem die Informationen sonst dupliziert werden.
+crwdns58097:0crwdne58097:0 crwdns58099:0crwdne58099:0 crwdns58101:0crwdne58101:0 crwdns58103:0crwdne58103:0
 
-Details zu jedem Mitglied mit seinen Beiträgen sind alphabetisch aufgelistet.
+crwdns58105:0crwdne58105:0
 
-### Carlos Martinez Oritz
+### crwdns58107:0crwdne58107:0
 
-* رحلة: **مدير المجتمع**، كتاب Dash November 2020 Teilnehmer/Helfer
-* GitHub id: [c-martinez](http://github.com/c-martinez)
-* ORCID: [0000-0001-5565-7577](https://orcid.org/0000-0001-5565-7577)
-* Kurzbio:
-> كارلوس يوارب سينين دوكتورتيتيل في سبيفاتيك وهي جامعة دير في إكستر. Danach arbeitete er an verschiedenen Forschungsprojekten an der Universität Exeter und der Universität Plymouth. Im eScience Center arbeitete er als Ingenieur in verschiedenen Projekten in den Bereichen digitale Geisteswissenschaften und Biowissenschaften, Entwicklung von Expertise in der Verarbeitung natürlicher Sprachen, vernetzte offene Daten und Software-Nachhaltigkeit. Er ist auch zertifizierter Software-Carpentry Dozent und ist häufig an der Organisation von Schulungen beteiligt.
+* crwdns58109:0crwdne58109:0
+* crwdns58111:0crwdne58111:0
+* crwdns58113:0crwdne58113:0
+* crwdns58115:0crwdne58115:0
+> crwdns58117:0crwdne58117:0 crwdns58119:0crwdne58119:0 crwdns58121:0crwdne58121:0 crwdns58123:0crwdne58123:0
 
-* أبرزها بيرسو نليش:
-> Wir setzen uns stets für die Wiederverwendung von Software und die gemeinsame Entwicklung von Software ein. Ich liebe es, dass wir dasselbe für die Richtlinien zur Softwareentwicklung tun können: Inhalte aus dem eScience Guide wiederverwenden und gemeinsam mit _der Turing Way_ Community entwickeln!
+* crwdns58125:0crwdne58125:0
+> crwdns58127:0crwdne58127:0 crwdns58129:0crwdne58129:0
 
-* Weitere Informationen:
-> Ich bin ein großer Verfechter der Verbesserung der Software-Qualität. Ich bin wirklich froh, dass das eScience Center mit _dem Turing Way_ zusammenarbeitet, um Richtlinien zu erstellen und beim Aufbau besserer Forschungssoftware zu helfen.
+* crwdns58131:0crwdne58131:0
+> crwdns58133:0crwdne58133:0 crwdns58135:0crwdne58135:0
 
-### Mateusz Kuzak
+### crwdns58137:0crwdne58137:0
 
-* رحلة: **مدير المجتمع**، كتاب Dash November 2020 Teilnehmer/Helfer
-* GitHub id: [mkuzak](http://github.com/mkuzak)
-* ORCID: [0000-0003-0087-6021](https://orcid.org/0000-0003-0087-6021)
-* Kurzbio:
-> Mateusz erwarb an der Jagiellonischen Universität in Krakau seinen Master in Biotechnologie mit Spezialisierung Biophysik. Im September 2019 trat Mateusz dem niederländischen eScience Center in der Rolle des Community Officer mit Schwerpunkt auf Communities und Ausbildung rund um Research Software Engineering, bei Software Best Practices und Nachhaltigkeit, sowie die Rolle von Software in der offenen Wissenschaft und reproduzierbaren Forschung. Seit 2015 ist Mateusz in der Carpentries Community tätig, zuerst als Dozent, später als Mentor, Mitglied des Executive Council und Trainer. Er leitet auch das niederländische Kapitel der Carpentries und ist im Kernteam der nl-RSE-Community.
+* crwdns58139:0crwdne58139:0
+* crwdns58141:0crwdne58141:0
+* crwdns58143:0crwdne58143:0
+* crwdns58145:0crwdne58145:0
+> crwdns58147:0crwdne58147:0 crwdns58149:0crwdne58149:0 crwdns58151:0crwdne58151:0 crwdns58153:0crwdne58153:0
 
-* أبرزها بيرسو نليش:
-> Ich habe persönlich an _der Turing Way_ mitgewirkt, indem ich Kapitel im Leitfaden für Reproduzierbare Forschung entworfen habe, prüfte andere Pull Requests und Mentoring-Beiträge vom Netherlands eScience Center.
+* crwdns58155:0crwdne58155:0
+> crwdns58157:0crwdne58157:0
 
-## [كوشبش FAIR](https://fairplus.github.io/the-fair-cookbook/content/home.html)
+## [crwdns58161:0crwdne58161:0](crwdns58159:0crwdne58159:0)
 
-FAIR Cookbook ist eine Online-Ressource, die Forschern und Datenmanagern hilft, ihre Daten Findable, Accessible, Interoperable und Reusable (FAIR) zu erstellen. FAIRPlus Cookbook baut auf _der Turing Way_ Projekt- und Gemeinschaftsmodellen auf, und bietet Kapitel als "Rezepte" nach den FAIR-Elementen, Publikumstyp, Lese-Zeit und Schwierigkeitsgrad.
+crwdns58163:0crwdne58163:0 crwdns58165:0crwdne58165:0
 
-_Die Turing Way_ Teammitglieder und [Redaktionsvorstand des Projekts](https://fairplus.github.io/the-fair-cookbook/content/recipes/boilerplate/people.html), Susanna-Assunta Sansone und Philippe Rocca-Serra, zusammenarbeiten, um eine Interoperabilität zwischen den beiden Ressourcen zu gewährleisten und Erfahrungen als Open-Source-Projektentwickler auszutauschen. FAIR Kochbuch [enthält relevante Kapitel von _Der Turing Weg_](https://fairplus.github.io/the-fair-cookbook/search.html?q=turing+way). In ähnlicher Weise _Der Turing Way_ zeigt das Projekt an und gibt eine Schlaggeschichte mit dem Titel [Von FAIR Co-Autor zu FAIR Doer](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-stories.html) von Susanna-Assunta Sansone (ein Co-Leiter des FAIR Kochbuch-Projekts). Weitere Details und Hintergründe finden Sie im Kapitel [Das Turing Way Buch](https://fairplus.github.io/the-fair-cookbook/content/recipes/introduction/the-turing-way.html?highlight=turing).
+crwdns58167:0crwdne58167:0 crwdns58169:0crwdne58169:0 crwdns58171:0crwdne58171:0 crwdns58173:0crwdne58173:0
 
-### سوزانا - أسونتا سانسون
+### crwdns58175:0crwdne58175:0
 
-* Rolle: Book Dash Mai 2019 Teilnehmer
-* GitHub id: [susannasansone](http://github.com/susannasansone)
-* ORCID: [0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
-* Kurzbio:
-> المدير المساعد لمؤسسة سوزانا - أسسنتا سانسون، والمحقّق الرئيسي هو أوكسفورد للبحوث الإلكترونية وأستاذ مساعد بقسم العلوم الهندسية بجامعة أكسفورد. Sie ist auch Consultant für Springer Nature und Gründer der Honorarakademie des Wissenschaftlichen Data-Journals.
+* crwdns58177:0crwdne58177:0
+* crwdns58179:0crwdne58179:0
+* crwdns58181:0crwdne58181:0
+* crwdns58183:0crwdne58183:0
+> crwdns58185:0crwdne58185:0 crwdns58187:0crwdne58187:0
 
-* أبرزها بيرسو نليش:
-> TBA
+* crwdns58189:0crwdne58189:0
+> crwdns58191:0crwdne58191:0
 
-* Weitere Informationen:
-> Das Motto von Susanna-Assunta Sanson lautet "Bessere Daten für bessere Wissenschaft". Mit ihrer Gruppe brillanter Forschungssoftware & Wissensingenieure erforscht und entwickelt sie Methoden und Werkzeuge, um die Datenwiederverwendung zu verbessern; Sie arbeiten für Datentransparenz, Forschungsintegrität und die Entwicklung des wissenschaftlichen Publizierens. Darüber hinaus führt sie Forschungsarbeiten durch, um die Forschung zu verbessern und gemeinsam zu arbeiten. تجسّد الإسبسونديري على شكل رقمي في فورشونغسوبجيكت وقاعدة بيانات للتشه يمكن العثور عليها ويمكن الوصول إليها ويمكن تشغيلها بصورة متبادلة وإعادة استخدامها، آلة FIR و Fu<unk> r Menschen und fu<unk> r Maschinen zu.
+* crwdns58193:0crwdne58193:0
+> crwdns58195:0crwdne58195:0 crwdns58197:0crwdne58197:0 crwdns58199:0crwdne58199:0 crwdns58201:0crwdne58201:0
 
-### Philippe Rocca-Serra
+### crwdns58203:0crwdne58203:0
 
-* Rolle: Book Dash Mai 2020 Teilnehmer
-* GitHub id: [proccaserra](http://github.com/proccaserra)
-* ORCID: [0000-0001-9853-5668](https://orcid.org/0000-0001-9853-5668)
-* Kurzbio:
-> فيليب روكا - سيرا ترويج فيرت في مولكولاربيولوجيا فون دير جامعة بوردو، أومزوغ في باهر بيريخ دير نخت بيتريت زوم بيتريت زوم للمعلوماتية، فريق إمبيل - إيبي في كمبريدج. Dort arbeitete er an der Gründung von ArrayExpress und wurde aktives Mitglied mehrerer Standardisierungsbemühungen, die darauf abzielten, die Vision für offene Daten und offene Wissenschaft zu fördern. Im Rahmen mehrerer EU-Projekte in den Bereichen Toxicogenomik und Nährstoffomik koordinierte er die Entwicklung des ISA-Projekts [1], die nun an der University of Oxford e-Research Centre weitergeführt wird.
+* crwdns58205:0crwdne58205:0
+* crwdns58207:0crwdne58207:0
+* crwdns58209:0crwdne58209:0
+* crwdns58211:0crwdne58211:0
+> crwdns58213:0crwdne58213:0 crwdns58215:0crwdne58215:0 crwdns58217:0[1]crwdne58217:0
 
-* أبرزها بيرسو نليش:
-> TBA
+* crwdns58219:0crwdne58219:0
+> crwdns58221:0crwdne58221:0
 
-## [فتح علوم الحياة](https://openlifesci.org/)
+## [crwdns58225:0crwdne58225:0](crwdns58223:0crwdne58223:0)
 
-Unter dem Kooperationsnamen OLS-4 for Turing _arbeitet der Turing Weg_ mit [Open Life Science (OLS)](https://openlifesci.org)zusammen, ein Programm, das Einzelpersonen und Interessengruppen in der Forschung dabei hilft, zu Botschaftern der Open Science zu werden. Dieses Programm wurde von Be<unk> ل<unk> nice Batut, Malvika Sharan und Yo Yehudi mitbegründet. Diese Zusammenarbeit bietet interessierten Mitgliedern aus Turing und The Turing Way Communities Schulung und Mentoring an, um dem OLS-Programm individuell oder in Teams beizutreten. Sie entwickeln Open Science Aspekte in den Projekten, an denen sie entweder bereits gearbeitet haben oder die sie in naher Zukunft entwickeln wollen.
+crwdns58227:0crwdne58227:0 crwdns58229:0crwdne58229:0<unk> crwdns58231:0crwdne58231:0<unk> crwdns58233:0crwdne58233:0 crwdns58235:0crwdne58235:0 crwdns58237:0crwdne58237:0
 
-Sie können die Projekte sehen, die an der zweiten Runde teilgenommen haben - [OLS-2](https://openlifesci.org/ols-2/projects-participants/) und die dritte Runde - [OLS-3](https://openlifesci.org/ols-3/projects-participants/). Diese Zusammenarbeit wurde mit dem Zuschuss für Turing Online Training zur Unterstützung von Turing-Projekten in der vierten Runde ([OLS-4](https://openlifesci.org/funders)) ausgezeichnet und Materialien offen im Turing-Ausbildungsnetz freigegeben.
+crwdns58239:0crwdne58239:0 crwdns58241:0crwdne58241:0
 
-## [مشروع الحوسبة عن بعد](https://isabelbirds.github.io/Remote-Computational-Project-Resource/welcome.html)
+## [crwdns58245:0crwdne58245:0](crwdns58243:0crwdne58243:0)
 
-Diese Ressource wurde von Isabel Birds während der COVID-19 Pandemie gestartet, um Studenten zu unterstützen, die kurzfristig von feuchten in entfernte Trockenlabors überführt wurden. Dieses Projekt enthält Links zu (1) allgemeinen Tutorials für den kompletten Anfänger, (2) Tutorials für spezifische Analysen oder Pipelines, (3) kostenlose Online-Lehrbücher und (4) Orte, um Hilfe zu bitten.
+crwdns58247:0crwdne58247:0 crwdns58249:0crwdne58249:0
 
-### إيزابيل فوخيل
+### crwdns58251:0crwdne58251:0
 
-* Rolle: Der Mitwirkende des Turing Weges
-* GitHub id: [IsabelBirds](http://github.com/IsabelBirds)
-* ORCID: [0000-0001-8173-3879](https://orcid.org/0000-0001-8173-3879)
-* Kurzbio:
-> Isabel ist Doktorkandidat an der Universität von Leeds und arbeitet an der Zersplitterung der Funktion und der molekularen Evolution von lang nicht codierenden RNAs unter der Aufsicht von Dr. Julie Aspden, Dr. Mary J O’Connell und Dr. David Westhead. Sie hat sich für die molekulare Evolution und die Anwendung bioinformatischer Techniken während ihres Studiums interessiert. und entwickelte diese Interessen während der Durchführung von Forschungsprojekten im Labor Aspden und O’Connell.  
-> Sie hat auch Erfahrung in der wissenschaftlichen Forschung aus der Perspektive der Geldgeber Während ihres Jahres in der Industrie und zahlreichen Sommerpraktika bei Yorkshire Cancer Research.
+* crwdns58253:0crwdne58253:0
+* crwdns58255:0crwdne58255:0
+* crwdns58257:0crwdne58257:0
+* crwdns58259:0crwdne58259:0
+> crwdns58261:0crwdne58261:0 crwdns58263:0crwdne58263:0 crwdns58265:0crwdne58265:0
 
-* أبرزها بيرسو نليش:
-> Nach dem Lernen über die Turing Way wurde ich inspiriert eine Website für ein breiteres Publikum zu erstellen. Die Turing Way Tutorials haben mir geholfen, mein erstes Jupyter Buch zu erstellen, hat mir geholfen, die Website in einer Art und Weise zu erstellen, die offen für Beiträge ist, und machte den Austausch meiner Arbeit weniger beängstigend! Der Turing Way taucht auch ein paar Mal in den aufgelisteten Ressourcen auf. Das Ziel der Ressource ist es, den Start eines Rechenprojekts durch die Kuratierung von Links zu Tutorials und Online-Lehrbüchern weniger überwältigend zu machen. Hervorheben werden auch Fähigkeiten wie Dateimanagement oder effektiv um Hilfe gebeten zusammen mit unterhaltsamen Dingen wie Podcasts als Erinnerung daran, dass Forschung Spaß machen kann!
+* crwdns58267:0crwdne58267:0
+> crwdns58269:0crwdne58269:0 crwdns58271:0crwdne58271:0 crwdns58273:0crwdne58273:0 crwdns58275:0crwdne58275:0 crwdns58277:0crwdne58277:0

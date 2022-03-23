@@ -1,35 +1,35 @@
-(مؤهل الشيف)=
-# مؤهل تعليمي
+crwdns44873:0crwdne44873:0
+# crwdns44875:0crwdne44875:0
 
-| Pré-requis                                                                                        | الأهمية |
-| -------------------------------------------------------------------------------------------------- | ------- |
-| [Expérience avec la ligne de commande](https://programminghistorian.org/en/lessons/intro-to-bash) | مفيد    |
+| crwdns44877:0crwdne44877:0                               | crwdns44879:0crwdne44879:0 |
+| -------------------------------------------------------- | -------------------------- |
+| [crwdns44883:0crwdne44883:0](crwdns44881:0crwdne44881:0) | crwdns44885:0crwdne44885:0 |
 
-## Summary
+## crwdns44887:0crwdne44887:0
 
-Il y a plusieurs façons d'améliorer la qualité des logiciels qui nécessitent relativement peu d'efforts. En suivant un style de codage, le code sera plus facile pour vous et les autres à comprendre et il contiendra donc moins de bogues. Des outils pour l'analyse statique de code peuvent rapporter des bogues ainsi que des problèmes de style sans même exécuter le code.
+crwdns44889:0crwdne44889:0 crwdns44891:0crwdne44891:0 crwdns44893:0crwdne44893:0
 
-## تحليل مجموعة التعليمات البرمجية
+## crwdns44895:0crwdne44895:0
 
-L'analyse de code statique est une méthode qui examine le code et détecte les vulnérabilités logicielles avant l'exécution de votre code ou que le projet soit construit et déployé. Cette analyse est capable d'identifier les problèmes de qualité, y compris les faiblesses de sécurité et les erreurs. En plus de trouver des bogues, beaucoup de ces outils peuvent également aider à maintenir un style de codage cohérent.
+crwdns44897:0crwdne44897:0 crwdns44899:0crwdne44899:0 crwdns44901:0crwdne44901:0
 
-(r-code-qualite<unk> -avantages)=
-### ألف - بيانات تحليل الشفرة
+crwdns44903:0crwdne44903:0
+### crwdns44905:0crwdne44905:0
 
-- Écrire du code de haute qualité : La détection précoce d'éventuelles erreurs de programmation aide les développeurs à savoir où ils se sont mal passés.
+- crwdns44907:0crwdne44907:0
 
-- Atteindre la conformité réglementaire : La mise en conformité des logiciels est cruciale pour la stabilité et la sécurité des produits. Grâce à cela, les développeurs peuvent tester complètement leur code dans un environnement non exécuté, en veillant à ce que toutes les normes de code soient respectées et à ce que la sécurité de l'entreprise soit atteinte.
+- crwdns44909:0crwdne44909:0 crwdns44911:0crwdne44911:0
 
-- Accélérer les cycles de vie du développement logiciel : L'analyse de code statique garantit un code de haute qualité atteignant les testeurs en moins de temps. Cela signifie que même les testeurs prennent beaucoup moins de temps pour tester le produit, ce qui accélère le cycle de vie du développement logiciel.
+- crwdns44913:0crwdne44913:0 crwdns44915:0crwdne44915:0
 
-Certains des linters `les plus utilisés` sont mentionnés dans le tableau ci-dessous :
+crwdns44917:0crwdne44917:0
 
-| اللغة         | إلى جانب تحليل مجموعة الشفرة                                                                                             |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| C/C++         | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                               |
-| Python        | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                              |
-| جافا سكريبت   | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                              |
-| جافا          | [اختبار](https://checkstyle.sourceforge.io/)، [FindBugs](http://findbugs.sourceforge.net)، [PMD](https://pmd.github.io/) |
-| Perl          | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                            |
-| ر             | [lintr](https://github.com/jimhester/lintr)                                                                              |
-| Obus / Frappe | [مراقبة القذيفة](https://www.shellcheck.net)                                                                             |
+| crwdns44919:0crwdne44919:0 | crwdns44921:0crwdne44921:0                               |
+| -------------------------- | -------------------------------------------------------- |
+| crwdns44923:0crwdne44923:0 | crwdns44925:0crwdne44925:0                               |
+| crwdns44927:0crwdne44927:0 | crwdns44929:0crwdne44929:0                               |
+| crwdns44931:0crwdne44931:0 | crwdns44933:0crwdne44933:0                               |
+| crwdns44935:0crwdne44935:0 | crwdns44937:0crwdne44937:0                               |
+| crwdns44939:0crwdne44939:0 | [crwdns44943:0crwdne44943:0](crwdns44941:0crwdne44941:0) |
+| crwdns44945:0crwdne44945:0 | [crwdns44949:0crwdne44949:0](crwdns44947:0crwdne44947:0) |
+| crwdns44951:0crwdne44951:0 | [crwdns44955:0crwdne44955:0](crwdns44953:0crwdne44953:0) |

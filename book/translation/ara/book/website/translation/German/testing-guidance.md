@@ -1,90 +1,90 @@
 <a name="General_guidance_and_good_practice_for_testing"></a>
 
-# Allgemeine Anleitung und bewährte Verfahren zum Testen
+# crwdns59971:0crwdne59971:0
 
-Es gibt mehrere {ref}`verschiedene Arten`<rr-testing-types-of-testing> zu testen, die jeweils die besten Praktiken haben, die für sie spezifisch. Dennoch gibt es einige allgemeine Leitlinien, die für alle gelten, die hier dargelegt werden.
+crwdns59973:0{ref}crwdne59973:0<rr-testing-types-of-testing> crwdns59975:0crwdne59975:0 crwdns59977:0crwdne59977:0
 
-(ص - اختبار - كتابة)=
-## Schreibe Tests - Alle Tests!
+crwdns59979:0crwdne59979:0
+## crwdns59981:0crwdne59981:0
 
-Der Beginn des Prozesses des Schreibens von Tests kann überwältigend sein, vor allem wenn Sie eine große Codebasis haben. Darüber hinaus gibt es, wie bereits erwähnt, viele Arten von Tests, und die Umsetzung aller von ihnen kann wie ein unmöglicher Berg zu klettern. Deshalb lautet die wichtigste Anleitung in diesem Kapitel wie folgt: **Schreiben Sie einige Tests**. Das Testen einer winzigen Sache in einem Code, der Tausende von Zeilen lang ist, ist unendlich besser, als nichts in einem Code zu testen, der Tausende von Zeilen lang ist. قد لا تكون قادراً على فعل كل شيء، ولكن القيام *بشيء* قيم.
+crwdns59983:0crwdne59983:0 crwdns59985:0crwdne59985:0 crwdns59987:0crwdne59987:0 crwdns59989:0crwdne59989:0 crwdns59991:0crwdne59991:0
 
-Verbessern Sie dort, wo Sie können und tun Sie Ihr Bestes, um Tests mit neuen Code schreiben Sie schreiben, auch wenn es nicht machbar ist, Tests für den gesamten Code, der bereits geschrieben ist, zu schreiben.
+crwdns59993:0crwdne59993:0
 
-## الاختبارات الميتة
+## crwdns59995:0crwdne59995:0
 
-Die zweitwichtigste Ratschläge in diesem Kapitel: Führen Sie die Tests. Eine wunderschöne, perfekte Testsuite zu haben, nützt nichts, wenn man sie selten ausführt. Wenn man lange Lücken zwischen Testläufen lässt, wird es schwieriger das zu finden, was schief gelaufen ist, wenn ein Test scheitert, weil eine Menge des Codes wird sich geändert haben. Auch wenn seit Wochen oder Monaten Tests durchgeführt wurden und sie scheitern, es ist schwierig oder unmöglich zu wissen, welche Ergebnisse in der Zwischenzeit noch gültig sind, und die weggeworfen werden müssen, da sie durch den Fehler hätten beeinträchtigt werden können.
+crwdns59997:0crwdne59997:0 crwdns59999:0crwdne59999:0 crwdns60001:0crwdne60001:0 crwdns60003:0crwdne60003:0
 
-Es ist am besten, Ihre Tests soweit wie möglich zu automatisieren. Wenn jeder Test individuell durchgeführt werden muss, dann wird dieser langweilige mühsame Prozess wahrscheinlich vernachlässigt. Dies kann durch Verwendung eines Test-Frameworks erreicht werden ([später diskutiert](#use-a-testing-framework)). [Jenkins](https://jenkins.io) ist ein weiteres gutes Werkzeug dafür. Idealerweise setzen Sie Ihre Tests in regelmäßigen Abständen, möglicherweise jede Nacht.
+crwdns60005:0crwdne60005:0 crwdns60007:0crwdne60007:0 crwdns60009:0crwdne60009:0 crwdns60011:0crwdne60011:0 crwdns60013:0crwdne60013:0
 
-Ziehen Sie die Einrichtung einer kontinuierlichen Integration in Betracht (diskutiert im Kapitel kontinuierliche Integration) in Ihrem Projekt. Dies führt Ihre Tests automatisch jedes Mal aus, wenn Sie eine Änderung an Ihrem Code vornehmen und, abhängig von der von Ihnen verwendeten kontinuierlichen Integrationssoftware wird Sie benachrichtigen, falls einer der Tests fehlschlägt.
+crwdns60015:0crwdne60015:0 crwdns60017:0crwdne60017:0
 
-## Denken Sie daran, wie lange Ihre Tests dauern bis sie ausgeführt werden
+## crwdns60019:0crwdne60019:0
 
-Einige Tests, wie {ref}`rrr-testing-unittest` testen nur ein kleines Stück Code und sind in der Regel sehr schnell. Jedoch andere Arten von Tests, wie {ref}`rrr-testing-systemtest` die den gesamten Code von Ende bis Ende testen kann je nach Code eine lange Zeit dauern. Daher kann es obstruktiv sein, die gesamte Testsuite nach jeder kleinen Arbeit auszuführen. In diesem Fall ist es besser, leichtere Gewichtstests wie z. B. Bauteiltests häufig durchzuführen, und längere Tests nur einmal pro Tag über Nacht. Es ist auch gut, die Anzahl jeder Art von Tests in Bezug auf die Dauer zu skalieren. Sie sollten eine Menge von Unit-Tests (oder andere Arten von Tests, die schnell sind), aber viel weniger Tests haben, die eine lange Zeit dauern.
+crwdns60021:0{ref}crwdne60021:0 crwdns60023:0{ref}crwdne60023:0 crwdns60025:0crwdne60025:0 crwdns60027:0crwdne60027:0 crwdns60029:0crwdne60029:0 crwdns60031:0crwdne60031:0 crwdns60033:0crwdne60033:0
 
-## Dokumentation der Tests und wie sie ausgeführt werden
+## crwdns60035:0crwdne60035:0
 
-Es ist wichtig, eine Dokumentation bereitzustellen, die beschreibt, wie die Tests ausgeführt werden, sowohl für sich selbst, falls Sie in Zukunft zu einem Projekt zurückkehren und für alle anderen, die Ihre Arbeit aufbauen oder reproduzieren möchten. Diese Dokumentation sollte auch Themen wie
+crwdns60037:0crwdne60037:0 crwdns60039:0crwdne60039:0
 
-- Alle Ressourcen, wie z. B. benötigte Testdaten-Dateien
-- Alle Konfigurationen/Einstellungen, die zum Ausführen der Tests benötigt werden
-- Welche Software (wie [Test-Frameworks](#use-a-testing-framework)) muss installiert werden
+- crwdns60041:0crwdne60041:0 crwdns60043:0crwdne60043:0
+- crwdns60045:0crwdne60045:0
+- crwdns60047:0crwdne60047:0
 
-Idealerweise würden Sie Skripte bereitstellen, um alle benötigten Ressourcen einzurichten und zu konfigurieren.
+crwdns60049:0crwdne60049:0
 
-## Realistische Fälle testen
+## crwdns60051:0crwdne60051:0
 
-Machen Sie die von Ihnen getesteten Fälle so realistisch wie möglich. Wenn zum Beispiel, Sie haben Dummy-Daten, um Tests durchzuführen, sollten sicherstellen, dass die Daten so ähnlich wie möglich sind. Wenn Ihre eigentlichen Daten mit vielen Nullwerten unsicher sind, sollte es auch Ihr Testdatensatz sein.
+crwdns60053:0crwdne60053:0 crwdns60055:0crwdne60055:0 crwdns60057:0crwdne60057:0
 
-## Ein Test-Framework verwenden
+## crwdns60059:0crwdne60059:0
 
-Es gibt Werkzeuge, um das Schreiben und Ausführen von Tests zu vereinfachen, diese werden als Test-Frameworks bezeichnet. Finden Sie einen Ihrer Wünsche, erfahren Sie mehr über die angebotenen Funktionen und nutzen Sie diese. Allgemeine Test-Frameworks (und die Sprachen, auf die sie zutreffen) beinhalten:
+crwdns60061:0crwdne60061:0 crwdns60063:0crwdne60063:0 crwdns60065:0crwdne60065:0
 
-- Sprache agnostisch
-  - CTest, Testläufer für ausführbare Programme, Bash-Skripte und mehr. Hervorragend für das Verhärten des alten Codes
-- ++C
-  - الفانغ
-  - اختبار كبست
-  - اختبار
-  - اختبار جوجل
-- ج
-  - alle C++ Frameworks
-  - فروي
-  - CUnit
+- crwdns60067:0crwdne60067:0
+  - crwdns60069:0crwdne60069:0 crwdns60071:0crwdne60071:0
+- crwdns60073:0crwdne60073:0
+  - crwdns60075:0crwdne60075:0
+  - crwdns60077:0crwdne60077:0
+  - crwdns60079:0crwdne60079:0
+  - crwdns60081:0crwdne60081:0
+- crwdns60083:0crwdne60083:0
+  - crwdns60085:0crwdne60085:0
+  - crwdns60087:0crwdne60087:0
+  - crwdns60089:0crwdne60089:0
 ```{note}
-Auch wenn die modernen C++ und C noch immer weitgehend kompatibel sind, sind sie nicht vollständig und verwenden Test-Framework austauschbar nicht immer.
+crwdns60091:0crwdne60091:0
 ```
-- Python
-  - pytest (empfohlen)
-  - unittest kommt mit der Standard Python-Bibliothek
-- R Einheitstests
-  - اختبارات
-  - tinytest
-  - svUnit (funktioniert mit SciViews GUI)
-- Fortran Einheitstests:
-  - lustig
-  - pfUnit (funktioniert mit MPI)
+- crwdns60093:0crwdne60093:0
+  - crwdns60095:0crwdne60095:0
+  - crwdns60097:0crwdne60097:0
+- crwdns60099:0crwdne60099:0
+  - crwdns60101:0crwdne60101:0
+  - crwdns60103:0crwdne60103:0
+  - crwdns60105:0crwdne60105:0
+- crwdns60107:0crwdne60107:0
+  - crwdns60109:0crwdne60109:0
+  - crwdns60111:0crwdne60111:0
 
-## Streben Sie nach einer guten Code-Abdeckung
+## crwdns60113:0crwdne60113:0
 
-Code-Coverage ist ein Maß dafür, wie viel Ihres Codes von Tests "abgedeckt" wird. Genauer gesagt ist es ein Messwert dafür, wie viel Code ausgeführt wird, wenn Tests durchgeführt werden. So zum Beispiel Wenn Sie eine `if` Anweisung haben, aber nur dort testen, wo die Anweisung "Falsch" auswertet, dann wird kein Code im if Block ausgeführt. Infolgedessen wäre Ihre Code-Abdeckung < 100%. Die Code-Berichterstattung enthält keine Dokumentation wie Kommentare, daher wirkt sich das Hinzufügen von mehr Dokumentation nicht auf Ihre Prozentsätze aus.
+crwdns60115:0crwdne60115:0 crwdns60117:0crwdne60117:0 crwdns60119:0crwdne60119:0 crwdns60121:0crwdne60121:0 crwdns60123:0crwdne60123:0
 
-Wie diskutiert sind alle Tests eine Verbesserung gegenüber keinen Tests. Trotzdem ist es gut, zumindest danach zu streben, dass Ihre Code-Coverage so hoch wie möglich ist.
+crwdns60125:0crwdne60125:0 crwdns60127:0crwdne60127:0
 
-Die meisten Programmiersprachen verfügen entweder über eingebaute Werkzeuge, die importiert werden können oder als Teil von Test-Frameworks, die die Code-Abdeckung automatisch messen. Es ist auch ein netter kleiner [Bot](https://codecov.io/) für die Messung der Code-Abdeckung verfügbar.
+crwdns60129:0crwdne60129:0 crwdns60131:0crwdne60131:0
 
-**Pitfall: Die Illusion einer guten Abdeckung.** In einigen Fällen kann und sollte der gleiche Code auf mehrere Arten getestet werden. Zum Beispiel kann die Abdeckung schnell auf Code steigen, der "Vernunftprüfung" auf seine Ausgabe anwendet (siehe auch {ref}<rr-testing-challenges-difficult-quatify>), aber dies schließt nicht das Risiko aus, dass der Code aus den falschen Gründen die weitgehend richtige Antwort erzeugt. Im Allgemeinen sind die besten Tests diejenigen, die kleinere statt größere Teile kohärenten Codes isolieren. und wählen Sie so einzelne Schritte der Logik aus. Versuchen Sie sich von den möglichen Dingen leiten zu lassen, die einem bestimmten Codeteil bei der Ausführung des Ganzen passieren könnten und testen Sie diese Einzelfälle. Oft wird dies dazu führen, dass derselbe Code mehrfach getestet wird - das ist eine gute Sache!
+crwdns60133:0crwdne60133:0 crwdns60135:0{ref}crwdne60135:0<rr-testing-challenges-difficult-quatify>crwdns60137:0crwdne60137:0 crwdns60139:0crwdne60139:0 crwdns60141:0crwdne60141:0 crwdns60143:0crwdne60143:0 crwdns60145:0crwdne60145:0
 
-## Verwende Test-Doppel/Stubs/Mocking wenn nötig
+## crwdns60147:0crwdne60147:0
 
-Wenn ein Test fehlschlägt, sollte er so konstruiert werden, dass es so einfach wie möglich ist, die Ursache des Scheiterns zu finden. Das wird problematisch, wenn ein Code, den Sie testen wollen, unvermeidlich von anderen Dingen abhängt. Zum Beispiel, wenn ein Test für ein Stück Code, der mit dem Web interagiert, fehlschlägt, das könnte daran liegen, dass der Code einen Fehler *oder* hat, da es ein Problem mit der Internetverbindung gibt. Ähnlich könnte es sein, wenn ein Test für ein Stück Code, das ein Objekt verwendet, fehlschlägt, weil ein Fehler im getesteten Code vorhanden ist, oder ein Problem mit dem Objekt (das durch eigene, separate Tests getestet werden sollte). Diese Abhängigkeiten sollten nach Möglichkeit aus den Tests entfernt werden. Dies kann durch die Verwendung von Test-Ersetzungen (Test-Doppel) an die Stelle der tatsächlichen Abhängigkeiten erfolgen. Test-Doppel können wie folgt klassifiziert werden:
+crwdns60149:0crwdne60149:0 crwdns60151:0crwdne60151:0 crwdns60153:0crwdne60153:0 crwdns60155:0crwdne60155:0 crwdns60157:0crwdne60157:0 crwdns60159:0crwdne60159:0 crwdns60161:0crwdne60161:0
 
-- Ein Dummy-Objekt wird übergeben, aber nie verwendet, was bedeutet, dass seine Methoden niemals aufgerufen werden. Ein solches Objekt kann zum Beispiel benutzt werden, um die Parameterliste einer Methode zu füllen.
-- Fälschte Objekte haben funktionierende Implementierungen, werden aber in der Regel vereinfacht. Zum Beispiel verwenden sie eine In-Memory-Datenbank und keine echte Datenbank.
-- Ein Stub ist eine Teilimplementierung für eine Schnittstelle oder Klasse mit dem Zweck, eine Instanz dieses Stubs während des Tests zu verwenden. Stubs reagieren in der Regel nicht auf etwas außerhalb dessen, was für den Test programmiert ist. Stubs können auch Informationen über Anrufe aufzeichnen.
-- Ein Mock-Objekt ist eine Dummy-Implementierung für eine Schnittstelle oder eine Klasse, in der Sie die Ausgabe bestimmter Methodenaufrufe definieren. Mock-Objekte sind so konfiguriert, dass sie während eines Tests ein bestimmtes Verhalten durchführen. Sie erfassen typischerweise die Interaktion mit dem System, und Tests können dies validieren.
+- crwdns60163:0crwdne60163:0 crwdns60165:0crwdne60165:0
+- crwdns60167:0crwdne60167:0 crwdns60169:0crwdne60169:0
+- crwdns60171:0crwdne60171:0 crwdns60173:0crwdne60173:0 crwdns60175:0crwdne60175:0
+- crwdns60177:0crwdne60177:0 crwdns60179:0crwdne60179:0 crwdns60181:0crwdne60181:0
 
-Test-Doppel können an andere Objekte weitergegeben werden, die getestet werden.
+crwdns60183:0crwdne60183:0
 
-Sie können Mock-Objekte manuell (via Code) erstellen oder ein Mock-Framework verwenden, um diese Klassen zu simulieren. Mit Mock-Frameworks können Sie zur Laufzeit Spockobjekte erstellen und ihr Verhalten definieren. Das klassische Beispiel für ein Mock-Objekt ist ein Datenanbieter. In der Produktion wird eine Implementierung zur Verbindung mit der realen Datenquelle verwendet. Aber zum Testen simuliert ein Mock-Objekt die Datenquelle und stellt sicher, dass die Prüfbedingungen immer gleich sind.
+crwdns60185:0crwdne60185:0 crwdns60187:0crwdne60187:0 crwdns60189:0crwdne60189:0 crwdns60191:0crwdne60191:0 crwdns60193:0crwdne60193:0

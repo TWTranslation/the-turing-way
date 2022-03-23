@@ -1,74 +1,66 @@
-(ترحيب)=
-# Boas-vindas
+crwdns39487:0crwdne39487:0
+# crwdns39489:0crwdne39489:0
 
-*Boas-vindas ao guia The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
+*crwdns39491:0crwdne39491:0*
 
-_The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós incluímos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer todas as informações necessárias para que pesquisadores e cientistas de dados na academia, a indústria e o sector público consigam assegurar que os projetos em que trabalham sejam fáceis de reproduzir e de reutilizar.
+crwdns39493:0crwdne39493:0 crwdns39495:0crwdne39495:0 crwdns39497:0crwdne39497:0
 
 ```{admonition} Top Tip
-:class: نصيحة
-_تنقية الطريق _na<unk> o e<unk> para ser lido do ini<unk> cio ao fim.
-Comece com um conceito, ferramenta ou método de que você precisa agora, no seu trabalho atual.
-Navegue pelos diferentes guias que compõem o livro ou use a caixa de pesquisa para pesquisar tudo o que você gostaria de aprender primeiro.
+crwdns39499:0:class:crwdne39499:0
+crwdns39501:0crwdne39501:0
+crwdns39503:0crwdne39503:0
 ```
 
-Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajadas a usar _The Turing Way_ para entender seus papéis e responsabilidades na reprodutibilidade em ciência de dados. Você pode inspecionar nossos recursos no [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribuir para o projeto conforme descrito em nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e reutilizar todos os materiais ([consulte a Licença](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
+crwdns39505:0crwdne39505:0 crwdns39507:0crwdne39507:0
 
 ```{figure} figures/welcome.jpg
----
-name: welcome-image
-alt: O projeto The Turing Way é ilustrado como uma estrada ou caminho com lojas para diferentes habilidades em ciência de dados. As pessoas podem entrar e sair com o seu carrinho de compras e escolher o que precisam.
----
-Ilustrac<unk> a<unk> o de projeto _The Turing Way_por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807] (http://doi.org/10.5281/zenodo.3332807)
+crwdns39509:0crwdne39509:0 crwdns39511:0crwdne39511:0
+crwdns39513:0crwdne39513:0 crwdns39515:0crwdne39515:0 crwdns39517:0crwdne39517:0
 ```
 
-(الترحيب - الجماعة)=
-## Nossa Comunidade
+crwdns39519:0crwdne39519:0
+## crwdns39521:0crwdne39521:0
 
-A comunidade de _The Turing Way_ é dedicada a fazer pesquisa colaborativa, reutilizável e transparente que seja "tão fácil de fazer que não valha a pena não fazer". Isso significa investir nas competências sociotécnicas necessárias para trabalhar numa equipe, para construir algo mais significativo do que qualquer indivíduo poderia proporcionar sozinho.
+crwdns39523:0crwdne39523:0 crwdns39525:0crwdne39525:0
 
-_طريق التدوين_ e<unk> :
+crwdns39527:0crwdne39527:0
 
-* um livro
-* uma comunidade
-* uma colaboração global
+* crwdns39529:0crwdne39529:0
+* crwdns39531:0crwdne39531:0
+* crwdns39533:0crwdne39533:0
 
-Esperamos que você ache útil o conteúdo do livro. Tudo aqui está disponível gratuitamente sob uma [licença CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md). Use e reutilize o que precisar, para qualquer propósito.
+crwdns39535:0crwdne39535:0 crwdns39537:0crwdne39537:0 crwdns39539:0crwdne39539:0
 
-O livro é escrito colaborativamente e aberto desde o início. Para tornar esse projeto verdadeiramente acessível e útil para todas as pessoas, convidamos você a contribuir com suas habilidades e trazer suas perspectivas para esse projeto. Para se juntar a esta comunidade, por favor leia nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e formas de [entrar em contato](https://github.com/alan-turing-institute/the-turing-way#get-in-touch). Mais informações sobre a comunidade e o projeto estão disponíveis no {ref}`ch`. Estamos ansiosos para extendir e فسر _طريق التوحيد_ المتشائم.
+crwdns39541:0crwdne39541:0 crwdns39543:0crwdne39543:0 crwdns39545:0crwdne39545:0 crwdns39547:0{ref}crwdne39547:0 crwdns39549:0crwdne39549:0
 
 ```{figure} figures/theturingway-chapters.jpg
----
-name: theturingway-chapters
-alt: O guia The Turing Way para pesquisa reprodutível e sua estrutura ilustradas como uma série de portas que representam a estrutura em capítulos e sub-capítulos 
----
-Ilustração por _The Turing Way_ por Scriberia. Versão original em Zenodo. () http://doi.org/10.5281/zenodo.3695300.
+crwdns39551:0crwdne39551:0 crwdns39553:0crwdne39553:0 crwdns39555:0crwdne39555:0
 ```
 
-Embora _The Turing Way_ receba apoio e financiamento do [The Alan Turing Institute](https://www.turing.ac.uk/), o projeto foi projetado para ser uma colaboração global. Temos contribuições de todo o Reino Unido e da Índia, México, Austrália, EUA e muitos países europeus. () انظر: Os capi<unk> tulos Foram escritos, Revistos e curados por membros de Institutos de Investigac<unk> a<unk> o e universidades, departamentos governamentais e indu<unk> stria. Nosso compromisso é criar um espaço onde pessoas com diversos conhecimentos e experiências vividas possam compartilhar seu conhecimento com outras pessoas, para que possamos usar a ciência de dados para melhorar o mundo.
+crwdns39557:0crwdne39557:0 crwdns39559:0crwdne39559:0 crwdns39561:0crwdne39561:0 crwdns39563:0crwdne39563:0
 
-Valorizamos a participação de todos os membros da nossa comunidade e queremos garantir que todos os contribuintes tenham uma experiência agradável e realizante. Assim, todos os que participam do projeto _The Turing Way_ devem mostrar respeito e cortesia para com outros membros da comunidade a todo momento. Todas as contribuições devem obedecer ao nosso [código de conduta](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+crwdns39565:0crwdne39565:0 crwdns39567:0crwdne39567:0 crwdns39569:0crwdne39569:0
 
-![Gif mostrando a captura de tela da tabela de colaboradores, carinhas felizes e emojis representando os tipos de contribuições em uma tabela](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
+![crwdns39573:0crwdne39573:0](crwdns39571:0crwdne39571:0)
 
-(الترحيب بالتاريخ)=
-## هيستو ريكو
+crwdns39575:0crwdne39575:0
+## crwdns39577:0crwdne39577:0
 
-O livro começou em janeiro de 2019 como um guia para reprodutibilidade, cobrindo {ref}`rr-vcs`, {ref}`rr-test`, e {ref}`rr-ci`. No entanto, as competências técnicas são apenas um aspecto para tornar a investigação científica de dados "aberta a todas as pessoas" e, por isso, em Fevereiro de 2020, _The Turing Way_ se expandiu em uma série de guias: {ref}`rr`, {ref}`pd`, {ref}`cm`, {ref}`cl`e {ref}`er`.
+crwdns39579:0{ref}crwdnd39579:0{ref}crwdnd39579:0{ref}crwdne39579:0 crwdns39581:0{ref}crwdnd39581:0{ref}crwdnd39581:0{ref}crwdnd39581:0{ref}crwdnd39581:0{ref}crwdne39581:0
 
-(الترحيب - الاستشهاد)=
-## Citando _طريق التورنج_
+crwdns39583:0crwdne39583:0
+## crwdns39585:0crwdne39585:0
 
-Todo o material em _The Turing Way_ está disponível sob uma licença [CC-BY 4.0](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
+crwdns39587:0crwdne39587:0
 
-Voce<unk> pode citar _طريق التوفير_ atrave<unk> s do arquivo do Zenodo do projeto usando o DOI: [10.5281/zenodo.3233853](https://doi.org/10.5281/zenodo.3233853).
+crwdns39589:0crwdne39589:0
 
-A citação será similar a esta:
+crwdns39591:0crwdne39591:0
 
-> مجتمع طريق، بيكي أرنولد، لويز باولر، سارة غيبسون، باتريشيا هيرتريتش، روسي هيغمان، … كريستي ويتاكر. (2019، 25 آذار/مارس). The Turing Way: Um manual para Ciência de Dados Reprodutível (Versão v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
+> crwdns39593:0crwdne39593:0 crwdns39595:0crwdne39595:0 crwdns39597:0crwdne39597:0 crwdns39599:0crwdne39599:0 crwdns39601:0crwdne39601:0 crwdns39603:0crwdne39603:0
 
-No entanto, por favor visite o [link DOI](https://doi.org/10.5281/zenodo.3233853) para obter a versão mais recente - a citação acima não é gerada automaticamente e pode estar desatualizada. Os DOIs nos permitem arquivar o repositório e são úteis para rastrear o trabalho em publicações acadêmicas.
+crwdns39605:0crwdne39605:0 crwdns39607:0crwdne39607:0
 
-Você também pode compartilhar o URL legível para uma página no livro, por exemplo, {ref}`https://the-turing-way.netlify. pp/reproducible-research/overview/overview-definitions.html <rr-overview-definitions>`, mas esteja ciente de que o projeto está em desenvolvimento e estes links podem mudar ao longo do tempo. Voce<unk> pode querer incluir um [link para arquivo da web](http://web.archive.org), como: [https://web.archive.org/web/20191030093753/https://the-turing-way etlify.com/reproducibility/03/definitions.html](https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html), para garantir que você não acabe com links quebrados em qualquer lugar!
+crwdns39609:0{ref}crwdne39609:0 crwdns39611:0crwdne39611:0 crwdns39613:0crwdne39613:0 crwdns39615:0crwdne39615:0
 
-Nós realmente apreciamos todas as referências que você fizer ao projeto _The Turing Way_ em seu trabalho, e esperamos que ele seja útil. Se você tiver alguma dúvida, por favor, [entre em contato](https://github.com/alan-turing-institute/the-turing-way#get-in-touch).
+crwdns39617:0crwdne39617:0 crwdns39619:0crwdne39619:0

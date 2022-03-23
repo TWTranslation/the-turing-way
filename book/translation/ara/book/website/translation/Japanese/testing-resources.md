@@ -1,98 +1,98 @@
-# その他の推奨
+# crwdns65495:0crwdne65495:0
 
-再現可能な計算環境の章を読んでから、連続的な統合についての章を読んでみてください。 開発ワークフローに正式なレビューステージを追加することで、コードベースをさらに強化する方法について概説します。
+crwdns65497:0crwdne65497:0
 
-[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) には、 [Teuring Institute](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) と同様に、テストに関連する多くの有用なチュートリアルがあります。 また、 [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com) を見る価値があります。
+crwdns65499:0crwdne65499:0
 
-## 使用される材料: これがあなたを助ける方法/これが有用である理由
+## crwdns65501:0crwdne65501:0
 
-- [تحدث بواسطة Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**](https://chryswoods.com/main/copyright.html)
-- [チューリングテストコースの基本](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Creative Commons share and remix**
-- [مدونة SSI](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير التجارية 2.5 غير التجارية.**
+- crwdns65503:0crwdne65503:0
+- crwdns65505:0crwdne65505:0
+- crwdns65507:0crwdne65507:0
 
-## 使用される材料: 一般的なガイダンスとテスト
+## crwdns65509:0crwdne65509:0
 
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير المشتركة 2.5 لرخصة المشاع الإبداعي**
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **مشاركة المشاع الإبداعي وريمكس**
-- [السخرة](https://www.vogella.com/tutorials/Mockito/article.html) **الإسناد-غير التجارية-المساهمة مثل 3.0 <unk> <unk> <unk> <unk> (CC BY-NC-SA 3.0 DE)**
-- [浮動小数点数でテスト](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- crwdns65511:0crwdne65511:0
+- crwdns65513:0crwdne65513:0
+- crwdns65515:0crwdne65515:0
+- crwdns65517:0crwdne65517:0
 
-## 使用される材料: テストの種類
+## crwdns65519:0crwdne65519:0
 
-- [ソフトウェアテストの基礎: テスト](http://softwaretestingfundamentals.com/software-testing-levels/) **Copyleft - 2019 STF**
+- crwdns65521:0crwdne65521:0
 
-## 使用材料: 煙テスト
+## crwdns65523:0crwdne65523:0
 
-- [رقمية](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية للمشاع الإبداعي-غير تجاري-المساهمة مثل 4.0**
+- crwdns65525:0crwdne65525:0
 
-## 使用材料: ユニットテスト
+## crwdns65527:0crwdne65527:0
 
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk>](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**
-- [ソフトウェアテストの基礎: ユニットテスト](http://softwaretestingfundamentals.com/unit-testing/) **Copyleft - 2019 STF**
+- crwdns65529:0crwdne65529:0
+- crwdns65531:0crwdne65531:0
 
-## 使用されている材料: 統合テスト
+## crwdns65533:0crwdne65533:0
 
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk>](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**
-- [ソフトウェアテストの基礎: 統合テスト](http://softwaretestingfundamentals.com/integration-testing/) **Copyleft - 2019 STF**
+- crwdns65535:0crwdne65535:0
+- crwdns65537:0crwdne65537:0
 
-## 使用された材料: システムテスト
+## crwdns65539:0crwdne65539:0
 
-- [ソフトウェアテストの基礎: システムテスト](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk>](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**
+- crwdns65541:0crwdne65541:0
+- crwdns65543:0crwdne65543:0
 
-## 使用される材料: 受け入れ試験
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk>](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**
+## crwdns65545:0crwdne65545:0
+- crwdns65547:0crwdne65547:0
 
-## 使用された材料: 回帰試験
+## crwdns65549:0crwdne65549:0
 
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>](http://soundsoftware.ac.uk/unit-testing-why-bother/) **المشاع الإبداعي في نسب الغير تجارية-غير تجارية 3.0 <unk> <unk> <unk> <unk> <unk>**
-- [ソフトウェアテストの基礎 回帰テスト](http://softwaretestingfundamentals.com/regression-testing/) **Copyleft**
-- [Cem Karner <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>](http://www.testingeducation.org/k04/RegressionExamples.htm) **رخصة المشاع الإبداعي نسبة - المشاركة المشاع الإبداعي 2.0**
-- [自動テストの採用](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
+- crwdns65551:0crwdne65551:0
+- crwdns65553:0crwdne65553:0
+- crwdns65555:0crwdne65555:0
+- crwdns65557:0crwdne65557:0
 
-## 使用された材料: ランタイムテスト
+## crwdns65559:0crwdne65559:0
 
-- [تحدث بواسطة Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**](https://chryswoods.com/main/copyright.html)
+- crwdns65561:0crwdne65561:0
 
-## 使用する材料: テスト駆動開発
+## crwdns65563:0crwdne65563:0
 
-- [<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>](https://software.ac.uk/resources/guides/testing-your-software) **رخصة المشاع الإبداعيين-غير التجاري 3.0**
-- [<unk> <unk> <unk> <unk>](http://soundsoftware.ac.uk/unit-testing-why-bother/) **رخصة المشاع الإبداعيين-غير التجارية 3.0**
+- crwdns65565:0crwdne65565:0
+- crwdns65567:0crwdne65567:0
 
-## 使用された材料: 用語集
+## crwdns65569:0crwdne65569:0
 
-- [<unk> <unk> <unk> <unk> <unk> eScience Center](https://guide.esciencecenter.nl/#/best_practices/testing) **المشاع الإبداعي إسناد 4.0 الدولية للترخيص**
+- crwdns65571:0crwdne65571:0
 
-### 定義/用語集
+### crwdns65573:0crwdne65573:0
 
-- **受入テスト:** プログラムがプロジェクトの基本的な要件を満たすテスト。
+- crwdns65575:0crwdne65575:0
 
-- **コードカバレッジ:** ソースコードのどれだけがテストスイートによって行使されているかを示す尺度。
+- crwdns65577:0crwdne65577:0
 
-- **End to end test:** プログラムを最初から最後まで実行し、出力が正しいことを検証するテスト。
+- crwdns65579:0crwdne65579:0
 
-- **統合テスト:** コード単位を組み合わせて実行するテスト そして、出力を確認し、ユニットが正しく統合されていることを確認します。
+- crwdns65581:0crwdne65581:0
 
-- **モック:** 実際のオブジェクトをテストを実行するときに使用するふりをする。
+- crwdns65583:0crwdne65583:0
 
-- **回帰テスト:** コードが変更された前後のテストの結果を比較する。 出力が変更された場合、プログラムのどこかで問題が発生し、エラーが発生します。
+- crwdns65585:0crwdne65585:0
 
-- **ランタイムテスト:** その一部として実行されるプログラム内に埋め込まれたテスト。
+- crwdns65587:0crwdne65587:0
 
-- **煙テスト:** プロジェクトのホールドを実行するために必要な基本的な要件を確実にするための非常に簡単な初期チェック。
+- crwdns65589:0crwdne65589:0
 
-- **確率コード:** 正しいが、必ずしも同じ結果を出力するとは限らないコード。 例えば、10個の乱数を出力するプログラムは、正しいにもかかわらず、毎回異なる結果を生成します。
+- crwdns65591:0crwdne65591:0
 
-- **<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> :** "إنهاء الاختبار النهائي".
+- crwdns65593:0crwdne65593:0
 
-- **テスト駆動開発:** ユニット自体の前にユニットテストが書かれるコード開発のプロセス。
+- crwdns65595:0crwdne65595:0
 
-- **テストスタブ:** 依存関係を削除するためにテストで使用されるコードの一部の偽の実装。
+- crwdns65597:0crwdne65597:0
 
-- **テストスイート:** プロジェクト用に書かれたテスト。
+- crwdns65599:0crwdne65599:0
 
-- **テストフレームワーク:** 筆記テストと実行テストを労働集約を減らすツール。
+- crwdns65601:0crwdne65601:0
 
-- **Unit:** 簡単なことをする小さなコード。 通常、1つまたは2つの入力と1つの出力があります。
+- crwdns65603:0crwdne65603:0
 
-- **ユニットテスト:** ユニットの動作をチェックするテスト。
+- crwdns65605:0crwdne65605:0

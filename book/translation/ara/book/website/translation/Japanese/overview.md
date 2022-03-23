@@ -1,32 +1,28 @@
-(r-Overview)=
-# 再現可能な研究の概要
+crwdns62559:0crwdne62559:0
+# crwdns62561:0crwdne62561:0
 
-(r-overview-requireites) =
-## 前提条件
+crwdns62563:0crwdne62563:0
+## crwdns62565:0crwdne62565:0
 
-以前の知識は必要ありません。
+crwdns62567:0crwdne62567:0
 
 ```{figure} ../figures/research-cycle.jpg
----
-name: research-cycle
-alt: 研究プロセスは、研究アイデアを生み出す永続的なサイクルとして表現されます。 データ計画と設計、データ収集、データ処理と分析、公開、保存、そのため、データの再利用が可能になります。 
----
-_Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+crwdns62569:0crwdne62569:0
 ```
 
-(بآلاف دولارات الولايات المتحدة)
-## Summary
+crwdns62571:0crwdne62571:0
+## crwdns62573:0crwdne62573:0
 
-これらの結果が複数の独立した研究者によって複製され確認されれば、科学的な結果と証拠は強化されます( {ref}`定義 <rr-overview-definitions>` を参照)。
+crwdns62575:0{ref}crwdne62575:0
 
-研究者が研究の透明性を採用する場合 - 言い換えれば、 分析に関連するデータやプロセスを適切に文書化し共有すると、より広範な研究コミュニティは、公開された結果を複製または構築する際に貴重な時間を節約することができます。 多くの場合、以前のプロジェクトのデータまたはコードは、新しい研究者が古い所見を検証したり、新しい分析を開発するために再利用されます。
+crwdns62577:0crwdne62577:0
 
-{ref}`Added Advantages <rr-overview-benefits>` subchapterで再現性のある研究のその他の利点について学びましょう。
+crwdns62579:0{ref}crwdne62579:0
 
-主要なメディアは [](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) 調査で報告されており、科学的研究のかなりの割合で再現できないことが示されています。 これにより、他の学者や社会が科学的成果への信頼を失うことにつながります。 {cite:ps}`baker2016reproblem`.
+crwdns62581:0{cite:ps}crwdne62581:0
 
-さらに、「否定的な結果」を簡単に公開することができます {cite:ps}`Dirnagl2010via`.
+crwdns62583:0{cite:ps}crwdne62583:0
 
-再現性に関するリソースをさらに読むには、 {ref}`リソース <rr-overview-resources>` のサブチャプターを参照してください。
+crwdns62585:0{ref}crwdne62585:0
 
-***チャプタータグ**: このチャプターは、 `チューリングデータ研究グループ` (`turing-dsg` ) のためにキュレーションされています。*
+*crwdns62587:0crwdne62587:0*

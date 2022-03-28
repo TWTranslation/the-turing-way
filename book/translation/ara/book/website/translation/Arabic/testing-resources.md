@@ -1,98 +1,98 @@
-# crwdns52697:0crwdne52697:0
+# توصيات أخرى
 
-crwdns52699:0crwdne52699:0 crwdns52701:0crwdne52701:0
+حاول قراءة الفصل الخاص بالبيئات الحسابية القابلة للاستنساخ ثم الفصل الخاص بالتكامل المستمر. يحدد الفصل المتعلق بالمراجعة كيف يمكنك زيادة تعزيز قاعدة التعليمات البرمجية الخاصة بك بإضافة مرحلة استعراض رسمية لسير العمل التطويري الخاص بك.
 
-crwdns52703:0crwdne52703:0 crwdns52705:0crwdne52705:0
+[TtorialsPoint](https://www.tutorialspoint.com/software_testing/) لديها عدد من الدروس المفيدة ذات الصلة بالتجارب، كما هو الحال بالنسبة لـ [معهد تورينغ](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). يجدر أيضا النظر في [ softwaretestingfundamentals.com ](http://softwaretestingfundamentals.com). طلب السياق.
 
-## crwdns52707:0crwdne52707:0
+## المواد المستخدمة: كيف سيساعدك هذا / لماذا هذا مفيد
 
-- crwdns52709:0crwdne52709:0
-- crwdns52711:0crwdne52711:0
-- crwdns52713:0crwdne52713:0
+- [تحدث بواسطة Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**](https://chryswoods.com/main/copyright.html)
+- [إختبار أساسيات الدورة](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **مشاركة المشاع الإبداعي و ريمكس**
+- [مدونة SSI](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير التجارية 2.5 غير التجارية.**
 
-## crwdns52715:0crwdne52715:0
+## المواد المستخدمة: التوجيه العام والممارسات الجيدة للاختبار
 
-- crwdns52717:0crwdne52717:0
-- crwdns52719:0crwdne52719:0
-- crwdns52721:0crwdne52721:0
-- crwdns52723:0crwdne52723:0
+- [مدونة SSI على اختبار البرنامج](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **رخصة المشاع الإبداعي غير التجارية 2.5 غير التجارية.**
+- [دورة الاختبار](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **مشاركة المشاع الإبداعي و ريمكس**
+- [تصويب](https://www.vogella.com/tutorials/Mockito/article.html) **إسناد غير تجاري-مشاركة 3.0 ألمانيا (CC BY-NC-SA 3.0 DE)**
+- [اختبار مع النقاط العائمة](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **رخصة أباتشي 2.0**
 
-## crwdns52725:0crwdne52725:0
+## المواد المستخدمة: أنواع الاختبارات
 
-- crwdns52727:0crwdne52727:0
+- [أساسيات اختبار البرمجيات: مستويات الاختبارات](http://softwaretestingfundamentals.com/software-testing-levels/) **نسخ - 2019 STF**
 
-## crwdns52729:0crwdne52729:0
+## المواد المستخدمة: اختبار الدخان
 
-- crwdns52731:0crwdne52731:0
+- [الرخصة الرقمية](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعية-غير تجارية-المساهمة مثل 4.0**
 
-## crwdns52733:0crwdne52733:0
+## المواد المستخدمة: اختبار الوحدة
 
-- crwdns52735:0crwdne52735:0
-- crwdns52737:0crwdne52737:0
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
+- [أساسيات اختبار البرامج: اختبار الوحدة](http://softwaretestingfundamentals.com/unit-testing/) **نسخ - 2019 STF**
 
-## crwdns52739:0crwdne52739:0
+## المواد المستخدمة: اختبار الدمج
 
-- crwdns52741:0crwdne52741:0
-- crwdns52743:0crwdne52743:0
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
+- [أساسيات اختبار البرامج: اختبار التكامل](http://softwaretestingfundamentals.com/integration-testing/) **نسخ - 2019 STF**
 
-## crwdns52745:0crwdne52745:0
+## المواد المستخدمة: اختبار النظام
 
-- crwdns52747:0crwdne52747:0
-- crwdns52749:0crwdne52749:0
+- [أساسيات اختبار البرامج: اختبار النظام](http://softwaretestingfundamentals.com/system-testing/) **نسخ - 2019 STF**
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
 
-## crwdns52751:0crwdne52751:0
-- crwdns52753:0crwdne52753:0
+## المواد المستخدمة: اختبار القبول
+- [مقدمة للتكامل المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **الرخصة الدولية المشاع الإبداعي - غير التجارية - المساهمة مثل 4.0**
 
-## crwdns52755:0crwdne52755:0
+## المواد المستخدمة: اختبار التراجع
 
-- crwdns52757:0crwdne52757:0
-- crwdns52759:0crwdne52759:0
-- crwdns52761:0crwdne52761:0
-- crwdns52763:0crwdne52763:0
+- [برنامج الصوت](http://soundsoftware.ac.uk/unit-testing-why-bother/) **رخصة المشاع الإبداعي-غير التجاري 3.0**
+- [اختبار اختبار البرمجيات الأساسية للتراجع](http://softwaretestingfundamentals.com/regression-testing/) **نسخ**
+- [أمثلة لاختبار الانحراف من قبل Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **رخصة المشاع الإبداعي-المساهمة المشاع الإبداعية 2.0**
+- [تبني الاختبار التلقائي](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **رخصة أباتشي 2.0**
 
-## crwdns52765:0crwdne52765:0
+## المواد المستخدمة: اختبار وقت التشغيل
 
-- crwdns52767:0crwdne52767:0
+- [تحدث بواسطة Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**رخصة المشاع الإبداعي-غير تجاري-المساهمة الدولية مثل 4.0**](https://chryswoods.com/main/copyright.html)
 
-## crwdns52769:0crwdne52769:0
+## المواد المستخدمة: اختبار التطوير المدفوع
 
-- crwdns52771:0crwdne52771:0
-- crwdns52773:0crwdne52773:0
+- [اختبار برنامجك](https://software.ac.uk/resources/guides/testing-your-software) **رخصة المشاع الإبداعي-غير تجاري 3.0**
+- [لماذا العزيزة](http://soundsoftware.ac.uk/unit-testing-why-bother/) **رخصة المشاع الإبداعي-غير التجاري 3.0**
 
-## crwdns52775:0crwdne52775:0
+## المواد المستخدمة: المسرد
 
-- crwdns52777:0crwdne52777:0
+- [المركز الهولندي للعلوم](https://guide.esciencecenter.nl/#/best_practices/testing) **التراخيص الدولية المشاع الإبداعي 4.0**
 
-### crwdns52779:0crwdne52779:0
+### التعاريف/المسرد
 
-- crwdns52781:0crwdne52781:0
+- **اختبار القبول:** اختبار أن البرنامج يستوفي المتطلبات الأساسية للمشروع.
 
-- crwdns52783:0crwdne52783:0
+- **تغطية التعليمات البرمجية:** مقياس يصف كمية التعليمات البرمجية المصدرية التي تمارسها مجموعة الاختبار.
 
-- crwdns52785:0crwdne52785:0
+- **إنهاء الاختبار النهائي:** اختبار يعمل على تشغيل البرنامج من البداية إلى النهاية ويتحقق من أن الإخراج صحيح.
 
-- crwdns52787:0crwdne52787:0
+- **اختبار التكامل:** اختبار حيث يتم الجمع بين وحدات التعليمات البرمجية وتشغيلها، ويتم التحقق من المخرجات للتحقق من أن الوحدات قد تم إدماجها بشكل صحيح.
 
-- crwdns52789:0crwdne52789:0
+- **مثير:** استبدل كائن حقيقي بكائن متظاهر لاستخدامه عند تشغيل الاختبارات.
 
-- crwdns52791:0crwdne52791:0 crwdns52793:0crwdne52793:0
+- **اختبار التراجع:** مقارنة نتيجة اختبار قبل وبعد تغيير الكود البرمجي. إذا كان الناتج قد تغير مشكلة تم إدخاله في مكان ما من البرنامج، ويتم إلقاء خطأ.
 
-- crwdns52795:0crwdne52795:0
+- **اختبار وقت التشغيل:** الاختبارات المضمنة في البرنامج الذي يتم تشغيله كجزء منه.
 
-- crwdns52797:0crwdne52797:0
+- **اختبار الدخن:** فحوص أولية موجزة جدا تضمن المتطلبات الأساسية اللازمة لتشغيل المشروع.
 
-- crwdns52799:0crwdne52799:0 crwdns52801:0crwdne52801:0
+- **كود التخزين:** الكود البرمجي الذي، على الرغم من صحته، لا ينتج دائما نفس النتيجة. على سبيل المثال، البرنامج الذي ينتج عشرة أرقام عشوائية سيولد نتيجة مختلفة في كل مرة، على الرغم من صحته.
 
-- crwdns52803:0crwdne52803:0
+- **اختبار النظام:** شاهد "نهاية الاختبار النهائي".
 
-- crwdns52805:0crwdne52805:0
+- **اختبار التطوير الموجه** عملية تطوير التعليمات البرمجية حيث يتم كتابة اختبارات الوحدة قبل الوحدات نفسها.
 
-- crwdns52807:0crwdne52807:0
+- **متجر الاختبار:** التطبيقات الوهمية لأجزاء من التعليمات البرمجية التي تستخدم في الاختبار لإزالة التبعيات.
 
-- crwdns52809:0crwdne52809:0
+- **مجموعة الاختبار:** الاختبارات التي تم كتابتها للمشروع.
 
-- crwdns52811:0crwdne52811:0
+- **إطار الاختبار:** الأدوات التي تجعل الكتابة وإجراء الاختبارات أقل كثافة في اليد العاملة.
 
-- crwdns52813:0crwdne52813:0 crwdns52815:0crwdne52815:0
+- **الوحدة:** قطعة صغيرة من التعليمات البرمجية تقوم بشيء واحد بسيط. وعادة ما يكون لديها مدخل واحد أو بضعة مدخلات، وعادة ما يكون ناتجا واحدا.
 
-- crwdns52817:0crwdne52817:0
+- **اختبار الوحدة:** اختبار للتحقق من سلوك الوحدة.

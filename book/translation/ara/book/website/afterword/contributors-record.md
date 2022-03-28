@@ -886,7 +886,7 @@
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/Chrisisour"><img src="https://avatars2.githubusercontent.com/u/49248075?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christina Hitrova</b></sub></a><br /><a href="#ideas-Chrisisour" title="Ideas, Planning, & Feedback">🤔</a></td>
-<td align="center"><a href="http://christopherlovell.co.uk"> <1 /> <2 /> <sub> <b> كريستوفر لوفيل </ 4> </sub> </a> <2 /> <a href="#infra-christopherlovell" title="Infrastructure (Hosting, Build-Tools, etc)"> 🚇 </a>
+<td align="center">こ の チ ェ ッ ク リ ス ト に は 多 く の 項目 が 含 ま れ て い。 كما هو مذكور من قبل {ref} <a href="http://christopherlovell.co.uk"> من قبل <1> </a> ، فإن القيام ببعض العناصر أفضل بكثير من عدم القيام بأي منها.
 طلب السياق</td>
 <td align="center"><a href="https://github.com/ClareLiggins"><img src="https://avatars3.githubusercontent.com/u/47981871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Liggins</b></sub></a><br /><a href="https://github.com/alan-turing-institute/the-turing-way/commits?author=ClareLiggins" title="Documentation">📖</a></td>
 <td align="center"><a href="http://users.aber.ac.uk/cos"><img src="https://avatars3.githubusercontent.com/u/1053628?v=4?s=100" width="100px;" alt=""/><br /><sub><b>حافظ الكولين</b></sub></a><br /><a href="#ideas-colinsauze" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-colinsauze" title="Content">🖋</a></td>

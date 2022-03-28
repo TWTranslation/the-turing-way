@@ -1,129 +1,174 @@
-crwdns70075:0crwdne70075:0
-# crwdns70077:0crwdne70077:0
+(اختبار - تحديات)=
+# 检验方面的挑战和特殊情况
 
-crwdns70079:0crwdne70079:0
-## crwdns70081:0crwdne70081:0
+(r-testting-challenges es-stocastic-code)=
+## 测试恒星代码
 
-crwdns70083:0crwdne70083:0
+有时,代码包含随机性元素,常见的例子是使用 [Monte Carlo 方法](https://en.wikipedia.org/wiki/Monte_Carlo_method) 的代码。 测试这种代码可能非常困难,因为如果它多次运行,它将产生不同的答案, 所有这些都可能是“正确的”,即使它没有包含bug。 有两种主要方法来处理测试炉子塑料代码：
 
-### crwdns70085:0crwdne70085:0
+### 使用随机数的种子
 
-crwdns70087:0crwdne70087:0
-
-```python
-crwdns70089:0crwdne70089:0
-```
-
-crwdns70091:0crwdne70091:0
+随机数种子有点难以解释,这就是一个例子。 这里有一个能打印三个随机数字的 Python 脚本。
 
 ```python
-crwdns70093:0crwdne70093:0
+<unk> <unk>
+
+# <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+<unk> <unk> <unk> (random.random())
+<unk> <unk> <unk> (random.random())
+<unk> <unk> <unk> <unk> (random.random())
 ```
 
-crwdns70095:0crwdne70095:0
+这个脚本没有漏洞,但如果你一再运行它,你每次都会得到不同的答案。 现在让我们随机设置一个随机的种子。
 
 ```python
-crwdns70097:0crwdne70097:0
+导入随机
+
+# 设置随机的种子
+随机种子
+ 随机种子
+
+# 打印三个随机数
+打印机(随机随机数)
+打印机(随机数.随机数)
+打印机(随机数.随机数) 
+ 打印(随机数)
 ```
 
-crwdns70099:0crwdne70099:0
+现在,如果您运行此脚本,它将输出
 
 ```python
-crwdns70101:0crwdne70101:0
-```
-crwdns70103:0crwdne70103:0
 
-crwdns70105:0crwdne70105:0
+0.134364244112 
+ 0.8474333736937
+0.763774618977
+```
+
+每次运行此脚本时,您都会得到 *相同的* 输出。它将打印相同的 ** 三个随机数。 如果随机数种子被更改,你将会获得不同的三个随机数字：
 
 ```python
-crwdns70107:0crwdne70107:0
+0.956034271889
+0.947827487059
+0.0565513677268
+```
+但每当脚本在未来运行时,你都会得到相同的数字。
+
+随机数种子是使事情变得可靠随机的一种方式。 然而,依靠随机数种子进行测试的风险是很小的。 说你有一个像这样的函数：
+
+```python
+def my_function():
+  a = calculation_that_uses_two_random_numbers()
+  b = calculation_that_uses_fiv_random_numbers()
+  c = a + b
 ```
 
-crwdns70109:0crwdne70109:0
+如果您设置了随机的种子,您将永远得到相同的 `c`, 以便可以进行测试。 但是,说模型已经改变,计算函数 `a` 使用了它以前做过的不同数量的随机数字。 现在不仅 `一个` 是不同的,而且 `b` 也是不同的。 因为上面显示的随机数输出给定的随机数种子是按固定顺序排列。 因此,为计算 `b` 所产生的随机数字将会改变。 这可能导致测试失败,如果实际上没有bug。
 
-#### crwdns70111:0crwdne70111:0
+#### 测量结果的分布
 
-crwdns70113:0crwdne70113:0
+测试随机输出代码的另一种方式是运行它多次并测试结果的分布。 也许结果可能起伏不定,但在某种容忍程度上总是期望约有10个结果。 这可以受到考验。 代码运行的次数越多,平均值就越可靠,结果也就越可靠。 然而,运行代码的时间越长,您的测试将越长。 如果要取得可靠的结果,测试可能会使得进行的时间过于耗时。 此外, 那里总是有一个不确定性元素,如果随机数字以某种方式下降,那么即使代码是正确的,你可能会在预期容忍度之外获得结果。
 
-crwdns70115:0crwdne70115:0
+这两种测试炉灶代码的办法仍然非常有用,但也必须认识到其潜在的陷井。
 
-crwdns70117:0crwdne70117:0
-## crwdns70119:0crwdne70119:0
+(r-test-challenges -difficult-quatify)=
+## 难以量化的测试
 
-crwdns70121:0crwdne70121:0
+有时(特别是在研究中)测试代码的输出是否“外观”。 例如,我们有一种逐渐模拟水库水位的代码。
 
-crwdns70123:0crwdne70123:0
+结果可能看起来像这样：
 
 ```{figure} ../../figures/eyeball-test1.jpg
-crwdns70125:0crwdne70125:0
+---
+名称：eyeball测试1
+备选案文：
+-
 ```
 
-crwdns70127:0crwdne70127:0
+在有雨的日子里,它可能看起来像这样：
 
 ```{figure} ../../figures/eyeball-test2.jpg
-crwdns70129:0crwdne70129:0
+---
+name: eyeball test2
+alt:
+---
 ```
 
-crwdns70131:0crwdne70131:0
+在干燥的日子里,它可能看起来像这样：
 
 ```{figure} ../../figures/eyeball-test3.jpg
-crwdns70133:0crwdne70133:0
+---
+<unk>：eyeball<unk> 3
+<unk> <unk> <unk>：
+---
 ```
 
-crwdns70135:0crwdne70135:0
+所有这些产出看起来都非常不同,但都是有效的。 然而,如果研究人员认为这样的结果：
 
 ```{figure} ../../figures/eyeball-test-error.jpg
-crwdns70137:0crwdne70137:0
+----
+<unk> : اختبار عيبل
+بديل:
+---
 ```
 
-crwdns70139:0crwdne70139:0
+他们可以轻易地得出错误,因为湖泊不大可能将其体积增加两倍,然后在几个小时内再次失去它。 像这样的“Eyeballing”测试是耗费时间的,因为它们必须由人来完成。 然而,通过创建基本的“健康检查”,这一过程可以部分或完全自动化。 例如,一次性水位应该是在水位范围内,例如,在前一阶段应该是10%的水量。 另一个检查可能是没有负值,因为湖泊不能满30%。 这些测试不能覆盖所有可能出现错误的东西, 但它们更容易自动化,在大多数情况下就足够了。
 
-crwdns70141:0crwdne70141:0
-## crwdns70143:0crwdne70143:0
+(r-testting-challenges-non-integrger)=
+## 如果非整数数字等于,则测试
 
-### crwdns70145:0crwdne70145:0
+### 当0.1 + 0.2 不等于 0.3
 
-crwdns70147:0crwdne70147:0
+如果回答的代码输出等于当数字不是整数时的预期答案,这样的测试会遇到复杂的问题。 让我们看看这个Python例子,但注意这个问题不是Python唯一的问题。
 
-crwdns70149:0crwdne70149:0
+如果我们将0.1分配给 `a` a 和 0.2分配给 `b` 并打印它们的金额,我们将按预期得到0.3。
 
 ```python
-crwdns70151:0crwdne70151:0
+>>> a = 0.1
+>>> b = 0.2
+>>> print(a+b)
+0.3
 ```
 
-crwdns70153:0crwdne70153:0
+但是,如果我们比较 `a` plus `b` 到 0.3 的结果,我们就会得到False。
 
 ```python
-crwdns70155:0crwdne70155:0
+>>> 打印(a+b == 0.3)
+错误
 ```
 
-crwdns70157:0crwdne70157:0
+如果我们直接显示 `a` plus `b` 的值, 我们可以看到一个微小的差错。
 
 ```python
-crwdns70159:0crwdne70159:0
+>>> a + b
+0.30000000004
 ```
 
-crwdns70161:0crwdne70161:0
+这是因为浮点数是实际数字的近似值。 浮点数计算的结果可能取决于编译器或解释器、处理器或系统结构以及正在使用的 CPU 或进程的数量。 这可能是写入测试的主要障碍。
 
-### crwdns70163:0crwdne70163:0
+### 浮点世界中的平等
 
-crwdns70165:0crwdne70165:0
+在比较浮点数的均等性时,我们必须在给定的宽度内进行比较,也可以称之为阈值或三角洲。 例如, 如果其差异的绝对值在我们容忍的绝对值之内,我们也许会认为某些数字的计算值和预期值是等值的。
 
-crwdns70167:0crwdne70167:0
+许多测试框架提供了将浮点数与特定容忍度范围内的均等值进行比较的功能。 例如,对于框架pest：
 
 ```python
-crwdns70169:0crwdne70169:0
+导入 pytest
+
+أ = 0.1
+ب = 0.2
+ج = أ + ب
+Sectc == pytest.approx (0.3)
 ```
 
-crwdns70171:0crwdne70171:0
+这种情况已经过去,但如果0.3改为0.4,就会失败。
 
-crwdns70173:0crwdne70173:0
+其他语文的股测试框架也常常提供类似的功能：
 
-- crwdns70175:0crwdne70175:0
-- crwdns70177:0crwdne70177:0
-- crwdns70179:0crwdne70179:0
-- crwdns70181:0crwdne70181:0
-- crwdns70183:0crwdne70183:0
-- crwdns70185:0crwdne70185:0
-  - crwdns70187:0crwdne70187:0
-  - crwdns70189:0crwdne70189:0
+- C<unk>：CU_ASSERT_DOUBLE_EQUAL(<unk> ,<unk> ،<unk> )
+- CPPUnit لـ C+++: CPPUNT_ASSERT_DOUBLES_EQUAL(<unk> ، فعلي, delta)
+- C++<unk> <unk> <unk>：ASSERT_NEAR(val1, val2, abs_error)
+- FRUIT لـ Fortran: تأكيد شبه منتظم _eq_double_in_range_(var1, var2, delta, message)
+- الوحدة المشتركة لجافا: org.junit.Assert.assertEquals(<unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> )
+- 测试为 R：
+  - 期望等价(实际, 预期, 容忍=DELTA) - 绝对错误
+  - 期望等价(实际,预期,比例=预期,容忍度=DELTA) - DEL T A中的相对错误

@@ -350,17 +350,17 @@ data.columns = سنوات. stype(int) # تحويل قيم السنة إلى عد
    - `wget` هو برنامج يسترجع المحتوى من خوادم الويب.
      هذا الخط يستخرج المحتوى من عنوان URL المرير و يحفظه إلى اسم الملف المشار إليه بعلم `O` (عاصمة "O", لا صفر)، في هذه الحالة `فجوة في الدين. Sv`.
      العلم `q` يخبر `wget` أن يفعل ذلك بهدوء، مما يعني أنه لن يطبع أي شيء لوحدة التحكم.
-3) Update your `Project.toml` file by adding new dependencies to `[deps]` with the following lines:
+3) قم بتحديث ملف `Project.toml` الخاص بك عن طريق إضافة تبعيات جديدة إلى` [الأقسام] `مع الأسطر التالية:
 
-   ```julia
-   DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-   Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-   ```
+   "جوليا
+   إطارات البيانات = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+   المؤامرات = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+   ""
 
-   - These packages aren't necessary to download the data but we will use them to read the CSV file and make a plot
-4) Click the binder badge in your README to launch your Binder
+   - هذه الحزم ليست ضرورية لتنزيل البيانات ولكننا سنستخدمها لقراءة ملف CSV وعمل مخطط
+4) انقر فوق شارة الرابط في الملف التمهيدي الخاص بك لبدء تشغيل Binder الخاص بك
 
-Once the Binder has launched, you should see a new file has appeared that was not part of your repo when you clicked the badge.
+بمجرد تشغيل Binder ، يجب أن ترى ملفًا جديدًا ظهر لم يكن جزءًا من الريبو الخاص بك عند النقر فوق الشارة.
 
 الآن تصور البيانات عن طريق إنشاء دفتر ملاحظات جديد (اختيار "جوليا" من قسم كتاب الملاحظات) وتشغيل الكود التالي في خلية.
 
@@ -426,49 +426,50 @@ library(ggplot2)
 يمكنك الوصول إلى واجهات مختلفة بطرق مختلفة. أسهل طريقة هي استخدام الأزرار في JupyterLab Launcher، ولكن يمكنك توفير معلمات URL لفتح واجهة محددة مباشرة (أو ملف! عندما يطلق نموذج بيندر. سنقوم الآن بتغطية ثلاث طرق يمكنك التلاعب بعنوان Binder الخاص بك للتنقل بين الواجهة.
 ### من داخل بايندر قيد التشغيل
 إليك بنية عنوان URL داخل نموذج تشغيل Binder تشغيل JupyterLab:
-> **https://<some-prefix>.mybinder.org/user/<a composite of your username, repo name and a hash>/lab**
-You can change the interface from JupyterLab to either the Classic Notebook or RStudio by changing the `/lab` part of the URL to:
-- **Classic Notebook:** `/tree`
-- **RStudio:** `/rstudio`
-### by changing the mybinder.org launch link
-Here is the launch link you have been using throughout this tutorial:
-> **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD**
-You can access each interface by appending once of the following to the end of you URL:
-- **Jupyter Notebook:** `?urlpath=tree`
-- **JupyterLab:** `?urlpath=lab`
-- **RStudio:** `?urlpath=rstudio`
-### by using the mybinder.org form
-You can also set the interface when constructing your launch link on the mybinder.org website (instead of editing the URL directly) as demonstrated in the below gif.
+> **https: // <some-prefix>.mybinder.org / user / <a composite of your username, repo name and a hash> / lab **
+يمكنك تغيير الواجهة من JupyterLab إلى Classic Notebook أو RStudio عن طريق تغيير جزء ` / lab ` من عنوان URL إلى:
+- ** دفتر ملاحظات كلاسيكي: ** ` / tree `
+- ** RStudio: ** ` / rstudio `
+### بتغيير رابط إطلاق mybinder.org
+هذا هو رابط التشغيل الذي كنت تستخدمه خلال هذا البرنامج التعليمي: </ 5>
+> ** https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD **
+يمكنك الوصول إلى كل واجهة بإلحاق مرة واحدة مما يلي بنهاية عنوان URL الخاص بك: </ 5>
+- ** دفتر Jupyter: ** `؟ urlpath = شجرة </ 6> </li>
+<li> <strong x-id="1"> JupyterLab: </strong> <code>؟ urlpath = lab `
+- ** RStudio: ** `؟ urlpath = rstudio `
+### باستخدام نموذج mybinder.org
+يمكنك أيضًا تعيين الواجهة عند إنشاء رابط التشغيل الخاص بك على موقع الويب mybinder.org (بدلاً من تحرير عنوان URL مباشرةً) كما هو موضح في الصورة المتحركة أدناه. </ 5> 
 
-```{figure} https://user-images.githubusercontent.com/1448859/53651127-4dabe900-3c46-11e9-8684-2cfde840d4ce.gif
----
-name: changing_interfaces
-alt: A gif demonstrating how to change the interface of a Binder on the mybinder.org website
----
-Use the "URL to open" option on the mybinder.org site to select your interface
-```
+<pre><code class="{figure} https://user-images.githubusercontent.com/1448859/53651127-4dabe900-3c46-11e9-8684-2cfde840d4ce.gif"> ---
+الاسم: change_interfaces
+بديل: صورة gif توضح كيفية تغيير واجهة Binder على موقع الويب mybinder.org
+-استخدم خيار "URL للفتح" على موقع mybinder.org لتحديد واجهتك
+</code> </pre>
 
-(z2b-over-to-you)=
-## Now over to you!
+(z2b-over-to-you) =
+## الآن أنت! </ 15>
 
-Now you've binderized (bound?) this demo repo, it's time to binderize the example script and data you brought along!
+الآن بعد أن ربطت (ملزم؟) هذا الريبو التجريبي ، حان الوقت لربط مثال البرنامج النصي والبيانات التي أحضرتها معك! </ 14>
 
-**Some useful links:**
+** بعض الروابط المفيدة: </ 9> </ 14>
 
-- Choosing languages:
-  - **<https://mybinder.readthedocs.io/en/latest/howto/languages.html>**
-- Configuration files:
-  - **<https://mybinder.readthedocs.io/en/latest/using/config_files.html>**
-- Example Binder repos:
-  - **<https://mybinder.readthedocs.io/en/latest/sample_repos.html>**
-- Getting data:
-  - With `wget`: **<https://github.com/binder-examples/getting-data>**
-  - With `quilt`: **<https://github.com/binder-examples/data-quilt>**
-  - From remote storage: **<https://github.com/binder-examples/remote_storage>**
+- اختيار اللغات:
+  - ** [ https://mybinder.readthedocs.io/en/latest/howto/languages.html ](https://mybinder.readthedocs.io/en/latest/howto/languages.html) **
+- ملفات التكوين:
+  - ** [ https://mybinder.readthedocs.io/en/latest/using/config_files.html ](https://mybinder.readthedocs.io/en/latest/using/config_files.html) **
+- مثال على اتفاقيات إعادة الشراء بيندر:
+  - ** [ https://mybinder.readthedocs.io/ar/latest/sample_repos.html ](https://mybinder.readthedocs.io/en/latest/sample_repos.html) **
+- الحصول على البيانات:
+  - مع ` wget `: ** [ https://github.com/binder-examples/getting-data ](https://github.com/binder-examples/getting-data) **
+  - مع ` لحاف </ 6>: <strong x-id="1"> <a href="https://github.com/binder-examples/data-quilt" x-nc="1"> https://github.com/binder-examples/data-quilt </a> </strong> </li>
+<li> من التخزين البعيد: <strong x-id="1"> <a href="https://github.com/binder-examples/remote_storage" x-nc="1"> https://github.com/binder-examples/remote_storage </a> </strong> </li>
+</ul> </li>
+</ul>
 
-**Advanced usage patterns:**
+<p spaces-before="0"> <strong x-id="1"> أنماط الاستخدام المتقدمة: </ 9> </p>
 
-- Separating content from envorinment with `nbgitpuller` to reduced rebuilds:
-  - **<https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922>**
-- Tips for reducing the start-up time of your repository:
-  - **<https://discourse.jupyter.org/t/how-to-reduce-mybinder-org-repository-startup-time/4956>**
+<ul>
+<li> فصل المحتوى عن البيئة باستخدام <code> nbgitpuller ` لتقليل عمليات إعادة البناء:
+  - ** [ https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller / 922 ](https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922) **
+- نصائح لتقليل وقت بدء تشغيل المستودع الخاص بك:
+  - ** [ https://discourse.jupyter.org/t/how-to-reduce-mybinder-org-repository-startup-time/4956 ](https://discourse.jupyter.org/t/how-to-reduce-mybinder-org-repository-startup-time/4956) **

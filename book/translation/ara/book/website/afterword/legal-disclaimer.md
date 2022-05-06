@@ -1,29 +1,29 @@
-(legal-disclaimer)=
-# Legal disclaimer: The Turing Way is not legal advice!
+crwdns824452:0crwdne824452:0
+# crwdns824454:0crwdne824454:0
 
-_The Turing Way_ is a lightly opinionated guide to reproducible research. It is *not* a source of legal advice and should never be treated as such.
+crwdns824456:0crwdne824456:0 crwdns824458:0crwdne824458:0
 
-## Good legal advice is timely, specific, and given by a legal expert
+## crwdns824460:0crwdne824460:0
 
-_The Turing Way_ is not these things.
+crwdns824462:0crwdne824462:0
 
-_The Turing Way_ is not written to be a source of legal expertise. When laws and regulations are referenced, the information provided is heavily simplified. The intent is to give you an overview of the basics so that you will know when to check whether something you want to do has potential legal ramifications. Don’t make any important decisions based solely on information about laws and regulations in this book.
+crwdns824464:0crwdne824464:0 crwdns824466:0crwdne824466:0 crwdns824468:0crwdne824468:0 crwdns824470:0crwdne824470:0
 
-### Finding legal expertise
+### crwdns824472:0crwdne824472:0
 
-If you are part of an organisation such as a university, a non-profit or a company, you can likely access legal advice either in-house or from a specialist firm that already works with your institution or organisation. You should check with them first if you have any concerns.
+crwdns824474:0crwdne824474:0 crwdns824476:0crwdne824476:0
 
-If you are not part of an institution or organisation:
-- There are law firms that specialise in data and technology that can provide advice in many jurisdictions (see below).
-- Many governments make their laws and regulations available online: be aware, however, that these can often be difficult to understand without specialist training.
-- In some jurisdictions, some charities and non-profits produce guidance for complying with laws. They should be clear about the limits of the advice they can provide.
+crwdns824478:0crwdne824478:0
+- crwdns824480:0crwdne824480:0
+- crwdns824482:0crwdne824482:0
+- crwdns824484:0crwdne824484:0 crwdns824486:0crwdne824486:0
 
-### Jurisdictions
+### crwdns824488:0crwdne824488:0
 
-Laws are different in different places. You should make sure that you are aware of which jurisdictions you are operating in and that you are complying with all the laws that cover all the relevant jurisdictions. If you are not sure, start by contacting a legal advisor in the place that you are currently working: they will also be able to advise on what other jurisdictions you should be thinking about.
+crwdns824490:0crwdne824490:0 crwdns824492:0crwdne824492:0 crwdns824494:0crwdne824494:0
 
-## What's next?
+## crwdns824496:0crwdne824496:0
 
-- Identify who you should reach out to should you need legal advice or expertise
-- Learn about your rights, limitations and what legal advice you should seek
-- Learn more about it in the {ref}`Guide for Ethical Research<er>`
+- crwdns824498:0crwdne824498:0
+- crwdns824500:0crwdne824500:0
+- crwdns824502:0{ref}crwdne824502:0

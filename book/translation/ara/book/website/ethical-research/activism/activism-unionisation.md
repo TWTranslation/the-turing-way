@@ -1,0 +1,173 @@
+crwdns839398:0crwdne839398:0
+# crwdns839400:0crwdne839400:0
+
+crwdns839402:0crwdne839402:0
+## crwdns839404:0crwdne839404:0
+
+crwdns839406:0crwdne839406:0 crwdns839408:0crwdne839408:0 crwdns839410:0crwdne839410:0
+
+crwdns839412:0crwdne839412:0 crwdns839414:0crwdne839414:0
+
+crwdns839416:0crwdne839416:0 crwdns839418:0crwdne839418:0 crwdns839420:0crwdne839420:0
+
+crwdns839422:0crwdne839422:0
+## crwdns839424:0crwdne839424:0
+
+crwdns839426:0crwdne839426:0 crwdns839428:0crwdne839428:0
+
+crwdns839430:0crwdne839430:0
+
+crwdns839432:0crwdne839432:0
+* crwdns839434:0crwdne839434:0
+* crwdns839436:0crwdne839436:0
+
+crwdns839438:0crwdne839438:0
+* crwdns839440:0crwdne839440:0
+* crwdns839442:0crwdne839442:0
+* crwdns839444:0crwdne839444:0
+* crwdns839446:0crwdne839446:0
+* crwdns839448:0crwdne839448:0
+* crwdns839450:0crwdne839450:0
+* crwdns839452:0crwdne839452:0
+
+crwdns839454:0crwdne839454:0
+* crwdns839456:0crwdne839456:0
+* crwdns839458:0crwdne839458:0
+
+crwdns839460:0crwdne839460:0
+### crwdns839462:0crwdne839462:0
+
+crwdns839464:0crwdne839464:0 crwdns839466:0crwdne839466:0 crwdns839468:0crwdne839468:0
+
+crwdns839470:0crwdne839470:0
+## crwdns839472:0crwdne839472:0
+
+crwdns839474:0crwdne839474:0
+
+* crwdns839476:0crwdne839476:0
+* crwdns839478:0crwdne839478:0
+* crwdns839480:0crwdne839480:0
+* crwdns839482:0crwdne839482:0
+* crwdns839484:0crwdne839484:0
+* crwdns839486:0crwdne839486:0
+
+crwdns839488:0crwdne839488:0 crwdns839490:0crwdne839490:0
+
+crwdns839492:0crwdne839492:0
+### crwdns839494:0crwdne839494:0
+
+crwdns839496:0crwdne839496:0
+
+```{figure} ../../figures/scientific-union-badge.jpg
+crwdns839498:0crwdne839498:0
+crwdns839500:0crwdne839500:0 crwdns839502:0crwdne839502:0
+```
+> crwdns839504:0crwdne839504:0 crwdns839506:0crwdne839506:0 crwdns839508:0crwdne839508:0 crwdns839510:0crwdne839510:0 crwdns839512:0crwdne839512:0 crwdns839514:0crwdne839514:0
+
+crwdns839516:0%2Ccrwdnd839516:0%2Ccrwdnd839516:0%2Ccrwdne839516:0
+
+crwdns839518:0crwdne839518:0
+## crwdns839520:0crwdne839520:0
+
+crwdns839522:0crwdne839522:0 crwdns839524:0crwdne839524:0 crwdns839526:0crwdne839526:0 crwdns839528:0crwdne839528:0 crwdns839530:0crwdne839530:0
+
+crwdns839532:0crwdne839532:0 crwdns839534:0crwdne839534:0
+
+crwdns839536:0crwdne839536:0 crwdns839538:0crwdne839538:0
+
+crwdns839540:0crwdne839540:0
+## crwdns839542:0crwdne839542:0
+
+crwdns839544:0crwdne839544:0
+
+### crwdns839546:0crwdne839546:0
+
+crwdns839548:0crwdne839548:0 crwdns839550:0crwdne839550:0 crwdns839552:0crwdne839552:0 crwdns839554:0crwdne839554:0 crwdns839556:0crwdne839556:0
+
+crwdns839558:0crwdne839558:0 crwdns839560:0crwdne839560:0 crwdns839562:0crwdne839562:0 crwdns839564:0crwdne839564:0
+
+crwdns839566:0crwdne839566:0 crwdns839568:0crwdne839568:0 crwdns839570:0crwdne839570:0
+
+crwdns839572:0crwdne839572:0 crwdns839574:0crwdne839574:0 crwdns839576:0crwdne839576:0
+
+crwdns839578:0crwdne839578:0
+### crwdns839580:0crwdne839580:0
+
+crwdns839582:0crwdne839582:0 crwdns839584:0crwdne839584:0
+
+crwdns839586:0crwdne839586:0
+* crwdns839588:0crwdne839588:0
+* crwdns839590:0crwdne839590:0
+* crwdns839592:0crwdne839592:0
+* crwdns839594:0crwdne839594:0
+
+crwdns839596:0crwdne839596:0 crwdns839598:0crwdne839598:0
+
+crwdns839600:0crwdne839600:0
+### crwdns839602:0crwdne839602:0
+
+crwdns839604:0crwdne839604:0 crwdns839606:0crwdne839606:0
+
+crwdns839608:0crwdne839608:0
+
+crwdns839610:0crwdne839610:0 crwdns839612:0crwdne839612:0
+
+crwdns839614:0crwdne839614:0
+#### crwdns839616:0crwdne839616:0
+crwdns839618:0crwdne839618:0
+
+crwdns839620:0crwdne839620:0
+
+* [crwdns839624:0crwdne839624:0](crwdns839622:0crwdne839622:0)
+* [crwdns839628:0crwdne839628:0](crwdns839626:0crwdne839626:0)
+
+crwdns839630:0crwdne839630:0
+### crwdns839632:0crwdne839632:0
+
+crwdns839634:0crwdne839634:0
+
+#### crwdns839636:0crwdne839636:0
+* crwdns839638:0crwdne839638:0
+
+#### crwdns839640:0crwdne839640:0
+* crwdns839642:0crwdne839642:0
+* crwdns839644:0crwdne839644:0
+* crwdns839646:0crwdne839646:0
+* crwdns839648:0crwdne839648:0
+* crwdns839650:0crwdne839650:0
+* crwdns839652:0crwdne839652:0
+    * crwdns839654:0crwdne839654:0
+
+#### crwdns839656:0crwdne839656:0
+* crwdns839658:0crwdne839658:0
+
+#### crwdns839660:0crwdne839660:0
+* crwdns839662:0crwdne839662:0 crwdns839664:0crwdne839664:0
+* crwdns839666:0crwdne839666:0 crwdns839668:0crwdne839668:0
+* crwdns839670:0crwdne839670:0
+* crwdns839672:0crwdne839672:0
+
+#### crwdns839674:0crwdne839674:0
+* crwdns839676:0crwdne839676:0
+* crwdns839678:0crwdne839678:0
+* crwdns839680:0crwdne839680:0
+* crwdns839682:0crwdne839682:0
+* crwdns839684:0crwdne839684:0
+
+#### crwdns839686:0crwdne839686:0
+* crwdns839688:0crwdne839688:0
+* crwdns839690:0crwdne839690:0
+* crwdns839692:0%Ccrwdne839692:0
+
+
+#### crwdns839694:0crwdne839694:0
+* crwdns839696:0crwdne839696:0
+
+#### crwdns839698:0crwdne839698:0
+* crwdns839700:0crwdne839700:0
+* [crwdns839704:0crwdne839704:0](crwdns839702:0crwdne839702:0)
+
+crwdns839706:0crwdne839706:0
+## crwdns839708:0crwdne839708:0
+
+crwdns839710:0crwdne839710:0 crwdns839712:0crwdne839712:0 crwdns839714:0crwdne839714:0

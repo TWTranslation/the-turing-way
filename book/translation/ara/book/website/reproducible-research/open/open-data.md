@@ -1,0 +1,58 @@
+crwdns847368:0crwdne847368:0
+# crwdns847370:0crwdne847370:0
+
+crwdns847372:0crwdne847372:0 crwdns847374:0crwdne847374:0 crwdns847376:0crwdne847376:0 crwdns847378:0crwdne847378:0
+
+crwdns847380:0crwdne847380:0
+
+1. crwdns847382:0crwdne847382:0
+2. crwdns847384:0crwdne847384:0
+
+crwdns847386:0crwdne847386:0 crwdns847388:0{term}crwdne847388:0 crwdns847390:0crwdne847390:0 crwdns847392:0crwdne847392:0
+
+crwdns847394:0crwdne847394:0 crwdns847396:0{ref}crwdne847396:0 crwdns847398:0crwdne847398:0 crwdns847400:0crwdne847400:0 crwdns847402:0crwdne847402:0 crwdns847404:0crwdne847404:0 crwdns847406:0crwdne847406:0
+
+crwdns847408:0{ref}crwdnd847408:0{ref}crwdne847408:0
+
+crwdns847410:0crwdne847410:0
+## crwdns847412:0crwdne847412:0
+crwdns847414:0crwdne847414:0 crwdns847416:0{cite:ps}crwdne847416:0
+
+- crwdns847418:0crwdne847418:0
+- crwdns847420:0crwdne847420:0
+- crwdns847422:0crwdne847422:0
+
+crwdns847424:0crwdne847424:0 crwdns847426:0crwdne847426:0 crwdns847428:0crwdne847428:0
+
+```{figure} ../../figures/data-privacy.jpg
+crwdns847430:0crwdne847430:0 crwdns847432:0crwdne847432:0 crwdns847434:0crwdne847434:0 crwdns847436:0crwdne847436:0
+crwdns847438:0crwdne847438:0 crwdns847440:0crwdne847440:0 crwdns847442:0crwdne847442:0
+```
+
+crwdns847444:0crwdne847444:0
+### crwdns847446:0crwdne847446:0
+
+crwdns847448:0crwdne847448:0 crwdns847450:0crwdne847450:0 crwdns847452:0crwdne847452:0 crwdns847454:0crwdne847454:0
+
+crwdns847456:0crwdne847456:0 crwdns847458:0crwdne847458:0 crwdns847460:0crwdne847460:0 crwdns847462:0crwdne847462:0
+
+crwdns847464:0crwdne847464:0 crwdns847466:0{cite:ps}crwdne847466:0
+
+crwdns847468:0crwdne847468:0
+### crwdns847470:0crwdne847470:0
+
+crwdns847472:0crwdne847472:0 crwdns847474:0{cite:ps}crwdne847474:0 crwdns847476:0crwdne847476:0
+
+crwdns847478:0crwdne847478:0
+### crwdns847480:0crwdne847480:0
+
+crwdns847482:0crwdne847482:0 crwdns847484:0crwdne847484:0
+
+crwdns847486:0crwdne847486:0 crwdns847488:0crwdne847488:0 crwdns847490:0crwdne847490:0 crwdns847492:0crwdne847492:0 crwdns847494:0crwdne847494:0
+
+crwdns847496:0crwdne847496:0
+### crwdns847498:0crwdne847498:0
+
+crwdns847500:0crwdne847500:0 crwdns847502:0crwdne847502:0 crwdns847504:0crwdne847504:0 crwdns847506:0crwdne847506:0 crwdns847508:0crwdne847508:0 crwdns847510:0crwdne847510:0 crwdns847512:0crwdne847512:0
+
+*crwdns847514:0crwdne847514:0*

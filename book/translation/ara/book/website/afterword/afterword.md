@@ -1,14 +1,10 @@
-# Afterword
+# crwdns821234:0crwdne821234:0
 
-الجزء الأخير من كتاب _ (The Turing Way) منهج تورينج _ يسمى **الخاتمة**. Following this design principle of standard books, we have so far included {ref}`glossary`, {ref}`bibliography` and {ref}`contributors-record-highlights` of the book as the supplementary materials of _The Turing Way_.
+crwdns821236:0crwdne821236:0 crwdns821238:0{ref}crwdnd821238:0{ref}crwdnd821238:0{ref}crwdne821238:0
 
-The community collaboration and development aspects of the book has been written into the [Community Handbook](../community-handbook/community-handbook) section of this book.
+crwdns821240:0crwdne821240:0
 
 ```{figure} ../figures/road-to-reproducibility.jpg
----
-height: 400px
-name: road-to-reproducibility
-alt: Three hands holding magnifying glasses and varifying 'road to reproducibility' of The Turig Way.
----
-Road to Reproducibility. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+crwdns821242:0crwdne821242:0
+crwdns821244:0crwdne821244:0 crwdns821246:0crwdne821246:0 crwdns821248:0crwdne821248:0 crwdns821250:0crwdne821250:0
 ```

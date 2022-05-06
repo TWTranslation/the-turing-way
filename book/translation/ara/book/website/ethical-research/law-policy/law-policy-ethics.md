@@ -1,0 +1,78 @@
+crwdns840412:0crwdne840412:0
+# crwdns840414:0crwdne840414:0
+
+crwdns840416:0crwdne840416:0 crwdns840418:0crwdne840418:0 crwdns840420:0crwdne840420:0
+
+## crwdns840422:0crwdne840422:0
+
+crwdns840424:0crwdne840424:0 crwdns840426:0crwdne840426:0 crwdns840428:0crwdne840428:0
+
+crwdns840430:0crwdne840430:0 crwdns840432:0crwdne840432:0 crwdns840434:0crwdne840434:0
+
+### crwdns840436:0crwdne840436:0
+
+crwdns840438:0crwdne840438:0 crwdns840440:0crwdne840440:0
+
+crwdns840442:0crwdne840442:0 crwdns840444:0crwdne840444:0 crwdns840446:0crwdne840446:0
+
+crwdns840448:0crwdne840448:0 crwdns840450:0crwdne840450:0 crwdns840452:0crwdne840452:0
+
+crwdns840454:0crwdne840454:0
+
+### crwdns840456:0crwdne840456:0
+
+crwdns840458:0crwdne840458:0 crwdns840460:0crwdne840460:0 crwdns840462:0crwdne840462:0 crwdns840464:0crwdne840464:0
+
+crwdns840466:0crwdne840466:0 crwdns840468:0crwdne840468:0
+
+crwdns840470:0crwdne840470:0 crwdns840472:0crwdne840472:0 crwdns840474:0crwdne840474:0 crwdns840476:0crwdne840476:0 crwdns840478:0{ref}crwdne840478:0
+
+### crwdns840480:0crwdne840480:0
+
+crwdns840482:0crwdne840482:0 crwdns840484:0crwdne840484:0 crwdns840486:0crwdne840486:0 crwdns840488:0crwdne840488:0
+
+crwdns840490:0crwdne840490:0
+- crwdns840492:0crwdne840492:0
+- crwdns840494:0crwdne840494:0
+- crwdns840496:0crwdne840496:0
+
+crwdns840498:0crwdne840498:0
+
+crwdns840500:0crwdne840500:0 crwdns840502:0crwdne840502:0 crwdns840504:0crwdne840504:0
+
+crwdns840506:0crwdne840506:0 crwdns840508:0crwdne840508:0 crwdns840510:0crwdne840510:0 crwdns840512:0crwdne840512:0 crwdns840514:0crwdne840514:0
+<!--- Link to the activism chapter, section on advocating for open practice, when we've written it -->
+
+crwdns840516:0crwdne840516:0 crwdns840518:0crwdne840518:0 crwdns840520:0crwdne840520:0
+
+crwdns840522:0crwdne840522:0 crwdns840524:0crwdne840524:0 crwdns840526:0crwdne840526:0
+
+## crwdns840528:0crwdne840528:0
+
+crwdns840530:0crwdne840530:0 crwdns840532:0crwdne840532:0 crwdns840534:0crwdne840534:0 crwdns840536:0crwdne840536:0
+
+crwdns840538:0crwdne840538:0 crwdns840540:0crwdne840540:0
+
+### crwdns840542:0crwdne840542:0
+
+crwdns840544:0crwdne840544:0 crwdns840546:0crwdne840546:0 crwdns840548:0crwdne840548:0
+
+crwdns840550:0crwdne840550:0 crwdns840552:0crwdne840552:0 crwdns840554:0crwdne840554:0
+
+## crwdns840556:0crwdne840556:0
+
+crwdns840558:0crwdne840558:0 crwdns840560:0crwdne840560:0 crwdns840562:0crwdne840562:0 crwdns840564:0crwdne840564:0
+
+crwdns840566:0crwdne840566:0 crwdns840568:0{ref}crwdne840568:0
+
+## crwdns840570:0crwdne840570:0
+
+crwdns840572:0crwdne840572:0 crwdns840574:0crwdne840574:0 crwdns840576:0crwdne840576:0
+
+crwdns840578:0crwdne840578:0 crwdns840580:0crwdne840580:0 crwdns840582:0crwdne840582:0 crwdns840584:0crwdne840584:0 crwdns840586:0crwdne840586:0
+
+crwdns840588:0crwdne840588:0 crwdns840590:0crwdne840590:0
+
+crwdns840592:0crwdne840592:0 crwdns840594:0crwdne840594:0 crwdns840596:0crwdne840596:0 crwdns840598:0crwdne840598:0
+
+crwdns840600:0{ref}crwdne840600:0

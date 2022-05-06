@@ -1,565 +1,418 @@
-(glossary)=
-# Glossary
+crwdns823934:0crwdne823934:0
+# crwdns823936:0crwdne823936:0
 
-## A
+## crwdns823938:0crwdne823938:0
 
 ```{glossary}
 
-Acceptance Testing
- A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+crwdns823940:0crwdne823940:0 crwdns823942:0crwdne823942:0
 
-Acknowledgements
- Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
+crwdns823944:0crwdne823944:0 crwdns823946:0crwdne823946:0
 
-Add
-  Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
+crwdns823948:0crwdne823948:0 crwdns823950:0crwdne823950:0
 
-Authors
-  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
+crwdns823952:0crwdne823952:0 crwdns823954:0crwdne823954:0
 
 ```
 ---
 
-## B
+## crwdns823956:0crwdne823956:0
 
 ```{glossary}
 
-Binder
-  A web-based service which allows users to upload and share fully-functioning versions of their projects in an environment they define.
+crwdns823958:0crwdne823958:0
 
-Binderhub
-  A service which generates Binders. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+crwdns823960:0crwdne823960:0 crwdns823962:0crwdne823962:0 crwdns823964:0crwdne823964:0 crwdns823966:0crwdne823966:0
 
-Binderize
-  To make a Binder of a project.
+crwdns823968:0crwdne823968:0
 
-Branch
-  A parallel version of a repository. Although it is contained within the same repository it allows you to develop it separately and then merge changes back into the ‘live’ repository or with other branches when appropriate.
+crwdns823970:0crwdne823970:0 crwdns823972:0crwdne823972:0
 
-Bug
-  This is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.
+crwdns823974:0crwdne823974:0
 
-Build
-  A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
+crwdns823976:0crwdne823976:0 crwdns823978:0crwdne823978:0 crwdns823980:0crwdne823980:0
 
 ```
 ---
 
-## C
+## crwdns823982:0crwdne823982:0
 
 ```{glossary}
 
-Checkout
-  Git command to switch to a specific file, branch, or commit. Allows you to activate older versions of files or commits or switch between active branches.
+crwdns823984:0crwdne823984:0 crwdns823986:0crwdne823986:0
 
-Citizen Science
-  The inclusion of members of the public in scientific research.
+crwdns823988:0crwdne823988:0
 
-Clone
-  Copy of an existing Git repository, normally from some remote location to your local environment. When you clone a repo you copy its entire history as well as all branches.
+crwdns823990:0crwdne823990:0 crwdns823992:0crwdne823992:0
 
-Code Coverage
-  A measure which describes how much of the source code is exercised by the test suite.
+crwdns823994:0crwdne823994:0
 
-Code of Conduct
-  Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
+crwdns823996:0crwdne823996:0
 
-Code Review
-  An additional way of testing code quality. Code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
+crwdns823998:0crwdne823998:0 crwdns824000:0crwdne824000:0 crwdns824002:0crwdne824002:0
 
-Coercive authorship
-  When a senior researcher forces a junior researcher to include a gift or guest author.
+crwdns824004:0crwdne824004:0
 
-Commit
-  Snapshot of project history. A commit can be made after changes of a single file or a range of files and directories.
+crwdns824006:0crwdne824006:0 crwdns824008:0crwdne824008:0
 
-Commit Message
-  A message the user can attach to a commit to explain what it contains.
+crwdns824010:0crwdne824010:0
 
-Communication Channel
-  The method of communication established for projects that might include mailing lists, community forums, chats and/or social media.
+crwdns824012:0crwdne824012:0
 
-Community Member
-  People who use the project. They might be active in conversations or express their opinion on the project’s direction.
+crwdns824014:0crwdne824014:0 crwdns824016:0crwdne824016:0
 
-Computational Environment
-  Features of a computer which can impact the behaviour of work done on it, such as its operating system, what software it has installed, and what versions of software packages are installed.
+crwdns824018:0crwdne824018:0
 
-Conda
-  A commonly used package management system.
+crwdns824020:0crwdne824020:0
 
-Consortia authorship
- A collective or community group authorship model. All members of the consortium are considered authors and are usually required to be listed in the published article although sometimes the article is published in the groups name. If not all members of the consortium agree to the responsibilities of authorship, the members that are authors will be listed separately from those who are not.
+crwdns824022:0crwdne824022:0 crwdns824024:0crwdne824024:0 crwdns824026:0crwdne824026:0
 
-Container
-  Lightweight files that can encapsulate an entire computational environment including its operating system, customised settings, software and files.
+crwdns824028:0crwdne824028:0
 
-Continuous Delivery
-  It automates and runs the steps required to build and test a project.
+crwdns824030:0crwdne824030:0
 
-Continuous Deployment
-  It automatically deploys each time a code change is made.
+crwdns824032:0crwdne824032:0
 
-Continuous Integration
-  It is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). Also called CI.
+crwdns824034:0crwdne824034:0 crwdns824036:0crwdne824036:0
 
-Contributing Guidelines
-  Guidelines outlining how a person should go about contributing to an open source project.
+crwdns824038:0crwdne824038:0
 
-Contributors
-  Everyone who has contributed something back to the project. These are members of a research project that have done some work that has made a contribution to the overall completion of the research. This could be a small contribution such as fixing a bug in software or a much larger contribution such as writing an academic article.
+crwdns824040:0crwdne824040:0 crwdns824042:0crwdne824042:0 crwdns824044:0crwdne824044:0
 
-Corresponding author
- The person who administers an academic article for the research group. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
+crwdns824046:0crwdne824046:0 crwdns824048:0crwdne824048:0
 
-CRediT Taxonomy
- The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
+crwdns824050:0crwdne824050:0 crwdns824052:0crwdne824052:0 crwdns824054:0crwdne824054:0
 
 ```
 ---
 
-## D
+## crwdns824056:0crwdne824056:0
 
 ```{glossary}
 
-Data repository
-  See repository.
+crwdns824058:0crwdne824058:0
 
-DMP
-  Data management plan.
+crwdns824060:0crwdne824060:0
 
-Docker Container
-  An active computational environment executed from a Docker image.
+crwdns824062:0crwdne824062:0
 
-Dockerfile
-  A file used for creating Docker images
+crwdns824064:0crwdne824064:0
 
-Docker Image
-  A machine-readable set of instructions to create a specified computational environment.
+crwdns824066:0crwdne824066:0 crwdns824068:0crwdne824068:0 crwdns824070:0crwdne824070:0
 
-Docker Registry
-  A storage and distribution system for named Docker images. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). Such systems are often hosted in the cloud for ease of access.
-
-Digital Object Identifier
-  A digital object identifier (DOI) is a persistent identifier or handle used to identify objects uniquely, standardized by the International Organization for Standardization (ISO). An implementation of the Handle System, DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports, data sets, and official publications. However, they also have been used to identify other types of information resources, such as commercial videos.
+crwdns824072:0crwdne824072:0 crwdns824074:0crwdne824074:0 crwdns824076:0crwdne824076:0
 
 ```
 ---
-## E
+## crwdns824078:0crwdne824078:0
 
 ```{glossary}
 
-Epistemology
- Theory of knowledge and deals with how knowledge is gathered and from which sources. In research terms your view of the world and of knowledge strongly influences your interpretation of data and therefore your philosophical standpoint should be made clear from the beginning. (Source: [Post by Nicole Brown](https://www.nicole-brown.co.uk/epistemology/))
+crwdns824080:0crwdne824080:0 crwdns824082:0crwdne824082:0 crwdns824084:0crwdne824084:0
 
-Equitable, Diverse and Inclusive Practices
-  Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
-
-End to End Test
-  A test that runs the program from beginning to end and verifies that the output is correct.
+crwdns824086:0crwdne824086:0
 
 ```
 ---
-## F
+## crwdns824088:0crwdne824088:0
 
 ```{glossary}
 
-FAIR
-  Findable, Accessible, Interoperable and Reusable.
+crwdns824090:0crwdne824090:0
 
-First author
- The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research.
+crwdns824092:0crwdne824092:0 crwdns824094:0crwdne824094:0
 
 ```
 ---
-## G
+## crwdns824096:0crwdne824096:0
 
 ```{glossary}
-Generalisable
-  Combining replicable and robust findings allow us to form generalisable results. Note that running an analysis on a different software implementation and with a different dataset does not provide generalised results. There will be many more steps to know how well the work applies to all the different aspects of the research question. Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
+crwdns824098:0crwdne824098:0 crwdns824100:0crwdne824100:0 crwdns824102:0crwdne824102:0 crwdns824104:0crwdne824104:0
 
-Git
-  Version control system that GitHub is built around. It is a widely used open source distributed version control system developed by the author of Linux.
+crwdns824106:0crwdne824106:0 crwdns824108:0crwdne824108:0
 
-Github
-  An online code hosting and version control service. It has a great many features to aid collaboration between users, and hosts a large number of open source projects.
+crwdns824110:0crwdne824110:0 crwdns824112:0crwdne824112:0
 
-GitLab
-  GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
+crwdns824114:0crwdne824114:0 crwdns824116:0crwdne824116:0 crwdns824118:0crwdne824118:0
 
-Ghost author
- It is a person who writes an academic article without having carried out the research. It could be a professional writer. They would often not qualify as an author under the ICMJE criteria for authorship.
+crwdns824120:0crwdne824120:0 crwdns824122:0crwdne824122:0
 
-Gift author
- People who are listed as authors but who did not make significant contributions to the research. This is also known as a guest author.
+crwdns824124:0crwdne824124:0 crwdns824126:0crwdne824126:0
 
-Group authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as shared authorship.
-
-Guarantor
- As well as fulfilling criteria for being a named author, some journals require one or more authors that take responsibility for the integrity of the work as a whole from inception to the published article.
+crwdns824128:0crwdne824128:0
 ```
 ---
-## H
+## crwdns824130:0crwdne824130:0
 
 ```{glossary}
-Head
-  The latest commit on the branch which is currently checked out.
+crwdns824132:0crwdne824132:0
 
-Helm
-  A package manager for Kubernetes applications.
+crwdns824134:0crwdne824134:0
 
-Honorary authorship
- This is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
+crwdns824136:0crwdne824136:0
 
-Human Readable
-  A human readable medium or human readable format is any encoding of data or information that can be naturally read by humans. Some human readable formats, such as PDF, are not machine readable as they are not structured data, such as the representation of the data on disk does not represent the actual relationships present in the data.
+crwdns824138:0crwdne824138:0 crwdns824140:0crwdne824140:0
 ```
 ---
-## I
+## crwdns824142:0crwdne824142:0
 
 ```{glossary}
 
-Image
-  Files used for generating containers.
+crwdns824144:0crwdne824144:0
 
-Integration Testing
-  A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+crwdns824146:0crwdne824146:0 crwdns824148:0crwdne824148:0
 
-Intersectionality
-  The way in which a person's identities (gender, race, class, sexual orientation, physical ability and others) can overlap and intersect to form a unique experience of social status, discrimination or oppression. This term was coined by Professor Kimberlé Crenshaw.
+crwdns824150:0crwdne824150:0 crwdns824152:0crwdne824152:0
 
-Issues
-  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
+crwdns824154:0crwdne824154:0 crwdns824156:0crwdne824156:0 crwdns824158:0crwdne824158:0 crwdns824160:0crwdne824160:0
 
-Issue Tracking
-  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
+crwdns824162:0crwdne824162:0
 ```
 ---
-## J
+## crwdns824164:0crwdne824164:0
 
 ```{glossary}
 
-Job
-  An automated process that clones your repository into a virtual environment and then carries out a series of phases such as compiling your code and running tests. A job fails if the return code of the script encounters an error.
+crwdns824166:0crwdne824166:0 crwdns824168:0crwdne824168:0
 
-JupyterHub
-  A multi-user server for Jupyter Notebook instances.
+crwdns824170:0crwdne824170:0
 ```
 ---
-## K
+## crwdns824172:0crwdne824172:0
 
 ```{glossary}
 
-Kubernetes
-  Autonomous computational cluster manager.
+crwdns824174:0crwdne824174:0
 ```
 ---
-## L
+## crwdns824176:0crwdne824176:0
 
 ```{glossary}
 
-License
-  This is a legal document that sets out the permissions for creative and academic work. It explains copyright, ensures proper attribution and sets out how others can copy, distribute and make use of the works.
+crwdns824178:0crwdne824178:0 crwdns824180:0crwdne824180:0
 
-Last author
- Usually the person in the research team with a supervisory role such as a PhD supervisor or Principal investigator. This is discipline dependent as sometimes the last author is the person that has made the smallest contribution to the research.
+crwdns824182:0crwdne824182:0 crwdns824184:0crwdne824184:0
 ```
 ---
-## M
+## crwdns824186:0crwdne824186:0
 
 ```{glossary}
 
-Machine Readable
-  Machine readable refers to documents, data or other digital outputs whose content can be readily processed by computers. Such documents are distinguished from machine readable data by virtue of having sufficient structure to provide the necessary context to support the business processes for which they are created. Machine readable data can be defined as data in a format that can be easily processed by a computer without human intervention while ensuring no semantic meaning is lost.
+crwdns824188:0crwdne824188:0 crwdns824190:0crwdne824190:0 crwdns824192:0crwdne824192:0
 
-Main
-  The repository’s main branch. Depending on the workflow, it is the one people work on or the one where the integration happens. This used to be called ‘Master’ in Github.
+crwdns824194:0crwdne824194:0 crwdns824196:0crwdne824196:0 crwdns824198:0crwdne824198:0
 
-Maintainers
-  Contributors who are responsible for driving the vision and managing the organizational aspects of the project. They may also be authors and/or owners of the project.
+crwdns824200:0crwdne824200:0 crwdns824202:0crwdne824202:0
 
-Makefile
-  A text file that contains the configuration for the build.
+crwdns824204:0crwdne824204:0
 
-Merge
-  The process of combining branches. Changes made on one or more branches are applied to another.
+crwdns824206:0crwdne824206:0 crwdns824208:0crwdne824208:0
 
-Merge Conflict
-  Incompatibilities between branches being merged.
+crwdns824210:0crwdne824210:0
 
-Metadata
-  Data used to describe other data. For example (35, 33, 27, 30, 33) is data but the units (miles per hour) and the fact these are the speeds of cars on a certain stretch of road is metadata.
+crwdns824212:0crwdne824212:0 crwdns824214:0crwdne824214:0
 
-Mock Test
-  Replace a real object with a pretend one to use when running tests.
+crwdns824216:0crwdne824216:0
 ```
 ---
-## N
+## crwdns824218:0crwdne824218:0
 
 ```{glossary}
 
 ```
 ---
-## O
+## crwdns824220:0crwdne824220:0
 
 ```{glossary}
 
-Open Access
-  Making all published outputs freely accessible for maximum use and impact.
+crwdns824222:0crwdne824222:0
 
-Open Access publishing (gratis)
-  The practice of making research publications available to anyone to read without charge.
+crwdns824224:0crwdne824224:0
 
-Open Access Publishing (libre)
-  Libre open access is gratis, meaning the research is available free of charge, but it goes further by granting users the right to copy, reuse, and remix the publication.
+crwdns824226:0crwdne824226:0
 
-Open data
-  Documenting and sharing research data openly for re-use.
+crwdns824228:0crwdne824228:0
 
-Open Educational Resources
-  Making educational resources publicly available to be re-used and modified.
+crwdns824230:0crwdne824230:0
 
-Open Source Hardware
-  Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
+crwdns824232:0crwdne824232:0
 
-Open License
-  A license is a document that specifies what can and cannot be done with a work. It grants permissions and states restrictions. Broadly speaking, an open license is one that grants permission to access, re-use and redistribute a work with few or no restrictions.
+crwdns824234:0crwdne824234:0 crwdns824236:0crwdne824236:0 crwdns824238:0crwdne824238:0
 
-Open Notebooks
-  An emerging practice, documenting and sharing the experimental process of trial and error.
+crwdns824240:0crwdne824240:0
 
-Open Scholarship
-  This is a concept that extends open research further. It relates to making other aspects of scientific research open to the public such as open educational resources, having inclusive practice and citizen science.
+crwdns824242:0crwdne824242:0 crwdns824244:0crwdne824244:0
 
-Open Project
-  *Same as Open Science or Open Research Projects*. A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
+crwdns824246:0crwdne824246:0 crwdns824248:0crwdne824248:0 crwdns824250:0crwdne824250:0
 
-Open Source Software
-  Documenting research code and routines, and making them freely accessible and available.
+crwdns824252:0crwdne824252:0
 
-ORCID
-  Open Researchers and Contributor iD. It is a long lasting unique identifier for you as a researcher. A persistent digital identifier for researchers' that can be used on publications to ensure fair credit is given for all the researchers works.
+crwdns824254:0crwdne824254:0 crwdns824256:0crwdne824256:0 crwdns824258:0crwdne824258:0
 
-Owner
-  The person/s who has administrative ownership over the organization or repository (not always the same as the original author).
+crwdns824260:0crwdne824260:0
 ```
 ---
-## P
+## crwdns824262:0crwdne824262:0
 
 ```{glossary}
 
-Package Management System
-  A tool for installing, managing, and uninstalling software packages including specific versions.
+crwdns824264:0crwdne824264:0
 
-Persistent Identifier
-  A long-lived method for identifying a resource that is unique, and widely understandable by a community.
+crwdns824266:0crwdne824266:0
 
-Pattern
-  A pattern rule is a rule that contains exactly one % character in the target, which can be used to match a part of a filename.
+crwdns824268:0crwdne824268:0
 
-Peer Review
-  A process of evaluating one's work by others working in the same field.
+crwdns856780:0crwdne856780:0
 
-Persona
-  A persona is the detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
+crwdns856782:0crwdne856782:0
 
-Persona Canvas
-  The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
+crwdns856784:0crwdne856784:0
 
-Phony Target
-  A phony target is one that doesn’t correspond to a file on the filesystem. A target is marked as phony by making it a prerequisite of the .PHONY target.
+crwdns856786:0crwdne856786:0 crwdns856788:0crwdne856788:0
 
-Positionality
- Differences in social position and power shape identities and access in society. In acknowledging positionality, we also acknowledge intersecting social locations and complex power dynamics (also see: Intersectionality).
+crwdns856790:0crwdne856790:0 crwdns856792:0crwdne856792:0
 
-Power Users
-  These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient.
+crwdns856794:0crwdne856794:0
 
-Preprint
-   A preprint is a version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal. It is usually uploaded by the authors to a public server where it is available openly.
+crwdns856796:0crwdne856796:0 crwdns856798:0crwdne856798:0
 
-Prerequisite
-  The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.
+crwdns856800:0crwdne856800:0
 
-Project Design
-  An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.
+crwdns856802:0crwdne856802:0
 
-Pull Request
-  Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.
+crwdns856804:0crwdne856804:0 crwdns856806:0crwdne856806:0 crwdns856808:0crwdne856808:0 crwdns856810:0crwdne856810:0
 
-Push
-  Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
+crwdns856812:0crwdne856812:0 crwdns856814:0crwdne856814:0
 ```
 ---
-## Q
+## crwdns824304:0crwdne824304:0
 
 ```{glossary}
 
 ```
 ---
-## R
+## crwdns824306:0crwdne824306:0
 
 ```{glossary}
 
-RDM
-  Abbreviation for research data management - see research data management for definition.
+crwdns824308:0crwdne824308:0
 
-README
-  A file which contains useful information about a project such as what it is, how to use/install it, how to test it, and how to contribute to it.
+crwdns824310:0crwdne824310:0
 
-Recipe
-  One or more shell commands that are executed by Make. Usually these commands update the target of the rule.
+crwdns824312:0crwdne824312:0 crwdns824314:0crwdne824314:0
 
-Regression Test
-  Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
+crwdns824316:0crwdne824316:0 crwdns824318:0crwdne824318:0
 
-Replicable
-  A result is replicable when the same analysis performed on different datasets produces qualitatively similar answers.
+crwdns824320:0crwdne824320:0
 
-repo2docker
-  A tool to build Docker images from code repositories.
+crwdns824322:0crwdne824322:0
 
-Repository
-  *Same as Data or Code Reprository*. A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
+crwdns824324:0crwdne824324:0 crwdns824326:0crwdne824326:0 crwdns824328:0crwdne824328:0
 
-Reproducible
-  A result is reproducible when the same analysis steps performed on the same dataset consistently produces the same answer.
+crwdns824330:0crwdne824330:0
 
-Rendered Output
-  This is what the text will look like on an online page in Github or web page
+crwdns824332:0crwdne824332:0 crwdns824334:0crwdne824334:0
 
-Research Compendia
-  This is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, metadata). The collection is created in such a way that reproducing all results is straight forward.
+crwdns824336:0crwdne824336:0 crwdns824338:0crwdne824338:0 crwdns824340:0crwdne824340:0 crwdns824342:0crwdne824342:0
 
-Research Data Management
-  *Acronym: RDM*. Refers to the organisation, storage and preservation of data created during a research project. It covers initial planning, day-to-day processes and long-term archiving and sharing. Shortened to RDM.
+crwdns824344:0crwdne824344:0 crwdns824346:0crwdne824346:0 crwdns824348:0crwdne824348:0
 
-Research Ethics
-  Research ethics are the moral principles that govern how researchers should carry out their work. These principles are used to shape research regulations agreed by groups such as university governing bodies, communities or governments. All researchers should follow any regulations that apply to their work.
+crwdns824350:0crwdne824350:0
 
-Review
-  Suggesting changes or asking for committing something to an already created pull request.
+crwdns824352:0crwdne824352:0
 
-Risk Assessment
-  This is used to help choose the appropriate sustainable software concepts for your project.
+crwdns824354:0crwdne824354:0 crwdns824356:0crwdne824356:0 crwdns824358:0crwdne824358:0
 
-Risk Matrix
-  A risk matrix is a way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
-
-Roadmapping
-  This is the creation of a roadmap for your project. It is an outline for the work you need to do. It covers your goals, vision and a timeline for tasks.
+crwdns824360:0crwdne824360:0 crwdns824362:0crwdne824362:0 crwdns824364:0crwdne824364:0
 
 
-Robust
-  A result is robust when the same dataset is subjected to different analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
+crwdns824366:0crwdne824366:0 crwdns824368:0crwdne824368:0
 
-Rule
-  An element of the Makefile that defines something that must be built, usually consists of targets, recipes, and optionally, prerequisites.
+crwdns824370:0crwdne824370:0
 
-Runtime Test
-  Tests embedded within the program which are run as part of it.
+crwdns824372:0crwdne824372:0
 
 ```
 ---
-## S
+## crwdns824374:0crwdne824374:0
 
 ```{glossary}
 
-Self Archiving
-  Placing a publication or other research outputs in a suitable repository, institutional or subject-based, following the possible restrictions posed by the publisher, for example an embargo period, or limits on the allowed version to be deposited in such archives.
+crwdns824376:0crwdne824376:0
 
-Self Reflection
-  Activity of thinking about our thoughts, feelings, emotions, behaviour action, and the reasons that may lie behind them. Taking the time for reflection we can grow our understanding of who we are, what our values are, and why we think, feel, and act the way we do. When we self-reflect and become more conscious of what drives us, we can more easily make changes that help us more easily develop our self or improve our life including the way we conduct research (source: [Berkeley Wellbeing](https://www.berkeleywellbeing.com/what-is-self-reflection.html)).
+crwdns824378:0crwdne824378:0 crwdns824380:0crwdne824380:0 crwdns824382:0crwdne824382:0
 
-SHA
-  Unique string of numbers of letters used to identify every commit or node in the repository.
+crwdns824384:0crwdne824384:0
 
-Shared authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as group authorship.
+crwdns824386:0crwdne824386:0 crwdns824388:0crwdne824388:0
 
-Smoke Testing
-  Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+crwdns824390:0crwdne824390:0 crwdns824392:0crwdne824392:0
 
-Staged
-  Staging the changes that will be included in the next git commit.
+crwdns824394:0crwdne824394:0
 
-Stochastic Code
-  Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+crwdns824396:0crwdne824396:0 crwdns824398:0crwdne824398:0
 
-Syntax
-  The structure of statements in a computer language.
+crwdns824400:0crwdne824400:0
 
-System Testing
-  A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs. Also see end to end test.
+crwdns824402:0crwdne824402:0 crwdns824404:0crwdne824404:0 crwdns824406:0crwdne824406:0
 
 ```
 ---
-## T
+## crwdns824408:0crwdne824408:0
 
 ```{glossary}
 
-Target
-  The outcome of a rule in a Makefile. It is usually a file. If it is not a file, it’s a phony target.
+crwdns824410:0crwdne824410:0 crwdns824412:0crwdne824412:0 crwdns824414:0crwdne824414:0
 
-Test Driven Development
-  A process of code development where unit tests are written before the units themselves.
+crwdns824416:0crwdne824416:0
 
-Test Stub
-  Fake implementations of parts of code which are used in testing to remove dependencies.
+crwdns824418:0crwdne824418:0
 
-Test Suite
-  The tests that have been written for a project.
+crwdns824420:0crwdne824420:0
 
-Testing Framework
-  Tools that make writing and running tests less labour intensive.
+crwdns824422:0crwdne824422:0
 
-Travis
-  A commonly used continuous integration platform.
+crwdns824424:0crwdne824424:0
 ```
 ---
-## U
+## crwdns824426:0crwdne824426:0
 
 ```{glossary}
 
-Unit
-  A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
+crwdns824428:0crwdne824428:0 crwdns824430:0crwdne824430:0
 
-Unit Testing
-  A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+crwdns824432:0crwdne824432:0 crwdns824434:0crwdne824434:0
 ```
 ---
-## V
+## crwdns824436:0crwdne824436:0
 
 ```{glossary}
 
-Virtual Machine
-  A simulated computer that can encapsulate and entire computational environment including its operating system, customised settings, software and files.
+crwdns824438:0crwdne824438:0
 
 ```
 ---
-## W
+## crwdns824440:0crwdne824440:0
 
 ```{glossary}
 
 ```
 ---
-## X
+## crwdns824442:0crwdne824442:0
 
 ```{glossary}
 
 ```
 ---
-## Y
+## crwdns824444:0crwdne824444:0
 
 ```{glossary}
-YAML
-  A human readable/writable markup language which used by many projects for configuration files.
+crwdns824446:0crwdne824446:0
 ```
 ---
-## Z
+## crwdns824448:0crwdne824448:0
 
 ```{glossary}
 
 ```
---->
+crwdns824450:0crwdne824450:0

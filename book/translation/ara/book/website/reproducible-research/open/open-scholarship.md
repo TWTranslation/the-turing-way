@@ -1,0 +1,69 @@
+crwdns847884:0crwdne847884:0
+# crwdns847886:0crwdne847886:0
+
+crwdns847888:0{term}crwdne847888:0
+
+```{figure} ../../figures/open-umbrella.png
+crwdns847890:0crwdne847890:0
+crwdns847892:0crwdne847892:0
+```
+
+crwdns847894:0crwdne847894:0
+## crwdns847896:0crwdne847896:0
+
+crwdns847898:0{term}crwdne847898:0 crwdns847900:0crwdne847900:0 crwdns847902:0crwdne847902:0 crwdns847904:0crwdne847904:0
+
+crwdns847906:0crwdne847906:0 crwdns847908:0crwdne847908:0 crwdns847910:0crwdne847910:0 crwdns847912:0crwdne847912:0 crwdns847914:0crwdne847914:0
+
+crwdns847916:0crwdne847916:0
+
+- crwdns847918:0crwdne847918:0
+- crwdns847920:0crwdne847920:0
+- crwdns847922:0crwdne847922:0
+- crwdns847924:0crwdne847924:0
+- crwdns847926:0crwdne847926:0
+
+crwdns847928:0crwdne847928:0 crwdns847930:0crwdne847930:0
+
+1. crwdns847932:0crwdne847932:0
+2. crwdns847934:0crwdne847934:0 crwdns847936:0crwdne847936:0
+3. crwdns847938:0crwdne847938:0 crwdns847940:0crwdne847940:0
+
+crwdns847942:0crwdne847942:0 crwdns847944:0crwdne847944:0 crwdns847946:0crwdne847946:0
+
+crwdns847948:0crwdne847948:0
+## crwdns847950:0{term}crwdne847950:0
+
+crwdns847952:0crwdne847952:0 crwdns847954:0crwdne847954:0 crwdns847956:0crwdne847956:0 crwdns847958:0crwdne847958:0
+
+crwdns847960:0crwdne847960:0
+## crwdns847962:0crwdne847962:0
+
+crwdns847964:0{term}crwdne847964:0 crwdns847966:0crwdne847966:0 crwdns847968:0crwdne847968:0
+
+crwdns847970:0crwdne847970:0 crwdns847972:0crwdne847972:0 crwdns847974:0crwdne847974:0
+
+crwdns847976:0crwdne847976:0
+## crwdns847978:0crwdne847978:0
+
+crwdns847980:0crwdne847980:0
+
+crwdns847982:0crwdne847982:0
+- crwdns847984:0crwdne847984:0
+- crwdns847986:0crwdne847986:0
+
+crwdns847988:0crwdne847988:0
+- crwdns847990:0crwdne847990:0
+
+crwdns847992:0crwdne847992:0 crwdns847994:0crwdne847994:0 crwdns847996:0crwdne847996:0
+
+crwdns847998:0crwdne847998:0 crwdns848000:0crwdne848000:0
+1. crwdns848002:0crwdne848002:0
+2. crwdns848004:0crwdne848004:0
+3. crwdns848006:0crwdne848006:0
+4. crwdns848008:0crwdne848008:0
+5. crwdns848010:0crwdne848010:0
+6. crwdns848012:0crwdne848012:0
+7. crwdns848014:0crwdne848014:0
+
+crwdns848016:0crwdne848016:0 crwdns848018:0crwdne848018:0 crwdns848020:0crwdne848020:0

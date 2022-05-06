@@ -1,0 +1,31 @@
+crwdns826842:0crwdne826842:0
+# crwdns826844:0crwdne826844:0
+
+crwdns826846:0crwdne826846:0 crwdns826848:0crwdne826848:0 crwdns826850:0crwdne826850:0
+
+```{figure} ../../figures/remote-book-dash.jpg
+crwdns826852:0crwdne826852:0 crwdns826854:0crwdne826854:0
+crwdns826856:0crwdne826856:0 crwdns826858:0crwdne826858:0 crwdns826860:0crwdne826860:0 crwdns826862:0crwdne826862:0
+```
+
+## crwdns826864:0crwdne826864:0
+
+crwdns826866:0crwdne826866:0 crwdns826868:0crwdne826868:0 crwdns826870:0crwdne826870:0 crwdns826872:0crwdne826872:0
+
+## crwdns826874:0crwdne826874:0
+
+crwdns826876:0crwdne826876:0
+
+crwdns826878:0crwdne826878:0 crwdns826880:0crwdne826880:0 crwdns826882:0crwdne826882:0 crwdns826884:0crwdne826884:0 crwdns826886:0crwdne826886:0
+
+crwdns826888:0crwdne826888:0 crwdns826890:0crwdne826890:0 crwdns826892:0crwdne826892:0 crwdns826894:0crwdne826894:0 crwdns826896:0crwdne826896:0 crwdns826898:0crwdne826898:0 crwdns826900:0crwdne826900:0
+
+crwdns826902:0crwdne826902:0 crwdns826904:0crwdne826904:0 crwdns826906:0crwdne826906:0 crwdns826908:0crwdne826908:0
+
+## crwdns826910:0crwdne826910:0
+
+crwdns826912:0crwdne826912:0
+
+- crwdns826914:0crwdne826914:0
+- crwdns826916:0crwdne826916:0
+- crwdns826918:0crwdne826918:0

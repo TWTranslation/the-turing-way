@@ -1,0 +1,21 @@
+files:
+  - source: /book/website/
+    ignore:
+      - LICENSE.md
+      - _toc.yml
+      - _config.yml
+      - _redirects
+      - /requirements.txt
+      - runtime.txt
+      - figures
+      - '*.png'
+      - '*.jpg'
+      - _build/html
+      - _static
+      - scripts
+      - requirements
+      - translation
+      - figures
+      - assets
+      - analytic
+    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%

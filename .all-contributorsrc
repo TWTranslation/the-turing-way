@@ -873,7 +873,8 @@
         "review",
         "talk",
         "blog",
-        "translation"
+        "translation",
+        "eventOrganizing"
       ]
     },
     {
@@ -1732,7 +1733,9 @@
         "review",
         "ideas",
         "maintenance",
-        "talk"
+        "talk",
+        "test",
+        "eventOrganizing"
       ]
     },
     {
@@ -3287,6 +3290,15 @@
       "name": "Sander",
       "avatar_url": "https://avatars.githubusercontent.com/u/8833517?v=4",
       "profile": "http://www.svrijn.nl",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "eltociear",
+      "name": "Ikko Ashimine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22633385?v=4",
+      "profile": "https://bandism.net/",
       "contributions": [
         "bug"
       ]

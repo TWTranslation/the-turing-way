@@ -1914,7 +1914,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/43676485?v=4",
       "profile": "https://github.com/MariaEriksson",
       "contributions": [
-        "bug"
+        "bug",
+        "content"
       ]
     },
     {
@@ -2613,7 +2614,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/53306752?v=4",
       "profile": "https://github.com/hlnicholls",
       "contributions": [
-        "content"
+        "content",
+        "review"
       ]
     },
     {
@@ -3301,6 +3303,35 @@
       "profile": "https://bandism.net/",
       "contributions": [
         "bug"
+      ]
+    },
+    {
+      "login": "mariadelmarq",
+      "name": "Maria del Mar Quiroga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12743476?v=4",
+      "profile": "https://github.com/mariadelmarq",
+      "contributions": [
+        "content",
+        "bug"
+      ]
+    },
+    {
+      "login": "AsmaKacem1",
+      "name": "Asma Kacem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73066984?v=4",
+      "profile": "https://asmakacem.me/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "edwardchalstrey1",
+      "name": "Ed Chalstrey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5486164?v=4",
+      "profile": "http://edchalstrey.com/",
+      "contributions": [
+        "content",
+        "review"
       ]
     }
   ],

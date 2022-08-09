@@ -251,7 +251,8 @@
       "profile": "https://github.com/cassgvp",
       "contributions": [
         "ideas",
-        "doc"
+        "doc",
+        "review"
       ]
     },
     {
@@ -1735,7 +1736,8 @@
         "maintenance",
         "talk",
         "test",
-        "eventOrganizing"
+        "eventOrganizing",
+        "bug"
       ]
     },
     {
@@ -3331,6 +3333,90 @@
       "profile": "http://edchalstrey.com/",
       "contributions": [
         "content",
+        "review"
+      ]
+    },
+    {
+      "login": "ClauFischer",
+      "name": "ClauFischer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104078689?v=4",
+      "profile": "https://github.com/ClauFischer",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "ocorcho",
+      "name": "Oscar Corcho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1067341?v=4",
+      "profile": "http://www.oeg-upm.net/index.php/en/teachers/11-ocorcho/index.html",
+      "contributions": [
+        "content",
+        "review"
+      ]
+    },
+    {
+      "login": "sgichuki",
+      "name": "sgichuki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53834942?v=4",
+      "profile": "https://www.linkedin.com/in/susanwg/",
+      "contributions": [
+        "content",
+        "bug"
+      ]
+    },
+    {
+      "login": "TueloNtlotlang",
+      "name": "TueloNtlotlang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72657722?v=4",
+      "profile": "https://github.com/TueloNtlotlang",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "shashank-k-y",
+      "name": "Shashank",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74789167?v=4",
+      "profile": "https://github.com/shashank-k-y",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "dpdong19",
+      "name": "Danping",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54056456?v=4",
+      "profile": "https://github.com/dpdong19",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "JadeHotchkiss",
+      "name": "JadeHotchkiss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25898078?v=4",
+      "profile": "https://github.com/JadeHotchkiss",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "sarasrking",
+      "name": "Sara King",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48195568?v=4",
+      "profile": "https://github.com/sarasrking",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "gcroci2",
+      "name": "Giulia Crocioni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55382553?v=4",
+      "profile": "https://www.linkedin.com/in/giulia-crocioni/",
+      "contributions": [
+        "translation",
         "review"
       ]
     }

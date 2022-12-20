@@ -74,7 +74,7 @@ Ambas as abordagens para testar o código estocástico podem ainda ser muito út
 
 O resultado pode ficar assim:
 
-```{figure} ../../figures/eyeball-test1.jpg
+```{figure} ../../figures/eyeball-test1.*
 ---
 name: eyeball-test1
 alt:
@@ -83,7 +83,7 @@ alt:
 
 Em um dia com chuva, pode ficar assim:
 
-```{figure} ../../figures/eyeball-test2.jpg
+```{figure} ../../figures/eyeball-test2.*
 ---
 name: eyeball-test2
 alt:
@@ -92,7 +92,7 @@ alt:
 
 e em um dia seco, pode ficar assim:
 
-```{figure} ../../figures/eyeball-test3.jpg
+```{figure} ../../figures/eyeball-test3.*
 ---
 name: eyeball-test3
 alt:
@@ -101,7 +101,7 @@ alt:
 
 Todos estes resultados parecem muito diferentes, mas são válidos. No entanto, se um pesquisador ver um resultado como este:
 
-```{figure} ../../figures/eyeball-test-error.jpg
+```{figure} ../../figures/eyeball-test-error.*
 ---
 name: eyeball-test-error
 alt:

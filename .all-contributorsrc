@@ -599,7 +599,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/28339195?v=4",
       "profile": "https://github.com/jspickering",
       "contributions": [
-        "doc"
+        "doc",
+        "bug"
       ]
     },
     {
@@ -1685,7 +1686,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/1876667?v=4",
       "profile": "https://orcid.org/0000-0002-3127-5520",
       "contributions": [
-        "content"
+        "content",
+        "review"
       ]
     },
     {
@@ -4038,6 +4040,42 @@
       "profile": "https://www.fil.ion.ucl.ac.uk/team/spm-team/",
       "contributions": [
         "content"
+      ]
+    },
+    {
+      "login": "priyanshuone6",
+      "name": "Priyanshu Agarwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64051212?v=4",
+      "profile": "http://git.io/priyanshu",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "pdurbin",
+      "name": "Philip Durbin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21006?v=4",
+      "profile": "http://greptilian.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "sjDCC",
+      "name": "Sarah Jones",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6169940?v=4",
+      "profile": "https://dmponline.dcc.ac.uk",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "flavio2018",
+      "name": "Flavio Petruzzellis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39437769?v=4",
+      "profile": "http://flavio2018.github.io",
+      "contributions": [
+        "bug"
       ]
     }
   ],

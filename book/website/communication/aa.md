@@ -1,4 +1,3 @@
-(cm-aa)=
 # Academic Authorship
 
 (cm-aa-prerequisites)=

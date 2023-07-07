@@ -9,7 +9,7 @@
 
 研究者が書いたコードが研究の多くの部分を形成するようになりました コードに間違いがあれば結果の一部または完全に信頼できない可能性があります 信頼性の高い再現性のある研究を確保するためには、コードを徹底的かつ頻繁にテストすることが不可欠です。 この章では、テストを書くための一般的なガイダンスと、さまざまな種類のテストについて説明します。 彼らの使い方と実装方法を教えてくれます
 
-```{figure}  ../figures/error-management.jpg
+```{figure}  ../figures/error-management.*
 ---
 name: error-management
 alt: 人は幸せにコーディングされ、エラーがスローされ、コーダーが混乱します。 その後、コーダーはエラーを見つけて修正できます。
@@ -23,14 +23,14 @@ _Scriberiaによるチューリング方法_プロジェクトのイラスト。
 
 テストを書くべき理由を示すイラストをいくつか紹介します。
 
-```{figure}  ../figures/testing-motivation1.png
+```{figure}  ../figures/testing-motivation1.*
 ---
 name: testing-motivation1
 alt:
 ---
 ```
 
-```{figure}  ../figures/testing-motivation2.png
+```{figure}  ../figures/testing-motivation2.*
 ---
 name: testing-motivation2
 alt:

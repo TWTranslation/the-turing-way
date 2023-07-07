@@ -3,7 +3,7 @@
 
 Le [Format de fichier de référence](https://citation-file-format.github.io) vous permet de fournir des métadonnées de citation, pour les logiciels ou les jeux de données, dans des fichiers en texte brut faciles à lire par les humains et les machines.
 
-```{figure} ../../figures/recognition.jpg
+```{figure} ../../figures/recognition.*
 ---
 nom: reconnaissance
 largeur: 500px
@@ -21,7 +21,7 @@ Il y a de grands avantages lorsque vous utilisez un fichier `CITATION.cff` pour 
 
 C'est plus facile pour vous : Lorsque vous hébergez le code source de votre logiciel sur GitHub et que vous avez une CITATION `. ff` dans votre dépôt, vous pouvez utiliser l'intégration Zenodo-GitHub pour publier automatiquement les nouvelles versions du logiciel. Zenodo utilisera les informations de `CITATION.cff` et les affichera avec la publication. Vous n'avez plus à modifier ces informations manuellement sur Zenodo.
 
-```{figure} ../../figures/software-credit.jpg
+```{figure} ../../figures/software-credit.*
 ---
 nom: software-credit
 largeur: 500px
@@ -135,7 +135,7 @@ Si vous avez trouvé un logiciel ou des jeux de données qui contiennent une CIT
 
 - Sinon, si le logiciel ou les jeux de données que vous voulez citer sont disponibles sur GitHub, vous pouvez utiliser l'interface de GitHub pour copier la référence dans les formats APA ou BibTeX en cliquant sur le bouton "Citer ce dépôt" (voir la zone verte dans l'image ci-dessous). Pour plus de détails sur la citation du logiciel sur GitHub, veuillez consulter le guide [GitHub sur la citation du logiciel](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
 
-  ```{figure} ../../figures/github-cff-integration.jpg
+  ```{figure} ../../figures/github-cff-integration.*
   ---
   name : github-cff-integration
   alt: Bouton sur GitHub qui fournit la conversion automatique du fichier `CITATION.cff` au format APA et BibTex.

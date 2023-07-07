@@ -5,7 +5,7 @@ En tant que chercheurs, scientifiques et "techies" nous cherchons des moyens d'u
 
 L'exemple le plus récent est la pandémie COVID-19 et les événements connexes {cite:ps}`WHO2020Jul` dans le monde entier, y compris le blocage global qui a commencé en février 2020. Les communautés de recherche ont réagi par un afflux soudain de hackathons, de projets de modélisation de données, de task forces, et des groupes de travail pour trouver des solutions techniques efficaces et immédiates pour lutter contre cette crise sanitaire.
 
-```{figure} ../figures/decolonising-knowledge.jpg
+```{figure} ../figures/decolonising-knowledge.*
 ---
 name : nouvelle communauté
 alt : Une illustration de 2 personnes qui travaillent ensemble et discutent d'un tableau de données. Certains d'entre eux aident d'autres personnes à travailler ensemble.

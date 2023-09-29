@@ -4,7 +4,7 @@ _The Turing Way_ 本の最後の部分は、 **Afterword** と呼ばれていま
 
 この本のコミュニティコラボレーションと開発の側面は、この本の [コミュニティハンドブック](../community-handbook/community-handbook) セクションに書かれています。
 
-```{figure} ../figures/road-to-reproducibility.jpg
+```{figure} ../figures/road-to-reproducibility.*
 ---
 height: 400px
 name: road-to-re複製性

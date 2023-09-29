@@ -3,7 +3,7 @@
 
 Le mouvement open source ou ouvert de recherche permet à n'importe qui d'utiliser, d'étudier, de modifier, et distribuer des logiciels ou des projets de recherche librement et pour n'importe quel but ([référence](https://opensource.org/osd)). Autant que l'open source consiste à partager et à distribuer des logiciels, Il est tout aussi important de mettre en évidence les pratiques qui soutiennent les interactions des gens avec le projet ainsi que les communautés qui sont bâties autour d’un intérêt et d’une mission communs. Les contributions volontaires sont essentielles à la réussite des projets open source qui utilisent des cadres pour la production de pairs de projet et les collaborations. Ces contributions peuvent être observées dans le contexte du codage, de l'examen, de la documentation, du rapport d'erreur, correction de bogues, sélection de méthodes, mentorat, formation, maintenance du projet et autres interactions de la communauté. Dans ce chapitre, nous explorons les modèles de « propriété partagée » pour souligner que les projets open source doivent être détenus par la communauté des contributeurs qui travaillent pour assurer leur développement et leur durabilité.
 
-```{figure} ../figures/open-source-collaboration.jpg
+```{figure} ../figures/open-source-collaboration.*
 ---
 nom : open-source-collaboration
 alt : Cette illustration montre que les projets sources fermés sont animés par les besoins de l'institution ou des individus alors que la communauté open source permet à différentes personnes d'interagir, échanger des idées, collaborer et construire des ressources en utilisant les principes "par la communauté - pour la communauté"

@@ -4,7 +4,7 @@ La dernière partie du livre _The Turing Way_ s'appelle **Afterword**. En suivan
 
 Les aspects de collaboration et de développement de la communauté du livre ont été écrits dans la section [Manuel de la Communauté](../community-handbook/community-handbook) de ce livre.
 
-```{figure} ../figures/road-to-reproducibility.jpg
+```{figure} ../figures/road-to-reproducibility.*
 ---
 hauteur : 400px
 nom : road-to-reproduccibility

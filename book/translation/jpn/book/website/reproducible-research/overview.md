@@ -6,7 +6,7 @@
 
 以前の知識は必要ありません。
 
-```{figure} ../figures/research-cycle.jpg
+```{figure} ../figures/research-cycle.*
 ---
 name: research-cycle
 alt: 研究プロセスは、研究アイデアを生み出す永続的なサイクルとして表現されます。 データ計画と設計、データ収集、データ処理と分析、公開、保存、そのため、データの再利用が可能になります。 

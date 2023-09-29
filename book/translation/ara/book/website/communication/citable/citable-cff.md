@@ -3,7 +3,7 @@
 
 [تنسيق ملف الاستشهاد](https://citation-file-format.github.io) يتيح لك تقديم بيانات تعريف الاستشهاد بها، لمجموعات البرمجيات أو البيانات، في ملفات plaintext التي يسهل قراءتها من قبل البشر والآلات على حد سواء.
 
-```{figure} ../../figures/recognition.jpg
+```{figure} ../../figures/recognition.*
 ---
 الاسم: عرض
 : 500px
@@ -21,7 +21,7 @@
 
 إنه أسهل لك: عندما تستضيف التعليمات البرمجية المصدرية الخاصة بك على GitHub ولديك `CITATION. إيقاف` في المستودع الخاص بك، يمكنك استخدام تكامل Zenodo-GitHub لنشر إصدارات جديدة من البرنامج تلقائيا. سيستخدم زينودو المعلومات من `CITATION.cff` وسيعرضها مع المنشور. ليس عليك تعديل هذه المعلومات يدوياً على زينودو بعد الآن.
 
-```{figure} ../../figures/software-credit.jpg
+```{figure} ../../figures/software-credit.*
 ---
 الاسم: برنامج ائتمان
 عرض 500px
@@ -130,7 +130,7 @@ title: "برنامجي البحث"
 
 - بدلاً من ذلك، إذا كانت البرامج أو مجموعات البيانات التي تريد الاستشهاد بها متاحة على GitHub، يمكنك استخدام واجهة GitHub، لنسخ المرجع إما في تنسيقات APA أو BibTeX بالنقر على زر "ذكر هذا المستودع" (انظر المنطقة الخضراء في الصورة أدناه). لمزيد من التفاصيل عن الاستشهاد بالبرامج على GitHub ، يرجى الاطلاع على [دليل GitHub's على الاستشهاد بالبرمجيات](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
 
-  ```{figure} ../../figures/github-cff-integration.jpg
+  ```{figure} ../../figures/github-cff-integration.*
   ---
   الاسم: github-cff-integration
   البديل : زر GitHub الذي يوفر التحويل التلقائي لملف `CITATION.cff` إلى تنسيق APA و BibTex.

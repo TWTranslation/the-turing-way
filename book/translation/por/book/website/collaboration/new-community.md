@@ -5,7 +5,7 @@ Enquanto investigadores, cientistas e "técnicos", procuramos formas de utilizar
 
 O exemplo mais recente é a pandemia COVID-19 e eventos relacionados {cite:ps}`WHO2020Jul` em todo o mundo, incluindo o bloqueio global iniciado em Fevereiro de 2020. As comunidades de investigação responderam com um surto repentino de hackathons, projetos de modelagem de dados, task forces e grupos de trabalho para encontrar soluções técnicas eficazes e imediatas para combater esta crise de saúde.
 
-```{figure} ../figures/decolonising-knowledge.jpg
+```{figure} ../figures/decolonising-knowledge.*
 ---
 nome: comunidade de gestão
 alt: uma ilustração de muitas pessoas parando em uma plataforma acadêmica. Algumas delas estão a ajudar outras pessoas a juntarem-se a elas para trabalharem em conjunto.

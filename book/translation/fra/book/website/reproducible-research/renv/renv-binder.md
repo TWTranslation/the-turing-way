@@ -112,10 +112,9 @@ Supposons que le projet ne contient aucun fichier spécifiant l'environnement de
   - Le fichier `requirement.txt` n'a pas besoin d'être écrit à la main. L'exécution de la commande `pip gèle > requirements.txt` affichera un fichier `requirements.txt` qui définit pleinement l'environnement Python.
 - `runtime.txt`
   - Il est utilisé pour spécifier une version particulière de Python ou R que le Binder peut utiliser.
-  - Spécifier quelle version de R utiliser, trouver la date à laquelle elle a été capturée sur [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) et l'inclure dans le runtime `. xt` fichier en tant que
-    ```
-    r-<YYYY>-<MM>-<DD>
-    ```
+  - Spécifier quelle version de R utiliser, trouver la date à laquelle elle a été capturée sur [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) et l'inclure dans le runtime `.
+<pre><code>    r-<YYYY>-<MM>-<DD>
+`</pre>
   - Pour spécifier une version de Python, indiquez la version dans le fichier `runtime.txt`. Par exemple, pour utiliser Python 2.7, le fichier devrait être lu
     ```
     python-2.7
@@ -136,7 +135,7 @@ GitHub est longuement discuté dans le chapitre sur {ref}`rr-vcs`, à laquelle v
 2. Créez un dépôt pour le projet dont vous souhaitez créer un lien.
 3. Téléchargez les fichiers de votre projet (y compris le fichier que vous avez créé pour spécifier votre environnement de calcul) dans le référentiel et enregistrez les ("commit" dans le vocabulaire de GitHub) là-bas.
 
-Si vous ne pouvez pas compléter ces étapes, reportez-vous au chapitre sur le contrôle de version de {ref}` <rr-vcs>` pour une explication plus complète.
+Si vous ne pouvez pas compléter ces étapes, reportez-vous au chapitre sur le contrôle de version de {ref}`<rr-vcs>` pour une explication plus complète.
 
 (rr-renv-binder-creating-stepthree)=
 ### Étape 3 : Générer un lien vers un lien de votre projet

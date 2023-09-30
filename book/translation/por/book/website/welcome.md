@@ -1,7 +1,7 @@
 (welcome)=
 # Boas-vindas
 
-*Boas-vindas ao guia The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
+*Tenha boas-vindas ao guia The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
 
 _The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós incluímos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer todas as informações necessárias para que pesquisadores e cientistas de dados na academia, a indústria e o sector público consigam assegurar que os projetos em que trabalham sejam fáceis de reproduzir e de reutilizar.
 
@@ -14,12 +14,14 @@ Navegue pelos diferentes guias que compõem o livro ou use a caixa de pesquisa p
 
 Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajadas a usar _The Turing Way_ para entender seus papéis e responsabilidades na reprodutibilidade em ciência de dados. Você pode inspecionar nossos recursos no [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribuir para o projeto conforme descrito em nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e reutilizar todos os materiais ([consulte a Licença](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
 
-```{figure} figures/welcome.jpg
+Please [join our Slack Workspace](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw) to connect and discuss your ideas or suggestions with *The Turing Way* members.
+
+```{figure} figures/theturingway-pathway.*
 ---
 name: welcome-image
 alt: O projeto The Turing Way é ilustrado como uma estrada ou caminho com lojas para diferentes habilidades em ciência de dados. As pessoas podem entrar e sair com o seu carrinho de compras e escolher o que precisam.
 ---
-Ilustração de projeto _The Turing Way_ por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+_A Turing Way_ ilustração de projeto por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 (welcome-community)=
@@ -42,7 +44,7 @@ O livro é escrito colaborativamente e aberto desde o início. Para tornar esse 
 name: theturingway-chapters
 alt: O guia The Turing Way para pesquisa reprodutível e sua estrutura ilustradas como uma série de portas que representam a estrutura em capítulos e sub-capítulos 
 ---
-Ilustração por _The Turing Way_ por Scriberia. Versão original em Zenodo. http://doi.org/10.5281/zenodo.3695300.
+Ilustração por _The Turing Way_ por Scriberia. Versão original do Zenodo. http://doi.org/10.5281/zenodo.3695300.
 ```
 
 Embora _The Turing Way_ receba apoio e financiamento do [The Alan Turing Institute](https://www.turing.ac.uk/), o projeto foi projetado para ser uma colaboração global. Temos contribuições de todo o Reino Unido e da Índia, México, Austrália, EUA e muitos países europeus. Os capítulos foram escritos, revistos e curados por membros de institutos de investigação e universidades, departamentos governamentais e indústria. Nosso compromisso é criar um espaço onde pessoas com diversos conhecimentos e experiências vividas possam compartilhar seu conhecimento com outras pessoas, para que possamos usar a ciência de dados para melhorar o mundo.

@@ -3,28 +3,27 @@
 
 *Bienvenue dans The Turing Way, un manuel sur la science des données reproductible, éthique et collaborative.*
 
-_The Turing Way_ est une initiative communautaire, open source et ouverte à toute collaboration. Nous impliquons et soutenons une communauté diversifiée de contributeurs afin de rendre la science des données accessibles, compréhensibles et efficaces pour tous. Notre objectif est de fournir toutes les informations que les chercheurs et les informaticiens du monde académique, l'industrie et le secteur public doivent veiller à ce que les projets sur lesquels ils travaillent soient faciles à reproduire et à réutiliser.
+_The Turing Way_ est une initiative communautaire, open source et ouverte à toute collaboration. Nous impliquons et soutenons une communauté diversifiée de contributeurs afin de rendre la science des données accessibles, compréhensibles et efficaces pour tous. Notre objectif est de fournir toutes les informations nécessaires aux chercheurs, chercheuses, informaticiens et informaticiennes de tous horizons – académique, industrie, secteur public – afin que leurs projets soient simples à reproduire et à réutiliser.
 
 ```{admonition} Top Tip
 :class: tip
-_The Turing Way_ n'est pas destiné à être lu du début à la fin.
-Commencez par un concept, un outil ou une méthode dont vous avez besoin maintenant, dans votre travail actuel.
-Parcourez les différents guides qui composent le livre, ou utilisez la boîte de recherche pour rechercher ce que vous souhaitez en savoir plus sur le premier.
+Il n'est pas nécessaire de lire _The Turing Way_ du premier au dernier chapitre.
+Prenez ce qui vous intéresse le plus ou ce dont vous avez besoin maintenant. Cela peut être un concept, un outil, une méthode.
+Parcourez les différents guides qui composent le livre ou utilisez directement la fonctionnalité de recherche.
 ```
 
-Toutes les parties prenantes, y compris les chercheurs, les ingénieurs logiciels, les chefs de projet et les équipes de financement, sont encouragés à utiliser _The Turing Way_ pour comprendre leurs rôles et responsabilités de reproductibilité dans la science des données. Vous pouvez inspecter nos ressources sur [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribuer au projet tel que décrit dans nos [directives de contribution](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) et réutiliser tous les matériaux ([voir la Licence](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
+Que vous soyez dans la recherche, l'informatique, la gestion de projet ou le financement, vous pouvez trouver dans _The Turing Way_ des clés de compréhension quant à vos rôle et responsabilités dans la capacité à reproduire la science des données. Parcourez les éléments sur [GitHub](https://github.com/alan-turing-institute/the-turing-way), ou contribuez, si vous pouvez, à la démarche (voir nos [règles de contribution](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)). Vous pouvez utiliser toutes les ressources ([voir la licence](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
 
-Please [join our Slack Workspace](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw) to connect and discuss your ideas or suggestions with *The Turing Way* members.
+Rejoignez-nous sur [Slack](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw) ! Venez échanger et partager vos idées avec la communauté *The Turing Way*.
 
 ```{figure} figures/theturingway-pathway.*
 ---
-name : welcome-image
-alt : Le projet Turing Way est illustré comme une route ou un chemin avec des magasins pour différentes compétences en science des données. Les gens peuvent entrer et sortir avec leur panier et choisir ce dont ils ont besoin.
----
-_The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+name: welcome-image
+alt: Cette image illustre The Turing Way comme un chemin jalonné de boutiques offrant différentes compétences en science des données. On peut s'y balader et garnir son caddie avec ce dont on a besoin.
+Illustration de _The Turing Way_ par Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-(bienvenue-communauté)=
+(welcome-community)=
 ## Notre communauté
 
 _La communauté de Turing Way_ est déterminée à rendre la recherche collaborative, réutilisable et transparente "trop facile à faire". Cela signifie qu'il faut investir dans les compétences socio-techniques nécessaires pour travailler dans une équipe, pour construire quelque chose de plus important que ce que n'importe quel individu pourrait apporter seul.

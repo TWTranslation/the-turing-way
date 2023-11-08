@@ -651,8 +651,6 @@ parts:
                 file: ethical-research/activism/activism-whistleblowing
               - title: Cultural change
                 file: ethical-research/activism/activism-cultural-change
-              - title: The Environmental Impact of Digital Research
-                file: ethical-research/activism/activism-env-impact
               - title: Case study - Robodebt
                 file: ethical-research/activism/activism-robodebt
               - title: Case study - Google Workers
@@ -746,13 +744,6 @@ parts:
                 file: community-handbook/infrastructure/infrastructure-contributors
               - title: External Link Checking
                 file: community-handbook/infrastructure/infrastructure-external-link-check
-          - title: Communication Platforms
-            file: community-handbook/communication-platforms
-            sections:
-              - title: Slack Start Guide
-                file: community-handbook/communication-platforms/slack-start-guide
-              - title: Slack Welcome Guide
-                file: community-handbook/communication-platforms/slack-welcome-guide
           - title: Monthly Newsletters
             file: community-handbook/newsletters
             sections:

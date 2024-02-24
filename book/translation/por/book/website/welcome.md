@@ -1,7 +1,7 @@
 (welcome)=
 # Boas-vindas
 
-*Tenha boas-vindas ao guia The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
+*Welcome to The Turing Way handbook to reproducible, ethical and collaborative data science.*
 
 _The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós incluímos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer todas as informações necessárias para que pesquisadores e cientistas de dados na academia, a indústria e o sector público consigam assegurar que os projetos em que trabalham sejam fáceis de reproduzir e de reutilizar.
 
@@ -21,7 +21,7 @@ Please [join our Slack Workspace](https://join.slack.com/t/theturingway/shared_i
 name: welcome-image
 alt: O projeto The Turing Way é ilustrado como uma estrada ou caminho com lojas para diferentes habilidades em ciência de dados. As pessoas podem entrar e sair com o seu carrinho de compras e escolher o que precisam.
 ---
-_A Turing Way_ ilustração de projeto por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+_The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 (welcome-community)=
@@ -44,12 +44,12 @@ O livro é escrito colaborativamente e aberto desde o início. Para tornar esse 
 name: theturingway-chapters
 alt: O guia The Turing Way para pesquisa reprodutível e sua estrutura ilustradas como uma série de portas que representam a estrutura em capítulos e sub-capítulos 
 ---
-Ilustração por _The Turing Way_ por Scriberia. Versão original do Zenodo. http://doi.org/10.5281/zenodo.3695300.
+Ilustração por _The Turing Way_ por Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300.
 ```
 
 Embora _The Turing Way_ receba apoio e financiamento do [The Alan Turing Institute](https://www.turing.ac.uk/), o projeto foi projetado para ser uma colaboração global. Temos contribuições de todo o Reino Unido e da Índia, México, Austrália, EUA e muitos países europeus. Os capítulos foram escritos, revistos e curados por membros de institutos de investigação e universidades, departamentos governamentais e indústria. Nosso compromisso é criar um espaço onde pessoas com diversos conhecimentos e experiências vividas possam compartilhar seu conhecimento com outras pessoas, para que possamos usar a ciência de dados para melhorar o mundo.
 
-Valorizamos a participação de todos os membros da nossa comunidade e queremos garantir que todos os contribuintes tenham uma experiência agradável e realizante. Assim, todos os que participam do projeto _The Turing Way_ devem mostrar respeito e cortesia para com outros membros da comunidade a todo momento. Todas as contribuições devem obedecer ao nosso [código de conduta](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience. Assim, todos os que participam do projeto _The Turing Way_ devem mostrar respeito e cortesia para com outros membros da comunidade a todo momento. Todas as contribuições devem obedecer ao nosso [código de conduta](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
 ![Gif mostrando a captura de tela da tabela de colaboradores, carinhas felizes e emojis representando os tipos de contribuições em uma tabela](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
 

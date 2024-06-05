@@ -1,0 +1,3 @@
+# Visão geral da avaliação de risco
+
+Entenda seu software e para que ele é usado. Saber isso ajuda você a decidir quais conceitos de sustentabilidade são adequados às suas necessidades. Existem muitas ferramentas e ecossistemas que são comumente usados para ajudar você a praticar esses conceitos - GitHub, Docker e muitos mais. Leia a seguir para aprender sobre esses conceitos e ferramentas…

@@ -158,8 +158,6 @@ project:
               title: Finding Data
             - file: reproducible-research/rdm/rdm-dmp.md
               title: Data Management Plan
-            - file: reproducible-research/rdm/rdm-smp.md
-              title: Software Management Plan
             - file: reproducible-research/rdm/rdm-fair.md
               title: The FAIR Principles and Practices
             - file: reproducible-research/rdm/rdm-personal.md
@@ -491,13 +489,11 @@ project:
               title: Building a Webpage for Blogs
             - file: communication/blogs/blogs-personal-stories.md
               title: Personal stories - Blogs
-        - file: communication/personal.md
-          title: Communication of Personal Skills and Research
+        - file: communication/personal-websites.md
+          title: Personal Websites
           children:
-            - file: communication/personal/personal-cv.md
-              title: Narrative CV
-            - file: communication/personal/personal-website.md
-              title: Personal Website
+            - file: communication/personal-websites/personal-website-framework.md
+              title: Using Webpage Frameworks
         - file: communication/lay-summaries.md
           title: Lay Summaries
           children:

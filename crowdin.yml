@@ -1,5 +1,8 @@
 files:
-  - source: /book/website/**/*.md
+  - source: /book/website/
+    ignore_settings: 1
     ignore:
       - LICENSE
-    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
+      - myst
+    translation: /book/translation/%three_letters_code%/%original_path%/
+    multilingual: 1

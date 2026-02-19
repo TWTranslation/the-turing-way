@@ -1,0 +1,5 @@
+files:
+  - source: /book/website/**/*.md
+    ignore:
+      - LICENSE
+    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%

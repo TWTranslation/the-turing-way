@@ -24,10 +24,10 @@ label: pathway-research-software-engineers
     - item: ../collaboration/maintain-review.md
 - item: ../project-design/project-design.md
   children:
-    - item: '#pd-overview'
+    - item: ../project-design/pd-design-overview.md
       children:
-        - item: '#pd-project-repo'
-        - item: '#pd-overview-repo-advanced'
+        - item: ../project-design/pd-design-overview/project-repo.md
+        - item: ../project-design/pd-design-overview/project-repo/project-repo-advanced.md
 - item: ../reproducible-research/reproducible-research.md
   children:
     - item: ../reproducible-research/overview.md

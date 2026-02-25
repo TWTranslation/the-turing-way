@@ -1,0 +1,21 @@
+(e-newsletters)=
+
+# _The Turing Way_ Monthly Newsletters
+
+_The Turing Way_ team releases newsletters every month to share the latest updates with the community and beyond.
+These newsletters include event announcements, updates from the project, highlights from the community, useful resources for new and existing contributors, promotion of any ongoing efforts, impact stories of long-standing members and shoutouts to relevant online activities.
+
+While we send our newsletters by email to our subscribed members, we simultaneously publish and archive them [online on Buttondown](https://buttondown.email/turingway/archive/) so that anyone outside the community can also learn about the project.
+
+The main purpose and motivations for publishing these newsletters are the following:
+
+1. Réfléchissez aux objectifs du projet de l'équipe et de la communauté et à tous les jalons importants atteints au cours du mois dernier
+2. Soulignez et célébrez le travail en cours et les efforts notables des membres de la communauté et documentez-les
+3. Partagez des informations sur tous les événements et opportunités à venir pour nos membres
+4. Maintenir des connexions en cours avec les membres abonnés
+
+As of March 2025, newsletters are drafted by _The Turing Way_ Research Community Manager with contributions from the project team and the community.
+Currently, Anne Lee Steele drafts the newsletters including updates from the project delivery team and news items contributed by the community members.
+Throughout 2025, we will be decentralising newsletter writing and sending to the Community Management Working Group, a volunteer-managed group within the community for regular updates.
+
+In this chapter, we share the process we have established in _The Turing Way_ for collecting news items, drafting the newsletter, documenting any additional updates shared by community members and publishing them through Buttondown.

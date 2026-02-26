@@ -1,0 +1,45 @@
+(xr-checklist)=
+
+# Checklist
+
+(rr-lista de verificação-dados)=
+
+## Dados Abertos
+
+- Certifique-se de que seus dados estejam em um formato simples, padrão ou formatos que sejam automáticos e legíveis para humanos.
+- Verifique, reforme ou crie metadados para descrever claramente o que são os dados, como foram coletados e quaisquer pontos fortes/pontos fracos associados a alguém que os encontre.
+- Identifique um repositório ou repositórios relevantes, facilmente detectáveis para hospedar seus dados e carregá-lo lá.
+- Assign your data a persistent identifier such as a DOI by depositing it in a trusted repository.
+  Learn how PIDs work and how repositories assign them in our [practical guidance on PIDs](#rr-rdm-pid-practical).
+
+(rr-open-checklist-software)=
+
+## Software de código aberto
+
+- Coloque o seu código em um repositório acessível livremente.
+- Inclua uma licença que conceda a outras pessoas o direito de usar, copiar e modificar seu trabalho. You can use the {ref}`rr-licensing` chapter to help you pick the most appropriate licence for your project.
+- Inclua um arquivo README contendo informações úteis sobre um projeto, como o que é, como usar/instalar e como executar qualquer teste.
+- Se você quiser que outros colaborem no projeto inclua diretrizes de contribuição.
+
+(rr-open-checklist-hardware)=
+
+## Abrir Hardware
+
+- Use hardware aberto quando prático.
+- Faça a documentação detalhada e projetos para qualquer hardware que você desenvolva abertamente disponível.
+- Inclua uma licença que conceda a outras pessoas o direito de usar, copiar e modificar seu trabalho. You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
+- Inclua um arquivo README contendo informações úteis sobre um projeto (por exemplo, o que é e os materiais usados).
+
+(checklist-open-open-access)=
+
+## Acesso Aberto
+
+- Publique sua pesquisa em um diário de acesso aberto.
+- Armazene uma cópia ou pré-impressão do seu trabalho em um repositório público de livre acesso.
+
+(rr-open-checklist-notebooks)=
+
+## Abrir cadernos
+
+- Keep notes in an {ref}`Electronic Lab Notebook<rr-rdm-elns>`.
+- Make your notebooks {ref}`publicly accessible online<rr-open-notebooks>`.

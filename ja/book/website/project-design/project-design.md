@@ -1,0 +1,30 @@
+(pd)=
+
+# プロジェクト設計ガイド
+
+_**This guide covers topics related to effective project planning and management.**_
+
+このガイドでは、 我々は、プロジェクトマネジメントのさまざまな側面と、学界や産業界から派生した(反復的な)開発実践を含め、研究プロジェクトを設計するためのベストプラクティスとガイダンスを作成しています。
+
+Before starting a project, researchers must define the project's scope.
+研究者は、自分の仕事を通して取り組むことを目指す主な質問を特定することから始めるべきです。 スコープの定義には、プロジェクトの目標、成果、リソース要件、関係者(コラボレーター、ユーザー、ターゲットオーディエンス)や制約の定義も含まれています。
+
+研究者は、プロジェクトの期待される最小実行可能な製品を特定するために進むことができます。 他のプロジェクトとの相乗効果(類似性や違い)、成功の測定値、そして彼らが達成したい全体的な影響。
+これらの重要な質問に対処した後、計画はプロジェクトの運用面に集中することができます。 プロジェクトが使用可能で、適切な外部ガイドライン(倫理要件や規制上の制限など)に準拠していることを確認することを含みます。
+
+```{figure} ../../figures/project-design.*
+---
+name: project-design
+alt: A group of people collaboratively developing a project plan by writing on a giant canvas with a giant pencil to signify the importance of design work in the project management process. 
+---
+ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+```
+
+チームベースのプロジェクトをデザインする場合 プロジェクトに必要なすべてのスキルとそのスキルにアクセスするために必要なリソースについて考えることが重要です
+プロジェクト設計には、タイムライン、予算、リスク、期待、プロジェクト管理のためのリソース、研究プロトコルの事前登録などの側面も含まれています。
+これらの観点から,我々は,プロジェクトにおける要件を,異なるステークホルダーの上級スキル,支援及び改善に関して定義する章を歓迎する。
+
+短期および長期の両方の小規模、中規模および大規模プロジェクトの異なるケーススタディから学ぶことを願っています。
+If you are brave enough, your examples of failed projects will be incredibly valuable for understanding how to avoid making the same (totally understandable) mistakes again.
+
+Check out our [contributing guidelines](#ch-contributing) to get involved.

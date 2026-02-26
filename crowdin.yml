@@ -1,0 +1,7 @@
+files:
+  - source: /book/website
+    ignore:
+      - LICENSE
+      - '*.bib'
+      - '*.yml'
+    translation: Translation/%original_path%/%original_file_name%

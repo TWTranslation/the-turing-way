@@ -1,7 +1,8 @@
 files:
   - source: /book/website
+    ignore_settings: 1
     ignore:
       - LICENSE
       - '*.bib'
       - '*.yml'
-    translation: Translation/%original_path%/%original_file_name%
+    translation: '%original_path%/%original_file_name%'

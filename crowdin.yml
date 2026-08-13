@@ -1,0 +1,10 @@
+files:
+  - source: /book/website
+    ignore_settings: 1
+    ignore:
+      - LICENSE
+      - '*.bib'
+      - '*.yml'
+      - plugins
+      - analytics
+    translation: '%original_path%/%original_file_name%'
